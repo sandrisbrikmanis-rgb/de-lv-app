@@ -1,47 +1,47 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Προσοχή!",
+    "lv": "Φυλάξου από αυτό!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Αν δεν παρεμβαίνει τίποτα. • Αν όλα πάνε σύμφωνα με το σχέδιο.",
+    "lv": "Αν δεν μεσολαβήσει κάτι. • Αν όλα πάνε όπως τα σχεδιάσαμε.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Το ξέρω ήδη!",
+    "lv": "Το φαντάζομαι!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Είναι άρρωστος λοιπόν • ",
+    "lv": "Είναι άρρωστος δηλαδή;",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Και λοιπόν • ",
+    "lv": "Τι δηλαδή;",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Πόσο μάλλον.",
+    "lv": "Τόσο περισσότερο.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Όσο περισσότερα τόσο καλύτερα.",
+    "lv": "Όσο περισσότερα, τόσο καλύτερα.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Όλα δείχνουν βροχή.",
+    "lv": "Όλα δείχνουν ότι θα βρέξει.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Ελάχιστα μου χρησιμεύει.",
+    "lv": "Αυτό δεν με εξυπηρετεί πολύ.",
     "level": "Sätze"
   },
   {
@@ -51,17 +51,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Μίλα ήδη!",
+    "lv": "Μιλήστε επιτέλους!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Γουργουρίζει.",
+    "lv": "Βροντάει.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Διπλάσια.",
+    "lv": "Δύο φορές μεγαλύτερος.",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Ο χρόνος τελειώνει.",
+    "lv": "Ο χρόνος πιέζει.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Καταπιέζεται από ανησυχίες.",
+    "lv": "Τον βαραίνουν οι έγνοιες.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Έχετε μελετήσει προσεκτικά το βιβλίο • ",
+    "lv": "Μελέτησες το βιβλίο διεξοδικά;",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Το πέρασμα έκλεισε!",
+    "lv": "Απαγορεύεται η διέλευση!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Να σε ρωτήσω • ",
+    "lv": "Μου χαρίζετε αυτόν τον χορό; • Θα με ακολουθήσετε, παρακαλώ;",
     "level": "Sätze"
   },
   {
@@ -106,22 +106,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Δεν πειράζει καθόλου.",
+    "lv": "Δεν έχει καμία απολύτως σημασία.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Τι πραγματικά θέλεις • ",
+    "lv": "Τι θέλετε τελικά;",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Είναι επείγον αυτό το θέμα • ",
+    "lv": "Είναι επείγουσα αυτή η υπόθεση;",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Πολύ γρήγορα!",
+    "lv": "Πολύ επείγον!",
     "level": "Sätze"
   },
   {
@@ -131,32 +131,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Φαντάζεσαι μόνο ότι είσαι άρρωστος.",
+    "lv": "Απλώς φαντάζεσαι ότι είσαι άρρωστος.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Τι σου έρχεται στο μυαλό • ",
+    "lv": "Πώς τολμάς; • Τι σου έρχεται στο μυαλό;",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Υπήρχε κάποτε.",
+    "lv": "Μια φορά κι έναν καιρό.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Παρακαλώ προχωρήστε!",
+    "lv": "Ανεβείτε, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Παρακαλώ μπείτε!",
+    "lv": "Περάστε!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Μου άρεσαν κάποια πράγματα εκεί.",
+    "lv": "Κάποια πράγματα μου άρεσαν εκεί.",
     "level": "Sätze"
   },
   {
@@ -166,7 +166,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Υπάρχει ξύδι σε αυτό το μπουκάλι.",
+    "lv": "Αυτό το μπουκάλι περιέχει ξίδι.",
     "level": "Sätze"
   },
   {
@@ -181,42 +181,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Ποιος ήταν ο πρώτος • ",
+    "lv": "Ποιος ήταν ο πρώτος;",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Ποιος απουσιάζει σήμερα • ",
+    "lv": "Ποιος λείπει σήμερα;",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Τι σου συμβαίνει",
+    "lv": "Τι έχεις;",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Ποιο είναι το όνομά σου",
+    "lv": "Πώς λέγεστε;",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Τι σημαίνει αυτό • ",
+    "lv": "Τι θέλει να πει αυτό;",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Παρακαλώ ελάτε πιο κοντά!",
+    "lv": "Παρακαλώ, πλησιάστε!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Μιλώ ανοιχτά! • Μίλα!",
+    "lv": "Λέγε επιτέλους!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Το φθινόπωρο",
+    "lv": "το φθινόπωρο",
     "level": "Sätze"
   },
   {
@@ -226,17 +226,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "Από σήμερα",
+    "lv": "από σήμερα και στο εξής",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Σήμερα το πρωί",
+    "lv": "σήμερα το πρωί",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Απόψε",
+    "lv": "απόψε • χτες τη νύχτα",
     "level": "Sätze"
   },
   {
@@ -246,17 +246,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Καθημερινά μελετώ γερμανικά.",
+    "lv": "Μαθαίνω γερμανικά κάθε μέρα.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Μπορείτε να το επαναλάβετε παρακαλώ • ",
+    "lv": "Μπορείς να το επαναλάβεις, σε παρακαλώ;",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Θα βρεθούμε στο σιδηροδρομικό σταθμό.",
+    "lv": "Συναντιόμαστε στον σιδηροδρομικό σταθμό.",
     "level": "Sätze"
   },
   {
@@ -271,22 +271,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Θα πρέπει να εξεταστούν πολλές προοπτικές.",
+    "lv": "Θα έπρεπε να λαμβάνονται υπόψη διάφορες οπτικές γωνίες.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Θα μπορούσατε να το αναλύσετε αυτό • ",
+    "lv": "Θα μπορούσατε να το εξηγήσετε πιο αναλυτικά;",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Όσο για μένα...",
+    "lv": "Όσο για μένα,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Πόσων χρονών είστε • ",
+    "lv": "Πόσων χρονών είστε;",
     "level": "Sätze"
   },
   {
@@ -296,42 +296,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von heute an.",
-    "lv": "Ξεκινώντας σήμερα.",
+    "lv": "Από σήμερα.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Από εκείνη τη στιγμή.",
+    "lv": "Από τώρα και στο εξής.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Δεν υπάρχει άλλος τρόπος.",
+    "lv": "Αλλιώς δεν γίνεται.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Τηλεφώνησέ με.",
+    "lv": "Τηλεφωνήστε μου.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Παρακαλώ κλείστε το ραδιόφωνο.",
+    "lv": "Παρακαλώ, κλείστε το ραδιόφωνο.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Παρακαλούμε δώστε προσοχή στην κίνηση.",
+    "lv": "Πρόσεχε την κυκλοφορία, σε παρακαλώ.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Πρέπει να προσέξεις αυτό.",
+    "lv": "Αυτό πρέπει να το προσέξεις.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Σήμερα το κάνω διαφορετικά.",
+    "lv": "Σήμερα το κάνω αλλιώς.",
     "level": "Sätze"
   },
   {
@@ -341,22 +341,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Ζει μόνος.",
+    "lv": "Μένει μόνος του.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Τελείωσα την προπόνησή μου. • Τελείωσα την εκπαίδευσή μου.",
+    "lv": "Ολοκλήρωσα την κατάρτισή μου. • Ολοκλήρωσα την εκπαίδευσή μου.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Θα περιμένω μέχρι να σταματήσει η βροχή.",
+    "lv": "Περιμένω να σταματήσει η βροχή.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Εργάζεται στο τμήμα πωλήσεων.",
+    "lv": "Δουλεύει στο τμήμα πωλήσεων.",
     "level": "Sätze"
   },
   {
@@ -366,7 +366,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Από την άλλη τον καταλαβαίνω.",
+    "lv": "Από την άλλη, τον καταλαβαίνω.",
     "level": "Sätze"
   },
   {
@@ -381,12 +381,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Θα ήθελα να το αναλύσω πιο αναλυτικά.",
+    "lv": "Θα ήθελα να το αναλύσω πιο λεπτομερώς.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Θα ήθελα να αλλάξω το συμβόλαιο.",
+    "lv": "Θα ήθελα να τροποποιήσω το συμβόλαιο.",
     "level": "Sätze"
   },
   {
@@ -396,62 +396,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Είχαμε παρόμοια προβλήματα στο παρελθόν.",
+    "lv": "Είχαμε παρόμοια προβλήματα και στο παρελθόν.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Καμία ιδέα!",
+    "lv": "Δεν έχω ιδέα!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Σταμάτα να γκρινιάζεις.",
+    "lv": "Σταμάτα να παραπονιέσαι.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Αυτό το φόρεμα είναι κομψά συντηρητικό.",
+    "lv": "Αυτό το φόρεμα είναι κομψό και κλασικό.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Μου αρέσει να ακούω μουσική ακορντεόν.",
+    "lv": "Μου αρέσει να ακούω μουσική για ακορντεόν.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Μπορείτε να κάνετε κλικ στη συσκευή • ",
+    "lv": "Μπορείς να κάνεις κλικ στη συσκευή;",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Ανοίξτε το αρχείο και κάντε κλικ σε αυτό.",
+    "lv": "Σε παρακαλώ, άνοιξε το αρχείο και κάνε κλικ πάνω του.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Είχα ένα ατύχημα.",
+    "lv": "Είχα ατύχημα.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Πηγαίνουμε στο σταθμό.",
+    "lv": "Πηγαίνουμε με τα πόδια στον σταθμό.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Παρακαλώ ανοίξτε την τηλεόραση.",
+    "lv": "Σε παρακαλώ, άνοιξε την τηλεόραση.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Ο υπολογιστής μου χάλασε.",
+    "lv": "Ο υπολογιστής μου κόλλησε.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Πάω για ψάρεμα το Σαββατοκύριακο.",
+    "lv": "Το Σαββατοκύριακο πάω για ψάρεμα.",
     "level": "Sätze"
   },
   {
@@ -461,22 +461,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Μπορείς να με καλέσεις αργότερα",
+    "lv": "Μπορείς να με πάρεις τηλέφωνο αργότερα;",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Παρακαλώ αποδεχτείτε την πρότασή μου.",
+    "lv": "Σε παρακαλώ, δέξου την πρότασή μου.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Θα δεχτώ την προσφορά σας.",
+    "lv": "Δέχομαι την προσφορά σου.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Αποδέχτηκε την πρόσκληση.",
+    "lv": "Δέχτηκε την πρόσκληση.",
     "level": "Sätze"
   },
   {
@@ -486,22 +486,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Μην ανησυχείς, όλα θα πάνε καλά.",
+    "lv": "Μη φοβάσαι, όλα θα πάνε καλά.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Βρείτε μια απάντηση. • Βρείτε εύνοια.",
+    "lv": "Βρίσκω απήχηση. • Βρίσκω ανταπόκριση.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Εξαρτάται από αυτό.",
+    "lv": "Εξαρτάται.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Στην προκειμένη περίπτωση. • Από αυτή την άποψη.",
+    "lv": "Με αυτή την αφορμή.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Τι έχεις κάνει εκεί • ",
+    "lv": "Τι ζημιά έκανες εκεί;",
     "level": "Sätze"
   },
   {
@@ -521,7 +521,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Δεν φαίνεται να με πιστεύεις.",
+    "lv": "Όπως φαίνεται, δεν με πιστεύεις.",
     "level": "Sätze"
   },
   {
@@ -531,17 +531,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Μην προσποιείσαι!",
+    "lv": "Μην κάνεις έτσι!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Πήγαινε στη δουλειά.",
+    "lv": "Στρώνομαι στη δουλειά.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Να με κόβει η ανάσα.",
+    "lv": "Είμαι λαχανιασμένος.",
     "level": "Sätze"
   },
   {
@@ -551,42 +551,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Σε μια ανάσα.",
+    "lv": "Με μια ανάσα.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Πάντως.",
+    "lv": "Σε κάθε περίπτωση.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Ξαφνικά όλα ήταν ήσυχα.",
+    "lv": "Ξαφνικά όλα σώπασαν.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Παρακαλώ ανοίξτε την πόρτα!",
+    "lv": "Άνοιξε την πόρτα, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Πήρε δάνειο.",
+    "lv": "Πήρε το δάνειο.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Πρέπει να τακτοποιήσουμε το δωμάτιο σήμερα.",
+    "lv": "Σήμερα πρέπει να συγυρίσουμε.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Θα σταματήσω τώρα.",
+    "lv": "Τώρα σταματώ.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Έχει ήδη σηκωθεί.",
+    "lv": "Έχει κιόλας σηκωθεί.",
     "level": "Sätze"
   },
   {
@@ -611,42 +611,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Καλύψτε τις ζημιές που προκλήθηκαν.",
+    "lv": "Καλύπτω τη ζημιά.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Παρακαλώ ανοίξτε την πόρτα!",
+    "lv": "Ανοίξτε την πόρτα, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Καθίστε όρθια.",
+    "lv": "Κάθομαι ίσια.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Είναι πάνω.",
+    "lv": "Έχει σηκωθεί.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Αφιέρωσε όλη σου τη δύναμη.",
+    "lv": "Βάζω όλες μου τις δυνάμεις.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Προσπαθήστε πολύ σκληρά.",
+    "lv": "Καταβάλλω μεγάλη προσπάθεια.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Μην μου ξαναδείχνετε τον εαυτό σας!",
+    "lv": "Φύγε από μπροστά μου!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Οι δυο μας. • Σιωπηλά.",
+    "lv": "Κατ’ ιδίαν.",
     "level": "Sätze"
   },
   {
@@ -656,17 +656,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Για το λόγο αυτό.",
+    "lv": "Για τον λόγο αυτό.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Όλοι εκτός από εσάς.",
+    "lv": "Όλοι εκτός από σένα.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Δώστε έμφαση στην εμφάνιση.",
+    "lv": "Δίνω σημασία στην εξωτερική εμφάνιση.",
     "level": "Sätze"
   },
   {
@@ -691,82 +691,82 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Πώς προφέρεται αυτή η λέξη • ",
+    "lv": "Πώς προφέρεται αυτή η λέξη;",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Να εκφράσω συμπάθεια.",
+    "lv": "Εκφράζω τα συλλυπητήριά μου.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Πότε έγιναν τα πρωταθλήματα • ",
+    "lv": "Πότε διεξήχθησαν οι αγώνες του πρωταθλήματος;",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Ποιο είναι το επάγγελμά σας • ",
+    "lv": "Τι επάγγελμα ασκείτε;",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Να επηρεάσει.",
+    "lv": "Ασκώ επιρροή.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Φάτε έξω.",
+    "lv": "Τρώω έξω.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Με τρένο.",
+    "lv": "Σιδηροδρομικώς.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Με τρένο.",
+    "lv": "Με το τρένο.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Το συντομότερο δυνατό.",
+    "lv": "Το συντομότερο δυνατόν.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Πολύ φοβάμαι.",
+    "lv": "Φοβάμαι πάρα πολύ.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Αναβάλλω. • Να τεντωθεί. • Αναβολή επ' αόριστον.",
+    "lv": "Το αναβάλλω συνεχώς. • Το τραβάω σε μάκρος.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Πληρώστε με μετρητά.",
+    "lv": "Πληρώνω τοις μετρητοίς.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Στείλτε μετάλλευμα.",
+    "lv": "Εξορύσσω μετάλλευμα.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Γυρίστε μια ουγγιά. • Κάνε ανόητα πράγματα.",
+    "lv": "Τα κάνω θάλασσα.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Μου έχει ανατεθεί μια εργασία.",
+    "lv": "Έχω εντολή.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "Όσο χρειάζεται.",
+    "lv": "Ανάλογα με τις ανάγκες.",
     "level": "Sätze"
   },
   {
@@ -776,37 +776,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was bedeutet dieses Wort?",
-    "lv": "Τι σημαίνει αυτή η λέξη • ",
+    "lv": "Τι σημαίνει αυτή η λέξη;",
     "level": "Sätze"
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Υπό τον όρο...",
+    "lv": "Με την προϋπόθεση ότι...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Φαίνεται συντετριμμένος.",
+    "lv": "Δείχνει στενοχωρημένη.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Ακολουθήστε τις οδηγίες.",
+    "lv": "Ακολουθώ τις οδηγίες.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Ακολουθήστε τις εντολές.",
+    "lv": "Εκτελώ τις διαταγές.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Αποστολή μέσω ταχυδρομείου.",
+    "lv": "Στέλνω ταχυδρομικώς.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Με ενδιαφέρει πολύ να μάθω.",
+    "lv": "Ανυπομονώ να μάθω.",
     "level": "Sätze"
   },
   {
@@ -816,32 +816,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am Beginn.",
-    "lv": "Στην αρχή.",
+    "lv": "Στο ξεκίνημα.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Από.",
+    "lv": "Κατά την έναρξη.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Στην εκπομπή.",
+    "lv": "Με συνοδεία.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Με μια συντροφιά.",
+    "lv": "Με τον συνοδό του.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Σιγά σιγά το συνειδητοποιεί. • Έχει αργή σκέψη.",
+    "lv": "Αργεί να καταλάβει. • Είναι αργόστροφος.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Για να θυμάστε. • Διατηρήστε στη μνήμη.",
+    "lv": "Κρατώ στη μνήμη μου.",
     "level": "Sätze"
   },
   {
@@ -851,17 +851,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Να είσαι λογικός.",
+    "lv": "Είμαι στα καλά μου.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Κατά τη διάρκεια της ημέρας.",
+    "lv": "Την ημέρα.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Καθόλου.",
+    "lv": "Ούτε κατά προσέγγιση τόσο.",
     "level": "Sätze"
   },
   {
@@ -871,22 +871,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Ακούστηκαν βροντερό χειροκρότημα.",
+    "lv": "Ξέσπασαν θυελλώδη χειροκροτήματα.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Βρείτε έγκριση.",
+    "lv": "Βρίσκω απήχηση.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Να εκφράσω συμπάθεια.",
+    "lv": "Εκφράζω συλλυπητήρια.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Να είσαι οικονομικά ανεξάρτητος.",
+    "lv": "Στέκομαι στα πόδια μου.",
     "level": "Sätze"
   },
   {
@@ -896,62 +896,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Να βοηθήσει. • Παροχή βοήθειας.",
+    "lv": "Συμπαραστέκομαι.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Δώστε τη συμβολή σας.",
+    "lv": "Κάνω τη συνεισφορά μου.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Για να γνωρίσω κάποιον.",
+    "lv": "Κάνω τη γνωριμία κάποιου.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Για να γνωριστούμε. • Δημιουργήστε μια επαφή.",
+    "lv": "Πιάνω γνωριμία.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Σάντουιτς με γαρνιτούρες.",
+    "lv": "Γεμιστά ψωμάκια.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Όπως θέλετε.",
+    "lv": "Όπως επιθυμείτε.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Ανά πάσα στιγμή.",
+    "lv": "Οποιαδήποτε στιγμή.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Μείνε ήσυχος.",
+    "lv": "Τηρώ σιγή.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Από πλευράς ευκολίας.",
+    "lv": "Για λόγους ευκολίας.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Να είστε προετοιμασμένοι. • Να συμφωνήσω.",
+    "lv": "Είμαι έτοιμος. • Είμαι πρόθυμος.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Σώστε τα θύματα του δυστυχήματος.",
+    "lv": "Διασώζω τα θύματα του ατυχήματος.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Εκθεση. • Για αναφορά. • Παρέχετε μια επισκόπηση.",
+    "lv": "Υποβάλλω αναφορά.",
     "level": "Sätze"
   },
   {
@@ -961,32 +961,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Η νέα σκούπα σκουπίζει καλά.",
+    "lv": "Η καινούρια σκούπα σκουπίζει καλά.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Έχει ένα σπίτι.",
+    "lv": "Του ανήκει ένα σπίτι.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Έχει μεγάλο θάρρος.",
+    "lv": "Έχει πολύ θάρρος.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Όσο καλύτερα.",
+    "lv": "Τόσο το καλύτερο.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Να είσαι καλά! • Να είσαι καλά!",
+    "lv": "Περαστικά!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Όσο και να το θέλεις.",
+    "lv": "Όσο κι αν θέλω.",
     "level": "Sätze"
   },
   {
@@ -996,57 +996,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Υπάρχουν αμφιβολίες.",
+    "lv": "Υπάρχει αμφιβολία.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Η δουλειά του είναι να...",
+    "lv": "Το καθήκον του είναι να...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Στείλτε χαιρετισμούς.",
+    "lv": "Μεταφέρω χαιρετίσματα.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Οριστικά. • Απόλυτα σίγουρος.",
+    "lv": "Οπωσδήποτε.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Να έρθω στο χωριό.",
+    "lv": "Έρχομαι για επίσκεψη.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Να είμαι στο χωριό. • Για επίσκεψη.",
+    "lv": "Βρίσκομαι σε επίσκεψη.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Πηγαίνετε συχνά σε συναυλίες.",
+    "lv": "Πηγαίνω συχνά σε συναυλίες.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Σε ποιο σχολείο πήγε • ",
+    "lv": "Σε ποιο σχολείο πήγε;",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Να ληφθούν υπόψη. • Σκεφτείτε.",
+    "lv": "Λαμβάνω υπόψη. • Εξετάζω.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Δεν πρέπει να λαμβάνεται υπόψη. • Δεν λαμβάνεται υπόψη.",
+    "lv": "Δεν λαμβάνω υπόψη.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Διαχειρίζεται ένα ξενοδοχείο.",
+    "lv": "Διευθύνει ένα ξενοδοχείο.",
     "level": "Sätze"
   },
   {
@@ -1056,47 +1056,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Πληρώστε τα όλα.",
+    "lv": "Τα πληρώνω όλα.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Σε σχέση με κάτι.",
+    "lv": "Σχετικά με κάτι.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Παρακαλώ.",
+    "lv": "Παρακαλώ. • Ορίστε.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Πώς, παρακαλώ • ",
+    "lv": "Ορίστε;",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Παρακαλώ.",
+    "lv": "Παρακαλώ πολύ. • Ορίστε.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Έχω ένα αίτημα για εσάς.",
+    "lv": "Έχω να σας ζητήσω μια χάρη.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Σάλπισε τη σάλπιγγα.",
+    "lv": "Παίζω τρομπέτα.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Ξεφυλλίστε το βιβλίο.",
+    "lv": "Ξεφυλλίζω ένα βιβλίο.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Ξυπόλυτος.",
+    "lv": "Με γυμνά πόδια.",
     "level": "Sätze"
   },
   {
@@ -1106,42 +1106,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Ευχαριστώ για τα λουλούδια!",
+    "lv": "Ευχαριστώ για τα καλά λόγια!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Εντάξει.",
+    "lv": "Όλα πάνε ρολόι.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Για έλεγχο. • Έλεγχος.",
+    "lv": "Παρακαλώ ελέγξτε.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Εκεί είναι!",
+    "lv": "Να τος!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Όλα μιλούν υπέρ τους.",
+    "lv": "Όλα δείχνουν προς τα εκεί.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Δεν μπορώ να κάνω τίποτα γι' αυτό.",
+    "lv": "Δεν φταίω εγώ.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Είμαι αντίθετος.",
+    "lv": "Είμαι κατά.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Δεν με πειράζει.",
+    "lv": "Δεν έχω αντίρρηση.",
     "level": "Sätze"
   },
   {
@@ -1151,42 +1151,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Κάντε τη σημαία να κινηθεί.",
+    "lv": "Κινώ τη βασίλισσα.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Νυχτώνει. • Ξημερώνει.",
+    "lv": "Σουρουπώνει. • Χαράζει.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Σας ευχαριστώ! • Σας ευχαριστώ!",
+    "lv": "Ευχαριστώ πολύ!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Από καιρό σε καιρό.",
+    "lv": "Πού και πού.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Μπορείτε να είστε σίγουροι για αυτό.",
+    "lv": "Μπορείς να βασιστείς σε αυτό.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Δεν βγαίνει τίποτα από αυτό.",
+    "lv": "Δεν θα βγει τίποτε από αυτό.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Ετσι...",
+    "lv": "Έτσι ώστε...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Ποιος νομίζεις ότι είμαι • ",
+    "lv": "Για ποιον με περνάτε;",
     "level": "Sätze"
   },
   {
@@ -1196,22 +1196,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Μην αφήσεις το κεφάλι σου να κρέμεται!",
+    "lv": "Μην απογοητεύεσαι!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Κατά οίκον",
+    "lv": "στο σπίτι",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Να πάει σπίτι",
+    "lv": "πηγαίνω σπίτι",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Από την παιδική ηλικία • Από την αρχή",
+    "lv": "εκ καταγωγής • εκ φύσεως",
     "level": "Sätze"
   },
   {
@@ -1221,147 +1221,147 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Να είστε τόσο ευγενικοί! • Να είσαι τόσο καλός!",
+    "lv": "Κάντε μου τη χάρη!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Να είστε τόσο ευγενικοί!",
+    "lv": "Έχετε την καλοσύνη!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Τι συμβαίνει με εσάς • Τι έχει συμβεί • ",
+    "lv": "Τι έχεις;",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Επιτρέψτε μου, σας παρακαλώ!",
+    "lv": "Επιτρέψτε μου, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Επιτρέπεται το κάπνισμα • ",
+    "lv": "Επιτρέπεται το κάπνισμα;",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Οφείλω να ομολογήσω ότι...",
+    "lv": "Πρέπει να ομολογήσω ότι...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Νωρίς χθες το πρωί",
+    "lv": "χτες το πρωί",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Χτές βράδυ",
+    "lv": "χτες το βράδυ",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Δεν με νοιάζει αν...",
+    "lv": "Μου είναι αδιάφορο αν...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Τι έχει συμβεί • ",
+    "lv": "Τι συνέβη;",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Μην κάνετε ανόητα πράγματα! • Μην αστειεύεστε!",
+    "lv": "Μην κάνεις φασαρία! • Μην κάνεις ανοησίες!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Για να μην το αναφέρω αυτό. • Πού αλλού.",
+    "lv": "Πόσο μάλλον...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Προχώρα ευθεία!",
+    "lv": "Πηγαίνετε ευθεία!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Πώς είσαι • Πώς λειτουργεί το χέρι • ",
+    "lv": "Πώς είστε;",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Ρωτήστε τον πότε συμβαίνει αν...",
+    "lv": "Ρώτα τον κάποια στιγμή αν...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Αύριο το πρωί",
+    "lv": "αύριο το πρωί",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Την άνοιξη",
+    "lv": "την άνοιξη",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Τι νέα • ",
+    "lv": "Τι νέα;",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Αυτή η επιστολή αποκαλύπτει ότι...",
+    "lv": "Από αυτό το γράμμα προκύπτει ότι...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Συνεχίστε την καλή δουλειά!",
+    "lv": "Συνέχισε!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Δεν του αρέσει...",
+    "lv": "Δεν του αρέσει ιδιαίτερα...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Αποδείχθηκε ότι...",
+    "lv": "Αποδείχτηκε ότι...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Με θυμάσαι •  • Με σκέφτεσαι • ",
+    "lv": "Με θυμάσαι; • Με σκέφτεσαι;",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Το χειμώνα",
+    "lv": "τον χειμώνα",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Ποιο έτος γεννηθήκατε • ",
+    "lv": "Ποια χρονιά γεννηθήκατε;",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Λυπάμαι που βλέπω...",
+    "lv": "Με θλίβει να βλέπω...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Όσο περισσότερα τόσο καλύτερα",
+    "lv": "όσο περισσότερα, τόσο καλύτερα",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Μέχρι την παρούσα στιγμή",
+    "lv": "μέχρι τώρα",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Πώς να φτάσετε στο σταθμό • ",
+    "lv": "Πώς πάω στον σταθμό;",
     "level": "Sätze"
   },
   {
@@ -1371,32 +1371,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Θα μπορούσα να μιλήσω με την κυρία Ν • ",
+    "lv": "Θα μπορούσα να μιλήσω με την κυρία Ν.;",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Πόσο κοστίζει • ",
+    "lv": "Πόσο κάνει αυτό;",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Πόσο διαρκεί η παράσταση • ",
+    "lv": "Πόσο διαρκεί η παράσταση;",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Σταμάτα το! • Αφήστε το!",
+    "lv": "Σταμάτα! • Άφησέ το!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Άσε με ήσυχο!",
+    "lv": "Άφησέ με ήσυχο!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Άσε με να σε βοηθήσω!",
+    "lv": "Επιτρέψτε μου να σας βοηθήσω!",
     "level": "Sätze"
   },
   {
@@ -1406,7 +1406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Τι κάνετε",
+    "lv": "Λοιπόν, πώς πάει;",
     "level": "Sätze"
   },
   {
@@ -1416,12 +1416,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Ζήστε ευτυχισμένοι! • Αντίο!",
+    "lv": "Να είστε καλά! • Αντίο!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Τι έχει συμβεί • ",
+    "lv": "Τι συμβαίνει;",
     "level": "Sätze"
   },
   {
@@ -1436,12 +1436,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Η εκμάθηση γερμανικών μπορεί να είναι κουραστική.",
+    "lv": "Το να μαθαίνεις γερμανικά μπορεί να είναι κουραστικό.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Ζητά εξηγήσεις.",
+    "lv": "Απαιτεί μια εξήγηση.",
     "level": "Sätze"
   },
   {
@@ -1451,12 +1451,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Ο νόμος επιβάλλει να είναι έτσι.",
+    "lv": "Έτσι ορίζει ο νόμος.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Δεν είναι καθόλου δύσκολο.",
+    "lv": "Δεν είναι και τόσο δύσκολο.",
     "level": "Sätze"
   },
   {
@@ -1466,67 +1466,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Δεν είπε απολύτως τίποτα.",
+    "lv": "Δεν είπε απολύτως τίποτε.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Ο σκύλος αφήνεται ελεύθερος.",
+    "lv": "Ο σκύλος είναι λυμένος.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Εδώ συμβαίνουν πολλά.",
+    "lv": "Εδώ γίνονται πολλά.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Κράτα την αναπνοή σου!",
+    "lv": "Σώπα! • Μην υπερβάλλεις!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Τι κάνεις",
+    "lv": "Τι κάνεις;",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Πες το ήδη!",
+    "lv": "Πες μου λοιπόν!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Τι εννοείς με αυτό •  • Πώς το εννοείς αυτό • ",
+    "lv": "Τι εννοείτε με αυτό;",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Θα πάμε μαζί σας.",
+    "lv": "Ερχόμαστε μαζί σας.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Ταξιδεύω με τρένο.",
+    "lv": "Πηγαίνω με το τρένο.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Την Τετάρτη",
+    "lv": "την Τετάρτη",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Ισως.",
+    "lv": "Μπορεί να είναι έτσι.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Δεν μου αρέσει.",
+    "lv": "Δεν μου αρέσει αυτό.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Τη Δευτέρα",
+    "lv": "τη Δευτέρα",
     "level": "Sätze"
   },
   {
@@ -1536,7 +1536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "Το πρωί",
+    "lv": "το πρωί",
     "level": "Sätze"
   },
   {
@@ -1546,37 +1546,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Κάτσε κάτω!",
+    "lv": "Καθίστε!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Τελευταία νέα!",
+    "lv": "Η τελευταία λέξη της μόδας!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Δεν είναι • ",
+    "lv": "Έτσι δεν είναι;",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Οχι ακόμη! • Δεν χρειάζεται!",
+    "lv": "Όχι δα! • Μην το κάνεις!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Λοιπόν, επιτέλους!",
+    "lv": "Επιτέλους!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Σε τι είναι καλό • ",
+    "lv": "Σε τι χρησιμεύει αυτό;",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Γιατί όλα αυτά • ",
+    "lv": "Τι νόημα έχουν όλα αυτά;",
     "level": "Sätze"
   },
   {
@@ -1596,12 +1596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "Περί τίνος πρόκειται • ",
+    "lv": "Για τι πρόκειται;",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Αυτό αποκλείεται.",
+    "lv": "Ούτε λόγος να γίνεται.",
     "level": "Sätze"
   },
   {
@@ -1611,122 +1611,122 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Η υπομονή μου εξαντλείται.",
+    "lv": "Χάνω την υπομονή μου.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Λέγεται ότι...",
+    "lv": "Λένε ότι...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Είναι ήδη καλό!",
+    "lv": "Εντάξει!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Παρακαλώ!",
+    "lv": "Ορίστε! • Παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Πόσα χρωστάω •  • Πόσα πρέπει να πληρώσω • ",
+    "lv": "Τι σας χρωστώ; • Πόσο πρέπει να πληρώσω;",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Ανακινήστε πριν τη χρήση!",
+    "lv": "Ανακινήστε πριν από τη χρήση!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Ματιά!",
+    "lv": "Για κοιτάξτε!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Πόσα...",
+    "lv": "Όσο κι αν...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "Από πότε • ",
+    "lv": "Από πότε;",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Τι πρέπει να κάνω • ",
+    "lv": "Τι να κάνω;",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Το καλοκαίρι",
+    "lv": "το καλοκαίρι",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Όχι μόνο... αλλά και...",
+    "lv": "Όχι μόνο..., αλλά και...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Κάτι άλλο • ",
+    "lv": "Κάτι άλλο;",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Χωρίς πλάκα! • Αστειεύομαι!",
+    "lv": "Εκτός αστείου!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Τι ώρα είναι • ",
+    "lv": "Τι ώρα είναι;",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Απαγορεύεται η οδήγηση!",
+    "lv": "Απαγορεύεται η διέλευση!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Μιλάς Γερμανικά • ",
+    "lv": "Μιλάτε γερμανικά;",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Αντί για...",
+    "lv": "Αντί να...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Τι κάνετε",
+    "lv": "Πώς πάνε τα πράγματα;",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Αυτό το καπέλο του ταιριάζει πολύ.",
+    "lv": "Αυτό το καπέλο της πάει.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Καλημέρα!",
+    "lv": "Γεια σας!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Πού συναντιόμαστε • ",
+    "lv": "Πού θα συναντηθούμε;",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Έλα πιο κοντά!",
+    "lv": "Ελάτε πιο κοντά!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Η ειλικρίνεια είναι αρετή.",
+    "lv": "Η τιμιότητα είναι αρετή.",
     "level": "Sätze"
   },
   {
@@ -1736,77 +1736,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Αρκετά καλό! • Τίποτα για παράπονο.",
+    "lv": "Καθόλου άσχημα!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Ζει από πάνω μου.",
+    "lv": "Μένει από πάνω μου.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Είναι πεπεισμένος γι' αυτό.",
+    "lv": "Είναι πεπεισμένος γι’ αυτό.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Αυτό είναι το έθιμο.",
+    "lv": "Έτσι συνηθίζεται.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Το ρολόι σου έχει αργήσει.",
+    "lv": "Το ρολόι σου πάει πίσω.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Τι ώρα είναι • ",
+    "lv": "Τι ώρα είναι;",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Οκτώ το πρωί.",
+    "lv": "Στις οχτώ το πρωί.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Τόσο περισσότερο",
+    "lv": "τόσο περισσότερο",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Στρίψτε δεξιά!",
+    "lv": "Δεξιά στροφή!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "Και πώς!",
+    "lv": "Και βέβαια!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Δηλαδή",
+    "lv": "και συγκεκριμένα",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "... σε βάρος του",
+    "lv": "Με έξοδα του...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Κάθισε ανάμεσα στους θεατές.",
+    "lv": "Καθόταν ανάμεσα στους θεατές.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Δεν αξίζει να ευχαριστήσω!",
+    "lv": "Τίποτε!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Πήγε όπως συμφωνήθηκε.",
+    "lv": "Έγινε όπως είχαμε συμφωνήσει.",
     "level": "Sätze"
   },
   {
@@ -1816,7 +1816,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Λάθος σύνδεση!",
+    "lv": "Λάθος αριθμός!",
     "level": "Sätze"
   },
   {
@@ -1826,22 +1826,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Με καταλαβαίνεις • ",
+    "lv": "Με καταλαβαίνετε;",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Δεν καταλαβαίνει τίποτα από αυτά.",
+    "lv": "Δεν καταλαβαίνει τίποτε από αυτά.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Υπερασπιστείτε τη θέση σας.",
+    "lv": "Υπερασπίζομαι τη γνώμη μου.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Να προκαλέσει καβγά.",
+    "lv": "Προκαλώ καβγά.",
     "level": "Sätze"
   },
   {
@@ -1851,12 +1851,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu viel.",
-    "lv": "Πάρα πολύ.",
+    "lv": "Υπερβολικά πολύ.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Σύμφωνα με φήμες.",
+    "lv": "Εξ ακοής.",
     "level": "Sätze"
   },
   {
@@ -1866,12 +1866,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Beruf.",
-    "lv": "Κατά επάγγελμα.",
+    "lv": "Στο επάγγελμα.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Είναι Βερολινέζος εκ γενετής.",
+    "lv": "Είναι γέννημα θρέμμα Βερολινέζος.",
     "level": "Sätze"
   },
   {
@@ -1881,7 +1881,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Πριν την ανατολή του ηλίου.",
+    "lv": "Πριν από την ανατολή του ηλίου.",
     "level": "Sätze"
   },
   {
@@ -1891,97 +1891,97 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "Για χαρά.",
+    "lv": "Από τη χαρά.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Προπαντός. • Πρώτα απ' όλα.",
+    "lv": "Κυρίως. • Πρώτα απ’ όλα.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Προς τα εμπρός. • Εκ των προτέρων.",
+    "lv": "Εκ των προτέρων.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Υπό τον όρο...",
+    "lv": "Με την προϋπόθεση ότι...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Υπό όρους.",
+    "lv": "Με αυτή την επιφύλαξη.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Να υπάρχει. • Να είναι παρών. • Να είστε διαθέσιμοι.",
+    "lv": "Είμαι διαθέσιμος. • Υπάρχω.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Την περασμένη εβδομάδα.",
+    "lv": "Την προηγούμενη εβδομάδα.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Λάβετε προστατευτικά μέτρα.",
+    "lv": "Παίρνω προληπτικά μέτρα.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Μου φαίνεται οικείος.",
+    "lv": "Μου φαίνεται γνωστή.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Του αρέσει πολύ η λογοτεχνία.",
+    "lv": "Έχει αδυναμία στη λογοτεχνία.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Σήμερα το πρωί. • Σήμερα πριν το μεσημεριανό γεύμα.",
+    "lv": "Σήμερα το πρωί.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Για.",
+    "lv": "Από μπροστά. • Από την αρχή.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Επόμενος.",
+    "lv": "Προς τα εμπρός.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "Από την αρχή.",
+    "lv": "Εξαρχής.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Να είναι σε πιο ευνοϊκή θέση.",
+    "lv": "Βρίσκομαι σε πλεονεκτική θέση.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Να είσαι ξύπνιος.",
+    "lv": "Είμαι ξύπνιος.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Ξύπνα.",
+    "lv": "Ξυπνώ.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Σταθείτε φρουροί.",
+    "lv": "Φυλάω σκοπιά.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Κατά τη διάρκεια του έτους.",
+    "lv": "Στη διάρκεια ενός χρόνου.",
     "level": "Sätze"
   },
   {
@@ -1991,37 +1991,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Να μιλάμε μάταια.",
+    "lv": "Μιλώ στον τοίχο.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Υπάρχουν αυτιά στους τοίχους εδώ.",
+    "lv": "Εδώ και οι τοίχοι έχουν αυτιά.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Μέχρι τι ώρα • ",
+    "lv": "Μέχρι πότε;",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Είναι ζεστό.",
+    "lv": "Κάνει ζέστη.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Περιμένετε για ειδοποίηση.",
+    "lv": "Περιμένω ένα μήνυμα.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Τι θέλετε • ",
+    "lv": "Τι θέλετε;",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Τι είδους... •  • Τι... • ",
+    "lv": "Τι είδους...;",
     "level": "Sätze"
   },
   {
@@ -2031,47 +2031,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Τοιουτοτροπώς. • Με τέτοια μέσα.",
+    "lv": "Με αυτόν τον τρόπο. • Με αυτά τα μέσα.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Με ειρηνικό τρόπο.",
+    "lv": "Με ειρηνικά μέσα.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Λόγω της φιλίας μας.",
+    "lv": "Για χάρη της φιλίας μας.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Με δικαιοσύνη.",
+    "lv": "Σύμφωνα με τον νόμο. • Κατά δικαιοσύνη.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Να πονέσει.",
+    "lv": "Πονάω.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Κατά τη διάρκεια των Χριστουγέννων.",
+    "lv": "Τα Χριστούγεννα.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Με ποιον τρόπο • ",
+    "lv": "Με ποιον τρόπο;",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Πέντε.",
+    "lv": "Ο τρόπος.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Αμέσως. • Αμέσως.",
+    "lv": "Χωρίς καθυστέρηση. • Χωρίς δυσκολία.",
     "level": "Sätze"
   },
   {
@@ -2086,17 +2086,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Κάτι άλλο.",
+    "lv": "Τίποτε άλλο.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Ποια μέρα • ",
+    "lv": "Ποια μέρα;",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Όλος ο κόσμος. • Όλα.",
+    "lv": "Όλος ο κόσμος. • Όλοι.",
     "level": "Sätze"
   },
   {
@@ -2116,27 +2116,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "Ποιος είναι εκεί • ",
+    "lv": "Ποιος είναι εκεί;",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Τα Συλλεκτικά Έργα του Σίλερ.",
+    "lv": "Τα άπαντα του Σίλερ.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Επιλογή έργων.",
+    "lv": "Επιλεγμένα έργα.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Του άξιζε να...",
+    "lv": "Αξίζει να...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Κοστίζει δύο ευρώ.",
+    "lv": "Αξίζει δύο ευρώ.",
     "level": "Sätze"
   },
   {
@@ -2151,27 +2151,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Δηλώστε συμμετοχή στον διαγωνισμό.",
+    "lv": "Μπαίνω σε ανταγωνισμό.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Να ανταγωνιστεί στο τρέξιμο.",
+    "lv": "Κάνω αγώνα δρόμου.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Σε τι ποντάρουμε • ",
+    "lv": "Τι βάζουμε στοίχημα;",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Πώς είναι ο καιρός • ",
+    "lv": "Τι καιρό θα κάνει;",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Αγώνες στη γυμναστική.",
+    "lv": "Αγώνας γυμναστικής.",
     "level": "Sätze"
   },
   {
@@ -2181,27 +2181,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Να διαμαρτυρηθεί. • Υποβολή αντιρρήσεων.",
+    "lv": "Διαμαρτύρομαι. • Προβάλλω αντιρρήσεις.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Πόσο χρονών είναι • ",
+    "lv": "Πόσων χρονών είναι;",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Πόση ώρα • ",
+    "lv": "Πόσο καιρό;",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Τα λέμε σύντομα!",
+    "lv": "Θα τα ξαναπούμε!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Τα λέμε σύντομα!",
+    "lv": "Γεια σας!",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Θερμά καλωσόρισμα!",
+    "lv": "Καλώς ορίσατε!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Σειρά σου να πας.",
+    "lv": "Είναι η σειρά σου να παίξεις.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Τραβάει τον άνεμο.",
+    "lv": "Κάνει ρεύμα.",
     "level": "Sätze"
   },
   {
@@ -2231,22 +2231,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Τελικό κομμάτι λουκάνικου.",
+    "lv": "Η άκρη ενός λουκάνικου.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Πήγαινε σε αυτόν.",
+    "lv": "Πηγαίνω σε αυτόν.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Να πάω στο σχολείο.",
+    "lv": "Πηγαίνω στο σχολείο.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Σπιτόγατος.",
+    "lv": "Μένω στο σπίτι.",
     "level": "Sätze"
   },
   {
@@ -2271,7 +2271,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Ένα άλογο.",
+    "lv": "Με άλογο.",
     "level": "Sätze"
   },
   {
@@ -2281,17 +2281,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Η βροχή σταμάτησε.",
+    "lv": "Σταμάτησε να βρέχει.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Έχω πολλά να κάνω ακόμα.",
+    "lv": "Έχω ακόμη πολλά να κάνω.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Πολύ σύντομα.",
+    "lv": "Πολύ νωρίς.",
     "level": "Sätze"
   },
   {
@@ -2301,22 +2301,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Σήκωμα των ώμων.",
+    "lv": "Σηκώνω τους ώμους.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Πιείτε με μια γουλιά.",
+    "lv": "Πίνω μονορούφι.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Να χαθεί.",
+    "lv": "Καταστρέφομαι.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Βάλτε ως βάση. • Πάρτε ως βάση.",
+    "lv": "Παίρνω ως βάση.",
     "level": "Sätze"
   },
   {
@@ -2326,12 +2326,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Παρακαλώ κλείστε την πόρτα!",
+    "lv": "Κλείστε την πόρτα, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Έχει πάρει βάρος.",
+    "lv": "Πήρε βάρος.",
     "level": "Sätze"
   },
   {
@@ -2341,7 +2341,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Να συσχετιστεί με κάτι.",
+    "lv": "Σχετίζομαι με κάτι.",
     "level": "Sätze"
   },
   {
@@ -2351,12 +2351,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Δεν θα το περίμενα αυτό από αυτόν.",
+    "lv": "Δεν θα το περίμενα από αυτόν.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Είσοδος ελεύθερη.",
+    "lv": "Ελεύθερη είσοδος.",
     "level": "Sätze"
   },
   {
@@ -2371,17 +2371,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Γίνε αηδιαστικός. • Γίνε ενοχλητικός.",
+    "lv": "Γίνομαι αποκρουστικός. • Αρχίζω να προκαλώ αποστροφή.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Δηλαδή.",
+    "lv": "Και συγκεκριμένα.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Δεν υπάρχει αμφιβολία.",
+    "lv": "Είναι εκτός αμφιβολίας.",
     "level": "Sätze"
   },
   {
@@ -2391,7 +2391,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Δεύτερο.",
+    "lv": "Δεύτερον.",
     "level": "Sätze"
   },
   {
@@ -2411,12 +2411,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Χαίρομαι που σε γνωρίζω.",
+    "lv": "Χαίρομαι που σας γνωρίζω.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Θα ήσουν τόσο ευγενικός, σε παρακαλώ • ",
+    "lv": "Θα είχατε την καλοσύνη, παρακαλώ;",
     "level": "Sätze"
   },
   {
@@ -2426,42 +2426,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Κάτσε σε παρακαλώ!",
+    "lv": "Καθίστε, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Μπεν, έλα στο σανίδι!",
+    "lv": "Μπεν, έλα στον πίνακα, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Παρακαλώ ανοίξτε τα σχολικά βιβλία!",
+    "lv": "Ανοίξτε τα βιβλία σας, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Παρακαλώ πηγαίνετε στο γυμναστήριο!",
+    "lv": "Πηγαίνετε στο γυμναστήριο, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Κοιμάσαι ακόμα",
+    "lv": "Κοιμάσαι ακόμη;",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Κοιμάσαι ακόμα • ",
+    "lv": "Κοιμάστε ακόμη;",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Κοιμάται βαθιά.",
+    "lv": "Τον πήρε βαθύς ύπνος.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Ξυπνήστε τον, είναι ήδη αργά!",
+    "lv": "Ξύπνα τον, σε παρακαλώ, είναι ήδη αργά!",
     "level": "Sätze"
   },
   {
@@ -2471,52 +2471,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Σας ευχαριστώ πολύ!",
+    "lv": "Ευχαριστώ πολύ!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Φιν, ξεκίνα σε παρακαλώ!",
+    "lv": "Φιν, ξεκίνα, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Διαβάστε παρακαλώ!",
+    "lv": "Παρακολουθείτε το κείμενο, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Έμμα, σε παρακαλώ μην κοιτάς έξω από το παράθυρο!",
+    "lv": "Έμα, μην κοιτάς έξω από το παράθυρο, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, φέρε τα σημειωματάρια!",
+    "lv": "Γιόνα, φέρε τα τετράδια, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Επιστρέψτε στη θέση σας!",
+    "lv": "Γύρνα πίσω στη θέση σου, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Η ώρα είναι επτά και μισή.",
+    "lv": "Είναι εφτά και μισή.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Τι ώρα ξυπνάτε συνήθως • ",
+    "lv": "Πότε ξυπνάς συνήθως;",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Θα σηκωθώ αμέσως.",
+    "lv": "Σηκώνομαι αμέσως.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Σήκω, Χάνα, χτυπάει το κουδούνι!",
+    "lv": "Σήκω, Χάνα, χτυπάει το ξυπνητήρι! • Σήκω, Χάνα, χτυπάει το κουδούνι!",
     "level": "Sätze"
   },
   {
@@ -2526,27 +2526,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Μην ξεχνάτε να αερίζετε το δωμάτιο!",
+    "lv": "Μην ξεχάσεις να αερίσεις το δωμάτιο!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Πού είναι η πετσέτα • ",
+    "lv": "Πού είναι η πετσέτα;",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Θέλω να βουρτσίσω τα δόντια μου.",
+    "lv": "Θα ήθελα να πλύνω τα δόντια μου.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Με τι βουρτσίζετε τα δόντια σας • ",
+    "lv": "Με τι πλένεις τα δόντια σου;",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Θέλω να ντυθώ.",
+    "lv": "Θα ήθελα να ντυθώ.",
     "level": "Sätze"
   },
   {
@@ -2556,12 +2556,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Φορέστε πιο ζεστά ρούχα, κάνει κρύο έξω.",
+    "lv": "Ντύσου πιο ζεστά, έξω κάνει ψύχρα.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Καλημέρα, πώς είσαι • ",
+    "lv": "Καλημέρα, πώς είσαι;",
     "level": "Sätze"
   },
   {
@@ -2571,52 +2571,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Τι νέα • ",
+    "lv": "Τι νέα;",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Εδώ υπάρχει σύγχυση!",
+    "lv": "Τι χάος εδώ!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Μπορώ να βοηθήσω στον καθαρισμό • ",
+    "lv": "Μπορώ να βοηθήσω στο συγύρισμα;",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Τι πίνετε το πρωί, καφέ ή τσάι • ",
+    "lv": "Τι πίνεις το πρωί, καφέ ή τσάι;",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Συνήθως πίνω ένα φλιτζάνι καφέ το πρωί.",
+    "lv": "Συνήθως το πρωί πίνω ένα φλιτζάνι καφέ.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Πιο πολύ μου αρέσει να πίνω μαύρο καφέ.",
+    "lv": "Προτιμώ να πίνω μαύρο καφέ.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Καλημέρα, κοιμήθηκες καλά • ",
+    "lv": "Καλημέρα, κοιμήθηκες καλά;",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Είμαι ακόμα πολύ κουρασμένος.",
+    "lv": "Είμαι ακόμη πολύ κουρασμένος.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Θέλετε καφέ ή γάλα • ",
+    "lv": "Θέλεις καφέ ή γάλα;",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Δώσε μου το σάντουιτς με τυρί, σε παρακαλώ.",
+    "lv": "Δώσε μου, σε παρακαλώ, ένα ψωμάκι με τυρί.",
     "level": "Sätze"
   },
   {
@@ -2626,62 +2626,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Μην ξεχνάτε το πρωινό!",
+    "lv": "Μην ξεχάσεις το πρωινό σου!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Κλάρα, σε παρακαλώ, στρώσε το τραπέζι!",
+    "lv": "Κλάρα, στρώσε το τραπέζι, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Μην ξεχάσετε τις χαρτοπετσέτες!",
+    "lv": "Μην ξεχάσεις τις χαρτοπετσέτες!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Πότε τρως μεσημεριανό",
+    "lv": "Πότε τρώτε μεσημεριανό;",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Είναι ώρα για φαγητό.",
+    "lv": "Είναι ώρα να φάμε.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Τι είναι για μεσημεριανό σήμερα • ",
+    "lv": "Τι έχει για μεσημεριανό σήμερα;",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Πώς σας αρέσει η σούπα • ",
+    "lv": "Πώς σου φαίνεται η σούπα;",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Για να είμαι ειλικρινής, είναι λίγο πολύ αλμυρό.",
+    "lv": "Για να πω την αλήθεια, είναι λίγο αλμυρή.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Μπορώ να σας δώσω μια φέτα ψωμί • ",
+    "lv": "Μπορώ να σου δώσω ένα κομμάτι ψωμί;",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Ευχαριστώ, το έχω ήδη.",
+    "lv": "Ευχαριστώ, έχω ήδη.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Το κρέας έχει υπέροχη γεύση.",
+    "lv": "Το κρέας είναι εξαιρετικό.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Ευχαριστώ, έχω φάει ήδη.",
+    "lv": "Ευχαριστώ, έχω ήδη χορτάσει.",
     "level": "Sätze"
   },
   {
@@ -2691,67 +2691,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Έχεις ελεύθερο χρόνο απόψε • ",
+    "lv": "Είσαι ελεύθερος απόψε;",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Ελάτε να μας επισκεφθείτε για μεσημεριανό γεύμα σήμερα!",
+    "lv": "Έλα σήμερα για μεσημεριανό!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Καθόμαστε στο τραπέζι.",
+    "lv": "Ας καθίσουμε στο τραπέζι.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Παρακαλώ τρώτε όσο θέλετε!",
+    "lv": "Σε παρακαλώ, σερβιρίσου!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Σας ενοχλεί το κάπνισμα • ",
+    "lv": "Σε ενοχλεί το κάπνισμα;",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Σας ευχαριστώ για το ευγενικό καλωσόρισμα!",
+    "lv": "Ευχαριστώ για τη θερμή υποδοχή!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Πότε πας για ύπνο",
+    "lv": "Πότε πας για ύπνο;",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Είμαι πάντα κουρασμένος όταν έρχομαι στη δουλειά.",
+    "lv": "Όταν γυρίζω από τη δουλειά, είμαι πάντα κουρασμένος.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Είναι ώρα να πάτε για ύπνο.",
+    "lv": "Είναι ώρα για ύπνο.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Είναι καλός καιρός.",
+    "lv": "Έχει ωραίο καιρό.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Θέλεις να περπατήσεις μαζί μου • ",
+    "lv": "Θέλεις να πάμε μια βόλτα μαζί;",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Κοίτα, κοντεύει να βρέξει.",
+    "lv": "Κοίτα, σε λίγο θα βρέξει.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Πάρτε μια ομπρέλα μαζί σας!",
+    "lv": "Πάρε μαζί σου την ομπρέλα!",
     "level": "Sätze"
   },
   {
@@ -2761,17 +2761,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Είμαι ήδη τελείως βρεγμένος.",
+    "lv": "Έχω γίνει ήδη μούσκεμα.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Πιστεύετε ότι θα βρέχει όλη μέρα • ",
+    "lv": "Πιστεύεις ότι θα βρέχει όλη τη μέρα;",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Η βροχή σταματά.",
+    "lv": "Σταματάει να βρέχει.",
     "level": "Sätze"
   },
   {
@@ -2781,7 +2781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Κάνει πολύ ζέστη.",
+    "lv": "Κάνει πολλή ζέστη.",
     "level": "Sätze"
   },
   {
@@ -2791,12 +2791,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Σε λίγο έρχεται καταιγίδα.",
+    "lv": "Σε λίγο θα έχουμε καταιγίδα.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Η καταιγίδα τελείωσε.",
+    "lv": "Η καταιγίδα περνάει.",
     "level": "Sätze"
   },
   {
@@ -2806,12 +2806,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Μπορείτε να δείτε το ουράνιο τόξο • ",
+    "lv": "Βλέπεις το ουράνιο τόξο;",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Ο χειμώνας είναι εδώ, χιόνισε τη νύχτα.",
+    "lv": "Ήρθε ο χειμώνας, χιόνισε.",
     "level": "Sätze"
   },
   {
@@ -2821,97 +2821,97 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Πόσο όμορφο είναι το δάσος το χειμώνα!",
+    "lv": "Πόσο ωραία είναι στο δάσος τον χειμώνα!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Κρυώνω, κρυώνω.",
+    "lv": "Κρυώνω, ξεπάγιασα.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Έξω γλιστράει, προσοχή!",
+    "lv": "Έξω έχει πάγο, πρόσεχε!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Πάμε για πατινάζ στον πάγο • ",
+    "lv": "Πάμε στο παγοδρόμιο;",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Φορέστε ένα σακάκι, μπορεί να κρυώσετε.",
+    "lv": "Φόρεσε το μπουφάν, μπορεί να κρυώσεις.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Η ώρα είναι επτά και μισή.",
+    "lv": "Είναι έξι και μισή.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Το ρολόι μου είναι πέντε λεπτά μπροστά.",
+    "lv": "Το ρολόι μου πάει πέντε λεπτά μπροστά.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Ξύπνα με αύριο στις επτά!",
+    "lv": "Ξύπνα με αύριο το πρωί στις εφτά!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Τι ημερομηνία είναι σήμερα • ",
+    "lv": "Τι ημερομηνία έχουμε σήμερα;",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Σήμερα είναι ενδέκατη Ιουλίου.",
+    "lv": "Σήμερα είναι έντεκα Ιουλίου.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Τι κάνετε συνήθως τα βράδια • ",
+    "lv": "Τι κάνεις συνήθως το βράδυ;",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Δεν έχουμε γνωριστεί για πολύ καιρό.",
+    "lv": "Έχουμε πολύ καιρό να βρεθούμε.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Τι κάνετε",
+    "lv": "Πώς είσαι;",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Με συγχωρείτε, θέλω να συζητήσουμε κάτι μαζί σας.",
+    "lv": "Συγγνώμη, θα ήθελα να συζητήσω κάτι μαζί σου.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Πάμε μια βόλτα!",
+    "lv": "Πάμε βόλτα!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Θέλεις να πάμε στο πάρκο μαζί μου • ",
+    "lv": "Έχεις όρεξη να πάμε μαζί στο πάρκο;",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Σε πήρα για μια βόλτα.",
+    "lv": "Ήρθα να σε πάρω για περίπατο.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Πήγαινε λίγο πιο αργά, δεν μπορώ να σε προλάβω!",
+    "lv": "Περπάτα λίγο πιο αργά, σε παρακαλώ, δεν σε προλαβαίνω!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Είναι η πρώτη μου φορά εδώ.",
+    "lv": "Είναι η πρώτη φορά που έρχομαι σε αυτή την περιοχή.",
     "level": "Sätze"
   },
   {
@@ -2921,57 +2921,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Τώρα μπορούμε να επιστρέψουμε.",
+    "lv": "Τώρα μπορούμε να γυρίσουμε πίσω.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Για να είμαι ειλικρινής, είμαι αρκετά κουρασμένος.",
+    "lv": "Για να πω την αλήθεια, είμαι αρκετά κουρασμένος.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Με συγχωρείτε, πού είναι ο πλησιέστερος σταθμός του μετρό • ",
+    "lv": "Συγγνώμη, πού είναι ο πιο κοντινός σταθμός του μετρό;",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Ποιος είναι ο συντομότερος δρόμος • ",
+    "lv": "Ποιος είναι ο πιο σύντομος δρόμος;",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Στρίψτε αριστερά εδώ στον δεύτερο δρόμο και προχωρήστε ευθεία.",
+    "lv": "Στρίψε εδώ στον δεύτερο δρόμο αριστερά και μετά συνέχισε ευθεία.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Πώς να φτάσετε στο σταθμό πιο γρήγορα • ",
+    "lv": "Πώς θα φτάσω πιο γρήγορα στον σταθμό;",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Σκοπεύω να φύγω αύριο.",
+    "lv": "Σκοπεύω να φύγω αύριο για ταξίδι.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Πού θέλετε να πάτε • ",
+    "lv": "Πού θέλεις να πας;",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Οδηγείτε για δουλειά ή για διακοπές • ",
+    "lv": "Ταξιδεύεις για δουλειά ή για προσωπικούς λόγους;",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Ο Φιν ταξιδεύει στο Βερολίνο και μετά πηγαίνει στη θάλασσα.",
+    "lv": "Ο Φιν θα έρθει μαζί μας μέχρι το Βερολίνο και μετά θα πάει στη θάλασσα.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Πότε φεύγει το πλοίο • ",
+    "lv": "Πότε αναχωρεί το πλοίο;",
     "level": "Sätze"
   },
   {
@@ -2981,32 +2981,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Μπορώ να πάρω ακόμα καμπίνα • ",
+    "lv": "Μπορώ ακόμη να πάρω καμπίνα;",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Μην ξεχάσετε το διαβατήριό σας!",
+    "lv": "Μην ξεχάσεις το διαβατήριό σου!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Ήρθε η ώρα να ετοιμάσεις τη βαλίτσα σου.",
+    "lv": "Είναι ώρα να φτιάξω τη βαλίτσα.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Το τρένο φεύγει στις επτά και μισή.",
+    "lv": "Το τρένο αναχωρεί στις έξι και μισή.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Καλέστε ένα ταξί, αλλιώς θα χάσω το τρένο!",
+    "lv": "Φώναξέ μου ένα ταξί, σε παρακαλώ, αλλιώς θα χάσω το τρένο!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Σε παρακαλώ πάρε με στο σταθμό!",
+    "lv": "Πήγαινέ με στον σταθμό, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
@@ -3016,7 +3016,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Ανοίγει ακόμα το ταμείο • ",
+    "lv": "Είναι ήδη ανοιχτό το ταμείο;",
     "level": "Sätze"
   },
   {
@@ -3026,87 +3026,87 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Πότε φεύγει το τρένο • ",
+    "lv": "Πότε φεύγει το τρένο;",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Το τρένο φεύγει αμέσως.",
+    "lv": "Το τρένο φεύγει σε λίγο.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Πρέπει να αλλάξω τρένο στο Koblenz • ",
+    "lv": "Πρέπει να αλλάξω τρένο στο Κόμπλεντς;",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Ναι, πρέπει να αλλάξετε θέση εκεί.",
+    "lv": "Ναι, εκεί πρέπει να αλλάξεις.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Αυτή η θέση είναι κατειλημμένη • ",
+    "lv": "Είναι ελεύθερη αυτή η θέση;",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Όχι, δεν κάθεται κανείς εδώ.",
+    "lv": "Όχι, εδώ δεν κάθεται κανείς.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Πού είναι το μηχάνημα εισιτηρίων πλατφόρμας • ",
+    "lv": "Πού είναι το αυτόματο μηχάνημα για εισιτήρια αποβάθρας;",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Βάλτε την χειραποσκευή μου στο ράφι.",
+    "lv": "Βάλε τη χειραποσκευή μου στο ράφι των αποσκευών.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Μπορώ να ανοίξω το παράθυρο • ",
+    "lv": "Μπορώ να ανοίξω το παράθυρο;",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Ο άνεμος φυσάει, παρακαλώ κλείστε το παράθυρο!",
+    "lv": "Κάνει ρεύμα, κλείσε το παράθυρο, σε παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Ποια είναι η επόμενη στάση • ",
+    "lv": "Ποιος είναι ο επόμενος σταθμός;",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Πόσο καιρό θα σταματήσει το τρένο • ",
+    "lv": "Πόση ώρα κάνει στάση το τρένο;",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Πού πρέπει να αλλάξω θέση • ",
+    "lv": "Πού πρέπει να αλλάξω τρένο;",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Το τρένο αργεί.",
+    "lv": "Το τρένο έχει καθυστέρηση.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Αυτή η άμαξα είναι μη καπνιζόντων.",
+    "lv": "Αυτό το βαγόνι είναι για μη καπνιστές.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Τώρα οδηγούμε πέρα ​​από τα σύνορα.",
+    "lv": "Τώρα περνάμε τα σύνορα.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Έχετε κάτι να δηλώσετε στο τελωνείο • ",
+    "lv": "Έχεις κάτι να δηλώσεις στο τελωνείο;",
     "level": "Sätze"
   },
   {
@@ -3116,57 +3116,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Μπορείτε να προτείνετε ένα καλό ξενοδοχείο • ",
+    "lv": "Μπορείς να μου προτείνεις ένα καλό ξενοδοχείο;",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Έχετε διαθέσιμα δωμάτια • ",
+    "lv": "Έχετε ελεύθερα δωμάτια;",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Δίκλινο δωμάτιο, παρακαλώ.",
+    "lv": "Ένα δωμάτιο με δύο κρεβάτια, παρακαλώ.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Πόσο κοστίζει το δωμάτιο ανά διανυκτέρευση • ",
+    "lv": "Πόσο κοστίζει το δωμάτιο τη βραδιά;",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Φεύγω αύριο. Ξύπνα με στις επτά!",
+    "lv": "Αύριο φεύγω. Ξύπνα με στις εφτά!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Μπιλ, παρακαλώ!",
+    "lv": "Τον λογαριασμό, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Πού είναι η βιβλιοθήκη της πόλης • ",
+    "lv": "Πού είναι η δημοτική βιβλιοθήκη;",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Πότε είναι ανοιχτό το μουσείο • ",
+    "lv": "Πότε είναι ανοιχτό το μουσείο;",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Πάμε στο μουσείο • ",
+    "lv": "Πάμε στο μουσείο;",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Να πάρουμε το λεωφορείο ή το μετρό • ",
+    "lv": "Θα πάμε με το λεωφορείο ή με το μετρό;",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Πού είναι η πλησιέστερη στάση λεωφορείου • ",
+    "lv": "Πού είναι η πιο κοντινή στάση λεωφορείου;",
     "level": "Sätze"
   },
   {
@@ -3176,37 +3176,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Θα φάμε μαζί • ",
+    "lv": "Πάμε να φάμε μαζί;",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Σερβιτόρα, μενού, παρακαλώ!",
+    "lv": "Σερβιτόρε, τον κατάλογο, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Είναι φρέσκο ​​το ψάρι • ",
+    "lv": "Είναι φρέσκο το ψάρι;",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Έχει υπέροχη γεύση!",
+    "lv": "Είναι εξαιρετικά νόστιμο!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Σερβιτόρα, λογαριασμό παρακαλώ!",
+    "lv": "Σερβιτόρε, τον λογαριασμό, παρακαλώ!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Πάω στο καφενείο να πιω καφέ.",
+    "lv": "Πάω στην καφετέρια να πιω έναν καφέ.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Θέλεις να έρθεις μαζί • ",
+    "lv": "Θέλεις να έρθεις κι εσύ;",
     "level": "Sätze"
   },
   {
@@ -3216,17 +3216,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Πιο γρήγορα παρακαλώ, βιάζομαι!",
+    "lv": "Πιο γρήγορα, παρακαλώ, βιάζομαι!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Μην αφήσετε τον καφέ να κρυώσει!",
+    "lv": "Μην αφήσεις τον καφέ σου να κρυώσει!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Έχεις κάτι να μετριάσεις • ",
+    "lv": "Έχετε κάτι δροσιστικό;",
     "level": "Sätze"
   },
   {
@@ -3236,72 +3236,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Έλαβα ένα γράμμα σήμερα το πρωί.",
+    "lv": "Σήμερα το πρωί έλαβα ένα γράμμα.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Πρέπει να του γράψω τώρα.",
+    "lv": "Πρέπει να του γράψω αμέσως.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Πού είναι το πλησιέστερο γραμματοκιβώτιο • ",
+    "lv": "Πού είναι το πιο κοντινό γραμματοκιβώτιο;",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Πού είναι το ταχυδρομείο • ",
+    "lv": "Πού είναι το ταχυδρομείο;",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Θύμισέ μου να γράψω γράμμα αύριο!",
+    "lv": "Θύμισέ μου αύριο να γράψω!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Παρακαλώ βάλτε αυτό το γράμμα στο γραμματοκιβώτιο!",
+    "lv": "Ρίξτε, παρακαλώ, αυτό το γράμμα στο γραμματοκιβώτιο.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Γεια, αυτή είναι η Έμμα.",
+    "lv": "Γεια, η Έμα είμαι.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Μπορώ να σε καλέσω αργότερα",
+    "lv": "Μπορώ να σου τηλεφωνήσω αργότερα;",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Πρέπει να περιμένω πολύ • ",
+    "lv": "Πρέπει να περιμένω πολύ;",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Κόψτε μου τα μαλλιά.",
+    "lv": "Κόψτε μου, παρακαλώ, τα μαλλιά.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Πίσω, παρακαλώ, όχι πολύ κοντό.",
+    "lv": "Πίσω, παρακαλώ, όχι πολύ κοντά.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Πότε ξεκινά η παράσταση • ",
+    "lv": "Πότε αρχίζει η παράσταση;",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Ξεκινά στις οκτώ και μισή.",
+    "lv": "Αρχίζει στις εφτά και μισή.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Όλα τα εισιτήρια έχουν εξαντληθεί.",
+    "lv": "Όλες οι θέσεις έχουν εξαντληθεί.",
     "level": "Sätze"
   },
   {
@@ -3311,12 +3311,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Αφήνουμε τα μπουφάν στην ντουλάπα.",
+    "lv": "Αφήνουμε τα μπουφάν στο βεστιάριο.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Πιο γρήγορα, παρακαλώ, η αυλαία ανοίγει τώρα!",
+    "lv": "Γρήγορα, παρακαλώ, η αυλαία ανοίγει σε λίγο!",
     "level": "Sätze"
   },
   {
@@ -3326,117 +3326,117 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Να σε προσκαλέσω στο χορό • ",
+    "lv": "Μπορώ να σε καλέσω να χορέψουμε;",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Πότε είναι ο γάμος σας • ",
+    "lv": "Πότε είναι ο γάμος σας;",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Ψάχνω για διαμέρισμα.",
+    "lv": "Ψάχνω διαμέρισμα.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Υπάρχει διαθέσιμο διαμέρισμα σε αυτό το κτίριο • ",
+    "lv": "Υπάρχει ελεύθερο διαμέρισμα σε αυτή την πολυκατοικία;",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Πόσο είναι το ενοίκιο • ",
+    "lv": "Πόσο είναι το ενοίκιο;",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Το διαμέρισμα έχει τρία δωμάτια και κουζίνα.",
+    "lv": "Το διαμέρισμα έχει τρία δωμάτια και μια κουζίνα.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Μετακομίζουμε σήμερα.",
+    "lv": "Σήμερα μετακομίζουμε.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Μία, βάλε τα πράγματα στα κουτιά, σε παρακαλώ!",
+    "lv": "Μία, βάλε, σε παρακαλώ, τα πράγματα σε κούτες!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Είναι όλα ήδη συσκευασμένα • ",
+    "lv": "Τα μάζεψες όλα;",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Είμαι σε αλληλογραφία με τον φίλο μου.",
+    "lv": "Βρίσκομαι σε επαφή με τον φίλο μου.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Πάμε θέατρο • ",
+    "lv": "Πάμε στο θέατρο;",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Είναι όλα φορτωμένα • ",
+    "lv": "Φορτώθηκαν όλα;",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Είναι μια όμορφη θέα!",
+    "lv": "Τι ωραία θέα!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Τώρα μπορούμε να τα φτιάξουμε όλα ξανά.",
+    "lv": "Τώρα μπορούμε να τα τακτοποιήσουμε πάλι όλα.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Πόσα δωμάτια έχετε • ",
+    "lv": "Πόσα δωμάτια έχετε;",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Το καλοκαίρι πηγαίνω στη θάλασσα.",
+    "lv": "Το καλοκαίρι πάω στη θάλασσα.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Ξέρετε κολύμπι",
+    "lv": "Ξέρεις να κολυμπάς;",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Μην κολυμπάτε πολύ μακριά!",
+    "lv": "Μην κολυμπήσεις πολύ προς τα ανοιχτά!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Πηγαίνεις για κολύμπι κάθε μέρα • ",
+    "lv": "Κάνεις μπάνιο κάθε μέρα;",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Αν ο καιρός είναι καλός, πάω για ψάρεμα.",
+    "lv": "Όταν κάνει καλό καιρό, πάω για ψάρεμα.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Πώς μοιάζει • ",
+    "lv": "Τι εμφάνιση έχει;",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Είναι ακόμα αρκετά αλλαγμένος.",
+    "lv": "Έχει αλλάξει πραγματικά πολύ.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Πώς είναι σαν άνθρωπος • ",
+    "lv": "Τι άνθρωπος είναι;",
     "level": "Sätze"
   },
   {
@@ -3446,22 +3446,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Νιώθω άσχημα.",
+    "lv": "Δεν αισθάνομαι καλά.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Έχω άσχημο πονοκέφαλο.",
+    "lv": "Έχω δυνατό πονοκέφαλο.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Έχω κρυώσει.",
+    "lv": "Κρυολόγησα.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Έχω κρυώσει.",
+    "lv": "Έχω συνάχι.",
     "level": "Sätze"
   },
   {
@@ -3471,7 +3471,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Πρέπει να πάω στο γιατρό.",
+    "lv": "Πρέπει να πάω στον γιατρό.",
     "level": "Sätze"
   },
   {
@@ -3481,12 +3481,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Έχετε πυρετό • ",
+    "lv": "Έχεις πυρετό;",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Χθες είχα υψηλή θερμοκρασία.",
+    "lv": "Χτες είχα δέκατα.",
     "level": "Sätze"
   },
   {
@@ -3501,22 +3501,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Ξέρεις ότι ο Φιν είναι άρρωστος • ",
+    "lv": "Ξέρεις ότι ο Φιν είναι άρρωστος;",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Σύμφωνα με τον γιατρό, σύντομα θα είναι και πάλι καλά.",
+    "lv": "Σύμφωνα με τον γιατρό, σύντομα θα γίνει πάλι καλά.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Θέλω να ανανεώσω το διαμέρισμα.",
+    "lv": "Θέλω να επιπλώσω από την αρχή το διαμέρισμά μου.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Μπορώ να αγοράσω με δόσεις • ",
+    "lv": "Μπορώ να το αγοράσω με δόσεις;",
     "level": "Sätze"
   },
   {
@@ -3526,17 +3526,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Ο Νώε έμαθε να κολυμπάει σε δύο εβδομάδες.",
+    "lv": "Ο Νόα έμαθε κολύμπι σε δύο εβδομάδες.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Να είστε προσεκτικοί με το φαγητό.",
+    "lv": "Πρόσεχε ακόμη τι τρως.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Μιλάς γερμανικά",
+    "lv": "Μιλάς γερμανικά;",
     "level": "Sätze"
   },
   {
@@ -3546,52 +3546,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Μιλάς αρκετά άπταιστα.",
+    "lv": "Μιλάς με αρκετή ευχέρεια.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Πού έμαθες γερμανικά • ",
+    "lv": "Πού έμαθες γερμανικά;",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Εδώ και ένα χρόνο κάνω μαθήματα γερμανικών.",
+    "lv": "Κάνω μαθήματα γερμανικών εδώ και έναν χρόνο.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Πάντα ψάχνω μια ευκαιρία να μιλήσω γερμανικά.",
+    "lv": "Ψάχνω πάντα ευκαιρία να μιλήσω γερμανικά.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Είναι ακόμα διαθέσιμο αυτό το βιβλίο • ",
+    "lv": "Είναι ακόμη διαθέσιμο το βιβλίο;",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Δυστυχώς, το βιβλίο έχει εξαντληθεί.",
+    "lv": "Το βιβλίο δυστυχώς έχει εξαντληθεί.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Πότε θα κυκλοφορήσει η νέα έκδοση • ",
+    "lv": "Πότε κυκλοφορεί η νέα έκδοση;",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Σε τι μπορώ να βοηθήσω • ",
+    "lv": "Σε τι μπορώ να σας βοηθήσω;",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Έχετε φρέσκα αυγά • ",
+    "lv": "Έχετε πολύ φρέσκα αυγά;",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Πόσο κοστίζουν • ",
+    "lv": "Πόσο κάνουν;",
     "level": "Sätze"
   },
   {
@@ -3601,97 +3601,97 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Μπορείς να χάσεις μισό κιλό • ",
+    "lv": "Μπορείτε να μου ζυγίσετε μισό κιλό;",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Πόσα πρέπει να πληρώσω • ",
+    "lv": "Πόσα πρέπει να πληρώσω;",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Πόσο κοστίζει ένα κιλό • ",
+    "lv": "Πόσο κάνει το κιλό;",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Ζυγίστε δύο κιλά.",
+    "lv": "Ζυγίστε μου, παρακαλώ, δύο κιλά.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Έχετε και εσείς καρότα • ",
+    "lv": "Έχετε και καρότα;",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Έχετε καλό βοδινό κρέας • ",
+    "lv": "Έχετε καλό μοσχαρίσιο κρέας;",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Δώστε δύο κιλά κιμά.",
+    "lv": "Δώστε μου δύο κιλά κιμά.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Ένα καρβέλι ψωμί, παρακαλώ, αλλά όχι πολύ σκληρό.",
+    "lv": "Ένα καρβέλι ψωμί, παρακαλώ, αλλά όχι πολύ τραγανό.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Το ψωμί είναι φρεσκοψημένο.",
+    "lv": "Το ψωμί μόλις ψήθηκε.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Τι φρούτα έχετε σήμερα • ",
+    "lv": "Τι φρούτα έχετε σήμερα;",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Πόσο κοστίζουν τα μήλα • ",
+    "lv": "Πόσο κάνουν τα μήλα;",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Μετά παίρνω δύο κιλά μήλα.",
+    "lv": "Τότε θα πάρω δύο κιλά μήλα.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Οι βολβοί είναι πολύ ακριβοί.",
+    "lv": "Τα αχλάδια είναι πολύ ακριβά.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Μπορείτε να φέρετε τα πάντα στο σπίτι • ",
+    "lv": "Μπορείτε να μου τα φέρετε όλα στο σπίτι;",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Έχεις ρύζι • ",
+    "lv": "Έχετε ρύζι;",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Παρακαλώ δώστε ένα κιλό ρύζι.",
+    "lv": "Δώστε μου, παρακαλώ, ένα κιλό ρύζι.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Ευχαριστώ, όχι αυτή τη φορά.",
+    "lv": "Ευχαριστώ, αυτή τη φορά όχι.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Πόσο κοστίζει αυτό το χαλί • ",
+    "lv": "Πόσο κάνει αυτό το χαλί;",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Μπορείτε να παραδώσετε τα έπιπλα στο διαμέρισμα • ",
+    "lv": "Μπορείτε να φέρετε τα έπιπλα στο διαμέρισμά μου;",
     "level": "Sätze"
   },
   {
@@ -3701,62 +3701,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Γράψτε ένα τιμολόγιο.",
+    "lv": "Παρακαλώ, ετοιμάστε μου τον λογαριασμό.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Πόσο κοστίζει ένας μετρητής • ",
+    "lv": "Πόσο κάνει το μέτρο;",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Λατρεύω αυτό το ύφασμα.",
+    "lv": "Μου αρέσει αυτό το ύφασμα.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Παρακαλώ κόψτε τρία μέτρα.",
+    "lv": "Κόψτε μου, παρακαλώ, τρία μέτρα.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Έχετε άλλα δείγματα • ",
+    "lv": "Έχετε και άλλα σχέδια;",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Δεν μου αρέσει αυτό το χρώμα.",
+    "lv": "Αυτό το χρώμα δεν μου αρέσει.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Δώστε πιο φωτεινό.",
+    "lv": "Δώστε μου ένα πιο ανοιχτό.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Πόσο είναι αυτές οι κάλτσες • ",
+    "lv": "Πόσο κάνουν αυτές οι κάλτσες;",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Τι είδους γάντια θέλετε • ",
+    "lv": "Τι γάντια θα θέλατε;",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Μου είναι λίγο πολύ σφιχτά.",
+    "lv": "Αυτά είναι λίγο στενά για μένα.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Λοιπόν, είναι μια χαρά τώρα.",
+    "lv": "Να, τώρα εφαρμόζουν καλά.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Μπορείτε να προτείνετε έναν καλό ράφτη • ",
+    "lv": "Μπορείς να μου συστήσεις έναν καλό ράφτη;",
     "level": "Sätze"
   },
   {
@@ -3766,12 +3766,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Πότε θα είναι έτοιμο • ",
+    "lv": "Πότε θα είναι έτοιμο;",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Το κοστούμι ταιριάζει καλά.",
+    "lv": "Το κοστούμι εφαρμόζει καλά.",
     "level": "Sätze"
   },
   {
@@ -3781,12 +3781,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Παρακαλώ καθαρίστε και σιδερώστε το!",
+    "lv": "Παρακαλώ, καθαρίστε το και σιδερώστε το!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Πότε θα είναι έτοιμο το φόρεμα • ",
+    "lv": "Πότε θα είναι έτοιμο το φόρεμα;",
     "level": "Sätze"
   },
   {
@@ -3796,42 +3796,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Μπορείς να φτιάξεις τα παπούτσια σήμερα • ",
+    "lv": "Μπορείτε να επιδιορθώσετε τα παπούτσια σήμερα;",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Πότε μπορώ να πάρω τα παπούτσια • ",
+    "lv": "Πότε μπορώ να παραλάβω τα παπούτσια;",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Το ρολόι μου δεν λειτουργεί.",
+    "lv": "Το ρολόι χειρός μου δεν λειτουργεί.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Είναι πέντε λεπτά μπροστά.",
+    "lv": "Πάει πέντε λεπτά μπροστά.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Είσαι μυωπικός ή υπερμετρωπικός • ",
+    "lv": "Έχεις μυωπία ή υπερμετρωπία;",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Θέλω να αγοράσω γυαλιά.",
+    "lv": "Θα ήθελα να αγοράσω γυαλιά.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Μπορείς να μου φτιάξεις τα γυαλιά • ",
+    "lv": "Μπορείτε να επιδιορθώσετε τα γυαλιά μου;",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Διαρκεί μόνο ένα τέταρτο της ώρας.",
+    "lv": "Θα κρατήσει μόνο ένα τέταρτο.",
     "level": "Sätze"
   },
   {
@@ -3846,7 +3846,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Παρακαλώ συσκευάστε και στείλτε το σπίτι.",
+    "lv": "Παρακαλώ, τυλίξτε το και στείλτε μού το στο σπίτι.",
     "level": "Sätze"
   },
   {
@@ -3856,27 +3856,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Τραβήξτε με μια φωτογραφία.",
+    "lv": "Παρακαλώ, φωτογραφίστε με.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Κάτσε, κοίτα κατευθείαν στην κάμερα και μην κουνηθείς!",
+    "lv": "Καθίστε, κοιτάξτε ίσια στην κάμερα και μην κουνιέστε!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Πότε θα δω δείγμα • ",
+    "lv": "Πότε μπορώ να δω τη δοκιμαστική φωτογραφία;",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Πότε θα είναι έτοιμες οι φωτογραφίες • ",
+    "lv": "Πότε θα είναι έτοιμες οι φωτογραφίες;",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Η φωτογραφία ήταν επιτυχημένη.",
+    "lv": "Η λήψη πέτυχε.",
     "level": "Sätze"
   },
   {
@@ -3886,72 +3886,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Μπορείτε να μεγεθύνετε και τη φωτογραφία • ",
+    "lv": "Μπορείτε να μεγεθύνετε και τη φωτογραφία;",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Είναι αληθινές αυτές οι πέτρες • ",
+    "lv": "Είναι αληθινές αυτές οι πέτρες;",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Είναι πραγματικός χρυσός • ",
+    "lv": "Είναι αυτό γνήσιος χρυσός;",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Δείξε μου τις βέρες, σε παρακαλώ.",
+    "lv": "Δείξτε μου, παρακαλώ, βέρες.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Το δαχτυλίδι είναι λίγο πολύ μεγάλο για μένα.",
+    "lv": "Το δαχτυλίδι είναι λίγο φαρδύ για μένα.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Μπορώ να το κάνω πιο στενό.",
+    "lv": "Μπορώ να το στενέψω.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Αυτό το δαχτυλίδι μου ταιριάζει.",
+    "lv": "Αυτό το δαχτυλίδι μού κάνει.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Δείξτε όμορφες ιδέες για δώρα.",
+    "lv": "Δείξτε μου ωραίες ιδέες για δώρα.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Πώς σας φαίνονται αυτά τα σκουλαρίκια • ",
+    "lv": "Πώς σου φαίνονται αυτά τα σκουλαρίκια;",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Αυτός ο ώμος είναι πολύ όμορφος.",
+    "lv": "Αυτή η καρφίτσα είναι πραγματικά ωραία.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Αυτή η πέτρα είναι ζαφείρι.",
+    "lv": "Η πέτρα είναι ζαφείρι.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Δεν είναι αληθινή πέτρα, είναι γυαλί.",
+    "lv": "Αυτή δεν είναι αληθινή πέτρα, είναι γυαλί.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Μπορώ να συστήσω ανεπιφύλακτα αυτό το βραχιόλι.",
+    "lv": "Αυτό το βραχιόλι μπορώ να σας το συστήσω ιδιαίτερα.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Είναι εξαιρετικά φιλοτεχνημένο.",
+    "lv": "Είναι ιδιαίτερα καλοδουλεμένο.",
     "level": "Sätze"
   },
   {
@@ -3961,22 +3961,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Μπορώ να πάρω ένα κουτί δωρεάν • ",
+    "lv": "Το κουτί το παίρνω δωρεάν;",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Όλα τα κοσμήματα είναι σφραγισμένα.",
+    "lv": "Όλα τα κοσμήματα φέρουν σφραγίδα.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Αν δεν αρέσει στη γυναίκα μου, μπορώ να αλλάξω • ",
+    "lv": "Αν δεν αρέσει στη γυναίκα μου, μπορώ να το αλλάξω;",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Σίγουρα, ανά πάσα στιγμή.",
+    "lv": "Φυσικά, οποτεδήποτε.",
     "level": "Sätze"
   }
 ];
