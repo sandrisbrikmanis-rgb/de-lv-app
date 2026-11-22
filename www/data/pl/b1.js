@@ -15809,7 +15809,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "trzeci • we trójkę",
     "level": "B1",
     "study": {
@@ -72013,11 +72013,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "zaspać",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "ubezpieczać • zapewniać",
     "level": "B1",
@@ -72242,11 +72237,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "zaopatrywać się",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "opóźnić",
     "level": "B1"
   },
   {
@@ -74437,13 +74427,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "wagon",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75067,11 +75050,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "paść się",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "odmówić",
     "level": "B1"
   },
   {

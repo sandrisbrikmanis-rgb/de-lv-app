@@ -20571,7 +20571,7 @@ const B2_WORDS = [
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "farss • joku luga • rupjš joks",
+    "lv": "joki • nerātnības",
     "level": "B2"
   },
   {

@@ -15809,13 +15809,13 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
-    "lv": "trešais • trijatā",
+    "de": "zu dritt",
+    "lv": "trijatā",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "trešais • trijatā",
+      "translation": "trijatā",
       "explanation": [
         "Galvenā doma: dritt ir kārtas skaitļa vārds “trešais”. Kā īpašības vārds tas parasti ir ar galotni: der dritte Tag, die dritte Tür, das dritte Mal. Bez galotnes tas parādās frāzē zu dritt – trijatā.",
         "Rakstot ciparos: 3. = dritt-. Datumos der dritte Mai, am dritten Mai. Atšķirībā no skaitļa drei (trīs), dritt (izņemot frāzi zu dritt) apraksta secību, nevis daudzumu."
@@ -72009,11 +72009,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "aizgulēties",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "apdrošināt",
     "level": "B1",
@@ -72238,11 +72233,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "nodrošināties",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "aizkavēt",
     "level": "B1"
   },
   {
@@ -74433,13 +74423,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "vagons",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75063,11 +75046,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "ganīties",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "atteikt",
     "level": "B1"
   },
   {

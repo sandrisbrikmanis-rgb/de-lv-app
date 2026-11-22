@@ -15808,7 +15808,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "tredje",
     "level": "B1",
     "study": {
@@ -71998,11 +71998,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "forsove seg",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "forsikre",
     "level": "B1",
@@ -72227,11 +72222,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "forsyne seg",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "forseinke",
     "level": "B1"
   },
   {
@@ -74422,13 +74412,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "vogn",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75052,11 +75035,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "beite",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "nekte",
     "level": "B1"
   },
   {

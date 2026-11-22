@@ -15809,7 +15809,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "tretji • v trojici",
     "level": "B1",
     "study": {
@@ -72013,11 +72013,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "zaspati",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "zavarovati",
     "level": "B1",
@@ -72242,11 +72237,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "oskrbeti se",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "zakasniti • zavleči",
     "level": "B1"
   },
   {
@@ -74437,13 +74427,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "vagon",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75067,11 +75050,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "pasti se",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "zavrniti • odkloniti",
     "level": "B1"
   },
   {

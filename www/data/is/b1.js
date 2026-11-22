@@ -15805,7 +15805,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "þriðji • þrír saman",
     "level": "B1",
     "study": {
@@ -71992,11 +71992,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "sofa yfir sig",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "tryggja",
     "level": "B1",
@@ -72221,11 +72216,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "birgja sig upp",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "tefja",
     "level": "B1"
   },
   {
@@ -74413,13 +74403,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "járnbrautarvagn • vagn",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75043,11 +75026,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "vera á beit",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "neita",
     "level": "B1"
   },
   {
