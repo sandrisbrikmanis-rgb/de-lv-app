@@ -353,7 +353,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "ystävystyä",
     "level": "B2"
   },
@@ -4626,7 +4626,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "osoittautua hyväksi • osoittaa kykynsä",
     "level": "B2"
   },
@@ -5941,7 +5941,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "sopimaton • asiaton",
     "level": "B2"
   },
@@ -13821,8 +13821,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "umpimähkään",
     "level": "B2"
   },
@@ -18704,7 +18703,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "hyväillä • helliä",
     "level": "B2"
   },
@@ -19031,9 +19030,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "matinea • päivänäytös",
     "level": "B2"
   },
@@ -21353,12 +21352,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "tarkkanäköinen",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "teräväpäinen • tarkkanäköinen",
     "level": "B2"
   },
@@ -23665,7 +23664,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "kysellä • tiedustella",
     "level": "B2"
   },

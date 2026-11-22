@@ -353,7 +353,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "bli venner",
     "level": "B2"
   },
@@ -4625,7 +4625,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "stå si prøve • vise seg skikka",
     "level": "B2"
   },
@@ -5940,7 +5940,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "malplassert • upassande",
     "level": "B2"
   },
@@ -13819,8 +13819,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "på måfå • på lykke og fromme",
     "level": "B2"
   },
@@ -18702,7 +18701,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "kjærteikne • kose med",
     "level": "B2"
   },
@@ -19029,9 +19028,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "matiné",
     "level": "B2"
   },
@@ -21351,12 +21350,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "skarpsynt • merksam",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "kvikk • oppvakt",
     "level": "B2"
   },
@@ -23663,7 +23662,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "høyre seg for • spørje seg for",
     "level": "B2"
   },

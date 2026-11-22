@@ -353,7 +353,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "πιάνω φιλίες • γίνομαι φίλος",
     "level": "B2"
   },
@@ -4625,7 +4625,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "αποδεικνύομαι ικανός",
     "level": "B2"
   },
@@ -5939,7 +5939,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "ακατάλληλος • άτοπος • άκαιρος",
     "level": "B2"
   },
@@ -13819,8 +13819,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "στην τύχη",
     "level": "B2"
   },
@@ -18702,7 +18701,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "χαϊδεύω • κανακεύω",
     "level": "B2"
   },
@@ -19029,9 +19028,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "πρωινή παράσταση",
     "level": "B2"
   },
@@ -21351,12 +21350,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "οξυδερκής • παρατηρητικός",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "πνευματώδης • εφευρετικός",
     "level": "B2"
   },
@@ -23663,7 +23662,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "ρωτώ τριγύρω",
     "level": "B2"
   },

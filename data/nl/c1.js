@@ -2907,7 +2907,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "zich bewijzen • zijn waarde bewijzen",
     "level": "C1"
   },
@@ -2919,7 +2919,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "solliciteren • zich kandidaat stellen",
     "level": "C1"
   },

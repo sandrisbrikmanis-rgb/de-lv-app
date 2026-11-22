@@ -24541,7 +24541,7 @@ const B1_WORDS = [
   },
   {
     "de": "Ersatzteil",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ersatzteile",
     "lv": "Ersatzdeel",
     "level": "B1"
@@ -27698,7 +27698,7 @@ const B1_WORDS = [
   },
   {
     "de": "Gänsefüßchen",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Gänsefüßchen",
     "lv": "Gänseféisercher • Gänseféiss",
     "level": "B1"
@@ -31846,7 +31846,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "halt machen",
+    "de": "haltmachen",
     "lv": "ophalen • stoe bleiwen",
     "level": "B1"
   },
@@ -42198,7 +42198,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "lahm legen",
+    "de": "lahmlegen",
     "lv": "lamleeën • paralyséieren",
     "level": "B1"
   },
@@ -49998,7 +49998,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "orientieren",
+    "de": "sich orientieren",
     "lv": "sech orientéieren",
     "level": "B1",
     "study": {
@@ -59000,7 +59000,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwer fallen",
+    "de": "schwerfallen",
     "lv": "schwéierfalen",
     "level": "B1"
   },
@@ -63898,9 +63898,9 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Strichkode",
+    "de": "Strichcode",
     "de_article": "der",
-    "de_plural": "die Strichkodes",
+    "de_plural": "die Strichcodes",
     "lv": "Barcode",
     "level": "B1"
   },

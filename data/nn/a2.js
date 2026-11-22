@@ -1936,7 +1936,7 @@ const A2_WORDS = [
   },
   {
     "de": "Aerobic",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": null,
     "lv": "aerobic",
     "level": "A2"
@@ -25171,7 +25171,7 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "kennen lernen",
+    "de": "kennenlernen",
     "lv": "bli kjend med",
     "level": "A2"
   },
@@ -29410,7 +29410,7 @@ const A2_WORDS = [
   },
   {
     "de": "Lebensmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Lebensmittel",
     "lv": "matvarer • næringsmiddel",
     "level": "A2"
@@ -32593,7 +32593,7 @@ const A2_WORDS = [
   },
   {
     "de": "Nahrungsmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Nahrungsmittel",
     "lv": "matvarer • næringsmiddel",
     "level": "A2"
@@ -32951,7 +32951,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "nu",
+    "de": "im Nu",
     "lv": "på eit augeblink • på eit blunk",
     "level": "A2"
   },

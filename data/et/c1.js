@@ -2909,7 +2909,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "end tõestama",
     "level": "C1"
   },
@@ -2921,7 +2921,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "kandideerima",
     "level": "C1"
   },

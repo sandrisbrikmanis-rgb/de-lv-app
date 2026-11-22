@@ -24549,7 +24549,7 @@ const B1_WORDS = [
   },
   {
     "de": "Ersatzteil",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ersatzteile",
     "lv": "rezervni dio",
     "level": "B1"
@@ -27707,7 +27707,7 @@ const B1_WORDS = [
   },
   {
     "de": "Gänsefüßchen",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Gänsefüßchen",
     "lv": "navodnici",
     "level": "B1"
@@ -31856,7 +31856,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "halt machen",
+    "de": "haltmachen",
     "lv": "stati • zaustaviti se",
     "level": "B1"
   },
@@ -42209,7 +42209,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "lahm legen",
+    "de": "lahmlegen",
     "lv": "paralizirati • onesposobiti",
     "level": "B1"
   },
@@ -50003,7 +50003,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "orientieren",
+    "de": "sich orientieren",
     "lv": "orijentirati se • snaći se",
     "level": "B1",
     "study": {
@@ -59009,7 +59009,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwer fallen",
+    "de": "schwerfallen",
     "lv": "biti teško • teško padati",
     "level": "B1"
   },
@@ -63908,9 +63908,9 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Strichkode",
+    "de": "Strichcode",
     "de_article": "der",
-    "de_plural": "die Strichkodes",
+    "de_plural": "die Strichcodes",
     "lv": "crtični kod • barkod",
     "level": "B1"
   },

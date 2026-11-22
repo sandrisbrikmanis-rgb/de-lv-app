@@ -2905,7 +2905,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "Osvědčit se • Obstát",
     "level": "C1"
   },
@@ -2917,7 +2917,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "Ucházet se • Přihlásit se • Usilovat o",
     "level": "C1"
   },

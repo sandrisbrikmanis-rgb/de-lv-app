@@ -2902,7 +2902,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "Prove oneself • Stand the test",
     "level": "C1"
   },
@@ -2914,7 +2914,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "Apply • Run • Strive • Aspire",
     "level": "C1"
   },
