@@ -728,7 +728,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Você quer macarrão nodaļa?"
   },
   "diag_183": {
-    "de": "Erinnere mich morgen daran zu schreiben!",
+    "de": "Erinnere mich morgen daran, zu schreiben!",
     "lv": "Atgādini man rit parakstīt!"
   },
   "diag_184": {
