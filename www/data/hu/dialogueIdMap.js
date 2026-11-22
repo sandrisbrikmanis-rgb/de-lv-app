@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Fogat akarok mosni."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Mivel mosol fogat?"
   },
   "diag_038": {

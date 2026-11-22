@@ -35,7 +35,7 @@ const DIALOGUE_ID_MAP = {
   "diag_034": { "de": "Vergiss nicht, das Zimmer zu lüften!", "lv": "Neaizmirsti istabu izvēdināt!" },
   "diag_035": { "de": "Wo ist das Handtuch?", "lv": "Kur ir dvielis?" },
   "diag_036": { "de": "Ich möchte mir die Zähne putzen.", "lv": "Gribu notīrīt zobus." },
-  "diag_037": { "de": "Mit was putzt du dir die Zähne?", "lv": "Ar ko tu tīri zobus?" },
+  "diag_037": { "de": "Womit putzt du dir die Zähne?", "lv": "Ar ko tu tīri zobus?" },
   "diag_038": { "de": "Ich möchte mich anziehen.", "lv": "Gribu apģērbties." },
   "diag_039": { "de": "Zieh dich bitte schnell an!", "lv": "Ģērbies ātri, lūdzu!" },
   "diag_040": { "de": "Kleide dich wärmer an, draußen ist es kühl.", "lv": "Ģērbies siltāk, ārā ir vēss." },

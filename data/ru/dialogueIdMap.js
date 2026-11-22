@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Я хочу почистить зубы."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Чем вы чистите зубы?"
   },
   "diag_038": {

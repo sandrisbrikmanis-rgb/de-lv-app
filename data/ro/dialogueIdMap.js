@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Vreau să mă spăl pe dinți."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Cu ce ​​te speli pe dinti?"
   },
   "diag_038": {

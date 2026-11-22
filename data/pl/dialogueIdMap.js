@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Chcę umyć zęby."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Czym myjesz zęby?"
   },
   "diag_038": {
