@@ -1,672 +1,672 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Остерегайтесь этого!",
+    "lv": "Чувај се од тоа!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Если ничего не мешает. • Если все пойдет по плану.",
+    "lv": "Ако ништо не се испречи. • Ако сѐ оди според планот.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Јас го знам тоа!",
+    "lv": "Можам да си замислам!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Он тогда болен?",
+    "lv": "Зар е болен?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Какво тогава?",
+    "lv": "Што тогаш?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Тем более.",
+    "lv": "Толку повеќе.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Чем больше, тем лучше.",
+    "lv": "Колку повеќе, толку подобро.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Все указывает на дело.",
+    "lv": "Сѐ укажува дека ќе врне.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Для меня это не имеет особого смысла.",
+    "lv": "Од тоа немам голема корист.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Он не может прийти из-за работы.",
+    "lv": "Не може да дојде поради службени обврски.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Зборувај!",
+    "lv": "Ајде, зборувајте!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Гром гремит.",
+    "lv": "Грми.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "В два раза больше.",
+    "lv": "Двојно поголем.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "Оттуда.",
+    "lv": "Оттаму.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Время истекает.",
+    "lv": "Времето истекува.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Его охватывает беспокойство.",
+    "lv": "Го мачат грижи.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Вы внимательно прочитали книгу?",
+    "lv": "Ја проучи ли темелно книгата?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Не проходите! • Выход закрыт!",
+    "lv": "Забрането минување!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Могу я спросить тебя",
+    "lv": "Може ли да Ве замолам?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Я хочу пить.",
+    "lv": "Жеден сум.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Это именно то, что я имею в виду.",
+    "lv": "Токму на тоа мислам.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Это вообще не имеет значения.",
+    "lv": "Сосема е сеедно.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Чего ты действительно хочешь?",
+    "lv": "Што всушност сакате?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Это дело срочное?",
+    "lv": "Дали е итна оваа работа?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Очень срочно!",
+    "lv": "Многу итно!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Ја заспав.",
+    "lv": "Брзам.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Вы просто представляете, что вы больны.",
+    "lv": "Само ти се чини дека си болен.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Что вам приходит на ум?",
+    "lv": "Што си дозволуваш? • Што ти паѓа на ум?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Когда-то было.",
+    "lv": "Си беше еднаш.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Пожалуйста, заходите!",
+    "lv": "Качете се, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Пожалуйста, заходите!",
+    "lv": "Влезете!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Мне там понравились некоторые вещи.",
+    "lv": "Некои работи таму ми се допаднаа.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Рекомендуется.",
+    "lv": "Се препорачува.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Эта бутылка содержит уксус.",
+    "lv": "Во ова шише има оцет.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Извините, пожалуйста!",
+    "lv": "Извинете, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Либо... либо...",
+    "lv": "Или... или...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Кто был первым?",
+    "lv": "Кој беше прв?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Кто сегодня не пришел?",
+    "lv": "Кој отсуствува денес?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Какво става с теб",
+    "lv": "Што ти е?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Како се викаш?",
+    "lv": "Како се викате?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Какво означава?",
+    "lv": "Што треба да значи тоа?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Пожалуйста, подойди ближе!",
+    "lv": "Ве молам, приближете се!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Разговаривать! • Истории!",
+    "lv": "Зборувај! • Раскажувај!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Осенью",
+    "lv": "наесен",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Дамы и господа!",
+    "lv": "Дами и господа!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Начиная с сегодняшнего дня",
+    "lv": "од денес натаму",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Сегодня утром",
+    "lv": "утрово",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Вчера вечером",
+    "lv": "ноќва",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Помощь!",
+    "lv": "Помош!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Я изучаю немецкий каждый день.",
+    "lv": "Секој ден учам германски.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Можете ли да го повторите тоа, ве молам?",
+    "lv": "Можеш ли, те молам, да го повториш тоа?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Срещни ме на гарата.",
+    "lv": "Се среќаваме на железничката станица.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Частично я с вами согласен.",
+    "lv": "Делумно се согласувам со тебе.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Это решение имеет далеко идущие последствия.",
+    "lv": "Оваа одлука има далекусежни последици.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Следует рассмотреть несколько точек зрения.",
+    "lv": "Би требало да се земат предвид повеќе гледишта.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Можете ли да го објасните ова подетално?",
+    "lv": "Дали би можеле да го објасните тоа подетално?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Что касается меня...",
+    "lv": "Што се однесува до мене,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Сколько тебе лет?",
+    "lv": "Колку години имате?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Мне двадцать лет.",
+    "lv": "Имам дваесет години.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "С сегодняшнего дня.",
+    "lv": "Од денес.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Впредь.",
+    "lv": "Отсега натаму.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Другого пути нет.",
+    "lv": "Поинаку не може.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Позвоните мне.",
+    "lv": "Јавете ми се.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Ве молиме исклучете го радиото.",
+    "lv": "Ве молам, исклучете го радиото.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Пожалуйста, обратите внимание на трафик.",
+    "lv": "Внимавај, те молам, на сообраќајот.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Вам следует обратить на это внимание.",
+    "lv": "На тоа мора да внимаваш.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Сегодня я сделаю это по-другому.",
+    "lv": "Денес ќе го направам поинаку.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Мы ждем автобус.",
+    "lv": "Го чекаме автобусот.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Он живет один.",
+    "lv": "Живее сам.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Я закончил обучение. • Я закончил образование.",
+    "lv": "Ја завршив обуката. • Го завршив образованието.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Я подожду, пока дождь прекратится.",
+    "lv": "Ќе почекам да престане дождот.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Он работает в отделе продаж.",
+    "lv": "Работи во одделот за продажба.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "У меня аллергия на кошек.",
+    "lv": "Алергичен сум на мачки.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "С другой стороны, я его понимаю.",
+    "lv": "Од друга страна, го разбирам.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Я проанализировал ситуацию.",
+    "lv": "Ја анализирав ситуацијата.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Она приняла мое предложение.",
+    "lv": "Таа го прифати мојот предлог.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Я хочу проанализировать это более точно.",
+    "lv": "Би сакал да го анализирам ова подетално.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Я хочу изменить договор.",
+    "lv": "Би сакал да го изменам договорот.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Он постоянно меняет свое мнение.",
+    "lv": "Постојано го менува мислењето.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "И претходно имавме слични проблеми.",
+    "lv": "Слични проблеми сме имале и порано.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Без понятия!",
+    "lv": "Немам поим!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Перестаньте жаловаться.",
+    "lv": "Престани да се жалиш.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Овој фустан е стилски и конзервативен.",
+    "lv": "Овој фустан е елегантен и класичен.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Мне нравится слушать музыку на аккордеоне.",
+    "lv": "Сакам да слушам музика на хармоника.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Можете ли вы нажать на устройство?",
+    "lv": "Можеш ли да кликнеш на уредот?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Пожалуйста, откройте файл и нажмите на него.",
+    "lv": "Те молам, отвори ја датотеката и кликни на неа.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Я попал в аварию.",
+    "lv": "Имав несреќа.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Одиме до станицата.",
+    "lv": "Одиме пешки до станицата.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Моля, включете телевизора.",
+    "lv": "Те молам, вклучи го телевизорот.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Мой компьютер сломался.",
+    "lv": "Компјутерот ми се сруши.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Я пойду на рыбалку на выходных.",
+    "lv": "За викендот ќе одам на риболов.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Я пропустил звонок.",
+    "lv": "Го пропуштив повикот.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Можешь позвонить мне позже",
+    "lv": "Можеш ли да ми се јавиш подоцна?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Пожалуйста, примите мое предложение.",
+    "lv": "Те молам, прифати го мојот предлог.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Я принимаю ваше предложение.",
+    "lv": "Ја прифаќам твојата понуда.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Он принял приглашение.",
+    "lv": "Ја прифати поканата.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Я боюсь пауков.",
+    "lv": "Се плашам од пајаци.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Не бойтесь, все будет хорошо.",
+    "lv": "Не се плаши, сѐ ќе биде добро.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Найдите эхо. • Найдите отзывчивость",
+    "lv": "Наидува на одзив. • Наидува на одобрување.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Это зависит от этого.",
+    "lv": "Зависи.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Из-за этого времени. • В этом отношении",
+    "lv": "По овој повод.",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Да претпоставиме дека ...",
+    "lv": "Да претпоставиме дека...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Што направи таму?",
+    "lv": "Каков неред си направил?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "До конца.",
+    "lv": "До крај.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Кажется, ты мне не веришь.",
+    "lv": "Изгледа дека не ми веруваш.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "По моему мнению...",
+    "lv": "Според мене...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Не притворяйся!",
+    "lv": "Не претерувај толку!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Приступайте к работе.",
+    "lv": "Се фаќа за работа.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Запыхаться.",
+    "lv": "Без здив е.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Добър апетит!",
+    "lv": "Пријатно!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "На одном дыхании.",
+    "lv": "Во еден здив.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "В каждом случае.",
+    "lv": "Во секој случај.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Внезапно все стало тихо.",
+    "lv": "Одеднаш сѐ замолкна.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Пожалуйста, откройте дверь!",
+    "lv": "Отвори ја вратата, те молам!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Он взял кредит.",
+    "lv": "Зеде кредит.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Сегодня нам нужно привести в порядок комнату.",
+    "lv": "Денес мораме да средиме.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Я остановлюсь сейчас.",
+    "lv": "Сега престанувам.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Тој веќе стана.",
+    "lv": "Веќе стана.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Ќе мораме да го презакажеме состанокот.",
+    "lv": "Мораме да ја одложиме средбата.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Она меня раздражала.",
+    "lv": "Ме налути.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Внезапно.",
+    "lv": "Одеднаш.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Немедленно.",
+    "lv": "Веднаш.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Покрыть ущерб.",
+    "lv": "Ја надоместува штетата.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Откройте дверь, пожалуйста!",
+    "lv": "Отворете ја вратата, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Сядьте прямо.",
+    "lv": "Седи исправено.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Он встал.",
+    "lv": "Стана.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Посвятите все свои силы.",
+    "lv": "Ги вложува сите сили.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Обидете се многу напорно.",
+    "lv": "Вложува многу труд.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Не смотри на меня больше!",
+    "lv": "Губи ми се од очи!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Через два. • Тихо",
+    "lv": "Насамо.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Из-за нехватки времени.",
+    "lv": "Поради недостиг на време.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "По этой причине.",
+    "lv": "Од оваа причина.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Все, кроме тебя.",
+    "lv": "Сите освен тебе.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Придавайте большое значение внешнему виду.",
+    "lv": "Му придава значење на надворешниот изглед.",
     "level": "Sätze"
   },
   {
@@ -676,102 +676,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Чрезвычайно важно.",
+    "lv": "Исклучително важен.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Вид на море.",
+    "lv": "Поглед кон морето.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "У него хорошие шансы.",
+    "lv": "Има добри изгледи.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Как произносится это слово?",
+    "lv": "Како се изговара овој збор?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Выразить соболезнования.",
+    "lv": "Го изразува своето сочувство.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Когда был чемпионат?",
+    "lv": "Кога се одржа првенството?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Какова ваша профессия?",
+    "lv": "Со што се занимавате?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Чтобы повлиять.",
+    "lv": "Врши влијание.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Јадете надвор.",
+    "lv": "Јаде надвор.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "По железной дороге.",
+    "lv": "Со железница.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "По железной дороге.",
+    "lv": "Со воз.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Как можно скорее.",
+    "lv": "Што е можно поскоро.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Многу се плашам од неа.",
+    "lv": "Многу ми е страв.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Откладывать. • Перетащите на нужное расстояние. • Отложите на неопределенный срок.",
+    "lv": "Одлага. • Одолговлекува.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Оплата наличными.",
+    "lv": "Плаќа во готово.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Получите руду.",
+    "lv": "Ископува руда.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Стрелять. • Выставить себя дураком",
+    "lv": "Прави глупости.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Ми доделија работа.",
+    "lv": "Задолжен сум.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "По мере необходимости.",
+    "lv": "По потреба.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Мне его жаль.",
+    "lv": "Ми е жал за него.",
     "level": "Sätze"
   },
   {
@@ -781,612 +781,612 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "При условии, что...",
+    "lv": "Под услов да...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Она выглядит подавленной.",
+    "lv": "Изгледа потиштена.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Следуйте инструкциям.",
+    "lv": "Се придржува до упатствата.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Выполняйте приказы.",
+    "lv": "Извршува наредби.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Отправьте по почте.",
+    "lv": "Испраќа по пошта.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Я действительно хочу знать.",
+    "lv": "Многу сакам да знам.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "В начале.",
+    "lv": "На почетокот.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "В начале.",
+    "lv": "Во почетокот.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Започнете",
+    "lv": "При почетокот.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Сопровождается.",
+    "lv": "Во придружба.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "С сопровождением.",
+    "lv": "Со својот придружник.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Он медленно воспринимает. • У него медленное мышление",
+    "lv": "Бавно сфаќа. • Бавно размислува.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Помнить. • Храните в памяти",
+    "lv": "Запомнува. • Чува во сеќавањето.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "За столом.",
+    "lv": "На маса.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Быть в здравом уме.",
+    "lv": "При здрав разум е.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "В течение дня.",
+    "lv": "Преку ден.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Нисколько.",
+    "lv": "Ни оддалеку не толку.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Оба два.",
+    "lv": "И двајцата.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Раздались бурные аплодисменты.",
+    "lv": "Избувна бурен аплауз.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Получите согласие.",
+    "lv": "Наидува на одобрување.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Выразить соболезнования.",
+    "lv": "Изразува сочувство.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Быть финансово независимым.",
+    "lv": "Стои на свои нозе.",
     "level": "Sätze"
   },
   {
     "de": "Zum Beispiel.",
-    "lv": "Например.",
+    "lv": "На пример.",
     "level": "Sätze"
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Чтобы помочь. • Оказать помощь",
+    "lv": "Помага. • Дава помош.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Инвестируйте свою долю.",
+    "lv": "Дава свој придонес.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Познакомьтесь с кем-нибудь.",
+    "lv": "Се запознава со некого.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Познакомьтесь друг с другом. • Установить контакт",
+    "lv": "Се запознава. • Воспоставува контакт.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Сэндвичи с начинкой.",
+    "lv": "Сендвичи.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Как хочешь.",
+    "lv": "По Ваша желба.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "В любое время.",
+    "lv": "Во секое време.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Соблюдать тишину.",
+    "lv": "Чува тишина.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Для удобства.",
+    "lv": "За удобност.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Будьте готовы. • Будьте спокойны",
+    "lv": "Подготвен е. • Согласен е.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Спасение пострадавших в случае аварии.",
+    "lv": "Спасува настрадани во несреќа.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Отчет. • Предоставить отчет. • Предоставить обзор.",
+    "lv": "Известува. • Поднесува извештај.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Все места заняты.",
+    "lv": "Сите места се зафатени.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Новая метла хорошо метет.",
+    "lv": "Нова метла чисто мете.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "У него есть дом.",
+    "lv": "Поседува куќа.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Он обладает большим мужеством.",
+    "lv": "Има многу храброст.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Тем лучше.",
+    "lv": "Толку подобро.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Поправляйся! • Поправляйся!",
+    "lv": "Брзо оздравување!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Что вы хотите.",
+    "lv": "И покрај најдобрата волја.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Лучшее.",
+    "lv": "Најдобро.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Есть сомнения.",
+    "lv": "Постои сомнеж.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Его задача...",
+    "lv": "Неговата задача се состои во тоа...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Скажи привет.",
+    "lv": "Пренесува поздрави.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Определенно. • Полностью безопасно",
+    "lv": "Сосема сигурно.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Приходите в гости.",
+    "lv": "Доаѓа на гости.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Посетить. • Посетить",
+    "lv": "На гости е. • Гостува.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Часто хожу на концерты.",
+    "lv": "Често оди на концерти.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "В какой школе он учился?",
+    "lv": "Во кое училиште учел?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Примите во внимание. • Учитывать",
+    "lv": "Зема предвид. • Размислува.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Игнорировать. • Не считайте",
+    "lv": "Не зема предвид.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Он управляет отелем.",
+    "lv": "Води хотел.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Оба два.",
+    "lv": "И двајцата.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Платите все.",
+    "lv": "Плаќа сѐ.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Касательно чего-то.",
+    "lv": "Во однос на нешто.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Ве молам",
+    "lv": "Молам. • Повелете.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Как, пожалуйста",
+    "lv": "Молам?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Ве молам",
+    "lv": "Нема зошто. • Повелете.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "У меня к вам просьба.",
+    "lv": "Имам една молба до Вас.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Протрубите в трубу.",
+    "lv": "Свири на труба.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Подреди книга.",
+    "lv": "Прелистува книга.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Боси нозе.",
+    "lv": "Со боси нозе.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Невооруженным глазом.",
+    "lv": "Со голо око.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Спасибо за цветы!",
+    "lv": "Благодарам за комплиментот!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Се е во ред",
+    "lv": "Сѐ е во најдобар ред.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Да се ​​провери. • Проверете",
+    "lv": "Ве молиме, проверете.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Вот он!",
+    "lv": "Еве го!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Все говорит хорошо.",
+    "lv": "Сѐ укажува на тоа.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Я ничего не могу там сделать.",
+    "lv": "Не сум виновен.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Аз съм против това.",
+    "lv": "Против сум.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Я не возражаю против этого.",
+    "lv": "Немам ништо против.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "Из дома.",
+    "lv": "Од дома.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Сделайте женственный ход.",
+    "lv": "Прави потег со кралицата.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Темнеет. • Рассвет.",
+    "lv": "Се смрачува. • Се разденува.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Спасибо! • Спасибо!",
+    "lv": "Многу благодарам!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Время от времени.",
+    "lv": "Од време на време.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Можете да разчитате на това.",
+    "lv": "На тоа можеш да сметаш.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Ничего из этого не выйдет.",
+    "lv": "Од тоа нема ништо да биде.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Так что...",
+    "lv": "Така што...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Как ты думаешь, кто я?",
+    "lv": "За кого ме сметате?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Руки прочь!",
+    "lv": "Рацете настрана!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Не опускайте голову!",
+    "lv": "Не губи надеж!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "У дома",
+    "lv": "дома",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Иди домой",
+    "lv": "оди дома",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "С детства • С самого начала",
+    "lv": "по потекло • по природа",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Поздравляем!",
+    "lv": "Најсрдечни честитки!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Будьте так любезны! • Будь такой хорошей!",
+    "lv": "Бидете толку добар!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Будьте так любезны!",
+    "lv": "Бидете толку љубезен!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Что с тобой не так? • Что случилось?",
+    "lv": "Што ти е? • Што се случи?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Разрешите мне, пожалуйста!",
+    "lv": "Дозволете, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Може ли да ја пушам",
+    "lv": "Дали е дозволено да се пуши?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Морам да признаам...",
+    "lv": "Морам да признаам дека...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Вчера рано утром",
+    "lv": "вчера наутро",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Вчера вечером",
+    "lv": "вчера навечер",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Мне все равно, если...",
+    "lv": "Ми е сеедно дали...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Какво е станало",
+    "lv": "Што се случи?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Не делайте глупостей! • Не шутите!",
+    "lv": "Не прави глупости!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Не говоря уже об этом. • Где еще",
+    "lv": "А камоли...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Идите прямо!",
+    "lv": "Одете право!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Как дела • Как дела?",
+    "lv": "Како сте?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Спроси его, выйдет ли он, если...",
+    "lv": "Кога ќе имаш прилика, прашај го дали...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Завтра утром",
+    "lv": "утре наутро",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Весной",
+    "lv": "во пролет",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Что нового?",
+    "lv": "Што има ново?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Из этого письма следует, что...",
+    "lv": "Од ова писмо произлегува дека...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Так держать!",
+    "lv": "Продолжи!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Ему не нравится...",
+    "lv": "Не е љубител на...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Оказалось, что...",
+    "lv": "Се покажа дека...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Ты меня помнишь • Ты думал обо мне?",
+    "lv": "Се сеќаваш ли на мене? • Мислиш ли на мене?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Зима",
+    "lv": "во зима",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "В каком году ты родился?",
+    "lv": "Која година сте роден?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Грустно смотреть...",
+    "lv": "Ми е жал да гледам...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Чем больше, тем лучше",
+    "lv": "колку повеќе, толку подобро",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "До сега",
+    "lv": "досега",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Како да стигнете до железничката станица?",
+    "lv": "Како да стигнам до железничката станица?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Ела тук!",
+    "lv": "Дојди овде!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Могу ли я поговорить с миссис Н.?",
+    "lv": "Би можел ли да зборувам со госпоѓа Н.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Сколько это стоит?",
+    "lv": "Колку чини тоа?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Как долго продлится спектакль?",
+    "lv": "Колку трае претставата?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Прекрати! • Брось это!",
+    "lv": "Престани! • Остави го тоа!",
     "level": "Sätze"
   },
   {
@@ -1396,417 +1396,417 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Позвольте мне помочь вам!",
+    "lv": "Дозволете ми да Ви помогнам!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Пойдем!",
+    "lv": "Ајде да одиме!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Как си",
+    "lv": "Па, како оди?",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Да здравствует!",
+    "lv": "Да живее!",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Живите здорово! • До свидания!",
+    "lv": "Збогум!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Какво е станало",
+    "lv": "Што се случува?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Работата е заморна.",
+    "lv": "Работата е напорна.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Это был напряженный день.",
+    "lv": "Тоа беше напорен ден.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Ученето на немски може да бъде досадно.",
+    "lv": "Учењето германски јазик може да биде напорно.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Той иска обяснение.",
+    "lv": "Бара објаснување.",
     "level": "Sätze"
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Продавачът иска твърде много пари.",
+    "lv": "Продавачот бара премногу пари.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Законот го бара тоа.",
+    "lv": "Законот така бара.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Воопшто не е толку тешко.",
+    "lv": "Тоа воопшто не е толку тешко.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "У меня вообще нет денег.",
+    "lv": "Немам никакви пари.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Той не каза абсолютно нищо.",
+    "lv": "Не рече воопшто ништо.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Собаку отпустили.",
+    "lv": "Кучето е пуштено.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Здесь многое происходит.",
+    "lv": "Овде е многу живо.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Задржете го здивот!",
+    "lv": "Замолчи! • Не претерувај!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Какво правиш",
+    "lv": "Што правиш?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Скажи да!",
+    "lv": "Кажи де!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Что ты имеешь в виду? • Что вы думаете?",
+    "lv": "Што сакате да кажете со тоа? • Како го мислите тоа?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Мы идем с тобой.",
+    "lv": "Одиме со Вас.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Пътувам с влак.",
+    "lv": "Патувам со воз.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "В среду",
+    "lv": "во среда",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Может быть.",
+    "lv": "Може да биде.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Мне это не нравится.",
+    "lv": "Тоа не ми се допаѓа.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "В понедельник",
+    "lv": "во понеделник",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Добро утро",
+    "lv": "Добро утро!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "На сутринта",
+    "lv": "наутро",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Спокойной ночи!",
+    "lv": "Добра ноќ!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Садиться!",
+    "lv": "Повелете, седнете!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Последние новости!",
+    "lv": "Последна новост!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Верно?",
+    "lv": "Нели?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Не, секако! • Не!",
+    "lv": "Не, не! • Немој!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Ну наконец-то!",
+    "lv": "Е, конечно!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Чем это полезно?",
+    "lv": "Каква корист има од тоа?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Для чего все это?",
+    "lv": "Каква корист има од сето тоа?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Парковка запрещена!",
+    "lv": "Забрането паркирање!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Парковка запрещена!",
+    "lv": "Забрането паркирање!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "Он прав.",
+    "lv": "Во право е.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "О чем идет речь?",
+    "lv": "За што станува збор?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Это исключено.",
+    "lv": "За тоа не може ни да стане збор.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Счастливого путешествия!",
+    "lv": "Среќен пат!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "У меня кончается терпение.",
+    "lv": "Го губам трпението.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Они говорят, что...",
+    "lv": "Велат дека...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Тоа е веќе добро!",
+    "lv": "Во ред е!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Ве молам!",
+    "lv": "Повелете! • Нема зошто!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Сколько я должен? • Сколько я должен заплатить?",
+    "lv": "Колку должам?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Перед использованием взболтайте!",
+    "lv": "Протресете пред употреба!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Взгляните!",
+    "lv": "Погледнете!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Сколько...",
+    "lv": "Колку и да...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "С каких это пор?",
+    "lv": "Откога?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Что я должен делать?",
+    "lv": "Што да правам?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Летом",
+    "lv": "во лето",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Не только... но и...",
+    "lv": "Не само..., туку и...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Что-нибудь еще?",
+    "lv": "Уште нешто?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Без шуток! • Шутки на грани!",
+    "lv": "Шега настрана!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Который сейчас час",
+    "lv": "Колку е часот?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Проезд запрещен!",
+    "lv": "Забранет сообраќај!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Вы говорите по-немецки?",
+    "lv": "Зборувате ли германски?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Вместо...",
+    "lv": "Наместо да...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Как си",
+    "lv": "Како стојат работите?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Оваа капа оди навистина добро.",
+    "lv": "Оваа шапка добро ѝ стои.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Привет!",
+    "lv": "Добар ден!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Где мы встретимся?",
+    "lv": "Каде ќе се сретнеме?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Подойди ближе!",
+    "lv": "Приближете се!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Искреноста е доблест.",
+    "lv": "Чесноста е доблест.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Мне нужно многое сделать.",
+    "lv": "Имам многу работа.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Очень хороший! • Нет возражений",
+    "lv": "Не е лошо!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Тој живее над мене.",
+    "lv": "Живее над мене.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Он в этом уверен.",
+    "lv": "Убеден е во тоа.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Это принято.",
+    "lv": "Така е вообичаено.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Твои часы отстают.",
+    "lv": "Часовникот ти доцни.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Который сейчас час?",
+    "lv": "Колку е часот?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "В восемь часов утра.",
+    "lv": "Во осум часот наутро.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Тем больше",
+    "lv": "толку повеќе",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Поверните направо!",
+    "lv": "Надесно!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "И что еще!",
+    "lv": "И уште како!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "А именно",
+    "lv": "и тоа",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "За счет...",
+    "lv": "На сметка на...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Он сидел среди зрителей.",
+    "lv": "Седеше меѓу гледачите.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Ничего просто так!",
+    "lv": "Нема зошто!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Все произошло так, как было согласовано.",
+    "lv": "Се случи како што беше договорено.",
     "level": "Sätze"
   },
   {
@@ -1816,292 +1816,292 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Неправильное подключение!",
+    "lv": "Погрешен број!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Вход запрещен!",
+    "lv": "Забранет влез!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Вы понимаете меня?",
+    "lv": "Ме разбирате ли?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Он ничего в этом не понимает.",
+    "lv": "Ништо не разбира од тоа.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Одбрани го своето мислење.",
+    "lv": "Го брани своето мислење.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Предизвика расправија.",
+    "lv": "Предизвикува расправија.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Гораздо лучше.",
+    "lv": "Многу подобро.",
     "level": "Sätze"
   },
   {
     "de": "Zu viel.",
-    "lv": "Слишком.",
+    "lv": "Премногу.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "После прослушивания.",
+    "lv": "Од туѓо кажување.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Время от времени.",
+    "lv": "Од време на време.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "По профессии.",
+    "lv": "По професија.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Он берлинец по происхождению.",
+    "lv": "Тој е берлинчанец по раѓање.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Он стоит у окна.",
+    "lv": "Стои пред прозорецот.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Перед восходом солнца.",
+    "lv": "Пред изгрејсонце.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Две недели назад.",
+    "lv": "Пред две недели.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Для развлечения.",
+    "lv": "Од радост.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Прежде всего. • Прежде всего",
+    "lv": "Пред сѐ.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Ранее.",
+    "lv": "Однапред.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Предполагая, что...",
+    "lv": "Под услов да...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Условно.",
+    "lv": "Со таа резерва.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Быть. • Присутствовать • Быть доступным",
+    "lv": "На располагање е. • Постои.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "На прошлой неделе.",
+    "lv": "Минатата недела.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Примите меры защиты.",
+    "lv": "Презема мерки на претпазливост.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Она кажется мне знакомой.",
+    "lv": "Ми се чини позната.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Тој многу ја сака литературата.",
+    "lv": "Има наклонетост кон литературата.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Сегодня утром. • Сегодня утром",
+    "lv": "Утрово. • Денеска претпладне.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "С фронта.",
+    "lv": "Од предната страна. • Од почеток.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Вперед.",
+    "lv": "Напред.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "В самом начале.",
+    "lv": "Од самиот почеток.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Будьте в лучшем положении.",
+    "lv": "Има предност.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Чтобы бодрствовать.",
+    "lv": "Буден е.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Проснуться.",
+    "lv": "Се буди.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Стой на страже.",
+    "lv": "Стои на стража.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "В течение года.",
+    "lv": "Во текот на една година.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Во время войны.",
+    "lv": "За време на војната.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Разговоры напрасны.",
+    "lv": "Зборува во празно.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Здесь у стен есть уши.",
+    "lv": "Тука и ѕидовите имаат уши.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "До каких пор?",
+    "lv": "До кога?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Тепло.",
+    "lv": "Топло е.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Подождите сообщения.",
+    "lv": "Чека порака.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Что ты хочешь?",
+    "lv": "Што сакате?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "ВОЗ...? • А как насчет...?",
+    "lv": "Каков...? • Што за...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Наполовину.",
+    "lv": "На половина пат.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Таким образом. • Для таких фондов",
+    "lv": "На овој начин. • По овој пат.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "На пути мира.",
+    "lv": "По мирен пат.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Из-за нашей дружбы.",
+    "lv": "Заради нашето пријателство.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "По справедливости.",
+    "lv": "Според законот. • По право.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Да предизвика болка.",
+    "lv": "Боли.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "На Божиќ.",
+    "lv": "За Божиќ.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Како?",
+    "lv": "На кој начин?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Тип.",
+    "lv": "Начин.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Немедленно. • Немедленно",
+    "lv": "Без одлагање. • Без тешкотии.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "До дальнейшего уведомления.",
+    "lv": "До понатамошно известување.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "И так далее.",
+    "lv": "И така натаму.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Ничего больше.",
+    "lv": "Ништо повеќе.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "В какой день?",
+    "lv": "Во кој ден?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Весь мир. • Каждый",
+    "lv": "Целиот свет. • Сите.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Через несколько дней.",
+    "lv": "За неколку дена.",
     "level": "Sätze"
   },
   {
@@ -2111,32 +2111,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Хотя.",
+    "lv": "Макар и.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Что там?",
+    "lv": "Кој е таму?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Собрание сочинений Шиллера.",
+    "lv": "Собрани дела на Шилер.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Подборка работ.",
+    "lv": "Избрани дела.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Тој заслужува да ...",
+    "lv": "Заслужува да...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Это стоит два евро.",
+    "lv": "Вреди две евра.",
     "level": "Sätze"
   },
   {
@@ -2146,62 +2146,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Westen.",
-    "lv": "С запада.",
+    "lv": "Од запад.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Примите участие в соревновании.",
+    "lv": "Влегува во натпревар.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Управляйте гонкой.",
+    "lv": "Се натпреварува во трчање.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "О чем мы торгуемся?",
+    "lv": "Во што се обложуваме?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Какая будет погода?",
+    "lv": "Какво ќе биде времето?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Соревнования по гимнастике.",
+    "lv": "Натпревар во гимнастика.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Против моей воли.",
+    "lv": "Против мојата волја.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Протестовать. • Выдвигать возражения",
+    "lv": "Протестира. • Приговара.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Сколько ему лет?",
+    "lv": "Колку години има?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Сколько",
+    "lv": "Колку долго?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "До свидания!",
+    "lv": "Се слушаме!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "До свидания!",
+    "lv": "Довидување!",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Горячий привет!",
+    "lv": "Срдечно добредојдовте!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "У вас есть ход.",
+    "lv": "Ти си на потег.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Издърпайте",
+    "lv": "Има промаја.",
     "level": "Sätze"
   },
   {
@@ -2231,207 +2231,207 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Совет за колбас.",
+    "lv": "Крајче од колбас.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Иди к нему.",
+    "lv": "Оди кај него.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Ходить в школу.",
+    "lv": "Оди на училиште.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Оставайтесь дома.",
+    "lv": "Останува дома.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Ежедневно.",
+    "lv": "Од ден на ден.",
     "level": "Sätze"
   },
   {
     "de": "Zum Glück.",
-    "lv": "К счастью.",
+    "lv": "За среќа.",
     "level": "Sätze"
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Вода для питья.",
+    "lv": "Вода за пиење.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Для ног.",
+    "lv": "Пешки.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Да.",
+    "lv": "На коњ.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "На велосипеде.",
+    "lv": "Со велосипед.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Дождь прекратился.",
+    "lv": "Престана да врне.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Мне еще многое предстоит сделать.",
+    "lv": "Имам уште многу работа.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Слишком рано.",
+    "lv": "Прерано.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Слишком большой.",
+    "lv": "Преголем.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Пожимаю плечами.",
+    "lv": "Крева раменици.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Выпить залпом.",
+    "lv": "Испива на една голтка.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Погибнуть.",
+    "lv": "Пропаѓа.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Ставим на основу. • Взять за основу.",
+    "lv": "Зема за основа. • Става во основата.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Впервые.",
+    "lv": "За прв пат.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Пожалуйста, закройте дверь!",
+    "lv": "Затворете ја вратата, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Напълня.",
+    "lv": "Се здебели.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Дни становятся длиннее.",
+    "lv": "Деновите стануваат подолги.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Быть связанным с чем-либо.",
+    "lv": "Има врска со нешто.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Дверь закрыта.",
+    "lv": "Вратата е затворена.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Я бы не ожидал от него такого.",
+    "lv": "Тоа не би го очекувал од него.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Бесплатный вход.",
+    "lv": "Слободен влез.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Вход запрещен!",
+    "lv": "Забранет влез!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Это слишком!",
+    "lv": "Тоа е премногу!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Стать отвратительным. • Заболеть",
+    "lv": "Станува одвратен. • Здодева.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "А именно.",
+    "lv": "Имено.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Без сомнение.",
+    "lv": "Нема никакво сомнение.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Без двоумење.",
+    "lv": "Без сомнение.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Во-вторых.",
+    "lv": "Второ.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "С Новым Годом!",
+    "lv": "Среќна Нова година!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "С днем ​​рождения!",
+    "lv": "Честит роденден!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Счастливого путешествия!",
+    "lv": "Среќен пат!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Я рад познакомиться с вами.",
+    "lv": "Ми е мило што Ве запознавам.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Не могли бы вы быть так любезны?",
+    "lv": "Дали би биле толку љубезен, Ве молам?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Многу сум ти благодарен.",
+    "lv": "Многу сум Ви благодарен.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Садитесь, пожалуйста!",
+    "lv": "Седнете, ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Бен, пожалуйста, подойди к доске!",
+    "lv": "Бен, дојди, те молам, на таблата!",
     "level": "Sätze"
   },
   {
@@ -2441,347 +2441,347 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Пожалуйста, идите в спортзал!",
+    "lv": "Одете во спортската сала, ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Ты все еще спишь?",
+    "lv": "Дали уште спиеш?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Ты все еще спишь?",
+    "lv": "Дали уште спиете?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Он крепко спит.",
+    "lv": "Заспа длабоко.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Пожалуйста, разбудите его, уже поздно!",
+    "lv": "Разбуди го, те молам, веќе е доцна!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Мне очень жаль!",
+    "lv": "Многу ми е жал!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Благодаря много!",
+    "lv": "Многу благодарам!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Финн, начни, пожалуйста!",
+    "lv": "Фин, започни, те молам!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Читайте дальше, пожалуйста!",
+    "lv": "Следете го текстот, ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Эмма, пожалуйста, не смотри в окно!",
+    "lv": "Ема, те молам, не гледај низ прозорецот!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Йонас, принеси, пожалуйста, тетради!",
+    "lv": "Јонас, донеси ги тетратките, те молам!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Возвращайся на свое место!",
+    "lv": "Врати се на своето место, те молам!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Сейчас половина восьмого.",
+    "lv": "Седум и пол е.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Когда ты обычно просыпаешься?",
+    "lv": "Кога обично се будиш?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Я сейчас встану.",
+    "lv": "Веднаш ќе станам.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Вставай, Ханна, звонит звонок!",
+    "lv": "Стани, Хана, ѕвони!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Дайте мне поспать еще пять минут!",
+    "lv": "Остави ме да спијам уште пет минути!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Не забывайте проветривать помещение!",
+    "lv": "Не заборавај да ја проветриш собата!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Где полотенце",
+    "lv": "Каде е пешкирот?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Сакам да и ги мијам забите.",
+    "lv": "Сакам да си ги измијам забите.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Со што ги чистите забите?",
+    "lv": "Со што си ги миеш забите?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Я хочу одеться.",
+    "lv": "Сакам да се облечам.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Одевайтесь быстрее, пожалуйста!",
+    "lv": "Облечи се брзо, те молам!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Одевайтесь теплее, на улице холодно.",
+    "lv": "Облечи се потопло, надвор е свежо.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Доброе утро, как дела?",
+    "lv": "Добро утро, како си?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Я хорошо, спасибо.",
+    "lv": "Добро сум, благодарам.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Что нового?",
+    "lv": "Што има ново?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Каков хаос овде!",
+    "lv": "Каков неред има тука!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Могу ли я помочь с уборкой?",
+    "lv": "Може ли да помогнам во средувањето?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Что вы пьете утром, кофе или чай?",
+    "lv": "Што пиеш наутро, кафе или чај?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Я обычно выпиваю чашку кофе утром.",
+    "lv": "Обично наутро пијам шолја кафе.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Я лучше всего пью черный кофе.",
+    "lv": "Најрадо пијам црно кафе.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Добро утро, дали спиевте добро?",
+    "lv": "Добро утро, добро ли спиеше?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Я все еще очень устал.",
+    "lv": "Уште сум многу уморен.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Хочешь кофе или молока?",
+    "lv": "Сакаш ли кафе или млеко?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Дайте мне сырную булочку, пожалуйста.",
+    "lv": "Дај ми, те молам, едно лепче со сирење.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Морам да одам сега!",
+    "lv": "Сега морам да одам!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Не забудьте завтрак!",
+    "lv": "Не го заборавај појадокот!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Клара, пожалуйста, накрой на стол!",
+    "lv": "Клара, те молам, постави ја масата!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Не забудьте салфетки!",
+    "lv": "Не ги заборавај салфетите!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Когда ты обедаешь",
+    "lv": "Кога ручате?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Пришло время поесть.",
+    "lv": "Време е за јадење.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Что сегодня на обед?",
+    "lv": "Што има денес за ручек?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Как вам суп?",
+    "lv": "Како ти се допаѓа супата?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Честно говоря, оно слишком соленое.",
+    "lv": "Искрено речено, малку е пресолена.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Могу я дать вам кусок хлеба?",
+    "lv": "Може ли да ти дадам парче леб?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Спасибо, у меня уже есть.",
+    "lv": "Благодарам, веќе имам.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Мясо имеет прекрасный вкус.",
+    "lv": "Месото има одличен вкус.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Спасибо, я уже сыт.",
+    "lv": "Благодарам, веќе сум сит.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Сегодня у нас гости.",
+    "lv": "Денес имаме гости.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Ты свободен сегодня вечером?",
+    "lv": "Слободен ли си вечерва?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Приходите сегодня на обед!",
+    "lv": "Ајде, наврати денес на ручек!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Ајде да седнеме на стол.",
+    "lv": "Да седнеме на масата.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Пожалуйста, ешьте столько, сколько хотите!",
+    "lv": "Повели, послужи се!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Дали ви пречи пушењето?",
+    "lv": "Ти пречи ли пушењето?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Спасибо за теплый прием!",
+    "lv": "Благодарам за љубезниот пречек!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Когда ты идешь спать",
+    "lv": "Кога одиш на спиење?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Я всегда уставший, когда прихожу с работы.",
+    "lv": "Кога доаѓам од работа, секогаш сум уморен.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Пора идти спать.",
+    "lv": "Време е за спиење.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Это хорошее время.",
+    "lv": "Времето е убаво.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Хочешь прогуляться со мной?",
+    "lv": "Сакаш ли да одиш на прошетка со мене?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Смотри, скоро пойдет дождь.",
+    "lv": "Види, наскоро ќе заврне.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Возьмите с собой зонтик!",
+    "lv": "Понеси го чадорот!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Вали дъжд.",
+    "lv": "Врне.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Я уже совсем мокрый.",
+    "lv": "Веќе сум сосема мокар.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Думаешь, весь день будет идти дождь?",
+    "lv": "Мислиш ли дека ќе врне цел ден?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Дождь прекращается.",
+    "lv": "Престанува да врне.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Солнце светит снова.",
+    "lv": "Сонцето повторно грее.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Очень жарко.",
+    "lv": "Многу е топло.",
     "level": "Sätze"
   },
   {
@@ -2791,762 +2791,762 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Нас ждет гроза.",
+    "lv": "Наскоро ќе нѐ фати невреме.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Гроза прошла.",
+    "lv": "Невремето поминува.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Облака расходятся.",
+    "lv": "Облаците се разотидуваат.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Видите радугу?",
+    "lv": "Го гледаш ли виножитото?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Зима пришла, ночью пошел снег.",
+    "lv": "Зимата дојде, падна снег.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Идет снег.",
+    "lv": "Паѓа снег.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Колку е убаво во зима во шумата!",
+    "lv": "Колку е убаво во шумата во зима!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Мне холодно, я замерзаю.",
+    "lv": "Студено ми е, мрзнам.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "На улице скользко, будьте осторожны!",
+    "lv": "Надвор има поледица, внимавај!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Пойдем кататься на коньках?",
+    "lv": "Да одиме ли на лизгалиште?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Надень куртку, можешь простудиться.",
+    "lv": "Облечи ја јакната, може да настинеш.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Сейчас половина восьмого.",
+    "lv": "Шест и пол е.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Мои часы спешат на пять минут.",
+    "lv": "Часовникот ми брза пет минути.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Разбуди меня завтра в семь часов!",
+    "lv": "Разбуди ме утре наутро во седум часот!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Какая сегодня дата?",
+    "lv": "Кој датум е денес?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Сегодня одиннадцатое июля.",
+    "lv": "Денес е единаесетти јули.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Что ты обычно делаешь по вечерам?",
+    "lv": "Што правиш обично навечер?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Мы давно не встречались.",
+    "lv": "Одамна не сме се виделе.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Как си",
+    "lv": "Како си?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Извините, я хочу с вами кое-что обсудить.",
+    "lv": "Извини, сакам да разговарам со тебе за нешто.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Пойдем гулять!",
+    "lv": "Да одиме на прошетка!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Хочешь пойти со мной в парк?",
+    "lv": "Имаш ли желба да одиш со мене во паркот?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Я пришел, чтобы отвезти тебя на прогулку.",
+    "lv": "Дојдов да те земам на прошетка.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Иди немного медленнее, я не успеваю за тобой!",
+    "lv": "Оди, те молам, малку побавно, не можам да те следам!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Прв пат ми е овде.",
+    "lv": "Првпат сум во овој крај.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Ајде да се одмориме.",
+    "lv": "Да се одмориме малку.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Теперь мы можем вернуться назад.",
+    "lv": "Сега можеме да се вратиме.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Честно говоря, я очень устал.",
+    "lv": "Искрено речено, прилично сум уморен.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Простите, где ближайшая станция метро?",
+    "lv": "Извини, каде е најблиската станица на метрото?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Какой путь самый короткий?",
+    "lv": "Кој е најкраткиот пат?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Здесь поверните на вторую улицу налево и идите прямо.",
+    "lv": "Тука сврти во втората улица лево, а потоа оди сѐ право.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Как быстрее добраться до вокзала?",
+    "lv": "Како најбрзо да стигнам до железничката станица?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Я намерен уехать завтра.",
+    "lv": "Планирам утре да отпатувам.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Куда вы хотите пойти?",
+    "lv": "Каде сакаш да патуваш?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Вы путешествуете по работе или на отдых?",
+    "lv": "Патуваш ли службено или приватно?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Финн едет в Берлин, потом поедет на море.",
+    "lv": "Фин патува со нас до Берлин, а потоа оди на море.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Когда корабль отправляется?",
+    "lv": "Кога тргнува бродот?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Через полчаса.",
+    "lv": "За половина час.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Може ли сè уште да ја имам кабината?",
+    "lv": "Можам ли уште да добијам кабина?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Не забудьте паспорт!",
+    "lv": "Не го заборавај пасошот!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Пришло время собирать чемодан.",
+    "lv": "Време е да се спакува куферот.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Поезд отправляется в половине восьмого.",
+    "lv": "Возот тргнува во шест и пол.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Вызовите такси, пожалуйста, а то я опоздаю на поезд!",
+    "lv": "Викни ми, те молам, такси, инаку ќе го пропуштам возот!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Пожалуйста, отвезите меня на станцию!",
+    "lv": "Вози, те молам, до железничката станица!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Трябва да побързам.",
+    "lv": "Морам да побрзам.",
     "level": "Sätze"
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Наплатата веќе е отворена?",
+    "lv": "Отворен ли е веќе шалтерот?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Один билет до Кёльна, пожалуйста.",
+    "lv": "Еден билет за Келн, Ве молам.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Когда отправляется поезд?",
+    "lv": "Кога тргнува возот?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Поезд скоро отправляется.",
+    "lv": "Возот ќе тргне секој момент.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Нужно ли мне пересаживаться в Кобленце?",
+    "lv": "Морам ли да преседнам во Кобленц?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Да, вам придется пересесть там.",
+    "lv": "Да, таму мораш да преседнеш.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Это место доступно?",
+    "lv": "Слободно ли е ова место?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Нет, здесь никто не сидит.",
+    "lv": "Не, тука никој не седи.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Где находится билетный автомат на платформе?",
+    "lv": "Каде е автоматот за перонски билети?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Положи мою ручную кладь в сетку.",
+    "lv": "Стави ми го рачниот багаж на полицата за багаж.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Можно мне открыть окно?",
+    "lv": "Може ли да го отворам прозорецот?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Выходите, пожалуйста, закройте окно!",
+    "lv": "Дува, затвори го, те молам, прозорецот!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Какая следующая остановка?",
+    "lv": "Која е следната станица?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Колку чини возот?",
+    "lv": "Колку долго стои возот?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Куда мне следует перевестись?",
+    "lv": "Каде морам да преседнам?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Поезд опаздывает.",
+    "lv": "Возот доцни.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "В этом вагоне курение запрещено.",
+    "lv": "Овој вагон е за непушачи.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Сейчас мы едем через границу.",
+    "lv": "Сега ја преминуваме границата.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "У вас есть что очистить?",
+    "lv": "Имаш ли нешто да пријавиш на царина?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Мы прибыли в Берлин.",
+    "lv": "Пристигнавме во Берлин.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Можете ли вы порекомендовать хороший отель?",
+    "lv": "Можеш ли да ми препорачаш добар хотел?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Есть ли у вас свободные номера?",
+    "lv": "Имате ли слободни соби?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Пожалуйста, номер с двумя кроватями.",
+    "lv": "Една соба со два кревета, Ве молам.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Сколько стоит номер за ночь?",
+    "lv": "Колку чини собата за една ноќ?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Я уезжаю завтра. Разбуди меня в семь!",
+    "lv": "Утре заминувам. Разбуди ме во седум часот!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Счет, пожалуйста!",
+    "lv": "Сметката, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Где находится городская библиотека?",
+    "lv": "Каде е градската библиотека?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Когда музей открыт?",
+    "lv": "Кога е отворен музејот?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Пойдем в музей?",
+    "lv": "Да одиме ли во музејот?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Мы поедем на автобусе или метро?",
+    "lv": "Ќе одиме со автобус или со метро?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Где находится ближайшая автобусная остановка?",
+    "lv": "Каде е најблиската автобуска постојка?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "Я очень голоден.",
+    "lv": "Многу сум гладен.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Да одиме на ручек заедно?",
+    "lv": "Одиме ли заедно да јадеме?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Официанты, меню, пожалуйста!",
+    "lv": "Келнер, менито, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Эта рыба свежая?",
+    "lv": "Свежа ли е рибата?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Это очень вкусно!",
+    "lv": "Ова е извонредно вкусно!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Официанты, пожалуйста, заплатите!",
+    "lv": "Келнер, сметката, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Я пойду в кафе выпить кофе.",
+    "lv": "Одам во кафуле да испијам кафе.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Хотите пойти вместе?",
+    "lv": "Сакаш ли да дојдеш со мене?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Чашку кофе с молоком, пожалуйста!",
+    "lv": "Една шолја кафе со млеко, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Быстрее, пожалуйста, мне нужно торопиться!",
+    "lv": "Ве молам, побрзо, брзам!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Не позволяйте кофе остыть!",
+    "lv": "Не го оставај кафето да ти истине!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "У вас есть что-нибудь освежающее?",
+    "lv": "Имате ли нешто освежително?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Порцию мороженого, пожалуйста!",
+    "lv": "Една порција сладолед, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Сегодня утром я получил письмо.",
+    "lv": "Утрово добив писмо.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Я должен написать ему сейчас.",
+    "lv": "Морам веднаш да му пишам.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Где ближайший почтовый ящик?",
+    "lv": "Каде е најблиското поштенско сандаче?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Где почта?",
+    "lv": "Каде е поштата?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Напомни мне подписать завтра!",
+    "lv": "Потсети ме утре да пишам!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Ве молиме пуштете го ова писмо во поштенското сандаче!",
+    "lv": "Ве молам, пуштете го ова писмо во поштенското сандаче.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Привет, это Эмма.",
+    "lv": "Ало, јас сум Ема.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Можам да и се јавам подоцна",
+    "lv": "Може ли да ти се јавам подоцна?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Мне придется долго ждать?",
+    "lv": "Морам ли долго да чекам?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Пожалуйста, подстригите мне волосы.",
+    "lv": "Ве молам, исечете ми ја косата.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Сзади, пожалуйста, не слишком коротко.",
+    "lv": "Одзади не премногу кратко, Ве молам.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Кога започнува шоуто?",
+    "lv": "Кога почнува претставата?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Начало в половине седьмого.",
+    "lv": "Почнува во седум и пол.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Все билеты распроданы.",
+    "lv": "Сите места се распродадени.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Три билета, пожалуйста!",
+    "lv": "Три билета, Ве молам!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Давай оставим куртки в гардеробе.",
+    "lv": "Ги оставаме јакните во гардеробата.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Побыстрее, пожалуйста, занавес вот-вот откроется!",
+    "lv": "Брзо, ве молам, завесата ќе се крене секој момент!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Занавес падает.",
+    "lv": "Завесата паѓа.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Могу я пригласить вас потанцевать?",
+    "lv": "Може ли да те поканам на танц?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Когда у тебя свадьба?",
+    "lv": "Кога е вашата свадба?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Я ищу квартиру.",
+    "lv": "Барам стан.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Есть ли свободная квартира в этом доме?",
+    "lv": "Има ли слободен стан во оваа зграда?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Сколько стоит аренда?",
+    "lv": "Колку изнесува киријата?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "В квартире три комнаты и кухня.",
+    "lv": "Станот има три соби и кујна.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Мы переезжаем сегодня.",
+    "lv": "Денес се селиме.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Миа, сложи вещи в коробки, пожалуйста!",
+    "lv": "Мија, спакувај ги, те молам, работите во кутии!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Всё уже запаковано?",
+    "lv": "Спакува ли сѐ?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Я веду переписку со своим другом.",
+    "lv": "Во контакт сум со мојот пријател.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Пойдем в театр?",
+    "lv": "Одиме ли во театар?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Все ли загружено?",
+    "lv": "Натоварено ли е сѐ?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Какой красивый вид!",
+    "lv": "Каков убав поглед!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Теперь мы можем собрать все обратно.",
+    "lv": "Сега можеме повторно да средиме сѐ.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Сколько у вас комнат?",
+    "lv": "Колку соби имате?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Летом я поеду на море.",
+    "lv": "Во лето одам на море.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Вы умеете плавать",
+    "lv": "Знаеш ли да пливаш?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Не заплывайте слишком далеко!",
+    "lv": "Не пливај премногу далеку!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Ты плаваешь каждый день?",
+    "lv": "Се капеш ли секој ден?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Если погода хорошая, я иду на рыбалку.",
+    "lv": "Кога е убаво времето, одам на риболов.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "На што личи?",
+    "lv": "Како изгледа?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Сепак, тој прилично се промени.",
+    "lv": "Навистина доста се променил.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Какой он как человек?",
+    "lv": "Каков е како човек?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Он всегда милый и добрый.",
+    "lv": "Секогаш е мил и љубезен.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Я плохо себя чувствую.",
+    "lv": "Не се чувствувам добро.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "У меня сильная головная боль.",
+    "lv": "Имам силна главоболка.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Я простудился.",
+    "lv": "Настинав.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "У меня насморк.",
+    "lv": "Имам хрема.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "У меня кружится голова.",
+    "lv": "Ми се врти во главата.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Мне нужно пойти к врачу.",
+    "lv": "Морам да одам на лекар.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Легнете во кревет!",
+    "lv": "Легни во кревет!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "У вас жар?",
+    "lv": "Имаш ли температура?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Вчера у меня была высокая температура.",
+    "lv": "Вчера имав покачена температура.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "У меня болит зуб.",
+    "lv": "Ме боли заб.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Мне нужно пойти к дантисту.",
+    "lv": "Морам да одам на забар.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Ты знаешь, что Финн болен?",
+    "lv": "Знаеш ли дека Фин е болен?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "По словам врача, скоро он поправится.",
+    "lv": "Според лекарот, наскоро ќе оздрави.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Я хочу сделать ремонт в квартире.",
+    "lv": "Сакам да го опремам станот со нов мебел.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Могу ли я купить в рассрочку?",
+    "lv": "Може ли да го купам ова на рати?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Оставайтесь в постели, пока не почувствуете себя лучше!",
+    "lv": "Остани во кревет додека не ти биде подобро!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Ной научился плавать за две недели.",
+    "lv": "Ноа научи да плива за две недели.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Будьте осторожны с едой.",
+    "lv": "Засега внимавај со храната.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Ты говоришь по-немецки?",
+    "lv": "Зборуваш ли германски?",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Да, немного.",
+    "lv": "Да, малку.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Вы говорите довольно свободно.",
+    "lv": "Зборуваш доста течно.",
     "level": "Sätze"
   },
   {
@@ -3556,357 +3556,357 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Я беру уроки немецкого языка уже год.",
+    "lv": "Веќе една година земам часови по германски.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Всегда ищу возможность говорить по-немецки.",
+    "lv": "Секогаш барам прилика да зборувам германски.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Эта книга еще доступна?",
+    "lv": "Дали книгата е сѐ уште на залиха?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "К сожалению, книга распродана.",
+    "lv": "За жал, книгата е распродадена.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Когда выйдет новое издание?",
+    "lv": "Кога ќе излезе новото издание?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Как я могу помочь?",
+    "lv": "Со што можам да Ви помогнам?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Дали имате свежи јајца?",
+    "lv": "Имате ли сосема свежи јајца?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Сколько они стоят?",
+    "lv": "Колку чинат?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Твърде скъпо е.",
+    "lv": "Тоа е прескапо.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Ты можешь весить полкило?",
+    "lv": "Можете ли да ми измерите половина килограм?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Сколько я должен заплатить?",
+    "lv": "Колку треба да платам?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Колку е килограм?",
+    "lv": "Колку чини килограмот?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Пожалуйста, весите два килограмма.",
+    "lv": "Измерете ми, Ве молам, два килограма.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "У тебя тоже есть морковь?",
+    "lv": "Имате ли и моркови?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "У вас есть хорошая говядина?",
+    "lv": "Имате ли добро говедско месо?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Дайте два килограмма фарша.",
+    "lv": "Дајте ми два килограма мелено месо.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Одну буханку хлеба, пожалуйста, но не слишком твердую.",
+    "lv": "Еден леб, Ве молам, но не премногу крцкав.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Хлеб свежеиспеченный.",
+    "lv": "Лебот е свежо печен.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Какие фрукты у тебя сегодня?",
+    "lv": "Какво овошје имате денес?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Сколько стоят яблоки?",
+    "lv": "Колку чинат јаболката?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Тогда я возьму два килограмма яблок.",
+    "lv": "Тогаш ќе земам два килограма јаболка.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Груши очень дорогие.",
+    "lv": "Крушите се многу скапи.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Можете ли вы доставить все на дом?",
+    "lv": "Можете ли да ми доставите сѐ дома?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "У вас есть рис?",
+    "lv": "Имате ли ориз?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Дайте мне, пожалуйста, килограмм риса.",
+    "lv": "Дајте ми, Ве молам, еден килограм ориз.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Спасибо, не в этот раз.",
+    "lv": "Благодарам, овој пат не.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Сколько стоит этот коврик?",
+    "lv": "Колку чини овој тепих?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Возможна ли доставка мебели в квартиру?",
+    "lv": "Можете ли да го доставите мебелот во мојот стан?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Пожалуйста, оплатите в кассе.",
+    "lv": "Ве молиме, платете на каса.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Пожалуйста, выставьте счет.",
+    "lv": "Ве молам, издадете ми сметка.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Колку чини еден метар?",
+    "lv": "Колку чини метарот?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Я люблю эту ткань.",
+    "lv": "Ми се допаѓа оваа ткаенина.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Ве молиме пресечете три метри.",
+    "lv": "Отсечете ми, Ве молам, три метри.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Есть ли у вас другие образцы?",
+    "lv": "Имате ли и други шари? • Имате ли и други мостри?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Мне не нравится этот цвет.",
+    "lv": "Не ми се допаѓа оваа боја.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Дайте ярче.",
+    "lv": "Дајте ми посветла.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Сколько стоят эти носки?",
+    "lv": "Колку чинат овие чорапи?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Какие перчатки ты хочешь?",
+    "lv": "Какви ракавици сакате?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Они мне немного тесноваты.",
+    "lv": "Малку ми се претесни.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Итак, теперь все работает нормально.",
+    "lv": "Така, сега ми стојат добро.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Можете ли вы порекомендовать хорошего портного?",
+    "lv": "Можеш ли да ми препорачаш добар кројач?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Я хочу заказать костюм.",
+    "lv": "Сакам да нарачам костум.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Когда он будет готов?",
+    "lv": "Кога ќе биде готов?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Костюм сидит хорошо.",
+    "lv": "Костумот стои добро.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Штаны слишком длинные.",
+    "lv": "Панталоните се предолги.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Пожалуйста, очистите и погладьте его!",
+    "lv": "Ве молам, исчистете го и испеглајте го!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Когда платье будет готово?",
+    "lv": "Кога ќе биде готов фустанот?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Обувь слишком тесная.",
+    "lv": "Чевлите се претесни.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Ты можешь починить свою обувь сегодня?",
+    "lv": "Можете ли денес да ги поправите чевлите?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Кога можам да и донесам чевли?",
+    "lv": "Кога можам да ги подигнам чевлите?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Мои наручные часы не работают.",
+    "lv": "Рачниот часовник не ми работи.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Это на пять минут раньше.",
+    "lv": "Брза пет минути.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Вы близорукий или дальнозоркий?",
+    "lv": "Дали си кратковид или далековид?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Я хочу купить очки.",
+    "lv": "Би сакал да купам очила.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Ты можешь починить мои очки?",
+    "lv": "Можете ли да ми ги поправите очилата?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Это займет всего пятнадцать минут.",
+    "lv": "Тоа трае само четвртина час.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Цена для меня слишком высока.",
+    "lv": "Цената ми е превисока.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Мне нужны две фотографии на паспорт.",
+    "lv": "Ми требаат две фотографии за пасошот.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Спакувајте се и одете дома.",
+    "lv": "Ве молам, спакувајте го и пратете ми го дома.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "У нас фиксированные цены.",
+    "lv": "Имаме фиксни цени.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Пожалуйста, сфотографируйте меня.",
+    "lv": "Ве молам, фотографирајте ме.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Сядьте, посмотрите прямо в камеру и не двигайтесь!",
+    "lv": "Седнете, гледајте право во камерата и не се движете!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Когда я смогу увидеть образец?",
+    "lv": "Кога можам да ја видам пробната фотографија?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Когда будут готовы фотографии?",
+    "lv": "Кога ќе бидат готови фотографиите?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Фотография удалась.",
+    "lv": "Снимката успеа.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Фотографии получились удачными.",
+    "lv": "Фотографиите испаднаа добри.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "А можно еще увеличить фото?",
+    "lv": "Можете ли и да ја зголемите фотографијата?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Эти камни настоящие?",
+    "lv": "Дали овие камења се вистински?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Это настоящее золото?",
+    "lv": "Дали е ова вистинско злато?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Покажите мне обручальные кольца, пожалуйста.",
+    "lv": "Покажете ми, Ве молам, бурми.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Кольцо мне великовато.",
+    "lv": "Прстенот ми е малку преширок.",
     "level": "Sätze"
   },
   {
@@ -3916,67 +3916,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Это кольцо мне подходит.",
+    "lv": "Овој прстен ми одговара.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Продемонстрируйте красивые идеи подарков.",
+    "lv": "Покажете ми убави идеи за подароци.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Как вам эти серьги?",
+    "lv": "Како ти се допаѓаат овие обетки?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Эта брошь очень красивая.",
+    "lv": "Оваа брошка е навистина убава.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Этот камень — сапфир.",
+    "lv": "Каменот е сафир.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Это не настоящий камень, это стекло.",
+    "lv": "Ова не е вистински камен, тоа е стакло.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Особено можам да ја препорачам оваа нараквица.",
+    "lv": "Оваа нараквица можам особено да Ви ја препорачам.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Он сделан чрезвычайно тонко.",
+    "lv": "Особено убаво е изработена.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Цена не высокая.",
+    "lv": "Цената не е висока.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Я получил коробку бесплатно?",
+    "lv": "Дали ја добивам кутијата бесплатно?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Сите украси со печат.",
+    "lv": "Сите накити се жигосани.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Если жене не понравится, могу ли я его обменять?",
+    "lv": "Ако не ѝ се допадне на жена ми, можам ли да го заменам?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "В любое время, конечно.",
+    "lv": "Секако, во секое време.",
     "level": "Sätze"
   }
 ];
