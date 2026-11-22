@@ -15808,7 +15808,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "derde • met zijn drieën",
     "level": "B1",
     "study": {
@@ -72002,11 +72002,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "zich verslapen",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "verzekeren",
     "level": "B1",
@@ -72231,11 +72226,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "zich bevoorraden • zich voorzien",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "vertragen",
     "level": "B1"
   },
   {
@@ -74426,13 +74416,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "wagon",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75056,11 +75039,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "grazen",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "weigeren",
     "level": "B1"
   },
   {

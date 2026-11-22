@@ -15809,7 +15809,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "terceiro • a três",
     "level": "B1",
     "study": {
@@ -72010,11 +72010,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "adormecer • ficar a dormir",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "segurar • fazer um seguro de",
     "level": "B1",
@@ -72239,11 +72234,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "abastecer-se • prover-se",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "atrasar",
     "level": "B1"
   },
   {
@@ -74434,13 +74424,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "vagão • carruagem",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75064,11 +75047,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "pastar",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "recusar",
     "level": "B1"
   },
   {

@@ -15804,7 +15804,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "troisième • à trois",
     "level": "B1",
     "study": {
@@ -71994,11 +71994,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "ne pas se réveiller à temps",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "assurer",
     "level": "B1",
@@ -72223,11 +72218,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "s'approvisionner",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "retarder",
     "level": "B1"
   },
   {
@@ -74415,13 +74405,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "wagon",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75045,11 +75028,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "pâturer",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "refuser",
     "level": "B1"
   },
   {

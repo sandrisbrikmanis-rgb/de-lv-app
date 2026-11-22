@@ -15809,7 +15809,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "i treti • të tre",
     "level": "B1",
     "study": {
@@ -72012,11 +72012,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "zgjohem vonë • fle tepër",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "siguroj",
     "level": "B1",
@@ -72241,11 +72236,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "furnizohem • sigurohem",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "vonoj",
     "level": "B1"
   },
   {
@@ -74436,13 +74426,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "vagon",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75066,11 +75049,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "kullot",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "refuzoj",
     "level": "B1"
   },
   {

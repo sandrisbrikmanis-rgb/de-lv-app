@@ -15809,7 +15809,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "трет • во тројца",
     "level": "B1",
     "study": {
@@ -72012,11 +72012,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "се успива • се успие",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "осигурува • осигура",
     "level": "B1",
@@ -72241,11 +72236,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "се снабдува • се снабди • се обезбедува",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "задржува • задржи • одложува",
     "level": "B1"
   },
   {
@@ -74436,13 +74426,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "вагон",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75066,11 +75049,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "пасе",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "одбива • одбие",
     "level": "B1"
   },
   {

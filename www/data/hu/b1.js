@@ -15804,7 +15804,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "harmadik • hármasban",
     "level": "B1",
     "study": {
@@ -71998,11 +71998,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "elalszik",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "biztosít",
     "level": "B1",
@@ -72227,11 +72222,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "ellátja magát",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "késleltet • feltart",
     "level": "B1"
   },
   {
@@ -74422,13 +74412,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "vagon",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75052,11 +75035,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "legel",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "megtagad",
     "level": "B1"
   },
   {

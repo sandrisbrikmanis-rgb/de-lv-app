@@ -15809,7 +15809,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "dritt",
+    "de": "zu dritt",
     "lv": "τρίτος • τρεις μαζί",
     "level": "B1",
     "study": {
@@ -72012,11 +72012,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verschlafen",
-    "lv": "παρακοιμάμαι",
-    "level": "B1"
-  },
-  {
     "de": "versichern",
     "lv": "ασφαλίζω",
     "level": "B1",
@@ -72241,11 +72236,6 @@ const B1_WORDS = [
   {
     "de": "sich versorgen",
     "lv": "εφοδιάζομαι • προμηθεύομαι",
-    "level": "B1"
-  },
-  {
-    "de": "verspäten",
-    "lv": "καθυστερώ",
     "level": "B1"
   },
   {
@@ -74436,13 +74426,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wagon",
-    "de_article": "der",
-    "de_plural": "die Wagons",
-    "lv": "βαγόνι",
-    "level": "B1"
-  },
-  {
     "de": "Wähler",
     "de_article": "der",
     "de_plural": "die Wähler",
@@ -75066,11 +75049,6 @@ const B1_WORDS = [
   {
     "de": "weiden",
     "lv": "βόσκω",
-    "level": "B1"
-  },
-  {
-    "de": "weigern",
-    "lv": "αρνούμαι • απορρίπτω",
     "level": "B1"
   },
   {
