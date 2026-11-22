@@ -1,67 +1,67 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Стережіться цього!",
+    "lv": "Стережися цього!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Якщо нічого не заважає. • Якщо все піде за планом.",
+    "lv": "Якщо ніщо не завадить. • Якщо все піде за планом.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "я це знаю!",
+    "lv": "Можу собі уявити!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Він тоді хворий?",
+    "lv": "Хіба він хворий?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "що тоді?",
+    "lv": "А що таке?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Чим більше.",
+    "lv": "Тим більше.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Чим більше, тим краще.",
+    "lv": "Що більше, то краще.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Все вказує на справу.",
+    "lv": "Усе свідчить про те, що буде дощ.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Для мене це мало сенсу.",
+    "lv": "Мені із цього мало користі.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Він не може прийти через роботу.",
+    "lv": "Він не може прийти через службові справи.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Говоріть!",
+    "lv": "Говоріть же!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Грім гримить.",
+    "lv": "Гримить грім.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Вдвічі більший.",
+    "lv": "Удвічі більший.",
     "level": "Sätze"
   },
   {
@@ -71,47 +71,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Час йде.",
+    "lv": "Час не чекає.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Його охоплює хвилювання.",
+    "lv": "Його гнітять турботи.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Ви уважно прочитали книгу?",
+    "lv": "Ти ретельно опрацював книжку?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Не проходь! • Вихід закрито!",
+    "lv": "Прохід заборонено!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "можу я вас запитати",
+    "lv": "Можна вас запросити?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "я відчуваю спрагу",
+    "lv": "Я хочу пити.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Це саме те, що я маю на увазі.",
+    "lv": "Саме це я й маю на увазі.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Це взагалі неважливо.",
+    "lv": "Це зовсім не має значення.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Чого ти насправді хочеш?",
+    "lv": "Чого ж ви, власне, хочете?",
     "level": "Sätze"
   },
   {
@@ -131,42 +131,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Ви просто уявіть, що ви хворі.",
+    "lv": "Тобі лише здається, що ти хворий.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Що вам спадає на думку?",
+    "lv": "Що ти собі дозволяєш? • Що тобі спадає на думку?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Колись було.",
+    "lv": "Жили-були.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Будь ласка, зайдіть!",
+    "lv": "Сідайте, будь ласка!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Будь ласка, заходьте!",
+    "lv": "Заходьте!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Деякі речі мені там сподобалися.",
+    "lv": "Дещо мені там сподобалося.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Рекомендується.",
+    "lv": "Рекомендовано.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Ця пляшка містить оцет.",
+    "lv": "У цій пляшці оцет.",
     "level": "Sätze"
   },
   {
@@ -186,32 +186,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Хто сьогодні не прийшов?",
+    "lv": "Кого сьогодні немає?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Що з тобою не так?",
+    "lv": "Що з тобою?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "як тебе звуть",
+    "lv": "Як вас звати?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Що це означає?",
+    "lv": "Що це має означати?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Будь ласка, підійди ближче!",
+    "lv": "Підійдіть, будь ласка, ближче!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "говорити! • Історії!",
+    "lv": "Ну ж бо, розповідай!",
     "level": "Sätze"
   },
   {
@@ -226,42 +226,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "починаючи з сьогоднішнього дня",
+    "lv": "із сьогоднішнього дня",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "цього ранку",
+    "lv": "сьогодні вранці",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "минулої ночі",
+    "lv": "сьогодні вночі",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Допоможіть!",
+    "lv": "На допомогу!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Я вивчаю німецьку щодня.",
+    "lv": "Я щодня вчу німецьку.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Ви можете повторити це, будь ласка?",
+    "lv": "Ти можеш, будь ласка, це повторити?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Зустрічаємося на вокзалі.",
+    "lv": "Ми зустрічаємося на вокзалі.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Частково погоджуюсь з вами.",
+    "lv": "Я частково з тобою згоден.",
     "level": "Sätze"
   },
   {
@@ -271,22 +271,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Слід розглянути кілька точок зору.",
+    "lv": "Варто брати до уваги кілька точок зору.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Не могли б ви пояснити це більш детально?",
+    "lv": "Чи не могли б ви пояснити це докладніше?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Щодо мене...",
+    "lv": "Що ж до мене,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "скільки тобі років",
+    "lv": "Скільки вам років?",
     "level": "Sätze"
   },
   {
@@ -296,7 +296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von heute an.",
-    "lv": "З сьогоднішнього дня.",
+    "lv": "Відсьогодні.",
     "level": "Sätze"
   },
   {
@@ -306,27 +306,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Іншого шляху немає.",
+    "lv": "Інакше не можна.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "подзвони мені",
+    "lv": "Зателефонуйте мені.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Будь ласка, вимкніть radio.",
+    "lv": "Вимкніть, будь ласка, радіо.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Будь ласка, зверніть увагу на трафік.",
+    "lv": "Будь ласка, стеж за дорожнім рухом.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Ви повинні звернути на це увагу.",
+    "lv": "На це ти маєш зважати.",
     "level": "Sätze"
   },
   {
@@ -336,27 +336,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Чекаємо на автобус.",
+    "lv": "Ми чекаємо на автобус.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Він живе один.",
+    "lv": "Він живе сам.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Я закінчив навчання. • Я закінчив навчання.",
+    "lv": "Я закінчив професійне навчання. • Я здобув освіту.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Я почекаю, поки закінчиться дощ.",
+    "lv": "Я перечекаю дощ.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Працює у відділі продажів.",
+    "lv": "Він працює у відділі продажу.",
     "level": "Sätze"
   },
   {
@@ -381,52 +381,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Хочу детальніше проаналізувати.",
+    "lv": "Я хотів би проаналізувати це докладніше.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Я хочу змінити договір.",
+    "lv": "Я хотів би змінити договір.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Він постійно змінює свою думку.",
+    "lv": "Він постійно змінює думку.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "У нас раніше були подібні проблеми.",
+    "lv": "Схожі проблеми в нас уже були раніше.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Не знаю!",
+    "lv": "Гадки не маю!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Припиніть скаржитися.",
+    "lv": "Перестань нарікати.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Ця сукня стильно консервативна.",
+    "lv": "Ця сукня елегантна й консервативна.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Я люблю слухати музику під акордеон.",
+    "lv": "Я люблю слухати акордеонну музику.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Чи можете ви натиснути на пристрій?",
+    "lv": "Ти можеш клацнути на пристрій?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Будь ласка, відкрийте файл і натисніть на нього.",
+    "lv": "Будь ласка, відкрий файл і клацни на нього.",
     "level": "Sätze"
   },
   {
@@ -436,22 +436,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Йдемо на вокзал.",
+    "lv": "Ми йдемо на вокзал.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Будь ласка, увімкніть телевізор.",
+    "lv": "Увімкни, будь ласка, телевізор.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Мій комп'ютер зламався.",
+    "lv": "У моєму комп’ютері стався збій.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "На вихідних поїду рибалити.",
+    "lv": "У вихідні я піду на риболовлю.",
     "level": "Sätze"
   },
   {
@@ -461,17 +461,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "ти можеш подзвонити мені пізніше?",
+    "lv": "Ти можеш зателефонувати мені пізніше?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Будь ласка, прийміть мою пропозицію.",
+    "lv": "Будь ласка, прийми мою пропозицію.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Я приймаю вашу пропозицію.",
+    "lv": "Я приймаю твою пропозицію.",
     "level": "Sätze"
   },
   {
@@ -486,102 +486,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Не бійся, все буде добре.",
+    "lv": "Не бійся, усе буде добре.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Rast відлуння. • Знайдіть чуйність",
+    "lv": "Знаходити відгук. • Знаходити підтримку.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Це залежить від цього.",
+    "lv": "Це залежить від обставин.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Через цей час. • З цього приводу",
+    "lv": "Із цієї нагоди.",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Припустимо, що...",
+    "lv": "Припустімо, що...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "що ти там зробив",
+    "lv": "Що ти там накоїв?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "До кінця.",
+    "lv": "До самого кінця.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Здається, ти мені не віриш.",
+    "lv": "Ти, здається, мені не віриш.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "На мій погляд...",
+    "lv": "На мою думку...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Не прикидайся!",
+    "lv": "Не здіймай такого галасу!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Приступайте до роботи.",
+    "lv": "Братися до роботи.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Задихатись.",
+    "lv": "Бути задиханим.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Приємного апетиту!",
+    "lv": "Смачного!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "На одному подиху.",
+    "lv": "Одним духом.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "У кожному випадку.",
+    "lv": "У будь-якому разі.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Раптом усе затихло.",
+    "lv": "Раптом усе стихло.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Будь ласка, відчиніть двері!",
+    "lv": "Відчини, будь ласка, двері!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Взяв кредит.",
+    "lv": "Він узяв кредит.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Ми повинні сьогодні навести порядок у кімнаті.",
+    "lv": "Сьогодні нам треба прибрати.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Я зараз зупинюся.",
+    "lv": "Я зараз закінчу.",
     "level": "Sätze"
   },
   {
@@ -591,12 +591,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Ми повинні перенести зустріч.",
+    "lv": "Нам треба перенести зустріч.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Вона мене дратувала.",
+    "lv": "Вона мене роздратувала.",
     "level": "Sätze"
   },
   {
@@ -611,42 +611,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Покрити збитки.",
+    "lv": "Відшкодовувати збитки.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Відкрийте двері, будь ласка!",
+    "lv": "Відчиніть, будь ласка, двері!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Сядьте прямо.",
+    "lv": "Сидіти рівно.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Він підвівся.",
+    "lv": "Він устав.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Віддати всі свої сили.",
+    "lv": "Докладати всіх сил.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Дуже старайся.",
+    "lv": "Докладати багато зусиль.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Не дивись на мене знову!",
+    "lv": "Зникни з моїх очей!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Через два. • Тихо",
+    "lv": "Віч-на-віч.",
     "level": "Sätze"
   },
   {
@@ -656,27 +656,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "З цієї причини.",
+    "lv": "Із цієї причини.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Всі крім тебе.",
+    "lv": "Усі, крім тебе.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Надавайте значення зовнішньому вигляду.",
+    "lv": "Надавати значення зовнішності.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "У гіршому випадку.",
+    "lv": "У крайньому разі.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Надзвичайно важливо.",
+    "lv": "Надзвичайно важливий.",
     "level": "Sätze"
   },
   {
@@ -686,32 +686,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "У нього хороші шанси.",
+    "lv": "У нього добрі перспективи.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Як вимовляється це слово?",
+    "lv": "Як вимовляють це слово?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Висловити співчуття.",
+    "lv": "Висловлювати своє співчуття.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Коли був чемпіонат?",
+    "lv": "Коли відбувся чемпіонат?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "яка твоя професія",
+    "lv": "Яка у вас професія?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Впливати.",
+    "lv": "Справляти вплив.",
     "level": "Sätze"
   },
   {
@@ -726,7 +726,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Залізницею.",
+    "lv": "Поїздом.",
     "level": "Sätze"
   },
   {
@@ -736,37 +736,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Я дуже боюся.",
+    "lv": "Мені дуже страшно.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Зволікати. • Перетягнути до потрібної довжини • Відкласти на невизначений час",
+    "lv": "Відкладати в довгий ящик. • Зволікати.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Оплата готівкою.",
+    "lv": "Платити готівкою.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Отримати руду.",
+    "lv": "Добувати руду.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Стріляти. • Зробити дурницю",
+    "lv": "Наробити дурниць.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Мені призначили роботу.",
+    "lv": "Мені доручено.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "Як потрібно.",
+    "lv": "За потреби.",
     "level": "Sätze"
   },
   {
@@ -786,32 +786,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Вона виглядає пригніченою.",
+    "lv": "Вона має пригнічений вигляд.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Дотримуйтесь інструкцій.",
+    "lv": "Дотримуватися вказівок.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Виконуйте накази.",
+    "lv": "Виконувати накази.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Відправити поштою.",
+    "lv": "Пересилати поштою.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Я дуже хочу знати.",
+    "lv": "Мені дуже хочеться знати.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "На початку.",
+    "lv": "Спочатку.",
     "level": "Sätze"
   },
   {
@@ -821,7 +821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Запуск",
+    "lv": "З початком.",
     "level": "Sätze"
   },
   {
@@ -831,17 +831,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "З супроводом.",
+    "lv": "Зі своїм супутником.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Він повільно сприймає. • У нього сповільнене мислення",
+    "lv": "Він повільно міркує. • Він не дуже кмітливий.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Пам'ятайте. • Зберігати в пам'яті",
+    "lv": "Пам’ятати. • Тримати в пам’яті.",
     "level": "Sätze"
   },
   {
@@ -851,17 +851,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Щоб бути здоровим.",
+    "lv": "Бути при здоровому глузді.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Протягом дня.",
+    "lv": "Удень.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Зовсім ні.",
+    "lv": "Далеко не так.",
     "level": "Sätze"
   },
   {
@@ -871,22 +871,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Пролунали бурхливі оплески.",
+    "lv": "Залунали бурхливі оплески.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Отримати згоду.",
+    "lv": "Здобувати схвалення.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Висловити співчуття.",
+    "lv": "Висловлювати співчуття.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Бути фінансово незалежним.",
+    "lv": "Стояти на власних ногах.",
     "level": "Sätze"
   },
   {
@@ -896,32 +896,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Щоб допомогти. • Надавати допомогу",
+    "lv": "Допомагати. • Подавати допомогу.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Інвестуйте свою частку.",
+    "lv": "Робити свій внесок.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Познайомитися з кимось.",
+    "lv": "Знайомитися з кимось.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Познайомтеся. • Встановити контакт",
+    "lv": "Зав’язувати знайомство. • Налагоджувати контакт.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Бутерброди з начинкою.",
+    "lv": "Бутерброди на булочках.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Як хочеш.",
+    "lv": "На ваш розсуд.",
     "level": "Sätze"
   },
   {
@@ -931,7 +931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Дотримуватись тиші.",
+    "lv": "Зберігати мовчання.",
     "level": "Sätze"
   },
   {
@@ -941,17 +941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Будьте готові. • Будьте спокійні",
+    "lv": "Бути готовим. • Бути згодним.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Порятунок потерпілих у разі аварії.",
+    "lv": "Рятувати потерпілих від нещасного випадку.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "звіт. • Надати звіт • Надати огляд",
+    "lv": "Доповідати. • Подавати звіт.",
     "level": "Sätze"
   },
   {
@@ -961,17 +961,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Новий віник добре мете.",
+    "lv": "Нова мітла чисто мете.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "У нього є будинок.",
+    "lv": "Йому належить будинок.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Він має велику мужність.",
+    "lv": "У нього багато мужності.",
     "level": "Sätze"
   },
   {
@@ -981,17 +981,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Besserung!",
-    "lv": "одужуйте! • Одужуй!",
+    "lv": "Одужуйте!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Що хочеш.",
+    "lv": "Хоч як би хотілося.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "найкращий.",
+    "lv": "Найкраще.",
     "level": "Sätze"
   },
   {
@@ -1001,47 +1001,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Його завдання...",
+    "lv": "Його завдання полягає в тому, щоб...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "передай привіт",
+    "lv": "Передавати вітання.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Однозначно. • Повністю безпечний",
+    "lv": "Обов’язково. • Цілком певно.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Приходьте в гості.",
+    "lv": "Приходити в гості.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Відвідати. • Відвідати",
+    "lv": "Бути в гостях. • Гостювати.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Часто ходять на концерти.",
+    "lv": "Часто ходити на концерти.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "В якій школі він навчався?",
+    "lv": "У якій школі він навчався?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Візьміть до уваги. • Поміркуйте",
+    "lv": "Брати до уваги. • Розглядати як варіант.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Ігнорування. • Не розглядати",
+    "lv": "Не брати до уваги.",
     "level": "Sätze"
   },
   {
@@ -1056,7 +1056,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Оплатіть все.",
+    "lv": "Заплатити за все.",
     "level": "Sätze"
   },
   {
@@ -1066,17 +1066,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön.",
-    "lv": "Будь ласка",
+    "lv": "Будь ласка.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "як будь ласка",
+    "lv": "Перепрошую?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Будь ласка",
+    "lv": "Прошу.",
     "level": "Sätze"
   },
   {
@@ -1086,17 +1086,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Затрубити.",
+    "lv": "Грати на трубі.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Розсортуйте книгу.",
+    "lv": "Гортати книжку.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Босі ноги.",
+    "lv": "Босоніж.",
     "level": "Sätze"
   },
   {
@@ -1106,17 +1106,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Дякую за квіти!",
+    "lv": "Дякую за комплімент!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "все добре.",
+    "lv": "Усе гаразд.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Перевірте. • Перевірити",
+    "lv": "Просимо перевірити.",
     "level": "Sätze"
   },
   {
@@ -1126,22 +1126,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Все добре говорить.",
+    "lv": "Усе свідчить про це.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Я нічого не можу там зробити.",
+    "lv": "Я не винен.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Я проти цього.",
+    "lv": "Я проти.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Я не заперечую проти цього.",
+    "lv": "Я не заперечую.",
     "level": "Sätze"
   },
   {
@@ -1151,17 +1151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Зробіть жіночий хід.",
+    "lv": "Ходити ферзем.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Почало темніти. • Світає.",
+    "lv": "Смеркає. • Світає.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "дякую! • Дякую!",
+    "lv": "Щиро дякую!",
     "level": "Sätze"
   },
   {
@@ -1171,12 +1171,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Ви можете на це розраховувати.",
+    "lv": "На це ти можеш покластися.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Нічого з цього не вийде.",
+    "lv": "Із цього нічого не вийде.",
     "level": "Sätze"
   },
   {
@@ -1186,7 +1186,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Як ти мене вважаєш?",
+    "lv": "За кого ви мене маєте?",
     "level": "Sätze"
   },
   {
@@ -1196,42 +1196,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Не опускай голови!",
+    "lv": "Не вішай носа!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "вдома",
+    "lv": "удома",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "йти додому",
+    "lv": "іти додому",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "з дитинства • з самого початку",
+    "lv": "за походженням • від природи",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Щиро вітаю!",
+    "lv": "Мої найщиріші вітання!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Будьте такими добрими! • Будь таким добрим!",
+    "lv": "Будьте такий добрий!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Будьте такими добрими!",
+    "lv": "Будьте ласкаві!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Що з тобою не так? • Що сталося?",
+    "lv": "Що з тобою?",
     "level": "Sätze"
   },
   {
@@ -1246,52 +1246,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Я повинен визнати, що...",
+    "lv": "Мушу визнати, що...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "вчора рано вранці",
+    "lv": "учора вранці",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "минулої ночі",
+    "lv": "учора ввечері",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Мені байдуже, якщо...",
+    "lv": "Мені байдуже, чи...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "що сталося",
+    "lv": "Що сталося?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Не роби дурниць! • Не жартуйте!",
+    "lv": "Не роби дурниць!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Не кажучи вже про це. • Де ще",
+    "lv": "Не кажучи вже про... • А тим паче...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Прямо вперед!",
+    "lv": "Ідіть прямо!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "як справи • Як справи?",
+    "lv": "Як у вас справи?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Запитайте його, чи вийде він, якщо...",
+    "lv": "Спитай його при нагоді, чи...",
     "level": "Sätze"
   },
   {
@@ -1306,22 +1306,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "що нового",
+    "lv": "Що нового?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "З цього листа випливає, що...",
+    "lv": "Із цього листа випливає, що...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Так тримати!",
+    "lv": "Продовжуй!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Він не любить...",
+    "lv": "Він не прихильник...",
     "level": "Sätze"
   },
   {
@@ -1331,37 +1331,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Ви пам'ятай мене? • Ти думав про мене?",
+    "lv": "Ти мене пам’ятаєш? • Ти згадуєш про мене?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "взимку",
+    "lv": "узимку",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "в якому році ви народилися?",
+    "lv": "Якого ви року народження?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Сумно дивитись...",
+    "lv": "Мені боляче бачити...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "чим більше, тим краще",
+    "lv": "що більше, то краще",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "дотепер",
+    "lv": "досі",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Як дістатися до вокзалу?",
+    "lv": "Як мені дістатися до вокзалу?",
     "level": "Sätze"
   },
   {
@@ -1371,7 +1371,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Чи можу я поговорити з N. мадам?",
+    "lv": "Чи міг би я поговорити з пані Н.?",
     "level": "Sätze"
   },
   {
@@ -1381,32 +1381,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Скільки триватиме вистава?",
+    "lv": "Скільки триває вистава?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Припиніть це! • Киньте це!",
+    "lv": "Припини! • Облиш це!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Залиште мене!",
+    "lv": "Дай мені спокій!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Дозволь мені допомогти тобі!",
+    "lv": "Дозвольте мені вам допомогти!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "ходімо!",
+    "lv": "Ходімо!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "як справи",
+    "lv": "Ну, як справи?",
     "level": "Sätze"
   },
   {
@@ -1416,27 +1416,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Живіть здорові! • До побачення!",
+    "lv": "Прощавайте! • Бувайте здорові!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "що сталося",
+    "lv": "У чому річ?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Робота виснажлива.",
+    "lv": "Робота втомлива.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Це був насичений день.",
+    "lv": "Це був напружений день.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Вивчення німецької може бути виснажливим.",
+    "lv": "Вивчати німецьку мову буває втомливо.",
     "level": "Sätze"
   },
   {
@@ -1451,7 +1451,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Цього вимагає закон.",
+    "lv": "Так вимагає закон.",
     "level": "Sätze"
   },
   {
@@ -1466,12 +1466,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Він взагалі нічого не сказав.",
+    "lv": "Він зовсім нічого не сказав.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Собаку відпустили.",
+    "lv": "Собака відв’язався.",
     "level": "Sätze"
   },
   {
@@ -1481,52 +1481,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Затримай подих!",
+    "lv": "Замовкни! • Не перебільшуй!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "що ти робиш",
+    "lv": "Що ти робиш?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Скажи так!",
+    "lv": "Скажи-но!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Що ви маєте на увазі? • Як ви думаєте?",
+    "lv": "Що ви маєте на увазі?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Ми йдемо з тобою.",
+    "lv": "Ми йдемо з вами.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Я подорожую поїздом.",
+    "lv": "Я їду поїздом.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "в середу",
+    "lv": "у середу",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "можливо.",
+    "lv": "Можливо.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "мені це не подобається",
+    "lv": "Мені це не подобається.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "в понеділок",
+    "lv": "у понеділок",
     "level": "Sätze"
   },
   {
@@ -1536,12 +1536,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "вранці",
+    "lv": "уранці",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "на добраніч!",
+    "lv": "На добраніч!",
     "level": "Sätze"
   },
   {
@@ -1551,17 +1551,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Останні новини!",
+    "lv": "Остання новинка!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "правильно?",
+    "lv": "Чи не так?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Ні, звичайно! • Не треба!",
+    "lv": "Та ні ж! • Не треба!",
     "level": "Sätze"
   },
   {
@@ -1571,27 +1571,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Чим це корисно?",
+    "lv": "Навіщо це потрібно?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Для чого все це?",
+    "lv": "Навіщо все це?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Стоянка заборонена!",
+    "lv": "Стоянку заборонено!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Стоянка заборонена!",
+    "lv": "Стоянку заборонено!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "Він правий.",
+    "lv": "Він має рацію.",
     "level": "Sätze"
   },
   {
@@ -1606,12 +1606,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Щасливої ​​дороги!",
+    "lv": "Щасливої дороги!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "У мене закінчується терпіння.",
+    "lv": "Я втрачаю терпіння.",
     "level": "Sätze"
   },
   {
@@ -1621,7 +1621,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schon gut!",
-    "lv": "Це вже добре!",
+    "lv": "Усе гаразд!",
     "level": "Sätze"
   },
   {
@@ -1631,22 +1631,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Скільки я винен? • Скільки я маю заплатити?",
+    "lv": "Скільки я вам винен?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Перед використанням збовтати!",
+    "lv": "Перед вживанням збовтати!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Подивіться!",
+    "lv": "Подивіться-но!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "скільки...",
+    "lv": "Хоч як сильно...",
     "level": "Sätze"
   },
   {
@@ -1661,27 +1661,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Sommer",
-    "lv": "влітку",
+    "lv": "улітку",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Не тільки... а й...",
+    "lv": "Не тільки..., а й...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Ще трохи хто?",
+    "lv": "Ще щось?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Без жартів! • Жарти на межі!",
+    "lv": "Жарти набік!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "котра година",
+    "lv": "Котра година?",
     "level": "Sätze"
   },
   {
@@ -1691,52 +1691,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "ти розмовляєш німецькою?",
+    "lv": "Ви розмовляєте німецькою?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Замість...",
+    "lv": "Замість того щоб...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "як справи",
+    "lv": "Як справи?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Цей капелюх їй пасує.",
+    "lv": "Цей капелюх їй личить.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Привіт!",
+    "lv": "Добрий день!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Де ми зустрінемось?",
+    "lv": "Де ми зустрінемося?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Підійди ближче!",
+    "lv": "Підійдіть ближче!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Чесність – це чеснота.",
+    "lv": "Чесність — це чеснота.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "у мене багато справ.",
+    "lv": "У мене багато справ.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Дуже добре! • Немає заперечень",
+    "lv": "Непогано!",
     "level": "Sätze"
   },
   {
@@ -1746,22 +1746,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Він у цьому впевнений.",
+    "lv": "Він у цьому переконаний.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Це прийнято.",
+    "lv": "Так заведено.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Ваш годинник позаду.",
+    "lv": "Твій годинник відстає.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "котра година",
+    "lv": "Котра зараз година?",
     "level": "Sätze"
   },
   {
@@ -1776,12 +1776,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rechts um!",
-    "lv": "Поверніть праворуч!",
+    "lv": "Право-руч!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "А що ще!",
+    "lv": "Ще б пак!",
     "level": "Sätze"
   },
   {
@@ -1791,22 +1791,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "За рахунок...",
+    "lv": "Коштом...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Він сидів серед публіки.",
+    "lv": "Він сидів серед глядачів.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Ні за що!",
+    "lv": "Нема за що!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Сталося, як і домовились.",
+    "lv": "Сталося, як і домовлялися.",
     "level": "Sätze"
   },
   {
@@ -1816,7 +1816,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Неправильне підключення!",
+    "lv": "Ви неправильно набрали номер!",
     "level": "Sätze"
   },
   {
@@ -1826,22 +1826,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Ти мене розумієш?",
+    "lv": "Ви мене розумієте?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Він нічого в цьому не розуміє.",
+    "lv": "Він на цьому зовсім не розуміється.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Відстоювати свою думку.",
+    "lv": "Обстоювати свою думку.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Викликати суперечку.",
+    "lv": "Спричиняти сварку.",
     "level": "Sätze"
   },
   {
@@ -1851,12 +1851,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu viel.",
-    "lv": "Занадто багато.",
+    "lv": "Забагато.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Почувши.",
+    "lv": "Із чуток.",
     "level": "Sätze"
   },
   {
@@ -1871,12 +1871,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Він берлінець за походженням.",
+    "lv": "Він берлінець за народженням.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Він стоїть біля вікна.",
+    "lv": "Він стоїть перед вікном.",
     "level": "Sätze"
   },
   {
@@ -1891,32 +1891,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "Для розваги.",
+    "lv": "З радощів.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Перш за все. • Перш за все",
+    "lv": "Насамперед.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Раніше.",
+    "lv": "Заздалегідь.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Припускаючи, що...",
+    "lv": "За умови, що...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Умовно.",
+    "lv": "Із цим застереженням.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Бути. • Будьте присутні • Будьте доступні",
+    "lv": "Бути наявним. • Існувати.",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Вжити заходів щодо захисту.",
+    "lv": "Уживати запобіжних заходів.",
     "level": "Sätze"
   },
   {
@@ -1936,42 +1936,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Він дуже любить літературу.",
+    "lv": "Він особливо любить літературу.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Сьогодні вранці. • Сьогодні вранці",
+    "lv": "Сьогодні вранці. • Сьогодні до обіду.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "З фронту.",
+    "lv": "Спереду. • Спочатку.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "вперед.",
+    "lv": "Уперед.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "На самому початку.",
+    "lv": "Від самого початку.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Бути в кращому становищі.",
+    "lv": "Мати перевагу.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Щоб не спати.",
+    "lv": "Не спати.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Прокинься.",
+    "lv": "Прокидатися.",
     "level": "Sätze"
   },
   {
@@ -1991,37 +1991,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Розмови даремно.",
+    "lv": "Говорити як до стіни.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Тут стіни мають вуха.",
+    "lv": "Тут і стіни мають вуха.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "До коликому?",
+    "lv": "До якого часу?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Це тепло.",
+    "lv": "Тепло.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Чекайте повідомлення.",
+    "lv": "Чекати на повідомлення.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "що ти хочеш",
+    "lv": "Чого ви хочете?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "ВООЗ...? • А як щодо...?",
+    "lv": "Який...? • Що за...?",
     "level": "Sätze"
   },
   {
@@ -2031,27 +2031,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "таким чином. • За такі кошти",
+    "lv": "У такий спосіб. • Такими засобами.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "На шляху миру.",
+    "lv": "Мирним шляхом.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Через нашу дружбу.",
+    "lv": "Заради нашої дружби.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "По справедливості.",
+    "lv": "За законом. • По справедливості.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Зашкодити.",
+    "lv": "Боліти.",
     "level": "Sätze"
   },
   {
@@ -2066,17 +2066,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "Тип.",
+    "lv": "Спосіб.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Негайно. • Негайно",
+    "lv": "Без зволікань. • Без труднощів.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "До подальших повідомлень.",
+    "lv": "До подальшого повідомлення.",
     "level": "Sätze"
   },
   {
@@ -2086,22 +2086,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "більше нічого.",
+    "lv": "Більше нічого.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "в який день?",
+    "lv": "Якого дня?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Visa світ. • Всі",
+    "lv": "Увесь світ. • Усі.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Через декілька днів.",
+    "lv": "За кілька днів.",
     "level": "Sätze"
   },
   {
@@ -2111,12 +2111,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Хоча.",
+    "lv": "Хоча й.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Що там?",
+    "lv": "Хто там?",
     "level": "Sätze"
   },
   {
@@ -2126,17 +2126,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Підбірка творів.",
+    "lv": "Вибрані твори.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Він заслуговує...",
+    "lv": "Він заслуговує на те, щоб...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Коштує два євро.",
+    "lv": "Це варте двох євро.",
     "level": "Sätze"
   },
   {
@@ -2151,27 +2151,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Участь у конкурсі.",
+    "lv": "Вступати в змагання.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Запустіть гонку.",
+    "lv": "Бігати наввипередки.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Про що ми торгуємося?",
+    "lv": "На що б’ємося об заклад?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Якою буде погода?",
+    "lv": "Яка буде погода?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Змагання зі спортивної гімнастики.",
+    "lv": "Змагання з гімнастики.",
     "level": "Sätze"
   },
   {
@@ -2181,17 +2181,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Протестувати. • Висловлювати заперечення",
+    "lv": "Протестувати. • Висловлювати заперечення.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "скільки йому років",
+    "lv": "Скільки йому років?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "як довго",
+    "lv": "Як довго?",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Гарячі вітання!",
+    "lv": "Ласкаво просимо!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "У вас є хід.",
+    "lv": "Тобі ходити.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Потягнути",
+    "lv": "Протяг.",
     "level": "Sätze"
   },
   {
@@ -2231,27 +2231,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Наконечник ковбаси.",
+    "lv": "Кінчик ковбаси.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Іди до нього.",
+    "lv": "Іти до нього.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Іди до школи.",
+    "lv": "Ходити до школи.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Залишайся вдома.",
+    "lv": "Залишатися вдома.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Щодня.",
+    "lv": "З кожним днем.",
     "level": "Sätze"
   },
   {
@@ -2266,12 +2266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Для ніжок.",
+    "lv": "Пішки.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "так",
+    "lv": "Верхи.",
     "level": "Sätze"
   },
   {
@@ -2286,52 +2286,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Я ще маю багато зробити.",
+    "lv": "У мене ще багато справ.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Занадто рано.",
+    "lv": "Зарано.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Занадто великий.",
+    "lv": "Завеликий.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Знизати плечима.",
+    "lv": "Знизувати плечима.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Випити залпом.",
+    "lv": "Випити одним ковтком.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Загинути.",
+    "lv": "Гинути.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Покласти на основу. • Взяти за основу.",
+    "lv": "Класти в основу. • Брати за основу.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Вперше.",
+    "lv": "Уперше.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Будь ласка, закрийте двері!",
+    "lv": "Зачиніть, будь ласка, двері!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Він набрав вагу.",
+    "lv": "Він погладшав.",
     "level": "Sätze"
   },
   {
@@ -2341,22 +2341,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Асоціюватися з чимось.",
+    "lv": "Бути пов’язаним із чимось.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Двері закриті.",
+    "lv": "Двері зачинені.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Я б не очікував від нього такого.",
+    "lv": "Такого я б від нього не чекав.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Вхід вільний.",
+    "lv": "Вільний вхід.",
     "level": "Sätze"
   },
   {
@@ -2366,12 +2366,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Це занадто!",
+    "lv": "Це забагато!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Стати огидним. • Захворіти",
+    "lv": "Ставати огидним. • Набридати.",
     "level": "Sätze"
   },
   {
@@ -2381,47 +2381,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Сумнівів немає.",
+    "lv": "Це поза сумнівом.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Без вагань.",
+    "lv": "Без сумніву.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "По друге.",
+    "lv": "По-друге.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "З новим роком!",
+    "lv": "З Новим роком!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "З днем ​​народження!",
+    "lv": "Щиро вітаю з днем народження!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Щасливої ​​дороги!",
+    "lv": "Щасливої дороги!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Я радий зустрічі з вами.",
+    "lv": "Радий з вами познайомитися.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Будьте ласкаві, будь ласка?",
+    "lv": "Чи не були б ви такий люб’язний?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Я дуже тобі вдячна.",
+    "lv": "Я вам дуже вдячний.",
     "level": "Sätze"
   },
   {
@@ -2431,77 +2431,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, будь ласка, підійдіть до дошки!",
+    "lv": "Бене, вийди, будь ласка, до дошки!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Відкрийте, будь ласка, підручники!",
+    "lv": "Розгорніть, будь ласка, підручники!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Будь ласка, йди в спортзал!",
+    "lv": "Ідіть, будь ласка, до спортивної зали!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "ти ще спиш?",
-    "level": "Sätze"
-  },
-  {
-    "de": "Schlafen Sie noch?",
     "lv": "Ти ще спиш?",
     "level": "Sätze"
   },
   {
+    "de": "Schlafen Sie noch?",
+    "lv": "Ви ще спите?",
+    "level": "Sätze"
+  },
+  {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Він міцно спить.",
+    "lv": "Він міцно заснув.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Будь ласка, розбуди його, вже пізно!",
+    "lv": "Розбуди його, будь ласка, уже пізно!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "мені дуже шкода!",
+    "lv": "Мені дуже шкода!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Дуже дякую!",
+    "lv": "Щиро дякую!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, починайте, будь ласка!",
+    "lv": "Фінне, починай, будь ласка!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Прочитайте, будь ласка!",
+    "lv": "Читайте, будь ласка, разом зі мною!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, будь ласка, не дивіться у вікно!",
+    "lv": "Еммо, не дивися, будь ласка, у вікно!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, будь ласка, принесіть зошити!",
+    "lv": "Йонасе, принеси, будь ласка, зошити!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Вертайся на своє місце!",
+    "lv": "Повернися, будь ласка, на своє місце!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Зараз пів на сьому.",
+    "lv": "Зараз пів на восьму.",
     "level": "Sätze"
   },
   {
@@ -2511,27 +2511,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Я зараз встану.",
+    "lv": "Я зараз устану.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Вставай, Hanna, дзвони!",
+    "lv": "Вставай, Ганно, дзвонить будильник! • Вставай, Ганно, дзвонять у двері!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Дай мені поспати ще п'ять хвилин!",
+    "lv": "Дай мені поспати ще п’ять хвилин!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Не забувайте провітрювати приміщення!",
+    "lv": "Не забудь провітрити кімнату!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "де рушник",
+    "lv": "Де рушник?",
     "level": "Sätze"
   },
   {
@@ -2551,27 +2551,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Швидше одягайся, будь ласка!",
+    "lv": "Одягайся, будь ласка, швидко!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Одягайся тепліше, на вулиці холодно.",
+    "lv": "Одягнися тепліше, надворі прохолодно.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Доброго ранку, як справи?",
+    "lv": "Доброго ранку, як у тебе справи?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Я в порядку, дякую.",
+    "lv": "У мене все добре, дякую.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "що нового",
+    "lv": "Що нового?",
     "level": "Sätze"
   },
   {
@@ -2581,22 +2581,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Чи можу я допомогти навести порядок?",
+    "lv": "Можна допомогти з прибиранням?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Що ви п'єте вранці, каву чи чай?",
+    "lv": "Що ти п’єш зранку, каву чи чай?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Я зазвичай випиваю чашку кави вранці.",
+    "lv": "Зазвичай зранку я випиваю чашку кави.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Найкраще п'ю чорну каву.",
+    "lv": "Найбільше я люблю чорну каву.",
     "level": "Sätze"
   },
   {
@@ -2606,7 +2606,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Я ще дуже втомився.",
+    "lv": "Я ще дуже втомлений.",
     "level": "Sätze"
   },
   {
@@ -2616,37 +2616,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Дайте мені, будь ласка, сирну булочку.",
+    "lv": "Дай мені, будь ласка, булочку із сиром.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Я мушу йти зараз!",
+    "lv": "Мені вже треба йти!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Не забудьте снідати!",
+    "lv": "Не забудь сніданок!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Klara, будь ласка, накрийте стіл!",
+    "lv": "Кларо, накрий, будь ласка, на стіл!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Не забудьте про серветки!",
+    "lv": "Не забудь серветки!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "коли ти обідаєш",
+    "lv": "Коли ви обідаєте?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Настав час їсти.",
+    "lv": "Час їсти.",
     "level": "Sätze"
   },
   {
@@ -2656,172 +2656,172 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Як вам суп?",
+    "lv": "Як тобі суп?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Відверто кажучи, це занадто солоно.",
+    "lv": "Чесно кажучи, він трохи пересолений.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Можна дати тобі шматочок хліба?",
+    "lv": "Можна дати тобі шматок хліба?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Дякую, вже є.",
+    "lv": "Дякую, у мене вже є.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "М'ясо чудове на смак.",
+    "lv": "М’ясо чудове на смак.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Дякую, я вже ситий.",
+    "lv": "Дякую, я вже наївся.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Сьогодні у нас гості.",
+    "lv": "Сьогодні в нас гості.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "ти вільний сьогодні ввечері?",
+    "lv": "Ти сьогодні ввечері вільний?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Приходьте сьогодні на обід!",
+    "lv": "Заходь же сьогодні до нас на обід!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Сідаймо за стіл.",
+    "lv": "Сядьмо за стіл.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Будь ласка, їжте скільки хочете!",
+    "lv": "Будь ласка, пригощайся!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Вам заважає куріння?",
+    "lv": "Тобі заважає куріння?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Дякуємо за теплий прийом!",
+    "lv": "Дякую за теплий прийом!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "коли ти лягаєш спати",
+    "lv": "Коли ти лягаєш спати?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Я завжди втомлений, коли повертаюся з роботи.",
+    "lv": "Коли я приходжу з роботи, я завжди втомлений.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Пора йти спати.",
+    "lv": "Час лягати спати.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Це гарний час.",
+    "lv": "Гарна погода.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Хочеш погуляти зі мною?",
+    "lv": "Хочеш піти зі мною погуляти?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Подивіться, скоро піде дощ.",
+    "lv": "Подивися, зараз піде дощ.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Візьміть із собою парасольку!",
+    "lv": "Візьми із собою парасольку!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Йде дощ.",
+    "lv": "Іде дощ.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Я вже зовсім мокрий.",
+    "lv": "Я вже весь промок.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Думаєте, цілий день буде дощ?",
+    "lv": "Ти думаєш, що дощ ітиме цілий день?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Дощ припиняється.",
+    "lv": "Дощ ущухає.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Знову сонце світить.",
+    "lv": "Знову світить сонце.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Дуже жарко.",
+    "lv": "Дуже тепло.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Здається, буде дощ.",
+    "lv": "Схоже, буде дощ.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Ми ось-ось отримаємо шторм.",
+    "lv": "Зараз почнеться гроза.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Гроза минула.",
+    "lv": "Гроза минає.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Хмари розсіюються.",
+    "lv": "Хмари розходяться.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Бачите веселку?",
+    "lv": "Ти бачиш веселку?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Зима тут, вночі випав сніг.",
+    "lv": "Настала зима, випав сніг.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Йде сніг.",
+    "lv": "Іде сніг.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Як гарно в лісі взимку!",
+    "lv": "Як гарно взимку в лісі!",
     "level": "Sätze"
   },
   {
@@ -2831,17 +2831,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "На вулиці слизько, будьте обережні!",
+    "lv": "Надворі ожеледиця, будь обережний!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Покатаємось на ковзанах?",
+    "lv": "Підемо на ковзанку?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Одягніть куртку, можете застудитися.",
+    "lv": "Одягни куртку, ти можеш застудитися.",
     "level": "Sätze"
   },
   {
@@ -2851,17 +2851,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Мій годинник швидкий на п'ять хвилин.",
+    "lv": "Мій годинник поспішає на п’ять хвилин.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Розбуди мене завтра о сьомій!",
+    "lv": "Розбуди мене завтра о сьомій годині ранку!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Яка сьогодні дата?",
+    "lv": "Яке сьогодні число?",
     "level": "Sätze"
   },
   {
@@ -2871,22 +2871,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Що ти зазвичай робиш вечорами?",
+    "lv": "Що ти зазвичай робиш увечері?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Ми давно не зустрічалися.",
+    "lv": "Ми вже давно не бачилися.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "як справи",
+    "lv": "Як у тебе справи?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Вибачте, я хочу з вами дещо обговорити.",
+    "lv": "Вибач, я хотів би дещо з тобою обговорити.",
     "level": "Sätze"
   },
   {
@@ -2896,62 +2896,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Хочеш піти зі мною в парк?",
+    "lv": "Хочеш піти зі мною до парку?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Я прийшов вас погуляти.",
+    "lv": "Я прийшов, щоб покликати тебе на прогулянку.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Повільніше, я не встигну за тобою!",
+    "lv": "Іди, будь ласка, трохи повільніше, я не встигаю за тобою!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Я тут вперше.",
+    "lv": "Я вперше в цих місцях.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Трохи відпочинемо.",
+    "lv": "Трохи відпочиньмо.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Тепер ми можемо повернутися.",
+    "lv": "Тепер ми можемо повертатися.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Чесно кажучи, я дуже втомився.",
+    "lv": "Чесно кажучи, я досить утомлений.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Вибачте, а де найближча станція метро?",
+    "lv": "Вибач, де найближча станція метро?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Який найкоротший шлях?",
+    "lv": "Яка дорога найкоротша?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Тут поверніть на другу вулицю ліворуч і йдіть прямо.",
+    "lv": "Тут поверни на другу вулицю ліворуч, а потім іди весь час прямо.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Як швидше дістатися до вокзалу?",
+    "lv": "Як мені найшвидше дістатися до вокзалу?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Я маю намір виїхати завтра.",
+    "lv": "Я збираюся завтра поїхати.",
     "level": "Sätze"
   },
   {
@@ -2961,52 +2961,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Ви подорожуєте по роботі чи на відпочинок?",
+    "lv": "Ти їдеш у службових справах чи в особистих?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn їхати до Берліна, потім їхати до моря.",
+    "lv": "Фінн їде з нами до Берліна, а потім вирушить на море.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Коли відходить корабель?",
+    "lv": "Коли відпливає корабель?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Через півгодини.",
+    "lv": "За пів години.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Чи можу я отримати каюту?",
+    "lv": "Чи можу я ще отримати каюту?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Не забудьте свій паспорт!",
+    "lv": "Не забудь паспорт!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Пора пакувати валізу.",
+    "lv": "Час пакувати валізу.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Поїзд відправляється о пів на сьому.",
+    "lv": "Потяг відходить о пів на сьому.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Викличте, будь ласка, таксі, інакше я спізнюся на поїзд!",
+    "lv": "Виклич мені, будь ласка, таксі, бо я запізнюся на потяг!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Будь ласка, відвезіть мене на вокзал!",
+    "lv": "Їдь, будь ласка, до вокзалу!",
     "level": "Sätze"
   },
   {
@@ -3016,7 +3016,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Каса вже відкрита?",
+    "lv": "Каса вже відчинена?",
     "level": "Sätze"
   },
   {
@@ -3026,27 +3026,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Коли відправляється поїзд?",
+    "lv": "Коли відходить потяг?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Поїзд незабаром відправляється.",
+    "lv": "Потяг зараз відходить.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Чи потрібно пересідати в Кобленці?",
+    "lv": "Мені треба пересідати в Кобленці?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Так, там треба пересісти.",
+    "lv": "Так, там тобі треба пересісти.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Чи доступне це місце?",
+    "lv": "Це місце вільне?",
     "level": "Sätze"
   },
   {
@@ -3056,27 +3056,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Де квитковий автомат на платформі?",
+    "lv": "Де автомат для перонних квитків?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Покладіть мою ручну поклажу в сітку.",
+    "lv": "Поклади мою ручну поклажу на багажну полицю.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Чи можу я відкрити вікно?",
+    "lv": "Можна мені відчинити вікно?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Протягніть, будь ласка, закрийте вікно!",
+    "lv": "Протяг, зачини, будь ласка, вікно!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Яка наступна зупинка?",
+    "lv": "Яка наступна станція?",
     "level": "Sätze"
   },
   {
@@ -3086,47 +3086,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Куди мені перевести?",
+    "lv": "Де мені треба пересідати?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Поїзд запізнюється.",
+    "lv": "Потяг запізнюється.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "У вагоні заборонено палити.",
+    "lv": "Цей вагон для некурців.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Зараз їдемо через кордон.",
+    "lv": "Зараз ми перетинаємо кордон.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Вам є що розчистити?",
+    "lv": "У тебе є що декларувати?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Ми приїхали в Берлін.",
+    "lv": "Ми приїхали до Берліна.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Можете порадити хороший готель?",
+    "lv": "Ти можеш порадити мені добрий готель?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Чи є у вас вільні кімнати?",
+    "lv": "У вас є вільні номери?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Номер з двома ліжками, будь ласка.",
+    "lv": "Номер із двома ліжками, будь ласка.",
     "level": "Sätze"
   },
   {
@@ -3136,32 +3136,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Я завтра їду. Розбуди мене о сьомій!",
+    "lv": "Завтра я від’їжджаю. Розбуди мене о сьомій годині!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Білл, будь ласка!",
+    "lv": "Рахунок, будь ласка!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Де знаходиться міська бібліотека?",
+    "lv": "Де міська бібліотека?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Коли відкритий музей?",
+    "lv": "Коли працює музей?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Підемо в музей?",
+    "lv": "Підемо до музею?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Ми їдемо автобусом чи метро?",
+    "lv": "Поїдемо автобусом чи метро?",
     "level": "Sätze"
   },
   {
@@ -3181,7 +3181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Офіціанти, меню, будь ласка!",
+    "lv": "Офіціанте, меню, будь ласка!",
     "level": "Sätze"
   },
   {
@@ -3191,22 +3191,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "На смак чудовий!",
+    "lv": "Це надзвичайно смачно!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Офіціанти, будь ласка, платіть!",
+    "lv": "Офіціанте, рахунок, будь ласка!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Піду в кафе випити кави.",
+    "lv": "Я йду в кафе випити кави.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Хочеш піти разом?",
+    "lv": "Хочеш піти зі мною?",
     "level": "Sätze"
   },
   {
@@ -3216,17 +3216,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Швидше, будь ласка, мені треба поспішати!",
+    "lv": "Швидше, будь ласка, я поспішаю!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Не дай каві охолонути!",
+    "lv": "Не дай своїй каві вихолонути!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "У вас є щось освіжаюче?",
+    "lv": "У вас є щось освіжальне?",
     "level": "Sätze"
   },
   {
@@ -3241,7 +3241,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Я повинен написати йому зараз.",
+    "lv": "Мені треба негайно йому написати.",
     "level": "Sätze"
   },
   {
@@ -3251,72 +3251,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Де знаходиться пошта?",
+    "lv": "Де пошта?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Нагадай мені підписати завтра!",
+    "lv": "Нагадай мені завтра написати!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Будь ласка, опустіть цей лист у поштову скриньку!",
+    "lv": "Киньте, будь ласка, цей лист у поштову скриньку.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Привіт, кажу Emma.",
+    "lv": "Алло, це Емма.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "чи можу я подзвонити тобі пізніше?",
+    "lv": "Можна мені подзвонити тобі пізніше?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Мені довго чекати?",
+    "lv": "Мені доведеться довго чекати?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Будь ласка, обстрижіть мене.",
+    "lv": "Будь ласка, підстрижіть мене.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Ззаду, будь ласка, не дуже коротко.",
+    "lv": "Ззаду, будь ласка, не надто коротко.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Коли починається шоу?",
+    "lv": "Коли починається вистава?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Початок о пів на сьому.",
+    "lv": "Вона починається о пів на восьму.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Усі квитки розкуплені.",
+    "lv": "Усі місця розпродано.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Будь ласка, три квитки!",
+    "lv": "Три квитки, будь ласка!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Залишимо куртки в гардеробі.",
+    "lv": "Ми залишимо куртки в гардеробі.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Швидше, будь ласка, завіса ось-ось відкриється!",
+    "lv": "Швидше, будь ласка, завіса зараз підніметься!",
     "level": "Sätze"
   },
   {
@@ -3326,132 +3326,132 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Можна запропонувати вам потанцювати?",
+    "lv": "Можна запросити тебе на танець?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Коли у вас весілля?",
+    "lv": "Коли ваше весілля?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Шукаю квартиру.",
+    "lv": "Я шукаю квартиру.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Чи є вільна квартира в цьому будинку?",
+    "lv": "У цьому будинку є вільна квартира?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Скільки коштує орендна плата?",
+    "lv": "Скільки коштує оренда?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "В квартирі три кімнати та кухня.",
+    "lv": "У квартирі три кімнати й кухня.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Ми сьогодні переїжджаємо.",
+    "lv": "Сьогодні ми переїжджаємо.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, складіть речі в ящики, будь ласка!",
+    "lv": "Міє, склади, будь ласка, речі в коробки!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Все вже запаковано?",
+    "lv": "Ти все спакував?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Я листуюся зі своїм другом.",
+    "lv": "Я підтримую зв’язок зі своїм другом.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Підемо в театр?",
+    "lv": "Підемо до театру?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Чи все завантажено?",
+    "lv": "Усе завантажено?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Який чудовий краєвид!",
+    "lv": "Який гарний краєвид!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Тепер ми можемо зібрати все назад.",
+    "lv": "Тепер ми можемо знову все прибрати.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Скільки кімнат у вас?",
+    "lv": "Скільки у вас кімнат?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Влітку поїду на море.",
+    "lv": "Улітку я поїду на море.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "ти вмієш плавати",
+    "lv": "Ти вмієш плавати?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Не запливайте занадто далеко!",
+    "lv": "Не запливай надто далеко!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Ви щодня плаваєте?",
+    "lv": "Ти купаєшся щодня?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Якщо погода хороша, я йду на риболовлю.",
+    "lv": "У гарну погоду я ходжу на риболовлю.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Як він виглядає?",
+    "lv": "Який він на вигляд?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Однак він дуже змінився.",
+    "lv": "Він і справді неабияк змінився.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Який він як особистість?",
+    "lv": "Який він як людина?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Він завжди добрий і добрий.",
+    "lv": "Він завжди милий і привітний.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Мені погано.",
+    "lv": "Я погано почуваюся.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "У мене сильний головний біль.",
+    "lv": "У мене сильно болить голова.",
     "level": "Sätze"
   },
   {
@@ -3466,27 +3466,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "у мене запаморочення.",
+    "lv": "У мене паморочиться голова.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Мені треба йти до лікаря.",
+    "lv": "Мені треба піти до лікаря.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Лягай в ліжко!",
+    "lv": "Лягай у ліжко!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "У вас лихоманка?",
+    "lv": "У тебе температура?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "У мене вчора була висока температура.",
+    "lv": "Учора в мене була підвищена температура.",
     "level": "Sätze"
   },
   {
@@ -3496,47 +3496,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Мені треба йти до стоматолога.",
+    "lv": "Мені треба піти до зубного лікаря.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Ви знаєте, що Finn хворий?",
+    "lv": "Ти знаєш, що Фінн хворий?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "За словами лікаря, незабаром він одужає.",
+    "lv": "За словами лікаря, він скоро одужає.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Хочу зробити ремонт квартири.",
+    "lv": "Я хочу заново умеблювати свою квартиру.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Чи можна купувати в розстрочку?",
+    "lv": "Чи можу я купити це в розстрочку?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Залишайтеся в ліжку, поки вам не стане легше!",
+    "lv": "Залишайся в ліжку, поки тобі не стане краще!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah навчився плавати за два тижні.",
+    "lv": "Ноа навчився плавати за два тижні.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Будьте обережні з їжею.",
+    "lv": "Поки що будь обережний із їжею.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "ти розмовляєш німецькою?",
+    "lv": "Ти розмовляєш німецькою?",
     "level": "Sätze"
   },
   {
@@ -3546,32 +3546,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Ви говорите досить вільно.",
+    "lv": "Ти розмовляєш досить вільно.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Де ти вчив німецьку?",
+    "lv": "Де ти вивчив німецьку?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Вже рік ходжу на уроки німецької мови.",
+    "lv": "Я вже рік відвідую уроки німецької мови.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Завжди шукаю можливість розмовляти німецькою мовою.",
+    "lv": "Я завжди шукаю нагоди поговорити німецькою.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Ця книга ще доступна?",
+    "lv": "Ця книжка ще є в наявності?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "На жаль, книга розпродана.",
+    "lv": "Книжку, на жаль, розпродано.",
     "level": "Sätze"
   },
   {
@@ -3581,12 +3581,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Чим я можу допомогти?",
+    "lv": "Чим я можу вам допомогти?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "У вас є свіжі яйця?",
+    "lv": "У вас є зовсім свіжі яйця?",
     "level": "Sätze"
   },
   {
@@ -3596,12 +3596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Це занадто дорого.",
+    "lv": "Це надто дорого.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Чи можете ви зважити половину kilo?",
+    "lv": "Чи не могли б ви зважити мені пів кілограма?",
     "level": "Sätze"
   },
   {
@@ -3616,27 +3616,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Будь ласка, зважте два кілограми.",
+    "lv": "Зважте мені, будь ласка, два кілограми.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "У вас теж є морква?",
+    "lv": "У вас також є морква?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "У вас хороша яловичина?",
+    "lv": "У вас є хороша яловичина?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Дайте два кілограми фаршу.",
+    "lv": "Дайте мені два кілограми фаршу.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Буханець хліба, будь ласка, але не дуже жорсткий.",
+    "lv": "Хлібину, будь ласка, але не надто хрустку.",
     "level": "Sätze"
   },
   {
@@ -3646,7 +3646,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Які у вас сьогодні фрукти?",
+    "lv": "Які фрукти у вас сьогодні є?",
     "level": "Sätze"
   },
   {
@@ -3666,7 +3666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Ви можете доставити все додому?",
+    "lv": "Чи можете ви доставити мені все додому?",
     "level": "Sätze"
   },
   {
@@ -3676,52 +3676,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Дайте, будь ласка, кілограм рису.",
+    "lv": "Дайте мені, будь ласка, кілограм рису.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Дякую, не цього разу.",
+    "lv": "Дякую, цього разу ні.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Скільки коштує цей килимок?",
+    "lv": "Скільки коштує цей килим?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Чи можете ви доставити меблі в квартиру?",
+    "lv": "Чи можете ви доставити меблі до моєї квартири?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Будь ласка, оплачуйте в касі.",
+    "lv": "Просимо оплачувати покупки на касі.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Будь ласка, виставте рахунок.",
+    "lv": "Будь ласка, випишіть рахунок.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Скільки коштує лічильник?",
+    "lv": "Скільки коштує метр?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Я люблю цю тканину.",
+    "lv": "Мені подобається ця тканина.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Будь ласка, відріжте три метри.",
+    "lv": "Відріжте мені, будь ласка, три метри.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "У вас є інші зразки?",
+    "lv": "У вас є й інші зразки?",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Дайте яскравіше.",
+    "lv": "Дайте мені світліший.",
     "level": "Sätze"
   },
   {
@@ -3741,27 +3741,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Які рукавички ти хочеш?",
+    "lv": "Які рукавички ви бажаєте?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Мені вони трохи тісні.",
+    "lv": "Вони мені трохи затісні.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Отже, тепер der добре.",
+    "lv": "Ну ось, тепер вони добре сидять.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Можете порадити хорошого кравця?",
+    "lv": "Ти можеш порадити мені доброго кравця?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Хочу замовити костюм.",
+    "lv": "Я хочу замовити костюм.",
     "level": "Sätze"
   },
   {
@@ -3771,17 +3771,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Костюм der хороший.",
+    "lv": "Костюм добре сидить.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Штани занадто довгі.",
+    "lv": "Штани надто довгі.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Будь ласка, почистіть і випрасуйте!",
+    "lv": "Будь ласка, почистіть і випрасуйте його!",
     "level": "Sätze"
   },
   {
@@ -3791,27 +3791,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Взуття занадто тісне.",
+    "lv": "Туфлі надто тісні.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Ти можеш сьогодні полагодити своє взуття?",
+    "lv": "Чи можете ви полагодити туфлі сьогодні?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Коли я можу принести взуття?",
+    "lv": "Коли я можу забрати туфлі?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Мій годинник не працює.",
+    "lv": "Мій наручний годинник не працює.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "На п'ять хвилин раніше.",
+    "lv": "Він поспішає на п’ять хвилин.",
     "level": "Sätze"
   },
   {
@@ -3821,32 +3821,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Я хочу купити окуляри.",
+    "lv": "Я хотів би купити окуляри.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Ви можете полагодити мої окуляри?",
+    "lv": "Чи можете ви полагодити мої окуляри?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Це займе всього п'ятнадцять хвилин.",
+    "lv": "Це триватиме лише чверть години.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Ціна для мене занадто висока.",
+    "lv": "Ціна для мене зависока.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Мені потрібні дві фотографії на паспорт.",
+    "lv": "Мені потрібні дві фотографії для паспорта.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Будь ласка, запакуйте та відправте додому.",
+    "lv": "Будь ласка, запакуйте це й надішліть мені додому.",
     "level": "Sätze"
   },
   {
@@ -3861,37 +3861,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Сідайте, дивіться прямо в камеру і не рухайтеся!",
+    "lv": "Сідайте, дивіться прямо в камеру й не рухайтеся!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Коли я можу побачити зразок?",
+    "lv": "Коли я можу побачити пробний знімок?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Коли будуть готові фото?",
+    "lv": "Коли будуть готові фотографії?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Foto вдалося.",
+    "lv": "Знімок удався.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Фотки вийшли гарні.",
+    "lv": "Фотографії вийшли добре.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Можна також збільшити фото?",
+    "lv": "Чи можете ви також збільшити фотографію?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Чи справжні ці камені?",
+    "lv": "Ці камені справжні?",
     "level": "Sätze"
   },
   {
@@ -3901,7 +3901,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Покажіть, будь ласка, обручки.",
+    "lv": "Покажіть мені, будь ласка, обручки.",
     "level": "Sätze"
   },
   {
@@ -3911,32 +3911,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Я можу звузити його.",
+    "lv": "Я можу її зменшити.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Цей перстень для мене der.",
+    "lv": "Ця каблучка мені якраз.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Продемонструйте красиві ідеї подарунків.",
+    "lv": "Покажіть мені щось гарне на подарунок.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Як вам ці сережки?",
+    "lv": "Як тобі ці сережки?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Ця брошка дуже красива.",
+    "lv": "Ця брошка справді гарна.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Цей камінь є сапфіром.",
+    "lv": "Цей камінь — сапфір.",
     "level": "Sätze"
   },
   {
@@ -3946,37 +3946,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Можу особливо порекомендувати цей браслет.",
+    "lv": "Цей браслет я можу вам особливо порекомендувати.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Він надзвичайно тонко виготовлений.",
+    "lv": "Він особливо майстерно зроблений.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Ціна не висока.",
+    "lv": "Ціна невисока.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Я отримав коробку безкоштовно?",
+    "lv": "Чи отримаю я коробочку безкоштовно?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Всі прикраси штамповані.",
+    "lv": "На всіх прикрасах є проба.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Якщо моїй дружині це не подобається, я можу його обміняти?",
+    "lv": "Якщо моїй дружині не сподобається, чи зможу я це обміняти?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "У будь-який час, звичайно.",
+    "lv": "Звичайно, будь-коли.",
     "level": "Sätze"
   }
 ];
