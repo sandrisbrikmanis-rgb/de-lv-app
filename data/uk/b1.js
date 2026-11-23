@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "таким чином • завдяки цьому",
       "explanation": [
         "Головна думка: dadurch — прислівник, що означає таким чином, завдяки цьому, через це — вказує на причину або засіб. Зазвичай він пов’язує попереднє речення з наслідком: Er hat viel geübt. Dadurch wurde er besser.",
-        "Порядок слів: після dadurch дієслово стоїть на другому місці: Dadurch wird alles einfacher. Також dadurch dass як сполучник (завдяки тому, що) вводить підрядне речення з дієсловом у кінці.",
+        "Порядок слів: після dadurch дієслово стоїть на другому місці: Dadurch wird alles einfacher. Також dadurch, dass як сполучник (завдяки тому, що) вводить підрядне речення з дієсловом у кінці.",
         "У просторовому значенні dadurch означає також «крізь це», і тоді наголошений перший склад: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Головна думка: daher — прислівник, що виражає наслідок: тому, через це. Він показує, що щось відбувається з певної причини. Ich war krank, daher bin ich nicht gekommen.",
         "Порядок слів: daher стоїть на початку речення (тоді одразу після нього йде дієслово) або в середині: Daher bleibe ich zu Hause. Це слово не вводить підрядне речення.",
-        "Daher може означати також «звідти»: Von daher kommt das Geräusch. У цьому значенні питання — woher?"
+        "Daher може означати також «звідти»: Daher kommt das Geräusch. У цьому значенні питання — woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "У мене мало часу, тому мені треба йти."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Звідти йде цей шум."
         }
       ],

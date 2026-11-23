@@ -28478,7 +28478,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "guardare",
-          "example": "Wir sehen einen Film an. – Guardiamo un film."
+          "example": "Wir sehen uns einen Film an. – Guardiamo un film."
         }
       ],
       "tip": [

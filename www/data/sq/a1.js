@@ -28487,7 +28487,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "shikoj (diçka të caktuar)",
-          "example": "Wir sehen einen Film an. – Shikojmë një film."
+          "example": "Wir sehen uns einen Film an. – Shikojmë një film."
         }
       ],
       "tip": [

@@ -13987,7 +13987,7 @@ const B1_WORDS = [
       "explanation": [
         "Fő gondolat: a daher határozószó, amely következményt fejez ki: ezért, emiatt. Azt jelzi, hogy valami egy bizonyos ok miatt történik. Ich war krank, daher bin ich nicht gekommen.",
         "Szórend: a daher a mondat elején (ekkor közvetlenül utána következik az ige) vagy közepén áll: Daher bleibe ich zu Hause. A szó nem vezet be mellékmondatot.",
-        "A daher azt is jelentheti: onnan: Von daher kommt das Geräusch. Ebben a jelentésben a kérdőszó woher? (honnan?)."
+        "A daher azt is jelentheti: onnan: Daher kommt das Geräusch. Ebben a jelentésben a kérdőszó woher? (honnan?)."
       ],
       "examples": [
         {
@@ -14003,7 +14003,7 @@ const B1_WORDS = [
           "lv": "Kevés az időm, ezért mennem kell."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Onnan jön a zaj."
         }
       ],

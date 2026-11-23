@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "astfel • prin aceasta",
       "explanation": [
         "Ideea principală: dadurch este un adverb care înseamnă astfel, prin aceasta, datorită acestui fapt — arată cauza sau mijlocul. De obicei leagă propoziția anterioară de consecință: Er hat viel geübt. Dadurch wurde er besser.",
-        "Ordinea cuvintelor: după dadurch, verbul stă pe locul al doilea: Dadurch wird alles einfacher. De asemenea, dadurch dass, ca conjuncție (prin faptul că), introduce o propoziție subordonată cu verbul la sfârșit.",
+        "Ordinea cuvintelor: după dadurch, verbul stă pe locul al doilea: Dadurch wird alles einfacher. De asemenea, dadurch, dass, ca conjuncție (prin faptul că), introduce o propoziție subordonată cu verbul la sfârșit.",
         "Cu sens spațial, dadurch înseamnă și prin acolo, prin ea, iar atunci este accentuată prima silabă: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideea principală: daher este un adverb care exprimă consecința: de aceea, prin urmare. Arată că ceva se întâmplă dintr-un anumit motiv. Ich war krank, daher bin ich nicht gekommen.",
         "Ordinea cuvintelor: daher stă la începutul propoziției (atunci verbul urmează imediat) sau în interiorul ei: Daher bleibe ich zu Hause. Cuvântul nu introduce o propoziție subordonată.",
-        "Daher poate însemna și de acolo: Von daher kommt das Geräusch. Cu acest sens, întrebarea este woher?"
+        "Daher poate însemna și de acolo: Daher kommt das Geräusch. Cu acest sens, întrebarea este woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Am puțin timp, de aceea trebuie să plec."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "De acolo vine zgomotul."
         }
       ],

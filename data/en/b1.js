@@ -13933,7 +13933,7 @@ const B1_WORDS = [
       "explanation": [
         "Main idea: daher is an adverb that expresses a consequence: therefore, for that reason. It shows that something happens for a certain reason. Ich war krank, daher bin ich nicht gekommen.",
         "Word order: daher stands at the start of the sentence (then the verb follows directly) or in the middle: Daher bleibe ich zu Hause. The word does not introduce a subordinate clause.",
-        "Daher can also mean from there: Von daher kommt das Geräusch. In this sense the question is woher? (where from?)."
+        "Daher can also mean from there: Daher kommt das Geräusch. In this sense the question is woher? (where from?)."
       ],
       "examples": [
         {
@@ -13949,7 +13949,7 @@ const B1_WORDS = [
           "lv": "I have little time, so I have to go."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "The noise is coming from there."
         }
       ],

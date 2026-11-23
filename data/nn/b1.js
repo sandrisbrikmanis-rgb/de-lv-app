@@ -13649,7 +13649,7 @@ const B1_WORDS = [
       "translation": "dermed • på den måten",
       "explanation": [
         "Hovudtanken: dadurch er eit adverb som tyder dermed, på den måten, ved det – det viser til ei årsak eller eit middel. Det knyter vanlegvis den førre setninga til følgja: Er hat viel geübt. Dadurch wurde er besser.",
-        "Ordstilling: etter dadurch står verbet på andreplass: Dadurch wird alles einfacher. Dessutan innleier dadurch dass som konjunksjon (ved at) ei leddsetning med verbet til slutt.",
+        "Ordstilling: etter dadurch står verbet på andreplass: Dadurch wird alles einfacher. Dessutan innleier dadurch, dass som konjunksjon (ved at) ei leddsetning med verbet til slutt.",
         "I stadtyding tyder dadurch òg gjennom det, og då ligg trykket på første staving: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13989,7 +13989,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovudtanken: daher er eit adverb som uttrykkjer ei følgje: difor, av den grunn. Det viser at noko skjer av ein bestemd grunn. Ich war krank, daher bin ich nicht gekommen.",
         "Ordstilling: daher står først i setninga (då følgjer verbet rett etter) eller midt i setninga: Daher bleibe ich zu Hause. Ordet innleier ikkje ei leddsetning.",
-        "Daher kan òg tyde derifrå: Von daher kommt das Geräusch. I denne tydinga er spørjeordet woher?"
+        "Daher kan òg tyde derifrå: Daher kommt das Geräusch. I denne tydinga er spørjeordet woher?"
       ],
       "examples": [
         {
@@ -14005,7 +14005,7 @@ const B1_WORDS = [
           "lv": "Eg har dårleg tid, difor må eg gå."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Lyden kjem derifrå."
         }
       ],

@@ -28472,7 +28472,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "vaatama (midagi kindlat)",
-          "example": "Wir sehen einen Film an. – Me vaatame filmi."
+          "example": "Wir sehen uns einen Film an. – Me vaatame filmi."
         }
       ],
       "tip": [

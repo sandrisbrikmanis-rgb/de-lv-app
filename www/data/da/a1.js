@@ -28467,7 +28467,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "se på, se",
-          "example": "Wir sehen einen Film an. – Vi ser en film."
+          "example": "Wir sehen uns einen Film an. – Vi ser en film."
         }
       ],
       "tip": [

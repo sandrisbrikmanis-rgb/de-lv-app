@@ -13645,7 +13645,7 @@ const B1_WORDS = [
       "translation": "time • na taj način",
       "explanation": [
         "Glavna misao: dadurch je prilog koji znači time, na taj način, zbog toga — pokazuje uzrok ili sredstvo. Obično povezuje prethodnu rečenicu s posljedicom: Er hat viel geübt. Dadurch wurde er besser.",
-        "Red riječi: nakon dadurch glagol je na drugom mjestu: Dadurch wird alles einfacher. Uz to, dadurch dass kao veznik (time što, zato što) uvodi zavisnu rečenicu s glagolom na kraju.",
+        "Red riječi: nakon dadurch glagol je na drugom mjestu: Dadurch wird alles einfacher. Uz to, dadurch, dass kao veznik (time što, zato što) uvodi zavisnu rečenicu s glagolom na kraju.",
         "U prostornom značenju dadurch znači i „kroz to”, a tada je naglasak na prvom slogu: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13985,7 +13985,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna misao: daher je prilog koji izražava posljedicu: stoga, zato. Pokazuje da se nešto događa iz određenog razloga. Ich war krank, daher bin ich nicht gekommen.",
         "Red riječi: daher stoji na početku rečenice, i tada glagol slijedi odmah iza njega (Daher bleibe ich zu Hause.), ili u sredini rečenice (Ich bleibe daher zu Hause.). Riječ ne uvodi zavisnu rečenicu.",
-        "Daher može značiti i „odande”: Von daher kommt das Geräusch. U tom je značenju odgovarajuće pitanje woher?"
+        "Daher može značiti i „odande”: Daher kommt das Geräusch. U tom je značenju odgovarajuće pitanje woher?"
       ],
       "examples": [
         {
@@ -14001,7 +14001,7 @@ const B1_WORDS = [
           "lv": "Imam malo vremena, stoga moram ići."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Zvuk dolazi odande."
         }
       ],

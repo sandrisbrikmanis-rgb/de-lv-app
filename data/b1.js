@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "tādējādi",
       "explanation": [
         "Galvenā doma: dadurch ir apstākļa vārds, kas nozīmē tādējādi, ar to, caur to — norāda uz iemeslu vai līdzekli. Tas parasti sasaista iepriekšējo teikumu ar sekām: Er hat viel geübt. Dadurch wurde er besser.",
-        "Teikuma vārdu secība: pēc dadurch darbības vārds ir otrajā vietā: Dadurch wird alles einfacher. Tāpat dadurch dass kā saiklis (tādēļ, ka) ievada blakusteikumu ar darbības vārdu beigās.",
+        "Teikuma vārdu secība: pēc dadurch darbības vārds ir otrajā vietā: Dadurch wird alles einfacher. Tāpat dadurch, dass kā saiklis (tādēļ, ka) ievada blakusteikumu ar darbības vārdu beigās.",
         "Vietas nozīmē dadurch ir arī caur to: Die Tür war offen, wir sind dadurch gegangen. Parasti uzsvērta ir otrā zilbe; pirmo zilbi uzsver tikai īpašā izcēlumā."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: daher ir apstākļa vārds, kas izsaka sekas: tāpēc, tādēļ. Tas norāda, ka kaut kas notiek kāda iemesla dēļ. Ich war krank, daher bin ich nicht gekommen.",
         "Vārdu secība: daher stāv teikuma sākumā (tad darbības vārds seko tūlīt) vai vidū: Daher bleibe ich zu Hause. Vārds neievada blakusteikumu.",
-        "Daher var nozīmēt arī no turienes: Von daher kommt das Geräusch. Šajā nozīmē jautājums ir woher?"
+        "Daher var nozīmēt arī no turienes: Daher kommt das Geräusch. Šajā nozīmē jautājums ir woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Man ir maz laika, tāpēc man jāiet."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "No turienes nāk troksnis."
         }
       ],

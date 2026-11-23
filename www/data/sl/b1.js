@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "s tem • tako",
       "explanation": [
         "Glavna misel: dadurch je prislov, ki pomeni s tem, tako, skozi to — kaže na vzrok ali sredstvo. Navadno povezuje prejšnji stavek s posledico: Er hat viel geübt. Dadurch wurde er besser.",
-        "Besedni red: za dadurch je glagol na drugem mestu: Dadurch wird alles einfacher. Poleg tega dadurch dass kot veznik (s tem, da) uvaja odvisni stavek z glagolom na koncu.",
+        "Besedni red: za dadurch je glagol na drugem mestu: Dadurch wird alles einfacher. Poleg tega dadurch, dass kot veznik (s tem, da) uvaja odvisni stavek z glagolom na koncu.",
         "V krajevnem pomenu dadurch pomeni tudi skozi to, in takrat je poudarjen prvi zlog: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna misel: daher je prislov, ki izraža posledico: zato, zaradi tega. Kaže, da se nekaj zgodi iz določenega razloga. Ich war krank, daher bin ich nicht gekommen.",
         "Besedni red: daher stoji na začetku stavka (takrat mu glagol sledi takoj) ali v sredini: Daher bleibe ich zu Hause. Beseda ne uvaja odvisnega stavka.",
-        "Daher lahko pomeni tudi od tam: Von daher kommt das Geräusch. V tem pomenu je vprašalnica woher?"
+        "Daher lahko pomeni tudi od tam: Daher kommt das Geräusch. V tem pomenu je vprašalnica woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Imam malo časa, zato moram iti."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Od tam prihaja hrup."
         }
       ],

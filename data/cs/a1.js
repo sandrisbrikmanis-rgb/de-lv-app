@@ -28466,7 +28466,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "podívat se na",
-          "example": "Wir sehen einen Film an. – Díváme se na film."
+          "example": "Wir sehen uns einen Film an. – Díváme se na film."
         }
       ],
       "tip": [

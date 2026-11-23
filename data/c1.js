@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "vienģimenes māja",
       "explanation": [
         "Galvenā doma: das Einfamilienhaus ir māja, kas paredzēta vienai ģimenei — brīvi stāvoša vai ar kaimiņiem, bet ar vienu dzīvokli un parasti ar savu dārzu.",
-        "Vidējās dzimtes lietvārds: das Einfamilienhaus, daudzskaitlis die Einfamilienhäuser. Sastāv no Ein- + Familie + Haus.",
+        "Vidējās dzimtes lietvārds: das Einfamilienhaus, daudzskaitlis die Einfamilienhäuser. Sastāv no Ein- + Familien- (savienojuma forma no Familie) + Haus.",
         "Pretstats ir das Mehrfamilienhaus (daudzdzīvokļu māja)."
       ],
       "examples": [

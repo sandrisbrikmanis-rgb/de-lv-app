@@ -28489,7 +28489,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "βλέπω, παρακολουθώ",
-          "example": "Wir sehen einen Film an. – Βλέπουμε μια ταινία."
+          "example": "Wir sehen uns einen Film an. – Βλέπουμε μια ταινία."
         }
       ],
       "tip": [

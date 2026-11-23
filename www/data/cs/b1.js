@@ -13666,7 +13666,7 @@ const B1_WORDS = [
       "translation": "Díky tomu • Tím",
       "explanation": [
         "Hlavní myšlenka: dadurch je příslovce ve významu tím, tímto způsobem, díky tomu; označuje příčinu nebo prostředek. Obvykle spojuje předchozí větu s důsledkem: Er hat viel geübt. Dadurch wurde er besser. V češtině mu často odpovídá tím nebo díky tomu.",
-        "Slovosled: po dadurch je sloveso na druhém místě: Dadurch wird alles einfacher. Dále dadurch dass jako spojka (tím, že) uvádí vedlejší větu se slovesem na konci.",
+        "Slovosled: po dadurch je sloveso na druhém místě: Dadurch wird alles einfacher. Dále dadurch, dass jako spojka (tím, že) uvádí vedlejší větu se slovesem na konci.",
         "V místním významu je dadurch také skrz to, a pak je přízvuk na první slabice: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -14012,7 +14012,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: daher je příslovce vyjadřující důsledek: proto, a tudíž. Ukazuje, že se něco děje z nějakého důvodu. Ich war krank, daher bin ich nicht gekommen.",
         "Slovosled: daher stojí na začátku věty (pak sloveso následuje hned po něm) nebo uprostřed: Daher bleibe ich zu Hause. Slovo nezavádí vedlejší větu.",
-        "Daher může znamenat i odtud: Von daher kommt das Geräusch. V tomto významu se ptáme woher? (odkud?)."
+        "Daher může znamenat i odtud: Daher kommt das Geräusch. V tomto významu se ptáme woher? (odkud?)."
       ],
       "examples": [
         {
@@ -14028,7 +14028,7 @@ const B1_WORDS = [
           "lv": "Mám málo času, proto musím jít."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Odtud se ozývá hluk."
         }
       ],

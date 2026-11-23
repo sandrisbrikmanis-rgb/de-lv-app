@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "tokiu būdu • taigi",
       "explanation": [
         "Pagrindinė mintis: dadurch yra prieveiksmis, reiškiantis tokiu būdu, tuo, per tai – nurodo priežastį ar priemonę. Jis paprastai susieja ankstesnį sakinį su pasekmėmis: Er hat viel geübt. Dadurch wurde er besser.",
-        "Žodžių tvarka: po dadurch veiksmažodis yra antroje vietoje: Dadurch wird alles einfacher. Be to, dadurch dass kaip jungtukas (dėl to, kad) įveda šalutinį sakinį, kurio veiksmažodis yra gale.",
+        "Žodžių tvarka: po dadurch veiksmažodis yra antroje vietoje: Dadurch wird alles einfacher. Be to, dadurch, dass kaip jungtukas (dėl to, kad) įveda šalutinį sakinį, kurio veiksmažodis yra gale.",
         "Vietos reikšme dadurch reiškia ir pro tai, per tai, ir tada kirčiuojamas pirmasis skiemuo: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: daher yra prieveiksmis, išreiškiantis pasekmę: todėl, dėl to. Jis rodo, kad kažkas vyksta dėl tam tikros priežasties. Ich war krank, daher bin ich nicht gekommen.",
         "Žodžių tvarka: daher būna sakinio pradžioje (tada veiksmažodis eina iškart po jo) arba viduryje: Daher bleibe ich zu Hause. Šis žodis neįveda šalutinio sakinio.",
-        "Daher gali reikšti ir iš ten: Von daher kommt das Geräusch. Šia reikšme klausiama woher?"
+        "Daher gali reikšti ir iš ten: Daher kommt das Geräusch. Šia reikšme klausiama woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Turiu mažai laiko, todėl turiu eiti."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Iš ten sklinda triukšmas."
         }
       ],

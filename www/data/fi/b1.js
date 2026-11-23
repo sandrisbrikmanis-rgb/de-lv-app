@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "siten • sen avulla",
       "explanation": [
         "Perusajatus: dadurch on adverbi, joka tarkoittaa siten, sen avulla, sen kautta — se viittaa syyhyn tai keinoon. Se yhdistää yleensä edellisen lauseen seurauksiin: Er hat viel geübt. Dadurch wurde er besser.",
-        "Sanajärjestys: kun dadurch aloittaa lauseen, verbi on toisella paikalla: Dadurch wird alles einfacher. Lisäksi dadurch dass konjunktiona (siten, että) aloittaa sivulauseen, jossa verbi on lopussa.",
+        "Sanajärjestys: kun dadurch aloittaa lauseen, verbi on toisella paikalla: Dadurch wird alles einfacher. Lisäksi dadurch, dass konjunktiona (siten, että) aloittaa sivulauseen, jossa verbi on lopussa.",
         "Paikan merkityksessä dadurch tarkoittaa myös sen läpi, ja silloin painotetaan ensimmäistä tavua: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Perusajatus: daher on adverbi, joka ilmaisee seurausta: siksi, sen vuoksi. Se kertoo, että jokin tapahtuu jonkin syyn takia. Ich war krank, daher bin ich nicht gekommen.",
         "Sanajärjestys: daher on lauseen alussa (silloin verbi tulee heti sen jälkeen) tai keskellä: Daher bleibe ich zu Hause. Sana ei aloita sivulausetta.",
-        "Daher voi tarkoittaa myös sieltä: Von daher kommt das Geräusch. Tässä merkityksessä kysymyssana on woher?"
+        "Daher voi tarkoittaa myös sieltä: Daher kommt das Geräusch. Tässä merkityksessä kysymyssana on woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Minulla on vähän aikaa, siksi minun täytyy lähteä."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Sieltä ääni kuuluu."
         }
       ],

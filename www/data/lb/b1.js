@@ -13980,7 +13980,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: daher ass en Adverb, dat eng Konsequenz ausdréckt: dofir, also. Et weist, datt eppes aus engem bestëmmte Grond geschitt. Ich war krank, daher bin ich nicht gekommen.",
         "Wuertuerdnung: daher steet am Ufank vum Saz (da kënnt d'Verb direkt duerno) oder an der Mëtt: Daher bleibe ich zu Hause. D'Wuert leet keen Niewesaz an.",
-        "Daher kann och „vun do“ heeschen: Von daher kommt das Geräusch. An där Bedeitung ass déi passend Fro woher?"
+        "Daher kann och „vun do“ heeschen: Daher kommt das Geräusch. An där Bedeitung ass déi passend Fro woher?"
       ],
       "examples": [
         {
@@ -13996,7 +13996,7 @@ const B1_WORDS = [
           "lv": "Ech hunn net vill Zäit, dofir muss ech goen."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Vun do kënnt de Kaméidi."
         }
       ],

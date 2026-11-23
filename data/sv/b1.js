@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "därigenom • på så sätt",
       "explanation": [
         "Grundtanken: dadurch är ett adverb som betyder därigenom, genom det, på så sätt – det anger orsak eller medel. Det knyter oftast an en föregående mening till följden: Er hat viel geübt. Dadurch wurde er besser.",
-        "Ordföljd: efter dadurch står verbet på andra plats: Dadurch wird alles einfacher. Dessutom inleder dadurch dass som subjunktion (genom att) en bisats med verbet sist.",
+        "Ordföljd: efter dadurch står verbet på andra plats: Dadurch wird alles einfacher. Dessutom inleder dadurch, dass som subjunktion (genom att) en bisats med verbet sist.",
         "I rumslig betydelse betyder dadurch också igenom det, och då betonas den första stavelsen: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundtanken: daher är ett adverb som uttrycker följd: därför, av den anledningen. Det visar att något händer av en viss orsak. Ich war krank, daher bin ich nicht gekommen.",
         "Ordföljd: daher står först i satsen (då följer verbet direkt) eller i mitten: Daher bleibe ich zu Hause. Ordet inleder inte en bisats.",
-        "Daher kan också betyda därifrån: Von daher kommt das Geräusch. I den betydelsen är frågeordet woher?"
+        "Daher kan också betyda därifrån: Daher kommt das Geräusch. I den betydelsen är frågeordet woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Jag har ont om tid, därför måste jag gå."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Därifrån kommer ljudet."
         }
       ],
