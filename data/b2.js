@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "izlikt • pakļaut • iebilst • stāties",
       "explanation": [
-        "Galvenā doma: aussetzen ir atdalāms darbības vārds ar vairākām nozīmēm: izlikt vai pamest (suni, bērnu), pakļaut (aukstumam, briesmām), apstāties vai pārtraukties (par dzinēju, darbu) un ar an + datīvs — iebilst.",
+        "Galvenā doma: aussetzen ir atdalāms darbības vārds ar vairākām nozīmēm: izlikt vai pamest (suni, bērnu), pakļaut (aukstumam, briesmām), apstāties vai pārtraukties (par dzinēju, darbu) un izteicienā etwas an + datīvs auszusetzen haben — iebilst, kritizēt.",
         "Formas: setzt aus, setzte aus, hat ausgesetzt. Pakļaušanai lieto datīvu: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Divdabis ausgesetzt sein nozīmē būt pakļautam.",
         "Ar nozīmi iebilst lieto izteicienu etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Šeit zu iekļaujas starp priedēkli un sakni: auszusetzen."
       ],

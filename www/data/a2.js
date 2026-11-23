@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "atteikt, izrakstīt",
+          "meaning": "izrakstīties, atsaukt reģistrāciju",
           "example": "Ich melde mich vom Kurs ab. – Es izrakstos no kursa."
         },
         {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt nav tas pats, kas bestimmen: bestimmen ir noteikt, lemt, bestimmt ir apstākļa vārds vai īpašības vārds.",
-        "Bestimmt var izteikt arī pieņēmumu, nevis tikai drošību: Er ist bestimmt zu Hause (viņš droši vien ir mājās)."
+        "Bestimmt izsaka arī stingru pieņēmumu: Er ist bestimmt zu Hause (viņš noteikti ir mājās)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12225,7 +12225,7 @@ const A2_WORDS = [
       "translation": "klāt",
       "explanation": [
         "Galvenā doma: dabei ir apstākļa vārds, kas veidots no da + bei. Tas nozīmē klāt, pie tā, tur klāt: kaut kam blakus vai kādā notikumā. Biežākais savienojums ir dabei sein (būt klāt, piedalīties).",
-        "Citas biežas nozīmes: līdzi (etwas dabei haben – būt kaut kam līdzi), turklāt (tajā pašā laikā) un tieši tagad kaut ko darīt (dabei sein, etwas zu tun). Tas ir vietas un laika vārds, kas atsaucas uz iepriekš minēto.",
+        "Citas biežas nozīmes: līdzi (etwas dabei haben – būt kaut kam līdzi), tajā pašā laikā, turklāt un tieši tagad kaut ko darīt (dabei sein, etwas zu tun). Tas ir vietas un laika vārds, kas atsaucas uz iepriekš minēto.",
         "Dabei ir arī salikteņu daļa: dabeibleiben (palikt pie tā), dabeihaben (turēt līdzi), dabeisitzen (sēdēt klāt)."
       ],
       "examples": [

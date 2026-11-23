@@ -25494,7 +25494,7 @@ const A1_WORDS = [
         "Frāze unter uns nozīmē \"starp mums\" un to lieto, kad kaut ko saka konfidenciāli."
       ],
       "important": [
-        "Unter nav tas pats, kas zwischen: unter norāda uz kopu vai grupu (unter Freunden), zwischen — uz divām konkrētām lietām.",
+        "Unter nav tas pats, kas zwischen: unter norāda uz kopu vai grupu (unter Freunden), zwischen — uz atsevišķām, nosauktām lietām (bieži divām, bet var arī vairāk).",
         "Unter + skaitlis nozīmē \"mazāk nekā\": unter 18 ir jaunāks par 18."
       ],
       "sectionAccents": {
@@ -30074,7 +30074,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub parasti lieto bez artikula: Urlaub haben, Urlaub nehmen."
+        "Izteicienos Urlaub haben, Urlaub nehmen lieto bez artikula (bet: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Skolēniem parasti saka Ferien, nevis Urlaub.",
