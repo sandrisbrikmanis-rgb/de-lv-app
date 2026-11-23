@@ -15805,43 +15805,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "harmadik • hármasban",
+    "lv": "hármasban • hárman",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "harmadik • hármasban",
+      "translation": "hármasban • hárman",
       "explanation": [
-        "Fő gondolat: a dritt a „harmadik” sorszámnév. Melléknévként általában végződést kap: der dritte Tag, die dritte Tür, das dritte Mal. Végződés nélkül a zu dritt kifejezésben fordul elő – hárman, hármasban.",
-        "Számmal írva: 3. = dritt-. Dátumokban: der dritte Mai, am dritten Mai. A drei (három) tőszámnévvel ellentétben a dritt (a zu dritt kifejezés kivételével) sorrendet fejez ki, nem mennyiséget."
+        "Fő gondolat: a zu dritt jelentése hármasban, hárman – hárman együtt. Ugyanígy mondjuk: zu zweit (ketten), zu viert (négyen), zu fünft (öten).",
+        "A végződés nélküli dritt alak csak a zu dritt (hármasban) és a zum Dritten (harmadszor) kifejezésekben fordul elő. A „harmadik” sorszámnév végződéssel dritte: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Ez a harmadik próbálkozásom."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "A harmadik emeleten lakik."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Hárman megyünk moziba."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Ma május harmadika van."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Hárman laknak egy kis lakásban."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Harmadik osztályba járok."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Hármasban gyorsabban megy a munka."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Csak hárman voltunk."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Először, másodszor, harmadszor – elkelt!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "három",
-          "example": "Ich habe drei Katzen. – Három macskám van."
+          "word": "der dritte",
+          "meaning": "harmadik",
+          "example": "Heute ist der dritte Mai. – Ma május harmadika van."
         },
         {
           "word": "drittens",
@@ -15849,62 +15849,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Harmadszor: túl drága."
         },
         {
-          "word": "das Drittel",
-          "meaning": "harmadrész",
-          "example": "Ein Drittel der Klasse fehlt. – Az osztály egyharmada hiányzik."
+          "word": "zu zweit",
+          "meaning": "ketten",
+          "example": "Wir fahren zu zweit in den Urlaub. – Ketten megyünk szabadságra."
         }
       ],
       "tip": [
-        "Zu dritt, zu viert, zu fünft – így mondjuk meg, hányan vannak együtt (hárman, négyen, öten).",
-        "Tegyél rá végződést, mint más mellékneveknél: dritt- + e/en/er/es."
+        "Zu dritt, zu viert, zu fünft – így mondjuk meg, hányan vannak együtt.",
+        "Zu dritt: két szóban és kisbetűvel írjuk."
       ],
       "important": [
-        "Végződés nélkül a dritt csak a zu dritt kifejezésben használatos; máshol dritte, dritten stb. kell.",
-        "Ne keverd össze a drei szóval: das dritte Haus – a harmadik ház, drei Häuser – három ház."
+        "Végződés nélkül a dritt csak a zu dritt és a zum Dritten kifejezésekben használatos; a sorszámnév dritte, dritten stb.",
+        "Ne keverd össze a zu dritt (hármasban) kifejezést a drei (három) és a der dritte (harmadik) szóval."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "harmadik",
-            "hármasban"
+            "hármasban",
+            "hárman",
+            "harmadszor"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "harmadik"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "harmadik"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15916,24 +15891,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "harmadika"
+                "Hárman"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "Harmadik"
+                "Hármasban"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hárman"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "harmadszor"
               ]
             }
           }
@@ -15942,12 +15941,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "három"
+                "harmadik"
               ]
             }
           },
@@ -15966,12 +15965,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "harmad"
+                "ketten"
               ]
             }
           }
@@ -15979,29 +15978,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

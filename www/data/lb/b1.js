@@ -15800,43 +15800,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "drëtt",
+    "lv": "zu dräi",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "drëtt",
+      "translation": "zu dräi",
       "explanation": [
-        "Haaptiddi: dritt ass d'Uerdnungszuel „drëtt“. Als Adjektiv kritt et normalerweis eng Endung: der dritte Tag, die dritte Tür, das dritte Mal. Ouni Endung steet et am Ausdrock zu dritt – zu dräi.",
-        "A Zifferen: 3. = dritt-. Bei Datumer: der dritte Mai, am dritten Mai. Am Géigesaz zu der Zuel drei (dräi) weist dritt (ausser am Ausdrock zu dritt) eng Plaz an enger Reiefolleg, keng Quantitéit."
+        "Haaptiddi: zu dritt heescht zu dräi – dräi Leit zesummen. Esou seet ee och zu zweit (zu zwee), zu viert (zu véier), zu fünft (zu fënnef).",
+        "D'Form dritt ouni Endung gëtt et nëmmen an den Ausdréck zu dritt (zu dräi) an zum Dritten (drëttens). D'Uerdnungszuel „drëtt“ ass dritte mat Endung: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Dat ass mäin drëtte Versuch."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Si wunnt um drëtte Stack."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Mir ginn zu dräi an de Kino."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Haut ass den drëtte Mee."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Si wunnen zu dräi an engem klengen Appartement."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Ech sinn am drëtte Schouljoer."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Zu dräi geet d'Aarbecht méi séier."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Mir waren nëmmen zu dräi."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Fir d'éischt Mol, fir d'zweet Mol, fir d'drëtt Mol – verkaaft!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "dräi",
-          "example": "Ich habe drei Katzen. – Ech hunn dräi Kazen."
+          "word": "der dritte",
+          "meaning": "drëtt",
+          "example": "Heute ist der dritte Mai. – Haut ass den drëtte Mee."
         },
         {
           "word": "drittens",
@@ -15844,62 +15844,36 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Drëttens ass et ze deier."
         },
         {
-          "word": "das Drittel",
-          "meaning": "Drëttel",
-          "example": "Ein Drittel der Klasse fehlt. – En Drëttel vun der Klass feelt."
+          "word": "zu zweit",
+          "meaning": "zu zwee",
+          "example": "Wir fahren zu zweit in den Urlaub. – Mir fuere zu zwee an d'Vakanz."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – sou seet ee, wéi vill Leit zesumme sinn.",
-        "D'Endung kënnt dobäi wéi bei aneren Adjektiver: dritt- + e/en/er/es."
+        "Zu dritt schreift ee mat zwee Wierder a mat klengem Ufanksbuschtaf."
       ],
       "important": [
-        "Dritt ouni Endung gëtt et nëmmen am Ausdrock zu dritt; soss brauch ee dritte, dritten, asw.",
-        "Net verwiessele mat drei: das dritte Haus – dat drëtt Haus, drei Häuser – dräi Haiser."
+        "Dritt ouni Endung gëtt et nëmmen an den Ausdréck zu dritt an zum Dritten; d'Uerdnungszuel ass dritte, dritten, asw.",
+        "Net verwiessele: zu dritt (zu dräi), drei (dräi) an der dritte (den drëtten)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "drëtt",
-            "zu dräi"
+            "zu dräi",
+            "drëttens"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "drëtte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "drëtte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15911,24 +15885,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "drëtte"
+                "zu dräi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "drëtte"
+                "Zu dräi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zu dräi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fir d'drëtt Mol"
               ]
             }
           }
@@ -15937,12 +15935,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "dräi"
+                "drëtt"
               ]
             }
           },
@@ -15961,12 +15959,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "Drëttel"
+                "zu zwee"
               ]
             }
           }
@@ -15974,29 +15972,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

@@ -15809,43 +15809,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "derde • met zijn drieën",
+    "lv": "met zijn drieën",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "derde • met zijn drieën",
+      "translation": "met zijn drieën",
       "explanation": [
-        "Kern: dritt is het rangtelwoord ‘derde’. Als bijvoeglijk naamwoord heeft het meestal een uitgang: der dritte Tag, die dritte Tür, das dritte Mal. Zonder uitgang komt het voor in de uitdrukking zu dritt – met zijn drieën.",
-        "In cijfers: 3. = dritt-. Bij data: der dritte Mai, am dritten Mai. Anders dan het hoofdtelwoord drei (drie) geeft dritt (behalve in zu dritt) een volgorde aan, geen hoeveelheid."
+        "Kern: zu dritt betekent met zijn drieën – met drie mensen samen. Zo zeg je ook zu zweit (met zijn tweeën), zu viert (met zijn vieren), zu fünft (met zijn vijven).",
+        "De vorm dritt zonder uitgang komt alleen voor in de uitdrukkingen zu dritt (met zijn drieën) en zum Dritten (ten derde). Het rangtelwoord ‘derde’ is dritte met uitgang: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Dit is mijn derde poging."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ze woont op de derde verdieping."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "We gaan met zijn drieën naar de bioscoop."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Vandaag is het de derde mei."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Ze wonen met zijn drieën in een kleine woning."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Ik zit in de derde klas."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Met zijn drieën gaat het werk sneller."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "We waren maar met zijn drieën."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Eenmaal, andermaal, voor de derde maal – verkocht!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "drie",
-          "example": "Ich habe drei Katzen. – Ik heb drie katten."
+          "word": "der dritte",
+          "meaning": "de derde",
+          "example": "Heute ist der dritte Mai. – Vandaag is het de derde mei."
         },
         {
           "word": "drittens",
@@ -15853,62 +15853,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Ten derde is het te duur."
         },
         {
-          "word": "das Drittel",
-          "meaning": "derde deel",
-          "example": "Ein Drittel der Klasse fehlt. – Een derde van de klas ontbreekt."
+          "word": "zu zweit",
+          "meaning": "met zijn tweeën",
+          "example": "Wir fahren zu zweit in den Urlaub. – We gaan met zijn tweeën op vakantie."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – zo zeg je met hoeveel mensen je samen bent.",
-        "Voeg de uitgang toe zoals bij andere bijvoeglijke naamwoorden: dritt- + e/en/er/es."
+        "Zu dritt schrijf je als twee woorden en met een kleine letter."
       ],
       "important": [
-        "Dritt zonder uitgang gebruik je alleen in zu dritt; elders heb je dritte, dritten enz. nodig.",
-        "Niet verwarren met drei: das dritte Haus – het derde huis, drei Häuser – drie huizen."
+        "Dritt zonder uitgang gebruik je alleen in zu dritt en zum Dritten; het rangtelwoord is dritte, dritten enz.",
+        "Niet verwarren: zu dritt (met zijn drieën), drei (drie) en der dritte (de derde)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "derde",
-            "met zijn drieën"
+            "met zijn drieën",
+            "met drie mensen samen",
+            "ten derde"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "derde"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "derde"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15920,24 +15895,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "derde"
+                "met zijn drieën"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "derde"
+                "Met zijn drieën"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "met zijn drieën"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "voor de derde maal"
               ]
             }
           }
@@ -15946,12 +15945,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "drie"
+                "de derde"
               ]
             }
           },
@@ -15970,12 +15969,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "derde"
+                "met zijn tweeën"
               ]
             }
           }
@@ -15983,29 +15982,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

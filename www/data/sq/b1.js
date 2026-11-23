@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "i treti • të tre",
+    "lv": "të tre bashkë • nga tre",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "i treti • të tre",
+      "translation": "të tre bashkë • nga tre",
       "explanation": [
-        "Ideja kryesore: dritt është numërori rreshtor „i treti”. Si mbiemër zakonisht ka mbaresë: der dritte Tag, die dritte Tür, das dritte Mal. Pa mbaresë shfaqet në shprehjen zu dritt – të tre bashkë.",
-        "Me shifra: 3. = dritt-. Në data: der dritte Mai, am dritten Mai. Ndryshe nga numërori drei (tre), dritt (përveç shprehjes zu dritt) përshkruan radhën, jo sasinë."
+        "Ideja kryesore: zu dritt do të thotë të tre bashkë, nga tre – bashkë janë tre veta. Po kështu thuhet zu zweit (të dy bashkë), zu viert (të katër bashkë), zu fünft (të pesë bashkë).",
+        "Forma dritt pa mbaresë shfaqet vetëm në shprehjet zu dritt (të tre bashkë) dhe zum Dritten (së treti). Numërori rreshtor „i treti” është dritte me mbaresë: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Kjo është përpjekja ime e tretë."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ajo banon në katin e tretë."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Ne shkojmë të tre bashkë në kinema."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Sot është tre maj."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Ata banojnë të tre bashkë në një apartament të vogël."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Unë jam në klasën e tretë."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Të tre bashkë puna ecën më shpejt."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Ishim vetëm të tre."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Hera e parë, hera e dytë, hera e tretë – u shit!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "tre",
-          "example": "Ich habe drei Katzen. – Kam tri mace."
+          "word": "der dritte",
+          "meaning": "i treti",
+          "example": "Heute ist der dritte Mai. – Sot është tre maj."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,73 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Së treti, është shumë e shtrenjtë."
         },
         {
-          "word": "das Drittel",
-          "meaning": "një e treta",
-          "example": "Ein Drittel der Klasse fehlt. – Një e treta e klasës mungon."
+          "word": "zu zweit",
+          "meaning": "të dy bashkë",
+          "example": "Wir fahren zu zweit in den Urlaub. – Ne shkojmë të dy bashkë me pushime."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – kështu thuhet sa veta janë bashkë.",
-        "Shto mbaresën si te mbiemrat e tjerë: dritt- + e/en/er/es."
+        "Zu dritt shkruhet me dy fjalë dhe me shkronjë të vogël."
       ],
       "important": [
-        "Dritt pa mbaresë përdoret vetëm në shprehjen zu dritt; gjetkë duhet dritte, dritten etj.",
-        "Mos e ngatërro me drei: das dritte Haus – shtëpia e tretë, drei Häuser – tri shtëpi."
+        "Dritt pa mbaresë përdoret vetëm në shprehjet zu dritt dhe zum Dritten; numërori rreshtor është dritte, dritten etj.",
+        "Mos e ngatërro zu dritt (të tre bashkë) me drei (tre) dhe der dritte (i treti)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "i treti",
-            "të tre"
+            "të tre bashkë",
+            "nga tre",
+            "së treti"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "tretë"
+                "të tre bashkë"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "tretë"
+                "të tre bashkë"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritt"
+                "Zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Të tre bashkë"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15932,12 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zum Dritten"
               ]
             },
             "lv": {
               "purple": [
-                "tre maj"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tretë"
+                "hera e tretë"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "tre"
+                "i treti"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "e treta"
+                "të dy bashkë"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

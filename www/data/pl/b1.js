@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "trzeci • we trójkę",
+    "lv": "we trójkę • we trzech",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "trzeci • we trójkę",
+      "translation": "we trójkę • we trzech",
       "explanation": [
-        "Najważniejsze: dritt to liczebnik porządkowy „trzeci”. Jako przymiotnik zwykle ma końcówkę: der dritte Tag, die dritte Tür, das dritte Mal. Bez końcówki pojawia się w zwrocie zu dritt – we trójkę.",
-        "Zapis cyfrą: 3. = dritt-. W datach der dritte Mai, am dritten Mai. W odróżnieniu od liczebnika drei (trzy) dritt (poza zwrotem zu dritt) opisuje kolejność, a nie ilość."
+        "Najważniejsze: zu dritt znaczy we trójkę, we trzech – razem trzy osoby. Tak samo mówi się zu zweit (we dwójkę), zu viert (we czwórkę), zu fünft (w piątkę).",
+        "Forma dritt bez końcówki występuje tylko w zwrotach zu dritt (we trójkę) i zum Dritten (po trzecie). Liczebnik porządkowy „trzeci” to dritte z końcówką: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "To moja trzecia próba."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ona mieszka na trzecim piętrze."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Idziemy we trójkę do kina."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Dziś jest trzeci maja."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Mieszkają we trójkę w małym mieszkaniu."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Jestem w trzeciej klasie."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "We trójkę praca idzie szybciej."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Byliśmy tylko we trójkę."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Po raz pierwszy, po raz drugi, po raz trzeci – sprzedane!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "trzy",
-          "example": "Ich habe drei Katzen. – Mam trzy koty."
+          "word": "der dritte",
+          "meaning": "trzeci",
+          "example": "Heute ist der dritte Mai. – Dziś jest trzeci maja."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Po trzecie, to jest za drogie."
         },
         {
-          "word": "das Drittel",
-          "meaning": "jedna trzecia",
-          "example": "Ein Drittel der Klasse fehlt. – Brakuje jednej trzeciej klasy."
+          "word": "zu zweit",
+          "meaning": "we dwójkę",
+          "example": "Wir fahren zu zweit in den Urlaub. – Jedziemy we dwójkę na urlop."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – tak się mówi, ile osób jest razem.",
-        "Dodawaj końcówkę jak do innych przymiotników: dritt- + e/en/er/es."
+        "Zu dritt pisze się w dwóch słowach i małą literą."
       ],
       "important": [
-        "Dritt bez końcówki używa się tylko w zwrocie zu dritt; gdzie indziej potrzebne jest dritte, dritten itd.",
-        "Nie myl z drei: das dritte Haus – trzeci dom, drei Häuser – trzy domy."
+        "Dritt bez końcówki używa się tylko w zwrotach zu dritt i zum Dritten; liczebnik porządkowy to dritte, dritten itd.",
+        "Nie myl zu dritt (we trójkę) z drei (trzy) i der dritte (trzeci)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "trzeci",
-            "we trójkę"
+            "we trójkę",
+            "we trzech",
+            "po trzecie"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "trzecia"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "trzecim"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15896,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trzeci"
+                "we trójkę"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trzeciej"
+                "We trójkę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "we trójkę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "po raz trzeci"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "trzy"
+                "trzeci"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "jedna trzecia"
+                "we dwójkę"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

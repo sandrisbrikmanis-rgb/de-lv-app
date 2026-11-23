@@ -15833,43 +15833,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "Třetí • Ve třech",
+    "lv": "Ve třech • Po třech",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "Třetí • Ve třech",
+      "translation": "Ve třech • Po třech",
       "explanation": [
-        "Hlavní myšlenka: dritt je řadová číslovka „třetí“. Jako přídavné jméno má obvykle koncovku: der dritte Tag, die dritte Tür, das dritte Mal. Bez koncovky se objevuje ve spojení zu dritt – ve třech.",
-        "Při psaní číslicí: 3. = dritt-. V datech der dritte Mai, am dritten Mai. Na rozdíl od číslovky drei (tři) vyjadřuje dritt pořadí, ne množství; výjimkou je spojení zu dritt."
+        "Hlavní myšlenka: zu dritt znamená ve třech, po třech – pohromadě tři lidé. Stejně se říká zu zweit (ve dvou), zu viert (ve čtyřech), zu fünft (v pěti).",
+        "Tvar dritt bez koncovky se vyskytuje jen ve spojeních zu dritt (ve třech) a zum Dritten (zatřetí). Řadová číslovka „třetí“ je dritte s koncovkou: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "To je můj třetí pokus."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Bydlí ve třetím patře."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Jdeme ve třech do kina."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Dnes je třetí května."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Bydlí ve třech v malém bytě."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Chodím do třetí třídy."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Ve třech jde práce rychleji."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Byli jsme jen ve třech."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Poprvé, podruhé, potřetí – prodáno!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "tři",
-          "example": "Ich habe drei Katzen. – Mám tři kočky."
+          "word": "der dritte",
+          "meaning": "třetí",
+          "example": "Heute ist der dritte Mai. – Dnes je třetího května."
         },
         {
           "word": "drittens",
@@ -15877,62 +15877,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Zatřetí je to příliš drahé."
         },
         {
-          "word": "das Drittel",
-          "meaning": "třetina",
-          "example": "Ein Drittel der Klasse fehlt. – Chybí třetina třídy."
+          "word": "zu zweit",
+          "meaning": "ve dvou",
+          "example": "Wir fahren zu zweit in den Urlaub. – Jedeme ve dvou na dovolenou."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – tak se říká, kolik lidí je pohromadě.",
-        "Koncovku přidávej jako u jiných přídavných jmen: dritt- + e/en/er/es."
+        "Zu dritt se píše dvěma slovy a s malým písmenem."
       ],
       "important": [
-        "Dritt bez koncovky se používá jen ve spojení zu dritt; jinde je třeba dritte, dritten atd.",
-        "Nezaměňuj s drei: das dritte Haus – třetí dům, drei Häuser – tři domy."
+        "Dritt bez koncovky se používá jen ve spojeních zu dritt a zum Dritten; řadová číslovka je dritte, dritten atd.",
+        "Nezaměňuj zu dritt (ve třech) s drei (tři) a der dritte (třetí)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "třetí",
-            "ve třech"
+            "ve třech",
+            "po třech",
+            "zatřetí"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "třetí"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "třetím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15944,24 +15919,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "třetí"
+                "ve třech"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "třetí"
+                "Ve třech"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ve třech"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "potřetí"
               ]
             }
           }
@@ -15970,12 +15969,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "tři"
+                "třetí"
               ]
             }
           },
@@ -15994,12 +15993,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "třetina"
+                "ve dvou"
               ]
             }
           }
@@ -16007,29 +16006,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

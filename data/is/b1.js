@@ -15806,43 +15806,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "þriðji • þrír saman",
+    "lv": "þrjú saman • við þrjú",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "þriðji • þrír saman",
+      "translation": "þrjú saman • við þrjú",
       "explanation": [
-        "Aðalatriðið: dritt er raðtalan „þriðji“. Sem lýsingarorð fær hún yfirleitt endingu: der dritte Tag, die dritte Tür, das dritte Mal. Án endingar kemur hún fyrir í orðasambandinu zu dritt – þrjú saman, við þrjú.",
-        "Með tölustöfum: 3. = dritt-, með punkti eins og í íslensku. Í dagsetningum: der dritte Mai, am dritten Mai. Ólíkt frumtölunni drei (þrír) lýsir dritt (nema í orðasambandinu zu dritt) röð, ekki fjölda."
+        "Aðalatriðið: zu dritt þýðir þrjú saman, við þrjú – alls þrír saman. Á sama hátt segir maður zu zweit (tvö saman), zu viert (fjögur saman), zu fünft (fimm saman).",
+        "Formið dritt án endingar kemur aðeins fyrir í orðasamböndunum zu dritt (þrjú saman) og zum Dritten (í þriðja lagi). Raðtalan „þriðji“ er dritte með endingu: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Þetta er þriðja tilraunin mín."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Hún býr á þriðju hæð."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Við förum þrjú saman í bíó."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Í dag er þriðji maí."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Þau búa þrjú saman í lítilli íbúð."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Ég er í þriðja bekk."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Þrjú saman klárum við verkið hraðar."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Við vorum bara þrjú."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Fyrsta, annað og þriðja – selt!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "þrír",
-          "example": "Ich habe drei Katzen. – Ég á þrjá ketti."
+          "word": "der dritte",
+          "meaning": "þriðji",
+          "example": "Heute ist der dritte Mai. – Í dag er þriðji maí."
         },
         {
           "word": "drittens",
@@ -15850,62 +15850,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Í þriðja lagi er það of dýrt."
         },
         {
-          "word": "das Drittel",
-          "meaning": "þriðjungur",
-          "example": "Ein Drittel der Klasse fehlt. – Þriðjung bekkjarins vantar."
+          "word": "zu zweit",
+          "meaning": "tvö saman",
+          "example": "Wir fahren zu zweit in den Urlaub. – Við förum tvö saman í frí."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – þannig segir maður hve margir eru saman.",
-        "Bættu við endingu eins og á öðrum lýsingarorðum: dritt- + e/en/er/es."
+        "Zu dritt er skrifað í tveimur orðum og með litlum staf."
       ],
       "important": [
-        "Dritt án endingar er aðeins notað í zu dritt; annars þarf dritte, dritten o.s.frv.",
-        "Ekki rugla saman við drei: das dritte Haus – þriðja húsið, drei Häuser – þrjú hús."
+        "Dritt án endingar er aðeins notað í orðasamböndunum zu dritt og zum Dritten; raðtalan er dritte, dritten o.s.frv.",
+        "Ekki rugla saman zu dritt (þrjú saman) við drei (þrír) og der dritte (þriðji)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "þriðji",
-            "þrjú saman"
+            "þrjú saman",
+            "við þrjú",
+            "í þriðja lagi"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "þriðja"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "þriðju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15917,19 +15892,43 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "þriðji"
+                "þrjú saman"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Þrjú saman"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "þrjú"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
               ]
             },
             "lv": {
@@ -15943,12 +15942,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "þrír"
+                "þriðji"
               ]
             }
           },
@@ -15967,12 +15966,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "þriðjungur"
+                "tvö saman"
               ]
             }
           }
@@ -15980,29 +15979,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

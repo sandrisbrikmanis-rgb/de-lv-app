@@ -15805,43 +15805,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "troisième • à trois",
+    "lv": "à trois • par trois",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "troisième • à trois",
+      "translation": "à trois • par trois",
       "explanation": [
-        "Idée principale : dritt est le nombre ordinal « troisième ». Comme adjectif, il prend généralement une terminaison : der dritte Tag, die dritte Tür, das dritte Mal. Sans terminaison, il apparaît dans l'expression zu dritt – à trois.",
-        "En chiffres : 3. = dritt-. Dans les dates : der dritte Mai, am dritten Mai. Contrairement au nombre drei (trois), dritt (sauf dans l'expression zu dritt) indique un rang, pas une quantité."
+        "Idée principale : zu dritt signifie « à trois », « par trois » – trois personnes ensemble. On dit de même zu zweit (à deux), zu viert (à quatre), zu fünft (à cinq).",
+        "La forme dritt sans terminaison n'apparaît que dans les expressions zu dritt (à trois) et zum Dritten (troisièmement). Le nombre ordinal « troisième » est dritte, avec une terminaison : der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "C'est ma troisième tentative."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Elle habite au troisième étage."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Nous allons au cinéma à trois."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Aujourd'hui, nous sommes le trois mai."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Ils habitent à trois dans un petit appartement."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Je suis en troisième année de primaire."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "À trois, le travail avance plus vite."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Nous n'étions que trois."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Une fois, deux fois, trois fois – adjugé !"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "trois",
-          "example": "Ich habe drei Katzen. – J'ai trois chats."
+          "word": "der dritte",
+          "meaning": "troisième",
+          "example": "Heute ist der dritte Mai. – Aujourd'hui, nous sommes le trois mai."
         },
         {
           "word": "drittens",
@@ -15849,62 +15849,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Troisièmement, c'est trop cher."
         },
         {
-          "word": "das Drittel",
-          "meaning": "tiers",
-          "example": "Ein Drittel der Klasse fehlt. – Un tiers de la classe est absent."
+          "word": "zu zweit",
+          "meaning": "à deux",
+          "example": "Wir fahren zu zweit in den Urlaub. – Nous partons en vacances à deux."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – c'est ainsi qu'on dit combien de personnes sont ensemble.",
-        "Ajoute la terminaison comme pour les autres adjectifs : dritt- + e/en/er/es."
+        "Zu dritt s'écrit en deux mots et avec une minuscule."
       ],
       "important": [
-        "Dritt sans terminaison ne s'emploie que dans l'expression zu dritt ; ailleurs, il faut dritte, dritten, etc.",
-        "Ne pas confondre avec drei : das dritte Haus – la troisième maison, drei Häuser – trois maisons."
+        "Dritt sans terminaison ne s'emploie que dans les expressions zu dritt et zum Dritten ; le nombre ordinal est dritte, dritten, etc.",
+        "Ne pas confondre zu dritt (à trois) avec drei (trois) et der dritte (troisième)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "troisième",
-            "à trois"
+            "à trois",
+            "par trois",
+            "troisièmement"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "troisième"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "troisième"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15916,24 +15891,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trois mai"
+                "à trois"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "troisième"
+                "À trois"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "que trois"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trois fois"
               ]
             }
           }
@@ -15942,12 +15941,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "trois"
+                "troisième"
               ]
             }
           },
@@ -15966,12 +15965,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "tiers"
+                "à deux"
               ]
             }
           }
@@ -15979,29 +15978,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

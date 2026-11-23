@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "трет • во тројца",
+    "lv": "во тројца • по тројца",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "трет • во тројца",
+      "translation": "во тројца • по тројца",
       "explanation": [
-        "Главна идеја: dritt е редниот број „трет“. Како придавка обично има наставка: der dritte Tag, die dritte Tür, das dritte Mal. Без наставка се појавува во изразот zu dritt – во тројца.",
-        "Со цифри: 3. = dritt-. Во датуми: der dritte Mai, am dritten Mai. За разлика од бројот drei (три), dritt (освен во изразот zu dritt) опишува редослед, а не количество."
+        "Главна идеја: zu dritt значи во тројца, по тројца — заедно три лица. Исто така се вели zu zweit (во двајца), zu viert (во четворица), zu fünft (во петмина).",
+        "Формата dritt без наставка се среќава само во изразите zu dritt (во тројца) и zum Dritten (трето). Редниот број „трет“ е dritte со наставка: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Ова е мојот трет обид."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Таа живее на четвртиот кат."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Одиме на кино во тројца."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Денес е трети мај."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Тие живеат во тројца во мал стан."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Јас сум во трето одделение."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Во тројца работата оди побрзо."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Бевме само тројца."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Прв пат, втор пат, трет пат — продадено!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "три",
-          "example": "Ich habe drei Katzen. – Имам три мачки."
+          "word": "der dritte",
+          "meaning": "трет",
+          "example": "Heute ist der dritte Mai. – Денес е трети мај."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,73 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Трето, тоа е прескапо."
         },
         {
-          "word": "das Drittel",
-          "meaning": "третина",
-          "example": "Ein Drittel der Klasse fehlt. – Третина од класот отсуствува."
+          "word": "zu zweit",
+          "meaning": "во двајца",
+          "example": "Wir fahren zu zweit in den Urlaub. – Одиме на одмор во двајца."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – така се кажува колку луѓе се заедно.",
-        "Додавај наставка како кај другите придавки: dritt- + e/en/er/es."
+        "Zu dritt се пишува со два збора и со мала буква."
       ],
       "important": [
-        "Dritt без наставка се користи само во изразот zu dritt; на друго место треба dritte, dritten итн.",
-        "Не мешај го со drei: das dritte Haus – третата куќа, drei Häuser – три куќи."
+        "Dritt без наставка се користи само во изразите zu dritt и zum Dritten; редниот број е dritte, dritten итн.",
+        "Не мешај го zu dritt (во тројца) со drei (три) и der dritte (трет)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "трет",
-            "во тројца"
+            "во тројца",
+            "по тројца",
+            "трето"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "трет"
+                "во тројца"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "четвртиот"
+                "во тројца"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritt"
+                "Zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Во тројца"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15932,12 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zum Dritten"
               ]
             },
             "lv": {
               "purple": [
-                "трети"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "трето"
+                "трет пат"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "три"
+                "трет"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "третина"
+                "во двајца"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

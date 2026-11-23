@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "üçüncü",
+    "lv": "üç kişi olarak • üçlü olarak",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "üçüncü",
+      "translation": "üç kişi olarak • üçlü olarak",
       "explanation": [
-        "dritt, “üçüncü” anlamına gelen bir sıra sayısıdır. Sıfat olarak genellikle bir ek alır: der dritte Tag, die dritte Tür, das dritte Mal. Eksiz olarak zu dritt (üç kişi olarak) ifadesinde görülür.",
-        "Rakamla yazılışı: 3. = dritt-. Tarihlerde der dritte Mai, am dritten Mai. drei (üç) sayısından farklı olarak dritt (zu dritt ifadesi dışında) miktarı değil, sırayı anlatır."
+        "Ana fikir: zu dritt, üç kişi olarak, üçlü olarak anlamına gelir — yani üç kişi bir arada. Aynı şekilde zu zweit (iki kişi olarak), zu viert (dört kişi olarak), zu fünft (beş kişi olarak) denir.",
+        "Eksiz dritt biçimi yalnızca zu dritt (üç kişi olarak) ve zum Dritten (üçüncü olarak) ifadelerinde görülür. “Üçüncü” sıra sayısı ek alan dritte biçimidir: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Bu benim üçüncü denemem."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Üçüncü katta oturuyor."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Sinemaya üç kişi gidiyoruz."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Bugün üç Mayıs."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Küçük bir dairede üç kişi oturuyorlar."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Üçüncü sınıftayım."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Üç kişiyle iş daha hızlı ilerler."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Sadece üç kişiydik."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Birinci kez, ikinci kez, üçüncü kez — satıldı!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "üç",
-          "example": "Ich habe drei Katzen. – Üç kedim var."
+          "word": "der dritte",
+          "meaning": "üçüncü",
+          "example": "Heute ist der dritte Mai. – Bugün üç Mayıs."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Üçüncü olarak, bu çok pahalı."
         },
         {
-          "word": "das Drittel",
-          "meaning": "üçte bir",
-          "example": "Ein Drittel der Klasse fehlt. – Sınıfın üçte biri yok."
+          "word": "zu zweit",
+          "meaning": "iki kişi olarak",
+          "example": "Wir fahren zu zweit in den Urlaub. – Tatile iki kişi gidiyoruz."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – kaç kişinin bir arada olduğu böyle söylenir.",
-        "Diğer sıfatlar gibi ek ekle: dritt- + e/en/er/es."
+        "Zu dritt iki kelime olarak ve küçük harfle yazılır."
       ],
       "important": [
-        "Eksiz dritt yalnızca zu dritt ifadesinde kullanılır; başka yerlerde dritte, dritten vb. gerekir.",
-        "drei ile karıştırma: das dritte Haus – üçüncü ev, drei Häuser – üç ev."
+        "Eksiz dritt yalnızca zu dritt ve zum Dritten ifadelerinde kullanılır; sıra sayısı dritte, dritten vb. biçimindedir.",
+        "zu dritt (üç kişi olarak) ifadesini drei (üç) ve der dritte (üçüncü) ile karıştırma."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "üçüncü",
-            "üç kişi olarak"
+            "üç kişi olarak",
+            "üçlü olarak",
+            "üçüncü olarak"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "üçüncü"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Üçüncü"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15896,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "üç"
+                "üç kişi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "Üçüncü"
+                "Üç kişiyle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üç kişiydik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üçüncü kez"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "üç"
+                "üçüncü"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "üçte bir"
+                "iki kişi olarak"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "τρίτος • τρεις μαζί",
+    "lv": "τρεις μαζί • ανά τρεις",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "τρίτος • τρεις μαζί",
+      "translation": "τρεις μαζί • ανά τρεις",
       "explanation": [
-        "Βασική ιδέα: το dritt είναι τακτικό αριθμητικό: «τρίτος». Ως επίθετο έχει συνήθως κατάληξη: der dritte Tag, die dritte Tür, das dritte Mal. Χωρίς κατάληξη εμφανίζεται στη φράση zu dritt – τρεις μαζί.",
-        "Με αριθμούς γράφεται: 3. = dritt-. Στις ημερομηνίες: der dritte Mai, am dritten Mai. Σε αντίθεση με το απόλυτο αριθμητικό drei (τρία), το dritt (εκτός από τη φράση zu dritt) δηλώνει σειρά, όχι ποσότητα."
+        "Βασική ιδέα: το zu dritt σημαίνει «τρεις μαζί», «ανά τρεις» — τρία άτομα μαζί. Με τον ίδιο τρόπο λέμε zu zweit (δύο μαζί), zu viert (τέσσερις μαζί), zu fünft (πέντε μαζί).",
+        "Η μορφή dritt χωρίς κατάληξη εμφανίζεται μόνο στις φράσεις zu dritt (τρεις μαζί) και zum Dritten (τρίτον). Το τακτικό αριθμητικό «τρίτος» είναι dritte με κατάληξη: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Αυτή είναι η τρίτη μου προσπάθεια."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Μένει στον τρίτο όροφο."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Πηγαίνουμε σινεμά οι τρεις μας."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Σήμερα είναι τρεις Μαΐου."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Μένουν οι τρεις τους σε ένα μικρό διαμέρισμα."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Είμαι στην τρίτη τάξη."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Τρεις μαζί, η δουλειά γίνεται πιο γρήγορα."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Ήμασταν μόνο οι τρεις μας."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Πρώτη φορά, δεύτερη φορά, τρίτη φορά — πουλήθηκε!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "τρία",
-          "example": "Ich habe drei Katzen. – Έχω τρεις γάτες."
+          "word": "der dritte",
+          "meaning": "τρίτος",
+          "example": "Heute ist der dritte Mai. – Σήμερα είναι τρεις Μαΐου."
         },
         {
           "word": "drittens",
@@ -15854,91 +15854,90 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Τρίτον, είναι πολύ ακριβό."
         },
         {
-          "word": "das Drittel",
-          "meaning": "το ένα τρίτο (κλάσμα)",
-          "example": "Ein Drittel der Klasse fehlt. – Λείπει το ένα τρίτο της τάξης."
+          "word": "zu zweit",
+          "meaning": "δύο μαζί",
+          "example": "Wir fahren zu zweit in den Urlaub. – Πάμε διακοπές οι δυο μας."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – έτσι λέμε πόσοι άνθρωποι είναι μαζί.",
-        "Πρόσθεσε κατάληξη όπως στα άλλα επίθετα: dritt- + e/en/er/es."
+        "Zu dritt γράφεται με δύο λέξεις και με μικρό αρχικό γράμμα."
       ],
       "important": [
-        "Dritt χωρίς κατάληξη χρησιμοποιείται μόνο στη φράση zu dritt· αλλού χρειάζεται dritte, dritten κ.λπ.",
-        "Μην το μπερδεύεις με το drei: das dritte Haus – το τρίτο σπίτι, drei Häuser – τρία σπίτια."
+        "Dritt χωρίς κατάληξη χρησιμοποιείται μόνο στις φράσεις zu dritt και zum Dritten· το τακτικό αριθμητικό είναι dritte, dritten κ.λπ.",
+        "Μην μπερδεύεις το zu dritt (τρεις μαζί) με το drei (τρία) και το der dritte (τρίτος)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "τρίτος",
-            "τρεις μαζί"
+            "τρεις μαζί",
+            "ανά τρεις",
+            "τρίτον"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "τρίτη"
+                "οι τρεις μας"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "τρίτο"
+                "οι τρεις τους"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritt"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "τρεις"
+                "Τρεις μαζί"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "τρεις"
+                "οι τρεις μας"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zum Dritten"
               ]
             },
             "lv": {
               "purple": [
-                "τρίτη"
+                "τρίτη φορά"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "τρία"
+                "τρίτος"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "τρίτο"
+                "δύο μαζί"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "kolmas • kolmestaan",
+    "lv": "kolmestaan • kolmisin",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "kolmas • kolmestaan",
+      "translation": "kolmestaan • kolmisin",
       "explanation": [
-        "Perusajatus: dritt on järjestysluku ”kolmas”. Adjektiivina sillä on yleensä pääte: der dritte Tag, die dritte Tür, das dritte Mal. Ilman päätettä se esiintyy ilmauksessa zu dritt – kolmestaan.",
-        "Numeroin: 3. = dritt-. Päivämäärissä der dritte Mai, am dritten Mai. Toisin kuin lukusana drei (kolme), dritt (ilmausta zu dritt lukuun ottamatta) ilmaisee järjestystä, ei määrää."
+        "Perusajatus: zu dritt tarkoittaa kolmestaan, kolmisin – yhdessä kolme ihmistä. Samoin sanotaan zu zweit (kahdestaan), zu viert (neljästään), zu fünft (viidestään).",
+        "Muoto dritt ilman päätettä esiintyy vain ilmauksissa zu dritt (kolmestaan) ja zum Dritten (kolmanneksi). Järjestysluku ”kolmas” on päätteellinen dritte: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Tämä on kolmas yritykseni."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Hän asuu neljännessä kerroksessa."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Menemme kolmestaan elokuviin."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Tänään on toukokuun kolmas päivä."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "He asuvat kolmestaan pienessä asunnossa."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Olen kolmannella luokalla."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Kolmestaan työ sujuu nopeammin."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Olimme vain kolmestaan."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Ensimmäisen kerran, toisen kerran, kolmannen kerran – myyty!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "kolme",
-          "example": "Ich habe drei Katzen. – Minulla on kolme kissaa."
+          "word": "der dritte",
+          "meaning": "kolmas",
+          "example": "Heute ist der dritte Mai. – Tänään on toukokuun kolmas päivä."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Kolmanneksi se on liian kallis."
         },
         {
-          "word": "das Drittel",
-          "meaning": "kolmasosa",
-          "example": "Ein Drittel der Klasse fehlt. – Kolmasosa luokasta puuttuu."
+          "word": "zu zweit",
+          "meaning": "kahdestaan",
+          "example": "Wir fahren zu zweit in den Urlaub. – Lähdemme kahdestaan lomalle."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – näin kerrotaan, montako ihmistä on yhdessä.",
-        "Lisää pääte kuten muihinkin adjektiiveihin: dritt- + e/en/er/es."
+        "Zu dritt kirjoitetaan kahtena sanana ja pienellä alkukirjaimella."
       ],
       "important": [
-        "Dritt ilman päätettä käytetään vain ilmauksessa zu dritt; muualla tarvitaan muotoja dritte, dritten ja niin edelleen.",
-        "Älä sekoita sanaan drei: das dritte Haus – kolmas talo, drei Häuser – kolme taloa."
+        "Dritt ilman päätettä käytetään vain ilmauksissa zu dritt ja zum Dritten; järjestysluku on dritte, dritten ja niin edelleen.",
+        "Älä sekoita ilmausta zu dritt (kolmestaan) sanoihin drei (kolme) ja der dritte (kolmas)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "kolmas",
-            "kolmestaan"
+            "kolmestaan",
+            "kolmisin",
+            "kolmanneksi"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kolmas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "neljännessä"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15896,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "kolmas"
+                "kolmestaan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "kolmannella"
+                "Kolmestaan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kolmestaan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kolmannen kerran"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "kolme"
+                "kolmas"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "kolmasosa"
+                "kahdestaan"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]
