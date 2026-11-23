@@ -29694,7 +29694,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Daudzskaitlī ir galotne -er: die Geschlechter.",
-        "Veidlapās aiz Geschlecht bieži ir aizpildīšanas lauks, nevis jautājums."
+        "Veidlapās Geschlecht ir lauka nosaukums (dzimums), kur atzīmē männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
