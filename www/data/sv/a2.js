@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt är inte samma sak som praktisch: angewandt anger att en teori används, medan praktisch beskriver det som är bekvämt eller användbart.",
-        "Före ett substantiv måste det alltid ha ändelse (angewandte Wissenschaft, angewandter Test)."
+        "Före ett substantiv måste det alltid ha ändelse (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "orsak • anledning",
       "explanation": [
         "Grundidé: der Grund är ett maskulint substantiv, plural die Gründe. Det betyder orsak, skäl: Was ist der Grund für die Verspätung? Vanligt: aus diesem Grund (av det skälet), keinen Grund haben.",
-        "Det betyder också grund, mark: der Grund und Boden. Frasen im Grunde (genommen) – i grund och botten."
+        "Det betyder också grund, mark: Grund und Boden. Frasen im Grunde (genommen) – i grund och botten."
       ],
       "examples": [
         {

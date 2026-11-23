@@ -9772,7 +9772,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "samankaltainen",
-          "example": "Die Brüder sind ähnlich. – Veljet ovat samankaltaisia."
+          "example": "Die Brüder sehen sich ähnlich. – Veljet ovat samankaltaisia."
         }
       ],
       "tip": [

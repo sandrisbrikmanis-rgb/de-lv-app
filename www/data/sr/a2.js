@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt nije isto što i praktisch: angewandt pokazuje da se teorija koristi, a praktisch opisuje ono što je zgodno ili korisno.",
-        "Ispred imenice uvek treba dodati nastavak (angewandte Wissenschaft, angewandter Test)."
+        "Ispred imenice uvek treba dodati nastavak (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "razlog",
       "explanation": [
         "Osnovna ideja: der Grund je imenica muškog roda, množina die Gründe. Znači razlog: Was ist der Grund für die Verspätung? Često: aus diesem Grund (iz tog razloga), keinen Grund haben.",
-        "Znači i osnovu, tlo: der Grund und Boden. Fraza im Grunde (genommen) — u suštini."
+        "Znači i osnovu, tlo: Grund und Boden. Fraza im Grunde (genommen) — u suštini."
       ],
       "examples": [
         {

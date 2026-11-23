@@ -2273,7 +2273,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt er ikke det samme som praktisch: angewandt viser, at teori bliver brugt, mens praktisch beskriver noget, der er bekvemt eller nyttigt.",
-        "Foran et navneord skal der altid endelse på (angewandte Wissenschaft, angewandter Test)."
+        "Foran et navneord skal der altid endelse på (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21676,7 +21676,7 @@ const A2_WORDS = [
       "translation": "Grund • Årsag",
       "explanation": [
         "Hovedidé: der Grund er et hankønsnavneord, flertal die Gründe. Det betyder grund, årsag: Was ist der Grund für die Verspätung? Ofte: aus diesem Grund (af denne grund), keinen Grund haben.",
-        "Det betyder også grund, jord: der Grund und Boden. Udtrykket im Grunde (genommen) – i grunden, egentlig."
+        "Det betyder også grund, jord: Grund und Boden. Udtrykket im Grunde (genommen) – i grunden, egentlig."
       ],
       "examples": [
         {

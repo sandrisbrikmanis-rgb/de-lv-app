@@ -9774,7 +9774,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "podobný",
-          "example": "Die Brüder sind ähnlich. – Bratia sú si podobní."
+          "example": "Die Brüder sehen sich ähnlich. – Bratia sú si podobní."
         }
       ],
       "tip": [

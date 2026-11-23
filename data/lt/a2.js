@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt nėra tas pats, kas praktisch: angewandt nurodo, kad teorija naudojama praktikoje, o praktisch apibūdina tai, kas patogu ar naudinga.",
-        "Prieš daiktavardį visada reikia galūnės (angewandte Wissenschaft, angewandter Test)."
+        "Prieš daiktavardį visada reikia galūnės (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21664,7 +21664,7 @@ const A2_WORDS = [
       "translation": "priežastis",
       "explanation": [
         "Pagrindinė mintis: der Grund yra vyriškosios giminės daiktavardis, daugiskaita die Gründe. Jis reiškia priežastį: Was ist der Grund für die Verspätung? Dažnai: aus diesem Grund (dėl šios priežasties), keinen Grund haben.",
-        "Jis reiškia ir pagrindą, žemę: der Grund und Boden. Frazė im Grunde (genommen) — iš esmės."
+        "Jis reiškia ir pagrindą, žemę: Grund und Boden. Frazė im Grunde (genommen) — iš esmės."
       ],
       "examples": [
         {

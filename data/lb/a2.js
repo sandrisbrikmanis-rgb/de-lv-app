@@ -2276,7 +2276,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt ass net datselwecht wéi praktisch: angewandt seet, datt eng Theorie benotzt gëtt, praktisch beschreift dat, wat bequem oder nëtzlech ass.",
-        "Virun engem Substantiv brauch et ëmmer eng Endung (angewandte Wissenschaft, angewandter Test)."
+        "Virun engem Substantiv brauch et ëmmer eng Endung (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21647,7 +21647,7 @@ const A2_WORDS = [
       "translation": "Grond",
       "explanation": [
         "Haaptiddi: der Grund ass e männlecht Nomen, Pluralform die Gründe. Et bedeit Grond, Ursaach: Was ist der Grund für die Verspätung? Dacks: aus diesem Grund (aus dësem Grond), keinen Grund haben.",
-        "Et bedeit och Buedem, Terrain: der Grund und Boden. Den Ausdrock im Grunde (genommen) heescht am Fong."
+        "Et bedeit och Buedem, Terrain: Grund und Boden. Den Ausdrock im Grunde (genommen) heescht am Fong."
       ],
       "examples": [
         {

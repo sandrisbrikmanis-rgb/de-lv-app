@@ -2279,7 +2279,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt no es lo mismo que praktisch: angewandt indica que una teoría se lleva a la práctica, mientras que praktisch describe algo cómodo o útil.",
-        "Delante de un sustantivo siempre necesita desinencia (angewandte Wissenschaft, angewandter Test)."
+        "Delante de un sustantivo siempre necesita desinencia (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21679,7 +21679,7 @@ const A2_WORDS = [
       "translation": "razón • motivo",
       "explanation": [
         "Idea principal: der Grund es un sustantivo masculino, plural die Gründe. Significa razón, motivo: Was ist der Grund für die Verspätung? Expresiones frecuentes: aus diesem Grund (por este motivo), keinen Grund haben (no tener motivo).",
-        "También significa fondo, suelo, terreno: der Grund und Boden. La expresión im Grunde (genommen) significa en el fondo."
+        "También significa fondo, suelo, terreno: Grund und Boden. La expresión im Grunde (genommen) significa en el fondo."
       ],
       "examples": [
         {

@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt не е същото като praktisch: angewandt показва, че теорията се използва, а praktisch описва нещо удобно или полезно.",
-        "Пред съществително винаги трябва окончание (angewandte Wissenschaft, angewandter Test)."
+        "Пред съществително винаги трябва окончание (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "причина",
       "explanation": [
         "Накратко: der Grund е съществително от мъжки род, множествено число die Gründe. Означава причина: Was ist der Grund für die Verspätung? Често: aus diesem Grund (по тази причина), keinen Grund haben.",
-        "Означава също основа, земя: der Grund und Boden. Фразата im Grunde (genommen) — по същество."
+        "Означава също основа, земя: Grund und Boden. Фразата im Grunde (genommen) — по същество."
       ],
       "examples": [
         {

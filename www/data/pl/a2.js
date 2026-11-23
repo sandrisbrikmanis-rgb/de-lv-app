@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt to nie to samo co praktisch: angewandt wskazuje, że teorię wykorzystuje się w praktyce, a praktisch opisuje to, co wygodne lub przydatne.",
-        "Przed rzeczownikiem zawsze trzeba dodać końcówkę (angewandte Wissenschaft, angewandter Test)."
+        "Przed rzeczownikiem zawsze trzeba dodać końcówkę (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "powód",
       "explanation": [
         "Główna myśl: der Grund to rzeczownik rodzaju męskiego, liczba mnoga die Gründe. Oznacza powód: Was ist der Grund für die Verspätung? Często: aus diesem Grund (z tego powodu), keinen Grund haben (nie mieć powodu).",
-        "Oznacza też podstawę, grunt, ziemię: der Grund und Boden. Wyrażenie im Grunde (genommen) — w gruncie rzeczy."
+        "Oznacza też podstawę, grunt, ziemię: Grund und Boden. Wyrażenie im Grunde (genommen) — w gruncie rzeczy."
       ],
       "examples": [
         {

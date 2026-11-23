@@ -2279,7 +2279,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt is not the same as praktisch: angewandt says that a theory is being put to use, whereas praktisch describes something that is handy or useful.",
-        "Before a noun, angewandt always needs an ending (angewandte Wissenschaft, angewandter Test)."
+        "Before a noun, angewandt always needs an ending (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21683,7 +21683,7 @@ const A2_WORDS = [
       "translation": "The reason",
       "explanation": [
         "Main idea: der Grund is a masculine noun; the plural is die Gründe. It means reason: Was ist der Grund für die Verspätung? Common phrases: aus diesem Grund (for this reason), keinen Grund haben (to have no reason).",
-        "It also means ground or land: der Grund und Boden. The phrase im Grunde (genommen) means basically."
+        "It also means ground or land: Grund und Boden. The phrase im Grunde (genommen) means basically."
       ],
       "examples": [
         {

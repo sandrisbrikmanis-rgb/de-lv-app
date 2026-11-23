@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "apžēloties • iežēloties",
       "explanation": [
         "Galvenā doma: sich erbarmen nozīmē just līdzjūtību pret cietēju un palīdzēt vai apžēloties par viņu. Valoda ir augsta, bieži reliģiska vai ironiska.",
-        "Pēc tā parasti nāk ģenitīvs: sich des Hundes erbarmen. Retāk lieto über + Akuzatīvs. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Pēc tā parasti nāk ģenitīvs: sich des Hundes erbarmen. Retāk (reģionāli, Austrijā) lieto über + akuzatīvu. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Sarunvalodā jokojot: Wer erbarmt sich und …? — Kurš iežēlosies un …?"
       ],
       "examples": [
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "vēlāks • papildu • vēlāk",
       "explanation": [
         "Galvenā doma: nachträglich nozīmē pēc tam, jau pēc galvenās darbības vai termiņa — vēlāk papildus pievienots vai izdarīts. Tas ir gan īpašības vārds (eine nachträgliche Änderung), gan apstākļa vārds (nachträglich ändern).",
-        "Bieža nozīme ir kavēšanās: nachträglich gratulieren — apsveikt pēc notikuma. Īpašības vārds izsaka arī papildu raksturu: eine nachträgliche Zahlung (papildu maksājums)."
+        "Bieža nozīme ir kavēšanās: nachträglich gratulieren — apsveikt pēc notikuma. Īpašības vārds nozīmē arī vēlāk, pēc noteiktā laika notiekošu: eine nachträgliche Zahlung (vēlāks maksājums)."
       ],
       "examples": [
         {

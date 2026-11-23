@@ -9773,7 +9773,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "simile",
-          "example": "Die Brüder sind ähnlich. – I fratelli si somigliano."
+          "example": "Die Brüder sehen sich ähnlich. – I fratelli si somigliano."
         }
       ],
       "tip": [

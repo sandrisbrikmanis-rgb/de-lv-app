@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt nav tas pats, kas praktisch: angewandt norāda, ka teorija tiek izmantota, bet praktisch raksturo to, kas ir ērts vai noderīgs.",
-        "Pirms lietvārda vienmēr jāliek galotne (angewandte Wissenschaft, angewandter Test)."
+        "Pirms lietvārda vienmēr jāliek galotne (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: anstecken ir atdalāms darbības vārds ar nozīmi piespraust vai uzvilkt (piespraust ziedu, uzvilkt gredzenu), kā arī inficēt un pielipt (slimība).",
         "Formas: steckt an, steckte an, hat angesteckt. Priedēklis an- teikumā atdalās: Er steckt mir den Ring an. Tas prasa akuzatīvu (ko?), bieži arī datīvu (kam?).",
-        "Ar nozīmi inficēt lieto jemanden anstecken vai sich anstecken (saķert slimību): Ich habe mich bei ihm angesteckt. Dažos reģionos anstecken lieto arī ar nozīmi aizdedzināt (eine Zigarette anstecken)."
+        "Ar nozīmi inficēt lieto jemanden anstecken vai sich anstecken (saķert slimību): Ich habe mich bei ihm angesteckt. Sarunvalodā anstecken nozīmē arī aizdedzināt (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -16154,7 +16154,7 @@ const A2_WORDS = [
         "Priedēklis ein atdalās un stāv teikuma beigās: Ich lade dich ein."
       ],
       "important": [
-        "Pagātnē: hat eingeladen (ne ge-ein-laden)."
+        "Perfektā: hat eingeladen (ne ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21663,7 +21663,7 @@ const A2_WORDS = [
       "translation": "iemesls",
       "explanation": [
         "Galvenā doma: der Grund ir vīriešu dzimtes lietvārds, daudzskaitlis die Gründe. Tas nozīmē iemeslu: Was ist der Grund für die Verspätung? Bieži: aus diesem Grund (šā iemesla dēļ), keinen Grund haben.",
-        "Tas nozīmē arī pamatu, zemi: der Grund und Boden. Frāze im Grunde (genommen) — būtībā."
+        "Tas nozīmē arī pamatu, zemi: Grund und Boden. Frāze im Grunde (genommen) — būtībā."
       ],
       "examples": [
         {

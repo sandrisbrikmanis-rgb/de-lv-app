@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt ni isto kot praktisch: angewandt pove, da se teorija uporablja, praktisch pa opisuje, kar je priročno ali koristno.",
-        "Pred samostalnikom je končnica vedno obvezna (angewandte Wissenschaft, angewandter Test)."
+        "Pred samostalnikom je končnica vedno obvezna (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "razlog",
       "explanation": [
         "Glavna misel: der Grund je samostalnik moškega spola, množina die Gründe. Pomeni razlog: Was ist der Grund für die Verspätung? Pogosto: aus diesem Grund (iz tega razloga), keinen Grund haben.",
-        "Pomeni tudi temelj, tla: der Grund und Boden. Fraza im Grunde (genommen) — v bistvu."
+        "Pomeni tudi temelj, tla: Grund und Boden. Fraza im Grunde (genommen) — v bistvu."
       ],
       "examples": [
         {

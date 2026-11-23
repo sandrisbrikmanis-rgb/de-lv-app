@@ -2277,7 +2277,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt er ikkje det same som praktisch: angewandt viser at teori blir brukt, medan praktisch skildrar det som er lettvint eller nyttig.",
-        "Framfor eit substantiv må det alltid ha ending (angewandte Wissenschaft, angewandter Test)."
+        "Framfor eit substantiv må det alltid ha ending (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "grunn • årsak",
       "explanation": [
         "Hovudpoeng: der Grund er eit substantiv i hankjønn, fleirtal die Gründe. Det tyder grunn, årsak: Was ist der Grund für die Verspätung? Ofte: aus diesem Grund (av den grunn), keinen Grund haben.",
-        "Det tyder også grunnlag, jord, mark: der Grund und Boden. Uttrykket im Grunde (genommen) – i botn og grunn."
+        "Det tyder også grunnlag, jord, mark: Grund und Boden. Uttrykket im Grunde (genommen) – i botn og grunn."
       ],
       "examples": [
         {

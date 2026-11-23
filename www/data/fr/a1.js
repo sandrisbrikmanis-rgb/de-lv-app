@@ -9768,7 +9768,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "semblable",
-          "example": "Die Brüder sind ähnlich. – Les frères se ressemblent (sont semblables)."
+          "example": "Die Brüder sehen sich ähnlich. – Les frères se ressemblent (sont semblables)."
         }
       ],
       "tip": [

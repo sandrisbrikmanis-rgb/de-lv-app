@@ -9773,7 +9773,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "i ngjashëm",
-          "example": "Die Brüder sind ähnlich. – Vëllezërit janë të ngjashëm."
+          "example": "Die Brüder sehen sich ähnlich. – Vëllezërit janë të ngjashëm."
         }
       ],
       "tip": [

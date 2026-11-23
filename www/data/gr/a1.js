@@ -9774,7 +9774,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "παρόμοιος",
-          "example": "Die Brüder sind ähnlich. – Οι αδελφοί μοιάζουν."
+          "example": "Die Brüder sehen sich ähnlich. – Οι αδελφοί μοιάζουν."
         }
       ],
       "tip": [

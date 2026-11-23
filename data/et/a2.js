@@ -2287,7 +2287,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt ei ole sama mis praktisch: angewandt näitab, et teooriat kasutatakse, praktisch aga iseloomustab seda, mis on mugav või kasulik.",
-        "Nimisõna ees tuleb alati lisada lõpp (angewandte Wissenschaft, angewandter Test)."
+        "Nimisõna ees tuleb alati lisada lõpp (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21712,7 +21712,7 @@ const A2_WORDS = [
       "translation": "põhjus",
       "explanation": [
         "Põhimõte: der Grund on meessoost nimisõna, mitmus die Gründe. See tähendab põhjust: Was ist der Grund für die Verspätung? Sageli: aus diesem Grund (sel põhjusel), keinen Grund haben.",
-        "See tähendab ka alust, maad, põhja: der Grund und Boden. Väljend im Grunde (genommen) — põhimõtteliselt, sisuliselt."
+        "See tähendab ka alust, maad, põhja: Grund und Boden. Väljend im Grunde (genommen) — põhimõtteliselt, sisuliselt."
       ],
       "examples": [
         {

@@ -9771,7 +9771,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "lik, lignende",
-          "example": "Die Brüder sind ähnlich. – Brødrene ligner på hverandre."
+          "example": "Die Brüder sehen sich ähnlich. – Brødrene ligner på hverandre."
         }
       ],
       "tip": [

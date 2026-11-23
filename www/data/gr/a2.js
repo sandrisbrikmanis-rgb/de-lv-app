@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Το Angewandt δεν είναι το ίδιο με το praktisch: το angewandt δείχνει ότι μια θεωρία χρησιμοποιείται στην πράξη, ενώ το praktisch χαρακτηρίζει κάτι βολικό ή χρήσιμο.",
-        "Πριν από ουσιαστικό χρειάζεται πάντα κατάληξη (angewandte Wissenschaft, angewandter Test)."
+        "Πριν από ουσιαστικό χρειάζεται πάντα κατάληξη (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21662,7 +21662,7 @@ const A2_WORDS = [
       "translation": "λόγος • αιτία",
       "explanation": [
         "Βασική ιδέα: το der Grund είναι ουσιαστικό αρσενικού γένους, πληθυντικός die Gründe. Σημαίνει λόγο, αιτία: Was ist der Grund für die Verspätung? Συχνά: aus diesem Grund (για αυτόν τον λόγο), keinen Grund haben.",
-        "Σημαίνει επίσης βάση, έδαφος: der Grund und Boden. Η φράση im Grunde (genommen) — κατά βάση."
+        "Σημαίνει επίσης βάση, έδαφος: Grund und Boden. Η φράση im Grunde (genommen) — κατά βάση."
       ],
       "examples": [
         {

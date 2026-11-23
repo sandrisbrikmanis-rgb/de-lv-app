@@ -2275,7 +2275,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Az angewandt nem azonos a praktisch szóval: az angewandt azt jelzi, hogy egy elméletet a gyakorlatban használnak, a praktisch pedig azt írja le, ami kényelmes vagy hasznos.",
-        "A főnév előtt mindig végződést kap (angewandte Wissenschaft, angewandter Test)."
+        "A főnév előtt mindig végződést kap (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21654,7 +21654,7 @@ const A2_WORDS = [
       "translation": "ok",
       "explanation": [
         "Lényeg: a der Grund hímnemű főnév, többes száma die Gründe. Jelentése ok: Was ist der Grund für die Verspätung? Gyakori: aus diesem Grund (ebből az okból, ezért), keinen Grund haben (nincs rá oka).",
-        "Jelentése alap, föld, talaj is: der Grund und Boden. Az im Grunde (genommen) kifejezés jelentése: alapjában véve."
+        "Jelentése alap, föld, talaj is: Grund und Boden. Az im Grunde (genommen) kifejezés jelentése: alapjában véve."
       ],
       "examples": [
         {

@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt не е исто што и praktisch: angewandt покажува дека теоријата се користи, а praktisch опишува нешто што е удобно или корисно.",
-        "Пред именка секогаш треба наставка (angewandte Wissenschaft, angewandter Test)."
+        "Пред именка секогаш треба наставка (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "причина",
       "explanation": [
         "Главна мисла: der Grund е именка од машки род, множина die Gründe. Значи причина: Was ist der Grund für die Verspätung? Често: aus diesem Grund (од таа причина), keinen Grund haben.",
-        "Значи и основа, земја: der Grund und Boden. Фразата im Grunde (genommen) — во суштина."
+        "Значи и основа, земја: Grund und Boden. Фразата im Grunde (genommen) — во суштина."
       ],
       "examples": [
         {
