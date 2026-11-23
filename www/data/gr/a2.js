@@ -18493,8 +18493,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "έτοιμος",
+    "de": "bereit",
+    "lv": "έτοιμος • πρόθυμος",
     "level": "A2"
   },
   {
@@ -20679,13 +20679,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "γεωγραφία",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "γεωγραφία",
     "level": "A2"
   },
@@ -36628,11 +36621,6 @@ const A2_WORDS = [
     "de": "saure Sahne",
     "de_article": "die",
     "lv": "ξινή κρέμα γάλακτος",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
-    "lv": "ξινή κρέμα",
     "level": "A2"
   },
   {

@@ -58970,11 +58970,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "klebetiť • rozprávať sa",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "vznášať sa",
     "level": "B1"
@@ -59433,11 +59428,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "sekcia • oddiel",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "samostatný",
     "level": "B1"
   },
   {

@@ -5787,13 +5787,13 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "beziehen / sich beziehen auf",
-    "lv": "Apply • Apply to",
+    "de": "beziehen auf",
+    "lv": "Relate to • Refer to",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Apply • Apply to",
+      "translation": "Relate to • Refer to",
       "explanation": [
         "Main idea: etwas auf etwas beziehen means to apply or relate something to something or someone; sich auf etwas beziehen means to relate to something or to refer to it.",
         "Forms: bezieht, bezog, hat bezogen. Both constructions are followed by auf + accusative: etwas auf sich beziehen (to take something personally), sich auf einen Text beziehen (to refer to a text).",
@@ -6906,13 +6906,6 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "Wheelbarrow",
-    "level": "C1"
-  },
-  {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
@@ -6931,13 +6924,6 @@ const C1_WORDS = [
     "de_article": "der",
     "de_plural": "die Matsche",
     "lv": "Mud • Slush",
-    "level": "C1"
-  },
-  {
-    "de": "Panter",
-    "de_article": "der",
-    "de_plural": "die Panter",
-    "lv": "Panther",
     "level": "C1"
   },
   {

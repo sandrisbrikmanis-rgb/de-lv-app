@@ -58967,11 +58967,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "jutella • lörpötellä",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "leijua • leijailla",
     "level": "B1"
@@ -59430,11 +59425,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "osasto • jaosto",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "itsenäinen • omatoiminen",
     "level": "B1"
   },
   {

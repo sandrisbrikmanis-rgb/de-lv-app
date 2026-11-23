@@ -1590,34 +1590,6 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "talicska • kordé",
-    "level": "C2"
-  },
-  {
-    "de": "Karren",
-    "de_article": "der",
-    "de_plural": "die Karren",
-    "lv": "kordé • talicska",
-    "level": "C2"
-  },
-  {
-    "de": "Kriegsbeschädigte",
-    "de_article": "der",
-    "de_plural": "die Kriegsbeschädigten",
-    "lv": "hadirokkant",
-    "level": "C2"
-  },
-  {
-    "de": "Kriegsgefangene",
-    "de_article": "der",
-    "de_plural": "die Kriegsgefangenen",
-    "lv": "hadifogoly",
-    "level": "C2"
-  },
-  {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",

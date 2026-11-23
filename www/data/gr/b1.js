@@ -58969,11 +58969,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "φλυαρώ • κουβεντιάζω",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "αιωρούμαι • πλανιέμαι",
     "level": "B1"
@@ -59432,11 +59427,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "τμήμα • τομέας",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "ανεξάρτητος • αυτόνομος",
     "level": "B1"
   },
   {

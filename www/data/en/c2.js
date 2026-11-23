@@ -1589,34 +1589,6 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "Wheelbarrow • Cart",
-    "level": "C2"
-  },
-  {
-    "de": "Karren",
-    "de_article": "der",
-    "de_plural": "die Karren",
-    "lv": "Cart",
-    "level": "C2"
-  },
-  {
-    "de": "Kriegsbeschädigte",
-    "de_article": "der",
-    "de_plural": "die Kriegsbeschädigten",
-    "lv": "A person disabled by war",
-    "level": "C2"
-  },
-  {
-    "de": "Kriegsgefangene",
-    "de_article": "der",
-    "de_plural": "die Kriegsgefangenen",
-    "lv": "A prisoner of war",
-    "level": "C2"
-  },
-  {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",

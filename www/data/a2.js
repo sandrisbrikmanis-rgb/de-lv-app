@@ -18492,8 +18492,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "gatavs",
+    "de": "bereit",
+    "lv": "gatavs (kaut kam) • ar mieru",
     "level": "A2"
   },
   {
@@ -20679,13 +20679,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "ģeogrāfija",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "ģeogrāfija",
     "level": "A2"
   },
@@ -36630,11 +36623,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "skābs krējums",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "skābs krējums",
     "level": "A2"
   },

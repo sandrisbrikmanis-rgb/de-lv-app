@@ -58970,11 +58970,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "a pălăvrăgi • a flecări",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "a pluti • a plana",
     "level": "B1"
@@ -59433,11 +59428,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "secție • secțiune",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "independent • autonom",
     "level": "B1"
   },
   {

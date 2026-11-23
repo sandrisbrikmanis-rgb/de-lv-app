@@ -18485,8 +18485,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "kész",
+    "de": "bereit",
+    "lv": "kész • hajlandó",
     "level": "A2"
   },
   {
@@ -20671,13 +20671,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "földrajz",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "földrajz",
     "level": "A2"
   },
@@ -36614,11 +36607,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "tejföl",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "tejföl",
     "level": "A2"
   },

@@ -18496,8 +18496,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "hazır",
+    "de": "bereit",
+    "lv": "hazır • istekli",
     "level": "A2"
   },
   {
@@ -20683,13 +20683,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "coğrafya",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "coğrafya",
     "level": "A2"
   },
@@ -36637,11 +36630,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "ekşi krema",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "ekşi krema",
     "level": "A2"
   },

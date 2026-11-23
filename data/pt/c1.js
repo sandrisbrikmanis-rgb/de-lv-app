@@ -5792,7 +5792,7 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "beziehen / sich beziehen auf",
+    "de": "beziehen auf",
     "lv": "relacionar • referir-se a",
     "level": "C1",
     "study": {
@@ -6910,13 +6910,6 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "carrinho de mão • carroça",
-    "level": "C1"
-  },
-  {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
@@ -6935,13 +6928,6 @@ const C1_WORDS = [
     "de_article": "der",
     "de_plural": "die Matsche",
     "lv": "lama • neve derretida",
-    "level": "C1"
-  },
-  {
-    "de": "Panter",
-    "de_article": "der",
-    "de_plural": "die Panter",
-    "lv": "pantera",
     "level": "C1"
   },
   {

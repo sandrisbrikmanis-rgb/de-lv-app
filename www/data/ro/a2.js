@@ -18495,8 +18495,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "gata • pregătit",
+    "de": "bereit",
+    "lv": "pregătit • dispus",
     "level": "A2"
   },
   {
@@ -20682,13 +20682,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "geografie",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "geografie",
     "level": "A2"
   },
@@ -36636,11 +36629,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "smântână",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "smântână",
     "level": "A2"
   },
