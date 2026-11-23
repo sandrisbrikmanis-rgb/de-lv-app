@@ -34945,12 +34945,6 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Rahm",
-    "de_article": "der",
-    "lv": "nata",
-    "level": "A2"
-  },
-  {
     "de": "Rand",
     "de_article": "der",
     "de_plural": "die Ränder",
@@ -37276,6 +37270,12 @@ const A2_WORDS = [
   {
     "de": "schlagen",
     "lv": "golpear",
+    "level": "A2"
+  },
+  {
+    "de": "Schlagsahne",
+    "de_article": "die",
+    "lv": "nata para montar",
     "level": "A2"
   },
   {
