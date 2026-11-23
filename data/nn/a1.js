@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "bade",
       "explanation": [
-        "Hovudtanke: baden tyder å bade i badekar eller å bade i vatn for moro skuld: Im See baden (bade i innsjøen), in der Wanne baden (bade i badekaret). Former: er badet, badete, hat gebadet.",
+        "Hovudtanke: baden tyder å bade i badekar eller å bade i vatn for moro skuld: im See baden (bade i innsjøen), in der Wanne baden (bade i badekaret). Former: er badet, badete, hat gebadet.",
         "Verbet er regelrett og står ofte saman med gehen: baden gehen (gå og bade). Med objekt tyder det 'bade nokon': das Baby baden (bade babyen).",
         "Å symje som rørsle (tilbakeleggje ein distanse) heiter schwimmen, ikkje baden."
       ],
@@ -12250,7 +12250,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "De er seint ute i dag."
         },
         {

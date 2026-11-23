@@ -494,7 +494,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Forveksl det ikke med abfinden uden sich: det betyder at kompensere eller holde skadesløs med penge.",
-        "Førnutid er sich abgefunden (med -ge- i midten), ikke gabgefunden."
+        "Førnutid er sich abgefunden (med -ge- i midten), ikke geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9222,7 +9222,7 @@ const B2_WORDS = [
       "translation": "At afholde sig fra",
       "explanation": [
         "Hovedidé: sich enthalten betyder bevidst at afholde sig fra noget – ikke gøre det, ikke bruge det, ikke stemme. Sproget er formelt og skriftsprogligt.",
-        "Efter det følger genitiv: sich der Stimme enthalten (undlade at stemme), sich jeden Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
+        "Efter det følger genitiv: sich der Stimme enthalten (undlade at stemme), sich jedes Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
         "Uden sich betyder enthalten at indeholde: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24585,7 +24585,7 @@ const B2_WORDS = [
           "lv": "Myndigheden indfører udgangsforbud."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kongen bestemte, at porten skulle lukkes."
         },
         {

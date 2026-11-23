@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "odwoływać",
       "explanation": [
         "Najważniejsze: absagen to czasownik rozdzielnie złożony o znaczeniu odwołać (wydarzenie, spotkanie) albo odmówić (komuś): sagt ab, sagte ab, hat abgesagt. Ab stoi na końcu zdania.",
-        "Gdy odwołuje się wydarzenie, następuje biernik: Das Treffen absagen. Gdy odmawia się osobie, następuje celownik: Er hat mir abgesagt (odmówił mi). W stronie biernej: Das Fest wurde abgesagt.",
+        "Gdy odwołuje się wydarzenie, następuje biernik: das Treffen absagen. Gdy odmawia się osobie, następuje celownik: Er hat mir abgesagt (odmówił mi). W stronie biernej: Das Fest wurde abgesagt.",
         "Przeciwieństwem jest zusagen — obiecać, że się przyjdzie, albo się zgodzić."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "twardy • stały",
       "explanation": [
-        "Główna myśl: fest to przymiotnik i przysłówek. Znaczy stały (nie ciekły): feste Nahrung; stabilny, niezmienny: ein fester Job, ein fester Termin; mocno, silnie: fest halten, fest schlafen.",
+        "Główna myśl: fest to przymiotnik i przysłówek. Znaczy stały (nie ciekły): feste Nahrung; stabilny, niezmienny: ein fester Job, ein fester Termin; mocno, silnie: festhalten, fest schlafen.",
         "Stopniowanie: fest, fester, am festesten. Przed rzeczownikiem przyjmuje końcówkę: ein festes Dach."
       ],
       "examples": [

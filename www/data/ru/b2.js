@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не путай с abfinden без sich: оно означает компенсировать или удовлетворить деньгами.",
-        "Форма Perfekt — sich abgefunden (с -ge- в середине), а не gabgefunden."
+        "Форма Perfekt — sich abgefunden (с -ge- в середине), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "воздерживаться • воздержаться",
       "explanation": [
         "Главное: sich enthalten значит сознательно воздерживаться от чего-либо — не делать, не употреблять, не голосовать. Это официальная, книжная речь.",
-        "После него стоит родительный падеж: sich der Stimme enthalten (воздержаться от голосования), sich jeden Kommentars enthalten. Формы: enthält sich, enthielt sich, hat sich enthalten.",
+        "После него стоит родительный падеж: sich der Stimme enthalten (воздержаться от голосования), sich jedes Kommentars enthalten. Формы: enthält sich, enthielt sich, hat sich enthalten.",
         "Без sich глагол enthalten значит «содержать»: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Ведомство вводит комендантский час."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Король приказал закрыть ворота."
         },
         {

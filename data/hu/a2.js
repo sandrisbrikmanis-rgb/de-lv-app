@@ -1251,7 +1251,7 @@ const A2_WORDS = [
       "translation": "lemond",
       "explanation": [
         "A lényeg: az absagen elváló igekötős ige, jelentése lemond (rendezvényt, találkozót), illetve visszamond, nemet mond (valakinek): sagt ab, sagte ab, hat abgesagt. Az ab a mondat végén áll.",
-        "Ha egy rendezvényt mondunk le, Akkusativ (tárgyeset) következik: Das Treffen absagen. Ha egy személynek mondunk vissza, Dativ (részes eset) áll: Er hat mir abgesagt (visszamondta nekem). Szenvedő szerkezetben: Das Fest wurde abgesagt.",
+        "Ha egy rendezvényt mondunk le, Akkusativ (tárgyeset) következik: das Treffen absagen. Ha egy személynek mondunk vissza, Dativ (részes eset) áll: Er hat mir abgesagt (visszamondta nekem). Szenvedő szerkezetben: Das Fest wurde abgesagt.",
         "Az ellentéte a zusagen – megígéri, hogy eljön, vagy igent mond."
       ],
       "examples": [
@@ -18505,7 +18505,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "szilárd • kemény",
       "explanation": [
-        "A lényeg: a fest melléknév és határozószó. Jelentése szilárd (nem folyékony): feste Nahrung; állandó, biztos: ein fester Job, ein fester Termin; erősen, szorosan: fest halten, fest schlafen.",
+        "A lényeg: a fest melléknév és határozószó. Jelentése szilárd (nem folyékony): feste Nahrung; állandó, biztos: ein fester Job, ein fester Termin; erősen, szorosan: festhalten, fest schlafen.",
         "Fokozás: fest, fester, am festesten. Főnév előtt végződést kap: ein festes Dach."
       ],
       "examples": [

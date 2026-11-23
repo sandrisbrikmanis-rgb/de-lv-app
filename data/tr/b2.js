@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "sich olmadan kullanılan abfinden ile karıştırma: o, tazminat ödemek ya da parayla tatmin etmek demektir.",
-        "Perfekt biçimi sich abgefunden olur (ortada -ge- ile), gabgefunden değil."
+        "Perfekt biçimi sich abgefunden olur (ortada -ge- ile), geabfunden değil."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "kaçınmak • çekimser kalmak",
       "explanation": [
         "sich enthalten bir şeyden bilinçli olarak kaçınmak demektir — yapmamak, kullanmamak, oy vermemek. Dili resmî, kitabidir.",
-        "Ardından Genitiv gelir: sich der Stimme enthalten (çekimser kalmak), sich jeden Kommentars enthalten. Biçimleri: enthält sich, enthielt sich, hat sich enthalten.",
+        "Ardından Genitiv gelir: sich der Stimme enthalten (çekimser kalmak), sich jedes Kommentars enthalten. Biçimleri: enthält sich, enthielt sich, hat sich enthalten.",
         "sich olmadan enthalten içermek demektir: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Kurum sokağa çıkma yasağı koyuyor."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kral kapının kapatılmasını emretti."
         },
         {

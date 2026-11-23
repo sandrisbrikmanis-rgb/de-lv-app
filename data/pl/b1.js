@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "skłaniać się • mieć skłonność",
       "explanation": [
         "Główna myśl: neigen z zu + celownik znaczy skłaniać się ku czemuś, mieć skłonność: Er neigt zu schnellen Entscheidungen. Formy: neigt, neigte, hat geneigt.",
-        "W znaczeniu dosłownym etwas neigen to pochylać coś (den Kopf neigen). Zwrotne sich neigen znaczy pochylać się albo zbliżać się do końca: Der Tag neigt sich dem Ende zu.",
+        "W znaczeniu dosłownym etwas neigen to pochylać coś (den Kopf neigen). Zwrotne sich neigen znaczy pochylać się albo zbliżać się do końca: Der Tag neigt sich.",
         "Od tego samego rdzenia pochodzi rzeczownik die Neigung (skłonność, upodobanie, nachylenie)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "Pogoda w kwietniu ma skłonność do skrajności."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dzień chyli się ku końcowi."
         }
       ],
@@ -53623,7 +53623,7 @@ const B1_WORDS = [
       "translation": "drzeć • rwać • pękać",
       "explanation": [
         "Główna myśl: reißen to czasownik mocny. Bez dopełnienia znaczy pękać, zrywać się (Das Seil reißt), a z dopełnieniem – drzeć, rwać (Er reißt das Papier).",
-        "Formy: er reißt, riss, hat gerissen / ist gerissen. Gdy coś samo się zrywa, używa się sein (Das Seil ist gerissen); gdy ktoś drze lub ciągnie, używa się haben (Er hat das Papier gerissen).",
+        "Formy: er reißt, riss, hat gerissen / ist gerissen. Gdy coś samo się zrywa, używa się sein (Das Seil ist gerissen); gdy ktoś drze lub ciągnie, używa się haben (Er hat ein Loch in die Hose gerissen).",
         "Często z przedrostkami: zerreißen (podrzeć), aufreißen (otworzyć szarpnięciem), abreißen (oderwać, zburzyć), losreißen (oderwać, wyrwać)."
       ],
       "examples": [
@@ -54501,7 +54501,7 @@ const B1_WORDS = [
       "explanation": [
         "Główna myśl: rollen znaczy toczyć się: poruszać się na kołach lub jak koło, tak jak okrągły przedmiot toczy się po powierzchni. Z dopełnieniem znaczy też toczyć coś lub zwijać.",
         "Formy: rollt, rollte, ist gerollt (gdy coś się toczy) i hat gerollt (gdy ktoś coś toczy). Na przykład: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Częste połączenia: rollen über (przetoczyć się przez), zusammenrollen (zwinąć), losrollen (ruszyć, zacząć się toczyć), rollen mit den Augen – przewracać oczami (z irytacji)."
+        "Częste połączenia: rollen über (przetoczyć się przez), zusammenrollen (zwinąć), losrollen (ruszyć, zacząć się toczyć), mit den Augen rollen – przewracać oczami (z irytacji)."
       ],
       "examples": [
         {
@@ -56773,7 +56773,7 @@ const B1_WORDS = [
       "translation": "cios • uderzenie",
       "explanation": [
         "Główna myśl: der Schlag to rzeczownik rodzaju męskiego, który oznacza uderzenie, cios (ręką, przedmiotem), a także bicie zegara i uderzenie serca. W znaczeniu przenośnym to też ciężki cios: Schicksalsschlag (cios losu); Blitzschlag to uderzenie pioruna.",
-        "Liczba mnoga to die Schläge. Często: ein Schlag ins Gesicht (cios w twarz), mit einem Schlag (w jednej chwili), Schläge bekommen (dostać lanie), der Schlag des Herzens (uderzenie serca).",
+        "Liczba mnoga to die Schläge. Często: ein Schlag ins Gesicht (cios w twarz), mit einem Schlag (w jednej chwili), Schläge bekommen (dostać lanie), der Herzschlag (uderzenie serca).",
         "Czasownik schlagen (bić, uderzać) jest rdzeniem tego słowa, ale der Schlag odnosi się do samego uderzenia lub jego skutku."
       ],
       "examples": [
@@ -77220,7 +77220,7 @@ const B1_WORDS = [
         "W pytaniu o zawód często używa się von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, a nie Ich bin ein Beruf: nazwy zawodów (Lehrer, Arzt) zwykle stosuje się bez rodzajnika.",
+        "Ich bin Lehrer, a nie Ich bin ein Lehrer: nazwy zawodów (Lehrer, Arzt) zwykle stosuje się bez rodzajnika.",
         "Beruf to nie to samo co Arbeit czy Job: to zawód, a nie konkretna praca."
       ],
       "sectionAccents": {
@@ -77683,7 +77683,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer jest rodzaju nijakiego; liczba mnoga (die Steuer) brzmi tak samo jak pojedyncza i jest rzadko używana.",
-        "Przy złym rodzajniku zmienia się sens zdania: am Steuer sitzen to siedzieć za kierownicą, a Steuer zahlen to płacić podatki."
+        "Przy złym rodzajniku zmienia się sens zdania: am Steuer sitzen to siedzieć za kierownicą, a Steuern zahlen to płacić podatki."
       ],
       "sectionAccents": {
         "explanation": {

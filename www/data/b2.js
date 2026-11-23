@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nejauc ar abfinden bez sich: tas nozīmē kompensēt vai apmierināt ar naudu.",
-        "Perfektā forma ir sich abgefunden (ar -ge- vidū), nevis gabgefunden."
+        "Perfektā forma ir hat sich abgefunden (-ge- starp ab- un saknes daļu), nevis geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "atturēties no",
       "explanation": [
         "Galvenā doma: sich enthalten nozīmē apzināti atturēties no kā — nedarīt, nelietot, nebalsot. Valoda ir formāla, grāmatiska.",
-        "Pēc tā nāk Ģenitīvs: sich der Stimme enthalten (atturēties no balsošanas), sich jeden Kommentars enthalten. Formas: enthält sich, enthielt sich, hat sich enthalten.",
+        "Pēc tā nāk Ģenitīvs: sich der Stimme enthalten (atturēties no balsošanas), sich jedes Kommentars enthalten. Formas: enthält sich, enthielt sich, hat sich enthalten.",
         "Bez sich vārds enthalten nozīmē saturēt: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig bieži pauž nevēlamu vai nevienmērīgu izskatu (netīra drēbe, sarkani plankumi uz ādas).",
-        "Pieliekot galotni, atceries e: ein fleckiges Fell, eine fleckige Haut."
+        "Pirms lietvārda fleckig saņem galotni: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Iestāde nosaka komandantstundu."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Karalis pavēlēja aizvērt vārtus."
         },
         {

@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "odpovedati",
       "explanation": [
         "Bistvo: absagen je ločljivi glagol s pomenom odpovedati (prireditev, srečanje) ali nekomu sporočiti, da ne prideš: sagt ab, sagte ab, hat abgesagt. Ab stoji na koncu stavka.",
-        "Kadar odpoveš prireditev, sledi akuzativ: Das Treffen absagen. Kadar odpoveš osebi, sledi dativ: Er hat mir abgesagt (odpovedal mi je). V trpniku: Das Fest wurde abgesagt.",
+        "Kadar odpoveš prireditev, sledi akuzativ: das Treffen absagen. Kadar odpoveš osebi, sledi dativ: Er hat mir abgesagt (odpovedal mi je). V trpniku: Das Fest wurde abgesagt.",
         "Nasprotni pojem je zusagen — obljubiti, da prideš, ali privoliti."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "trden • čvrst",
       "explanation": [
-        "Glavna misel: fest je pridevnik in prislov. Pomeni trden (ne tekoč): feste Nahrung; stalen, nespremenljiv: ein fester Job, ein fester Termin; trdno, močno: fest halten, fest schlafen.",
+        "Glavna misel: fest je pridevnik in prislov. Pomeni trden (ne tekoč): feste Nahrung; stalen, nespremenljiv: ein fester Job, ein fester Termin; trdno, močno: festhalten, fest schlafen.",
         "Stopnjevanje: fest, fester, am festesten. Pred samostalnikom dobi končnico: ein festes Dach."
       ],
       "examples": [

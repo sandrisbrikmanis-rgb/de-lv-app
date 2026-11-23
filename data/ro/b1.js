@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "a tinde • a se înclina",
       "explanation": [
         "Ideea principală: neigen cu zu + dativ înseamnă a tinde spre ceva, a avea înclinație: Er neigt zu schnellen Entscheidungen. Forme: neigt, neigte, hat geneigt.",
-        "La propriu, etwas neigen înseamnă a înclina, a apleca ceva (den Kopf neigen). Ca verb reflexiv, sich neigen înseamnă a se apleca sau a se apropia de sfârșit: Der Tag neigt sich dem Ende zu.",
+        "La propriu, etwas neigen înseamnă a înclina, a apleca ceva (den Kopf neigen). Ca verb reflexiv, sich neigen înseamnă a se apleca sau a se apropia de sfârșit: Der Tag neigt sich.",
         "Din aceeași rădăcină se formează substantivul die Neigung (tendință, înclinație, pantă)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "În aprilie, vremea tinde spre extreme."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Ziua se apropie de sfârșit."
         }
       ],
@@ -53623,7 +53623,7 @@ const B1_WORDS = [
       "translation": "a rupe • a se rupe",
       "explanation": [
         "Ideea principală: reißen este un verb tare. Fără complement înseamnă a se rupe, a plesni (Das Seil reißt), iar cu complement – a rupe, a smulge (Er reißt das Papier).",
-        "Forme: er reißt, riss, hat gerissen / ist gerissen. Dacă ceva se rupe de la sine, se folosește sein (Das Seil ist gerissen); dacă cineva rupe sau trage, se folosește haben (Er hat das Papier gerissen).",
+        "Forme: er reißt, riss, hat gerissen / ist gerissen. Dacă ceva se rupe de la sine, se folosește sein (Das Seil ist gerissen); dacă cineva rupe sau trage, se folosește haben (Er hat ein Loch in die Hose gerissen).",
         "Apare des cu prefixe: zerreißen (a rupe în bucăți), aufreißen (a deschide brusc, smucind), abreißen (a smulge, a demola), losreißen (a smulge, a desprinde)."
       ],
       "examples": [
@@ -54501,7 +54501,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideea principală: rollen înseamnă a se rostogoli, a rula: a se mișca pe roți sau ca o roată; un obiect rotund se rostogolește pe o suprafață. Cu complement înseamnă și a rostogoli sau a rula, a face sul.",
         "Forme: rollt, rollte, ist gerollt (când ceva se rostogolește) și hat gerollt (când cineva rostogolește ceva). De exemplu: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Îmbinări frecvente: rollen über (a se rostogoli peste), zusammenrollen (a face sul), losrollen (a porni, a începe să se rostogolească), rollen mit den Augen – a da ochii peste cap (de enervare)."
+        "Îmbinări frecvente: rollen über (a se rostogoli peste), zusammenrollen (a face sul), losrollen (a porni, a începe să se rostogolească), mit den Augen rollen – a da ochii peste cap (de enervare)."
       ],
       "examples": [
         {
@@ -56773,7 +56773,7 @@ const B1_WORDS = [
       "translation": "lovitură",
       "explanation": [
         "Ideea principală: der Schlag este un substantiv masculin care înseamnă lovitură, izbitură (cu mâna, cu un obiect), dar și bătaia ceasului și bătaia inimii. La figurat înseamnă și o lovitură grea: Schicksalsschlag (lovitură a sorții); Blitzschlag este o lovitură de trăsnet.",
-        "Pluralul este die Schläge. Frecvent: ein Schlag ins Gesicht (o palmă peste față), mit einem Schlag (dintr-odată), Schläge bekommen (a primi bătaie), der Schlag des Herzens (bătaia inimii).",
+        "Pluralul este die Schläge. Frecvent: ein Schlag ins Gesicht (o palmă peste față), mit einem Schlag (dintr-odată), Schläge bekommen (a primi bătaie), der Herzschlag (bătaia inimii).",
         "Verbul schlagen (a lovi, a bate) este rădăcina acestui cuvânt, dar der Schlag se referă la lovitura însăși sau la rezultatul ei."
       ],
       "examples": [
@@ -77220,7 +77220,7 @@ const B1_WORDS = [
         "În întrebarea despre profesie se folosește des von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, nu Ich bin ein Beruf: denumirile profesiilor (Lehrer, Arzt) se folosesc de obicei fără articol.",
+        "Ich bin Lehrer, nu Ich bin ein Lehrer: denumirile profesiilor (Lehrer, Arzt) se folosesc de obicei fără articol.",
         "Beruf nu este același lucru cu Arbeit sau Job: este profesia, nu o muncă anume."
       ],
       "sectionAccents": {
@@ -77683,7 +77683,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer este un cuvânt neutru; pluralul (die Steuer) are aceeași formă ca singularul și se folosește rar.",
-        "Cu articolul greșit sensul se schimbă: am Steuer sitzen înseamnă a sta la volan, dar Steuer zahlen înseamnă a plăti impozite."
+        "Cu articolul greșit sensul se schimbă: am Steuer sitzen înseamnă a sta la volan, dar Steuern zahlen înseamnă a plăti impozite."
       ],
       "sectionAccents": {
         "explanation": {

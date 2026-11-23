@@ -2416,7 +2416,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "To swim",
       "explanation": [
-        "Main idea: baden means to have a bath or to swim in water for pleasure: Im See baden (to swim in the lake), in der Wanne baden (to have a bath). Forms: er badet, badete, hat gebadet.",
+        "Main idea: baden means to have a bath or to swim in water for pleasure: im See baden (to swim in the lake), in der Wanne baden (to have a bath). Forms: er badet, badete, hat gebadet.",
         "The verb is regular and is often used with gehen: baden gehen (to go for a swim). Used with an object, it means to bath someone: das Baby baden (to bath the baby).",
         "Swimming as a movement or sport (covering a distance) is schwimmen, not baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "You are late today."
         },
         {

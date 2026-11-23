@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Politikā saka eine Partei wählen vai für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei un die Party (ballīte) skan līdzīgi, bet nav saistīti."
+        "Die Partei un die Party (ballīte) skan līdzīgi, bet nozīme ir pavisam cita (abi gan cēlušies no latīņu pars — daļa)."
       ],
       "sectionAccents": {
         "explanation": {

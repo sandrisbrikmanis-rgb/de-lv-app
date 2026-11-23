@@ -47693,7 +47693,7 @@ const B1_WORDS = [
       "translation": "neigen • overhellen",
       "explanation": [
         "Kernidee: neigen met zu + datief betekent neigen tot iets, ergens toe geneigd zijn: Er neigt zu schnellen Entscheidungen. Vormen: neigt, neigte, hat geneigt.",
-        "Letterlijk betekent etwas neigen iets buigen of schuin houden (den Kopf neigen). Wederkerend betekent sich neigen zich buigen of ten einde lopen: Der Tag neigt sich dem Ende zu.",
+        "Letterlijk betekent etwas neigen iets buigen of schuin houden (den Kopf neigen). Wederkerend betekent sich neigen zich buigen of ten einde lopen: Der Tag neigt sich.",
         "Van dezelfde stam komt het zelfstandig naamwoord die Neigung (neiging, voorkeur, helling)."
       ],
       "examples": [
@@ -47710,7 +47710,7 @@ const B1_WORDS = [
           "lv": "In april neigt het weer tot uitersten."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "De dag loopt ten einde."
         }
       ],
@@ -53616,7 +53616,7 @@ const B1_WORDS = [
       "translation": "scheuren • rukken",
       "explanation": [
         "Kern: reißen is een sterk werkwoord. Zonder lijdend voorwerp betekent het knappen, scheuren (Das Seil reißt), met lijdend voorwerp: stukscheuren, rukken (Er reißt das Papier).",
-        "Vormen: er reißt, riss, hat gerissen / ist gerissen. Als iets vanzelf knapt, gebruik je sein (Das Seil ist gerissen); als iemand scheurt of trekt, gebruik je haben (Er hat das Papier gerissen).",
+        "Vormen: er reißt, riss, hat gerissen / ist gerissen. Als iets vanzelf knapt, gebruik je sein (Das Seil ist gerissen); als iemand scheurt of trekt, gebruik je haben (Er hat ein Loch in die Hose gerissen).",
         "Vaak met voorvoegsels: zerreißen (verscheuren), aufreißen (openrukken), abreißen (afscheuren, slopen), losreißen (losrukken)."
       ],
       "examples": [
@@ -54494,7 +54494,7 @@ const B1_WORDS = [
       "explanation": [
         "Kern: rollen betekent rollen: zich op wielen of als een wiel voortbewegen; een rond voorwerp rolt over een oppervlak. Met lijdend voorwerp betekent het ook iets laten rollen of oprollen.",
         "Vormen: rollt, rollte, ist gerollt (als iets rolt) en hat gerollt (als iemand iets rolt). Bijvoorbeeld: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Vaak gebruikt: rollen über (over iets heen rollen), zusammenrollen (oprollen), losrollen (beginnen te rollen), rollen mit den Augen – met de ogen rollen (uit ergernis)."
+        "Vaak gebruikt: rollen über (over iets heen rollen), zusammenrollen (oprollen), losrollen (beginnen te rollen), mit den Augen rollen – met de ogen rollen (uit ergernis)."
       ],
       "examples": [
         {
@@ -56766,7 +56766,7 @@ const B1_WORDS = [
       "translation": "slag • klap",
       "explanation": [
         "Kern: der Schlag is een mannelijk zelfstandig naamwoord voor een slag of klap (met de hand of een voorwerp), maar ook voor de slag van een klok en de hartslag. Figuurlijk is het ook een zware klap: Schicksalsschlag (slag van het lot); Blitzschlag is een blikseminslag.",
-        "Het meervoud is die Schläge. Vaak: ein Schlag ins Gesicht (een klap in het gezicht), mit einem Schlag (in één klap, ineens), Schläge bekommen (een pak slaag krijgen), der Schlag des Herzens (de hartslag).",
+        "Het meervoud is die Schläge. Vaak: ein Schlag ins Gesicht (een klap in het gezicht), mit einem Schlag (in één klap, ineens), Schläge bekommen (een pak slaag krijgen), der Herzschlag (de hartslag).",
         "Het werkwoord schlagen (slaan) is de stam van dit woord, maar der Schlag duidt de slag zelf of het resultaat ervan aan."
       ],
       "examples": [
@@ -77209,7 +77209,7 @@ const B1_WORDS = [
         "Als je naar iemands beroep vraagt, gebruik je vaak von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, niet Ich bin ein Beruf: beroepsnamen (Lehrer, Arzt) gebruik je meestal zonder lidwoord.",
+        "Ich bin Lehrer, niet Ich bin ein Lehrer: beroepsnamen (Lehrer, Arzt) gebruik je meestal zonder lidwoord.",
         "Beruf is niet hetzelfde als Arbeit of Job: het is het beroep, niet een concrete baan."
       ],
       "sectionAccents": {
@@ -77672,7 +77672,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer is onzijdig; het meervoud (die Steuer) is gelijk aan het enkelvoud en wordt zelden gebruikt.",
-        "Met het verkeerde woord verandert de betekenis: am Steuer sitzen is achter het stuur zitten, maar Steuer zahlen is belasting betalen."
+        "Met het verkeerde woord verandert de betekenis: am Steuer sitzen is achter het stuur zitten, maar Steuern zahlen is belasting betalen."
       ],
       "sectionAccents": {
         "explanation": {

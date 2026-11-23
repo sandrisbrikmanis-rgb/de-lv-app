@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "kopati se",
       "explanation": [
-        "Glavna misel: baden pomeni kopati se — v kadi ali v vodi (v jezeru, morju) za razvedrilo: Im See baden (kopati se v jezeru), in der Wanne baden (kopati se v kadi). Oblike: er badet, badete, hat gebadet.",
+        "Glavna misel: baden pomeni kopati se — v kadi ali v vodi (v jezeru, morju) za razvedrilo: im See baden (kopati se v jezeru), in der Wanne baden (kopati se v kadi). Oblike: er badet, badete, hat gebadet.",
         "Glagol je pravilen in se pogosto veže z gehen: baden gehen (iti se kopat). V prehodnem pomenu pomeni 'kopati koga': das Baby baden.",
         "Plavati kot gibanje (preplavati razdaljo) se reče schwimmen, ne baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Danes ste pozni."
         },
         {

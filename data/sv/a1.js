@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "bada",
       "explanation": [
-        "Grundidé: baden betyder att bada i badkar eller att bada i en sjö eller i havet för nöjes skull: Im See baden (bada i sjön), in der Wanne baden (bada i badkaret). Former: er badet, badete, hat gebadet.",
+        "Grundidé: baden betyder att bada i badkar eller att bada i en sjö eller i havet för nöjes skull: im See baden (bada i sjön), in der Wanne baden (bada i badkaret). Former: er badet, badete, hat gebadet.",
         "Verbet är regelbundet och används ofta med gehen: baden gehen (gå och bada). Med objekt betyder det ”bada någon i badkar”: das Baby baden.",
         "Att simma som rörelse (simma en sträcka) heter schwimmen, inte baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Ni är sena i dag."
         },
         {

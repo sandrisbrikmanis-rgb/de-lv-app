@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "отменять • отменить",
       "explanation": [
         "absagen — глагол с отделяемой приставкой и значением «отменить» (мероприятие, встречу) или «отказать» (человеку): sagt ab, sagte ab, hat abgesagt. Ab стоит в конце предложения.",
-        "Если отменяют мероприятие, дальше идёт винительный падеж: Das Treffen absagen. Если отказывают человеку, идёт дательный падеж: Er hat mir abgesagt (он мне отказал). В пассиве: Das Fest wurde abgesagt.",
+        "Если отменяют мероприятие, дальше идёт винительный падеж: das Treffen absagen. Если отказывают человеку, идёт дательный падеж: Er hat mir abgesagt (он мне отказал). В пассиве: Das Fest wurde abgesagt.",
         "Противоположное по смыслу слово — zusagen: пообещать прийти или согласиться."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "твёрдый",
       "explanation": [
-        "Главное: fest — прилагательное и наречие. Оно значит твёрдый (не жидкий): feste Nahrung; стабильный, неизменный: ein fester Job, ein fester Termin; крепко, прочно: fest halten, fest schlafen.",
+        "Главное: fest — прилагательное и наречие. Оно значит твёрдый (не жидкий): feste Nahrung; стабильный, неизменный: ein fester Job, ein fester Termin; крепко, прочно: festhalten, fest schlafen.",
         "Степени сравнения: fest, fester, am festesten. Перед существительным оно получает окончание: ein festes Dach."
       ],
       "examples": [

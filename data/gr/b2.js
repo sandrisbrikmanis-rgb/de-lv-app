@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Μην το μπερδεύεις με το abfinden χωρίς sich: σημαίνει αποζημιώνω ή ικανοποιώ κάποιον με χρήματα.",
-        "Η μετοχή είναι sich abgefunden (με -ge- στη μέση), όχι gabgefunden."
+        "Η μετοχή είναι sich abgefunden (με -ge- στη μέση), όχι geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9219,7 +9219,7 @@ const B2_WORDS = [
       "translation": "απέχω (από)",
       "explanation": [
         "Βασική ιδέα: το sich enthalten σημαίνει απέχω συνειδητά από κάτι — δεν το κάνω, δεν το χρησιμοποιώ, δεν ψηφίζω. Το ύφος είναι επίσημο, λόγιο.",
-        "Ακολουθεί γενική: sich der Stimme enthalten (απέχω από την ψηφοφορία), sich jeden Kommentars enthalten. Τύποι: enthält sich, enthielt sich, hat sich enthalten.",
+        "Ακολουθεί γενική: sich der Stimme enthalten (απέχω από την ψηφοφορία), sich jedes Kommentars enthalten. Τύποι: enthält sich, enthielt sich, hat sich enthalten.",
         "Χωρίς sich, το enthalten σημαίνει περιέχω: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24595,7 +24595,7 @@ const B2_WORDS = [
           "lv": "Η αρχή επιβάλλει απαγόρευση κυκλοφορίας."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Ο βασιλιάς διέταξε να κλείσει η πύλη."
         },
         {

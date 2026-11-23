@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Do not confuse it with abfinden without sich: that means to compensate or to pay off.",
-        "The perfect form is sich abgefunden (with -ge- in the middle), not gabgefunden."
+        "The perfect form is sich abgefunden (with -ge- in the middle), not geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8920,7 +8920,7 @@ const B2_WORDS = [
       "translation": "Refrain from",
       "explanation": [
         "Main idea: sich enthalten means to deliberately refrain from something — not to do, use or vote on something. The language is formal and literary.",
-        "It takes the genitive: sich der Stimme enthalten (to abstain from voting), sich jeden Kommentars enthalten. Forms: enthält sich, enthielt sich, hat sich enthalten.",
+        "It takes the genitive: sich der Stimme enthalten (to abstain from voting), sich jedes Kommentars enthalten. Forms: enthält sich, enthielt sich, hat sich enthalten.",
         "Without sich, the verb enthalten means to contain: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24314,7 +24314,7 @@ const B2_WORDS = [
           "lv": "The authority orders a curfew."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "The king commanded that the gate be closed."
         },
         {

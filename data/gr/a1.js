@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "κάνω μπάνιο • κολυμπώ",
       "explanation": [
-        "Βασική ιδέα: το baden σημαίνει κάνω μπάνιο στην μπανιέρα ή κολυμπώ στο νερό για αναψυχή: Im See baden (κάνω μπάνιο στη λίμνη), in der Wanne baden (κάνω μπάνιο στην μπανιέρα). Τύποι: er badet, badete, hat gebadet.",
+        "Βασική ιδέα: το baden σημαίνει κάνω μπάνιο στην μπανιέρα ή κολυμπώ στο νερό για αναψυχή: im See baden (κάνω μπάνιο στη λίμνη), in der Wanne baden (κάνω μπάνιο στην μπανιέρα). Τύποι: er badet, badete, hat gebadet.",
         "Το ρήμα είναι ομαλό και συχνά συνδυάζεται με το gehen: baden gehen (πηγαίνω για μπάνιο). Μεταβατικά σημαίνει «κάνω μπάνιο σε κάποιον»: das Baby baden.",
         "Το κολύμπι ως κίνηση (για να καλύψεις μια απόσταση) λέγεται schwimmen, όχι baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Εσείς αργήσατε σήμερα."
         },
         {

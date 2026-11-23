@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "afzeggen • annuleren",
       "explanation": [
         "Kerngedachte: absagen is een scheidbaar werkwoord met de betekenis afzeggen of afgelasten (een activiteit, afspraak) of afzeggen bij iemand: sagt ab, sagte ab, hat abgesagt. Ab staat aan het eind van de zin.",
-        "Bij het afzeggen van een activiteit volgt een accusatief: Das Treffen absagen. Zeg je af bij een persoon, dan volgt een datief: Er hat mir abgesagt (hij heeft bij mij afgezegd). Passief: Das Fest wurde abgesagt.",
+        "Bij het afzeggen van een activiteit volgt een accusatief: das Treffen absagen. Zeg je af bij een persoon, dan volgt een datief: Er hat mir abgesagt (hij heeft bij mij afgezegd). Passief: Das Fest wurde abgesagt.",
         "Het tegenovergestelde is zusagen — toezeggen dat je komt of instemmen."
       ],
       "examples": [
@@ -18510,7 +18510,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "vast • stevig",
       "explanation": [
-        "Kern: fest is een bijvoeglijk naamwoord en een bijwoord. Het betekent vast (niet vloeibaar): feste Nahrung; stabiel, vast: ein fester Job, ein fester Termin; stevig, vast: fest halten, fest schlafen.",
+        "Kern: fest is een bijvoeglijk naamwoord en een bijwoord. Het betekent vast (niet vloeibaar): feste Nahrung; stabiel, vast: ein fester Job, ein fester Termin; stevig, vast: festhalten, fest schlafen.",
         "Trappen van vergelijking: fest, fester, am festesten. Vóór een zelfstandig naamwoord krijgt het een uitgang: ein festes Dach."
       ],
       "examples": [

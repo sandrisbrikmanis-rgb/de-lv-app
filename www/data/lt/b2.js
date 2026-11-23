@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nepainiok su abfinden be sich: jis reiškia kompensuoti arba atsiskaityti pinigais.",
-        "Perfekto forma yra sich abgefunden (su -ge- viduryje), o ne gabgefunden."
+        "Perfekto forma yra sich abgefunden (su -ge- viduryje), o ne geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "susilaikyti nuo",
       "explanation": [
         "Pagrindinė mintis: sich enthalten reiškia sąmoningai susilaikyti nuo ko nors – nedaryti, nevartoti, nebalsuoti. Kalba formali, knyginė.",
-        "Po jo eina Genitiv (kilmininkas): sich der Stimme enthalten (susilaikyti balsuojant), sich jeden Kommentars enthalten. Formos: enthält sich, enthielt sich, hat sich enthalten.",
+        "Po jo eina Genitiv (kilmininkas): sich der Stimme enthalten (susilaikyti balsuojant), sich jedes Kommentars enthalten. Formos: enthält sich, enthielt sich, hat sich enthalten.",
         "Be sich žodis enthalten reiškia turėti savyje, būti sudėtyje: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Įstaiga nustato komendanto valandą."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Karalius įsakė uždaryti vartus."
         },
         {

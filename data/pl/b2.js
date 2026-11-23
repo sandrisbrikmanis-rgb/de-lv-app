@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nie myl z abfinden bez sich: oznacza ono wypłacić rekompensatę lub zaspokoić czyjeś roszczenia pieniędzmi.",
-        "Forma Perfektu to sich abgefunden (z -ge- w środku), a nie gabgefunden."
+        "Forma Perfektu to sich abgefunden (z -ge- w środku), a nie geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "powstrzymać się",
       "explanation": [
         "Główna myśl: sich enthalten znaczy świadomie powstrzymać się od czegoś — nie robić czegoś, nie używać, nie głosować. Jest to język formalny, książkowy.",
-        "Po nim następuje dopełniacz: sich der Stimme enthalten (wstrzymać się od głosu), sich jeden Kommentars enthalten. Formy: enthält sich, enthielt sich, hat sich enthalten.",
+        "Po nim następuje dopełniacz: sich der Stimme enthalten (wstrzymać się od głosu), sich jedes Kommentars enthalten. Formy: enthält sich, enthielt sich, hat sich enthalten.",
         "Bez sich czasownik enthalten znaczy zawierać: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Urząd zarządza godzinę policyjną."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Król zarządził zamknięcie bramy."
         },
         {

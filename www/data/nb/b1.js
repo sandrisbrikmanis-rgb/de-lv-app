@@ -47698,7 +47698,7 @@ const B1_WORDS = [
       "translation": "helle • være tilbøyelig til",
       "explanation": [
         "Hovedbetydning: neigen med zu + dativ betyr å ha en tendens til noe, være tilbøyelig til noe (jf. norsk helle mot noe): Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret betydning betyr etwas neigen å bøye eller helle noe (den Kopf neigen). Refleksivt betyr sich neigen å bøye seg eller å nærme seg slutten: Der Tag neigt sich dem Ende zu.",
+        "I konkret betydning betyr etwas neigen å bøye eller helle noe (den Kopf neigen). Refleksivt betyr sich neigen å bøye seg eller å nærme seg slutten: Der Tag neigt sich.",
         "Av samme rot er substantivet die Neigung (tilbøyelighet, hang, helling)."
       ],
       "examples": [
@@ -47715,7 +47715,7 @@ const B1_WORDS = [
           "lv": "I april har været en tendens til å gå til ytterpunkter."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dagen nærmer seg slutten."
         }
       ],
@@ -53621,7 +53621,7 @@ const B1_WORDS = [
       "translation": "rive • revne",
       "explanation": [
         "Hovedbetydning: reißen er et sterkt verb. Uten objekt betyr det å revne, ryke (Das Seil reißt), med objekt å rive, slite (Er reißt das Papier).",
-        "Former: er reißt, riss, hat gerissen / ist gerissen. Når noe ryker av seg selv, brukes sein (Das Seil ist gerissen); når noen river eller drar, brukes haben (Er hat das Papier gerissen).",
+        "Former: er reißt, riss, hat gerissen / ist gerissen. Når noe ryker av seg selv, brukes sein (Das Seil ist gerissen); når noen river eller drar, brukes haben (Er hat ein Loch in die Hose gerissen).",
         "Ofte med prefikser: zerreißen (rive i stykker), aufreißen (rive opp), abreißen (rive av, rive ned), losreißen (rive løs)."
       ],
       "examples": [
@@ -54499,7 +54499,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedbetydning: rollen betyr å rulle: å bevege seg på hjul eller som et hjul, en rund gjenstand ruller over en flate. Med objekt betyr det også å trille noe eller rulle sammen.",
         "Former: rollt, rollte, ist gerollt (når noe ruller) og hat gerollt (når noen ruller noe). For eksempel: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Vanlige forbindelser: rollen über (rulle over), zusammenrollen (rulle sammen), losrollen (begynne å rulle), rollen mit den Augen – himle med øynene (av irritasjon)."
+        "Vanlige forbindelser: rollen über (rulle over), zusammenrollen (rulle sammen), losrollen (begynne å rulle), mit den Augen rollen – himle med øynene (av irritasjon)."
       ],
       "examples": [
         {
@@ -56771,7 +56771,7 @@ const B1_WORDS = [
       "translation": "slag",
       "explanation": [
         "Hovedbetydning: der Schlag er et substantiv i hankjønn som betyr slag, støt (med hånden, en gjenstand), også klokkeslag og hjerteslag. I overført betydning er det også et hardt slag: Schicksalsschlag (skjebneslag); Blitzschlag er et lynnedslag.",
-        "Flertall er die Schläge. Vanlig: ein Schlag ins Gesicht (et slag i ansiktet), mit einem Schlag (på et øyeblikk – som norsk med ett slag), Schläge bekommen (få juling), der Schlag des Herzens (hjerteslag).",
+        "Flertall er die Schläge. Vanlig: ein Schlag ins Gesicht (et slag i ansiktet), mit einem Schlag (på et øyeblikk – som norsk med ett slag), Schläge bekommen (få juling), der Herzschlag (hjerteslag).",
         "Verbet schlagen (slå) er roten til dette ordet, men der Schlag gjelder selve slaget eller resultatet av det."
       ],
       "examples": [
@@ -77217,7 +77217,7 @@ const B1_WORDS = [
         "I spørsmål om yrke brukes ofte von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, ikke Ich bin ein Beruf: yrkesbetegnelser (Lehrer, Arzt) brukes vanligvis uten artikkel – som på norsk: Jeg er lærer.",
+        "Ich bin Lehrer, ikke Ich bin ein Lehrer: yrkesbetegnelser (Lehrer, Arzt) brukes vanligvis uten artikkel – som på norsk: Jeg er lærer.",
         "Beruf er ikke det samme som Arbeit eller Job: det er et yrke, ikke en konkret jobb."
       ],
       "sectionAccents": {
@@ -77680,7 +77680,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer er intetkjønn; flertall (die Steuer) er likt entall og brukes sjelden.",
-        "Med feil artikkel endres meningen: am Steuer sitzen er å sitte bak rattet, mens Steuer zahlen er å betale skatt."
+        "Med feil artikkel endres meningen: am Steuer sitzen er å sitte bak rattet, mens Steuern zahlen er å betale skatt."
       ],
       "sectionAccents": {
         "explanation": {

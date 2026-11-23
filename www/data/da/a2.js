@@ -18525,7 +18525,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Fast • Stabil",
       "explanation": [
-        "Hovedidé: fest er både tillægsord og biord. Det betyder fast (ikke flydende): feste Nahrung; stabil, fast: ein fester Job, ein fester Termin; kraftigt, godt: fest halten (holde fast), fest schlafen (sove tungt).",
+        "Hovedidé: fest er både tillægsord og biord. Det betyder fast (ikke flydende): feste Nahrung; stabil, fast: ein fester Job, ein fester Termin; kraftigt, godt: festhalten (holde fast), fest schlafen (sove tungt).",
         "Gradbøjning: fest, fester, am festesten. Foran et navneord får det endelse: ein festes Dach."
       ],
       "examples": [

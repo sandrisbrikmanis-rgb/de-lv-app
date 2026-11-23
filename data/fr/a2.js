@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "annuler",
       "explanation": [
         "Idée principale : absagen est un verbe séparable qui signifie annuler (un événement, un rendez-vous) ou se décommander (auprès de quelqu'un) : sagt ab, sagte ab, hat abgesagt. Ab se place à la fin de la phrase.",
-        "Quand on annule un événement, il est suivi de l'accusatif : Das Treffen absagen. Quand on se décommande auprès d'une personne, il est suivi du datif : Er hat mir abgesagt (il s'est décommandé). Au passif : Das Fest wurde abgesagt.",
+        "Quand on annule un événement, il est suivi de l'accusatif : das Treffen absagen. Quand on se décommande auprès d'une personne, il est suivi du datif : Er hat mir abgesagt (il s'est décommandé). Au passif : Das Fest wurde abgesagt.",
         "Le contraire est zusagen — promettre de venir ou accepter."
       ],
       "examples": [
@@ -18511,7 +18511,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "solide • ferme",
       "explanation": [
-        "Idée principale : fest est un adjectif et un adverbe. Il signifie solide (et non liquide) : feste Nahrung ; stable, fixe : ein fester Job, ein fester Termin ; fermement, bien serré : fest halten, fest schlafen.",
+        "Idée principale : fest est un adjectif et un adverbe. Il signifie solide (et non liquide) : feste Nahrung ; stable, fixe : ein fester Job, ein fester Termin ; fermement, bien serré : festhalten, fest schlafen.",
         "Degrés : fest, fester, am festesten. Devant un nom, il prend une terminaison : ein festes Dach."
       ],
       "examples": [

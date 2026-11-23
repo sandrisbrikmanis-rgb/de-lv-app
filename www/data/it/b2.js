@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Non confonderlo con abfinden senza sich: significa indennizzare o liquidare con del denaro.",
-        "La forma del Perfekt è sich abgefunden (con -ge- in mezzo), non gabgefunden."
+        "La forma del Perfekt è sich abgefunden (con -ge- in mezzo), non geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "astenersi",
       "explanation": [
         "Idea principale: sich enthalten significa astenersi consapevolmente da qualcosa — non fare, non consumare, non votare. È lingua elevata, letteraria.",
-        "Regge il genitivo: sich der Stimme enthalten (astenersi dal voto), sich jeden Kommentars enthalten. Forme: enthält sich, enthielt sich, hat sich enthalten.",
+        "Regge il genitivo: sich der Stimme enthalten (astenersi dal voto), sich jedes Kommentars enthalten. Forme: enthält sich, enthielt sich, hat sich enthalten.",
         "Senza sich, enthalten significa contenere: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24594,7 +24594,7 @@ const B2_WORDS = [
           "lv": "L'autorità dispone il coprifuoco."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Il re ordinò che la porta venisse chiusa."
         },
         {

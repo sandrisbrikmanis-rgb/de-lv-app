@@ -47698,7 +47698,7 @@ const B1_WORDS = [
       "translation": "olla taipuvainen • kallistua",
       "explanation": [
         "Perusajatus: neigen + zu + datiivi tarkoittaa olla taipuvainen johonkin: Er neigt zu schnellen Entscheidungen. Muodot: neigt, neigte, hat geneigt.",
-        "Konkreettisessa merkityksessä etwas neigen on kallistaa tai taivuttaa (den Kopf neigen). Refleksiivisenä sich neigen tarkoittaa kallistua tai lähestyä loppuaan: Der Tag neigt sich dem Ende zu.",
+        "Konkreettisessa merkityksessä etwas neigen on kallistaa tai taivuttaa (den Kopf neigen). Refleksiivisenä sich neigen tarkoittaa kallistua tai lähestyä loppuaan: Der Tag neigt sich.",
         "Samasta kannasta on muodostettu substantiivi die Neigung (taipumus, alttius, kaltevuus)."
       ],
       "examples": [
@@ -47715,7 +47715,7 @@ const B1_WORDS = [
           "lv": "Huhtikuussa sää on taipuvainen ääri-ilmiöihin."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Päivä lähestyy loppuaan."
         }
       ],
@@ -53620,7 +53620,7 @@ const B1_WORDS = [
       "translation": "repiä • revetä",
       "explanation": [
         "Perusajatus: reißen on vahva verbi. Ilman objektia se tarkoittaa repeämistä, katkeamista (Das Seil reißt), objektin kanssa repimistä, tempaamista (Er reißt das Papier).",
-        "Muodot: er reißt, riss, hat gerissen / ist gerissen. Kun jokin katkeaa itsestään, käytetään sein (Das Seil ist gerissen); kun joku repii tai vetää, käytetään haben (Er hat das Papier gerissen).",
+        "Muodot: er reißt, riss, hat gerissen / ist gerissen. Kun jokin katkeaa itsestään, käytetään sein (Das Seil ist gerissen); kun joku repii tai vetää, käytetään haben (Er hat ein Loch in die Hose gerissen).",
         "Usein etuliitteiden kanssa: zerreißen (repiä rikki), aufreißen (repäistä auki), abreißen (repäistä irti, purkaa), losreißen (riuhtaista irti)."
       ],
       "examples": [
@@ -54498,7 +54498,7 @@ const B1_WORDS = [
       "explanation": [
         "Perusajatus: rollen tarkoittaa vierimistä: liikkumista pyörillä tai pyörän tavoin, kun pyöreä esine vierii pintaa pitkin. Objektin kanssa se tarkoittaa myös vierittämistä tai käärimistä rullalle.",
         "Muodot: rollt, rollte, ist gerollt (kun jokin vierii) ja hat gerollt (kun joku vierittää). Esimerkiksi: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Yleisiä yhdistelmiä: rollen über (vieriä jonkin yli), zusammenrollen (kääriä rullalle), losrollen (lähteä vierimään), rollen mit den Augen – pyöritellä silmiään (ärtyneenä)."
+        "Yleisiä yhdistelmiä: rollen über (vieriä jonkin yli), zusammenrollen (kääriä rullalle), losrollen (lähteä vierimään), mit den Augen rollen – pyöritellä silmiään (ärtyneenä)."
       ],
       "examples": [
         {
@@ -56770,7 +56770,7 @@ const B1_WORDS = [
       "translation": "isku • lyönti",
       "explanation": [
         "Perusajatus: der Schlag on maskuliininen substantiivi, joka tarkoittaa lyöntiä, iskua (kädellä, esineellä) sekä kellon lyöntiä ja sydämenlyöntiä. Kuvaannollisesti se on myös kova isku: Schicksalsschlag (kohtalon isku); Blitzschlag on salamanisku.",
-        "Monikko on die Schläge. Yleisiä: ein Schlag ins Gesicht (isku kasvoihin), mit einem Schlag (yhdessä hetkessä), Schläge bekommen (saada selkäänsä), der Schlag des Herzens (sydämenlyönti).",
+        "Monikko on die Schläge. Yleisiä: ein Schlag ins Gesicht (isku kasvoihin), mit einem Schlag (yhdessä hetkessä), Schläge bekommen (saada selkäänsä), der Herzschlag (sydämenlyönti).",
         "Verbi schlagen (lyödä) on tämän sanan kanta, mutta der Schlag tarkoittaa itse lyöntiä tai sen tulosta."
       ],
       "examples": [
@@ -77217,7 +77217,7 @@ const B1_WORDS = [
         "Ammattia kysyttäessä käytetään usein ilmausta von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, ei Ich bin ein Beruf: ammattinimikkeitä (Lehrer, Arzt) käytetään yleensä ilman artikkelia.",
+        "Ich bin Lehrer, ei Ich bin ein Lehrer: ammattinimikkeitä (Lehrer, Arzt) käytetään yleensä ilman artikkelia.",
         "Beruf ei ole sama kuin Arbeit tai Job: se on ammatti, ei konkreettinen työ."
       ],
       "sectionAccents": {
@@ -77680,7 +77680,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer on neutri; monikko (die Steuer) on sama kuin yksikkö ja harvinainen.",
-        "Väärä artikkeli muuttaa lauseen merkitystä: am Steuer sitzen on istua ratissa, mutta Steuer zahlen on maksaa veroja."
+        "Väärä artikkeli muuttaa lauseen merkitystä: am Steuer sitzen on istua ratissa, mutta Steuern zahlen on maksaa veroja."
       ],
       "sectionAccents": {
         "explanation": {

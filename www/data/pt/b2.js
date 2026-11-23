@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Não confundas com abfinden sem sich: significa indemnizar ou compensar com dinheiro.",
-        "A forma do pretérito perfeito composto é sich abgefunden (com -ge- no meio), e não gabgefunden."
+        "A forma do pretérito perfeito composto é sich abgefunden (com -ge- no meio), e não geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "abster-se de",
       "explanation": [
         "Ideia principal: sich enthalten significa abster-se conscientemente de algo — não fazer, não consumir, não votar. A linguagem é formal, literária.",
-        "Rege o genitivo: sich der Stimme enthalten (abster-se na votação), sich jeden Kommentars enthalten. Formas: enthält sich, enthielt sich, hat sich enthalten.",
+        "Rege o genitivo: sich der Stimme enthalten (abster-se na votação), sich jedes Kommentars enthalten. Formas: enthält sich, enthielt sich, hat sich enthalten.",
         "Sem sich, enthalten significa conter: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "A autoridade determina um recolher obrigatório."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "O rei ordenou que o portão fosse fechado."
         },
         {

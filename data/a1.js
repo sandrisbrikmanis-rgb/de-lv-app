@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "peldēties",
       "explanation": [
-        "Galvenā doma: baden nozīmē mazgāties vannā vai peldēties ūdenī atpūtai: Im See baden (peldēties ezerā), in der Wanne baden (mazgāties vannā). Formas: er badet, badete, hat gebadet.",
+        "Galvenā doma: baden nozīmē mazgāties vannā vai peldēties ūdenī atpūtai: im See baden (peldēties ezerā), in der Wanne baden (mazgāties vannā). Formas: er badet, badete, hat gebadet.",
         "Darbības vārds ir regulārs un bieži ar gehen: baden gehen (iet peldēties). Pārejošā nozīmē tas nozīmē 'mazgāt vannā': das Baby baden.",
         "Peldēt kā kustību (nobraukt distanci) saka schwimmen, ne baden."
       ],
@@ -12253,7 +12253,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Jūs šodien esat vēlu atnākuši."
         },
         {
@@ -14900,7 +14900,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (teritorija, lauki) un der Staat (valsts kā iestāde) nav sinonīmi.",
-        "Daudzskaitlī ir umlauts: die Länder, nevis “die Lande”."
+        "Daudzskaitlī ir umlauts: die Länder; die Lande ir novecojusi, poētiska forma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25242,7 +25242,7 @@ const A1_WORDS = [
       "translation": "ap • pulksten",
       "explanation": [
         "Galvenā doma: um ir prievārds, kas vienmēr prasa akuzatīvu. Laika nozīmē um norāda precīzu pulksteņa laiku: um acht Uhr (pulksten astoņos). Vietas nozīmē tas norāda apli ap kaut ko: um den Tisch (ap galdu), um die Ecke (aiz stūra).",
-        "Jautājums par laiku ir Um wie viel Uhr ...? (cikos?). Pēc um laiku nelieto ar artikulu: um 8 Uhr, nevis in 8 Uhr.",
+        "Jautājums par laiku ir Um wie viel Uhr ...? (cikos?). Pulksteņa laiku norāda ar um (bez artikula), nevis ar in: um 8 Uhr, nevis in 8 Uhr.",
         "Ar zu + infinitīvu um izsaka mērķi: Er lernt, um zu verstehen (viņš mācās, lai saprastu)."
       ],
       "examples": [
@@ -28646,7 +28646,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televīzija",
       "explanation": [
-        "Galvenā doma: das Fernsehen ir nekatrās dzimtes lietvārds, kas apzīmē televīziju kā mediju vai pārraižu kopumu. Daudzskaitļa praktiski nav: lieto vienskaitli. Parasti stāv ar im: im Fernsehen (televīzijā), beim Fernsehen (televīzijā strādājot).",
+        "Galvenā doma: das Fernsehen ir nekatrās dzimtes lietvārds, kas apzīmē televīziju kā mediju vai pārraižu kopumu. Daudzskaitļa praktiski nav: lieto vienskaitli. Parasti stāv ar im: im Fernsehen (televīzijā), beim Fernsehen (skatoties televizoru; arī strādājot televīzijā).",
         "Tas ir lietvārds no verba fernsehen (skatīties televizoru). Ierīci sauc der Fernseher, bet nodarbošanos — fernsehen.",
         "Lietvārds raksta ar lielo burtu; kā verbs fernsehen ir atdalāms."
       ],

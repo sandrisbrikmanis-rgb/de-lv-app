@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nezamieňaj s abfinden bez sich: znamená odškodniť alebo uspokojiť peniazmi.",
-        "Tvar v perfekte je sich abgefunden (s -ge- vnútri), nie gabgefunden."
+        "Tvar v perfekte je sich abgefunden (s -ge- vnútri), nie geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "zdržať sa",
       "explanation": [
         "Hlavná myšlienka: sich enthalten znamená vedome sa niečoho zdržať — nerobiť, nepoužívať, nehlasovať. Ide o formálny, knižný jazyk.",
-        "Po ňom nasleduje genitív: sich der Stimme enthalten (zdržať sa hlasovania), sich jeden Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
+        "Po ňom nasleduje genitív: sich der Stimme enthalten (zdržať sa hlasovania), sich jedes Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
         "Bez sich znamená slovo enthalten obsahovať: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Úrad nariaďuje zákaz vychádzania."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kráľ nariadil, aby bránu zatvorili."
         },
         {

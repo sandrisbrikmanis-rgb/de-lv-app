@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "скасовувати • скасувати",
       "explanation": [
         "Головна думка: absagen — дієслово з відокремлюваним префіксом, що означає скасовувати (захід, зустріч) або відмовляти (людині): sagt ab, sagte ab, hat abgesagt. Ab стоїть у кінці речення.",
-        "Якщо скасовують захід, після дієслова стоїть знахідний відмінок: Das Treffen absagen. Якщо відмовляють людині — давальний: Er hat mir abgesagt (він мені відмовив). У пасиві: Das Fest wurde abgesagt.",
+        "Якщо скасовують захід, після дієслова стоїть знахідний відмінок: das Treffen absagen. Якщо відмовляють людині — давальний: Er hat mir abgesagt (він мені відмовив). У пасиві: Das Fest wurde abgesagt.",
         "Протилежне — zusagen: пообіцяти прийти або погодитися."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "твердий • міцний",
       "explanation": [
-        "Головна думка: fest — прикметник і прислівник. Він означає «твердий» (а не рідкий): feste Nahrung; «сталий, незмінний»: ein fester Job, ein fester Termin; «міцно, щільно»: fest halten, fest schlafen.",
+        "Головна думка: fest — прикметник і прислівник. Він означає «твердий» (а не рідкий): feste Nahrung; «сталий, незмінний»: ein fester Job, ein fester Termin; «міцно, щільно»: festhalten, fest schlafen.",
         "Ступені порівняння: fest, fester, am festesten. Перед іменником він отримує закінчення: ein festes Dach."
       ],
       "examples": [

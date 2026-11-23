@@ -47699,7 +47699,7 @@ const B1_WORDS = [
       "translation": "τείνω • γέρνω",
       "explanation": [
         "Βασική ιδέα: το neigen με zu + δοτική σημαίνει τείνω σε κάτι, έχω ροπή: Er neigt zu schnellen Entscheidungen. Τύποι: neigt, neigte, hat geneigt.",
-        "Με την κυριολεκτική σημασία etwas neigen σημαίνει γέρνω, κλίνω κάτι (den Kopf neigen). Αυτοπαθώς το sich neigen σημαίνει σκύβω ή πλησιάζω στο τέλος: Der Tag neigt sich dem Ende zu.",
+        "Με την κυριολεκτική σημασία etwas neigen σημαίνει γέρνω, κλίνω κάτι (den Kopf neigen). Αυτοπαθώς το sich neigen σημαίνει σκύβω ή πλησιάζω στο τέλος: Der Tag neigt sich.",
         "Από την ίδια ρίζα σχηματίζεται το ουσιαστικό die Neigung (τάση, ροπή, κλίση)."
       ],
       "examples": [
@@ -47716,7 +47716,7 @@ const B1_WORDS = [
           "lv": "Τον Απρίλιο ο καιρός τείνει στα άκρα."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Η μέρα πλησιάζει στο τέλος της."
         }
       ],
@@ -53622,7 +53622,7 @@ const B1_WORDS = [
       "translation": "σκίζομαι • σπάω",
       "explanation": [
         "Βασική ιδέα: το reißen είναι ισχυρό ρήμα. Χωρίς αντικείμενο σημαίνει σκίζομαι, κόβομαι, σπάω (Das Seil reißt), ενώ με αντικείμενο – σκίζω, τραβώ απότομα (Er reißt das Papier).",
-        "Τύποι: er reißt, riss, hat gerissen / ist gerissen. Όταν κάτι σπάει από μόνο του, χρησιμοποιείται το sein (Das Seil ist gerissen)· όταν κάποιος σκίζει ή τραβά, χρησιμοποιείται το haben (Er hat das Papier gerissen).",
+        "Τύποι: er reißt, riss, hat gerissen / ist gerissen. Όταν κάτι σπάει από μόνο του, χρησιμοποιείται το sein (Das Seil ist gerissen)· όταν κάποιος σκίζει ή τραβά, χρησιμοποιείται το haben (Er hat ein Loch in die Hose gerissen).",
         "Συχνά με προθήματα: zerreißen (σκίζω σε κομμάτια), aufreißen (ανοίγω απότομα), abreißen (ξεκολλώ, κατεδαφίζω), losreißen (αποσπώ)."
       ],
       "examples": [
@@ -54500,7 +54500,7 @@ const B1_WORDS = [
       "explanation": [
         "Βασική ιδέα: το rollen σημαίνει κυλώ: κινούμαι πάνω σε ρόδες ή σαν ρόδα, όπως ένα στρογγυλό αντικείμενο κυλά πάνω σε μια επιφάνεια. Με αντικείμενο σημαίνει επίσης κυλώ κάτι ή τυλίγω.",
         "Τύποι: rollt, rollte, ist gerollt (όταν κάτι κυλά) και hat gerollt (όταν κάποιος κυλά κάτι). Για παράδειγμα: Der Ball ist gerollt· Sie hat den Teppich gerollt.",
-        "Συχνοί συνδυασμοί: rollen über (κυλώ πάνω από), zusammenrollen (τυλίγω), losrollen (αρχίζω να κυλώ), rollen mit den Augen – γυρίζω τα μάτια μου (από εκνευρισμό)."
+        "Συχνοί συνδυασμοί: rollen über (κυλώ πάνω από), zusammenrollen (τυλίγω), losrollen (αρχίζω να κυλώ), mit den Augen rollen – γυρίζω τα μάτια μου (από εκνευρισμό)."
       ],
       "examples": [
         {
@@ -56772,7 +56772,7 @@ const B1_WORDS = [
       "translation": "χτύπημα",
       "explanation": [
         "Βασική ιδέα: der Schlag είναι αρσενικό ουσιαστικό που σημαίνει χτύπημα, πλήγμα (με το χέρι, με αντικείμενο), καθώς και το χτύπημα του ρολογιού και τον χτύπο της καρδιάς. Μεταφορικά είναι επίσης βαρύ πλήγμα: Schicksalsschlag (χτύπημα της μοίρας)· Blitzschlag είναι το χτύπημα κεραυνού.",
-        "Ο πληθυντικός είναι die Schläge. Συχνά: ein Schlag ins Gesicht (χτύπημα στο πρόσωπο), mit einem Schlag (σε μια στιγμή), Schläge bekommen (τρώω ξύλο), der Schlag des Herzens (χτύπος της καρδιάς).",
+        "Ο πληθυντικός είναι die Schläge. Συχνά: ein Schlag ins Gesicht (χτύπημα στο πρόσωπο), mit einem Schlag (σε μια στιγμή), Schläge bekommen (τρώω ξύλο), der Herzschlag (χτύπος της καρδιάς).",
         "Το ρήμα schlagen (χτυπώ) είναι η ρίζα αυτής της λέξης, αλλά το der Schlag αφορά το ίδιο το χτύπημα ή το αποτέλεσμά του."
       ],
       "examples": [
@@ -77219,7 +77219,7 @@ const B1_WORDS = [
         "Στην ερώτηση για το επάγγελμα χρησιμοποιείται συχνά το von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, όχι Ich bin ein Beruf: τα ονόματα επαγγελμάτων (Lehrer, Arzt) χρησιμοποιούνται συνήθως χωρίς άρθρο.",
+        "Ich bin Lehrer, όχι Ich bin ein Lehrer: τα ονόματα επαγγελμάτων (Lehrer, Arzt) χρησιμοποιούνται συνήθως χωρίς άρθρο.",
         "Το Beruf δεν είναι το ίδιο με το Arbeit ή το Job: είναι επάγγελμα, όχι μια συγκεκριμένη δουλειά."
       ],
       "sectionAccents": {
@@ -77682,7 +77682,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Το das Steuer είναι ουδέτερο· ο πληθυντικός (die Steuer) είναι ίδιος με τον ενικό και χρησιμοποιείται σπάνια.",
-        "Με λάθος άρθρο αλλάζει το νόημα: am Steuer sitzen σημαίνει κάθομαι στο τιμόνι, ενώ Steuer zahlen σημαίνει πληρώνω φόρους."
+        "Με λάθος άρθρο αλλάζει το νόημα: am Steuer sitzen σημαίνει κάθομαι στο τιμόνι, ενώ Steuern zahlen σημαίνει πληρώνω φόρους."
       ],
       "sectionAccents": {
         "explanation": {

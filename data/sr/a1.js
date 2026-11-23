@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "kupati se",
       "explanation": [
-        "Osnovna ideja: baden znači kupati se — u kadi ili u prirodi, radi odmora: Im See baden (kupati se u jezeru), in der Wanne baden (kupati se u kadi). Oblici: er badet, badete, hat gebadet.",
+        "Osnovna ideja: baden znači kupati se — u kadi ili u prirodi, radi odmora: im See baden (kupati se u jezeru), in der Wanne baden (kupati se u kadi). Oblici: er badet, badete, hat gebadet.",
         "Glagol je pravilan i često ide sa gehen: baden gehen (ići na kupanje). U prelaznom značenju znači „kupati u kadi” (nekoga): das Baby baden.",
         "Plivati kao kretanje (preplivati neku deonicu) kaže se schwimmen, a ne baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Vi danas kasnite."
         },
         {

@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "maudytis",
       "explanation": [
-        "Pagrindinė mintis: baden reiškia maudytis — vonioje arba atvirame vandenyje poilsiui: Im See baden (maudytis ežere), in der Wanne baden (maudytis vonioje). Formos: er badet, badete, hat gebadet.",
+        "Pagrindinė mintis: baden reiškia maudytis — vonioje arba atvirame vandenyje poilsiui: im See baden (maudytis ežere), in der Wanne baden (maudytis vonioje). Formos: er badet, badete, hat gebadet.",
         "Veiksmažodis taisyklingas ir dažnai vartojamas su gehen: baden gehen (eiti maudytis). Su papildiniu jis reiškia „maudyti vonioje“: das Baby baden.",
         "Plaukti kaip judėjimą (įveikti atstumą) vokiškai yra schwimmen, o ne baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Jūs šiandien vėluojate."
         },
         {

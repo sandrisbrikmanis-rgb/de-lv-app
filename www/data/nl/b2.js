@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Niet verwarren met abfinden zonder sich: dat betekent schadeloosstellen of met geld afkopen.",
-        "De vorm in de voltooide tijd is sich abgefunden (met -ge- in het midden), niet gabgefunden."
+        "De vorm in de voltooide tijd is sich abgefunden (met -ge- in het midden), niet geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "zich onthouden",
       "explanation": [
         "Kernidee: sich enthalten betekent zich bewust onthouden van iets — iets niet doen, niet gebruiken, niet stemmen. Het is formele, schrijftalige taal.",
-        "Daarna volgt de genitief: sich der Stimme enthalten (zich van stemming onthouden), sich jeden Kommentars enthalten. Vormen: enthält sich, enthielt sich, hat sich enthalten.",
+        "Daarna volgt de genitief: sich der Stimme enthalten (zich van stemming onthouden), sich jedes Kommentars enthalten. Vormen: enthält sich, enthielt sich, hat sich enthalten.",
         "Zonder sich betekent enthalten bevatten: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "De overheid kondigt een avondklok af."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "De koning gelastte dat de poort gesloten werd."
         },
         {

@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nu-l confunda cu abfinden fără sich: acesta înseamnă a despăgubi sau a mulțumi pe cineva cu bani.",
-        "Forma de perfect compus este sich abgefunden (cu -ge- la mijloc), nu gabgefunden."
+        "Forma de perfect compus este sich abgefunden (cu -ge- la mijloc), nu geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "a se abține",
       "explanation": [
         "Ideea principală: sich enthalten înseamnă a se abține conștient de la ceva — a nu face, a nu consuma, a nu vota. Limbajul este formal, livresc.",
-        "După el urmează genitivul: sich der Stimme enthalten (a se abține de la vot), sich jeden Kommentars enthalten. Forme: enthält sich, enthielt sich, hat sich enthalten.",
+        "După el urmează genitivul: sich der Stimme enthalten (a se abține de la vot), sich jedes Kommentars enthalten. Forme: enthält sich, enthielt sich, hat sich enthalten.",
         "Fără sich, verbul enthalten înseamnă a conține: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Autoritatea instituie interdicția de circulație."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Regele a ordonat să se închidă poarta."
         },
         {

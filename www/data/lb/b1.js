@@ -47680,7 +47680,7 @@ const B1_WORDS = [
       "translation": "tendéieren • sech bécken",
       "explanation": [
         "Haaptiddi: neigen mat zu + Dativ heescht zu eppes tendéieren, eng Neigung hunn: Er neigt zu schnellen Entscheidungen. Formen: neigt, neigte, hat geneigt.",
-        "Am wuertwiertleche Sënn heescht etwas neigen eppes bécken, schréi halen (den Kopf neigen). Reflexiv heescht sich neigen sech bécken oder op en Enn zougoen: Der Tag neigt sich dem Ende zu.",
+        "Am wuertwiertleche Sënn heescht etwas neigen eppes bécken, schréi halen (den Kopf neigen). Reflexiv heescht sich neigen sech bécken oder op en Enn zougoen: Der Tag neigt sich.",
         "Vun der selwechter Wuerzel kënnt d'Substantiv die Neigung (Tendenz, Neigung, Schréiegt)."
       ],
       "examples": [
@@ -47697,7 +47697,7 @@ const B1_WORDS = [
           "lv": "D'Wieder tendéiert am Abrëll zu Extremer."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Den Dag geet op en Enn."
         }
       ],
@@ -53603,7 +53603,7 @@ const B1_WORDS = [
       "translation": "räissen",
       "explanation": [
         "Haaptiddi: reißen ass e staarkt Verb. Ouni Objet heescht et räissen, futti goen (Das Seil reißt), mat Objet – räissen, zerräissen (Er reißt das Papier).",
-        "Formen: er reißt, riss, hat gerissen / ist gerissen. Wann eppes vu selwer räisst, steet sein (Das Seil ist gerissen); wann eng Persoun eppes räisst oder zitt, steet haben (Er hat das Papier gerissen).",
+        "Formen: er reißt, riss, hat gerissen / ist gerissen. Wann eppes vu selwer räisst, steet sein (Das Seil ist gerissen); wann eng Persoun eppes räisst oder zitt, steet haben (Er hat ein Loch in die Hose gerissen).",
         "Dacks mat Präfixer: zerreißen (zerräissen), aufreißen (opräissen), abreißen (ofräissen, ofrappen), losreißen (lassräissen)."
       ],
       "examples": [
@@ -54481,7 +54481,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: rollen heescht rullen: sech op Rieder oder wéi e Rad beweegen, e ronnen Objet rullt iwwer eng Fläch. Mat Objet heescht et och eppes rullen oder oprullen.",
         "Formen: rollt, rollte, ist gerollt (wann eppes rullt) an hat gerollt (wann eng Persoun eppes rullt). Zum Beispill: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Heefeg Verbindungen: rollen über (iwwer eppes rullen), zusammenrollen (oprullen), losrollen (ufänken ze rullen), rollen mit den Augen – mat den Aen rullen (vun Ierger)."
+        "Heefeg Verbindungen: rollen über (iwwer eppes rullen), zusammenrollen (oprullen), losrollen (ufänken ze rullen), mit den Augen rollen – mat den Aen rullen (vun Ierger)."
       ],
       "examples": [
         {
@@ -56751,7 +56751,7 @@ const B1_WORDS = [
       "translation": "Schlag",
       "explanation": [
         "Haaptiddi: der Schlag ass e männlecht Substantiv, dat e Schlag oder e Stouss bezeechent (mat der Hand, mat engem Objet), an och de Schlag vun enger Auer an den Häerzschlag. Am iwwerdroenen Sënn ass et och e schwéiere Schlag: Schicksalsschlag (e Schlag vum Schicksal); Blitzschlag ass e Blëtzschlag.",
-        "D'Pluralform ass die Schläge. Dacks: ein Schlag ins Gesicht (e Schlag an d'Gesiicht), mit einem Schlag (an engem Moment), Schläge bekommen (Schléi kréien), der Schlag des Herzens (den Häerzschlag).",
+        "D'Pluralform ass die Schläge. Dacks: ein Schlag ins Gesicht (e Schlag an d'Gesiicht), mit einem Schlag (an engem Moment), Schläge bekommen (Schléi kréien), der Herzschlag (den Häerzschlag).",
         "D'Verb schlagen (schloen) ass d'Wuerzel vun dësem Wuert, mee der Schlag bezitt sech op de Schlag selwer oder op säi Resultat."
       ],
       "examples": [
@@ -77197,7 +77197,7 @@ const B1_WORDS = [
         "An der Fro no dem Beruff gëtt dacks von Beruf benotzt: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, an net Ich bin ein Beruf: Beruffsbezeechnungen (Lehrer, Arzt) stinn normalerweis ouni Artikel, wéi am Lëtzebuergeschen och.",
+        "Ich bin Lehrer, an net Ich bin ein Lehrer: Beruffsbezeechnungen (Lehrer, Arzt) stinn normalerweis ouni Artikel, wéi am Lëtzebuergeschen och.",
         "Beruf ass net datselwecht wéi Arbeit oder Job: et ass de Beruff, net eng konkreet Aarbecht."
       ],
       "sectionAccents": {
@@ -77660,7 +77660,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer ass sächlech; d'Pluralform (die Steuer) ass d'selwecht wéi de Singular a gëtt seele benotzt.",
-        "Mat dem falschen Artikel ännert de Sënn: am Steuer sitzen ass hannert dem Volant sëtzen, mee Steuer zahlen ass Steiere bezuelen."
+        "Mat dem falschen Artikel ännert de Sënn: am Steuer sitzen ass hannert dem Volant sëtzen, mee Steuern zahlen ass Steiere bezuelen."
       ],
       "sectionAccents": {
         "explanation": {

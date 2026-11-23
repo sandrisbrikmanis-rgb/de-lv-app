@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "схилятися • схилитися",
       "explanation": [
         "Основна думка: neigen із zu + давальний відмінок означає схилятися до чогось, мати схильність: Er neigt zu schnellen Entscheidungen. Форми: neigt, neigte, hat geneigt.",
-        "У прямому значенні etwas neigen — це нахиляти (den Kopf neigen). Зворотне sich neigen означає нахилятися або наближатися до кінця: Der Tag neigt sich dem Ende zu.",
+        "У прямому значенні etwas neigen — це нахиляти (den Kopf neigen). Зворотне sich neigen означає нахилятися або наближатися до кінця: Der Tag neigt sich.",
         "Від того самого кореня утворено іменник die Neigung (схильність, потяг, нахил)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "У квітні погода схильна до крайнощів."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "День наближається до кінця."
         }
       ],
@@ -53623,7 +53623,7 @@ const B1_WORDS = [
       "translation": "рватися • порватися",
       "explanation": [
         "Основна думка: reißen — сильне дієслово. Без додатка воно означає рватися, розриватися (Das Seil reißt), а з додатком – рвати, розривати (Er reißt das Papier).",
-        "Форми: er reißt, riss, hat gerissen / ist gerissen. Якщо щось розривається само, уживають sein (Das Seil ist gerissen); якщо хтось рве чи тягне, уживають haben (Er hat das Papier gerissen).",
+        "Форми: er reißt, riss, hat gerissen / ist gerissen. Якщо щось розривається само, уживають sein (Das Seil ist gerissen); якщо хтось рве чи тягне, уживають haben (Er hat ein Loch in die Hose gerissen).",
         "Часто з префіксами: zerreißen (розірвати), aufreißen (рвучко відчинити), abreißen (відірвати, знести), losreißen (вирвати)."
       ],
       "examples": [
@@ -54501,7 +54501,7 @@ const B1_WORDS = [
       "explanation": [
         "Основна думка: rollen означає котитися: рухатися на колесах або як колесо, коли круглий предмет котиться поверхнею. З додатком воно означає також котити або згортати.",
         "Форми: rollt, rollte, ist gerollt (якщо щось котиться) і hat gerollt (якщо хтось котить). Наприклад: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Часті сполучення: rollen über (перекочуватися через), zusammenrollen (згортати), losrollen (покотитися, рушити), rollen mit den Augen – закочувати очі (від роздратування)."
+        "Часті сполучення: rollen über (перекочуватися через), zusammenrollen (згортати), losrollen (покотитися, рушити), mit den Augen rollen – закочувати очі (від роздратування)."
       ],
       "examples": [
         {
@@ -56773,7 +56773,7 @@ const B1_WORDS = [
       "translation": "удар",
       "explanation": [
         "Основна думка: der Schlag — іменник чоловічого роду, що означає удар (рукою, предметом), а також бій годинника та удар серця. У переносному значенні це також тяжкий удар: Schicksalsschlag (удар долі); Blitzschlag — це удар блискавки.",
-        "Множина — die Schläge. Часто: ein Schlag ins Gesicht (удар в обличчя), mit einem Schlag (в одну мить), Schläge bekommen (бути побитим), der Schlag des Herzens (удар серця).",
+        "Множина — die Schläge. Часто: ein Schlag ins Gesicht (удар в обличчя), mit einem Schlag (в одну мить), Schläge bekommen (бути побитим), der Herzschlag (удар серця).",
         "Дієслово schlagen (бити) — корінь цього слова, але der Schlag стосується самого удару або його результату."
       ],
       "examples": [
@@ -77220,7 +77220,7 @@ const B1_WORDS = [
         "У запитанні про професію часто вживають von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, а не Ich bin ein Beruf: назви професій (Lehrer, Arzt) зазвичай уживають без артикля.",
+        "Ich bin Lehrer, а не Ich bin ein Lehrer: назви професій (Lehrer, Arzt) зазвичай уживають без артикля.",
         "Beruf – не те саме, що Arbeit або Job: це професія, а не конкретна робота."
       ],
       "sectionAccents": {
@@ -77683,7 +77683,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer – слово середнього роду; множина (die Steuer) така сама, як однина, і вживається рідко.",
-        "З неправильним артиклем зміст речення змінюється: am Steuer sitzen – це сидіти за кермом, а Steuer zahlen – сплачувати податки."
+        "З неправильним артиклем зміст речення змінюється: am Steuer sitzen – це сидіти за кермом, а Steuern zahlen – сплачувати податки."
       ],
       "sectionAccents": {
         "explanation": {

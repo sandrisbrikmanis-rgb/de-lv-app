@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "yüzmek • banyo yapmak",
       "explanation": [
-        "baden küvette yıkanmak ya da dinlenmek için suda yüzmek demektir: Im See baden (gölde yüzmek), in der Wanne baden (küvette banyo yapmak). Biçimler: er badet, badete, hat gebadet.",
+        "baden küvette yıkanmak ya da dinlenmek için suda yüzmek demektir: im See baden (gölde yüzmek), in der Wanne baden (küvette banyo yapmak). Biçimler: er badet, badete, hat gebadet.",
         "Fiil düzenlidir ve çoğu zaman gehen ile kullanılır: baden gehen (yüzmeye gitmek). Geçişli anlamda 'küvette yıkamak' demektir: das Baby baden.",
         "Hareket olarak yüzmek (bir mesafe yüzmek) baden değil, schwimmen ile söylenir."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Siz bugün geç kaldınız."
         },
         {

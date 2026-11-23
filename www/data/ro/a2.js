@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "a anula",
       "explanation": [
         "Ideea principală: absagen este un verb separabil cu sensul a anula (un eveniment, o întâlnire) sau a refuza, a contramanda (cuiva): sagt ab, sagte ab, hat abgesagt. Ab stă la finalul propoziției.",
-        "Când anulezi un eveniment, urmează acuzativul: Das Treffen absagen. Când contramandezi cuiva, urmează dativul: Er hat mir abgesagt (mi-a contramandat). La pasiv: Das Fest wurde abgesagt.",
+        "Când anulezi un eveniment, urmează acuzativul: das Treffen absagen. Când contramandezi cuiva, urmează dativul: Er hat mir abgesagt (mi-a contramandat). La pasiv: Das Fest wurde abgesagt.",
         "Opusul este zusagen — a confirma că vii sau a accepta."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "solid • tare • ferm",
       "explanation": [
-        "Ideea principală: fest este adjectiv și adverb. Înseamnă solid (nu lichid): feste Nahrung; stabil, fix: ein fester Job, ein fester Termin; strâns, ferm: fest halten, fest schlafen.",
+        "Ideea principală: fest este adjectiv și adverb. Înseamnă solid (nu lichid): feste Nahrung; stabil, fix: ein fester Job, ein fester Termin; strâns, ferm: festhalten, fest schlafen.",
         "Grade de comparație: fest, fester, am festesten. Înaintea unui substantiv primește terminație: ein festes Dach."
       ],
       "examples": [

@@ -1254,7 +1254,7 @@ const A2_WORDS = [
       "translation": "cancelar",
       "explanation": [
         "Idea principal: absagen es un verbo con prefijo separable que significa cancelar (un acto, una cita) o decir que no a alguien: sagt ab, sagte ab, hat abgesagt. Ab va al final de la oración.",
-        "Si se cancela un acto, va seguido de acusativo: Das Treffen absagen. Si se dice que no a una persona, de dativo: Er hat mir abgesagt (me dijo que no). En pasiva: Das Fest wurde abgesagt.",
+        "Si se cancela un acto, va seguido de acusativo: das Treffen absagen. Si se dice que no a una persona, de dativo: Er hat mir abgesagt (me dijo que no). En pasiva: Das Fest wurde abgesagt.",
         "Lo contrario es zusagen: confirmar la asistencia o aceptar."
       ],
       "examples": [
@@ -18523,7 +18523,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "firme • fijo • apretado",
       "explanation": [
-        "Idea principal: fest es adjetivo y adverbio. Significa sólido (no líquido): feste Nahrung; firme, fijo, estable: ein fester Job, ein fester Termin; y fuerte, apretado: fest halten, fest schlafen.",
+        "Idea principal: fest es adjetivo y adverbio. Significa sólido (no líquido): feste Nahrung; firme, fijo, estable: ein fester Job, ein fester Termin; y fuerte, apretado: festhalten, fest schlafen.",
         "Grados: fest, fester, am festesten. Delante de un sustantivo lleva terminación: ein festes Dach."
       ],
       "examples": [

@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "prirem • anoj",
       "explanation": [
         "Ideja kryesore: neigen me zu + dhanore do të thotë prirem drejt diçkaje, kam prirje: Er neigt zu schnellen Entscheidungen. Format: neigt, neigte, hat geneigt.",
-        "Në kuptimin e drejtpërdrejtë etwas neigen do të thotë anoj, përkul (den Kopf neigen). Si folje vetvetore sich neigen do të thotë përkulem ose i afrohem fundit: Der Tag neigt sich dem Ende zu.",
+        "Në kuptimin e drejtpërdrejtë etwas neigen do të thotë anoj, përkul (den Kopf neigen). Si folje vetvetore sich neigen do të thotë përkulem ose i afrohem fundit: Der Tag neigt sich.",
         "Nga e njëjta rrënjë është formuar emri die Neigung (prirje, anim, pjerrësi)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "Në prill moti priret drejt ekstremeve."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dita po i afrohet fundit."
         }
       ],
@@ -53622,7 +53622,7 @@ const B1_WORDS = [
       "translation": "grisem • këputem",
       "explanation": [
         "Ideja kryesore: reißen është folje e fortë. Pa kundrinë do të thotë të griset, të këputet (Das Seil reißt), kurse me kundrinë – të grisësh, të shkulësh (Er reißt das Papier).",
-        "Format: er reißt, riss, hat gerissen / ist gerissen. Kur diçka këputet vetë, përdoret sein (Das Seil ist gerissen); kur dikush gris ose tërheq, përdoret haben (Er hat das Papier gerissen).",
+        "Format: er reißt, riss, hat gerissen / ist gerissen. Kur diçka këputet vetë, përdoret sein (Das Seil ist gerissen); kur dikush gris ose tërheq, përdoret haben (Er hat ein Loch in die Hose gerissen).",
         "Shpesh me parashtesa: zerreißen (gris copë-copë), aufreißen (hap me forcë), abreißen (shkul, shemb), losreißen (shkëput me forcë)."
       ],
       "examples": [
@@ -54500,7 +54500,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideja kryesore: rollen do të thotë të rrokulliset diçka: të lëvizë mbi rrota ose si rrotë, një send i rrumbullakët që rrokulliset mbi një sipërfaqe. Me kundrinë do të thotë edhe të rrokullisësh ose të mbështjellësh.",
         "Format: rollt, rollte, ist gerollt (kur diçka rrokulliset) dhe hat gerollt (kur dikush e rrokullis). Për shembull: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Lidhje të shpeshta: rollen über (rrokulliset përmbi), zusammenrollen (mbështjell), losrollen (nis të rrokulliset), rollen mit den Augen – rrotullon sytë (nga acarimi)."
+        "Lidhje të shpeshta: rollen über (rrokulliset përmbi), zusammenrollen (mbështjell), losrollen (nis të rrokulliset), mit den Augen rollen – rrotullon sytë (nga acarimi)."
       ],
       "examples": [
         {
@@ -56772,7 +56772,7 @@ const B1_WORDS = [
       "translation": "goditje • grusht",
       "explanation": [
         "Ideja kryesore: der Schlag është emër i gjinisë mashkullore që do të thotë goditje (me dorë, me një send), si dhe rënia e orës dhe rrahja e zemrës. Në kuptim të figurshëm është edhe një goditje e rëndë: Schicksalsschlag (goditje e fatit); Blitzschlag është rënie rrufeje.",
-        "Shumësi është die Schläge. Shpesh: ein Schlag ins Gesicht (goditje në fytyrë), mit einem Schlag (në një çast), Schläge bekommen (të hash dru), der Schlag des Herzens (rrahja e zemrës).",
+        "Shumësi është die Schläge. Shpesh: ein Schlag ins Gesicht (goditje në fytyrë), mit einem Schlag (në një çast), Schläge bekommen (të hash dru), der Herzschlag (rrahja e zemrës).",
         "Folja schlagen (godas, rrah) është rrënja e kësaj fjale, por der Schlag ka të bëjë me vetë goditjen ose me rezultatin e saj."
       ],
       "examples": [
@@ -77219,7 +77219,7 @@ const B1_WORDS = [
         "Në pyetjen për profesionin shpesh përdoret von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, jo Ich bin ein Beruf: emrat e profesioneve (Lehrer, Arzt) zakonisht përdoren pa nyjë.",
+        "Ich bin Lehrer, jo Ich bin ein Lehrer: emrat e profesioneve (Lehrer, Arzt) zakonisht përdoren pa nyjë.",
         "Beruf nuk është e njëjtë me Arbeit ose Job: është profesioni, jo një punë konkrete."
       ],
       "sectionAccents": {
@@ -77682,7 +77682,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer është fjalë e gjinisë asnjanëse; shumësi (die Steuer) është i njëjtë me njëjësin dhe përdoret rrallë.",
-        "Me nyjë të gabuar kuptimi i fjalisë ndryshon: am Steuer sitzen do të thotë të rrish në timon, kurse Steuer zahlen do të thotë të paguash taksa."
+        "Me nyjë të gabuar kuptimi i fjalisë ndryshon: am Steuer sitzen do të thotë të rrish në timon, kurse Steuern zahlen do të thotë të paguash taksa."
       ],
       "sectionAccents": {
         "explanation": {

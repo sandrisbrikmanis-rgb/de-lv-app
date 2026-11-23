@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "откажува • откаже",
       "explanation": [
         "Клучна идеја: absagen е глагол со одвоив префикс што значи откажува (настан, средба) или одбива (некому): sagt ab, sagte ab, hat abgesagt. Ab стои на крајот од реченицата.",
-        "Кога се откажува настан, следува акузатив: Das Treffen absagen. Кога се откажува некому, следува датив: Er hat mir abgesagt (тој ми откажа). Во пасив: Das Fest wurde abgesagt.",
+        "Кога се откажува настан, следува акузатив: das Treffen absagen. Кога се откажува некому, следува датив: Er hat mir abgesagt (тој ми откажа). Во пасив: Das Fest wurde abgesagt.",
         "Спротивно е zusagen — ветува дека ќе дојде или се согласува."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "цврст",
       "explanation": [
-        "Главна мисла: fest е придавка и прилог. Значи цврст (а не течен): feste Nahrung; стабилен, постојан: ein fester Job, ein fester Termin; цврсто, силно: fest halten, fest schlafen.",
+        "Главна мисла: fest е придавка и прилог. Значи цврст (а не течен): feste Nahrung; стабилен, постојан: ein fester Job, ein fester Termin; цврсто, силно: festhalten, fest schlafen.",
         "Степенување: fest, fester, am festesten. Пред именка добива наставка: ein festes Dach."
       ],
       "examples": [

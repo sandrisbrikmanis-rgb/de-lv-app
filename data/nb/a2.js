@@ -1251,7 +1251,7 @@ const A2_WORDS = [
       "translation": "avlyse",
       "explanation": [
         "Hovedpoeng: absagen er et delbart verb som betyr å avlyse (et arrangement, et møte) eller å melde avbud (til en person): sagt ab, sagte ab, hat abgesagt. Ab står til slutt i setningen.",
-        "Avlyser man et arrangement, følger akkusativ: Das Treffen absagen. Melder man avbud til en person, følger dativ: Er hat mir abgesagt (han meldte avbud til meg). Passiv: Das Fest wurde abgesagt.",
+        "Avlyser man et arrangement, følger akkusativ: das Treffen absagen. Melder man avbud til en person, følger dativ: Er hat mir abgesagt (han meldte avbud til meg). Passiv: Das Fest wurde abgesagt.",
         "Motstykket er zusagen – å love å komme eller å takke ja."
       ],
       "examples": [
@@ -18506,7 +18506,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "fast • solid",
       "explanation": [
-        "Hovedpoeng: fest er både adjektiv og adverb. Det betyr fast (ikke flytende): feste Nahrung; stabil, uforanderlig: ein fester Job, ein fester Termin; godt, tett: fest halten, fest schlafen.",
+        "Hovedpoeng: fest er både adjektiv og adverb. Det betyr fast (ikke flytende): feste Nahrung; stabil, uforanderlig: ein fester Job, ein fester Termin; godt, tett: festhalten, fest schlafen.",
         "Gradbøying: fest, fester, am festesten. Foran et substantiv får det endelse: ein festes Dach."
       ],
       "examples": [

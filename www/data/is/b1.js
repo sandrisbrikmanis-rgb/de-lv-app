@@ -47691,7 +47691,7 @@ const B1_WORDS = [
       "translation": "hneigjast • halla",
       "explanation": [
         "Meginhugmynd: neigen með zu + þágufalli merkir að hneigjast til einhvers, hafa tilhneigingu: Er neigt zu schnellen Entscheidungen. Myndir: neigt, neigte, hat geneigt. Athugið að íslenska segir hneigjast til + eignarfall.",
-        "Í beinni merkingu er etwas neigen að halla eða hneigja (den Kopf neigen). Afturbeygt merkir sich neigen að hallast eða líða að lokum: Der Tag neigt sich dem Ende zu.",
+        "Í beinni merkingu er etwas neigen að halla eða hneigja (den Kopf neigen). Afturbeygt merkir sich neigen að hallast eða líða að lokum: Der Tag neigt sich.",
         "Af sömu rót er nafnorðið die Neigung (tilhneiging, hneigð, halli)."
       ],
       "examples": [
@@ -47708,7 +47708,7 @@ const B1_WORDS = [
           "lv": "Í apríl hneigist veðrið til öfga."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Það líður að kvöldi."
         }
       ],
@@ -53611,7 +53611,7 @@ const B1_WORDS = [
       "translation": "rifna • slitna",
       "explanation": [
         "Meginhugmynd: reißen er sterk sögn. Án andlags merkir hún að rifna, slitna (Das Seil reißt), en með andlagi – að rífa, slíta (Er reißt das Papier).",
-        "Myndir: er reißt, riss, hat gerissen / ist gerissen. Þegar eitthvað slitnar af sjálfu sér er notað sein (Das Seil ist gerissen); þegar einhver rífur eða togar er notað haben (Er hat das Papier gerissen).",
+        "Myndir: er reißt, riss, hat gerissen / ist gerissen. Þegar eitthvað slitnar af sjálfu sér er notað sein (Das Seil ist gerissen); þegar einhver rífur eða togar er notað haben (Er hat ein Loch in die Hose gerissen).",
         "Oft með forskeytum: zerreißen (rífa í sundur), aufreißen (rífa upp), abreißen (rífa af, rífa niður), losreißen (slíta lausan)."
       ],
       "examples": [
@@ -54489,7 +54489,7 @@ const B1_WORDS = [
       "explanation": [
         "Meginhugmynd: rollen merkir að rúlla eða velta: hreyfast á hjólum eða eins og hjól, eins og kringlóttur hlutur sem rúllar eftir yfirborði. Með andlagi merkir það líka að láta eitthvað rúlla eða vefja eitthvað upp.",
         "Myndir: rollt, rollte, ist gerollt (þegar eitthvað rúllar) og hat gerollt (þegar einhver rúllar einhverju). Dæmi: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Algeng sambönd: rollen über (rúlla yfir), zusammenrollen (rúlla saman, vefja upp), losrollen (fara að rúlla af stað), rollen mit den Augen – ranghvolfa augunum (af pirringi)."
+        "Algeng sambönd: rollen über (rúlla yfir), zusammenrollen (rúlla saman, vefja upp), losrollen (fara að rúlla af stað), mit den Augen rollen – ranghvolfa augunum (af pirringi)."
       ],
       "examples": [
         {
@@ -56761,7 +56761,7 @@ const B1_WORDS = [
       "translation": "högg",
       "explanation": [
         "Meginhugmynd: der Schlag er karlkynsnafnorð sem merkir högg (með hendi eða hlut), einnig slag klukku og hjartslátt. Í yfirfærðri merkingu er það líka þungt áfall: Schicksalsschlag (örlagaþrungið áfall); Blitzschlag merkir að eldingu lýstur niður.",
-        "Fleirtalan er die Schläge. Algengt: ein Schlag ins Gesicht (högg í andlitið), mit einem Schlag (á augabragði), Schläge bekommen (fá barsmíðar), der Schlag des Herzens (hjartsláttur).",
+        "Fleirtalan er die Schläge. Algengt: ein Schlag ins Gesicht (högg í andlitið), mit einem Schlag (á augabragði), Schläge bekommen (fá barsmíðar), der Herzschlag (hjartsláttur).",
         "Sögnin schlagen (slá) er rót orðsins, en der Schlag á við sjálft höggið eða afleiðingu þess."
       ],
       "examples": [
@@ -77655,7 +77655,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer er hvorugkyns; fleirtalan (die Steuer) er eins og eintalan og sjaldan notuð.",
-        "Með röngum greini breytist merking setningarinnar: am Steuer sitzen er að sitja undir stýri, en Steuer zahlen er að greiða skatt."
+        "Með röngum greini breytist merking setningarinnar: am Steuer sitzen er að sitja undir stýri, en Steuern zahlen er að greiða skatt."
       ],
       "sectionAccents": {
         "explanation": {

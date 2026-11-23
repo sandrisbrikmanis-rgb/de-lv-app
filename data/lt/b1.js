@@ -47696,7 +47696,7 @@ const B1_WORDS = [
       "translation": "linkti",
       "explanation": [
         "Pagrindinė mintis: neigen su zu + Dativ reiškia linkti į ką nors, turėti polinkį: Er neigt zu schnellen Entscheidungen. Formos: neigt, neigte, hat geneigt.",
-        "Tiesiogine reikšme etwas neigen – palenkti (den Kopf neigen). Sangrąžinis sich neigen reiškia pasilenkti arba artėti į pabaigą: Der Tag neigt sich dem Ende zu.",
+        "Tiesiogine reikšme etwas neigen – palenkti (den Kopf neigen). Sangrąžinis sich neigen reiškia pasilenkti arba artėti į pabaigą: Der Tag neigt sich.",
         "Iš tos pačios šaknies sudarytas daiktavardis die Neigung (polinkis, potraukis, nuolydis)."
       ],
       "examples": [
@@ -47713,7 +47713,7 @@ const B1_WORDS = [
           "lv": "Balandį orai būna linkę į kraštutinumus."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Diena artėja į pabaigą."
         }
       ],
@@ -53619,7 +53619,7 @@ const B1_WORDS = [
       "translation": "plyšti",
       "explanation": [
         "Pagrindinė mintis: reißen – stiprusis veiksmažodis. Be papildinio jis reiškia plyšti, trūkti (Das Seil reißt), o su papildiniu – plėšti, rauti (Er reißt das Papier).",
-        "Formos: er reißt, riss, hat gerissen / ist gerissen. Jei kas nors trūksta pats, vartojama sein (Das Seil ist gerissen); jei kas nors plėšia ar tempia, vartojama haben (Er hat das Papier gerissen).",
+        "Formos: er reißt, riss, hat gerissen / ist gerissen. Jei kas nors trūksta pats, vartojama sein (Das Seil ist gerissen); jei kas nors plėšia ar tempia, vartojama haben (Er hat ein Loch in die Hose gerissen).",
         "Dažnai su priešdėliais: zerreißen (suplėšyti), aufreißen (atplėšti), abreißen (nuplėšti, nugriauti), losreißen (atplėšti, ištrūkti)."
       ],
       "examples": [
@@ -54497,7 +54497,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: rollen reiškia riedėti: judėti ratais arba kaip ratas, apvalus daiktas rieda paviršiumi. Su papildiniu jis reiškia ir ridenti ar susukti.",
         "Formos: rollt, rollte, ist gerollt (kai kas nors rieda) ir hat gerollt (kai kas nors ridena). Pavyzdžiui: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Dažni junginiai: rollen über (riedėti per), zusammenrollen (susukti), losrollen (pradėti riedėti), rollen mit den Augen – vartyti akis (susierzinus)."
+        "Dažni junginiai: rollen über (riedėti per), zusammenrollen (susukti), losrollen (pradėti riedėti), mit den Augen rollen – vartyti akis (susierzinus)."
       ],
       "examples": [
         {
@@ -56769,7 +56769,7 @@ const B1_WORDS = [
       "translation": "smūgis",
       "explanation": [
         "Pagrindinė mintis: der Schlag yra vyriškosios giminės daiktavardis, reiškiantis smūgį, kirtį (ranka, daiktu), taip pat laikrodžio dūžį ir širdies dūžį. Perkeltine reikšme tai ir sunkus smūgis: Schicksalsschlag (likimo smūgis); Blitzschlag – žaibo trenksmas.",
-        "Daugiskaita – die Schläge. Dažnai: ein Schlag ins Gesicht (smūgis į veidą), mit einem Schlag (akimirksniu), Schläge bekommen (gauti lupti), der Schlag des Herzens (širdies dūžis).",
+        "Daugiskaita – die Schläge. Dažnai: ein Schlag ins Gesicht (smūgis į veidą), mit einem Schlag (akimirksniu), Schläge bekommen (gauti lupti), der Herzschlag (širdies dūžis).",
         "Šio žodžio šaknis – veiksmažodis schlagen (mušti), o der Schlag reiškia patį smūgį ar jo rezultatą."
       ],
       "examples": [
@@ -77216,7 +77216,7 @@ const B1_WORDS = [
         "Klausiant apie profesiją dažnai vartojama von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, o ne Ich bin ein Beruf: profesijų pavadinimai (Lehrer, Arzt) paprastai vartojami be artikelio.",
+        "Ich bin Lehrer, o ne Ich bin ein Lehrer: profesijų pavadinimai (Lehrer, Arzt) paprastai vartojami be artikelio.",
         "Beruf nėra tas pats, kas Arbeit ar Job: tai profesija, o ne konkretus darbas."
       ],
       "sectionAccents": {
@@ -77679,7 +77679,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer – niekatrosios giminės žodis; daugiskaita (die Steuer) tokia pati kaip vienaskaita ir vartojama retai.",
-        "Su netinkamu artikeliu pasikeičia sakinio prasmė: am Steuer sitzen – sėdėti prie vairo, o Steuer zahlen – mokėti mokesčius."
+        "Su netinkamu artikeliu pasikeičia sakinio prasmė: am Steuer sitzen – sėdėti prie vairo, o Steuern zahlen – mokėti mokesčius."
       ],
       "sectionAccents": {
         "explanation": {

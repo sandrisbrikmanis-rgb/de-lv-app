@@ -47698,7 +47698,7 @@ const B1_WORDS = [
       "translation": "tendere • inclinare",
       "explanation": [
         "Idea principale: neigen con zu + dativo significa tendere a qualcosa, avere una propensione: Er neigt zu schnellen Entscheidungen. Forme: neigt, neigte, hat geneigt.",
-        "In senso proprio etwas neigen significa inclinare, chinare (den Kopf neigen). Al riflessivo sich neigen significa inclinarsi oppure volgere al termine: Der Tag neigt sich dem Ende zu.",
+        "In senso proprio etwas neigen significa inclinare, chinare (den Kopf neigen). Al riflessivo sich neigen significa inclinarsi oppure volgere al termine: Der Tag neigt sich.",
         "Dalla stessa radice deriva il sostantivo die Neigung (tendenza, propensione, inclinazione)."
       ],
       "examples": [
@@ -47715,7 +47715,7 @@ const B1_WORDS = [
           "lv": "Ad aprile il tempo tende agli estremi."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "La giornata volge al termine."
         }
       ],
@@ -53613,7 +53613,7 @@ const B1_WORDS = [
       "translation": "strappare • strapparsi",
       "explanation": [
         "Idea principale: reißen è un verbo forte. Senza oggetto significa strapparsi, rompersi (Das Seil reißt), con un oggetto strappare, tirare con forza (Er reißt das Papier).",
-        "Forme: er reißt, riss, hat gerissen / ist gerissen. Se qualcosa si rompe da sé, si usa sein (Das Seil ist gerissen); se qualcuno strappa o tira, si usa haben (Er hat das Papier gerissen).",
+        "Forme: er reißt, riss, hat gerissen / ist gerissen. Se qualcosa si rompe da sé, si usa sein (Das Seil ist gerissen); se qualcuno strappa o tira, si usa haben (Er hat ein Loch in die Hose gerissen).",
         "Spesso con prefissi: zerreißen (fare a pezzi), aufreißen (spalancare, aprire di colpo), abreißen (strappare via, demolire), losreißen (strappare via, staccare)."
       ],
       "examples": [
@@ -56763,7 +56763,7 @@ const B1_WORDS = [
       "translation": "colpo",
       "explanation": [
         "Idea principale: der Schlag è un sostantivo maschile che significa colpo, urto (con la mano, con un oggetto), ma anche il rintocco dell'orologio e il battito del cuore. In senso figurato è anche un colpo duro: Schicksalsschlag (colpo del destino); Blitzschlag è la caduta di un fulmine.",
-        "Il plurale è die Schläge. Frequente: ein Schlag ins Gesicht (un colpo in faccia), mit einem Schlag (in un istante), Schläge bekommen (prendere le botte), der Schlag des Herzens (il battito del cuore).",
+        "Il plurale è die Schläge. Frequente: ein Schlag ins Gesicht (un colpo in faccia), mit einem Schlag (in un istante), Schläge bekommen (prendere le botte), der Herzschlag (il battito del cuore).",
         "Il verbo schlagen (colpire) è la radice di questa parola, ma der Schlag indica il colpo stesso o il suo risultato."
       ],
       "examples": [
@@ -77202,7 +77202,7 @@ const B1_WORDS = [
         "Nella domanda sulla professione si usa spesso von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, non Ich bin ein Beruf: i nomi di professione (Lehrer, Arzt) si usano di solito senza articolo, come in italiano «sono insegnante».",
+        "Ich bin Lehrer, non Ich bin ein Lehrer: i nomi di professione (Lehrer, Arzt) si usano di solito senza articolo, come in italiano «sono insegnante».",
         "Beruf non è la stessa cosa di Arbeit o Job: è la professione, non un lavoro concreto."
       ],
       "sectionAccents": {
@@ -77661,7 +77661,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer è neutro; il plurale (die Steuer) è uguale al singolare e si usa raramente.",
-        "Con l'articolo sbagliato cambia il senso della frase: am Steuer sitzen significa essere al volante, Steuer zahlen significa pagare le tasse."
+        "Con l'articolo sbagliato cambia il senso della frase: am Steuer sitzen significa essere al volante, Steuern zahlen significa pagare le tasse."
       ],
       "sectionAccents": {
         "explanation": {

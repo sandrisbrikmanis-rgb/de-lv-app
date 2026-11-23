@@ -47711,7 +47711,7 @@ const B1_WORDS = [
       "translation": "tender • inclinar",
       "explanation": [
         "Idea principal: neigen con zu + dativo significa tender a algo, tener propensión: Er neigt zu schnellen Entscheidungen. Formas: neigt, neigte, hat geneigt.",
-        "En sentido literal, etwas neigen es inclinar algo (den Kopf neigen). Como reflexivo, sich neigen significa inclinarse o acercarse al final: Der Tag neigt sich dem Ende zu.",
+        "En sentido literal, etwas neigen es inclinar algo (den Kopf neigen). Como reflexivo, sich neigen significa inclinarse o acercarse al final: Der Tag neigt sich.",
         "De la misma raíz se forma el sustantivo die Neigung (tendencia, inclinación, pendiente)."
       ],
       "examples": [
@@ -47728,7 +47728,7 @@ const B1_WORDS = [
           "lv": "En abril el tiempo tiende a los extremos."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "El día toca a su fin."
         }
       ],
@@ -53627,7 +53627,7 @@ const B1_WORDS = [
       "translation": "romper • rasgar • romperse",
       "explanation": [
         "Idea principal: reißen es un verbo fuerte. Sin complemento significa romperse o partirse (Das Seil reißt); con complemento, romper, rasgar o arrancar (Er reißt das Papier).",
-        "Formas: er reißt, riss, hat gerissen / ist gerissen. Si algo se rompe por sí solo, se usa sein (Das Seil ist gerissen); si alguien rompe o tira de algo, haben (Er hat das Papier gerissen).",
+        "Formas: er reißt, riss, hat gerissen / ist gerissen. Si algo se rompe por sí solo, se usa sein (Das Seil ist gerissen); si alguien rompe o tira de algo, haben (Er hat ein Loch in die Hose gerissen).",
         "Es frecuente con prefijos: zerreißen (hacer pedazos), aufreißen (abrir de golpe), abreißen (arrancar, derribar), losreißen (soltar de un tirón)."
       ],
       "examples": [
@@ -56774,7 +56774,7 @@ const B1_WORDS = [
       "translation": "un golpe",
       "explanation": [
         "Idea principal: der Schlag es un sustantivo masculino que significa golpe (con la mano o con un objeto), y también la campanada de un reloj y el latido del corazón. En sentido figurado es asimismo un duro golpe: Schicksalsschlag (un revés del destino); Blitzschlag es la caída de un rayo.",
-        "El plural es die Schläge. Frecuente: ein Schlag ins Gesicht (una bofetada, también en sentido figurado), mit einem Schlag (de golpe), Schläge bekommen (recibir una paliza), der Schlag des Herzens (el latido del corazón).",
+        "El plural es die Schläge. Frecuente: ein Schlag ins Gesicht (una bofetada, también en sentido figurado), mit einem Schlag (de golpe), Schläge bekommen (recibir una paliza), der Herzschlag (el latido del corazón).",
         "El verbo schlagen (golpear, pegar) es la raíz de esta palabra, pero der Schlag se refiere al golpe en sí o a su resultado."
       ],
       "examples": [

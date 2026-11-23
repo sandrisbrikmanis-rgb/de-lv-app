@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "склоняться • склониться • быть склонным",
       "explanation": [
         "Главное: neigen с zu + дательный падеж (Dativ) значит быть склонным к чему-либо: Er neigt zu schnellen Entscheidungen. Формы: neigt, neigte, hat geneigt.",
-        "В прямом значении etwas neigen — наклонять (den Kopf neigen). Возвратный глагол sich neigen значит наклоняться или приближаться к концу: Der Tag neigt sich dem Ende zu.",
+        "В прямом значении etwas neigen — наклонять (den Kopf neigen). Возвратный глагол sich neigen значит наклоняться или приближаться к концу: Der Tag neigt sich.",
         "От того же корня образовано существительное die Neigung (склонность, предрасположенность, наклон)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "В апреле погода склонна к крайностям."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "День близится к концу."
         }
       ],
@@ -53622,7 +53622,7 @@ const B1_WORDS = [
       "translation": "рваться • порваться",
       "explanation": [
         "Главное: reißen — сильный глагол. Без дополнения он значит рваться (Das Seil reißt), а с дополнением — рвать, дёргать (Er reißt das Papier).",
-        "Формы: er reißt, riss, hat gerissen / ist gerissen. Если что-то порвалось само, используется sein (Das Seil ist gerissen); если кто-то рвёт или тянет, используется haben (Er hat das Papier gerissen).",
+        "Формы: er reißt, riss, hat gerissen / ist gerissen. Если что-то порвалось само, используется sein (Das Seil ist gerissen); если кто-то рвёт или тянет, используется haben (Er hat ein Loch in die Hose gerissen).",
         "Часто с приставками: zerreißen (разорвать), aufreißen (распахнуть), abreißen (оторвать, снести), losreißen (оторвать)."
       ],
       "examples": [
@@ -54500,7 +54500,7 @@ const B1_WORDS = [
       "explanation": [
         "Главное: rollen значит катиться: двигаться на колёсах или как колесо; круглый предмет катится по поверхности. С дополнением это значит также катить или сворачивать.",
         "Формы: rollt, rollte, ist gerollt (если что-то катится) и hat gerollt (если кто-то катит). Например: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Частые сочетания: rollen über (катиться через), zusammenrollen (сворачивать), losrollen (начинать катиться), rollen mit den Augen – закатывать глаза (от раздражения)."
+        "Частые сочетания: rollen über (катиться через), zusammenrollen (сворачивать), losrollen (начинать катиться), mit den Augen rollen – закатывать глаза (от раздражения)."
       ],
       "examples": [
         {
@@ -56772,7 +56772,7 @@ const B1_WORDS = [
       "translation": "удар",
       "explanation": [
         "Главное: der Schlag — существительное мужского рода, которое означает удар (рукой, предметом), а также бой часов и удар сердца. В переносном значении это также тяжёлый удар: Schicksalsschlag (удар судьбы); Blitzschlag — удар молнии.",
-        "Множественное число — die Schläge. Часто: ein Schlag ins Gesicht (удар по лицу), mit einem Schlag (в одно мгновение), Schläge bekommen (получить побои), der Schlag des Herzens (удар сердца).",
+        "Множественное число — die Schläge. Часто: ein Schlag ins Gesicht (удар по лицу), mit einem Schlag (в одно мгновение), Schläge bekommen (получить побои), der Herzschlag (удар сердца).",
         "Глагол schlagen (бить) — корень этого слова, но der Schlag относится к самому удару или его результату."
       ],
       "examples": [
@@ -77219,7 +77219,7 @@ const B1_WORDS = [
         "В вопросе о профессии часто используется von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, а не Ich bin ein Beruf: названия профессий (Lehrer, Arzt) обычно употребляются без артикля.",
+        "Ich bin Lehrer, а не Ich bin ein Lehrer: названия профессий (Lehrer, Arzt) обычно употребляются без артикля.",
         "Beruf — это не то же самое, что Arbeit или Job: это профессия, а не конкретная работа."
       ],
       "sectionAccents": {
@@ -77682,7 +77682,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer — слово среднего рода; форма множественного числа (die Steuer) совпадает с единственным числом и употребляется редко.",
-        "С неправильным артиклем меняется смысл предложения: am Steuer sitzen — за рулём, а Steuer zahlen — платить налоги."
+        "С неправильным артиклем меняется смысл предложения: am Steuer sitzen — за рулём, а Steuern zahlen — платить налоги."
       ],
       "sectionAccents": {
         "explanation": {

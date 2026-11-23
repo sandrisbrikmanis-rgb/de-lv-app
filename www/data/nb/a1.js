@@ -2412,7 +2412,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "bade",
       "explanation": [
-        "Hovedtanke: baden betyr å bade i badekar eller å bade i vann for fornøyelsens skyld: Im See baden (bade i innsjøen), in der Wanne baden (bade i badekaret). Former: er badet, badete, hat gebadet.",
+        "Hovedtanke: baden betyr å bade i badekar eller å bade i vann for fornøyelsens skyld: im See baden (bade i innsjøen), in der Wanne baden (bade i badekaret). Former: er badet, badete, hat gebadet.",
         "Verbet er regelrett og står ofte sammen med gehen: baden gehen (gå og bade). Med objekt betyr det 'bade noen': das Baby baden (bade babyen).",
         "Å svømme som bevegelse (tilbakelegge en distanse) heter schwimmen, ikke baden."
       ],
@@ -12249,7 +12249,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Dere er sene i dag."
         },
         {

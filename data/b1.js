@@ -3154,8 +3154,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "nolikt",
-          "example": "Sie legt die Jacke ab. – Viņa noliek jaku."
+          "meaning": "nolikt; novilkt",
+          "example": "Sie legt die Jacke ab. – Viņa novelk jaku."
         }
       ],
       "tip": [
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Mēs jums labprāt uzticam šo uzdevumu."
+          "lv": "Mēs jums labprāt piešķiram šo pasūtījumu (uzdevumu)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen nav tas pats, kas besorgt sein (noraizējies): īpašības vārds besorgt ir cits vārds.",
-        "Besorgen ir neatdalāms: besorgt, nevis gesorgt."
+        "Besorgen ir neatdalāms, perfektā bez ge-: hat besorgt (gesorgt ir no cita darbības vārda — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: bieten nozīmē piedāvāt vai sniegt — dot kādam iespēju, pakalpojumu vai priekšrocību; kā arī solīt cenu izsolē. Tas ir stiprais darbības vārds: er bietet, bot, hat geboten. Seko akuzatīvs, bieži ar datīvu: jemandem etwas bieten.",
         "Piemēri: Das Hotel bietet viel Komfort (viesnīca piedāvā daudz komforta), Ich biete 100 Euro (es piedāvāju 100 eiro). Atgriezeniskā sich bieten nozīmē: Eine Chance bietet sich (rodas iespēja).",
-        "Radniecīgs ir lietvārds das Angebot (piedāvājums), taču darbības vārds anbieten (piedāvāt) ir cits."
+        "Lietvārds das Angebot (piedāvājums) ir cēlies no anbieten; no bieten ir das Gebot (solījums izsolē)."
       ],
       "examples": [
         {
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: dadurch ir apstākļa vārds, kas nozīmē tādējādi, ar to, caur to — norāda uz iemeslu vai līdzekli. Tas parasti sasaista iepriekšējo teikumu ar sekām: Er hat viel geübt. Dadurch wurde er besser.",
         "Teikuma vārdu secība: pēc dadurch darbības vārds ir otrajā vietā: Dadurch wird alles einfacher. Tāpat dadurch dass kā saiklis (tādēļ, ka) ievada blakusteikumu ar darbības vārdu beigās.",
-        "Vietas nozīmē dadurch ir arī caur to, un tad uzsvērta ir pirmā zilbe: Die Tür war offen, wir sind dadurch gegangen."
+        "Vietas nozīmē dadurch ir arī caur to: Die Tür war offen, wir sind dadurch gegangen. Parasti uzsvērta ir otrā zilbe; pirmo zilbi uzsver tikai īpašā izcēlumā."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "kalpot",
       "explanation": [
         "Galvenā doma: dienen nozīmē kalpot, noderēt kādam mērķim vai pildīt kādu funkciju. Biežākās konstrukcijas: dienen als + nominatīvs (kalpot kā), dienen zu + datīvs (noderēt kam) un dienen + datīvs (kalpot kādam).",
-        "Formas: dient, diente, hat gedient. Darbības vārdam seko datīvs (Er dient dem Land), nevis akuzatīvs. Sarunvalodā Womit kann ich dienen? ir pieklājīgs piedāvājums palīdzēt, bet militārajā nozīmē dienen ir “dienēt armijā”."
+        "Formas: dient, diente, hat gedient. Darbības vārdam seko datīvs (Er dient dem Land), nevis akuzatīvs. Womit kann ich dienen? ir pieklājīgs, nedaudz vecmodīgs apkalpotāja piedāvājums palīdzēt, bet militārajā nozīmē dienen ir “dienēt armijā”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "caureja",
       "explanation": [
         "Galvenā doma: der Durchfall ir vīriešu dzimtes lietvārds, kas nozīmē caureju – šķidru, biežu vēdera izeju. Medicīnā un ikdienā to lieto vienskaitlī: Durchfall haben – būt caurejai.",
-        "Daudzskaitlis die Durchfälle ir reti lietots. Pārnestā nozīmē Durchfall var nozīmēt arī izkrišanu (eksāmenā, teātra izrādē), bet tad parasti lieto darbības vārdu durchfallen."
+        "Daudzskaitlis die Durchfälle ir reti lietots. Pārnestā nozīmē (sarunvalodā) Durchfall var nozīmēt arī izkrišanu (eksāmenā, teātra izrādē), bet tad parasti lieto darbības vārdu durchfallen."
       ],
       "examples": [
         {
@@ -34477,8 +34477,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "dzirdēt",
-          "example": "Ich höre Musik. – Es dzirdu mūziku."
+          "meaning": "dzirdēt; klausīties",
+          "example": "Ich höre Musik. – Es klausos mūziku."
         },
         {
           "word": "zuhören",
@@ -46011,7 +46011,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Vārds das Maß raksta ar ß, jo patskanis ir garš.",
-        "Daudzskaitlis ir die Maße (izmēri); datīvā — den Maßen (in Maßen, über alle Maßen)."
+        "Daudzskaitlis ir die Maße (izmēri); datīvā — den Maßen (in Maßen). Izteicienā über alle Maßen saglabājusies vēsturiska forma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47696,7 +47696,7 @@ const B1_WORDS = [
       "translation": "tiekties",
       "explanation": [
         "Galvenā doma: neigen ar zu + datīvs nozīmē tiekties uz kaut ko, būt nosliecei: Er neigt zu schnellen Entscheidungen. Formas: neigt, neigte, hat geneigt.",
-        "Tiešā nozīmē etwas neigen ir noliekt (den Kopf neigen). Atgriezeniski sich neigen nozīmē noliekties vai tuvoties beigām: Der Tag neigt sich dem Ende zu.",
+        "Tiešā nozīmē etwas neigen ir noliekt (den Kopf neigen). Atgriezeniski sich neigen nozīmē noliekties vai (augstākā stilā) tuvoties beigām: Der Tag neigt sich. Izteiciens sich dem Ende zuneigen ir no zuneigen.",
         "Ar to pašu sakni veidots lietvārds die Neigung (tieksme, nosliece, slīpums)."
       ],
       "examples": [
@@ -47713,7 +47713,7 @@ const B1_WORDS = [
           "lv": "Aprīlī laiks tiecas uz galējībām."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Diena tuvojas beigām."
         }
       ],
@@ -53619,7 +53619,7 @@ const B1_WORDS = [
       "translation": "plīst",
       "explanation": [
         "Galvenā doma: reißen ir stiprais darbības vārds. Bezobjekta nozīmē tas ir plīst, trūkt (Das Seil reißt), bet ar objektu – plēst, raut (Er reißt das Papier).",
-        "Formas: er reißt, riss, hat gerissen / ist gerissen. Ja kaut kas pats pārtrūkst, lieto sein (Das Seil ist gerissen); ja kāds plēš vai velk, lieto haben (Er hat das Papier gerissen).",
+        "Formas: er reißt, riss, hat gerissen / ist gerissen. Ja kaut kas pats pārtrūkst, lieto sein (Das Seil ist gerissen); ja kāds plēš vai velk, lieto haben (Er hat ein Loch in die Hose gerissen).",
         "Bieži ar priedēkļiem: zerreißen (saplēst), aufreißen (atplēst vaļā), abreißen (noplēst, nojaukt), losreißen (atraut)."
       ],
       "examples": [
@@ -54497,7 +54497,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: rollen nozīmē ripot: kustēties uz riteņiem vai kā ritenis, apaļš priekšmets ripo pa virsmu. Ar objektu tas nozīmē arī ripināt vai satīt.",
         "Formas: rollt, rollte, ist gerollt (ja kaut kas ripo) un hat gerollt (ja kāds ripina). Piemēram: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Bieži savienojumi: rollen über (ripot pāri), zusammenrollen (satīt), losrollen (sākt ripot), rollen mit den Augen – ripināt acis (aizkaitinājumā)."
+        "Bieži savienojumi: rollen über (ripot pāri), zusammenrollen (satīt), losrollen (sākt ripot), mit den Augen rollen – ripināt acis (aizkaitinājumā)."
       ],
       "examples": [
         {
@@ -56769,7 +56769,7 @@ const B1_WORDS = [
       "translation": "sitiens",
       "explanation": [
         "Galvenā doma: der Schlag ir vīriešu dzimtes lietvārds, kas nozīmē sitienu, triecienu (ar roku, priekšmetu), kā arī pulksteņa sitienu un sirdspukstu. Pārnestā nozīmē tas ir arī smags trieciens: Schicksalsschlag (likteņa trieciens); Blitzschlag ir zibens spēriens.",
-        "Daudzskaitlis ir die Schläge. Bieži: ein Schlag ins Gesicht (sitiens sejā), mit einem Schlag (vienā mirklī), Schläge bekommen (dabūt pērienu), der Schlag des Herzens (sirdspuksts).",
+        "Daudzskaitlis ir die Schläge. Bieži: ein Schlag ins Gesicht (sitiens sejā), mit einem Schlag (vienā mirklī), Schläge bekommen (dabūt pērienu), der Herzschlag (sirdspuksts).",
         "Darbības vārds schlagen (sist) ir šī vārda sakne, bet der Schlag attiecas uz pašu sitienu vai tā rezultātu."
       ],
       "examples": [
@@ -60255,7 +60255,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Sēdvietai transportā der Sitz vai der Platz; tikai der Platz var nozīmēt vietu kopumā.",
-        "Uzņēmuma adresi saka der Firmensitz."
+        "Uzņēmuma juridisko atrašanās vietu (galveno mītni) sauc der Firmensitz."
       ],
       "important": [
         "Der Sitz nav das Sitzen: das Sitzen ir darbība, der Sitz – sēdeklis vai mītne.",
@@ -61228,7 +61228,7 @@ const B1_WORDS = [
         "Uzkrāšanai (enerģija, ūdens) lieto arī speichern."
       ],
       "important": [
-        "Imperatīvs ir Speichere (vai Speicher), ne Speichern.",
+        "Imperatīvs ir Speichere! (arī Speichre!; sarunvalodā Speicher!), nevis Speichern.",
         "speichern nav sperren (bloķēt)."
       ],
       "sectionAccents": {
@@ -76488,7 +76488,7 @@ const B1_WORDS = [
         "Pēc zugeben bieži seko dass-teikums, kurā darbības vārds ir beigās."
       ],
       "important": [
-        "Zugeben ir atzīt kaut ko, kas runātājam nav izdevīgs; ja vienkārši gribi pateikt, ka kaut ko pievieno ēdienam, lieto hinzufügen.",
+        "Zugeben parasti nozīmē atzīt kaut ko, kas runātājam nav izdevīgs. Receptēs zugeben nozīmē arī pievienot (Salz zugeben); ikdienā šajā nozīmē biežāk saka hinzufügen.",
         "Pēc zugeben dass-teikumā darbības vārds ir beigās: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {
@@ -77216,7 +77216,7 @@ const B1_WORDS = [
         "Jautājumā par profesiju bieži lieto von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, nevis Ich bin ein Beruf: profesiju nosaukumus (Lehrer, Arzt) parasti lieto bez artikula.",
+        "Ich bin Lehrer, nevis Ich bin ein Lehrer: profesiju nosaukumus (Lehrer, Arzt) parasti lieto bez artikula.",
         "Beruf nav tas pats, kas Arbeit vai Job: tā ir profesija, ne konkrēts darbs."
       ],
       "sectionAccents": {
@@ -77679,7 +77679,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer ir vidējās dzimtes vārds; daudzskaitlis (die Steuer) ir tāds pats kā vienskaitlis un lietots reti.",
-        "Ar nepareizu artikulu teikuma jēga mainās: am Steuer sitzen ir pie stūres, bet Steuer zahlen ir maksāt nodokļus."
+        "Ar nepareizu artikulu teikuma jēga mainās: am Steuer sitzen ir pie stūres, bet Steuern zahlen ir maksāt nodokļus."
       ],
       "sectionAccents": {
         "explanation": {

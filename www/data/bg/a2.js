@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "отменям • отменя",
       "explanation": [
         "Накратко: глаголът absagen е с отделяема представка и означава отменям (мероприятие, среща) или отказвам (на човек): sagt ab, sagte ab, hat abgesagt. Ab стои в края на изречението.",
-        "Когато отменяш мероприятие, следва винителен падеж: Das Treffen absagen. Когато отказваш на човек, следва дателен падеж: Er hat mir abgesagt (той ми отказа). В страдателен залог: Das Fest wurde abgesagt.",
+        "Когато отменяш мероприятие, следва винителен падеж: das Treffen absagen. Когато отказваш на човек, следва дателен падеж: Er hat mir abgesagt (той ми отказа). В страдателен залог: Das Fest wurde abgesagt.",
         "Противоположното е zusagen — обещавам да дойда или се съгласявам."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "твърд • здрав",
       "explanation": [
-        "Накратко: fest е прилагателно и наречие. Означава твърд (а не течен): feste Nahrung; стабилен, постоянен: ein fester Job, ein fester Termin; здраво, силно: fest halten, fest schlafen.",
+        "Накратко: fest е прилагателно и наречие. Означава твърд (а не течен): feste Nahrung; стабилен, постоянен: ein fester Job, ein fester Termin; здраво, силно: festhalten, fest schlafen.",
         "Степени: fest, fester, am festesten. Пред съществително получава окончание: ein festes Dach."
       ],
       "examples": [

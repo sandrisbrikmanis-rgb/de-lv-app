@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne confonds pas avec abfinden sans sich : il signifie dédommager ou indemniser avec de l'argent.",
-        "Le participe passé est sich abgefunden (avec -ge- au milieu), et non gabgefunden."
+        "Le participe passé est sich abgefunden (avec -ge- au milieu), et non geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "s'abstenir de",
       "explanation": [
         "Idée principale : sich enthalten signifie s'abstenir consciemment de quelque chose — ne pas faire, ne pas consommer, ne pas voter. C'est une langue soutenue, littéraire.",
-        "Il est suivi du génitif : sich der Stimme enthalten (s'abstenir de voter), sich jeden Kommentars enthalten. Formes : enthält sich, enthielt sich, hat sich enthalten.",
+        "Il est suivi du génitif : sich der Stimme enthalten (s'abstenir de voter), sich jedes Kommentars enthalten. Formes : enthält sich, enthielt sich, hat sich enthalten.",
         "Sans sich, enthalten signifie contenir : Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Les autorités décrètent un couvre-feu."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Le roi ordonna que la porte soit fermée."
         },
         {

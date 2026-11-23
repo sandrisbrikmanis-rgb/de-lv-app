@@ -1254,7 +1254,7 @@ const A2_WORDS = [
       "translation": "otkazati",
       "explanation": [
         "Glavna ideja: absagen je glagol s razdvojivim prefiksom sa značenjem otkazati (događaj, sastanak) ili odbiti, javiti nekome da ne dolaziš: sagt ab, sagte ab, hat abgesagt. Ab stoji na kraju rečenice.",
-        "Kad se otkazuje događaj, slijedi akuzativ: Das Treffen absagen. Kad se otkazuje nekoj osobi, slijedi dativ: Er hat mir abgesagt (otkazao mi je). U pasivu: Das Fest wurde abgesagt.",
+        "Kad se otkazuje događaj, slijedi akuzativ: das Treffen absagen. Kad se otkazuje nekoj osobi, slijedi dativ: Er hat mir abgesagt (otkazao mi je). U pasivu: Das Fest wurde abgesagt.",
         "Suprotnost je zusagen — obećati da ćeš doći ili pristati."
       ],
       "examples": [
@@ -18540,7 +18540,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "čvrst",
       "explanation": [
-        "Glavna ideja: fest je pridjev i prilog. Znači čvrst (a ne tečan): feste Nahrung; stalan, stabilan, nepromjenljiv: ein fester Job, ein fester Termin; čvrsto, jako: fest halten, fest schlafen.",
+        "Glavna ideja: fest je pridjev i prilog. Znači čvrst (a ne tečan): feste Nahrung; stalan, stabilan, nepromjenljiv: ein fester Job, ein fester Termin; čvrsto, jako: festhalten, fest schlafen.",
         "Poređenje: fest, fester, am festesten. Ispred imenice dobija nastavak: ein festes Dach."
       ],
       "examples": [
