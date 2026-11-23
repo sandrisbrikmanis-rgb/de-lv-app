@@ -65479,7 +65479,7 @@ const B1_WORDS = [
           "lv": "У відпустці ми пірнаємо в Червоному морі."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Качка ненадовго пірнає під воду."
         },
         {

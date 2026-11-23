@@ -65507,7 +65507,7 @@ const B1_WORDS = [
           "lv": "Puhkusel sukeldume Punases meres."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Part sukeldub korraks vee alla."
         },
         {

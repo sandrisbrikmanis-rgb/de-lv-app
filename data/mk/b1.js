@@ -65478,7 +65478,7 @@ const B1_WORDS = [
           "lv": "На одмор нуркаме во Црвеното Море."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Патката накратко нурнува под вода."
         },
         {

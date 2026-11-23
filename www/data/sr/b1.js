@@ -65478,7 +65478,7 @@ const B1_WORDS = [
           "lv": "Na odmoru ronimo u Crvenom moru."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Patka nakratko zaroni."
         },
         {

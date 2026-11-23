@@ -65478,7 +65478,7 @@ const B1_WORDS = [
           "lv": "Në pushime zhytemi në Detin e Kuq."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Rosa zhytet për pak çaste nën ujë."
         },
         {

@@ -65456,7 +65456,7 @@ const B1_WORDS = [
           "lv": "An der Vakanz dauche mir am Roude Mier."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "D'Int daucht kuerz ënner."
         },
         {

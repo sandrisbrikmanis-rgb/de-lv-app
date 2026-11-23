@@ -65478,7 +65478,7 @@ const B1_WORDS = [
           "lv": "Στις διακοπές κάνουμε καταδύσεις στην Ερυθρά Θάλασσα."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Η πάπια βουτάει για λίγο κάτω από το νερό."
         },
         {

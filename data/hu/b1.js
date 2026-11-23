@@ -65464,7 +65464,7 @@ const B1_WORDS = [
           "lv": "Szabadságon a Vörös-tengerben búvárkodunk."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "A kacsa egy pillanatra a víz alá bukik."
         },
         {

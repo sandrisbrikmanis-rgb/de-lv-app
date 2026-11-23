@@ -65476,7 +65476,7 @@ const B1_WORDS = [
           "lv": "I ferien dykker vi i Rødehavet."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Anda dukker et øyeblikk ned under vannet."
         },
         {

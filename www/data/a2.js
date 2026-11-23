@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: die Bahn ir sieviešu dzimtes lietvārds. Tas nozīmē dzelzceļu un dzelzceļa transportu kopumā (mit der Bahn fahren – braukt ar vilcienu). Uzņēmuma nosaukumā Deutsche Bahn tas ir Vācijas dzelzceļš.",
         "Daudzskaitlis ir die Bahnen. Vārds sastopams arī salikteņos: die Straßenbahn (tramvajs), die U-Bahn (metro), die S-Bahn (pilsētas vilciens), die Eisenbahn (dzelzceļš).",
-        "Citas nozīmes: trase vai celiņš (die Laufbahn, die Radrennbahn) un orbīta (die Umlaufbahn). Sportā die Bahn ir skrejceļš."
+        "Citas nozīmes: trase vai celiņš (die Radrennbahn; die Laufbahn — arī karjera) un orbīta (die Umlaufbahn). Sportā die Bahn ir skrejceļš."
       ],
       "examples": [
         {
@@ -32738,7 +32738,7 @@ const A2_WORDS = [
       "translation": "atzīme",
       "explanation": [
         "Galvenā doma: die Note ir sieviešu dzimtes lietvārds. Skolā un augstskolā tā nozīmē atzīmi (eine gute Note bekommen, dabūt labu atzīmi). Mūzikā tā ir nots: Noten lesen (lasīt notis).",
-        "Daudzskaitlis ir die Noten. Vācijā atzīmes ir no 1 (sehr gut) līdz 6 (ungenügend), un 1 ir labākā. Tāpēc eine gute Note nozīmē mazu skaitli.",
+        "Daudzskaitlis ir die Noten. Vācijas skolās atzīmes ir no 1 (sehr gut) līdz 6 (ungenügend), un 1 ir labākā (augstskolās skala ir 1,0–5,0). Tāpēc eine gute Note nozīmē mazu skaitli.",
         "Ar atzīmēm saka: eine Note bekommen, eine Note geben, die Note verbessern (uzlabot atzīmi)."
       ],
       "examples": [
@@ -37325,7 +37325,7 @@ const A2_WORDS = [
         "Rindu, kurā cilvēki gaida, sauc par Schlange; Reihe drīzāk ir rinda kā secība (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen ir noteikta frāze: nevis in der Schlange sein, bet Schlange stehen."
+        "Biežākā frāze ir Schlange stehen (arī in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
