@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "atcelt",
       "explanation": [
         "Galvenā doma: absagen ir atdalāms darbības vārds ar nozīmi atcelt (pasākumu, tikšanos) vai atteikt (cilvēkam): sagt ab, sagte ab, hat abgesagt. Ab stāv teikuma beigās.",
-        "Ja atceļ pasākumu, seko akuzatīvs: Das Treffen absagen. Ja atsaka personai, seko datīvs: Er hat mir abgesagt (viņš man atteica). Pasīvā: Das Fest wurde abgesagt.",
+        "Ja atceļ pasākumu, seko akuzatīvs: das Treffen absagen. Ja atsaka personai, seko datīvs: Er hat mir abgesagt (viņš man atteica). Pasīvā: Das Fest wurde abgesagt.",
         "Pretstats ir zusagen — apsolīt atnākt vai piekrist."
       ],
       "examples": [
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn ir sieviešu dzimtē; ar to nejauc der Bahnhof (stacija, vīriešu dzimte).",
-        "Vārds Bahn pats par sevi bieži nozīmē uzņēmumu Deutsche Bahn, nevis konkrētu vilcienu; konkrēts vilciens ir der Zug."
+        "Vārds Bahn var nozīmēt arī uzņēmumu Deutsche Bahn (Die Bahn hat Verspätung); konkrētu vilcienu sauc der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11855,7 +11855,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: brennen ir neregulārs darbības vārds ar nozīmi degt: uguns, malka, gaisma un pat acis vai āda var degt. Pamatnozīmē tam nav tiešā objekta.",
         "Formas: brennt, brannte, hat gebrannt. Tas ir jauktais darbības vārds: sakne maina patskani (brennen – brannte), bet galotnes ir kā regulāriem darbības vārdiem (ich brannte, wir brannten).",
-        "Pārnestā nozīmē brennen nozīmē arī dedzināt (par sāpēm vai sauli: Die Sonne brennt) un degt aiz entuziasma (für etwas brennen). Ar objektu brennen nozīmē ierakstīt (eine CD brennen) vai izdedzināt (Schnaps brennen)."
+        "Pārnestā nozīmē brennen nozīmē arī dedzināt (par sāpēm vai sauli: Die Sonne brennt) un degt aiz entuziasma (für etwas brennen). Ar objektu brennen nozīmē ierakstīt (eine CD brennen) vai destilēt (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12422,7 +12422,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: dafür ir apstākļa vārds (da + für). Tas nozīmē par to (apmaiņā, maksājot, pateicoties), tam (mērķim) vai par (piekrītot): Ich bin dafür (es esmu par).",
         "Tas aizstāj für + ko minētu iepriekš: Ich danke dir dafür. Ar tādiem darbības vārdiem kā sich interessieren für, sorgen für, sich entschuldigen für lieto dafür, kad nav vajadzīgs atkārtot lietvārdu.",
-        "Sarunvalodā dafür nozīmē arī toties, bet, kompensējot: Er ist nicht schnell, dafür arbeitet er genau. Šādā nozīmē tas ievada pretstatu ar pozitīvu kompensāciju."
+        "Dafür nozīmē arī toties, bet, kompensējot: Er ist nicht schnell, dafür arbeitet er genau. Šādā nozīmē tas ievada pretstatu ar pozitīvu kompensāciju."
       ],
       "examples": [
         {
@@ -18512,7 +18512,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "ciets",
       "explanation": [
-        "Galvenā doma: fest ir īpašības vārds un apstākļa vārds. Tas nozīmē ciets (nevis šķidrs): feste Nahrung; stabils, nemainīgs: ein fester Job, ein fester Termin; stingri, cieši: fest halten, fest schlafen.",
+        "Galvenā doma: fest ir īpašības vārds un apstākļa vārds. Tas nozīmē ciets (nevis šķidrs): feste Nahrung; stabils, nemainīgs: ein fester Job, ein fester Termin; stingri, cieši: festhalten, fest schlafen.",
         "Pakāpes: fest, fester, am festesten. Pirms lietvārda tas saņem galotni: ein festes Dach."
       ],
       "examples": [
@@ -19806,7 +19806,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar bez nicht, kein, nichts parasti neliek."
+        "Nolieguma pastiprinātāja nozīmē gar lieto kopā ar nicht, kein, nichts."
       ],
       "important": [
         "gar ir nolieguma pastiprinātājs: gar nicht ir stiprāks nekā nicht."
@@ -24622,7 +24622,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: der Kellner ir vīriešu dzimtes lietvārds, kas nozīmē viesmīli, kas restorānā vai kafejnīcā pienes ēdienu un dzērienus. Sieviete ir die Kellnerin.",
         "Daudzskaitlis ir die Kellner (vīrieši) un die Kellnerinnen (sievietes). Deklinācija: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Kellnera uzrunai vislabāk der Entschuldigung!; uzrunu Herr Ober! šodien uzskata par vecmodīgu."
+        "Kelneri vislabāk uzrunāt ar „Entschuldigung!”; uzrunu Herr Ober! šodien uzskata par vecmodīgu."
       ],
       "examples": [
         {
@@ -28670,7 +28670,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Atceries: Kraft = spēks, Macht = vara, Energie = enerģija.",
-        "Ielāgo frāzi in Kraft treten (stāties spēkā), tā ir biežāk sastopama nekā pamatnozīme."
+        "Ielāgo frāzi in Kraft treten (stāties spēkā) — to bieži lieto par likumiem un noteikumiem."
       ],
       "important": [
         "Die Kraft ir sieviešu dzimtes; daudzskaitlis die Kräfte, ne die Krafte.",
@@ -35363,7 +35363,7 @@ const A2_WORDS = [
         "Frāzē rechnen mit + datīvs nozīme ir „rēķināties ar”, piemēram, ar sliktiem laika apstākļiem."
       ],
       "important": [
-        "Rechnen mit parasti nozīmē „gaidīt, ņemt vērā”, nevis „rēķināt ar kaut ko”."
+        "Rechnen mit + datīvs parasti nozīmē „gaidīt, ņemt vērā” (Wir rechnen mit Regen); ar instrumentu tas nozīmē „rēķināt ar”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36848,7 +36848,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "ass • pikants",
       "explanation": [
-        "Galvenā doma: scharf ir īpašības vārds ar vairākām nozīmēm. Priekšmetam tas nozīmē asu (scharfes Messer – ass nazis), ēdienam — pikantu, asu garšu (scharfes Essen). Pārnestā nozīmē tas var būt arī stāvs vai spēcīgs: eine scharfe Kurve, scharf bremsen.",
+        "Galvenā doma: scharf ir īpašības vārds ar vairākām nozīmēm. Priekšmetam tas nozīmē asu (scharfes Messer – ass nazis), ēdienam — pikantu, asu garšu (scharfes Essen). Pārnestā nozīmē tas var būt arī straujš vai spēcīgs: eine scharfe Kurve (ass pagrieziens), scharf bremsen (strauji bremzēt).",
         "Pārākā pakāpe ir schärfer (ar umlautu), vispārākā — am schärfsten. Pirms lietvārda: ein scharfes Messer, scharfe Soße.",
         "Latviešiem lietderīgi atcerēties: scharf attiecas uz asu garšu (čili, mārrutki), nevis uz sāļu garšu — sāļš ir salzig."
       ],

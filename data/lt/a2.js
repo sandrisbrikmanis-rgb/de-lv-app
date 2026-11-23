@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "atšaukti",
       "explanation": [
         "Pagrindinė mintis: absagen yra skiriamasis veiksmažodis, reiškiantis atšaukti (renginį, susitikimą) arba atsisakyti (pranešti kam nors, kad neatvyksi): sagt ab, sagte ab, hat abgesagt. Ab stovi sakinio gale.",
-        "Kai atšaukiamas renginys, eina galininkas: Das Treffen absagen. Kai pranešama asmeniui, eina naudininkas: Er hat mir abgesagt (jis man pranešė, kad neateis). Neveikiamoji rūšis: Das Fest wurde abgesagt.",
+        "Kai atšaukiamas renginys, eina galininkas: das Treffen absagen. Kai pranešama asmeniui, eina naudininkas: Er hat mir abgesagt (jis man pranešė, kad neateis). Neveikiamoji rūšis: Das Fest wurde abgesagt.",
         "Priešingybė yra zusagen – pažadėti ateiti arba sutikti."
       ],
       "examples": [
@@ -18513,7 +18513,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "tvirtas",
       "explanation": [
-        "Pagrindinė mintis: fest yra būdvardis ir prieveiksmis. Jis reiškia kietas (ne skystas): feste Nahrung; tvirtas, pastovus: ein fester Job, ein fester Termin; tvirtai, stipriai: fest halten, fest schlafen (kietai miegoti).",
+        "Pagrindinė mintis: fest yra būdvardis ir prieveiksmis. Jis reiškia kietas (ne skystas): feste Nahrung; tvirtas, pastovus: ein fester Job, ein fester Termin; tvirtai, stipriai: festhalten, fest schlafen (kietai miegoti).",
         "Laipsniai: fest, fester, am festesten. Prieš daiktavardį jis gauna galūnę: ein festes Dach."
       ],
       "examples": [

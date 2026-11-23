@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "a se scălda • a face baie",
       "explanation": [
-        "Ideea principală: baden înseamnă a face baie în cadă sau a se scălda în apă pentru relaxare: Im See baden (a se scălda în lac), in der Wanne baden (a face baie în cadă). Forme: er badet, badete, hat gebadet.",
+        "Ideea principală: baden înseamnă a face baie în cadă sau a se scălda în apă pentru relaxare: im See baden (a se scălda în lac), in der Wanne baden (a face baie în cadă). Forme: er badet, badete, hat gebadet.",
         "Verbul este regulat și apare des cu gehen: baden gehen (a merge la scăldat). Cu complement direct înseamnă „a îmbăia”: das Baby baden.",
         "Înotul ca mișcare (parcurgerea unei distanțe) se spune schwimmen, nu baden."
       ],
@@ -12251,7 +12251,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Voi ați întârziat astăzi."
         },
         {

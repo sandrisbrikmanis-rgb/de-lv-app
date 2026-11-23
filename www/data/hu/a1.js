@@ -2409,7 +2409,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "fürdik • fürdőzik",
       "explanation": [
-        "A lényeg: a baden jelentése kádban fürdik, vagy kedvtelésből fürdik a vízben: Im See baden (fürdik a tóban), in der Wanne baden (fürdik a kádban). Alakjai: er badet, badete, hat gebadet.",
+        "A lényeg: a baden jelentése kádban fürdik, vagy kedvtelésből fürdik a vízben: im See baden (fürdik a tóban), in der Wanne baden (fürdik a kádban). Alakjai: er badet, badete, hat gebadet.",
         "Szabályos (gyenge) ige, gyakran a gehen igével áll: baden gehen (fürödni megy). Tárggyal azt jelenti, hogy fürdet: das Baby baden (megfürdeti a babát).",
         "Ha valaki mozgásként, sportként úszik (távot tesz meg), az schwimmen, nem baden."
       ],
@@ -12229,7 +12229,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Ti ma késésben vagytok."
         },
         {

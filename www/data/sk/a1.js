@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "kúpať sa",
       "explanation": [
-        "Hlavná myšlienka: baden znamená kúpať sa vo vani alebo kúpať sa vo vode pre oddych: Im See baden (kúpať sa v jazere), in der Wanne baden (kúpať sa vo vani). Tvary: er badet, badete, hat gebadet.",
+        "Hlavná myšlienka: baden znamená kúpať sa vo vani alebo kúpať sa vo vode pre oddych: im See baden (kúpať sa v jazere), in der Wanne baden (kúpať sa vo vani). Tvary: er badet, badete, hat gebadet.",
         "Sloveso je pravidelné a často sa spája s gehen: baden gehen (ísť sa kúpať). V prechodnom význame znamená „kúpať vo vani“: das Baby baden.",
         "Plávať ako pohyb (preplávať určitú vzdialenosť) sa povie schwimmen, nie baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Dnes ste prišli neskoro."
         },
         {

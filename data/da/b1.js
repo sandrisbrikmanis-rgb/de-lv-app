@@ -47728,7 +47728,7 @@ const B1_WORDS = [
       "translation": "At hælde • At være tilbøjelig til",
       "explanation": [
         "Hovedbetydning: neigen med zu + dativ betyder at være tilbøjelig til noget, at have en tendens til noget: Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret betydning betyder etwas neigen at hælde eller bøje noget (den Kopf neigen – bøje hovedet). Refleksivt betyder sich neigen at hælde, at bøje sig eller at nærme sig sin afslutning: Der Tag neigt sich dem Ende zu. Sammenlign dansk at hælde og at neje.",
+        "I konkret betydning betyder etwas neigen at hælde eller bøje noget (den Kopf neigen – bøje hovedet). Refleksivt betyder sich neigen at hælde, at bøje sig eller at nærme sig sin afslutning: Der Tag neigt sich. Sammenlign dansk at hælde og at neje.",
         "Af samme rod er navneordet die Neigung (tilbøjelighed, hang, hældning)."
       ],
       "examples": [
@@ -47745,7 +47745,7 @@ const B1_WORDS = [
           "lv": "Vejret er i april tilbøjeligt til at gå til yderligheder."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dagen nærmer sig sin afslutning."
         }
       ],
@@ -53654,7 +53654,7 @@ const B1_WORDS = [
       "translation": "At rive • At revne",
       "explanation": [
         "Grundbetydning: reißen er et stærkt udsagnsord. Uden genstandsled betyder det at revne, gå over, springe (Das Seil reißt), med genstandsled at rive, flå (Er reißt das Papier).",
-        "Bøjning: er reißt, riss, hat gerissen / ist gerissen. Når noget selv går over, bruges sein (Das Seil ist gerissen); når nogen river eller trækker, bruges haben (Er hat das Papier gerissen).",
+        "Bøjning: er reißt, riss, hat gerissen / ist gerissen. Når noget selv går over, bruges sein (Das Seil ist gerissen); når nogen river eller trækker, bruges haben (Er hat ein Loch in die Hose gerissen).",
         "Ofte med forstavelser: zerreißen (rive i stykker), aufreißen (rive op), abreißen (rive af, rive ned), losreißen (rive løs)."
       ],
       "examples": [
@@ -56804,7 +56804,7 @@ const B1_WORDS = [
       "translation": "Slag",
       "explanation": [
         "Grundbetydning: der Schlag er et hankønsnavneord, der betyder slag eller stød (med hånden eller en genstand), også et klokkeslag og et hjerteslag. I overført betydning er det også et hårdt slag: Schicksalsschlag (skæbneslag); Blitzschlag er et lynnedslag.",
-        "Flertal er die Schläge. Ofte: ein Schlag ins Gesicht (et slag i ansigtet), mit einem Schlag (på et øjeblik, med ét), Schläge bekommen (få bank), der Schlag des Herzens (hjerteslaget).",
+        "Flertal er die Schläge. Ofte: ein Schlag ins Gesicht (et slag i ansigtet), mit einem Schlag (på et øjeblik, med ét), Schläge bekommen (få bank), der Herzschlag (hjerteslaget).",
         "Udsagnsordet schlagen (slå) er ordets rod, men der Schlag betegner selve slaget eller dets resultat."
       ],
       "examples": [

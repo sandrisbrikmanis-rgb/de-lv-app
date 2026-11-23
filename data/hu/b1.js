@@ -47687,7 +47687,7 @@ const B1_WORDS = [
       "translation": "hajlik",
       "explanation": [
         "Lényeg: a neigen a zu + Dativ (részes eset) szerkezettel azt jelenti: hajlik valamire, hajlamos valamire: Er neigt zu schnellen Entscheidungen. Alakjai: neigt, neigte, hat geneigt.",
-        "Szó szerinti jelentésben az etwas neigen azt jelenti: megdönt, lehajt valamit (den Kopf neigen). Visszaható alakban a sich neigen jelentése: meghajlik, illetve a vége felé közeledik: Der Tag neigt sich dem Ende zu.",
+        "Szó szerinti jelentésben az etwas neigen azt jelenti: megdönt, lehajt valamit (den Kopf neigen). Visszaható alakban a sich neigen jelentése: meghajlik, illetve a vége felé közeledik: Der Tag neigt sich.",
         "Ugyanebből a tőből képzett főnév a die Neigung (hajlam, hajlandóság, lejtés)."
       ],
       "examples": [
@@ -47704,7 +47704,7 @@ const B1_WORDS = [
           "lv": "Áprilisban az időjárás hajlamos a szélsőségekre."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "A nap a végéhez közeledik."
         }
       ],
@@ -53608,7 +53608,7 @@ const B1_WORDS = [
       "translation": "tép • szakad",
       "explanation": [
         "A lényeg: a reißen erős (rendhagyó) ige. Tárgy nélkül azt jelenti: elszakad, szakad (Das Seil reißt), tárggyal pedig: tép, szakít, ránt (Er reißt das Papier).",
-        "Alakjai: er reißt, riss, hat gerissen / ist gerissen. Ha valami magától szakad el, sein a segédige (Das Seil ist gerissen); ha valaki tép vagy ránt valamit, haben (Er hat das Papier gerissen).",
+        "Alakjai: er reißt, riss, hat gerissen / ist gerissen. Ha valami magától szakad el, sein a segédige (Das Seil ist gerissen); ha valaki tép vagy ránt valamit, haben (Er hat ein Loch in die Hose gerissen).",
         "Gyakran igekötővel: zerreißen (széttép), aufreißen (feltép), abreißen (letép, lebont), losreißen (elszakít, kitép)."
       ],
       "examples": [
@@ -54486,7 +54486,7 @@ const B1_WORDS = [
       "explanation": [
         "A lényeg: a rollen jelentése gurul: kerekeken vagy kerékként mozog, egy kerek tárgy gurul a felületen. Tárggyal azt is jelenti: gurít, illetve feltekercsel, összeteker.",
         "Alakjai: rollt, rollte, ist gerollt (ha valami gurul) és hat gerollt (ha valaki gurít valamit). Például: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Gyakori kapcsolatok: rollen über (átgurul valamin), zusammenrollen (összetekercsel), losrollen (gurulni kezd), rollen mit den Augen – forgatja a szemét (bosszúságában)."
+        "Gyakori kapcsolatok: rollen über (átgurul valamin), zusammenrollen (összetekercsel), losrollen (gurulni kezd), mit den Augen rollen – forgatja a szemét (bosszúságában)."
       ],
       "examples": [
         {
@@ -56758,7 +56758,7 @@ const B1_WORDS = [
       "translation": "ütés",
       "explanation": [
         "A lényeg: a der Schlag hímnemű főnév, jelentése ütés, csapás (kézzel vagy tárggyal), továbbá az óra ütése és a szívverés. Átvitt értelemben súlyos csapás is: Schicksalsschlag (sorscsapás); a Blitzschlag villámcsapás.",
-        "Többes száma die Schläge. Gyakori: ein Schlag ins Gesicht (arculcsapás), mit einem Schlag (egy csapásra, hirtelen), Schläge bekommen (verést kap), der Schlag des Herzens (szívverés).",
+        "Többes száma die Schläge. Gyakori: ein Schlag ins Gesicht (arculcsapás), mit einem Schlag (egy csapásra, hirtelen), Schläge bekommen (verést kap), der Herzschlag (szívverés).",
         "A schlagen (üt) ige ennek a szónak a töve, de a der Schlag magát az ütést vagy annak eredményét jelenti."
       ],
       "examples": [
@@ -77205,7 +77205,7 @@ const B1_WORDS = [
         "A foglalkozásra vonatkozó kérdésben gyakori a von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, nem Ich bin ein Beruf: a foglalkozásneveket (Lehrer, Arzt) ilyenkor általában névelő nélkül használjuk.",
+        "Ich bin Lehrer, nem Ich bin ein Lehrer: a foglalkozásneveket (Lehrer, Arzt) ilyenkor általában névelő nélkül használjuk.",
         "A Beruf nem azonos az Arbeit vagy a Job szóval: szakmát jelent, nem egy konkrét munkát."
       ],
       "sectionAccents": {
@@ -77668,7 +77668,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A das Steuer semlegesnemű; többes száma (die Steuer) megegyezik az egyes számmal, és ritkán használatos.",
-        "Rossz névelővel megváltozik a mondat értelme: az am Steuer sitzen azt jelenti, hogy valaki a volánnál ül, a Steuer zahlen pedig azt, hogy adót fizet."
+        "Rossz névelővel megváltozik a mondat értelme: az am Steuer sitzen azt jelenti, hogy valaki a volánnál ül, a Steuern zahlen pedig azt, hogy adót fizet."
       ],
       "sectionAccents": {
         "explanation": {

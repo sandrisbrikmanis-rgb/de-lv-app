@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne miješaj s abfinden bez sich: on znači obeštetiti ili isplatiti odštetu novcem.",
-        "Particip perfekta je sich abgefunden (s -ge- u sredini), a ne gabgefunden."
+        "Particip perfekta je sich abgefunden (s -ge- u sredini), a ne geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "suzdržati se",
       "explanation": [
         "Glavna ideja: sich enthalten znači svjesno se suzdržati od nečega — ne činiti, ne konzumirati, ne glasovati. To je formalan, književni jezik.",
-        "Iza njega dolazi genitiv: sich der Stimme enthalten (suzdržati se od glasovanja), sich jeden Kommentars enthalten. Oblici: enthält sich, enthielt sich, hat sich enthalten.",
+        "Iza njega dolazi genitiv: sich der Stimme enthalten (suzdržati se od glasovanja), sich jedes Kommentars enthalten. Oblici: enthält sich, enthielt sich, hat sich enthalten.",
         "Bez sich, enthalten znači sadržavati: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Vlasti određuju policijski sat."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kralj je naredio da se vrata zatvore."
         },
         {

@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "клоня • стремя се",
       "explanation": [
         "Накратко: neigen със zu + дателен падеж означава клоня към нещо, имам склонност: Er neigt zu schnellen Entscheidungen. Форми: neigt, neigte, hat geneigt.",
-        "В пряк смисъл etwas neigen означава навеждам, накланям (den Kopf neigen). Възвратно sich neigen означава навеждам се или приближавам се към края: Der Tag neigt sich dem Ende zu.",
+        "В пряк смисъл etwas neigen означава навеждам, накланям (den Kopf neigen). Възвратно sich neigen означава навеждам се или приближавам се към края: Der Tag neigt sich.",
         "От същия корен е образувано съществителното die Neigung (склонност, наклонност, наклон)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "През април времето клони към крайности."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Денят се приближава към края си."
         }
       ],
@@ -53623,7 +53623,7 @@ const B1_WORDS = [
       "translation": "скъсвам се • скъсам се",
       "explanation": [
         "Накратко: reißen спада към силните глаголи. Без допълнение означава късам се, скъсвам се (Das Seil reißt), а с допълнение – късам, дърпам рязко (Er reißt das Papier).",
-        "Форми: er reißt, riss, hat gerissen / ist gerissen. Когато нещо само се скъса, се използва sein (Das Seil ist gerissen); когато някой къса или дърпа – haben (Er hat das Papier gerissen).",
+        "Форми: er reißt, riss, hat gerissen / ist gerissen. Когато нещо само се скъса, се използва sein (Das Seil ist gerissen); когато някой къса или дърпа – haben (Er hat ein Loch in die Hose gerissen).",
         "Често с представки: zerreißen (разкъсвам), aufreißen (отварям рязко), abreißen (откъсвам, събарям), losreißen (откъсвам, изтръгвам)."
       ],
       "examples": [
@@ -54501,7 +54501,7 @@ const B1_WORDS = [
       "explanation": [
         "Накратко: rollen означава търкалям се: движа се на колела или като колело, кръгъл предмет се търкаля по повърхност. С допълнение означава също търкалям нещо или навивам.",
         "Форми: rollt, rollte, ist gerollt (когато нещо се търкаля) и hat gerollt (когато някой търкаля). Пример: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Чести съчетания: rollen über (търкалям се през), zusammenrollen (навивам), losrollen (тръгвам, започвам да се търкалям), rollen mit den Augen – въртя очи (от раздразнение)."
+        "Чести съчетания: rollen über (търкалям се през), zusammenrollen (навивам), losrollen (тръгвам, започвам да се търкалям), mit den Augen rollen – въртя очи (от раздразнение)."
       ],
       "examples": [
         {
@@ -56773,7 +56773,7 @@ const B1_WORDS = [
       "translation": "удар",
       "explanation": [
         "Накратко: der Schlag е съществително от мъжки род, което означава удар (с ръка, с предмет), както и удар на часовник и удар на сърцето. В преносен смисъл това е и тежък удар: Schicksalsschlag (удар на съдбата); Blitzschlag е удар от мълния.",
-        "Множественото число е die Schläge. Често: ein Schlag ins Gesicht (удар в лицето), mit einem Schlag (изведнъж), Schläge bekommen (ям бой), der Schlag des Herzens (удар на сърцето).",
+        "Множественото число е die Schläge. Често: ein Schlag ins Gesicht (удар в лицето), mit einem Schlag (изведнъж), Schläge bekommen (ям бой), der Herzschlag (удар на сърцето).",
         "Глаголът schlagen (удрям) е коренът на тази дума, но der Schlag се отнася до самия удар или до резултата от него."
       ],
       "examples": [
@@ -77220,7 +77220,7 @@ const B1_WORDS = [
         "Във въпроса за професията често се използва von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, а не Ich bin ein Beruf: названията на професии (Lehrer, Arzt) обикновено се използват без член.",
+        "Ich bin Lehrer, а не Ich bin ein Lehrer: названията на професии (Lehrer, Arzt) обикновено се използват без член.",
         "Beruf не е същото като Arbeit или Job: това е професия, а не конкретна работа."
       ],
       "sectionAccents": {
@@ -77683,7 +77683,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer е от среден род; множественото число (die Steuer) е същото като единственото и се използва рядко.",
-        "С грешен член смисълът на изречението се променя: am Steuer sitzen е „седя зад волана”, а Steuer zahlen е „плащам данъци”."
+        "С грешен член смисълът на изречението се променя: am Steuer sitzen е „седя зад волана”, а Steuern zahlen е „плащам данъци”."
       ],
       "sectionAccents": {
         "explanation": {

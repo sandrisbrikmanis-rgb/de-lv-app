@@ -47712,7 +47712,7 @@ const B1_WORDS = [
       "translation": "Mít sklon",
       "explanation": [
         "Hlavní myšlenka: neigen s předložkou zu + dativ znamená mít sklon k něčemu, tíhnout k něčemu: Er neigt zu schnellen Entscheidungen. Tvary: neigt, neigte, hat geneigt.",
-        "V doslovném významu etwas neigen je naklonit (den Kopf neigen). Zvratné sich neigen znamená naklánět se nebo blížit se ke konci: Der Tag neigt sich dem Ende zu.",
+        "V doslovném významu etwas neigen je naklonit (den Kopf neigen). Zvratné sich neigen znamená naklánět se nebo blížit se ke konci: Der Tag neigt sich.",
         "Ze stejného kořene je utvořeno podstatné jméno die Neigung (sklon, náklonnost, náklon)."
       ],
       "examples": [
@@ -47729,7 +47729,7 @@ const B1_WORDS = [
           "lv": "V dubnu má počasí sklon ke krajnostem."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Den se chýlí ke konci."
         }
       ],
@@ -53636,7 +53636,7 @@ const B1_WORDS = [
       "translation": "Prasknout",
       "explanation": [
         "Hlavní myšlenka: reißen je silné (nepravidelné) sloveso. Bez předmětu znamená prasknout, přetrhnout se (Das Seil reißt), s předmětem trhat, rvát (Er reißt das Papier).",
-        "Tvary: er reißt, riss, hat gerissen / ist gerissen. Když se něco samo přetrhne, používá se sein (Das Seil ist gerissen); když někdo trhá nebo táhne, používá se haben (Er hat das Papier gerissen).",
+        "Tvary: er reißt, riss, hat gerissen / ist gerissen. Když se něco samo přetrhne, používá se sein (Das Seil ist gerissen); když někdo trhá nebo táhne, používá se haben (Er hat ein Loch in die Hose gerissen).",
         "Často s předponami: zerreißen (roztrhat), aufreißen (rozrazit, rozervat), abreißen (utrhnout, strhnout), losreißen (vytrhnout)."
       ],
       "examples": [
@@ -56789,7 +56789,7 @@ const B1_WORDS = [
       "translation": "Rána",
       "explanation": [
         "Hlavní myšlenka: der Schlag je podstatné jméno mužského rodu a označuje ránu, úder (rukou, předmětem), dále úder hodin a tep srdce. V přeneseném smyslu je to i těžká rána osudu: Schicksalsschlag; Blitzschlag je úder blesku.",
-        "Množné číslo je die Schläge. Časté: ein Schlag ins Gesicht (rána do obličeje), mit einem Schlag (najednou, naráz), Schläge bekommen (dostat výprask), der Schlag des Herzens (tep srdce).",
+        "Množné číslo je die Schläge. Časté: ein Schlag ins Gesicht (rána do obličeje), mit einem Schlag (najednou, naráz), Schläge bekommen (dostat výprask), der Herzschlag (tep srdce).",
         "Sloveso schlagen (bít) je kořenem tohoto slova, ale der Schlag označuje samotný úder nebo jeho výsledek."
       ],
       "examples": [
@@ -77239,7 +77239,7 @@ const B1_WORDS = [
         "V otázce na povolání se často používá von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Říká se Ich bin Lehrer, nikoli Ich bin ein Beruf: názvy profesí (Lehrer, Arzt) se obvykle používají bez členu.",
+        "Říká se Ich bin Lehrer, nikoli Ich bin ein Lehrer: názvy profesí (Lehrer, Arzt) se obvykle používají bez členu.",
         "Beruf není totéž co Arbeit nebo Job: je to profese, nikoli konkrétní práce."
       ],
       "sectionAccents": {
@@ -77701,7 +77701,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer je středního rodu; množné číslo (die Steuer) má stejný tvar jako jednotné a používá se jen zřídka.",
-        "Se špatným členem se význam věty mění: am Steuer sitzen je sedět za volantem, kdežto Steuer zahlen je platit daně."
+        "Se špatným členem se význam věty mění: am Steuer sitzen je sedět za volantem, kdežto Steuern zahlen je platit daně."
       ],
       "sectionAccents": {
         "explanation": {

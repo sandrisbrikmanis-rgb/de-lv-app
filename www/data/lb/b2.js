@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Net mat abfinden ouni sich verwiesselen: dat bedeit entschiedegen oder mat Suen zefriddestellen.",
-        "D'Perfektform ass sich abgefunden (mat -ge- an der Mëtt), an net gabgefunden."
+        "D'Perfektform ass sich abgefunden (mat -ge- an der Mëtt), an net geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "sech enthalen",
       "explanation": [
         "Haaptiddi: sich enthalten bedeit sech bewosst vun eppes enthalen – eppes net maachen, net benotzen, net ofstëmmen. D'Sprooch ass formell a geschwollen.",
-        "Duerno kënnt de Genitiv: sich der Stimme enthalten (sech der Stëmm enthalen), sich jeden Kommentars enthalten. Formen: enthält sich, enthielt sich, hat sich enthalten.",
+        "Duerno kënnt de Genitiv: sich der Stimme enthalten (sech der Stëmm enthalen), sich jedes Kommentars enthalten. Formen: enthält sich, enthielt sich, hat sich enthalten.",
         "Ouni sich bedeit enthalten enthalen am Sënn vun dra sinn: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24596,7 +24596,7 @@ const B2_WORDS = [
           "lv": "D'Autoritéite verfügen eng Ausgangssperr."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "De Kinnek huet ugeuerdent, datt d'Paart zougemaach gëtt."
         },
         {

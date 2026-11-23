@@ -1258,7 +1258,7 @@ const A2_WORDS = [
       "translation": "tühistama",
       "explanation": [
         "Põhimõte: absagen on eraldatava eesliitega tegusõna tähendusega tühistama, ära jätma (üritust, kohtumist) või ära ütlema (inimesele): sagt ab, sagte ab, hat abgesagt. Ab seisab lause lõpus.",
-        "Ürituse tühistamisel järgneb akusatiiv: Das Treffen absagen. Inimesele ära öeldes järgneb datiiv: Er hat mir abgesagt (ta ütles mulle ära). Passiivis: Das Fest wurde abgesagt.",
+        "Ürituse tühistamisel järgneb akusatiiv: das Treffen absagen. Inimesele ära öeldes järgneb datiiv: Er hat mir abgesagt (ta ütles mulle ära). Passiivis: Das Fest wurde abgesagt.",
         "Vastand on zusagen – lubama tulla või nõustuma."
       ],
       "examples": [
@@ -18561,7 +18561,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "kõva",
       "explanation": [
-        "Põhimõte: fest on omadussõna ja määrsõna. See tähendab kõva, tahke (mitte vedel): feste Nahrung; püsiv, kindel: ein fester Job, ein fester Termin; kõvasti, tugevasti: fest halten, fest schlafen.",
+        "Põhimõte: fest on omadussõna ja määrsõna. See tähendab kõva, tahke (mitte vedel): feste Nahrung; püsiv, kindel: ein fester Job, ein fester Termin; kõvasti, tugevasti: festhalten, fest schlafen.",
         "Võrdlusastmed: fest, fester, am festesten. Nimisõna ees saab see lõpu: ein festes Dach."
       ],
       "examples": [

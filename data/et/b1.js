@@ -47756,7 +47756,7 @@ const B1_WORDS = [
       "translation": "kalduma",
       "explanation": [
         "Põhimõte: neigen koos eessõnaga zu + datiiv tähendab millegi poole kalduma, kalduvust omama: Er neigt zu schnellen Entscheidungen. Vormid: neigt, neigte, hat geneigt.",
-        "Otseses tähenduses on etwas neigen kallutama, painutama (den Kopf neigen — pead kallutama). Enesekohaselt tähendab sich neigen kalduma, kummarduma või lõpule lähenema: Der Tag neigt sich dem Ende zu.",
+        "Otseses tähenduses on etwas neigen kallutama, painutama (den Kopf neigen — pead kallutama). Enesekohaselt tähendab sich neigen kalduma, kummarduma või lõpule lähenema: Der Tag neigt sich.",
         "Samast tüvest on nimisõna die Neigung (kalduvus, kalle)."
       ],
       "examples": [
@@ -47773,7 +47773,7 @@ const B1_WORDS = [
           "lv": "Aprillis kaldub ilm äärmustesse."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Päev läheneb lõpule."
         }
       ],
@@ -53671,7 +53671,7 @@ const B1_WORDS = [
       "translation": "rebima • rebenema",
       "explanation": [
         "Põhimõte: reißen on tugev tegusõna. Sihitu tegusõnana tähendab see rebenema, katkema (Das Seil reißt), sihitisega aga rebima, kiskuma (Er reißt das Papier).",
-        "Vormid: er reißt, riss, hat gerissen / ist gerissen. Kui miski ise katkeb, kasutatakse sein (Das Seil ist gerissen); kui keegi rebib või tõmbab, kasutatakse haben (Er hat das Papier gerissen).",
+        "Vormid: er reißt, riss, hat gerissen / ist gerissen. Kui miski ise katkeb, kasutatakse sein (Das Seil ist gerissen); kui keegi rebib või tõmbab, kasutatakse haben (Er hat ein Loch in die Hose gerissen).",
         "Sageli eesliidetega: zerreißen (puruks rebima), aufreißen (lahti kiskuma), abreißen (ära rebima, lammutama), losreißen (lahti kiskuma)."
       ],
       "examples": [
@@ -56815,7 +56815,7 @@ const B1_WORDS = [
       "translation": "löök",
       "explanation": [
         "Põhimõte: der Schlag on meessoost nimisõna, mis tähendab lööki (käega, esemega), samuti kella lööki ja südamelööki. Ülekantud tähenduses on see ka raske hoop: Schicksalsschlag (saatuselöök); Blitzschlag on välgulöök.",
-        "Mitmus on die Schläge. Sageli: ein Schlag ins Gesicht (löök näkku), mit einem Schlag (ühe hoobiga, äkki), Schläge bekommen (peksa saama), der Schlag des Herzens (südamelöök).",
+        "Mitmus on die Schläge. Sageli: ein Schlag ins Gesicht (löök näkku), mit einem Schlag (ühe hoobiga, äkki), Schläge bekommen (peksa saama), der Herzschlag (südamelöök).",
         "Selle sõna tüvi on tegusõnas schlagen (lööma), kuid der Schlag tähistab lööki ennast või selle tulemust."
       ],
       "examples": [
@@ -77274,7 +77274,7 @@ const B1_WORDS = [
         "Ametit küsides kasutatakse sageli von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, mitte Ich bin ein Beruf: ametinimetusi (Lehrer, Arzt) kasutatakse tavaliselt ilma artiklita.",
+        "Ich bin Lehrer, mitte Ich bin ein Lehrer: ametinimetusi (Lehrer, Arzt) kasutatakse tavaliselt ilma artiklita.",
         "Beruf ei ole sama mis Arbeit või Job: see on elukutse, mitte konkreetne töö."
       ],
       "sectionAccents": {
@@ -77736,7 +77736,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer on kesksoost sõna; mitmus (die Steuer) on sama mis ainsus ja seda kasutatakse harva.",
-        "Vale artikliga muutub lause mõte: am Steuer sitzen tähendab roolis istumist, Steuer zahlen aga makse maksmist."
+        "Vale artikliga muutub lause mõte: am Steuer sitzen tähendab roolis istumist, Steuern zahlen aga makse maksmist."
       ],
       "sectionAccents": {
         "explanation": {

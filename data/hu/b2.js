@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne keverd a sich nélküli abfinden igével: annak jelentése kártalanít, pénzzel kifizet.",
-        "A Perfekt alak sich abgefunden (a -ge- középen), nem gabgefunden."
+        "A Perfekt alak sich abgefunden (a -ge- középen), nem geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9219,7 +9219,7 @@ const B2_WORDS = [
       "translation": "tartózkodik",
       "explanation": [
         "A lényeg: a sich enthalten jelentése: tudatosan tartózkodik valamitől — nem tesz meg, nem használ valamit, nem szavaz. Választékos, írott nyelvi szó.",
-        "Genitiv (birtokos eset) követi: sich der Stimme enthalten (tartózkodik a szavazástól), sich jeden Kommentars enthalten. Alakok: enthält sich, enthielt sich, hat sich enthalten.",
+        "Genitiv (birtokos eset) követi: sich der Stimme enthalten (tartózkodik a szavazástól), sich jedes Kommentars enthalten. Alakok: enthält sich, enthielt sich, hat sich enthalten.",
         "sich nélkül az enthalten jelentése: tartalmaz: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24595,7 +24595,7 @@ const B2_WORDS = [
           "lv": "A hatóság kijárási tilalmat rendel el."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "A király elrendelte, hogy zárják be a kaput."
         },
         {

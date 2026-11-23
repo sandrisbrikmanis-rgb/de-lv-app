@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "lahem • notoj",
       "explanation": [
-        "Ideja kryesore: baden do të thotë të lahesh në vaskë ose të lahesh në ujë (në det, në liqen) për çlodhje: Im See baden (të lahesh në liqen), in der Wanne baden (të lahesh në vaskë). Format: er badet, badete, hat gebadet.",
+        "Ideja kryesore: baden do të thotë të lahesh në vaskë ose të lahesh në ujë (në det, në liqen) për çlodhje: im See baden (të lahesh në liqen), in der Wanne baden (të lahesh në vaskë). Format: er badet, badete, hat gebadet.",
         "Folja është e rregullt dhe shpesh përdoret me gehen: baden gehen (të shkosh për t'u larë). Në kuptimin kalimtar do të thotë „ta lash në vaskë“: das Baby baden.",
         "Kur notosh si lëvizje (për të përshkuar një distancë), thuhet schwimmen, jo baden."
       ],
@@ -12251,7 +12251,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Ju sot jeni vonuar."
         },
         {

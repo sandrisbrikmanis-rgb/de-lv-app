@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "купатися • викупатися",
       "explanation": [
-        "Головна думка: baden означає митися у ванні або купатися у воді для відпочинку: Im See baden (купатися в озері), in der Wanne baden (митися у ванні). Форми: er badet, badete, hat gebadet.",
+        "Головна думка: baden означає митися у ванні або купатися у воді для відпочинку: im See baden (купатися в озері), in der Wanne baden (митися у ванні). Форми: er badet, badete, hat gebadet.",
         "Дієслово правильне й часто вживається з gehen: baden gehen (іти купатися). У перехідному значенні воно означає «купати у ванні»: das Baby baden.",
         "Плавати як рух (долати дистанцію) — це schwimmen, а не baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Ви сьогодні прийшли пізно."
         },
         {

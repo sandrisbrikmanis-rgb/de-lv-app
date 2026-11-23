@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "disdire • annullare",
       "explanation": [
         "Idea chiave: absagen è un verbo separabile che significa disdire, annullare (un evento, un appuntamento) o dare buca, comunicare un rifiuto (a una persona): sagt ab, sagte ab, hat abgesagt. Ab va in fondo alla frase.",
-        "Se si annulla un evento segue l'accusativo: Das Treffen absagen. Se si disdice con una persona segue il dativo: Er hat mir abgesagt (mi ha dato buca). Al passivo: Das Fest wurde abgesagt.",
+        "Se si annulla un evento segue l'accusativo: das Treffen absagen. Se si disdice con una persona segue il dativo: Er hat mir abgesagt (mi ha dato buca). Al passivo: Das Fest wurde abgesagt.",
         "Il contrario è zusagen: confermare la propria presenza o accettare."
       ],
       "examples": [
@@ -18511,7 +18511,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "solido • fermo",
       "explanation": [
-        "Idea chiave: fest è un aggettivo e un avverbio. Significa solido (non liquido): feste Nahrung; stabile, fisso: ein fester Job, ein fester Termin; saldamente, forte: fest halten, fest schlafen.",
+        "Idea chiave: fest è un aggettivo e un avverbio. Significa solido (non liquido): feste Nahrung; stabile, fisso: ein fester Job, ein fester Termin; saldamente, forte: festhalten, fest schlafen.",
         "Gradi: fest, fester, am festesten. Davanti al sostantivo prende la desinenza: ein festes Dach."
       ],
       "examples": [

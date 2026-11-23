@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ikkje bland med abfinden utan sich: det tyder å kompensere eller gje nokon erstatning i pengar.",
-        "Perfektumsforma er sich abgefunden (med -ge- i midten), ikkje gabgefunden."
+        "Perfektumsforma er sich abgefunden (med -ge- i midten), ikkje geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9219,7 +9219,7 @@ const B2_WORDS = [
       "translation": "halde seg frå",
       "explanation": [
         "Hovudtanken: sich enthalten tyder å medvite halde seg frå noko – ikkje gjere det, ikkje bruke det, ikkje røyste. Språket er formelt og skriftspråkleg.",
-        "Etter verbet kjem genitiv: sich der Stimme enthalten (la vere å røyste), sich jeden Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
+        "Etter verbet kjem genitiv: sich der Stimme enthalten (la vere å røyste), sich jedes Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
         "Utan sich tyder enthalten å innehalde: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24595,7 +24595,7 @@ const B2_WORDS = [
           "lv": "Styresmakta innfører portforbod."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kongen påbaud at porten skulle stengjast."
         },
         {

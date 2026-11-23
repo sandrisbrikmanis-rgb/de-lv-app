@@ -2414,7 +2414,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Koupat se",
       "explanation": [
-        "Hlavní myšlenka: baden znamená mýt se ve vaně nebo se koupat ve vodě pro osvěžení: Im See baden (koupat se v jezeře), in der Wanne baden (koupat se ve vaně). Tvary: er badet, badete, hat gebadet.",
+        "Hlavní myšlenka: baden znamená mýt se ve vaně nebo se koupat ve vodě pro osvěžení: im See baden (koupat se v jezeře), in der Wanne baden (koupat se ve vaně). Tvary: er badet, badete, hat gebadet.",
         "Sloveso je pravidelné a často se pojí s gehen: baden gehen (jít se koupat). Jako přechodné sloveso znamená „koupat někoho“: das Baby baden.",
         "Plavání jako pohyb (uplavání vzdálenosti) se říká schwimmen, ne baden."
       ],
@@ -12254,7 +12254,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Dnes jdete pozdě."
         },
         {

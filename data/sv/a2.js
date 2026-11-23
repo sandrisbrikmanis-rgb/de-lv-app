@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "ställa in • avboka",
       "explanation": [
         "Grundtanke: absagen är ett partikelverb som betyder ställa in (ett evenemang, ett möte) eller lämna återbud (till en person): sagt ab, sagte ab, hat abgesagt. Ab står sist i satsen.",
-        "Om man ställer in ett evenemang följer ackusativ: Das Treffen absagen. Om man lämnar återbud till en person följer dativ: Er hat mir abgesagt (han lämnade återbud till mig). Passiv: Das Fest wurde abgesagt.",
+        "Om man ställer in ett evenemang följer ackusativ: das Treffen absagen. Om man lämnar återbud till en person följer dativ: Er hat mir abgesagt (han lämnade återbud till mig). Passiv: Das Fest wurde abgesagt.",
         "Motsatsen är zusagen – lova att komma eller tacka ja."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "fast • hård",
       "explanation": [
-        "Grundidé: fest är både adjektiv och adverb. Det betyder fast (inte flytande): feste Nahrung; stabil, oföränderlig: ein fester Job, ein fester Termin; hårt, stadigt, djupt: fest halten, fest schlafen.",
+        "Grundidé: fest är både adjektiv och adverb. Det betyder fast (inte flytande): feste Nahrung; stabil, oföränderlig: ein fester Job, ein fester Termin; hårt, stadigt, djupt: festhalten, fest schlafen.",
         "Komparation: fest, fester, am festesten. Framför ett substantiv får det en ändelse: ein festes Dach."
       ],
       "examples": [

@@ -2412,7 +2412,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "baden • zwemmen",
       "explanation": [
-        "Kern: baden betekent in bad gaan of voor je plezier zwemmen in open water: Im See baden (in het meer zwemmen), in der Wanne baden (in bad gaan). Vormen: er badet, badete, hat gebadet.",
+        "Kern: baden betekent in bad gaan of voor je plezier zwemmen in open water: im See baden (in het meer zwemmen), in der Wanne baden (in bad gaan). Vormen: er badet, badete, hat gebadet.",
         "Het werkwoord is regelmatig en komt vaak voor met gehen: baden gehen (gaan zwemmen). Met een lijdend voorwerp betekent het 'in bad doen': das Baby baden.",
         "Zwemmen als beweging (een afstand afleggen) is schwimmen, niet baden."
       ],
@@ -12249,7 +12249,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Jullie zijn vandaag laat."
         },
         {

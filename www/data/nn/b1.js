@@ -47689,7 +47689,7 @@ const B1_WORDS = [
       "translation": "helle • vere tilbøyeleg til",
       "explanation": [
         "Hovudtyding: neigen med zu + dativ tyder å ha ein tendens til noko, vere tilbøyeleg til noko: Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret tyding tyder etwas neigen å bøye eller helle noko (den Kopf neigen). Refleksivt tyder sich neigen å bøye seg eller å nærme seg slutten: Der Tag neigt sich dem Ende zu.",
+        "I konkret tyding tyder etwas neigen å bøye eller helle noko (den Kopf neigen). Refleksivt tyder sich neigen å bøye seg eller å nærme seg slutten: Der Tag neigt sich.",
         "Av same rota er substantivet die Neigung (tilbøyelegheit, hang, helling)."
       ],
       "examples": [
@@ -47706,7 +47706,7 @@ const B1_WORDS = [
           "lv": "I april har vêret ein tendens til å gå til ytterpunkt."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dagen nærmar seg slutten."
         }
       ],
@@ -53611,7 +53611,7 @@ const B1_WORDS = [
       "translation": "rive • rivne",
       "explanation": [
         "Hovudtyding: reißen er eit sterkt verb. Utan objekt tyder det å rivne, ryke (Das Seil reißt), med objekt å rive, slite (Er reißt das Papier).",
-        "Former: er reißt, riss, hat gerissen / ist gerissen. Når noko ryk av seg sjølv, blir sein brukt (Das Seil ist gerissen); når nokon riv eller dreg, blir haben brukt (Er hat das Papier gerissen).",
+        "Former: er reißt, riss, hat gerissen / ist gerissen. Når noko ryk av seg sjølv, blir sein brukt (Das Seil ist gerissen); når nokon riv eller dreg, blir haben brukt (Er hat ein Loch in die Hose gerissen).",
         "Ofte med prefiks: zerreißen (rive i stykke), aufreißen (rive opp), abreißen (rive av, rive ned), losreißen (rive laus)."
       ],
       "examples": [
@@ -54489,7 +54489,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovudtyding: rollen tyder å rulle: å bevege seg på hjul eller som eit hjul, ein rund gjenstand rullar over ei flate. Med objekt tyder det òg å trille noko eller rulle saman.",
         "Former: rollt, rollte, ist gerollt (når noko rullar) og hat gerollt (når nokon rullar noko). Til dømes: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Vanlege uttrykk: rollen über (rulle over), zusammenrollen (rulle saman), losrollen (byrje å rulle), rollen mit den Augen – himle med auga (av irritasjon)."
+        "Vanlege uttrykk: rollen über (rulle over), zusammenrollen (rulle saman), losrollen (byrje å rulle), mit den Augen rollen – himle med auga (av irritasjon)."
       ],
       "examples": [
         {
@@ -56760,7 +56760,7 @@ const B1_WORDS = [
       "translation": "slag",
       "explanation": [
         "Hovudtyding: der Schlag er eit substantiv i hankjønn som tyder slag, støyt (med handa, ein gjenstand), òg klokkeslag og hjarteslag. I overført tyding er det òg eit hardt slag: Schicksalsschlag (skjebneslag); Blitzschlag er eit lynnedslag.",
-        "Fleirtal er die Schläge. Vanleg: ein Schlag ins Gesicht (eit slag i andletet), mit einem Schlag (på eit augeblink), Schläge bekommen (få juling), der Schlag des Herzens (hjarteslag).",
+        "Fleirtal er die Schläge. Vanleg: ein Schlag ins Gesicht (eit slag i andletet), mit einem Schlag (på eit augeblink), Schläge bekommen (få juling), der Herzschlag (hjarteslag).",
         "Verbet schlagen (slå) er rota til dette ordet, men der Schlag gjeld sjølve slaget eller resultatet av det."
       ],
       "examples": [
@@ -77205,7 +77205,7 @@ const B1_WORDS = [
         "I spørsmål om yrke blir von Beruf ofte brukt: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, ikkje Ich bin ein Beruf: yrkesnemningar (Lehrer, Arzt) blir vanlegvis brukte utan artikkel.",
+        "Ich bin Lehrer, ikkje Ich bin ein Lehrer: yrkesnemningar (Lehrer, Arzt) blir vanlegvis brukte utan artikkel.",
         "Beruf er ikkje det same som Arbeit eller Job: det er eit yrke, ikkje ein konkret jobb."
       ],
       "sectionAccents": {
@@ -77668,7 +77668,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer er inkjekjønn; fleirtal (die Steuer) er likt eintal og blir sjeldan brukt.",
-        "Med feil artikkel endrar meininga seg: am Steuer sitzen er å sitje bak rattet, medan Steuer zahlen er å betale skatt."
+        "Med feil artikkel endrar meininga seg: am Steuer sitzen er å sitje bak rattet, medan Steuern zahlen er å betale skatt."
       ],
       "sectionAccents": {
         "explanation": {

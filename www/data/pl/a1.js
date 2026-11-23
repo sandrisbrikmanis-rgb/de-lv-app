@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "kąpać się",
       "explanation": [
-        "Główna myśl: baden znaczy kąpać się w wannie albo kąpać się w wodzie dla przyjemności: Im See baden (kąpać się w jeziorze), in der Wanne baden (kąpać się w wannie). Formy: er badet, badete, hat gebadet.",
+        "Główna myśl: baden znaczy kąpać się w wannie albo kąpać się w wodzie dla przyjemności: im See baden (kąpać się w jeziorze), in der Wanne baden (kąpać się w wannie). Formy: er badet, badete, hat gebadet.",
         "Czasownik jest regularny i często łączy się z gehen: baden gehen (iść się kąpać). W znaczeniu przechodnim znaczy „kąpać w wannie” kogoś: das Baby baden.",
         "Pływać w sensie ruchu (pokonywać dystans) to schwimmen, a nie baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Jesteście dziś spóźnieni."
         },
         {

@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "mať sklon • nakláňať sa",
       "explanation": [
         "Hlavná myšlienka: neigen so zu + datív znamená mať sklon k niečomu, inklinovať: Er neigt zu schnellen Entscheidungen. Tvary: neigt, neigte, hat geneigt.",
-        "V priamom význame etwas neigen znamená nakloniť, skloniť (den Kopf neigen). Zvratné sich neigen znamená nakloniť sa alebo blížiť sa ku koncu: Der Tag neigt sich dem Ende zu.",
+        "V priamom význame etwas neigen znamená nakloniť, skloniť (den Kopf neigen). Zvratné sich neigen znamená nakloniť sa alebo blížiť sa ku koncu: Der Tag neigt sich.",
         "Od toho istého základu je utvorené podstatné meno die Neigung (sklon, náklonnosť, naklonenie)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "Počasie má v apríli sklon k extrémom."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Deň sa chýli ku koncu."
         }
       ],
@@ -53623,7 +53623,7 @@ const B1_WORDS = [
       "translation": "trhať • roztrhnúť sa",
       "explanation": [
         "Hlavná myšlienka: reißen je silné sloveso. Bez predmetu znamená trhať sa, pretrhnúť sa (Das Seil reißt), s predmetom – trhať, ťahať (Er reißt das Papier).",
-        "Tvary: er reißt, riss, hat gerissen / ist gerissen. Keď sa niečo pretrhne samo, používa sa sein (Das Seil ist gerissen); keď niekto trhá alebo ťahá, používa sa haben (Er hat das Papier gerissen).",
+        "Tvary: er reißt, riss, hat gerissen / ist gerissen. Keď sa niečo pretrhne samo, používa sa sein (Das Seil ist gerissen); keď niekto trhá alebo ťahá, používa sa haben (Er hat ein Loch in die Hose gerissen).",
         "Často s predponami: zerreißen (roztrhať), aufreißen (prudko otvoriť, roztrhnúť), abreißen (odtrhnúť, zbúrať), losreißen (vytrhnúť, odtrhnúť)."
       ],
       "examples": [
@@ -54501,7 +54501,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: rollen znamená kotúľať sa, gúľať sa: pohybovať sa na kolesách alebo ako koleso, keď sa okrúhly predmet kotúľa po povrchu. S predmetom to znamená aj kotúľať niečo alebo zvinúť.",
         "Tvary: rollt, rollte, ist gerollt (keď sa niečo kotúľa) a hat gerollt (keď niekto niečo kotúľa). Napríklad: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Časté spojenia: rollen über (kotúľať sa cez niečo), zusammenrollen (zvinúť), losrollen (pohnúť sa, dať sa do pohybu), rollen mit den Augen – prevracať očami (od rozčúlenia)."
+        "Časté spojenia: rollen über (kotúľať sa cez niečo), zusammenrollen (zvinúť), losrollen (pohnúť sa, dať sa do pohybu), mit den Augen rollen – prevracať očami (od rozčúlenia)."
       ],
       "examples": [
         {
@@ -56773,7 +56773,7 @@ const B1_WORDS = [
       "translation": "úder",
       "explanation": [
         "Hlavná myšlienka: der Schlag je podstatné meno mužského rodu, ktoré znamená úder, ranu (rukou, predmetom), ako aj odbíjanie hodín a úder srdca. V prenesenom význame je to aj ťažká rana: Schicksalsschlag (rana osudu); Blitzschlag je úder blesku.",
-        "Množné číslo je die Schläge. Často: ein Schlag ins Gesicht (úder do tváre), mit einem Schlag (v okamihu), Schläge bekommen (dostať bitku), der Schlag des Herzens (úder srdca).",
+        "Množné číslo je die Schläge. Často: ein Schlag ins Gesicht (úder do tváre), mit einem Schlag (v okamihu), Schläge bekommen (dostať bitku), der Herzschlag (úder srdca).",
         "Sloveso schlagen (biť, udrieť) je koreňom tohto slova, ale der Schlag označuje samotný úder alebo jeho výsledok."
       ],
       "examples": [
@@ -77220,7 +77220,7 @@ const B1_WORDS = [
         "V otázke na povolanie sa často používa von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, nie Ich bin ein Beruf: názvy povolaní (Lehrer, Arzt) sa zvyčajne používajú bez člena.",
+        "Ich bin Lehrer, nie Ich bin ein Lehrer: názvy povolaní (Lehrer, Arzt) sa zvyčajne používajú bez člena.",
         "Beruf nie je to isté ako Arbeit alebo Job: je to povolanie, nie konkrétna práca."
       ],
       "sectionAccents": {
@@ -77683,7 +77683,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer je slovo stredného rodu; množné číslo (die Steuer) má rovnaký tvar ako jednotné a používa sa zriedka.",
-        "S nesprávnym členom sa zmysel vety mení: am Steuer sitzen je sedieť za volantom, ale Steuer zahlen je platiť dane."
+        "S nesprávnym členom sa zmysel vety mení: am Steuer sitzen je sedieť za volantom, ale Steuern zahlen je platiť dane."
       ],
       "sectionAccents": {
         "explanation": {

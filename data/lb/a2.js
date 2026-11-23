@@ -1251,7 +1251,7 @@ const A2_WORDS = [
       "translation": "ofsoen",
       "explanation": [
         "Haaptiddi: absagen ass en trennbaart Verb mat der Bedeitung ofsoen (en Event, e Rendez-vous) oder engem ofsoen: sagt ab, sagte ab, hat abgesagt. Ab steet um Enn vum Saz.",
-        "Wann een en Event ofseet, kënnt den Akkusativ: Das Treffen absagen. Wann een enger Persoun ofseet, kënnt den Dativ: Er hat mir abgesagt (hien huet mir ofgesot). Am Passiv: Das Fest wurde abgesagt.",
+        "Wann een en Event ofseet, kënnt den Akkusativ: das Treffen absagen. Wann een enger Persoun ofseet, kënnt den Dativ: Er hat mir abgesagt (hien huet mir ofgesot). Am Passiv: Das Fest wurde abgesagt.",
         "D'Géigedeel ass zusagen — zousoen oder accordéieren."
       ],
       "examples": [
@@ -18497,7 +18497,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "fest",
       "explanation": [
-        "Haaptiddi: fest ass en Adjektiv an en Adverb. Et bedeit fest (net flësseg): feste Nahrung; stabil, onverännert: ein fester Job, ein fester Termin; fest, staark: fest halten, fest schlafen.",
+        "Haaptiddi: fest ass en Adjektiv an en Adverb. Et bedeit fest (net flësseg): feste Nahrung; stabil, onverännert: ein fester Job, ein fester Termin; fest, staark: festhalten, fest schlafen.",
         "Steigerung: fest, fester, am festesten. Virun engem Nomen kritt et eng Endung: ein festes Dach."
       ],
       "examples": [

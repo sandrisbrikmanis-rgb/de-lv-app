@@ -47699,7 +47699,7 @@ const B1_WORDS = [
       "translation": "tender • inclinar-se",
       "explanation": [
         "Ideia principal: neigen com zu + dativo significa tender para algo, ter propensão: Er neigt zu schnellen Entscheidungen. Formas: neigt, neigte, hat geneigt.",
-        "No sentido literal, etwas neigen é inclinar (den Kopf neigen). Na forma reflexa, sich neigen significa inclinar-se ou aproximar-se do fim: Der Tag neigt sich dem Ende zu.",
+        "No sentido literal, etwas neigen é inclinar (den Kopf neigen). Na forma reflexa, sich neigen significa inclinar-se ou aproximar-se do fim: Der Tag neigt sich.",
         "Da mesma raiz forma-se o substantivo die Neigung (tendência, propensão, inclinação)."
       ],
       "examples": [
@@ -47716,7 +47716,7 @@ const B1_WORDS = [
           "lv": "Em abril, o tempo tende para extremos."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "O dia aproxima-se do fim."
         }
       ],
@@ -53621,7 +53621,7 @@ const B1_WORDS = [
       "translation": "rasgar • rebentar",
       "explanation": [
         "Ideia principal: reißen é um verbo forte. Sem complemento significa romper-se, rebentar (Das Seil reißt); com complemento – rasgar, arrancar (Er reißt das Papier).",
-        "Formas: er reißt, riss, hat gerissen / ist gerissen. Quando algo se rompe por si, usa-se sein (Das Seil ist gerissen); quando alguém rasga ou puxa, usa-se haben (Er hat das Papier gerissen).",
+        "Formas: er reißt, riss, hat gerissen / ist gerissen. Quando algo se rompe por si, usa-se sein (Das Seil ist gerissen); quando alguém rasga ou puxa, usa-se haben (Er hat ein Loch in die Hose gerissen).",
         "Muitas vezes com prefixos: zerreißen (rasgar em pedaços), aufreißen (abrir de repente), abreißen (arrancar, demolir), losreißen (soltar à força)."
       ],
       "examples": [
@@ -54499,7 +54499,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideia principal: rollen significa rolar: mover-se sobre rodas ou como uma roda; um objeto redondo rola por uma superfície. Com complemento significa também fazer rolar ou enrolar.",
         "Formas: rollt, rollte, ist gerollt (quando algo rola) e hat gerollt (quando alguém faz rolar). Por exemplo: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Combinações frequentes: rollen über (rolar por cima de), zusammenrollen (enrolar), losrollen (começar a rolar), rollen mit den Augen – revirar os olhos (de irritação)."
+        "Combinações frequentes: rollen über (rolar por cima de), zusammenrollen (enrolar), losrollen (começar a rolar), mit den Augen rollen – revirar os olhos (de irritação)."
       ],
       "examples": [
         {
@@ -56771,7 +56771,7 @@ const B1_WORDS = [
       "translation": "golpe • pancada",
       "explanation": [
         "Ideia principal: der Schlag é um substantivo masculino que significa golpe, pancada (com a mão, com um objeto), e também a badalada do relógio e o batimento do coração. Em sentido figurado, é também um duro golpe: Schicksalsschlag (golpe do destino); Blitzschlag é a queda de um raio.",
-        "O plural é die Schläge. Frequente: ein Schlag ins Gesicht (uma pancada na cara), mit einem Schlag (num instante), Schläge bekommen (levar uma tareia), der Schlag des Herzens (o batimento do coração).",
+        "O plural é die Schläge. Frequente: ein Schlag ins Gesicht (uma pancada na cara), mit einem Schlag (num instante), Schläge bekommen (levar uma tareia), der Herzschlag (o batimento do coração).",
         "O verbo schlagen (bater) é a raiz desta palavra, mas der Schlag refere-se ao próprio golpe ou ao seu resultado."
       ],
       "examples": [
@@ -77217,7 +77217,7 @@ const B1_WORDS = [
         "Na pergunta sobre a profissão usa-se muitas vezes von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, e não Ich bin ein Beruf: os nomes das profissões (Lehrer, Arzt) usam-se normalmente sem artigo.",
+        "Ich bin Lehrer, e não Ich bin ein Lehrer: os nomes das profissões (Lehrer, Arzt) usam-se normalmente sem artigo.",
         "Beruf não é o mesmo que Arbeit ou Job: é a profissão, não um trabalho concreto."
       ],
       "sectionAccents": {
@@ -77680,7 +77680,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer é uma palavra neutra; o plural (die Steuer) é igual ao singular e usa-se pouco.",
-        "Com o artigo errado, o sentido da frase muda: am Steuer sitzen é estar ao volante, mas Steuer zahlen é pagar impostos."
+        "Com o artigo errado, o sentido da frase muda: am Steuer sitzen é estar ao volante, mas Steuern zahlen é pagar impostos."
       ],
       "sectionAccents": {
         "explanation": {

@@ -47601,7 +47601,7 @@ const B1_WORDS = [
       "translation": "To be inclined; to lean",
       "explanation": [
         "Main idea: neigen with zu + dative means to be inclined to something, to have a tendency: Er neigt zu schnellen Entscheidungen. Forms: neigt, neigte, hat geneigt.",
-        "In the literal sense, etwas neigen means to tilt or lean something (den Kopf neigen). Reflexively, sich neigen means to lean or to draw to a close: Der Tag neigt sich dem Ende zu.",
+        "In the literal sense, etwas neigen means to tilt or lean something (den Kopf neigen). Reflexively, sich neigen means to lean or to draw to a close: Der Tag neigt sich.",
         "The noun die Neigung (inclination, tendency, slope) is formed from the same root."
       ],
       "examples": [
@@ -47618,7 +47618,7 @@ const B1_WORDS = [
           "lv": "In April the weather tends towards extremes."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "The day is drawing to a close."
         }
       ],
@@ -53516,7 +53516,7 @@ const B1_WORDS = [
       "translation": "To tear; to rip; to burst",
       "explanation": [
         "Main idea: reißen is a strong verb. Without an object it means to tear or snap (Das Seil reißt); with an object it means to rip or pull violently (Er reißt das Papier).",
-        "Forms: er reißt, riss, hat gerissen / ist gerissen. If something breaks of its own accord, sein is used (Das Seil ist gerissen); if someone tears or pulls something, haben is used (Er hat das Papier gerissen).",
+        "Forms: er reißt, riss, hat gerissen / ist gerissen. If something breaks of its own accord, sein is used (Das Seil ist gerissen); if someone tears or pulls something, haben is used (Er hat ein Loch in die Hose gerissen).",
         "Common with prefixes: zerreißen (to tear up), aufreißen (to tear open), abreißen (to tear off, to pull down), losreißen (to tear away)."
       ],
       "examples": [
@@ -54395,7 +54395,7 @@ const B1_WORDS = [
       "explanation": [
         "Main idea: rollen means to roll: to move on wheels or like a wheel; a round object rolls across a surface. With an object it also means to roll something along or to roll something up.",
         "Forms: rollt, rollte, ist gerollt (when something rolls) and hat gerollt (when someone rolls something). For example: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Common phrases: rollen über (to roll over), zusammenrollen (to roll up), losrollen (to start rolling), rollen mit den Augen – to roll one's eyes (in annoyance)."
+        "Common phrases: rollen über (to roll over), zusammenrollen (to roll up), losrollen (to start rolling), mit den Augen rollen – to roll one's eyes (in annoyance)."
       ],
       "examples": [
         {
@@ -56664,7 +56664,7 @@ const B1_WORDS = [
       "translation": "A blow",
       "explanation": [
         "Main idea: der Schlag is a masculine noun meaning a blow or hit (with the hand or an object), also the striking of a clock and a heartbeat. Figuratively it also means a heavy blow: Schicksalsschlag (stroke of fate); Blitzschlag is a lightning strike.",
-        "The plural is die Schläge. Common phrases: ein Schlag ins Gesicht (a slap in the face), mit einem Schlag (all at once), Schläge bekommen (to get a beating), der Schlag des Herzens (heartbeat).",
+        "The plural is die Schläge. Common phrases: ein Schlag ins Gesicht (a slap in the face), mit einem Schlag (all at once), Schläge bekommen (to get a beating), der Herzschlag (heartbeat).",
         "The verb schlagen (to hit) is the root of this word, but der Schlag refers to the blow itself or its result."
       ],
       "examples": [
@@ -77086,7 +77086,7 @@ const B1_WORDS = [
         "In questions about occupation, von Beruf is common: Was bist du von Beruf?"
       ],
       "important": [
-        "It is Ich bin Lehrer, not Ich bin ein Beruf: names of professions (Lehrer, Arzt) are normally used without an article.",
+        "It is Ich bin Lehrer, not Ich bin ein Lehrer: names of professions (Lehrer, Arzt) are normally used without an article.",
         "Beruf is not the same as Arbeit or Job: it is a profession, not a particular piece of work."
       ],
       "sectionAccents": {

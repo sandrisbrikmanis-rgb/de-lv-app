@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ära aja segi abfinden-iga ilma sich-ita: see tähendab hüvitama või rahaga rahuldama.",
-        "Täisminevikuvorm on sich abgefunden (-ge- keskel), mitte gabgefunden."
+        "Täisminevikuvorm on sich abgefunden (-ge- keskel), mitte geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9227,7 +9227,7 @@ const B2_WORDS = [
       "translation": "hoiduma millestki",
       "explanation": [
         "Põhiidee: sich enthalten tähendab teadlikult millestki hoiduma – mitte tegema, mitte tarvitama, mitte hääletama. Keel on ametlik ja raamatulik.",
-        "Sellele järgneb genitiiv: sich der Stimme enthalten (hääletamisest hoiduma, erapooletuks jääma), sich jeden Kommentars enthalten. Põhivormid: enthält sich, enthielt sich, hat sich enthalten.",
+        "Sellele järgneb genitiiv: sich der Stimme enthalten (hääletamisest hoiduma, erapooletuks jääma), sich jedes Kommentars enthalten. Põhivormid: enthält sich, enthielt sich, hat sich enthalten.",
         "Ilma asesõnata sich tähendab enthalten sisaldama: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24595,7 +24595,7 @@ const B2_WORDS = [
           "lv": "Asutus kehtestab liikumiskeelu."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kuningas käskis värava sulgeda."
         },
         {

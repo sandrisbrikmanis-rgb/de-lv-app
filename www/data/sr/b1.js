@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "naginjati • biti sklon",
       "explanation": [
         "Osnovna ideja: neigen sa zu + dativ znači naginjati nečemu, biti sklon nečemu: Er neigt zu schnellen Entscheidungen. Oblici: neigt, neigte, hat geneigt.",
-        "U doslovnom značenju etwas neigen znači nagnuti (den Kopf neigen). Povratno sich neigen znači nagnuti se ili bližiti se kraju: Der Tag neigt sich dem Ende zu.",
+        "U doslovnom značenju etwas neigen znači nagnuti (den Kopf neigen). Povratno sich neigen znači nagnuti se ili bližiti se kraju: Der Tag neigt sich.",
         "Od istog korena je imenica die Neigung (sklonost, težnja, nagib)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "Vreme u aprilu naginje ekstremima."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dan se bliži kraju."
         }
       ],
@@ -53622,7 +53622,7 @@ const B1_WORDS = [
       "translation": "cepati se • kidati se",
       "explanation": [
         "Osnovna ideja: reißen je jak glagol. Bez objekta znači pucati, kidati se (Das Seil reißt), a sa objektom – cepati, trgnuti (Er reißt das Papier).",
-        "Oblici: er reißt, riss, hat gerissen / ist gerissen. Ako nešto samo pukne, koristi se sein (Das Seil ist gerissen); ako neko cepa ili vuče, koristi se haben (Er hat das Papier gerissen).",
+        "Oblici: er reißt, riss, hat gerissen / ist gerissen. Ako nešto samo pukne, koristi se sein (Das Seil ist gerissen); ako neko cepa ili vuče, koristi se haben (Er hat ein Loch in die Hose gerissen).",
         "Često sa prefiksima: zerreißen (pocepati), aufreißen (naglo otvoriti), abreißen (otkinuti, srušiti), losreißen (otrgnuti)."
       ],
       "examples": [
@@ -54500,7 +54500,7 @@ const B1_WORDS = [
       "explanation": [
         "Osnovna ideja: rollen znači kotrljati se: kretati se na točkovima ili kao točak, kao kada se okrugao predmet kotrlja po površini. Sa objektom znači i kotrljati nešto ili smotati.",
         "Oblici: rollt, rollte, ist gerollt (kada se nešto kotrlja) i hat gerollt (kada neko nešto kotrlja). Na primer: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Česte veze: rollen über (kotrljati se preko), zusammenrollen (smotati), losrollen (početi da se kotrlja), rollen mit den Augen – kolutati očima (od ljutnje)."
+        "Česte veze: rollen über (kotrljati se preko), zusammenrollen (smotati), losrollen (početi da se kotrlja), mit den Augen rollen – kolutati očima (od ljutnje)."
       ],
       "examples": [
         {
@@ -56772,7 +56772,7 @@ const B1_WORDS = [
       "translation": "udarac",
       "explanation": [
         "Osnovna ideja: der Schlag je imenica muškog roda koja znači udarac (rukom, predmetom), kao i otkucaj sata i otkucaj srca. U prenesenom značenju to je i težak udarac: Schicksalsschlag (udarac sudbine); Blitzschlag je udar groma.",
-        "Množina je die Schläge. Često: ein Schlag ins Gesicht (udarac u lice), mit einem Schlag (u trenu), Schläge bekommen (dobiti batine), der Schlag des Herzens (otkucaj srca).",
+        "Množina je die Schläge. Često: ein Schlag ins Gesicht (udarac u lice), mit einem Schlag (u trenu), Schläge bekommen (dobiti batine), der Herzschlag (otkucaj srca).",
         "Glagol schlagen (udarati) je koren ove reči, ali der Schlag se odnosi na sam udarac ili njegov rezultat."
       ],
       "examples": [
@@ -77219,7 +77219,7 @@ const B1_WORDS = [
         "U pitanju o zanimanju često se koristi von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, a ne Ich bin ein Beruf: nazivi zanimanja (Lehrer, Arzt) obično se koriste bez člana.",
+        "Ich bin Lehrer, a ne Ich bin ein Lehrer: nazivi zanimanja (Lehrer, Arzt) obično se koriste bez člana.",
         "Beruf nije isto što i Arbeit ili Job: to je profesija, a ne konkretan posao."
       ],
       "sectionAccents": {
@@ -77682,7 +77682,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer je reč srednjeg roda; množina (die Steuer) ista je kao jednina i retko se koristi.",
-        "Sa pogrešnim članom smisao rečenice se menja: am Steuer sitzen je za volanom, a Steuer zahlen je plaćati poreze."
+        "Sa pogrešnim članom smisao rečenice se menja: am Steuer sitzen je za volanom, a Steuern zahlen je plaćati poreze."
       ],
       "sectionAccents": {
         "explanation": {

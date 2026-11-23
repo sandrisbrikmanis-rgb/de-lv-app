@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "iptal etmek",
       "explanation": [
         "Kısaca: absagen ayrılabilen bir fiildir ve (bir etkinliği, buluşmayı) iptal etmek ya da (birine) gelemeyeceğini bildirmek, reddetmek anlamına gelir: sagt ab, sagte ab, hat abgesagt. Ab cümlenin sonunda durur.",
-        "Bir etkinlik iptal ediliyorsa ardından belirtme hâli (Akkusativ) gelir: Das Treffen absagen. Bir kişiye haber veriliyorsa yönelme hâli (Dativ) gelir: Er hat mir abgesagt (bana gelemeyeceğini bildirdi). Edilgen çatı: Das Fest wurde abgesagt.",
+        "Bir etkinlik iptal ediliyorsa ardından belirtme hâli (Akkusativ) gelir: das Treffen absagen. Bir kişiye haber veriliyorsa yönelme hâli (Dativ) gelir: Er hat mir abgesagt (bana gelemeyeceğini bildirdi). Edilgen çatı: Das Fest wurde abgesagt.",
         "Karşıtı zusagen fiilidir: geleceğine söz vermek ya da kabul etmek."
       ],
       "examples": [
@@ -18516,7 +18516,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "katı • sağlam",
       "explanation": [
-        "fest hem sıfat hem zarftır. Katı (sıvı değil) demektir: feste Nahrung; sağlam, değişmez: ein fester Job, ein fester Termin; sıkı, sıkıca: fest halten, fest schlafen.",
+        "fest hem sıfat hem zarftır. Katı (sıvı değil) demektir: feste Nahrung; sağlam, değişmez: ein fester Job, ein fester Termin; sıkı, sıkıca: festhalten, fest schlafen.",
         "Karşılaştırma dereceleri: fest, fester, am festesten. İsimden önce çekim eki alır: ein festes Dach."
       ],
       "examples": [

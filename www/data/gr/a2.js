@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "ακυρώνω",
       "explanation": [
         "Βασική ιδέα: το absagen είναι χωριζόμενο ρήμα με τη σημασία «ακυρώνω» (εκδήλωση, συνάντηση) ή «αρνούμαι, λέω όχι» σε κάποιον: sagt ab, sagte ab, hat abgesagt. Το Ab μπαίνει στο τέλος της πρότασης.",
-        "Όταν ακυρώνεις εκδήλωση, ακολουθεί αιτιατική: Das Treffen absagen. Όταν ακυρώνεις σε πρόσωπο, ακολουθεί δοτική: Er hat mir abgesagt (μου είπε ότι δεν θα έρθει). Στην παθητική φωνή: Das Fest wurde abgesagt.",
+        "Όταν ακυρώνεις εκδήλωση, ακολουθεί αιτιατική: das Treffen absagen. Όταν ακυρώνεις σε πρόσωπο, ακολουθεί δοτική: Er hat mir abgesagt (μου είπε ότι δεν θα έρθει). Στην παθητική φωνή: Das Fest wurde abgesagt.",
         "Το αντίθετο είναι zusagen — υπόσχομαι ότι θα έρθω ή συμφωνώ."
       ],
       "examples": [
@@ -18513,7 +18513,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "στερεός • σκληρός • σταθερός",
       "explanation": [
-        "Βασική ιδέα: το fest είναι επίθετο και επίρρημα. Σημαίνει στερεός (όχι υγρός): feste Nahrung· σταθερός, μόνιμος: ein fester Job, ein fester Termin· γερά, σφιχτά: fest halten, fest schlafen.",
+        "Βασική ιδέα: το fest είναι επίθετο και επίρρημα. Σημαίνει στερεός (όχι υγρός): feste Nahrung· σταθερός, μόνιμος: ein fester Job, ein fester Termin· γερά, σφιχτά: festhalten, fest schlafen.",
         "Βαθμοί: fest, fester, am festesten. Πριν από ουσιαστικό παίρνει κατάληξη: ein festes Dach."
       ],
       "examples": [

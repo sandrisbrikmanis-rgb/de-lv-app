@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не мешај со abfinden без sich: тоа значи обесштетува или задоволува со пари.",
-        "Формата во Perfekt е sich abgefunden (со -ge- во средината), а не gabgefunden."
+        "Формата во Perfekt е sich abgefunden (со -ge- во средината), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "се воздржува • се воздржи",
       "explanation": [
         "Главна идеја: sich enthalten значи свесно да се воздржи од нешто — да не прави, да не користи, да не гласа. Јазикот е формален, книжевен.",
-        "По него следува генитив: sich der Stimme enthalten (да се воздржи од гласање), sich jeden Kommentars enthalten. Форми: enthält sich, enthielt sich, hat sich enthalten.",
+        "По него следува генитив: sich der Stimme enthalten (да се воздржи од гласање), sich jedes Kommentars enthalten. Форми: enthält sich, enthielt sich, hat sich enthalten.",
         "Без sich глаголот enthalten значи содржи: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Институцијата одредува полициски час."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Кралот нареди портата да се затвори."
         },
         {

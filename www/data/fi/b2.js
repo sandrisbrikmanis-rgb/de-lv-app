@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Älä sekoita verbiin abfinden ilman sich-pronominia: se tarkoittaa korvata tai hyvittää rahalla.",
-        "Perfektimuoto on sich abgefunden (-ge- keskellä), ei gabgefunden."
+        "Perfektimuoto on sich abgefunden (-ge- keskellä), ei geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "pidättäytyä",
       "explanation": [
         "Perusajatus: sich enthalten tarkoittaa pidättäytyä tietoisesti jostakin – olla tekemättä, käyttämättä tai äänestämättä. Kieli on muodollista, kirjakielistä.",
-        "Sen jälkeen tulee genetiivi: sich der Stimme enthalten (pidättäytyä äänestämästä), sich jeden Kommentars enthalten. Muodot: enthält sich, enthielt sich, hat sich enthalten.",
+        "Sen jälkeen tulee genetiivi: sich der Stimme enthalten (pidättäytyä äänestämästä), sich jedes Kommentars enthalten. Muodot: enthält sich, enthielt sich, hat sich enthalten.",
         "Ilman sich-pronominia enthalten tarkoittaa sisältää: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Viranomainen määrää ulkonaliikkumiskiellon."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kuningas määräsi, että portti suljetaan."
         },
         {

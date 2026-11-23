@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "banhar-se • tomar banho",
       "explanation": [
-        "Ideia principal: baden significa tomar banho de imersão ou banhar-se na água por lazer: Im See baden (banhar-se no lago), in der Wanne baden (tomar banho na banheira). Formas: er badet, badete, hat gebadet.",
+        "Ideia principal: baden significa tomar banho de imersão ou banhar-se na água por lazer: im See baden (banhar-se no lago), in der Wanne baden (tomar banho na banheira). Formas: er badet, badete, hat gebadet.",
         "É um verbo regular e usa-se muitas vezes com gehen: baden gehen (ir dar um mergulho). No sentido transitivo significa 'dar banho': das Baby baden.",
         "Nadar como movimento (percorrer uma distância) diz-se schwimmen, não baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Hoje vocês estão atrasados."
         },
         {

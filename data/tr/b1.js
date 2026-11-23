@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "eğilmek • eğilimli olmak",
       "explanation": [
         "Temel anlam: neigen, zu + Dativ ile bir şeye eğilimli olmak demektir: Er neigt zu schnellen Entscheidungen. Biçimleri: neigt, neigte, hat geneigt.",
-        "Doğrudan anlamda etwas neigen bir şeyi eğmektir (den Kopf neigen). Dönüşlü sich neigen eğilmek ya da sona yaklaşmak demektir: Der Tag neigt sich dem Ende zu.",
+        "Doğrudan anlamda etwas neigen bir şeyi eğmektir (den Kopf neigen). Dönüşlü sich neigen eğilmek ya da sona yaklaşmak demektir: Der Tag neigt sich.",
         "Aynı kökten die Neigung (eğilim, yatkınlık, eğim) ismi türemiştir."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "Nisanda hava aşırılıklara eğilimlidir."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Gün sona yaklaşıyor."
         }
       ],
@@ -53623,7 +53623,7 @@ const B1_WORDS = [
       "translation": "yırtılmak • kopmak",
       "explanation": [
         "reißen güçlü (düzensiz) bir fiildir. Nesnesiz kullanımda kopmak, yırtılmak demektir (Das Seil reißt); nesneyle ise yırtmak, çekip koparmak (Er reißt das Papier).",
-        "Biçimleri: er reißt, riss, hat gerissen / ist gerissen. Bir şey kendiliğinden koparsa sein kullanılır (Das Seil ist gerissen); biri yırtar ya da çekerse haben kullanılır (Er hat das Papier gerissen).",
+        "Biçimleri: er reißt, riss, hat gerissen / ist gerissen. Bir şey kendiliğinden koparsa sein kullanılır (Das Seil ist gerissen); biri yırtar ya da çekerse haben kullanılır (Er hat ein Loch in die Hose gerissen).",
         "Sık sık ön eklerle: zerreißen (yırtıp parçalamak), aufreißen (hızla açmak), abreißen (koparmak, yıkmak), losreißen (çekip ayırmak)."
       ],
       "examples": [
@@ -54501,7 +54501,7 @@ const B1_WORDS = [
       "explanation": [
         "rollen yuvarlanmak demektir: tekerlekler üzerinde ya da bir tekerlek gibi hareket etmek; yuvarlak bir nesne bir yüzey üzerinde yuvarlanır. Nesneyle kullanıldığında yuvarlamak ya da sarmak anlamındadır.",
         "Biçimleri: rollt, rollte, ist gerollt (bir şey yuvarlanıyorsa) ve hat gerollt (biri bir şeyi yuvarlıyorsa). Örneğin: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Sık kullanılan bağlantılar: rollen über (üzerinden yuvarlanmak), zusammenrollen (sarmak, rulo yapmak), losrollen (yuvarlanmaya başlamak), rollen mit den Augen – gözlerini devirmek (sinirlenince)."
+        "Sık kullanılan bağlantılar: rollen über (üzerinden yuvarlanmak), zusammenrollen (sarmak, rulo yapmak), losrollen (yuvarlanmaya başlamak), mit den Augen rollen – gözlerini devirmek (sinirlenince)."
       ],
       "examples": [
         {
@@ -56773,7 +56773,7 @@ const B1_WORDS = [
       "translation": "darbe • vuruş",
       "explanation": [
         "der Schlag eril bir isimdir; vuruş, darbe (elle, bir nesneyle) demektir, ayrıca saatin vuruşu ve kalp atışı anlamında da kullanılır. Mecaz anlamda ağır bir darbedir: Schicksalsschlag (kader darbesi); Blitzschlag ise yıldırım çarpmasıdır.",
-        "Çoğulu die Schläge. Sık kullanılanlar: ein Schlag ins Gesicht (yüze bir darbe), mit einem Schlag (bir anda), Schläge bekommen (dayak yemek), der Schlag des Herzens (kalp atışı).",
+        "Çoğulu die Schläge. Sık kullanılanlar: ein Schlag ins Gesicht (yüze bir darbe), mit einem Schlag (bir anda), Schläge bekommen (dayak yemek), der Herzschlag (kalp atışı).",
         "schlagen (vurmak) fiili bu sözcüğün köküdür, ama der Schlag vuruşun kendisini ya da sonucunu ifade eder."
       ],
       "examples": [
@@ -77220,7 +77220,7 @@ const B1_WORDS = [
         "Meslek sorusunda sık sık von Beruf kullanılır: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, Ich bin ein Beruf değil: meslek adları (Lehrer, Arzt) genellikle artikelsiz kullanılır.",
+        "Ich bin Lehrer, Ich bin ein Lehrer değil: meslek adları (Lehrer, Arzt) genellikle artikelsiz kullanılır.",
         "Beruf ile Arbeit ya da Job aynı şey değildir: Beruf meslektir, somut bir iş değil."
       ],
       "sectionAccents": {
@@ -77683,7 +77683,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer nötr bir sözcüktür; çoğulu (die Steuer) tekille aynıdır ve seyrek kullanılır.",
-        "Yanlış artikelle cümlenin anlamı değişir: am Steuer sitzen direksiyonda oturmak, Steuer zahlen ise vergi ödemek demektir."
+        "Yanlış artikelle cümlenin anlamı değişir: am Steuer sitzen direksiyonda oturmak, Steuern zahlen ise vergi ödemek demektir."
       ],
       "sectionAccents": {
         "explanation": {

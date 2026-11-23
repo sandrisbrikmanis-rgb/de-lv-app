@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "kylpeä • uida",
       "explanation": [
-        "Perusajatus: baden tarkoittaa kylpemistä ammeessa tai uimista vedessä virkistykseksi: Im See baden (uida järvessä), in der Wanne baden (kylpeä ammeessa). Muodot: er badet, badete, hat gebadet.",
+        "Perusajatus: baden tarkoittaa kylpemistä ammeessa tai uimista vedessä virkistykseksi: im See baden (uida järvessä), in der Wanne baden (kylpeä ammeessa). Muodot: er badet, badete, hat gebadet.",
         "Verbi on säännöllinen ja esiintyy usein gehen-verbin kanssa: baden gehen (mennä uimaan). Transitiivisena se tarkoittaa ’kylvettää’: das Baby baden.",
         "Uimisesta liikkumisena (kun uidaan jokin matka) sanotaan schwimmen, ei baden."
       ],
@@ -12250,7 +12250,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Te olette tänään myöhässä."
         },
         {

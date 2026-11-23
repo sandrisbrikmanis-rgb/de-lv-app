@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "се стреми • е склон",
       "explanation": [
         "Главна идеја: neigen со zu + датив значи е склон кон нешто, има наклонетост: Er neigt zu schnellen Entscheidungen. Форми: neigt, neigte, hat geneigt.",
-        "Во буквално значење etwas neigen е наведнува, накривува (den Kopf neigen). Повратно sich neigen значи се наведнува или се ближи кон крајот: Der Tag neigt sich dem Ende zu.",
+        "Во буквално значење etwas neigen е наведнува, накривува (den Kopf neigen). Повратно sich neigen значи се наведнува или се ближи кон крајот: Der Tag neigt sich.",
         "Од истиот корен е изведена именката die Neigung (склоност, наклонетост, наклон)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "Времето во април е склоно кон екстреми."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Денот се ближи кон крајот."
         }
       ],
@@ -53622,7 +53622,7 @@ const B1_WORDS = [
       "translation": "се кине • се скине • пука",
       "explanation": [
         "Главна идеја: reißen е силен глагол. Без објект значи да се кине, да пука (Das Seil reißt), а со објект – да кинеш, да влечеш со сила (Er reißt das Papier).",
-        "Форми: er reißt, riss, hat gerissen / ist gerissen. Ако нешто само се скине, се користи sein (Das Seil ist gerissen); ако некој кине или влече, се користи haben (Er hat das Papier gerissen).",
+        "Форми: er reißt, riss, hat gerissen / ist gerissen. Ако нешто само се скине, се користи sein (Das Seil ist gerissen); ако некој кине или влече, се користи haben (Er hat ein Loch in die Hose gerissen).",
         "Често со префикси: zerreißen (искинува), aufreißen (нагло отвора), abreißen (откинува, урива), losreißen (отргнува)."
       ],
       "examples": [
@@ -54500,7 +54500,7 @@ const B1_WORDS = [
       "explanation": [
         "Главна идеја: rollen значи да се тркала: да се движи на тркала или како тркало, кога тркалезен предмет се тркала по површина. Со објект значи и да тркалаш или да свиткаш.",
         "Форми: rollt, rollte, ist gerollt (кога нешто се тркала) и hat gerollt (кога некој тркала нешто). На пример: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Чести изрази: rollen über (се тркала преку), zusammenrollen (свиткува, намотува), losrollen (почнува да се тркала), rollen mit den Augen – ги превртува очите (од нервоза)."
+        "Чести изрази: rollen über (се тркала преку), zusammenrollen (свиткува, намотува), losrollen (почнува да се тркала), mit den Augen rollen – ги превртува очите (од нервоза)."
       ],
       "examples": [
         {
@@ -56772,7 +56772,7 @@ const B1_WORDS = [
       "translation": "удар",
       "explanation": [
         "Главна идеја: der Schlag е именка од машки род што значи удар (со рака, со предмет), како и отчукување на часовник и на срцето. Во пренесено значење тоа е и тежок удар: Schicksalsschlag (удар на судбината); Blitzschlag е удар на гром.",
-        "Множината е die Schläge. Често: ein Schlag ins Gesicht (удар во лицето), mit einem Schlag (во миг), Schläge bekommen (да добиеш ќотек), der Schlag des Herzens (отчукување на срцето).",
+        "Множината е die Schläge. Често: ein Schlag ins Gesicht (удар во лицето), mit einem Schlag (во миг), Schläge bekommen (да добиеш ќотек), der Herzschlag (отчукување на срцето).",
         "Глаголот schlagen (удира) е коренот на овој збор, но der Schlag се однесува на самиот удар или на неговиот резултат."
       ],
       "examples": [
@@ -77219,7 +77219,7 @@ const B1_WORDS = [
         "Во прашањето за професијата често се користи von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, а не Ich bin ein Beruf: називите на професиите (Lehrer, Arzt) обично се користат без член.",
+        "Ich bin Lehrer, а не Ich bin ein Lehrer: називите на професиите (Lehrer, Arzt) обично се користат без член.",
         "Beruf не е исто што и Arbeit или Job: тоа е професија, а не конкретна работа."
       ],
       "sectionAccents": {
@@ -77682,7 +77682,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer е збор од среден род; множината (die Steuer) е иста како еднината и ретко се користи.",
-        "Со погрешен член смислата на реченицата се менува: am Steuer sitzen значи седи на воланот, а Steuer zahlen значи плаќа данок."
+        "Со погрешен член смислата на реченицата се менува: am Steuer sitzen значи седи на воланот, а Steuern zahlen значи плаќа данок."
       ],
       "sectionAccents": {
         "explanation": {

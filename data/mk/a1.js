@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "се капе",
       "explanation": [
-        "Главна идеја: baden значи капење во када или капење во вода за одмор: Im See baden (се капе во езеро), in der Wanne baden (се капе во када). Форми: er badet, badete, hat gebadet.",
+        "Главна идеја: baden значи капење во када или капење во вода за одмор: im See baden (се капе во езеро), in der Wanne baden (се капе во када). Форми: er badet, badete, hat gebadet.",
         "Глаголот е правилен и често се користи со gehen: baden gehen (оди на капење). Во преодно значење значи „капе некого во када“: das Baby baden.",
         "Пливањето како движење (минување растојание) се вели schwimmen, а не baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Вие денес доцните."
         },
         {

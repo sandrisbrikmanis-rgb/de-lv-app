@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "luta • vara benägen",
       "explanation": [
         "Huvudidé: neigen med zu + dativ betyder att tendera till något, ha en benägenhet: Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret betydelse betyder etwas neigen att luta eller böja något (den Kopf neigen). Reflexivt betyder sich neigen att luta sig eller gå mot sitt slut: Der Tag neigt sich dem Ende zu.",
+        "I konkret betydelse betyder etwas neigen att luta eller böja något (den Kopf neigen). Reflexivt betyder sich neigen att luta sig eller gå mot sitt slut: Der Tag neigt sich.",
         "Av samma rot bildas substantivet die Neigung (benägenhet, böjelse, lutning)."
       ],
       "examples": [
@@ -47717,7 +47717,7 @@ const B1_WORDS = [
           "lv": "I april tenderar vädret att bli extremt."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dagen lider mot sitt slut."
         }
       ],
@@ -53622,7 +53622,7 @@ const B1_WORDS = [
       "translation": "riva • slita • spricka",
       "explanation": [
         "Grundidé: reißen är ett starkt verb. Utan objekt innebär det att gå sönder, brista (Das Seil reißt), med objekt – att riva, slita (Er reißt das Papier).",
-        "Former: er reißt, riss, hat gerissen / ist gerissen. Om något går av av sig självt används sein (Das Seil ist gerissen); om någon river eller drar används haben (Er hat das Papier gerissen).",
+        "Former: er reißt, riss, hat gerissen / ist gerissen. Om något går av av sig självt används sein (Das Seil ist gerissen); om någon river eller drar används haben (Er hat ein Loch in die Hose gerissen).",
         "Ofta med förstavelser: zerreißen (riva sönder), aufreißen (riva upp), abreißen (riva av, riva ner), losreißen (slita loss)."
       ],
       "examples": [
@@ -54500,7 +54500,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundidé: rollen innebär att rulla: röra sig på hjul eller som ett hjul, när ett runt föremål rullar över en yta. Med objekt innebär det också att rulla något eller rulla ihop.",
         "Former: rollt, rollte, ist gerollt (när något rullar) och hat gerollt (när någon rullar något). Till exempel: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Vanliga förbindelser: rollen über (rulla över), zusammenrollen (rulla ihop), losrollen (börja rulla), rollen mit den Augen – himla med ögonen (av irritation)."
+        "Vanliga förbindelser: rollen über (rulla över), zusammenrollen (rulla ihop), losrollen (börja rulla), mit den Augen rollen – himla med ögonen (av irritation)."
       ],
       "examples": [
         {
@@ -56772,7 +56772,7 @@ const B1_WORDS = [
       "translation": "slag",
       "explanation": [
         "Grundidé: der Schlag är ett maskulint substantiv som betecknar ett slag, en stöt (med handen, med ett föremål), men också klockans slag och hjärtslag. I överförd betydelse är det även ett hårt slag: Schicksalsschlag (ödets slag); Blitzschlag är ett blixtnedslag.",
-        "Pluralis är die Schläge. Vanligt: ein Schlag ins Gesicht (ett slag i ansiktet), mit einem Schlag (i ett slag, på ett ögonblick), Schläge bekommen (få stryk), der Schlag des Herzens (hjärtslag).",
+        "Pluralis är die Schläge. Vanligt: ein Schlag ins Gesicht (ett slag i ansiktet), mit einem Schlag (i ett slag, på ett ögonblick), Schläge bekommen (få stryk), der Herzschlag (hjärtslag).",
         "Verbet schlagen (slå) är ordets rot, men der Schlag syftar på själva slaget eller dess resultat."
       ],
       "examples": [
@@ -77218,7 +77218,7 @@ const B1_WORDS = [
         "När man frågar om yrke använder man ofta von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, inte Ich bin ein Beruf: yrkesbeteckningar (Lehrer, Arzt) används oftast utan artikel.",
+        "Ich bin Lehrer, inte Ich bin ein Lehrer: yrkesbeteckningar (Lehrer, Arzt) används oftast utan artikel.",
         "Beruf är inte detsamma som Arbeit eller Job: det är ett yrke, inte ett konkret arbete."
       ],
       "sectionAccents": {
@@ -77681,7 +77681,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer är ett neutrum; pluralformen (die Steuer) är densamma som singularformen och används sällan.",
-        "Med fel artikel ändras meningens innebörd: am Steuer sitzen betyder sitta vid ratten, men Steuer zahlen betyder betala skatt."
+        "Med fel artikel ändras meningens innebörd: am Steuer sitzen betyder sitta vid ratten, men Steuern zahlen betyder betala skatt."
       ],
       "sectionAccents": {
         "explanation": {

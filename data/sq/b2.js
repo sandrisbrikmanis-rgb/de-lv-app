@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Mos e ngatërro me abfinden pa sich: kjo do të thotë të kompensosh ose të shpërblesh me para.",
-        "Forma e kohës së kryer është sich abgefunden (me -ge- në mes), jo gabgefunden."
+        "Forma e kohës së kryer është sich abgefunden (me -ge- në mes), jo geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "përmbahem • abstenoj",
       "explanation": [
         "Ideja kryesore: sich enthalten do të thotë përmbahem me vetëdije nga diçka — nuk e bëj, nuk e përdor, nuk votoj. Gjuha është zyrtare, librore.",
-        "Pas saj vjen rasa gjinore (Genitiv): sich der Stimme enthalten (abstenoj në votim), sich jeden Kommentars enthalten. Format: enthält sich, enthielt sich, hat sich enthalten.",
+        "Pas saj vjen rasa gjinore (Genitiv): sich der Stimme enthalten (abstenoj në votim), sich jedes Kommentars enthalten. Format: enthält sich, enthielt sich, hat sich enthalten.",
         "Pa sich, folja enthalten do të thotë përmban: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Autoriteti vendos orën policore."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Mbreti urdhëroi që porta të mbyllej."
         },
         {

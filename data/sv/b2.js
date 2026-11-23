@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Blanda inte ihop med abfinden utan sich: det betyder kompensera eller lösa ut någon med pengar.",
-        "Perfektformen är sich abgefunden (med -ge- i mitten), inte gabgefunden."
+        "Perfektformen är sich abgefunden (med -ge- i mitten), inte geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "avhålla sig • avstå",
       "explanation": [
         "Grundidé: sich enthalten betyder att medvetet avhålla sig från något — inte göra, inte använda, inte rösta. Stilen är formell och litterär.",
-        "Därefter följer genitiv: sich der Stimme enthalten (lägga ner sin röst), sich jeden Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
+        "Därefter följer genitiv: sich der Stimme enthalten (lägga ner sin röst), sich jedes Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
         "Utan sich betyder enthalten att innehålla: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Myndigheten utfärdar utegångsförbud."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kungen förordnade att porten skulle stängas."
         },
         {

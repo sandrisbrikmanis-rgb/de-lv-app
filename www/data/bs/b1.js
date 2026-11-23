@@ -47712,7 +47712,7 @@ const B1_WORDS = [
       "translation": "naginjati • biti sklon",
       "explanation": [
         "Glavna ideja: neigen sa zu + dativ znači biti sklon nečemu, naginjati nečemu: Er neigt zu schnellen Entscheidungen. Oblici: neigt, neigte, hat geneigt.",
-        "U doslovnom značenju etwas neigen znači nagnuti nešto (den Kopf neigen). Povratno sich neigen znači nagnuti se ili bližiti se kraju: Der Tag neigt sich dem Ende zu.",
+        "U doslovnom značenju etwas neigen znači nagnuti nešto (den Kopf neigen). Povratno sich neigen znači nagnuti se ili bližiti se kraju: Der Tag neigt sich.",
         "Od istog korijena je imenica die Neigung (sklonost, naklonost, nagib)."
       ],
       "examples": [
@@ -47729,7 +47729,7 @@ const B1_WORDS = [
           "lv": "Vrijeme je u aprilu sklono ekstremima."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Dan se bliži kraju."
         }
       ],
@@ -53631,7 +53631,7 @@ const B1_WORDS = [
       "translation": "pucati • kidati",
       "explanation": [
         "Glavna ideja: reißen je jak glagol. Bez objekta znači pući, pucati, prekinuti se (Das Seil reißt), a s objektom – kidati, cijepati, trgati (Er reißt das Papier).",
-        "Oblici: er reißt, riss, hat gerissen / ist gerissen. Kad nešto samo pukne, koristi se sein (Das Seil ist gerissen); kad neko kida ili vuče, koristi se haben (Er hat das Papier gerissen).",
+        "Oblici: er reißt, riss, hat gerissen / ist gerissen. Kad nešto samo pukne, koristi se sein (Das Seil ist gerissen); kad neko kida ili vuče, koristi se haben (Er hat ein Loch in die Hose gerissen).",
         "Često s prefiksima: zerreißen (pocijepati), aufreißen (naglo otvoriti), abreißen (otkinuti, srušiti), losreißen (otrgnuti)."
       ],
       "examples": [
@@ -56784,7 +56784,7 @@ const B1_WORDS = [
       "translation": "udarac",
       "explanation": [
         "Glavna ideja: der Schlag je imenica muškog roda koja znači udarac (rukom, predmetom), ali i otkucaj sata i otkucaj srca. U prenesenom značenju to je i težak udarac: Schicksalsschlag (udarac sudbine); Blitzschlag je udar groma.",
-        "Množina je die Schläge. Često: ein Schlag ins Gesicht (udarac u lice), mit einem Schlag (u trenu), Schläge bekommen (dobiti batine), der Schlag des Herzens (otkucaj srca).",
+        "Množina je die Schläge. Često: ein Schlag ins Gesicht (udarac u lice), mit einem Schlag (u trenu), Schläge bekommen (dobiti batine), der Herzschlag (otkucaj srca).",
         "Glagol schlagen (udarati) korijen je ove riječi, a der Schlag označava sam udarac ili njegovu posljedicu."
       ],
       "examples": [
@@ -77233,7 +77233,7 @@ const B1_WORDS = [
         "U pitanju o zanimanju često se koristi von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, a ne Ich bin ein Beruf: nazivi zanimanja (Lehrer, Arzt) obično stoje bez člana.",
+        "Ich bin Lehrer, a ne Ich bin ein Lehrer: nazivi zanimanja (Lehrer, Arzt) obično stoje bez člana.",
         "Beruf nije isto što i Arbeit ili Job: to je profesija, a ne konkretan posao."
       ],
       "sectionAccents": {
@@ -77696,7 +77696,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer je imenica srednjeg roda; množina (die Steuer) ista je kao jednina i rijetko se koristi.",
-        "S pogrešnim članom mijenja se smisao rečenice: am Steuer sitzen znači sjediti za volanom, a Steuer zahlen plaćati porez."
+        "S pogrešnim članom mijenja se smisao rečenice: am Steuer sitzen znači sjediti za volanom, a Steuern zahlen plaćati porez."
       ],
       "sectionAccents": {
         "explanation": {

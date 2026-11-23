@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "anuloj",
       "explanation": [
         "Ideja kryesore: absagen është folje e ndashme me kuptimin anuloj (një aktivitet, një takim) ose refuzoj, njoftoj se nuk vij (dikujt): sagt ab, sagte ab, hat abgesagt. Ab qëndron në fund të fjalisë.",
-        "Kur anulohet një aktivitet, pason rasa kallëzore (Akkusativ): Das Treffen absagen. Kur i njofton refuzimin një personi, pason rasa dhanore (Dativ): Er hat mir abgesagt (ai ma anuloi, më tha se nuk vjen). Në pësore: Das Fest wurde abgesagt.",
+        "Kur anulohet një aktivitet, pason rasa kallëzore (Akkusativ): das Treffen absagen. Kur i njofton refuzimin një personi, pason rasa dhanore (Dativ): Er hat mir abgesagt (ai ma anuloi, më tha se nuk vjen). Në pësore: Das Fest wurde abgesagt.",
         "E kundërta është zusagen — premtoj se vij ose pranoj."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "i fortë • i ngurtë",
       "explanation": [
-        "Ideja kryesore: fest është mbiemër dhe ndajfolje. Do të thotë i ngurtë (jo i lëngshëm): feste Nahrung; i qëndrueshëm, i përhershëm: ein fester Job, ein fester Termin; fort, shtrënguar: fest halten, fest schlafen.",
+        "Ideja kryesore: fest është mbiemër dhe ndajfolje. Do të thotë i ngurtë (jo i lëngshëm): feste Nahrung; i qëndrueshëm, i përhershëm: ein fester Job, ein fester Termin; fort, shtrënguar: festhalten, fest schlafen.",
         "Shkallët: fest, fester, am festesten. Para emrit merr mbaresë: ein festes Dach."
       ],
       "examples": [

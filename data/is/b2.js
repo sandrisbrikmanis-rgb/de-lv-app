@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ekki rugla saman við abfinden án sich: það merkir að greiða bætur eða gera upp með peningum.",
-        "Núliðin tíð er sich abgefunden (með -ge- í miðjunni), ekki gabgefunden."
+        "Núliðin tíð er sich abgefunden (með -ge- í miðjunni), ekki geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "halda sig frá • sitja hjá",
       "explanation": [
         "Meginhugmynd: sich enthalten merkir að halda sig meðvitað frá einhverju — gera það ekki, neyta þess ekki, greiða ekki atkvæði. Málsniðið er formlegt, bóklegt.",
-        "Á eftir kemur eignarfall: sich der Stimme enthalten (sitja hjá við atkvæðagreiðslu), sich jeden Kommentars enthalten. Myndir: enthält sich, enthielt sich, hat sich enthalten.",
+        "Á eftir kemur eignarfall: sich der Stimme enthalten (sitja hjá við atkvæðagreiðslu), sich jedes Kommentars enthalten. Myndir: enthält sich, enthielt sich, hat sich enthalten.",
         "Án sich merkir enthalten að innihalda: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Yfirvöld fyrirskipa útgöngubann."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Konungurinn skipaði svo fyrir að hliðinu skyldi lokað."
         },
         {

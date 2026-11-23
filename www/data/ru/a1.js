@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "купаться • искупаться",
       "explanation": [
-        "baden значит мыться в ванне или купаться в воде для отдыха: Im See baden (купаться в озере), in der Wanne baden (мыться в ванне). Формы: er badet, badete, hat gebadet.",
+        "baden значит мыться в ванне или купаться в воде для отдыха: im See baden (купаться в озере), in der Wanne baden (мыться в ванне). Формы: er badet, badete, hat gebadet.",
         "Глагол правильный и часто употребляется с gehen: baden gehen (идти купаться). В переходном значении он значит «купать в ванне»: das Baby baden.",
         "Плавать как движение (проплыть дистанцию) — это schwimmen, а не baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Вы сегодня поздно пришли."
         },
         {

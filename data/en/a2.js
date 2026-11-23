@@ -1254,7 +1254,7 @@ const A2_WORDS = [
       "translation": "Cancel",
       "explanation": [
         "Main idea: absagen is a separable verb meaning to cancel (an event, a meeting) or to decline (to a person): sagt ab, sagte ab, hat abgesagt. Ab stands at the end of the clause.",
-        "When you cancel an event, the accusative follows: Das Treffen absagen. When you decline to a person, the dative follows: Er hat mir abgesagt (he cancelled on me). Passive: Das Fest wurde abgesagt.",
+        "When you cancel an event, the accusative follows: das Treffen absagen. When you decline to a person, the dative follows: Er hat mir abgesagt (he cancelled on me). Passive: Das Fest wurde abgesagt.",
         "The opposite is zusagen: to promise to come or to accept."
       ],
       "examples": [
@@ -18519,7 +18519,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Solid • Firm",
       "explanation": [
-        "Main idea: fest is an adjective and adverb. It means solid (not liquid): feste Nahrung; steady, permanent: ein fester Job, ein fester Termin; and firmly, tightly: fest halten, fest schlafen (to sleep soundly).",
+        "Main idea: fest is an adjective and adverb. It means solid (not liquid): feste Nahrung; steady, permanent: ein fester Job, ein fester Termin; and firmly, tightly: festhalten, fest schlafen (to sleep soundly).",
         "Degrees of comparison: fest, fester, am festesten. Before a noun it takes an ending: ein festes Dach."
       ],
       "examples": [

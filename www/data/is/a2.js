@@ -1250,7 +1250,7 @@ const A2_WORDS = [
       "translation": "aflýsa • afboða",
       "explanation": [
         "Aðalatriðið: absagen er aðskiljanleg sögn sem merkir að aflýsa (viðburði, fundi) eða afboða sig, hafna (gagnvart manneskju): sagt ab, sagte ab, hat abgesagt. Ab stendur aftast í setningu.",
-        "Þegar viðburði er aflýst kemur þolfall: Das Treffen absagen. Þegar manneskju er afboðað kemur þágufall: Er hat mir abgesagt (hann afboðaði sig við mig). Í þolmynd: Das Fest wurde abgesagt.",
+        "Þegar viðburði er aflýst kemur þolfall: das Treffen absagen. Þegar manneskju er afboðað kemur þágufall: Er hat mir abgesagt (hann afboðaði sig við mig). Í þolmynd: Das Fest wurde abgesagt.",
         "Andstæðan er zusagen – að lofa að koma eða samþykkja."
       ],
       "examples": [
@@ -18508,7 +18508,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "fastur • traustur",
       "explanation": [
-        "Aðalatriðið: fest er lýsingarorð og atviksorð. Það merkir fastur, harður (ekki fljótandi): feste Nahrung; stöðugur, óbreytanlegur: ein fester Job, ein fester Termin; fast, þétt: fest halten, fest schlafen.",
+        "Aðalatriðið: fest er lýsingarorð og atviksorð. Það merkir fastur, harður (ekki fljótandi): feste Nahrung; stöðugur, óbreytanlegur: ein fester Job, ein fester Termin; fast, þétt: festhalten, fest schlafen.",
         "Stigbreyting: fest, fester, am festesten. Á undan nafnorði fær það endingu: ein festes Dach."
       ],
       "examples": [

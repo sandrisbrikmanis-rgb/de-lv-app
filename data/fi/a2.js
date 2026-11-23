@@ -1250,7 +1250,7 @@ const A2_WORDS = [
       "translation": "perua • peruuttaa",
       "explanation": [
         "Pääajatus: absagen on erotettava verbi, joka tarkoittaa perua (tilaisuus, tapaaminen) tai antaa kieltävä vastaus (ihmiselle): sagt ab, sagte ab, hat abgesagt. Ab on lauseen lopussa.",
-        "Kun perutaan tilaisuus, verbiä seuraa akkusatiivi: Das Treffen absagen. Kun perutaan jollekulle, seuraa datiivi: Er hat mir abgesagt (hän perui tapaamisemme). Passiivissa: Das Fest wurde abgesagt.",
+        "Kun perutaan tilaisuus, verbiä seuraa akkusatiivi: das Treffen absagen. Kun perutaan jollekulle, seuraa datiivi: Er hat mir abgesagt (hän perui tapaamisemme). Passiivissa: Das Fest wurde abgesagt.",
         "Vastakohta on zusagen — luvata tulla tai suostua."
       ],
       "examples": [
@@ -18513,7 +18513,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "kiinteä • luja",
       "explanation": [
-        "Perusajatus: fest on adjektiivi ja adverbi. Se tarkoittaa ”kiinteä” (ei nestemäinen): feste Nahrung; ”vakaa, pysyvä”: ein fester Job, ein fester Termin; ”lujasti, tiukasti”: fest halten, fest schlafen.",
+        "Perusajatus: fest on adjektiivi ja adverbi. Se tarkoittaa ”kiinteä” (ei nestemäinen): feste Nahrung; ”vakaa, pysyvä”: ein fester Job, ein fester Termin; ”lujasti, tiukasti”: festhalten, fest schlafen.",
         "Vertailuasteet: fest, fester, am festesten. Substantiivin edellä se saa päätteen: ein festes Dach."
       ],
       "examples": [

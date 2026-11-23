@@ -1253,7 +1253,7 @@ const A2_WORDS = [
       "translation": "zrušiť • odvolať",
       "explanation": [
         "Hlavná myšlienka: absagen je odlučiteľné sloveso s významom zrušiť (podujatie, stretnutie) alebo odmietnuť (dať človeku vedieť, že neprídeš): sagt ab, sagte ab, hat abgesagt. Ab stojí na konci vety.",
-        "Ak sa ruší podujatie, nasleduje akuzatív: Das Treffen absagen. Ak sa odmieta osobe, nasleduje datív: Er hat mir abgesagt (zrušil mi to). V trpnom rode: Das Fest wurde abgesagt.",
+        "Ak sa ruší podujatie, nasleduje akuzatív: das Treffen absagen. Ak sa odmieta osobe, nasleduje datív: Er hat mir abgesagt (zrušil mi to). V trpnom rode: Das Fest wurde abgesagt.",
         "Protikladom je zusagen — prisľúbiť účasť alebo súhlasiť."
       ],
       "examples": [
@@ -18515,7 +18515,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "pevný • tuhý",
       "explanation": [
-        "Hlavná myšlienka: fest je prídavné meno aj príslovka. Znamená tuhý, pevný (nie tekutý): feste Nahrung; stály, nemenný: ein fester Job, ein fester Termin; pevne, silno: fest halten, fest schlafen.",
+        "Hlavná myšlienka: fest je prídavné meno aj príslovka. Znamená tuhý, pevný (nie tekutý): feste Nahrung; stály, nemenný: ein fester Job, ein fester Termin; pevne, silno: festhalten, fest schlafen.",
         "Stupňovanie: fest, fester, am festesten. Pred podstatným menom dostáva koncovku: ein festes Dach."
       ],
       "examples": [

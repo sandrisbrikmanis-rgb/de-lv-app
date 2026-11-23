@@ -47692,7 +47692,7 @@ const B1_WORDS = [
       "translation": "pencher • avoir tendance à",
       "explanation": [
         "Idée principale : neigen avec zu + datif signifie avoir tendance à quelque chose, être enclin à : Er neigt zu schnellen Entscheidungen. Formes : neigt, neigte, hat geneigt.",
-        "Au sens propre, etwas neigen signifie pencher, incliner (den Kopf neigen). À la forme pronominale, sich neigen signifie se pencher ou toucher à sa fin : Der Tag neigt sich dem Ende zu.",
+        "Au sens propre, etwas neigen signifie pencher, incliner (den Kopf neigen). À la forme pronominale, sich neigen signifie se pencher ou toucher à sa fin : Der Tag neigt sich.",
         "De la même racine vient le nom die Neigung (penchant, tendance, inclinaison)."
       ],
       "examples": [
@@ -47709,7 +47709,7 @@ const B1_WORDS = [
           "lv": "En avril, le temps tend vers les extrêmes."
         },
         {
-          "de": "Der Tag neigt sich dem Ende zu.",
+          "de": "Der Tag neigt sich.",
           "lv": "Le jour touche à sa fin."
         }
       ],
@@ -53612,7 +53612,7 @@ const B1_WORDS = [
       "translation": "déchirer • arracher • se déchirer",
       "explanation": [
         "Idée principale : reißen est un verbe fort. Sans complément, il signifie se déchirer, se rompre (Das Seil reißt) ; avec un complément, déchirer, arracher (Er reißt das Papier).",
-        "Formes : er reißt, riss, hat gerissen / ist gerissen. Quand quelque chose se rompt de lui-même, on emploie sein (Das Seil ist gerissen) ; quand quelqu'un déchire ou tire, on emploie haben (Er hat das Papier gerissen).",
+        "Formes : er reißt, riss, hat gerissen / ist gerissen. Quand quelque chose se rompt de lui-même, on emploie sein (Das Seil ist gerissen) ; quand quelqu'un déchire ou tire, on emploie haben (Er hat ein Loch in die Hose gerissen).",
         "Souvent avec des préfixes : zerreißen (déchirer en morceaux), aufreißen (ouvrir brusquement), abreißen (arracher, démolir), losreißen (arracher, détacher)."
       ],
       "examples": [
@@ -54490,7 +54490,7 @@ const B1_WORDS = [
       "explanation": [
         "Idée principale : rollen signifie rouler : se déplacer sur des roues ou comme une roue, comme un objet rond qui roule sur une surface. Avec un complément, il signifie aussi faire rouler ou enrouler.",
         "Formes : rollt, rollte, ist gerollt (quand quelque chose roule) et hat gerollt (quand quelqu'un fait rouler). Par exemple : Der Ball ist gerollt ; Sie hat den Teppich gerollt.",
-        "Combinaisons fréquentes : rollen über (rouler sur), zusammenrollen (enrouler), losrollen (se mettre à rouler), rollen mit den Augen – lever les yeux au ciel (par agacement)."
+        "Combinaisons fréquentes : rollen über (rouler sur), zusammenrollen (enrouler), losrollen (se mettre à rouler), mit den Augen rollen – lever les yeux au ciel (par agacement)."
       ],
       "examples": [
         {
@@ -56762,7 +56762,7 @@ const B1_WORDS = [
       "translation": "coup",
       "explanation": [
         "Idée principale : der Schlag est un nom masculin qui désigne un coup, un choc (avec la main, un objet), mais aussi le coup d'une horloge et le battement du cœur. Au sens figuré, c'est aussi un coup dur : Schicksalsschlag (coup du destin) ; Blitzschlag désigne la foudre qui frappe.",
-        "Le pluriel est die Schläge. Fréquent : ein Schlag ins Gesicht (un coup au visage), mit einem Schlag (en un instant), Schläge bekommen (recevoir une raclée), der Schlag des Herzens (le battement du cœur).",
+        "Le pluriel est die Schläge. Fréquent : ein Schlag ins Gesicht (un coup au visage), mit einem Schlag (en un instant), Schläge bekommen (recevoir une raclée), der Herzschlag (le battement du cœur).",
         "Le verbe schlagen (frapper) est la racine de ce mot, mais der Schlag désigne le coup lui-même ou son résultat."
       ],
       "examples": [
@@ -77198,7 +77198,7 @@ const B1_WORDS = [
         "Pour demander la profession, on utilise souvent von Beruf : Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, et non Ich bin ein Beruf : les noms de métiers (Lehrer, Arzt) s'emploient généralement sans article.",
+        "Ich bin Lehrer, et non Ich bin ein Lehrer : les noms de métiers (Lehrer, Arzt) s'emploient généralement sans article.",
         "Beruf n'est pas la même chose que Arbeit ou Job : c'est la profession, pas un emploi concret."
       ],
       "sectionAccents": {
@@ -77661,7 +77661,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Steuer est un nom neutre ; le pluriel (die Steuer) est identique au singulier et rarement employé.",
-        "Avec le mauvais article, le sens de la phrase change : am Steuer sitzen, c'est être au volant, mais Steuer zahlen, c'est payer des impôts."
+        "Avec le mauvais article, le sens de la phrase change : am Steuer sitzen, c'est être au volant, mais Steuern zahlen, c'est payer des impôts."
       ],
       "sectionAccents": {
         "explanation": {

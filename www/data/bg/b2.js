@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не бъркай с abfinden без sich: то означава „обезщетявам” или „удовлетворявам с пари”.",
-        "Формата за минало време е sich abgefunden (с -ge- в средата), а не gabgefunden."
+        "Формата за минало време е sich abgefunden (с -ge- в средата), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "въздържам се • въздържа се",
       "explanation": [
         "Накратко: sich enthalten означава съзнателно се въздържам от нещо — не го правя, не го употребявам, не гласувам. Езикът е официален, книжовен.",
-        "След него следва родителен падеж: sich der Stimme enthalten (въздържам се от гласуване), sich jeden Kommentars enthalten. Форми: enthält sich, enthielt sich, hat sich enthalten.",
+        "След него следва родителен падеж: sich der Stimme enthalten (въздържам се от гласуване), sich jedes Kommentars enthalten. Форми: enthält sich, enthielt sich, hat sich enthalten.",
         "Без sich глаголът enthalten означава съдържам: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Властите въвеждат комендантски час."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Кралят нареди портата да бъде затворена."
         },
         {

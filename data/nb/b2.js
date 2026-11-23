@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ikke forveksle med abfinden uten sich: det betyr å kompensere eller holde noen skadesløs med penger.",
-        "Perfektumsformen er sich abgefunden (med -ge- i midten), ikke gabgefunden."
+        "Perfektumsformen er sich abgefunden (med -ge- i midten), ikke geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9221,7 +9221,7 @@ const B2_WORDS = [
       "translation": "avholde seg fra",
       "explanation": [
         "Hovedidé: sich enthalten betyr bevisst å avholde seg fra noe – ikke gjøre det, ikke bruke det, ikke stemme. Språket er formelt og skriftspråklig.",
-        "Etter verbet følger genitiv: sich der Stimme enthalten (avstå fra å stemme), sich jeden Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
+        "Etter verbet følger genitiv: sich der Stimme enthalten (avstå fra å stemme), sich jedes Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
         "Uten sich betyr enthalten å inneholde: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -24597,7 +24597,7 @@ const B2_WORDS = [
           "lv": "Myndigheten innfører portforbud."
         },
         {
-          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "de": "Der König verfügte, dass das Tor geschlossen werde.",
           "lv": "Kongen påbød at porten skulle stenges."
         },
         {

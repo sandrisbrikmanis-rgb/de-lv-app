@@ -2413,7 +2413,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "къпя се",
       "explanation": [
-        "Накратко: baden означава къпя се във вана или плувам във вода за отдих: Im See baden (къпя се в езерото), in der Wanne baden (къпя се във ваната). Форми: er badet, badete, hat gebadet.",
+        "Накратко: baden означава къпя се във вана или плувам във вода за отдих: im See baden (къпя се в езерото), in der Wanne baden (къпя се във ваната). Форми: er badet, badete, hat gebadet.",
         "Глаголът е правилен и често се употребява с gehen: baden gehen (отивам да се къпя). В преходно значение означава „къпя някого”: das Baby baden.",
         "Плуването като движение (преплуване на разстояние) се изразява със schwimmen, а не с baden."
       ],
@@ -12252,7 +12252,7 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ihr seid heute spät.",
+          "de": "Ihr kommt heute spät.",
           "lv": "Днес закъснявате."
         },
         {
