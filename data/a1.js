@@ -22619,7 +22619,7 @@ const A1_WORDS = [
         "Sehen nozīmē arī \"saprast\" izteicienos kā Ich sehe, was du meinst."
       ],
       "important": [
-        "Nav sehst vai sehet: pareizi ir du siehst, er sieht.",
+        "Tagadnē nav du sehst vai er seht: pareizi ir du siehst, er sieht.",
         "Lai pateiktu, ka kaut ko skatās (filmu, bildi), var lietot gan sehen, gan sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -28488,7 +28488,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "apskatīties",
-          "example": "Wir sehen einen Film an. – Mēs noskatāmies filmu."
+          "example": "Wir sehen uns einen Film an. – Mēs noskatāmies filmu."
         }
       ],
       "tip": [

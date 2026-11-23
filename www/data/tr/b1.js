@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "böylece • bu sayede",
       "explanation": [
         "dadurch bir zarftır; böylece, bu sayede, bununla anlamına gelir; bir nedeni ya da aracı gösterir. Genellikle önceki cümleyi sonucuna bağlar: Er hat viel geübt. Dadurch wurde er besser.",
-        "Sözcük sırası: dadurch'tan sonra fiil ikinci sıradadır: Dadurch wird alles einfacher. Ayrıca dadurch dass bağlaç olarak (… olması sayesinde) fiili sonda olan bir yan cümle başlatır.",
+        "Sözcük sırası: dadurch'tan sonra fiil ikinci sıradadır: Dadurch wird alles einfacher. Ayrıca dadurch, dass bağlaç olarak (… olması sayesinde) fiili sonda olan bir yan cümle başlatır.",
         "Yer anlamında dadurch “onun içinden” demektir; bu durumda vurgu ilk hecededir: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "daher sonuç bildiren bir zarftır: bu yüzden, bu nedenle. Bir şeyin belirli bir nedenle olduğunu gösterir. Ich war krank, daher bin ich nicht gekommen.",
         "Sözcük sırası: daher cümlenin başında (o zaman fiil hemen ardından gelir) ya da ortasında durur: Daher bleibe ich zu Hause. Sözcük yan cümle başlatmaz.",
-        "Daher “oradan” anlamına da gelebilir: Von daher kommt das Geräusch. Bu anlamda soru sözcüğü woher? olur."
+        "Daher “oradan” anlamına da gelebilir: Daher kommt das Geräusch. Bu anlamda soru sözcüğü woher? olur."
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Az vaktim var, bu yüzden gitmem gerekiyor."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Ses oradan geliyor."
         }
       ],

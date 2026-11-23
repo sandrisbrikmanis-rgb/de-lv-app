@@ -13986,7 +13986,7 @@ const B1_WORDS = [
       "explanation": [
         "Aðalatriðið: daher er atviksorð sem lýsir afleiðingu: þess vegna, af þeim sökum. Það sýnir að eitthvað gerist af ákveðinni ástæðu. Ich war krank, daher bin ich nicht gekommen.",
         "Orðaröð: daher stendur fremst (og þá kemur sagnorðið strax á eftir) eða inni í setningu: Daher bleibe ich zu Hause. Orðið leiðir ekki inn aukasetningu.",
-        "Daher getur líka merkt þaðan: Von daher kommt das Geräusch. Í þessari merkingu er spurt woher?"
+        "Daher getur líka merkt þaðan: Daher kommt das Geräusch. Í þessari merkingu er spurt woher?"
       ],
       "examples": [
         {
@@ -14002,7 +14002,7 @@ const B1_WORDS = [
           "lv": "Ég hef lítinn tíma, þess vegna verð ég að fara."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Þaðan kemur hljóðið."
         }
       ],

@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "kështu • në këtë mënyrë",
       "explanation": [
         "Ideja kryesore: dadurch është ndajfolje që do të thotë në këtë mënyrë, me këtë, përmes kësaj — tregon shkakun ose mjetin. Zakonisht e lidh fjalinë e mëparshme me pasojën: Er hat viel geübt. Dadurch wurde er besser.",
-        "Rendi i fjalëve: pas dadurch folja është në vendin e dytë: Dadurch wird alles einfacher. Po ashtu dadurch dass si lidhëz (për shkak se, duke qenë se) fut një fjali të varur me foljen në fund.",
+        "Rendi i fjalëve: pas dadurch folja është në vendin e dytë: Dadurch wird alles einfacher. Po ashtu dadurch, dass si lidhëz (për shkak se, duke qenë se) fut një fjali të varur me foljen në fund.",
         "Në kuptimin hapësinor dadurch do të thotë edhe përmes saj, dhe atëherë theksohet rrokja e parë: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideja kryesore: daher është ndajfolje që shpreh pasojë: prandaj, për këtë arsye. Tregon se diçka ndodh për shkak të një arsyeje. Ich war krank, daher bin ich nicht gekommen.",
         "Rendi i fjalëve: daher qëndron në fillim të fjalisë (atëherë folja vjen menjëherë pas saj) ose në mes: Daher bleibe ich zu Hause. Fjala nuk fut fjali të varur.",
-        "Daher mund të nënkuptojë edhe që andej: Von daher kommt das Geräusch. Në këtë kuptim pyetja është woher?"
+        "Daher mund të nënkuptojë edhe që andej: Daher kommt das Geräusch. Në këtë kuptim pyetja është woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Kam pak kohë, prandaj duhet të shkoj."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Zhurma vjen nga andej."
         }
       ],

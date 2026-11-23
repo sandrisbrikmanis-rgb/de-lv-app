@@ -14008,7 +14008,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedidé: daher er et biord, der udtrykker følge: derfor, af den grund. Det viser, at noget sker af en bestemt grund. Ich war krank, daher bin ich nicht gekommen.",
         "Ordstilling: daher står først i sætningen (så følger udsagnsordet lige efter) eller midt i sætningen: Daher bleibe ich zu Hause. Ordet indleder ikke en ledsætning.",
-        "Daher kan også betyde derfra: Von daher kommt das Geräusch. I denne betydning er spørgeordet woher?"
+        "Daher kan også betyde derfra: Daher kommt das Geräusch. I denne betydning er spørgeordet woher?"
       ],
       "examples": [
         {
@@ -14024,7 +14024,7 @@ const B1_WORDS = [
           "lv": "Jeg har ikke meget tid, derfor må jeg gå."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Det er derfra, lyden kommer."
         }
       ],

@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "dzięki temu • przez to",
       "explanation": [
         "Najważniejsze: dadurch to przysłówek, który znaczy dzięki temu, przez to — wskazuje na przyczynę lub środek. Zwykle łączy poprzednie zdanie ze skutkiem: Er hat viel geübt. Dadurch wurde er besser.",
-        "Szyk zdania: po dadurch czasownik stoi na drugim miejscu: Dadurch wird alles einfacher. Ponadto dadurch dass jako spójnik (przez to, że) wprowadza zdanie podrzędne z czasownikiem na końcu.",
+        "Szyk zdania: po dadurch czasownik stoi na drugim miejscu: Dadurch wird alles einfacher. Ponadto dadurch, dass jako spójnik (przez to, że) wprowadza zdanie podrzędne z czasownikiem na końcu.",
         "W znaczeniu miejsca dadurch to także „przez to” (na drugą stronę), i wtedy akcentowana jest pierwsza sylaba: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Najważniejsze: daher to przysłówek wyrażający skutek: dlatego, stąd. Wskazuje, że coś dzieje się z jakiegoś powodu. Ich war krank, daher bin ich nicht gekommen.",
         "Szyk: daher stoi na początku zdania (wtedy czasownik następuje od razu) lub w środku: Daher bleibe ich zu Hause. Nie wprowadza zdania podrzędnego.",
-        "Daher może też znaczyć stamtąd: Von daher kommt das Geräusch. W tym znaczeniu pytanie brzmi woher?"
+        "Daher może też znaczyć stamtąd: Daher kommt das Geräusch. W tym znaczeniu pytanie brzmi woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Mam mało czasu, dlatego muszę iść."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Stamtąd dochodzi ten hałas."
         }
       ],

@@ -28486,7 +28486,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "ver (com atenção)",
-          "example": "Wir sehen einen Film an. – Vemos um filme."
+          "example": "Wir sehen uns einen Film an. – Vemos um filme."
         }
       ],
       "tip": [

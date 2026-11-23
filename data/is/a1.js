@@ -28476,7 +28476,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "horfa á",
-          "example": "Wir sehen einen Film an. – Við horfum á kvikmynd."
+          "example": "Wir sehen uns einen Film an. – Við horfum á kvikmynd."
         }
       ],
       "tip": [

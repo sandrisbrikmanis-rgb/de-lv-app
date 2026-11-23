@@ -28488,7 +28488,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "разглеждам, изгледам",
-          "example": "Wir sehen einen Film an. – Гледаме един филм."
+          "example": "Wir sehen uns einen Film an. – Гледаме един филм."
         }
       ],
       "tip": [

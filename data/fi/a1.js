@@ -28484,7 +28484,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "katsoa, katsella",
-          "example": "Wir sehen einen Film an. – Katsomme elokuvan."
+          "example": "Wir sehen uns einen Film an. – Katsomme elokuvan."
         }
       ],
       "tip": [

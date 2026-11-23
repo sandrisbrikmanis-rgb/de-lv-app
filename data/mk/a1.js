@@ -28489,7 +28489,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "изгледува, разгледува",
-          "example": "Wir sehen einen Film an. – Изгледуваме филм."
+          "example": "Wir sehen uns einen Film an. – Изгледуваме филм."
         }
       ],
       "tip": [

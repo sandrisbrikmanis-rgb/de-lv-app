@@ -28487,7 +28487,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "a se uita la",
-          "example": "Wir sehen einen Film an. – Ne uităm la un film."
+          "example": "Wir sehen uns einen Film an. – Ne uităm la un film."
         }
       ],
       "tip": [

@@ -14003,7 +14003,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: daher on määrsõna, mis väljendab tagajärge: seetõttu, seepärast. See näitab, et midagi toimub mingi põhjuse tõttu: Ich war krank, daher bin ich nicht gekommen.",
         "Sõnajärg: kui daher on lause alguses, on tegusõna teisel kohal: Daher bleibe ich zu Hause. Daher võib olla ka lause keskel: Ich bleibe daher zu Hause. Sõna ei alusta kõrvallauset.",
-        "Daher võib tähendada ka sealt: Von daher kommt das Geräusch. Selles tähenduses on küsisõna woher?"
+        "Daher võib tähendada ka sealt: Daher kommt das Geräusch. Selles tähenduses on küsisõna woher?"
       ],
       "examples": [
         {
@@ -14019,7 +14019,7 @@ const B1_WORDS = [
           "lv": "Mul on vähe aega, seetõttu pean minema."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Sealt tuleb see müra."
         }
       ],

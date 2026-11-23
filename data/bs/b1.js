@@ -13997,7 +13997,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna ideja: daher je prilog koji izražava posljedicu: zato, stoga. Pokazuje da se nešto dešava iz nekog razloga: Ich war krank, daher bin ich nicht gekommen.",
         "Red riječi: kad daher stoji na početku rečenice, glagol slijedi odmah: Daher bleibe ich zu Hause. Može stajati i u sredini rečenice: Ich bleibe daher zu Hause. Riječ ne uvodi zavisnu rečenicu.",
-        "Daher može značiti i odande: Von daher kommt das Geräusch. U tom značenju pitanje je woher?"
+        "Daher može značiti i odande: Daher kommt das Geräusch. U tom značenju pitanje je woher?"
       ],
       "examples": [
         {
@@ -14013,7 +14013,7 @@ const B1_WORDS = [
           "lv": "Imam malo vremena, zato moram ići."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Odande dolazi zvuk."
         }
       ],

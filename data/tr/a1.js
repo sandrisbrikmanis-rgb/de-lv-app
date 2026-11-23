@@ -28488,7 +28488,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "bakmak, izlemek",
-          "example": "Wir sehen einen Film an. – Bir film izliyoruz."
+          "example": "Wir sehen uns einen Film an. – Bir film izliyoruz."
         }
       ],
       "tip": [

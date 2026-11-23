@@ -28474,7 +28474,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "regarder (qqch de précis)",
-          "example": "Wir sehen einen Film an. – Nous regardons un film."
+          "example": "Wir sehen uns einen Film an. – Nous regardons un film."
         }
       ],
       "tip": [

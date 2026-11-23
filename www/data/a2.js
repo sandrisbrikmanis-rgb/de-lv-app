@@ -23640,7 +23640,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Saistībā ar Vīni vārdu Kaffeehaus lieto bieži; Vācijā tikpat bieži dzirdēsi das Café.",
+        "Vārds Kaffeehaus raksturīgs Austrijai (Vīnei); Vācijā daudz biežāk saka das Café.",
         "Atceries pamatvārdu Kaffee (kafija) + das Haus (nams)."
       ],
       "important": [

@@ -28482,7 +28482,7 @@ const A1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "sjå på",
-          "example": "Wir sehen einen Film an. – Vi ser på ein film."
+          "example": "Wir sehen uns einen Film an. – Vi ser på ein film."
         }
       ],
       "tip": [

@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "tým • takto",
       "explanation": [
         "Hlavná myšlienka: dadurch je príslovka, ktorá znamená tým, vďaka tomu, týmto spôsobom — poukazuje na príčinu alebo prostriedok. Zvyčajne spája predchádzajúcu vetu s následkom: Er hat viel geübt. Dadurch wurde er besser.",
-        "Slovosled: po dadurch je sloveso na druhom mieste: Dadurch wird alles einfacher. Ako spojka dadurch dass (tým, že) uvádza vedľajšiu vetu so slovesom na konci.",
+        "Slovosled: po dadurch je sloveso na druhom mieste: Dadurch wird alles einfacher. Ako spojka dadurch, dass (tým, že) uvádza vedľajšiu vetu so slovesom na konci.",
         "V miestnom význame dadurch znamená aj cez to, tadiaľ, a vtedy je prízvuk na prvej slabike: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: daher je príslovka, ktorá vyjadruje následok: preto, z toho dôvodu. Poukazuje na to, že sa niečo deje z určitej príčiny. Ich war krank, daher bin ich nicht gekommen.",
         "Slovosled: daher stojí na začiatku vety (vtedy hneď nasleduje sloveso) alebo v strede: Daher bleibe ich zu Hause. Slovo neuvádza vedľajšiu vetu.",
-        "Daher môže znamenať aj odtiaľ: Von daher kommt das Geräusch. V tomto význame je otázka woher?"
+        "Daher môže znamenať aj odtiaľ: Daher kommt das Geräusch. V tomto význame je otázka woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Mám málo času, preto musím ísť."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Odtiaľ prichádza ten zvuk."
         }
       ],

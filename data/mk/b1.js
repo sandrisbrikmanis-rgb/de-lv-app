@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "со тоа • на тој начин",
       "explanation": [
         "Главна идеја: dadurch е прилог што значи на тој начин, со тоа, преку тоа — упатува на причина или средство. Обично ја поврзува претходната реченица со последицата: Er hat viel geübt. Dadurch wurde er besser.",
-        "Ред на зборовите: по dadurch глаголот е на второ место: Dadurch wird alles einfacher. Исто така, dadurch dass како сврзник (со тоа што) воведува зависна реченица со глаголот на крајот.",
+        "Ред на зборовите: по dadurch глаголот е на второ место: Dadurch wird alles einfacher. Исто така, dadurch, dass како сврзник (со тоа што) воведува зависна реченица со глаголот на крајот.",
         "Во просторно значење dadurch значи и низ тоа, и тогаш се нагласува првиот слог: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Главна идеја: daher е прилог што изразува последица: затоа, поради тоа. Покажува дека нешто се случува од некоја причина. Ich war krank, daher bin ich nicht gekommen.",
         "Ред на зборовите: daher стои на почетокот на реченицата (тогаш глаголот следува веднаш) или во средината: Daher bleibe ich zu Hause. Зборот не воведува зависна реченица.",
-        "Daher може да значи и оттаму: Von daher kommt das Geräusch. Во ова значење прашањето е woher?"
+        "Daher може да значи и оттаму: Daher kommt das Geräusch. Во ова значење прашањето е woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Имам малку време, затоа морам да одам."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Оттаму доаѓа бучавата."
         }
       ],

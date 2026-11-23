@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "translation": "по този начин • така",
       "explanation": [
         "Накратко: dadurch е наречие, което означава „по този начин“, „с това“, „чрез това“ — посочва причина или средство. Обикновено свързва предходното изречение със следствието: Er hat viel geübt. Dadurch wurde er besser.",
-        "Словоред: след dadurch глаголът е на второ място: Dadurch wird alles einfacher. Също dadurch dass като съюз (като, поради това че) въвежда подчинено изречение с глагола в края.",
+        "Словоред: след dadurch глаголът е на второ място: Dadurch wird alles einfacher. Също dadurch, dass като съюз (като, поради това че) въвежда подчинено изречение с глагола в края.",
         "В пространствен смисъл dadurch означава и „през това“ и тогава ударението е на първата сричка: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Накратко: daher е наречие, което изразява следствие: „затова“, „поради това“. То показва, че нещо се случва по определена причина. Ich war krank, daher bin ich nicht gekommen.",
         "Словоред: daher стои в началото на изречението (тогава глаголът следва веднага) или в средата: Daher bleibe ich zu Hause. Думата не въвежда подчинено изречение.",
-        "Daher може да означава и „оттам“: Von daher kommt das Geräusch. В това значение въпросът е woher?"
+        "Daher може да означава и „оттам“: Daher kommt das Geräusch. В това значение въпросът е woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Имам малко време, затова трябва да тръгвам."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Оттам идва шумът."
         }
       ],

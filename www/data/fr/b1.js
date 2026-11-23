@@ -13645,7 +13645,7 @@ const B1_WORDS = [
       "translation": "ainsi",
       "explanation": [
         "Idée principale : dadurch est un adverbe qui signifie ainsi, de ce fait, par là — il indique une cause ou un moyen. Il relie généralement la phrase précédente à une conséquence : Er hat viel geübt. Dadurch wurde er besser.",
-        "Ordre des mots : après dadurch, le verbe est en deuxième position : Dadurch wird alles einfacher. De même, dadurch dass, employé comme conjonction (du fait que), introduit une subordonnée avec le verbe à la fin.",
+        "Ordre des mots : après dadurch, le verbe est en deuxième position : Dadurch wird alles einfacher. De même, dadurch, dass, employé comme conjonction (du fait que), introduit une subordonnée avec le verbe à la fin.",
         "Au sens spatial, dadurch signifie aussi « à travers », et l'accent porte alors sur la première syllabe : Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13985,7 +13985,7 @@ const B1_WORDS = [
       "explanation": [
         "Idée principale : daher est un adverbe qui exprime une conséquence : donc, c'est pourquoi. Il indique que quelque chose se produit pour une raison donnée. Ich war krank, daher bin ich nicht gekommen.",
         "Ordre des mots : daher se place en tête de phrase (le verbe suit alors immédiatement) ou au milieu : Daher bleibe ich zu Hause. Le mot n'introduit pas de subordonnée.",
-        "Daher peut aussi signifier « de là » : Von daher kommt das Geräusch. Dans ce sens, la question correspondante est woher?"
+        "Daher peut aussi signifier « de là » : Daher kommt das Geräusch. Dans ce sens, la question correspondante est woher?"
       ],
       "examples": [
         {
@@ -14001,7 +14001,7 @@ const B1_WORDS = [
           "lv": "J'ai peu de temps, donc je dois partir."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Le bruit vient de là."
         }
       ],

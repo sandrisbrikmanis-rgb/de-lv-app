@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "explanation": [
         "Kern: daher is een bijwoord dat een gevolg uitdrukt: daarom, om die reden. Het geeft aan dat iets om een bepaalde reden gebeurt. Ich war krank, daher bin ich nicht gekommen.",
         "Woordvolgorde: daher staat vooraan (dan volgt het werkwoord direct) of midden in de zin: Daher bleibe ich zu Hause. Het woord leidt geen bijzin in.",
-        "Daher kan ook ‘daarvandaan’ betekenen: Von daher kommt das Geräusch. In deze betekenis is de vraag woher?"
+        "Daher kan ook ‘daarvandaan’ betekenen: Daher kommt das Geräusch. In deze betekenis is de vraag woher?"
       ],
       "examples": [
         {
@@ -14006,7 +14006,7 @@ const B1_WORDS = [
           "lv": "Ik heb weinig tijd, daarom moet ik gaan."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "Daarvandaan komt het geluid."
         }
       ],

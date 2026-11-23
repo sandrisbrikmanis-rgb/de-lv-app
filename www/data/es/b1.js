@@ -13654,7 +13654,7 @@ const B1_WORDS = [
       "translation": "de este modo",
       "explanation": [
         "Idea principal: dadurch es un adverbio que significa de este modo, así, gracias a ello: indica la causa o el medio. Suele enlazar la oración anterior con su consecuencia: Er hat viel geübt. Dadurch wurde er besser.",
-        "Orden de las palabras: tras dadurch el verbo va en segunda posición: Dadurch wird alles einfacher. Además, dadurch dass funciona como conjunción (por el hecho de que) e introduce una subordinada con el verbo al final.",
+        "Orden de las palabras: tras dadurch el verbo va en segunda posición: Dadurch wird alles einfacher. Además, dadurch, dass funciona como conjunción (por el hecho de que) e introduce una subordinada con el verbo al final.",
         "En sentido espacial, dadurch significa también por ahí, a través de ello, y entonces se acentúa la primera sílaba: Die Tür war offen, wir sind dadurch gegangen."
       ],
       "examples": [
@@ -13993,7 +13993,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principal: daher es un adverbio que expresa consecuencia: por lo tanto, por eso. Indica que algo ocurre por una razón determinada. Ich war krank, daher bin ich nicht gekommen.",
         "Orden de las palabras: si daher va al principio de la oración, el verbo lo sigue inmediatamente: Daher bleibe ich zu Hause. También puede ir en medio: Ich bleibe daher zu Hause. La palabra no introduce una subordinada.",
-        "Daher también puede significar de ahí, desde allí: Von daher kommt das Geräusch. En este sentido la pregunta es woher? (¿de dónde?)."
+        "Daher también puede significar de ahí, desde allí: Daher kommt das Geräusch. En este sentido la pregunta es woher? (¿de dónde?)."
       ],
       "examples": [
         {
@@ -14009,7 +14009,7 @@ const B1_WORDS = [
           "lv": "Tengo poco tiempo, así que tengo que irme."
         },
         {
-          "de": "Von daher kommt das Geräusch.",
+          "de": "Daher kommt das Geräusch.",
           "lv": "El ruido viene de ahí."
         }
       ],
