@@ -6655,7 +6655,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "mustus • pori • sopp",
     "level": "B2"
   },
@@ -12008,7 +12007,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "lina",
     "level": "B2"
   },
@@ -13928,7 +13926,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "lobisemine • tühi jutt",
     "level": "B2"
   },
@@ -15569,7 +15566,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "lumekoorik",
     "level": "B2"
   },
@@ -15828,7 +15824,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "laeva ahter",
     "level": "B2"
   },
@@ -26210,7 +26206,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "valvsus • tähelepanelikkus",
     "level": "B2"
   },

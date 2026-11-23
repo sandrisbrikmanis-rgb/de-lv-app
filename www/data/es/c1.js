@@ -184,7 +184,6 @@ const C1_WORDS = [
   {
     "de": "Freikörperkultur",
     "de_article": "die",
-    "de_plural": "die Freikörperkulturen",
     "lv": "nudismo",
     "level": "C1"
   },
@@ -1579,7 +1578,6 @@ const C1_WORDS = [
   {
     "de": "Schneewittchen",
     "de_article": "das",
-    "de_plural": "die Schneewittchen",
     "lv": "Blancanieves",
     "level": "C1"
   },
@@ -4626,7 +4624,6 @@ const C1_WORDS = [
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
-    "de_plural": "die Regenbogenpressen",
     "lv": "prensa del corazón • prensa rosa",
     "level": "C1"
   },
@@ -5555,7 +5552,6 @@ const C1_WORDS = [
   {
     "de": "Wasserversorgung",
     "de_article": "die",
-    "de_plural": "die Wasserversorgungen",
     "lv": "suministro de agua",
     "level": "C1"
   },
@@ -6905,7 +6901,7 @@ const C1_WORDS = [
   },
   {
     "de": "Hektar",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Hektar",
     "lv": "hectárea",
     "level": "C1"

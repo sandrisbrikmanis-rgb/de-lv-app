@@ -15390,7 +15390,7 @@ const B1_WORDS = [
   {
     "de": "Denkmal",
     "de_article": "das",
-    "de_plural": "die Denkmale",
+    "de_plural": "die Denkmäler",
     "lv": "monumento",
     "level": "B1"
   },
@@ -30918,7 +30918,6 @@ const B1_WORDS = [
   {
     "de": "Glatteis",
     "de_article": "das",
-    "de_plural": "die Glatteise",
     "lv": "placa de hielo",
     "level": "B1"
   },
@@ -38577,7 +38576,6 @@ const B1_WORDS = [
   {
     "de": "Klee",
     "de_article": "der",
-    "de_plural": "die Klee",
     "lv": "trébol",
     "level": "B1"
   },
@@ -40363,7 +40361,6 @@ const B1_WORDS = [
   {
     "de": "Kummer",
     "de_article": "der",
-    "de_plural": "die Kummer",
     "lv": "pena",
     "level": "B1"
   },
@@ -45601,7 +45598,6 @@ const B1_WORDS = [
   {
     "de": "Luxus",
     "de_article": "der",
-    "de_plural": "die Luxuse",
     "lv": "lujo",
     "level": "B1"
   },
@@ -45943,7 +45939,6 @@ const B1_WORDS = [
   {
     "de": "Mars",
     "de_article": "der",
-    "de_plural": "die Marse",
     "lv": "Marte",
     "level": "B1"
   },
@@ -47598,7 +47593,6 @@ const B1_WORDS = [
   {
     "de": "Nachwuchs",
     "de_article": "der",
-    "de_plural": "die Nachwuchse",
     "lv": "nueva generación • relevo",
     "level": "B1"
   },
@@ -47704,7 +47698,6 @@ const B1_WORDS = [
   {
     "de": "Neid",
     "de_article": "der",
-    "de_plural": "die Neide",
     "lv": "envidia",
     "level": "B1"
   },
@@ -49231,7 +49224,6 @@ const B1_WORDS = [
   {
     "de": "Obdach",
     "de_article": "das",
-    "de_plural": "die Obdache",
     "lv": "refugio",
     "level": "B1"
   },
@@ -50648,7 +50640,6 @@ const B1_WORDS = [
   {
     "de": "Petroleum",
     "de_article": "das",
-    "de_plural": "die Petroleen",
     "lv": "queroseno",
     "level": "B1"
   },
@@ -64174,7 +64165,6 @@ const B1_WORDS = [
   {
     "de": "Stuck",
     "de_article": "der",
-    "de_plural": "die Stucke",
     "lv": "estuco",
     "level": "B1"
   },
@@ -68701,7 +68691,7 @@ const B1_WORDS = [
   {
     "de": "Umbau",
     "de_article": "der",
-    "de_plural": "die Umbaue",
+    "de_plural": "die Umbauten",
     "lv": "reconstrucción",
     "level": "B1"
   },

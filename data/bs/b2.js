@@ -6653,7 +6653,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "balega • prljavština • blato • đubre",
     "level": "B2"
   },
@@ -11998,7 +11997,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "lan",
     "level": "B2"
   },
@@ -13914,7 +13912,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "brbljanje • prazne priče",
     "level": "B2"
   },
@@ -15557,7 +15554,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "snježna kora • zaleđeni snijeg",
     "level": "B2"
   },
@@ -15816,7 +15812,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "krma",
     "level": "B2"
   },
@@ -26214,7 +26210,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "budnost • pažnja",
     "level": "B2"
   },

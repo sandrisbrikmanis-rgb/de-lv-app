@@ -14,7 +14,6 @@ const C2_WORDS = [
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
-    "de_plural": "die Stichhaltigkeiten",
     "lv": "bien-fondé • pertinence",
     "level": "C2"
   },
@@ -919,7 +918,6 @@ const C2_WORDS = [
   {
     "de": "Entschlossenheit",
     "de_article": "die",
-    "de_plural": "die Entschlossenheiten",
     "lv": "détermination • résolution • fermeté",
     "level": "C2"
   },

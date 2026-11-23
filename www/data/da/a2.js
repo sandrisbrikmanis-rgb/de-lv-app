@@ -24428,7 +24428,6 @@ const A2_WORDS = [
   {
     "de": "Kefir",
     "de_article": "der",
-    "de_plural": "die Kefirs",
     "lv": "Kefir",
     "level": "A2"
   },
@@ -26306,7 +26305,6 @@ const A2_WORDS = [
   {
     "de": "Kindheit",
     "de_article": "die",
-    "de_plural": "die Kindheiten",
     "lv": "Barndom",
     "level": "A2",
     "study": {

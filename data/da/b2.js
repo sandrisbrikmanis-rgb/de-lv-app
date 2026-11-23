@@ -6650,7 +6650,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "Snavs • Møg",
     "level": "B2"
   },
@@ -12006,7 +12005,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "Hør",
     "level": "B2"
   },
@@ -13923,7 +13921,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "Sludder • Snak",
     "level": "B2"
   },
@@ -15562,7 +15559,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "Skare • Skaresne",
     "level": "B2"
   },
@@ -15822,7 +15818,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "Agterende • Hæk",
     "level": "B2"
   },
@@ -26197,7 +26193,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "Årvågenhed • Opmærksomhed",
     "level": "B2"
   },

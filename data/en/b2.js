@@ -6401,7 +6401,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "Dung • Dirt • Mud • Filth",
     "level": "B2"
   },
@@ -11701,7 +11700,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "Flax",
     "level": "B2"
   },
@@ -13624,7 +13622,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "Chatter • Idle talk • Gossip",
     "level": "B2"
   },
@@ -15266,7 +15263,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "Snow crust",
     "level": "B2"
   },
@@ -15527,7 +15523,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "The stern of a ship",
     "level": "B2"
   },
@@ -25931,7 +25927,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "Vigilance • Attentiveness",
     "level": "B2"
   },
