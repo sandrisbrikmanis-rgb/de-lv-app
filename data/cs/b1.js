@@ -65499,7 +65499,7 @@ const B1_WORDS = [
           "lv": "Na dovolené se potápíme v Rudém moři."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Kachna se na chvíli ponoří pod vodu."
         },
         {

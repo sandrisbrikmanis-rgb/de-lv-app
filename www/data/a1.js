@@ -13180,7 +13180,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Neizmanto jung par priekšmetiem — saka neu.",
-        "Pārākā pakāpe vienmēr ir ar umlautu: jünger, nevis “junger”."
+        "Pārākā pakāpe vienmēr ir ar umlautu: jünger (junger ir tikai pamata pakāpe ar galotni: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {

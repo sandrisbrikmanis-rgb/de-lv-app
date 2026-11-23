@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bloks",
       "explanation": [
-        "Galvenā doma: der Block ir bloks — blīvs, vienots gabals vai komplekts: piezīmju bloks, ledus bloks, ēku bloks. Daudzskaitlis ir die Blöcke.",
+        "Galvenā doma: der Block ir bloks — blīvs, vienots gabals vai komplekts: piezīmju bloks, ledus bloks, ēku bloks. Daudzskaitlis ir die Blöcke (piezīmju un ēku blokiem bieži arī die Blocks).",
         "Tipiski salikteņi: der Notizblock (piezīmju bloks), der Wohnblock (dzīvojamo māju komplekss), der Motorblock (motora bloks); arī ein Block Eis (ledus bloks).",
         "Pārnestā nozīmē der Block var būt arī politiska vai ekonomiska apvienība: der Machtblock (varas bloks)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft ir sieviešu dzimtē.",
-        "Nejauc ar das Konsulat (konsulāts): tas parasti apkalpo iedzīvotājus pilsētā."
+        "Nejauc ar das Konsulat (konsulāts): tas apkalpo pilsoņus noteiktā konsulārajā apgabalā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -34239,7 +34239,7 @@ const B1_WORDS = [
       "translation": "homoseksuālis",
       "explanation": [
         "Galvenā doma: der Homosexuelle ir lietvārds, kas nozīmē homoseksuālu vīrieti. Tas deklinējas kā īpašības vārds: ein Homosexueller, der Homosexuelle, die Homosexuellen (daudzskaitlī). Sieviete: die Homosexuelle, eine Homosexuelle.",
-        "Vārds ir neitrāls, formāls un tiek lietots oficiālos tekstos, ziņās, likumos. Ikdienā bieži saka schwul (gejs) vai lesbisch (lesbiete)."
+        "Vārds ir neitrāls, formāls un tiek lietots oficiālos tekstos, ziņās, likumos. Ikdienā bieži saka īpašības vārdus: er ist schwul (viņš ir gejs), sie ist lesbisch (viņa ir lesbiete)."
       ],
       "examples": [
         {
@@ -45636,7 +45636,7 @@ const B1_WORDS = [
         "Salikteņi: die Machtübernahme (varas pārņemšana), der Machtkampf (cīņa par varu)."
       ],
       "important": [
-        "Macht nenozīmē tikai fizisku spēku; tam lieto die Kraft.",
+        "Macht nenozīmē fizisku spēku; to sauc die Kraft.",
         "Daudzskaitlis die Mächte pārsvarā attiecas uz valstīm vai spēkiem."
       ],
       "sectionAccents": {
@@ -54737,7 +54737,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten nav braten: braten ir cept ar eļļu vai taukiem, rösten – grauzdēt.",
-        "Neaizmaini rösten ar rostet (rūsē)."
+        "Neaizmaini rösten ar rosten (rūsēt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -65475,7 +65475,7 @@ const B1_WORDS = [
           "lv": "Atvaļinājumā mēs nirstam Sarkanajā jūrā."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Pīle uz brīdi nogrimst zem ūdens."
         },
         {

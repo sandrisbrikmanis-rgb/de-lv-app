@@ -65479,7 +65479,7 @@ const B1_WORDS = [
           "lv": "Na urlopie nurkujemy w Morzu Czerwonym."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Kaczka na chwilę daje nura."
         },
         {

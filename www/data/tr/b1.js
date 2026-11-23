@@ -65479,7 +65479,7 @@ const B1_WORDS = [
           "lv": "Tatilde Kızıldeniz'de dalıyoruz."
         },
         {
-          "de": "Die Ente taucht kurz unter.",
+          "de": "Die Ente taucht kurz ins Wasser.",
           "lv": "Ördek kısa bir süre suyun altına dalıyor."
         },
         {
