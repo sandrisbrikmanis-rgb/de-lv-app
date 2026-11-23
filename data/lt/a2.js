@@ -34935,12 +34935,6 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Rahm",
-    "de_article": "der",
-    "lv": "saldi grietinėlė",
-    "level": "A2"
-  },
-  {
     "de": "Rand",
     "de_article": "der",
     "de_plural": "die Ränder",
@@ -37264,6 +37258,12 @@ const A2_WORDS = [
   {
     "de": "schlagen",
     "lv": "mušti",
+    "level": "A2"
+  },
+  {
+    "de": "Schlagsahne",
+    "de_article": "die",
+    "lv": "plakamoji grietinėlė",
     "level": "A2"
   },
   {

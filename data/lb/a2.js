@@ -34916,12 +34916,6 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Rahm",
-    "de_article": "der",
-    "lv": "Ram",
-    "level": "A2"
-  },
-  {
     "de": "Rand",
     "de_article": "der",
     "de_plural": "die Ränder",
@@ -37245,6 +37239,12 @@ const A2_WORDS = [
   {
     "de": "schlagen",
     "lv": "schloen",
+    "level": "A2"
+  },
+  {
+    "de": "Schlagsahne",
+    "de_article": "die",
+    "lv": "Schlagram",
     "level": "A2"
   },
   {
