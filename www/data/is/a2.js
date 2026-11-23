@@ -2275,7 +2275,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt er ekki það sama og praktisch: angewandt segir að kenningu sé beitt, en praktisch lýsir því sem er þægilegt eða gagnlegt.",
-        "Á undan nafnorði þarf alltaf endingu (angewandte Wissenschaft, angewandter Test)."
+        "Á undan nafnorði þarf alltaf endingu (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21654,7 +21654,7 @@ const A2_WORDS = [
       "translation": "ástæða",
       "explanation": [
         "Aðalatriðið: der Grund er karlkynsnafnorð, fleirtala die Gründe. Það merkir ástæðu: Was ist der Grund für die Verspätung? Algengt: aus diesem Grund (af þessari ástæðu), keinen Grund haben (hafa enga ástæðu).",
-        "Það merkir líka grunn, jörð (sbr. íslenska orðið grunnur): der Grund und Boden. Orðasambandið im Grunde (genommen) merkir í raun og veru."
+        "Það merkir líka grunn, jörð (sbr. íslenska orðið grunnur): Grund und Boden. Orðasambandið im Grunde (genommen) merkir í raun og veru."
       ],
       "examples": [
         {

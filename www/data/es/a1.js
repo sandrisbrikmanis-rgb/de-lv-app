@@ -9769,7 +9769,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "parecido",
-          "example": "Die Brüder sind ähnlich. – Los hermanos se parecen."
+          "example": "Die Brüder sehen sich ähnlich. – Los hermanos se parecen."
         }
       ],
       "tip": [

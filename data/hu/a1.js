@@ -9752,7 +9752,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "hasonló",
-          "example": "Die Brüder sind ähnlich. – A fivérek hasonlítanak egymásra."
+          "example": "Die Brüder sehen sich ähnlich. – A fivérek hasonlítanak egymásra."
         }
       ],
       "tip": [

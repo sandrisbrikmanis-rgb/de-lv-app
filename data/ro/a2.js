@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt nu este același lucru cu praktisch: angewandt arată că o teorie este folosită, iar praktisch descrie ceva comod sau util.",
-        "Înaintea substantivului trebuie pusă întotdeauna terminația (angewandte Wissenschaft, angewandter Test)."
+        "Înaintea substantivului trebuie pusă întotdeauna terminația (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "motiv • cauză",
       "explanation": [
         "Ideea principală: der Grund este un substantiv masculin, plural die Gründe. Înseamnă motiv: Was ist der Grund für die Verspätung? Des întâlnit: aus diesem Grund (din acest motiv), keinen Grund haben.",
-        "Înseamnă și temelie, teren: der Grund und Boden. Expresia im Grunde (genommen) — în fond, de fapt."
+        "Înseamnă și temelie, teren: Grund und Boden. Expresia im Grunde (genommen) — în fond, de fapt."
       ],
       "examples": [
         {

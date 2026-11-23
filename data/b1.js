@@ -48591,7 +48591,7 @@ const B1_WORDS = [
       "translation": "trūkums",
       "explanation": [
         "Galvenā doma: die Not ir trūkums, posts, bēdu situācija, kad cilvēkam trūkst pašu nepieciešamāko (in Not leben, Not leiden). Tā ir arī steidzama vajadzība vai nelaime: in der Not, in Not geraten.",
-        "Vārds ir sieviešu dzimtē. Daudzskaitlis die Nöte ir ļoti reti; parasti lieto vienskaitli.",
+        "Vārds ir sieviešu dzimtē. Daudzskaitli die Nöte lieto retāk (Sorgen und Nöte); parasti lieto vienskaitli.",
         "Frāzes: zur Not (ja citādi neiet; ja nu galīgi vajag), aus der Not eine Tugend machen (no vajadzības darīt tikumu), Not macht erfinderisch (vajadzība padara atjautīgu)."
       ],
       "examples": [
@@ -70124,7 +70124,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "saite, saitīte",
+          "meaning": "pārsējs, saite",
           "example": "Sie wickelt eine Binde um den Fuß. – Viņa apsien pēdai saiti."
         },
         {
@@ -70226,7 +70226,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saite, saitīte"
+                "pārsējs, saite"
               ]
             }
           },

@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt — не те саме, що praktisch: angewandt вказує, що теорію використовують, а praktisch описує те, що зручне або корисне.",
-        "Перед іменником завжди потрібне закінчення (angewandte Wissenschaft, angewandter Test)."
+        "Перед іменником завжди потрібне закінчення (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "причина",
       "explanation": [
         "Головна думка: der Grund — іменник чоловічого роду, множина die Gründe. Він означає причину: Was ist der Grund für die Verspätung? Часто: aus diesem Grund (із цієї причини), keinen Grund haben.",
-        "Він означає також основу, землю: der Grund und Boden. Фраза im Grunde (genommen) — по суті."
+        "Він означає також основу, землю: Grund und Boden. Фраза im Grunde (genommen) — по суті."
       ],
       "examples": [
         {

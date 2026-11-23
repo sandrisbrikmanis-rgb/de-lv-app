@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt, praktisch ile aynı şey değildir: angewandt bir teorinin uygulamada kullanıldığını bildirir, praktisch ise kullanışlı ya da işe yarar olanı niteler.",
-        "İsimden önce her zaman çekim eki gerekir (angewandte Wissenschaft, angewandter Test)."
+        "İsimden önce her zaman çekim eki gerekir (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21667,7 +21667,7 @@ const A2_WORDS = [
       "translation": "sebep • neden",
       "explanation": [
         "der Grund eril bir isimdir, çoğulu die Gründe. Sebep, neden demektir: Was ist der Grund für die Verspätung? Sık kullanılanlar: aus diesem Grund (bu sebeple), keinen Grund haben.",
-        "Ayrıca temel, zemin, toprak demektir: der Grund und Boden. im Grunde (genommen) kalıbı — özünde, esasında."
+        "Ayrıca temel, zemin, toprak demektir: Grund und Boden. im Grunde (genommen) kalıbı — özünde, esasında."
       ],
       "examples": [
         {

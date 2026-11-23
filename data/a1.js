@@ -9775,7 +9775,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "līdzīgs",
-          "example": "Die Brüder sind ähnlich. – Brāļi ir līdzīgi."
+          "example": "Die Brüder sehen sich ähnlich. – Brāļi ir līdzīgi."
         }
       ],
       "tip": [
@@ -21796,7 +21796,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: schauen nozīmē “skatīties, paskatīties” — virzīt skatienu uz kaut ko: Wir schauen aus dem Fenster. Dienvidvācijā, Austrijā un Šveicē tas ir ļoti bieži lietots; ziemeļos biežāk lieto gucken vai sehen.",
         "Formas: schaut, schaute, hat geschaut. Bieži ar prievārdiem: auf + akuzatīvs (Er schaut auf die Uhr), aus dem Fenster (pa logu), nach + datīvs (Sie schaut nach dem Kind — pieskata bērnu). Pavēle: Schau mal! — Paskaties!",
-        "Frāze Ich schaue fern nozīmē “es skatos televizoru”."
+        "Frāze Ich schaue fern (no fernschauen — Dienvidvācijā un Austrijā; citur fernsehen) nozīmē “es skatos televizoru”."
       ],
       "examples": [
         {
@@ -27786,7 +27786,7 @@ const A1_WORDS = [
         "Kopā ar cilvēkiem lieto zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu prasa tikai datīvu: zu meinem Freund, zu der Schule.",
+        "Zu prasa tikai datīvu: zu meinem Freund, zur Schule (= zu der Schule).",
         "Pilsētām un valstīm lieto nach, nevis zu: nach Berlin."
       ],
       "sectionAccents": {

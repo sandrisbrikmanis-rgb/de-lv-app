@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt — не то же самое, что praktisch: angewandt указывает на то, что теория используется, а praktisch характеризует то, что удобно или полезно.",
-        "Перед существительным всегда нужно окончание (angewandte Wissenschaft, angewandter Test)."
+        "Перед существительным всегда нужно окончание (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "причина",
       "explanation": [
         "Главное: der Grund — существительное мужского рода, множественное число die Gründe. Оно значит причину: Was ist der Grund für die Verspätung? Часто: aus diesem Grund (по этой причине), keinen Grund haben.",
-        "Оно значит также основу, землю: der Grund und Boden. Фраза im Grunde (genommen) — в сущности."
+        "Оно значит также основу, землю: Grund und Boden. Фраза im Grunde (genommen) — в сущности."
       ],
       "examples": [
         {

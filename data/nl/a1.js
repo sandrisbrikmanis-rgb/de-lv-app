@@ -9771,7 +9771,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "gelijkend, vergelijkbaar",
-          "example": "Die Brüder sind ähnlich. – De broers lijken op elkaar."
+          "example": "Die Brüder sehen sich ähnlich. – De broers lijken op elkaar."
         }
       ],
       "tip": [

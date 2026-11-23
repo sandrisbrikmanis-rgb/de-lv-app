@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt nuk është e njëjta gjë me praktisch: angewandt tregon se teoria përdoret në praktikë, kurse praktisch përshkruan atë që është e përshtatshme ose e dobishme.",
-        "Para emrit gjithmonë duhet vënë mbaresa (angewandte Wissenschaft, angewandter Test)."
+        "Para emrit gjithmonë duhet vënë mbaresa (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21666,7 +21666,7 @@ const A2_WORDS = [
       "translation": "arsye • shkak",
       "explanation": [
         "Ideja kryesore: der Grund është emër i gjinisë mashkullore, shumësi die Gründe. Do të thotë arsye: Was ist der Grund für die Verspätung? Shpesh: aus diesem Grund (për këtë arsye), keinen Grund haben.",
-        "Do të thotë edhe bazë, tokë: der Grund und Boden. Shprehja im Grunde (genommen) — në thelb."
+        "Do të thotë edhe bazë, tokë: Grund und Boden. Shprehja im Grunde (genommen) — në thelb."
       ],
       "examples": [
         {

@@ -9754,7 +9754,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "sarnane",
-          "example": "Die Brüder sind ähnlich. – Vennad on sarnased."
+          "example": "Die Brüder sehen sich ähnlich. – Vennad on sarnased."
         }
       ],
       "tip": [

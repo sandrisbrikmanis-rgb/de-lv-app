@@ -2275,7 +2275,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt ei ole sama kuin praktisch: angewandt ilmaisee, että teoriaa käytetään, praktisch taas kuvaa sitä, mikä on kätevää tai hyödyllistä.",
-        "Substantiivin edellä tarvitaan aina pääte (angewandte Wissenschaft, angewandter Test)."
+        "Substantiivin edellä tarvitaan aina pääte (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21664,7 +21664,7 @@ const A2_WORDS = [
       "translation": "syy",
       "explanation": [
         "Perusajatus: der Grund on maskuliininen substantiivi, monikko die Gründe. Se tarkoittaa syytä: Was ist der Grund für die Verspätung? Usein: aus diesem Grund (tästä syystä), keinen Grund haben.",
-        "Se tarkoittaa myös pohjaa, maata: der Grund und Boden. Fraasi im Grunde (genommen) — pohjimmiltaan."
+        "Se tarkoittaa myös pohjaa, maata: Grund und Boden. Fraasi im Grunde (genommen) — pohjimmiltaan."
       ],
       "examples": [
         {

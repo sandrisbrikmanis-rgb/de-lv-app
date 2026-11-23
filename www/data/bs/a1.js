@@ -9772,7 +9772,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "sličan",
-          "example": "Die Brüder sind ähnlich. – Braća su slična."
+          "example": "Die Brüder sehen sich ähnlich. – Braća su slična."
         }
       ],
       "tip": [

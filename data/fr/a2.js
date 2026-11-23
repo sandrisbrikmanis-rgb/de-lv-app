@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt n'est pas la même chose que praktisch : angewandt indique qu'une théorie est mise en pratique, tandis que praktisch qualifie ce qui est commode ou utile.",
-        "Devant un nom, il faut toujours une terminaison (angewandte Wissenschaft, angewandter Test)."
+        "Devant un nom, il faut toujours une terminaison (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21661,7 +21661,7 @@ const A2_WORDS = [
       "translation": "raison",
       "explanation": [
         "Idée principale : der Grund est un nom masculin, pluriel die Gründe. Il signifie raison, motif : Was ist der Grund für die Verspätung? Fréquent : aus diesem Grund (pour cette raison), keinen Grund haben.",
-        "Il signifie aussi fondement, terrain : der Grund und Boden. L'expression im Grunde (genommen) — au fond."
+        "Il signifie aussi fondement, terrain : Grund und Boden. L'expression im Grunde (genommen) — au fond."
       ],
       "examples": [
         {

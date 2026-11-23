@@ -2278,7 +2278,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt is niet hetzelfde als praktisch: angewandt geeft aan dat theorie wordt gebruikt, praktisch beschrijft wat handig of nuttig is.",
-        "Vóór een zelfstandig naamwoord krijgt het altijd een uitgang (angewandte Wissenschaft, angewandter Test)."
+        "Vóór een zelfstandig naamwoord krijgt het altijd een uitgang (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21660,7 +21660,7 @@ const A2_WORDS = [
       "translation": "reden",
       "explanation": [
         "Kern: der Grund is een mannelijk zelfstandig naamwoord, meervoud die Gründe. Het betekent reden: Was ist der Grund für die Verspätung? Vaak: aus diesem Grund (om deze reden), keinen Grund haben.",
-        "Het betekent ook grond, bodem: der Grund und Boden. De uitdrukking im Grunde (genommen) betekent eigenlijk, in wezen."
+        "Het betekent ook grond, bodem: Grund und Boden. De uitdrukking im Grunde (genommen) betekent eigenlijk, in wezen."
       ],
       "examples": [
         {

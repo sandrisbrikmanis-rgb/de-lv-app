@@ -9765,7 +9765,7 @@ const A1_WORDS = [
         {
           "word": "ähnlich",
           "meaning": "ähnlech",
-          "example": "Die Brüder sind ähnlich. – D'Bridder sinn ähnlech."
+          "example": "Die Brüder sehen sich ähnlich. – D'Bridder sinn ähnlech."
         }
       ],
       "tip": [

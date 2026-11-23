@@ -2277,7 +2277,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Angewandt není totéž co praktisch: angewandt říká, že se teorie využívá, kdežto praktisch popisuje něco, co je pohodlné nebo užitečné.",
-        "Před podstatným jménem musí mít vždy koncovku (angewandte Wissenschaft, angewandter Test)."
+        "Před podstatným jménem musí mít vždy koncovku (angewandte Wissenschaft, ein angewandtes Verfahren)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21698,7 +21698,7 @@ const A2_WORDS = [
       "translation": "Důvod",
       "explanation": [
         "Hlavní myšlenka: der Grund je podstatné jméno mužského rodu, množné číslo die Gründe. Znamená důvod: Was ist der Grund für die Verspätung? Časté: aus diesem Grund (z tohoto důvodu), keinen Grund haben.",
-        "Znamená také základ, půdu: der Grund und Boden. Fráze im Grunde (genommen) – v podstatě."
+        "Znamená také základ, půdu: Grund und Boden. Fráze im Grunde (genommen) – v podstatě."
       ],
       "examples": [
         {
