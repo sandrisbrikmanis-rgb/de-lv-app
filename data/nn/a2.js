@@ -44789,7 +44789,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Med wählen seier du kva du vel: ein Menü, eine Partei, eine Nummer. Objektet avgjer tydinga.",
-        "Saman med substantivet: die Wahl treffen (ta eit val), zur Wahl gehen (gå og stemme)."
+        "Saman med substantivet: eine Wahl treffen (ta eit val), zur Wahl gehen (gå og stemme)."
       ],
       "important": [
         "wählen vert brukt utan preposisjon når ein vel eit objekt: Ich wähle ein Kleid (ikkje wähle für).",

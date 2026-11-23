@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Me wählen thua çfarë zgjedh saktësisht: ein Menü, eine Partei, eine Nummer. Kuptimin e përcakton kundrinori.",
-        "Bashkë me emrin: die Wahl treffen (bëj një zgjedhje), zur Wahl gehen (shkoj të votoj)."
+        "Bashkë me emrin: eine Wahl treffen (bëj një zgjedhje), zur Wahl gehen (shkoj të votoj)."
       ],
       "important": [
         "wählen nuk përdoret me parafjalë kur zgjedh një objekt: Ich wähle ein Kleid (jo wähle für).",

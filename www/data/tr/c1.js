@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "die Wahl hem tercih (birkaç seçenekten birini seçme) hem de seçim (insanların oyla bir göreve getirilmesi) demektir.",
         "Dişil isim: die Wahl, çoğulu die Wahlen. Oylama anlamındaki seçimler için çok sık çoğul kullanılır: die Wahlen finden statt. Tercih anlamında genellikle tekildir: die Wahl haben, keine andere Wahl haben.",
-        "Kalıplar: die Wahl treffen (seçim yapmak, karar vermek), zur Wahl gehen (oy vermeye gitmek), die Wahl gewinnen (seçimi kazanmak)."
+        "Kalıplar: eine Wahl treffen (seçim yapmak, karar vermek), zur Wahl gehen (oy vermeye gitmek), die Wahl gewinnen (seçimi kazanmak)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "tercih",

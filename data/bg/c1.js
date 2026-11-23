@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Накратко: die Wahl означава избор (когато избираме от няколко възможности) и избори (избиране на хора за длъжност).",
         "Съществително от женски род: die Wahl, множествено число die Wahlen. В значението „избори” много често се използва множествено число: die Wahlen finden statt. В значението „избор” обикновено е в единствено число: die Wahl haben, keine andere Wahl haben.",
-        "Съчетания: die Wahl treffen (правя избор), zur Wahl gehen (отивам да гласувам), die Wahl gewinnen (печеля изборите)."
+        "Съчетания: eine Wahl treffen (правя избор), zur Wahl gehen (отивам да гласувам), die Wahl gewinnen (печеля изборите)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "избор",

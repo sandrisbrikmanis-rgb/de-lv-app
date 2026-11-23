@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Główna myśl: die Wahl oznacza wybór (spośród kilku możliwości) oraz wybory (wybieranie ludzi na stanowiska).",
         "Rzeczownik rodzaju żeńskiego: die Wahl, liczba mnoga die Wahlen. W znaczeniu „wybory” bardzo często występuje w liczbie mnogiej: die Wahlen finden statt. W znaczeniu „wybór” zwykle stoi w liczbie pojedynczej: die Wahl haben, keine andere Wahl haben.",
-        "Połączenia: die Wahl treffen (dokonać wyboru), zur Wahl gehen (iść na wybory), die Wahl gewinnen (wygrać wybory)."
+        "Połączenia: eine Wahl treffen (dokonać wyboru), zur Wahl gehen (iść na wybory), die Wahl gewinnen (wygrać wybory)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "wybór",

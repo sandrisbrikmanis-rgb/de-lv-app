@@ -2107,7 +2107,7 @@ const C1_WORDS = [
       "explanation": [
         "Main idea: die Wahl means a choice (picking from several possibilities) and an election (choosing people for office).",
         "Feminine noun: die Wahl, plural die Wahlen. Elections are very often used in the plural: die Wahlen finden statt. Choice is usually singular: die Wahl haben, keine andere Wahl haben.",
-        "Combinations: die Wahl treffen (to make a choice), zur Wahl gehen (to go and vote), die Wahl gewinnen (to win the election)."
+        "Combinations: eine Wahl treffen (to make a choice), zur Wahl gehen (to go and vote), die Wahl gewinnen (to win the election)."
       ],
       "examples": [
         {
@@ -2159,7 +2159,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "choice",

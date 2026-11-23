@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "savienība",
       "explanation": [
         "Galvenā doma: der Bund ir savienība, apvienība vai valsts līmeņa savienība — vairāku pušu vienota apvienošanās. Daudzskaitlis ir die Bünde. Vārds ir vīriešu dzimtē.",
-        "Vācijā der Bund bieži nozīmē federālo valdību pretstatā zemēm (Ländern): Bund und Länder. Salikteņos: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Vācijā der Bund bieži nozīmē federālo valdību pretstatā zemēm (die Länder): Bund und Länder. Salikteņos: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Citas nozīmes: ein Bund fürs Leben (laulības savienība) un das Bund (saišķis): ein Bund Radieschen. Tas ir cits vārds ar citu artikulu."
       ],
       "examples": [
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "savs",
       "explanation": [
         "Galvenā doma: eigen ir īpašības vārds, kas nozīmē “savs, paša”. Tas uzsver piederību: mein eigenes Auto – mana paša auto. Tas parasti stāv pirms lietvārda un tiek lokāts: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Pārnestā nozīmē eigen var nozīmēt arī “īpatnējs, savdabīgs”: ein eigener Geruch – īpatnēja smaka. Izteiciens etwas zu eigen haben – piemist kaut kas. B1 līmenī galvenā nozīme ir “savs, paša”."
+        "Pārnestā nozīmē eigen var nozīmēt arī “īpatnējs, savdabīgs”: ein eigener Geruch – īpatnēja smaka. Izteiciens sich (Dat) etwas zu eigen machen – pieņemt kaut ko kā savu. B1 līmenī galvenā nozīme ir “savs, paša”."
       ],
       "examples": [
         {
@@ -47382,7 +47382,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben nav tas pats, kas aufgeben: nachgeben ir piekāpties kādam, aufgeben ir atmest kādu mērķi.",
-        "Priedēklis nach- atdalās: gibt nach, nevis nachgibt."
+        "Priedēklis nach- galvenajā teikumā atdalās: er gibt nach (palīgteikumā kopā: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {

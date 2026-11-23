@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "S wählen povedz, čo presne si vyberáš: ein Menü, eine Partei, eine Nummer. Význam určuje predmet.",
-        "Spolu s podstatným menom: die Wahl treffen (urobiť výber), zur Wahl gehen (ísť voliť)."
+        "Spolu s podstatným menom: eine Wahl treffen (urobiť výber), zur Wahl gehen (ísť voliť)."
       ],
       "important": [
         "wählen sa pri výbere predmetu nepoužíva s predložkou: Ich wähle ein Kleid (nie wähle für).",

@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Glavna ideja: die Wahl znači izbor (ono što se bira između više mogućnosti) i izbore (biranje ljudi na funkciju).",
         "Imenica ženskog roda: die Wahl, množina die Wahlen. Izbori se vrlo često koriste u množini: die Wahlen finden statt. Izbor je obično u jednini: die Wahl haben, keine andere Wahl haben.",
-        "Veze: die Wahl treffen (napraviti izbor), zur Wahl gehen (izaći na izbore), die Wahl gewinnen (pobediti na izborima)."
+        "Veze: eine Wahl treffen (napraviti izbor), zur Wahl gehen (izaći na izbore), die Wahl gewinnen (pobediti na izborima)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "izbor",

@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Hovedidé: die Wahl betyr både valg som det man velger blant flere muligheter, og valg der folk velges til et verv. Norsk valg dekker heldigvis begge betydningene.",
         "Substantiv i hunkjønn: die Wahl, flertall die Wahlen. Om politiske valg brukes svært ofte flertall: die Wahlen finden statt. Valg som mulighet står vanligvis i entall: die Wahl haben, keine andere Wahl haben.",
-        "Forbindelser: die Wahl treffen (treffe et valg), zur Wahl gehen (gå og stemme), die Wahl gewinnen (vinne valget)."
+        "Forbindelser: eine Wahl treffen (treffe et valg), zur Wahl gehen (gå og stemme), die Wahl gewinnen (vinne valget)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "valg",

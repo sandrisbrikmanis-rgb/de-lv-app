@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Со wählen кажи што точно избираш: ein Menü, eine Partei, eine Nummer. Значењето го одредува објектот.",
-        "Заедно со именката: die Wahl treffen (да направиш избор), zur Wahl gehen (да одиш да гласаш)."
+        "Заедно со именката: eine Wahl treffen (да направиш избор), zur Wahl gehen (да одиш да гласаш)."
       ],
       "important": [
         "wählen не се користи со предлог кога се избира објект: Ich wähle ein Kleid (а не wähle für).",

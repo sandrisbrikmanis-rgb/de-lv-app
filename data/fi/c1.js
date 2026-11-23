@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Perusajatus: die Wahl tarkoittaa valintaa (sitä, mitä valitaan useista vaihtoehdoista) ja vaaleja (ihmisten valitsemista virkaan).",
         "Feminiinisubstantiivi: die Wahl, monikko die Wahlen. Vaaleista puhuttaessa käytetään hyvin usein monikkoa: die Wahlen finden statt. Valinnan merkityksessä sana on yleensä yksikössä: die Wahl haben, keine andere Wahl haben.",
-        "Yhdistelmiä: die Wahl treffen (tehdä valinta), zur Wahl gehen (mennä äänestämään), die Wahl gewinnen (voittaa vaalit)."
+        "Yhdistelmiä: eine Wahl treffen (tehdä valinta), zur Wahl gehen (mennä äänestämään), die Wahl gewinnen (voittaa vaalit)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "valintaa",

@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: die Wahl reiškia pasirinkimą (ką renkamasi iš kelių galimybių) ir rinkimus (žmonių išrinkimą į pareigas).",
         "Moteriškosios giminės daiktavardis: die Wahl, daugiskaita die Wahlen. Rinkimai labai dažnai vartojami daugiskaita: die Wahlen finden statt. Pasirinkimas paprastai vartojamas vienaskaita: die Wahl haben, keine andere Wahl haben.",
-        "Junginiai: die Wahl treffen (pasirinkti), zur Wahl gehen (eiti balsuoti), die Wahl gewinnen (laimėti rinkimus)."
+        "Junginiai: eine Wahl treffen (pasirinkti), zur Wahl gehen (eiti balsuoti), die Wahl gewinnen (laimėti rinkimus)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "pasirinkimą",

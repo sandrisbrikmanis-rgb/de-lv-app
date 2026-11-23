@@ -44805,7 +44805,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Con wählen dices qué eliges exactamente: ein Menü, eine Partei, eine Nummer. El complemento determina el significado.",
-        "Con el sustantivo: die Wahl treffen (hacer una elección), zur Wahl gehen (ir a votar)."
+        "Con el sustantivo: eine Wahl treffen (hacer una elección), zur Wahl gehen (ir a votar)."
       ],
       "important": [
         "wählen no lleva preposición cuando se elige un objeto: Ich wähle ein Kleid (no wähle für).",

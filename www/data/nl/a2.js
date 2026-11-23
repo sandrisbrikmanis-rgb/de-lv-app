@@ -44781,7 +44781,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Bij wählen zeg je wat je precies kiest: ein Menü, eine Partei, eine Nummer. Het lijdend voorwerp bepaalt de betekenis.",
-        "Met het zelfstandig naamwoord: die Wahl treffen (een keuze maken), zur Wahl gehen (gaan stemmen)."
+        "Met het zelfstandig naamwoord: eine Wahl treffen (een keuze maken), zur Wahl gehen (gaan stemmen)."
       ],
       "important": [
         "wählen gebruik je zonder voorzetsel als je een voorwerp kiest: Ich wähle ein Kleid (niet wähle für).",

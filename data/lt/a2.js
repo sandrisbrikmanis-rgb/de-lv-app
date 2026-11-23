@@ -44787,7 +44787,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Su wählen pasakykite, ką tiksliai renkatės: ein Menü, eine Partei, eine Nummer. Reikšmę lemia objektas.",
-        "Su daiktavardžiu: die Wahl treffen (pasirinkti), zur Wahl gehen (eiti balsuoti)."
+        "Su daiktavardžiu: eine Wahl treffen (pasirinkti), zur Wahl gehen (eiti balsuoti)."
       ],
       "important": [
         "wählen nevartojamas su prielinksniu, kai renkamasi objektas: Ich wähle ein Kleid (ne wähle für).",

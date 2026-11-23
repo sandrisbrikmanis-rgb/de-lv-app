@@ -44788,7 +44788,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Kun käytät verbiä wählen, kerro, mitä tarkalleen valitset: ein Menü, eine Partei, eine Nummer. Merkityksen ratkaisee objekti.",
-        "Substantiivin kanssa: die Wahl treffen (tehdä valinta), zur Wahl gehen (mennä äänestämään)."
+        "Substantiivin kanssa: eine Wahl treffen (tehdä valinta), zur Wahl gehen (mennä äänestämään)."
       ],
       "important": [
         "wählen ei vaadi prepositiota, kun valitaan jokin objekti: Ich wähle ein Kleid (ei wähle für).",

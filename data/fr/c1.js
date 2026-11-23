@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Idée principale : die Wahl signifie le choix (ce que l'on choisit parmi plusieurs possibilités) et l'élection (le fait d'élire quelqu'un à une fonction).",
         "Nom féminin : die Wahl, pluriel die Wahlen. Au sens d'élections, on l'emploie très souvent au pluriel : die Wahlen finden statt. Au sens de choix, il est généralement au singulier : die Wahl haben, keine andere Wahl haben.",
-        "Combinaisons : die Wahl treffen (faire un choix), zur Wahl gehen (aller voter), die Wahl gewinnen (remporter l'élection)."
+        "Combinaisons : eine Wahl treffen (faire un choix), zur Wahl gehen (aller voter), die Wahl gewinnen (remporter l'élection)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "le choix",

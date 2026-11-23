@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Przy wählen mów, co dokładnie wybierasz: ein Menü, eine Partei, eine Nummer. Znaczenie zależy od dopełnienia.",
-        "Z rzeczownikiem: die Wahl treffen (dokonać wyboru), zur Wahl gehen (iść na wybory)."
+        "Z rzeczownikiem: eine Wahl treffen (dokonać wyboru), zur Wahl gehen (iść na wybory)."
       ],
       "important": [
         "wählen nie łączy się z przyimkiem, gdy wybiera się przedmiot: Ich wähle ein Kleid (a nie wähle für).",

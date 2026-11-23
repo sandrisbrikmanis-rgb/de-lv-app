@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "С wählen говори, что именно выбираешь: ein Menü, eine Partei, eine Nummer. Значение определяется дополнением.",
-        "С существительным: die Wahl treffen (сделать выбор), zur Wahl gehen (идти голосовать)."
+        "С существительным: eine Wahl treffen (сделать выбор), zur Wahl gehen (идти голосовать)."
       ],
       "important": [
         "wählen не употребляется с предлогом, когда выбирают объект: Ich wähle ein Kleid (а не wähle für).",

@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Ideja kryesore: die Wahl do të thotë zgjedhje (kur zgjedh nga disa mundësi) dhe zgjedhjet (kur njerëzit zgjidhen me votë në një detyrë).",
         "Emër i gjinisë femërore: die Wahl, shumësi die Wahlen. Për zgjedhjet politike shumë shpesh përdoret shumësi: die Wahlen finden statt. Zgjedhja si mundësi është zakonisht në njëjës: die Wahl haben, keine andere Wahl haben.",
-        "Lidhje: die Wahl treffen (bëj një zgjedhje), zur Wahl gehen (shkoj të votoj), die Wahl gewinnen (fitoj zgjedhjet)."
+        "Lidhje: eine Wahl treffen (bëj një zgjedhje), zur Wahl gehen (shkoj të votoj), die Wahl gewinnen (fitoj zgjedhjet)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "zgjedhje",

@@ -2113,7 +2113,7 @@ const C1_WORDS = [
       "explanation": [
         "Põhimõte: die Wahl tähendab valikut (seda, mida mitme võimaluse seast valitakse) ja valimisi (inimeste ametisse valimist).",
         "Naissoost nimisõna: die Wahl, mitmus die Wahlen. Valimiste tähenduses kasutatakse väga sageli mitmust: die Wahlen finden statt. Valik on tavaliselt ainsuses: die Wahl haben, keine andere Wahl haben.",
-        "Ühendid: die Wahl treffen (valikut tegema), zur Wahl gehen (valima minema), die Wahl gewinnen (valimisi võitma)."
+        "Ühendid: eine Wahl treffen (valikut tegema), zur Wahl gehen (valima minema), die Wahl gewinnen (valimisi võitma)."
       ],
       "examples": [
         {
@@ -2165,7 +2165,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "valikut",

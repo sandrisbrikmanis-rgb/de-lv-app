@@ -2108,7 +2108,7 @@ const C1_WORDS = [
       "explanation": [
         "Hovedidé: die Wahl betyder både valg som det, man vælger blandt flere muligheder, og valg som afstemning, hvor nogen vælges til et embede. Dansk valg dækker heldigvis begge betydninger.",
         "Navneord i hunkøn: die Wahl, flertal die Wahlen. Om politiske valg bruges meget ofte flertal: die Wahlen finden statt. Valg som mulighed står som regel i ental: die Wahl haben, keine andere Wahl haben.",
-        "Forbindelser: die Wahl treffen (træffe et valg), zur Wahl gehen (gå til valg, stemme), die Wahl gewinnen (vinde valget)."
+        "Forbindelser: eine Wahl treffen (træffe et valg), zur Wahl gehen (gå til valg, stemme), die Wahl gewinnen (vinde valget)."
       ],
       "examples": [
         {
@@ -2160,7 +2160,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "valg",

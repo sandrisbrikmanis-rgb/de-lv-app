@@ -44817,7 +44817,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "S wählen řekněte, co přesně vybíráte: ein Menü, eine Partei, eine Nummer. Význam určuje předmět.",
-        "Ve spojení s podstatným jménem: die Wahl treffen (provést výběr), zur Wahl gehen (jít volit)."
+        "Ve spojení s podstatným jménem: eine Wahl treffen (provést výběr), zur Wahl gehen (jít volit)."
       ],
       "important": [
         "wählen se nepoužívá s předložkou, když se vybírá předmět: Ich wähle ein Kleid (ne wähle für).",

@@ -12656,7 +12656,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Saikļa damit teikumā darbības vārds ir teikuma beigās.",
-        "damit nenozīmē tāpēc; cēloņa nozīmei lieto deshalb vai darum."
+        "Saiklis damit (lai) nenozīmē tāpēc; nozīmei tāpēc lieto deshalb vai darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26170,7 +26170,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen ir vīriešu dzimtes: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen atsevišķi nozīmē automašīnu vai vagonu, nevis ratiņus."
+        "Wagen atsevišķi parasti nozīmē automašīnu vai vagonu; bērnu ratiņus sauc Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -44786,7 +44786,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ar wählen saki, ko tieši izvēlies: ein Menü, eine Partei, eine Nummer. Nozīmi nosaka objekts.",
-        "Kopā ar lietvārdu: die Wahl treffen (izdarīt izvēli), zur Wahl gehen (iet balsot)."
+        "Kopā ar lietvārdu: eine Wahl treffen (izdarīt izvēli), zur Wahl gehen (iet balsot)."
       ],
       "important": [
         "wählen nelieto ar prievārdu, ja izvēlas objektu: Ich wähle ein Kleid (nevis wähle für).",
@@ -45463,7 +45463,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln lieto, kad vienu lietu nomaina ar citu (skola, darbs, valūta). ändern – kad kaut ko pārveido.",
-        "Pārsēšanos transportā izsaka ar umsteigen, nevis wechseln."
+        "Pārsēšanos transportā parasti izsaka ar umsteigen (iespējams arī den Zug wechseln)."
       ],
       "important": [
         "Ar Geld wechseln parasti saprot valūtas vai naudas samainīšanu, nevis iztērēšanu.",
