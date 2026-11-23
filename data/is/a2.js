@@ -18488,8 +18488,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "tilbúinn",
+    "de": "bereit",
+    "lv": "tilbúinn • fús",
     "level": "A2"
   },
   {
@@ -20670,13 +20670,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "landafræði",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "landafræði",
     "level": "A2"
   },
@@ -36621,11 +36614,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "sýrður rjómi",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "sýrður rjómi",
     "level": "A2"
   },

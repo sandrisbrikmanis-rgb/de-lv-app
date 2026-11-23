@@ -5791,7 +5791,7 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "beziehen / sich beziehen auf",
+    "de": "beziehen auf",
     "lv": "priskirti • sietis su",
     "level": "C1",
     "study": {
@@ -6909,13 +6909,6 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "karutis",
-    "level": "C1"
-  },
-  {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
@@ -6934,13 +6927,6 @@ const C1_WORDS = [
     "de_article": "der",
     "de_plural": "die Matsche",
     "lv": "purvas • tižė",
-    "level": "C1"
-  },
-  {
-    "de": "Panter",
-    "de_article": "der",
-    "de_plural": "die Panter",
-    "lv": "pantera",
     "level": "C1"
   },
   {

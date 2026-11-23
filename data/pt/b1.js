@@ -58968,11 +58968,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "tagarelar • conversar",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "pairar • flutuar",
     "level": "B1"
@@ -59431,11 +59426,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "secção",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "independente • autónomo",
     "level": "B1"
   },
   {

@@ -58957,11 +58957,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "masa • blaðra",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "svífa",
     "level": "B1"
@@ -59420,11 +59415,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "deild • hluti",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "sjálfstæður",
     "level": "B1"
   },
   {

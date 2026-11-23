@@ -58970,11 +58970,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "бъбря",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "рея се • нося се във въздуха",
     "level": "B1"
@@ -59433,11 +59428,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "секция",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "самостоятелен",
     "level": "B1"
   },
   {

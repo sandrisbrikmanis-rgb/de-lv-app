@@ -18486,8 +18486,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "ferdig • klar",
+    "de": "bereit",
+    "lv": "klar • villig",
     "level": "A2"
   },
   {
@@ -20673,13 +20673,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "geografi",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "geografi",
     "level": "A2"
   },
@@ -36622,11 +36615,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "rømme",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "rømme",
     "level": "A2"
   },

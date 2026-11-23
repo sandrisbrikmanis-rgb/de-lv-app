@@ -58966,11 +58966,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "pļāpāt",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "lidināties",
     "level": "B1"
@@ -59429,11 +59424,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "sekcija",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "patstāvīgs",
     "level": "B1"
   },
   {

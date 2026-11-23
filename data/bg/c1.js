@@ -5792,7 +5792,7 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "beziehen / sich beziehen auf",
+    "de": "beziehen auf",
     "lv": "отнасям • отнеса • отнасям се (до)",
     "level": "C1",
     "study": {
@@ -6910,13 +6910,6 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "ръчна количка",
-    "level": "C1"
-  },
-  {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
@@ -6935,13 +6928,6 @@ const C1_WORDS = [
     "de_article": "der",
     "de_plural": "die Matsche",
     "lv": "кал • киша",
-    "level": "C1"
-  },
-  {
-    "de": "Panter",
-    "de_article": "der",
-    "de_plural": "die Panter",
-    "lv": "пантера",
     "level": "C1"
   },
   {

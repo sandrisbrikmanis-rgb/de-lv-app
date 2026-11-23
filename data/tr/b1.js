@@ -58970,11 +58970,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "çene çalmak • gevezelik etmek",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "havada süzülmek • asılı durmak",
     "level": "B1"
@@ -59433,11 +59428,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "bölüm • şube",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "bağımsız • kendi başına",
     "level": "B1"
   },
   {

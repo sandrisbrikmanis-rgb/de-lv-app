@@ -18541,8 +18541,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "fertig / bereit",
-    "lv": "valmis",
+    "de": "bereit",
+    "lv": "valmis • nõus",
     "level": "A2"
   },
   {
@@ -20728,13 +20728,6 @@ const A2_WORDS = [
     "de": "Geografie",
     "de_article": "die",
     "de_plural": "die Geografien",
-    "lv": "geograafia",
-    "level": "A2"
-  },
-  {
-    "de": "Geographie",
-    "de_article": "die",
-    "de_plural": "die Geographien",
     "lv": "geograafia",
     "level": "A2"
   },
@@ -36686,11 +36679,6 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "hapukoor",
-    "level": "A2"
-  },
-  {
-    "de": "saurer Rahm",
     "lv": "hapukoor",
     "level": "A2"
   },

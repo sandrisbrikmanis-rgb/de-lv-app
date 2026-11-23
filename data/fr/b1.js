@@ -58959,11 +58959,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwätzen",
-    "lv": "bavarder",
-    "level": "B1"
-  },
-  {
     "de": "schweben",
     "lv": "flotter",
     "level": "B1"
@@ -59422,11 +59417,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Sektionen",
     "lv": "section",
-    "level": "B1"
-  },
-  {
-    "de": "selbständig",
-    "lv": "indépendant",
     "level": "B1"
   },
   {

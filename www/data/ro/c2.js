@@ -1590,34 +1590,6 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "Karre",
-    "de_article": "die",
-    "de_plural": "die Karren",
-    "lv": "roabă • căruț",
-    "level": "C2"
-  },
-  {
-    "de": "Karren",
-    "de_article": "der",
-    "de_plural": "die Karren",
-    "lv": "căruț • roabă",
-    "level": "C2"
-  },
-  {
-    "de": "Kriegsbeschädigte",
-    "de_article": "der",
-    "de_plural": "die Kriegsbeschädigten",
-    "lv": "invalid de război",
-    "level": "C2"
-  },
-  {
-    "de": "Kriegsgefangene",
-    "de_article": "der",
-    "de_plural": "die Kriegsgefangenen",
-    "lv": "prizonier de război",
-    "level": "C2"
-  },
-  {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
