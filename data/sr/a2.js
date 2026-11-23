@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "odjaviti",
+          "meaning": "odjaviti se, poništiti registraciju",
           "example": "Ich melde mich vom Kurs ab. – Odjavljujem se sa kursa."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: anstecken je odvojivi glagol sa značenjem prikačiti ili staviti (prikačiti cvet, staviti prsten), kao i zaraziti i preneti se (o bolesti).",
         "Oblici: steckt an, steckte an, hat angesteckt. Prefiks an- se u rečenici odvaja: Er steckt mir den Ring an. Traži akuzativ (koga? šta?), a često i dativ (kome?).",
-        "U značenju zaraziti koristi se jemanden anstecken ili sich anstecken (zaraziti se): Ich habe mich bei ihm angesteckt. U nekim regijama anstecken znači i zapaliti (eine Zigarette anstecken)."
+        "U značenju zaraziti koristi se jemanden anstecken ili sich anstecken (zaraziti se): Ich habe mich bei ihm angesteckt. U razgovornom jeziku anstecken znači i zapaliti (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: die Bahn je imenica ženskog roda. Označava železnicu i železnički saobraćaj uopšte (mit der Bahn fahren – putovati vozom). U nazivu preduzeća Deutsche Bahn to je nemačka železnica.",
         "Množina je die Bahnen. Reč se javlja i u složenicama: die Straßenbahn (tramvaj), die U-Bahn (metro), die S-Bahn (gradska železnica), die Eisenbahn (železnica).",
-        "Druga značenja: staza ili traka (die Laufbahn, die Radrennbahn) i orbita (die Umlaufbahn). U sportu die Bahn znači trkačka staza."
+        "Druga značenja: staza ili traka (die Radrennbahn; die Laufbahn — i karijera) i orbita (die Umlaufbahn). U sportu die Bahn znači trkačka staza."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn je ženskog roda; ne mešaj je sa der Bahnhof (stanica, muški rod).",
-        "Reč Bahn sama po sebi često označava preduzeće Deutsche Bahn, a ne konkretan voz; konkretan voz je der Zug."
+        "Reč Bahn može da označava i preduzeće Deutsche Bahn (Die Bahn hat Verspätung); konkretan voz se zove der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt nije isto što i bestimmen: bestimmen znači odrediti, odlučiti, a bestimmt je prilog ili pridev.",
-        "Bestimmt može da izrazi i pretpostavku, a ne samo sigurnost: Er ist bestimmt zu Hause (on je verovatno kod kuće)."
+        "Bestimmt izražava i čvrstu pretpostavku: Er ist bestimmt zu Hause (on je sigurno kod kuće)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "prisutan • pri tome",
       "explanation": [
         "Glavna ideja: dabei je prilog nastao od da + bei. Znači prisutan, uz to, pri tome: pored nečega ili na nekom događaju. Najčešći spoj je dabei sein (biti prisutan, učestvovati).",
-        "Druga česta značenja: kod sebe (etwas dabei haben – imati nešto kod sebe), pritom (u isto vreme) i upravo nešto raditi (dabei sein, etwas zu tun). To je reč za mesto i vreme koja upućuje na prethodno pomenuto.",
+        "Druga česta značenja: kod sebe (etwas dabei haben – imati nešto kod sebe), u isto vreme, pritom i upravo nešto raditi (dabei sein, etwas zu tun). To je reč za mesto i vreme koja upućuje na prethodno pomenuto.",
         "Dabei je i deo složenica: dabeibleiben (ostati pri tome), dabeihaben (imati kod sebe), dabeisitzen (sedeti pored)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: dafür je prilog (da + für). Znači za to (u zamenu, kao plaćanje, iz zahvalnosti), za tu svrhu ili za (kad se slažeš): Ich bin dafür (ja sam za).",
         "Zamenjuje für + nešto prethodno pomenuto: Ich danke dir dafür. Uz glagole kao što su sich interessieren für, sorgen für, sich entschuldigen für koristi se dafür kad nije potrebno ponavljati imenicu.",
-        "U razgovornom jeziku dafür znači i ali zato, kao nadoknada: Er ist nicht schnell, dafür arbeitet er genau. U tom značenju uvodi suprotnost sa pozitivnom nadoknadom."
+        "Dafür znači i ali zato, kao nadoknada: Er ist nicht schnell, dafür arbeitet er genau. U tom značenju uvodi suprotnost sa pozitivnom nadoknadom."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "U rečenici sa veznikom damit glagol je na kraju rečenice.",
-        "damit ne znači zato; za uzrok se koristi deshalb ili darum."
+        "Veznik damit (da bi) ne znači zato; za značenje zato koristi se deshalb ili darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar se obično ne koristi bez nicht, kein, nichts."
+        "U značenju pojačivača negacije gar se koristi zajedno sa nicht, kein, nichts."
       ],
       "important": [
         "gar pojačava negaciju: gar nicht je jače od nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "U vezi sa Bečom reč Kaffeehaus se često koristi; u Nemačkoj ćeš jednako često čuti das Café.",
+        "Reč Kaffeehaus je karakteristična za Austriju (Beč); u Nemačkoj se mnogo češće kaže das Café.",
         "Zapamti osnovu Kaffee (kafa) + das Haus (kuća)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: der Kellner je imenica muškog roda koja znači konobara, čoveka koji u restoranu ili kafiću donosi hranu i piće. Žena je die Kellnerin.",
         "Množina je die Kellner (muškarci) i die Kellnerinnen (žene). Deklinacija: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Da se obratiš konobaru, najbolje je der Entschuldigung!; obraćanje Herr Ober! danas se smatra staromodnim."
+        "Konobaru je najbolje obratiti se sa „Entschuldigung!”; obraćanje Herr Ober! danas se smatra staromodnim."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen je muškog roda: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen sam po sebi znači automobil ili vagon, a ne kolica."
+        "Wagen sam po sebi obično znači automobil ili vagon; dečja kolica se zovu Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Zapamti: Kraft = snaga, Macht = moć, Energie = energija.",
-        "Zapamti frazu in Kraft treten (stupiti na snagu), ona se sreće češće nego osnovno značenje."
+        "Zapamti frazu in Kraft treten (stupiti na snagu) — često se koristi za zakone i propise."
       ],
       "important": [
         "Die Kraft je ženskog roda; množina je die Kräfte, a ne die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "ocena • nota",
       "explanation": [
         "Glavna ideja: die Note je imenica ženskog roda. U školi i na fakultetu znači ocenu (eine gute Note bekommen, dobiti dobru ocenu). U muzici je to nota: Noten lesen (čitati note).",
-        "Množina je die Noten. U Nemačkoj su ocene od 1 (sehr gut) do 6 (ungenügend), a 1 je najbolja. Zato eine gute Note znači mali broj.",
+        "Množina je die Noten. U nemačkim školama ocene su od 1 (sehr gut) do 6 (ungenügend), a 1 je najbolja (na fakultetima je skala 1,0–5,0). Zato eine gute Note znači mali broj.",
         "Uz ocene se kaže: eine Note bekommen, eine Note geben, die Note verbessern (popraviti ocenu)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "U izrazu rechnen mit + dativ značenje je „računati na”, na primer na loše vreme."
       ],
       "important": [
-        "Rechnen mit obično znači „očekivati, uzeti u obzir”, a ne „računati pomoću nečega”."
+        "Rechnen mit + dativ obično znači „očekivati, uzeti u obzir” (Wir rechnen mit Regen); uz instrument znači „računati pomoću”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "oštar • ljut",
       "explanation": [
-        "Glavna ideja: scharf je pridev sa više značenja. Za predmet znači oštar (scharfes Messer – oštar nož), za hranu — ljut ukus (scharfes Essen). U prenesenom značenju može značiti i oštar ili snažan: eine scharfe Kurve, scharf bremsen.",
+        "Glavna ideja: scharf je pridev sa više značenja. Za predmet znači oštar (scharfes Messer – oštar nož), za hranu — ljut ukus (scharfes Essen). U prenesenom značenju može značiti i nagao ili snažan: eine scharfe Kurve (oštra krivina), scharf bremsen (naglo kočiti).",
         "Komparativ je schärfer (sa umlautom), superlativ — am schärfsten. Ispred imenice: ein scharfes Messer, scharfe Soße.",
         "Korisno je zapamtiti: scharf se odnosi na ljut ukus (čili, ren), a ne na slan ukus — slan je salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Red u kojem ljudi čekaju zove se Schlange; Reihe je pre red kao redosled (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen je ustaljen izraz: ne in der Schlange sein, nego Schlange stehen."
+        "Najčešći izraz je Schlange stehen (i in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln se koristi kada se jedna stvar zamenjuje drugom (škola, posao, valuta). ändern – kada se nešto prepravlja.",
-        "Presedanje u prevozu izražava se sa umsteigen, a ne sa wechseln."
+        "Presedanje u prevozu obično se izražava sa umsteigen (moguće je i den Zug wechseln)."
       ],
       "important": [
         "Pod Geld wechseln se obično podrazumeva razmena valute ili novca, a ne trošenje.",

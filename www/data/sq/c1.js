@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "shtëpi për një familje",
       "explanation": [
         "Ideja kryesore: das Einfamilienhaus është një shtëpi e destinuar për një familje — më vete ose ngjitur me fqinjët, por me një banesë të vetme dhe zakonisht me kopshtin e vet.",
-        "Emër i gjinisë asnjanëse: das Einfamilienhaus, shumësi die Einfamilienhäuser. Përbëhet nga Ein- + Familie + Haus.",
+        "Emër i gjinisë asnjanëse: das Einfamilienhaus, shumësi die Einfamilienhäuser. Përbëhet nga Ein- + Familien- (formë lidhëse e Familie) + Haus.",
         "E kundërta është das Mehrfamilienhaus (pallat me shumë banesa)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Në politikë thuhet eine Partei wählen ose für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei dhe die Party (festë) tingëllojnë ngjashëm, por kuptimet e tyre nuk kanë lidhje."
+        "Die Partei dhe die Party (festë) tingëllojnë ngjashëm, por kuptimi është krejt tjetër (megjithëse të dyja rrjedhin nga latinishtja pars — pjesë)."
       ],
       "sectionAccents": {
         "explanation": {

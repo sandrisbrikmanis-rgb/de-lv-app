@@ -3204,7 +3204,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "ofmellen",
+          "meaning": "sech ofmellen, d'Umeldung réckgängeg maachen",
           "example": "Ich melde mich vom Kurs ab. – Ech melle mech vum Cours of."
         },
         {
@@ -3378,7 +3378,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: anstecken ass en trennbaart Verb mat der Bedeitung upinnen oder ustiechen (eng Blumm upinnen, e Rank undoen) an och ustiechen am Sënn vun enger Krankheet.",
         "Formen: steckt an, steckte an, hat angesteckt. De Präfix an- gëtt am Saz ofgetrennt: Er steckt mir den Ring an. Et verlaangt den Akkusativ (wat?), dacks och den Dativ (wiem?).",
-        "An der Bedeitung vun enger Krankheet seet een jemanden anstecken oder sich anstecken (eng Krankheet kréien): Ich habe mich bei ihm angesteckt. An e puer Regioune bedeit anstecken och ufänken oder unzünden (eine Zigarette anstecken)."
+        "An der Bedeitung vun enger Krankheet seet een jemanden anstecken oder sich anstecken (eng Krankheet kréien): Ich habe mich bei ihm angesteckt. An der geschwater Sprooch bedeit anstecken och ufänken oder unzünden (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7566,7 +7566,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: die Bahn ass e weiblecht Substantiv. Et bezeechent d'Eisebunn an den Zuchtransport allgemeng (mit der Bahn fahren – mam Zuch fueren). Am Firmennumm Deutsche Bahn ass et déi däitsch Eisebunnsgesellschaft, sou wéi d'CFL zu Lëtzebuerg.",
         "D'Pluralform ass die Bahnen. D'Wuert steet och a Komposite: die Straßenbahn (Tram), die U-Bahn (Metro), die S-Bahn (Stadbunn), die Eisenbahn (Eisebunn).",
-        "Aner Bedeitungen: Bunn oder Streck (die Laufbahn, die Radrennbahn) an Ëmlafbunn (die Umlaufbahn). Am Sport ass die Bahn d'Bunn, wou gelaf oder gefuer gëtt."
+        "Aner Bedeitungen: Bunn oder Streck (die Radrennbahn; die Laufbahn — och Karriär) an Ëmlafbunn (die Umlaufbahn). Am Sport ass die Bahn d'Bunn, wou gelaf oder gefuer gëtt."
       ],
       "examples": [
         {
@@ -7609,7 +7609,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn ass weiblech; verwiessel et net mat der Bahnhof (Gare, männlech). Opgepasst: d'Wuert Gare gëtt et op Däitsch net.",
-        "D'Wuert Bahn eleng bezeechent dacks d'Firma Deutsche Bahn, net e bestëmmten Zuch; e bestëmmten Zuch ass der Zug."
+        "D'Wuert Bahn kann och d'Firma Deutsche Bahn bezeechnen (Die Bahn hat Verspätung); e bestëmmten Zuch heescht der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10133,7 +10133,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt ass net datselwecht wéi bestimmen: bestimmen heescht bestëmmen, decidéieren; bestimmt ass en Adverb oder en Adjektiv.",
-        "Bestimmt kann och eng Vermutung ausdrécken, net nëmmen eng Sécherheet: Er ist bestimmt zu Hause (hien ass bestëmmt doheem)."
+        "Bestimmt kann och eng staark Vermutung ausdrécken: Er ist bestimmt zu Hause (hien ass bestëmmt doheem)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12211,7 +12211,7 @@ const A2_WORDS = [
       "translation": "derbäi",
       "explanation": [
         "Haaptiddi: dabei ass en Adverb aus da + bei. Et heescht derbäi, do, niewendrun: no bei eppes oder bei engem Evenement. Den heefegsten Ausdrock ass dabei sein (derbäi sinn, matmaachen).",
-        "Aner heefeg Bedeitungen: bei sech (etwas dabei haben – eppes bei sech hunn), gläichzäiteg an amgaang sinn, eppes ze maachen (dabei sein, etwas zu tun). Et ass e Wuert vu Plaz an Zäit, dat op eppes weist, wat virdru gesot gouf.",
+        "Aner heefeg Bedeitungen: bei sech (etwas dabei haben – eppes bei sech hunn), gläichzäiteg, ausserdeem an amgaang sinn, eppes ze maachen (dabei sein, etwas zu tun). Et ass e Wuert vu Plaz an Zäit, dat op eppes weist, wat virdru gesot gouf.",
         "Dabei steet och an zesummegesate Verben: dabeibleiben (dobäi bleiwen), dabeihaben (bei sech hunn), dabeisitzen (derbäi sëtzen)."
       ],
       "examples": [
@@ -12408,7 +12408,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: dafür ass en Adverb (da + für). Et heescht dofir (am Austausch, beim Bezuelen, beim Merci soen), dofir (en Zil) oder dofir sinn (averstane sinn): Ich bin dafür (ech sinn dofir).",
         "Et ersetzt für + dat, wat virdru gesot gouf: Ich danke dir dafür. Mat Verben wéi sich interessieren für, sorgen für, sich entschuldigen für gëtt dafür gebraucht, wann d'Substantiv net muss widderholl ginn.",
-        "An der geschwater Sprooch heescht dafür och dogéint oder awer, mat der Iddi vun engem Ausgläich: Er ist nicht schnell, dafür arbeitet er genau. An dëser Bedeitung bréngt et e Géigesaz mat engem positiven Ausgläich."
+        "Dafür heescht och dogéint oder awer, mat der Iddi vun engem Ausgläich: Er ist nicht schnell, dafür arbeitet er genau. An dëser Bedeitung bréngt et e Géigesaz mat engem positiven Ausgläich."
       ],
       "examples": [
         {
@@ -12642,7 +12642,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Am Niewesaz mat damit steet d'Verb um Enn vum Saz.",
-        "Damit heescht net dofir am Sënn vun «aus deem Grond»; fir eng Ursaach auszedrécken, gëtt deshalb oder darum gebraucht."
+        "D'Konjunktioun damit (fir datt) heescht net dofir am Sënn vun «aus deem Grond»; fir dës Bedeitung gëtt deshalb oder darum gebraucht."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19790,7 +19790,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar ouni nicht, kein, nichts gëtt normalerweis net gebraucht."
+        "Als Verstäerkung vun enger Negatioun gëtt gar zesumme mat nicht, kein, nichts gebraucht."
       ],
       "important": [
         "gar verstäerkt d'Negatioun: gar nicht ass méi staark wéi nicht."
@@ -23624,7 +23624,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Am Zesummenhang mat Wien héiert ee ganz dacks d'Wuert Kaffeehaus; an Däitschland héiers de grad sou dacks das Café.",
+        "D'Wuert Kaffeehaus ass typesch fir Éisterräich (Wien); an Däitschland seet een vill méi dacks das Café.",
         "Mierk der d'Grondwierder Kaffee (Kaffi) + das Haus (Haus)."
       ],
       "important": [
@@ -24606,7 +24606,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: der Kellner ass e männlecht Nomen a bedeit Kelner, deen am Restaurant oder am Café d'Iessen an d'Gedrénks bréngt. Eng Fra ass die Kellnerin.",
         "Pluralform: die Kellner (Männer) an die Kellnerinnen (Fraen). Deklinatioun: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Fir e Kelner unzeschwätzen, seet ee meeschtens Entschuldigung!; d'Uried Herr Ober! gëllt haut als almoudesch."
+        "Fir e Kelner unzeschwätzen, seet ee am beschten „Entschuldigung!“; d'Uried Herr Ober! gëllt haut als almoudesch."
       ],
       "examples": [
         {
@@ -26154,7 +26154,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen ass männlech: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen eleng bedeit Auto oder Waggon, net Kannerwon."
+        "Wagen eleng bedeit meeschtens Auto oder Waggon; e Kannerwon heescht Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28653,7 +28653,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Bemierk: Kraft = Kraaft, Macht = Muecht, Energie = Energie.",
-        "Léier den Ausdrock in Kraft treten (a Kraaft trieden) auswenneg: en ass souguer méi heefeg wéi d'Grondbedeitung."
+        "Léier den Ausdrock in Kraft treten (a Kraaft trieden) auswenneg — e gëtt dacks fir Gesetzer a Reegele gebraucht."
       ],
       "important": [
         "Die Kraft ass weiblech; d'Pluralform ass die Kräfte, an net die Krafte.",
@@ -32721,7 +32721,7 @@ const A2_WORDS = [
       "translation": "Note",
       "explanation": [
         "Haaptiddi: die Note ass e weiblecht Substantiv. An der Schoul an op der Uni bezeechent et d'Note (eine gute Note bekommen, eng gutt Note kréien). An der Musek ass et och eng Note: Noten lesen (Note liesen, d'Partitur liesen).",
-        "D'Pluralform ass die Noten. An Däitschland ginn d'Noten vun 1 (sehr gut) bis 6 (ungenügend), an 1 ass déi bescht. Dofir entsprécht eine gute Note enger klenger Zuel.",
+        "D'Pluralform ass die Noten. An den däitsche Schoulen ginn d'Noten vun 1 (sehr gut) bis 6 (ungenügend), an 1 ass déi bescht (op der Uni ass d'Skala 1,0–5,0). Dofir entsprécht eine gute Note enger klenger Zuel.",
         "Mat Noten heescht et: eine Note bekommen, eine Note geben, die Note verbessern (seng Note verbesseren)."
       ],
       "examples": [
@@ -35345,7 +35345,7 @@ const A2_WORDS = [
         "Am Ausdrock rechnen mit + Dativ ass d'Bedeitung ‚mat eppes rechnen, eppes erwaarden', zum Beispill mat schlechtem Wieder."
       ],
       "important": [
-        "Rechnen mit heescht meeschtens ‚erwaarden, berécksiichtegen', an net ‚mat eppes Rechenoperatioune maachen'."
+        "Rechnen mit + Dativ heescht meeschtens ‚erwaarden, berécksiichtegen' (Wir rechnen mit Regen); mat engem Instrument heescht et ‚mat eppes rechnen': mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36830,7 +36830,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "schaarf",
       "explanation": [
-        "Haaptiddi: scharf ass en Adjektiv mat e puer Bedeitungen. Bei engem Objet heescht et schaarf (scharfes Messer – schaarft Messer); bei engem Iessen schaarf, pikant (scharfes Essen). Am iwwerdroene Sënn kann et och enk oder staark heeschen: eine scharfe Kurve, scharf bremsen.",
+        "Haaptiddi: scharf ass en Adjektiv mat e puer Bedeitungen. Bei engem Objet heescht et schaarf (scharfes Messer – schaarft Messer); bei engem Iessen schaarf, pikant (scharfes Essen). Am iwwerdroene Sënn kann et och abrupt oder staark heeschen: eine scharfe Kurve (eng schaarf Kéier), scharf bremsen (abrupt bremsen).",
         "De Komparativ ass schärfer (mat Umlaut), de Superlativ am schärfsten. Virun engem Substantiv: ein scharfes Messer, scharfe Soße.",
         "Gutt ze wëssen: scharf bezeechent de pikante Goût (Piment, Mieretich), net de gesalzene Goût — gesalzen heescht salzig."
       ],
@@ -37307,7 +37307,7 @@ const A2_WORDS = [
         "D'Schlaang, wou d'Leit waarden, heescht Schlange; Reihe bezeechent éischter eng Rei oder eng Reiefolleg (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen ass e feste Ausdrock: net in der Schlange sein, mee Schlange stehen."
+        "Am heefegsten ass den Ausdrock Schlange stehen (och in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45445,7 +45445,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln gëtt benotzt, wann eng Saach duerch eng aner ersat gëtt (Schoul, Aarbecht, Wärung). ändern – wann eppes ëmgeännert gëtt.",
-        "Ëmklammen am Transport heescht umsteigen, net wechseln."
+        "Ëmklammen am Transport heescht meeschtens umsteigen (méiglech ass och den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln heescht normalerweis Suen ëmtauschen, net ausginn.",

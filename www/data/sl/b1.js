@@ -3154,8 +3154,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "odložiti",
-          "example": "Sie legt die Jacke ab. – Odloži jakno."
+          "meaning": "odložiti; sleči",
+          "example": "Sie legt die Jacke ab. – Sleče jakno."
         }
       ],
       "tip": [
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Z veseljem vam zaupamo to naročilo."
+          "lv": "Z veseljem vam dodelimo to naročilo (nalogo)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen ni isto kot besorgt sein (zaskrbljen): pridevnik besorgt je druga beseda.",
-        "Besorgen je neločljiv: besorgt, ne gesorgt."
+        "Besorgen je neločljiv, v perfektu brez ge-: hat besorgt (gesorgt je od drugega glagola — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna misel: bieten pomeni ponuditi ali nuditi — dati komu možnost, storitev ali prednost; pa tudi ponuditi ceno na dražbi. Je krepki glagol: er bietet, bot, hat geboten. Sledi mu akuzativ, pogosto z dativom: jemandem etwas bieten.",
         "Primeri: Das Hotel bietet viel Komfort (hotel nudi veliko udobja), Ich biete 100 Euro (ponujam 100 evrov). Povratni sich bieten pomeni: Eine Chance bietet sich (ponudi se priložnost).",
-        "Soroden je samostalnik das Angebot (ponudba), glagol anbieten (ponuditi) pa je druga beseda."
+        "Samostalnik das Angebot (ponudba) izhaja iz anbieten; iz bieten je das Gebot (ponudba na dražbi)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blok",
       "explanation": [
-        "Glavna misel: der Block je blok — gost, enoten kos ali komplet: blok za zapiske, ledeni blok, stanovanjski blok. Množina je die Blöcke.",
+        "Glavna misel: der Block je blok — gost, enoten kos ali komplet: blok za zapiske, ledeni blok, stanovanjski blok. Množina je die Blöcke (za bloke za zapiske in stanovanjske bloke pogosto tudi die Blocks).",
         "Tipične zloženke: der Notizblock (beležnica, blok za zapiske), der Wohnblock (stanovanjski blok), der Motorblock (blok motorja); tudi ein Block Eis (ledeni blok).",
         "V prenesenem pomenu je der Block lahko tudi politična ali gospodarska zveza: der Machtblock (blok moči)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft je ženskega spola.",
-        "Ne zamenjuj z das Konsulat (konzulat): ta navadno skrbi za prebivalce določenega mesta ali območja."
+        "Ne zamenjuj z das Konsulat (konzulat): ta skrbi za državljane na določenem konzularnem območju."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "zveza",
       "explanation": [
         "Glavna misel: der Bund je zveza, povezava ali zveza na državni ravni — enotna združitev več strani. Množina je die Bünde. Beseda je moškega spola.",
-        "V Nemčiji der Bund pogosto pomeni zvezno raven oblasti v nasprotju z deželami (Ländern): Bund und Länder. V zloženkah: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "V Nemčiji der Bund pogosto pomeni zvezno raven oblasti v nasprotju z deželami (die Länder): Bund und Länder. V zloženkah: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Drugi pomeni: ein Bund fürs Leben (zakonska zveza) in das Bund (šop): ein Bund Radieschen. To je druga beseda z drugim členom."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna misel: dadurch je prislov, ki pomeni s tem, tako, skozi to — kaže na vzrok ali sredstvo. Navadno povezuje prejšnji stavek s posledico: Er hat viel geübt. Dadurch wurde er besser.",
         "Besedni red: za dadurch je glagol na drugem mestu: Dadurch wird alles einfacher. Poleg tega dadurch, dass kot veznik (s tem, da) uvaja odvisni stavek z glagolom na koncu.",
-        "V krajevnem pomenu dadurch pomeni tudi skozi to, in takrat je poudarjen prvi zlog: Die Tür war offen, wir sind dadurch gegangen."
+        "V krajevnem pomenu dadurch pomeni tudi skozi to: Die Tür war offen, wir sind dadurch gegangen. Navadno je poudarjen drugi zlog; prvi zlog poudarimo le pri posebnem poudarjanju."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "služiti",
       "explanation": [
         "Glavna misel: dienen pomeni služiti, koristiti nekemu namenu ali opravljati neko funkcijo. Najpogostejše konstrukcije: dienen als + nominativ (služiti kot), dienen zu + dativ (služiti za kaj) in dienen + dativ (služiti komu).",
-        "Oblike: dient, diente, hat gedient. Glagolu sledi dativ (Er dient dem Land), ne akuzativ. V pogovornem jeziku je Womit kann ich dienen? vljudna ponudba pomoči, v vojaškem pomenu pa dienen pomeni “služiti vojaški rok”."
+        "Oblike: dient, diente, hat gedient. Glagolu sledi dativ (Er dient dem Land), ne akuzativ. Womit kann ich dienen? je vljudna, nekoliko staromodna ponudba pomoči, s katero se oglasi uslužbenec, v vojaškem pomenu pa dienen pomeni “služiti vojaški rok”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "driska",
       "explanation": [
         "Glavna misel: der Durchfall je samostalnik moškega spola, ki pomeni drisko – redko, pogosto odvajanje blata. V medicini in vsakdanjem govoru se uporablja v ednini: Durchfall haben – imeti drisko.",
-        "Množina die Durchfälle se redko uporablja. V prenesenem pomenu Durchfall lahko pomeni tudi neuspeh (na izpitu, pri gledališki predstavi), vendar se takrat navadno uporablja glagol durchfallen."
+        "Množina die Durchfälle se redko uporablja. V prenesenem pomenu (v pogovornem jeziku) Durchfall lahko pomeni tudi neuspeh (na izpitu, pri gledališki predstavi), vendar se takrat navadno uporablja glagol durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "lasten",
       "explanation": [
         "Glavna misel: eigen je pridevnik, ki pomeni “lasten, svoj”. Poudarja pripadnost: mein eigenes Auto – moj lastni avto. Navadno stoji pred samostalnikom in se sklanja: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "V prenesenem pomenu eigen lahko pomeni tudi “svojevrsten, poseben”: ein eigener Geruch – svojevrsten vonj. Izraz etwas zu eigen haben – imeti kaj kot lastnost. Na ravni B1 je glavni pomen “lasten, svoj”."
+        "V prenesenem pomenu eigen lahko pomeni tudi “svojevrsten, poseben”: ein eigener Geruch – svojevrsten vonj. Izraz sich (Dat) etwas zu eigen machen – sprejeti kaj za svoje. Na ravni B1 je glavni pomen “lasten, svoj”."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "V množini ima končnico -er: die Geschlechter.",
-        "V obrazcih za Geschlecht pogosto stoji polje za izpolnjevanje, ne vprašanje."
+        "V obrazcih je Geschlecht ime polja (spol), kjer označiš männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Za ein Haufen sledi samostalnik brez 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Za ein Haufen samostalnik navadno sledi brez 'von': ein Haufen Arbeit, ein Haufen Geld (redkeje: ein Haufen von Problemen).",
         "Izraz über den Haufen werfen — prekrižati, podreti (načrte)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "homoseksualec",
       "explanation": [
         "Glavna misel: der Homosexuelle je samostalnik, ki pomeni homoseksualnega moškega. Sklanja se kot pridevnik: ein Homosexueller, der Homosexuelle, die Homosexuellen (v množini). Ženska: die Homosexuelle, eine Homosexuelle.",
-        "Beseda je nevtralna, formalna in se uporablja v uradnih besedilih, novicah, zakonih. V vsakdanjem jeziku pogosto rečemo schwul (gej) ali lesbisch (lezbijka)."
+        "Beseda je nevtralna, formalna in se uporablja v uradnih besedilih, novicah, zakonih. V vsakdanjem jeziku pogosto uporabljamo pridevnike: er ist schwul (on je gej), sie ist lesbisch (ona je lezbijka)."
       ],
       "examples": [
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Zloženke: die Machtübernahme (prevzem oblasti), der Machtkampf (boj za oblast)."
       ],
       "important": [
-        "Macht ne pomeni samo telesne moči; za to se uporablja die Kraft.",
+        "Macht ne pomeni telesne moči; ta se imenuje die Kraft.",
         "Množina die Mächte se večinoma nanaša na države ali sile."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Beseda das Maß se piše z ß, ker je samoglasnik dolg.",
-        "Množina je die Maße (mere); v dativu — den Maßen (in Maßen, über alle Maßen)."
+        "Množina je die Maße (mere); v dativu — den Maßen (in Maßen). V izrazu über alle Maßen se je ohranila zgodovinska oblika."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben ni isto kot aufgeben: nachgeben pomeni komu popustiti, aufgeben pa opustiti določen cilj.",
-        "Predpona nach- se loči: gibt nach, ne nachgibt."
+        "Predpona nach- se v glavnem stavku loči: er gibt nach (v odvisnem stavku skupaj: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "nagibati se • biti nagnjen",
       "explanation": [
         "Glavna misel: neigen z zu + dativ pomeni nagibati se k čemu, biti nagnjen: Er neigt zu schnellen Entscheidungen. Oblike: neigt, neigte, hat geneigt.",
-        "V dobesednem pomenu etwas neigen pomeni nagniti, skloniti (den Kopf neigen). Povratno sich neigen pomeni nagniti se ali bližati se koncu: Der Tag neigt sich.",
+        "V dobesednem pomenu etwas neigen pomeni nagniti, skloniti (den Kopf neigen). Povratno sich neigen pomeni nagniti se ali (v višjem slogu) bližati se koncu: Der Tag neigt sich. Izraz sich dem Ende zuneigen izhaja iz zuneigen.",
         "Iz istega korena je samostalnik die Neigung (nagnjenje, nagib)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "stiska • pomanjkanje",
       "explanation": [
         "Glavna misel: die Not je stiska, pomanjkanje, beda — položaj, ko človeku manjka najnujnejše (in Not leben, Not leiden). Je tudi nujna potreba ali nesreča: in der Not, in Not geraten.",
-        "Beseda je ženskega spola. Množina die Nöte je zelo redka; navadno se uporablja ednina.",
+        "Beseda je ženskega spola. Množina die Nöte se uporablja redkeje (Sorgen und Nöte); navadno se uporablja ednina.",
         "Fraze: zur Not (če drugače ne gre; v skrajnem primeru), aus der Not eine Tugend machen (iz sile narediti vrlino), Not macht erfinderisch (sila človeka naredi iznajdljivega)."
       ],
       "examples": [
@@ -54741,7 +54741,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten ni braten: braten pomeni peči na olju ali maščobi, rösten – pražiti.",
-        "Ne zamenjuj rösten z rostet (rjavi)."
+        "Ne zamenjuj rösten z rosten (rjaveti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60259,7 +60259,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Za sedež v prevozu der Sitz ali der Platz; samo der Platz lahko pomeni mesto na splošno.",
-        "Naslov podjetja se imenuje der Firmensitz."
+        "Uradni sedež podjetja (glavni sedež) se imenuje der Firmensitz."
       ],
       "important": [
         "Der Sitz ni das Sitzen: das Sitzen je dejanje, der Sitz – sedež.",
@@ -61232,7 +61232,7 @@ const B1_WORDS = [
         "Za kopičenje (energija, voda) se prav tako uporablja speichern."
       ],
       "important": [
-        "Velelnik je Speichere (ali Speicher), ne Speichern.",
+        "Velelnik je Speichere! (tudi Speichre!; v pogovornem jeziku Speicher!), ne Speichern.",
         "speichern ni sperren (blokirati)."
       ],
       "sectionAccents": {
@@ -76492,7 +76492,7 @@ const B1_WORDS = [
         "Za zugeben pogosto sledi odvisni stavek z dass, v katerem je glagol na koncu."
       ],
       "important": [
-        "Zugeben pomeni priznati nekaj, kar govorcu ni v korist; če hočeš preprosto povedati, da jedi nekaj dodaš, uporabi hinzufügen.",
+        "Zugeben navadno pomeni priznati nekaj, kar govorcu ni v korist. V receptih zugeben pomeni tudi dodati (Salz zugeben); v vsakdanjem jeziku v tem pomenu pogosteje rečemo hinzufügen.",
         "Za zugeben je v stavku z dass glagol na koncu: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

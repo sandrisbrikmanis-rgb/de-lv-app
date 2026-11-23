@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nie myl z abfinden bez sich: oznacza ono wypłacić rekompensatę lub zaspokoić czyjeś roszczenia pieniędzmi.",
-        "Forma Perfektu to sich abgefunden (z -ge- w środku), a nie geabfunden."
+        "Forma Perfektu to hat sich abgefunden (-ge- między ab- a rdzeniem), a nie geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "wystawić • narazić • przerwać",
       "explanation": [
-        "Główna myśl: aussetzen to czasownik rozdzielnie złożony o kilku znaczeniach: porzucić (psa, dziecko), narazić, wystawić (na zimno, niebezpieczeństwo), zatrzymać się lub przerwać (o silniku, pracy), a z an + celownik — mieć zastrzeżenia.",
+        "Główna myśl: aussetzen to czasownik rozdzielnie złożony o kilku znaczeniach: porzucić (psa, dziecko), narazić, wystawić (na zimno, niebezpieczeństwo), zatrzymać się lub przerwać (o silniku, pracy), oraz w zwrocie etwas an + celownik auszusetzen haben — mieć zastrzeżenia, krytykować.",
         "Formy: setzt aus, setzte aus, hat ausgesetzt. Przy narażaniu na coś używa się celownika: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Imiesłów ausgesetzt sein oznacza być narażonym.",
         "W znaczeniu mieć zastrzeżenia używa się wyrażenia etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Tutaj zu wchodzi między przedrostek a rdzeń: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "zlitować się",
       "explanation": [
         "Główna myśl: sich erbarmen znaczy odczuć współczucie dla cierpiącego i pomóc mu lub zlitować się nad nim. Jest to język podniosły, często religijny lub ironiczny.",
-        "Zwykle następuje po nim dopełniacz: sich des Hundes erbarmen. Rzadziej używa się über + biernik. Formy: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Zwykle następuje po nim dopełniacz: sich des Hundes erbarmen. Rzadziej (regionalnie, w Austrii) używa się über + biernik. Formy: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Żartobliwie w mowie potocznej: Wer erbarmt sich und …? — Kto się zlituje i …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig często wyraża niepożądany lub nierówny wygląd (brudne ubranie, czerwone plamy na skórze).",
-        "Dodając końcówkę, pamiętaj o e: ein fleckiges Fell, eine fleckige Haut."
+        "Przed rzeczownikiem fleckig dostaje końcówkę: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "późniejszy • dodatkowy • później",
       "explanation": [
         "Główna myśl: nachträglich oznacza po fakcie, już po głównej czynności lub terminie — później dodany lub zrobiony. Jest zarówno przymiotnikiem (eine nachträgliche Änderung), jak i przysłówkiem (nachträglich ändern).",
-        "Częste znaczenie to spóźnienie: nachträglich gratulieren — złożyć życzenia po wydarzeniu. Przymiotnik wyraża też dodatkowy charakter czegoś: eine nachträgliche Zahlung (dodatkowa płatność)."
+        "Częste znaczenie to spóźnienie: nachträglich gratulieren — złożyć życzenia po wydarzeniu. Przymiotnik oznacza też coś, co następuje później, po wyznaczonym terminie: eine nachträgliche Zahlung (późniejsza płatność)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "doręczyć • przekazać",
       "explanation": [
-        "Główna myśl: überbringen znaczy dostarczyć adresatowi powierzoną wiadomość, gratulacje, list lub prezent — przynieść i przekazać osobiście. Osoba, której się coś przekazuje, stoi w celowniku: jemandem etwas überbringen.",
+        "Główna myśl: überbringen znaczy dostarczyć adresatowi wiadomość, gratulacje, list lub prezent — przynieść i przekazać osobiście. Osoba, której się coś przekazuje, stoi w celowniku: jemandem etwas überbringen.",
         "Nierozdzielny przedrostek über-: überbringt, überbrachte, hat überbracht. W bezokoliczniku zu stoi przed czasownikiem: um die Nachricht zu überbringen. Słowo jest nieco formalne."
       ],
       "examples": [

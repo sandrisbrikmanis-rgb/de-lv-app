@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "куќа за едно семејство",
       "explanation": [
         "Главна идеја: das Einfamilienhaus е куќа наменета за едно семејство — самостојна или до соседи, но со еден стан и обично со своја градина.",
-        "Именка од среден род: das Einfamilienhaus, множина die Einfamilienhäuser. Составена е од Ein- + Familie + Haus.",
+        "Именка од среден род: das Einfamilienhaus, множина die Einfamilienhäuser. Составена е од Ein- + Familien- (сврзна форма од Familie) + Haus.",
         "Спротивноста е das Mehrfamilienhaus (станбена зграда со повеќе станови)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Во политиката се вели eine Partei wählen или für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei и die Party (забава) звучат слично, но не се поврзани."
+        "Die Partei и die Party (забава) звучат слично, но значењето е сосема различно (иако и двата збора потекнуваат од латинското pars — дел)."
       ],
       "sectionAccents": {
         "explanation": {

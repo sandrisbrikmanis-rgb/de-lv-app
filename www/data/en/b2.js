@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Do not confuse it with abfinden without sich: that means to compensate or to pay off.",
-        "The perfect form is sich abgefunden (with -ge- in the middle), not geabfunden."
+        "The perfect form is hat sich abgefunden (-ge- between ab- and the stem), not geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1668,7 +1668,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Expose • Subject • Object • Suspend",
       "explanation": [
-        "Main idea: aussetzen is a separable verb with several meanings: to abandon or leave (a dog, a child), to expose or subject (to cold, danger), to stop or break off (of an engine, work) and, with an + dative, to object to or find fault with.",
+        "Main idea: aussetzen is a separable verb with several meanings: to abandon or leave (a dog, a child), to expose or subject (to cold, danger), to stop or break off (of an engine, work) and, in the expression etwas an + dative auszusetzen haben, to object to or find fault with.",
         "Forms: setzt aus, setzte aus, hat ausgesetzt. For exposure, the dative is used: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. The participle ausgesetzt sein means to be exposed.",
         "For the sense of finding fault, the expression is etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Here zu goes between the prefix and the stem: auszusetzen."
       ],
@@ -9836,7 +9836,7 @@ const B2_WORDS = [
       "translation": "To have mercy",
       "explanation": [
         "Main idea: sich erbarmen means to feel compassion for someone who is suffering and to help them or show mercy. The language is elevated, often religious or ironic.",
-        "It usually takes the genitive: sich des Hundes erbarmen. Less often über + accusative is used. Forms: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "It usually takes the genitive: sich des Hundes erbarmen. Less often (regionally, in Austria) über + accusative is used. Forms: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "In colloquial speech, as a joke: Wer erbarmt sich und …? — Who will take pity and …?"
       ],
       "examples": [
@@ -11777,7 +11777,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig often suggests an unwanted or uneven appearance (a dirty garment, red blotches on the skin).",
-        "When adding an adjective ending, remember: ein fleckiges Fell, eine fleckige Haut."
+        "Before a noun, fleckig takes an ending: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19273,7 +19273,7 @@ const B2_WORDS = [
       "translation": "Subsequent • Additional • Later",
       "explanation": [
         "Main idea: nachträglich means afterwards, after the main action or deadline — added or done later. It is both an adjective (eine nachträgliche Änderung, a subsequent change) and an adverb (nachträglich ändern).",
-        "A common sense is belatedness: nachträglich gratulieren — to congratulate after the event. As an adjective it also expresses an additional character: eine nachträgliche Zahlung (an additional payment)."
+        "A common sense is belatedness: nachträglich gratulieren — to congratulate after the event. As an adjective it also means happening later, after the set time: eine nachträgliche Zahlung (a late payment)."
       ],
       "examples": [
         {
@@ -23043,7 +23043,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Deliver a message • Deliver greetings • Deliver a letter • Deliver a gift",
       "explanation": [
-        "Main idea: überbringen means to deliver, to hand over to the addressee a message, greetings, a letter or a gift that has been entrusted to you — to bring it and give it in person. The recipient is in the dative: jemandem etwas überbringen.",
+        "Main idea: überbringen means to deliver, to hand over to the addressee a message, greetings, a letter or a gift — to bring it and give it in person. The recipient is in the dative: jemandem etwas überbringen.",
         "Inseparable prefix über-: überbringt, überbrachte, hat überbracht. In an infinitive clause zu comes before the verb: um die Nachricht zu überbringen. The word is slightly formal."
       ],
       "examples": [

@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ekki rugla saman við abfinden án sich: það merkir að greiða bætur eða gera upp með peningum.",
-        "Núliðin tíð er sich abgefunden (með -ge- í miðjunni), ekki geabfunden."
+        "Núliðin tíð er hat sich abgefunden (-ge- milli ab- og stofnsins), ekki geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "láta verða fyrir • fresta • setja út á",
       "explanation": [
-        "Meginhugmynd: aussetzen er aðskiljanleg sögn með nokkrar merkingar: að skilja eftir eða yfirgefa (hund, barn), að láta verða fyrir (kulda, hættu), að stöðvast eða hætta að virka (um vél, vinnu) og, með an + þágufalli, að setja út á.",
+        "Meginhugmynd: aussetzen er aðskiljanleg sögn með nokkrar merkingar: að skilja eftir eða yfirgefa (hund, barn), að láta verða fyrir (kulda, hættu), að stöðvast eða hætta að virka (um vél, vinnu) og, í orðasambandinu etwas an + þágufalli auszusetzen haben, að setja út á, gagnrýna.",
         "Myndir: setzt aus, setzte aus, hat ausgesetzt. Þegar merkingin er að láta verða fyrir einhverju er notað þágufall: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Lýsingarhátturinn ausgesetzt sein merkir að vera berskjaldaður fyrir einhverju.",
         "Í merkingunni að setja út á er notað orðasambandið etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Hér fer zu á milli forskeytisins og stofnsins: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "aumka sig yfir • miskunna sig yfir",
       "explanation": [
         "Meginhugmynd: sich erbarmen merkir að finna til meðaumkunar með þeim sem þjáist og hjálpa honum eða miskunna sig yfir hann. Málsniðið er hátíðlegt, oft trúarlegt eða kaldhæðið.",
-        "Á eftir því kemur venjulega eignarfall: sich des Hundes erbarmen. Sjaldnar er notað über + þolfall. Myndir: erbarmt sich, erbarmte sich, hat sich erbarmt. Á íslensku er sagt miskunna einhverjum (þágufall) eða miskunna sig yfir einhvern (þolfall).",
+        "Á eftir því kemur venjulega eignarfall: sich des Hundes erbarmen. Sjaldnar (svæðisbundið, í Austurríki) er notað über + þolfall. Myndir: erbarmt sich, erbarmte sich, hat sich erbarmt. Á íslensku er sagt miskunna einhverjum (þágufall) eða miskunna sig yfir einhvern (þolfall).",
         "Í gamansömu talmáli: Wer erbarmt sich und …? — Hver vill vera svo góður að …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig lýsir oft óæskilegu eða ójöfnu útliti (óhrein flík, rauðir blettir á húð).",
-        "Þegar beygingarendingu er bætt við, mundu e-ið: ein fleckiges Fell, eine fleckige Haut."
+        "Á undan nafnorði fær fleckig beygingarendingu: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "síðari • eftir á",
       "explanation": [
         "Meginhugmynd: nachträglich merkir eftir á, þegar aðalverknaðurinn eða fresturinn er liðinn — bætt við eða gert síðar. Það er bæði lýsingarorð (eine nachträgliche Änderung) og atviksorð (nachträglich ändern).",
-        "Algeng merking er seinkun: nachträglich gratulieren — óska til hamingju eftir á. Lýsingarorðið getur líka lýst einhverju sem kemur til viðbótar síðar: eine nachträgliche Zahlung (eftirágreiðsla)."
+        "Algeng merking er seinkun: nachträglich gratulieren — óska til hamingju eftir á. Lýsingarorðið merkir líka eitthvað sem gerist síðar, eftir tilsettan tíma: eine nachträgliche Zahlung (síðbúin greiðsla)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "færa • afhenda",
       "explanation": [
-        "Meginhugmynd: überbringen merkir að færa viðtakanda frétt, hamingjuóskir, bréf eða gjöf sem manni hefur verið trúað fyrir — koma með og afhenda persónulega. Viðtakandinn er í þágufalli: jemandem etwas überbringen (eins og „færa einhverjum eitthvað“).",
+        "Meginhugmynd: überbringen merkir að færa viðtakanda frétt, hamingjuóskir, bréf eða gjöf — koma með og afhenda persónulega. Viðtakandinn er í þágufalli: jemandem etwas überbringen (eins og „færa einhverjum eitthvað“).",
         "Óaðskiljanlegt forskeyti über-: überbringt, überbrachte, hat überbracht. Í nafnhætti stendur zu á undan sögninni: um die Nachricht zu überbringen. Orðið er fremur formlegt."
       ],
       "examples": [

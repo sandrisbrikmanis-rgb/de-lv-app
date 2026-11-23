@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nepainiok su abfinden be sich: jis reiškia kompensuoti arba atsiskaityti pinigais.",
-        "Perfekto forma yra sich abgefunden (su -ge- viduryje), o ne geabfunden."
+        "Perfekto forma yra hat sich abgefunden (-ge- tarp ab- ir šakninės dalies), o ne geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "išstatyti • prieštarauti • sustoti",
       "explanation": [
-        "Pagrindinė mintis: aussetzen – skiriamasis veiksmažodis, turintis kelias reikšmes: išmesti ar palikti likimo valiai (šunį, vaiką), palikti veikiamą (šalčio, pavojaus), sustoti ar nutrūkti (apie variklį, darbą), o su an + Dativ – turėti priekaištų.",
+        "Pagrindinė mintis: aussetzen – skiriamasis veiksmažodis, turintis kelias reikšmes: išmesti ar palikti likimo valiai (šunį, vaiką), palikti veikiamą (šalčio, pavojaus), sustoti ar nutrūkti (apie variklį, darbą), o posakyje etwas an + Dativ auszusetzen haben – turėti priekaištų, kritikuoti.",
         "Formos: setzt aus, setzte aus, hat ausgesetzt. Kai reiškiama, kad kas nors paliekama veikimui, vartojamas Dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Dalyvis ausgesetzt sein reiškia būti veikiamam.",
         "Priekaištų reikšme vartojamas posakis etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Čia zu įsiterpia tarp priešdėlio ir šaknies: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "pasigailėti • susimylėti",
       "explanation": [
         "Pagrindinė mintis: sich erbarmen reiškia užjausti kenčiantįjį ir jam padėti arba jo pasigailėti. Kalba aukšta, dažnai religinė ar ironiška.",
-        "Po jo paprastai eina kilmininkas: sich des Hundes erbarmen. Rečiau vartojama über + Akkusativ. Formos: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Po jo paprastai eina kilmininkas: sich des Hundes erbarmen. Rečiau (regioniškai, Austrijoje) vartojama über + Akkusativ. Formos: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Šnekamojoje kalboje juokaujant: Wer erbarmt sich und …? – Kas susimylės ir …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig dažnai reiškia nepageidaujamą ar netolygią išvaizdą (nešvarus drabužis, raudonos dėmės ant odos).",
-        "Pridėdamas galūnę, nepamiršk e: ein fleckiges Fell, eine fleckige Haut."
+        "Prieš daiktavardį fleckig gauna galūnę: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "vėlesnis • papildomas • vėliau",
       "explanation": [
         "Pagrindinė mintis: nachträglich reiškia „po to“, jau po pagrindinio veiksmo ar termino — vėliau papildomai pridėtas ar padarytas. Tai ir būdvardis (eine nachträgliche Änderung), ir prieveiksmis (nachträglich ändern).",
-        "Dažna reikšmė — pavėluotai: nachträglich gratulieren — pasveikinti po įvykio. Būdvardis taip pat nusako papildomą pobūdį: eine nachträgliche Zahlung (papildomas mokėjimas)."
+        "Dažna reikšmė — pavėluotai: nachträglich gratulieren — pasveikinti po įvykio. Būdvardis taip pat reiškia vėliau, po nustatyto laiko vykstantį: eine nachträgliche Zahlung (vėlesnis mokėjimas)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "perduoti • įteikti",
       "explanation": [
-        "Pagrindinė mintis: überbringen reiškia nugabenti adresatui patikėtą žinią, sveikinimą, laišką ar dovaną — atnešti ir perduoti asmeniškai. Tas, kam perduodama, yra Dativ: jemandem etwas überbringen.",
+        "Pagrindinė mintis: überbringen reiškia nugabenti adresatui žinią, sveikinimą, laišką ar dovaną — atnešti ir perduoti asmeniškai. Tas, kam perduodama, yra Dativ: jemandem etwas überbringen.",
         "Neskiriamas priešdėlis über-: überbringt, überbrachte, hat überbracht. Bendratyje zu stovi prieš veiksmažodį: um die Nachricht zu überbringen. Žodis kiek oficialus."
       ],
       "examples": [

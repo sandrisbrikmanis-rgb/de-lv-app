@@ -13178,7 +13178,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nu folosi jung pentru obiecte — se spune neu.",
-        "Comparativul are mereu Umlaut: jünger, nu „junger”."
+        "Comparativul are mereu Umlaut: jünger (junger este doar gradul pozitiv cu terminație: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14898,7 +14898,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (teritoriu, țară, mediul rural) și der Staat (statul ca instituție) nu sunt sinonime.",
-        "La plural apare Umlaut: die Länder, nu „die Lande”."
+        "La plural apare Umlaut: die Länder; die Lande este o formă învechită, poetică."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21792,7 +21792,7 @@ const A1_WORDS = [
       "explanation": [
         "Ideea principală: schauen înseamnă „a se uita, a privi” — a-ți îndrepta privirea spre ceva: Wir schauen aus dem Fenster. În sudul Germaniei, în Austria și în Elveția este foarte des folosit; în nord se folosește mai des gucken sau sehen.",
         "Forme: schaut, schaute, hat geschaut. Adesea cu prepoziții: auf + acuzativ (Er schaut auf die Uhr), aus dem Fenster (pe fereastră), nach + dativ (Sie schaut nach dem Kind — are grijă de copil). Imperativul: Schau mal! — Uită-te!",
-        "Expresia Ich schaue fern înseamnă „mă uit la televizor”."
+        "Expresia Ich schaue fern (de la fernschauen — în sudul Germaniei și în Austria; în rest fernsehen) înseamnă „mă uit la televizor”."
       ],
       "examples": [
         {
@@ -22615,7 +22615,7 @@ const A1_WORDS = [
         "Sehen înseamnă și „a înțelege” în expresii ca Ich sehe, was du meinst."
       ],
       "important": [
-        "Nu există sehst sau sehet: corect este du siehst, er sieht.",
+        "La prezent nu există du sehst sau er seht: corect este du siehst, er sieht.",
         "Pentru a spune că te uiți la ceva (un film, o poză) poți folosi atât sehen, cât și sich (dativ) + ansehen."
       ],
       "sectionAccents": {
@@ -25241,7 +25241,7 @@ const A1_WORDS = [
       "translation": "în jurul • la ora",
       "explanation": [
         "Ideea principală: um este o prepoziție care cere întotdeauna acuzativul. Cu sens temporal, um indică ora exactă: um acht Uhr (la ora opt). Cu sens de loc, indică un cerc în jurul a ceva: um den Tisch (în jurul mesei), um die Ecke (după colț).",
-        "Întrebarea despre oră este Um wie viel Uhr ...? (la ce oră?). După um, ora se spune fără articol: um 8 Uhr, nu in 8 Uhr.",
+        "Întrebarea despre oră este Um wie viel Uhr ...? (la ce oră?). Ora exactă se indică cu um (fără articol), nu cu in: um 8 Uhr, nu in 8 Uhr.",
         "Cu zu + infinitiv, um exprimă scopul: Er lernt, um zu verstehen (învață ca să înțeleagă)."
       ],
       "examples": [
@@ -25493,7 +25493,7 @@ const A1_WORDS = [
         "Expresia unter uns înseamnă „între noi” și se folosește când spui ceva confidențial."
       ],
       "important": [
-        "Unter nu este același lucru cu zwischen: unter se referă la un grup sau o mulțime (unter Freunden), zwischen — la două lucruri concrete.",
+        "Unter nu este același lucru cu zwischen: unter se referă la un grup sau o mulțime (unter Freunden), zwischen — la lucruri separate, numite (adesea două, dar pot fi și mai multe).",
         "Unter + număr înseamnă „mai puțin de”: unter 18 înseamnă mai mic de 18 ani."
       ],
       "sectionAccents": {
@@ -27785,7 +27785,7 @@ const A1_WORDS = [
         "Cu persoane se folosește zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu cere numai dativul: zu meinem Freund, zu der Schule.",
+        "Zu cere numai dativul: zu meinem Freund, zur Schule (= zu der Schule).",
         "Pentru orașe și țări se folosește nach, nu zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28645,7 +28645,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televiziune",
       "explanation": [
-        "Ideea principală: das Fernsehen este un substantiv neutru care denumește televiziunea ca mijloc de comunicare sau ansamblul emisiunilor. Practic nu are plural: se folosește singularul. Stă de obicei cu im: im Fernsehen (la televizor), beim Fernsehen (la televiziune, ca loc de muncă).",
+        "Ideea principală: das Fernsehen este un substantiv neutru care denumește televiziunea ca mijloc de comunicare sau ansamblul emisiunilor. Practic nu are plural: se folosește singularul. Stă de obicei cu im: im Fernsehen (la televizor), beim Fernsehen (în timp ce te uiți la televizor; și lucrând la televiziune).",
         "Este substantivul format din verbul fernsehen (a se uita la televizor). Aparatul se numește der Fernseher, iar activitatea — fernsehen.",
         "Substantivul se scrie cu literă mare; ca verb, fernsehen este separabil."
       ],
@@ -30073,7 +30073,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Reține: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub se folosește de obicei fără articol: Urlaub haben, Urlaub nehmen."
+        "În expresiile Urlaub haben, Urlaub nehmen se folosește fără articol (dar: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Pentru elevi se spune de obicei Ferien, nu Urlaub.",

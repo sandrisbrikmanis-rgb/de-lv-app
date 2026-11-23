@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ikke forveksle med abfinden uten sich: det betyr å kompensere eller holde noen skadesløs med penger.",
-        "Perfektumsformen er sich abgefunden (med -ge- i midten), ikke geabfunden."
+        "Perfektumsformen er hat sich abgefunden (-ge- mellom ab- og stammen), ikke geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "sette ut • utsette for • avbryte",
       "explanation": [
-        "Hovedtanke: aussetzen er et delbart verb med flere betydninger: sette ut eller forlate (en hund, et barn), utsette for (kulde, fare), stanse eller falle ut (om en motor, et arbeid) og med an + dativ – å ha noe å innvende.",
+        "Hovedtanke: aussetzen er et delbart verb med flere betydninger: sette ut eller forlate (en hund, et barn), utsette for (kulde, fare), stanse eller falle ut (om en motor, et arbeid) og i uttrykket etwas an + dativ auszusetzen haben – å ha noe å innvende, å kritisere.",
         "Former: setzt aus, setzte aus, hat ausgesetzt. Når noen utsettes for noe, brukes dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Uttrykket ausgesetzt sein betyr å være utsatt for noe.",
         "I betydningen innvende bruker man uttrykket etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Her kommer zu inn mellom forstavelsen og stammen: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "forbarme seg",
       "explanation": [
         "Hovedidé: sich erbarmen betyr å føle medlidenhet med en som lider, og hjelpe eller forbarme seg over vedkommende. Språket er høytidelig, ofte religiøst eller ironisk.",
-        "Etter verbet følger vanligvis genitiv: sich des Hundes erbarmen. Sjeldnere brukes über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Etter verbet følger vanligvis genitiv: sich des Hundes erbarmen. Sjeldnere (regionalt, i Østerrike) brukes über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Spøkefullt i dagligtale: Wer erbarmt sich und …? – Hvem forbarmer seg og …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig uttrykker ofte et uønsket eller ujevnt utseende (et skittent plagg, røde flekker på huden).",
-        "Når du legger til en endelse, husk e: ein fleckiges Fell, eine fleckige Haut."
+        "Foran et substantiv får fleckig endelse: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "etterfølgende • i ettertid",
       "explanation": [
         "Hovedbetydning: nachträglich betyr i ettertid, etter selve handlingen eller fristen — noe som blir lagt til eller gjort senere. Det er både adjektiv (eine nachträgliche Änderung) og adverb (nachträglich ändern).",
-        "En vanlig betydning er forsinkelse: nachträglich gratulieren — gratulere etter at dagen er over. Adjektivet kan også uttrykke at noe kommer i tillegg: eine nachträgliche Zahlung (tilleggsbetaling, etterbetaling)."
+        "En vanlig betydning er forsinkelse: nachträglich gratulieren — gratulere etter at dagen er over. Adjektivet kan også bety at noe skjer senere, etter fastsatt tid: eine nachträgliche Zahlung (senere betaling, etterbetaling)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "overbringe • levere",
       "explanation": [
-        "Hovedbetydning: überbringen betyr å bringe en beskjed, en hilsen, et brev eller en gave fram til mottakeren på vegne av noen — komme med det og overlevere det personlig. Mottakeren står i dativ: jemandem etwas überbringen.",
+        "Hovedbetydning: überbringen betyr å bringe en beskjed, en hilsen, et brev eller en gave fram til mottakeren — komme med det og overlevere det personlig. Mottakeren står i dativ: jemandem etwas überbringen.",
         "Uatskillelig prefiks über-: überbringt, überbrachte, hat überbracht. I infinitiv står zu foran verbet: um die Nachricht zu überbringen. Ordet er litt formelt, som norsk «overbringe»."
       ],
       "examples": [

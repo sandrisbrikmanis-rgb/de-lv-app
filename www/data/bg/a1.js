@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Не използвай jung за предмети — казва се neu.",
-        "Сравнителната степен винаги е с умлаут: jünger, а не „junger”."
+        "Сравнителната степен винаги е с умлаут: jünger (junger е само положителна степен с окончание: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (територия, село) и der Staat (държавата като институция) не са синоними.",
-        "В множествено число има умлаут: die Länder, а не „die Lande”."
+        "В множествено число има умлаут: die Länder; die Lande е остаряла, поетична форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21793,7 +21793,7 @@ const A1_WORDS = [
       "explanation": [
         "Накратко: schauen означава „гледам, поглеждам“ — насочвам погледа към нещо: Wir schauen aus dem Fenster. В Южна Германия, Австрия и Швейцария се използва много често; на север по-често се казва gucken или sehen.",
         "Форми: schaut, schaute, hat geschaut. Често с предлози: auf + винителен падеж (Er schaut auf die Uhr), aus dem Fenster (през прозореца), nach + дателен падеж (Sie schaut nach dem Kind — наглежда детето). Повелително наклонение: Schau mal! — Погледни!",
-        "Изразът Ich schaue fern означава „гледам телевизия“."
+        "Изразът Ich schaue fern (от fernschauen — в Южна Германия и Австрия; другаде fernsehen) означава „гледам телевизия“."
       ],
       "examples": [
         {
@@ -22616,7 +22616,7 @@ const A1_WORDS = [
         "Sehen означава и „разбирам“ в изрази като Ich sehe, was du meinst."
       ],
       "important": [
-        "Няма sehst или sehet: правилно е du siehst, er sieht.",
+        "В сегашно време няма du sehst или er seht: правилно е du siehst, er sieht.",
         "За да кажеш, че гледаш нещо (филм, картина), можеш да използваш както sehen, така и sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25242,7 +25242,7 @@ const A1_WORDS = [
       "translation": "около • в (за час)",
       "explanation": [
         "Накратко: um е предлог, който винаги изисква винителен падеж. При време um посочва точния час: um acht Uhr (в осем часа). При място означава кръг около нещо: um den Tisch (около масата), um die Ecke (зад ъгъла).",
-        "Въпросът за час е Um wie viel Uhr ...? (в колко часа?). След um часът не се употребява с член: um 8 Uhr, а не in 8 Uhr.",
+        "Въпросът за час е Um wie viel Uhr ...? (в колко часа?). Часът се посочва с um (без член), а не с in: um 8 Uhr, а не in 8 Uhr.",
         "С zu + инфинитив um изразява цел: Er lernt, um zu verstehen (учи, за да разбере)."
       ],
       "examples": [
@@ -25494,7 +25494,7 @@ const A1_WORDS = [
         "Изразът unter uns означава „между нас“ и се използва, когато казваш нещо поверително."
       ],
       "important": [
-        "Unter не е същото като zwischen: unter се отнася до съвкупност или група (unter Freunden), а zwischen — до две конкретни неща.",
+        "Unter не е същото като zwischen: unter се отнася до съвкупност или група (unter Freunden), а zwischen — до отделни, назовани неща (често две, но може и повече).",
         "Unter + число означава „по-малко от“: unter 18 е по-млад от 18."
       ],
       "sectionAccents": {
@@ -27786,7 +27786,7 @@ const A1_WORDS = [
         "С хора се използва zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu изисква само дателен падеж: zu meinem Freund, zu der Schule.",
+        "Zu изисква само дателен падеж: zu meinem Freund, zur Schule (= zu der Schule).",
         "За градове и държави се използва nach, а не zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28646,7 +28646,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "телевизия",
       "explanation": [
-        "Накратко: das Fernsehen е съществително от среден род, което означава телевизията като медия или съвкупност от предавания. Множествено число практически няма: използва се единствено число. Обикновено стои с im: im Fernsehen (по телевизията), beim Fernsehen (на работа в телевизията).",
+        "Накратко: das Fernsehen е съществително от среден род, което означава телевизията като медия или съвкупност от предавания. Множествено число практически няма: използва се единствено число. Обикновено стои с im: im Fernsehen (по телевизията), beim Fernsehen (докато гледаш телевизия; също на работа в телевизията).",
         "То е образувано от глагола fernsehen (гледам телевизия). Уредът се нарича der Fernseher, а заниманието — fernsehen.",
         "Съществителното се пише с главна буква; глаголът fernsehen е с отделяема представка."
       ],
@@ -30074,7 +30074,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Запомни: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub обикновено се използва без член: Urlaub haben, Urlaub nehmen."
+        "В изразите Urlaub haben, Urlaub nehmen се използва без член (но: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "За учениците обикновено се казва Ferien, а не Urlaub.",

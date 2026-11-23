@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "casă unifamilială",
       "explanation": [
         "Ideea principală: das Einfamilienhaus este o casă destinată unei singure familii — izolată sau lipită de casele vecine, dar cu o singură locuință și, de obicei, cu grădină proprie.",
-        "Substantiv neutru: das Einfamilienhaus, plural die Einfamilienhäuser. Este format din Ein- + Familie + Haus.",
+        "Substantiv neutru: das Einfamilienhaus, plural die Einfamilienhäuser. Este format din Ein- + Familien- (forma de compunere a lui Familie) + Haus.",
         "Opusul este das Mehrfamilienhaus (clădire cu mai multe locuințe)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "În politică se spune eine Partei wählen sau für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei și die Party (petrecere) sună asemănător, dar nu au legătură între ele."
+        "Die Partei și die Party (petrecere) sună asemănător, dar sensul este cu totul altul (deși ambele provin din latinescul pars — parte)."
       ],
       "sectionAccents": {
         "explanation": {

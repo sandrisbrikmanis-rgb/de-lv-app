@@ -13155,7 +13155,7 @@ const A1_WORDS = [
       ],
       "important": [
         "A jung szót ne használd tárgyakra – arra a neu való.",
-        "A középfok mindig umlautos: jünger, nem „junger”."
+        "A középfok mindig umlautos: jünger (a junger csak az alapfok végződéses alakja: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14875,7 +14875,7 @@ const A1_WORDS = [
       ],
       "important": [
         "A das Land (terület, vidék) és a der Staat (az állam mint intézmény) nem szinonimák.",
-        "A többes számban umlaut van: die Länder, nem „die Lande”."
+        "A többes számban umlaut van: die Länder; a die Lande elavult, költői alak."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21760,7 +21760,7 @@ const A1_WORDS = [
       "explanation": [
         "Lényeg: a schauen jelentése „néz, megnéz” — a tekintetünket valamire irányítjuk: Wir schauen aus dem Fenster. Dél-Németországban, Ausztriában és Svájcban nagyon gyakori; északon inkább a gucken vagy a sehen használatos.",
         "Alakok: schaut, schaute, hat geschaut. Gyakran elöljárószóval: auf + Akkusativ (Er schaut auf die Uhr), aus dem Fenster (ki az ablakon), nach + Dativ (Sie schaut nach dem Kind — ránéz a gyerekre, felügyel rá). Felszólító mód: Schau mal! — Nézd csak!",
-        "Az Ich schaue fern kifejezés jelentése: „tévét nézek”."
+        "Az Ich schaue fern (a fernschauen igéből — Dél-Németországban és Ausztriában; máshol fernsehen) kifejezés jelentése: „tévét nézek”."
       ],
       "examples": [
         {
@@ -22583,7 +22583,7 @@ const A1_WORDS = [
         "A sehen jelentése „ért” is lehet, például: Ich sehe, was du meinst (magyarul is: látom, mire gondolsz)."
       ],
       "important": [
-        "Nincs sehst vagy sehet alak: helyesen du siehst, er sieht.",
+        "Jelen időben nincs du sehst vagy er seht alak: helyesen du siehst, er sieht.",
         "Ha azt akarod mondani, hogy nézel valamit (filmet, képet), a sehen igét és a sich (Dat) + ansehen szerkezetet egyaránt használhatjuk."
       ],
       "sectionAccents": {
@@ -25205,7 +25205,7 @@ const A1_WORDS = [
       "translation": "körül • -kor",
       "explanation": [
         "Fő gondolat: az um elöljárószó, amely mindig Akkusativot (tárgyeset) vonz. Időhatározóként pontos órai időpontot jelöl: um acht Uhr (nyolc órakor). Helyhatározóként valami körüli kört ír le: um den Tisch (az asztal körül), um die Ecke (a sarkon túl).",
-        "Az időpontra vonatkozó kérdés: Um wie viel Uhr ...? (hány órakor?). Az um után az időpont névelő nélkül áll: um 8 Uhr, nem pedig in 8 Uhr.",
+        "Az időpontra vonatkozó kérdés: Um wie viel Uhr ...? (hány órakor?). Az órában megadott időpontot az um elöljárószóval fejezzük ki (névelő nélkül), nem az in-nel: um 8 Uhr, nem pedig in 8 Uhr.",
         "zu + főnévi igenévvel az um célt fejez ki: Er lernt, um zu verstehen (azért tanul, hogy megértse)."
       ],
       "examples": [
@@ -25457,7 +25457,7 @@ const A1_WORDS = [
         "Az unter uns kifejezés jelentése „köztünk szólva”; akkor használják, amikor valamit bizalmasan mondanak."
       ],
       "important": [
-        "Az unter nem ugyanaz, mint a zwischen, bár magyarul mindkettő lehet „között”: az unter csoportra, halmazra utal (unter Freunden), a zwischen két konkrét dolog közötti helyzetre.",
+        "Az unter nem ugyanaz, mint a zwischen, bár magyarul mindkettő lehet „között”: az unter csoportra, halmazra utal (unter Freunden), a zwischen különálló, megnevezett dolgok közötti helyzetre (gyakran kettőre, de lehet több is).",
         "Unter + szám jelentése „kevesebb mint”: unter 18 = 18 évnél fiatalabb."
       ],
       "sectionAccents": {
@@ -27742,7 +27742,7 @@ const A1_WORDS = [
         "Személyekkel a zu áll: zu mir, zu dir, zu uns (hozzám, hozzád, hozzánk)."
       ],
       "important": [
-        "A zu csak Dativot vonz: zu meinem Freund, zu der Schule.",
+        "A zu csak Dativot vonz: zu meinem Freund, zur Schule (= zu der Schule).",
         "Városok és országok esetén nach áll, nem zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28599,7 +28599,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televízió • tévé",
       "explanation": [
-        "Fő gondolat: a das Fernsehen semlegesnemű főnév, a televíziót mint médiumot vagy a műsorok összességét jelöli. Többes száma gyakorlatilag nincs, egyes számban használjuk. Általában az im elöljárószóval áll: im Fernsehen (a tévében), beim Fernsehen (a televíziónál dolgozva).",
+        "Fő gondolat: a das Fernsehen semlegesnemű főnév, a televíziót mint médiumot vagy a műsorok összességét jelöli. Többes száma gyakorlatilag nincs, egyes számban használjuk. Általában az im elöljárószóval áll: im Fernsehen (a tévében), beim Fernsehen (tévénézés közben; a televíziónál dolgozva is).",
         "A fernsehen (tévét néz) igéből képzett főnév. A készülék neve der Fernseher, a tevékenységé fernsehen.",
         "A főnevet nagy kezdőbetűvel írjuk; igeként a fernsehen elváló igekötős."
       ],
@@ -30027,7 +30027,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Jegyezd meg: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Az Urlaub szót általában névelő nélkül használjuk: Urlaub haben, Urlaub nehmen."
+        "Az Urlaub haben, Urlaub nehmen kifejezésekben az Urlaub szót névelő nélkül használjuk (de: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "A diákokra általában a Ferien szót mondjuk, nem az Urlaub szót.",

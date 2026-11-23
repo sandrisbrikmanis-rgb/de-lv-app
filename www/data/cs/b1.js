@@ -3152,8 +3152,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "odložit",
-          "example": "Sie legt die Jacke ab. – Odkládá bundu."
+          "meaning": "odložit; svléknout",
+          "example": "Sie legt die Jacke ab. – Svléká si bundu."
         }
       ],
       "tip": [
@@ -5067,7 +5067,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Tento úkol vám rádi svěříme."
+          "lv": "Tuto zakázku (úkol) vám rádi zadáme."
         }
       ],
       "comparison": [
@@ -10223,7 +10223,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen není totéž co besorgt sein (být znepokojený): přídavné jméno besorgt je jiné slovo.",
-        "Besorgen je neodlučitelné: besorgt, nikoli gesorgt."
+        "Besorgen je neodlučitelné, v perfektu bez ge-: hat besorgt (gesorgt je od jiného slovesa – sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11692,7 +11692,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: bieten znamená nabídnout nebo poskytnout, tedy dát někomu možnost, službu nebo výhodu, a také přihazovat cenu na aukci. Je to silné sloveso: er bietet, bot, hat geboten. Následuje akuzativ, často s dativem: jemandem etwas bieten.",
         "Příklady: Das Hotel bietet viel Komfort (hotel nabízí hodně pohodlí), Ich biete 100 Euro (nabízím 100 eur). Zvratné sich bieten znamená: Eine Chance bietet sich (naskýtá se příležitost).",
-        "Příbuzné je podstatné jméno das Angebot (nabídka), ale sloveso anbieten (nabídnout) je jiné sloveso."
+        "Podstatné jméno das Angebot (nabídka) pochází od anbieten; od bieten je das Gebot (nabídka v dražbě)."
       ],
       "examples": [
         {
@@ -12115,7 +12115,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Blok",
       "explanation": [
-        "Hlavní myšlenka: der Block je blok, tedy hutný, jednolitý kus nebo celek: poznámkový blok, ledový blok, blok budov. Množné číslo je die Blöcke.",
+        "Hlavní myšlenka: der Block je blok, tedy hutný, jednolitý kus nebo celek: poznámkový blok, ledový blok, blok budov. Množné číslo je die Blöcke (u poznámkových bloků a bloků budov často také die Blocks).",
         "Typické složeniny: der Notizblock (poznámkový blok), der Wohnblock (bytový blok), der Motorblock (blok motoru); také ein Block Eis (kus ledu).",
         "V přeneseném významu může být der Block i politické nebo hospodářské uskupení: der Machtblock (mocenský blok)."
       ],
@@ -12750,7 +12750,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft je ženského rodu.",
-        "Nezaměňujte s das Konsulat (konzulát): ten obvykle slouží občanům ve městě."
+        "Nezaměňujte s das Konsulat (konzulát): ten slouží občanům v určitém konzulárním obvodu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13332,7 +13332,7 @@ const B1_WORDS = [
       "translation": "Unie",
       "explanation": [
         "Hlavní myšlenka: der Bund je unie, svaz nebo spolek na státní úrovni, tedy sjednocení více stran. Množné číslo je die Bünde. Slovo je mužského rodu.",
-        "V Německu der Bund často znamená spolkovou vládu na rozdíl od spolkových zemí (Ländern): Bund und Länder. Ve složeninách: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "V Německu der Bund často znamená spolkovou vládu na rozdíl od spolkových zemí (die Länder): Bund und Länder. Ve složeninách: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Další významy: ein Bund fürs Leben (manželský svazek) a das Bund (svazek): ein Bund Radieschen. Je to jiné slovo s jiným členem."
       ],
       "examples": [
@@ -13667,7 +13667,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: dadurch je příslovce ve významu tím, tímto způsobem, díky tomu; označuje příčinu nebo prostředek. Obvykle spojuje předchozí větu s důsledkem: Er hat viel geübt. Dadurch wurde er besser. V češtině mu často odpovídá tím nebo díky tomu.",
         "Slovosled: po dadurch je sloveso na druhém místě: Dadurch wird alles einfacher. Dále dadurch, dass jako spojka (tím, že) uvádí vedlejší větu se slovesem na konci.",
-        "V místním významu je dadurch také skrz to, a pak je přízvuk na první slabice: Die Tür war offen, wir sind dadurch gegangen."
+        "V místním významu je dadurch také skrz to: Die Tür war offen, wir sind dadurch gegangen. Obvykle je přízvuk na druhé slabice; první slabika se zdůrazňuje jen při zvláštním důrazu."
       ],
       "examples": [
         {
@@ -15502,7 +15502,7 @@ const B1_WORDS = [
       "translation": "Sloužit",
       "explanation": [
         "Hlavní myšlenka: dienen znamená sloužit, být k užitku nebo plnit nějakou funkci. Nejčastější konstrukce: dienen als + nominativ (sloužit jako), dienen zu + dativ (sloužit k něčemu) a dienen + dativ (sloužit někomu).",
-        "Tvary: dient, diente, hat gedient. Za slovesem následuje dativ (Er dient dem Land), ne akuzativ. Ve větě Womit kann ich dienen? jde o zdvořilou nabídku pomoci, ve vojenském významu je dienen „sloužit v armádě“."
+        "Tvary: dient, diente, hat gedient. Za slovesem následuje dativ (Er dient dem Land), ne akuzativ. Ve větě Womit kann ich dienen? jde o zdvořilou, poněkud staromódní nabídku pomoci ze strany obsluhy, ve vojenském významu je dienen „sloužit v armádě“."
       ],
       "examples": [
         {
@@ -16346,7 +16346,7 @@ const B1_WORDS = [
       "translation": "Průjem",
       "explanation": [
         "Hlavní myšlenka: der Durchfall je podstatné jméno mužského rodu a znamená průjem – řídkou a častou stolici. V lékařství i v běžné řeči se používá v jednotném čísle: Durchfall haben – mít průjem.",
-        "Množné číslo die Durchfälle se používá málo. Přeneseně může Durchfall znamenat i neúspěch (u zkoušky, u divadelní hry), ale pak se obvykle používá sloveso durchfallen."
+        "Množné číslo die Durchfälle se používá málo. Přeneseně (hovorově) může Durchfall znamenat i neúspěch (u zkoušky, u divadelní hry), ale pak se obvykle používá sloveso durchfallen."
       ],
       "examples": [
         {
@@ -17071,7 +17071,7 @@ const B1_WORDS = [
       "translation": "Vlastní",
       "explanation": [
         "Hlavní myšlenka: eigen je přídavné jméno, které znamená „vlastní“. Zdůrazňuje příslušnost: mein eigenes Auto – moje vlastní auto. Stojí obvykle před podstatným jménem a skloňuje se: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Přeneseně může eigen znamenat i „zvláštní, osobitý“: ein eigener Geruch – zvláštní vůně. Výraz etwas zu eigen haben – mít něco jako vlastnost. Na úrovni B1 je hlavním významem „vlastní“."
+        "Přeneseně může eigen znamenat i „zvláštní, osobitý“: ein eigener Geruch – zvláštní vůně. Výraz sich (Dat) etwas zu eigen machen – přijmout něco za své. Na úrovni B1 je hlavním významem „vlastní“."
       ],
       "examples": [
         {
@@ -29710,7 +29710,7 @@ const B1_WORDS = [
       ],
       "important": [
         "V množném čísle má koncovku -er: die Geschlechter.",
-        "Ve formulářích za Geschlecht často následuje pole k vyplnění, nikoli otázka."
+        "Ve formulářích je Geschlecht název pole (pohlaví), kde se zaškrtává männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32603,7 +32603,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Po ein Haufen následuje podstatné jméno bez „von“: ein Haufen Arbeit, ein Haufen Geld.",
+        "Po ein Haufen následuje podstatné jméno obvykle bez „von“: ein Haufen Arbeit, ein Haufen Geld (řidčeji: ein Haufen von Problemen).",
         "Výraz über den Haufen werfen — zhatit (plány)."
       ],
       "important": [
@@ -34250,7 +34250,7 @@ const B1_WORDS = [
       "translation": "Homosexuál",
       "explanation": [
         "Hlavní myšlenka: der Homosexuelle je podstatné jméno, které označuje homosexuálního muže. Skloňuje se jako přídavné jméno: ein Homosexueller, der Homosexuelle, die Homosexuellen (množné číslo). Žena: die Homosexuelle, eine Homosexuelle.",
-        "Slovo je neutrální, formální a používá se v úředních textech, ve zprávách a v zákonech. V běžné řeči se často říká schwul (gay) nebo lesbisch (lesba)."
+        "Slovo je neutrální, formální a používá se v úředních textech, ve zprávách a v zákonech. V běžné řeči se často používají přídavná jména: er ist schwul (je gay), sie ist lesbisch (je lesba)."
       ],
       "examples": [
         {
@@ -34488,8 +34488,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "slyšet",
-          "example": "Ich höre Musik. – Slyším hudbu."
+          "meaning": "slyšet; poslouchat",
+          "example": "Ich höre Musik. – Poslouchám hudbu."
         },
         {
           "word": "zuhören",
@@ -45653,7 +45653,7 @@ const B1_WORDS = [
         "Složeniny: die Machtübernahme (převzetí moci), der Machtkampf (boj o moc)."
       ],
       "important": [
-        "Macht neznamená jen fyzickou sílu; k tomu se používá die Kraft.",
+        "Macht neznamená fyzickou sílu; ta se nazývá die Kraft.",
         "Množné číslo die Mächte se vztahuje hlavně na státy nebo síly."
       ],
       "sectionAccents": {
@@ -46028,7 +46028,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Slovo das Maß se píše s ß, protože samohláska je dlouhá.",
-        "Množné číslo je die Maße (rozměry); v dativu den Maßen (in Maßen, über alle Maßen)."
+        "Množné číslo je die Maße (rozměry); v dativu den Maßen (in Maßen). Ve výrazu über alle Maßen se zachoval historický tvar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47398,7 +47398,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben není totéž co aufgeben: nachgeben je ustoupit někomu, aufgeben je vzdát se cíle.",
-        "Předpona nach- se odlučuje: gibt nach, ne nachgibt."
+        "Předpona nach- se v hlavní větě odlučuje: er gibt nach (ve vedlejší větě dohromady: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47712,7 +47712,7 @@ const B1_WORDS = [
       "translation": "Mít sklon",
       "explanation": [
         "Hlavní myšlenka: neigen s předložkou zu + dativ znamená mít sklon k něčemu, tíhnout k něčemu: Er neigt zu schnellen Entscheidungen. Tvary: neigt, neigte, hat geneigt.",
-        "V doslovném významu etwas neigen je naklonit (den Kopf neigen). Zvratné sich neigen znamená naklánět se nebo blížit se ke konci: Der Tag neigt sich.",
+        "V doslovném významu etwas neigen je naklonit (den Kopf neigen). Zvratné sich neigen znamená naklánět se nebo (ve vyšším stylu) blížit se ke konci: Der Tag neigt sich. Výraz sich dem Ende zuneigen je od slovesa zuneigen.",
         "Ze stejného kořene je utvořeno podstatné jméno die Neigung (sklon, náklonnost, náklon)."
       ],
       "examples": [
@@ -48608,7 +48608,7 @@ const B1_WORDS = [
       "translation": "Nedostatek",
       "explanation": [
         "Hlavní myšlenka: die Not je nedostatek, bída, tíživá situace, kdy člověku chybí to nejnutnější (in Not leben, Not leiden). Je to také naléhavá potřeba nebo neštěstí: in der Not, in Not geraten.",
-        "Slovo je ženského rodu. Množné číslo die Nöte je velmi vzácné; obvykle se užívá jednotné číslo.",
+        "Slovo je ženského rodu. Množné číslo die Nöte se užívá řidčeji (Sorgen und Nöte); obvykle se užívá jednotné číslo.",
         "Fráze: zur Not (v nejhorším případě, když to jinak nejde), aus der Not eine Tugend machen (udělat z nouze ctnost), Not macht erfinderisch (nouze naučila Dalibora housti)."
       ],
       "examples": [
@@ -54756,7 +54756,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten není braten: braten je smažit s olejem nebo tukem, rösten – pražit.",
-        "Nezaměňuj rösten s rostet (rezaví)."
+        "Nezaměňuj rösten s rosten (rezavět)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60275,7 +60275,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Pro sedadlo v dopravě se používá der Sitz nebo der Platz; jen der Platz může znamenat místo obecně.",
-        "Adresu firmy označuje der Firmensitz."
+        "Právní sídlo firmy (centrálu) označuje der Firmensitz."
       ],
       "important": [
         "Der Sitz není das Sitzen: das Sitzen je činnost, der Sitz – sedadlo nebo sídlo.",
@@ -61251,7 +61251,7 @@ const B1_WORDS = [
         "Pro hromadění (energie, voda) se používá také speichern."
       ],
       "important": [
-        "Imperativ je Speichere (nebo Speicher), nikoli Speichern.",
+        "Imperativ je Speichere! (také Speichre!; hovorově Speicher!), nikoli Speichern.",
         "speichern není sperren (blokovat)."
       ],
       "sectionAccents": {
@@ -70148,7 +70148,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "obinadlo",
+          "meaning": "obvaz, obinadlo",
           "example": "Sie wickelt eine Binde um den Fuß. – Omotává si nohu obinadlem."
         },
         {
@@ -76511,7 +76511,7 @@ const B1_WORDS = [
         "Za zugeben často následuje věta s dass, v níž je sloveso na konci."
       ],
       "important": [
-        "Zugeben znamená přiznat něco, co mluvčímu není příjemné. Chceš-li říct, že něco přidáváš do jídla, použij hinzufügen.",
+        "Zugeben obvykle znamená přiznat něco, co mluvčímu není příjemné. V receptech zugeben znamená také přidat (Salz zugeben); v běžné řeči se v tomto významu častěji říká hinzufügen.",
         "Ve větě s dass za zugeben je sloveso na konci: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

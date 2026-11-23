@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "çregjistroj",
+          "meaning": "çregjistroj, anuloj regjistrimin",
           "example": "Ich melde mich vom Kurs ab. – Çregjistrohem nga kursi."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideja kryesore: anstecken është folje e ndashme me kuptimin mbërthej me karficë ose vë (një lule, një unazë), si dhe infektoj, ngjis një sëmundje.",
         "Format: steckt an, steckte an, hat angesteckt. Parashtesa an- ndahet në fjali: Er steckt mir den Ring an. Kërkon rasën kallëzore (çfarë?), shpesh edhe rasën dhanore (kujt?).",
-        "Në kuptimin „infektoj” përdoret jemanden anstecken ose sich anstecken (marr një sëmundje): Ich habe mich bei ihm angesteckt. Në disa krahina anstecken përdoret edhe me kuptimin ndez (eine Zigarette anstecken)."
+        "Në kuptimin „infektoj” përdoret jemanden anstecken ose sich anstecken (marr një sëmundje): Ich habe mich bei ihm angesteckt. Në të folur anstecken do të thotë edhe ndez (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideja kryesore: die Bahn është emër i gjinisë femërore. Do të thotë hekurudhë dhe transport hekurudhor në përgjithësi (mit der Bahn fahren – udhëtoj me tren). Në emrin e kompanisë Deutsche Bahn është hekurudha gjermane.",
         "Shumësi është die Bahnen. Fjala gjendet edhe në fjalë të përbëra: die Straßenbahn (tramvaj), die U-Bahn (metro), die S-Bahn (tren urban), die Eisenbahn (hekurudhë).",
-        "Kuptime të tjera: pistë ose shteg (die Laufbahn, die Radrennbahn) dhe orbitë (die Umlaufbahn). Në sport die Bahn është pista e vrapimit."
+        "Kuptime të tjera: pistë ose shteg (die Radrennbahn; die Laufbahn — edhe karrierë) dhe orbitë (die Umlaufbahn). Në sport die Bahn është pista e vrapimit."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn është e gjinisë femërore; mos e ngatërro me der Bahnhof (stacion, gjinia mashkullore).",
-        "Fjala Bahn më vete shpesh nënkupton kompaninë Deutsche Bahn, jo një tren të caktuar; një tren konkret është der Zug."
+        "Fjala Bahn mund të nënkuptojë edhe kompaninë Deutsche Bahn (Die Bahn hat Verspätung); një tren konkret quhet der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt nuk është e njëjta gjë me bestimmen: bestimmen do të thotë caktoj, vendos, ndërsa bestimmt është ndajfolje ose mbiemër.",
-        "Bestimmt mund të shprehë edhe një supozim, jo vetëm siguri: Er ist bestimmt zu Hause (ai me gjasë është në shtëpi)."
+        "Bestimmt shpreh edhe një supozim të fortë: Er ist bestimmt zu Hause (ai me siguri është në shtëpi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "pranë • i pranishëm",
       "explanation": [
         "Ideja kryesore: dabei është ndajfolje e formuar nga da + bei. Do të thotë pranë, aty, i pranishëm: pranë diçkaje ose në një ngjarje. Lidhja më e shpeshtë është dabei sein (jam i pranishëm, marr pjesë).",
-        "Kuptime të tjera të shpeshta: me vete (etwas dabei haben – kam diçka me vete), njëkohësisht (në të njëjtën kohë) dhe jam duke bërë diçka pikërisht tani (dabei sein, etwas zu tun). Është fjalë vendi dhe kohe që i referohet asaj që u përmend më parë.",
+        "Kuptime të tjera të shpeshta: me vete (etwas dabei haben – kam diçka me vete), në të njëjtën kohë, përveç kësaj dhe jam duke bërë diçka pikërisht tani (dabei sein, etwas zu tun). Është fjalë vendi dhe kohe që i referohet asaj që u përmend më parë.",
         "Dabei është edhe pjesë e fjalëve të përbëra: dabeibleiben (qëndroj te ajo), dabeihaben (kam me vete), dabeisitzen (rri ulur pranë)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideja kryesore: dafür është ndajfolje (da + für). Do të thotë për këtë (në këmbim, duke paguar, në shenjë falënderimi), për të (për një qëllim) ose pro (kur je dakord): Ich bin dafür (jam pro).",
         "Zëvendëson für + atë që u përmend më parë: Ich danke dir dafür. Me folje si sich interessieren für, sorgen für, sich entschuldigen für përdoret dafür kur nuk ka nevojë të përsëritet emri.",
-        "Në gjuhën e folur dafür do të thotë edhe në këmbim, por, si kompensim: Er ist nicht schnell, dafür arbeitet er genau. Në këtë kuptim fut një kundërvënie me një kompensim pozitiv."
+        "Dafür do të thotë edhe në këmbim, por, si kompensim: Er ist nicht schnell, dafür arbeitet er genau. Në këtë kuptim fut një kundërvënie me një kompensim pozitiv."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Në fjalinë me lidhëzën damit folja është në fund të fjalisë.",
-        "damit nuk do të thotë prandaj; për kuptimin shkakor përdoret deshalb ose darum."
+        "Lidhëza damit (që, në mënyrë që) nuk do të thotë prandaj; për kuptimin prandaj përdoret deshalb ose darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar zakonisht nuk përdoret pa nicht, kein, nichts."
+        "Si përforcues i mohimit gar përdoret bashkë me nicht, kein, nichts."
       ],
       "important": [
         "gar përforcon mohimin: gar nicht është më i fortë se nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Lidhur me Vjenën fjala Kaffeehaus përdoret shpesh; në Gjermani po aq shpesh do të dëgjosh das Café.",
+        "Fjala Kaffeehaus është karakteristike për Austrinë (Vjenën); në Gjermani shumë më shpesh thuhet das Café.",
         "Mbaj mend fjalën bazë Kaffee (kafe) + das Haus (shtëpi)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideja kryesore: der Kellner është emër i gjinisë mashkullore që do të thotë kamerier, personi që në restorant ose në kafene sjell ushqimet dhe pijet. Për gruan: die Kellnerin.",
         "Shumësi është die Kellner (burra) dhe die Kellnerinnen (gra). Lakimi: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Për t'iu drejtuar kamerierit më mirë përshtatet Entschuldigung!; thirrja Herr Ober! sot konsiderohet e dalë mode."
+        "Kamerierit më mirë i drejtohesh me „Entschuldigung!”; thirrja Herr Ober! sot konsiderohet e dalë mode."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen është i gjinisë mashkullore: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen më vete do të thotë makinë ose vagon, jo karrocë fëmijësh."
+        "Wagen më vete zakonisht do të thotë makinë ose vagon; karroca e fëmijëve quhet Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Mbaj mend: Kraft = forcë, Macht = pushtet, Energie = energji.",
-        "Mbaje mend frazën in Kraft treten (hyn në fuqi), e cila haset më shpesh se kuptimi bazë."
+        "Mbaje mend frazën in Kraft treten (hyn në fuqi) — përdoret shpesh për ligjet dhe rregulloret."
       ],
       "important": [
         "Die Kraft është e gjinisë femërore; shumësi die Kräfte, jo die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "notë",
       "explanation": [
         "Ideja kryesore: die Note është emër i gjinisë femërore. Në shkollë dhe në universitet do të thotë notë (eine gute Note bekommen, marr një notë të mirë). Në muzikë është notë muzikore: Noten lesen (lexoj nota).",
-        "Shumësi është die Noten. Në Gjermani notat janë nga 1 (sehr gut) deri në 6 (ungenügend), dhe 1 është më e mira. Prandaj eine gute Note do të thotë një numër i vogël.",
+        "Shumësi është die Noten. Në shkollat gjermane notat janë nga 1 (sehr gut) deri në 6 (ungenügend), dhe 1 është më e mira (në universitete shkalla është 1,0–5,0). Prandaj eine gute Note do të thotë një numër i vogël.",
         "Shprehje për marrjen dhe vënien e notave: eine Note bekommen, eine Note geben, die Note verbessern (përmirësoj notën)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "Në shprehjen rechnen mit + rasa dhanore (Dativ) kuptimi është „marr parasysh, pres”, për shembull kohë të keqe."
       ],
       "important": [
-        "Rechnen mit zakonisht do të thotë „pres, marr parasysh”, jo „bëj llogari me diçka”."
+        "Rechnen mit + dhanore zakonisht do të thotë „pres, marr parasysh” (Wir rechnen mit Regen); me një mjet do të thotë „llogarit me”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "i mprehtë • djegës",
       "explanation": [
-        "Ideja kryesore: scharf është mbiemër me disa kuptime. Për sendet do të thotë i mprehtë (scharfes Messer – thikë e mprehtë), për ushqimin — djegës, me shije pikante (scharfes Essen). Në kuptim të figurshëm mund të jetë edhe i fortë, i ashpër: eine scharfe Kurve, scharf bremsen.",
+        "Ideja kryesore: scharf është mbiemër me disa kuptime. Për sendet do të thotë i mprehtë (scharfes Messer – thikë e mprehtë), për ushqimin — djegës, me shije pikante (scharfes Essen). Në kuptim të figurshëm mund të jetë edhe i befasishëm ose i fortë: eine scharfe Kurve (kthesë e fortë), scharf bremsen (frenoj befas).",
         "Shkalla krahasore është schärfer (me umlaut), sipërorja — am schärfsten. Para emrit: ein scharfes Messer, scharfe Soße.",
         "Mbaj mend: scharf ka të bëjë me shijen djegëse (speca djegës, rrikë), jo me shijen e kripur — i kripur është salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Radhën ku presin njerëzit e quajmë Schlange; Reihe është më tepër radhë si renditje (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen është shprehje e ngulitur: jo in der Schlange sein, por Schlange stehen."
+        "Shprehja më e shpeshtë është Schlange stehen (edhe in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln përdoret kur një gjë zëvendësohet me një tjetër (shkolla, puna, monedha). ändern – kur diçka ndryshohet.",
-        "Ndërrimi i mjetit në transport shprehet me umsteigen, jo me wechseln."
+        "Ndërrimi i mjetit në transport zakonisht shprehet me umsteigen (është e mundur edhe den Zug wechseln)."
       ],
       "important": [
         "Me Geld wechseln zakonisht kuptohet këmbimi i monedhës ose i parave, jo shpenzimi i tyre.",

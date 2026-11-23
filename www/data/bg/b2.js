@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не бъркай с abfinden без sich: то означава „обезщетявам” или „удовлетворявам с пари”.",
-        "Формата за минало време е sich abgefunden (с -ge- в средата), а не geabfunden."
+        "Формата в перфект е hat sich abgefunden (-ge- между ab- и корена), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "излагам • възразявам • прекъсвам",
       "explanation": [
-        "Накратко: глаголът aussetzen има отделяема представка и няколко значения: изоставям (куче, дете), излагам (на студ, на опасност), спирам или прекъсвам (за двигател, работа), а с an + дателен падеж — възразявам.",
+        "Накратко: глаголът aussetzen има отделяема представка и няколко значения: изоставям (куче, дете), излагам (на студ, на опасност), спирам или прекъсвам (за двигател, работа), и в израза etwas an + дателен падеж auszusetzen haben — възразявам, критикувам.",
         "Форми: setzt aus, setzte aus, hat ausgesetzt. При значението излагане се използва дателен падеж: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Причастието в ausgesetzt sein означава изложен съм.",
         "Със значение възразявам се използва изразът etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Тук zu се вмъква между представката и основата: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "смилявам се • смиля се",
       "explanation": [
         "Накратко: sich erbarmen означава съчувствам на страдащия и му помагам или се смилявам над него. Езикът е висок, често религиозен или ироничен.",
-        "След него обикновено следва родителен падеж: sich des Hundes erbarmen. По-рядко се използва über + винителен падеж. Форми: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "След него обикновено следва родителен падеж: sich des Hundes erbarmen. По-рядко (регионално, в Австрия) се използва über + винителен падеж. Форми: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "В разговорната реч на шега: Wer erbarmt sich und …? — Кой ще се смили и …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig често изразява нежелан или неравномерен вид (мръсна дреха, червени петна по кожата).",
-        "Когато добавяш окончание, помни e: ein fleckiges Fell, eine fleckige Haut."
+        "Пред съществително fleckig получава окончание: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "допълнителен • последващ • впоследствие",
       "explanation": [
         "Накратко: nachträglich означава след това, вече след основното действие или срока — по-късно, допълнително добавено или направено. Думата е както прилагателно (eine nachträgliche Änderung), така и наречие (nachträglich ändern).",
-        "Често значение е закъснението: nachträglich gratulieren — поздравявам след събитието. Прилагателното изразява и допълнителен характер: eine nachträgliche Zahlung (допълнително плащане)."
+        "Често значение е закъснението: nachträglich gratulieren — поздравявам след събитието. Прилагателното означава и нещо, което става по-късно, след определения срок: eine nachträgliche Zahlung (по-късно плащане)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "предавам • предам",
       "explanation": [
-        "Накратко: überbringen означава да доставиш на адресата поверено съобщение, поздрав, писмо или подарък — да го донесеш и предадеш лично. Този, на когото се предава, е в дателен падеж: jemandem etwas überbringen.",
+        "Накратко: überbringen означава да доставиш на адресата съобщение, поздрав, писмо или подарък — да го донесеш и предадеш лично. Този, на когото се предава, е в дателен падеж: jemandem etwas überbringen.",
         "Неотделяема представка über-: überbringt, überbrachte, hat überbracht. В инфинитивна конструкция zu стои пред глагола: um die Nachricht zu überbringen. Думата е малко официална."
       ],
       "examples": [

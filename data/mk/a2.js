@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "одјавува",
+          "meaning": "се одјавува, ја откажува регистрацијата",
           "example": "Ich melde mich vom Kurs ab. – Се одјавувам од курсот."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Клучна идеја: anstecken е глагол со одвоив префикс што значи закачува или става (закачува цвет, става прстен), а исто така заразува, односно болеста се пренесува.",
         "Форми: steckt an, steckte an, hat angesteckt. Префиксот an- во реченицата се одвојува: Er steckt mir den Ring an. Бара акузатив (што?), често и датив (кому?).",
-        "Во значење „заразува” се користи jemanden anstecken или sich anstecken (фаќа болест): Ich habe mich bei ihm angesteckt. Во некои региони anstecken се користи и во значење „запалува” (eine Zigarette anstecken)."
+        "Во значење „заразува” се користи jemanden anstecken или sich anstecken (фаќа болест): Ich habe mich bei ihm angesteckt. Во разговорниот јазик anstecken значи и „запалува” (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Главна идеја: die Bahn е именка од женски род. Значи железница и железнички превоз воопшто (mit der Bahn fahren – патува со воз). Во името на компанијата Deutsche Bahn тоа е Германската железница.",
         "Множината е die Bahnen. Зборот се среќава и во сложенки: die Straßenbahn (трамвај), die U-Bahn (метро), die S-Bahn (градски воз), die Eisenbahn (железница).",
-        "Други значења: патека или стаза (die Laufbahn, die Radrennbahn) и орбита (die Umlaufbahn). Во спортот die Bahn е тркачка патека."
+        "Други значења: патека или стаза (die Radrennbahn; die Laufbahn — и кариера) и орбита (die Umlaufbahn). Во спортот die Bahn е тркачка патека."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn е од женски род; не мешај го со der Bahnhof (станица, машки род).",
-        "Зборот Bahn сам по себе често ја означува компанијата Deutsche Bahn, а не конкретен воз; конкретен воз е der Zug."
+        "Зборот Bahn може да ја означува и компанијата Deutsche Bahn (Die Bahn hat Verspätung); конкретниот воз се вика der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt не е исто што и bestimmen: bestimmen значи одредува, одлучува, а bestimmt е прилог или придавка.",
-        "Bestimmt може да изрази и претпоставка, а не само сигурност: Er ist bestimmt zu Hause (тој веројатно е дома)."
+        "Bestimmt изразува и цврста претпоставка: Er ist bestimmt zu Hause (тој сигурно е дома)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11856,7 +11856,7 @@ const A2_WORDS = [
       "explanation": [
         "Главна идеја: brennen е неправилен глагол што значи гори: оган, дрва, светлина, па дури и очи или кожа можат да горат. Во основното значење нема директен објект.",
         "Форми: brennt, brannte, hat gebrannt. Тоа е мешан глагол: коренот ја менува самогласката (brennen – brannte), но наставките се како кај правилните глаголи (ich brannte, wir brannten).",
-        "Во пренесено значење brennen значи и пече (за болка или сонце: Die Sonne brennt) и гори од ентузијазам (für etwas brennen). Со објект brennen значи снима (eine CD brennen) или пече ракија (Schnaps brennen)."
+        "Во пренесено значење brennen значи и пече (за болка или сонце: Die Sonne brennt) и гори од ентузијазам (für etwas brennen). Со објект brennen значи снима (eine CD brennen) или дестилира (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "присутен",
       "explanation": [
         "Главна идеја: dabei е прилог составен од da + bei. Значи присутен, покрај тоа, таму: до нешто или на некој настан. Најчест израз е dabei sein (е присутен, учествува).",
-        "Други чести значења: со себе (etwas dabei haben – има нешто со себе), притоа (во исто време) и токму сега прави нешто (dabei sein, etwas zu tun). Тоа е збор за место и време што упатува на претходно спомнатото.",
+        "Други чести значења: со себе (etwas dabei haben – има нешто со себе), во исто време, притоа и токму сега прави нешто (dabei sein, etwas zu tun). Тоа е збор за место и време што упатува на претходно спомнатото.",
         "Dabei е и дел од сложенки: dabeibleiben (останува при тоа), dabeihaben (има со себе), dabeisitzen (седи покрај)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Главна идеја: dafür е прилог (da + für). Значи за тоа (во замена, при плаќање, од благодарност), за таа цел или за (кога се согласуваш): Ich bin dafür (јас сум за).",
         "Го заменува für + нешто претходно спомнато: Ich danke dir dafür. Со глаголи како sich interessieren für, sorgen für, sich entschuldigen für се користи dafür кога не треба да се повторува именката.",
-        "Во разговорниот јазик dafür значи и но затоа, како надоместок: Er ist nicht schnell, dafür arbeitet er genau. Во ова значење воведува спротивност со позитивен надоместок."
+        "Dafür значи и но затоа, како надоместок: Er ist nicht schnell, dafür arbeitet er genau. Во ова значење воведува спротивност со позитивен надоместок."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Во реченица со сврзникот damit глаголот е на крајот од реченицата.",
-        "damit не значи затоа; за причинско значење се користи deshalb или darum."
+        "Сврзникот damit (за да) не значи затоа; за значењето „затоа” се користи deshalb или darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16157,7 +16157,7 @@ const A2_WORDS = [
         "Префиксот ein се одвојува и стои на крајот од реченицата: Ich lade dich ein."
       ],
       "important": [
-        "Во минато: hat eingeladen (не ge-ein-laden)."
+        "Во Perfekt: hat eingeladen (не ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar обично не се користи без nicht, kein, nichts."
+        "Како засилувач на негацијата gar се користи заедно со nicht, kein, nichts."
       ],
       "important": [
         "gar е засилувач на негацијата: gar nicht е посилно од nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Во врска со Виена зборот Kaffeehaus се користи често; во Германија исто толку често ќе слушнеш das Café.",
+        "Зборот Kaffeehaus е карактеристичен за Австрија (Виена); во Германија многу почесто се вели das Café.",
         "Запомни го основниот збор Kaffee (кафе) + das Haus (куќа)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Главна идеја: der Kellner е именка од машки род што значи келнер, кој во ресторан или кафеана носи храна и пијалаци. Жената е die Kellnerin.",
         "Множината е die Kellner (мажи) и die Kellnerinnen (жени). Деклинација: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "За обраќање на келнерот најдобро одговара Entschuldigung!; обраќањето Herr Ober! денес се смета за старомодно."
+        "На келнерот најдобро е да му се обратиш со „Entschuldigung!”; обраќањето Herr Ober! денес се смета за старомодно."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen е од машки род: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen сам по себе обично значи автомобил или вагон, но може да значи и кола, количка."
+        "Wagen сам по себе обично значи автомобил или вагон; детската количка се вика Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Запомни: Kraft = сила, Macht = моќ, Energie = енергија.",
-        "Научи ја фразата in Kraft treten (стапува на сила), таа се среќава почесто од основното значење."
+        "Научи ја фразата in Kraft treten (стапува на сила) — често се користи за закони и прописи."
       ],
       "important": [
         "Die Kraft е од женски род; множината е die Kräfte, а не die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "оценка",
       "explanation": [
         "Главна идеја: die Note е именка од женски род. Во училиште и на факултет значи оценка (eine gute Note bekommen, добива добра оценка). Во музиката тоа е нота: Noten lesen (чита ноти).",
-        "Множината е die Noten. Во Германија оценките се од 1 (sehr gut) до 6 (ungenügend), а 1 е најдобрата. Затоа eine gute Note значи мал број.",
+        "Множината е die Noten. Во германските училишта оценките се од 1 (sehr gut) до 6 (ungenügend), а 1 е најдобрата (на универзитетите скалата е 1,0–5,0). Затоа eine gute Note значи мал број.",
         "Со оценките се вели: eine Note bekommen, eine Note geben, die Note verbessern (ја подобрува оценката)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "Во фразата rechnen mit + датив значењето е „смета на нешто, очекува нешто”, на пример лошо време."
       ],
       "important": [
-        "Rechnen mit обично значи „очекува, зема предвид”, а не „пресметува со нешто”."
+        "Rechnen mit + датив обично значи „очекува, зема предвид” (Wir rechnen mit Regen); со инструмент значи „пресметува со”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "остар • лут",
       "explanation": [
-        "Главна идеја: scharf е придавка со повеќе значења. За предмет значи остар (scharfes Messer – остар нож), за храна — лут, пикантен вкус (scharfes Essen). Во пренесено значење може да значи и остар или силен: eine scharfe Kurve, scharf bremsen.",
+        "Главна идеја: scharf е придавка со повеќе значења. За предмет значи остар (scharfes Messer – остар нож), за храна — лут, пикантен вкус (scharfes Essen). Во пренесено значење може да значи и нагол или силен: eine scharfe Kurve (остра кривина), scharf bremsen (нагло кочи).",
         "Компаративот е schärfer (со умлаут), суперлативот — am schärfsten. Пред именка: ein scharfes Messer, scharfe Soße.",
         "Корисно е да се запомни: scharf се однесува на лут вкус (чили, рен), а не на солен вкус — солено е salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Редица од луѓе што чекаат се вика Schlange; Reihe е повеќе ред во смисла на редослед (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen е утврдена фраза: не in der Schlange sein, туку Schlange stehen."
+        "Најчестата фраза е Schlange stehen (и in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln се користи кога една работа се заменува со друга (училиште, работа, валута). ändern – кога нешто се преиначува.",
-        "Префрлањето во превозот обично се изразува со umsteigen (понекогаш и со wechseln)."
+        "Префрлањето во превозот обично се изразува со umsteigen (можно е и den Zug wechseln)."
       ],
       "important": [
         "Под Geld wechseln обично се подразбира размена на валута или пари, а не трошење.",

@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не мешај со abfinden без sich: тоа значи обесштетува или задоволува со пари.",
-        "Формата во Perfekt е sich abgefunden (со -ge- во средината), а не geabfunden."
+        "Формата во Perfekt е hat sich abgefunden (-ge- меѓу ab- и коренот), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "изложува • подложува • приговара • прекинува",
       "explanation": [
-        "Главна идеја: aussetzen е глагол со одвоив префикс со повеќе значења: да се остави или напушти (куче, дете), да се изложи (на студ, опасност), да застане или да прекине (за мотор, работа) и, со an + датив, да се приговара.",
+        "Главна идеја: aussetzen е глагол со одвоив префикс со повеќе значења: да се остави или напушти (куче, дете), да се изложи (на студ, опасност), да застане или да прекине (за мотор, работа) и, во изразот etwas an + датив auszusetzen haben, да се приговара, да се критикува.",
         "Форми: setzt aus, setzte aus, hat ausgesetzt. За изложување се користи датив: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Партиципот во ausgesetzt sein значи да се биде изложен.",
         "Во значењето приговара се користи изразот etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Тука zu се вметнува меѓу префиксот и основата: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "се смилува",
       "explanation": [
         "Главна идеја: sich erbarmen значи да се сочувствува со некој што страда и да му се помогне или да се смилува над него. Јазикот е висок, често религиозен или ироничен.",
-        "По него обично следува генитив: sich des Hundes erbarmen. Поретко се користи über + акузатив. Форми: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "По него обично следува генитив: sich des Hundes erbarmen. Поретко (регионално, во Австрија) се користи über + акузатив. Форми: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Во разговорниот јазик на шега: Wer erbarmt sich und …? — Кој ќе се смилува и …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig често изразува непожелен или нерамномерен изглед (валкана облека, црвени дамки на кожата).",
-        "Кога додаваш наставка, запомни го e: ein fleckiges Fell, eine fleckige Haut."
+        "Пред именка fleckig добива наставка: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "дополнителен • подоцнежен • подоцна",
       "explanation": [
         "Главна идеја: nachträglich значи потоа, по главното дејство или рокот — подоцна дополнително додадено или направено. Тоа е и придавка (eine nachträgliche Änderung) и прилог (nachträglich ändern).",
-        "Често значење е задоцнување: nachträglich gratulieren — да честиташ по настанот. Придавката изразува и дополнителен карактер: eine nachträgliche Zahlung (дополнително плаќање)."
+        "Често значење е задоцнување: nachträglich gratulieren — да честиташ по настанот. Придавката значи и нешто што се случува подоцна, по одреденото време: eine nachträgliche Zahlung (подоцнежно плаќање)."
       ],
       "examples": [
         {

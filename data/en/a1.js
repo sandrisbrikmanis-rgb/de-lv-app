@@ -13181,7 +13181,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Don't use jung for objects — say neu.",
-        "The comparative always has an umlaut: jünger, not “junger”."
+        "The comparative always has an umlaut: jünger (junger is only the positive form with an ending: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14894,7 +14894,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (territory, countryside) and der Staat (the state as an institution) are not synonyms.",
-        "The plural has an umlaut: die Länder, not “die Lande”."
+        "The plural has an umlaut: die Länder; die Lande is an archaic, poetic form."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21778,7 +21778,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: schauen means “to look, to watch” — to direct your eyes at something: Wir schauen aus dem Fenster. It is very common in southern Germany, Austria and Switzerland; in the north gucken or sehen is more usual.",
         "Forms: schaut, schaute, hat geschaut. Often with prepositions: auf + accusative (Er schaut auf die Uhr), aus dem Fenster (out of the window), nach + dative (Sie schaut nach dem Kind — she is checking on the child). Imperative: Schau mal! — Look!",
-        "The phrase Ich schaue fern means “I watch television”."
+        "The phrase Ich schaue fern (from fernschauen — in southern Germany and Austria; elsewhere fernsehen) means “I watch television”."
       ],
       "examples": [
         {
@@ -22596,7 +22596,7 @@ const A1_WORDS = [
         "Sehen also means “to understand” in expressions such as Ich sehe, was du meinst."
       ],
       "important": [
-        "There is no sehst or sehet: the correct forms are du siehst, er sieht.",
+        "In the present tense there is no du sehst or er seht: the correct forms are du siehst, er sieht.",
         "To say that you are watching something (a film, a picture), you can use either sehen or sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25217,7 +25217,7 @@ const A1_WORDS = [
       "translation": "Around • O'clock",
       "explanation": [
         "Main idea: um is a preposition that always takes the accusative. In time expressions, um gives an exact clock time: um acht Uhr (at eight o'clock). In place expressions, it describes a circle around something: um den Tisch (around the table), um die Ecke (around the corner).",
-        "The question about the time is Um wie viel Uhr ...? (what time?). After um, the time is not used with an article: um 8 Uhr, not in 8 Uhr.",
+        "The question about the time is Um wie viel Uhr ...? (what time?). Clock time is given with um (without an article), not with in: um 8 Uhr, not in 8 Uhr.",
         "With zu + infinitive, um expresses purpose: Er lernt, um zu verstehen (he studies in order to understand)."
       ],
       "examples": [
@@ -25467,7 +25467,7 @@ const A1_WORDS = [
         "The phrase unter uns means “between ourselves” and is used when saying something in confidence."
       ],
       "important": [
-        "Unter is not the same as zwischen: unter refers to being among a group or set (unter Freunden), zwischen to a position between people or things.",
+        "Unter is not the same as zwischen: unter refers to being among a group or set (unter Freunden), zwischen to a position between separate, named people or things (often two, but there can be more).",
         "Unter + number means “less than”: unter 18 means younger than 18."
       ],
       "sectionAccents": {
@@ -27757,7 +27757,7 @@ const A1_WORDS = [
         "With people use zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu takes only the dative: zu meinem Freund, zu der Schule.",
+        "Zu takes only the dative: zu meinem Freund, zur Schule (= zu der Schule).",
         "For cities and countries use nach, not zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28615,7 +28615,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Television",
       "explanation": [
-        "Main idea: das Fernsehen is a neuter noun for television as a medium or as the whole range of programmes. There is practically no plural, so use the singular. It usually appears with im: im Fernsehen (on television), beim Fernsehen (working in television).",
+        "Main idea: das Fernsehen is a neuter noun for television as a medium or as the whole range of programmes. There is practically no plural, so use the singular. It usually appears with im: im Fernsehen (on television), beim Fernsehen (while watching television; also working in television).",
         "It is a noun formed from the verb fernsehen (to watch TV). The device is called der Fernseher, while the activity is fernsehen.",
         "The noun is written with a capital letter; as a verb, fernsehen is separable."
       ],
@@ -30040,7 +30040,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Remember: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub is normally used without an article: Urlaub haben, Urlaub nehmen."
+        "In the expressions Urlaub haben, Urlaub nehmen no article is used (but: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "For pupils, people usually say Ferien, not Urlaub.",

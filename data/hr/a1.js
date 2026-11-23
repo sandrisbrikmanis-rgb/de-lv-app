@@ -13176,7 +13176,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ne koristi jung za predmete — kaže se neu.",
-        "Komparativ uvijek ima preglas: jünger, a ne „junger”."
+        "Komparativ uvijek ima preglas: jünger (junger je samo pozitiv s nastavkom: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14896,7 +14896,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (područje, selo) i der Staat (država kao institucija) nisu sinonimi.",
-        "Uobičajena množina ima preglas: die Länder („die Lande” je rijedak, književni oblik)."
+        "Uobičajena množina ima preglas: die Länder („die Lande” je zastarjeli, pjesnički oblik)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21790,7 +21790,7 @@ const A1_WORDS = [
       "explanation": [
         "Glavna ideja: schauen znači „gledati, pogledati” — usmjeriti pogled na nešto: Wir schauen aus dem Fenster. U južnoj Njemačkoj, Austriji i Švicarskoj vrlo je čest; na sjeveru se češće koristi gucken ili sehen.",
         "Oblici: schaut, schaute, hat geschaut. Često s prijedlozima: auf + akuzativ (Er schaut auf die Uhr), aus dem Fenster (kroz prozor), nach + dativ (Sie schaut nach dem Kind — pazi na dijete). Imperativ: Schau mal! — Pogledaj!",
-        "Izraz Ich schaue fern znači „gledam televiziju”."
+        "Izraz Ich schaue fern (od fernschauen — u južnoj Njemačkoj i Austriji; drugdje fernsehen) znači „gledam televiziju”."
       ],
       "examples": [
         {
@@ -22613,7 +22613,7 @@ const A1_WORDS = [
         "Sehen znači i \"shvatiti\" u izrazima kao Ich sehe, was du meinst."
       ],
       "important": [
-        "Ne postoji sehst ili sehet: točno je du siehst, er sieht.",
+        "U prezentu ne postoji du sehst ili er seht: točno je du siehst, er sieht.",
         "Da kažeš da nešto gledaš (film, sliku), možeš koristiti i sehen i sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25236,7 +25236,7 @@ const A1_WORDS = [
       "translation": "oko • u",
       "explanation": [
         "Glavna misao: um je prijedlog koji uvijek traži akuzativ. U vremenskom značenju um označava točno vrijeme: um acht Uhr (u osam sati). U prostornom značenju označava krug oko nečega: um den Tisch (oko stola), um die Ecke (iza ugla).",
-        "Pitanje o vremenu glasi Um wie viel Uhr ...? (u koliko sati?). Uz um vrijeme ne dobiva član: um 8 Uhr, a ne in 8 Uhr.",
+        "Pitanje o vremenu glasi Um wie viel Uhr ...? (u koliko sati?). Vrijeme na satu izražava se s um (bez člana), a ne s in: um 8 Uhr, a ne in 8 Uhr.",
         "S zu + infinitiv um izražava svrhu: Er lernt, um zu verstehen (uči da bi razumio)."
       ],
       "examples": [
@@ -25488,7 +25488,7 @@ const A1_WORDS = [
         "Izraz unter uns znači „među nama” i koristi se kad nešto govorimo u povjerenju."
       ],
       "important": [
-        "Unter nije isto što i zwischen: unter se odnosi na skup ili skupinu (unter Freunden), zwischen — na dvije konkretne stvari.",
+        "Unter nije isto što i zwischen: unter se odnosi na skup ili skupinu (unter Freunden), zwischen — na pojedinačne, imenovane stvari (često dvije, ali može ih biti i više).",
         "Unter + broj znači „manje od”: unter 18 znači mlađi od 18 godina."
       ],
       "sectionAccents": {
@@ -27779,7 +27779,7 @@ const A1_WORDS = [
         "S osobama se koristi zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu traži samo dativ: zu meinem Freund, zu der Schule.",
+        "Zu traži samo dativ: zu meinem Freund, zur Schule (= zu der Schule).",
         "Za gradove i zemlje koristi se nach, a ne zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28639,7 +28639,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televizija",
       "explanation": [
-        "Glavna misao: das Fernsehen je imenica srednjeg roda koja označava televiziju kao medij ili skup emisija. Gotovo nema množinu: koristi se jednina. Često dolazi s im: im Fernsehen (na televiziji), beim Fernsehen (raditi na televiziji).",
+        "Glavna misao: das Fernsehen je imenica srednjeg roda koja označava televiziju kao medij ili skup emisija. Gotovo nema množinu: koristi se jednina. Često dolazi s im: im Fernsehen (na televiziji), beim Fernsehen (gledajući televiziju; i radeći na televiziji).",
         "To je imenica nastala od glagola fernsehen (gledati televiziju). Uređaj se zove der Fernseher, a radnja fernsehen.",
         "Imenica se piše velikim slovom; glagol fernsehen ima odvojivi prefiks."
       ],
@@ -30067,7 +30067,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Zapamti: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub se obično koristi bez člana: Urlaub haben, Urlaub nehmen."
+        "U izrazima Urlaub haben, Urlaub nehmen koristi se bez člana (ali: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Za učenike se obično kaže Ferien, a ne Urlaub.",

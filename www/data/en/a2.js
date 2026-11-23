@@ -3211,7 +3211,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "to cancel, to deregister",
+          "meaning": "to deregister, to cancel a registration",
           "example": "Ich melde mich vom Kurs ab. – I am withdrawing from the course."
         },
         {
@@ -3391,7 +3391,7 @@ const A2_WORDS = [
       "explanation": [
         "Main idea: anstecken is a separable verb meaning to pin on or to put on (to pin on a flower, to slip on a ring), and also to infect or to be contagious (an illness).",
         "Forms: steckt an, steckte an, hat angesteckt. The prefix an- separates in a main clause: Er steckt mir den Ring an. It takes the accusative (what?) and often also the dative (to whom?).",
-        "In the sense of infecting, you use jemanden anstecken or sich anstecken (to catch an illness): Ich habe mich bei ihm angesteckt. In some regions anstecken is also used to mean to light (eine Zigarette anstecken)."
+        "In the sense of infecting, you use jemanden anstecken or sich anstecken (to catch an illness): Ich habe mich bei ihm angesteckt. In colloquial German anstecken also means to light (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7591,7 +7591,7 @@ const A2_WORDS = [
       "explanation": [
         "Main idea: die Bahn is a feminine noun. It means the railway and rail transport in general (mit der Bahn fahren, to travel by train). In the company name Deutsche Bahn it refers to the German railway.",
         "The plural is die Bahnen. The word is also found in compounds: die Straßenbahn (tram), die U-Bahn (underground), die S-Bahn (suburban train), die Eisenbahn (railway).",
-        "Other meanings: a track or lane (die Laufbahn, die Radrennbahn) and an orbit (die Umlaufbahn). In athletics, die Bahn is the running track."
+        "Other meanings: a track or lane (die Radrennbahn; die Laufbahn — also a career) and an orbit (die Umlaufbahn). In athletics, die Bahn is the running track."
       ],
       "examples": [
         {
@@ -7634,7 +7634,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn is feminine; do not confuse it with der Bahnhof (station, masculine).",
-        "On its own, Bahn often means the company Deutsche Bahn rather than a particular train; a particular train is der Zug."
+        "Bahn can also mean the company Deutsche Bahn (Die Bahn hat Verspätung); a particular train is called der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10161,7 +10161,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt is not the same as bestimmen: bestimmen is to determine or decide, whereas bestimmt is an adverb or adjective.",
-        "Bestimmt can also express an assumption, not just certainty: Er ist bestimmt zu Hause (he is probably at home)."
+        "Bestimmt also expresses a firm assumption: Er ist bestimmt zu Hause (he is definitely at home)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12238,7 +12238,7 @@ const A2_WORDS = [
       "translation": "Present",
       "explanation": [
         "Main idea: dabei is an adverb formed from da + bei. It means present, there, with it: next to something or at an event. The most common combination is dabei sein (to be there, to take part).",
-        "Other common meanings: with you (etwas dabei haben, to have something with you), at the same time (while doing so) and being in the middle of doing something (dabei sein, etwas zu tun). It is a word of place and time that refers back to what was mentioned before.",
+        "Other common meanings: with you (etwas dabei haben, to have something with you), at the same time, in addition, and being in the middle of doing something (dabei sein, etwas zu tun). It is a word of place and time that refers back to what was mentioned before.",
         "Dabei is also part of compounds: dabeibleiben (to stick to it), dabeihaben (to have with one), dabeisitzen (to sit by)."
       ],
       "examples": [
@@ -12435,7 +12435,7 @@ const A2_WORDS = [
       "explanation": [
         "Main idea: dafür is an adverb (da + für). It means for it or for that (in exchange, when paying, as thanks), for that purpose, or in favour: Ich bin dafür (I am in favour).",
         "It replaces für plus something already mentioned: Ich danke dir dafür. With verbs such as sich interessieren für, sorgen für and sich entschuldigen für, you use dafür when you do not need to repeat the noun.",
-        "In colloquial German, dafür also means on the other hand or to make up for it: Er ist nicht schnell, dafür arbeitet er genau. In this meaning it introduces a contrast with positive compensation, a bit like however."
+        "Dafür also means on the other hand or to make up for it: Er ist nicht schnell, dafür arbeitet er genau. In this meaning it introduces a contrast with positive compensation, a bit like however."
       ],
       "examples": [
         {
@@ -12668,7 +12668,7 @@ const A2_WORDS = [
       ],
       "important": [
         "In a damit clause the verb comes at the end of the clause.",
-        "damit does not mean therefore; for a reason or result use deshalb or darum."
+        "The conjunction damit (so that) does not mean therefore; for the meaning therefore use deshalb or darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19815,7 +19815,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar is normally combined with nicht, kein or nichts."
+        "As an intensifier of a negation, gar is used together with nicht, kein, nichts."
       ],
       "important": [
         "gar is an intensifier of negation: gar nicht is stronger than nicht."
@@ -23663,7 +23663,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "In connection with Vienna the word Kaffeehaus is very common; in Germany you will hear das Café just as often.",
+        "The word Kaffeehaus is typical of Austria (Vienna); in Germany you will hear das Café much more often.",
         "Remember the parts: Kaffee (coffee) + das Haus (house)."
       ],
       "important": [
@@ -26190,7 +26190,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen is masculine: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen on its own means car or carriage, not pram."
+        "Wagen on its own usually means car or carriage; a pram is called Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28680,7 +28680,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Remember: Kraft = strength, Macht = power, Energie = energy.",
-        "Learn the phrase in Kraft treten (to come into force); it is more common than the basic meaning."
+        "Learn the phrase in Kraft treten (to come into force); it is often used of laws and regulations."
       ],
       "important": [
         "Die Kraft is feminine; the plural is die Kräfte, not die Krafte.",
@@ -32749,7 +32749,7 @@ const A2_WORDS = [
       "translation": "Grade",
       "explanation": [
         "Main idea: die Note is a feminine noun. At school and university it means a grade or mark (eine gute Note bekommen, to get a good mark). In music it is a note: Noten lesen (to read music).",
-        "The plural is die Noten. In Germany grades run from 1 (sehr gut) to 6 (ungenügend), and 1 is the best. So eine gute Note means a low number, the opposite of the usual scale in the UK, where a higher mark is better.",
+        "The plural is die Noten. In German schools grades run from 1 (sehr gut) to 6 (ungenügend), and 1 is the best (at universities the scale is 1.0–5.0). So eine gute Note means a low number, the opposite of the usual scale in the UK, where a higher mark is better.",
         "Typical verbs: eine Note bekommen, eine Note geben, die Note verbessern (to improve a grade)."
       ],
       "examples": [
@@ -35373,7 +35373,7 @@ const A2_WORDS = [
         "In the phrase rechnen mit + dative the meaning is \"to expect, to allow for\", for example bad weather."
       ],
       "important": [
-        "Rechnen mit usually means \"to expect, to take into account\", not \"to calculate with something\"."
+        "Rechnen mit + dative usually means \"to expect, to take into account\" (Wir rechnen mit Regen); with an instrument it means \"to calculate with\": mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36858,7 +36858,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Sharp • Spicy",
       "explanation": [
-        "Main idea: scharf is an adjective with several meanings. Of an object it means sharp (ein scharfes Messer, a sharp knife); of food it means hot or spicy (scharfes Essen). Figuratively it can also mean tight or strong: eine scharfe Kurve, scharf bremsen.",
+        "Main idea: scharf is an adjective with several meanings. Of an object it means sharp (ein scharfes Messer, a sharp knife); of food it means hot or spicy (scharfes Essen). Figuratively it can also mean abrupt or strong: eine scharfe Kurve (a sharp bend), scharf bremsen (to brake hard).",
         "The comparative is schärfer (with an umlaut), the superlative am schärfsten. Before a noun: ein scharfes Messer, scharfe Soße.",
         "Do not confuse it with salty: scharf refers to a hot taste (chilli, horseradish), whereas salty is salzig."
       ],
@@ -37337,7 +37337,7 @@ const A2_WORDS = [
         "A line of people waiting is called a Schlange; Reihe is more a row or a sequence (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen is a fixed phrase: not in der Schlange sein, but Schlange stehen."
+        "The most common phrase is Schlange stehen (also in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45475,7 +45475,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Use wechseln when you replace one thing with another (school, job, currency). Use ändern when you alter something.",
-        "Changing trains or buses is expressed with umsteigen, not wechseln."
+        "Changing trains or buses is usually expressed with umsteigen (den Zug wechseln is also possible)."
       ],
       "important": [
         "Geld wechseln usually means exchanging currency or getting change, not spending money.",

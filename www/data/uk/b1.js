@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Ми охоче доручаємо Вам це завдання."
+          "lv": "Ми охоче передаємо Вам це замовлення (завдання)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen — не те саме, що besorgt sein (стурбований): прикметник besorgt — інше слово.",
-        "Besorgen — невідокремлюване дієслово: besorgt, а не gesorgt."
+        "Besorgen — невідокремлюване дієслово, у Perfekt без ge-: hat besorgt (gesorgt — від іншого дієслова, sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Головна думка: bieten означає пропонувати або надавати — давати комусь можливість, послугу чи перевагу; а також пропонувати ціну на аукціоні. Це сильне дієслово: er bietet, bot, hat geboten. Після нього йде знахідний відмінок (Akkusativ), часто з давальним (Dativ): jemandem etwas bieten.",
         "Приклади: Das Hotel bietet viel Komfort (готель пропонує багато комфорту), Ich biete 100 Euro (я пропоную 100 євро). Зворотне sich bieten означає: Eine Chance bietet sich (з’являється нагода).",
-        "Спорідненим є іменник das Angebot (пропозиція), але дієслово anbieten (пропонувати) — інше слово."
+        "Іменник das Angebot (пропозиція) походить від anbieten; від bieten — das Gebot (ставка на аукціоні)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "блок",
       "explanation": [
-        "Головна думка: der Block — це блок — щільний, суцільний шматок або комплект: блокнот, брила льоду, квартал будинків. Множина — die Blöcke.",
+        "Головна думка: der Block — це блок — щільний, суцільний шматок або комплект: блокнот, брила льоду, квартал будинків. Множина — die Blöcke (для блокнотів і кварталів будинків часто також die Blocks).",
         "Типові складні слова: der Notizblock (блокнот), der Wohnblock (житловий масив, багатоквартирний будинок), der Motorblock (блок двигуна); також ein Block Eis (брила льоду).",
         "У переносному значенні der Block може бути також політичним чи економічним об’єднанням: der Machtblock (блок влади)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft — жіночого роду.",
-        "Не плутай з das Konsulat (консульство): воно зазвичай обслуговує громадян у певному місті."
+        "Не плутай з das Konsulat (консульство): воно обслуговує громадян у певному консульському окрузі."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "союз",
       "explanation": [
         "Головна думка: der Bund — це союз, об’єднання або союз на державному рівні — спільне об’єднання кількох сторін. Множина — die Bünde. Слово чоловічого роду.",
-        "У Німеччині der Bund часто означає федерацію (федеральну владу) на противагу землям (Ländern): Bund und Länder. У складних словах: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "У Німеччині der Bund часто означає федерацію (федеральну владу) на противагу землям (die Länder): Bund und Länder. У складних словах: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Інші значення: ein Bund fürs Leben (шлюбний союз) і das Bund (пучок, в’язка): ein Bund Radieschen. Це інше слово з іншим артиклем."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Головна думка: dadurch — прислівник, що означає таким чином, завдяки цьому, через це — вказує на причину або засіб. Зазвичай він пов’язує попереднє речення з наслідком: Er hat viel geübt. Dadurch wurde er besser.",
         "Порядок слів: після dadurch дієслово стоїть на другому місці: Dadurch wird alles einfacher. Також dadurch, dass як сполучник (завдяки тому, що) вводить підрядне речення з дієсловом у кінці.",
-        "У просторовому значенні dadurch означає також «крізь це», і тоді наголошений перший склад: Die Tür war offen, wir sind dadurch gegangen."
+        "У просторовому значенні dadurch означає також «крізь це»: Die Tür war offen, wir sind dadurch gegangen. Зазвичай наголошений другий склад; перший склад наголошують лише для особливого виділення."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "служити",
       "explanation": [
         "Головна думка: dienen означає служити, слугувати певній меті або виконувати якусь функцію. Найпоширеніші конструкції: dienen als + називний відмінок (Nominativ) (слугувати чимось), dienen zu + давальний (Dativ) (слугувати для чогось) і dienen + давальний (служити комусь).",
-        "Форми: dient, diente, hat gedient. Після дієслова йде давальний відмінок (Er dient dem Land), а не знахідний. У розмові Womit kann ich dienen? — це ввічлива пропозиція допомогти, а у військовому значенні dienen — «служити в армії»."
+        "Форми: dient, diente, hat gedient. Після дієслова йде давальний відмінок (Er dient dem Land), а не знахідний. Womit kann ich dienen? — це ввічлива, трохи старомодна пропозиція обслуги допомогти, а у військовому значенні dienen — «служити в армії»."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "діарея • пронос",
       "explanation": [
         "Головна думка: der Durchfall — іменник чоловічого роду, що означає діарею (пронос) – рідкі, часті випорожнення. У медицині й у повсякденні його вживають в однині: Durchfall haben – мати діарею.",
-        "Множина die Durchfälle вживається рідко. У переносному значенні Durchfall може означати також провал (на іспиті, театральної вистави), але тоді зазвичай уживають дієслово durchfallen."
+        "Множина die Durchfälle вживається рідко. У переносному значенні (розмовно) Durchfall може означати також провал (на іспиті, театральної вистави), але тоді зазвичай уживають дієслово durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "власний",
       "explanation": [
         "Головна думка: eigen — прикметник, що означає «свій, власний». Він підкреслює належність: mein eigenes Auto — моя власна машина. Зазвичай він стоїть перед іменником і відмінюється: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "У переносному значенні eigen може означати також «своєрідний, особливий»: ein eigener Geruch — своєрідний запах. Вислів etwas zu eigen haben — мати щось як властиву рису. На рівні B1 головне значення — «свій, власний»."
+        "У переносному значенні eigen може означати також «своєрідний, особливий»: ein eigener Geruch — своєрідний запах. Вислів sich (Dat) etwas zu eigen machen — сприйняти щось як своє. На рівні B1 головне значення — «свій, власний»."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "У множині закінчення -er: die Geschlechter.",
-        "В анкетах після Geschlecht зазвичай стоїть поле для заповнення, а не питання."
+        "В анкетах Geschlecht — це назва поля (стать), де позначають männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Після ein Haufen іменник іде без 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Після ein Haufen іменник зазвичай іде без 'von': ein Haufen Arbeit, ein Haufen Geld (рідше: ein Haufen von Problemen).",
         "Вислів über den Haufen werfen — зруйнувати (плани)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "гомосексуал",
       "explanation": [
         "Головна думка: der Homosexuelle — іменник, що означає гомосексуального чоловіка. Він відмінюється як прикметник: ein Homosexueller, der Homosexuelle, die Homosexuellen (у множині). Жінка: die Homosexuelle, eine Homosexuelle.",
-        "Слово нейтральне, офіційне, вживається в офіційних текстах, новинах, законах. У повсякденному мовленні часто кажуть schwul (гей) або lesbisch (лесбійка)."
+        "Слово нейтральне, офіційне, вживається в офіційних текстах, новинах, законах. У повсякденному мовленні часто вживають прикметники: er ist schwul (він гей), sie ist lesbisch (вона лесбійка)."
       ],
       "examples": [
         {
@@ -34481,7 +34481,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "чути",
+          "meaning": "чути; слухати",
           "example": "Ich höre Musik. – Я слухаю музику."
         },
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Складні слова: die Machtübernahme (захоплення влади), der Machtkampf (боротьба за владу)."
       ],
       "important": [
-        "Macht не означає просто фізичну силу; для неї вживають die Kraft.",
+        "Macht не означає фізичну силу; її називають die Kraft.",
         "Множина die Mächte здебільшого стосується держав або сил."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Слово das Maß пишуть з ß, бо голосний довгий.",
-        "Множина — die Maße (розміри); у давальному відмінку — den Maßen (in Maßen, über alle Maßen)."
+        "Множина — die Maße (розміри); у давальному відмінку — den Maßen (in Maßen). У вислові über alle Maßen збереглася історична форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben — не те саме, що aufgeben: nachgeben — це поступитися комусь, aufgeben — відмовитися від якоїсь мети.",
-        "Префікс nach- відокремлюється: gibt nach, а не nachgibt."
+        "Префікс nach- у головному реченні відокремлюється: er gibt nach (у підрядному разом: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "схилятися • схилитися",
       "explanation": [
         "Основна думка: neigen із zu + давальний відмінок означає схилятися до чогось, мати схильність: Er neigt zu schnellen Entscheidungen. Форми: neigt, neigte, hat geneigt.",
-        "У прямому значенні etwas neigen — це нахиляти (den Kopf neigen). Зворотне sich neigen означає нахилятися або наближатися до кінця: Der Tag neigt sich.",
+        "У прямому значенні etwas neigen — це нахиляти (den Kopf neigen). Зворотне sich neigen означає нахилятися або (у високому стилі) наближатися до кінця: Der Tag neigt sich. Вислів sich dem Ende zuneigen — від zuneigen.",
         "Від того самого кореня утворено іменник die Neigung (схильність, потяг, нахил)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "нужда • нестача",
       "explanation": [
         "Основна думка: die Not — це нестача, злидні, лихо, коли людині бракує найнеобхіднішого (in Not leben, Not leiden). Це також нагальна потреба або біда: in der Not, in Not geraten.",
-        "Слово жіночого роду. Множина die Nöte трапляється дуже рідко; зазвичай уживають однину.",
+        "Слово жіночого роду. Множину die Nöte вживають рідше (Sorgen und Nöte); зазвичай уживають однину.",
         "Фрази: zur Not (якщо інакше не вийде; у крайньому разі), aus der Not eine Tugend machen (робити з потреби чесноту), Not macht erfinderisch (нужда робить винахідливим)."
       ],
       "examples": [
@@ -54741,7 +54741,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten — не braten: braten — це смажити на олії чи жирі, rösten – підсмажувати.",
-        "Не плутай rösten з rostet (іржавіє)."
+        "Не плутай rösten з rosten (іржавіти)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60259,7 +60259,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Для місця в транспорті кажи der Sitz або der Platz; лише der Platz може означати місце взагалі.",
-        "Юридичну адресу фірми називають der Firmensitz."
+        "Юридичне місцезнаходження фірми (головний офіс) називають der Firmensitz."
       ],
       "important": [
         "Der Sitz — це не das Sitzen: das Sitzen — дія, der Sitz — сидіння або головний офіс.",
@@ -61232,7 +61232,7 @@ const B1_WORDS = [
         "Для накопичення (енергії, води) теж вживають speichern."
       ],
       "important": [
-        "Наказовий спосіб — Speichere (або Speicher), а не Speichern.",
+        "Наказовий спосіб — Speichere! (також Speichre!; у розмовній мові Speicher!), а не Speichern.",
         "speichern — це не sperren (блокувати)."
       ],
       "sectionAccents": {
@@ -70128,7 +70128,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "бинт",
+          "meaning": "пов’язка, бинт",
           "example": "Sie wickelt eine Binde um den Fuß. – Вона обмотує ногу бинтом."
         },
         {
@@ -76492,7 +76492,7 @@ const B1_WORDS = [
         "Після zugeben часто йде речення з dass, у якому дієслово стоїть у кінці."
       ],
       "important": [
-        "Zugeben – це визнати щось, що мовцеві невигідно; якщо просто хочеш сказати, що щось додаєш до страви, вживай hinzufügen.",
+        "Zugeben зазвичай означає визнати щось, що мовцеві невигідно. У рецептах zugeben означає також «додавати» (Salz zugeben); у повсякденні в цьому значенні частіше кажуть hinzufügen.",
         "Після zugeben у реченні з dass дієслово стоїть у кінці: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne miješaj s abfinden bez sich: on znači obeštetiti ili isplatiti odštetu novcem.",
-        "Particip perfekta je sich abgefunden (s -ge- u sredini), a ne geabfunden."
+        "Oblik perfekta je hat sich abgefunden (-ge- između ab- i osnove), a ne geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "izložiti • prekinuti • prigovarati",
       "explanation": [
-        "Glavna ideja: aussetzen je glagol s odvojivim prefiksom s više značenja: ostaviti ili napustiti (psa, dijete), izložiti (hladnoći, opasnosti), zastati ili prekinuti se (o motoru, radu) te, s an + dativ, prigovarati.",
+        "Glavna ideja: aussetzen je glagol s odvojivim prefiksom s više značenja: ostaviti ili napustiti (psa, dijete), izložiti (hladnoći, opasnosti), zastati ili prekinuti se (o motoru, radu) te, u izrazu etwas an + dativ auszusetzen haben, prigovarati, kritizirati.",
         "Oblici: setzt aus, setzte aus, hat ausgesetzt. Kad znači izložiti, upotrebljava se dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Particip u ausgesetzt sein znači biti izložen.",
         "U značenju prigovarati upotrebljava se izraz etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Ovdje se zu umeće između prefiksa i osnove: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "smilovati se",
       "explanation": [
         "Glavna ideja: sich erbarmen znači smilovati se, sažaliti se nad nekim tko pati i pomoći mu. Stil je uzvišen, često religiozan ili ironičan.",
-        "Obično ga slijedi genitiv: sich des Hundes erbarmen. Rjeđe se rabi über + akuzativ. Oblici: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Obično ga slijedi genitiv: sich des Hundes erbarmen. Rjeđe se (regionalno, u Austriji) rabi über + akuzativ. Oblici: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "U razgovoru, u šali: Wer erbarmt sich und …? — Tko će mi se smilovati i …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig često izražava neželjen ili nepravilan izgled (prljava odjeća, crvene mrlje na koži).",
-        "Kad dodaješ nastavak, pazi na e: ein fleckiges Fell, eine fleckige Haut."
+        "Ispred imenice fleckig dobiva nastavak: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "naknadan • naknadno",
       "explanation": [
         "Glavna ideja: nachträglich znači naknadno, nakon glavne radnje ili isteka roka — kasnije dodano ili učinjeno. To je i pridjev (eine nachträgliche Änderung) i prilog (nachträglich ändern).",
-        "Često izražava zakašnjenje: nachträglich gratulieren — čestitati nakon događaja. Pridjev izražava i dodatnost: eine nachträgliche Zahlung (naknadno, dodatno plaćanje)."
+        "Često izražava zakašnjenje: nachträglich gratulieren — čestitati nakon događaja. Pridjev znači i ono što se događa kasnije, nakon predviđenog vremena: eine nachträgliche Zahlung (naknadno plaćanje)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "uručiti • prenijeti",
       "explanation": [
-        "Glavna ideja: überbringen znači donijeti primatelju vijest, čestitku, pismo ili poklon koji su vam povjereni — donijeti i osobno uručiti. Primatelj je u dativu: jemandem etwas überbringen.",
+        "Glavna ideja: überbringen znači donijeti primatelju vijest, čestitku, pismo ili poklon — donijeti i osobno uručiti. Primatelj je u dativu: jemandem etwas überbringen.",
         "Neodvojivi prefiks über-: überbringt, überbrachte, hat überbracht. U infinitivu zu stoji ispred glagola: um die Nachricht zu überbringen. Riječ je pomalo formalna."
       ],
       "examples": [

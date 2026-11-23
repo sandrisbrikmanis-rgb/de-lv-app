@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Blanda inte ihop med abfinden utan sich: det betyder kompensera eller lösa ut någon med pengar.",
-        "Perfektformen är sich abgefunden (med -ge- i mitten), inte geabfunden."
+        "Perfektformen är hat sich abgefunden (-ge- mellan ab- och stammen), inte geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "utsätta • anmärka • avbryta",
       "explanation": [
-        "Grundidé: aussetzen är ett partikelverb med flera betydelser: sätta ut eller överge (en hund, ett barn), utsätta (för kyla, fara), stanna eller avbrytas (om en motor, ett arbete) och med an + dativ — anmärka på.",
+        "Grundidé: aussetzen är ett partikelverb med flera betydelser: sätta ut eller överge (en hund, ett barn), utsätta (för kyla, fara), stanna eller avbrytas (om en motor, ett arbete) och i uttrycket etwas an + dativ auszusetzen haben — anmärka på, kritisera.",
         "Former: setzt aus, setzte aus, hat ausgesetzt. I betydelsen utsätta används dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Uttrycket ausgesetzt sein betyder att vara utsatt.",
         "I betydelsen anmärka används uttrycket etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Här hamnar zu mellan prefixet och verbstammen: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "förbarma sig",
       "explanation": [
         "Grundidé: sich erbarmen betyder att känna medlidande med någon som lider och hjälpa eller förbarma sig över honom eller henne. Stilen är högtidlig, ofta religiös eller ironisk.",
-        "Därefter följer oftast genitiv: sich des Hundes erbarmen. Mer sällan används über + ackusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Därefter följer oftast genitiv: sich des Hundes erbarmen. Mer sällan (regionalt, i Österrike) används über + ackusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Skämtsamt i vardagsspråk: Wer erbarmt sich und …? — Vem förbarmar sig och …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig uttrycker ofta ett oönskat eller ojämnt utseende (smutsiga kläder, röda fläckar på huden).",
-        "När du lägger till en ändelse, kom ihåg e: ein fleckiges Fell, eine fleckige Haut."
+        "Framför ett substantiv får fleckig en ändelse: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "efterföljande • i efterhand",
       "explanation": [
         "Grundtanke: nachträglich betyder i efterhand, efter den egentliga handlingen eller tidsfristen — något som läggs till eller görs senare. Det är både ett adjektiv (eine nachträgliche Änderung) och ett adverb (nachträglich ändern).",
-        "En vanlig betydelse är försening: nachträglich gratulieren — gratulera i efterskott. Adjektivet kan också uttrycka att något är extra: eine nachträgliche Zahlung (en extra betalning)."
+        "En vanlig betydelse är försening: nachträglich gratulieren — gratulera i efterskott. Adjektivet betyder också att något sker senare, efter den bestämda tiden: eine nachträgliche Zahlung (en senare betalning)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "framföra • överlämna",
       "explanation": [
-        "Grundtanke: überbringen betyder att på någons uppdrag föra fram ett meddelande, en gratulation, ett brev eller en present till mottagaren — att ta med och överlämna personligen. Mottagaren står i dativ: jemandem etwas überbringen.",
+        "Grundtanke: überbringen betyder att föra fram ett meddelande, en gratulation, ett brev eller en present till mottagaren — att ta med och överlämna personligen. Mottagaren står i dativ: jemandem etwas überbringen.",
         "Oskiljbart prefix über-: überbringt, überbrachte, hat überbracht. I infinitiv står zu före verbet: um die Nachricht zu überbringen. Ordet är något formellt."
       ],
       "examples": [

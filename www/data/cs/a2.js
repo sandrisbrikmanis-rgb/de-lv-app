@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "odhlásit",
+          "meaning": "odhlásit se, zrušit registraci",
           "example": "Ich melde mich vom Kurs ab. – Odhlašuji se z kurzu."
         },
         {
@@ -3382,7 +3382,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: anstecken je odlučitelné sloveso ve významu připnout nebo nasadit (připnout květinu, nasadit prsten) a také nakazit či přenést (nemoc).",
         "Tvary: steckt an, steckte an, hat angesteckt. Předpona an- se ve větě odděluje: Er steckt mir den Ring an. Pojí se s akuzativem (koho? co?), často i s dativem (komu?).",
-        "Ve významu nakazit se používá jemanden anstecken nebo sich anstecken (chytit nemoc): Ich habe mich bei ihm angesteckt. V některých oblastech se anstecken používá i ve významu zapálit (eine Zigarette anstecken)."
+        "Ve významu nakazit se používá jemanden anstecken nebo sich anstecken (chytit nemoc): Ich habe mich bei ihm angesteckt. Hovorově znamená anstecken také zapálit (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7583,7 +7583,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: die Bahn je podstatné jméno rodu ženského. Znamená železnici a železniční dopravu vůbec (mit der Bahn fahren – jet vlakem). V názvu podniku Deutsche Bahn jsou to německé železnice.",
         "Množné číslo je die Bahnen. Slovo se vyskytuje i ve složeninách: die Straßenbahn (tramvaj), die U-Bahn (metro), die S-Bahn (městská železnice), die Eisenbahn (železnice).",
-        "Další významy: dráha (die Laufbahn, die Radrennbahn) a oběžná dráha (die Umlaufbahn). Ve sportu je die Bahn běžecká dráha."
+        "Další významy: dráha (die Radrennbahn; die Laufbahn – také kariéra) a oběžná dráha (die Umlaufbahn). Ve sportu je die Bahn běžecká dráha."
       ],
       "examples": [
         {
@@ -7626,7 +7626,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn je rodu ženského; nepleťte si ji s der Bahnhof (nádraží, rod mužský).",
-        "Samotné slovo Bahn často znamená podnik Deutsche Bahn, ne konkrétní vlak; konkrétní vlak je der Zug."
+        "Slovo Bahn může znamenat i podnik Deutsche Bahn (Die Bahn hat Verspätung); konkrétní vlak se nazývá der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10152,7 +10152,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt není totéž co bestimmen: bestimmen je určit, rozhodnout, bestimmt je příslovce nebo přídavné jméno.",
-        "Bestimmt může vyjadřovat i domněnku, nejen jistotu: Er ist bestimmt zu Hause (nejspíš je doma)."
+        "Bestimmt vyjadřuje i silnou domněnku: Er ist bestimmt zu Hause (určitě je doma)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11861,7 +11861,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: brennen je nepravidelné sloveso ve významu hořet: hořet může oheň, dřevo, světlo a dokonce i oči nebo kůže. V základním významu nemá přímý předmět.",
         "Tvary: brennt, brannte, hat gebrannt. Je to smíšené sloveso: kmen mění samohlásku (brennen – brannte), ale koncovky jsou jako u pravidelných sloves (ich brannte, wir brannten).",
-        "V přeneseném významu brennen znamená také pálit (o bolesti nebo slunci: Die Sonne brennt) a hořet nadšením (für etwas brennen). S předmětem brennen znamená vypálit (eine CD brennen) nebo pálit pálenku (Schnaps brennen)."
+        "V přeneseném významu brennen znamená také pálit (o bolesti nebo slunci: Die Sonne brennt) a hořet nadšením (für etwas brennen). S předmětem brennen znamená vypálit (eine CD brennen) nebo destilovat (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12231,7 +12231,7 @@ const A2_WORDS = [
       "translation": "Přitom",
       "explanation": [
         "Hlavní myšlenka: dabei je příslovce utvořené z da + bei. Znamená přitom, u toho: vedle něčeho nebo při nějaké události. Nejčastější spojení je dabei sein (být přítomen, účastnit se).",
-        "Další časté významy: u sebe (etwas dabei haben – mít něco u sebe), zároveň (v téže době) a právě něco dělat (dabei sein, etwas zu tun). Je to místní a časové příslovce, které odkazuje na dříve řečené.",
+        "Další časté významy: u sebe (etwas dabei haben – mít něco u sebe), zároveň, navíc a právě něco dělat (dabei sein, etwas zu tun). Je to místní a časové příslovce, které odkazuje na dříve řečené.",
         "Dabei je také součástí složenin: dabeibleiben (zůstat u toho), dabeihaben (mít u sebe), dabeisitzen (sedět u toho)."
       ],
       "examples": [
@@ -12429,7 +12429,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: dafür je zájmenné příslovce (da + für). Znamená za to (výměnou, při platbě, jako poděkování), k tomu (účelu) nebo pro (při souhlasu): Ich bin dafür (jsem pro).",
         "Nahrazuje für + dříve zmíněnou věc: Ich danke dir dafür. U sloves jako sich interessieren für, sorgen für, sich entschuldigen für se používá dafür, když není třeba opakovat podstatné jméno.",
-        "V hovorové řeči dafür znamená také zato, naopak, jako náhradu: Er ist nicht schnell, dafür arbeitet er genau. V tomto významu uvádí protiklad s pozitivní kompenzací."
+        "Dafür znamená také zato, naopak, jako náhradu: Er ist nicht schnell, dafür arbeitet er genau. V tomto významu uvádí protiklad s pozitivní kompenzací."
       ],
       "examples": [
         {
@@ -12663,7 +12663,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Ve větě se spojkou damit stojí sloveso na konci.",
-        "damit neznamená proto; pro příčinu se používá deshalb nebo darum."
+        "Spojka damit (aby) neznamená proto; ve významu proto se používá deshalb nebo darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19840,7 +19840,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Gar se bez nicht, kein, nichts obvykle nepoužívá."
+        "Ve významu zesílení záporu se gar používá spolu s nicht, kein, nichts."
       ],
       "important": [
         "Gar zesiluje zápor: gar nicht je silnější než nicht."
@@ -23672,7 +23672,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ve spojení s Vídní se Kaffeehaus používá často; v Německu stejně často uslyšíš das Café.",
+        "Slovo Kaffeehaus je typické pro Rakousko (Vídeň); v Německu se mnohem častěji říká das Café.",
         "Pamatuj si základ Kaffee (káva) + das Haus (dům)."
       ],
       "important": [
@@ -24653,7 +24653,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: der Kellner je podstatné jméno mužského rodu, které znamená číšníka, který v restauraci nebo kavárně přináší jídlo a nápoje. Žena je die Kellnerin.",
         "Množné číslo je die Kellner (muži) a die Kellnerinnen (ženy). Skloňování: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Číšníka nejlépe osloveš slovem Entschuldigung!; oslovení Herr Ober! se dnes považuje za zastaralé."
+        "Číšníka nejlépe oslovíš slovem „Entschuldigung!“; oslovení Herr Ober! se dnes považuje za zastaralé."
       ],
       "examples": [
         {
@@ -26202,7 +26202,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen je mužský rod: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen samostatně znamená auto nebo vůz, ne kočárek."
+        "Wagen samostatně obvykle znamená auto nebo vůz; dětský kočárek se nazývá Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28697,7 +28697,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pamatuj: Kraft = síla, Macht = moc, Energie = energie.",
-        "Zapamatuj si frázi in Kraft treten (vstoupit v platnost), je častější než základní význam."
+        "Zapamatuj si frázi in Kraft treten (vstoupit v platnost) – často se používá o zákonech a předpisech."
       ],
       "important": [
         "Die Kraft je ženský rod; množné číslo je die Kräfte, ne die Krafte.",
@@ -32764,7 +32764,7 @@ const A2_WORDS = [
       "translation": "Známka",
       "explanation": [
         "Hlavní myšlenka: die Note je podstatné jméno ženského rodu. Ve škole a na univerzitě znamená známku (eine gute Note bekommen, dostat dobrou známku). V hudbě je to nota: Noten lesen (číst noty).",
-        "Množné číslo je die Noten. V Německu se známky dávají od 1 (sehr gut) do 6 (ungenügend) a 1 je nejlepší, podobně jako u nás, jen s další šestkou. Eine gute Note je tedy nízké číslo.",
+        "Množné číslo je die Noten. V německých školách se známky dávají od 1 (sehr gut) do 6 (ungenügend) a 1 je nejlepší, podobně jako u nás, jen s další šestkou (na vysokých školách je stupnice 1,0–5,0). Eine gute Note je tedy nízké číslo.",
         "O známkách se říká: eine Note bekommen, eine Note geben, die Note verbessern (zlepšit známku)."
       ],
       "examples": [
@@ -35388,7 +35388,7 @@ const A2_WORDS = [
         "Ve spojení rechnen mit + dativ znamená sloveso „počítat s něčím“, například se špatným počasím."
       ],
       "important": [
-        "Rechnen mit obvykle znamená „očekávat, brát v úvahu“, ne „počítat něčím“."
+        "Rechnen mit + dativ obvykle znamená „očekávat, brát v úvahu“ (Wir rechnen mit Regen); s nástrojem znamená „počítat pomocí něčeho“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36871,7 +36871,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Ostrý • Pikantní",
       "explanation": [
-        "Hlavní myšlenka: scharf je přídavné jméno s několika významy. U předmětu znamená ostrý (scharfes Messer – ostrý nůž), u jídla pálivou, pikantní chuť (scharfes Essen). V přeneseném smyslu může být i prudký nebo silný: eine scharfe Kurve, scharf bremsen.",
+        "Hlavní myšlenka: scharf je přídavné jméno s několika významy. U předmětu znamená ostrý (scharfes Messer – ostrý nůž), u jídla pálivou, pikantní chuť (scharfes Essen). V přeneseném smyslu může být i prudký nebo silný: eine scharfe Kurve (ostrá zatáčka), scharf bremsen (prudce zabrzdit).",
         "Komparativ je schärfer (s přehláskou), superlativ am schärfsten. Před podstatným jménem: ein scharfes Messer, scharfe Soße.",
         "Pozor: scharf se vztahuje k pálivé chuti (chilli, křen), ne ke slané – slané je salzig."
       ],
@@ -37349,7 +37349,7 @@ const A2_WORDS = [
         "Řada lidí, kteří čekají, se nazývá Schlange; Reihe je spíš řada ve smyslu pořadí (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen je ustálená fráze: neříká se in der Schlange sein, ale Schlange stehen."
+        "Nejčastější fráze je Schlange stehen (také in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45494,7 +45494,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln se používá, když se jedna věc nahrazuje jinou (škola, práce, měna). ändern, když se něco upravuje.",
-        "Přestupování v dopravě se vyjadřuje slovesem umsteigen, ne wechseln."
+        "Přestupování v dopravě se obvykle vyjadřuje slovesem umsteigen (možné je i den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln obvykle znamená výměnu měny nebo rozměňování peněz, ne jejich utrácení.",

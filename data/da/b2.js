@@ -494,7 +494,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Forveksl det ikke med abfinden uden sich: det betyder at kompensere eller holde skadesløs med penge.",
-        "Førnutid er sich abgefunden (med -ge- i midten), ikke geabfunden."
+        "Førnutid er hat sich abgefunden (-ge- mellem ab- og stammen), ikke geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "At udsætte • At afbryde",
       "explanation": [
-        "Hovedidé: aussetzen er et adskilleligt udsagnsord med flere betydninger: sætte ud eller efterlade (en hund, et barn), udsætte for (kulde, fare), sætte ud eller gå i stå (om en motor, et arbejde) og med an + dativ – have noget at udsætte på.",
+        "Hovedidé: aussetzen er et adskilleligt udsagnsord med flere betydninger: sætte ud eller efterlade (en hund, et barn), udsætte for (kulde, fare), sætte ud eller gå i stå (om en motor, et arbejde) og i udtrykket etwas an + dativ auszusetzen haben – have noget at udsætte på, kritisere.",
         "Former: setzt aus, setzte aus, hat ausgesetzt. I betydningen udsætte for bruges dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Udtrykket ausgesetzt sein betyder at være udsat for.",
         "Kritik udtrykkes med etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen – præcis som dansk have noget at udsætte på. Her står zu mellem forstavelsen og stammen: auszusetzen."
       ],
@@ -10141,7 +10141,7 @@ const B2_WORDS = [
       "translation": "At forbarme sig",
       "explanation": [
         "Hovedidé: sich erbarmen betyder at føle medlidenhed med en, der lider, og hjælpe eller vise barmhjertighed – at forbarme sig over nogen. Sproget er højtideligt, ofte religiøst eller ironisk.",
-        "Efter det følger som regel genitiv: sich des Hundes erbarmen. Sjældnere bruges über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Efter det følger som regel genitiv: sich des Hundes erbarmen. Sjældnere (regionalt, i Østrig) bruges über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "I dagligsprog i spøg: Wer erbarmt sich und …? – Hvem forbarmer sig og …?"
       ],
       "examples": [
@@ -12082,7 +12082,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Fleckig udtrykker ofte et uønsket eller ujævnt udseende (snavset tøj, røde pletter på huden).",
-        "Når der føjes en endelse til, så husk e: ein fleckiges Fell, eine fleckige Haut."
+        "Foran et navneord får fleckig en endelse: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19554,7 +19554,7 @@ const B2_WORDS = [
       "translation": "Efterfølgende • Senere",
       "explanation": [
         "Hovedbetydning: nachträglich betyder efterfølgende, bagefter — efter selve handlingen eller fristen, noget der tilføjes eller gøres senere. Det er både tillægsord (eine nachträgliche Änderung) og biord (nachträglich ändern).",
-        "En hyppig betydning er forsinkelse: nachträglich gratulieren — ønske tillykke efter begivenheden. Tillægsordet kan også udtrykke noget ekstra: eine nachträgliche Zahlung (en efterbetaling)."
+        "En hyppig betydning er forsinkelse: nachträglich gratulieren — ønske tillykke efter begivenheden. Tillægsordet betegner også noget, der sker senere, efter det fastsatte tidspunkt: eine nachträgliche Zahlung (en senere betaling)."
       ],
       "examples": [
         {

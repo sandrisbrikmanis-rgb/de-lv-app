@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nu-l confunda cu abfinden fără sich: acesta înseamnă a despăgubi sau a mulțumi pe cineva cu bani.",
-        "Forma de perfect compus este sich abgefunden (cu -ge- la mijloc), nu geabfunden."
+        "Forma de perfect compus este hat sich abgefunden (cu -ge- între ab- și rădăcină), nu geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "a expune • a întrerupe • a obiecta",
       "explanation": [
-        "Ideea principală: aussetzen este un verb separabil cu mai multe sensuri: a abandona (un câine, un copil), a expune (la frig, la pericole), a se opri sau a se întrerupe (despre un motor, o activitate) și, cu an + dativ, a obiecta.",
+        "Ideea principală: aussetzen este un verb separabil cu mai multe sensuri: a abandona (un câine, un copil), a expune (la frig, la pericole), a se opri sau a se întrerupe (despre un motor, o activitate) și, în expresia etwas an + dativ auszusetzen haben, a obiecta, a critica.",
         "Forme: setzt aus, setzte aus, hat ausgesetzt. Pentru sensul „a expune” se folosește dativul: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Construcția cu participiul ausgesetzt sein înseamnă a fi expus.",
         "Cu sensul a obiecta se folosește expresia etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Aici zu se intercalează între prefix și rădăcină: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "a se îndura • a avea milă",
       "explanation": [
         "Ideea principală: sich erbarmen înseamnă a simți milă față de cel care suferă și a-l ajuta sau a se îndura de el. Limbajul este elevat, adesea religios sau ironic.",
-        "După el urmează de obicei genitivul: sich des Hundes erbarmen. Mai rar se folosește über + acuzativ. Forme: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "După el urmează de obicei genitivul: sich des Hundes erbarmen. Mai rar (regional, în Austria) se folosește über + acuzativ. Forme: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "În vorbirea familiară, în glumă: Wer erbarmt sich und …? — Cine se îndură să …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Fleckig exprimă adesea un aspect nedorit sau neuniform (o haină murdară, pete roșii pe piele).",
-        "Când adaugi terminația, nu uita de e: ein fleckiges Fell, eine fleckige Haut."
+        "Înaintea substantivului, fleckig primește terminație: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "ulterior • suplimentar",
       "explanation": [
         "Ideea principală: nachträglich înseamnă ulterior, după acțiunea principală sau după termen — adăugat sau făcut mai târziu. Este atât adjectiv (eine nachträgliche Änderung), cât și adverb (nachträglich ändern).",
-        "Un sens frecvent este cel de întârziere: nachträglich gratulieren — a felicita după eveniment. Adjectivul exprimă și caracterul suplimentar: eine nachträgliche Zahlung (o plată suplimentară)."
+        "Un sens frecvent este cel de întârziere: nachträglich gratulieren — a felicita după eveniment. Adjectivul înseamnă și ceva care are loc mai târziu, după termenul stabilit: eine nachträgliche Zahlung (o plată ulterioară)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "a transmite • a înmâna",
       "explanation": [
-        "Ideea principală: überbringen înseamnă a duce cuiva, ca om de încredere, o veste, o felicitare, o scrisoare sau un cadou — a aduce și a înmâna personal. Destinatarul este în dativ: jemandem etwas überbringen.",
+        "Ideea principală: überbringen înseamnă a duce cuiva o veste, o felicitare, o scrisoare sau un cadou — a aduce și a înmâna personal. Destinatarul este în dativ: jemandem etwas überbringen.",
         "Prefix neseparabil über-: überbringt, überbrachte, hat überbracht. La infinitiv, zu stă înaintea verbului: um die Nachricht zu überbringen. Cuvântul este ușor formal."
       ],
       "examples": [

@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "enfamiljshus • villa",
       "explanation": [
         "Grundidé: das Einfamilienhaus är ett hus avsett för en familj – fristående eller sammanbyggt med grannarnas, men med en enda bostad och oftast med egen trädgård.",
-        "Substantiv i neutrum: das Einfamilienhaus, plural die Einfamilienhäuser. Består av Ein- + Familie + Haus.",
+        "Substantiv i neutrum: das Einfamilienhaus, plural die Einfamilienhäuser. Består av Ein- + Familien- (sammansättningsform av Familie) + Haus.",
         "Motsatsen är das Mehrfamilienhaus (flerfamiljshus)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "I politiken säger man eine Partei wählen eller für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei och die Party (fest) låter nästan likadant men har inget med varandra att göra."
+        "Die Partei och die Party (fest) låter nästan likadant men betydelsen är en helt annan (båda kommer dock från latinets pars — del)."
       ],
       "sectionAccents": {
         "explanation": {

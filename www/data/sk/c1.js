@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "rodinný dom",
       "explanation": [
         "Hlavná myšlienka: das Einfamilienhaus je dom určený pre jednu rodinu — samostatne stojaci alebo spojený so susednými domami, ale s jedným bytom a zvyčajne s vlastnou záhradou.",
-        "Podstatné meno stredného rodu: das Einfamilienhaus, množné číslo die Einfamilienhäuser. Skladá sa z Ein- + Familie + Haus.",
+        "Podstatné meno stredného rodu: das Einfamilienhaus, množné číslo die Einfamilienhäuser. Skladá sa z Ein- + Familien- (spojovací tvar od Familie) + Haus.",
         "Opakom je das Mehrfamilienhaus (bytový dom)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "V politike sa hovorí eine Partei wählen alebo für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei a die Party (večierok) znejú podobne, ale nesúvisia spolu."
+        "Die Partei a die Party (večierok) znejú podobne, ale význam je úplne iný (obe však pochádzajú z latinského pars — časť)."
       ],
       "sectionAccents": {
         "explanation": {

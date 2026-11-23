@@ -3202,7 +3202,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "afmelde, framelde",
+          "meaning": "afmelde sig, trække tilmeldingen tilbage",
           "example": "Ich melde mich vom Kurs ab. – Jeg melder mig fra kurset."
         },
         {
@@ -3376,7 +3376,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpointe: anstecken er et udsagnsord med adskilleligt forled, der betyder at sætte fast eller sætte på (sætte en blomst fast med en nål, sætte en ring på) og desuden at smitte (om sygdom).",
         "Former: steckt an, steckte an, hat angesteckt. Forleddet an- skilles fra i sætningen: Er steckt mir den Ring an. Det kræver akkusativ (hvad?), ofte også dativ (hvem?).",
-        "I betydningen smitte bruger man jemanden anstecken eller sich anstecken (blive smittet): Ich habe mich bei ihm angesteckt. I nogle egne bruges anstecken også om at tænde (eine Zigarette anstecken)."
+        "I betydningen smitte bruger man jemanden anstecken eller sich anstecken (blive smittet): Ich habe mich bei ihm angesteckt. I talesprog betyder anstecken også at tænde (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7582,7 +7582,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedtanken: die Bahn er et navneord i hunkøn. Det betyder jernbane og jernbanetransport i det hele taget (mit der Bahn fahren – at tage toget). I firmanavnet Deutsche Bahn er det de tyske statsbaner.",
         "Flertal er die Bahnen. Ordet indgår også i sammensætninger: die Straßenbahn (sporvogn), die U-Bahn (metro), die S-Bahn (S-tog), die Eisenbahn (jernbane).",
-        "Andre betydninger: bane eller spor (die Laufbahn, die Radrennbahn) og kredsløb (die Umlaufbahn). Inden for sport er die Bahn løbebanen."
+        "Andre betydninger: bane eller spor (die Radrennbahn; die Laufbahn — også karriere) og kredsløb (die Umlaufbahn). Inden for sport er die Bahn løbebanen."
       ],
       "examples": [
         {
@@ -7625,7 +7625,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn er hunkøn; bland det ikke sammen med der Bahnhof (station, hankøn).",
-        "Ordet Bahn alene betyder ofte firmaet Deutsche Bahn og ikke et bestemt tog; et konkret tog er der Zug."
+        "Ordet Bahn kan også betyde firmaet Deutsche Bahn (Die Bahn hat Verspätung); et konkret tog hedder der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10151,7 +10151,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt er ikke det samme som bestimmen: bestimmen betyder at bestemme eller beslutte, mens bestimmt er biord eller tillægsord.",
-        "Bestimmt kan også udtrykke en formodning og ikke kun sikkerhed: Er ist bestimmt zu Hause (han er sikkert hjemme)."
+        "Bestimmt udtrykker også en sikker formodning: Er ist bestimmt zu Hause (han er helt sikkert hjemme)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11862,7 +11862,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedtanken: brennen er et uregelmæssigt udsagnsord, der betyder at brænde: ild, brænde, lys og endda øjne eller hud kan brænde. I grundbetydningen har det intet genstandsled.",
         "Bøjning: brennt, brannte, hat gebrannt. Det er et blandet udsagnsord: stammen skifter selvlyd (brennen – brannte), men endelserne er som ved regelmæssige udsagnsord (ich brannte, wir brannten).",
-        "I overført betydning betyder brennen også at svide eller bage (om smerte eller sol: Die Sonne brennt) og at brænde for noget (für etwas brennen) – ligesom på dansk. Med genstandsled betyder brennen at brænde en cd (eine CD brennen) eller at brænde snaps (Schnaps brennen)."
+        "I overført betydning betyder brennen også at svide eller bage (om smerte eller sol: Die Sonne brennt) og at brænde for noget (für etwas brennen) – ligesom på dansk. Med genstandsled betyder brennen at brænde en cd (eine CD brennen) eller at destillere snaps (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12233,7 +12233,7 @@ const A2_WORDS = [
       "translation": "Til stede • Med • Samtidig",
       "explanation": [
         "Hovedtanken: dabei er et biord dannet af da + bei. Det betyder til stede, med eller ved det: ved siden af noget eller med i en begivenhed. Den mest almindelige forbindelse er dabei sein (være med, være til stede, deltage).",
-        "Andre hyppige betydninger: med sig (etwas dabei haben – have noget med), samtidig (på samme tid) og at være i gang med noget lige nu (dabei sein, etwas zu tun). Ordet henviser tilbage til noget, der er nævnt før.",
+        "Andre hyppige betydninger: med sig (etwas dabei haben – have noget med), samtidig, desuden og at være i gang med noget lige nu (dabei sein, etwas zu tun). Ordet henviser tilbage til noget, der er nævnt før.",
         "Dabei indgår også i sammensætninger: dabeibleiben (holde fast ved det), dabeihaben (have med), dabeisitzen (sidde med)."
       ],
       "examples": [
@@ -12430,7 +12430,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedtanken: dafür er et biord (da + für). Det betyder for det (som modydelse, betaling eller tak), til det (et formål) eller for (som tilslutning): Ich bin dafür (jeg er for).",
         "Det erstatter für + noget, der er nævnt tidligere: Ich danke dir dafür. Med udsagnsord som sich interessieren für, sorgen für, sich entschuldigen für bruges dafür, når navneordet ikke skal gentages.",
-        "I talesprog betyder dafür også til gengæld, når noget opvejer noget andet: Er ist nicht schnell, dafür arbeitet er genau. I den betydning indleder det en modsætning med en positiv modvægt."
+        "Dafür betyder også til gengæld, når noget opvejer noget andet: Er ist nicht schnell, dafür arbeitet er genau. I den betydning indleder det en modsætning med en positiv modvægt."
       ],
       "examples": [
         {
@@ -12663,7 +12663,7 @@ const A2_WORDS = [
       ],
       "important": [
         "I en bisætning med damit står udsagnsordet sidst i sætningen.",
-        "Damit betyder ikke derfor; om årsag bruger man deshalb eller darum."
+        "Bindeordet damit (for at) betyder ikke derfor; i betydningen derfor bruger man deshalb eller darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16163,7 +16163,7 @@ const A2_WORDS = [
         "Forstavelsen ein skilles fra og står sidst i sætningen: Ich lade dich ein."
       ],
       "important": [
-        "Førnutid: hat eingeladen (ikke geeinladen)."
+        "Førnutid: hat eingeladen (ikke ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19819,7 +19819,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "I betydningen slet står gar næsten altid sammen med nicht, kein eller nichts."
+        "Som forstærkning af en nægtelse (slet) bruges gar sammen med nicht, kein eller nichts."
       ],
       "important": [
         "gar forstærker nægtelsen: gar nicht er stærkere end nicht."
@@ -23654,7 +23654,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "I forbindelse med Wien bruges ordet Kaffeehaus ofte; i Tyskland hører du lige så tit das Café.",
+        "Ordet Kaffeehaus er typisk for Østrig (Wien); i Tyskland siger man langt oftere das Café.",
         "Husk grundordene Kaffee (kaffe) + das Haus (hus)."
       ],
       "important": [
@@ -26183,7 +26183,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen er hankøn: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen alene betyder bil eller (tog)vogn, ikke barnevogn."
+        "Wagen alene betyder normalt bil eller (tog)vogn; en barnevogn hedder Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28674,7 +28674,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Husk: Kraft = styrke, kraft; Macht = magt; Energie = energi.",
-        "Lær udtrykket in Kraft treten (træde i kraft); det forekommer ofte."
+        "Lær udtrykket in Kraft treten (træde i kraft) — det bruges ofte om love og regler."
       ],
       "important": [
         "Die Kraft er hunkøn; flertal er die Kräfte, ikke die Krafte.",
@@ -32736,7 +32736,7 @@ const A2_WORDS = [
       "translation": "Karakter • Node",
       "explanation": [
         "Kort sagt: die Note er et navneord i hunkøn. I skolen og på universitetet betyder det karakter (eine gute Note bekommen, få en god karakter). I musik er det en node: Noten lesen (læse noder).",
-        "Flertal er die Noten. I Tyskland går karaktererne fra 1 (sehr gut) til 6 (ungenügend), og 1 er den bedste. Derfor betyder eine gute Note et lavt tal.",
+        "Flertal er die Noten. I tyske skoler går karaktererne fra 1 (sehr gut) til 6 (ungenügend), og 1 er den bedste (på universiteterne er skalaen 1,0–5,0). Derfor betyder eine gute Note et lavt tal.",
         "Om karakterer siger man: eine Note bekommen, eine Note geben, die Note verbessern (forbedre karakteren)."
       ],
       "examples": [
@@ -35360,7 +35360,7 @@ const A2_WORDS = [
         "I udtrykket rechnen mit + dativ er betydningen „regne med“, fx med dårligt vejr."
       ],
       "important": [
-        "Rechnen mit betyder normalt „forvente, tage højde for“, ikke „regne ved hjælp af noget“."
+        "Rechnen mit + dativ betyder normalt „forvente, tage højde for“ (Wir rechnen mit Regen); med et redskab betyder det „regne med“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37319,7 +37319,7 @@ const A2_WORDS = [
         "En kø, hvor folk venter, hedder Schlange; Reihe er snarere en række eller en tur (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen er et fast udtryk uden kendeord: man siger Schlange stehen, ikke in der Schlange sein."
+        "Det mest almindelige udtryk er Schlange stehen (også in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45450,7 +45450,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln bruges, når én ting udskiftes med en anden (skole, job, valuta). ändern bruges, når man ændrer selve tingen.",
-        "At skifte tog eller bus hedder umsteigen, ikke wechseln – selv om man på dansk siger „skifte“."
+        "At skifte tog eller bus hedder normalt umsteigen (man kan også sige den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln betyder at veksle penge (til en anden valuta eller til småpenge), ikke at bruge dem.",

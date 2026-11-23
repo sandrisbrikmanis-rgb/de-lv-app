@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "maison individuelle",
       "explanation": [
         "Idée principale : das Einfamilienhaus est une maison prévue pour une seule famille — isolée ou mitoyenne, mais avec un seul logement et généralement un jardin à soi.",
-        "Nom neutre : das Einfamilienhaus, pluriel die Einfamilienhäuser. Il se compose de Ein- + Familie + Haus.",
+        "Nom neutre : das Einfamilienhaus, pluriel die Einfamilienhäuser. Il se compose de Ein- + Familien- (forme de composition de Familie) + Haus.",
         "Le contraire est das Mehrfamilienhaus (immeuble collectif)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "En politique, on dit eine Partei wählen ou für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei et die Party (la fête) se ressemblent à l'oral, mais n'ont aucun lien."
+        "Die Partei et die Party (la fête) se ressemblent à l'oral, mais leur sens est tout à fait différent (tous deux viennent pourtant du latin pars — partie)."
       ],
       "sectionAccents": {
         "explanation": {

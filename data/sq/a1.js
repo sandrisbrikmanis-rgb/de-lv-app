@@ -13178,7 +13178,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Mos e përdor jung për sendet — thuhet neu.",
-        "Shkalla krahasore ka gjithmonë umlaut: jünger, jo “junger”."
+        "Shkalla krahasore ka gjithmonë umlaut: jünger (junger është vetëm shkalla pohore me mbaresë: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14898,7 +14898,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (territor, fshat) dhe der Staat (shteti si institucion) nuk janë sinonime.",
-        "Në shumës ka umlaut: die Länder, jo “die Lande”."
+        "Në shumës ka umlaut: die Länder; die Lande është formë e vjetëruar, poetike."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21792,7 +21792,7 @@ const A1_WORDS = [
       "explanation": [
         "Ideja kryesore: schauen do të thotë “shikoj, hedh një sy” — drejtoj shikimin nga diçka: Wir schauen aus dem Fenster. Në Gjermaninë e Jugut, në Austri dhe në Zvicër përdoret shumë shpesh; në veri më shpesh përdoren gucken ose sehen.",
         "Format: schaut, schaute, hat geschaut. Shpesh me parafjalë: auf + kallëzore (Er schaut auf die Uhr), aus dem Fenster (nga dritarja), nach + dhanore (Sie schaut nach dem Kind — kujdeset për fëmijën). Urdhërorja: Schau mal! — Shiko!",
-        "Shprehja Ich schaue fern do të thotë “shikoj televizor”."
+        "Shprehja Ich schaue fern (nga fernschauen — në Gjermaninë e Jugut dhe në Austri; gjetiu fernsehen) do të thotë “shikoj televizor”."
       ],
       "examples": [
         {
@@ -22615,7 +22615,7 @@ const A1_WORDS = [
         "Sehen do të thotë edhe “kuptoj” në shprehje si Ich sehe, was du meinst."
       ],
       "important": [
-        "Nuk ka sehst ose sehet: e saktë është du siehst, er sieht.",
+        "Në kohën e tashme nuk ka du sehst ose er seht: e saktë është du siehst, er sieht.",
         "Për të thënë që shikon diçka (një film, një pikturë), mund të përdorësh si sehen, ashtu edhe sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25241,7 +25241,7 @@ const A1_WORDS = [
       "translation": "rreth • në orën",
       "explanation": [
         "Ideja kryesore: um është parafjalë që kërkon gjithmonë kallëzoren. Në kuptimin kohor um tregon orën e saktë: um acht Uhr (në orën tetë). Në kuptimin e vendit tregon vendosje ose lëvizje rreth diçkaje: um den Tisch (rreth tryezës), um die Ecke (pas qoshes).",
-        "Pyetja për kohën është Um wie viel Uhr ...? (në ç'orë?). Pas um ora nuk merr nyjë: um 8 Uhr, jo in 8 Uhr.",
+        "Pyetja për kohën është Um wie viel Uhr ...? (në ç'orë?). Ora tregohet me um (pa nyjë), jo me in: um 8 Uhr, jo in 8 Uhr.",
         "Me zu + paskajore, um shpreh qëllimin: Er lernt, um zu verstehen (ai mëson që të kuptojë)."
       ],
       "examples": [
@@ -25493,7 +25493,7 @@ const A1_WORDS = [
         "Shprehja unter uns do të thotë \"mes nesh\" dhe përdoret kur thua diçka në mirëbesim."
       ],
       "important": [
-        "Unter nuk është e njëjtë me zwischen: unter tregon një tërësi ose grup (unter Freunden), zwischen — dy gjëra konkrete.",
+        "Unter nuk është e njëjtë me zwischen: unter tregon një tërësi ose grup (unter Freunden), zwischen — gjëra të veçanta, të përmendura (shpesh dy, por mund të jenë edhe më shumë).",
         "Unter + numër do të thotë \"më pak se\": unter 18 do të thotë më i ri se 18 vjeç."
       ],
       "sectionAccents": {
@@ -27785,7 +27785,7 @@ const A1_WORDS = [
         "Me njerëzit përdoret zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu kërkon vetëm dhanoren: zu meinem Freund, zu der Schule.",
+        "Zu kërkon vetëm dhanoren: zu meinem Freund, zur Schule (= zu der Schule).",
         "Për qytetet dhe shtetet përdoret nach, jo zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28645,7 +28645,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televizion",
       "explanation": [
-        "Ideja kryesore: das Fernsehen është emër i gjinisë asnjanëse që tregon televizionin si medium ose si tërësi emisionesh. Shumës praktikisht nuk ka: përdoret njëjësi. Zakonisht qëndron me im: im Fernsehen (në televizion), beim Fernsehen (duke punuar në televizion).",
+        "Ideja kryesore: das Fernsehen është emër i gjinisë asnjanëse që tregon televizionin si medium ose si tërësi emisionesh. Shumës praktikisht nuk ka: përdoret njëjësi. Zakonisht qëndron me im: im Fernsehen (në televizion), beim Fernsehen (duke parë televizor; edhe duke punuar në televizion).",
         "Është emër i formuar nga folja fernsehen (shikoj televizor). Aparati quhet der Fernseher, ndërsa veprimi — fernsehen.",
         "Emri shkruhet me shkronjë të madhe; si folje fernsehen është e ndashme."
       ],
@@ -30073,7 +30073,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Mbaj mend: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub zakonisht përdoret pa nyjë: Urlaub haben, Urlaub nehmen."
+        "Në shprehjet Urlaub haben, Urlaub nehmen përdoret pa nyjë (por: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Për nxënësit zakonisht thuhet Ferien, jo Urlaub.",

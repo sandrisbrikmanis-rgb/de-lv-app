@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "відмовлятися, виписуватися",
+          "meaning": "виписуватися, скасовувати реєстрацію",
           "example": "Ich melde mich vom Kurs ab. – Я виписуюся з курсу."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Головна думка: anstecken — дієслово з відокремлюваним префіксом, що означає приколювати або надягати (приколоти квітку, надягти каблучку), а також заражати й заразитися (хворобою).",
         "Форми: steckt an, steckte an, hat angesteckt. Префікс an- у реченні відокремлюється: Er steckt mir den Ring an. Воно вимагає знахідного відмінка (кого? що?), часто також давального (кому?).",
-        "У значенні «заражати» вживають jemanden anstecken або sich anstecken (підхопити хворобу): Ich habe mich bei ihm angesteckt. У деяких регіонах anstecken уживають також у значенні «запалювати» (eine Zigarette anstecken)."
+        "У значенні «заражати» вживають jemanden anstecken або sich anstecken (підхопити хворобу): Ich habe mich bei ihm angesteckt. У розмовній мові anstecken означає також «запалювати» (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Основна думка: die Bahn — іменник жіночого роду. Він означає залізницю і залізничний транспорт загалом (mit der Bahn fahren – їхати поїздом). У назві компанії Deutsche Bahn це Німецька залізниця.",
         "Множина — die Bahnen. Слово трапляється і в складних словах: die Straßenbahn (трамвай), die U-Bahn (метро), die S-Bahn (міська електричка), die Eisenbahn (залізниця).",
-        "Інші значення: траса або доріжка (die Laufbahn, die Radrennbahn) та орбіта (die Umlaufbahn). У спорті die Bahn — бігова доріжка."
+        "Інші значення: траса або доріжка (die Radrennbahn; die Laufbahn — також кар’єра) та орбіта (die Umlaufbahn). У спорті die Bahn — бігова доріжка."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn — жіночого роду; не плутай його з der Bahnhof (вокзал, станція, чоловічий рід).",
-        "Слово Bahn саме по собі часто означає компанію Deutsche Bahn, а не конкретний поїзд; конкретний поїзд — der Zug."
+        "Слово Bahn може означати й компанію Deutsche Bahn (Die Bahn hat Verspätung); конкретний поїзд називають der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt — не те саме, що bestimmen: bestimmen означає визначати, вирішувати, а bestimmt — прислівник або прикметник.",
-        "Bestimmt може виражати й припущення, а не лише впевненість: Er ist bestimmt zu Hause (він, напевно, вдома)."
+        "Bestimmt виражає також тверде припущення: Er ist bestimmt zu Hause (він точно вдома)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "поруч",
       "explanation": [
         "Основна думка: dabei — прислівник, утворений із da + bei. Він означає «поруч», «при цьому», «там же»: біля чогось або на якійсь події. Найчастіше сполучення — dabei sein (бути присутнім, брати участь).",
-        "Інші часті значення: із собою (etwas dabei haben – мати щось при собі), до того ж (водночас) і саме зараз щось робити (dabei sein, etwas zu tun). Це слово місця й часу, яке відсилає до вже згаданого.",
+        "Інші часті значення: із собою (etwas dabei haben – мати щось при собі), водночас, до того ж і саме зараз щось робити (dabei sein, etwas zu tun). Це слово місця й часу, яке відсилає до вже згаданого.",
         "Dabei також входить до складних слів: dabeibleiben (залишатися при цьому), dabeihaben (мати при собі), dabeisitzen (сидіти поруч)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Основна думка: dafür — прислівник (da + für). Він означає «за це» (в обмін, платячи, завдяки), «для цього» (мета) або «за» (погоджуючись): Ich bin dafür (я за).",
         "Він замінює für + те, що було згадано раніше: Ich danke dir dafür. З такими дієсловами, як sich interessieren für, sorgen für, sich entschuldigen für, уживають dafür, коли не треба повторювати іменник.",
-        "У розмовній мові dafür означає також «зате», «натомість», тобто компенсує щось: Er ist nicht schnell, dafür arbeitet er genau. У такому значенні воно вводить протиставлення з позитивною компенсацією."
+        "Dafür означає також «зате», «натомість», тобто компенсує щось: Er ist nicht schnell, dafür arbeitet er genau. У такому значенні воно вводить протиставлення з позитивною компенсацією."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "У реченні зі сполучником damit дієслово стоїть у кінці речення.",
-        "damit не означає «тому»; для значення причини вживають deshalb або darum."
+        "Сполучник damit (щоб) не означає «тому»; для значення «тому» вживають deshalb або darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16157,7 +16157,7 @@ const A2_WORDS = [
         "Префікс ein відокремлюється й стоїть у кінці речення: Ich lade dich ein."
       ],
       "important": [
-        "У минулому часі: hat eingeladen (не ge-ein-laden)."
+        "У Perfekt: hat eingeladen (не ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar без nicht, kein, nichts зазвичай не вживають."
+        "У значенні підсилення заперечення gar уживають разом із nicht, kein, nichts."
       ],
       "important": [
         "gar — це підсилювач заперечення: gar nicht сильніше, ніж nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "У зв’язку з Віднем слово Kaffeehaus вживають часто; у Німеччині так само часто почуєш das Café.",
+        "Слово Kaffeehaus характерне для Австрії (Відня); у Німеччині набагато частіше кажуть das Café.",
         "Запам’ятай основу Kaffee (кава) + das Haus (дім)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Головна думка: der Kellner — іменник чоловічого роду, що означає офіціанта, який у ресторані чи кав’ярні подає страви й напої. Жінка — die Kellnerin.",
         "Множина — die Kellner (чоловіки) і die Kellnerinnen (жінки). Відмінювання: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Щоб звернутися до офіціанта, найкраще підходить Entschuldigung!; звертання Herr Ober! сьогодні вважають старомодним."
+        "До офіціанта найкраще звертатися словом «Entschuldigung!»; звертання Herr Ober! сьогодні вважають старомодним."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen — чоловічого роду: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen окремо означає автомобіль або вагон, а не дитячий візок."
+        "Wagen окремо зазвичай означає автомобіль або вагон; дитячий візок називають Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Запам’ятай: Kraft = сила, Macht = влада, Energie = енергія.",
-        "Зверни увагу на вислів in Kraft treten (набирати чинності) — він трапляється частіше, ніж основне значення."
+        "Зверни увагу на вислів in Kraft treten (набирати чинності) — його часто вживають щодо законів і правил."
       ],
       "important": [
         "Die Kraft — жіночого роду; множина die Kräfte, а не die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "оцінка",
       "explanation": [
         "Головна думка: die Note — іменник жіночого роду. У школі та університеті він означає оцінку (eine gute Note bekommen, отримати добру оцінку). У музиці це нота: Noten lesen (читати ноти).",
-        "Множина — die Noten. У Німеччині оцінки бувають від 1 (sehr gut) до 6 (ungenügend), і 1 — найкраща. Тому eine gute Note означає маленьке число.",
+        "Множина — die Noten. У німецьких школах оцінки бувають від 1 (sehr gut) до 6 (ungenügend), і 1 — найкраща (у вишах шкала 1,0–5,0). Тому eine gute Note означає маленьке число.",
         "Для дій з оцінками кажуть: eine Note bekommen, eine Note geben, die Note verbessern (покращити оцінку)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "У фразі rechnen mit + давальний відмінок значення — «зважати на щось, очікувати чогось», наприклад, поганої погоди."
       ],
       "important": [
-        "Rechnen mit зазвичай означає «очікувати, брати до уваги», а не «рахувати за допомогою чогось»."
+        "Rechnen mit + давальний відмінок зазвичай означає «очікувати, брати до уваги» (Wir rechnen mit Regen); з інструментом воно означає «рахувати за допомогою»: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "гострий • пікантний",
       "explanation": [
-        "Головна думка: scharf — прикметник із кількома значеннями. Про предмет він означає «гострий» (scharfes Messer – гострий ніж), про їжу — пікантний, гострий смак (scharfes Essen). У переносному значенні це може бути також «крутий» або «різкий»: eine scharfe Kurve, scharf bremsen.",
+        "Головна думка: scharf — прикметник із кількома значеннями. Про предмет він означає «гострий» (scharfes Messer – гострий ніж), про їжу — пікантний, гострий смак (scharfes Essen). У переносному значенні це може бути також «різкий» або «сильний»: eine scharfe Kurve (крутий поворот), scharf bremsen (різко загальмувати).",
         "Вищий ступінь — schärfer (з умлаутом), найвищий — am schärfsten. Перед іменником: ein scharfes Messer, scharfe Soße.",
         "Корисно запам’ятати: scharf стосується гострого смаку (чилі, хрін), а не солоного — «солоний» німецькою salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Чергу, у якій чекають люди, називають Schlange; Reihe — це радше черговість (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen — стала фраза: не in der Schlange sein, а Schlange stehen."
+        "Найчастіша фраза — Schlange stehen (також in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln вживають, коли одну річ замінюють іншою (школа, робота, валюта). ändern – коли щось видозмінюють.",
-        "Пересадку в транспорті виражають за допомогою umsteigen, а не wechseln."
+        "Пересадку в транспорті зазвичай виражають за допомогою umsteigen (можливо також den Zug wechseln)."
       ],
       "important": [
         "Під Geld wechseln зазвичай розуміють обмін валюти чи розмін грошей, а не їх витрачання.",

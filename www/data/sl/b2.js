@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne zamenjuj z abfinden brez sich: to pomeni dati odškodnino ali poplačati z denarjem.",
-        "Oblika v perfektu je sich abgefunden (z -ge- v sredini), ne geabfunden."
+        "Oblika v perfektu je hat sich abgefunden (-ge- med ab- in korenom), ne geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "izpostaviti • prekiniti • oporekati",
       "explanation": [
-        "Glavna misel: aussetzen je ločljivi glagol z več pomeni: odvreči ali zapustiti (psa, otroka), izpostaviti (mrazu, nevarnosti), ustaviti se ali prekiniti se (o motorju, delu) in z an + dativ — oporekati.",
+        "Glavna misel: aussetzen je ločljivi glagol z več pomeni: odvreči ali zapustiti (psa, otroka), izpostaviti (mrazu, nevarnosti), ustaviti se ali prekiniti se (o motorju, delu) in v izrazu etwas an + dativ auszusetzen haben — oporekati, kritizirati.",
         "Oblike: setzt aus, setzte aus, hat ausgesetzt. Za izpostavljanje se uporablja dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Deležnik v zvezi ausgesetzt sein pomeni biti izpostavljen.",
         "S pomenom oporekati se uporablja izraz etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Tu se zu vrine med predpono in koren: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "usmiliti se",
       "explanation": [
         "Glavna misel: sich erbarmen pomeni sočustvovati s trpečim in mu pomagati ali se ga usmiliti. Jezik je vzvišen, pogosto verski ali ironičen.",
-        "Za njim navadno pride genitiv: sich des Hundes erbarmen. Redkeje se uporablja über + akuzativ. Oblike: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Za njim navadno pride genitiv: sich des Hundes erbarmen. Redkeje (regionalno, v Avstriji) se uporablja über + akuzativ. Oblike: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "V pogovornem jeziku za šalo: Wer erbarmt sich und …? — Kdo se bo usmilil in …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig pogosto izraža nezaželen ali neenakomeren videz (umazano oblačilo, rdeče lise na koži).",
-        "Ko dodaš končnico, ne pozabi na e: ein fleckiges Fell, eine fleckige Haut."
+        "Pred samostalnikom dobi fleckig končnico: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "naknaden • naknadno",
       "explanation": [
         "Glavna misel: nachträglich pomeni pozneje, po glavnem dejanju ali roku — naknadno dodano ali narejeno. Je pridevnik (eine nachträgliche Änderung) in prislov (nachträglich ändern).",
-        "Pogost pomen je zamuda: nachträglich gratulieren — čestitati po dogodku. Pridevnik izraža tudi, da je kaj dodatno: eine nachträgliche Zahlung (naknadno plačilo)."
+        "Pogost pomen je zamuda: nachträglich gratulieren — čestitati po dogodku. Pridevnik pomeni tudi, da se kaj zgodi pozneje, po predvidenem času: eine nachträgliche Zahlung (naknadno plačilo)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "prinesti • izročiti • sporočiti",
       "explanation": [
-        "Glavna misel: überbringen pomeni dostaviti naslovniku zaupano sporočilo, čestitko, pismo ali darilo — prinesti in osebno izročiti. Tisti, ki mu kaj izročimo, je v dativu: jemandem etwas überbringen.",
+        "Glavna misel: überbringen pomeni dostaviti naslovniku sporočilo, čestitko, pismo ali darilo — prinesti in osebno izročiti. Tisti, ki mu kaj izročimo, je v dativu: jemandem etwas überbringen.",
         "Neločljiva predpona über-: überbringt, überbrachte, hat überbracht. V nedoločniku stoji zu pred glagolom: um die Nachricht zu überbringen. Beseda je nekoliko formalna."
       ],
       "examples": [

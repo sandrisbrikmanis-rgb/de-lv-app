@@ -13167,7 +13167,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ära kasuta jung esemete kohta – öeldakse neu.",
-        "Keskvõrdes on alati umlaut: jünger, mitte „junger“."
+        "Keskvõrdes on alati umlaut: jünger (junger on ainult algvõrre käändelõpuga: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14887,7 +14887,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (territoorium, maa) ja der Staat (riik kui institutsioon) ei ole sünonüümid.",
-        "Mitmuses on umlaut: die Länder, mitte „die Lande“."
+        "Mitmuses on umlaut: die Länder; die Lande on vananenud, poeetiline vorm."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21781,7 +21781,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhimõte: schauen tähendab „vaatama“ — pilku millelegi suunama: Wir schauen aus dem Fenster. Lõuna-Saksamaal, Austrias ja Šveitsis kasutatakse seda väga sageli; põhjas öeldakse sagedamini gucken või sehen.",
         "Vormid: schaut, schaute, hat geschaut. Sageli eessõnadega: auf + akusatiiv (Er schaut auf die Uhr), aus dem Fenster (aknast välja), nach + datiiv (Sie schaut nach dem Kind — hoiab lapsel silma peal). Käskiv kõneviis: Schau mal! — Vaata!",
-        "Fraas Ich schaue fern tähendab „ma vaatan telerit“."
+        "Fraas Ich schaue fern (tegusõnast fernschauen — Lõuna-Saksamaal ja Austrias; mujal fernsehen) tähendab „ma vaatan telerit“."
       ],
       "examples": [
         {
@@ -22603,7 +22603,7 @@ const A1_WORDS = [
         "Sehen tähendab väljendites ka „aru saama“: Ich sehe, was du meinst."
       ],
       "important": [
-        "Vorme „du sehst“ ja „er seht“ pole olemas: õige on du siehst, er sieht.",
+        "Olevikus pole vorme „du sehst“ ja „er seht“: õige on du siehst, er sieht.",
         "Et öelda, et midagi vaadatakse (filmi, pilti), võib kasutada nii sehen kui ka sich (datiiv) + ansehen."
       ],
       "sectionAccents": {
@@ -25224,7 +25224,7 @@ const A1_WORDS = [
       "translation": "umbes • kell",
       "explanation": [
         "Põhimõte: um on eessõna, mis nõuab alati akusatiivi. Aja tähenduses näitab um täpset kellaaega: um acht Uhr (kell kaheksa). Koha tähenduses näitab see paiknemist või liikumist millegi ümber: um den Tisch (laua ümber), um die Ecke (nurga taga).",
-        "Kellaaja küsimus on Um wie viel Uhr ...? (mis kell?). Kellaaja puhul artiklit ei kasutata: um 8 Uhr, mitte in 8 Uhr.",
+        "Kellaaja küsimus on Um wie viel Uhr ...? (mis kell?). Kellaaega väljendatakse sõnaga um (ilma artiklita), mitte sõnaga in: um 8 Uhr, mitte in 8 Uhr.",
         "Koos zu + infinitiiviga väljendab um eesmärki: Er lernt, um zu verstehen (ta õpib, et aru saada)."
       ],
       "examples": [
@@ -25476,7 +25476,7 @@ const A1_WORDS = [
         "Fraas unter uns tähendab „meie vahel“ ja seda kasutatakse, kui midagi öeldakse konfidentsiaalselt."
       ],
       "important": [
-        "Unter ei ole sama mis zwischen: unter viitab hulgale või rühmale (unter Freunden), zwischen — kahele või mitmele selgelt eristatavale asjale.",
+        "Unter ei ole sama mis zwischen: unter viitab hulgale või rühmale (unter Freunden), zwischen — eraldiseisvatele, nimetatud asjadele (sageli kahele, kuid võib ka rohkematele).",
         "Unter + arv tähendab „vähem kui“: unter 18 tähendab nooremat kui 18."
       ],
       "sectionAccents": {
@@ -27770,7 +27770,7 @@ const A1_WORDS = [
         "Inimestega kasutatakse zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu nõuab ainult datiivi: zu meinem Freund, zu der Schule.",
+        "Zu nõuab ainult datiivi: zu meinem Freund, zur Schule (= zu der Schule).",
         "Linnade ja riikide puhul kasutatakse nach, mitte zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28633,7 +28633,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televisioon",
       "explanation": [
-        "Põhimõte: das Fernsehen on kesksoost nimisõna, mis tähistab televisiooni kui meediumit või saadete kogumit. Mitmust praktiliselt pole: kasutatakse ainsust. Tavaliselt koos im: im Fernsehen (televisioonis), beim Fernsehen (televisioonis töötades).",
+        "Põhimõte: das Fernsehen on kesksoost nimisõna, mis tähistab televisiooni kui meediumit või saadete kogumit. Mitmust praktiliselt pole: kasutatakse ainsust. Tavaliselt koos im: im Fernsehen (televisioonis), beim Fernsehen (telerit vaadates; ka televisioonis töötades).",
         "See on tuletatud tegusõnast fernsehen (telerit vaatama). Seadet nimetatakse der Fernseher, tegevust aga fernsehen.",
         "Nimisõna kirjutatakse suure algustähega; tegusõnana on fernsehen eraldatava eesliitega."
       ],
@@ -30060,7 +30060,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Pea meeles: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub kasutatakse tavaliselt ilma artiklita: Urlaub haben, Urlaub nehmen."
+        "Väljendites Urlaub haben, Urlaub nehmen kasutatakse Urlaub ilma artiklita (aga: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Õpilaste puhul öeldakse tavaliselt Ferien, mitte Urlaub.",

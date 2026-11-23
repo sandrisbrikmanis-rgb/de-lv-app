@@ -13176,7 +13176,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Notaðu ekki jung um hluti — segðu neu.",
-        "Miðstigið er alltaf með hljóðvarpi: jünger, ekki „junger“."
+        "Miðstigið er alltaf með hljóðvarpi: jünger (junger er aðeins frumstig með beygingarendingu: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14896,7 +14896,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (landsvæði, sveit) og der Staat (ríki sem stofnun) eru ekki samheiti.",
-        "Í fleirtölu er hljóðvarp: die Länder, ekki „die Lande“."
+        "Í fleirtölu er hljóðvarp: die Länder; die Lande er úrelt, skáldleg mynd."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21789,7 +21789,7 @@ const A1_WORDS = [
       "explanation": [
         "Aðalatriði: schauen merkir „horfa, líta“ — að beina augunum að einhverju: Wir schauen aus dem Fenster. Í Suður-Þýskalandi, Austurríki og Sviss er það mjög algengt; í norðri er oftar sagt gucken eða sehen.",
         "Myndir: schaut, schaute, hat geschaut. Oft með forsetningum: auf + þolfall (Er schaut auf die Uhr), aus dem Fenster (út um gluggann), nach + þágufall (Sie schaut nach dem Kind — hún lítur eftir barninu). Boðháttur: Schau mal! — Sjáðu!",
-        "Orðasambandið Ich schaue fern merkir „ég horfi á sjónvarpið“."
+        "Orðasambandið Ich schaue fern (af fernschauen — í Suður-Þýskalandi og Austurríki; annars staðar fernsehen) merkir „ég horfi á sjónvarpið“."
       ],
       "examples": [
         {
@@ -22612,7 +22612,7 @@ const A1_WORDS = [
         "Sehen merkir líka \"skilja\" í orðasamböndum eins og Ich sehe, was du meinst."
       ],
       "important": [
-        "Ekki sehst eða sehet: rétt er du siehst, er sieht.",
+        "Í nútíð er ekki du sehst eða er seht: rétt er du siehst, er sieht.",
         "Til að segja að maður horfi á eitthvað (kvikmynd, mynd) má nota bæði sehen og sich (þgf.) + ansehen."
       ],
       "sectionAccents": {
@@ -25235,7 +25235,7 @@ const A1_WORDS = [
       "translation": "í kringum • klukkan",
       "explanation": [
         "Aðalatriðið: um er forsetning sem tekur alltaf þolfall. Í tímamerkingu táknar um nákvæman klukkutíma: um acht Uhr (klukkan átta). Í staðarmerkingu táknar hún hring í kringum eitthvað: um den Tisch (í kringum borðið), um die Ecke (handan við hornið).",
-        "Spurningin um tíma er Um wie viel Uhr ...? (klukkan hvað?). Á undan klukkutíma er ekki notaður greinir: um 8 Uhr, ekki in 8 Uhr. Varastu íslenska „um“ með tölu, sem merkir „u.þ.b.“: þýska um acht Uhr er nákvæmlega klukkan átta.",
+        "Spurningin um tíma er Um wie viel Uhr ...? (klukkan hvað?). Klukkutími er táknaður með um (án greinis), ekki með in: um 8 Uhr, ekki in 8 Uhr. Varastu íslenska „um“ með tölu, sem merkir „u.þ.b.“: þýska um acht Uhr er nákvæmlega klukkan átta.",
         "Með zu + nafnhætti lýsir um tilgangi: Er lernt, um zu verstehen (hann lærir til að skilja)."
       ],
       "examples": [
@@ -25487,7 +25487,7 @@ const A1_WORDS = [
         "Orðasambandið unter uns merkir „okkar á milli“ og er notað þegar eitthvað er sagt í trúnaði."
       ],
       "important": [
-        "Unter er ekki það sama og zwischen: unter vísar til hóps (unter Freunden — meðal vina), zwischen — til tveggja tiltekinna hluta.",
+        "Unter er ekki það sama og zwischen: unter vísar til hóps (unter Freunden — meðal vina), zwischen — til aðgreindra, tiltekinna hluta (oft tveggja, en geta líka verið fleiri).",
         "Unter + tala merkir „minna en“: unter 18 er yngri en 18."
       ],
       "sectionAccents": {
@@ -27774,7 +27774,7 @@ const A1_WORDS = [
         "Með fólki er notað zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu tekur aðeins þágufall: zu meinem Freund, zu der Schule.",
+        "Zu tekur aðeins þágufall: zu meinem Freund, zur Schule (= zu der Schule).",
         "Um borgir og lönd er notað nach, ekki zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28634,7 +28634,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "sjónvarp",
       "explanation": [
-        "Aðalatriðið: das Fernsehen er hvorugkynsnafnorð sem táknar sjónvarp sem miðil eða útsendingar almennt. Fleirtala er nánast ekki til: notuð er eintala. Oftast stendur það með im: im Fernsehen (í sjónvarpinu), beim Fernsehen (við sjónvarpið, um vinnustað).",
+        "Aðalatriðið: das Fernsehen er hvorugkynsnafnorð sem táknar sjónvarp sem miðil eða útsendingar almennt. Fleirtala er nánast ekki til: notuð er eintala. Oftast stendur það með im: im Fernsehen (í sjónvarpinu), beim Fernsehen (þegar horft er á sjónvarp; líka um vinnu við sjónvarp).",
         "Það er nafnorð myndað af sögninni fernsehen (að horfa á sjónvarp). Tækið heitir der Fernseher, en athöfnin — fernsehen.",
         "Nafnorðið er skrifað með stórum staf; sögnin fernsehen er með aðskiljanlegu forskeyti."
       ],
@@ -30062,7 +30062,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Mundu: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub er yfirleitt notað án greinis: Urlaub haben, Urlaub nehmen."
+        "Í orðasamböndunum Urlaub haben, Urlaub nehmen er notað án greinis (en: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Um nemendur er yfirleitt sagt Ferien, ekki Urlaub.",

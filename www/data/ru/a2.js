@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "отменить запись, выписать",
+          "meaning": "выписаться, отменить регистрацию",
           "example": "Ich melde mich vom Kurs ab. – Я отказываюсь от участия в курсе."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "anstecken — глагол с отделяемой приставкой и значениями «приколоть» или «надеть» (приколоть цветок, надеть кольцо), а также «заразить» и «заразиться» (о болезни).",
         "Формы: steckt an, steckte an, hat angesteckt. Приставка an- в предложении отделяется: Er steckt mir den Ring an. Глагол требует винительного падежа (что?), часто также дательного (кому?).",
-        "В значении «заразить» употребляют jemanden anstecken или sich anstecken (подхватить болезнь): Ich habe mich bei ihm angesteckt. В некоторых регионах anstecken употребляют и в значении «зажечь» (eine Zigarette anstecken)."
+        "В значении «заразить» употребляют jemanden anstecken или sich anstecken (подхватить болезнь): Ich habe mich bei ihm angesteckt. В разговорной речи anstecken употребляют и в значении «зажечь» (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Главное: die Bahn — существительное женского рода. Оно означает железную дорогу и железнодорожный транспорт в целом (mit der Bahn fahren – ехать поездом). В названии компании Deutsche Bahn это Немецкие железные дороги.",
         "Множественное число — die Bahnen. Слово встречается и в сложных словах: die Straßenbahn (трамвай), die U-Bahn (метро), die S-Bahn (городская электричка), die Eisenbahn (железная дорога).",
-        "Другие значения: трасса или дорожка (die Laufbahn, die Radrennbahn) и орбита (die Umlaufbahn). В спорте die Bahn — беговая дорожка."
+        "Другие значения: трасса или дорожка (die Radrennbahn; die Laufbahn — также карьера) и орбита (die Umlaufbahn). В спорте die Bahn — беговая дорожка."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn — женского рода; не путай это слово с der Bahnhof (вокзал, мужской род).",
-        "Само слово Bahn часто означает компанию Deutsche Bahn, а не конкретный поезд; конкретный поезд — это der Zug."
+        "Слово Bahn может означать также компанию Deutsche Bahn (Die Bahn hat Verspätung); конкретный поезд называется der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt — не то же самое, что bestimmen: bestimmen значит определять, решать, а bestimmt — наречие или прилагательное.",
-        "Bestimmt может выражать и предположение, а не только уверенность: Er ist bestimmt zu Hause (он, наверное, дома)."
+        "Bestimmt выражает также твёрдое предположение: Er ist bestimmt zu Hause (он наверняка дома)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "при этом • рядом",
       "explanation": [
         "Главное: dabei — наречие, образованное из da + bei. Оно значит рядом, при этом, там же: рядом с чем-либо или на каком-либо событии. Самое частое сочетание — dabei sein (присутствовать, участвовать).",
-        "Другие частые значения: с собой (etwas dabei haben – иметь что-либо при себе), вместе с тем (в то же самое время) и заниматься чем-либо прямо сейчас (dabei sein, etwas zu tun). Это слово места и времени, которое отсылает к уже упомянутому.",
+        "Другие частые значения: с собой (etwas dabei haben – иметь что-либо при себе), в то же самое время, вместе с тем и заниматься чем-либо прямо сейчас (dabei sein, etwas zu tun). Это слово места и времени, которое отсылает к уже упомянутому.",
         "Dabei — также часть сложных слов: dabeibleiben (оставаться при этом), dabeihaben (иметь при себе), dabeisitzen (сидеть рядом)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Главное: dafür — наречие (da + für). Оно значит за это (в обмен, при оплате, в благодарность), для этого (для цели) или за (в знак согласия): Ich bin dafür (я за).",
         "Оно заменяет für + то, что упомянуто раньше: Ich danke dir dafür. С такими глаголами, как sich interessieren für, sorgen für, sich entschuldigen für, употребляется dafür, когда не нужно повторять существительное.",
-        "В разговорной речи dafür значит также зато, но, в качестве компенсации: Er ist nicht schnell, dafür arbeitet er genau. В этом значении оно вводит противопоставление, уравновешивая сказанное чем-то положительным."
+        "Dafür значит также зато, но, в качестве компенсации: Er ist nicht schnell, dafür arbeitet er genau. В этом значении оно вводит противопоставление, уравновешивая сказанное чем-то положительным."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "В предложении с союзом damit глагол стоит в конце.",
-        "damit не значит поэтому; для значения причины используются deshalb или darum."
+        "Союз damit (чтобы) не значит «поэтому»; в значении «поэтому» используются deshalb или darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16157,7 +16157,7 @@ const A2_WORDS = [
         "Приставка ein отделяется и стоит в конце предложения: Ich lade dich ein."
       ],
       "important": [
-        "В прошедшем времени: hat eingeladen (не ge-ein-laden)."
+        "В Perfekt: hat eingeladen (не ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar без nicht, kein, nichts обычно не ставят."
+        "В значении усилителя отрицания gar употребляют вместе с nicht, kein, nichts."
       ],
       "important": [
         "gar — усилитель отрицания: gar nicht сильнее, чем nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "В связи с Веной слово Kaffeehaus употребляется часто; в Германии так же часто услышишь das Café.",
+        "Слово Kaffeehaus характерно для Австрии (Вены); в Германии гораздо чаще говорят das Café.",
         "Запомни основу Kaffee (кофе) + das Haus (дом)."
       ],
       "important": [
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen — мужского рода: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen сам по себе означает автомобиль или вагон, а не коляску."
+        "Wagen сам по себе обычно означает автомобиль или вагон; детскую коляску называют Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Запомни: Kraft = сила, Macht = власть, Energie = энергия.",
-        "Обрати внимание на фразу in Kraft treten (вступать в силу), она встречается чаще, чем основное значение."
+        "Обрати внимание на фразу in Kraft treten (вступать в силу) — её часто употребляют о законах и правилах."
       ],
       "important": [
         "Die Kraft — женского рода; множественное число — die Kräfte, а не die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "оценка • отметка",
       "explanation": [
         "Главное: die Note — существительное женского рода. В школе и вузе оно означает оценку (eine gute Note bekommen, получить хорошую оценку). В музыке это нота: Noten lesen (читать ноты).",
-        "Множественное число — die Noten. В Германии оценки бывают от 1 (sehr gut) до 6 (ungenügend), и 1 — лучшая. Поэтому eine gute Note означает маленькое число.",
+        "Множественное число — die Noten. В немецких школах оценки бывают от 1 (sehr gut) до 6 (ungenügend), и 1 — лучшая (в вузах шкала 1,0–5,0). Поэтому eine gute Note означает маленькое число.",
         "Об оценках говорят: eine Note bekommen, eine Note geben, die Note verbessern (улучшить оценку)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "В выражении rechnen mit + дательный падеж (Dativ) значение — «считаться с чем-либо», например с плохой погодой."
       ],
       "important": [
-        "Rechnen mit обычно означает «ожидать, учитывать», а не «считать с помощью чего-либо»."
+        "Rechnen mit + дательный падеж обычно означает «ожидать, учитывать» (Wir rechnen mit Regen); с инструментом это значит «считать с помощью»: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "острый",
       "explanation": [
-        "Прилагательное scharf имеет несколько значений. О предмете оно означает «острый» (scharfes Messer – острый нож), о еде — «острый, пикантный на вкус» (scharfes Essen). В переносном значении это может быть также «крутой» или «резкий»: eine scharfe Kurve, scharf bremsen.",
+        "Прилагательное scharf имеет несколько значений. О предмете оно означает «острый» (scharfes Messer – острый нож), о еде — «острый, пикантный на вкус» (scharfes Essen). В переносном значении это может быть также «резкий» или «сильный»: eine scharfe Kurve (крутой поворот), scharf bremsen (резко затормозить).",
         "Сравнительная степень — schärfer (с умлаутом), превосходная — am schärfsten. Перед существительным: ein scharfes Messer, scharfe Soße.",
         "Полезно запомнить: scharf относится к острому вкусу (перец чили, хрен), а не к солёному — солёный будет salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Очередь, в которой ждут люди, называется Schlange; Reihe — это скорее очередь как порядок, черёд (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen — устойчивое выражение: не in der Schlange sein, а Schlange stehen."
+        "Самое частое выражение — Schlange stehen (также in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln используется, когда одну вещь заменяют другой (школа, работа, валюта). ändern — когда что-то изменяют.",
-        "Пересадку в транспорте выражают глаголом umsteigen, а не wechseln."
+        "Пересадку в транспорте обычно выражают глаголом umsteigen (возможно также den Zug wechseln)."
       ],
       "important": [
         "Под Geld wechseln обычно понимают обмен валюты или денег, а не их трату.",

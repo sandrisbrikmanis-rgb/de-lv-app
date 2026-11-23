@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "дом на одну семью",
       "explanation": [
         "Слово das Einfamilienhaus обозначает дом, рассчитанный на одну семью: отдельно стоящий или примыкающий к соседним, но с одной квартирой и обычно со своим садом.",
-        "Существительное среднего рода: das Einfamilienhaus, множественное число die Einfamilienhäuser. Состоит из Ein- + Familie + Haus.",
+        "Существительное среднего рода: das Einfamilienhaus, множественное число die Einfamilienhäuser. Состоит из Ein- + Familien- (соединительная форма от Familie) + Haus.",
         "Противоположность — das Mehrfamilienhaus (многоквартирный дом)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "В политике говорят eine Partei wählen или für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei и die Party (вечеринка) звучат похоже, но не связаны между собой."
+        "Die Partei и die Party (вечеринка) звучат похоже, но значение совершенно разное (хотя оба слова происходят от латинского pars — часть)."
       ],
       "sectionAccents": {
         "explanation": {

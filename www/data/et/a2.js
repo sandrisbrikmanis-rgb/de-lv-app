@@ -3216,7 +3216,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "välja registreerima",
+          "meaning": "välja registreerima, registreeringut tühistama",
           "example": "Ich melde mich vom Kurs ab. – Ma registreerin end kursuselt välja."
         },
         {
@@ -3390,7 +3390,7 @@ const A2_WORDS = [
       "explanation": [
         "Põhimõte: anstecken on eraldatava eesliitega tegusõna tähendusega külge kinnitama või sõrme panema (lille rinda kinnitama, sõrmust sõrme panema), samuti nakatama ja külge hakkama (haiguse kohta).",
         "Vormid: steckt an, steckte an, hat angesteckt. Eesliide an- eraldub lauses: Er steckt mir den Ring an. See nõuab akusatiivi (mida?), sageli ka datiivi (kellele?).",
-        "Nakatama tähenduses kasutatakse jemanden anstecken või sich anstecken (haigust külge saama): Ich habe mich bei ihm angesteckt. Mõnes piirkonnas kasutatakse anstecken ka tähenduses süütama (eine Zigarette anstecken)."
+        "Nakatama tähenduses kasutatakse jemanden anstecken või sich anstecken (haigust külge saama): Ich habe mich bei ihm angesteckt. Kõnekeeles tähendab anstecken ka süütama (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7605,7 +7605,7 @@ const A2_WORDS = [
       "explanation": [
         "Põhimõte: die Bahn on naissoost nimisõna. See tähendab raudteed ja raudteetransporti üldiselt (mit der Bahn fahren – rongiga sõitma). Ettevõtte nimes Deutsche Bahn tähendab see Saksa raudteed.",
         "Mitmus on die Bahnen. Sõna esineb ka liitsõnades: die Straßenbahn (tramm), die U-Bahn (metroo), die S-Bahn (linnalähirong), die Eisenbahn (raudtee).",
-        "Muud tähendused: rada (die Laufbahn, die Radrennbahn) ja orbiit (die Umlaufbahn). Spordis on die Bahn jooksurada."
+        "Muud tähendused: rada (die Radrennbahn; die Laufbahn — ka karjäär) ja orbiit (die Umlaufbahn). Spordis on die Bahn jooksurada."
       ],
       "examples": [
         {
@@ -7648,7 +7648,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn on naissoost; ära aja seda segi sõnaga der Bahnhof (jaam, meessoost).",
-        "Sõna Bahn üksi tähendab sageli ettevõtet Deutsche Bahn, mitte konkreetset rongi; konkreetne rong on der Zug."
+        "Sõna Bahn võib tähendada ka ettevõtet Deutsche Bahn (Die Bahn hat Verspätung); konkreetset rongi nimetatakse der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10181,7 +10181,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt ei ole sama mis bestimmen: bestimmen tähendab määrama, otsustama, bestimmt on aga määrsõna või omadussõna.",
-        "Bestimmt võib väljendada ka oletust, mitte ainult kindlust: Er ist bestimmt zu Hause (ta on küllap kodus)."
+        "Bestimmt väljendab ka kindlat oletust: Er ist bestimmt zu Hause (ta on kindlasti kodus)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12263,7 +12263,7 @@ const A2_WORDS = [
       "translation": "kohal",
       "explanation": [
         "Põhimõte: dabei on määrsõna, mis on moodustatud osadest da + bei. See tähendab kohal, juures, selle juures: millegi kõrval või mingil sündmusel. Kõige sagedasem ühend on dabei sein (kohal olema, osalema).",
-        "Muud sagedased tähendused: kaasas (etwas dabei haben – midagi kaasas olema), samal ajal ning parajasti midagi tegemas (dabei sein, etwas zu tun). Sõna viitab eelnevalt mainitule.",
+        "Muud sagedased tähendused: kaasas (etwas dabei haben – midagi kaasas olema), samal ajal, pealegi ning parajasti midagi tegemas (dabei sein, etwas zu tun). Sõna viitab eelnevalt mainitule.",
         "Dabei on ka liitsõnade osa: dabeibleiben (selle juurde jääma), dabeihaben (kaasas olema), dabeisitzen (juures istuma)."
       ],
       "examples": [
@@ -12460,7 +12460,7 @@ const A2_WORDS = [
       "explanation": [
         "Põhimõte: dafür on määrsõna (da + für). See tähendab selle eest (vastutasuks, makstes, tänades), selleks (eesmärgi puhul) või poolt (nõustudes): Ich bin dafür (ma olen poolt).",
         "See asendab ühendit für + eelnevalt mainitud asi: Ich danke dir dafür. Tegusõnadega nagu sich interessieren für, sorgen für, sich entschuldigen für kasutatakse dafür, kui nimisõna pole vaja korrata.",
-        "Kõnekeeles tähendab dafür ka seevastu, see-eest (hüvitusena): Er ist nicht schnell, dafür arbeitet er genau. Selles tähenduses juhatab see sisse vastanduse, mis toob esile positiivse külje."
+        "Dafür tähendab ka seevastu, see-eest (hüvitusena): Er ist nicht schnell, dafür arbeitet er genau. Selles tähenduses juhatab see sisse vastanduse, mis toob esile positiivse külje."
       ],
       "examples": [
         {
@@ -12694,7 +12694,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Sidesõnaga damit algavas lauses on pöördeline tegusõna lause lõpus.",
-        "damit ei tähenda seepärast; põhjuse väljendamiseks kasutatakse deshalb või darum."
+        "Sidesõna damit (et) ei tähenda seepärast; tähenduses seepärast kasutatakse deshalb või darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19854,7 +19854,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar'i ilma sõnadeta nicht, kein, nichts tavaliselt ei kasutata."
+        "Eituse võimendajana kasutatakse gar'i koos sõnadega nicht, kein, nichts."
       ],
       "important": [
         "gar on eituse võimendaja: gar nicht on tugevam kui nicht."
@@ -23691,7 +23691,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Viini puhul kasutatakse sõna Kaffeehaus sageli; Saksamaal kuuled sama tihti das Café.",
+        "Sõna Kaffeehaus on iseloomulik Austriale (Viinile); Saksamaal öeldakse palju sagedamini das Café.",
         "Pea meeles põhisõnad Kaffee (kohv) + das Haus (maja)."
       ],
       "important": [
@@ -26221,7 +26221,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen on meessoost: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen eraldi tähendab autot või vagunit, mitte lapsevankrit."
+        "Wagen eraldi tähendab tavaliselt autot või vagunit; lapsevankrit nimetatakse Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28720,7 +28720,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Jäta meelde: Kraft = jõud, Macht = võim, Energie = energia.",
-        "Õpi selgeks fraas in Kraft treten (jõustuma); ametlikes tekstides on see väga sage."
+        "Õpi selgeks fraas in Kraft treten (jõustuma) — seda kasutatakse sageli seaduste ja määruste kohta."
       ],
       "important": [
         "Die Kraft on naissoost; mitmus die Kräfte, mitte die Krafte.",
@@ -32794,7 +32794,7 @@ const A2_WORDS = [
       "translation": "hinne",
       "explanation": [
         "Põhimõte: die Note on naissoost nimisõna. Koolis ja ülikoolis tähendab see hinnet (eine gute Note bekommen – head hinnet saama). Muusikas on see noot: Noten lesen (noote lugema).",
-        "Mitmus on die Noten. Saksamaal on hinded 1-st (sehr gut) kuni 6-ni (ungenügend) ja 1 on parim. Seepärast tähendab eine gute Note väikest numbrit.",
+        "Mitmus on die Noten. Saksamaa koolides on hinded 1-st (sehr gut) kuni 6-ni (ungenügend) ja 1 on parim (ülikoolides on skaala 1,0–5,0). Seepärast tähendab eine gute Note väikest numbrit.",
         "Hinnete kohta öeldakse: eine Note bekommen, eine Note geben, die Note verbessern (hinnet parandama)."
       ],
       "examples": [
@@ -35420,7 +35420,7 @@ const A2_WORDS = [
         "Väljendis rechnen mit + datiiv on tähendus „millegagi arvestama“, näiteks halva ilmaga."
       ],
       "important": [
-        "Rechnen mit tähendab tavaliselt „ootama, arvesse võtma“, mitte „millegagi arvutama“."
+        "Rechnen mit + datiiv tähendab tavaliselt „ootama, arvesse võtma“ (Wir rechnen mit Regen); vahendi puhul tähendab see „millegagi arvutama“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36902,7 +36902,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "terav • vürtsikas",
       "explanation": [
-        "Põhimõte: scharf on mitme tähendusega omadussõna. Eseme puhul tähendab see teravat (scharfes Messer – terav nuga), toidu puhul vürtsikat, teravat maitset (scharfes Essen). Ülekantud tähenduses võib see olla ka järsk või tugev: eine scharfe Kurve, scharf bremsen.",
+        "Põhimõte: scharf on mitme tähendusega omadussõna. Eseme puhul tähendab see teravat (scharfes Messer – terav nuga), toidu puhul vürtsikat, teravat maitset (scharfes Essen). Ülekantud tähenduses võib see olla ka järsk või tugev: eine scharfe Kurve (järsk kurv), scharf bremsen (järsult pidurdama).",
         "Keskvõrre on schärfer (umlaudiga), ülivõrre am schärfsten. Nimisõna ees: ein scharfes Messer, scharfe Soße.",
         "Eesti keele kõnelejal on kasulik meeles pidada: scharf käib terava, kipitava maitse kohta (tšilli, mädarõigas), mitte soolase kohta — soolane on salzig."
       ],
@@ -37380,7 +37380,7 @@ const A2_WORDS = [
         "Järjekorda, kus inimesed ootavad, nimetatakse Schlange; Reihe on pigem rida või järg (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen on püsiväljend: mitte in der Schlange sein, vaid Schlange stehen."
+        "Kõige sagedasem väljend on Schlange stehen (ka in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45518,7 +45518,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln kasutatakse, kui üks asi asendatakse teisega (kool, töö, valuuta); ändern – kui muudetakse asja ennast.",
-        "Ümberistumist transpordis väljendatakse sõnaga umsteigen, mitte wechseln."
+        "Ümberistumist transpordis väljendatakse tavaliselt sõnaga umsteigen (võimalik on ka den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln tähendab tavaliselt valuuta või raha vahetamist, mitte raha kulutamist.",

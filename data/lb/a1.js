@@ -13168,7 +13168,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Benotz jung net fir Saachen — do heescht et neu.",
-        "De Komparativ huet ëmmer en Umlaut: jünger, net „junger“."
+        "De Komparativ huet ëmmer en Umlaut: jünger (junger ass just de Positiv mat Endung: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14887,7 +14887,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (Gebitt, Land) an der Staat (Staat als Institutioun) sinn net datselwecht.",
-        "Am Plural gëtt et en Umlaut: die Länder, net „die Lande“."
+        "Am Plural gëtt et en Umlaut: die Länder; die Lande ass eng al, poetesch Form."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21777,7 +21777,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: schauen heescht „kucken“ — de Bléck op eppes riichten: Wir schauen aus dem Fenster. A Süddäitschland, Éisträich an der Schwäiz gëtt et ganz dacks benotzt; am Norden seet een éischter gucken oder sehen.",
         "Formen: schaut, schaute, hat geschaut. Dacks mat Präpositiounen: auf + Akkusativ (Er schaut auf die Uhr), aus dem Fenster (zur Fënster eraus), nach + Dativ (Sie schaut nach dem Kind — si kuckt no dem Kand). Imperativ: Schau mal! — Kuck mol!",
-        "Den Ausdrock Ich schaue fern heescht „ech kucken Televisioun“."
+        "Den Ausdrock Ich schaue fern (vu fernschauen — a Süddäitschland an Éisterräich; soss fernsehen) heescht „ech kucken Televisioun“."
       ],
       "examples": [
         {
@@ -22600,7 +22600,7 @@ const A1_WORDS = [
         "Sehen heescht och „verstoen“ an Ausdréck wéi Ich sehe, was du meinst."
       ],
       "important": [
-        "Et gëtt kee sehst oder sehet: richteg ass du siehst, er sieht.",
+        "Am Presens gëtt et kee du sehst oder er seht: richteg ass du siehst, er sieht.",
         "Fir ze soen, datt een eppes ukuckt (e Film, e Bild), kann ee souwuel sehen wéi och sich (Dat) + ansehen benotzen."
       ],
       "sectionAccents": {
@@ -25222,7 +25222,7 @@ const A1_WORDS = [
       "translation": "ëm • um",
       "explanation": [
         "Haaptiddi: um ass eng Präpositioun, déi ëmmer den Akkusativ verlaangt. Bei der Zäit gëtt um eng genee Auerzäit un: um acht Uhr (um aacht Auer). Bei der Plaz beschreift et e Krees ronderëm eppes: um den Tisch (ronderëm den Dësch), um die Ecke (ëm den Eck).",
-        "D'Fro no der Zäit ass Um wie viel Uhr ...? (um wéi vill Auer?). Bei der Auerzäit steet keen Artikel an net in: um 8 Uhr, net in 8 Uhr.",
+        "D'Fro no der Zäit ass Um wie viel Uhr ...? (um wéi vill Auer?). D'Auerzäit gëtt mat um (ouni Artikel) uginn, net mat in: um 8 Uhr, net in 8 Uhr.",
         "Mat zu + Infinitiv dréckt um en Zil aus: Er lernt, um zu verstehen (hie léiert, fir ze verstoen)."
       ],
       "examples": [
@@ -25474,7 +25474,7 @@ const A1_WORDS = [
         "Den Ausdrock unter uns bedeit „ënner eis“ a gëtt benotzt, wann ee eppes vertraulech seet."
       ],
       "important": [
-        "Unter ass net datselwecht wéi zwischen: unter weist op eng Grupp (unter Freunden), zwischen op zwou konkreet Saachen.",
+        "Unter ass net datselwecht wéi zwischen: unter weist op eng Grupp (unter Freunden), zwischen op eenzel, genannte Saachen (dacks zwou, mee et kënnen och méi sinn).",
         "Unter + Zuel bedeit „manner wéi“: unter 18 heescht méi jonk wéi 18."
       ],
       "sectionAccents": {
@@ -27760,7 +27760,7 @@ const A1_WORDS = [
         "Mat Persoune benotzt een zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu verlaangt nëmmen den Dativ: zu meinem Freund, zu der Schule.",
+        "Zu verlaangt nëmmen den Dativ: zu meinem Freund, zur Schule (= zu der Schule).",
         "Fir Stied a Länner benotzt een nach, net zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28618,7 +28618,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Televisioun • Fernseh",
       "explanation": [
-        "Haaptiddi: das Fernsehen ass e sächlecht Substantiv a bezeechent d'Televisioun als Medium oder all d'Sendungen zesummen. E Plural gëtt et praktesch net: et steet am Singular. Meeschtens steet et mat im: im Fernsehen (an der Televisioun, um Tëlee), beim Fernsehen (bei der Televisioun schaffen).",
+        "Haaptiddi: das Fernsehen ass e sächlecht Substantiv a bezeechent d'Televisioun als Medium oder all d'Sendungen zesummen. E Plural gëtt et praktesch net: et steet am Singular. Meeschtens steet et mat im: im Fernsehen (an der Televisioun, um Tëlee), beim Fernsehen (wann ee Televisioun kuckt; och wann ee bei der Televisioun schafft).",
         "Et ass d'Substantiv vum Verb fernsehen (Tëlee kucken). Den Apparat heescht der Fernseher (op Lëtzebuergesch de Fernseh oder den Tëlee), d'Aktivitéit — fernsehen.",
         "D'Substantiv gëtt grouss geschriwwen; als Verb ass fernsehen trennbar."
       ],
@@ -30046,7 +30046,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Mierk der: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub steet meeschtens ouni Artikel: Urlaub haben, Urlaub nehmen."
+        "An den Ausdréck Urlaub haben, Urlaub nehmen steet Urlaub ouni Artikel (mee: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Fir Schüler seet een normalerweis Ferien, net Urlaub.",

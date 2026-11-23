@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Chętnie powierzamy Panu to zlecenie."
+          "lv": "Chętnie powierzamy Panu to zlecenie (zadanie)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen to nie to samo co besorgt sein (być zaniepokojonym): przymiotnik besorgt to inne słowo.",
-        "Besorgen jest nierozdzielnie złożony: besorgt, a nie gesorgt."
+        "Besorgen jest nierozdzielnie złożony, w Perfekcie bez ge-: hat besorgt (gesorgt pochodzi od innego czasownika — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Główna myśl: bieten znaczy oferować lub zapewniać — dawać komuś możliwość, usługę lub korzyść, a także licytować na aukcji. To czasownik mocny: er bietet, bot, hat geboten. Następuje po nim biernik, często z celownikiem: jemandem etwas bieten.",
         "Przykłady: Das Hotel bietet viel Komfort (hotel oferuje dużo komfortu), Ich biete 100 Euro (oferuję 100 euro). Forma zwrotna sich bieten: Eine Chance bietet sich (nadarza się okazja).",
-        "Pokrewny jest rzeczownik das Angebot (oferta), jednak czasownik anbieten (proponować) to inne słowo."
+        "Rzeczownik das Angebot (oferta) pochodzi od anbieten; od bieten pochodzi das Gebot (oferta na licytacji)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blok",
       "explanation": [
-        "Najważniejsze: der Block to blok — zwarta, jednolita bryła lub komplet: blok do notatek, blok lodu, blok budynków. Liczba mnoga to die Blöcke.",
+        "Najważniejsze: der Block to blok — zwarta, jednolita bryła lub komplet: blok do notatek, blok lodu, blok budynków. Liczba mnoga to die Blöcke (w przypadku bloków do notatek i budynków często także die Blocks).",
         "Typowe złożenia: der Notizblock (notes, blok do notatek), der Wohnblock (blok mieszkalny), der Motorblock (blok silnika); także ein Block Eis (blok lodu).",
         "W znaczeniu przenośnym der Block może oznaczać też sojusz polityczny lub gospodarczy: der Machtblock (blok władzy)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft jest rodzaju żeńskiego.",
-        "Nie myl z das Konsulat (konsulat): ten zwykle obsługuje mieszkańców w danym mieście."
+        "Nie myl z das Konsulat (konsulat): ten obsługuje obywateli w określonym okręgu konsularnym."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "związek • federacja",
       "explanation": [
         "Najważniejsze: der Bund to związek, przymierze lub federacja — zjednoczenie kilku stron. Liczba mnoga to die Bünde. Rzeczownik jest rodzaju męskiego.",
-        "W Niemczech der Bund często oznacza rząd federalny w przeciwieństwie do krajów związkowych (Ländern): Bund und Länder. W złożeniach: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "W Niemczech der Bund często oznacza rząd federalny w przeciwieństwie do krajów związkowych (die Länder): Bund und Länder. W złożeniach: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Inne znaczenia: ein Bund fürs Leben (związek małżeński) oraz das Bund (pęczek): ein Bund Radieschen. To inne słowo z innym rodzajnikiem."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Najważniejsze: dadurch to przysłówek, który znaczy dzięki temu, przez to — wskazuje na przyczynę lub środek. Zwykle łączy poprzednie zdanie ze skutkiem: Er hat viel geübt. Dadurch wurde er besser.",
         "Szyk zdania: po dadurch czasownik stoi na drugim miejscu: Dadurch wird alles einfacher. Ponadto dadurch, dass jako spójnik (przez to, że) wprowadza zdanie podrzędne z czasownikiem na końcu.",
-        "W znaczeniu miejsca dadurch to także „przez to” (na drugą stronę), i wtedy akcentowana jest pierwsza sylaba: Die Tür war offen, wir sind dadurch gegangen."
+        "W znaczeniu miejsca dadurch to także „przez to” (na drugą stronę): Die Tür war offen, wir sind dadurch gegangen. Zwykle akcentowana jest druga sylaba; pierwszą sylabę akcentuje się tylko przy szczególnym wyróżnieniu."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "służyć",
       "explanation": [
         "Najważniejsze: dienen znaczy służyć, przydawać się do jakiegoś celu lub pełnić jakąś funkcję. Najczęstsze konstrukcje: dienen als + mianownik (służyć jako), dienen zu + celownik (służyć do czegoś) i dienen + celownik (służyć komuś).",
-        "Formy: dient, diente, hat gedient. Czasownik łączy się z celownikiem (Er dient dem Land), a nie z biernikiem. W mowie codziennej Womit kann ich dienen? to uprzejma propozycja pomocy, a w znaczeniu wojskowym dienen to „służyć w wojsku”."
+        "Formy: dient, diente, hat gedient. Czasownik łączy się z celownikiem (Er dient dem Land), a nie z biernikiem. Womit kann ich dienen? to uprzejma, nieco staromodna propozycja pomocy ze strony obsługującego, a w znaczeniu wojskowym dienen to „służyć w wojsku”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "biegunka",
       "explanation": [
         "Najważniejsze: der Durchfall to rzeczownik rodzaju męskiego, który oznacza biegunkę – płynne, częste wypróżnienia. W medycynie i na co dzień używa się go w liczbie pojedynczej: Durchfall haben – mieć biegunkę.",
-        "Liczba mnoga die Durchfälle jest rzadko używana. W znaczeniu przenośnym Durchfall może oznaczać także porażkę (oblanie egzaminu, klapę przedstawienia teatralnego), ale wtedy zwykle używa się czasownika durchfallen."
+        "Liczba mnoga die Durchfälle jest rzadko używana. W znaczeniu przenośnym (potocznie) Durchfall może oznaczać także porażkę (oblanie egzaminu, klapę przedstawienia teatralnego), ale wtedy zwykle używa się czasownika durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "własny",
       "explanation": [
         "Najważniejsze: eigen to przymiotnik, który znaczy „własny”. Podkreśla przynależność: mein eigenes Auto – mój własny samochód. Zwykle stoi przed rzeczownikiem i się odmienia: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "W znaczeniu przenośnym eigen może znaczyć też „swoisty, osobliwy”: ein eigener Geruch – swoisty zapach. Zwrot etwas zu eigen haben – posiadać jakąś cechę. Na poziomie B1 główne znaczenie to „własny”."
+        "W znaczeniu przenośnym eigen może znaczyć też „swoisty, osobliwy”: ein eigener Geruch – swoisty zapach. Zwrot sich (Dat) etwas zu eigen machen – przyjąć coś jako swoje. Na poziomie B1 główne znaczenie to „własny”."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "W liczbie mnogiej jest końcówka -er: die Geschlechter.",
-        "W formularzach po słowie Geschlecht często jest pole do wypełnienia, a nie pytanie."
+        "W formularzach Geschlecht to nazwa pola (płeć), w którym zaznacza się männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Po ein Haufen rzeczownik następuje bez „von”: ein Haufen Arbeit, ein Haufen Geld.",
+        "Po ein Haufen rzeczownik zwykle następuje bez „von”: ein Haufen Arbeit, ein Haufen Geld (rzadziej: ein Haufen von Problemen).",
         "Wyrażenie über den Haufen werfen — zniweczyć (plany)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "homoseksualista",
       "explanation": [
         "Główna myśl: der Homosexuelle to rzeczownik oznaczający mężczyznę homoseksualnego. Odmienia się jak przymiotnik: ein Homosexueller, der Homosexuelle, die Homosexuellen (liczba mnoga). Kobieta: die Homosexuelle, eine Homosexuelle.",
-        "Słowo jest neutralne i formalne; używa się go w tekstach urzędowych, wiadomościach, ustawach. Na co dzień często mówi się schwul (gej) lub lesbisch (lesbijka)."
+        "Słowo jest neutralne i formalne; używa się go w tekstach urzędowych, wiadomościach, ustawach. Na co dzień często używa się przymiotników: er ist schwul (on jest gejem), sie ist lesbisch (ona jest lesbijką)."
       ],
       "examples": [
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Złożenia: die Machtübernahme (przejęcie władzy), der Machtkampf (walka o władzę)."
       ],
       "important": [
-        "Macht nie oznacza po prostu siły fizycznej; do tego używa się die Kraft.",
+        "Macht nie oznacza siły fizycznej; tę nazywa się die Kraft.",
         "Liczba mnoga die Mächte odnosi się głównie do państw lub sił."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Słowo das Maß pisze się przez ß, bo samogłoska jest długa.",
-        "Liczba mnoga to die Maße (wymiary); w celowniku — den Maßen (in Maßen, über alle Maßen)."
+        "Liczba mnoga to die Maße (wymiary); w celowniku — den Maßen (in Maßen). W zwrocie über alle Maßen zachowała się forma historyczna."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben to nie to samo co aufgeben: nachgeben to ustąpić komuś, aufgeben to zrezygnować z jakiegoś celu.",
-        "Przedrostek nach- się odłącza: gibt nach, a nie nachgibt."
+        "Przedrostek nach- w zdaniu głównym się odłącza: er gibt nach (w zdaniu podrzędnym razem: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "skłaniać się • mieć skłonność",
       "explanation": [
         "Główna myśl: neigen z zu + celownik znaczy skłaniać się ku czemuś, mieć skłonność: Er neigt zu schnellen Entscheidungen. Formy: neigt, neigte, hat geneigt.",
-        "W znaczeniu dosłownym etwas neigen to pochylać coś (den Kopf neigen). Zwrotne sich neigen znaczy pochylać się albo zbliżać się do końca: Der Tag neigt sich.",
+        "W znaczeniu dosłownym etwas neigen to pochylać coś (den Kopf neigen). Zwrotne sich neigen znaczy pochylać się albo (w stylu podniosłym) zbliżać się do końca: Der Tag neigt sich. Wyrażenie sich dem Ende zuneigen pochodzi od zuneigen.",
         "Od tego samego rdzenia pochodzi rzeczownik die Neigung (skłonność, upodobanie, nachylenie)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "bieda • niedostatek",
       "explanation": [
         "Główna myśl: die Not to bieda, niedostatek, trudne położenie, gdy człowiekowi brakuje rzeczy najpotrzebniejszych (in Not leben, Not leiden). To także pilna potrzeba lub nieszczęście: in der Not, in Not geraten.",
-        "Słowo jest rodzaju żeńskiego. Liczba mnoga die Nöte występuje bardzo rzadko; zwykle używa się liczby pojedynczej.",
+        "Słowo jest rodzaju żeńskiego. Liczba mnoga die Nöte występuje rzadziej (Sorgen und Nöte); zwykle używa się liczby pojedynczej.",
         "Wyrażenia: zur Not (jeśli nie ma innego wyjścia; w ostateczności), aus der Not eine Tugend machen (robić z konieczności cnotę), Not macht erfinderisch (potrzeba jest matką wynalazków)."
       ],
       "examples": [
@@ -54741,7 +54741,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten to nie braten: braten to smażyć na oleju lub tłuszczu, rösten – prażyć.",
-        "Nie myl rösten z rostet (rdzewieje)."
+        "Nie myl rösten z rosten (rdzewieć)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60259,7 +60259,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Na miejsce siedzące w środkach transportu mów der Sitz lub der Platz; tylko der Platz może oznaczać miejsce w ogóle.",
-        "Siedzibę firmy nazywa się der Firmensitz."
+        "Prawną siedzibę firmy (centralę) nazywa się der Firmensitz."
       ],
       "important": [
         "Der Sitz to nie das Sitzen: das Sitzen to czynność, der Sitz – siedzenie lub siedziba.",
@@ -61232,7 +61232,7 @@ const B1_WORDS = [
         "Przy gromadzeniu (energii, wody) także używa się speichern."
       ],
       "important": [
-        "Tryb rozkazujący to Speichere (lub Speicher), a nie Speichern.",
+        "Tryb rozkazujący to Speichere! (także Speichre!; potocznie Speicher!), a nie Speichern.",
         "speichern to nie sperren (blokować)."
       ],
       "sectionAccents": {
@@ -70128,7 +70128,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "opaska, bandaż",
+          "meaning": "opatrunek, bandaż",
           "example": "Sie wickelt eine Binde um den Fuß. – Ona owija stopę bandażem."
         },
         {
@@ -76492,7 +76492,7 @@ const B1_WORDS = [
         "Po zugeben często następuje zdanie z dass, w którym czasownik stoi na końcu."
       ],
       "important": [
-        "Zugeben to przyznać coś, co jest dla mówiącego niekorzystne; jeśli chcesz po prostu powiedzieć, że coś dodajesz do potrawy, użyj hinzufügen.",
+        "Zugeben zwykle znaczy przyznać coś, co jest dla mówiącego niekorzystne. W przepisach kulinarnych zugeben znaczy też dodać (Salz zugeben); na co dzień w tym znaczeniu częściej mówi się hinzufügen.",
         "Po zugeben w zdaniu z dass czasownik stoi na końcu: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

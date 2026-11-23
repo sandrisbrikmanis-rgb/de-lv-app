@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Mos e ngatërro me abfinden pa sich: kjo do të thotë të kompensosh ose të shpërblesh me para.",
-        "Forma e kohës së kryer është sich abgefunden (me -ge- në mes), jo geabfunden."
+        "Forma e kohës së kryer është hat sich abgefunden (-ge- midis ab- dhe pjesës rrënjore), jo geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "braktis • ekspozoj • ndërpres",
       "explanation": [
-        "Ideja kryesore: aussetzen është folje e ndashme me disa kuptime: braktis (një qen, një fëmijë), ekspozoj (ndaj të ftohtit, rrezikut), ndalet ose ndërpritet (për motorin, punën) dhe, me an + dhanore, kam vërejtje, kundërshtoj.",
+        "Ideja kryesore: aussetzen është folje e ndashme me disa kuptime: braktis (një qen, një fëmijë), ekspozoj (ndaj të ftohtit, rrezikut), ndalet ose ndërpritet (për motorin, punën) dhe, në shprehjen etwas an + dhanore auszusetzen haben, kam vërejtje, kritikoj.",
         "Format: setzt aus, setzte aus, hat ausgesetzt. Për ekspozimin përdoret dhanorja: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Pjesorja ausgesetzt sein do të thotë të jesh i ekspozuar.",
         "Në kuptimin kundërshtoj përdoret shprehja etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Këtu zu futet midis parashtesës dhe rrënjës: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "mëshiroj",
       "explanation": [
         "Ideja kryesore: sich erbarmen do të thotë ndiej dhembshuri për dikë që vuan dhe e ndihmoj ose e mëshiroj. Gjuha është e lartë, shpesh fetare ose ironike.",
-        "Pas saj zakonisht vjen gjinorja: sich des Hundes erbarmen. Më rrallë përdoret über + kallëzore. Format: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Pas saj zakonisht vjen gjinorja: sich des Hundes erbarmen. Më rrallë (rajonalisht, në Austri) përdoret über + kallëzore. Format: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Në të folur, me shaka: Wer erbarmt sich und …? — Kush do të ketë mëshirë e …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig shpesh shpreh një pamje të padëshiruar ose jo të njëtrajtshme (rroba të ndotura, njolla të kuqe në lëkurë).",
-        "Kur i shton mbaresën, mbaj mend e-në: ein fleckiges Fell, eine fleckige Haut."
+        "Para emrit fleckig merr mbaresë: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "i mëvonshëm • shtesë • më vonë",
       "explanation": [
         "Ideja kryesore: nachträglich do të thotë më pas, pasi është kryer veprimi kryesor ose ka kaluar afati — i shtuar ose i bërë më vonë. Është edhe mbiemër (eine nachträgliche Änderung) edhe ndajfolje (nachträglich ändern).",
-        "Kuptim i shpeshtë është vonesa: nachträglich gratulieren — uroj pas ngjarjes. Si mbiemër shpreh edhe karakter shtesë: eine nachträgliche Zahlung (pagesë shtesë)."
+        "Kuptim i shpeshtë është vonesa: nachträglich gratulieren — uroj pas ngjarjes. Si mbiemër do të thotë edhe diçka që ndodh më vonë, pas afatit të caktuar: eine nachträgliche Zahlung (pagesë e mëvonshme)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "përcjell • dorëzoj",
       "explanation": [
-        "Ideja kryesore: überbringen do të thotë t'i çosh marrësit një lajm, urime, një letër ose një dhuratë që të është besuar — ta sjellësh dhe ta dorëzosh personalisht. Ai të cilit i dorëzohet është në rasën dhanore (Dativ): jemandem etwas überbringen.",
+        "Ideja kryesore: überbringen do të thotë t'i çosh marrësit një lajm, urime, një letër ose një dhuratë — ta sjellësh dhe ta dorëzosh personalisht. Ai të cilit i dorëzohet është në rasën dhanore (Dativ): jemandem etwas überbringen.",
         "Parashtesë e pandashme über-: überbringt, überbrachte, hat überbracht. Në ndërtimet me paskajore zu qëndron para foljes: um die Nachricht zu überbringen. Fjala është paksa zyrtare."
       ],
       "examples": [

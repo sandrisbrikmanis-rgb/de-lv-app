@@ -3154,7 +3154,7 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "lägga ifrån sig",
+          "meaning": "lägga ifrån sig; ta av sig",
           "example": "Sie legt die Jacke ab. – Hon tar av sig jackan."
         }
       ],
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Vi ger er gärna uppdraget."
+          "lv": "Vi ger er gärna beställningen (uppdraget)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen är inte samma sak som besorgt sein (orolig): adjektivet besorgt är ett annat ord.",
-        "Besorgen är oskiljbart: besorgt, inte gesorgt."
+        "Besorgen är oskiljbart, i perfekt utan ge-: hat besorgt (gesorgt kommer från ett annat verb — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundtanken: bieten betyder att erbjuda eller ge – ge någon en möjlighet, en tjänst eller en fördel; och att bjuda på en auktion. Det är ett starkt verb: er bietet, bot, hat geboten. Det följs av ackusativ, ofta med dativ: jemandem etwas bieten.",
         "Exempel: Das Hotel bietet viel Komfort (hotellet erbjuder mycket komfort), Ich biete 100 Euro (jag bjuder 100 euro). Reflexivt betyder sich bieten: Eine Chance bietet sich (en möjlighet dyker upp).",
-        "Det besläktade substantivet är das Angebot (erbjudande), men verbet anbieten (erbjuda) är ett annat ord."
+        "Substantivet das Angebot (erbjudande) kommer från anbieten; från bieten kommer das Gebot (bud på en auktion)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "block",
       "explanation": [
-        "Grundtanken: der Block är ett block – en tät, sammanhängande bit eller en uppsättning: anteckningsblock, isblock, huskvarter. Plural är die Blöcke.",
+        "Grundtanken: der Block är ett block – en tät, sammanhängande bit eller en uppsättning: anteckningsblock, isblock, huskvarter. Plural är die Blöcke (för anteckningsblock och huskvarter ofta också die Blocks).",
         "Typiska sammansättningar: der Notizblock (anteckningsblock), der Wohnblock (flerbostadshus, bostadskomplex), der Motorblock (motorblock); också ein Block Eis (ett isblock).",
         "I överförd betydelse kan der Block också vara en politisk eller ekonomisk sammanslutning: der Machtblock (maktblock)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft är femininum.",
-        "Blanda inte ihop med das Konsulat (konsulat): det betjänar oftast invånarna i en viss stad."
+        "Blanda inte ihop med das Konsulat (konsulat): det betjänar medborgare inom ett visst konsulärt distrikt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "förbund • union",
       "explanation": [
         "Grundtanken: der Bund är ett förbund, en sammanslutning eller en union på statlig nivå – en enad sammanslutning av flera parter. Plural är die Bünde. Ordet är maskulinum.",
-        "I Tyskland betyder der Bund ofta den federala statsmakten i motsats till delstaterna (Ländern): Bund und Länder. I sammansättningar: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "I Tyskland betyder der Bund ofta den federala statsmakten i motsats till delstaterna (die Länder): Bund und Länder. I sammansättningar: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Andra betydelser: ein Bund fürs Leben (äktenskap, ett förbund för livet) och das Bund (knippa): ein Bund Radieschen. Det är ett annat ord med en annan artikel."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundtanken: dadurch är ett adverb som betyder därigenom, genom det, på så sätt – det anger orsak eller medel. Det knyter oftast an en föregående mening till följden: Er hat viel geübt. Dadurch wurde er besser.",
         "Ordföljd: efter dadurch står verbet på andra plats: Dadurch wird alles einfacher. Dessutom inleder dadurch, dass som subjunktion (genom att) en bisats med verbet sist.",
-        "I rumslig betydelse betyder dadurch också igenom det, och då betonas den första stavelsen: Die Tür war offen, wir sind dadurch gegangen."
+        "I rumslig betydelse betyder dadurch också igenom det: Die Tür war offen, wir sind dadurch gegangen. Oftast betonas den andra stavelsen; den första stavelsen betonas bara när ordet framhävs särskilt."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "tjäna",
       "explanation": [
         "Grundtanken: dienen betyder att tjäna, vara till nytta för ett syfte eller fylla en viss funktion. De vanligaste konstruktionerna: dienen als + nominativ (tjäna som), dienen zu + dativ (vara till för något) och dienen + dativ (tjäna någon).",
-        "Former: dient, diente, hat gedient. Verbet följs av dativ (Er dient dem Land), inte av ackusativ. I talspråk är Womit kann ich dienen? ett artigt erbjudande om hjälp, och i militär betydelse betyder dienen ”göra militärtjänst”."
+        "Former: dient, diente, hat gedient. Verbet följs av dativ (Er dient dem Land), inte av ackusativ. Womit kann ich dienen? är ett artigt, något gammalmodigt erbjudande om hjälp från en expedit eller servitör, och i militär betydelse betyder dienen ”göra militärtjänst”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "diarré",
       "explanation": [
         "Grundtanken: der Durchfall är ett maskulint substantiv som betyder diarré – lösa och täta tarmtömningar. I medicin och i vardagen används det i singular: Durchfall haben – ha lös mage, ha diarré.",
-        "Pluralen die Durchfälle används sällan. I överförd betydelse kan Durchfall också betyda misslyckande (på ett prov, en teaterföreställning), men då använder man oftast verbet durchfallen."
+        "Pluralen die Durchfälle används sällan. I överförd betydelse (i vardagsspråk) kan Durchfall också betyda misslyckande (på ett prov, en teaterföreställning), men då använder man oftast verbet durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "egen",
       "explanation": [
         "Grundtanken: eigen är ett adjektiv som betyder ”egen, eget”. Det betonar ägande: mein eigenes Auto – min egen bil. Det står oftast före substantivet och böjs: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "I överförd betydelse kan eigen också betyda ”säregen, egenartad”: ein eigener Geruch – en säregen lukt. Uttrycket etwas zu eigen haben – ha något som kännetecken. På B1-nivå är huvudbetydelsen ”egen, eget”."
+        "I överförd betydelse kan eigen också betyda ”säregen, egenartad”: ein eigener Geruch – en säregen lukt. Uttrycket sich (Dat) etwas zu eigen machen – göra något till sitt eget. På B1-nivå är huvudbetydelsen ”egen, eget”."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "I plural är ändelsen -er: die Geschlechter.",
-        "I formulär står det efter Geschlecht oftast ett fält att fylla i, inte en fråga."
+        "I formulär är Geschlecht namnet på fältet (kön), där man kryssar i männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Efter ein Haufen följer substantivet utan ”von”: ein Haufen Arbeit, ein Haufen Geld.",
+        "Efter ein Haufen följer substantivet oftast utan ”von”: ein Haufen Arbeit, ein Haufen Geld (mer sällan: ein Haufen von Problemen).",
         "Uttrycket über den Haufen werfen – kullkasta (planer)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "homosexuell",
       "explanation": [
         "Grundidé: der Homosexuelle är ett substantiv som betyder homosexuell man. Det böjs som ett adjektiv: ein Homosexueller, der Homosexuelle, die Homosexuellen (plural). Om en kvinna: die Homosexuelle, eine Homosexuelle.",
-        "Ordet är neutralt och formellt och används i officiella texter, nyheter och lagar. I vardagen säger man ofta schwul (gay) eller lesbisch (lesbisk)."
+        "Ordet är neutralt och formellt och används i officiella texter, nyheter och lagar. I vardagen använder man ofta adjektiv: er ist schwul (han är gay), sie ist lesbisch (hon är lesbisk)."
       ],
       "examples": [
         {
@@ -34481,7 +34481,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "höra",
+          "meaning": "höra; lyssna",
           "example": "Ich höre Musik. – Jag lyssnar på musik."
         },
         {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Ordet das Maß skrivs med ß eftersom vokalen är lång.",
-        "Plural är die Maße (mått, dimensioner); i dativ — den Maßen (in Maßen, über alle Maßen)."
+        "Plural är die Maße (mått, dimensioner); i dativ — den Maßen (in Maßen). I uttrycket über alle Maßen har en historisk form bevarats."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben är inte samma sak som aufgeben: nachgeben är att ge efter för någon, aufgeben är att ge upp ett mål.",
-        "Partikeln nach- skiljs av: gibt nach, inte nachgibt."
+        "Partikeln nach- skiljs av i huvudsats: er gibt nach (i bisats skrivs den ihop: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "luta • vara benägen",
       "explanation": [
         "Huvudidé: neigen med zu + dativ betyder att tendera till något, ha en benägenhet: Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret betydelse betyder etwas neigen att luta eller böja något (den Kopf neigen). Reflexivt betyder sich neigen att luta sig eller gå mot sitt slut: Der Tag neigt sich.",
+        "I konkret betydelse betyder etwas neigen att luta eller böja något (den Kopf neigen). Reflexivt betyder sich neigen att luta sig eller (i högre stil) gå mot sitt slut: Der Tag neigt sich. Uttrycket sich dem Ende zuneigen kommer från zuneigen.",
         "Av samma rot bildas substantivet die Neigung (benägenhet, böjelse, lutning)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "nöd • brist",
       "explanation": [
         "Huvudidé: die Not är nöd, brist, elände, en svår situation där en människa saknar det allra nödvändigaste (in Not leben, Not leiden). Det är också ett akut behov eller en olycka: in der Not, in Not geraten.",
-        "Ordet är femininum. Pluralen die Nöte är mycket sällsynt; vanligen används singular.",
+        "Ordet är femininum. Pluralen die Nöte används mer sällan (Sorgen und Nöte); vanligen används singular.",
         "Uttryck: zur Not (om det inte går på annat sätt; i nödfall), aus der Not eine Tugend machen (göra en dygd av nödvändigheten), Not macht erfinderisch (nöden är uppfinningarnas moder)."
       ],
       "examples": [
@@ -54740,7 +54740,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten är inte braten: braten är att steka i olja eller fett, rösten – att rosta.",
-        "Blanda inte ihop rösten med rostet (rostar, om metall)."
+        "Blanda inte ihop rösten med rosten (rosta, om metall)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60258,7 +60258,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "För en sittplats i ett fordon används der Sitz eller der Platz; endast der Platz kan betyda plats i allmänhet.",
-        "Ett företags säte heter der Firmensitz."
+        "Ett företags juridiska säte (huvudkontor) kallas der Firmensitz."
       ],
       "important": [
         "Der Sitz är inte das Sitzen: das Sitzen är handlingen, der Sitz – ett säte.",
@@ -61231,7 +61231,7 @@ const B1_WORDS = [
         "För lagring (energi, vatten) används också speichern."
       ],
       "important": [
-        "Imperativ är Speichere (eller Speicher), inte Speichern.",
+        "Imperativ är Speichere! (även Speichre!; i vardagsspråk Speicher!), inte Speichern.",
         "speichern är inte sperren (spärra)."
       ],
       "sectionAccents": {
@@ -76490,7 +76490,7 @@ const B1_WORDS = [
         "Efter zugeben följer ofta en dass-sats, där verbet står sist."
       ],
       "important": [
-        "Zugeben är att erkänna något som inte gynnar den som talar; om du bara vill säga att du tillsätter något i maten använder du hinzufügen.",
+        "Zugeben betyder oftast att erkänna något som inte gynnar den som talar. I recept betyder zugeben också tillsätta (Salz zugeben); i vardagen säger man oftare hinzufügen i den betydelsen.",
         "I en dass-sats efter zugeben står verbet sist: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

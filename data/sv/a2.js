@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "avanmäla, avregistrera",
+          "meaning": "avanmäla sig, avregistrera",
           "example": "Ich melde mich vom Kurs ab. – Jag avanmäler mig från kursen."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Grundtanke: anstecken är ett partikelverb som betyder fästa eller sätta på (fästa en blomma, sätta på en ring) samt smitta och smittas (om sjukdom).",
         "Former: steckt an, steckte an, hat angesteckt. Partikeln an- skiljs av i satsen: Er steckt mir den Ring an. Verbet kräver ackusativ (vad?), ofta också dativ (åt vem?).",
-        "I betydelsen smitta används jemanden anstecken eller sich anstecken (bli smittad): Ich habe mich bei ihm angesteckt. I vissa regioner används anstecken också i betydelsen tända (eine Zigarette anstecken)."
+        "I betydelsen smitta används jemanden anstecken eller sich anstecken (bli smittad): Ich habe mich bei ihm angesteckt. I vardagsspråk betyder anstecken också tända (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Huvudidé: die Bahn är ett femininum. Det betyder järnväg och järnvägstrafik i allmänhet (mit der Bahn fahren – åka tåg). I företagsnamnet Deutsche Bahn betecknar det den tyska järnvägen.",
         "Plural är die Bahnen. Ordet förekommer också i sammansättningar: die Straßenbahn (spårvagn), die U-Bahn (tunnelbana), die S-Bahn (pendeltåg), die Eisenbahn (järnväg).",
-        "Andra betydelser: bana eller fil (die Laufbahn, die Radrennbahn) och omloppsbana (die Umlaufbahn). Inom idrotten är die Bahn löparbanan."
+        "Andra betydelser: bana eller fil (die Radrennbahn; die Laufbahn — även karriär) och omloppsbana (die Umlaufbahn). Inom idrotten är die Bahn löparbanan."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn är femininum; blanda inte ihop det med der Bahnhof (station, maskulinum).",
-        "Ordet Bahn syftar i sig ofta på företaget Deutsche Bahn, inte på ett visst tåg; ett konkret tåg är der Zug."
+        "Ordet Bahn kan också syfta på företaget Deutsche Bahn (Die Bahn hat Verspätung); ett konkret tåg kallas der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt är inte samma sak som bestimmen: bestimmen betyder bestämma, avgöra, medan bestimmt är ett adverb eller ett adjektiv.",
-        "Bestimmt kan också uttrycka ett antagande, inte bara visshet: Er ist bestimmt zu Hause (han är säkert hemma)."
+        "Bestimmt uttrycker också ett starkt antagande: Er ist bestimmt zu Hause (han är helt säkert hemma)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11856,7 +11856,7 @@ const A2_WORDS = [
       "explanation": [
         "Huvudidé: brennen är ett oregelbundet verb som betyder brinna: eld, ved, ljus och till och med ögon eller hud kan brinna. I grundbetydelsen har det inget direkt objekt.",
         "Former: brennt, brannte, hat gebrannt. Det är ett blandat verb: stammen byter vokal (brennen – brannte), men ändelserna är som hos regelbundna verb (ich brannte, wir brannten).",
-        "I överförd betydelse betyder brennen också bränna (om smärta eller sol: Die Sonne brennt) och brinna av entusiasm (für etwas brennen). Med objekt betyder brennen bränna (eine CD brennen) eller bränna, destillera (Schnaps brennen)."
+        "I överförd betydelse betyder brennen också bränna (om smärta eller sol: Die Sonne brennt) och brinna av entusiasm (für etwas brennen). Med objekt betyder brennen bränna (eine CD brennen) eller destillera (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "med • närvarande",
       "explanation": [
         "Huvudidé: dabei är ett adverb som är bildat av da + bei. Det betyder närvarande, med, vid det: bredvid något eller med vid en händelse. Den vanligaste förbindelsen är dabei sein (vara med, delta).",
-        "Andra vanliga betydelser: med sig (etwas dabei haben – ha något med sig), samtidigt (på samma gång) och att just nu hålla på med något (dabei sein, etwas zu tun). Det är ett ord för plats och tid som syftar tillbaka på något som nämnts tidigare.",
+        "Andra vanliga betydelser: med sig (etwas dabei haben – ha något med sig), samtidigt, dessutom och att just nu hålla på med något (dabei sein, etwas zu tun). Det är ett ord för plats och tid som syftar tillbaka på något som nämnts tidigare.",
         "Dabei ingår också i sammansättningar: dabeibleiben (hålla fast vid det), dabeihaben (ha med sig), dabeisitzen (sitta med)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Huvudidé: dafür är ett adverb (da + für). Det betyder för det (i utbyte, som betalning, som tack), till det (ett syfte) eller för (som instämmande): Ich bin dafür (jag är för det).",
         "Det ersätter für + något som nämnts tidigare: Ich danke dir dafür. Med verb som sich interessieren für, sorgen für, sich entschuldigen für används dafür när man inte behöver upprepa substantivet.",
-        "I vardagsspråk betyder dafür också i gengäld, som kompensation: Er ist nicht schnell, dafür arbeitet er genau. I den betydelsen inleder det en motsats med en positiv kompensation."
+        "Dafür betyder också i gengäld, som kompensation: Er ist nicht schnell, dafür arbeitet er genau. I den betydelsen inleder det en motsats med en positiv kompensation."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "I en bisats med damit står verbet sist i satsen.",
-        "damit betyder inte därför; för orsak används deshalb eller darum."
+        "Konjunktionen damit (för att) betyder inte därför; för betydelsen därför används deshalb eller darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar används normalt inte utan nicht, kein, nichts."
+        "Som förstärkning av en negation används gar tillsammans med nicht, kein, nichts."
       ],
       "important": [
         "gar förstärker en negation: gar nicht är starkare än nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "I samband med Wien används ordet Kaffeehaus ofta; i Tyskland hör du lika ofta das Café.",
+        "Ordet Kaffeehaus är typiskt för Österrike (Wien); i Tyskland säger man mycket oftare das Café.",
         "Kom ihåg grundorden Kaffee (kaffe) + das Haus (hus)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Grundtanken: der Kellner är ett maskulint substantiv som betyder servitör, den som serverar mat och dryck på en restaurang eller ett kafé. En kvinna är die Kellnerin.",
         "Pluralis är die Kellner (män) och die Kellnerinnen (kvinnor). Böjning: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "För att påkalla servitörens uppmärksamhet passar Entschuldigung! bäst; tilltalet Herr Ober! anses i dag gammalmodigt."
+        "För att påkalla servitörens uppmärksamhet passar ”Entschuldigung!” bäst; tilltalet Herr Ober! anses i dag gammalmodigt."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen är maskulinum: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen ensamt betyder bil eller vagn (till exempel järnvägsvagn), inte barnvagn."
+        "Wagen ensamt betyder oftast bil eller vagn (till exempel järnvägsvagn); en barnvagn heter Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Kom ihåg: Kraft = kraft, Macht = makt, Energie = energi.",
-        "Lär dig frasen in Kraft treten (träda i kraft); den är vanligare än grundbetydelsen."
+        "Lär dig frasen in Kraft treten (träda i kraft) — den används ofta om lagar och regler."
       ],
       "important": [
         "Die Kraft är femininum; pluralis är die Kräfte, inte die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "betyg • not",
       "explanation": [
         "Grundtanken: die Note är ett feminint substantiv. I skolan och på högskolan betyder det betyg (eine gute Note bekommen, få ett bra betyg). Inom musiken är det en not: Noten lesen (läsa noter).",
-        "Pluralis är die Noten. I Tyskland går betygen från 1 (sehr gut) till 6 (ungenügend), och 1 är bäst. Därför betyder eine gute Note en låg siffra.",
+        "Pluralis är die Noten. I tyska skolor går betygen från 1 (sehr gut) till 6 (ungenügend), och 1 är bäst (på universitet är skalan 1,0–5,0). Därför betyder eine gute Note en låg siffra.",
         "Om betyg säger man: eine Note bekommen, eine Note geben, die Note verbessern (höja betyget)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "I uttrycket rechnen mit + dativ är betydelsen ”räkna med”, till exempel med dåligt väder."
       ],
       "important": [
-        "Rechnen mit betyder oftast ”vänta sig, ta hänsyn till”, inte ”räkna med hjälp av något”."
+        "Rechnen mit + dativ betyder oftast ”vänta sig, ta hänsyn till” (Wir rechnen mit Regen); med ett hjälpmedel betyder det ”räkna med”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "skarp • stark",
       "explanation": [
-        "Huvudidé: scharf är ett adjektiv med flera betydelser. Om ett föremål betyder det vass (scharfes Messer – en vass kniv), om mat betyder det stark, kryddstark smak (scharfes Essen). I överförd betydelse kan det också betyda skarp eller kraftig: eine scharfe Kurve, scharf bremsen.",
+        "Huvudidé: scharf är ett adjektiv med flera betydelser. Om ett föremål betyder det vass (scharfes Messer – en vass kniv), om mat betyder det stark, kryddstark smak (scharfes Essen). I överförd betydelse kan det också betyda tvär eller kraftig: eine scharfe Kurve (en skarp kurva), scharf bremsen (tvärbromsa).",
         "Komparativ är schärfer (med omljud), superlativ am schärfsten. Framför ett substantiv: ein scharfes Messer, scharfe Soße.",
         "Bra att komma ihåg: scharf gäller stark smak (chili, pepparrot), inte salt smak — salt heter salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "En kö där människor väntar kallas Schlange; Reihe är snarare en rad eller ordningsföljd (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen är ett fast uttryck: inte in der Schlange sein, utan Schlange stehen."
+        "Det vanligaste uttrycket är Schlange stehen (även in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln använder man när man byter en sak mot en annan (skola, arbete, valuta). ändern – när man förändrar något.",
-        "Att byta tåg eller buss heter umsteigen, inte wechseln."
+        "Att byta tåg eller buss heter oftast umsteigen (man kan också säga den Zug wechseln)."
       ],
       "important": [
         "Med Geld wechseln menar man oftast att växla pengar, inte att göra av med dem.",

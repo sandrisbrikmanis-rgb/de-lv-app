@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Eşyalar için jung kullanma — neu de.",
-        "Üstünlük derecesi her zaman umlautludur: jünger, „junger” değil."
+        "Üstünlük derecesi her zaman umlautludur: jünger (junger yalnızca çekim eki almış yalın derecedir: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (bölge, kırsal) ile der Staat (kurum olarak devlet) eş anlamlı değildir.",
-        "Çoğulda umlaut vardır: die Länder, „die Lande” değil."
+        "Çoğulda umlaut vardır: die Länder; die Lande eskimiş, şiirsel bir biçimdir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21794,7 +21794,7 @@ const A1_WORDS = [
       "explanation": [
         "schauen “bakmak, göz atmak” demektir — bakışı bir şeye yöneltmek: Wir schauen aus dem Fenster. Güney Almanya'da, Avusturya'da ve İsviçre'de çok sık kullanılır; kuzeyde daha çok gucken ya da sehen kullanılır.",
         "Çekimi: schaut, schaute, hat geschaut. Sık sık edatlarla: auf + Akkusativ (Er schaut auf die Uhr), aus dem Fenster (pencereden), nach + Dativ (Sie schaut nach dem Kind — çocuğa göz kulak oluyor). Emir kipi: Schau mal! — Bak!",
-        "Ich schaue fern ifadesi “televizyon izliyorum” demektir."
+        "Ich schaue fern ifadesi (fernschauen fiilinden — Güney Almanya'da ve Avusturya'da; başka yerlerde fernsehen) “televizyon izliyorum” demektir."
       ],
       "examples": [
         {
@@ -22617,7 +22617,7 @@ const A1_WORDS = [
         "Sehen, Ich sehe, was du meinst gibi ifadelerde “anlamak” anlamına da gelir."
       ],
       "important": [
-        "sehst ya da sehet diye bir biçim yoktur: doğrusu du siehst, er sieht.",
+        "Şimdiki zamanda du sehst ya da er seht diye bir biçim yoktur: doğrusu du siehst, er sieht.",
         "Bir şeyi (film, resim) izlediğini söylemek için hem sehen hem de sich (Dat) + ansehen kullanılabilir."
       ],
       "sectionAccents": {
@@ -25242,7 +25242,7 @@ const A1_WORDS = [
       "translation": "etrafında • saat",
       "explanation": [
         "um her zaman Akkusativ isteyen bir edattır. Zaman anlamında tam saati bildirir: um acht Uhr (saat sekizde). Yer anlamında bir şeyin etrafındaki bir çemberi anlatır: um den Tisch (masanın etrafında), um die Ecke (köşeyi dönünce).",
-        "Saat sorusu Um wie viel Uhr ...? (saat kaçta?) şeklindedir. um edatından sonra saat artikelsiz kullanılır: um 8 Uhr, in 8 Uhr değil.",
+        "Saat sorusu Um wie viel Uhr ...? (saat kaçta?) şeklindedir. Saat in ile değil, um ile (artikelsiz) belirtilir: um 8 Uhr, in 8 Uhr değil.",
         "zu + mastar ile um amaç bildirir: Er lernt, um zu verstehen (anlamak için öğreniyor)."
       ],
       "examples": [
@@ -25494,7 +25494,7 @@ const A1_WORDS = [
         "unter uns ifadesi “aramızda” demektir ve bir şey gizlice söylenirken kullanılır."
       ],
       "important": [
-        "Unter, zwischen ile aynı şey değildir: unter bir topluluğa ya da gruba (unter Freunden), zwischen ise iki belirli şeye işaret eder.",
+        "Unter, zwischen ile aynı şey değildir: unter bir topluluğa ya da gruba (unter Freunden), zwischen ise ayrı ayrı, adı geçen şeylere (çoğunlukla iki, ama daha fazla da olabilir) işaret eder.",
         "Unter + sayı “daha az” demektir: unter 18, 18 yaşından küçük demektir."
       ],
       "sectionAccents": {
@@ -27786,7 +27786,7 @@ const A1_WORDS = [
         "Kişilerle zu kullanılır: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu yalnızca Dativ ister: zu meinem Freund, zu der Schule.",
+        "Zu yalnızca Dativ ister: zu meinem Freund, zur Schule (= zu der Schule).",
         "Şehirler ve ülkeler için zu değil, nach kullanılır: nach Berlin."
       ],
       "sectionAccents": {
@@ -28646,7 +28646,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televizyon",
       "explanation": [
-        "das Fernsehen nötr bir isimdir ve bir medya ya da programların bütünü olarak televizyonu anlatır. Çoğulu pratikte yoktur: tekil kullanılır. Genellikle im ile kullanılır: im Fernsehen (televizyonda), beim Fernsehen (televizyonda çalışırken).",
+        "das Fernsehen nötr bir isimdir ve bir medya ya da programların bütünü olarak televizyonu anlatır. Çoğulu pratikte yoktur: tekil kullanılır. Genellikle im ile kullanılır: im Fernsehen (televizyonda), beim Fernsehen (televizyon izlerken; televizyonda çalışırken de).",
         "fernsehen (televizyon izlemek) fiilinden türemiş bir isimdir. Cihaza der Fernseher, etkinliğe ise fernsehen denir.",
         "İsim büyük harfle yazılır; fiil olarak fernsehen ayrılabilen bir fiildir."
       ],
@@ -30074,7 +30074,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Şunları ezberle: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub genellikle artikelsiz kullanılır: Urlaub haben, Urlaub nehmen."
+        "Urlaub haben, Urlaub nehmen deyimlerinde Urlaub artikelsiz kullanılır (ama: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Öğrenciler için genellikle Urlaub değil, Ferien denir.",

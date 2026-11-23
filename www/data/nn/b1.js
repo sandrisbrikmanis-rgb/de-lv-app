@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "besorgen er ikkje det same som besorgt sein (uroleg, bekymra): adjektivet besorgt er eit anna ord.",
-        "besorgen er ikkje-skiljeleg: besorgt, ikkje gesorgt."
+        "besorgen er ikkje-skiljeleg, i perfektum utan ge-: hat besorgt (gesorgt kjem frå eit anna verb — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11679,7 +11679,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovudtanke: bieten tyder å tilby eller gi – gi nokon ein sjanse, ei teneste eller ein fordel; og òg å by på ein auksjon. Det er eit sterkt verb: er bietet, bot, hat geboten. Etter det kjem akkusativ, ofte med dativ: jemandem etwas bieten.",
         "Døme: Das Hotel bietet viel Komfort (hotellet byr på mykje komfort), Ich biete 100 Euro (eg byr 100 euro). Refleksivt tyder sich bieten å by seg: Eine Chance bietet sich (det byr seg ein sjanse).",
-        "I slekt med dette er substantivet das Angebot (tilbod), men verbet anbieten (tilby) er eit anna ord."
+        "Substantivet das Angebot (tilbod) kjem av anbieten; av bieten kjem das Gebot (bod på auksjon)."
       ],
       "examples": [
         {
@@ -12100,7 +12100,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blokk",
       "explanation": [
-        "Hovudtanken: der Block er ei blokk – eit kompakt, samanhengande stykke eller sett: ei notatblokk, ei isblokk, ei bustadblokk. Fleirtal er die Blöcke.",
+        "Hovudtanken: der Block er ei blokk – eit kompakt, samanhengande stykke eller sett: ei notatblokk, ei isblokk, ei bustadblokk. Fleirtal er die Blöcke (om notatblokker og bustadblokker ofte òg die Blocks).",
         "Typiske samansetjingar: der Notizblock (notatblokk), der Wohnblock (bustadblokk, bustadkompleks), der Motorblock (motorblokk); òg ein Block Eis (ei isblokk).",
         "I overført tyding kan der Block òg vere ei politisk eller økonomisk samanslutning: der Machtblock (maktblokk)."
       ],
@@ -12734,7 +12734,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft er hokjønn.",
-        "Ikkje bland det saman med das Konsulat (konsulat): det tener som regel innbyggjarane i ein bestemd by."
+        "Ikkje bland det saman med das Konsulat (konsulat): det tener statsborgarane i eit bestemt konsulatdistrikt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13316,7 +13316,7 @@ const B1_WORDS = [
       "translation": "forbund • union",
       "explanation": [
         "Hovudtanken: der Bund er eit forbund, ei samanslutning eller ein union på statleg nivå – fleire partar som slår seg saman. Fleirtal er die Bünde. Ordet er hankjønn.",
-        "I Tyskland tyder der Bund ofte forbundsregjeringa, forbundsnivået, i motsetnad til delstatane (Ländern): Bund und Länder. I samansetjingar: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "I Tyskland tyder der Bund ofte forbundsregjeringa, forbundsnivået, i motsetnad til delstatane (die Länder): Bund und Länder. I samansetjingar: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Andre tydingar: ein Bund fürs Leben (ekteskap, eit livslangt forbund) og das Bund (bunt): ein Bund Radieschen. Det er eit anna ord med ein annan artikkel."
       ],
       "examples": [
@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovudtanken: dadurch er eit adverb som tyder dermed, på den måten, ved det – det viser til ei årsak eller eit middel. Det knyter vanlegvis den førre setninga til følgja: Er hat viel geübt. Dadurch wurde er besser.",
         "Ordstilling: etter dadurch står verbet på andreplass: Dadurch wird alles einfacher. Dessutan innleier dadurch, dass som konjunksjon (ved at) ei leddsetning med verbet til slutt.",
-        "I stadtyding tyder dadurch òg gjennom det, og då ligg trykket på første staving: Die Tür war offen, wir sind dadurch gegangen."
+        "I stadtyding tyder dadurch òg gjennom det: Die Tür war offen, wir sind dadurch gegangen. Vanlegvis ligg trykket på andre staving; første staving får trykk berre når ein vil framheve ordet særskilt."
       ],
       "examples": [
         {
@@ -15478,7 +15478,7 @@ const B1_WORDS = [
       "translation": "tene",
       "explanation": [
         "Hovudtanken: dienen tyder å tene, vere nyttig for eit føremål eller ha ein bestemd funksjon. Dei vanlegaste konstruksjonane: dienen als + nominativ (tene som), dienen zu + dativ (tene til, brukast til) og dienen + dativ (tene nokon).",
-        "Former: dient, diente, hat gedient. Verbet tek dativ (Er dient dem Land), ikkje akkusativ. I daglegtale er Womit kann ich dienen? eit høfleg tilbod om hjelp, og i militær tyding tyder dienen «gjere teneste i forsvaret»."
+        "Former: dient, diente, hat gedient. Verbet tek dativ (Er dient dem Land), ikkje akkusativ. Womit kann ich dienen? er eit høfleg, litt gammaldags tilbod om hjelp frå betjeninga, og i militær tyding tyder dienen «gjere teneste i forsvaret»."
       ],
       "examples": [
         {
@@ -16322,7 +16322,7 @@ const B1_WORDS = [
       "translation": "diaré",
       "explanation": [
         "Hovudtanken: der Durchfall er eit substantiv i hankjønn som tyder diaré – tynn, hyppig avføring. I medisin og i kvardagen vert det brukt i eintal: Durchfall haben – ha diaré, ha laus mage.",
-        "Fleirtalsforma die Durchfälle vert sjeldan brukt. I overført tyding kan Durchfall òg tyde fiasko (til eksamen, i ei teaterframsyning), men då bruker ein som regel verbet durchfallen."
+        "Fleirtalsforma die Durchfälle vert sjeldan brukt. I overført tyding (i daglegtale) kan Durchfall òg tyde fiasko (til eksamen, i ei teaterframsyning), men då bruker ein som regel verbet durchfallen."
       ],
       "examples": [
         {
@@ -17048,7 +17048,7 @@ const B1_WORDS = [
       "translation": "eigen",
       "explanation": [
         "Hovudtanken: eigen er eit adjektiv som tyder «eigen». Det understrekar eigarskap: mein eigenes Auto – min eigen bil. Det står vanlegvis framfor substantivet og vert bøygd: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "I overført tyding kan eigen òg tyde «særeigen, eigenarta»: ein eigener Geruch – ei særprega lukt. Uttrykket etwas zu eigen haben tyder å ha noko ved seg. På B1-nivå er hovudtydinga «eigen»."
+        "I overført tyding kan eigen òg tyde «særeigen, eigenarta»: ein eigener Geruch – ei særprega lukt. Uttrykket sich (Dat) etwas zu eigen machen tyder å gjere noko til sitt eige. På B1-nivå er hovudtydinga «eigen»."
       ],
       "examples": [
         {
@@ -29688,7 +29688,7 @@ const B1_WORDS = [
       ],
       "important": [
         "I fleirtal får ordet endinga -er: die Geschlechter.",
-        "På skjema står det ofte eit felt som skal fyllast ut etter Geschlecht, ikkje eit spørsmål."
+        "På skjema er Geschlecht namnet på eit felt (kjønn), der ein kryssar av for männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32586,7 +32586,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Etter ein Haufen følgjer substantivet utan von: ein Haufen Arbeit, ein Haufen Geld.",
+        "Etter ein Haufen følgjer substantivet vanlegvis utan von: ein Haufen Arbeit, ein Haufen Geld (sjeldnare: ein Haufen von Problemen).",
         "Uttrykket über den Haufen werfen – kollkaste (planar)."
       ],
       "important": [
@@ -34233,7 +34233,7 @@ const B1_WORDS = [
       "translation": "homofil • homoseksuell",
       "explanation": [
         "Hovudtyding: der Homosexuelle er eit substantiv som tyder ein homofil mann. Det blir bøygd som eit adjektiv: ein Homosexueller, der Homosexuelle, die Homosexuellen (fleirtal). Om ei kvinne: die Homosexuelle, eine Homosexuelle.",
-        "Ordet er nøytralt og formelt og blir brukt i offisielle tekstar, nyheiter og lover. I kvardagen seier ein ofte schwul (homo, homofil) eller lesbisch (lesbisk)."
+        "Ordet er nøytralt og formelt og blir brukt i offisielle tekstar, nyheiter og lover. I kvardagen bruker ein ofte adjektiv: er ist schwul (han er homo), sie ist lesbisch (ho er lesbisk)."
       ],
       "examples": [
         {
@@ -34471,7 +34471,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "høyre",
+          "meaning": "høyre; lytte",
           "example": "Ich höre Musik. – Eg høyrer på musikk."
         },
         {
@@ -45629,7 +45629,7 @@ const B1_WORDS = [
         "Samansetningar: die Machtübernahme (maktovertaking), der Machtkampf (maktkamp)."
       ],
       "important": [
-        "Macht tyder ikkje berre fysisk styrke; til det brukar ein die Kraft.",
+        "Macht tyder ikkje fysisk styrke; det heiter die Kraft.",
         "Fleirtalet die Mächte viser for det meste til statar eller krefter."
       ],
       "sectionAccents": {
@@ -46004,7 +46004,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Ordet das Maß blir skrive med ß fordi vokalen er lang.",
-        "Fleirtal er die Maße (dimensjonar); i dativ – den Maßen (in Maßen, über alle Maßen)."
+        "Fleirtal er die Maße (dimensjonar); i dativ – den Maßen (in Maßen). I uttrykket über alle Maßen har ei historisk form halde seg."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47375,7 +47375,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben er ikkje det same som aufgeben: nachgeben er å gje etter for nokon, aufgeben er å gje opp eit mål.",
-        "Prefikset nach- blir skilt frå: gibt nach, ikkje nachgibt."
+        "Prefikset nach- blir skilt frå i hovudsetningar: er gibt nach (i leddsetningar står det saman: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47689,7 +47689,7 @@ const B1_WORDS = [
       "translation": "helle • vere tilbøyeleg til",
       "explanation": [
         "Hovudtyding: neigen med zu + dativ tyder å ha ein tendens til noko, vere tilbøyeleg til noko: Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret tyding tyder etwas neigen å bøye eller helle noko (den Kopf neigen). Refleksivt tyder sich neigen å bøye seg eller å nærme seg slutten: Der Tag neigt sich.",
+        "I konkret tyding tyder etwas neigen å bøye eller helle noko (den Kopf neigen). Refleksivt tyder sich neigen å bøye seg eller (i høgare stil) å nærme seg slutten: Der Tag neigt sich. Uttrykket sich dem Ende zuneigen kjem av zuneigen.",
         "Av same rota er substantivet die Neigung (tilbøyelegheit, hang, helling)."
       ],
       "examples": [
@@ -48584,7 +48584,7 @@ const B1_WORDS = [
       "translation": "naud • mangel",
       "explanation": [
         "Hovudtyding: die Not er naud, mangel, ein vanskeleg situasjon der eit menneske manglar det aller naudsynte (in Not leben, Not leiden). Det er òg eit akutt behov eller ei ulukke: in der Not, in Not geraten.",
-        "Ordet er hokjønn. Fleirtal die Nöte er svært sjeldan; vanlegvis blir eintal brukt.",
+        "Ordet er hokjønn. Fleirtal die Nöte blir brukt sjeldnare (Sorgen und Nöte); vanlegvis blir eintal brukt.",
         "Uttrykk: zur Not (om det ikkje går på annan måte; i verste fall), aus der Not eine Tugend machen (gjere ei dygd av naudsyn), Not macht erfinderisch (naud lærer naken kvinne å spinne)."
       ],
       "examples": [
@@ -54729,7 +54729,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten er ikkje braten: braten er å steikje med olje eller feitt, rösten – å riste.",
-        "Ikkje bland rösten med rostet (rustar)."
+        "Ikkje bland rösten med rosten (ruste)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60246,7 +60246,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Om sitjeplass på transportmiddel seier du der Sitz eller der Platz; berre der Platz kan tyde plass generelt.",
-        "Hovudkontoret til eit firma heiter der Firmensitz."
+        "Det juridiske setet (hovudkontoret) til eit firma heiter der Firmensitz."
       ],
       "important": [
         "Der Sitz er ikkje das Sitzen: das Sitzen er handlinga, der Sitz er setet eller hovudsetet.",
@@ -61219,7 +61219,7 @@ const B1_WORDS = [
         "Om å samle opp (energi, vatn) brukar ein òg speichern."
       ],
       "important": [
-        "Imperativ er Speichere (eller Speicher), ikkje Speichern.",
+        "Imperativ er Speichere! (òg Speichre!; i daglegtale Speicher!), ikkje Speichern.",
         "speichern er ikkje sperren (sperre)."
       ],
       "sectionAccents": {
@@ -76477,7 +76477,7 @@ const B1_WORDS = [
         "Etter zugeben følgjer ofte ei dass-setning der verbet står sist."
       ],
       "important": [
-        "Zugeben er å vedgå noko som ikkje er til fordel for den som snakkar; vil du berre seie at du tilset noko i maten, bruker du hinzufügen.",
+        "Zugeben tyder vanlegvis å vedgå noko som ikkje er til fordel for den som snakkar. I oppskrifter tyder zugeben òg å tilsetje (Salz zugeben); i kvardagen seier ein oftare hinzufügen i denne tydinga.",
         "Etter zugeben står verbet sist i dass-setninga: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

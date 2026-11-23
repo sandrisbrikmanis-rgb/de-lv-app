@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Niet verwarren met abfinden zonder sich: dat betekent schadeloosstellen of met geld afkopen.",
-        "De vorm in de voltooide tijd is sich abgefunden (met -ge- in het midden), niet geabfunden."
+        "De vorm in de voltooide tijd is hat sich abgefunden (-ge- tussen ab- en de stam), niet geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "blootstellen • onderbreken • aanmerken",
       "explanation": [
-        "Kern: aussetzen is een scheidbaar werkwoord met meerdere betekenissen: achterlaten of te vondeling leggen (een hond, een kind), blootstellen (aan kou, gevaar), stoppen of uitvallen (van een motor, het werk) en, met an + datief, iets aan te merken hebben.",
+        "Kern: aussetzen is een scheidbaar werkwoord met meerdere betekenissen: achterlaten of te vondeling leggen (een hond, een kind), blootstellen (aan kou, gevaar), stoppen of uitvallen (van een motor, het werk) en, in de uitdrukking etwas an + datief auszusetzen haben, iets aan te merken hebben, kritiek hebben.",
         "Vormen: setzt aus, setzte aus, hat ausgesetzt. Bij blootstellen gebruik je de datief: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Het deelwoord ausgesetzt sein betekent blootgesteld zijn.",
         "In de betekenis aanmerken gebruik je de uitdrukking etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Hier komt zu tussen voorvoegsel en stam: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "zich ontfermen • medelijden hebben",
       "explanation": [
         "Kernidee: sich erbarmen betekent medelijden hebben met iemand die lijdt en hem helpen of genade tonen. Het is verheven taal, vaak religieus of ironisch.",
-        "Daarna volgt meestal de genitief: sich des Hundes erbarmen. Minder vaak wordt über + accusatief gebruikt. Vormen: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Daarna volgt meestal de genitief: sich des Hundes erbarmen. Minder vaak (regionaal, in Oostenrijk) wordt über + accusatief gebruikt. Vormen: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Schertsend in de spreektaal: Wer erbarmt sich und …? — Wie is zo barmhartig om …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig drukt vaak een ongewenst of ongelijkmatig uiterlijk uit (vuile kleding, rode vlekken op de huid).",
-        "Let bij een uitgang op de e: ein fleckiges Fell, eine fleckige Haut."
+        "Voor een zelfstandig naamwoord krijgt fleckig een uitgang: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "achteraf • later • aanvullend",
       "explanation": [
         "Kern: nachträglich betekent achteraf, na de eigenlijke handeling of termijn — later of aanvullend toegevoegd of gedaan. Het is zowel bijvoeglijk naamwoord (eine nachträgliche Änderung) als bijwoord (nachträglich ändern).",
-        "Een veelvoorkomende betekenis is 'te laat': nachträglich gratulieren — iemand achteraf feliciteren. Het bijvoeglijk naamwoord drukt ook een aanvullend karakter uit: eine nachträgliche Zahlung (een aanvullende betaling)."
+        "Een veelvoorkomende betekenis is 'te laat': nachträglich gratulieren — iemand achteraf feliciteren. Het bijvoeglijk naamwoord betekent ook dat iets later, na het afgesproken tijdstip, plaatsvindt: eine nachträgliche Zahlung (een betaling achteraf)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "overbrengen • overhandigen",
       "explanation": [
-        "Kern: überbringen betekent een bericht, felicitaties, een brief of een cadeau in opdracht bij de ontvanger bezorgen — brengen en persoonlijk overhandigen. Aan wie je het overhandigt, staat in de datief: jemandem etwas überbringen.",
+        "Kern: überbringen betekent een bericht, felicitaties, een brief of een cadeau bij de ontvanger bezorgen — brengen en persoonlijk overhandigen. Aan wie je het overhandigt, staat in de datief: jemandem etwas überbringen.",
         "Onscheidbaar voorvoegsel über-: überbringt, überbrachte, hat überbracht. In de infinitief staat zu vóór het werkwoord: um die Nachricht zu überbringen. Het woord is enigszins formeel."
       ],
       "examples": [

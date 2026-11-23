@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не путай с abfinden без sich: оно означает компенсировать или удовлетворить деньгами.",
-        "Форма Perfekt — sich abgefunden (с -ge- в середине), а не geabfunden."
+        "Форма Perfekt — hat sich abgefunden (-ge- между ab- и корнем), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "выставлять • выставить • подвергать • подвергнуть",
       "explanation": [
-        "Главное: aussetzen — глагол с отделяемой приставкой и несколькими значениями: выставлять или бросать (собаку, ребёнка), подвергать (холоду, опасности), останавливаться или прерываться (о двигателе, работе), а с an + дательный падеж — возражать.",
+        "Главное: aussetzen — глагол с отделяемой приставкой и несколькими значениями: выставлять или бросать (собаку, ребёнка), подвергать (холоду, опасности), останавливаться или прерываться (о двигателе, работе) и в выражении etwas an + дательный падеж auszusetzen haben — возражать, критиковать.",
         "Формы: setzt aus, setzte aus, hat ausgesetzt. В значении «подвергать» используется дательный падеж: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Причастие: ausgesetzt sein означает «быть подверженным».",
         "В значении «возражать» используется выражение etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Здесь zu стоит между приставкой и корнем: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "сжалиться",
       "explanation": [
         "Главное: sich erbarmen значит испытывать сострадание к страдающему и помочь ему или сжалиться над ним. Это высокий стиль, часто религиозный или иронический.",
-        "После него обычно стоит родительный падеж: sich des Hundes erbarmen. Реже используется über + винительный падеж. Формы: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "После него обычно стоит родительный падеж: sich des Hundes erbarmen. Реже (регионально, в Австрии) используется über + винительный падеж. Формы: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "В разговорной речи в шутку: Wer erbarmt sich und …? — Кто сжалится и …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig часто передаёт нежелательный или неравномерный вид (грязная одежда, красные пятна на коже).",
-        "Добавляя окончание, помни о e: ein fleckiges Fell, eine fleckige Haut."
+        "Перед существительным fleckig получает окончание: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "последующий • дополнительный • позднее",
       "explanation": [
         "Главное: nachträglich означает: уже после основного действия или срока — добавленный или сделанный позднее дополнительно. Это и прилагательное (eine nachträgliche Änderung), и наречие (nachträglich ändern).",
-        "Частый оттенок значения — опоздание: nachträglich gratulieren — поздравить после события. Прилагательное выражает также дополнительный характер: eine nachträgliche Zahlung (дополнительный платёж)."
+        "Частый оттенок значения — опоздание: nachträglich gratulieren — поздравить после события. Прилагательное означает также происходящий позже, после установленного срока: eine nachträgliche Zahlung (более поздний платёж)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "передавать • передать (известие, привет, подарок)",
       "explanation": [
-        "Главное: überbringen означает доставить адресату по поручению известие, поздравление, письмо или подарок — принести и передать лично. Тот, кому передают, стоит в дательном падеже: jemandem etwas überbringen.",
+        "Главное: überbringen означает доставить адресату известие, поздравление, письмо или подарок — принести и передать лично. Тот, кому передают, стоит в дательном падеже: jemandem etwas überbringen.",
         "Неотделяемая приставка über-: überbringt, überbrachte, hat überbracht. В инфинитиве частица zu стоит перед глаголом: um die Nachricht zu überbringen. Слово звучит несколько формально."
       ],
       "examples": [

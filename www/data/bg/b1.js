@@ -3155,7 +3155,7 @@ const B1_WORDS = [
         {
           "word": "ablegen",
           "meaning": "оставям, свалям",
-          "example": "Sie legt die Jacke ab. – Тя оставя якето си."
+          "example": "Sie legt die Jacke ab. – Тя съблича якето си."
         }
       ],
       "tip": [
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "С удоволствие Ви възлагаме поръчката."
+          "lv": "С удоволствие Ви възлагаме поръчката (задачата)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen не е същото като besorgt sein (загрижен): прилагателното besorgt е друга дума.",
-        "Besorgen е неразделим: besorgt, а не gesorgt."
+        "Besorgen е неразделим, в перфект е без ge-: hat besorgt (gesorgt е от друг глагол — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Накратко: bieten означава „предлагам“ или осигурявам — давам на някого възможност, услуга или предимство; също наддавам на търг. Глаголът е силен: er bietet, bot, hat geboten. Следва винителен падеж, често и дателен: jemandem etwas bieten.",
         "Примери: Das Hotel bietet viel Komfort (хотелът предлага много удобства), Ich biete 100 Euro (предлагам 100 евро). Възвратното sich bieten означава „появявам се“ (за възможност): Eine Chance bietet sich (появява се възможност).",
-        "Сродно е съществителното das Angebot (предложение, оферта), но глаголът anbieten (предлагам) е друг."
+        "Съществителното das Angebot (предложение, оферта) произлиза от anbieten; от bieten е das Gebot (наддаване на търг)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "блок",
       "explanation": [
-        "Накратко: der Block е блок — плътно, цяло парче или комплект: блок за бележки, блок лед, жилищен блок. Множественото число е die Blöcke.",
+        "Накратко: der Block е блок — плътно, цяло парче или комплект: блок за бележки, блок лед, жилищен блок. Множественото число е die Blöcke (за блокове за бележки и сгради често и die Blocks).",
         "Типични сложни думи: der Notizblock (блок за бележки), der Wohnblock (жилищен блок), der Motorblock (блок на двигателя); също ein Block Eis (блок лед).",
         "В преносен смисъл der Block може да бъде и политическо или икономическо обединение: der Machtblock (властови блок)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft е от женски род.",
-        "Не бъркай с das Konsulat (консулство): то обикновено обслужва гражданите в даден град."
+        "Не бъркай с das Konsulat (консулство): то обслужва гражданите в определен консулски окръг."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "съюз",
       "explanation": [
         "Накратко: der Bund е съюз, обединение или съюз на държавно ниво — общо обединение на няколко страни. Множественото число е die Bünde. Думата е от мъжки род.",
-        "В Германия der Bund често означава федералната власт за разлика от провинциите (Ländern): Bund und Länder. В сложни думи: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "В Германия der Bund често означава федералната власт за разлика от провинциите (die Länder): Bund und Länder. В сложни думи: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Други значения: ein Bund fürs Leben (брачен съюз) и das Bund (връзка, сноп): ein Bund Radieschen. Това е друга дума с друг член."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Накратко: dadurch е наречие, което означава „по този начин“, „с това“, „чрез това“ — посочва причина или средство. Обикновено свързва предходното изречение със следствието: Er hat viel geübt. Dadurch wurde er besser.",
         "Словоред: след dadurch глаголът е на второ място: Dadurch wird alles einfacher. Също dadurch, dass като съюз (като, поради това че) въвежда подчинено изречение с глагола в края.",
-        "В пространствен смисъл dadurch означава и „през това“ и тогава ударението е на първата сричка: Die Tür war offen, wir sind dadurch gegangen."
+        "В пространствен смисъл dadurch означава и „през това“: Die Tür war offen, wir sind dadurch gegangen. Обикновено ударението е на втората сричка; първата сричка се ударява само при специално подчертаване."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "служа",
       "explanation": [
         "Накратко: dienen означава „служа“, послужвам за дадена цел или изпълнявам някаква функция. Най-честите конструкции: dienen als + именителен падеж (служа като), dienen zu + дателен падеж (служа за) и dienen + дателен падеж (служа на някого).",
-        "Форми: dient, diente, hat gedient. След глагола следва дателен падеж (Er dient dem Land), а не винителен. В разговорната реч Womit kann ich dienen? е учтиво предложение за помощ, а във военен смисъл dienen означава „служа в армията“."
+        "Форми: dient, diente, hat gedient. След глагола следва дателен падеж (Er dient dem Land), а не винителен. Womit kann ich dienen? е учтиво, малко старомодно предложение за помощ от страна на обслужващия, а във военен смисъл dienen означава „служа в армията“."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "диария",
       "explanation": [
         "Накратко: der Durchfall е съществително от мъжки род, което означава диария – течни, чести изхождания. В медицината и в ежедневието се използва в единствено число: Durchfall haben – имам диария.",
-        "Множественото число die Durchfälle се използва рядко. В преносен смисъл Durchfall може да означава и провал (на изпит, на театрално представление), но тогава обикновено се използва глаголът durchfallen."
+        "Множественото число die Durchfälle се използва рядко. В преносен смисъл (в разговорния език) Durchfall може да означава и провал (на изпит, на театрално представление), но тогава обикновено се използва глаголът durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "свой • собствен",
       "explanation": [
         "Накратко: eigen е прилагателно, което означава „свой, собствен“. Подчертава принадлежност: mein eigenes Auto – моята собствена кола. Обикновено стои пред съществителното и се склонява: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "В преносен смисъл eigen може да означава и „особен, своеобразен“: ein eigener Geruch – особена миризма. Изразът etwas zu eigen haben означава „притежавам нещо като присъщо качество“. На ниво B1 основното значение е „свой, собствен“."
+        "В преносен смисъл eigen може да означава и „особен, своеобразен“: ein eigener Geruch – особена миризма. Изразът sich (Dat) etwas zu eigen machen означава „приемам нещо като свое“. На ниво B1 основното значение е „свой, собствен“."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "В множествено число окончанието е -er: die Geschlechter.",
-        "Във формулярите след Geschlecht обикновено има поле за попълване, а не въпрос."
+        "Във формулярите Geschlecht е името на полето (пол), където се отбелязва männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "След ein Haufen следва съществително без 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "След ein Haufen съществителното обикновено следва без 'von': ein Haufen Arbeit, ein Haufen Geld (по-рядко: ein Haufen von Problemen).",
         "Изразът über den Haufen werfen — провалям, обръщам наопаки (плановете)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "хомосексуалист",
       "explanation": [
         "Накратко: der Homosexuelle е съществително, което означава хомосексуален мъж. Склонява се като прилагателно: ein Homosexueller, der Homosexuelle, die Homosexuellen (в множествено число). За жена: die Homosexuelle, eine Homosexuelle.",
-        "Думата е неутрална, официална и се използва в официални текстове, новини, закони. В ежедневието често се казва schwul (гей) или lesbisch (лесбийка)."
+        "Думата е неутрална, официална и се използва в официални текстове, новини, закони. В ежедневието често се използват прилагателни: er ist schwul (той е гей), sie ist lesbisch (тя е лесбийка)."
       ],
       "examples": [
         {
@@ -34481,7 +34481,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "чувам",
+          "meaning": "чувам; слушам",
           "example": "Ich höre Musik. – Слушам музика."
         },
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Сложни думи: die Machtübernahme (поемане на властта), der Machtkampf (борба за власт)."
       ],
       "important": [
-        "Macht не означава просто физическа сила; за нея се използва die Kraft.",
+        "Macht не означава физическа сила; тя се нарича die Kraft.",
         "Множественото число die Mächte се отнася предимно за държави или сили."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Думата das Maß се пише с ß, защото гласната е дълга.",
-        "Множественото число е die Maße (размери); в дателен падеж — den Maßen (in Maßen, über alle Maßen)."
+        "Множественото число е die Maße (размери); в дателен падеж — den Maßen (in Maßen). В израза über alle Maßen се е запазила историческа форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben не е същото като aufgeben: nachgeben е да отстъпиш на някого, aufgeben е да се откажеш от някаква цел.",
-        "Представката nach- се отделя: gibt nach, а не nachgibt."
+        "Представката nach- се отделя в главното изречение: er gibt nach (в подчиненото изречение е слята: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "клоня • стремя се",
       "explanation": [
         "Накратко: neigen със zu + дателен падеж означава клоня към нещо, имам склонност: Er neigt zu schnellen Entscheidungen. Форми: neigt, neigte, hat geneigt.",
-        "В пряк смисъл etwas neigen означава навеждам, накланям (den Kopf neigen). Възвратно sich neigen означава навеждам се или приближавам се към края: Der Tag neigt sich.",
+        "В пряк смисъл etwas neigen означава навеждам, накланям (den Kopf neigen). Възвратно sich neigen означава навеждам се или (в по-висок стил) приближавам се към края: Der Tag neigt sich. Изразът sich dem Ende zuneigen е от zuneigen.",
         "От същия корен е образувано съществителното die Neigung (склонност, наклонност, наклон)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "нужда • недоимък",
       "explanation": [
         "Накратко: die Not е нужда, беда — тежко положение, когато на човека му липсва най-необходимото (in Not leben, Not leiden). Тя е и спешна нужда или нещастие: in der Not, in Not geraten.",
-        "Думата е от женски род. Множественото число die Nöte е много рядко; обикновено се използва единственото число.",
+        "Думата е от женски род. Множественото число die Nöte се използва по-рядко (Sorgen und Nöte); обикновено се използва единственото число.",
         "Изрази: zur Not (ако няма друг начин; в краен случай), aus der Not eine Tugend machen (правя от нуждата добродетел), Not macht erfinderisch (нуждата прави човека изобретателен)."
       ],
       "examples": [
@@ -54741,7 +54741,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten не е braten: braten означава пържа с олио или мазнина, rösten – пека на сухо.",
-        "Не бъркай rösten с rostet (ръждясва)."
+        "Не бъркай rösten с rosten (ръждясвам)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60259,7 +60259,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "За място в транспорта се казва der Sitz или der Platz; само der Platz може да означава място изобщо.",
-        "За седалището на фирма се казва der Firmensitz."
+        "Юридическото седалище (централата) на фирма се нарича der Firmensitz."
       ],
       "important": [
         "Der Sitz не е das Sitzen: das Sitzen е действието, der Sitz – седалка или седалище.",
@@ -61232,7 +61232,7 @@ const B1_WORDS = [
         "За натрупване (енергия, вода) също се използва speichern."
       ],
       "important": [
-        "Повелителното наклонение е Speichere (или Speicher), а не Speichern.",
+        "Повелителното наклонение е Speichere! (също Speichre!; в разговорния език Speicher!), а не Speichern.",
         "speichern не е sperren (блокирам)."
       ],
       "sectionAccents": {
@@ -70128,7 +70128,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "бинт, лента",
+          "meaning": "превръзка, бинт",
           "example": "Sie wickelt eine Binde um den Fuß. – Тя увива бинт около стъпалото."
         },
         {
@@ -70230,7 +70230,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "бинт, лента"
+                "превръзка, бинт"
               ]
             }
           },
@@ -76492,7 +76492,7 @@ const B1_WORDS = [
         "След zugeben често следва изречение с dass, в което глаголът е накрая."
       ],
       "important": [
-        "Zugeben означава да признаеш нещо, което не е изгодно за говорещия; ако просто искаш да кажеш, че добавяш нещо към ястието, използвай hinzufügen.",
+        "Zugeben обикновено означава да признаеш нещо, което не е изгодно за говорещия. В рецептите zugeben означава и добавям (Salz zugeben); в ежедневието в това значение по-често се казва hinzufügen.",
         "След zugeben в изречение с dass глаголът е накрая: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

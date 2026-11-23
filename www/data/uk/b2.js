@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Не плутай з abfinden без sich: воно означає «компенсувати» або «задовольнити грошима».",
-        "Форма Perfekt — sich abgefunden (з -ge- всередині), а не geabfunden."
+        "Форма Perfekt — hat sich abgefunden (-ge- між ab- і кореневою частиною), а не geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "виставляти • виставити • піддавати • піддати",
       "explanation": [
-        "Основна думка: aussetzen — дієслово з відокремлюваним префіксом і кількома значеннями: висаджувати й кидати напризволяще (собаку, дитину), піддавати (холоду, небезпеці), зупинятися або перериватися (про двигун, роботу), а з an + давальний відмінок — заперечувати, мати зауваження.",
+        "Основна думка: aussetzen — дієслово з відокремлюваним префіксом і кількома значеннями: висаджувати й кидати напризволяще (собаку, дитину), піддавати (холоду, небезпеці), зупинятися або перериватися (про двигун, роботу), а у вислові etwas an + давальний відмінок auszusetzen haben — заперечувати, критикувати.",
         "Форми: setzt aus, setzte aus, hat ausgesetzt. Коли йдеться про вплив чогось, уживають давальний відмінок: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Вираз ausgesetzt sein означає «бути підданим».",
         "У значенні «мати заперечення» вживають вираз etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Тут zu вставляється між префіксом і коренем: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "змилуватися",
       "explanation": [
         "Головна думка: sich erbarmen означає співчувати тому, хто страждає, і допомогти йому або змилуватися над ним. Мова висока, часто релігійна чи іронічна.",
-        "Після нього зазвичай іде родовий відмінок: sich des Hundes erbarmen. Рідше вживають über + знахідний відмінок. Форми: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Після нього зазвичай іде родовий відмінок: sich des Hundes erbarmen. Рідше (регіонально, в Австрії) вживають über + знахідний відмінок. Форми: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Жартома в розмовній мові: Wer erbarmt sich und …? — Хто змилується і …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig часто передає небажаний або нерівномірний вигляд (брудний одяг, червоні плями на шкірі).",
-        "Додаючи закінчення, пам’ятай про e: ein fleckiges Fell, eine fleckige Haut."
+        "Перед іменником fleckig отримує закінчення: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "пізніший • додатковий • пізніше",
       "explanation": [
         "Головна думка: nachträglich означає згодом, уже після основної дії чи строку — пізніше додатково додане чи зроблене. Це і прикметник (eine nachträgliche Änderung), і прислівник (nachträglich ändern).",
-        "Часте значення — запізнення: nachträglich gratulieren — привітати після події. Прикметник виражає також додатковий характер: eine nachträgliche Zahlung (додатковий платіж)."
+        "Часте значення — запізнення: nachträglich gratulieren — привітати після події. Прикметник означає також щось, що відбувається пізніше, після встановленого строку: eine nachträgliche Zahlung (пізніший платіж)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "передавати • передати (звістку, лист, подарунок)",
       "explanation": [
-        "Головна думка: überbringen означає доставити адресатові довірену звістку, привітання, лист або подарунок — принести й передати особисто. Той, кому передають, стоїть у давальному відмінку (Dativ): jemandem etwas überbringen.",
+        "Головна думка: überbringen означає доставити адресатові звістку, привітання, лист або подарунок — принести й передати особисто. Той, кому передають, стоїть у давальному відмінку (Dativ): jemandem etwas überbringen.",
         "Невідокремлюваний префікс über-: überbringt, überbrachte, hat überbracht. В інфінітивній конструкції zu стоїть перед дієсловом: um die Nachricht zu überbringen. Слово дещо офіційне."
       ],
       "examples": [

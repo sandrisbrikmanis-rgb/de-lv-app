@@ -3154,8 +3154,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "lë, vë",
-          "example": "Sie legt die Jacke ab. – Ajo e lë xhaketën."
+          "meaning": "lë, vë; heq",
+          "example": "Sie legt die Jacke ab. – Ajo heq xhaketën."
         }
       ],
       "tip": [
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Me kënaqësi jua besojmë këtë detyrë."
+          "lv": "Me kënaqësi jua japim këtë porosi (detyrë)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen nuk është e njëjta gjë me besorgt sein (i shqetësuar): mbiemri besorgt është fjalë tjetër.",
-        "Besorgen është e pandashme: besorgt, jo gesorgt."
+        "Besorgen është e pandashme, në kohën e kryer pa ge-: hat besorgt (gesorgt vjen nga një folje tjetër — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideja kryesore: bieten do të thotë ofroj ose jap — i jep dikujt një mundësi, një shërbim ose një përparësi; po ashtu ofroj një çmim në ankand. Është folje e fortë: er bietet, bot, hat geboten. Pas saj vjen kallëzorja, shpesh me dhanoren: jemandem etwas bieten.",
         "Shembuj: Das Hotel bietet viel Komfort (hoteli ofron shumë komfort), Ich biete 100 Euro (ofroj 100 euro). Forma vetvetore sich bieten do të thotë: Eine Chance bietet sich (lind një mundësi).",
-        "Fjalë e afërt është emri das Angebot (ofertë), ndërsa folja anbieten (ofroj) është fjalë tjetër."
+        "Emri das Angebot (ofertë) rrjedh nga anbieten; nga bieten vjen das Gebot (ofertë në ankand)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bllok",
       "explanation": [
-        "Ideja kryesore: der Block është bllok — një copë e ngjeshur dhe e njëtrajtshme ose një komplet: bllok shënimesh, bllok akulli, bllok ndërtesash. Shumësi është die Blöcke.",
+        "Ideja kryesore: der Block është bllok — një copë e ngjeshur dhe e njëtrajtshme ose një komplet: bllok shënimesh, bllok akulli, bllok ndërtesash. Shumësi është die Blöcke (për blloqet e shënimeve dhe të ndërtesave shpesh edhe die Blocks).",
         "Fjalë të përbëra tipike: der Notizblock (bllok shënimesh), der Wohnblock (bllok banimi), der Motorblock (blloku i motorit); edhe ein Block Eis (bllok akulli).",
         "Në kuptimin e figurshëm der Block mund të jetë edhe një bashkim politik ose ekonomik: der Machtblock (bllok pushteti)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft është e gjinisë femërore.",
-        "Mos e ngatërro me das Konsulat (konsullatë): ajo zakonisht u shërben qytetarëve në një qytet të caktuar."
+        "Mos e ngatërro me das Konsulat (konsullatë): ajo u shërben qytetarëve në një rreth të caktuar konsullor."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "lidhje • bashkim",
       "explanation": [
         "Ideja kryesore: der Bund është bashkim, lidhje ose federatë — bashkimi i disa palëve në një tërësi. Shumësi është die Bünde. Fjala është e gjinisë mashkullore.",
-        "Në Gjermani der Bund shpesh do të thotë qeveria federale, në krahasim me shtetet federale (Ländern): Bund und Länder. Në fjalë të përbëra: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Në Gjermani der Bund shpesh do të thotë qeveria federale, në krahasim me shtetet federale (die Länder): Bund und Länder. Në fjalë të përbëra: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Kuptime të tjera: ein Bund fürs Leben (lidhje martesore) dhe das Bund (tufë): ein Bund Radieschen. Kjo është fjalë tjetër, me nyjë tjetër."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideja kryesore: dadurch është ndajfolje që do të thotë në këtë mënyrë, me këtë, përmes kësaj — tregon shkakun ose mjetin. Zakonisht e lidh fjalinë e mëparshme me pasojën: Er hat viel geübt. Dadurch wurde er besser.",
         "Rendi i fjalëve: pas dadurch folja është në vendin e dytë: Dadurch wird alles einfacher. Po ashtu dadurch, dass si lidhëz (për shkak se, duke qenë se) fut një fjali të varur me foljen në fund.",
-        "Në kuptimin hapësinor dadurch do të thotë edhe përmes saj, dhe atëherë theksohet rrokja e parë: Die Tür war offen, wir sind dadurch gegangen."
+        "Në kuptimin hapësinor dadurch do të thotë edhe përmes saj: Die Tür war offen, wir sind dadurch gegangen. Zakonisht theksohet rrokja e dytë; rrokja e parë theksohet vetëm kur duam ta veçojmë posaçërisht."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "shërbej",
       "explanation": [
         "Ideja kryesore: dienen do të thotë shërbej, i vlej një qëllimi ose kryej një funksion. Ndërtimet më të shpeshta: dienen als + emërore (shërben si), dienen zu + dhanore (shërben për) dhe dienen + dhanore (i shërbej dikujt).",
-        "Format: dient, diente, hat gedient. Folja merr dhanoren (Er dient dem Land), jo kallëzoren. Në të folur, Womit kann ich dienen? është ofertë e sjellshme për ndihmë, ndërsa në kuptimin ushtarak dienen do të thotë „kryej shërbimin ushtarak”."
+        "Format: dient, diente, hat gedient. Folja merr dhanoren (Er dient dem Land), jo kallëzoren. Womit kann ich dienen? është ofertë e sjellshme, paksa e vjetëruar, për ndihmë nga ana e shitësit a shërbyesit, ndërsa në kuptimin ushtarak dienen do të thotë „kryej shërbimin ushtarak”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "diarre",
       "explanation": [
         "Ideja kryesore: der Durchfall është emër i gjinisë mashkullore që do të thotë diarre – jashtëqitje e lëngshme dhe e shpeshtë. Në mjekësi dhe në përditshmëri përdoret në njëjës: Durchfall haben – kam diarre.",
-        "Shumësi die Durchfälle përdoret rrallë. Në kuptimin e figurshëm Durchfall mund të nënkuptojë edhe dështim (në provim, në një shfaqje teatrore), por atëherë zakonisht përdoret folja durchfallen."
+        "Shumësi die Durchfälle përdoret rrallë. Në kuptimin e figurshëm (në të folur) Durchfall mund të nënkuptojë edhe dështim (në provim, në një shfaqje teatrore), por atëherë zakonisht përdoret folja durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "i vet • vetjak",
       "explanation": [
         "Ideja kryesore: eigen është mbiemër që do të thotë „i vet, vetjak”. Ai thekson përkatësinë: mein eigenes Auto – makina ime vetjake. Zakonisht qëndron para emrit dhe lakohet: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Në kuptimin e figurshëm eigen mund të nënkuptojë edhe „i veçantë, i çuditshëm”: ein eigener Geruch – një erë e veçantë. Shprehja etwas zu eigen haben do të thotë të kesh diçka si cilësi tënden. Në nivelin B1 kuptimi kryesor është „i vet, vetjak”."
+        "Në kuptimin e figurshëm eigen mund të nënkuptojë edhe „i veçantë, i çuditshëm”: ein eigener Geruch – një erë e veçantë. Shprehja sich (Dat) etwas zu eigen machen do të thotë ta pranosh diçka si tënden. Në nivelin B1 kuptimi kryesor është „i vet, vetjak”."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Në shumës merr mbaresën -er: die Geschlechter.",
-        "Në formularë pas Geschlecht shpesh ka një fushë për t'u plotësuar, jo një pyetje."
+        "Në formularë Geschlecht është emri i fushës (gjinia), ku shënohet männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pas ein Haufen vjen emri pa 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Pas ein Haufen emri zakonisht vjen pa 'von': ein Haufen Arbeit, ein Haufen Geld (më rrallë: ein Haufen von Problemen).",
         "Shprehja über den Haufen werfen — prish, rrëzoj (planet)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "homoseksual",
       "explanation": [
         "Ideja kryesore: der Homosexuelle është emër që do të thotë burrë homoseksual. Lakohet si mbiemër: ein Homosexueller, der Homosexuelle, die Homosexuellen (në shumës). Për gruan: die Homosexuelle, eine Homosexuelle.",
-        "Fjala është neutrale, zyrtare dhe përdoret në tekste zyrtare, lajme, ligje. Në jetën e përditshme shpesh thuhet schwul (për burrat) ose lesbisch (për gratë)."
+        "Fjala është neutrale, zyrtare dhe përdoret në tekste zyrtare, lajme, ligje. Në jetën e përditshme shpesh përdoren mbiemrat: er ist schwul (ai është gej), sie ist lesbisch (ajo është lesbike)."
       ],
       "examples": [
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Fjalë të përbëra: die Machtübernahme (marrja e pushtetit), der Machtkampf (lufta për pushtet)."
       ],
       "important": [
-        "Macht nuk do të thotë thjesht forcë fizike; për këtë përdoret die Kraft.",
+        "Macht nuk do të thotë forcë fizike; kjo quhet die Kraft.",
         "Shumësi die Mächte u referohet kryesisht shteteve ose forcave."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Fjala das Maß shkruhet me ß, sepse zanorja është e gjatë.",
-        "Shumësi është die Maße (përmasa); në dhanore — den Maßen (in Maßen, über alle Maßen)."
+        "Shumësi është die Maße (përmasa); në dhanore — den Maßen (in Maßen). Në shprehjen über alle Maßen është ruajtur një formë historike."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben nuk është e njëjtë me aufgeben: nachgeben do të thotë i lëshoj pe dikujt, aufgeben do të thotë heq dorë nga një qëllim.",
-        "Parashtesa nach- ndahet: gibt nach, jo nachgibt."
+        "Parashtesa nach- ndahet në fjalinë kryesore: er gibt nach (në fjalinë e varur bashkë: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "prirem • anoj",
       "explanation": [
         "Ideja kryesore: neigen me zu + dhanore do të thotë prirem drejt diçkaje, kam prirje: Er neigt zu schnellen Entscheidungen. Format: neigt, neigte, hat geneigt.",
-        "Në kuptimin e drejtpërdrejtë etwas neigen do të thotë anoj, përkul (den Kopf neigen). Si folje vetvetore sich neigen do të thotë përkulem ose i afrohem fundit: Der Tag neigt sich.",
+        "Në kuptimin e drejtpërdrejtë etwas neigen do të thotë anoj, përkul (den Kopf neigen). Si folje vetvetore sich neigen do të thotë përkulem ose (në stil të lartë) i afrohem fundit: Der Tag neigt sich. Shprehja sich dem Ende zuneigen vjen nga zuneigen.",
         "Nga e njëjta rrënjë është formuar emri die Neigung (prirje, anim, pjerrësi)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "nevojë • skamje",
       "explanation": [
         "Ideja kryesore: die Not është skamja, varfëria, një gjendje e vështirë kur njeriut i mungojnë gjërat më të domosdoshme (in Not leben, Not leiden). Është edhe nevojë e ngutshme ose fatkeqësi: in der Not, in Not geraten.",
-        "Fjala është e gjinisë femërore. Shumësi die Nöte është shumë i rrallë; zakonisht përdoret njëjësi.",
+        "Fjala është e gjinisë femërore. Shumësi die Nöte përdoret më rrallë (Sorgen und Nöte); zakonisht përdoret njëjësi.",
         "Shprehje: zur Not (nëse nuk ka rrugë tjetër; në rast nevoje), aus der Not eine Tugend machen (e kthej nevojën në virtyt), Not macht erfinderisch (nevoja të bën shpikës)."
       ],
       "examples": [
@@ -54740,7 +54740,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten nuk është braten: braten do të thotë të skuqësh me vaj ose yndyrë, rösten – të thekësh.",
-        "Mos e ngatërro rösten me rostet (ndryshket)."
+        "Mos e ngatërro rösten me rosten (ndryshket)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60258,7 +60258,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Për vendin në mjetet e transportit përdoret der Sitz ose der Platz; vetëm der Platz mund të thotë vend në përgjithësi.",
-        "Selia e ndërmarrjes quhet der Firmensitz."
+        "Selia juridike e ndërmarrjes (selia qendrore) quhet der Firmensitz."
       ],
       "important": [
         "Der Sitz nuk është das Sitzen: das Sitzen është veprimi, der Sitz – ndenjësja ose selia.",
@@ -61231,7 +61231,7 @@ const B1_WORDS = [
         "Për grumbullimin (energji, ujë) përdoret gjithashtu speichern."
       ],
       "important": [
-        "Urdhërorja është Speichere (ose Speicher), jo Speichern.",
+        "Urdhërorja është Speichere! (edhe Speichre!; në të folur Speicher!), jo Speichern.",
         "speichern nuk është sperren (bllokoj)."
       ],
       "sectionAccents": {
@@ -70127,7 +70127,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "fashë e hollë, shirit",
+          "meaning": "fashë, shirit",
           "example": "Sie wickelt eine Binde um den Fuß. – Ajo mbështjell një shirit fashe rreth këmbës."
         },
         {
@@ -70229,7 +70229,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "fashë e hollë, shirit"
+                "fashë, shirit"
               ]
             }
           },
@@ -76491,7 +76491,7 @@ const B1_WORDS = [
         "Pas zugeben shpesh vjen një fjali me dass, në të cilën folja është në fund."
       ],
       "important": [
-        "Zugeben do të thotë të pranosh diçka që nuk është në favor të folësit; nëse thjesht do të thuash që i shton diçka ushqimit, përdoret hinzufügen.",
+        "Zugeben zakonisht do të thotë të pranosh diçka që nuk është në favor të folësit. Në receta zugeben do të thotë edhe shtoj (Salz zugeben); në përditshmëri në këtë kuptim më shpesh thuhet hinzufügen.",
         "Pas zugeben, në fjalinë me dass folja është në fund: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

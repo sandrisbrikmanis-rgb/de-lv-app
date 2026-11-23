@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "müstakil ev",
       "explanation": [
         "das Einfamilienhaus tek bir aile için yapılmış bir ev demektir: ister tek başına dursun ister komşu evlere bitişik olsun, içinde tek bir konut vardır ve genellikle kendi bahçesi olur.",
-        "Nötr isim: das Einfamilienhaus, çoğulu die Einfamilienhäuser. Ein- + Familie + Haus parçalarından oluşur.",
+        "Nötr isim: das Einfamilienhaus, çoğulu die Einfamilienhäuser. Ein- + Familien- (Familie sözcüğünün birleşik sözcüklerdeki biçimi) + Haus parçalarından oluşur.",
         "Karşıtı das Mehrfamilienhaus (çok daireli bina)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Siyasette eine Partei wählen ya da für eine Partei stimmen denir."
       ],
       "important": [
-        "Die Partei ile die Party (eğlence) kulağa benzer gelir, ama birbiriyle ilgili değildir."
+        "Die Partei ile die Party (eğlence) kulağa benzer gelir, ama anlamları tamamen farklıdır (gerçi ikisi de Latince pars — parça sözcüğünden gelir)."
       ],
       "sectionAccents": {
         "explanation": {

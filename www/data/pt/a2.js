@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideia principal: anstecken é um verbo separável que significa prender ou colocar (prender uma flor, pôr um anel), e também contagiar e pegar-se (uma doença).",
         "Formas: steckt an, steckte an, hat angesteckt. O prefixo an- separa-se na frase: Er steckt mir den Ring an. Rege acusativo (o quê?) e muitas vezes também dativo (a quem?).",
-        "No sentido de contagiar usa-se jemanden anstecken ou sich anstecken (apanhar uma doença): Ich habe mich bei ihm angesteckt. Em algumas regiões, anstecken usa-se também no sentido de acender (eine Zigarette anstecken)."
+        "No sentido de contagiar usa-se jemanden anstecken ou sich anstecken (apanhar uma doença): Ich habe mich bei ihm angesteckt. Na linguagem corrente, anstecken significa também acender (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideia principal: die Bahn é um substantivo feminino. Significa o caminho de ferro e o transporte ferroviário em geral (mit der Bahn fahren – viajar de comboio). No nome da empresa Deutsche Bahn designa os caminhos de ferro alemães.",
         "O plural é die Bahnen. A palavra aparece também em compostos: die Straßenbahn (elétrico), die U-Bahn (metro), die S-Bahn (comboio suburbano), die Eisenbahn (caminho de ferro).",
-        "Outros sentidos: pista ou faixa (die Laufbahn, die Radrennbahn) e órbita (die Umlaufbahn). No desporto, die Bahn é a pista de corrida."
+        "Outros sentidos: pista ou faixa (die Radrennbahn; die Laufbahn — também carreira) e órbita (die Umlaufbahn). No desporto, die Bahn é a pista de corrida."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn é feminino; não a confundas com der Bahnhof (estação, masculino).",
-        "A palavra Bahn sozinha designa muitas vezes a empresa Deutsche Bahn, e não um comboio concreto; um comboio concreto é der Zug."
+        "A palavra Bahn pode designar também a empresa Deutsche Bahn (Die Bahn hat Verspätung); um comboio concreto chama-se der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt não é o mesmo que bestimmen: bestimmen é determinar, decidir; bestimmt é advérbio ou adjetivo.",
-        "Bestimmt também pode exprimir uma suposição, e não só certeza: Er ist bestimmt zu Hause (ele deve estar em casa)."
+        "Bestimmt exprime também uma suposição firme: Er ist bestimmt zu Hause (ele está de certeza em casa)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "presente • junto",
       "explanation": [
         "Ideia principal: dabei é um advérbio formado por da + bei. Significa presente, junto, ali: ao lado de algo ou num acontecimento. A combinação mais frequente é dabei sein (estar presente, participar).",
-        "Outros significados frequentes: consigo (etwas dabei haben – ter algo consigo), além disso (ao mesmo tempo) e estar precisamente a fazer algo (dabei sein, etwas zu tun). É uma palavra de lugar e de tempo que remete para algo já mencionado.",
+        "Outros significados frequentes: consigo (etwas dabei haben – ter algo consigo), ao mesmo tempo, além disso e estar precisamente a fazer algo (dabei sein, etwas zu tun). É uma palavra de lugar e de tempo que remete para algo já mencionado.",
         "Dabei também faz parte de palavras compostas: dabeibleiben (manter-se em algo), dabeihaben (ter consigo), dabeisitzen (estar sentado ao lado)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideia principal: dafür é um advérbio (da + für). Significa por isso (em troca, ao pagar, em agradecimento), para isso (com uma finalidade) ou a favor (ao concordar): Ich bin dafür (sou a favor).",
         "Substitui für + algo já mencionado: Ich danke dir dafür. Com verbos como sich interessieren für, sorgen für, sich entschuldigen für usa-se dafür quando não é preciso repetir o substantivo.",
-        "Na linguagem corrente, dafür significa também em compensação, em contrapartida: Er ist nicht schnell, dafür arbeitet er genau. Neste sentido introduz um contraste com uma compensação positiva."
+        "Dafür significa também em compensação, em contrapartida: Er ist nicht schnell, dafür arbeitet er genau. Neste sentido introduz um contraste com uma compensação positiva."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Na oração com a conjunção damit, o verbo fica no fim da frase.",
-        "damit não significa por isso; nesse sentido usa-se deshalb ou darum."
+        "A conjunção damit (para que) não significa por isso; no sentido de por isso usa-se deshalb ou darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Normalmente não se usa gar sem nicht, kein ou nichts."
+        "No sentido de reforço da negação, gar usa-se com nicht, kein ou nichts."
       ],
       "important": [
         "gar reforça a negação: gar nicht é mais forte do que nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Em relação a Viena, a palavra Kaffeehaus usa-se muito; na Alemanha ouvirás com a mesma frequência das Café.",
+        "A palavra Kaffeehaus é característica da Áustria (Viena); na Alemanha diz-se muito mais frequentemente das Café.",
         "Lembra-te das palavras de base Kaffee (café) + das Haus (casa)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideia principal: der Kellner é um substantivo masculino que significa empregado de mesa, a pessoa que, num restaurante ou num café, traz a comida e as bebidas. A forma feminina é die Kellnerin.",
         "O plural é die Kellner (homens) e die Kellnerinnen (mulheres). Declinação: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Para chamar o empregado, o mais adequado é Entschuldigung!; a forma Herr Ober! é hoje considerada antiquada."
+        "Para chamar o empregado, o melhor é dizer “Entschuldigung!”; a forma Herr Ober! é hoje considerada antiquada."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen é masculino: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen sozinho significa carro ou vagão, e não carrinho de bebé."
+        "Wagen sozinho significa normalmente carro ou vagão; o carrinho de bebé chama-se Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Lembra-te: Kraft = força, Macht = poder, Energie = energia.",
-        "Memoriza a expressão in Kraft treten (entrar em vigor); é mais frequente do que o significado básico."
+        "Memoriza a expressão in Kraft treten (entrar em vigor) — usa-se muito a propósito de leis e regulamentos."
       ],
       "important": [
         "Die Kraft é feminino; o plural é die Kräfte, e não die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "nota",
       "explanation": [
         "Ideia principal: die Note é um substantivo feminino. Na escola e na universidade significa nota de avaliação (eine gute Note bekommen, ter uma boa nota). Na música é uma nota musical: Noten lesen (ler música).",
-        "O plural é die Noten. Na Alemanha, as notas vão de 1 (sehr gut) a 6 (ungenügend), sendo 1 a melhor. Por isso, eine gute Note corresponde a um número baixo.",
+        "O plural é die Noten. Nas escolas alemãs, as notas vão de 1 (sehr gut) a 6 (ungenügend), sendo 1 a melhor (no ensino superior, a escala é 1,0–5,0). Por isso, eine gute Note corresponde a um número baixo.",
         "Com as notas diz-se: eine Note bekommen, eine Note geben, die Note verbessern (melhorar a nota)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "Na expressão rechnen mit + dativo, o significado é «contar com», por exemplo com mau tempo."
       ],
       "important": [
-        "Rechnen mit significa normalmente «esperar, ter em conta», e não «fazer contas com algo»."
+        "Rechnen mit + dativo significa normalmente «esperar, ter em conta» (Wir rechnen mit Regen); com um instrumento significa «fazer contas com»: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "afiado • picante",
       "explanation": [
-        "Ideia principal: scharf é um adjetivo com vários significados. Num objeto significa afiado (scharfes Messer – faca afiada); na comida, picante (scharfes Essen). Em sentido figurado pode também significar brusco ou forte: eine scharfe Kurve, scharf bremsen.",
+        "Ideia principal: scharf é um adjetivo com vários significados. Num objeto significa afiado (scharfes Messer – faca afiada); na comida, picante (scharfes Essen). Em sentido figurado pode também significar brusco ou forte: eine scharfe Kurve (curva apertada), scharf bremsen (travar bruscamente).",
         "O comparativo é schärfer (com metafonia), o superlativo — am schärfsten. Antes do substantivo: ein scharfes Messer, scharfe Soße.",
         "Convém lembrar: scharf refere-se ao sabor picante (malagueta, rábano), e não ao sabor salgado — salgado é salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "A fila em que as pessoas esperam chama-se Schlange; Reihe é antes a ordem, a vez (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen é uma expressão fixa: não in der Schlange sein, mas sim Schlange stehen."
+        "A expressão mais frequente é Schlange stehen (também in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln usa-se quando se substitui uma coisa por outra (escola, emprego, moeda). ändern — quando se modifica alguma coisa.",
-        "A mudança de meio de transporte exprime-se com umsteigen, e não com wechseln."
+        "A mudança de meio de transporte exprime-se normalmente com umsteigen (também é possível den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln entende-se normalmente como trocar moeda ou dinheiro, e não como gastá-lo.",

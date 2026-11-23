@@ -5067,7 +5067,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "We are happy to give you the commission."
+          "lv": "We are happy to award you this order (commission)."
         }
       ],
       "comparison": [
@@ -10179,7 +10179,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen is not the same as besorgt sein (worried): the adjective besorgt is a different word.",
-        "Besorgen is inseparable: besorgt, not gesorgt."
+        "Besorgen is inseparable, with no ge- in the perfect: hat besorgt (gesorgt comes from a different verb — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11635,7 +11635,7 @@ const B1_WORDS = [
       "explanation": [
         "Main idea: bieten means to offer or provide, to give someone an opportunity, a service or an advantage; also to bid a price at an auction. It is a strong verb: er bietet, bot, hat geboten. It takes the accusative, often with a dative: jemandem etwas bieten.",
         "Examples: Das Hotel bietet viel Komfort (the hotel offers a lot of comfort), Ich biete 100 Euro (I bid 100 euros). The reflexive sich bieten means: Eine Chance bietet sich (an opportunity presents itself).",
-        "The related noun is das Angebot (offer), but the verb anbieten (to offer) is a different verb."
+        "The noun das Angebot (offer) comes from anbieten; from bieten comes das Gebot (a bid at an auction)."
       ],
       "examples": [
         {
@@ -12052,7 +12052,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Block",
       "explanation": [
-        "Main idea: der Block is a block, a solid, unified piece or set: a writing pad, a block of ice, a block of buildings. The plural is die Blöcke.",
+        "Main idea: der Block is a block, a solid, unified piece or set: a writing pad, a block of ice, a block of buildings. The plural is die Blöcke (for writing pads and blocks of buildings often also die Blocks).",
         "Typical compounds: der Notizblock (notepad), der Wohnblock (block of flats), der Motorblock (engine block); also ein Block Eis (a block of ice).",
         "Figuratively, der Block can also be a political or economic alliance: der Machtblock (power bloc)."
       ],
@@ -12686,7 +12686,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft is feminine.",
-        "Do not confuse it with das Konsulat (consulate): that usually serves residents in a city."
+        "Do not confuse it with das Konsulat (consulate): that serves citizens in a particular consular district."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13268,7 +13268,7 @@ const B1_WORDS = [
       "translation": "Union",
       "explanation": [
         "Main idea: der Bund is a union, alliance or association, including one at state level, a united grouping of several parties. The plural is die Bünde. The word is masculine.",
-        "In Germany, der Bund often means the federal government as opposed to the states (Länder): Bund und Länder. In compounds: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "In Germany, der Bund often means the federal government as opposed to the states (die Länder): Bund und Länder. In compounds: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Other meanings: ein Bund fürs Leben (the bond of marriage) and das Bund (a bunch): ein Bund Radieschen. This is a different word with a different article."
       ],
       "examples": [
@@ -13602,7 +13602,7 @@ const B1_WORDS = [
       "explanation": [
         "Main idea: dadurch is an adverb meaning thus, by that means or as a result, pointing to a cause or means. It usually links the previous sentence to a consequence: Er hat viel geübt. Dadurch wurde er besser.",
         "Word order: after dadurch the verb comes second: Dadurch wird alles einfacher. In the conjunction dadurch, dass (because, by the fact that), it introduces a subordinate clause with the verb at the end.",
-        "In a local sense dadurch also means through it, and then the first syllable is stressed: Die Tür war offen, wir sind dadurch gegangen."
+        "In a local sense dadurch also means through it: Die Tür war offen, wir sind dadurch gegangen. Normally the second syllable is stressed; the first syllable is stressed only for special emphasis."
       ],
       "examples": [
         {
@@ -15405,7 +15405,7 @@ const B1_WORDS = [
       "translation": "To serve",
       "explanation": [
         "Main idea: dienen means to serve, to be useful for a purpose or to fulfil a function. The most common constructions are dienen als + nominative (to serve as), dienen zu + dative (to be used for) and dienen + dative (to serve someone).",
-        "Forms: dient, diente, hat gedient. The verb takes the dative (Er dient dem Land), not the accusative. Womit kann ich dienen? is a polite, rather old-fashioned offer of help (“How can I help you?”), and in a military sense dienen means “to serve in the army”."
+        "Forms: dient, diente, hat gedient. The verb takes the dative (Er dient dem Land), not the accusative. Womit kann ich dienen? is a polite, rather old-fashioned offer of help from someone serving customers (“How can I help you?”), and in a military sense dienen means “to serve in the army”."
       ],
       "examples": [
         {
@@ -16249,7 +16249,7 @@ const B1_WORDS = [
       "translation": "Diarrhoea",
       "explanation": [
         "Main idea: der Durchfall is a masculine noun meaning diarrhoea – loose, frequent bowel movements. In medicine and everyday speech it is used in the singular: Durchfall haben – to have diarrhoea.",
-        "The plural die Durchfälle is rarely used. Figuratively, Durchfall can also mean failing (an exam, a play), but then the verb durchfallen is normally used."
+        "The plural die Durchfälle is rarely used. Figuratively (colloquially), Durchfall can also mean failing (an exam, a play), but then the verb durchfallen is normally used."
       ],
       "examples": [
         {
@@ -16974,7 +16974,7 @@ const B1_WORDS = [
       "translation": "Own",
       "explanation": [
         "Main idea: eigen is an adjective meaning “own”. It stresses possession: mein eigenes Auto – my own car. It normally stands before a noun and is inflected: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "In a figurative sense eigen can also mean “peculiar, distinctive”: ein eigener Geruch – a peculiar smell. The expression etwas zu eigen haben means that something is characteristic of someone. At B1 level the main meaning is “own”."
+        "In a figurative sense eigen can also mean “peculiar, distinctive”: ein eigener Geruch – a peculiar smell. The expression sich (Dat) etwas zu eigen machen means to adopt something as your own. At B1 level the main meaning is “own”."
       ],
       "examples": [
         {
@@ -29614,7 +29614,7 @@ const B1_WORDS = [
       ],
       "important": [
         "The plural ends in -er: die Geschlechter.",
-        "On forms, Geschlecht is often followed by a field to fill in, not a question."
+        "On forms, Geschlecht is the name of the field (sex) where you tick männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32507,7 +32507,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "After ein Haufen the noun usually follows directly, without 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "After ein Haufen the noun usually follows directly, without 'von': ein Haufen Arbeit, ein Haufen Geld (less often: ein Haufen von Problemen).",
         "The expression über den Haufen werfen means to wreck (plans)."
       ],
       "important": [
@@ -34149,7 +34149,7 @@ const B1_WORDS = [
       "translation": "Homosexual",
       "explanation": [
         "Main idea: der Homosexuelle is a noun meaning a homosexual man. It is declined like an adjective: ein Homosexueller, der Homosexuelle, die Homosexuellen (plural). A woman: die Homosexuelle, eine Homosexuelle.",
-        "The word is neutral and formal and is used in official texts, news and laws. In everyday speech people often say schwul (gay) or lesbisch (lesbian)."
+        "The word is neutral and formal and is used in official texts, news and laws. In everyday speech people often use the adjectives: er ist schwul (he is gay), sie ist lesbisch (she is a lesbian)."
       ],
       "examples": [
         {
@@ -45542,7 +45542,7 @@ const B1_WORDS = [
         "Compounds: die Machtübernahme (seizure of power), der Machtkampf (power struggle)."
       ],
       "important": [
-        "Macht does not mean only physical strength; die Kraft is used for that.",
+        "Macht does not mean physical strength; that is called die Kraft.",
         "The plural die Mächte mainly refers to states or forces."
       ],
       "sectionAccents": {
@@ -45917,7 +45917,7 @@ const B1_WORDS = [
       ],
       "important": [
         "The word das Maß is written with ß because the vowel is long.",
-        "The plural is die Maße (dimensions); in the dative, den Maßen (in Maßen, über alle Maßen)."
+        "The plural is die Maße (dimensions); in the dative, den Maßen (in Maßen). The expression über alle Maßen preserves a historical form."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47287,7 +47287,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben is not the same as aufgeben: nachgeben is to give way to someone, aufgeben is to abandon a goal.",
-        "The prefix nach- separates: gibt nach, not nachgibt."
+        "The prefix nach- separates in a main clause: er gibt nach (in a subordinate clause it stays attached: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47601,7 +47601,7 @@ const B1_WORDS = [
       "translation": "To be inclined; to lean",
       "explanation": [
         "Main idea: neigen with zu + dative means to be inclined to something, to have a tendency: Er neigt zu schnellen Entscheidungen. Forms: neigt, neigte, hat geneigt.",
-        "In the literal sense, etwas neigen means to tilt or lean something (den Kopf neigen). Reflexively, sich neigen means to lean or to draw to a close: Der Tag neigt sich.",
+        "In the literal sense, etwas neigen means to tilt or lean something (den Kopf neigen). Reflexively, sich neigen means to lean or (in elevated style) to draw to a close: Der Tag neigt sich. The expression sich dem Ende zuneigen comes from zuneigen.",
         "The noun die Neigung (inclination, tendency, slope) is formed from the same root."
       ],
       "examples": [
@@ -48497,7 +48497,7 @@ const B1_WORDS = [
       "translation": "Need • Hardship",
       "explanation": [
         "Main idea: die Not is need, distress and hardship: a distressing situation in which a person lacks the bare necessities (in Not leben, Not leiden). It is also an urgent need or emergency: in der Not, in Not geraten.",
-        "The word is feminine. The plural die Nöte is very rare; the singular is normally used.",
+        "The word is feminine. The plural die Nöte is less common (Sorgen und Nöte); the singular is normally used.",
         "Phrases: zur Not (if need be; if there is no other way), aus der Not eine Tugend machen (to make a virtue of necessity), Not macht erfinderisch (necessity is the mother of invention)."
       ],
       "examples": [
@@ -54634,7 +54634,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten is not braten: braten means to fry or roast with fat (in a pan or in the oven), while rösten means to roast or toast dry or with very little fat.",
-        "Do not confuse rösten with rostet (it rusts)."
+        "Do not confuse rösten with rosten (to rust)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60145,7 +60145,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "For a seat in transport use der Sitz or der Platz; only der Platz can mean a place in general.",
-        "The company's registered office is called the Firmensitz."
+        "The company's registered office (headquarters) is called der Firmensitz."
       ],
       "important": [
         "Der Sitz is not das Sitzen: das Sitzen is the act, der Sitz is the seat or headquarters.",
@@ -61119,7 +61119,7 @@ const B1_WORDS = [
         "Speichern is also used for storing up (energy, water)."
       ],
       "important": [
-        "The imperative is Speichere (or Speicher), not Speichern.",
+        "The imperative is Speichere! (also Speichre!; colloquially Speicher!), not Speichern.",
         "speichern is not sperren (to block)."
       ],
       "sectionAccents": {
@@ -70039,7 +70039,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "bandage, strip of cloth",
+          "meaning": "bandage, dressing",
           "example": "Sie wickelt eine Binde um den Fuß. – She winds a bandage round the foot."
         },
         {
@@ -76402,7 +76402,7 @@ const B1_WORDS = [
         "A dass-clause often follows zugeben, with the verb at the end."
       ],
       "important": [
-        "Zugeben means admitting something that is not in the speaker's favour; if you simply want to say that you add something to food, use hinzufügen.",
+        "Zugeben usually means admitting something that is not in the speaker's favour. In recipes zugeben also means to add (Salz zugeben); in everyday speech hinzufügen is more common in this sense.",
         "After zugeben, the verb in a dass-clause goes to the end: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

@@ -3150,8 +3150,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "leggja frá sér",
-          "example": "Sie legt die Jacke ab. – Hún leggur jakkann frá sér."
+          "meaning": "leggja frá sér; fara úr",
+          "example": "Sie legt die Jacke ab. – Hún fer úr jakkanum."
         }
       ],
       "tip": [
@@ -5064,7 +5064,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Við felum ykkur verkefnið með ánægju."
+          "lv": "Við felum ykkur þessa pöntun (verkefnið) með ánægju."
         }
       ],
       "comparison": [
@@ -10210,7 +10210,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen er ekki það sama og besorgt sein (áhyggjufullur): lýsingarorðið besorgt er annað orð.",
-        "Besorgen er ekki aðskiljanleg: besorgt, ekki gesorgt."
+        "Besorgen er ekki aðskiljanleg, í núliðinni tíð án ge-: hat besorgt (gesorgt er af annarri sögn — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11676,7 +11676,7 @@ const B1_WORDS = [
       "explanation": [
         "Aðalatriðið: bieten þýðir að bjóða eða veita – gefa einhverjum tækifæri, þjónustu eða kost; líka að bjóða í á uppboði. Þetta er sterk sögn: er bietet, bot, hat geboten. Á eftir kemur þolfall, oft með þágufalli: jemandem etwas bieten.",
         "Dæmi: Das Hotel bietet viel Komfort (hótelið býður upp á mikil þægindi), Ich biete 100 Euro (ég býð 100 evrur). Afturbeygt sich bieten: Eine Chance bietet sich (tækifæri gefst).",
-        "Skylt er nafnorðið das Angebot (tilboð), en sögnin anbieten (bjóða) er annað orð. Takið eftir skyldleikanum við íslensku sögnina bjóða (bauð, boðið)."
+        "Nafnorðið das Angebot (tilboð) er dregið af anbieten; af bieten er das Gebot (boð á uppboði). Takið eftir skyldleikanum við íslensku sögnina bjóða (bauð, boðið)."
       ],
       "examples": [
         {
@@ -12097,7 +12097,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "kubbur • blokk",
       "explanation": [
-        "Aðalatriðið: der Block er blokk eða kubbur – þéttur, samfelldur hlutur eða búnt: minnisblokk, ísklumpur, húsaþyrping. Fleirtalan er die Blöcke.",
+        "Aðalatriðið: der Block er blokk eða kubbur – þéttur, samfelldur hlutur eða búnt: minnisblokk, ísklumpur, húsaþyrping. Fleirtalan er die Blöcke (um minnisblokkir og húsaþyrpingar oft líka die Blocks).",
         "Algeng samsett orð: der Notizblock (minnisblokk), der Wohnblock (fjölbýlishús – sbr. íslenska blokk), der Motorblock (vélarblokk); líka ein Block Eis (ísklumpur).",
         "Í yfirfærðri merkingu getur der Block líka verið pólitískt eða efnahagslegt bandalag: der Machtblock (valdablokk)."
       ],
@@ -12731,7 +12731,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft er kvenkyns.",
-        "Ruglaðu ekki saman við das Konsulat (ræðismannsskrifstofa): hún þjónar yfirleitt íbúum í tiltekinni borg."
+        "Ruglaðu ekki saman við das Konsulat (ræðismannsskrifstofa): hún þjónar ríkisborgurum í tilteknu ræðisumdæmi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13313,7 +13313,7 @@ const B1_WORDS = [
       "translation": "bandalag • samband",
       "explanation": [
         "Aðalatriðið: der Bund er bandalag, samband eða ríkjasamband — sameining nokkurra aðila. Fleirtalan er die Bünde. Orðið er karlkyns.",
-        "Í Þýskalandi merkir der Bund oft alríkið (sambandsstjórnina) andspænis sambandslöndunum (Ländern): Bund und Länder. Í samsettum orðum: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Í Þýskalandi merkir der Bund oft alríkið (sambandsstjórnina) andspænis sambandslöndunum (die Länder): Bund und Länder. Í samsettum orðum: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Aðrar merkingar: ein Bund fürs Leben (hjónaband) og das Bund (knippi, vöndull): ein Bund Radieschen. Það er annað orð með öðrum greini."
       ],
       "examples": [
@@ -13647,7 +13647,7 @@ const B1_WORDS = [
       "explanation": [
         "Aðalatriðið: dadurch er atviksorð sem merkir þannig, þar með, með því — það vísar til orsakar eða leiðar. Það tengir yfirleitt fyrri setningu við afleiðingu: Er hat viel geübt. Dadurch wurde er besser.",
         "Orðaröð: á eftir dadurch kemur sagnorðið í öðru sæti: Dadurch wird alles einfacher. Auk þess er dadurch, dass samtenging (með því að, vegna þess að) sem leiðir inn aukasetningu með sagnorðið aftast.",
-        "Í staðarmerkingu merkir dadurch líka í gegnum það, og þá er áherslan á fyrra atkvæðinu: Die Tür war offen, wir sind dadurch gegangen."
+        "Í staðarmerkingu merkir dadurch líka í gegnum það: Die Tür war offen, wir sind dadurch gegangen. Yfirleitt er áherslan á seinna atkvæðinu; fyrra atkvæðið fær aðeins áherslu þegar það er sérstaklega undirstrikað."
       ],
       "examples": [
         {
@@ -15475,7 +15475,7 @@ const B1_WORDS = [
       "translation": "þjóna",
       "explanation": [
         "Aðalatriðið: dienen merkir að þjóna, nýtast tilteknum tilgangi eða gegna ákveðnu hlutverki. Algengustu formgerðirnar: dienen als + nefnifall (þjóna sem), dienen zu + þágufall (nýtast til) og dienen + þágufall (þjóna einhverjum).",
-        "Myndir: dient, diente, hat gedient. Sögninni fylgir þágufall (Er dient dem Land), ekki þolfall – alveg eins og íslenska sögnin þjóna (þjóna landinu). Womit kann ich dienen? er kurteislegt boð um aðstoð, og í hernaðarlegri merkingu merkir dienen „gegna herþjónustu“."
+        "Myndir: dient, diente, hat gedient. Sögninni fylgir þágufall (Er dient dem Land), ekki þolfall – alveg eins og íslenska sögnin þjóna (þjóna landinu). Womit kann ich dienen? er kurteislegt, dálítið gamaldags boð afgreiðslumanns um aðstoð, og í hernaðarlegri merkingu merkir dienen „gegna herþjónustu“."
       ],
       "examples": [
         {
@@ -16319,7 +16319,7 @@ const B1_WORDS = [
       "translation": "niðurgangur",
       "explanation": [
         "Aðalatriðið: der Durchfall er karlkynsnafnorð sem merkir niðurgang – þunnar, tíðar hægðir. Bæði í læknisfræði og daglegu máli er það notað í eintölu: Durchfall haben – vera með niðurgang.",
-        "Fleirtalan die Durchfälle er sjaldan notuð. Í yfirfærðri merkingu getur Durchfall líka merkt fall (á prófi, misheppnaða leiksýningu), en þá er yfirleitt notað sagnorðið durchfallen."
+        "Fleirtalan die Durchfälle er sjaldan notuð. Í yfirfærðri merkingu (í talmáli) getur Durchfall líka merkt fall (á prófi, misheppnaða leiksýningu), en þá er yfirleitt notað sagnorðið durchfallen."
       ],
       "examples": [
         {
@@ -17045,7 +17045,7 @@ const B1_WORDS = [
       "translation": "eigin",
       "explanation": [
         "Aðalatriðið: eigen er lýsingarorð sem merkir „eigin, sjálfs“. Það leggur áherslu á eignarhald: mein eigenes Auto – minn eigin bíll. Það stendur yfirleitt á undan nafnorði og beygist: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg. Ólíkt íslenska orðinu eigin, sem er óbeygjanlegt, fær eigen alltaf endingu.",
-        "Í yfirfærðri merkingu getur eigen líka merkt „sérkennilegur, sérstakur“: ein eigener Geruch – sérkennileg lykt. Orðasambandið etwas zu eigen haben – hafa eitthvað til að bera. Á B1-stigi er aðalmerkingin „eigin, sjálfs“."
+        "Í yfirfærðri merkingu getur eigen líka merkt „sérkennilegur, sérstakur“: ein eigener Geruch – sérkennileg lykt. Orðasambandið sich (Dat) etwas zu eigen machen – tileinka sér eitthvað. Á B1-stigi er aðalmerkingin „eigin, sjálfs“."
       ],
       "examples": [
         {
@@ -29690,7 +29690,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Í fleirtölu er endingin -er: die Geschlechter.",
-        "Á eyðublöðum kemur oft útfyllingarreitur á eftir Geschlecht, ekki spurning."
+        "Á eyðublöðum er Geschlecht heiti reits (kyn) þar sem merkt er við männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32587,7 +32587,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Á eftir ein Haufen kemur nafnorðið án 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Á eftir ein Haufen kemur nafnorðið yfirleitt án 'von': ein Haufen Arbeit, ein Haufen Geld (sjaldnar: ein Haufen von Problemen).",
         "Orðtakið über den Haufen werfen — kollvarpa (áætlunum)."
       ],
       "important": [
@@ -34234,7 +34234,7 @@ const B1_WORDS = [
       "translation": "samkynhneigður maður",
       "explanation": [
         "Aðalatriðið: der Homosexuelle er nafnorð sem merkir samkynhneigðan karlmann. Það beygist eins og lýsingarorð: ein Homosexueller, der Homosexuelle, die Homosexuellen (fleirtala) — líkt og íslenska „hinn samkynhneigði“. Kona: die Homosexuelle, eine Homosexuelle.",
-        "Orðið er hlutlaust, formlegt og notað í opinberum textum, fréttum og lögum. Í daglegu tali er oft sagt schwul (hommi, samkynhneigður karl) eða lesbisch (lesbía, lesbískur)."
+        "Orðið er hlutlaust, formlegt og notað í opinberum textum, fréttum og lögum. Í daglegu tali eru oft notuð lýsingarorð: er ist schwul (hann er hommi), sie ist lesbisch (hún er lesbía)."
       ],
       "examples": [
         {
@@ -45631,7 +45631,7 @@ const B1_WORDS = [
         "Samsett orð: die Machtübernahme (valdataka), der Machtkampf (valdabarátta)."
       ],
       "important": [
-        "Macht merkir ekki líkamlegan styrk; um hann er notað die Kraft.",
+        "Macht merkir ekki líkamlegan styrk; hann kallast die Kraft.",
         "Fleirtalan die Mächte vísar oftast til ríkja eða afla."
       ],
       "sectionAccents": {
@@ -46006,7 +46006,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Orðið das Maß er skrifað með ß því sérhljóðið er langt.",
-        "Fleirtalan er die Maße (mál); í þágufalli — den Maßen (in Maßen, über alle Maßen)."
+        "Fleirtalan er die Maße (mál); í þágufalli — den Maßen (in Maßen). Í orðasambandinu über alle Maßen hefur varðveist söguleg mynd."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47377,7 +47377,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben er ekki það sama og aufgeben: nachgeben er að gefa eftir gagnvart einhverjum, aufgeben er að gefast upp á markmiði.",
-        "Forskeytið nach- skilst frá: gibt nach, ekki nachgibt."
+        "Forskeytið nach- skilst frá í aðalsetningu: er gibt nach (í aukasetningu saman: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47691,7 +47691,7 @@ const B1_WORDS = [
       "translation": "hneigjast • halla",
       "explanation": [
         "Meginhugmynd: neigen með zu + þágufalli merkir að hneigjast til einhvers, hafa tilhneigingu: Er neigt zu schnellen Entscheidungen. Myndir: neigt, neigte, hat geneigt. Athugið að íslenska segir hneigjast til + eignarfall.",
-        "Í beinni merkingu er etwas neigen að halla eða hneigja (den Kopf neigen). Afturbeygt merkir sich neigen að hallast eða líða að lokum: Der Tag neigt sich.",
+        "Í beinni merkingu er etwas neigen að halla eða hneigja (den Kopf neigen). Afturbeygt merkir sich neigen að hallast eða (í hærra málsniði) líða að lokum: Der Tag neigt sich. Orðasambandið sich dem Ende zuneigen er af zuneigen.",
         "Af sömu rót er nafnorðið die Neigung (tilhneiging, hneigð, halli)."
       ],
       "examples": [
@@ -48586,7 +48586,7 @@ const B1_WORDS = [
       "translation": "neyð • skortur",
       "explanation": [
         "Meginhugmynd: die Not er neyð, skortur, bágindi — þegar manneskju skortir það allra nauðsynlegasta (in Not leben, Not leiden). Það er líka brýn þörf eða vandræði: in der Not, in Not geraten. Orðið er skylt íslensku orðunum nauð og neyð.",
-        "Orðið er kvenkyns. Fleirtalan die Nöte er mjög sjaldgæf; yfirleitt er notuð eintala.",
+        "Orðið er kvenkyns. Fleirtalan die Nöte er sjaldgæfari (Sorgen und Nöte); yfirleitt er notuð eintala.",
         "Orðasambönd: zur Not (ef ekki vill betur, ef í harðbakkann slær), aus der Not eine Tugend machen (gera dyggð úr nauðsyn), Not macht erfinderisch (neyðin kennir naktri konu að spinna)."
       ],
       "examples": [
@@ -60246,7 +60246,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Um sæti í farartæki segirðu der Sitz eða der Platz; aðeins der Platz getur merkt staður almennt.",
-        "Aðsetur fyrirtækis kallast der Firmensitz."
+        "Lögheimili fyrirtækis (höfuðstöðvar) kallast der Firmensitz."
       ],
       "important": [
         "Der Sitz er ekki das Sitzen: das Sitzen er athöfnin, der Sitz er sæti eða aðsetur.",
@@ -61219,7 +61219,7 @@ const B1_WORDS = [
         "Um að geyma eða safna (orku, vatni) er líka notað speichern."
       ],
       "important": [
-        "Boðháttur er Speichere (eða Speicher), ekki Speichern.",
+        "Boðháttur er Speichere! (líka Speichre!; í talmáli Speicher!), ekki Speichern.",
         "speichern er ekki sperren (loka)."
       ],
       "sectionAccents": {
@@ -70107,7 +70107,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "bindi, grisjubindi",
+          "meaning": "sáraumbúðir, bindi",
           "example": "Sie wickelt eine Binde um den Fuß. – Hún vefur bindi um fótinn."
         },
         {
@@ -76468,7 +76468,7 @@ const B1_WORDS = [
         "Á eftir zugeben kemur oft dass-setning þar sem sögnin er aftast."
       ],
       "important": [
-        "Zugeben þýðir að viðurkenna eitthvað sem er mælandanum óhagstætt; ef þú vilt einfaldlega segja að bæta einhverju út í mat notarðu hinzufügen.",
+        "Zugeben merkir yfirleitt að viðurkenna eitthvað sem er mælandanum óhagstætt. Í uppskriftum merkir zugeben líka að bæta út í (Salz zugeben); í daglegu tali er í þessari merkingu oftar sagt hinzufügen.",
         "Í dass-setningu á eftir zugeben er sögnin aftast: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

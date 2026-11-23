@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Не користи jung за предмети — се вели neu.",
-        "Компаративот секогаш е со умлаут: jünger, а не “junger”."
+        "Компаративот секогаш е со умлаут: jünger (junger е само основниот степен со наставка: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (територија, село) и der Staat (државата како институција) не се синоними.",
-        "Во множина има умлаут: die Länder, а не “die Lande”."
+        "Во множина има умлаут: die Länder; die Lande е застарена, поетска форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21794,7 +21794,7 @@ const A1_WORDS = [
       "explanation": [
         "Главна идеја: schauen значи „гледа, погледнува” — го насочува погледот кон нешто: Wir schauen aus dem Fenster. Во Јужна Германија, Австрија и Швајцарија многу често се користи; на север почесто се користи gucken или sehen.",
         "Форми: schaut, schaute, hat geschaut. Често со предлози: auf + акузатив (Er schaut auf die Uhr), aus dem Fenster (низ прозорецот), nach + датив (Sie schaut nach dem Kind — го чува детето). Заповеден начин: Schau mal! — Погледни!",
-        "Фразата Ich schaue fern значи „гледам телевизија”."
+        "Фразата Ich schaue fern (од fernschauen — во Јужна Германија и Австрија; на други места fernsehen) значи „гледам телевизија”."
       ],
       "examples": [
         {
@@ -22617,7 +22617,7 @@ const A1_WORDS = [
         "Sehen значи и „разбира” во изрази како Ich sehe, was du meinst."
       ],
       "important": [
-        "Не е sehst или sehet: точно е du siehst, er sieht.",
+        "Во сегашно време не е du sehst или er seht: точно е du siehst, er sieht.",
         "За да кажеш дека гледаш нешто (филм, слика), може да се користи и sehen и sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25243,7 +25243,7 @@ const A1_WORDS = [
       "translation": "околу • во (часот)",
       "explanation": [
         "Главна идеја: um е предлог што секогаш бара акузатив. Во значење на време um означува точно време на часовникот: um acht Uhr (во осум часот). Во значење на место означува круг околу нешто: um den Tisch (околу масата), um die Ecke (зад аголот).",
-        "Прашањето за време е Um wie viel Uhr ...? (во колку часот?). По um времето не се користи со член: um 8 Uhr, а не in 8 Uhr.",
+        "Прашањето за време е Um wie viel Uhr ...? (во колку часот?). Часот се означува со um (без член), а не со in: um 8 Uhr, а не in 8 Uhr.",
         "Со zu + инфинитив um изразува цел: Er lernt, um zu verstehen (тој учи за да разбере)."
       ],
       "examples": [
@@ -25495,7 +25495,7 @@ const A1_WORDS = [
         "Фразата unter uns значи „меѓу нас” и се користи кога нешто се кажува доверливо."
       ],
       "important": [
-        "Unter не е исто што и zwischen: unter упатува на множество или група (unter Freunden), zwischen — на две конкретни работи.",
+        "Unter не е исто што и zwischen: unter упатува на множество или група (unter Freunden), zwischen — на одделни, именувани работи (често две, но може и повеќе).",
         "Unter + број значи „помалку од”: unter 18 значи помлад од 18 години."
       ],
       "sectionAccents": {
@@ -27787,7 +27787,7 @@ const A1_WORDS = [
         "Со луѓе се користи zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu бара само датив: zu meinem Freund, zu der Schule.",
+        "Zu бара само датив: zu meinem Freund, zur Schule (= zu der Schule).",
         "За градови и држави се користи nach, а не zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28647,7 +28647,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "телевизија",
       "explanation": [
-        "Главна идеја: das Fernsehen е именка од среден род што означува телевизија како медиум или збир на програми. Множина практично нема: се користи еднина. Обично стои со im: im Fernsehen (на телевизија), beim Fernsehen (работи на телевизија).",
+        "Главна идеја: das Fernsehen е именка од среден род што означува телевизија како медиум или збир на програми. Множина практично нема: се користи еднина. Обично стои со im: im Fernsehen (на телевизија), beim Fernsehen (додека се гледа телевизија; и кога се работи на телевизија).",
         "Тоа е именка од глаголот fernsehen (гледа телевизија). Апаратот се вика der Fernseher, а активноста — fernsehen.",
         "Именката се пишува со голема буква; како глагол fernsehen има одвоив префикс."
       ],
@@ -30075,7 +30075,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Запомни: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub обично се користи без член: Urlaub haben, Urlaub nehmen."
+        "Во изразите Urlaub haben, Urlaub nehmen се користи без член (но: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "За учениците обично се вели Ferien, а не Urlaub.",

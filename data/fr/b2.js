@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne confonds pas avec abfinden sans sich : il signifie dédommager ou indemniser avec de l'argent.",
-        "Le participe passé est sich abgefunden (avec -ge- au milieu), et non geabfunden."
+        "La forme du passé composé est hat sich abgefunden (avec -ge- entre ab- et le radical), et non geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "exposer • suspendre • trouver à redire",
       "explanation": [
-        "Idée principale : aussetzen est un verbe séparable à plusieurs sens : abandonner (un chien, un enfant), exposer (au froid, au danger), s'arrêter ou s'interrompre (moteur, travail) et, avec an + datif, trouver à redire.",
+        "Idée principale : aussetzen est un verbe séparable à plusieurs sens : abandonner (un chien, un enfant), exposer (au froid, au danger), s'arrêter ou s'interrompre (moteur, travail) et, dans l'expression etwas an + datif auszusetzen haben, trouver à redire, critiquer.",
         "Formes : setzt aus, setzte aus, hat ausgesetzt. Pour exposer, on emploie le datif : jemanden/etwas einer Gefahr aussetzen ; sich der Sonne aussetzen. Le participe dans ausgesetzt sein signifie être exposé.",
         "Au sens de trouver à redire, on utilise l'expression etwas an jemandem/etwas auszusetzen haben : Ich habe nichts daran auszusetzen. Ici, zu s'insère entre le préfixe et le radical : auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "avoir pitié de • prendre en pitié",
       "explanation": [
         "Idée principale : sich erbarmen signifie éprouver de la compassion pour quelqu'un qui souffre et l'aider, ou avoir pitié de lui. Le registre est soutenu, souvent religieux ou ironique.",
-        "Il est généralement suivi du génitif : sich des Hundes erbarmen. Plus rarement, on emploie über + accusatif. Formes : erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Il est généralement suivi du génitif : sich des Hundes erbarmen. Plus rarement (régionalement, en Autriche), on emploie über + accusatif. Formes : erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Familièrement, pour plaisanter : Wer erbarmt sich und …? — Qui aura pitié de moi et … ?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig exprime souvent un aspect indésirable ou irrégulier (vêtement sale, plaques rouges sur la peau).",
-        "Quand tu ajoutes une terminaison, pense au e : ein fleckiges Fell, eine fleckige Haut."
+        "Devant un nom, fleckig prend une terminaison : ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "ultérieur • après coup",
       "explanation": [
         "Idée principale : nachträglich signifie après coup, une fois l'action principale ou le délai passés — ajouté ou fait plus tard. C'est à la fois un adjectif (eine nachträgliche Änderung) et un adverbe (nachträglich ändern).",
-        "Sens fréquent : le retard — nachträglich gratulieren, féliciter après l'événement. Dans la langue administrative : eine nachträgliche Zahlung (un paiement ultérieur, effectué après coup)."
+        "Sens fréquent : le retard — nachträglich gratulieren, féliciter après l'événement. L'adjectif désigne aussi ce qui a lieu plus tard, après le délai prévu : eine nachträgliche Zahlung (un paiement ultérieur)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "remettre • transmettre",
       "explanation": [
-        "Idée principale : überbringen signifie apporter à son destinataire une nouvelle, des félicitations, une lettre ou un cadeau qu'on vous a confiés — les apporter et les remettre en personne. Le destinataire est au datif : jemandem etwas überbringen.",
+        "Idée principale : überbringen signifie apporter à son destinataire une nouvelle, des félicitations, une lettre ou un cadeau — les apporter et les remettre en personne. Le destinataire est au datif : jemandem etwas überbringen.",
         "Particule inséparable über- : überbringt, überbrachte, hat überbracht. À l'infinitif, zu se place devant le verbe : um die Nachricht zu überbringen. Le mot est un peu formel."
       ],
       "examples": [

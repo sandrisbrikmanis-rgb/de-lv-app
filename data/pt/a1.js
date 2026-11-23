@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Não uses jung para objetos — diz-se neu.",
-        "O comparativo leva sempre trema: jünger, e não «junger»."
+        "O comparativo leva sempre trema: jünger (junger é apenas o grau normal com terminação: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (território, campo) e der Staat (o Estado como instituição) não são sinónimos.",
-        "No plural há trema: die Länder, e não “die Lande”."
+        "No plural há trema: die Länder; die Lande é uma forma antiquada e poética."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21793,7 +21793,7 @@ const A1_WORDS = [
       "explanation": [
         "Ideia principal: schauen significa “olhar, dar uma olhadela” — dirigir o olhar para algo: Wir schauen aus dem Fenster. No sul da Alemanha, na Áustria e na Suíça é muito usado; no norte usa-se mais gucken ou sehen.",
         "Formas: schaut, schaute, hat geschaut. Muitas vezes com preposições: auf + acusativo (Er schaut auf die Uhr), aus dem Fenster (pela janela), nach + dativo (Sie schaut nach dem Kind — toma conta da criança). Imperativo: Schau mal! — Olha!",
-        "A expressão Ich schaue fern significa “vejo televisão”."
+        "A expressão Ich schaue fern (de fernschauen — no sul da Alemanha e na Áustria; noutras regiões fernsehen) significa “vejo televisão”."
       ],
       "examples": [
         {
@@ -22616,7 +22616,7 @@ const A1_WORDS = [
         "Sehen também significa \"compreender\" em expressões como Ich sehe, was du meinst."
       ],
       "important": [
-        "Não existe sehst nem sehet: o correto é du siehst, er sieht.",
+        "No presente não existe du sehst nem er seht: o correto é du siehst, er sieht.",
         "Para dizer que se vê alguma coisa (um filme, um quadro), pode usar-se tanto sehen como sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25242,7 +25242,7 @@ const A1_WORDS = [
       "translation": "à volta de • às",
       "explanation": [
         "Ideia principal: um é uma preposição que pede sempre acusativo. No sentido temporal, um indica a hora exata: um acht Uhr (às oito horas). No sentido de lugar, indica um círculo à volta de algo: um den Tisch (à volta da mesa), um die Ecke (ao virar da esquina).",
-        "A pergunta sobre a hora é Um wie viel Uhr ...? (a que horas?). Depois de um, a hora não leva artigo: um 8 Uhr, e não in 8 Uhr.",
+        "A pergunta sobre a hora é Um wie viel Uhr ...? (a que horas?). As horas indicam-se com um (sem artigo), e não com in: um 8 Uhr, e não in 8 Uhr.",
         "Com zu + infinitivo, um exprime finalidade: Er lernt, um zu verstehen (ele estuda para compreender)."
       ],
       "examples": [
@@ -25494,7 +25494,7 @@ const A1_WORDS = [
         "A expressão unter uns significa \"entre nós\" e usa-se quando se diz algo em confidência."
       ],
       "important": [
-        "Unter não é o mesmo que zwischen: unter refere-se a um conjunto ou grupo (unter Freunden), zwischen — a duas coisas concretas.",
+        "Unter não é o mesmo que zwischen: unter refere-se a um conjunto ou grupo (unter Freunden), zwischen — a coisas distintas e nomeadas (muitas vezes duas, mas também podem ser mais).",
         "Unter + número significa \"menos de\": unter 18 é ter menos de 18 anos."
       ],
       "sectionAccents": {
@@ -27786,7 +27786,7 @@ const A1_WORDS = [
         "Com pessoas usa-se zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu pede só dativo: zu meinem Freund, zu der Schule.",
+        "Zu pede só dativo: zu meinem Freund, zur Schule (= zu der Schule).",
         "Para cidades e países usa-se nach, e não zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28644,7 +28644,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televisão",
       "explanation": [
-        "Ideia principal: das Fernsehen é um substantivo neutro que designa a televisão como meio de comunicação ou como conjunto de emissões. Praticamente não tem plural: usa-se no singular. Aparece muitas vezes com im: im Fernsehen (na televisão), beim Fernsehen (a trabalhar na televisão).",
+        "Ideia principal: das Fernsehen é um substantivo neutro que designa a televisão como meio de comunicação ou como conjunto de emissões. Praticamente não tem plural: usa-se no singular. Aparece muitas vezes com im: im Fernsehen (na televisão), beim Fernsehen (a ver televisão; também a trabalhar na televisão).",
         "É um substantivo formado a partir do verbo fernsehen (ver televisão). O aparelho chama-se der Fernseher, e a atividade — fernsehen.",
         "O substantivo escreve-se com maiúscula; como verbo, fernsehen é separável."
       ],
@@ -30072,7 +30072,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Lembra-te: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub usa-se normalmente sem artigo: Urlaub haben, Urlaub nehmen."
+        "Nas expressões Urlaub haben, Urlaub nehmen usa-se sem artigo (mas: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Para os alunos diz-se normalmente Ferien, e não Urlaub.",

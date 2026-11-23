@@ -13177,7 +13177,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Älä käytä sanaa jung esineistä — sano neu.",
-        "Komparatiivissa on aina umlaut: jünger, ei “junger”."
+        "Komparatiivissa on aina umlaut: jünger (junger on vain perusmuoto taivutuspäätteen kanssa: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14897,7 +14897,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (alue, maaseutu) ja der Staat (valtio instituutiona) eivät ole synonyymejä.",
-        "Monikossa on umlaut: die Länder, ei “die Lande”."
+        "Monikossa on umlaut: die Länder; die Lande on vanhentunut, runollinen muoto."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21790,7 +21790,7 @@ const A1_WORDS = [
       "explanation": [
         "Perusajatus: schauen tarkoittaa ”katsoa, vilkaista” — suunnata katse johonkin: Wir schauen aus dem Fenster. Etelä-Saksassa, Itävallassa ja Sveitsissä se on hyvin yleinen; pohjoisessa käytetään useammin sanoja gucken tai sehen.",
         "Taivutusmuodot: schaut, schaute, hat geschaut. Usein prepositioiden kanssa: auf + akkusatiivi (Er schaut auf die Uhr), aus dem Fenster (ikkunasta), nach + datiivi (Sie schaut nach dem Kind — hän katsoo lapsen perään). Imperatiivi: Schau mal! — Katsopa!",
-        "Ilmaus Ich schaue fern tarkoittaa ”katson televisiota”."
+        "Ilmaus Ich schaue fern (verbistä fernschauen — Etelä-Saksassa ja Itävallassa; muualla fernsehen) tarkoittaa ”katson televisiota”."
       ],
       "examples": [
         {
@@ -22613,7 +22613,7 @@ const A1_WORDS = [
         "Sehen tarkoittaa myös ”ymmärtää” ilmauksissa kuten Ich sehe, was du meinst."
       ],
       "important": [
-        "Ei ole muotoja sehst tai sehet: oikein on du siehst, er sieht.",
+        "Preesensissä ei ole muotoja du sehst tai er seht: oikein on du siehst, er sieht.",
         "Kun katsot jotakin (elokuvaa, kuvaa), voit käyttää sekä verbiä sehen että sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25238,7 +25238,7 @@ const A1_WORDS = [
       "translation": "ympärillä • kello",
       "explanation": [
         "Perusajatus: um on prepositio, joka vaatii aina akkusatiivin. Ajan merkityksessä um ilmaisee tarkan kellonajan: um acht Uhr (kello kahdeksan). Paikan merkityksessä se ilmaisee liikettä tai sijaintia jonkin ympärillä: um den Tisch (pöydän ympärillä), um die Ecke (kulman takana).",
-        "Kellonaikaa kysytään Um wie viel Uhr ...? (mihin aikaan?). Um-sanan jälkeen kellonaikaa ei käytetä artikkelin kanssa: um 8 Uhr, ei in 8 Uhr.",
+        "Kellonaikaa kysytään Um wie viel Uhr ...? (mihin aikaan?). Kellonaika ilmaistaan sanalla um (ilman artikkelia), ei sanalla in: um 8 Uhr, ei in 8 Uhr.",
         "Rakenteessa zu + infinitiivi um ilmaisee tarkoitusta: Er lernt, um zu verstehen (hän opiskelee ymmärtääkseen)."
       ],
       "examples": [
@@ -25490,7 +25490,7 @@ const A1_WORDS = [
         "Ilmaus unter uns tarkoittaa ”meidän kesken”, ja sitä käytetään, kun sanotaan jotakin luottamuksellisesti."
       ],
       "important": [
-        "Unter ei ole sama kuin zwischen: unter viittaa joukkoon tai ryhmään (unter Freunden), zwischen kahteen tiettyyn asiaan.",
+        "Unter ei ole sama kuin zwischen: unter viittaa joukkoon tai ryhmään (unter Freunden), zwischen erillisiin, nimettyihin asioihin (usein kahteen, mutta myös useampaan).",
         "Unter + luku tarkoittaa ”vähemmän kuin”: unter 18 on alle 18-vuotias."
       ],
       "sectionAccents": {
@@ -27782,7 +27782,7 @@ const A1_WORDS = [
         "Ihmisten kanssa käytetään sanaa zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu vaatii vain datiivin: zu meinem Freund, zu der Schule.",
+        "Zu vaatii vain datiivin: zu meinem Freund, zur Schule (= zu der Schule).",
         "Kaupungeista ja maista käytetään sanaa nach, ei zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28642,7 +28642,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televisio",
       "explanation": [
-        "Perusajatus: das Fernsehen on neutrisubstantiivi, joka tarkoittaa televisiota mediana tai ohjelmien kokonaisuutena. Monikkoa ei käytännössä ole: käytetään yksikköä. Se esiintyy yleensä sanan im kanssa: im Fernsehen (televisiossa), beim Fernsehen (televisiossa töissä).",
+        "Perusajatus: das Fernsehen on neutrisubstantiivi, joka tarkoittaa televisiota mediana tai ohjelmien kokonaisuutena. Monikkoa ei käytännössä ole: käytetään yksikköä. Se esiintyy yleensä sanan im kanssa: im Fernsehen (televisiossa), beim Fernsehen (televisiota katsellessa; myös televisiossa töissä).",
         "Se on substantiivi verbistä fernsehen (katsoa televisiota). Laitetta kutsutaan sanalla der Fernseher, toimintaa taas — fernsehen.",
         "Substantiivi kirjoitetaan isolla alkukirjaimella; verbinä fernsehen on erotettava."
       ],
@@ -30070,7 +30070,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Muista: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub käytetään yleensä ilman artikkelia: Urlaub haben, Urlaub nehmen."
+        "Ilmauksissa Urlaub haben, Urlaub nehmen käytetään ilman artikkelia (mutta: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Koululaisista sanotaan yleensä Ferien, ei Urlaub.",

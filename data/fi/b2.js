@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Älä sekoita verbiin abfinden ilman sich-pronominia: se tarkoittaa korvata tai hyvittää rahalla.",
-        "Perfektimuoto on sich abgefunden (-ge- keskellä), ei geabfunden."
+        "Perfektimuoto on hat sich abgefunden (-ge- etuliitteen ab- ja vartalon välissä), ei geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "jättää heitteille • altistaa • keskeyttää",
       "explanation": [
-        "Perusajatus: aussetzen on erotettava verbi, jolla on useita merkityksiä: jättää heitteille tai hylätä (koira, lapsi), altistaa (kylmälle, vaaroille), pysähtyä tai katketa (moottori, työ) sekä an + datiivi -rakenteessa moittia.",
+        "Perusajatus: aussetzen on erotettava verbi, jolla on useita merkityksiä: jättää heitteille tai hylätä (koira, lapsi), altistaa (kylmälle, vaaroille), pysähtyä tai katketa (moottori, työ) sekä ilmauksessa etwas an + datiivi auszusetzen haben moittia, arvostella.",
         "Muodot: setzt aus, setzte aus, hat ausgesetzt. Altistamisen merkityksessä käytetään datiivia: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Partisiippirakenne ausgesetzt sein tarkoittaa olla alttiina jollekin.",
         "Moittimisen merkityksessä käytetään ilmausta etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Tässä zu tulee etuliitteen ja vartalon väliin: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "armahtaa • sääliä",
       "explanation": [
         "Perusajatus: sich erbarmen tarkoittaa tuntea myötätuntoa kärsivää kohtaan ja auttaa häntä tai armahtaa hänet. Kieli on ylätyylistä, usein uskonnollista tai ironista.",
-        "Sen jälkeen tulee yleensä genetiivi: sich des Hundes erbarmen. Harvemmin käytetään rakennetta über + akkusatiivi. Muodot: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Sen jälkeen tulee yleensä genetiivi: sich des Hundes erbarmen. Harvemmin (alueellisesti, Itävallassa) käytetään rakennetta über + akkusatiivi. Muodot: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Puhekielessä leikillisesti: Wer erbarmt sich und …? – Kuka armahtaa ja …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig ilmaisee usein ei-toivottua tai epätasaista ulkonäköä (likainen vaate, punaiset läikät iholla).",
-        "Kun lisäät päätteen, muista e: ein fleckiges Fell, eine fleckige Haut."
+        "Substantiivin edellä fleckig saa päätteen: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "jälkikäteinen • jälkikäteen",
       "explanation": [
         "Perusajatus: nachträglich tarkoittaa jälkikäteen, vasta päätapahtuman tai määräajan jälkeen — myöhemmin lisättyä tai tehtyä. Se on sekä adjektiivi (eine nachträgliche Änderung) että adverbi (nachträglich ändern).",
-        "Yleinen merkitys on myöhästyminen: nachträglich gratulieren — onnitella tapahtuman jälkeen. Adjektiivi ilmaisee myös lisäluonnetta: eine nachträgliche Zahlung (lisämaksu)."
+        "Yleinen merkitys on myöhästyminen: nachträglich gratulieren — onnitella tapahtuman jälkeen. Adjektiivi tarkoittaa myös myöhemmin, määräajan jälkeen tapahtuvaa: eine nachträgliche Zahlung (myöhempi maksu)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "viedä • toimittaa • välittää",
       "explanation": [
-        "Perusajatus: überbringen tarkoittaa toimittaa vastaanottajalle luottamuksella viesti, onnittelu, kirje tai lahja — tuoda ja luovuttaa henkilökohtaisesti. Vastaanottaja on datiivissa: jemandem etwas überbringen.",
+        "Perusajatus: überbringen tarkoittaa toimittaa vastaanottajalle viesti, onnittelu, kirje tai lahja — tuoda ja luovuttaa henkilökohtaisesti. Vastaanottaja on datiivissa: jemandem etwas überbringen.",
         "Erottamaton etuliite über-: überbringt, überbrachte, hat überbracht. Infinitiivissä zu on verbin edellä: um die Nachricht zu überbringen. Sana on hieman muodollinen."
       ],
       "examples": [

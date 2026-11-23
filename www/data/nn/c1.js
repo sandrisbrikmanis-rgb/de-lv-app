@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "einebustad",
       "explanation": [
         "Hovudtanken: das Einfamilienhaus er eit hus som er meint for éin familie — frittståande eller bygd saman med huset til naboen, men med eitt husvære og som regel eigen hage.",
-        "Substantiv i inkjekjønn: das Einfamilienhaus, fleirtal die Einfamilienhäuser. Det er sett saman av Ein- + Familie + Haus.",
+        "Substantiv i inkjekjønn: das Einfamilienhaus, fleirtal die Einfamilienhäuser. Det er sett saman av Ein- + Familien- (samansetjingsform av Familie) + Haus.",
         "Motsetnaden er das Mehrfamilienhaus (fleirfamiliehus, bustadblokk)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "I politikken seier ein eine Partei wählen eller für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei og die Party (fest) liknar kvarandre i lyd, men har ingenting med kvarandre å gjere."
+        "Die Partei og die Party (fest) liknar kvarandre i lyd, men tydinga er heilt ulik (begge kjem likevel av latin pars — del)."
       ],
       "sectionAccents": {
         "explanation": {
