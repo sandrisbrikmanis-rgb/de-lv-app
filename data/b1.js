@@ -32592,7 +32592,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pēc ein Haufen seko lietvārds bez 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Pēc ein Haufen lietvārds parasti seko bez 'von': ein Haufen Arbeit, ein Haufen Geld (retāk: ein Haufen von Problemen).",
         "Izteiciens über den Haufen werfen — sagraut (plānus)."
       ],
       "important": [

@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "nodot ziņu • apsveikumu • vēstuli • dāvanu",
       "explanation": [
-        "Galvenā doma: überbringen nozīmē uzticēti nogādāt adresātam ziņu, apsveikumu, vēstuli vai dāvanu — atnest un nodot personīgi. Kam nodod, tas ir datīvā: jemandem etwas überbringen.",
+        "Galvenā doma: überbringen nozīmē nogādāt adresātam ziņu, apsveikumu, vēstuli vai dāvanu — atnest un nodot personīgi. Kam nodod, tas ir datīvā: jemandem etwas überbringen.",
         "Neatdalāms priedēklis über-: überbringt, überbrachte, hat überbracht. Nenoteiksmē zu stāv pirms darbības vārda: um die Nachricht zu überbringen. Vārds ir nedaudz formāls."
       ],
       "examples": [
