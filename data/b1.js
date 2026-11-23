@@ -6539,7 +6539,7 @@ const B1_WORDS = [
     "de": "Ausweg",
     "de_article": "der",
     "de_plural": "die Auswege",
-    "lv": "izeja",
+    "lv": "izeja (no kādas situācijas)",
     "level": "B1"
   },
   {
