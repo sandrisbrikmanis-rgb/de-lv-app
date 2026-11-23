@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Meginhugmynd: die Wahl merkir bæði val (það sem valið er úr nokkrum kostum) og kosningar (þegar fólk er kosið í embætti).",
         "Kvenkynsnafnorð: die Wahl, fleirtala die Wahlen. Um kosningar er mjög oft notuð fleirtala: die Wahlen finden statt – líkt og íslenska orðið kosningar. Val er yfirleitt í eintölu: die Wahl haben, keine andere Wahl haben.",
-        "Orðasambönd: die Wahl treffen (velja, taka ákvörðun), zur Wahl gehen (fara á kjörstað), die Wahl gewinnen (vinna kosningarnar)."
+        "Orðasambönd: eine Wahl treffen (velja, taka ákvörðun), zur Wahl gehen (fara á kjörstað), die Wahl gewinnen (vinna kosningarnar)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "val",

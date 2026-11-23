@@ -44780,7 +44780,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Uz wählen navedi što biraš: ein Menü, eine Partei, eine Nummer. O dopuni ovisi značenje.",
-        "S imenicom: die Wahl treffen (izabrati, donijeti izbor), zur Wahl gehen (ići na izbore)."
+        "S imenicom: eine Wahl treffen (izabrati, donijeti izbor), zur Wahl gehen (ići na izbore)."
       ],
       "important": [
         "wählen se ne upotrebljava s prijedlogom kad biraš predmet: Ich wähle ein Kleid (a ne wähle für).",

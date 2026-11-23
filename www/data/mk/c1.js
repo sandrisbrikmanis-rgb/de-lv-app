@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Главна идеја: die Wahl значи избор (она што се избира меѓу повеќе можности) и избори (избирање луѓе на функција).",
         "Именка од женски род: die Wahl, множина die Wahlen. Изборите многу често се во множина: die Wahlen finden statt. Изборот (одлуката) обично е во еднина: die Wahl haben, keine andere Wahl haben.",
-        "Врски: die Wahl treffen (прави избор), zur Wahl gehen (оди да гласа), die Wahl gewinnen (победува на изборите)."
+        "Врски: eine Wahl treffen (прави избор), zur Wahl gehen (оди да гласа), die Wahl gewinnen (победува на изборите)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "избор",

@@ -44774,7 +44774,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Med wählen siger du, hvad du præcis vælger: ein Menü, eine Partei, eine Nummer. Genstanden afgør betydningen.",
-        "Med navneordet: die Wahl treffen (træffe et valg), zur Wahl gehen (gå til valg)."
+        "Med navneordet: eine Wahl treffen (træffe et valg), zur Wahl gehen (gå til valg)."
       ],
       "important": [
         "wählen bruges uden forholdsord, når man vælger en genstand: Ich wähle ein Kleid (ikke wähle für).",

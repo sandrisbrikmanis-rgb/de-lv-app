@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "A lényeg: a die Wahl jelentése választás – egyrészt döntés több lehetőség közül, másrészt politikai választás (emberek megválasztása egy tisztségre). A magyar választás szó szerencsére mindkét jelentést lefedi.",
         "Nőnemű főnév: die Wahl, többes száma die Wahlen. A politikai választásokat nagyon gyakran többes számban használjuk: die Wahlen finden statt. A döntés értelmében általában egyes számú: die Wahl haben, keine andere Wahl haben.",
-        "Szókapcsolatok: die Wahl treffen (választ, döntést hoz), zur Wahl gehen (elmegy szavazni), die Wahl gewinnen (megnyeri a választást)."
+        "Szókapcsolatok: eine Wahl treffen (választ, döntést hoz), zur Wahl gehen (elmegy szavazni), die Wahl gewinnen (megnyeri a választást)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "választás",

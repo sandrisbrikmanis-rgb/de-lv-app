@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Hovudtanken: die Wahl tyder både val som det ein vel mellom fleire moglegheiter, og val der folk vert valde til eit verv.",
         "Substantiv i hokjønn: die Wahl, fleirtal die Wahlen. Om politiske val brukast svært ofte fleirtal: die Wahlen finden statt. Val som moglegheit står vanlegvis i eintal: die Wahl haben, keine andere Wahl haben.",
-        "Samband: die Wahl treffen (gjere eit val), zur Wahl gehen (gå og røyste), die Wahl gewinnen (vinne valet)."
+        "Samband: eine Wahl treffen (gjere eit val), zur Wahl gehen (gå og røyste), die Wahl gewinnen (vinne valet)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "val",

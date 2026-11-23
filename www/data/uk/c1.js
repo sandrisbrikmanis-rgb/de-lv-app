@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Головна думка: die Wahl означає вибір (те, що обирають із кількох можливостей) і вибори (обрання людей на посаду).",
         "Іменник жіночого роду: die Wahl, множина die Wahlen. У значенні «вибори» слово дуже часто вживають у множині: die Wahlen finden statt. У значенні «вибір» — зазвичай в однині: die Wahl haben, keine andere Wahl haben.",
-        "Сполучення: die Wahl treffen (зробити вибір), zur Wahl gehen (іти голосувати), die Wahl gewinnen (перемогти на виборах)."
+        "Сполучення: eine Wahl treffen (зробити вибір), zur Wahl gehen (іти голосувати), die Wahl gewinnen (перемогти на виборах)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "вибір",

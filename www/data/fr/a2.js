@@ -44784,7 +44784,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Avec wählen, précise ce que tu choisis : ein Menü, eine Partei, eine Nummer. C'est le complément qui détermine le sens.",
-        "Avec un nom : die Wahl treffen (faire un choix), zur Wahl gehen (aller voter)."
+        "Avec un nom : eine Wahl treffen (faire un choix), zur Wahl gehen (aller voter)."
       ],
       "important": [
         "wählen ne s'emploie pas avec une préposition quand on choisit un objet : Ich wähle ein Kleid (et non wähle für).",

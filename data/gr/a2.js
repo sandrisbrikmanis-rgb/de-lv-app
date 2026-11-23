@@ -44779,7 +44779,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Με το wählen λες τι ακριβώς επιλέγεις: ein Menü, eine Partei, eine Nummer. Τη σημασία την καθορίζει το αντικείμενο.",
-        "Με ουσιαστικό: die Wahl treffen (κάνω μια επιλογή), zur Wahl gehen (πηγαίνω να ψηφίσω)."
+        "Με ουσιαστικό: eine Wahl treffen (κάνω μια επιλογή), zur Wahl gehen (πηγαίνω να ψηφίσω)."
       ],
       "important": [
         "Το wählen δεν χρησιμοποιείται με πρόθεση όταν επιλέγεις ένα αντικείμενο: Ich wähle ein Kleid (όχι wähle für).",

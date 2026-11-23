@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Z wählen povej, kaj točno izbiraš: ein Menü, eine Partei, eine Nummer. Pomen določa predmet.",
-        "S samostalnikom: die Wahl treffen (izbrati, odločiti se), zur Wahl gehen (iti volit)."
+        "S samostalnikom: eine Wahl treffen (izbrati, odločiti se), zur Wahl gehen (iti volit)."
       ],
       "important": [
         "wählen se ne uporablja s predlogom, ko izbiraš predmet: Ich wähle ein Kleid (ne wähle für).",

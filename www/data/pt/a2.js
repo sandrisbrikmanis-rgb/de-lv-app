@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Com wählen diz exatamente o que escolhes: ein Menü, eine Partei, eine Nummer. O objeto determina o significado.",
-        "Com o substantivo: die Wahl treffen (fazer uma escolha), zur Wahl gehen (ir votar)."
+        "Com o substantivo: eine Wahl treffen (fazer uma escolha), zur Wahl gehen (ir votar)."
       ],
       "important": [
         "wählen não leva preposição quando se escolhe um objeto: Ich wähle ein Kleid (e não wähle für).",

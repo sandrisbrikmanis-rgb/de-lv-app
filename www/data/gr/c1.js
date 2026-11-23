@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Βασική ιδέα: die Wahl σημαίνει επιλογή (αυτό που διαλέγει κανείς ανάμεσα σε πολλές δυνατότητες) και εκλογές (εκλογή ανθρώπων σε αξίωμα).",
         "Ουσιαστικό θηλυκού γένους: die Wahl, πληθυντικός die Wahlen. Με τη σημασία «εκλογές» χρησιμοποιείται πολύ συχνά στον πληθυντικό: die Wahlen finden statt. Με τη σημασία «επιλογή» είναι συνήθως στον ενικό: die Wahl haben, keine andere Wahl haben.",
-        "Συνδυασμοί: die Wahl treffen (κάνω μια επιλογή), zur Wahl gehen (πηγαίνω να ψηφίσω), die Wahl gewinnen (κερδίζω τις εκλογές)."
+        "Συνδυασμοί: eine Wahl treffen (κάνω μια επιλογή), zur Wahl gehen (πηγαίνω να ψηφίσω), die Wahl gewinnen (κερδίζω τις εκλογές)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "επιλογή",

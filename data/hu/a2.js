@@ -44766,7 +44766,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "A wählen mellett mondd meg, pontosan mit választasz: ein Menü, eine Partei, eine Nummer. A tárgy határozza meg a jelentést.",
-        "Főnévvel: die Wahl treffen (választást hozni, dönteni), zur Wahl gehen (elmenni szavazni)."
+        "Főnévvel: eine Wahl treffen (választást hozni, dönteni), zur Wahl gehen (elmenni szavazni)."
       ],
       "important": [
         "A wählen elöljárószó nélkül áll, ha egy tárgyat választunk: Ich wähle ein Kleid (nem wähle für).",

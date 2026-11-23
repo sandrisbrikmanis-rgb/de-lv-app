@@ -44843,7 +44843,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wählen'iga ütle, mida täpselt valid: ein Menü, eine Partei, eine Nummer. Tähenduse määrab sihitis.",
-        "Koos nimisõnaga: die Wahl treffen (valikut tegema), zur Wahl gehen (valima minema)."
+        "Koos nimisõnaga: eine Wahl treffen (valikut tegema), zur Wahl gehen (valima minema)."
       ],
       "important": [
         "Kui valitakse objekti, ei kasutata wählen'iga eessõna: Ich wähle ein Kleid (mitte wähle für).",

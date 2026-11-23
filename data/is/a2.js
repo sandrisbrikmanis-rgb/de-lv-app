@@ -44777,7 +44777,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Með wählen segirðu hvað þú velur: ein Menü, eine Partei, eine Nummer. Andlagið ræður merkingunni.",
-        "Með nafnorðinu: die Wahl treffen (taka ákvörðun, velja), zur Wahl gehen (fara að kjósa)."
+        "Með nafnorðinu: eine Wahl treffen (taka ákvörðun, velja), zur Wahl gehen (fara að kjósa)."
       ],
       "important": [
         "wählen er notað án forsetningar þegar hlutur er valinn: Ich wähle ein Kleid (ekki wähle für).",

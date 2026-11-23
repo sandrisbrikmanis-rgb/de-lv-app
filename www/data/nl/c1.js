@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Kern: die Wahl betekent keuze (iets kiezen uit meerdere mogelijkheden) en verkiezing (mensen in een functie kiezen).",
         "Vrouwelijk zelfstandig naamwoord: die Wahl, meervoud die Wahlen. Verkiezingen staan heel vaak in het meervoud: die Wahlen finden statt. Keuze staat meestal in het enkelvoud: die Wahl haben, keine andere Wahl haben.",
-        "Combinaties: die Wahl treffen (een keuze maken), zur Wahl gehen (gaan stemmen), die Wahl gewinnen (de verkiezingen winnen)."
+        "Combinaties: eine Wahl treffen (een keuze maken), zur Wahl gehen (gaan stemmen), die Wahl gewinnen (de verkiezingen winnen)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "keuze",

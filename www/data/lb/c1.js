@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Haaptiddi: die Wahl heescht Wiel (wann ee vu verschiddene Méiglechkeeten eppes eraussicht) a Wal (wa Leit an en Amt gewielt ginn).",
         "Feminint Substantiv: die Wahl, Pluralform die Wahlen. Fir d'Walen gëtt ganz dacks de Plural benotzt: die Wahlen finden statt. D'Wiel steet normalerweis am Singular: die Wahl haben, keine andere Wahl haben.",
-        "Verbindungen: die Wahl treffen (eng Wiel treffen), zur Wahl gehen (wiele goen), die Wahl gewinnen (d'Wale gewannen)."
+        "Verbindungen: eine Wahl treffen (eng Wiel treffen), zur Wahl gehen (wiele goen), die Wahl gewinnen (d'Wale gewannen)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "Wiel",

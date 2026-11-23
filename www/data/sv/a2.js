@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Med wählen säger du vad du väljer: ein Menü, eine Partei, eine Nummer. Objektet avgör betydelsen.",
-        "Tillsammans med substantivet: die Wahl treffen (göra ett val), zur Wahl gehen (gå och rösta)."
+        "Tillsammans med substantivet: eine Wahl treffen (göra ett val), zur Wahl gehen (gå och rösta)."
       ],
       "important": [
         "wählen används utan preposition när man väljer ett objekt: Ich wähle ein Kleid (inte wähle für).",

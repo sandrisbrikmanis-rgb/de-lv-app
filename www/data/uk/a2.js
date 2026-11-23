@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "З wählen кажи, що саме вибираєш: ein Menü, eine Partei, eine Nummer. Значення визначає додаток.",
-        "Разом з іменником: die Wahl treffen (зробити вибір), zur Wahl gehen (іти голосувати)."
+        "Разом з іменником: eine Wahl treffen (зробити вибір), zur Wahl gehen (іти голосувати)."
       ],
       "important": [
         "wählen не вживають із прийменником, коли вибирають предмет: Ich wähle ein Kleid (а не wähle für).",

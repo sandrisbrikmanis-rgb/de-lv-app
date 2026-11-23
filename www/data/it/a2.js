@@ -44784,7 +44784,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Con wählen di' che cosa scegli esattamente: ein Menü, eine Partei, eine Nummer. È il complemento a determinare il significato.",
-        "Con un sostantivo: die Wahl treffen (fare una scelta), zur Wahl gehen (andare a votare)."
+        "Con un sostantivo: eine Wahl treffen (fare una scelta), zur Wahl gehen (andare a votare)."
       ],
       "important": [
         "wählen non si usa con una preposizione quando si sceglie un oggetto: Ich wähle ein Kleid (non wähle für).",

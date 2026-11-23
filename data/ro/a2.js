@@ -44792,7 +44792,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Cu wählen spui ce anume alegi: ein Menü, eine Partei, eine Nummer. Sensul este dat de complement.",
-        "Împreună cu substantivul: die Wahl treffen (a face o alegere), zur Wahl gehen (a merge la vot)."
+        "Împreună cu substantivul: eine Wahl treffen (a face o alegere), zur Wahl gehen (a merge la vot)."
       ],
       "important": [
         "wählen nu se folosește cu prepoziție când alegi un obiect: Ich wähle ein Kleid (nu wähle für).",

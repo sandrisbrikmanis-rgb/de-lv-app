@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Galvenā doma: die Wahl nozīmē izvēli (ko izvēlas no vairākām iespējām) un vēlēšanas (cilvēku ievēlēšanu amatā).",
         "Sieviešu dzimtes lietvārds: die Wahl, daudzskaitlis die Wahlen. Vēlēšanas ļoti bieži lieto daudzskaitlī: die Wahlen finden statt. Izvēle ir parasti vienskaitlī: die Wahl haben, keine andere Wahl haben.",
-        "Savienojumi: die Wahl treffen (izdarīt izvēli), zur Wahl gehen (iet vēlēt), die Wahl gewinnen (uzvarēt vēlēšanās)."
+        "Savienojumi: eine Wahl treffen (izdarīt izvēli), zur Wahl gehen (iet vēlēt), die Wahl gewinnen (uzvarēt vēlēšanās)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "izvēli",

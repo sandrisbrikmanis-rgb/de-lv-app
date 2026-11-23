@@ -44799,7 +44799,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "With wählen, say exactly what you are choosing: ein Menü, eine Partei, eine Nummer. The object determines the meaning.",
-        "With the noun: die Wahl treffen (to make a choice), zur Wahl gehen (to go and vote)."
+        "With the noun: eine Wahl treffen (to make a choice), zur Wahl gehen (to go and vote)."
       ],
       "important": [
         "wählen takes no preposition when you choose an object: Ich wähle ein Kleid (not wähle für).",

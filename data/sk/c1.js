@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: die Wahl znamená voľbu, výber (keď sa vyberá z viacerých možností) a voľby (zvolenie ľudí do funkcie).",
         "Podstatné meno ženského rodu: die Wahl, množné číslo die Wahlen. Vo význame voľby (hlasovanie) sa veľmi často používa množné číslo: die Wahlen finden statt. Vo význame výber býva zvyčajne jednotné číslo: die Wahl haben, keine andere Wahl haben.",
-        "Spojenia: die Wahl treffen (urobiť voľbu, rozhodnúť sa), zur Wahl gehen (ísť voliť), die Wahl gewinnen (vyhrať voľby)."
+        "Spojenia: eine Wahl treffen (urobiť voľbu, rozhodnúť sa), zur Wahl gehen (ísť voliť), die Wahl gewinnen (vyhrať voľby)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "voľbu",

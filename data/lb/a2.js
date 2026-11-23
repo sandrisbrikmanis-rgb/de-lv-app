@@ -44768,7 +44768,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Mat wählen sees du, wat s du genee wiels: ein Menü, eine Partei, eine Nummer. Den Objet bestëmmt d'Bedeitung.",
-        "Mat engem Nomen: die Wahl treffen (eng Wiel treffen), zur Wahl gehen (wiele goen)."
+        "Mat engem Nomen: eine Wahl treffen (eng Wiel treffen), zur Wahl gehen (wiele goen)."
       ],
       "important": [
         "wählen gëtt ouni Präpositioun benotzt, wann s du eppes auswiels: Ich wähle ein Kleid (net wähle für).",

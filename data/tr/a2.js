@@ -44793,7 +44793,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wählen ile neyi seçtiğini söyle: ein Menü, eine Partei, eine Nummer. Anlamı nesne belirler.",
-        "İsimle: die Wahl treffen (seçim yapmak), zur Wahl gehen (oy vermeye gitmek)."
+        "İsimle: eine Wahl treffen (seçim yapmak), zur Wahl gehen (oy vermeye gitmek)."
       ],
       "important": [
         "Bir nesne seçilirken wählen edatla kullanılmaz: Ich wähle ein Kleid (wähle für değil).",

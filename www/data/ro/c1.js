@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Ideea principală: die Wahl înseamnă alegere (ce alegi dintre mai multe posibilități) și alegeri (votul prin care oamenii sunt aleși într-o funcție).",
         "Substantiv feminin: die Wahl, plural die Wahlen. Pentru alegeri se folosește foarte des pluralul: die Wahlen finden statt. Alegerea ca opțiune este de obicei la singular: die Wahl haben, keine andere Wahl haben.",
-        "Îmbinări: die Wahl treffen (a face o alegere), zur Wahl gehen (a merge la vot), die Wahl gewinnen (a câștiga alegerile)."
+        "Îmbinări: eine Wahl treffen (a face o alegere), zur Wahl gehen (a merge la vot), die Wahl gewinnen (a câștiga alegerile)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "alegere",

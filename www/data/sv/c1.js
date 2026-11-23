@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Grundidé: die Wahl står både för val i betydelsen att välja (mellan flera möjligheter) och val i betydelsen omröstning (när människor väljs till ett ämbete).",
         "Substantiv i femininum: die Wahl, plural die Wahlen. Om allmänna val används mycket ofta plural: die Wahlen finden statt. Valet i betydelsen att välja står oftast i singular: die Wahl haben, keine andere Wahl haben.",
-        "Förbindelser: die Wahl treffen (göra ett val), zur Wahl gehen (gå och rösta), die Wahl gewinnen (vinna valet)."
+        "Förbindelser: eine Wahl treffen (göra ett val), zur Wahl gehen (gå och rösta), die Wahl gewinnen (vinna valet)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "val",

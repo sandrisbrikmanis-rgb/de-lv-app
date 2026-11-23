@@ -44778,7 +44778,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Med wählen sier du hva du velger: ein Menü, eine Partei, eine Nummer. Objektet avgjør betydningen.",
-        "Sammen med substantivet: die Wahl treffen (ta et valg), zur Wahl gehen (gå og stemme)."
+        "Sammen med substantivet: eine Wahl treffen (ta et valg), zur Wahl gehen (gå og stemme)."
       ],
       "important": [
         "wählen brukes uten preposisjon når man velger et objekt: Ich wähle ein Kleid (ikke wähle für).",

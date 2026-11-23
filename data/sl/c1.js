@@ -2110,7 +2110,7 @@ const C1_WORDS = [
       "explanation": [
         "Glavna misel: die Wahl pomeni izbiro (ko izbiraš med več možnostmi) in volitve (izvolitev ljudi na funkcijo).",
         "Samostalnik ženskega spola: die Wahl, množina die Wahlen. Za volitve se zelo pogosto uporablja množina: die Wahlen finden statt. Izbira je navadno v ednini: die Wahl haben, keine andere Wahl haben.",
-        "Zveze: die Wahl treffen (izbrati, odločiti se), zur Wahl gehen (iti na volitve), die Wahl gewinnen (zmagati na volitvah)."
+        "Zveze: eine Wahl treffen (izbrati, odločiti se), zur Wahl gehen (iti na volitve), die Wahl gewinnen (zmagati na volitvah)."
       ],
       "examples": [
         {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
             "Wahlen",
             "Wahl",
             "zur Wahl gehen",
-            "die Wahl treffen"
+            "eine Wahl treffen"
           ],
           "purple": [
             "izbiro",
