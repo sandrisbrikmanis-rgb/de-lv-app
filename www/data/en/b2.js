@@ -17106,7 +17106,7 @@ const B2_WORDS = [
   },
   {
     "de": "hinüberfahren",
-    "lv": "To drive across • To run over",
+    "lv": "To drive across • To take across",
     "level": "B2"
   },
   {
@@ -20501,7 +20501,7 @@ const B2_WORDS = [
   },
   {
     "de": "rechtlos",
-    "lv": "Lawless",
+    "lv": "Without rights • Disenfranchised",
     "level": "B2"
   },
   {
@@ -23332,7 +23332,7 @@ const B2_WORDS = [
   },
   {
     "de": "ultimativ",
-    "lv": "Ultimate",
+    "lv": "Peremptory • Ultimate",
     "level": "B2"
   },
   {

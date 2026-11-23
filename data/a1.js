@@ -4858,7 +4858,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Neitrālajiem lietvārdiem Nominatīv un Akuzatīv ir vienāds: das Kind (kas? ko?).",
+        "Neitrālajiem lietvārdiem Nominativ un Akkusativ ir vienāds: das Kind (kas? ko?).",
         "Iemācies lietvārdu kopā ar artikulu: das Haus, nevis tikai Haus."
       ],
       "important": [
@@ -5286,7 +5286,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Vīriešu dzimtes Nominatīv ir der, Akuzatīv — den: der Hund, bet Ich sehe den Hund.",
+        "Vīriešu dzimtes Nominativ ir der, Akkusativ — den: der Hund, bet Ich sehe den Hund.",
         "Mācies der kopā ar lietvārdu: der Tisch."
       ],
       "important": [
@@ -5676,7 +5676,7 @@ const A1_WORDS = [
       "translation": "šis",
       "explanation": [
         "Galvenā doma: dieser norāda uz tuvu cilvēku vai lietu: dieser Mann (šis vīrietis), diese Frau (šī sieviete), dieses Kind (šis bērns), diese Kinder (šie bērni).",
-        "Locās kā noteiktais artikuls der: Nominatīv dieser/diese/dieses, Akuzatīv diesen (vīr. dz.), Datīv diesem/dieser/diesem. Daudzskaitlī: diese, diesen. Neitrālā forma dieses Jahr nozīmē 'šogad'.",
+        "Locās kā noteiktais artikuls der: Nominativ dieser/diese/dieses, Akkusativ diesen (vīr. dz.), Dativ diesem/dieser/diesem. Daudzskaitlī: diese, diesen. Neitrālā forma dieses Jahr nozīmē 'šogad'.",
         "Dieser lieto lietvārda vietā ar locījuma galotni, ja skaidrs, par ko ir runa: Dieser gefällt mir (šis man patīk)."
       ],
       "examples": [
@@ -14851,7 +14851,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "valsts • zeme",
       "explanation": [
-        "Galvenā doma: das Land ir nekatra dzimtes lietvārds ar vairākām nozīmēm: valsts (Deutschland ist ein Land), lauki pretstatā pilsētai (auf dem Land — laukos) un zeme (kā teritorija).",
+        "Galvenā doma: das Land ir nekatrās dzimtes lietvārds ar vairākām nozīmēm: valsts (Deutschland ist ein Land), lauki pretstatā pilsētai (auf dem Land — laukos) un zeme (kā teritorija).",
         "Daudzskaitlis: die Länder (valstis); vēsturiski arī die Lande, bet to lieto reti. Izteicieni: aufs Land fahren (braukt uz laukiem), auf dem Land leben (dzīvot laukos), im Ausland / im Inland.",
         "Vācijā das Bundesland ir federālā zeme. Augsni vai grīdu sauc der Boden, ne das Land."
       ],
@@ -25986,7 +25986,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Vom lieto tikai ar vīriešu un nekatras dzimtes vārdiem: vom Mann, vom Kind.",
+        "Vom lieto tikai ar vīriešu un nekatrās dzimtes vārdiem: vom Mann, vom Kind.",
         "Sieviešu dzimtē saki von der: von der Schule, von der Arbeit."
       ],
       "important": [
@@ -26195,7 +26195,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Laika nozīmē vor nozīmē pirms: vor zwei Tagen (pirms divām dienām), vor dem Essen (pirms ēšanas).",
-        "Atceries izteicienu Angst haben vor + Datīv."
+        "Atceries izteicienu Angst haben vor + Dativ."
       ],
       "important": [
         "Ar vor + laika vienība norāda, cik sen kas noticis (vor zwei Tagen); ilgumu līdz tagadnei izsaka seit.",
@@ -27270,7 +27270,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "laiks (laikapstākļi)",
       "explanation": [
-        "Galvenā doma: das Wetter ir nekatras dzimtes lietvārds, kas apzīmē laikapstākļus — lietu, sauli, vēju, temperatūru. Daudzskaitlis die Wetter praktiski nav lietots; lieto vienskaitli: das Wetter ist schön.",
+        "Galvenā doma: das Wetter ir nekatrās dzimtes lietvārds, kas apzīmē laikapstākļus — lietu, sauli, vēju, temperatūru. Daudzskaitlis die Wetter praktiski nav lietots; lieto vienskaitli: das Wetter ist schön.",
         "Jautājums ir Wie ist das Wetter? Bieži savienojumi: gutes/schlechtes Wetter (labs/slikts laiks), der Wetterbericht (laika ziņas).",
         "Latviešu laiks var nozīmēt gan laikapstākļus, gan laiku kā jēdzienu; vācu valodā tie ir divi dažādi vārdi: das Wetter un die Zeit."
       ],
@@ -28172,7 +28172,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "uz • pie",
       "explanation": [
-        "Galvenā doma: zum ir saīsinājums no zu + dem, tātad zu ar datīvu vīriešu vai nekatras dzimtes vārdam. Tas nozīmē uz vai pie (virzienā): zum Bahnhof, zum Bäcker; arī mērķi: zum Frühstück, zum Geburtstag.",
+        "Galvenā doma: zum ir saīsinājums no zu + dem, tātad zu ar datīvu vīriešu vai nekatrās dzimtes vārdam. Tas nozīmē uz vai pie (virzienā): zum Bahnhof, zum Bäcker; arī mērķi: zum Frühstück, zum Geburtstag.",
         "Sieviešu dzimtē ir zur (zu der), daudzskaitlī — zu den. Ar lietvārdiskotu infinitīvu zum izsaka mērķi: zum Lesen (lasīšanai).",
         "Zum Frühstück nozīmē \"brokastīs\" vai \"brokastīm\" — atkarībā no konteksta."
       ],
@@ -28646,7 +28646,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televīzija",
       "explanation": [
-        "Galvenā doma: das Fernsehen ir nekatras dzimtes lietvārds, kas apzīmē televīziju kā mediju vai pārraižu kopumu. Daudzskaitļa praktiski nav: lieto vienskaitli. Parasti stāv ar im: im Fernsehen (televīzijā), beim Fernsehen (televīzijā strādājot).",
+        "Galvenā doma: das Fernsehen ir nekatrās dzimtes lietvārds, kas apzīmē televīziju kā mediju vai pārraižu kopumu. Daudzskaitļa praktiski nav: lieto vienskaitli. Parasti stāv ar im: im Fernsehen (televīzijā), beim Fernsehen (televīzijā strādājot).",
         "Tas ir lietvārds no verba fernsehen (skatīties televizoru). Ierīci sauc der Fernseher, bet nodarbošanos — fernsehen.",
         "Lietvārds raksta ar lielo burtu; kā verbs fernsehen ir atdalāms."
       ],
@@ -28690,7 +28690,7 @@ const A1_WORDS = [
         "Der Fernseher (ierīce) un das Fernsehen (medijs) ir divi dažādi vārdi."
       ],
       "important": [
-        "Das Fernsehen ir nekatras dzimtes, tāpēc das Fernsehen.",
+        "Das Fernsehen ir nekatrās dzimtes, tāpēc das Fernsehen.",
         "Nesajauc das Fernsehen ar der Fernseher: pirmais ir medijs, otrais — ierīce."
       ],
       "sectionAccents": {
@@ -29262,7 +29262,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ēdiens • maltīte",
       "explanation": [
-        "Galvenā doma: das Essen ir nekatras dzimtes lietvārds. Tas nozīmē ēdienu, ko gatavo vai ēd (Das Essen ist fertig), un maltīti (Nach dem Essen ...). Daudzskaitlis die Essen ir ļoti rets; vairākus ēdienus sauc par Gerichte vai Mahlzeiten.",
+        "Galvenā doma: das Essen ir nekatrās dzimtes lietvārds. Tas nozīmē ēdienu, ko gatavo vai ēd (Das Essen ist fertig), un maltīti (Nach dem Essen ...). Daudzskaitlis die Essen ir ļoti rets; vairākus ēdienus sauc par Gerichte vai Mahlzeiten.",
         "Bieži savienojumi: zum Essen (uz ēdienreizi, pie galda), nach dem Essen (pēc ēšanas), das Essen kochen (gatavot ēdienu).",
         "Lietvārds raksta ar lielo burtu; ar mazo burtu essen ir darbības vārds \"ēst\"."
       ],
@@ -29306,7 +29306,7 @@ const A1_WORDS = [
         "Ēdiena gatavošanu saka ar kochen: das Essen kochen."
       ],
       "important": [
-        "Das Essen ir nekatras dzimtes, ne vīriešu: nevis \"der Essen\".",
+        "Das Essen ir nekatrās dzimtes, ne vīriešu: nevis \"der Essen\".",
         "Das Essen un essen ir viens un tas pats burtu salikums, bet lietvārds ir ar lielo burtu."
       ],
       "sectionAccents": {
@@ -29457,7 +29457,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "dārzeņi",
       "explanation": [
-        "Galvenā doma: das Gemüse ir nekatras dzimtes lietvārds, kas vācu valodā parasti ir kolektīvs vienskaitlis: das Gemüse ist gesund, lai gan latviski saka \"dārzeņi\". Daudzskaitlis die Gemüse ir rets.",
+        "Galvenā doma: das Gemüse ir nekatrās dzimtes lietvārds, kas vācu valodā parasti ir kolektīvs vienskaitlis: das Gemüse ist gesund, lai gan latviski saka \"dārzeņi\". Daudzskaitlis die Gemüse ir rets.",
         "Atsevišķus dārzeņus sauc to vārdos: die Karotte, die Gurke, der Kohl. Rakstos parasti lieto frisches Gemüse, Gemüse kaufen, Gemüse anbauen.",
         "Pretstats ir das Obst (augļi), un abi vārdi ir vienskaitlī."
       ],
@@ -29501,7 +29501,7 @@ const A1_WORDS = [
         "Dārzeņu veidus vari nosaukt ar Gemüsesorten."
       ],
       "important": [
-        "Das Gemüse ir nekatras dzimtes un parasti vienskaitlī.",
+        "Das Gemüse ir nekatrās dzimtes un parasti vienskaitlī.",
         "Latviešu \"dārzeņi\" bieži atbilst vācu vienskaitlim Gemüse."
       ],
       "sectionAccents": {
@@ -29643,7 +29643,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "augļi",
       "explanation": [
-        "Galvenā doma: das Obst ir nekatras dzimtes lietvārds, kas vācu valodā ir kolektīvs vienskaitlis: das Obst ist frisch. Tas apzīmē ēdamos augļus un ogas kopumā (Äpfel, Birnen, Beeren). Daudzskaitlis nav lietots.",
+        "Galvenā doma: das Obst ir nekatrās dzimtes lietvārds, kas vācu valodā ir kolektīvs vienskaitlis: das Obst ist frisch. Tas apzīmē ēdamos augļus un ogas kopumā (Äpfel, Birnen, Beeren). Daudzskaitlis nav lietots.",
         "Atsevišķu augli sauc die Frucht vai ar konkrētu nosaukumu: der Apfel, die Birne. Parasti saka Obst essen, Obst kaufen.",
         "Pretstats ir das Gemüse (dārzeņi), un abi vārdi ir vienskaitlī."
       ],
@@ -29687,7 +29687,7 @@ const A1_WORDS = [
         "Der Apfel un die Birne ir Obst, bet Möhre ir Gemüse."
       ],
       "important": [
-        "Das Obst ir nekatras dzimtes vienskaitlī: das Obst ist, nevis \"die Obst sind\".",
+        "Das Obst ir nekatrās dzimtes vienskaitlī: das Obst ist, nevis \"die Obst sind\".",
         "Daudzskaitlis \"Früchte\" pieder vārdam Frucht, nevis Obst."
       ],
       "sectionAccents": {
