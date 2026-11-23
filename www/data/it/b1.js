@@ -15396,7 +15396,7 @@ const B1_WORDS = [
   {
     "de": "Denkmal",
     "de_article": "das",
-    "de_plural": "die Denkmale",
+    "de_plural": "die Denkmäler",
     "lv": "monumento",
     "level": "B1"
   },
@@ -30904,7 +30904,6 @@ const B1_WORDS = [
   {
     "de": "Glatteis",
     "de_article": "das",
-    "de_plural": "die Glatteise",
     "lv": "ghiaccio sulla strada • gelicidio",
     "level": "B1"
   },
@@ -38556,7 +38555,6 @@ const B1_WORDS = [
   {
     "de": "Klee",
     "de_article": "der",
-    "de_plural": "die Klee",
     "lv": "trifoglio",
     "level": "B1"
   },
@@ -40342,7 +40340,6 @@ const B1_WORDS = [
   {
     "de": "Kummer",
     "de_article": "der",
-    "de_plural": "die Kummer",
     "lv": "dispiacere • pena",
     "level": "B1"
   },
@@ -45583,7 +45580,6 @@ const B1_WORDS = [
   {
     "de": "Luxus",
     "de_article": "der",
-    "de_plural": "die Luxuse",
     "lv": "lusso",
     "level": "B1"
   },
@@ -45926,7 +45922,6 @@ const B1_WORDS = [
   {
     "de": "Mars",
     "de_article": "der",
-    "de_plural": "die Marse",
     "lv": "Marte",
     "level": "B1"
   },
@@ -47585,7 +47580,6 @@ const B1_WORDS = [
   {
     "de": "Nachwuchs",
     "de_article": "der",
-    "de_plural": "die Nachwuchse",
     "lv": "nuove leve • nuova generazione",
     "level": "B1"
   },
@@ -47691,7 +47685,6 @@ const B1_WORDS = [
   {
     "de": "Neid",
     "de_article": "der",
-    "de_plural": "die Neide",
     "lv": "invidia",
     "level": "B1"
   },
@@ -49213,7 +49206,6 @@ const B1_WORDS = [
   {
     "de": "Obdach",
     "de_article": "das",
-    "de_plural": "die Obdache",
     "lv": "riparo • alloggio",
     "level": "B1"
   },
@@ -50632,7 +50624,6 @@ const B1_WORDS = [
   {
     "de": "Petroleum",
     "de_article": "das",
-    "de_plural": "die Petroleen",
     "lv": "cherosene",
     "level": "B1"
   },
@@ -64177,7 +64168,6 @@ const B1_WORDS = [
   {
     "de": "Stuck",
     "de_article": "der",
-    "de_plural": "die Stucke",
     "lv": "stucco",
     "level": "B1"
   },
@@ -68702,7 +68692,7 @@ const B1_WORDS = [
   {
     "de": "Umbau",
     "de_article": "der",
-    "de_plural": "die Umbaue",
+    "de_plural": "die Umbauten",
     "lv": "ristrutturazione • trasformazione",
     "level": "B1"
   },

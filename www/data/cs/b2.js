@@ -6645,7 +6645,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "Hnůj • Nečistota • Bláto • Svinstvo",
     "level": "B2"
   },
@@ -11997,7 +11996,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "Len",
     "level": "B2"
   },
@@ -13916,7 +13914,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "Klábosení • Lhaní • Tláchání",
     "level": "B2"
   },
@@ -15557,7 +15554,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "Sněhová krusta • Zledovatělý sníh",
     "level": "B2"
   },
@@ -15817,7 +15813,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "Záď lodi",
     "level": "B2"
   },
@@ -26213,7 +26209,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "Ostražitost • Všímavost",
     "level": "B2"
   },

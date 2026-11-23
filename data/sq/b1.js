@@ -15396,7 +15396,7 @@ const B1_WORDS = [
   {
     "de": "Denkmal",
     "de_article": "das",
-    "de_plural": "die Denkmale",
+    "de_plural": "die Denkmäler",
     "lv": "monument",
     "level": "B1"
   },
@@ -30905,7 +30905,6 @@ const B1_WORDS = [
   {
     "de": "Glatteis",
     "de_article": "das",
-    "de_plural": "die Glatteise",
     "lv": "akull në rrugë • ngricë",
     "level": "B1"
   },
@@ -38558,7 +38557,6 @@ const B1_WORDS = [
   {
     "de": "Klee",
     "de_article": "der",
-    "de_plural": "die Klee",
     "lv": "tërfil",
     "level": "B1"
   },
@@ -40344,7 +40342,6 @@ const B1_WORDS = [
   {
     "de": "Kummer",
     "de_article": "der",
-    "de_plural": "die Kummer",
     "lv": "hidhërim • brengë",
     "level": "B1"
   },
@@ -45585,7 +45582,6 @@ const B1_WORDS = [
   {
     "de": "Luxus",
     "de_article": "der",
-    "de_plural": "die Luxuse",
     "lv": "luks",
     "level": "B1"
   },
@@ -45928,7 +45924,6 @@ const B1_WORDS = [
   {
     "de": "Mars",
     "de_article": "der",
-    "de_plural": "die Marse",
     "lv": "Mars",
     "level": "B1"
   },
@@ -47587,7 +47582,6 @@ const B1_WORDS = [
   {
     "de": "Nachwuchs",
     "de_article": "der",
-    "de_plural": "die Nachwuchse",
     "lv": "brez i ri",
     "level": "B1"
   },
@@ -47693,7 +47687,6 @@ const B1_WORDS = [
   {
     "de": "Neid",
     "de_article": "der",
-    "de_plural": "die Neide",
     "lv": "zili",
     "level": "B1"
   },
@@ -49219,7 +49212,6 @@ const B1_WORDS = [
   {
     "de": "Obdach",
     "de_article": "das",
-    "de_plural": "die Obdache",
     "lv": "strehë",
     "level": "B1"
   },
@@ -50643,7 +50635,6 @@ const B1_WORDS = [
   {
     "de": "Petroleum",
     "de_article": "das",
-    "de_plural": "die Petroleen",
     "lv": "vajgur",
     "level": "B1"
   },
@@ -64186,7 +64177,6 @@ const B1_WORDS = [
   {
     "de": "Stuck",
     "de_article": "der",
-    "de_plural": "die Stucke",
     "lv": "stuko • suva dekorative",
     "level": "B1"
   },
@@ -68719,7 +68709,7 @@ const B1_WORDS = [
   {
     "de": "Umbau",
     "de_article": "der",
-    "de_plural": "die Umbaue",
+    "de_plural": "die Umbauten",
     "lv": "rindërtim • përshtatje",
     "level": "B1"
   },

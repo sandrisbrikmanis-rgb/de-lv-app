@@ -14,7 +14,6 @@ const C2_WORDS = [
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
-    "de_plural": "die Stichhaltigkeiten",
     "lv": "Holdbarhed • Gyldighed",
     "level": "C2"
   },
@@ -918,7 +917,6 @@ const C2_WORDS = [
   {
     "de": "Entschlossenheit",
     "de_article": "die",
-    "de_plural": "die Entschlossenheiten",
     "lv": "Beslutsomhed • Fasthed",
     "level": "C2"
   },

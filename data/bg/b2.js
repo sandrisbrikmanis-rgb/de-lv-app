@@ -6653,7 +6653,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "мръсотия • кал • тор",
     "level": "B2"
   },
@@ -11996,7 +11995,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "лен",
     "level": "B2"
   },
@@ -13912,7 +13910,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "бърборене • празни приказки • клюки",
     "level": "B2"
   },
@@ -15555,7 +15552,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "снежна кора • заледен сняг",
     "level": "B2"
   },
@@ -15814,7 +15810,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "кърма",
     "level": "B2"
   },
@@ -26212,7 +26208,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "бдителност • наблюдателност",
     "level": "B2"
   },

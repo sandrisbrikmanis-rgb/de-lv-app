@@ -6651,7 +6651,6 @@ const B2_WORDS = [
   {
     "de": "Dreck",
     "de_article": "der",
-    "de_plural": "die Drecke",
     "lv": "piszok • sár • mocsok",
     "level": "B2"
   },
@@ -11994,7 +11993,6 @@ const B2_WORDS = [
   {
     "de": "Flachs",
     "de_article": "der",
-    "de_plural": "die Flachse",
     "lv": "len",
     "level": "B2"
   },
@@ -13910,7 +13908,6 @@ const B2_WORDS = [
   {
     "de": "Geschwätz",
     "de_article": "das",
-    "de_plural": "die Geschwätze",
     "lv": "fecsegés • pletyka",
     "level": "B2"
   },
@@ -15553,7 +15550,6 @@ const B2_WORDS = [
   {
     "de": "Harsch",
     "de_article": "der",
-    "de_plural": "die Harsche",
     "lv": "hókéreg • fagyott hó",
     "level": "B2"
   },
@@ -15812,7 +15808,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "tat • far",
     "level": "B2"
   },
@@ -26210,7 +26206,6 @@ const B2_WORDS = [
   {
     "de": "Wachsamkeit",
     "de_article": "die",
-    "de_plural": "die Wachsamkeiten",
     "lv": "éberség • figyelmesség",
     "level": "B2"
   },

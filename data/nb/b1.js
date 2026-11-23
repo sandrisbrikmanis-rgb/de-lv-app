@@ -15395,7 +15395,7 @@ const B1_WORDS = [
   {
     "de": "Denkmal",
     "de_article": "das",
-    "de_plural": "die Denkmale",
+    "de_plural": "die Denkmäler",
     "lv": "monument • minnesmerke",
     "level": "B1"
   },
@@ -30903,7 +30903,6 @@ const B1_WORDS = [
   {
     "de": "Glatteis",
     "de_article": "das",
-    "de_plural": "die Glatteise",
     "lv": "glattis • holke",
     "level": "B1"
   },
@@ -38556,7 +38555,6 @@ const B1_WORDS = [
   {
     "de": "Klee",
     "de_article": "der",
-    "de_plural": "die Klee",
     "lv": "kløver",
     "level": "B1"
   },
@@ -40342,7 +40340,6 @@ const B1_WORDS = [
   {
     "de": "Kummer",
     "de_article": "der",
-    "de_plural": "die Kummer",
     "lv": "sorg • bekymring",
     "level": "B1"
   },
@@ -45583,7 +45580,6 @@ const B1_WORDS = [
   {
     "de": "Luxus",
     "de_article": "der",
-    "de_plural": "die Luxuse",
     "lv": "luksus",
     "level": "B1"
   },
@@ -45926,7 +45922,6 @@ const B1_WORDS = [
   {
     "de": "Mars",
     "de_article": "der",
-    "de_plural": "die Marse",
     "lv": "Mars",
     "level": "B1"
   },
@@ -47585,7 +47580,6 @@ const B1_WORDS = [
   {
     "de": "Nachwuchs",
     "de_article": "der",
-    "de_plural": "die Nachwuchse",
     "lv": "ny generasjon • avkom",
     "level": "B1"
   },
@@ -47691,7 +47685,6 @@ const B1_WORDS = [
   {
     "de": "Neid",
     "de_article": "der",
-    "de_plural": "die Neide",
     "lv": "misunnelse",
     "level": "B1"
   },
@@ -49217,7 +49210,6 @@ const B1_WORDS = [
   {
     "de": "Obdach",
     "de_article": "das",
-    "de_plural": "die Obdache",
     "lv": "ly • husly",
     "level": "B1"
   },
@@ -50642,7 +50634,6 @@ const B1_WORDS = [
   {
     "de": "Petroleum",
     "de_article": "das",
-    "de_plural": "die Petroleen",
     "lv": "parafin • petroleum",
     "level": "B1"
   },
@@ -64185,7 +64176,6 @@ const B1_WORDS = [
   {
     "de": "Stuck",
     "de_article": "der",
-    "de_plural": "die Stucke",
     "lv": "stukk",
     "level": "B1"
   },
@@ -68717,7 +68707,7 @@ const B1_WORDS = [
   {
     "de": "Umbau",
     "de_article": "der",
-    "de_plural": "die Umbaue",
+    "de_plural": "die Umbauten",
     "lv": "ombygging",
     "level": "B1"
   },
