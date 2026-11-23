@@ -65764,7 +65764,7 @@ const B1_WORDS = [
   },
   {
     "de": "tauglich",
-    "lv": "Valid",
+    "lv": "Suitable • Fit",
     "level": "B1"
   },
   {

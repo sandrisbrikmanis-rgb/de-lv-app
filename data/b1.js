@@ -362,7 +362,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: angeben ir atdalāms darbības vārds: gibt an, gab an, hat angegeben. Tas nozīmē norādīt informāciju, piemēram, vārdu, adresi, iemeslu, avotu.",
         "Konstrukcija: etwas (Akk.) angeben – Bitte geben Sie Ihre Adresse an. Veidlapās un oficiālā valodā tas ir ļoti bieži lietots.",
-        "Sarunvalodā angeben mit + Datīv nozīmē lielīties: Er gibt mit seinem Auto an. Tas atbilst lietvārdam der Angeber (lielībnieks)."
+        "Sarunvalodā angeben mit + Dativ nozīmē lielīties: Er gibt mit seinem Auto an. Tas atbilst lietvārdam der Angeber (lielībnieks)."
       ],
       "examples": [
         {
@@ -405,7 +405,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Veidlapā: Bitte geben Sie ... an – lūdzu, norādiet ...",
-        "angeben nozīmi lielīties atpazīsti pēc mit + Datīv."
+        "angeben nozīmi lielīties atpazīsti pēc mit + Dativ."
       ],
       "important": [
         "Teikumā priedēklis an atdalās: Ich gebe meine Adresse an.",
@@ -4256,7 +4256,7 @@ const B1_WORDS = [
         },
         {
           "de": "Unter dieser Nummer gibt es keinen Anschluss.",
-          "lv": "Šajā numurā abonents nav sasniedzams."
+          "lv": "Šāds numurs neeksistē."
         }
       ],
       "comparison": [
@@ -14954,7 +14954,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Wohnung liegt im zweiten Stock, darunter befindet sich ein Laden.",
-          "lv": "Dzīvoklis atrodas otrajā stāvā, zem tā ir veikals."
+          "lv": "Dzīvoklis atrodas trešajā stāvā, zem tā ir veikals."
         },
         {
           "de": "Was verstehst du darunter?",
@@ -14982,7 +14982,7 @@ const B1_WORDS = [
         },
         {
           "word": "unter anderem",
-          "meaning": "starp citu",
+          "meaning": "cita starpā",
           "example": "Er spricht unter anderem Deutsch. – Viņš cita starpā runā vāciski."
         }
       ],
@@ -15827,7 +15827,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie wohnt im dritten Stock.",
-          "lv": "Viņa dzīvo trešajā stāvā."
+          "lv": "Viņa dzīvo ceturtajā stāvā."
         },
         {
           "de": "Wir gehen zu dritt ins Kino.",
@@ -25942,7 +25942,7 @@ const B1_WORDS = [
       "translation": "noteikt",
       "explanation": [
         "Galvenā doma: festlegen ir atdalāms darbības vārds, kas nozīmē noteikt, nolemt vai nostiprināt kaut ko skaidri un saistoši: termiņu, cenu, noteikumus. Formas: legt fest, legte fest, hat festgelegt.",
-        "Ar sich festlegen saka, ka kāds galīgi izlemj vai uzņemas saistības (Ich will mich noch nicht festlegen). Objekts parasti ir Akuzatīv: einen Termin festlegen."
+        "Ar sich festlegen saka, ka kāds galīgi izlemj vai uzņemas saistības (Ich will mich noch nicht festlegen). Objekts parasti ir Akkusativ: einen Termin festlegen."
       ],
       "examples": [
         {
@@ -25985,7 +25985,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Prefikss fest- atdalās: Wir legen den Preis fest, bet palīgteikumā darbības vārds ir kopā: …, dass wir den Preis festlegen.",
-        "Atgriezeniskā forma sich festlegen (auf + Akuzatīv) nozīmē saistīties ar kādu izvēli: sich auf ein Datum festlegen."
+        "Atgriezeniskā forma sich festlegen (auf + Akkusativ) nozīmē saistīties ar kādu izvēli: sich auf ein Datum festlegen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26746,7 +26746,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "veicināt",
       "explanation": [
-        "Galvenā doma: fördern nozīmē veicināt, atbalstīt vai sekmēt kādu cilvēku, attīstību vai lietu. Formas: fördert, förderte, hat gefördert. Objekts ir Akuzatīv.",
+        "Galvenā doma: fördern nozīmē veicināt, atbalstīt vai sekmēt kādu cilvēku, attīstību vai lietu. Formas: fördert, förderte, hat gefördert. Objekts ir Akkusativ.",
         "Lieto, kad runā par veselību, talantiem, uzņēmumiem vai projektiem, ko atbalsta ar naudu vai pasākumiem. Citā nozīmē: iegūt no zemes (Kohle fördern — iegūt akmeņogles)."
       ],
       "examples": [
@@ -26790,7 +26790,7 @@ const B1_WORDS = [
       ],
       "important": [
         "fördern un fordern izklausās līdzīgi, bet nozīmē pavisam dažādas lietas.",
-        "Pēc fördern seko Akuzatīv, nevis Datīv (atšķirībā no helfen): Ich fördere ihn."
+        "Pēc fördern seko Akkusativ, nevis Dativ (atšķirībā no helfen): Ich fördere ihn."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26998,12 +26998,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Prefikss fort- atdalās: Er fährt fort. Nejauc ar fortsetzen — tas prasa Akuzatīv: das Gespräch fortsetzen.",
+        "Prefikss fort- atdalās: Er fährt fort. Nejauc ar fortsetzen — tas prasa Akkusativ: das Gespräch fortsetzen.",
         "Ja vēlies teikt vienkārši, lieto weitermachen."
       ],
       "important": [
         "Pēc fortfahren darbības vārdu infinitīvu lieto ar zu: fortfahren, zu arbeiten.",
-        "Fortfahren ar mit prasa Datīv: mit der Arbeit, mit dem Vortrag."
+        "Fortfahren ar mit prasa Dativ: mit der Arbeit, mit dem Vortrag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28605,7 +28605,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tipiska konstrukcija: der Gehalt an + Datīv (an Zucker, an Fett).",
+        "Tipiska konstrukcija: der Gehalt an + Dativ (an Zucker, an Fett).",
         "Saturam ikdienā biežāk lieto der Inhalt; der Gehalt ir precīzāks un zinātniskāks."
       ],
       "important": [
@@ -28883,7 +28883,7 @@ const B1_WORDS = [
       "translation": "būt spēkā",
       "explanation": [
         "Galvenā doma: gelten nozīmē būt spēkā vai būt derīgam — par noteikumu, likumu, biļeti, līgumu. Formas: gilt, galt, hat gegolten.",
-        "Citas nozīmes: gelten für + Akuzatīv — attiekties uz (Das gilt für alle); gelten als + Nominatīv — tikt uzskatītam par (Er gilt als Experte). Sarunvalodā Das gilt nicht! — tas neskaitās."
+        "Citas nozīmes: gelten für + Akkusativ — attiekties uz (Das gilt für alle); gelten als + Nominativ — tikt uzskatītam par (Er gilt als Experte). Sarunvalodā Das gilt nicht! — tas neskaitās."
       ],
       "examples": [
         {
@@ -28922,7 +28922,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Atceries trīs galvenos modeļus: gelten (būt spēkā), gelten für (attiekties uz), gelten als (tikt uzskatītam par).",
-        "Pēc gelten als seko Nominatīv: Er gilt als Fachmann."
+        "Pēc gelten als seko Nominativ: Er gilt als Fachmann."
       ],
       "important": [
         "Neregulārs darbības vārds: gelten – gilt – galt – hat gegolten.",
@@ -30296,7 +30296,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "drošs",
       "explanation": [
-        "Galvenā doma: gewiss ir īpašības vārds, kas nozīmē drošu, neapšaubāmu — kaut ko, par ko nav šaubu. Parasti lieto formā: es ist gewiss, dass …, vai sich (Datīv) einer Sache gewiss sein (būt drošam par ko, ar Ģenitīvu).",
+        "Galvenā doma: gewiss ir īpašības vārds, kas nozīmē drošu, neapšaubāmu — kaut ko, par ko nav šaubu. Parasti lieto formā: es ist gewiss, dass …, vai sich (Dativ) einer Sache gewiss sein (būt drošam par ko, ar Ģenitīvu).",
         "Pirms lietvārda ein gewisser … nozīmē kāds, noteikts (neminot precīzi). Kā apstākļa vārds gewiss nozīmē noteikti vai protams."
       ],
       "examples": [
@@ -31901,7 +31901,7 @@ const B1_WORDS = [
       "translation": "rīkoties",
       "explanation": [
         "Galvenā doma: handeln nozīmē rīkoties, darboties, veikt konkrētu soli. Formas: handelt, handelte, hat gehandelt. Piemēram: schnell handeln (rīkoties ātri).",
-        "Citas konstrukcijas: mit etwas handeln — tirgoties ar ko (Datīv); es handelt sich um + Akuzatīv — runa ir par; handeln von + Datīv — būt par ko (grāmata, filma)."
+        "Citas konstrukcijas: mit etwas handeln — tirgoties ar ko (Dativ); es handelt sich um + Akkusativ — runa ir par; handeln von + Dativ — būt par ko (grāmata, filma)."
       ],
       "examples": [
         {
@@ -31939,7 +31939,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Frāze Es handelt sich um … vienmēr ir ar 'es' un 'sich' un seko Akuzatīv.",
+        "Frāze Es handelt sich um … vienmēr ir ar 'es' un 'sich' un seko Akkusativ.",
         "Lietvārds die Handlung (darbība) un der Handel (tirdzniecība) ir radniecīgi."
       ],
       "important": [
@@ -32357,7 +32357,7 @@ const B1_WORDS = [
       "translation": "sist",
       "explanation": [
         "Galvenā doma: hauen sarunvalodā nozīmē sist, dauzīt (ar roku, dūri vai priekšmetu). Formas: haut, haute, hat gehauen. Pagātnē retāk dzird hieb, bet ikdienā sarunvalodā lieto haute.",
-        "Nozīmē arī cirst, skaldīt (Holz hauen — cirst malku). Atgriezeniski: sich hauen — kauties. Ar auf + Akuzatīv: auf den Tisch hauen."
+        "Nozīmē arī cirst, skaldīt (Holz hauen — cirst malku). Atgriezeniski: sich hauen — kauties. Ar auf + Akkusativ: auf den Tisch hauen."
       ],
       "examples": [
         {
@@ -33687,7 +33687,7 @@ const B1_WORDS = [
       "translation": "norādījums",
       "explanation": [
         "Galvenā doma: der Hinweis ir vīriešu dzimtes lietvārds, kas nozīmē norādi, norādījumu vai mājienu — informāciju, kas vērš uzmanību uz ko svarīgu vai palīdz atrast atbildi. Daudzskaitlis: die Hinweise.",
-        "Lieto uz iepakojuma vai zīmēs (Sicherheitshinweis), policijas meklēšanā (Hinweise auf den Täter) un sarunā (einen Hinweis geben). Seko ar auf + Akuzatīv: Hinweis auf etwas."
+        "Lieto uz iepakojuma vai zīmēs (Sicherheitshinweis), policijas meklēšanā (Hinweise auf den Täter) un sarunā (einen Hinweis geben). Seko ar auf + Akkusativ: Hinweis auf etwas."
       ],
       "examples": [
         {
@@ -33725,7 +33725,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Frāze einen Hinweis geben — dot mājienu. Darbības vārds: hinweisen auf + Akuzatīv — norādīt uz.",
+        "Frāze einen Hinweis geben — dot mājienu. Darbības vārds: hinweisen auf + Akkusativ — norādīt uz.",
         "Biežs savienojums: ein wichtiger Hinweis, Hinweise beachten."
       ],
       "important": [
@@ -34493,7 +34493,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Horchen uzsver uzmanību un centību, zuhören — pieklājīgu klausīšanos kādam.",
-        "Pēc horchen parasti seko auf + Akuzatīv vai an + Datīv (an der Tür)."
+        "Pēc horchen parasti seko auf + Akkusativ vai an + Dativ (an der Tür)."
       ],
       "important": [
         "Nejauc horchen (ieklausīties) ar gehorchen (paklausīt) — tie ir dažādi vārdi.",
@@ -34953,7 +34953,7 @@ const B1_WORDS = [
       "translation": "signāltaure • taure",
       "explanation": [
         "Galvenā doma: die Hupe ir sieviešu dzimtes lietvārds, kas nozīmē signāltauri — ierīci automašīnā vai motociklā, kas rada skaļu skaņu. Daudzskaitlis: die Hupen. Darbības vārds: hupen (taurēt).",
-        "Lieto ar drücken auf + Akuzatīv vai betätigen: auf die Hupe drücken (nospiest signāltauri). Ar to brīdina citus satiksmes dalībniekus vai izsaka signālu."
+        "Lieto ar drücken auf + Akkusativ vai betätigen: auf die Hupe drücken (nospiest signāltauri). Ar to brīdina citus satiksmes dalībniekus vai izsaka signālu."
       ],
       "examples": [
         {
@@ -35150,8 +35150,8 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "sargāt",
       "explanation": [
-        "Galvenā doma: hüten nozīmē sargāt, pieskatīt kādu vai kaut ko (bērnus, lopus, noslēpumu). Formas: hütet, hütete, hat gehütet. Objekts ir Akuzatīv.",
-        "Atgriezeniski: sich hüten vor + Datīv — sargāties no (Hüte dich vor dem Hund!). Izteiciens das Bett hüten nozīmē slimības dēļ palikt gultā."
+        "Galvenā doma: hüten nozīmē sargāt, pieskatīt kādu vai kaut ko (bērnus, lopus, noslēpumu). Formas: hütet, hütete, hat gehütet. Objekts ir Akkusativ.",
+        "Atgriezeniski: sich hüten vor + Dativ — sargāties no (Hüte dich vor dem Hund!). Izteiciens das Bett hüten nozīmē slimības dēļ palikt gultā."
       ],
       "examples": [
         {
@@ -35194,7 +35194,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Pieskatīšanai bieži lieto hüten + Kinder/Tiere/Haus.",
-        "Pēc sich hüten vor seko Datīv: sich vor Fehlern hüten."
+        "Pēc sich hüten vor seko Dativ: sich vor Fehlern hüten."
       ],
       "important": [
         "Aizsardzībai pret uzbrukumu parasti lieto beschützen vai schützen, nevis hüten.",
@@ -35576,7 +35576,7 @@ const B1_WORDS = [
       "translation": "iekšpusē",
       "explanation": [
         "Galvenā doma: innerhalb ir prievārds, kas norāda uz kaut ko, kas atrodas vai notiek kādas robežas vai laika posma iekšienē. Parasti seko Ģenitīvs: innerhalb der Stadt, innerhalb einer Woche.",
-        "Ja lietvārds ir daudzskaitlī bez artikula, bieži lieto innerhalb von + Datīv: innerhalb von zwei Tagen. Pretstats ir außerhalb (ārpus)."
+        "Ja lietvārds ir daudzskaitlī bez artikula, bieži lieto innerhalb von + Dativ: innerhalb von zwei Tagen. Pretstats ir außerhalb (ārpus)."
       ],
       "examples": [
         {
@@ -35614,12 +35614,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: innerhalb + Ģenitīvs (innerhalb des Hauses); ar von + Datīv, ja nav artikula vai daudzskaitlī.",
+        "Atceries: innerhalb + Ģenitīvs (innerhalb des Hauses); ar von + Dativ, ja nav artikula vai daudzskaitlī.",
         "Gan vietai, gan laikam: innerhalb der Stadt, innerhalb eines Jahres."
       ],
       "important": [
-        "Nejauc innerhalb (laika posma ietvaros) ar in + Datīv — in einer Woche nozīmē 'pēc nedēļas'.",
-        "Daudzskaitļa lietvārdiem bez artikula parasti lieto innerhalb von + Datīv."
+        "Nejauc innerhalb (laika posma ietvaros) ar in + Dativ — in einer Woche nozīmē 'pēc nedēļas'.",
+        "Daudzskaitļa lietvārdiem bez artikula parasti lieto innerhalb von + Dativ."
       ],
       "sectionAccents": {
         "explanation": {
@@ -35911,7 +35911,7 @@ const B1_WORDS = [
       "translation": "kļūdīties",
       "explanation": [
         "Galvenā doma: sich irren ir atgriezeniskais darbības vārds, kas nozīmē kļūdīties, maldīties savā spriedumā vai pieņēmumā. Formas: irrt sich, irrte sich, hat sich geirrt.",
-        "Izteiciens Wenn ich mich nicht irre … nozīmē Ja es nekļūdos … Ar in + Datīv: sich in jemandem irren — kļūdīties par kādu. Neatgriezeniskais irren nozīmē klīst, maldīties (Er irrt durch den Wald)."
+        "Izteiciens Wenn ich mich nicht irre … nozīmē Ja es nekļūdos … Ar in + Dativ: sich in jemandem irren — kļūdīties par kādu. Neatgriezeniskais irren nozīmē klīst, maldīties (Er irrt durch den Wald)."
       ],
       "examples": [
         {
@@ -73378,7 +73378,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Kino biļetēs Vorstellung norāda seansu: die Spätvorstellung ir vēlais seanss.",
-        "Ja runa ir par priekšstatu, lieto izteicienu sich (Datīv) etwas vorstellen: Ich kann mir das nicht vorstellen."
+        "Ja runa ir par priekšstatu, lieto izteicienu sich (Dativ) etwas vorstellen: Ich kann mir das nicht vorstellen."
       ],
       "important": [
         "Die Vorstellung ir daudznozīmīgs vārds: izrāde, iepazīstināšana, priekšstats.",
@@ -78993,7 +78993,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Toiletten befinden sich im ersten Stock.",
-          "lv": "Tualetes atrodas pirmajā stāvā."
+          "lv": "Tualetes atrodas otrajā stāvā."
         },
         {
           "de": "Das Dokument befand sich in einer Mappe.",

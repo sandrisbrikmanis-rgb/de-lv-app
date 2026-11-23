@@ -8473,7 +8473,7 @@ const A2_WORDS = [
       "translation": "zemnieks",
       "explanation": [
         "Galvenā doma: der Bauer ir vīriešu dzimtes lietvārds, kas nozīmē zemnieku, kas strādā laukos un lauksaimniecībā. Sieviete ir die Bäuerin.",
-        "Vārds pieder pie n-deklinācijas: vienskaitlī Nominatīv der Bauer, bet citos locījumos Bauern (den Bauern, dem Bauern, des Bauern). Daudzskaitlis ir die Bauern.",
+        "Vārds pieder pie n-deklinācijas: vienskaitlī Nominativ der Bauer, bet citos locījumos Bauern (den Bauern, dem Bauern, des Bauern). Daudzskaitlis ir die Bauern.",
         "Šaha spēlē der Bauer ir bandinieks. Ar das Bauer (vidējā dzimte) saprot putnu būri, taču tas ir retāk."
       ],
       "examples": [
@@ -13151,7 +13151,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pārbaudi darbības vārdu: ja tas prasa über + Akuzatīv, atsaukties uz lietu var ar darüber."
+        "Pārbaudi darbības vārdu: ja tas prasa über + Akkusativ, atsaukties uz lietu var ar darüber."
       ],
       "important": [
         "Cilvēkiem darüber nelieto: Wir sprechen über ihn.",
@@ -13635,7 +13635,7 @@ const A2_WORDS = [
         "Iegaumē pāri: davor (priekšā, pirms tam) un danach (pēc tam); dahinter (aizmugurē)."
       ],
       "important": [
-        "Ar Angst haben lieto vor + Datīv: Angst vor dem Hund; lietai aizstāj to ar davor.",
+        "Ar Angst haben lieto vor + Dativ: Angst vor dem Hund; lietai aizstāj to ar davor.",
         "Cilvēkiem lieto vor + vietniekvārds: Ich habe Angst vor ihm."
       ],
       "sectionAccents": {
@@ -14861,7 +14861,7 @@ const A2_WORDS = [
       "translation": "griezt",
       "explanation": [
         "Galvenā doma: drehen nozīmē griezt: atslēgu, galvu, regulatoru. Darbības vārds ir regulārs: dreht, drehte, hat gedreht.",
-        "Ar sich drehen tas nozīmē griezties (um + Akuzatīv): Die Erde dreht sich um die Sonne. Ar Film kopā: einen Film drehen — filmēt."
+        "Ar sich drehen tas nozīmē griezties (um + Akkusativ): Die Erde dreht sich um die Sonne. Ar Film kopā: einen Film drehen — filmēt."
       ],
       "examples": [
         {
@@ -15051,7 +15051,7 @@ const A2_WORDS = [
       "translation": "spiest",
       "explanation": [
         "Galvenā doma: drücken nozīmē spiest: pogu, durvis, roku, bet arī spiest (apavi). Regulārs: drückt, drückte, hat gedrückt.",
-        "Bieži lieto auf + Akuzatīv: auf den Knopf drücken. Apskaut: an sich drücken. Idioma: Ich drücke dir die Daumen — turu īkšķus."
+        "Bieži lieto auf + Akkusativ: auf den Knopf drücken. Apskaut: an sich drücken. Idioma: Ich drücke dir die Daumen — turu īkšķus."
       ],
       "examples": [
         {
@@ -21701,7 +21701,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Iemesls: der Grund für + Akuzatīv — Grund für die Verspätung."
+        "Iemesls: der Grund für + Akkusativ — Grund für die Verspätung."
       ],
       "important": [
         "Cēloni biežāk sauc die Ursache (objektīvs cēlonis), motīvu — der Grund (arī pamatojums)."
@@ -27464,7 +27464,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Kiste parasti ir stabila un cieta; Schachtel ir sīkāka, bieži kartona kaste.",
-        "Ar Kiste Bier pasaka kastu, nevis atsevišķas pudeles."
+        "Ar Kiste Bier apzīmē alus kasti, nevis atsevišķas pudeles."
       ],
       "important": [
         "Die Kiste ir sieviešu dzimtes: die Kiste, die Kisten.",
@@ -29664,7 +29664,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "aizdot • aizņemties",
       "explanation": [
-        "Galvenā doma: leihen ir viens darbības vārds ar divām pusēm: jemandem etwas leihen nozīmē kādam kaut ko aizdot, bet sich (Datīv) etwas leihen vai etwas von jemandem leihen nozīmē kaut ko no kāda aizņemties. Latviski tie ir divi vārdi, vācu valodā viens.",
+        "Galvenā doma: leihen ir viens darbības vārds ar divām pusēm: jemandem etwas leihen nozīmē kādam kaut ko aizdot, bet sich (Dativ) etwas leihen vai etwas von jemandem leihen nozīmē kaut ko no kāda aizņemties. Latviski tie ir divi vārdi, vācu valodā viens.",
         "Formas: leiht, lieh, hat geliehen. Stiprs darbības vārds. Pēc aizdošanas datīvs personai un akuzatīvs lietai: Ich leihe dir meinen Stift. Aizņemoties: Ich leihe mir ein Auto von Peter.",
         "Priekšmetus un naudu sarunvalodā aizdod un aizņemas arī ar borgen."
       ],
@@ -30385,7 +30385,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Liegen (lag, gelegen) nejauc ar legen (legte, gelegt) un ar lügen (melot).",
-        "Vietu apzīmē ar Datīv, nevis ar Akuzatīv: auf dem Tisch liegen."
+        "Vietu apzīmē ar Dativ, nevis ar Akkusativ: auf dem Tisch liegen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -31247,7 +31247,7 @@ const A2_WORDS = [
         "Atceries lietvārdu die Meinung (viedoklis): meiner Meinung nach."
       ],
       "important": [
-        "Domāt par kādu (prātot par viņu) saka denken an + Akuzatīv, nevis meinen.",
+        "Domāt par kādu (prātot par viņu) saka denken an + Akkusativ, nevis meinen.",
         "Ar meinen var norādīt uz personu: Ich meine dich nozīmē Es domāju tieši tevi."
       ],
       "sectionAccents": {
@@ -31445,8 +31445,8 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "pamanīt • iegaumēt",
       "explanation": [
-        "Galvenā doma: merken nozīmē pamanīt, sajust (Ich merke, dass du müde bist) un ar sich (Datīv) iegaumēt, atcerēties (Ich merke mir die Nummer).",
-        "Formas: merkt, merkte, hat gemerkt. Regulārs darbības vārds. Pamanot: etwas merken ar akuzatīvu vai dass-teikumu. Iegaumējot: sich (Datīv) etwas merken, tātad Ich merke mir …, Du merkst dir …",
+        "Galvenā doma: merken nozīmē pamanīt, sajust (Ich merke, dass du müde bist) un ar sich (Dativ) iegaumēt, atcerēties (Ich merke mir die Nummer).",
+        "Formas: merkt, merkte, hat gemerkt. Regulārs darbības vārds. Pamanot: etwas merken ar akuzatīvu vai dass-teikumu. Iegaumējot: sich (Dativ) etwas merken, tātad Ich merke mir …, Du merkst dir …",
         "Atšķirība no bemerken: merken ir tieši sajust, bemerken parasti nozīmē ievērot ar acīm vai prātu."
       ],
       "examples": [
@@ -38938,7 +38938,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Sitzen — wo? (Datīv), setzen — wohin? (Akuzatīv)."
+        "Sitzen — wo? (Dativ), setzen — wohin? (Akkusativ)."
       ],
       "important": [
         "Nejauc sitzen (sēdēt) ar sich setzen (apsēsties): pirmais ir stāvoklis, otrs — kustība."
@@ -39102,7 +39102,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Wohin? – setzen / sich setzen + Akuzatīv; wo? – sitzen + Datīv."
+        "Wohin? – setzen / sich setzen + Akkusativ; wo? – sitzen + Dativ."
       ],
       "important": [
         "Setzen (regulārs) un sitzen (stiprs) nav viens un tas pats darbības vārds, lai gan skan līdzīgi."
@@ -39883,7 +39883,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Stehen — wo? (Datīv), stellen — wohin? (Akuzatīv)."
+        "Stehen — wo? (Dativ), stellen — wohin? (Akkusativ)."
       ],
       "important": [
         "Stehen ir stāvoklis, stellen — darbība: nejauc Das Glas steht ar Ich stelle das Glas."
@@ -44743,7 +44743,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: wählen ir darbības vārds ar akuzatīvu: wählt, wählte, hat gewählt. Tas nozīmē izvēlēties no vairākām iespējām.",
         "Vēlēšanu kontekstā wählen nozīmē balsot par partiju vai ievēlēt cilvēku: eine Partei wählen, den Bürgermeister wählen. Telefonā tas nozīmē sastādīt numuru: eine Nummer wählen.",
-        "Atsevišķi: wählen zwischen + Datīv (izvēlēties starp). Lietvārds ir die Wahl (izvēle, vēlēšanas)."
+        "Atsevišķi: wählen zwischen + Dativ (izvēlēties starp). Lietvārds ir die Wahl (izvēle, vēlēšanas)."
       ],
       "examples": [
         {
@@ -50245,7 +50245,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "virs • pāri • par",
       "explanation": [
-        "Galvenā doma: über ir prievārds ar nozīmēm virs (atrašanās), pāri (kustība, šķērsošana) un par (tēma). Tas ir mainīgais prievārds: wo? – Datīv, wohin? – Akuzatīv.",
+        "Galvenā doma: über ir prievārds ar nozīmēm virs (atrašanās), pāri (kustība, šķērsošana) un par (tēma). Tas ir mainīgais prievārds: wo? – Dativ, wohin? – Akkusativ.",
         "Virs kaut kā: Die Lampe hängt über dem Tisch (datīvs). Pāri: Wir gehen über die Brücke (akuzatīvs). Par tēmu: sprechen über, nachdenken über, sich freuen über – vienmēr ar akuzatīvu.",
         "Skaitļiem über nozīmē vairāk nekā: über 100 Euro. Ceļā über var nozīmēt caur: Der Zug fährt über Berlin."
       ],
@@ -50289,8 +50289,8 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Tēmai lieto über + Akuzatīv: ein Buch über Berlin, nachdenken über.",
-        "Virs un pāri atšķir pēc jautājuma: wo? – Datīv, wohin? – Akuzatīv."
+        "Tēmai lieto über + Akkusativ: ein Buch über Berlin, nachdenken über.",
+        "Virs un pāri atšķir pēc jautājuma: wo? – Dativ, wohin? – Akkusativ."
       ],
       "important": [
         "Pēc über ar nozīmi par parasti ir akuzatīvs: über das Wetter, über den Film.",

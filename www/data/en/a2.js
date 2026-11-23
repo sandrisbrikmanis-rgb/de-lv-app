@@ -6838,7 +6838,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausbessern",
-    "lv": "To correct",
+    "lv": "To mend • To repair",
     "level": "A2"
   },
   {
@@ -7812,7 +7812,7 @@ const A2_WORDS = [
     "de": "Band",
     "de_article": "das",
     "de_plural": "die Bänder",
-    "lv": "Tape • Link",
+    "lv": "Ribbon • Tape",
     "level": "A2",
     "study": {
       "id": "a2-band",
@@ -8670,7 +8670,7 @@ const A2_WORDS = [
     "de": "Becher",
     "de_article": "der",
     "de_plural": "die Becher",
-    "lv": "Mug • Pot",
+    "lv": "Mug • Cup",
     "level": "A2",
     "study": {
       "id": "a2-becher",
@@ -18915,7 +18915,7 @@ const A2_WORDS = [
     "de": "Figur",
     "de_article": "die",
     "de_plural": "die Figuren",
-    "lv": "Figure • Height",
+    "lv": "Figure • Build",
     "level": "A2"
   },
   {

@@ -18913,7 +18913,7 @@ const A1_WORDS = [
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "Hat",
+    "lv": "Cap • Beanie",
     "level": "A1"
   },
   {

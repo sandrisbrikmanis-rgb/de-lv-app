@@ -14165,7 +14165,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "veidoties par",
       "explanation": [
-        "Galvenā doma: sich gestalten nozīmē veidoties, izvērsties — par notikumu, sarunām vai nākotni: kāda tā izrādīsies. Parasti seko īpašības vārds (schwierig, positiv) vai zu + Datīv (zu einem Erfolg).",
+        "Galvenā doma: sich gestalten nozīmē veidoties, izvērsties — par notikumu, sarunām vai nākotni: kāda tā izrādīsies. Parasti seko īpašības vārds (schwierig, positiv) vai zu + Dativ (zu einem Erfolg).",
         "Formas: gestaltet sich, gestaltete sich, hat sich gestaltet. Subjekts ir parasti abstrakts vārds: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
         "Bez sich gestalten nozīmē veidot, noformēt (den Garten gestalten)."
       ],
