@@ -1981,7 +1981,7 @@ const A2_WORDS = [
     "de": "Ameise",
     "de_article": "die",
     "de_plural": "die Ameisen",
-    "lv": "maurar",
+    "lv": "maur",
     "level": "A2"
   },
   {

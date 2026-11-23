@@ -15818,43 +15818,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "kolmas • kolmekesi",
+    "lv": "kolmekesi • kolmekaupa",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "kolmas • kolmekesi",
+      "translation": "kolmekesi • kolmekaupa",
       "explanation": [
-        "Põhimõte: dritt on järgarvsõna „kolmas“. Omadussõnana on sellel tavaliselt lõpp: der dritte Tag, die dritte Tür, das dritte Mal. Ilma lõputa esineb see väljendis zu dritt – kolmekesi.",
-        "Numbritega kirjutades: 3. = dritt-. Kuupäevades der dritte Mai, am dritten Mai. Erinevalt põhiarvsõnast drei (kolm) väljendab dritt (välja arvatud väljendis zu dritt) järjekorda, mitte hulka."
+        "Põhimõte: zu dritt tähendab kolmekesi, kolmekaupa – koos on kolm inimest. Samamoodi öeldakse zu zweit (kahekesi), zu viert (neljakesi), zu fünft (viiekesi).",
+        "Lõputa vorm dritt esineb ainult väljendites zu dritt (kolmekesi) ja zum Dritten (kolmandaks). Järgarvsõna „kolmas“ on lõpuga dritte: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "See on mu kolmas katse."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ta elab neljandal korrusel."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Me läheme kolmekesi kinno."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Täna on kolmas mai."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Nad elavad kolmekesi väikeses korteris."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Ma käin kolmandas klassis."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Kolmekesi läheb töö kiiremini."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Me olime ainult kolmekesi."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Esimest korda, teist korda, kolmandat korda – müüdud!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "kolm",
-          "example": "Ich habe drei Katzen. – Mul on kolm kassi."
+          "word": "der dritte",
+          "meaning": "kolmas",
+          "example": "Heute ist der dritte Mai. – Täna on kolmas mai."
         },
         {
           "word": "drittens",
@@ -15862,62 +15862,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Kolmandaks on see liiga kallis."
         },
         {
-          "word": "das Drittel",
-          "meaning": "kolmandik",
-          "example": "Ein Drittel der Klasse fehlt. – Kolmandik klassist puudub."
+          "word": "zu zweit",
+          "meaning": "kahekesi",
+          "example": "Wir fahren zu zweit in den Urlaub. – Me sõidame kahekesi puhkusele."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – nii öeldakse, mitu inimest on koos (kolmekesi, neljakesi, viiekesi).",
-        "Lisa lõpp nagu teistele omadussõnadele: dritt- + e/en/er/es."
+        "Zu dritt kirjutatakse kahe sõnana ja väikese algustähega."
       ],
       "important": [
-        "Dritt ilma lõputa kasutatakse ainult väljendis zu dritt; mujal on vaja vorme dritte, dritten jne.",
-        "Ära aja segi sõnaga drei: das dritte Haus – kolmas maja, drei Häuser – kolm maja."
+        "Dritt ilma lõputa kasutatakse ainult väljendites zu dritt ja zum Dritten; järgarvsõna on dritte, dritten jne.",
+        "Ära aja segi väljendit zu dritt (kolmekesi) sõnadega drei (kolm) ja der dritte (kolmas)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "kolmas",
-            "kolmekesi"
+            "kolmekesi",
+            "kolmekaupa",
+            "kolmandaks"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kolmas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "neljandal"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15929,24 +15904,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "kolmas"
+                "kolmekesi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "kolmandas"
+                "Kolmekesi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kolmekesi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kolmandat korda"
               ]
             }
           }
@@ -15955,12 +15954,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "kolm"
+                "kolmas"
               ]
             }
           },
@@ -15979,12 +15978,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "kolmandik"
+                "kahekesi"
               ]
             }
           }
@@ -15992,29 +15991,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

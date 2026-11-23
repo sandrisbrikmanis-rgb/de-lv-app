@@ -15805,43 +15805,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "treći • u troje",
+    "lv": "utroje • po troje",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "treći • u troje",
+      "translation": "utroje • po troje",
       "explanation": [
-        "Glavna misao: dritt je redni broj „treći”. Kao pridjev obično ima nastavak: der dritte Tag, die dritte Tür, das dritte Mal. Bez nastavka pojavljuje se u izrazu zu dritt – u troje.",
-        "Brojkama: 3. = dritt-. U datumima: der dritte Mai, am dritten Mai. Za razliku od glavnog broja drei (tri), dritt (osim u izrazu zu dritt) označava redoslijed, a ne količinu."
+        "Glavna misao: zu dritt znači utroje, po troje – zajedno su tri osobe. Isto se kaže zu zweit (udvoje), zu viert (učetvero), zu fünft (upetero).",
+        "Oblik dritt bez nastavka pojavljuje se samo u izrazima zu dritt (utroje) i zum Dritten (treće, kao treće). Redni broj „treći” je dritte s nastavkom: der dritte Tag, am dritten Mai."
       ],
       "examples": [
         {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "To je moj treći pokušaj."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ona živi na trećem katu."
-        },
-        {
           "de": "Wir gehen zu dritt ins Kino.",
-          "lv": "Idemo u kino u troje."
+          "lv": "Idemo utroje u kino."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Danas je treći svibnja."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Oni utroje žive u malom stanu."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Ja sam u trećem razredu."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Utroje posao ide brže."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Bili smo samo utroje."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Prvi put, drugi put, treći put – prodano!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "tri",
-          "example": "Ich habe drei Katzen. – Imam tri mačke."
+          "word": "der dritte",
+          "meaning": "treći",
+          "example": "Heute ist der dritte Mai. – Danas je treći svibnja."
         },
         {
           "word": "drittens",
@@ -15849,91 +15849,90 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Treće, preskupo je."
         },
         {
-          "word": "das Drittel",
-          "meaning": "trećina",
-          "example": "Ein Drittel der Klasse fehlt. – Trećina razreda nedostaje."
+          "word": "zu zweit",
+          "meaning": "udvoje",
+          "example": "Wir fahren zu zweit in den Urlaub. – Udvoje idemo na godišnji odmor."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – tako se kaže koliko je osoba zajedno.",
-        "Dodaj nastavak kao i kod drugih pridjeva: dritt- + e/en/er/es."
+        "Zu dritt piše se kao dvije riječi i malim slovom."
       ],
       "important": [
-        "Dritt bez nastavka koristi se samo u izrazu zu dritt; inače treba dritte, dritten itd.",
-        "Ne miješaj s drei: das dritte Haus – treća kuća, drei Häuser – tri kuće."
+        "Dritt bez nastavka koristi se samo u izrazima zu dritt i zum Dritten; redni broj je dritte, dritten itd.",
+        "Ne miješaj zu dritt (utroje) s drei (tri) i der dritte (treći)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "treći",
-            "u troje"
+            "utroje",
+            "po troje",
+            "treće"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "treći"
+                "utroje"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trećem"
+                "utroje"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritt"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "u troje"
+                "Utroje"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "treći"
+                "utroje"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zum Dritten"
               ]
             },
             "lv": {
               "purple": [
-                "trećem"
+                "treći put"
               ]
             }
           }
@@ -15942,12 +15941,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "tri"
+                "treći"
               ]
             }
           },
@@ -15966,12 +15965,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "trećina"
+                "udvoje"
               ]
             }
           }
@@ -15979,29 +15978,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

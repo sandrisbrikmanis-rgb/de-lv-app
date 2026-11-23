@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "trijatā",
+    "lv": "trijatā • pa trim",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "trijatā",
+      "translation": "trijatā • pa trim",
       "explanation": [
-        "Galvenā doma: dritt ir kārtas skaitļa vārds “trešais”. Kā īpašības vārds tas parasti ir ar galotni: der dritte Tag, die dritte Tür, das dritte Mal. Bez galotnes tas parādās frāzē zu dritt – trijatā.",
-        "Rakstot ciparos: 3. = dritt-. Datumos der dritte Mai, am dritten Mai. Atšķirībā no skaitļa drei (trīs), dritt (izņemot frāzi zu dritt) apraksta secību, nevis daudzumu."
+        "Galvenā doma: zu dritt nozīmē trijatā, pa trim — kopā trīs cilvēki. Tāpat saka zu zweit (divatā), zu viert (četratā), zu fünft (piecatā).",
+        "Forma dritt bez galotnes sastopama tikai izteicienos zu dritt (trijatā) un zum Dritten (treškārt). Kārtas skaitlis “trešais” ir dritte ar galotni: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Šis ir mans trešais mēģinājums."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Viņa dzīvo ceturtajā stāvā."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Mēs trijatā ejam uz kino."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Šodien ir trešais maijs."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Viņi trijatā dzīvo nelielā dzīvoklī."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Es esmu trešajā klasē."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Trijatā darbs veicas ātrāk."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Mēs bijām tikai trijatā."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Pirmo reizi, otro reizi, trešo reizi — pārdots!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "trīs",
-          "example": "Ich habe drei Katzen. – Man ir trīs kaķi."
+          "word": "der dritte",
+          "meaning": "trešais",
+          "example": "Heute ist der dritte Mai. – Šodien ir trešais maijs."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Treškārt, tas ir pārāk dārgi."
         },
         {
-          "word": "das Drittel",
-          "meaning": "trešdaļa",
-          "example": "Ein Drittel der Klasse fehlt. – Trešdaļa klases nav."
+          "word": "zu zweit",
+          "meaning": "divatā",
+          "example": "Wir fahren zu zweit in den Urlaub. – Mēs divatā braucam atvaļinājumā."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – tā saka, cik cilvēku ir kopā.",
-        "Pievieno galotni kā citiem īpašības vārdiem: dritt- + e/en/er/es."
+        "Zu dritt raksta divos vārdos un ar mazo burtu."
       ],
       "important": [
-        "Dritt bez galotnes lieto tikai frāzē zu dritt; citur vajag dritte, dritten u.c.",
-        "Nejauc ar drei: das dritte Haus – trešā māja, drei Häuser – trīs mājas."
+        "Dritt bez galotnes lieto tikai izteicienos zu dritt un zum Dritten; kārtas skaitlis ir dritte, dritten u. c.",
+        "Nejauc zu dritt (trijatā) ar drei (trīs) un der dritte (trešais)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "trešais",
-            "trijatā"
+            "trijatā",
+            "pa trim",
+            "treškārt"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "trešais"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "trešajā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15896,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trešais"
+                "trijatā"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trešajā"
+                "Trijatā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trijatā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trešo reizi"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "trīs"
+                "trešais"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "trešdaļa"
+                "divatā"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

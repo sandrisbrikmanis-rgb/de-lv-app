@@ -15809,43 +15809,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "tredje",
+    "lv": "tre saman • tre og tre",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "tredje",
+      "translation": "tre saman • tre og tre",
       "explanation": [
-        "Hovudtanken: dritt er ordenstalet «tredje». Som adjektiv har det vanlegvis ei ending: der dritte Tag, die dritte Tür, das dritte Mal. Utan ending finst det i uttrykket zu dritt – tre saman.",
-        "Med tal skriv ein: 3. = dritt-. I datoar: der dritte Mai, am dritten Mai. I motsetnad til grunntalet drei (tre) skildrar dritt (bortsett frå uttrykket zu dritt) ei rekkjefølgje, ikkje ei mengd."
+        "Hovudtanken: zu dritt tyder tre saman, tre og tre – tre personar saman. På same måten seier ein zu zweit (to saman), zu viert (fire saman), zu fünft (fem saman).",
+        "Forma dritt utan ending finst berre i uttrykka zu dritt (tre saman) og zum Dritten (for det tredje). Ordenstalet «tredje» er dritte med ending: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Dette er mitt tredje forsøk."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ho bur i tredje etasje."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Vi går tre saman på kino."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "I dag er det tredje mai."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Dei bur tre saman i ei lita leilegheit."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Eg går i tredje klasse."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Tre saman går arbeidet fortare."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Vi var berre tre saman."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Første gong, andre gong, tredje gong – seld!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "tre",
-          "example": "Ich habe drei Katzen. – Eg har tre kattar."
+          "word": "der dritte",
+          "meaning": "tredje",
+          "example": "Heute ist der dritte Mai. – I dag er det tredje mai."
         },
         {
           "word": "drittens",
@@ -15853,62 +15853,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – For det tredje er det for dyrt."
         },
         {
-          "word": "das Drittel",
-          "meaning": "tredjedel",
-          "example": "Ein Drittel der Klasse fehlt. – Ein tredjedel av klassen er borte."
+          "word": "zu zweit",
+          "meaning": "to saman",
+          "example": "Wir fahren zu zweit in den Urlaub. – Vi reiser to saman på ferie."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – slik seier ein kor mange som er saman.",
-        "Legg til ending som på andre adjektiv: dritt- + e/en/er/es."
+        "Zu dritt skriv ein i to ord og med liten forbokstav."
       ],
       "important": [
-        "Dritt utan ending vert berre brukt i uttrykket zu dritt; elles treng du dritte, dritten osb.",
-        "Ikkje bland med drei: das dritte Haus – det tredje huset, drei Häuser – tre hus."
+        "Dritt utan ending vert berre brukt i uttrykka zu dritt og zum Dritten; ordenstalet er dritte, dritten osb.",
+        "Ikkje bland zu dritt (tre saman) med drei (tre) og der dritte (tredje)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "tredje",
-            "tre saman"
+            "tre saman",
+            "tre og tre",
+            "for det tredje"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tredje"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tredje"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15920,24 +15895,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "tredje"
+                "tre saman"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "tredje"
+                "Tre saman"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tre saman"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tredje gong"
               ]
             }
           }
@@ -15946,12 +15945,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "tre"
+                "tredje"
               ]
             }
           },
@@ -15970,12 +15969,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "tredjedel"
+                "to saman"
               ]
             }
           }
@@ -15983,29 +15982,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

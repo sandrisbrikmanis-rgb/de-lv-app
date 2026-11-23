@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "tretji • v trojici",
+    "lv": "v trojici • vsi trije",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "tretji • v trojici",
+      "translation": "v trojici • vsi trije",
       "explanation": [
-        "Glavna misel: dritt je vrstilni števnik “tretji”. Kot pridevnik ima navadno končnico: der dritte Tag, die dritte Tür, das dritte Mal. Brez končnice se pojavlja v frazi zu dritt – v trojici, vsi trije.",
-        "Zapis s številko: 3. = dritt-. V datumih der dritte Mai, am dritten Mai. Za razliko od števnika drei (tri) dritt (razen v frazi zu dritt) izraža vrstni red, ne količine."
+        "Glavna misel: zu dritt pomeni v trojici, vsi trije – skupaj so trije ljudje. Podobno se reče zu zweit (v dvoje), zu viert (v četvero), zu fünft (v petero).",
+        "Oblika dritt brez končnice se pojavlja samo v frazah zu dritt (v trojici) in zum Dritten (tretjič). Vrstilni števnik “tretji” je dritte s končnico: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "To je moj tretji poskus."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Živi v tretjem nadstropju."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "V kino gremo vsi trije."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Danes je tretji maj."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "V majhnem stanovanju živijo v trojici."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Sem v tretjem razredu."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "V trojici gre delo hitreje."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Bili smo samo trije."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Prvič, drugič, tretjič – prodano!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "tri",
-          "example": "Ich habe drei Katzen. – Imam tri mačke."
+          "word": "der dritte",
+          "meaning": "tretji",
+          "example": "Heute ist der dritte Mai. – Danes je tretji maj."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,73 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Tretjič, predrago je."
         },
         {
-          "word": "das Drittel",
-          "meaning": "tretjina",
-          "example": "Ein Drittel der Klasse fehlt. – Tretjine razreda ni."
+          "word": "zu zweit",
+          "meaning": "v dvoje",
+          "example": "Wir fahren zu zweit in den Urlaub. – Na dopust greva v dvoje."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – tako poveš, koliko ljudi je skupaj.",
-        "Dodaj končnico kot drugim pridevnikom: dritt- + e/en/er/es."
+        "Zu dritt se piše z dvema besedama in z malo začetnico."
       ],
       "important": [
-        "Dritt brez končnice se uporablja samo v frazi zu dritt; drugje potrebuješ dritte, dritten itd.",
-        "Ne zamenjuj z drei: das dritte Haus – tretja hiša, drei Häuser – tri hiše."
+        "Dritt brez končnice se uporablja samo v frazah zu dritt in zum Dritten; vrstilni števnik je dritte, dritten itd.",
+        "Ne zamenjuj zu dritt (v trojici) z drei (tri) in der dritte (tretji)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "tretji",
-            "v trojici"
+            "v trojici",
+            "vsi trije",
+            "tretjič"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "tretji"
+                "vsi trije"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "tretjem"
+                "v trojici"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritt"
+                "Zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "V trojici"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15932,12 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zum Dritten"
               ]
             },
             "lv": {
               "purple": [
-                "tretji"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tretjem"
+                "tretjič"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "tri"
+                "tretji"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "tretjina"
+                "v dvoje"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "trečias • trise",
+    "lv": "trise • po tris",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "trečias • trise",
+      "translation": "trise • po tris",
       "explanation": [
-        "Pagrindinė mintis: dritt yra kelintinis skaitvardis „trečias“. Kaip būdvardis jis paprastai turi galūnę: der dritte Tag, die dritte Tür, das dritte Mal. Be galūnės jis pasitaiko junginyje zu dritt – trise.",
-        "Rašant skaitmenimis: 3. = dritt-. Datose: der dritte Mai, am dritten Mai. Skirtingai nei skaitvardis drei (trys), dritt (išskyrus frazę zu dritt) nusako eilę, o ne kiekį."
+        "Pagrindinė mintis: zu dritt reiškia trise, po tris – kartu trys žmonės. Taip pat sakoma zu zweit (dviese), zu viert (keturiese), zu fünft (penkiese).",
+        "Forma dritt be galūnės pasitaiko tik junginiuose zu dritt (trise) ir zum Dritten (trečia). Kelintinis skaitvardis „trečias“ yra dritte su galūne: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Tai mano trečias bandymas."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ji gyvena trečiame aukšte."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Mes trise einame į kiną."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Šiandien gegužės trečioji."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Jie trise gyvena nedideliame bute."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Aš esu trečioje klasėje."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "Trise darbas sekasi greičiau."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Mes buvome tik trise."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Pirmą kartą, antrą kartą, trečią kartą – parduota!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "trys",
-          "example": "Ich habe drei Katzen. – Turiu tris kates."
+          "word": "der dritte",
+          "meaning": "trečias",
+          "example": "Heute ist der dritte Mai. – Šiandien gegužės trečioji."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Trečia, tai per brangu."
         },
         {
-          "word": "das Drittel",
-          "meaning": "trečdalis",
-          "example": "Ein Drittel der Klasse fehlt. – Nėra trečdalio klasės."
+          "word": "zu zweit",
+          "meaning": "dviese",
+          "example": "Wir fahren zu zweit in den Urlaub. – Mes dviese važiuojame atostogauti."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – taip sakoma, kiek žmonių yra kartu.",
-        "Pridėk galūnę kaip kitiems būdvardžiams: dritt- + e/en/er/es."
+        "Zu dritt rašoma dviem žodžiais ir mažąja raide."
       ],
       "important": [
-        "Dritt be galūnės vartojamas tik junginyje zu dritt; kitur reikia dritte, dritten ir t. t.",
-        "Nepainiok su drei: das dritte Haus – trečias namas, drei Häuser – trys namai."
+        "Dritt be galūnės vartojamas tik junginiuose zu dritt ir zum Dritten; kelintinis skaitvardis yra dritte, dritten ir t. t.",
+        "Nepainiok zu dritt (trise) su drei (trys) ir der dritte (trečias)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "trečias",
-            "trise"
+            "trise",
+            "po tris",
+            "trečia"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "trečias"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "trečiame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15896,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trečioji"
+                "trise"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trečioje"
+                "Trise"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trise"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trečią kartą"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "trys"
+                "trečias"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "trečdalis"
+                "dviese"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

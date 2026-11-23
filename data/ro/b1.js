@@ -15810,43 +15810,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "al treilea • în trei",
+    "lv": "în trei • câte trei",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "al treilea • în trei",
+      "translation": "în trei • câte trei",
       "explanation": [
-        "Ideea principală: dritt este numeralul ordinal „al treilea”. Ca adjectiv are de obicei o terminație: der dritte Tag, die dritte Tür, das dritte Mal. Fără terminație apare în expresia zu dritt – în trei.",
-        "Scris cu cifre: 3. = dritt-. La date: der dritte Mai, am dritten Mai. Spre deosebire de numeralul drei (trei), dritt (cu excepția expresiei zu dritt) descrie ordinea, nu cantitatea."
+        "Ideea principală: zu dritt înseamnă în trei, câte trei – împreună trei persoane. La fel se spune zu zweit (în doi), zu viert (în patru), zu fünft (în cinci).",
+        "Forma dritt fără terminație apare doar în expresiile zu dritt (în trei) și zum Dritten (în al treilea rând). Numeralul ordinal „al treilea” este dritte, cu terminație: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "Aceasta este a treia mea încercare."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "Ea locuiește la etajul al treilea."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "Mergem în trei la cinema."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Azi e trei mai."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "Ei locuiesc în trei într-un apartament mic."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "Sunt în clasa a treia."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "În trei, munca merge mai repede."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "Eram doar noi trei."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Prima oară, a doua oară, a treia oară — adjudecat!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "trei",
-          "example": "Ich habe drei Katzen. – Am trei pisici."
+          "word": "der dritte",
+          "meaning": "al treilea",
+          "example": "Heute ist der dritte Mai. – Azi e trei mai."
         },
         {
           "word": "drittens",
@@ -15854,62 +15854,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – În al treilea rând, este prea scump."
         },
         {
-          "word": "das Drittel",
-          "meaning": "o treime",
-          "example": "Ein Drittel der Klasse fehlt. – O treime din clasă lipsește."
+          "word": "zu zweit",
+          "meaning": "în doi",
+          "example": "Wir fahren zu zweit in den Urlaub. – Mergem în doi în concediu."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – așa se spune câte persoane sunt împreună.",
-        "Adaugă terminația ca la celelalte adjective: dritt- + e/en/er/es."
+        "Zu dritt se scrie în două cuvinte și cu literă mică."
       ],
       "important": [
-        "Dritt fără terminație se folosește doar în expresia zu dritt; în rest e nevoie de dritte, dritten etc.",
-        "Nu-l confunda cu drei: das dritte Haus – a treia casă, drei Häuser – trei case."
+        "Dritt fără terminație se folosește doar în expresiile zu dritt și zum Dritten; numeralul ordinal este dritte, dritten etc.",
+        "Nu confunda zu dritt (în trei) cu drei (trei) și der dritte (al treilea)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "al treilea",
-            "în trei"
+            "în trei",
+            "câte trei",
+            "în al treilea rând"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "a treia"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "al treilea"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15921,24 +15896,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "trei"
+                "în trei"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "a treia"
+                "În trei"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noi trei"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a treia oară"
               ]
             }
           }
@@ -15947,12 +15946,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "trei"
+                "al treilea"
               ]
             }
           },
@@ -15971,12 +15970,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "o treime"
+                "în doi"
               ]
             }
           }
@@ -15984,29 +15983,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]

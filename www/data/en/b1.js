@@ -15736,43 +15736,43 @@ const B1_WORDS = [
   },
   {
     "de": "zu dritt",
-    "lv": "Third",
+    "lv": "As a group of three • in threes",
     "level": "B1",
     "study": {
       "id": "b1-dritt",
       "layout": "standardStudy",
-      "translation": "Third",
+      "translation": "As a group of three • in threes",
       "explanation": [
-        "Main idea: dritt is the ordinal number “third”. As an adjective it normally takes an ending: der dritte Tag, die dritte Tür, das dritte Mal. Without an ending it appears in the phrase zu dritt – the three of us/them together.",
-        "Written in figures: 3. = dritt-. In dates: der dritte Mai, am dritten Mai. Unlike the cardinal number drei (three), dritt (except in the phrase zu dritt) describes order, not quantity."
+        "Main idea: zu dritt means as a group of three, in threes – three people together. In the same way you say zu zweit (as a pair), zu viert (as a group of four), zu fünft (as a group of five).",
+        "The form dritt without an ending appears only in the phrases zu dritt (as a group of three) and zum Dritten (thirdly). The ordinal number “third” is dritte with an ending: der dritte Tag, am dritten Mai."
       ],
       "examples": [
-        {
-          "de": "Das ist mein dritter Versuch.",
-          "lv": "This is my third attempt."
-        },
-        {
-          "de": "Sie wohnt im dritten Stock.",
-          "lv": "She lives on the third floor."
-        },
         {
           "de": "Wir gehen zu dritt ins Kino.",
           "lv": "The three of us are going to the cinema."
         },
         {
-          "de": "Heute ist der dritte Mai.",
-          "lv": "Today is the third of May."
+          "de": "Sie wohnen zu dritt in einer kleinen Wohnung.",
+          "lv": "The three of them live in a small flat."
         },
         {
-          "de": "Ich bin in der dritten Klasse.",
-          "lv": "I am in the third year."
+          "de": "Zu dritt geht die Arbeit schneller.",
+          "lv": "With three people the work goes faster."
+        },
+        {
+          "de": "Wir waren nur zu dritt.",
+          "lv": "There were only three of us."
+        },
+        {
+          "de": "Zum Ersten, zum Zweiten, zum Dritten – verkauft!",
+          "lv": "Going once, going twice, going three times – sold!"
         }
       ],
       "comparison": [
         {
-          "word": "drei",
-          "meaning": "three",
-          "example": "Ich habe drei Katzen. – I have three cats."
+          "word": "der dritte",
+          "meaning": "third",
+          "example": "Heute ist der dritte Mai. – Today is the third of May."
         },
         {
           "word": "drittens",
@@ -15780,62 +15780,37 @@ const B1_WORDS = [
           "example": "Drittens ist es zu teuer. – Thirdly, it is too expensive."
         },
         {
-          "word": "das Drittel",
-          "meaning": "third (fraction)",
-          "example": "Ein Drittel der Klasse fehlt. – A third of the class is absent."
+          "word": "zu zweit",
+          "meaning": "as a pair",
+          "example": "Wir fahren zu zweit in den Urlaub. – The two of us are going on holiday."
         }
       ],
       "tip": [
         "Zu dritt, zu viert, zu fünft – this is how you say how many people are together.",
-        "Add an ending as with other adjectives: dritt- + e/en/er/es."
+        "Zu dritt is written as two words and with a lowercase letter."
       ],
       "important": [
-        "Dritt without an ending is used only in the phrase zu dritt; elsewhere you need dritte, dritten and so on.",
-        "Do not confuse it with drei: das dritte Haus – the third house, drei Häuser – three houses."
+        "Dritt without an ending is used only in the phrases zu dritt and zum Dritten; the ordinal number is dritte, dritten and so on.",
+        "Do not confuse zu dritt (as a group of three) with drei (three) and der dritte (third)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dritt",
-            "dritte",
-            "dritten",
             "zu dritt",
-            "drei"
+            "zum Dritten",
+            "dritte"
           ],
           "purple": [
-            "third",
-            "the three of us"
+            "as a group of three",
+            "in threes",
+            "thirdly"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dritter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "third"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "third"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "dritt"
+                "zu dritt"
               ]
             },
             "lv": {
@@ -15847,24 +15822,48 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "dritte"
+                "zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "third"
+                "three of them"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "dritten"
+                "Zu dritt"
               ]
             },
             "lv": {
               "purple": [
-                "third"
+                "With three people"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "three of us"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum Dritten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "going three times"
               ]
             }
           }
@@ -15873,12 +15872,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "drei"
+                "der dritte"
               ]
             },
             "meaning": {
               "purple": [
-                "three"
+                "third"
               ]
             }
           },
@@ -15897,12 +15896,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Drittel"
+                "zu zweit"
               ]
             },
             "meaning": {
               "purple": [
-                "third (fraction)"
+                "as a pair"
               ]
             }
           }
@@ -15910,29 +15909,27 @@ const B1_WORDS = [
         "tip": [
           {
             "blue": [
-              "dritt",
-              "zu dritt"
+              "zu viert",
+              "zu fünft"
             ]
           },
           {
             "blue": [
-              "dritt"
+              "Zu dritt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "dritt",
-              "dritte",
-              "dritten",
-              "zu dritt"
+              "zu dritt",
+              "zum Dritten"
             ]
           },
           {
             "blue": [
-              "dritte",
-              "drei"
+              "drei",
+              "der dritte"
             ]
           }
         ]
