@@ -13175,7 +13175,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ikkje bruk jung om ting – sei neu.",
-        "Komparativ har alltid omlyd: jünger, ikkje «junger»."
+        "Komparativ har alltid omlyd: jünger (junger er berre grunnforma med ending: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14895,7 +14895,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (område, landsbygd) og der Staat (staten som institusjon) er ikkje synonym.",
-        "I fleirtal er det omlyd: die Länder, ikkje «die Lande»."
+        "I fleirtal er det omlyd: die Länder; die Lande er ei forelda, poetisk form."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21788,7 +21788,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovudpoeng: schauen tyder «sjå, kikke» — rette blikket mot noko: Wir schauen aus dem Fenster. I Sør-Tyskland, Austerrike og Sveits er det svært vanleg; i nord seier ein oftare gucken eller sehen.",
         "Former: schaut, schaute, hat geschaut. Ofte med preposisjonar: auf + akkusativ (Er schaut auf die Uhr), aus dem Fenster (ut av vindauget), nach + dativ (Sie schaut nach dem Kind — ho passar på barnet). Imperativ: Schau mal! — Sjå her!",
-        "Uttrykket Ich schaue fern tyder «eg ser på TV»."
+        "Uttrykket Ich schaue fern (av fernschauen — i Sør-Tyskland og Austerrike; elles fernsehen) tyder «eg ser på TV»."
       ],
       "examples": [
         {
@@ -22611,7 +22611,7 @@ const A1_WORDS = [
         "Sehen tyder også «forstå» i uttrykk som Ich sehe, was du meinst."
       ],
       "important": [
-        "Det heiter ikkje sehst eller sehet: rett er du siehst, er sieht.",
+        "I presens heiter det ikkje du sehst eller er seht: rett er du siehst, er sieht.",
         "For å seie at ein ser på noko (ein film, eit bilete), kan ein bruke både sehen og sich (dativ) + ansehen."
       ],
       "sectionAccents": {
@@ -25236,7 +25236,7 @@ const A1_WORDS = [
       "translation": "rundt • klokka",
       "explanation": [
         "Hovudpoeng: um er ein preposisjon som alltid krev akkusativ. Om tid viser um nøyaktig klokkeslett: um acht Uhr (klokka åtte). Om stad viser han ein sirkel rundt noko: um den Tisch (rundt bordet), um die Ecke (rundt hjørnet).",
-        "Spørsmålet om tid er Um wie viel Uhr ...? (kva tid?). Etter um står tida utan artikkel: um 8 Uhr, ikkje in 8 Uhr.",
+        "Spørsmålet om tid er Um wie viel Uhr ...? (kva tid?). Klokkeslettet blir oppgjeve med um (utan artikkel), ikkje med in: um 8 Uhr, ikkje in 8 Uhr.",
         "Med zu + infinitiv uttrykkjer um føremål: Er lernt, um zu verstehen (han lærer for å forstå)."
       ],
       "examples": [
@@ -25488,7 +25488,7 @@ const A1_WORDS = [
         "Uttrykket unter uns tyder «mellom oss» og blir brukt når ein seier noko i fortrulegheit."
       ],
       "important": [
-        "Unter er ikkje det same som zwischen: unter viser til ei mengd eller ei gruppe (unter Freunden), zwischen — til to bestemte ting.",
+        "Unter er ikkje det same som zwischen: unter viser til ei mengd eller ei gruppe (unter Freunden), zwischen — til åtskilde, namngjevne ting (ofte to, men det kan òg vere fleire).",
         "Unter + tal tyder «mindre enn»: unter 18 tyder yngre enn 18."
       ],
       "sectionAccents": {
@@ -27780,7 +27780,7 @@ const A1_WORDS = [
         "Med personar bruker ein zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu krev berre dativ: zu meinem Freund, zu der Schule.",
+        "Zu krev berre dativ: zu meinem Freund, zur Schule (= zu der Schule).",
         "Til byar og land bruker ein nach, ikkje zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28640,7 +28640,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "fjernsyn • tv",
       "explanation": [
-        "Hovudpoeng: das Fernsehen er eit inkjekjønnssubstantiv som står for fjernsyn som medium eller sendingane samla. Fleirtal finst praktisk talt ikkje: ein brukar eintal. Det står ofte med im: im Fernsehen (på tv), beim Fernsehen (om å arbeide i tv).",
+        "Hovudpoeng: das Fernsehen er eit inkjekjønnssubstantiv som står for fjernsyn som medium eller sendingane samla. Fleirtal finst praktisk talt ikkje: ein brukar eintal. Det står ofte med im: im Fernsehen (på tv), beim Fernsehen (når ein ser på tv; òg om å arbeide i tv).",
         "Det er danna av verbet fernsehen (sjå på tv). Apparatet heiter der Fernseher, medan aktiviteten heiter fernsehen.",
         "Substantivet blir skrive med stor forbokstav; som verb er fernsehen skiljeleg."
       ],
@@ -30068,7 +30068,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Hugs: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub blir vanlegvis brukt utan artikkel: Urlaub haben, Urlaub nehmen."
+        "I uttrykka Urlaub haben, Urlaub nehmen blir Urlaub brukt utan artikkel (men: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Om elevar seier ein vanlegvis Ferien, ikkje Urlaub.",

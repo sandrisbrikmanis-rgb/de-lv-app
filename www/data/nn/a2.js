@@ -3380,7 +3380,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovudpoeng: anstecken er eit skiljeleg verb som tyder å feste på eller setje på (feste på ein blome, setje på ein ring), og dessutan å smitte (om sjukdom).",
         "Former: steckt an, steckte an, hat angesteckt. Forstavinga an- blir skild frå i setninga: Er steckt mir den Ring an. Verbet tek akkusativ (kva?), ofte også dativ (kven?).",
-        "I tydinga smitte bruker ein jemanden anstecken eller sich anstecken (bli smitta): Ich habe mich bei ihm angesteckt. I nokre regionar blir anstecken også brukt om å tenne (eine Zigarette anstecken)."
+        "I tydinga smitte bruker ein jemanden anstecken eller sich anstecken (bli smitta): Ich habe mich bei ihm angesteckt. I daglegtale tyder anstecken òg å tenne (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7578,7 +7578,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovudpoeng: die Bahn er eit hokjønnssubstantiv. Det tyder jernbane og jernbanetransport generelt (mit der Bahn fahren – reise med tog). I firmanamnet Deutsche Bahn er det den tyske jernbanen.",
         "Fleirtal er die Bahnen. Ordet finst også i samansetjingar: die Straßenbahn (trikk), die U-Bahn (T-bane), die S-Bahn (lokaltog), die Eisenbahn (jernbane).",
-        "Andre tydingar: bane eller løype (die Laufbahn, die Radrennbahn) og bane i verdsrommet (die Umlaufbahn). I idrett er die Bahn løpebana."
+        "Andre tydingar: bane eller løype (die Radrennbahn; die Laufbahn — òg karriere) og bane i verdsrommet (die Umlaufbahn). I idrett er die Bahn løpebana."
       ],
       "examples": [
         {
@@ -7621,7 +7621,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn er hokjønn; ikkje bland det med der Bahnhof (stasjon, hankjønn).",
-        "Ordet Bahn åleine tyder ofte selskapet Deutsche Bahn, ikkje eit bestemt tog; eit bestemt tog er der Zug."
+        "Ordet Bahn kan òg tyde selskapet Deutsche Bahn (Die Bahn hat Verspätung); eit bestemt tog heiter der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10146,7 +10146,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt er ikkje det same som bestimmen: bestimmen tyder å bestemme eller avgjere, medan bestimmt er adverb eller adjektiv.",
-        "Bestimmt kan òg uttrykkje ei antaking, ikkje berre visse: Er ist bestimmt zu Hause (han er nok heime)."
+        "Bestimmt kan òg uttrykkje ei sikker antaking: Er ist bestimmt zu Hause (han er sikkert heime)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11855,7 +11855,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovudpoenget: brennen er eit uregelrett verb som tyder brenne: eld, ved, lys og til og med auge eller hud kan brenne. I grunntydinga har det ikkje noko direkte objekt.",
         "Bøying: brennt, brannte, hat gebrannt. Det er eit blanda verb: stammen skiftar vokal (brennen – brannte), men endingane er som hos regelrette verb (ich brannte, wir brannten).",
-        "I overført tyding kan brennen òg tyde å svi (om smerte eller sol: Die Sonne brennt) og å brenne av entusiasme (für etwas brennen). Med objekt tyder brennen å brenne ein CD (eine CD brennen) eller å brenne brennevin (Schnaps brennen)."
+        "I overført tyding kan brennen òg tyde å svi (om smerte eller sol: Die Sonne brennt) og å brenne av entusiasme (für etwas brennen). Med objekt tyder brennen å brenne ein CD (eine CD brennen) eller å destillere brennevin (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12225,7 +12225,7 @@ const A2_WORDS = [
       "translation": "til stades • samtidig",
       "explanation": [
         "Hovudpoenget: dabei er eit adverb danna av da + bei. Det tyder til stades, ved det, med: ved sida av noko eller med i ei hending. Det vanlegaste sambandet er dabei sein (vere til stades, delta).",
-        "Andre vanlege tydingar: med seg (etwas dabei haben – ha noko med seg), samtidig (på same tid) og å halde på med noko akkurat no (dabei sein, etwas zu tun). Det er eit stads- og tidsord som viser tilbake til noko som er nemnt før.",
+        "Andre vanlege tydingar: med seg (etwas dabei haben – ha noko med seg), samtidig, i tillegg og å halde på med noko akkurat no (dabei sein, etwas zu tun). Det er eit stads- og tidsord som viser tilbake til noko som er nemnt før.",
         "Dabei inngår òg i samansetjingar: dabeibleiben (halde fast ved det), dabeihaben (ha med seg), dabeisitzen (sitje ved sida av)."
       ],
       "examples": [
@@ -12422,7 +12422,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovudpoenget: dafür er eit adverb (da + für). Det tyder for det (i byte, som betaling, som takk), til det (eit føremål) eller for (å vere samd): Ich bin dafür (eg er for).",
         "Det erstattar für + noko som er nemnt før: Ich danke dir dafür. Med verb som sich interessieren für, sorgen für, sich entschuldigen für bruker ein dafür når ein ikkje treng å gjenta substantivet.",
-        "I daglegtale tyder dafür òg til gjengjeld, som kompensasjon: Er ist nicht schnell, dafür arbeitet er genau. I denne tydinga innleier det ei motsetning med ein positiv kompensasjon."
+        "Dafür tyder òg til gjengjeld, som kompensasjon: Er ist nicht schnell, dafür arbeitet er genau. I denne tydinga innleier det ei motsetning med ein positiv kompensasjon."
       ],
       "examples": [
         {
@@ -12656,7 +12656,7 @@ const A2_WORDS = [
       ],
       "important": [
         "I ei leddsetning med damit står verbet sist.",
-        "damit tyder ikkje difor; for årsak bruker ein deshalb eller darum."
+        "Subjunksjonen damit (for at) tyder ikkje difor; for tydinga difor bruker ein deshalb eller darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Utan nicht, kein, nichts brukar ein vanlegvis ikkje gar."
+        "Som forsterking av nekting blir gar brukt saman med nicht, kein, nichts."
       ],
       "important": [
         "gar forsterkar ei nekting: gar nicht er sterkare enn nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "I samband med Wien blir ordet Kaffeehaus ofte brukt; i Tyskland høyrer du like ofte das Café.",
+        "Ordet Kaffeehaus er typisk for Austerrike (Wien); i Tyskland seier ein mykje oftare das Café.",
         "Hugs grunnorda Kaffee (kaffi) + das Haus (hus)."
       ],
       "important": [
@@ -26172,7 +26172,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen er hankjønn: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen åleine tyder bil eller jernbanevogn, ikkje barnevogn."
+        "Wagen åleine tyder vanlegvis bil eller jernbanevogn; barnevogn heiter Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28675,7 +28675,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Hugs: Kraft = kraft, Macht = makt, Energie = energi.",
-        "Lær uttrykket in Kraft treten (tre i kraft); det er vanlegare enn grunntydinga."
+        "Lær uttrykket in Kraft treten (tre i kraft) — det blir ofte brukt om lover og reglar."
       ],
       "important": [
         "Die Kraft er hokjønn; fleirtal er die Kräfte, ikkje die Krafte.",
@@ -32742,7 +32742,7 @@ const A2_WORDS = [
       "translation": "karakter",
       "explanation": [
         "Hovudtanken: die Note er eit hokjønnssubstantiv. På skulen og ved universitetet tyder det karakter (eine gute Note bekommen, få ein god karakter). I musikk er det ein note: Noten lesen (lese notar).",
-        "Fleirtal er die Noten. I Tyskland går karakterane frå 1 (sehr gut) til 6 (ungenügend), og 1 er best. Difor tyder eine gute Note eit lågt tal.",
+        "Fleirtal er die Noten. I tyske skular går karakterane frå 1 (sehr gut) til 6 (ungenügend), og 1 er best (ved universitet og høgskular er skalaen 1,0–5,0). Difor tyder eine gute Note eit lågt tal.",
         "Om karakterar seier ein: eine Note bekommen, eine Note geben, die Note verbessern (forbetre karakteren)."
       ],
       "examples": [
@@ -35367,7 +35367,7 @@ const A2_WORDS = [
         "I uttrykket rechnen mit + dativ er tydinga «rekne med», til dømes med dårleg vêr."
       ],
       "important": [
-        "Rechnen mit tyder vanlegvis «vente, ta med i utrekninga», ikkje «rekne ved hjelp av noko»."
+        "Rechnen mit + dativ tyder vanlegvis «vente, ta med i utrekninga» (Wir rechnen mit Regen); med eit hjelpemiddel tyder det «rekne med hjelp av»: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37329,7 +37329,7 @@ const A2_WORDS = [
         "Ein kø der folk ventar, heiter Schlange; Reihe er heller ei rekkje i tydinga rekkjefølgje (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen er eit fast uttrykk: ein seier ikkje in der Schlange sein, men Schlange stehen."
+        "Det vanlegaste uttrykket er Schlange stehen (òg in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45466,7 +45466,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln bruker ein når ein byter ut ein ting med ein annan (skule, jobb, valuta). ändern – når ein forandrar noko.",
-        "Byte av tog eller buss vert uttrykt med umsteigen, ikkje wechseln."
+        "Byte av tog eller buss vert vanlegvis uttrykt med umsteigen (det går òg an å seie den Zug wechseln)."
       ],
       "important": [
         "Med Geld wechseln meiner ein vanlegvis å veksle valuta eller pengar, ikkje å bruke dei.",

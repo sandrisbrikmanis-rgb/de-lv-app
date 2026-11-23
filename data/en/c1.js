@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "Detached house",
       "explanation": [
         "Main idea: das Einfamilienhaus is a house intended for one family – freestanding or attached to its neighbours, but with a single dwelling and usually its own garden.",
-        "Neuter noun: das Einfamilienhaus, plural die Einfamilienhäuser. It is made up of Ein- + Familie + Haus.",
+        "Neuter noun: das Einfamilienhaus, plural die Einfamilienhäuser. It is made up of Ein- + Familien- (the combining form of Familie) + Haus.",
         "The opposite is das Mehrfamilienhaus (block of flats). In British English it is often rendered as detached house, although an Einfamilienhaus can also be semi-detached."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "In politics you say eine Partei wählen or für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei and die Party (a celebration) sound similar but are not related."
+        "Die Partei and die Party (a celebration) sound similar, but their meanings are completely different (though both come from Latin pars — part)."
       ],
       "sectionAccents": {
         "explanation": {

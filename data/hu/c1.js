@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "családi ház",
       "explanation": [
         "A lényeg: a das Einfamilienhaus egy családnak szánt ház – állhat önállóan vagy a szomszédos házakhoz csatlakozva, de csak egy lakás van benne, és általában saját kertje is van.",
-        "Semlegesnemű főnév: das Einfamilienhaus, többes száma die Einfamilienhäuser. Összetett szó: Ein- + Familie + Haus.",
+        "Semlegesnemű főnév: das Einfamilienhaus, többes száma die Einfamilienhäuser. Összetett szó: Ein- + Familien- (a Familie összetételi alakja) + Haus.",
         "Az ellentéte a das Mehrfamilienhaus (többlakásos ház, társasház)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "A politikában így mondjuk: eine Partei wählen vagy für eine Partei stimmen."
       ],
       "important": [
-        "A die Partei és a die Party (buli) hasonlóan hangzik, de nincs közük egymáshoz – ahogy a magyar párt és parti sem azonos."
+        "A die Partei és a die Party (buli) hasonlóan hangzik, de a jelentésük egészen más (bár mindkettő a latin pars — rész — szóból ered)."
       ],
       "sectionAccents": {
         "explanation": {

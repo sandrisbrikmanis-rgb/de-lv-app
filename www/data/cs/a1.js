@@ -13177,7 +13177,7 @@ const A1_WORDS = [
       ],
       "important": [
         "O běžných předmětech (auto, kniha) neříkej jung – řekni neu.",
-        "Komparativ má vždy přehlásku: jünger, ne „junger“."
+        "Komparativ má vždy přehlásku: jünger (junger je jen základní stupeň s koncovkou: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14894,7 +14894,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (území, venkov) a der Staat (stát jako instituce) nejsou synonyma.",
-        "V plurálu je přehláska: die Länder, ne „die Lande“."
+        "V plurálu je přehláska: die Länder; die Lande je zastaralý, básnický tvar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21777,7 +21777,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: schauen znamená „dívat se, podívat se“ – obrátit pohled na něco: Wir schauen aus dem Fenster. V jižním Německu, Rakousku a Švýcarsku je to velmi časté; na severu se častěji používá gucken nebo sehen.",
         "Tvary: schaut, schaute, hat geschaut. Často s předložkami: auf + akuzativ (Er schaut auf die Uhr), aus dem Fenster (z okna), nach + dativ (Sie schaut nach dem Kind – dohlíží na dítě). Rozkaz: Schau mal! – Podívej se!",
-        "Fráze Ich schaue fern znamená „dívám se na televizi“."
+        "Fráze Ich schaue fern (od fernschauen – v jižním Německu a v Rakousku; jinde fernsehen) znamená „dívám se na televizi“."
       ],
       "examples": [
         {
@@ -22601,7 +22601,7 @@ const A1_WORDS = [
         "Sehen znamená také „chápat“ ve výrazech jako Ich sehe, was du meinst."
       ],
       "important": [
-        "Tvar „du sehst“ neexistuje: správně je du siehst, er sieht.",
+        "V přítomném čase neexistuje du sehst ani er seht: správně je du siehst, er sieht.",
         "Když chceme říct, že se na něco díváme (film, obraz), lze použít jak sehen, tak sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25222,7 +25222,7 @@ const A1_WORDS = [
       "translation": "Kolem • V (čas)",
       "explanation": [
         "Hlavní myšlenka: um je předložka, která vždy vyžaduje akuzativ. V časovém významu um udává přesný čas na hodinách: um acht Uhr (v osm hodin). V místním významu označuje kruh kolem něčeho: um den Tisch (kolem stolu), um die Ecke (za rohem).",
-        "Otázka na čas zní Um wie viel Uhr ...? (v kolik hodin?). Po um se čas neužívá s členem: um 8 Uhr, ne in 8 Uhr.",
+        "Otázka na čas zní Um wie viel Uhr ...? (v kolik hodin?). Čas na hodinách se udává pomocí um (bez členu), ne pomocí in: um 8 Uhr, ne in 8 Uhr.",
         "S zu + infinitivem um vyjadřuje účel: Er lernt, um zu verstehen (učí se, aby rozuměl)."
       ],
       "examples": [
@@ -27766,7 +27766,7 @@ const A1_WORDS = [
         "S osobami se používá zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu vyžaduje jen dativ: zu meinem Freund, zu der Schule.",
+        "Zu vyžaduje jen dativ: zu meinem Freund, zur Schule (= zu der Schule).",
         "U měst a zemí se používá nach, ne zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28624,7 +28624,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Televize",
       "explanation": [
-        "Hlavní myšlenka: das Fernsehen je podstatné jméno středního rodu, které označuje televizi jako médium nebo soubor pořadů. Množné číslo prakticky neexistuje: používá se jednotné číslo. Obvykle stojí s im: im Fernsehen (v televizi), beim Fernsehen (při práci v televizi).",
+        "Hlavní myšlenka: das Fernsehen je podstatné jméno středního rodu, které označuje televizi jako médium nebo soubor pořadů. Množné číslo prakticky neexistuje: používá se jednotné číslo. Obvykle stojí s im: im Fernsehen (v televizi), beim Fernsehen (při sledování televize; také při práci v televizi).",
         "Je to podstatné jméno od slovesa fernsehen (dívat se na televizi). Přístroj se nazývá der Fernseher, činnost fernsehen.",
         "Podstatné jméno se píše velkým písmenem; jako sloveso je fernsehen odlučitelné."
       ],
@@ -30051,7 +30051,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Pamatuj: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub se obvykle používá bez členu: Urlaub haben, Urlaub nehmen."
+        "Ve spojeních Urlaub haben, Urlaub nehmen se Urlaub používá bez členu (ale: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Školákům se obvykle říká Ferien, ne Urlaub.",

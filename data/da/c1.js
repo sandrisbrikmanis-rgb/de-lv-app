@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "Enfamiliehus • Parcelhus",
       "explanation": [
         "Hovedidé: das Einfamilienhaus er et hus beregnet til én familie – fritliggende eller sammenbygget med naboens, men med én bolig og som regel egen have. På dansk svarer det oftest til et parcelhus.",
-        "Navneord i intetkøn: das Einfamilienhaus, flertal die Einfamilienhäuser. Det består af Ein- + Familie + Haus – præcis som dansk enfamiliehus.",
+        "Navneord i intetkøn: das Einfamilienhaus, flertal die Einfamilienhäuser. Det består af Ein- + Familien- (sammensætningsform af Familie) + Haus – præcis som dansk enfamiliehus.",
         "Modsætningen er das Mehrfamilienhaus (etageejendom, flerfamiliehus)."
       ],
       "examples": [
@@ -1145,7 +1145,7 @@ const C1_WORDS = [
         "I politik siger man eine Partei wählen eller für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei og die Party (fest) ligner hinanden, men har intet med hinanden at gøre."
+        "Die Partei og die Party (fest) ligner hinanden, men betydningen er en helt anden (begge kommer dog af latin pars — del)."
       ],
       "sectionAccents": {
         "explanation": {

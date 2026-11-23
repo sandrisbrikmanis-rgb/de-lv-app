@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "dom jednorodzinny",
       "explanation": [
         "Główna myśl: das Einfamilienhaus to dom przeznaczony dla jednej rodziny — wolnostojący lub przylegający do sąsiednich, ale z jednym mieszkaniem i zwykle z własnym ogrodem.",
-        "Rzeczownik rodzaju nijakiego: das Einfamilienhaus, liczba mnoga die Einfamilienhäuser. Składa się z Ein- + Familie + Haus.",
+        "Rzeczownik rodzaju nijakiego: das Einfamilienhaus, liczba mnoga die Einfamilienhäuser. Składa się z Ein- + Familien- (forma łącząca od Familie) + Haus.",
         "Przeciwieństwem jest das Mehrfamilienhaus (dom wielorodzinny)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "W polityce mówi się eine Partei wählen lub für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei i die Party (impreza) brzmią podobnie, ale nie są ze sobą powiązane."
+        "Die Partei i die Party (impreza) brzmią podobnie, ale znaczą coś zupełnie innego (choć oba słowa pochodzą od łacińskiego pars — część)."
       ],
       "sectionAccents": {
         "explanation": {

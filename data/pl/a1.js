@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nie używaj jung w odniesieniu do przedmiotów — mówi się neu.",
-        "Stopień wyższy ma zawsze umlaut: jünger, a nie „junger”."
+        "Stopień wyższy ma zawsze umlaut: jünger (junger to tylko stopień równy z końcówką: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (terytorium, wieś) i der Staat (państwo jako instytucja) nie są synonimami.",
-        "W liczbie mnogiej jest umlaut: die Länder, a nie „die Lande”."
+        "W liczbie mnogiej jest umlaut: die Länder; die Lande to forma przestarzała, poetycka."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21793,7 +21793,7 @@ const A1_WORDS = [
       "explanation": [
         "Główna myśl: schauen znaczy „patrzeć, popatrzeć” — kierować wzrok na coś: Wir schauen aus dem Fenster. W południowych Niemczech, Austrii i Szwajcarii jest używane bardzo często; na północy częściej mówi się gucken lub sehen.",
         "Formy: schaut, schaute, hat geschaut. Często z przyimkami: auf + biernik (Er schaut auf die Uhr), aus dem Fenster (przez okno), nach + celownik (Sie schaut nach dem Kind — ona dogląda dziecka). Tryb rozkazujący: Schau mal! — Popatrz!",
-        "Wyrażenie Ich schaue fern znaczy „oglądam telewizję”."
+        "Wyrażenie Ich schaue fern (od fernschauen — w południowych Niemczech i w Austrii; gdzie indziej fernsehen) znaczy „oglądam telewizję”."
       ],
       "examples": [
         {
@@ -22616,7 +22616,7 @@ const A1_WORDS = [
         "Sehen znaczy też „rozumieć” w wyrażeniach takich jak Ich sehe, was du meinst."
       ],
       "important": [
-        "Nie ma form sehst ani sehet: poprawnie jest du siehst, er sieht.",
+        "W czasie teraźniejszym nie ma form du sehst ani er seht: poprawnie jest du siehst, er sieht.",
         "Aby powiedzieć, że coś się ogląda (film, obraz), można użyć zarówno sehen, jak i sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25242,7 +25242,7 @@ const A1_WORDS = [
       "translation": "wokół • o",
       "explanation": [
         "Główna myśl: um to przyimek, który zawsze wymaga biernika. W znaczeniu czasowym um podaje dokładną godzinę: um acht Uhr (o godzinie ósmej). W znaczeniu miejsca oznacza położenie lub ruch wokół czegoś: um den Tisch (wokół stołu), um die Ecke (za rogiem).",
-        "Pytanie o czas to Um wie viel Uhr ...? (o której?). Po um godzinę podaje się bez rodzajnika: um 8 Uhr, a nie in 8 Uhr.",
+        "Pytanie o czas to Um wie viel Uhr ...? (o której?). Godzinę podaje się z um (bez rodzajnika), a nie z in: um 8 Uhr, a nie in 8 Uhr.",
         "Z zu + bezokolicznik um wyraża cel: Er lernt, um zu verstehen (uczy się, żeby zrozumieć)."
       ],
       "examples": [
@@ -25494,7 +25494,7 @@ const A1_WORDS = [
         "Wyrażenie unter uns znaczy „między nami” i używa się go, gdy mówi się coś w zaufaniu."
       ],
       "important": [
-        "Unter to nie to samo co zwischen: unter wskazuje na zbiór lub grupę (unter Freunden), zwischen — na dwie konkretne rzeczy.",
+        "Unter to nie to samo co zwischen: unter wskazuje na zbiór lub grupę (unter Freunden), zwischen — na odrębne, wymienione rzeczy (często dwie, ale może być ich więcej).",
         "Unter + liczba znaczy „mniej niż”: unter 18 to młodszy niż 18 lat."
       ],
       "sectionAccents": {
@@ -27786,7 +27786,7 @@ const A1_WORDS = [
         "Z osobami używa się zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu wymaga wyłącznie celownika: zu meinem Freund, zu der Schule.",
+        "Zu wymaga wyłącznie celownika: zu meinem Freund, zur Schule (= zu der Schule).",
         "Z miastami i krajami używa się nach, a nie zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28646,7 +28646,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "telewizja",
       "explanation": [
-        "Najważniejsze: das Fernsehen to rzeczownik rodzaju nijakiego, który oznacza telewizję jako medium lub ogół programów. Liczby mnogiej praktycznie się nie używa: stosuje się liczbę pojedynczą. Zwykle występuje z im: im Fernsehen (w telewizji), beim Fernsehen (pracując w telewizji).",
+        "Najważniejsze: das Fernsehen to rzeczownik rodzaju nijakiego, który oznacza telewizję jako medium lub ogół programów. Liczby mnogiej praktycznie się nie używa: stosuje się liczbę pojedynczą. Zwykle występuje z im: im Fernsehen (w telewizji), beim Fernsehen (podczas oglądania telewizji; także pracując w telewizji).",
         "To rzeczownik od czasownika fernsehen (oglądać telewizję). Urządzenie nazywa się der Fernseher, a samą czynność — fernsehen.",
         "Rzeczownik pisze się wielką literą; jako czasownik fernsehen jest rozdzielnie złożony."
       ],
@@ -30074,7 +30074,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Zapamiętaj: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub zwykle używa się bez rodzajnika: Urlaub haben, Urlaub nehmen."
+        "Urlaub używa się bez rodzajnika w wyrażeniach Urlaub haben, Urlaub nehmen (ale: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "O uczniach mówi się zwykle Ferien, a nie Urlaub.",

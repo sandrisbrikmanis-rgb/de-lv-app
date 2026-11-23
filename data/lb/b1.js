@@ -3151,8 +3151,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "ofleeën",
-          "example": "Sie legt die Jacke ab. – Si leet d'Jackett of."
+          "meaning": "ofleeën; ausdoen",
+          "example": "Sie legt die Jacke ab. – Si deet d'Jackett aus."
         }
       ],
       "tip": [
@@ -10205,7 +10205,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen ass net datselwecht wéi besorgt sein (besuergt, mat Suergen): d'Adjektiv besorgt ass en anert Wuert.",
-        "Besorgen ass net trennbaar: besorgt, net gesorgt."
+        "Besorgen ass net trennbaar, am Perfekt ouni ge-: hat besorgt (gesorgt kënnt vun engem anere Verb — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11671,7 +11671,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: bieten heescht ubidden — engem eng Méiglechkeet, e Service oder e Virdeel ginn; oder bei enger Versteegerung e Präis bidden. Et ass e staarkt Verb: er bietet, bot, hat geboten. Et steet mam Akkusativ, dacks mat engem Dativ: jemandem etwas bieten.",
         "Beispiller: Das Hotel bietet viel Komfort (den Hotel bitt vill Komfort), Ich biete 100 Euro (ech bidden 100 Euro). Reflexiv heescht sich bieten sech presentéieren: Eine Chance bietet sich (eng Geleeënheet presentéiert sech).",
-        "Dat verwandt Substantiv ass das Angebot (Offer), mee anbieten (ubidden, proposéieren) ass en anert Verb."
+        "D'Substantiv das Angebot (Offer) kënnt vun anbieten; vu bieten kënnt das Gebot (Offer bei enger Versteegerung)."
       ],
       "examples": [
         {
@@ -12092,7 +12092,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Block",
       "explanation": [
-        "Haaptiddi: der Block ass e Block — e kompakt Stéck aus engem Material oder eng Eenheet: e Notizblock, e Block Äis, e Block vun Haiser. D'Pluralform ass die Blöcke.",
+        "Haaptiddi: der Block ass e Block — e kompakt Stéck aus engem Material oder eng Eenheet: e Notizblock, e Block Äis, e Block vun Haiser. D'Pluralform ass die Blöcke (bei Notizblocken a Blocke vun Haiser dacks och die Blocks).",
         "Typesch Kompositen: der Notizblock (Notizblock), der Wohnblock (Wunnblock), der Motorblock (Motorblock); och ein Block Eis (e Block Äis).",
         "Am iwwerdroene Sënn kann der Block och eng politesch oder wirtschaftlech Allianz bezeechnen: der Machtblock (Muechtblock)."
       ],
@@ -12725,7 +12725,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft ass weiblech.",
-        "Net verwiessele mat das Konsulat: dat këmmert sech an engem bestëmmte Beräich ëm konsularesch Servicer (Päss, Visaen)."
+        "Net verwiessele mat das Konsulat: dat këmmert sech ëm d'Bierger an engem bestëmmte konsularesche Beräich (Päss, Visaen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13307,7 +13307,7 @@ const B1_WORDS = [
       "translation": "Bund • Unioun",
       "explanation": [
         "Haaptiddi: der Bund ass eng Unioun, eng Allianz oder eng Unioun op staatlechem Niveau — den Zesummeschloss vu méi Parteien. D'Pluralform ass die Bünde. D'Wuert ass männlech.",
-        "An Däitschland bezeechent der Bund dacks d'federal Regierung am Géigesaz zu de Länner (Ländern): Bund und Länder. A Kompositen: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "An Däitschland bezeechent der Bund dacks d'federal Regierung am Géigesaz zu de Länner (die Länder): Bund und Länder. A Kompositen: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Aner Bedeitungen: ein Bund fürs Leben (d'Bestietnes) an das Bund (e Bëschel): ein Bund Radieschen. Dat ass en anert Wuert, mat engem aneren Artikel."
       ],
       "examples": [
@@ -13641,7 +13641,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: dadurch ass en Adverb a heescht doduerch, sou — et weist eng Ursaach oder e Mëttel. Et verbënnt normalerweis de viregte Saz mat enger Konsequenz: Er hat viel geübt. Dadurch wurde er besser.",
         "Wuertuerdnung: no dadurch steet d'Verb op der zweeter Plaz: Dadurch wird alles einfacher. Dadurch dass als Konjunktioun (doduerch datt) leet en Niewesaz an, mam Verb um Enn.",
-        "Raimlech heescht dadurch och „do duerch“, an da läit den Akzent op der éischter Silb: Die Tür war offen, wir sind dadurch gegangen."
+        "Raimlech heescht dadurch och „do duerch“: Die Tür war offen, wir sind dadurch gegangen. Normalerweis läit den Akzent op der zweeter Silb; déi éischt Silb betount een nëmmen, wann een et extra ervirhiewe wëll."
       ],
       "examples": [
         {
@@ -15469,7 +15469,7 @@ const B1_WORDS = [
       "translation": "déngen",
       "explanation": [
         "Haaptiddi: dienen heescht déngen, fir eppes nëtzlech sinn oder eng Funktioun erfëllen. Déi heefegst Konstruktiounen: dienen als + Nominativ (déngen als), dienen zu + Dativ (déngen zu, fir) an dienen + Dativ (enger Persoun déngen).",
-        "Formen: dient, diente, hat gedient. D'Verb steet mam Dativ (Er dient dem Land), net mam Akkusativ. Geschwat ass Womit kann ich dienen? eng héiflech Offer vun Hëllef; militäresch heescht dienen „säi Militärdéngscht maachen“."
+        "Formen: dient, diente, hat gedient. D'Verb steet mam Dativ (Er dient dem Land), net mam Akkusativ. Womit kann ich dienen? ass eng héiflech, e bësse almoudesch Formel, mat där e Verkeefer oder Kelner seng Hëllef ubitt; militäresch heescht dienen „säi Militärdéngscht maachen“."
       ],
       "examples": [
         {
@@ -16313,7 +16313,7 @@ const B1_WORDS = [
       "translation": "Diarrhée • Duerchfall",
       "explanation": [
         "Haaptiddi: der Durchfall ass e männlecht Substantiv a heescht Duerchfall oder Diarrhée – flëssegen a reegelméissege Stull. An der Medezin wéi am Alldag gëtt et am Singular gebraucht: Durchfall haben – Duerchfall hunn.",
-        "D'Pluralform die Durchfälle ass seelen. Am iwwerdroene Sënn kann Durchfall och e Mësserfolleg bezeechnen (bei engem Examen, bei engem Theaterstéck), mee da brauch ee meeschtens d'Verb durchfallen."
+        "D'Pluralform die Durchfälle ass seelen. Am iwwerdroene Sënn (an der geschwater Sprooch) kann Durchfall och e Mësserfolleg bezeechnen (bei engem Examen, bei engem Theaterstéck), mee da brauch ee meeschtens d'Verb durchfallen."
       ],
       "examples": [
         {
@@ -17039,7 +17039,7 @@ const B1_WORDS = [
       "translation": "eegen",
       "explanation": [
         "Haaptiddi: eigen ass en Adjektiv a heescht „eegen“. Et betount, datt eppes engem gehéiert: mein eigenes Auto – mäin eegenen Auto. Et steet normalerweis virum Substantiv a gëtt deklinéiert: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Am iwwerdroene Sënn kann eigen och „besonnesch, speziell“ heeschen: ein eigener Geruch – e besonnesche Geroch. Ausdrock: etwas zu eigen haben – eppes als Eegent hunn. Um Niveau B1 ass d'Haaptbedeitung „eegen“."
+        "Am iwwerdroene Sënn kann eigen och „besonnesch, speziell“ heeschen: ein eigener Geruch – e besonnesche Geroch. Ausdrock: sich (Dat) etwas zu eigen machen – eppes als säin eegent iwwerhuelen. Um Niveau B1 ass d'Haaptbedeitung „eegen“."
       ],
       "examples": [
         {
@@ -29679,7 +29679,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Am Plural ass d'Endung -er: die Geschlechter.",
-        "Op engem Formulaire steet no Geschlecht dacks e Feld fir auszefëllen, an net eng Fro."
+        "Op engem Formulaire ass Geschlecht den Titel vun engem Feld, wou ee männlich / weiblich / divers ukräizt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32577,7 +32577,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "No ein Haufen kënnt d'Substantiv ouni „von“: ein Haufen Arbeit, ein Haufen Geld – grad wéi op Lëtzebuergesch „e Koup Aarbecht“.",
+        "No ein Haufen kënnt d'Substantiv meeschtens ouni „von“: ein Haufen Arbeit, ein Haufen Geld (méi seelen: ein Haufen von Problemen) – grad wéi op Lëtzebuergesch „e Koup Aarbecht“.",
         "Den Ausdrock über den Haufen werfen: iwwer de Koup geheien, (Pläng) ëmschmeissen."
       ],
       "important": [
@@ -34224,7 +34224,7 @@ const B1_WORDS = [
       "translation": "Homosexuellen",
       "explanation": [
         "Haaptiddi: der Homosexuelle ass e Substantiv, dat en homosexuelle Mann bezeechent. Et gëtt wéi en Adjektiv deklinéiert: ein Homosexueller, der Homosexuelle, die Homosexuellen (Plural). Fir eng Fra: die Homosexuelle, eine Homosexuelle.",
-        "D'Wuert ass neutral a formell; et gëtt an offiziellen Texter, an den Noriichten an a Gesetzer gebraucht. Am Alldag seet een dacks schwul oder lesbisch."
+        "D'Wuert ass neutral a formell; et gëtt an offiziellen Texter, an den Noriichten an a Gesetzer gebraucht. Am Alldag brauch een dacks d'Adjektiver: er ist schwul (hien ass schwul), sie ist lesbisch (si ass lesbesch)."
       ],
       "examples": [
         {
@@ -45621,7 +45621,7 @@ const B1_WORDS = [
         "Zesummesetzungen: die Machtübernahme (Muechtiwwernam), der Machtkampf (Kampf ëm d'Muecht)."
       ],
       "important": [
-        "Macht heescht net physesch Kraaft; dofir seet een die Kraft.",
+        "Macht heescht net physesch Kraaft; déi heescht die Kraft.",
         "De Plural die Mächte bezitt sech haaptsächlech op Staaten oder Kräften."
       ],
       "sectionAccents": {
@@ -45996,7 +45996,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß schreift een mat ß, well de Vokal laang ass.",
-        "De Plural ass die Maße (Moossen); am Dativ — den Maßen (in Maßen, über alle Maßen)."
+        "De Plural ass die Maße (Moossen); am Dativ — den Maßen (in Maßen). Am Ausdrock über alle Maßen huet sech eng historesch Form erhalen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47366,7 +47366,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben ass net datselwecht wéi aufgeben: nachgeben heescht engem noginn, aufgeben heescht en Zil opginn.",
-        "De Präfix nach- gëtt getrennt: gibt nach, net nachgibt."
+        "De Präfix nach- gëtt am Haaptsaz getrennt: er gibt nach (am Niewesaz zesummen: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47680,7 +47680,7 @@ const B1_WORDS = [
       "translation": "tendéieren • sech bécken",
       "explanation": [
         "Haaptiddi: neigen mat zu + Dativ heescht zu eppes tendéieren, eng Neigung hunn: Er neigt zu schnellen Entscheidungen. Formen: neigt, neigte, hat geneigt.",
-        "Am wuertwiertleche Sënn heescht etwas neigen eppes bécken, schréi halen (den Kopf neigen). Reflexiv heescht sich neigen sech bécken oder op en Enn zougoen: Der Tag neigt sich.",
+        "Am wuertwiertleche Sënn heescht etwas neigen eppes bécken, schréi halen (den Kopf neigen). Reflexiv heescht sich neigen sech bécken oder (an engem gehuewene Stil) op en Enn zougoen: Der Tag neigt sich. Den Ausdrock sich dem Ende zuneigen kënnt vu zuneigen.",
         "Vun der selwechter Wuerzel kënnt d'Substantiv die Neigung (Tendenz, Neigung, Schréiegt)."
       ],
       "examples": [
@@ -48575,7 +48575,7 @@ const B1_WORDS = [
       "translation": "Nout",
       "explanation": [
         "Haaptiddi: die Not ass Nout, Misär, eng Situatioun, an där engem dat Néidegst feelt (in Not leben, Not leiden). Et ass och en dréngende Besoin oder en Ongléck: in der Not, in Not geraten.",
-        "D'Wuert ass feminin. De Plural die Nöte ass ganz rar; meeschtens brauch een de Singular.",
+        "D'Wuert ass feminin. De Plural die Nöte gëtt méi seele gebraucht (Sorgen und Nöte); meeschtens brauch een de Singular.",
         "Ausdréck: zur Not (wann et net anescht geet; wann et onbedéngt muss sinn), aus der Not eine Tugend machen (aus der Nout eng Tugend maachen), Not macht erfinderisch (Nout mécht erfannerësch)."
       ],
       "examples": [
@@ -54721,7 +54721,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten ass net braten: braten ass mat Ueleg oder Fett broden, rösten – réischteren.",
-        "Verwiessel rösten net mat rostet (rouscht)."
+        "Verwiessel rösten net mat rosten (rouschten)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60237,7 +60237,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Fir eng Sëtzplaz am Transport der Sitz oder der Platz; nëmmen der Platz kann eng Plaz am Allgemenge sinn.",
-        "De Sëtz vun enger Firma nennt ee der Firmensitz."
+        "De juristesche Sëtz (den Haaptsëtz) vun enger Firma nennt ee der Firmensitz."
       ],
       "important": [
         "Der Sitz ass net das Sitzen: das Sitzen ass d'Handlung, der Sitz – de Sëtz.",
@@ -61210,7 +61210,7 @@ const B1_WORDS = [
         "Fir ze späicheren (Energie, Waasser) benotzt een och speichern."
       ],
       "important": [
-        "Den Imperativ ass Speichere (oder Speicher), net Speichern.",
+        "Den Imperativ ass Speichere! (och Speichre!; an der geschwater Sprooch Speicher!), net Speichern.",
         "speichern ass net sperren (spären)."
       ],
       "sectionAccents": {
@@ -70105,7 +70105,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "Bandage, Bind",
+          "meaning": "Verband, Bandage, Bind",
           "example": "Sie wickelt eine Binde um den Fuß. – Si wéckelt eng Bandage ëm de Fouss."
         },
         {
@@ -76469,7 +76469,7 @@ const B1_WORDS = [
         "No zugeben kënnt dacks en dass-Saz, an deem d'Verb um Enn steet."
       ],
       "important": [
-        "Zugeben heescht eppes zouginn, wat fir de Spriecher net gënschteg ass; wann s du just soe wëlls, datt s du eppes an d'Iesse bäigëss, brauch ee hinzufügen.",
+        "Zugeben heescht meeschtens eppes zouginn, wat fir de Spriecher net gënschteg ass. A Rezepter heescht zugeben och bäiginn (Salz zugeben); am Alldag seet een an dëser Bedeitung méi dacks hinzufügen.",
         "No zugeben steet d'Verb am dass-Saz um Enn: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

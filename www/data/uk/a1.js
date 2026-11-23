@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Не вживай jung щодо предметів — кажуть neu.",
-        "Вищий ступінь завжди з умлаутом: jünger, а не «junger»."
+        "Вищий ступінь завжди з умлаутом: jünger (junger — це лише звичайний ступінь із закінченням: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (територія, село) і der Staat (держава як установа) — не синоніми.",
-        "У множині є умлаут: die Länder, а не «die Lande»."
+        "У множині є умлаут: die Länder; die Lande — застаріла, поетична форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21795,7 +21795,7 @@ const A1_WORDS = [
       "explanation": [
         "Головна думка: schauen означає «дивитися, подивитися» — спрямовувати погляд на щось: Wir schauen aus dem Fenster. У Південній Німеччині, Австрії та Швейцарії це дієслово дуже поширене; на півночі частіше кажуть gucken або sehen.",
         "Форми: schaut, schaute, hat geschaut. Часто з прийменниками: auf + знахідний відмінок (Er schaut auf die Uhr), aus dem Fenster (у вікно), nach + давальний відмінок (Sie schaut nach dem Kind — наглядає за дитиною). Наказовий спосіб: Schau mal! — Подивися!",
-        "Фраза Ich schaue fern означає «я дивлюся телевізор»."
+        "Фраза Ich schaue fern (від fernschauen — у Південній Німеччині та Австрії; деінде fernsehen) означає «я дивлюся телевізор»."
       ],
       "examples": [
         {
@@ -22618,7 +22618,7 @@ const A1_WORDS = [
         "Sehen означає також «розуміти» у висловах на зразок Ich sehe, was du meinst."
       ],
       "important": [
-        "Форм sehst чи sehet немає: правильно du siehst, er sieht.",
+        "У теперішньому часі немає форм du sehst чи er seht: правильно du siehst, er sieht.",
         "Щоб сказати, що щось дивишся (фільм, картину), можна вживати і sehen, і sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25244,7 +25244,7 @@ const A1_WORDS = [
       "translation": "навколо • о (про час)",
       "explanation": [
         "Головна думка: um — прийменник, який завжди потребує знахідного відмінка. У значенні часу um позначає точний час за годинником: um acht Uhr (о восьмій годині). У значенні місця він позначає коло навколо чогось: um den Tisch (навколо столу), um die Ecke (за рогом).",
-        "Запитання про час — Um wie viel Uhr ...? (о котрій?). Час після um уживають без артикля: um 8 Uhr, а не in 8 Uhr.",
+        "Запитання про час — Um wie viel Uhr ...? (о котрій?). Час на годиннику вказують за допомогою um (без артикля), а не in: um 8 Uhr, а не in 8 Uhr.",
         "Із zu + інфінітив um виражає мету: Er lernt, um zu verstehen (він учиться, щоб зрозуміти)."
       ],
       "examples": [
@@ -25496,7 +25496,7 @@ const A1_WORDS = [
         "Фраза unter uns означає «між нами»; її вживають, коли щось кажуть довірливо."
       ],
       "important": [
-        "Unter — не те саме, що zwischen: unter указує на сукупність чи групу (unter Freunden), zwischen — на дві конкретні речі.",
+        "Unter — не те саме, що zwischen: unter указує на сукупність чи групу (unter Freunden), zwischen — на окремі, названі речі (часто дві, але може бути й більше).",
         "Unter + число означає «менше ніж»: unter 18 — молодший за 18."
       ],
       "sectionAccents": {
@@ -27788,7 +27788,7 @@ const A1_WORDS = [
         "З людьми вживають zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu потребує тільки давального відмінка: zu meinem Freund, zu der Schule.",
+        "Zu потребує тільки давального відмінка: zu meinem Freund, zur Schule (= zu der Schule).",
         "З містами й країнами вживають nach, а не zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28648,7 +28648,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "телебачення",
       "explanation": [
-        "Головна думка: das Fernsehen — іменник середнього роду, що означає телебачення як медіа або сукупність передач. Множини практично немає: вживають однину. Зазвичай стоїть з im: im Fernsehen (по телебаченню), beim Fernsehen (працюючи на телебаченні).",
+        "Головна думка: das Fernsehen — іменник середнього роду, що означає телебачення як медіа або сукупність передач. Множини практично немає: вживають однину. Зазвичай стоїть з im: im Fernsehen (по телебаченню), beim Fernsehen (дивлячись телевізор; також працюючи на телебаченні).",
         "Це іменник від дієслова fernsehen (дивитися телевізор). Пристрій називається der Fernseher, а заняття — fernsehen.",
         "Іменник пишуть з великої літери; як дієслово fernsehen має відокремлюваний префікс."
       ],
@@ -30076,7 +30076,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Запам’ятай: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub зазвичай уживають без артикля: Urlaub haben, Urlaub nehmen."
+        "У висловах Urlaub haben, Urlaub nehmen уживають без артикля (але: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Про учнів зазвичай кажуть Ferien, а не Urlaub.",

@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nevartok jung apie daiktus – sakoma neu.",
-        "Aukštesnysis laipsnis visada su umliautu: jünger, o ne „junger“."
+        "Aukštesnysis laipsnis visada su umliautu: jünger (junger yra tik nelyginamasis laipsnis su galūne: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (teritorija, kaimas) ir der Staat (valstybė kaip institucija) nėra sinonimai.",
-        "Daugiskaitoje yra umliautas: die Länder, o ne „die Lande“."
+        "Daugiskaitoje yra umliautas: die Länder; die Lande yra pasenusi, poetinė forma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21793,7 +21793,7 @@ const A1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: schauen reiškia „žiūrėti, pažiūrėti“ – nukreipti žvilgsnį į ką nors: Wir schauen aus dem Fenster. Pietų Vokietijoje, Austrijoje ir Šveicarijoje jis vartojamas labai dažnai; šiaurėje dažniau sakoma gucken arba sehen.",
         "Formos: schaut, schaute, hat geschaut. Dažnai su prielinksniais: auf + Akkusativ (Er schaut auf die Uhr), aus dem Fenster (pro langą), nach + Dativ (Sie schaut nach dem Kind – prižiūri vaiką). Liepiamoji nuosaka: Schau mal! – Pažiūrėk!",
-        "Frazė Ich schaue fern reiškia „žiūriu televizorių“."
+        "Frazė Ich schaue fern (iš fernschauen – Pietų Vokietijoje ir Austrijoje; kitur fernsehen) reiškia „žiūriu televizorių“."
       ],
       "examples": [
         {
@@ -22616,7 +22616,7 @@ const A1_WORDS = [
         "Sehen reiškia ir „suprasti“ tokiuose posakiuose kaip Ich sehe, was du meinst."
       ],
       "important": [
-        "Ne sehst ar sehet: taisyklingai du siehst, er sieht.",
+        "Esamajame laike ne du sehst ar er seht: taisyklingai du siehst, er sieht.",
         "Norint pasakyti, kad ką nors žiūri (filmą, paveikslėlį), galima vartoti ir sehen, ir sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25239,7 +25239,7 @@ const A1_WORDS = [
       "translation": "aplink • valandą",
       "explanation": [
         "Pagrindinė mintis: um – prielinksnis, visada reikalaujantis galininko (Akkusativ). Laiko reikšme um nurodo tikslų laikrodžio laiką: um acht Uhr (aštuntą valandą). Vietos reikšme jis nurodo ratą aplink ką nors: um den Tisch (aplink stalą), um die Ecke (už kampo).",
-        "Klausimas apie laiką yra Um wie viel Uhr ...? (kelintą valandą?). Po um laikas nevartojamas su artikeliu: um 8 Uhr, o ne in 8 Uhr.",
+        "Klausimas apie laiką yra Um wie viel Uhr ...? (kelintą valandą?). Laikas pagal laikrodį nurodomas su um (be artikelio), o ne su in: um 8 Uhr, o ne in 8 Uhr.",
         "Su zu + bendratimi um reiškia tikslą: Er lernt, um zu verstehen (jis mokosi, kad suprastų)."
       ],
       "examples": [
@@ -25491,7 +25491,7 @@ const A1_WORDS = [
         "Frazė unter uns reiškia „tarp mūsų“ ir vartojama, kai kas nors sakoma konfidencialiai."
       ],
       "important": [
-        "Unter nėra tas pats, kas zwischen: unter nurodo aibę ar grupę (unter Freunden), zwischen – du konkrečius dalykus.",
+        "Unter nėra tas pats, kas zwischen: unter nurodo aibę ar grupę (unter Freunden), zwischen – atskirus, įvardytus dalykus (dažnai du, bet gali būti ir daugiau).",
         "Unter + skaičius reiškia „mažiau nei“: unter 18 – jaunesnis nei 18."
       ],
       "sectionAccents": {
@@ -27783,7 +27783,7 @@ const A1_WORDS = [
         "Su žmonėmis vartojamas zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu reikalauja tik naudininko: zu meinem Freund, zu der Schule.",
+        "Zu reikalauja tik naudininko: zu meinem Freund, zur Schule (= zu der Schule).",
         "Su miestais ir šalimis vartojamas nach, o ne zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28643,7 +28643,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televizija",
       "explanation": [
-        "Pagrindinė mintis: das Fernsehen – bevardės giminės daiktavardis, reiškiantis televiziją kaip žiniasklaidos priemonę arba laidų visumą. Daugiskaitos praktiškai nėra: vartojama vienaskaita. Dažnai su im: im Fernsehen (per televiziją), beim Fernsehen (dirbant televizijoje).",
+        "Pagrindinė mintis: das Fernsehen – bevardės giminės daiktavardis, reiškiantis televiziją kaip žiniasklaidos priemonę arba laidų visumą. Daugiskaitos praktiškai nėra: vartojama vienaskaita. Dažnai su im: im Fernsehen (per televiziją), beim Fernsehen (žiūrint televizorių; taip pat dirbant televizijoje).",
         "Tai daiktavardis iš veiksmažodžio fernsehen (žiūrėti televizorių). Prietaisas vadinamas der Fernseher, o veikla – fernsehen.",
         "Daiktavardis rašomas didžiąja raide; kaip veiksmažodis fernsehen yra skiriamasis."
       ],
@@ -30071,7 +30071,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Įsimink: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub dažniausiai vartojamas be artikelio: Urlaub haben, Urlaub nehmen."
+        "Posakiuose Urlaub haben, Urlaub nehmen vartojamas be artikelio (bet: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Apie moksleivius paprastai sakoma Ferien, o ne Urlaub.",

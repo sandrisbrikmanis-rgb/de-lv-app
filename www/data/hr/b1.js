@@ -5064,7 +5064,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Rado vam povjeravamo taj zadatak."
+          "lv": "Rado vam dodjeljujemo tu narudžbu (zadatak)."
         }
       ],
       "comparison": [
@@ -10210,7 +10210,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen nije isto što i besorgt sein (biti zabrinut): pridjev besorgt druga je riječ.",
-        "Besorgen je neodvojiv glagol: besorgt, a ne gesorgt."
+        "Besorgen je neodvojiv glagol, u perfektu bez ge-: hat besorgt (gesorgt je od drugog glagola — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11676,7 +11676,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna misao: bieten znači nuditi ili pružati — dati nekome mogućnost, uslugu ili prednost; ili ponuditi cijenu na dražbi. To je jaki glagol: er bietet, bot, hat geboten. Slijedi ga akuzativ, često s dativom: jemandem etwas bieten.",
         "Primjeri: Das Hotel bietet viel Komfort (hotel nudi mnogo udobnosti), Ich biete 100 Euro (nudim 100 eura). U povratnom obliku sich bieten znači ukazati se: Eine Chance bietet sich (ukazuje se prilika).",
-        "Srodna imenica je das Angebot (ponuda), ali anbieten (ponuditi) drugi je glagol."
+        "Imenica das Angebot (ponuda) potječe od anbieten; od bieten je das Gebot (ponuda na dražbi)."
       ],
       "examples": [
         {
@@ -12097,7 +12097,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blok",
       "explanation": [
-        "Glavna misao: der Block je blok — kompaktan, jednoličan komad ili cjelina: blok za bilješke, blok leda, stambeni blok. Množina je die Blöcke.",
+        "Glavna misao: der Block je blok — kompaktan, jednoličan komad ili cjelina: blok za bilješke, blok leda, stambeni blok. Množina je die Blöcke (za blokove za bilješke i stambene blokove često i die Blocks).",
         "Tipične složenice: der Notizblock (blok za bilješke), der Wohnblock (stambeni blok), der Motorblock (blok motora); također ein Block Eis (blok leda).",
         "U prenesenom značenju der Block može označavati i politički ili gospodarski savez: der Machtblock (blok moći)."
       ],
@@ -12730,7 +12730,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft je ženskog roda.",
-        "Ne miješaj s das Konsulat (konzulat): on pruža konzularne usluge (putovnice, vize) na određenom području."
+        "Ne miješaj s das Konsulat (konzulat): on pruža konzularne usluge (putovnice, vize) građanima na određenom konzularnom području."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13312,7 +13312,7 @@ const B1_WORDS = [
       "translation": "savez",
       "explanation": [
         "Glavna misao: der Bund je savez, udruženje ili državni savez — povezivanje više strana. Množina je die Bünde. Riječ je muškog roda.",
-        "U Njemačkoj der Bund često znači saveznu državu (federaciju) nasuprot saveznim zemljama (Ländern): Bund und Länder. U složenicama: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "U Njemačkoj der Bund često znači saveznu državu (federaciju) nasuprot saveznim zemljama (die Länder): Bund und Länder. U složenicama: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Druga značenja: ein Bund fürs Leben (bračna veza) i das Bund (svežanj, vezica): ein Bund Radieschen. To je druga riječ s drugim članom."
       ],
       "examples": [
@@ -13646,7 +13646,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna misao: dadurch je prilog koji znači time, na taj način, zbog toga — pokazuje uzrok ili sredstvo. Obično povezuje prethodnu rečenicu s posljedicom: Er hat viel geübt. Dadurch wurde er besser.",
         "Red riječi: nakon dadurch glagol je na drugom mjestu: Dadurch wird alles einfacher. Uz to, dadurch, dass kao veznik (time što, zato što) uvodi zavisnu rečenicu s glagolom na kraju.",
-        "U prostornom značenju dadurch znači i „kroz to”, a tada je naglasak na prvom slogu: Die Tür war offen, wir sind dadurch gegangen."
+        "U prostornom značenju dadurch znači i „kroz to”: Die Tür war offen, wir sind dadurch gegangen. Obično je naglasak na drugom slogu; prvi slog naglašava se samo pri posebnom isticanju."
       ],
       "examples": [
         {
@@ -15474,7 +15474,7 @@ const B1_WORDS = [
       "translation": "služiti",
       "explanation": [
         "Glavna misao: dienen znači služiti, biti koristan za neku svrhu ili obavljati neku funkciju. Najčešće konstrukcije: dienen als + nominativ (služiti kao), dienen zu + dativ (služiti za) i dienen + dativ (služiti nekome).",
-        "Oblici: dient, diente, hat gedient. Uz glagol ide dativ (Er dient dem Land), a ne akuzativ. U govoru je Womit kann ich dienen? uljudna ponuda pomoći; u vojnom smislu dienen znači „služiti vojsku”."
+        "Oblici: dient, diente, hat gedient. Uz glagol ide dativ (Er dient dem Land), a ne akuzativ. Womit kann ich dienen? uljudna je, pomalo staromodna ponuda pomoći uslužnog osoblja; u vojnom smislu dienen znači „služiti vojsku”."
       ],
       "examples": [
         {
@@ -16318,7 +16318,7 @@ const B1_WORDS = [
       "translation": "proljev",
       "explanation": [
         "Glavna misao: der Durchfall je imenica muškog roda koja znači proljev – rijetku, čestu stolicu. U medicini i svakodnevici koristi se u jednini: Durchfall haben – imati proljev.",
-        "Množina die Durchfälle rijetko se koristi. U prenesenom značenju Durchfall može značiti i neuspjeh, pad (na ispitu, kazališne predstave), ali tada se obično koristi glagol durchfallen."
+        "Množina die Durchfälle rijetko se koristi. U prenesenom značenju (u razgovornom jeziku) Durchfall može značiti i neuspjeh, pad (na ispitu, kazališne predstave), ali tada se obično koristi glagol durchfallen."
       ],
       "examples": [
         {
@@ -17044,7 +17044,7 @@ const B1_WORDS = [
       "translation": "vlastit",
       "explanation": [
         "Glavna misao: eigen je pridjev koji znači „vlastit, svoj”. Naglašava pripadnost: mein eigenes Auto – moj vlastiti auto. Obično stoji ispred imenice i sklanja se: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "U prenesenom značenju eigen može značiti i „poseban, osobit”: ein eigener Geruch – poseban miris. Izraz: etwas zu eigen haben – imati nešto u vlasništvu. Na razini B1 glavno je značenje „vlastit, svoj”."
+        "U prenesenom značenju eigen može značiti i „poseban, osobit”: ein eigener Geruch – poseban miris. Izraz: sich (Dat) etwas zu eigen machen – prihvatiti nešto kao svoje. Na razini B1 glavno je značenje „vlastit, svoj”."
       ],
       "examples": [
         {
@@ -29689,7 +29689,7 @@ const B1_WORDS = [
       ],
       "important": [
         "U množini je nastavak -er: die Geschlechter.",
-        "U obrascima iza Geschlecht obično dolazi polje za ispunjavanje, a ne pitanje."
+        "U obrascima je Geschlecht naziv polja (spol), u kojem se označava männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32587,7 +32587,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Nakon ein Haufen slijedi imenica bez 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Nakon ein Haufen imenica obično slijedi bez 'von': ein Haufen Arbeit, ein Haufen Geld (rjeđe: ein Haufen von Problemen).",
         "Izraz über den Haufen werfen – srušiti, poremetiti (planove)."
       ],
       "important": [
@@ -34234,7 +34234,7 @@ const B1_WORDS = [
       "translation": "homoseksualac",
       "explanation": [
         "Glavna ideja: der Homosexuelle je imenica koja znači homoseksualnog muškarca. Sklanja se kao pridjev: ein Homosexueller, der Homosexuelle, die Homosexuellen (množina). Za ženu: die Homosexuelle, eine Homosexuelle.",
-        "Riječ je neutralna, formalna i upotrebljava se u službenim tekstovima, vijestima i zakonima. U svakodnevnom govoru često se kaže schwul (gej) ili lesbisch (lezbijka)."
+        "Riječ je neutralna, formalna i upotrebljava se u službenim tekstovima, vijestima i zakonima. U svakodnevnom govoru često se koriste pridjevi: er ist schwul (on je gej), sie ist lesbisch (ona je lezbijka)."
       ],
       "examples": [
         {
@@ -46006,7 +46006,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Riječ das Maß piše se s ß jer je samoglasnik dug.",
-        "Množina je die Maße (dimenzije); u dativu — den Maßen (in Maßen, über alle Maßen)."
+        "Množina je die Maße (dimenzije); u dativu — den Maßen (in Maßen). U izrazu über alle Maßen sačuvan je povijesni oblik."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47377,7 +47377,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben nije isto što i aufgeben: nachgeben je popustiti nekome, aufgeben je odustati od nekog cilja.",
-        "Prefiks nach- se odvaja: gibt nach, a ne nachgibt."
+        "Prefiks nach- se u glavnoj rečenici odvaja: er gibt nach (u zavisnoj rečenici zajedno: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47691,7 +47691,7 @@ const B1_WORDS = [
       "translation": "naginjati • nagnuti",
       "explanation": [
         "Glavna misao: neigen sa zu + dativ znači naginjati nečemu, biti sklon: Er neigt zu schnellen Entscheidungen. Oblici: neigt, neigte, hat geneigt.",
-        "U doslovnom značenju etwas neigen je nagnuti (den Kopf neigen). Povratni oblik sich neigen znači nagnuti se ili približavati se kraju: Der Tag neigt sich.",
+        "U doslovnom značenju etwas neigen je nagnuti (den Kopf neigen). Povratni oblik sich neigen znači nagnuti se ili (u višem stilu) približavati se kraju: Der Tag neigt sich. Izraz sich dem Ende zuneigen dolazi od zuneigen.",
         "Od istog je korijena imenica die Neigung (sklonost, nagib)."
       ],
       "examples": [
@@ -48586,7 +48586,7 @@ const B1_WORDS = [
       "translation": "nevolja • oskudica • potreba",
       "explanation": [
         "Glavna misao: die Not je oskudica, nevolja, bijeda — stanje u kojem čovjeku nedostaje ono najnužnije (in Not leben, Not leiden). To je i hitna potreba ili nesreća: in der Not, in Not geraten.",
-        "Riječ je ženskog roda. Množina die Nöte vrlo je rijetka; obično se upotrebljava jednina.",
+        "Riječ je ženskog roda. Množina die Nöte rjeđe se koristi (Sorgen und Nöte); obično se upotrebljava jednina.",
         "Izrazi: zur Not (ako drukčije ne ide; u krajnjem slučaju), aus der Not eine Tugend machen (od nužde napraviti vrlinu), Not macht erfinderisch (nevolja čini čovjeka snalažljivim)."
       ],
       "examples": [
@@ -60246,7 +60246,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Za mjesto u prijevozu kaže se der Sitz ili der Platz; samo der Platz može značiti mjesto općenito.",
-        "Sjedište tvrtke zove se der Firmensitz."
+        "Pravno sjedište tvrtke (glavna uprava) zove se der Firmensitz."
       ],
       "important": [
         "Der Sitz nije das Sitzen: das Sitzen je radnja, der Sitz – sjedalo ili sjedište.",
@@ -61219,7 +61219,7 @@ const B1_WORDS = [
         "Za skladištenje (energija, voda) također se koristi speichern."
       ],
       "important": [
-        "Imperativ glasi Speichere (ili Speicher), a ne Speichern.",
+        "Imperativ glasi Speichere! (i Speichre!; u razgovornom jeziku Speicher!), a ne Speichern.",
         "speichern nije sperren (blokirati)."
       ],
       "sectionAccents": {
@@ -76468,7 +76468,7 @@ const B1_WORDS = [
         "Iza zugeben često dolazi zavisna rečenica s dass, u kojoj je glagol na kraju."
       ],
       "important": [
-        "Zugeben znači priznati nešto što govorniku nije u prilog; ako samo želiš reći da nešto dodaješ jelu, koristi se hinzufügen.",
+        "Zugeben obično znači priznati nešto što govorniku nije u prilog. U receptima zugeben znači i dodati (Salz zugeben); u svakodnevnom govoru u tom se značenju češće kaže hinzufügen.",
         "Iza zugeben u zavisnoj rečenici s dass glagol je na kraju: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

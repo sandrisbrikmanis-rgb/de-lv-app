@@ -3204,7 +3204,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "kijelentkezik, lemond, kijelent",
+          "meaning": "kijelentkezik, visszavonja a regisztrációt",
           "example": "Ich melde mich vom Kurs ab. – Kijelentkezem a tanfolyamról."
         },
         {
@@ -3378,7 +3378,7 @@ const A2_WORDS = [
       "explanation": [
         "Fő gondolat: az anstecken elváló igekötős ige, jelentése feltűz vagy felhúz (virágot feltűz, gyűrűt felhúz), valamint megfertőz, illetve elkap (betegséget).",
         "Alakjai: steckt an, steckte an, hat angesteckt. Az an- igekötő a főmondatban leválik: Er steckt mir den Ring an. Akkusativot (tárgyeset: mit?) kíván, gyakran Dativot (részes eset: kinek?) is.",
-        "Megfertőzés értelmében a jemanden anstecken vagy a sich anstecken (elkap egy betegséget) szerkezetet használjuk: Ich habe mich bei ihm angesteckt. Egyes régiókban az anstecken meggyújtást is jelent (eine Zigarette anstecken)."
+        "Megfertőzés értelmében a jemanden anstecken vagy a sich anstecken (elkap egy betegséget) szerkezetet használjuk: Ich habe mich bei ihm angesteckt. Beszélt nyelvben az anstecken meggyújtást is jelent (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7575,7 +7575,7 @@ const A2_WORDS = [
       "explanation": [
         "Lényeg: a die Bahn nőnemű főnév. Jelentése vasút, illetve általában a vasúti közlekedés (mit der Bahn fahren – vonattal utazik). A Deutsche Bahn cégnévben a német vasutat jelenti.",
         "Többes száma die Bahnen. Összetételekben is gyakori: die Straßenbahn (villamos), die U-Bahn (metró), die S-Bahn (elővárosi gyorsvasút), die Eisenbahn (vasút).",
-        "További jelentések: pálya vagy sáv (die Laufbahn, die Radrennbahn) és keringési pálya (die Umlaufbahn). A sportban a die Bahn a futópálya."
+        "További jelentések: pálya vagy sáv (die Radrennbahn; die Laufbahn — pályafutás is) és keringési pálya (die Umlaufbahn). A sportban a die Bahn a futópálya."
       ],
       "examples": [
         {
@@ -7618,7 +7618,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A die Bahn nőnemű; ne keverd össze a der Bahnhof szóval (pályaudvar, állomás; hímnemű).",
-        "Önmagában a Bahn szó gyakran a Deutsche Bahn céget jelenti, nem egy konkrét vonatot; a konkrét vonat der Zug."
+        "A Bahn szó jelentheti a Deutsche Bahn céget is (Die Bahn hat Verspätung); a konkrét vonat neve der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10143,7 +10143,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A bestimmt nem ugyanaz, mint a bestimmen: a bestimmen jelentése meghatároz, dönt, a bestimmt pedig határozószó vagy melléknév.",
-        "A bestimmt feltételezést is kifejezhet, nem csak bizonyosságot: Er ist bestimmt zu Hause (valószínűleg otthon van)."
+        "A bestimmt erős feltételezést is kifejez: Er ist bestimmt zu Hause (biztosan otthon van)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12221,7 +12221,7 @@ const A2_WORDS = [
       "translation": "jelen • ott",
       "explanation": [
         "A lényeg: a dabei határozószó, a da + bei összetételéből. Jelentése: jelen, ott, mellette – valami mellett vagy egy eseményen. Leggyakoribb kapcsolata a dabei sein (jelen van, részt vesz valamiben).",
-        "További gyakori jelentései: magánál (etwas dabei haben – nála van valami), közben (ugyanabban az időben), valamint éppen csinál valamit (dabei sein, etwas zu tun). Helyre és időre utaló szó, amely a korábban említettekre utal vissza.",
+        "További gyakori jelentései: magánál (etwas dabei haben – nála van valami), közben (ugyanabban az időben), ráadásul, valamint éppen csinál valamit (dabei sein, etwas zu tun). Helyre és időre utaló szó, amely a korábban említettekre utal vissza.",
         "A dabei összetett szavak része is: dabeibleiben (kitart mellette), dabeihaben (magánál tart), dabeisitzen (mellette ül)."
       ],
       "examples": [
@@ -12418,7 +12418,7 @@ const A2_WORDS = [
       "explanation": [
         "A lényeg: a dafür határozószó (da + für). Jelentése érte, azért (cserébe, fizetéskor, köszönetként), arra (valamilyen célra) vagy mellette (egyetértésként): Ich bin dafür (mellette vagyok, támogatom).",
         "A für + korábban említett dolog helyett áll: Ich danke dir dafür. Az olyan igéknél, mint a sich interessieren für, sorgen für, sich entschuldigen für, akkor használjuk a dafür szót, ha nem akarjuk megismételni a főnevet.",
-        "Beszélt nyelvben a dafür jelentése viszont, cserébe is: Er ist nicht schnell, dafür arbeitet er genau. Ebben a jelentésben olyan ellentétet vezet be, amely pozitívan ellensúlyozza az előzőt."
+        "A dafür jelentése viszont, cserébe is: Er ist nicht schnell, dafür arbeitet er genau. Ebben a jelentésben olyan ellentétet vezet be, amely pozitívan ellensúlyozza az előzőt."
       ],
       "examples": [
         {
@@ -12652,7 +12652,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A damit kötőszós mellékmondatban az ige a mondat végén áll.",
-        "A damit nem azt jelenti, hogy ezért; okozati jelentésre a deshalb vagy a darum szót használd."
+        "A damit kötőszó („azért, hogy”) nem azt jelenti, hogy ezért; az „ezért” jelentésre a deshalb vagy a darum szót használd."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19798,7 +19798,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "A gar szót általában a nicht, kein vagy nichts szóval együtt használjuk."
+        "Tagadás nyomatékosítójaként a gar szót a nicht, kein vagy nichts szóval együtt használjuk."
       ],
       "important": [
         "A gar a tagadást erősíti: a gar nicht erősebb, mint a nicht."
@@ -23631,7 +23631,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Bécs kapcsán a Kaffeehaus szót nagyon gyakran használják; Németországban ugyanilyen gyakran hallod a das Café szót.",
+        "A Kaffeehaus szó Ausztriára (Bécsre) jellemző; Németországban sokkal gyakrabban a das Café szót használják.",
         "Jegyezd meg az összetevőket: Kaffee (kávé) + das Haus (ház)."
       ],
       "important": [
@@ -24611,7 +24611,7 @@ const A2_WORDS = [
       "explanation": [
         "Lényeg: a der Kellner hímnemű főnév, jelentése pincér: az a személy, aki étteremben vagy kávézóban felszolgálja az ételt és az italt. A női alak: die Kellnerin.",
         "Többes száma die Kellner (férfiak) és die Kellnerinnen (nők). Ragozás: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "A pincér megszólítására a legjobb az Entschuldigung!; a Herr Ober! megszólítást ma régimódinak tartják."
+        "A pincért a legjobb „Entschuldigung!” szóval megszólítani; a Herr Ober! megszólítást ma régimódinak tartják."
       ],
       "examples": [
         {
@@ -26158,7 +26158,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A der Kinderwagen hímnemű: ein Kinderwagen, zwei Kinderwagen.",
-        "A Wagen önmagában autót vagy vagont jelent, nem babakocsit."
+        "A Wagen önmagában általában autót vagy vagont jelent; a babakocsi neve Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28657,7 +28657,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Jegyezd meg: Kraft = erő, Macht = hatalom, Energie = energia.",
-        "Tanuld meg az in Kraft treten (hatályba lép) kifejezést; gyakrabban találkozol vele, mint az alapjelentéssel."
+        "Tanuld meg az in Kraft treten (hatályba lép) kifejezést — gyakran használják törvényekre és szabályokra."
       ],
       "important": [
         "A die Kraft nőnemű; többes száma die Kräfte, nem die Krafte.",
@@ -32722,7 +32722,7 @@ const A2_WORDS = [
       "translation": "jegy • osztályzat",
       "explanation": [
         "A lényeg: a die Note nőnemű főnév. Az iskolában és az egyetemen jegyet, osztályzatot jelent (eine gute Note bekommen, jó jegyet kap). A zenében hangjegy: Noten lesen (kottát olvas).",
-        "Többes száma die Noten. Németországban a jegyek 1-től (sehr gut) 6-ig (ungenügend) terjednek, és az 1 a legjobb. Ezért az eine gute Note kis számot jelent – éppen fordítva, mint a magyar ötfokú skálán, ahol az 5 a legjobb.",
+        "Többes száma die Noten. A németországi iskolákban a jegyek 1-től (sehr gut) 6-ig (ungenügend) terjednek, és az 1 a legjobb (a felsőoktatásban a skála 1,0–5,0). Ezért az eine gute Note kis számot jelent – éppen fordítva, mint a magyar ötfokú skálán, ahol az 5 a legjobb.",
         "Az osztályzatokkal kapcsolatos kifejezések: eine Note bekommen, eine Note geben, die Note verbessern (javít a jegyén)."
       ],
       "examples": [
@@ -35347,7 +35347,7 @@ const A2_WORDS = [
         "A rechnen mit + Dativ szerkezetben a jelentés „számol valamivel, számít valamire”, például rossz időre."
       ],
       "important": [
-        "A rechnen mit jelentése általában „számít valamire, figyelembe vesz valamit”, nem pedig az, hogy valamivel matematikai műveletet végzünk."
+        "A rechnen mit + Dativ jelentése általában „számít valamire, figyelembe vesz valamit” (Wir rechnen mit Regen); eszközzel azt jelenti: „számol valamivel”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36832,7 +36832,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "éles • csípős",
       "explanation": [
-        "Fő gondolat: a scharf több jelentésű melléknév. Tárgyra vonatkozóan éles (scharfes Messer – éles kés), ételre vonatkozóan csípős, erős ízű (scharfes Essen). Átvitt értelemben jelenthet élest vagy erőset is: eine scharfe Kurve (éles kanyar), scharf bremsen (erősen fékez).",
+        "Fő gondolat: a scharf több jelentésű melléknév. Tárgyra vonatkozóan éles (scharfes Messer – éles kés), ételre vonatkozóan csípős, erős ízű (scharfes Essen). Átvitt értelemben jelentése lehet hirtelen vagy erős is: eine scharfe Kurve (éles kanyar), scharf bremsen (hirtelen fékez).",
         "A középfok schärfer (umlauttal), a felsőfok am schärfsten. Főnév előtt: ein scharfes Messer, scharfe Soße.",
         "Ne keverd össze a sós ízzel: a scharf a csípős, erős ízt jelenti (chili, torma), a sós németül salzig."
       ],
@@ -37309,7 +37309,7 @@ const A2_WORDS = [
         "A várakozó emberek sorát Schlange-nak hívják; a Reihe inkább sorrendet, egymásutániságot jelent (Du bist an der Reihe)."
       ],
       "important": [
-        "A Schlange stehen állandó kifejezés: nem in der Schlange sein, hanem Schlange stehen."
+        "A leggyakoribb kifejezés a Schlange stehen (in der Schlange stehen is)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45443,7 +45443,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "A wechseln akkor használatos, ha egy dolgot egy másikra cserélünk (iskola, munkahely, valuta). Az ändern akkor, ha valamit átalakítunk, megváltoztatunk.",
-        "Az átszállást a közlekedésben az umsteigen fejezi ki, nem a wechseln."
+        "Az átszállást a közlekedésben általában az umsteigen fejezi ki (lehetséges a den Zug wechseln is)."
       ],
       "important": [
         "A Geld wechseln általában pénzváltást vagy felváltást jelent, nem pénzköltést.",

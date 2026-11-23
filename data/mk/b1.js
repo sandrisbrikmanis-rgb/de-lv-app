@@ -3154,8 +3154,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "остава",
-          "example": "Sie legt die Jacke ab. – Таа ја остава јакната."
+          "meaning": "остава; соблекува",
+          "example": "Sie legt die Jacke ab. – Таа ја соблекува јакната."
         }
       ],
       "tip": [
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Со задоволство Ви ја доверуваме задачата."
+          "lv": "Со задоволство Ви ја доделуваме нарачката (задачата)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen не е исто што и besorgt sein (загрижен): придавката besorgt е друг збор.",
-        "Besorgen е неодвоив: besorgt, а не gesorgt."
+        "Besorgen е неодвоив, во Perfekt без ge-: hat besorgt (gesorgt е од друг глагол — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Главна идеја: bieten значи нуди или дава — му дава некому можност, услуга или предност; исто така нуди цена на аукција. Тоа е силен глагол: er bietet, bot, hat geboten. Следува акузатив, често со датив: jemandem etwas bieten.",
         "Примери: Das Hotel bietet viel Komfort (хотелот нуди многу удобност), Ich biete 100 Euro (нудам 100 евра). Повратниот sich bieten значи: Eine Chance bietet sich (се појавува можност).",
-        "Сродна е именката das Angebot (понуда), но глаголот anbieten (нуди) е друг збор."
+        "Именката das Angebot (понуда) потекнува од anbieten; од bieten е das Gebot (понуда на аукција)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "блок",
       "explanation": [
-        "Главна идеја: der Block е блок — збиено, цело парче или комплет: блок за белешки, блок мраз, блок згради. Множината е die Blöcke.",
+        "Главна идеја: der Block е блок — збиено, цело парче или комплет: блок за белешки, блок мраз, блок згради. Множината е die Blöcke (за блокови за белешки и згради често и die Blocks).",
         "Типични сложенки: der Notizblock (блок за белешки), der Wohnblock (станбен блок), der Motorblock (моторен блок); исто така ein Block Eis (блок мраз).",
         "Во пренесено значење der Block може да биде и политички или економски сојуз: der Machtblock (блок на моќ)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft е од женски род.",
-        "Не мешај ја со das Konsulat (конзулат): тој обично ги услужува граѓаните во одреден град."
+        "Не мешај ја со das Konsulat (конзулат): тој ги услужува граѓаните во одредена конзуларна област."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "сојуз",
       "explanation": [
         "Главна идеја: der Bund е сојуз, здружение или сојуз на државно ниво — обединување на повеќе страни. Множината е die Bünde. Зборот е од машки род.",
-        "Во Германија der Bund често значи сојузната (федерална) власт наспроти покраините (Ländern): Bund und Länder. Во сложенки: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Во Германија der Bund често значи сојузната (федерална) власт наспроти покраините (die Länder): Bund und Länder. Во сложенки: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Други значења: ein Bund fürs Leben (брачна заедница) и das Bund (врска, сноп): ein Bund Radieschen. Тоа е друг збор со друг член."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Главна идеја: dadurch е прилог што значи на тој начин, со тоа, преку тоа — упатува на причина или средство. Обично ја поврзува претходната реченица со последицата: Er hat viel geübt. Dadurch wurde er besser.",
         "Ред на зборовите: по dadurch глаголот е на второ место: Dadurch wird alles einfacher. Исто така, dadurch, dass како сврзник (со тоа што) воведува зависна реченица со глаголот на крајот.",
-        "Во просторно значење dadurch значи и низ тоа, и тогаш се нагласува првиот слог: Die Tür war offen, wir sind dadurch gegangen."
+        "Во просторно значење dadurch значи и низ тоа: Die Tür war offen, wir sind dadurch gegangen. Обично се нагласува вториот слог; првиот слог се нагласува само при посебно истакнување."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "служи",
       "explanation": [
         "Главна идеја: dienen значи служи, е корисен за некоја цел или врши некоја функција. Најчести конструкции: dienen als + номинатив (служи како), dienen zu + датив (служи за) и dienen + датив (му служи некому).",
-        "Форми: dient, diente, hat gedient. По глаголот следува датив (Er dient dem Land), а не акузатив. Во разговорниот јазик Womit kann ich dienen? е љубезна понуда за помош, а во воена смисла dienen значи „служи војска“."
+        "Форми: dient, diente, hat gedient. По глаголот следува датив (Er dient dem Land), а не акузатив. Womit kann ich dienen? е љубезна, малку старомодна понуда за помош од услужителот, а во воена смисла dienen значи „служи војска“."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "пролив",
       "explanation": [
         "Главна идеја: der Durchfall е именка од машки род што значи пролив – течна, честа столица. Во медицината и во секојдневието се користи во еднина: Durchfall haben – има пролив.",
-        "Множината die Durchfälle ретко се користи. Во пренесено значење Durchfall може да значи и неуспех (на испит, на театарска претстава), но тогаш обично се користи глаголот durchfallen."
+        "Множината die Durchfälle ретко се користи. Во пренесено значење (во разговорниот јазик) Durchfall може да значи и неуспех (на испит, на театарска претстава), но тогаш обично се користи глаголот durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "свој • сопствен",
       "explanation": [
         "Главна идеја: eigen е придавка што значи „свој, сопствен“. Ја нагласува припадноста: mein eigenes Auto – мојот сопствен автомобил. Обично стои пред именката и се менува: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Во пренесено значење eigen може да значи и „особен, специфичен“: ein eigener Geruch – специфичен мирис. Изразот etwas zu eigen haben – поседува нешто (како особина). На ниво B1 главното значење е „свој, сопствен“."
+        "Во пренесено значење eigen може да значи и „особен, специфичен“: ein eigener Geruch – специфичен мирис. Изразот sich (Dat) etwas zu eigen machen – прифаќа нешто како свое. На ниво B1 главното значење е „свој, сопствен“."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Во множина наставката е -er: die Geschlechter.",
-        "Во формуларите по Geschlecht обично има поле за пополнување, а не прашање."
+        "Во формуларите Geschlecht е назив на полето (пол), каде се означува männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "По ein Haufen обично следува именка без 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "По ein Haufen именката обично следува без 'von': ein Haufen Arbeit, ein Haufen Geld (поретко: ein Haufen von Problemen).",
         "Изразот über den Haufen werfen — ги урива (плановите)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "хомосексуалец",
       "explanation": [
         "Главна идеја: der Homosexuelle е именка што значи хомосексуален маж. Се менува како придавка: ein Homosexueller, der Homosexuelle, die Homosexuellen (во множина). За жена: die Homosexuelle, eine Homosexuelle.",
-        "Зборот е неутрален, формален и се користи во официјални текстови, вести, закони. Во секојдневието често се вели schwul (геј) или lesbisch (лезбејка)."
+        "Зборот е неутрален, формален и се користи во официјални текстови, вести, закони. Во секојдневието често се користат придавки: er ist schwul (тој е геј), sie ist lesbisch (таа е лезбејка)."
       ],
       "examples": [
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Сложенки: die Machtübernahme (преземање на власта), der Machtkampf (борба за власт)."
       ],
       "important": [
-        "Macht не значи само физичка сила; за тоа се користи die Kraft.",
+        "Macht не значи физичка сила; таа се вика die Kraft.",
         "Множината die Mächte главно се однесува на држави или сили."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Зборот das Maß се пишува со ß, бидејќи самогласката е долга.",
-        "Множината е die Maße (димензии); во датив — den Maßen (in Maßen, über alle Maßen)."
+        "Множината е die Maße (димензии); во датив — den Maßen (in Maßen). Во изразот über alle Maßen се зачувала историска форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben не е исто што и aufgeben: nachgeben е да му попуштиш некому, aufgeben е да се откажеш од некоја цел.",
-        "Префиксот nach- се одвојува: gibt nach, а не nachgibt."
+        "Префиксот nach- во главната реченица се одвојува: er gibt nach (во зависната реченица заедно: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "се стреми • е склон",
       "explanation": [
         "Главна идеја: neigen со zu + датив значи е склон кон нешто, има наклонетост: Er neigt zu schnellen Entscheidungen. Форми: neigt, neigte, hat geneigt.",
-        "Во буквално значење etwas neigen е наведнува, накривува (den Kopf neigen). Повратно sich neigen значи се наведнува или се ближи кон крајот: Der Tag neigt sich.",
+        "Во буквално значење etwas neigen е наведнува, накривува (den Kopf neigen). Повратно sich neigen значи се наведнува или (во повисок стил) се ближи кон крајот: Der Tag neigt sich. Изразот sich dem Ende zuneigen е од zuneigen.",
         "Од истиот корен е изведена именката die Neigung (склоност, наклонетост, наклон)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "немаштија • недостиг • беда",
       "explanation": [
         "Главна идеја: die Not е немаштија, беда, тешка состојба кога на човекот му недостасува најпотребното (in Not leben, Not leiden). Тоа е и итна потреба или несреќа: in der Not, in Not geraten.",
-        "Зборот е од женски род. Множината die Nöte е многу ретка; обично се користи еднината.",
+        "Зборот е од женски род. Множината die Nöte се користи поретко (Sorgen und Nöte); обично се користи еднината.",
         "Изрази: zur Not (ако нема друг начин; ако баш мора), aus der Not eine Tugend machen (од потребата прави доблест), Not macht erfinderisch (потребата го прави човекот снаодлив)."
       ],
       "examples": [
@@ -54740,7 +54740,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten не е braten: braten е пржење со масло или маснотија, rösten – пржење на суво, препекување.",
-        "Не го мешај rösten со rostet (рѓосува)."
+        "Не го мешај rösten со rosten (рѓосува)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60258,7 +60258,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "За место во превоз се користи der Sitz или der Platz; само der Platz може да значи место воопшто.",
-        "Адресата на фирма се вика der Firmensitz."
+        "Правното седиште (главната управа) на фирма се вика der Firmensitz."
       ],
       "important": [
         "Der Sitz не е das Sitzen: das Sitzen е дејство, der Sitz – седиште.",
@@ -61231,7 +61231,7 @@ const B1_WORDS = [
         "За складирање (енергија, вода) исто така се користи speichern."
       ],
       "important": [
-        "Императивот е Speichere (или Speicher), а не Speichern.",
+        "Императивот е Speichere! (и Speichre!; во разговорниот јазик Speicher!), а не Speichern.",
         "speichern не е sperren (блокира)."
       ],
       "sectionAccents": {
@@ -70127,7 +70127,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "газа, преврска",
+          "meaning": "завој, преврска",
           "example": "Sie wickelt eine Binde um den Fuß. – Таа го завиткува стапалото со преврска."
         },
         {
@@ -70229,7 +70229,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "газа, преврска"
+                "завој, преврска"
               ]
             }
           },
@@ -76491,7 +76491,7 @@ const B1_WORDS = [
         "По zugeben често следува реченица со dass, а во неа глаголот е на крајот."
       ],
       "important": [
-        "Zugeben значи признава нешто што не му оди во прилог на говорникот; ако само сакаш да кажеш дека додаваш нешто во јадењето, користи hinzufügen.",
+        "Zugeben обично значи признава нешто што не му оди во прилог на говорникот. Во рецептите zugeben значи и додава (Salz zugeben); во секојдневието во ова значење почесто се вели hinzufügen.",
         "Во реченицата со dass по zugeben глаголот е на крајот: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

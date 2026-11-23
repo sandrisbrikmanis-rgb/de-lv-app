@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ära aja segi abfinden-iga ilma sich-ita: see tähendab hüvitama või rahaga rahuldama.",
-        "Täisminevikuvorm on sich abgefunden (-ge- keskel), mitte geabfunden."
+        "Täisminevikuvorm on hat sich abgefunden (-ge- ab- ja tüveosa vahel), mitte geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1732,7 +1732,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "välja panema • hülgama • katkema",
       "explanation": [
-        "Põhiidee: aussetzen on eraldatava eesliitega tegusõna, millel on mitu tähendust: (koera, last) välja panema ehk hülgama, millegi (külma, ohu) mõjule jätma, (mootori, töö puhul) katkema või seiskuma ning väljendis an + datiiv – midagi ette heitma.",
+        "Põhiidee: aussetzen on eraldatava eesliitega tegusõna, millel on mitu tähendust: (koera, last) välja panema ehk hülgama, millegi (külma, ohu) mõjule jätma, (mootori, töö puhul) katkema või seiskuma ning väljendis etwas an + datiiv auszusetzen haben – midagi ette heitma, kritiseerima.",
         "Põhivormid: setzt aus, setzte aus, hat ausgesetzt. Mõjule jätmise tähenduses kasutatakse datiivi: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Kesksõnaline väljend ausgesetzt sein tähendab millegi mõjule allutatud olema.",
         "Etteheitmise tähenduses kasutatakse väljendit etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Siin paigutub zu eesliite ja tüve vahele: auszusetzen."
       ],
@@ -10144,7 +10144,7 @@ const B2_WORDS = [
       "translation": "halastama • kaasa tundma",
       "explanation": [
         "Põhiidee: sich erbarmen tähendab kannatajale kaasa tundma ja teda aitama või tema peale halastama. Keel on kõrgstiilis, sageli religioosne või irooniline.",
-        "Sellele järgneb tavaliselt genitiiv: sich des Hundes erbarmen. Harvem kasutatakse über + akusatiiv. Põhivormid: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Sellele järgneb tavaliselt genitiiv: sich des Hundes erbarmen. Harvem (regionaalselt, Austrias) kasutatakse über + akusatiivi. Põhivormid: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Kõnekeeles naljatledes: Wer erbarmt sich und …? – Kes halastab ja …?"
       ],
       "examples": [
@@ -12084,7 +12084,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Fleckig väljendab sageli soovimatut või ebaühtlast välimust (määrdunud riie, punased laigud nahal).",
-        "Lõpu lisamisel pea meeles e-d: ein fleckiges Fell, eine fleckige Haut."
+        "Nimisõna ees saab fleckig käändelõpu: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19567,7 +19567,7 @@ const B2_WORDS = [
       "translation": "hilisem • tagantjärele",
       "explanation": [
         "Põhimõte: nachträglich tähendab hiljem, juba pärast põhitegevust või tähtaega — tagantjärele lisatud või tehtud. See on nii omadussõna (eine nachträgliche Änderung — hilisem muudatus) kui ka määrsõna (nachträglich ändern — tagantjärele muutma).",
-        "Sage tähendus on hilinemine: nachträglich gratulieren — pärast sündmust õnnitlema. Omadussõnana väljendab see ka lisandust: eine nachträgliche Zahlung (tagantjärele tehtud makse)."
+        "Sage tähendus on hilinemine: nachträglich gratulieren — pärast sündmust õnnitlema. Omadussõnana tähendab see ka hiljem, pärast määratud aega toimuvat: eine nachträgliche Zahlung (hilisem makse)."
       ],
       "examples": [
         {
@@ -23330,7 +23330,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "üle andma • edastama",
       "explanation": [
-        "Põhimõte: überbringen tähendab usaldatud sõnumit, õnnitlust, kirja või kingitust adressaadini viima — tooma ja isiklikult üle andma, edastama. See, kellele üle antakse, on datiivis: jemandem etwas überbringen.",
+        "Põhimõte: überbringen tähendab sõnumit, õnnitlust, kirja või kingitust adressaadini viima — tooma ja isiklikult üle andma, edastama. See, kellele üle antakse, on datiivis: jemandem etwas überbringen.",
         "Lahutamatu eesliide über-: überbringt, überbrachte, hat überbracht. Tegevusnime puhul on zu tegusõna ees: um die Nachricht zu überbringen. Sõna on veidi ametlik."
       ],
       "examples": [

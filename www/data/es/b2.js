@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "No lo confundas con abfinden sin sich: significa indemnizar o compensar con dinero.",
-        "La forma del perfecto es sich abgefunden (con -ge- en medio), no geabfunden."
+        "La forma del perfecto es hat sich abgefunden (-ge- entre ab- y la raíz), no geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1733,7 +1733,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "exponer • someter • oponerse • abandonar",
       "explanation": [
-        "Idea principal: aussetzen es un verbo con prefijo separable y varios significados: abandonar (a un perro, a un niño), exponer o someter a algo (al frío, a un peligro), pararse o interrumpirse (un motor, una actividad) y, con an + dativo, poner reparos u oponerse.",
+        "Idea principal: aussetzen es un verbo con prefijo separable y varios significados: abandonar (a un perro, a un niño), exponer o someter a algo (al frío, a un peligro), pararse o interrumpirse (un motor, una actividad) y, en la expresión etwas an + dativo auszusetzen haben, poner reparos o criticar.",
         "Formas: setzt aus, setzte aus, hat ausgesetzt. Para expresar exposición se usa el dativo: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. La expresión ausgesetzt sein significa estar expuesto.",
         "Con el sentido de poner reparos se usa la expresión etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Aquí zu se intercala entre el prefijo y la raíz: auszusetzen."
       ],
@@ -10146,7 +10146,7 @@ const B2_WORDS = [
       "translation": "apiadarse • compadecerse",
       "explanation": [
         "Idea principal: sich erbarmen significa apiadarse de alguien que sufre y ayudarle, tener compasión de él. Es lenguaje elevado, a menudo religioso o irónico.",
-        "Suele ir seguido de genitivo: sich des Hundes erbarmen. Con menos frecuencia se usa über + acusativo. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Suele ir seguido de genitivo: sich des Hundes erbarmen. Con menos frecuencia (regionalmente, en Austria) se usa über + acusativo. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "En la conversación, en broma: Wer erbarmt sich und …? — ¿Quién se apiada y…?"
       ],
       "examples": [
@@ -12082,7 +12082,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig suele expresar un aspecto indeseado o irregular (ropa sucia, manchas rojas en la piel).",
-        "Al añadir la terminación, recuerda la e: ein fleckiges Fell, eine fleckige Haut."
+        "Delante del sustantivo, fleckig lleva terminación: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19561,7 +19561,7 @@ const B2_WORDS = [
       "translation": "posterior • adicional • posteriormente",
       "explanation": [
         "Idea principal: nachträglich significa después, una vez realizada la acción principal o vencido el plazo: algo añadido o hecho posteriormente. Es tanto adjetivo (eine nachträgliche Änderung: un cambio posterior) como adverbio (nachträglich ändern: cambiar posteriormente).",
-        "Un sentido frecuente es el de retraso: nachträglich gratulieren — felicitar después del acontecimiento. El adjetivo también expresa un carácter adicional: eine nachträgliche Zahlung (un pago adicional)."
+        "Un sentido frecuente es el de retraso: nachträglich gratulieren — felicitar después del acontecimiento. El adjetivo también significa posterior, que se produce más tarde de lo previsto: eine nachträgliche Zahlung (un pago posterior)."
       ],
       "examples": [
         {
@@ -23331,7 +23331,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "entregar • transmitir",
       "explanation": [
-        "Idea principal: überbringen significa hacer llegar a su destinatario, por encargo, una noticia, una felicitación, una carta o un regalo: llevarlo y entregarlo en persona, o transmitirlo. La persona que lo recibe va en dativo: jemandem etwas überbringen.",
+        "Idea principal: überbringen significa hacer llegar a su destinatario una noticia, una felicitación, una carta o un regalo: llevarlo y entregarlo en persona, o transmitirlo. La persona que lo recibe va en dativo: jemandem etwas überbringen.",
         "Prefijo inseparable über-: überbringt, überbrachte, hat überbracht. En la construcción de infinitivo, zu va delante del verbo: um die Nachricht zu überbringen. Es una palabra algo formal."
       ],
       "examples": [

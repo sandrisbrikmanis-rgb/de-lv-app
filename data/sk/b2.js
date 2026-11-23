@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nezamieňaj s abfinden bez sich: znamená odškodniť alebo uspokojiť peniazmi.",
-        "Tvar v perfekte je sich abgefunden (s -ge- vnútri), nie geabfunden."
+        "Tvar v perfekte je hat sich abgefunden (-ge- medzi ab- a kmeňom), nie geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "vystaviť • prerušiť • namietať",
       "explanation": [
-        "Hlavná myšlienka: aussetzen je odlučiteľné sloveso s viacerými významami: vyložiť alebo opustiť (psa, dieťa), vystaviť (chladu, nebezpečenstvu), zastaviť sa alebo prerušiť sa (o motore, práci) a s an + datív — namietať.",
+        "Hlavná myšlienka: aussetzen je odlučiteľné sloveso s viacerými významami: vyložiť alebo opustiť (psa, dieťa), vystaviť (chladu, nebezpečenstvu), zastaviť sa alebo prerušiť sa (o motore, práci) a vo výraze etwas an + datív auszusetzen haben — namietať, kritizovať.",
         "Tvary: setzt aus, setzte aus, hat ausgesetzt. Pri vystavení sa používa datív: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Príčastie ausgesetzt sein znamená byť vystavený.",
         "Vo význame namietať sa používa výraz etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Tu sa zu vkladá medzi predponu a koreň: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "zľutovať sa • zmilovať sa",
       "explanation": [
         "Hlavná myšlienka: sich erbarmen znamená cítiť súcit s trpiacim a pomôcť mu alebo sa nad ním zľutovať. Ide o vysoký štýl, často náboženský alebo ironický.",
-        "Po ňom zvyčajne nasleduje genitív: sich des Hundes erbarmen. Zriedkavejšie sa používa über + akuzatív. Tvary: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Po ňom zvyčajne nasleduje genitív: sich des Hundes erbarmen. Zriedkavejšie (regionálne, v Rakúsku) sa používa über + akuzatív. Tvary: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "V hovorovej reči žartom: Wer erbarmt sich und …? — Kto sa zľutuje a …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig často vyjadruje nežiaduci alebo nerovnomerný vzhľad (zašpinené oblečenie, červené škvrny na pokožke).",
-        "Keď pridávaš koncovku, pamätaj na e: ein fleckiges Fell, eine fleckige Haut."
+        "Pred podstatným menom dostáva fleckig koncovku: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "dodatočný • dodatočne",
       "explanation": [
         "Hlavná myšlienka: nachträglich znamená potom, až po hlavnom deji alebo termíne — neskôr dodatočne pridaný alebo urobený. Je to prídavné meno (eine nachträgliche Änderung) aj príslovka (nachträglich ändern).",
-        "Častý význam je oneskorenie: nachträglich gratulieren — zablahoželať po udalosti. Prídavné meno vyjadruje aj doplňujúci charakter: eine nachträgliche Zahlung (dodatočná platba, doplatok)."
+        "Častý význam je oneskorenie: nachträglich gratulieren — zablahoželať po udalosti. Prídavné meno znamená aj neskorší, uskutočnený po stanovenom čase: eine nachträgliche Zahlung (neskoršia platba)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "doručiť • odovzdať",
       "explanation": [
-        "Hlavná myšlienka: überbringen znamená ako poverený doručiť adresátovi správu, blahoželanie, list alebo dar — priniesť a odovzdať osobne. Ten, komu sa niečo odovzdáva, je v datíve: jemandem etwas überbringen.",
+        "Hlavná myšlienka: überbringen znamená doručiť adresátovi správu, blahoželanie, list alebo dar — priniesť a odovzdať osobne. Ten, komu sa niečo odovzdáva, je v datíve: jemandem etwas überbringen.",
         "Neodlučiteľná predpona über-: überbringt, überbrachte, hat überbracht. V neurčitku stojí zu pred slovesom: um die Nachricht zu überbringen. Slovo je trochu formálne."
       ],
       "examples": [

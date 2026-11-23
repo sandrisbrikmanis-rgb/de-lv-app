@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "üksikelamu",
       "explanation": [
         "Põhimõte: das Einfamilienhaus on üksikelamu — ühele perele mõeldud maja, kas eraldiseisev või naabritega kokku ehitatud, kuid ühe korteriga ja tavaliselt oma aiaga. Eesti keeles öeldakse ka eramu.",
-        "Kesksoost nimisõna: das Einfamilienhaus, mitmus die Einfamilienhäuser. Koosneb osadest Ein- + Familie + Haus; liitsõna soo määrab viimane osa (das Haus).",
+        "Kesksoost nimisõna: das Einfamilienhaus, mitmus die Einfamilienhäuser. Koosneb osadest Ein- + Familien- (Familie liitsõnavorm) + Haus; liitsõna soo määrab viimane osa (das Haus).",
         "Vastand on das Mehrfamilienhaus (kortermaja)."
       ],
       "examples": [
@@ -1145,7 +1145,7 @@ const C1_WORDS = [
         "Poliitikas öeldakse eine Partei wählen või für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei ja die Party (pidu) kõlavad sarnaselt, kuid ei ole omavahel seotud."
+        "Die Partei ja die Party (pidu) kõlavad sarnaselt, kuid tähendus on hoopis teine (kuigi mõlemad pärinevad ladina sõnast pars — osa)."
       ],
       "sectionAccents": {
         "explanation": {

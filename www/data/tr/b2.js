@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "sich olmadan kullanılan abfinden ile karıştırma: o, tazminat ödemek ya da parayla tatmin etmek demektir.",
-        "Perfekt biçimi sich abgefunden olur (ortada -ge- ile), geabfunden değil."
+        "Perfekt biçimi hat sich abgefunden olur (-ge- ab- ile kök arasında), geabfunden değil."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "maruz bırakmak • kusur bulmak • ara vermek",
       "explanation": [
-        "aussetzen, birkaç anlamı olan ayrılabilen bir fiildir: (köpeği, çocuğu) bırakmak ya da terk etmek, (soğuğa, tehlikeye) maruz bırakmak, (motor, iş için) durmak ya da kesilmek ve an + Dativ ile — kusur bulmak, itiraz etmek.",
+        "aussetzen, birkaç anlamı olan ayrılabilen bir fiildir: (köpeği, çocuğu) bırakmak ya da terk etmek, (soğuğa, tehlikeye) maruz bırakmak, (motor, iş için) durmak ya da kesilmek ve etwas an + Dativ auszusetzen haben deyiminde — itiraz etmek, eleştirmek.",
         "Biçimleri: setzt aus, setzte aus, hat ausgesetzt. Maruz bırakma anlamında Dativ kullanılır: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Ortaçla kurulan ausgesetzt sein maruz kalmak demektir.",
         "Kusur bulmak anlamında etwas an jemandem/etwas auszusetzen haben deyimi kullanılır: Ich habe nichts daran auszusetzen. Burada zu, ön ek ile kök arasına girer: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "acımak • merhamet etmek",
       "explanation": [
         "sich erbarmen acı çeken birine merhamet duyup ona yardım etmek ya da ona acımak demektir. Dili yüksek üsluptadır, sık sık dinî ya da ironiktir.",
-        "Ardından genellikle Genitiv gelir: sich des Hundes erbarmen. Daha seyrek über + Akkusativ kullanılır. Biçimleri: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Ardından genellikle Genitiv gelir: sich des Hundes erbarmen. Daha seyrek (bölgesel olarak, Avusturya'da) über + Akkusativ kullanılır. Biçimleri: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Konuşma dilinde şakayla: Wer erbarmt sich und …? — Kim insaflı davranıp …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig çoğu zaman istenmeyen ya da düzensiz bir görünümü anlatır (kirli giysi, ciltte kırmızı lekeler).",
-        "Çekim eki eklerken e'yi unutma: ein fleckiges Fell, eine fleckige Haut."
+        "İsimden önce fleckig çekim eki alır: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "sonraki • ek • sonradan",
       "explanation": [
         "nachträglich sonradan, yani asıl işten ya da süreden sonra demektir — sonradan eklenen ya da yapılan bir şey. Hem sıfattır (eine nachträgliche Änderung) hem de zarf (nachträglich ändern).",
-        "Sık rastlanan anlamı gecikmedir: nachträglich gratulieren — olaydan sonra kutlamak. Sıfat olarak ek bir nitelik de anlatır: eine nachträgliche Zahlung (ek ödeme)."
+        "Sık rastlanan anlamı gecikmedir: nachträglich gratulieren — olaydan sonra kutlamak. Sıfat olarak belirlenen zamandan sonra, sonradan gerçekleşen bir şeyi de anlatır: eine nachträgliche Zahlung (sonradan yapılan ödeme)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "iletmek • teslim etmek",
       "explanation": [
-        "überbringen bir haberi, kutlamayı, mektubu ya da hediyeyi alıcısına güvenilir biçimde ulaştırmak — getirip bizzat teslim etmek demektir. Kime teslim edildiği Dativ'dedir: jemandem etwas überbringen.",
+        "überbringen bir haberi, kutlamayı, mektubu ya da hediyeyi alıcısına ulaştırmak — getirip bizzat teslim etmek demektir. Kime teslim edildiği Dativ'dedir: jemandem etwas überbringen.",
         "Ayrılmayan ön ek über-: überbringt, überbrachte, hat überbracht. Mastarlı yapıda zu fiilin önünde durur: um die Nachricht zu überbringen. Sözcük biraz resmîdir."
       ],
       "examples": [

@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ikkje bland med abfinden utan sich: det tyder å kompensere eller gje nokon erstatning i pengar.",
-        "Perfektumsforma er sich abgefunden (med -ge- i midten), ikkje geabfunden."
+        "Perfektumsforma er hat sich abgefunden (-ge- mellom ab- og stammen), ikkje geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "sette ut • utsette for • avbryte",
       "explanation": [
-        "Hovudtanke: aussetzen er eit skiljeleg verb med fleire tydingar: setje ut eller forlate (ein hund, eit barn), utsetje for (kulde, fare), stanse eller falle ut (om ein motor, eit arbeid) og med an + dativ – å ha noko å innvende.",
+        "Hovudtanke: aussetzen er eit skiljeleg verb med fleire tydingar: setje ut eller forlate (ein hund, eit barn), utsetje for (kulde, fare), stanse eller falle ut (om ein motor, eit arbeid) og i uttrykket etwas an + dativ auszusetzen haben – å ha noko å innvende, kritisere.",
         "Former: setzt aus, setzte aus, hat ausgesetzt. Når nokon vert utsett for noko, brukar ein dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Uttrykket ausgesetzt sein tyder å vere utsett for noko.",
         "I tydinga innvende brukar ein uttrykket etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Her kjem zu inn mellom forstavinga og stammen: auszusetzen."
       ],
@@ -10134,7 +10134,7 @@ const B2_WORDS = [
       "translation": "forbarme seg",
       "explanation": [
         "Hovudtanken: sich erbarmen tyder å kjenne medkjensle med ein som lid, og hjelpe eller forbarme seg over vedkomande. Språket er høgtideleg, ofte religiøst eller ironisk.",
-        "Etter verbet kjem vanlegvis genitiv: sich des Hundes erbarmen. Sjeldnare brukar ein über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Etter verbet kjem vanlegvis genitiv: sich des Hundes erbarmen. Sjeldnare (regionalt, i Austerrike) brukar ein über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Spøkefullt i daglegtale: Wer erbarmt sich und …? – Kven forbarmar seg og …?"
       ],
       "examples": [
@@ -12070,7 +12070,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig uttrykkjer ofte ein uønskt eller ujamn utsjånad (eit skite plagg, raude flekkar på huda).",
-        "Når du legg til ei ending, hugs e: ein fleckiges Fell, eine fleckige Haut."
+        "Framfor eit substantiv får fleckig ending: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19553,7 +19553,7 @@ const B2_WORDS = [
       "translation": "etterfølgjande • i ettertid",
       "explanation": [
         "Hovudtyding: nachträglich tyder i ettertid, etter sjølve handlinga eller fristen — noko som blir lagt til eller gjort seinare. Det er både adjektiv (eine nachträgliche Änderung) og adverb (nachträglich ändern).",
-        "Ei vanleg tyding er forseinking: nachträglich gratulieren — gratulere etter at dagen er over. Adjektivet kan òg uttrykkje at noko kjem i tillegg: eine nachträgliche Zahlung (tilleggsbetaling, etterbetaling)."
+        "Ei vanleg tyding er forseinking: nachträglich gratulieren — gratulere etter at dagen er over. Adjektivet tyder òg at noko skjer seinare, etter den fastsette tida: eine nachträgliche Zahlung (etterbetaling)."
       ],
       "examples": [
         {
@@ -23324,7 +23324,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "levere",
       "explanation": [
-        "Hovudtyding: überbringen tyder å bringe ei melding, ei helsing, eit brev eller ei gåve fram til mottakaren på vegner av nokon — kome med det og overlevere det personleg. Mottakaren står i dativ: jemandem etwas überbringen.",
+        "Hovudtyding: überbringen tyder å bringe ei melding, ei helsing, eit brev eller ei gåve fram til mottakaren — kome med det og overlevere det personleg. Mottakaren står i dativ: jemandem etwas überbringen.",
         "Uskiljeleg prefiks über-: überbringt, überbrachte, hat überbracht. I infinitiv står zu framfor verbet: um die Nachricht zu überbringen. Ordet er litt formelt."
       ],
       "examples": [

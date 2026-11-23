@@ -13176,7 +13176,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Gebruik jung niet voor voorwerpen — zeg neu.",
-        "De vergrotende trap heeft altijd een umlaut: jünger, niet 'junger'."
+        "De vergrotende trap heeft altijd een umlaut: jünger (junger is alleen de stellende trap met uitgang: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14896,7 +14896,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (grondgebied, platteland) en der Staat (staat als instelling) zijn geen synoniemen.",
-        "In het meervoud staat een umlaut: die Länder, niet “die Lande”."
+        "In het meervoud staat een umlaut: die Länder; die Lande is een verouderde, poëtische vorm."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21788,7 +21788,7 @@ const A1_WORDS = [
       "explanation": [
         "Kern: schauen betekent ‘kijken’ — je blik ergens op richten: Wir schauen aus dem Fenster. In Zuid-Duitsland, Oostenrijk en Zwitserland wordt het heel veel gebruikt; in het noorden zegt men vaker gucken of sehen.",
         "Vormen: schaut, schaute, hat geschaut. Vaak met voorzetsels: auf + accusatief (Er schaut auf die Uhr), aus dem Fenster (uit het raam), nach + datief (Sie schaut nach dem Kind — ze past op het kind). Gebiedende wijs: Schau mal! — Kijk eens!",
-        "De uitdrukking Ich schaue fern betekent ‘ik kijk televisie’."
+        "De uitdrukking Ich schaue fern (van fernschauen — in Zuid-Duitsland en Oostenrijk; elders fernsehen) betekent ‘ik kijk televisie’."
       ],
       "examples": [
         {
@@ -22611,7 +22611,7 @@ const A1_WORDS = [
         "Sehen betekent ook ‘begrijpen’ in uitdrukkingen als Ich sehe, was du meinst."
       ],
       "important": [
-        "Niet sehst of sehet: correct is du siehst, er sieht.",
+        "In de tegenwoordige tijd niet du sehst of er seht: correct is du siehst, er sieht.",
         "Om te zeggen dat je naar iets kijkt (een film, een foto), kun je zowel sehen als sich (datief) + ansehen gebruiken."
       ],
       "sectionAccents": {
@@ -25234,7 +25234,7 @@ const A1_WORDS = [
       "translation": "om • rond",
       "explanation": [
         "Kern: um is een voorzetsel dat altijd de accusatief vraagt. In de betekenis van tijd geeft um een precieze kloktijd aan: um acht Uhr (om acht uur). In de betekenis van plaats geeft het een kring om iets heen aan: um den Tisch (rond de tafel), um die Ecke (om de hoek).",
-        "De vraag naar de tijd is Um wie viel Uhr ...? (hoe laat?). Bij een tijd na um gebruik je geen lidwoord: um 8 Uhr, niet in 8 Uhr.",
+        "De vraag naar de tijd is Um wie viel Uhr ...? (hoe laat?). Een kloktijd geef je aan met um (zonder lidwoord), niet met in: um 8 Uhr, niet in 8 Uhr.",
         "Met zu + infinitief drukt um een doel uit: Er lernt, um zu verstehen (hij leert om te begrijpen)."
       ],
       "examples": [
@@ -25484,7 +25484,7 @@ const A1_WORDS = [
         "De uitdrukking unter uns betekent ‘onder ons’ en gebruik je als je iets vertrouwelijk zegt."
       ],
       "important": [
-        "Unter is niet hetzelfde als zwischen: unter verwijst naar een groep of verzameling (unter Freunden), zwischen naar twee concrete dingen.",
+        "Unter is niet hetzelfde als zwischen: unter verwijst naar een groep of verzameling (unter Freunden), zwischen naar afzonderlijke, genoemde dingen (vaak twee, maar het kunnen er ook meer zijn).",
         "Unter + getal betekent ‘minder dan’: unter 18 is jonger dan 18."
       ],
       "sectionAccents": {
@@ -27770,7 +27770,7 @@ const A1_WORDS = [
         "Bij personen gebruik je zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu vraagt alleen de datief: zu meinem Freund, zu der Schule.",
+        "Zu vraagt alleen de datief: zu meinem Freund, zur Schule (= zu der Schule).",
         "Bij steden en landen gebruik je nach, niet zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28629,7 +28629,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televisie",
       "explanation": [
-        "Kerngedachte: das Fernsehen is een onzijdig zelfstandig naamwoord voor televisie als medium of als geheel van uitzendingen. Een meervoud is er praktisch niet: je gebruikt het enkelvoud. Het staat meestal met im: im Fernsehen (op televisie), beim Fernsehen (werkzaam bij de televisie).",
+        "Kerngedachte: das Fernsehen is een onzijdig zelfstandig naamwoord voor televisie als medium of als geheel van uitzendingen. Een meervoud is er praktisch niet: je gebruikt het enkelvoud. Het staat meestal met im: im Fernsehen (op televisie), beim Fernsehen (tijdens het televisiekijken; ook: werkzaam bij de televisie).",
         "Het is een zelfstandig naamwoord afgeleid van het werkwoord fernsehen (televisiekijken). Het toestel heet der Fernseher, de bezigheid fernsehen.",
         "Het zelfstandig naamwoord schrijf je met een hoofdletter; als werkwoord is fernsehen scheidbaar."
       ],
@@ -30057,7 +30057,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Onthoud: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub gebruik je meestal zonder lidwoord: Urlaub haben, Urlaub nehmen."
+        "In de uitdrukkingen Urlaub haben, Urlaub nehmen gebruik je geen lidwoord (maar: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Bij scholieren zeg je meestal Ferien, niet Urlaub.",

@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nepoužívaj jung pri predmetoch — hovorí sa neu.",
-        "Druhý stupeň má vždy prehlásku: jünger, nie „junger“."
+        "Druhý stupeň má vždy prehlásku: jünger (junger je iba prvý stupeň s koncovkou: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (územie, vidiek) a der Staat (štát ako inštitúcia) nie sú synonymá.",
-        "V množnom čísle je prehláska: die Länder, nie „die Lande“."
+        "V množnom čísle je prehláska: die Länder; die Lande je zastaraný, básnický tvar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21794,7 +21794,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: schauen znamená „pozerať sa, pozrieť sa” — upierať pohľad na niečo: Wir schauen aus dem Fenster. V južnom Nemecku, Rakúsku a Švajčiarsku sa používa veľmi často; na severe sa častejšie používa gucken alebo sehen.",
         "Tvary: schaut, schaute, hat geschaut. Často s predložkami: auf + akuzatív (Er schaut auf die Uhr), aus dem Fenster (z okna), nach + datív (Sie schaut nach dem Kind — dozerá na dieťa). Rozkazovací spôsob: Schau mal! — Pozri sa!",
-        "Fráza Ich schaue fern znamená „pozerám televíziu”."
+        "Fráza Ich schaue fern (od fernschauen — v južnom Nemecku a v Rakúsku; inde fernsehen) znamená „pozerám televíziu”."
       ],
       "examples": [
         {
@@ -22617,7 +22617,7 @@ const A1_WORDS = [
         "Sehen znamená aj „chápať” vo výrazoch ako Ich sehe, was du meinst."
       ],
       "important": [
-        "Neexistuje sehst ani sehet: správne je du siehst, er sieht.",
+        "V prítomnom čase neexistuje du sehst ani er seht: správne je du siehst, er sieht.",
         "Keď chceš povedať, že si niečo pozeráš (film, obrázok), môžeš použiť sehen aj sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25243,7 +25243,7 @@ const A1_WORDS = [
       "translation": "okolo • o",
       "explanation": [
         "Hlavná myšlienka: um je predložka, ktorá vždy vyžaduje akuzatív. V časovom význame um udáva presný čas: um acht Uhr (o ôsmej hodine). V miestnom význame označuje kruh okolo niečoho: um den Tisch (okolo stola), um die Ecke (za rohom).",
-        "Otázka na čas je Um wie viel Uhr ...? (o koľkej?). Po um sa čas nepoužíva so členom: um 8 Uhr, nie in 8 Uhr.",
+        "Otázka na čas je Um wie viel Uhr ...? (o koľkej?). Čas na hodinách sa udáva s um (bez člena), nie s in: um 8 Uhr, nie in 8 Uhr.",
         "So zu + neurčitkom vyjadruje um účel: Er lernt, um zu verstehen (učí sa, aby pochopil)."
       ],
       "examples": [
@@ -25495,7 +25495,7 @@ const A1_WORDS = [
         "Fráza unter uns znamená „medzi nami” a používa sa, keď niečo hovoríme dôverne."
       ],
       "important": [
-        "Unter nie je to isté ako zwischen: unter odkazuje na súbor alebo skupinu (unter Freunden), zwischen — na dve konkrétne veci.",
+        "Unter nie je to isté ako zwischen: unter odkazuje na súbor alebo skupinu (unter Freunden), zwischen — na jednotlivé, pomenované veci (často dve, ale môže ich byť aj viac).",
         "Unter + číslo znamená „menej ako”: unter 18 je mladší ako 18."
       ],
       "sectionAccents": {
@@ -27787,7 +27787,7 @@ const A1_WORDS = [
         "S ľuďmi sa používa zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu vyžaduje len datív: zu meinem Freund, zu der Schule.",
+        "Zu vyžaduje len datív: zu meinem Freund, zur Schule (= zu der Schule).",
         "Pri mestách a krajinách sa používa nach, nie zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28647,7 +28647,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televízia",
       "explanation": [
-        "Hlavná myšlienka: das Fernsehen je podstatné meno stredného rodu, ktoré označuje televíziu ako médium alebo súhrn vysielania. Množné číslo sa prakticky nepoužíva: používa sa jednotné číslo. Zvyčajne stojí s im: im Fernsehen (v televízii), beim Fernsehen (pri práci v televízii).",
+        "Hlavná myšlienka: das Fernsehen je podstatné meno stredného rodu, ktoré označuje televíziu ako médium alebo súhrn vysielania. Množné číslo sa prakticky nepoužíva: používa sa jednotné číslo. Zvyčajne stojí s im: im Fernsehen (v televízii), beim Fernsehen (pri pozeraní televízie; aj pri práci v televízii).",
         "Je to podstatné meno od slovesa fernsehen (pozerať televíziu). Prístroj sa volá der Fernseher, činnosť — fernsehen.",
         "Podstatné meno sa píše s veľkým písmenom; ako sloveso je fernsehen odlučiteľné."
       ],
@@ -30075,7 +30075,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Zapamätaj si: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub sa zvyčajne používa bez člena: Urlaub haben, Urlaub nehmen."
+        "Vo výrazoch Urlaub haben, Urlaub nehmen sa používa bez člena (ale: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Pri žiakoch sa zvyčajne hovorí Ferien, nie Urlaub.",

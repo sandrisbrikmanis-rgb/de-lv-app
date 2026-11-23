@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "eengezinswoning",
       "explanation": [
         "Kern: das Einfamilienhaus is een huis voor één gezin — vrijstaand of tegen de buren aan gebouwd, maar met één woning en meestal een eigen tuin.",
-        "Onzijdig zelfstandig naamwoord: das Einfamilienhaus, meervoud die Einfamilienhäuser. Het is opgebouwd uit Ein- + Familie + Haus.",
+        "Onzijdig zelfstandig naamwoord: das Einfamilienhaus, meervoud die Einfamilienhäuser. Het is opgebouwd uit Ein- + Familien- (samenstellingsvorm van Familie) + Haus.",
         "Het tegenovergestelde is das Mehrfamilienhaus (meergezinswoning, appartementengebouw)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "In de politiek zeg je eine Partei wählen of für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei en die Party (feest) klinken bijna hetzelfde, maar betekenen iets heel anders."
+        "Die Partei en die Party (feest) klinken bijna hetzelfde, maar betekenen iets heel anders (beide gaan wel terug op het Latijnse pars — deel)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Annamme teille toimeksiannon mielellämme."
+          "lv": "Annamme teille mielellämme tämän tilauksen (toimeksiannon)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen ei ole sama kuin besorgt sein (huolissaan): adjektiivi besorgt on eri sana.",
-        "Besorgen on erottamaton: besorgt, ei gesorgt."
+        "Besorgen on erottamaton, perfektissä ilman ge-: hat besorgt (gesorgt tulee eri verbistä — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Perusajatus: bieten tarkoittaa tarjota — antaa jollekulle mahdollisuus, palvelu tai etu; lisäksi tehdä hintatarjous huutokaupassa. Se on vahva verbi: er bietet, bot, hat geboten. Sen jälkeen tulee akkusatiivi, usein myös datiivi: jemandem etwas bieten.",
         "Esimerkkejä: Das Hotel bietet viel Komfort (hotelli tarjoaa paljon mukavuutta), Ich biete 100 Euro (tarjoan 100 euroa). Refleksiivinen sich bieten tarkoittaa tarjoutua: Eine Chance bietet sich (tilaisuus tarjoutuu).",
-        "Samaa kantaa on substantiivi das Angebot (tarjous), mutta verbi anbieten (tarjota) on eri sana."
+        "Substantiivi das Angebot (tarjous) on johdettu verbistä anbieten; verbistä bieten tulee das Gebot (tarjous huutokaupassa)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "lohko • kortteli",
       "explanation": [
-        "Perusajatus: der Block on lohko — tiivis, yhtenäinen kappale tai kokonaisuus: muistilehtiö, jäälohkare, rakennusten kortteli. Monikko on die Blöcke.",
+        "Perusajatus: der Block on lohko — tiivis, yhtenäinen kappale tai kokonaisuus: muistilehtiö, jäälohkare, rakennusten kortteli. Monikko on die Blöcke (muistilehtiöistä ja kortteleista usein myös die Blocks).",
         "Tyypillisiä yhdyssanoja: der Notizblock (muistilehtiö), der Wohnblock (asuinkortteli, kerrostalo), der Motorblock (moottorilohko); myös ein Block Eis (jäälohkare).",
         "Kuvaannollisesti der Block voi olla myös poliittinen tai taloudellinen liittouma: der Machtblock (valtablokki)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft on feminiini.",
-        "Älä sekoita sanaan das Konsulat (konsulaatti): se palvelee yleensä tietyn kaupungin asukkaita."
+        "Älä sekoita sanaan das Konsulat (konsulaatti): se palvelee kansalaisia tietyn konsulipiirin alueella."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "liitto",
       "explanation": [
         "Perusajatus: der Bund on liitto, yhteenliittymä tai valtiotason liitto — useamman osapuolen yhdistyminen. Monikko on die Bünde. Sana on maskuliini.",
-        "Saksassa der Bund tarkoittaa usein liittovaltion hallintoa vastakohtana osavaltioille (Ländern): Bund und Länder. Yhdyssanoissa: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Saksassa der Bund tarkoittaa usein liittovaltion hallintoa vastakohtana osavaltioille (die Länder): Bund und Länder. Yhdyssanoissa: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Muita merkityksiä: ein Bund fürs Leben (avioliitto) ja das Bund (nippu): ein Bund Radieschen. Se on eri sana, jolla on eri artikkeli."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Perusajatus: dadurch on adverbi, joka tarkoittaa siten, sen avulla, sen kautta — se viittaa syyhyn tai keinoon. Se yhdistää yleensä edellisen lauseen seurauksiin: Er hat viel geübt. Dadurch wurde er besser.",
         "Sanajärjestys: kun dadurch aloittaa lauseen, verbi on toisella paikalla: Dadurch wird alles einfacher. Lisäksi dadurch, dass konjunktiona (siten, että) aloittaa sivulauseen, jossa verbi on lopussa.",
-        "Paikan merkityksessä dadurch tarkoittaa myös sen läpi, ja silloin painotetaan ensimmäistä tavua: Die Tür war offen, wir sind dadurch gegangen."
+        "Paikan merkityksessä dadurch tarkoittaa myös sen läpi: Die Tür war offen, wir sind dadurch gegangen. Yleensä painotetaan toista tavua; ensimmäistä tavua painotetaan vain erityisessä korostuksessa."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "palvella",
       "explanation": [
         "Perusajatus: dienen tarkoittaa palvella, olla hyödyksi jossakin tarkoituksessa tai toimia jossakin tehtävässä. Yleisimmät rakenteet: dienen als + nominatiivi (toimia jonakin), dienen zu + datiivi (olla hyödyksi johonkin) ja dienen + datiivi (palvella jotakuta).",
-        "Muodot: dient, diente, hat gedient. Verbin jälkeen tulee datiivi (Er dient dem Land), ei akkusatiivi. Puhekielessä Womit kann ich dienen? on kohtelias avuntarjous, ja sotilaallisessa merkityksessä dienen tarkoittaa ”palvella armeijassa”."
+        "Muodot: dient, diente, hat gedient. Verbin jälkeen tulee datiivi (Er dient dem Land), ei akkusatiivi. Womit kann ich dienen? on palveluhenkilökunnan kohtelias, hieman vanhanaikainen avuntarjous, ja sotilaallisessa merkityksessä dienen tarkoittaa ”palvella armeijassa”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "ripuli",
       "explanation": [
         "Perusajatus: der Durchfall on maskuliininen substantiivi, joka tarkoittaa ripulia – löysää, tiheää ulostamista. Lääketieteessä ja arjessa sitä käytetään yksikössä: Durchfall haben – jollakulla on ripuli.",
-        "Monikkoa die Durchfälle käytetään harvoin. Kuvaannollisesti Durchfall voi tarkoittaa myös epäonnistumista (kokeessa, teatteriesityksessä), mutta silloin käytetään yleensä verbiä durchfallen."
+        "Monikkoa die Durchfälle käytetään harvoin. Kuvaannollisesti (puhekielessä) Durchfall voi tarkoittaa myös epäonnistumista (kokeessa, teatteriesityksessä), mutta silloin käytetään yleensä verbiä durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "oma",
       "explanation": [
         "Perusajatus: eigen on adjektiivi, joka tarkoittaa ”oma”, ”jonkun oma”. Se korostaa omistusta: mein eigenes Auto – minun oma autoni. Se on yleensä substantiivin edellä ja taipuu: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Kuvaannollisesti eigen voi tarkoittaa myös ”omalaatuinen, erikoinen”: ein eigener Geruch – omalaatuinen haju. Ilmaus etwas zu eigen haben tarkoittaa, että jollakulla on jokin ominaisuus. B1-tasolla päämerkitys on ”oma, jonkun oma”."
+        "Kuvaannollisesti eigen voi tarkoittaa myös ”omalaatuinen, erikoinen”: ein eigener Geruch – omalaatuinen haju. Ilmaus sich (Dat) etwas zu eigen machen tarkoittaa ottaa jotakin omakseen. B1-tasolla päämerkitys on ”oma, jonkun oma”."
       ],
       "examples": [
         {
@@ -29696,7 +29696,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Monikossa on pääte -er: die Geschlechter.",
-        "Lomakkeissa sanan Geschlecht perässä on usein täyttökenttä, ei kysymys."
+        "Lomakkeissa Geschlecht on kentän nimi (sukupuoli), johon merkitään männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32594,7 +32594,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ilmauksen ein Haufen jälkeen tulee substantiivi ilman sanaa 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Ilmauksen ein Haufen jälkeen substantiivi tulee yleensä ilman sanaa 'von': ein Haufen Arbeit, ein Haufen Geld (harvemmin: ein Haufen von Problemen).",
         "Sanonta über den Haufen werfen — kaataa, romuttaa (suunnitelmat)."
       ],
       "important": [
@@ -34241,7 +34241,7 @@ const B1_WORDS = [
       "translation": "homoseksuaali",
       "explanation": [
         "Perusajatus: der Homosexuelle on substantiivi, joka tarkoittaa homoseksuaalista miestä. Se taipuu kuin adjektiivi: ein Homosexueller, der Homosexuelle, die Homosexuellen (monikossa). Naisesta: die Homosexuelle, eine Homosexuelle.",
-        "Sana on neutraali ja muodollinen, ja sitä käytetään virallisissa teksteissä, uutisissa ja laeissa. Arkikielessä sanotaan usein schwul (homo) tai lesbisch (lesbo)."
+        "Sana on neutraali ja muodollinen, ja sitä käytetään virallisissa teksteissä, uutisissa ja laeissa. Arkikielessä käytetään usein adjektiiveja: er ist schwul (hän on homo), sie ist lesbisch (hän on lesbo)."
       ],
       "examples": [
         {
@@ -34479,7 +34479,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "kuulla",
+          "meaning": "kuulla; kuunnella",
           "example": "Ich höre Musik. – Kuuntelen musiikkia."
         },
         {
@@ -46013,7 +46013,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sana das Maß kirjoitetaan ß:llä, koska vokaali on pitkä.",
-        "Monikko on die Maße (mitat); datiivissa – den Maßen (in Maßen, über alle Maßen)."
+        "Monikko on die Maße (mitat); datiivissa – den Maßen (in Maßen). Ilmauksessa über alle Maßen on säilynyt historiallinen muoto."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47384,7 +47384,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben ei ole sama kuin aufgeben: nachgeben on antaa periksi jollekulle, aufgeben on luopua jostakin tavoitteesta.",
-        "Etuliite nach- erotetaan: gibt nach, ei nachgibt."
+        "Etuliite nach- erotetaan päälauseessa: er gibt nach (sivulauseessa yhdessä: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47698,7 +47698,7 @@ const B1_WORDS = [
       "translation": "olla taipuvainen • kallistua",
       "explanation": [
         "Perusajatus: neigen + zu + datiivi tarkoittaa olla taipuvainen johonkin: Er neigt zu schnellen Entscheidungen. Muodot: neigt, neigte, hat geneigt.",
-        "Konkreettisessa merkityksessä etwas neigen on kallistaa tai taivuttaa (den Kopf neigen). Refleksiivisenä sich neigen tarkoittaa kallistua tai lähestyä loppuaan: Der Tag neigt sich.",
+        "Konkreettisessa merkityksessä etwas neigen on kallistaa tai taivuttaa (den Kopf neigen). Refleksiivisenä sich neigen tarkoittaa kallistua tai (ylätyylissä) lähestyä loppuaan: Der Tag neigt sich. Ilmaus sich dem Ende zuneigen tulee verbistä zuneigen.",
         "Samasta kannasta on muodostettu substantiivi die Neigung (taipumus, alttius, kaltevuus)."
       ],
       "examples": [
@@ -48593,7 +48593,7 @@ const B1_WORDS = [
       "translation": "hätä • puute",
       "explanation": [
         "Perusajatus: die Not on puute, kurjuus, hätätila, jossa ihmiseltä puuttuu kaikkein välttämättömin (in Not leben, Not leiden). Se on myös kiireellinen tarve tai onnettomuus: in der Not, in Not geraten.",
-        "Sana on feminiini. Monikko die Nöte on hyvin harvinainen; yleensä käytetään yksikköä.",
+        "Sana on feminiini. Monikkoa die Nöte käytetään harvemmin (Sorgen und Nöte); yleensä käytetään yksikköä.",
         "Ilmauksia: zur Not (jos muu ei auta; jos aivan pakko), aus der Not eine Tugend machen (tehdä hädästä hyve), Not macht erfinderisch (hätä keinon keksii)."
       ],
       "examples": [
@@ -54738,7 +54738,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten ei ole braten: braten on paistamista öljyssä tai rasvassa, rösten – paahtamista.",
-        "Älä sekoita sanaa rösten sanaan rostet (ruostuu)."
+        "Älä sekoita sanaa rösten sanaan rosten (ruostua)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60256,7 +60256,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Istumapaikasta kulkuneuvossa käytetään sanaa der Sitz tai der Platz; vain der Platz voi tarkoittaa paikkaa yleisesti.",
-        "Yrityksen kotipaikasta sanotaan der Firmensitz."
+        "Yrityksen virallista kotipaikkaa (pääkonttoria) kutsutaan nimellä der Firmensitz."
       ],
       "important": [
         "Der Sitz ei ole das Sitzen: das Sitzen on toimintaa, der Sitz – istuin tai kotipaikka.",
@@ -61229,7 +61229,7 @@ const B1_WORDS = [
         "Varastoimisesta (energia, vesi) käytetään myös verbiä speichern."
       ],
       "important": [
-        "Imperatiivi on Speichere (tai Speicher), ei Speichern.",
+        "Imperatiivi on Speichere! (myös Speichre!; puhekielessä Speicher!), ei Speichern.",
         "speichern ei ole sperren (estää, lukita)."
       ],
       "sectionAccents": {
@@ -76489,7 +76489,7 @@ const B1_WORDS = [
         "Verbin zugeben jälkeen tulee usein dass-lause, jossa verbi on lopussa."
       ],
       "important": [
-        "Zugeben tarkoittaa myöntää jotakin, mikä ei ole puhujalle edullista; jos haluat vain sanoa lisääväsi jotakin ruokaan, käytä verbiä hinzufügen.",
+        "Zugeben tarkoittaa yleensä myöntää jotakin, mikä ei ole puhujalle edullista. Resepteissä zugeben tarkoittaa myös lisätä (Salz zugeben); arkikielessä sanotaan tässä merkityksessä useammin hinzufügen.",
         "Verbin zugeben jälkeisessä dass-lauseessa verbi on lopussa: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

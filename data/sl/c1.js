@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "enodružinska hiša",
       "explanation": [
         "Glavna misel: das Einfamilienhaus je hiša, namenjena eni družini — samostoječa ali prislonjena k sosednjim hišam, vendar z enim stanovanjem in navadno z lastnim vrtom.",
-        "Samostalnik srednjega spola: das Einfamilienhaus, množina die Einfamilienhäuser. Sestavljen je iz Ein- + Familie + Haus.",
+        "Samostalnik srednjega spola: das Einfamilienhaus, množina die Einfamilienhäuser. Sestavljen je iz Ein- + Familien- (vezna oblika od Familie) + Haus.",
         "Nasprotje je das Mehrfamilienhaus (večstanovanjska hiša)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "V politiki se reče eine Partei wählen ali für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei in die Party (zabava) zvenita podobno, vendar nista povezani."
+        "Die Partei in die Party (zabava) zvenita podobno, vendar je pomen povsem drugačen (obe sicer izhajata iz latinskega pars — del)."
       ],
       "sectionAccents": {
         "explanation": {

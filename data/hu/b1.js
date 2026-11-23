@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Szívesen megbízzuk Önt a feladattal."
+          "lv": "Szívesen megbízzuk Önt ezzel a megrendeléssel (feladattal)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A besorgen nem ugyanaz, mint a besorgt sein (aggódik): a besorgt melléknév másik szó.",
-        "A besorgen nem elváló igekötős: besorgt, nem pedig gesorgt."
+        "A besorgen nem elváló igekötős, Perfektben ge- nélkül áll: hat besorgt (a gesorgt egy másik igéből, a sorgen igéből képzett alak)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11679,7 +11679,7 @@ const B1_WORDS = [
       "explanation": [
         "Lényeg: a bieten jelentése kínál, nyújt – lehetőséget, szolgáltatást vagy előnyt ad valakinek; árverésen pedig ajánlatot tesz, licitál. Erős ige: er bietet, bot, hat geboten. Akkusativ (tárgyeset) követi, gyakran Dativval (részes eset): jemandem etwas bieten.",
         "Példák: Das Hotel bietet viel Komfort (a szálloda nagy kényelmet nyújt), Ich biete 100 Euro (100 eurót ajánlok). A visszaható sich bieten jelentése: Eine Chance bietet sich (adódik egy lehetőség).",
-        "Rokon főnév a das Angebot (ajánlat), de az anbieten (felkínál) egy másik ige."
+        "A das Angebot (ajánlat) főnév az anbieten igéből származik; a bieten igéből a das Gebot (ajánlat árverésen) képződik."
       ],
       "examples": [
         {
@@ -12100,7 +12100,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "tömb • blokk",
       "explanation": [
-        "Fő gondolat: a der Block blokk, tömb – tömör, egységes darab vagy készlet: jegyzettömb, jégtömb, épülettömb. Többes száma: die Blöcke.",
+        "Fő gondolat: a der Block blokk, tömb – tömör, egységes darab vagy készlet: jegyzettömb, jégtömb, épülettömb. Többes száma: die Blöcke (jegyzettömb és épülettömb jelentésben gyakran die Blocks is).",
         "Tipikus összetételek: der Notizblock (jegyzettömb), der Wohnblock (lakótömb), der Motorblock (motorblokk); valamint ein Block Eis (egy tömb jég).",
         "Átvitt értelemben a der Block politikai vagy gazdasági szövetség is lehet: der Machtblock (hatalmi blokk)."
       ],
@@ -12734,7 +12734,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A die Botschaft nőnemű.",
-        "Ne keverd össze a das Konsulat (konzulátus) szóval: az általában egy adott város lakóit szolgálja ki."
+        "Ne keverd össze a das Konsulat (konzulátus) szóval: az egy adott konzuli kerület állampolgárait szolgálja ki."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13316,7 +13316,7 @@ const B1_WORDS = [
       "translation": "szövetség • unió",
       "explanation": [
         "Fő gondolat: a der Bund szövetség, unió, akár állami szintű szövetség is – több fél egységes társulása. Többes száma: die Bünde. A szó hímnemű.",
-        "Németországban a der Bund gyakran a szövetségi kormányt (a szövetségi szintet) jelenti a tartományokkal (Länder) szemben: Bund und Länder. Összetételekben: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Németországban a der Bund gyakran a szövetségi kormányt (a szövetségi szintet) jelenti a tartományokkal (die Länder) szemben: Bund und Länder. Összetételekben: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "További jelentések: ein Bund fürs Leben (házassági kötelék) és das Bund (csokor): ein Bund Radieschen. Ez utóbbi egy másik szó, más névelővel."
       ],
       "examples": [
@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "explanation": [
         "Fő gondolat: a dadurch határozószó, jelentése ezáltal, ennek révén, ezzel – okra vagy eszközre utal. Általában az előző mondatot köti össze a következménnyel: Er hat viel geübt. Dadurch wurde er besser.",
         "Szórend: a dadurch után az ige a második helyen áll: Dadurch wird alles einfacher. A dadurch, dass kötőszóként (azáltal, hogy) mellékmondatot vezet be, amelyben az ige a végén áll.",
-        "Helyhatározói jelentésben a dadurch azt is jelenti: azon keresztül, és ilyenkor az első szótag hangsúlyos: Die Tür war offen, wir sind dadurch gegangen."
+        "Helyhatározói jelentésben a dadurch jelentése „azon keresztül” is: Die Tür war offen, wir sind dadurch gegangen. Általában a második szótag hangsúlyos; az első szótagot csak külön nyomatékosításkor hangsúlyozzuk."
       ],
       "examples": [
         {
@@ -15474,7 +15474,7 @@ const B1_WORDS = [
       "translation": "szolgál",
       "explanation": [
         "Fő gondolat: a dienen jelentése szolgál, valamilyen célra való, valamilyen funkciót betölt. Leggyakoribb szerkezetek: dienen als + Nominativ (alanyeset) (valamiként szolgál), dienen zu + Dativ (valamire szolgál) és dienen + Dativ (részes eset) (valakinek/valaminek szolgál).",
-        "Alakjai: dient, diente, hat gedient. Az ige Dativ vonzatú (Er dient dem Land), nem Akkusativ. A Womit kann ich dienen? udvarias, kissé régies segítségfelajánlás („Miben lehetek szolgálatára?”), katonai értelemben pedig a dienen azt jelenti: „katonai szolgálatot teljesít”."
+        "Alakjai: dient, diente, hat gedient. Az ige Dativ vonzatú (Er dient dem Land), nem Akkusativ. A Womit kann ich dienen? a kiszolgáló udvarias, kissé régies segítségfelajánlása („Miben lehetek szolgálatára?”), katonai értelemben pedig a dienen azt jelenti: „katonai szolgálatot teljesít”."
       ],
       "examples": [
         {
@@ -16318,7 +16318,7 @@ const B1_WORDS = [
       "translation": "hasmenés",
       "explanation": [
         "Fő gondolat: a der Durchfall hímnemű főnév, jelentése hasmenés – híg, gyakori széklet. Az orvosi és a mindennapi nyelvben egyes számban használják: Durchfall haben – hasmenése van.",
-        "A die Durchfälle többes számot ritkán használják. Átvitt értelemben a Durchfall bukást is jelenthet (vizsgán, színházi előadásnál), de ilyenkor általában a durchfallen igét használják."
+        "A die Durchfälle többes számot ritkán használják. Átvitt értelemben (beszélt nyelvben) a Durchfall bukást is jelenthet (vizsgán, színházi előadásnál), de ilyenkor általában a durchfallen igét használják."
       ],
       "examples": [
         {
@@ -17044,7 +17044,7 @@ const B1_WORDS = [
       "translation": "saját",
       "explanation": [
         "A lényeg: az eigen melléknév, jelentése „saját”. A birtoklást hangsúlyozza: mein eigenes Auto – a saját autóm. Általában a főnév előtt áll, és ragozódik: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Átvitt értelemben az eigen jelentheti azt is: „sajátos, jellegzetes”: ein eigener Geruch – sajátos szag. Az etwas zu eigen haben kifejezés azt jelenti, hogy valami jellemző valakire. B1 szinten a fő jelentés a „saját”."
+        "Átvitt értelemben az eigen jelentheti azt is: „sajátos, jellegzetes”: ein eigener Geruch – sajátos szag. A sich (Dat) etwas zu eigen machen kifejezés azt jelenti: valamit magáévá tesz. B1 szinten a fő jelentés a „saját”."
       ],
       "examples": [
         {
@@ -29687,7 +29687,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Többes számban -er végződést kap: die Geschlechter.",
-        "Űrlapokon a Geschlecht után gyakran kitöltendő mező áll, nem kérdés."
+        "Űrlapokon a Geschlecht (nem) egy mező neve, ahol a männlich / weiblich / divers lehetőséget jelöljük be."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32585,7 +32585,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Az ein Haufen után a főnév 'von' nélkül következik: ein Haufen Arbeit, ein Haufen Geld.",
+        "Az ein Haufen után a főnév általában 'von' nélkül következik: ein Haufen Arbeit, ein Haufen Geld (ritkábban: ein Haufen von Problemen).",
         "Az über den Haufen werfen kifejezés jelentése: felborít, keresztülhúz (terveket)."
       ],
       "important": [
@@ -34232,7 +34232,7 @@ const B1_WORDS = [
       "translation": "homoszexuális",
       "explanation": [
         "Fő gondolat: a der Homosexuelle főnév, jelentése homoszexuális férfi. Melléknévként ragozódik: ein Homosexueller, der Homosexuelle, die Homosexuellen (többes szám). Nőre: die Homosexuelle, eine Homosexuelle.",
-        "A szó semleges és hivatalos, hivatalos szövegekben, hírekben, törvényekben használják. A hétköznapokban gyakran a schwul (meleg) vagy a lesbisch (leszbikus) szót mondják."
+        "A szó semleges és hivatalos, hivatalos szövegekben, hírekben, törvényekben használják. A hétköznapokban gyakran mellékneveket mondanak: er ist schwul (ő meleg), sie ist lesbisch (ő leszbikus)."
       ],
       "examples": [
         {
@@ -46004,7 +46004,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A das Maß szót ß-szel írjuk, mert a magánhangzó hosszú.",
-        "Többes száma die Maße (méretek); részes esetben den Maßen (in Maßen, über alle Maßen)."
+        "Többes száma die Maße (méretek); részes esetben den Maßen (in Maßen). Az über alle Maßen kifejezésben történeti alak maradt fenn."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47373,7 +47373,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A nachgeben nem ugyanaz, mint az aufgeben: a nachgeben azt jelenti, enged valakinek, az aufgeben azt, hogy felad egy célt.",
-        "A nach- igekötő elválik: gibt nach, nem nachgibt."
+        "A nach- igekötő főmondatban elválik: er gibt nach (mellékmondatban egybeírjuk: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47687,7 +47687,7 @@ const B1_WORDS = [
       "translation": "hajlik",
       "explanation": [
         "Lényeg: a neigen a zu + Dativ (részes eset) szerkezettel azt jelenti: hajlik valamire, hajlamos valamire: Er neigt zu schnellen Entscheidungen. Alakjai: neigt, neigte, hat geneigt.",
-        "Szó szerinti jelentésben az etwas neigen azt jelenti: megdönt, lehajt valamit (den Kopf neigen). Visszaható alakban a sich neigen jelentése: meghajlik, illetve a vége felé közeledik: Der Tag neigt sich.",
+        "Szó szerinti jelentésben az etwas neigen azt jelenti: megdönt, lehajt valamit (den Kopf neigen). Visszaható alakban a sich neigen jelentése: meghajlik, illetve (emelkedett stílusban) a vége felé közeledik: Der Tag neigt sich. A sich dem Ende zuneigen kifejezés a zuneigen igéből származik.",
         "Ugyanebből a tőből képzett főnév a die Neigung (hajlam, hajlandóság, lejtés)."
       ],
       "examples": [
@@ -48580,7 +48580,7 @@ const B1_WORDS = [
       "translation": "szükség • nyomor",
       "explanation": [
         "Lényeg: a die Not nélkülözés, nyomor, ínség – olyan helyzet, amikor valakinek a legszükségesebb dolgok is hiányoznak (in Not leben, Not leiden). Jelent sürgős szükséget vagy bajt is: in der Not, in Not geraten.",
-        "A szó nőnemű. A die Nöte többes szám nagyon ritka; általában egyes számban használják.",
+        "A szó nőnemű. A die Nöte többes számot ritkábban használják (Sorgen und Nöte); általában egyes számban áll.",
         "Kifejezések: zur Not (végszükség esetén, ha nincs más megoldás), aus der Not eine Tugend machen (a szükségből erényt kovácsol), Not macht erfinderisch (a szükség leleményessé tesz)."
       ],
       "examples": [
@@ -54726,7 +54726,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A rösten nem azonos a braten igével: a braten olajjal vagy zsiradékkal sütést jelent, a rösten pirítást, pörkölést.",
-        "Ne keverd össze a rösten igét a rostet (rozsdásodik) alakkal."
+        "Ne keverd össze a rösten igét a rosten (rozsdásodik) igével."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60244,7 +60244,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Közlekedési eszközön az ülőhelyre a der Sitz és a der Platz is használható; általános értelemben vett helyet csak a der Platz jelenthet.",
-        "A cég székhelye németül der Firmensitz."
+        "A cég jogi székhelye (központja) németül der Firmensitz."
       ],
       "important": [
         "A der Sitz nem azonos a das Sitzen szóval: a das Sitzen maga a cselekvés (az ülés mint tevékenység), a der Sitz pedig az ülés mint tárgy, illetve a székhely.",
@@ -61217,7 +61217,7 @@ const B1_WORDS = [
         "Felhalmozásra, tárolásra (energia, víz) is a speichern szót használják."
       ],
       "important": [
-        "A felszólító mód Speichere (vagy Speicher), nem Speichern.",
+        "A felszólító mód Speichere! (Speichre! is; beszélt nyelvben Speicher!), nem Speichern.",
         "A speichern nem azonos a sperren (letilt) igével."
       ],
       "sectionAccents": {
@@ -76477,7 +76477,7 @@ const B1_WORDS = [
         "A zugeben után gyakran dass-os mellékmondat következik, amelyben az ige a végén áll."
       ],
       "important": [
-        "A zugeben azt jelenti, hogy beismerünk valamit, ami nem a beszélő javára szól; ha csak azt akarod mondani, hogy valamit hozzáadsz az ételhez, a hinzufügen igét használd.",
+        "A zugeben általában azt jelenti, hogy beismerünk valamit, ami nem a beszélő javára szól. Receptekben a zugeben hozzáadást is jelent (Salz zugeben); a hétköznapokban ebben a jelentésben gyakrabban a hinzufügen igét használjuk.",
         "A zugeben utáni dass-os mellékmondatban az ige a végére kerül: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "будинок на одну сім’ю",
       "explanation": [
         "Головна думка: das Einfamilienhaus — це будинок, призначений для однієї сім’ї, — окремий або суміжний із сусідніми, але з однією квартирою і зазвичай із власним садом.",
-        "Іменник середнього роду: das Einfamilienhaus, множина die Einfamilienhäuser. Складається з Ein- + Familie + Haus.",
+        "Іменник середнього роду: das Einfamilienhaus, множина die Einfamilienhäuser. Складається з Ein- + Familien- (сполучна форма від Familie) + Haus.",
         "Протилежність — das Mehrfamilienhaus (багатоквартирний будинок)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "У політиці кажуть eine Partei wählen або für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei і die Party (вечірка) звучать схоже, але не пов’язані."
+        "Die Partei і die Party (вечірка) звучать схоже, але значення зовсім інше (хоча обидва походять від латинського pars — частина)."
       ],
       "sectionAccents": {
         "explanation": {

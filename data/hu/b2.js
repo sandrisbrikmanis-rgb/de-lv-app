@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne keverd a sich nélküli abfinden igével: annak jelentése kártalanít, pénzzel kifizet.",
-        "A Perfekt alak sich abgefunden (a -ge- középen), nem geabfunden."
+        "A Perfekt alak hat sich abgefunden (a -ge- az ab- és a tő között áll), nem geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1729,7 +1729,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "kitesz • kifogásol • felfüggeszt",
       "explanation": [
-        "A lényeg: az aussetzen elváló igekötős ige több jelentéssel: kitesz, sorsára hagy (kutyát, gyereket); kitesz valaminek (hidegnek, veszélynek); leáll, kihagy (motor, munka); az an + Dativ szerkezettel pedig: kifogásol.",
+        "A lényeg: az aussetzen elváló igekötős ige több jelentéssel: kitesz, sorsára hagy (kutyát, gyereket); kitesz valaminek (hidegnek, veszélynek); leáll, kihagy (motor, munka); az etwas an + Dativ auszusetzen haben kifejezésben pedig: kifogásol, kritizál.",
         "Alakok: setzt aus, setzte aus, hat ausgesetzt. Ha valaminek kiteszünk valakit, Dativ (részes eset) áll: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Az ausgesetzt sein jelentése: ki van téve valaminek.",
         "A kifogásol jelentésben az etwas an jemandem/etwas auszusetzen haben kifejezést használjuk: Ich habe nichts daran auszusetzen. Itt a zu az igekötő és az igető közé kerül: auszusetzen."
       ],
@@ -10134,7 +10134,7 @@ const B2_WORDS = [
       "translation": "megkönyörül • megszán",
       "explanation": [
         "A lényeg: a sich erbarmen jelentése: együttérzést érez a szenvedő iránt, segít neki vagy megkönyörül rajta. Emelkedett stílusú szó, gyakran vallásos vagy ironikus.",
-        "Általában Genitiv (birtokos eset) követi: sich des Hundes erbarmen. Ritkábban über + Akkusativ áll utána. Alakok: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Általában Genitiv (birtokos eset) követi: sich des Hundes erbarmen. Ritkábban (regionálisan, Ausztriában) über + Akkusativ áll utána. Alakok: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Társalgásban tréfásan: Wer erbarmt sich und …? — Ki könyörül meg, és …?"
       ],
       "examples": [
@@ -12070,7 +12070,7 @@ const B2_WORDS = [
       ],
       "important": [
         "A fleckig gyakran nemkívánatos vagy egyenetlen megjelenésre utal (piszkos ruha, vörös foltok a bőrön).",
-        "Melléknévi végződésnél figyelj a formára: ein fleckiges Fell, eine fleckige Haut."
+        "Főnév előtt a fleckig végződést kap: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19553,7 +19553,7 @@ const B2_WORDS = [
       "translation": "utólagos • utólag",
       "explanation": [
         "Fő gondolat: a nachträglich azt jelenti, hogy utólag, a fő cselekvés vagy a határidő lejárta után — később hozzátéve vagy elvégezve. Melléknév (eine nachträgliche Änderung) és határozószó (nachträglich ändern) is lehet.",
-        "Gyakori jelentése a késés: nachträglich gratulieren — az esemény után, utólag gratulálni. Melléknévként kiegészítő jelleget is kifejez: eine nachträgliche Zahlung (pótlólagos fizetés)."
+        "Gyakori jelentése a késés: nachträglich gratulieren — az esemény után, utólag gratulálni. Melléknévként azt is jelenti: később, a megszabott idő után történő: eine nachträgliche Zahlung (utólagos fizetés)."
       ],
       "examples": [
         {
@@ -23324,7 +23324,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "átad • kézbesít",
       "explanation": [
-        "Fő gondolat: az überbringen azt jelenti, hogy egy ránk bízott hírt, üdvözletet, levelet vagy ajándékot eljuttatunk a címzetthez — elvisszük és személyesen átadjuk. Akinek átadjuk, az Dativban (részes eset) áll: jemandem etwas überbringen.",
+        "Fő gondolat: az überbringen azt jelenti, hogy egy hírt, üdvözletet, levelet vagy ajándékot eljuttatunk a címzetthez — elvisszük és személyesen átadjuk. Akinek átadjuk, az Dativban (részes eset) áll: jemandem etwas überbringen.",
         "Az über- itt nem elváló igekötő: überbringt, überbrachte, hat überbracht. Főnévi igeneves szerkezetben a zu az ige előtt áll: um die Nachricht zu überbringen. A szó kissé hivatalos."
       ],
       "examples": [

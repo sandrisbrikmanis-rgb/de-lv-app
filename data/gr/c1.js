@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "μονοκατοικία",
       "explanation": [
         "Βασική ιδέα: das Einfamilienhaus είναι σπίτι για μία οικογένεια — ανεξάρτητο ή κολλητό με τα γειτονικά, αλλά με μία μόνο κατοικία και συνήθως με δικό του κήπο.",
-        "Ουσιαστικό ουδέτερου γένους: das Einfamilienhaus, πληθυντικός die Einfamilienhäuser. Αποτελείται από Ein- + Familie + Haus.",
+        "Ουσιαστικό ουδέτερου γένους: das Einfamilienhaus, πληθυντικός die Einfamilienhäuser. Αποτελείται από Ein- + Familien- (συνθετικός τύπος του Familie) + Haus.",
         "Το αντίθετο είναι das Mehrfamilienhaus (πολυκατοικία)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Στην πολιτική λέμε eine Partei wählen ή für eine Partei stimmen."
       ],
       "important": [
-        "Το die Partei και το die Party (πάρτι) ακούγονται παρόμοια, αλλά δεν συνδέονται."
+        "Το die Partei και το die Party (πάρτι) ακούγονται παρόμοια, αλλά η σημασία τους είναι εντελώς διαφορετική (και τα δύο πάντως προέρχονται από το λατινικό pars — μέρος)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -13177,7 +13177,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Brug ikke jung om ting – sig neu.",
-        "Komparativ har altid omlyd: jünger, ikke “junger”."
+        "Komparativ har altid omlyd: jünger (junger er kun grundformen med endelse: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14893,7 +14893,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (område, landet) og der Staat (staten som institution) er ikke synonymer.",
-        "Flertal er normalt die Länder med omlyd; die Lande er sjældent og højtideligt."
+        "Flertal er die Länder med omlyd; die Lande er en forældet, poetisk form."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21776,7 +21776,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: schauen betyder »se, kigge« — rette blikket mod noget: Wir schauen aus dem Fenster. I Sydtyskland, Østrig og Schweiz er det meget almindeligt; i nord siger man oftere gucken eller sehen.",
         "Former: schaut, schaute, hat geschaut. Ofte med forholdsord: auf + akkusativ (Er schaut auf die Uhr), aus dem Fenster (ud ad vinduet), nach + dativ (Sie schaut nach dem Kind — hun ser til barnet). Bydemåde: Schau mal! — Se lige!",
-        "Udtrykket Ich schaue fern betyder »jeg ser fjernsyn«."
+        "Udtrykket Ich schaue fern (af fernschauen — i Sydtyskland og Østrig; ellers fernsehen) betyder »jeg ser fjernsyn«."
       ],
       "examples": [
         {
@@ -22599,7 +22599,7 @@ const A1_WORDS = [
         "Sehen betyder også »forstå« i udtryk som Ich sehe, was du meinst — ligesom dansk »jeg ser, hvad du mener«."
       ],
       "important": [
-        "Man siger du siehst, er sieht, ikke du sehst, er seht.",
+        "I nutid siger man du siehst, er sieht, ikke du sehst, er seht.",
         "Når man ser noget (en film, et billede), kan man bruge både sehen og sich (dativ) + ansehen."
       ],
       "sectionAccents": {
@@ -25221,7 +25221,7 @@ const A1_WORDS = [
       "translation": "Omkring • Klokken",
       "explanation": [
         "Hovedidé: um er et forholdsord, der altid kræver akkusativ. Om tid angiver um et præcist klokkeslæt: um acht Uhr (klokken otte). Om sted angiver det noget rundt om: um den Tisch (omkring bordet), um die Ecke (om hjørnet).",
-        "Spørgsmålet om tid er Um wie viel Uhr ...? (hvad tid?). Klokkeslæt står uden kendeord efter um: um 8 Uhr, ikke in 8 Uhr.",
+        "Spørgsmålet om tid er Um wie viel Uhr ...? (hvad tid?). Klokkeslæt angives med um (uden kendeord), ikke med in: um 8 Uhr, ikke in 8 Uhr.",
         "Med zu + navnemåde udtrykker um formål: Er lernt, um zu verstehen (han lærer for at forstå)."
       ],
       "examples": [
@@ -25473,7 +25473,7 @@ const A1_WORDS = [
         "Udtrykket unter uns betyder »mellem os« og bruges, når man siger noget fortroligt."
       ],
       "important": [
-        "Unter er ikke det samme som zwischen: unter henviser til en mængde eller gruppe (unter Freunden), zwischen — til to bestemte ting.",
+        "Unter er ikke det samme som zwischen: unter henviser til en mængde eller gruppe (unter Freunden), zwischen — til enkelte, navngivne ting (ofte to, men det kan også være flere).",
         "Unter + tal betyder »mindre end«: unter 18 betyder yngre end 18."
       ],
       "sectionAccents": {
@@ -27765,7 +27765,7 @@ const A1_WORDS = [
         "Ved personer bruges zu: zu mir, zu dir, zu uns (hen til mig, dig, os)."
       ],
       "important": [
-        "Zu kræver kun dativ: zu meinem Freund, zu der Schule.",
+        "Zu kræver kun dativ: zu meinem Freund, zur Schule (= zu der Schule).",
         "Ved byer og lande bruger man nach, ikke zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28626,7 +28626,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Television",
       "explanation": [
-        "Hovedidé: das Fernsehen er et intetkønsnavneord, der betegner fjernsyn som medie eller det samlede udbud af udsendelser. Flertal bruges næsten ikke. Det står ofte med im: im Fernsehen (i fjernsynet), beim Fernsehen (ansat ved tv).",
+        "Hovedidé: das Fernsehen er et intetkønsnavneord, der betegner fjernsyn som medie eller det samlede udbud af udsendelser. Flertal bruges næsten ikke. Det står ofte med im: im Fernsehen (i fjernsynet), beim Fernsehen (når man ser fjernsyn; også ansat ved tv).",
         "Det er dannet af udsagnsordet fernsehen (se tv) — præcis som dansk fjernsyn. Apparatet hedder der Fernseher, mens aktiviteten hedder fernsehen.",
         "Navneordet skrives med stort; som udsagnsord er fernsehen adskilleligt."
       ],
@@ -30052,7 +30052,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Husk: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub bruges normalt uden kendeord: Urlaub haben, Urlaub nehmen."
+        "I udtrykkene Urlaub haben, Urlaub nehmen bruges Urlaub uden kendeord (men: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Om elever siger man normalt Ferien, ikke Urlaub.",

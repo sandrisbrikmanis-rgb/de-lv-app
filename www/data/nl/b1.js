@@ -3154,7 +3154,7 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "neerleggen, uittrekken",
+          "meaning": "neerleggen; uittrekken",
           "example": "Sie legt die Jacke ab. – Ze doet haar jas uit."
         }
       ],
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen is niet hetzelfde als besorgt sein (bezorgd zijn): het bijvoeglijk naamwoord besorgt is een ander woord.",
-        "Besorgen is onscheidbaar: besorgt, niet gesorgt."
+        "Besorgen is onscheidbaar, in de voltooide tijd zonder ge-: hat besorgt (gesorgt komt van een ander werkwoord — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Kern: bieten betekent bieden of verschaffen — iemand een mogelijkheid, dienst of voordeel geven; ook een bod uitbrengen op een veiling. Het is een sterk werkwoord: er bietet, bot, hat geboten. Er volgt een accusatief, vaak met een datief: jemandem etwas bieten.",
         "Voorbeelden: Das Hotel bietet viel Komfort (het hotel biedt veel comfort), Ich biete 100 Euro (ik bied 100 euro). Wederkerend betekent sich bieten zich voordoen: Eine Chance bietet sich (er doet zich een kans voor).",
-        "Verwant is het zelfstandig naamwoord das Angebot (aanbod), maar anbieten (aanbieden) is een ander werkwoord."
+        "Het zelfstandig naamwoord das Angebot (aanbod) komt van anbieten; van bieten komt das Gebot (bod op een veiling)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blok",
       "explanation": [
-        "Kern: der Block is een blok – een compact, samenhangend stuk of geheel: een schrijfblok, een blok ijs, een huizenblok. Het meervoud is die Blöcke.",
+        "Kern: der Block is een blok – een compact, samenhangend stuk of geheel: een schrijfblok, een blok ijs, een huizenblok. Het meervoud is die Blöcke (voor schrijfblokken en huizenblokken vaak ook die Blocks).",
         "Typische samenstellingen: der Notizblock (notitieblok), der Wohnblock (woonblok, flatgebouw), der Motorblock (motorblok); ook ein Block Eis (een blok ijs).",
         "Figuurlijk kan der Block ook een politiek of economisch bondgenootschap zijn: der Machtblock (machtsblok)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft is vrouwelijk.",
-        "Niet verwarren met das Konsulat (consulaat): dat helpt meestal de burgers in een bepaalde stad."
+        "Niet verwarren met das Konsulat (consulaat): dat bedient de burgers in een bepaald consulair ressort."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "bond • verbond",
       "explanation": [
         "Kern: der Bund is een bond, verbond of statenbond – een verbintenis waarin meerdere partijen zich verenigen. Het meervoud is die Bünde. Het woord is mannelijk.",
-        "In Duitsland betekent der Bund vaak de federale overheid, tegenover de deelstaten (Ländern): Bund und Länder. In samenstellingen: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "In Duitsland betekent der Bund vaak de federale overheid, tegenover de deelstaten (die Länder): Bund und Länder. In samenstellingen: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Andere betekenissen: ein Bund fürs Leben (huwelijk, verbintenis voor het leven) en das Bund (bos, bundel): ein Bund Radieschen. Dat is een ander woord met een ander lidwoord."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Kern: dadurch is een bijwoord dat daardoor, zo, daarmee betekent – het wijst op een oorzaak of middel. Meestal verbindt het de vorige zin met een gevolg: Er hat viel geübt. Dadurch wurde er besser.",
         "Woordvolgorde: na dadurch staat het werkwoord op de tweede plaats: Dadurch wird alles einfacher. Daarnaast leidt dadurch, dass als voegwoord (doordat) een bijzin in met het werkwoord achteraan.",
-        "In ruimtelijke betekenis is dadurch ook ‘erdoorheen’, en dan ligt de klemtoon op de eerste lettergreep: Die Tür war offen, wir sind dadurch gegangen."
+        "In ruimtelijke betekenis is dadurch ook ‘erdoorheen’: Die Tür war offen, wir sind dadurch gegangen. Meestal ligt de klemtoon op de tweede lettergreep; de eerste lettergreep krijgt alleen bij bijzondere nadruk de klemtoon."
       ],
       "examples": [
         {
@@ -15478,7 +15478,7 @@ const B1_WORDS = [
       "translation": "dienen",
       "explanation": [
         "Kern: dienen betekent dienen, nuttig zijn voor een doel of een functie vervullen. De meest voorkomende constructies: dienen als + nominatief (dienen als), dienen zu + datief (dienen voor) en dienen + datief (iemand dienen).",
-        "Vormen: dient, diente, hat gedient. Het werkwoord neemt een datief (Er dient dem Land), geen accusatief. Womit kann ich dienen? is een beleefd aanbod om te helpen (Waarmee kan ik u van dienst zijn?); in militaire zin betekent dienen ‘in het leger dienen’. Let op: het Nederlandse ‘u dient … te’ (= moeten) bestaat in het Duits niet."
+        "Vormen: dient, diente, hat gedient. Het werkwoord neemt een datief (Er dient dem Land), geen accusatief. Womit kann ich dienen? is een beleefd, enigszins ouderwets hulpaanbod van een verkoper of bediende (Waarmee kan ik u van dienst zijn?); in militaire zin betekent dienen ‘in het leger dienen’. Let op: het Nederlandse ‘u dient … te’ (= moeten) bestaat in het Duits niet."
       ],
       "examples": [
         {
@@ -16322,7 +16322,7 @@ const B1_WORDS = [
       "translation": "diarree",
       "explanation": [
         "Kern: der Durchfall is een mannelijk zelfstandig naamwoord dat diarree betekent – dunne, frequente ontlasting. In de geneeskunde en in het dagelijks leven gebruik je het in het enkelvoud: Durchfall haben – diarree hebben.",
-        "Het meervoud die Durchfälle wordt zelden gebruikt. Figuurlijk kan Durchfall ook zakken (voor een examen) of een flop (van een voorstelling) betekenen, maar dan gebruikt men meestal het werkwoord durchfallen."
+        "Het meervoud die Durchfälle wordt zelden gebruikt. Figuurlijk (in de spreektaal) kan Durchfall ook zakken (voor een examen) of een flop (van een voorstelling) betekenen, maar dan gebruikt men meestal het werkwoord durchfallen."
       ],
       "examples": [
         {
@@ -17048,7 +17048,7 @@ const B1_WORDS = [
       "translation": "eigen",
       "explanation": [
         "Kern: eigen is een bijvoeglijk naamwoord dat ‘eigen’ betekent, net als in het Nederlands. Het benadrukt bezit: mein eigenes Auto – mijn eigen auto. Het staat meestal voor het zelfstandig naamwoord en krijgt, anders dan in het Nederlands, een uitgang: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Figuurlijk kan eigen ook ‘eigenaardig, apart’ betekenen: ein eigener Geruch – een aparte geur. De uitdrukking etwas zu eigen haben betekent: iets bezitten als eigenschap. Op B1-niveau is de hoofdbetekenis ‘eigen’."
+        "Figuurlijk kan eigen ook ‘eigenaardig, apart’ betekenen: ein eigener Geruch – een aparte geur. De uitdrukking sich (Dat) etwas zu eigen machen betekent: zich iets eigen maken, iets als het zijne aannemen. Op B1-niveau is de hoofdbetekenis ‘eigen’."
       ],
       "examples": [
         {
@@ -29693,7 +29693,7 @@ const B1_WORDS = [
       ],
       "important": [
         "In het meervoud komt er -er bij: die Geschlechter.",
-        "Op formulieren staat na Geschlecht meestal een invulveld, geen vraag."
+        "Op formulieren is Geschlecht de naam van het veld (geslacht), waar je männlich / weiblich / divers aankruist."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32591,7 +32591,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Na ein Haufen volgt het zelfstandig naamwoord zonder 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "Na ein Haufen volgt het zelfstandig naamwoord meestal zonder 'von': ein Haufen Arbeit, ein Haufen Geld (minder vaak: ein Haufen von Problemen).",
         "Uitdrukking: über den Haufen werfen — (plannen) overhoop gooien."
       ],
       "important": [
@@ -34238,7 +34238,7 @@ const B1_WORDS = [
       "translation": "homoseksueel",
       "explanation": [
         "Hoofdgedachte: der Homosexuelle is een zelfstandig naamwoord dat een homoseksuele man aanduidt. Het wordt verbogen als een bijvoeglijk naamwoord: ein Homosexueller, der Homosexuelle, die Homosexuellen (meervoud). Een vrouw: die Homosexuelle, eine Homosexuelle.",
-        "Het woord is neutraal en formeel en wordt gebruikt in officiële teksten, het nieuws en wetten. In het dagelijks leven zegt men vaak schwul (homo) of lesbisch (voor een lesbienne)."
+        "Het woord is neutraal en formeel en wordt gebruikt in officiële teksten, het nieuws en wetten. In het dagelijks leven gebruikt men vaak bijvoeglijke naamwoorden: er ist schwul (hij is homo), sie ist lesbisch (zij is lesbisch)."
       ],
       "examples": [
         {
@@ -34476,8 +34476,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "horen",
-          "example": "Ich höre Musik. – Ik hoor muziek."
+          "meaning": "horen; luisteren",
+          "example": "Ich höre Musik. – Ik luister naar muziek."
         },
         {
           "word": "zuhören",
@@ -45633,7 +45633,7 @@ const B1_WORDS = [
         "Samenstellingen: die Machtübernahme (machtsovername), der Machtkampf (machtsstrijd)."
       ],
       "important": [
-        "Macht is niet zomaar lichamelijke kracht; daarvoor gebruik je die Kraft.",
+        "Macht is geen lichamelijke kracht; die heet die Kraft.",
         "Het meervoud die Mächte verwijst meestal naar staten of krachten."
       ],
       "sectionAccents": {
@@ -46008,7 +46008,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß schrijf je met ß, omdat de klinker lang is.",
-        "Het meervoud is die Maße (afmetingen); in de datief — den Maßen (in Maßen, über alle Maßen)."
+        "Het meervoud is die Maße (afmetingen); in de datief — den Maßen (in Maßen). In de uitdrukking über alle Maßen is een historische vorm bewaard gebleven."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47379,7 +47379,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben is niet hetzelfde als aufgeben: nachgeben is toegeven aan iemand, aufgeben is een doel opgeven.",
-        "Het voorvoegsel nach- wordt afgesplitst: gibt nach, niet nachgibt."
+        "Het voorvoegsel nach- wordt in de hoofdzin afgesplitst: er gibt nach (in de bijzin aaneen: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47693,7 +47693,7 @@ const B1_WORDS = [
       "translation": "neigen • overhellen",
       "explanation": [
         "Kernidee: neigen met zu + datief betekent neigen tot iets, ergens toe geneigd zijn: Er neigt zu schnellen Entscheidungen. Vormen: neigt, neigte, hat geneigt.",
-        "Letterlijk betekent etwas neigen iets buigen of schuin houden (den Kopf neigen). Wederkerend betekent sich neigen zich buigen of ten einde lopen: Der Tag neigt sich.",
+        "Letterlijk betekent etwas neigen iets buigen of schuin houden (den Kopf neigen). Wederkerend betekent sich neigen zich buigen of (in verheven stijl) ten einde lopen: Der Tag neigt sich. De uitdrukking sich dem Ende zuneigen komt van zuneigen.",
         "Van dezelfde stam komt het zelfstandig naamwoord die Neigung (neiging, voorkeur, helling)."
       ],
       "examples": [
@@ -48588,7 +48588,7 @@ const B1_WORDS = [
       "translation": "nood • gebrek",
       "explanation": [
         "Kernidee: die Not is nood, gebrek, ellende: een situatie waarin iemand het allernoodzakelijkste mist (in Not leben, Not leiden). Het is ook een dringende behoefte of een noodsituatie: in der Not, in Not geraten.",
-        "Het woord is vrouwelijk. Het meervoud die Nöte is zeer zeldzaam; meestal gebruik je het enkelvoud.",
+        "Het woord is vrouwelijk. Het meervoud die Nöte wordt minder vaak gebruikt (Sorgen und Nöte); meestal gebruik je het enkelvoud.",
         "Uitdrukkingen: zur Not (desnoods, als het echt niet anders kan), aus der Not eine Tugend machen (van de nood een deugd maken), Not macht erfinderisch (nood maakt vindingrijk)."
       ],
       "examples": [
@@ -54734,7 +54734,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten is niet braten: braten is bakken in olie of vet, rösten is roosteren.",
-        "Verwar rösten niet met rostet (roest)."
+        "Verwar rösten niet met rosten (roesten)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60248,7 +60248,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Voor een zitplaats in het vervoer zeg je der Sitz of der Platz; alleen der Platz kan ook plaats in het algemeen betekenen.",
-        "De vestigingsplaats van een bedrijf heet der Firmensitz."
+        "De statutaire zetel (hoofdvestiging) van een bedrijf heet der Firmensitz."
       ],
       "important": [
         "Der Sitz is niet das Sitzen: das Sitzen is de handeling, der Sitz de zitplaats of zetel.",
@@ -61221,7 +61221,7 @@ const B1_WORDS = [
         "Ook voor het opslaan van energie of water gebruik je speichern."
       ],
       "important": [
-        "De gebiedende wijs is Speichere (of Speicher), niet Speichern.",
+        "De gebiedende wijs is Speichere! (ook Speichre!; in de spreektaal Speicher!), niet Speichern.",
         "speichern is niet sperren (blokkeren)."
       ],
       "sectionAccents": {
@@ -70117,7 +70117,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "zwachtel, windsel",
+          "meaning": "verband, zwachtel",
           "example": "Sie wickelt eine Binde um den Fuß. – Ze wikkelt een zwachtel om haar voet."
         },
         {
@@ -76481,7 +76481,7 @@ const B1_WORDS = [
         "Na zugeben volgt vaak een dass-zin, waarin het werkwoord achteraan staat."
       ],
       "important": [
-        "Zugeben is iets toegeven wat niet in het voordeel van de spreker is; wil je gewoon zeggen dat je iets aan een gerecht toevoegt, gebruik dan hinzufügen.",
+        "Zugeben betekent meestal iets toegeven wat niet in het voordeel van de spreker is. In recepten betekent zugeben ook toevoegen (Salz zugeben); in het dagelijks leven zegt men in die betekenis vaker hinzufügen.",
         "Na zugeben staat in de dass-zin het werkwoord achteraan: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

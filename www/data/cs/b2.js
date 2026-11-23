@@ -494,7 +494,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Nepleť si to s abfinden bez sich: to znamená odškodnit nebo vyplatit penězi.",
-        "Perfektum je sich abgefunden (s -ge- uprostřed), nikoli geabfunden."
+        "Perfektum je hat sich abgefunden (-ge- mezi ab- a kmenem), nikoli geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1729,7 +1729,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Vystavit • Podrobit • Namítat • Přestat fungovat",
       "explanation": [
-        "Hlavní myšlenka: aussetzen je odlučitelné sloveso s několika významy: vysadit nebo opustit (psa, dítě), vystavit či podrobit (chladu, nebezpečí), přestat fungovat či na chvíli vysadit (o motoru, práci) a ve spojení s an + dativ namítat.",
+        "Hlavní myšlenka: aussetzen je odlučitelné sloveso s několika významy: vysadit nebo opustit (psa, dítě), vystavit či podrobit (chladu, nebezpečí), přestat fungovat či na chvíli vysadit (o motoru, práci) a ve výrazu etwas an + dativ auszusetzen haben – namítat, kritizovat.",
         "Tvary: setzt aus, setzte aus, hat ausgesetzt. V případě vystavit se používá dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Příčestí ausgesetzt sein znamená být vystaven.",
         "Ve významu namítat se používá vazba etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Zde se zu vkládá mezi předponu a kmen: auszusetzen."
       ],
@@ -10131,7 +10131,7 @@ const B2_WORDS = [
       "translation": "Smilovat se • Slitovat se",
       "explanation": [
         "Hlavní myšlenka: sich erbarmen znamená cítit soucit s trpícím a pomoci mu, smilovat se nad ním nebo se nad ním slitovat. Jazyk je vznešený, často náboženský nebo ironický.",
-        "Obvykle následuje genitiv: sich des Hundes erbarmen. Řidčeji se používá über + akuzativ. Tvary: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Obvykle následuje genitiv: sich des Hundes erbarmen. Řidčeji (regionálně, v Rakousku) se používá über + akuzativ. Tvary: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "V hovorové řeči žertovně: Wer erbarmt sich und …? – Kdo se slituje a …?"
       ],
       "examples": [
@@ -12073,7 +12073,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig často vyjadřuje nežádoucí nebo nerovnoměrný vzhled (špinavé oblečení, červené skvrny na kůži).",
-        "Při skloňování nezapomeň na e: ein fleckiges Fell, eine fleckige Haut."
+        "Před podstatným jménem dostává fleckig koncovku: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19559,7 +19559,7 @@ const B2_WORDS = [
       "translation": "Pozdější • Dodatečný • Později",
       "explanation": [
         "Hlavní myšlenka: nachträglich znamená dodatečně, až po hlavním jednání nebo termínu – později přidané nebo provedené. Je to přídavné jméno (eine nachträgliche Änderung) i příslovce (nachträglich ändern).",
-        "Častý je význam opožděnosti: nachträglich gratulieren – blahopřát dodatečně. Přídavné jméno vyjadřuje i dodatečný charakter: eine nachträgliche Zahlung (dodatečná platba)."
+        "Častý je význam opožděnosti: nachträglich gratulieren – blahopřát dodatečně. Přídavné jméno znamená také probíhající později, po stanovené době: eine nachträgliche Zahlung (pozdější platba)."
       ],
       "examples": [
         {

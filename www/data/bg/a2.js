@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "отписвам",
+          "meaning": "отписвам се, анулирам регистрация",
           "example": "Ich melde mich vom Kurs ab. – Отписвам се от курса."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Накратко: глаголът anstecken е с отделяема представка и означава забождам или слагам (забождам цвете, слагам пръстен), както и заразявам и прихващам (болест).",
         "Форми: steckt an, steckte an, hat angesteckt. Представката an- в изречението се отделя: Er steckt mir den Ring an. Изисква винителен падеж (какво?), често и дателен (на кого?).",
-        "В значението „заразявам“ се използва jemanden anstecken или sich anstecken (хващам болест): Ich habe mich bei ihm angesteckt. В някои региони anstecken се използва и със значение запалвам (eine Zigarette anstecken)."
+        "В значението „заразявам“ се използва jemanden anstecken или sich anstecken (хващам болест): Ich habe mich bei ihm angesteckt. В разговорния език anstecken означава и запалвам (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Накратко: die Bahn е съществително от женски род. То означава железница и железопътен транспорт като цяло (mit der Bahn fahren – пътувам с влак). В името на компанията Deutsche Bahn това е германската железница.",
         "Множественото число е die Bahnen. Думата се среща и в сложни думи: die Straßenbahn (трамвай), die U-Bahn (метро), die S-Bahn (градска железница), die Eisenbahn (железница).",
-        "Други значения: писта или пътека (die Laufbahn, die Radrennbahn) и орбита (die Umlaufbahn). В спорта die Bahn е бягащата писта."
+        "Други значения: писта или пътека (die Radrennbahn; die Laufbahn — също кариера) и орбита (die Umlaufbahn). В спорта die Bahn е бягащата писта."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn е от женски род; не я бъркай с der Bahnhof (гара, мъжки род).",
-        "Думата Bahn сама по себе си често означава компанията Deutsche Bahn, а не конкретен влак; конкретният влак е der Zug."
+        "Думата Bahn може да означава и компанията Deutsche Bahn (Die Bahn hat Verspätung); конкретният влак се нарича der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt не е същото като bestimmen: bestimmen означава определям, решавам, а bestimmt е наречие или прилагателно.",
-        "Bestimmt може да изразява и предположение, а не само сигурност: Er ist bestimmt zu Hause (той сигурно е вкъщи)."
+        "Bestimmt изразява и твърдо предположение: Er ist bestimmt zu Hause (той със сигурност е вкъщи)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "наблизо • налице",
       "explanation": [
         "Накратко: dabei е наречие, образувано от da + bei. То означава налице, при това, там: до нещо или при някакво събитие. Най-честото съчетание е dabei sein (присъствам, участвам).",
-        "Други чести значения: у себе си (etwas dabei haben – имам нещо у себе си), освен това (по същото време) и точно сега правя нещо (dabei sein, etwas zu tun). Думата е за място и време и препраща към нещо, споменато по-рано.",
+        "Други чести значения: у себе си (etwas dabei haben – имам нещо у себе си), по същото време, освен това и точно сега правя нещо (dabei sein, etwas zu tun). Думата е за място и време и препраща към нещо, споменато по-рано.",
         "Dabei е и част от сложни глаголи: dabeibleiben (оставам при това), dabeihaben (имам у себе си), dabeisitzen (седя наблизо)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Накратко: dafür е наречие (da + für). То означава за това (в замяна, като плащане, като благодарност), за тази цел или за (в смисъл на съгласие): Ich bin dafür (аз съм за).",
         "То замества für + нещо, споменато преди: Ich danke dir dafür. С глаголи като sich interessieren für, sorgen für, sich entschuldigen für се използва dafür, когато не е необходимо съществителното да се повтаря.",
-        "В разговорния език dafür означава и затова пък, но пък (като компенсация): Er ist nicht schnell, dafür arbeitet er genau. В това значение въвежда противопоставяне с положителна компенсация."
+        "Dafür означава и затова пък, но пък (като компенсация): Er ist nicht schnell, dafür arbeitet er genau. В това значение въвежда противопоставяне с положителна компенсация."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "В изречение със съюза damit глаголът е в края на изречението.",
-        "damit не означава затова; за причина се използват deshalb или darum."
+        "Съюзът damit (за да) не означава затова; за значението „затова“ се използват deshalb или darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16157,7 +16157,7 @@ const A2_WORDS = [
         "Представката ein се отделя и стои в края на изречението: Ich lade dich ein."
       ],
       "important": [
-        "В минало време: hat eingeladen (не ge-ein-laden)."
+        "В перфект: hat eingeladen (не ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Без nicht, kein, nichts думата gar обикновено не се използва."
+        "Като усилване на отрицанието gar се използва заедно с nicht, kein, nichts."
       ],
       "important": [
         "gar усилва отрицанието: gar nicht е по-силно от nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Във връзка с Виена думата Kaffeehaus се използва често; в Германия също толкова често ще чуеш das Café.",
+        "Думата Kaffeehaus е характерна за Австрия (Виена); в Германия много по-често се казва das Café.",
         "Запомни основните думи Kaffee (кафе) + das Haus (къща)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Накратко: der Kellner е съществително от мъжки род, което означава сервитьор, който в ресторант или кафене поднася храна и напитки. Жената е die Kellnerin.",
         "Множественото число е die Kellner (мъже) и die Kellnerinnen (жени). Склонение: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "За да се обърнеш към сервитьора, най-добре е der Entschuldigung!; обръщението Herr Ober! днес се смята за остаряло."
+        "Към сервитьора е най-добре да се обърнеш с „Entschuldigung!“; обръщението Herr Ober! днес се смята за остаряло."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen е от мъжки род: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen самостоятелно означава кола или вагон, а не детска количка."
+        "Wagen самостоятелно обикновено означава кола или вагон; детската количка се нарича Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Запомни: Kraft = сила, Macht = власт, Energie = енергия.",
-        "Научи фразата in Kraft treten (влизам в сила); тя се среща по-често от основното значение."
+        "Научи фразата in Kraft treten (влизам в сила) — тя често се използва за закони и правила."
       ],
       "important": [
         "Die Kraft е от женски род; множественото число е die Kräfte, а не die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "оценка",
       "explanation": [
         "Накратко: die Note е съществително от женски род. В училище и университета означава оценка (eine gute Note bekommen, получавам добра оценка). В музиката е нота: Noten lesen (чета ноти).",
-        "Множественото число е die Noten. В Германия оценките са от 1 (sehr gut) до 6 (ungenügend), като 1 е най-добрата. Затова eine gute Note означава малко число.",
+        "Множественото число е die Noten. В германските училища оценките са от 1 (sehr gut) до 6 (ungenügend), като 1 е най-добрата (във висшите училища скалата е 1,0–5,0). Затова eine gute Note означава малко число.",
         "За оценките се казва: eine Note bekommen, eine Note geben, die Note verbessern (подобрявам оценката)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "В израза rechnen mit + дателен падеж значението е „очаквам, разчитам на“ — да речем, на лошо време."
       ],
       "important": [
-        "Rechnen mit обикновено означава „очаквам, вземам предвид“, а не „смятам с нещо“."
+        "Rechnen mit + дателен падеж обикновено означава „очаквам, вземам предвид“ (Wir rechnen mit Regen); с инструмент означава „смятам с“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "остър • лют",
       "explanation": [
-        "Накратко: scharf е прилагателно с няколко значения. За предмет означава „остър“ (scharfes Messer – остър нож), за храна — „лют“ (scharfes Essen). В преносен смисъл може да означава и „рязък, силен“: eine scharfe Kurve, scharf bremsen.",
+        "Накратко: scharf е прилагателно с няколко значения. За предмет означава „остър“ (scharfes Messer – остър нож), за храна — „лют“ (scharfes Essen). В преносен смисъл може да означава и „рязък, силен“: eine scharfe Kurve (остър завой), scharf bremsen (спирам рязко).",
         "Сравнителната степен е schärfer (с Umlaut), превъзходната — am schärfsten. Пред съществително: ein scharfes Messer, scharfe Soße.",
         "Полезно е да се запомни: scharf се отнася за лютия вкус (чили, хрян), а не за солен вкус — солен е salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Опашката, на която хората чакат, се нарича Schlange; Reihe по-скоро е ред в смисъл на поредност (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen е устойчив израз: не in der Schlange sein, а Schlange stehen."
+        "Най-честият израз е Schlange stehen (също in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln се използва, когато едно нещо се заменя с друго (училище, работа, валута). ändern – когато нещо се преобразува.",
-        "Прекачването в транспорта се изразява с umsteigen, а не с wechseln."
+        "Прекачването в транспорта обикновено се изразява с umsteigen (възможно е и den Zug wechseln)."
       ],
       "important": [
         "Под Geld wechseln обикновено се разбира обмяна на валута или размяна на пари, а не харчене.",

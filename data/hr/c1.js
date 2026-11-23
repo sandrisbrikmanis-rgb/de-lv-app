@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "obiteljska kuća",
       "explanation": [
         "Glavna ideja: das Einfamilienhaus je kuća namijenjena jednoj obitelji — samostojeća ili u nizu, ali s jednim stanom i obično s vlastitim vrtom.",
-        "Imenica srednjeg roda: das Einfamilienhaus, množina die Einfamilienhäuser. Sastoji se od Ein- + Familie + Haus.",
+        "Imenica srednjeg roda: das Einfamilienhaus, množina die Einfamilienhäuser. Sastoji se od Ein- + Familien- (spojni oblik od Familie) + Haus.",
         "Suprotnost je das Mehrfamilienhaus (višestambena zgrada)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "U politici se kaže eine Partei wählen ili für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei i die Party (zabava) zvuče slično, ali nemaju nikakve veze."
+        "Die Partei i die Party (zabava) zvuče slično, ali značenje im je posve drukčije (obje riječi ipak potječu od latinskog pars — dio)."
       ],
       "sectionAccents": {
         "explanation": {

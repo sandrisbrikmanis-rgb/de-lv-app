@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Мы охотно поручаем Вам это задание."
+          "lv": "Мы охотно поручаем Вам этот заказ (задание)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen — не то же самое, что besorgt sein (быть обеспокоенным): прилагательное besorgt — другое слово.",
-        "Besorgen — глагол с неотделяемой приставкой: besorgt, а не gesorgt."
+        "Besorgen — глагол с неотделяемой приставкой, в Perfekt без ge-: hat besorgt (gesorgt — от другого глагола, sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Главное: bieten означает «предлагать» или «предоставлять» — давать кому-либо возможность, услугу или преимущество; а также предлагать цену на аукционе. Это сильный глагол: er bietet, bot, hat geboten. После него идёт винительный падеж, часто с дательным: jemandem etwas bieten.",
         "Примеры: Das Hotel bietet viel Komfort (гостиница предлагает много комфорта), Ich biete 100 Euro (я предлагаю 100 евро). Возвратный глагол sich bieten значит: Eine Chance bietet sich (появляется возможность).",
-        "Родственное существительное — das Angebot (предложение), но глагол anbieten (предлагать) — другое слово."
+        "Существительное das Angebot (предложение) происходит от anbieten; от bieten — das Gebot (ставка на аукционе)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "блок",
       "explanation": [
-        "Главное: der Block — это блок, плотный цельный кусок или комплект: блок для записей, блок льда, блок зданий. Множественное число — die Blöcke.",
+        "Главное: der Block — это блок, плотный цельный кусок или комплект: блок для записей, блок льда, блок зданий. Множественное число — die Blöcke (для блоков для записей и блоков зданий часто также die Blocks).",
         "Типичные сложные слова: der Notizblock (блокнот), der Wohnblock (жилой комплекс), der Motorblock (блок двигателя); а также ein Block Eis (блок льда).",
         "В переносном значении der Block может быть также политическим или экономическим объединением: der Machtblock (блок власти)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft — женского рода.",
-        "Не путай с das Konsulat (консульство): оно обычно обслуживает жителей в городе."
+        "Не путай с das Konsulat (консульство): оно обслуживает граждан в определённом консульском округе."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "союз",
       "explanation": [
         "Главное: der Bund — это союз, объединение или союз на уровне государства, то есть единое объединение нескольких сторон. Множественное число — die Bünde. Слово мужского рода.",
-        "В Германии der Bund часто означает федеральное правительство в противоположность землям (Ländern): Bund und Länder. В сложных словах: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "В Германии der Bund часто означает федеральное правительство в противоположность землям (die Länder): Bund und Länder. В сложных словах: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Другие значения: ein Bund fürs Leben (брачный союз) и das Bund (пучок): ein Bund Radieschen. Это другое слово с другим артиклем."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Главное: dadurch — наречие, означающее «таким образом», «тем самым», «через это»; оно указывает на причину или средство. Обычно оно связывает предыдущее предложение со следствием: Er hat viel geübt. Dadurch wurde er besser.",
         "Порядок слов: после dadurch глагол стоит на втором месте: Dadurch wird alles einfacher. Кроме того, dadurch, dass как союз (благодаря тому что) вводит придаточное предложение с глаголом в конце.",
-        "В значении места dadurch означает также «через это», и тогда ударение падает на первый слог: Die Tür war offen, wir sind dadurch gegangen."
+        "В значении места dadurch означает также «через это»: Die Tür war offen, wir sind dadurch gegangen. Обычно ударение падает на второй слог; первый слог выделяется ударением только при особом подчёркивании."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "служить • послужить",
       "explanation": [
         "Главное: dienen означает «служить», «пригодиться» для какой-либо цели или выполнять какую-либо функцию. Самые частые конструкции: dienen als + именительный падеж (служить в качестве), dienen zu + дательный падеж (служить для чего-либо) и dienen + дательный падеж (служить кому-либо).",
-        "Формы: dient, diente, hat gedient. После этого глагола идёт дательный падеж (Er dient dem Land), а не винительный. В разговорной речи Womit kann ich dienen? — вежливое предложение помощи, а в военном значении dienen — «служить в армии»."
+        "Формы: dient, diente, hat gedient. После этого глагола идёт дательный падеж (Er dient dem Land), а не винительный. Womit kann ich dienen? — вежливое, немного старомодное предложение помощи со стороны обслуживающего персонала, а в военном значении dienen — «служить в армии»."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "диарея • понос",
       "explanation": [
         "Главное: der Durchfall — существительное мужского рода, означающее диарею: жидкий, частый стул. В медицине и в быту его используют в единственном числе: Durchfall haben — страдать диареей.",
-        "Множественное число die Durchfälle используется редко. В переносном значении Durchfall может означать также провал (на экзамене, в театре), но тогда обычно используют глагол durchfallen."
+        "Множественное число die Durchfälle используется редко. В переносном значении (в разговорной речи) Durchfall может означать также провал (на экзамене, в театре), но тогда обычно используют глагол durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "свой • собственный",
       "explanation": [
         "Главное: eigen — прилагательное, означающее «свой, собственный». Оно подчёркивает принадлежность: mein eigenes Auto — мой собственный автомобиль. Обычно оно стоит перед существительным и склоняется: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "В переносном значении eigen может означать также «своеобразный, особенный»: ein eigener Geruch — своеобразный запах. Выражение etwas zu eigen haben — обладать чем-либо. На уровне B1 главное значение — «свой, собственный»."
+        "В переносном значении eigen может означать также «своеобразный, особенный»: ein eigener Geruch — своеобразный запах. Выражение sich (Dat) etwas zu eigen machen — принять что-либо как своё. На уровне B1 главное значение — «свой, собственный»."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Во множественном числе окончание -er: die Geschlechter.",
-        "В анкетах после Geschlecht обычно идёт поле для заполнения, а не вопрос."
+        "В анкетах Geschlecht — название поля (пол), где отмечают männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "После ein Haufen существительное стоит без 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "После ein Haufen существительное обычно стоит без 'von': ein Haufen Arbeit, ein Haufen Geld (реже: ein Haufen von Problemen).",
         "Выражение über den Haufen werfen — разрушить (планы)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "гомосексуалист",
       "explanation": [
         "Главное: der Homosexuelle — существительное, которое обозначает гомосексуального мужчину. Оно склоняется как прилагательное: ein Homosexueller, der Homosexuelle, die Homosexuellen (во множественном числе). О женщине: die Homosexuelle, eine Homosexuelle.",
-        "Слово нейтральное, формальное, употребляется в официальных текстах, новостях, законах. В повседневной речи часто говорят schwul (гей) или lesbisch (лесбиянка)."
+        "Слово нейтральное, формальное, употребляется в официальных текстах, новостях, законах. В повседневной речи часто используют прилагательные: er ist schwul (он гей), sie ist lesbisch (она лесбиянка)."
       ],
       "examples": [
         {
@@ -34481,7 +34481,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "слышать",
+          "meaning": "слышать; слушать",
           "example": "Ich höre Musik. – Я слушаю музыку."
         },
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Сложные слова: die Machtübernahme (взятие власти), der Machtkampf (борьба за власть)."
       ],
       "important": [
-        "Macht — не просто физическая сила; для неё используется die Kraft.",
+        "Macht — не физическая сила; её называют die Kraft.",
         "Множественное число die Mächte относится преимущественно к государствам или силам."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Слово das Maß пишется с ß, потому что гласный звук долгий.",
-        "Множественное число — die Maße (размеры); в дательном падеже — den Maßen (in Maßen, über alle Maßen)."
+        "Множественное число — die Maße (размеры); в дательном падеже — den Maßen (in Maßen). В выражении über alle Maßen сохранилась историческая форма."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben — не то же самое, что aufgeben: nachgeben — уступать кому-либо, aufgeben — отказываться от какой-либо цели.",
-        "Приставка nach- отделяется: gibt nach, а не nachgibt."
+        "Приставка nach- в главном предложении отделяется: er gibt nach (в придаточном — слитно: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "склоняться • склониться • быть склонным",
       "explanation": [
         "Главное: neigen с zu + дательный падеж (Dativ) значит быть склонным к чему-либо: Er neigt zu schnellen Entscheidungen. Формы: neigt, neigte, hat geneigt.",
-        "В прямом значении etwas neigen — наклонять (den Kopf neigen). Возвратный глагол sich neigen значит наклоняться или приближаться к концу: Der Tag neigt sich.",
+        "В прямом значении etwas neigen — наклонять (den Kopf neigen). Возвратный глагол sich neigen значит наклоняться или (в высоком стиле) приближаться к концу: Der Tag neigt sich. Выражение sich dem Ende zuneigen — от глагола zuneigen.",
         "От того же корня образовано существительное die Neigung (склонность, предрасположенность, наклон)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "нужда",
       "explanation": [
         "Главное: die Not — это нужда, беда, бедственное положение, когда человеку не хватает самого необходимого (in Not leben, Not leiden). Это также острая необходимость или несчастье: in der Not, in Not geraten.",
-        "Слово женского рода. Множественное число die Nöte встречается очень редко; обычно употребляется единственное число.",
+        "Слово женского рода. Множественное число die Nöte встречается реже (Sorgen und Nöte); обычно употребляется единственное число.",
         "Выражения: zur Not (если иначе нельзя; в крайнем случае), aus der Not eine Tugend machen (превратить необходимость в добродетель), Not macht erfinderisch (нужда делает изобретательным)."
       ],
       "examples": [
@@ -54740,7 +54740,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten — это не braten: braten значит жарить на масле или жире, rösten — обжаривать.",
-        "Не путай rösten с rostet (ржавеет)."
+        "Не путай rösten с rosten (ржаветь)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60258,7 +60258,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "О месте в транспорте говорят der Sitz или der Platz; только der Platz может значить место вообще.",
-        "Адрес компании называют der Firmensitz."
+        "Юридическое местонахождение компании (штаб-квартиру) называют der Firmensitz."
       ],
       "important": [
         "Der Sitz — это не das Sitzen: das Sitzen — действие, der Sitz — сиденье или штаб-квартира.",
@@ -61231,7 +61231,7 @@ const B1_WORDS = [
         "О накоплении (энергии, воды) также говорят speichern."
       ],
       "important": [
-        "Повелительное наклонение — Speichere (или Speicher), а не Speichern.",
+        "Повелительное наклонение — Speichere! (также Speichre!; в разговорной речи Speicher!), а не Speichern.",
         "speichern — это не sperren (блокировать)."
       ],
       "sectionAccents": {
@@ -76491,7 +76491,7 @@ const B1_WORDS = [
         "После zugeben часто идёт придаточное предложение с dass, в котором глагол стоит в конце."
       ],
       "important": [
-        "Zugeben значит признавать то, что невыгодно говорящему; если просто хочешь сказать, что добавляешь что-то в еду, используй hinzufügen.",
+        "Zugeben обычно значит признавать то, что невыгодно говорящему. В рецептах zugeben значит также добавлять (Salz zugeben); в повседневной речи в этом значении чаще говорят hinzufügen.",
         "После zugeben в придаточном предложении с dass глагол стоит в конце: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

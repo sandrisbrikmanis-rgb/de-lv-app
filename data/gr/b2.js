@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Μην το μπερδεύεις με το abfinden χωρίς sich: σημαίνει αποζημιώνω ή ικανοποιώ κάποιον με χρήματα.",
-        "Η μετοχή είναι sich abgefunden (με -ge- στη μέση), όχι geabfunden."
+        "Ο τύπος του σύνθετου παρελθοντικού είναι hat sich abgefunden (-ge- ανάμεσα στο ab- και στη ρίζα), όχι geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1729,7 +1729,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "εκθέτω • υποβάλλω • διακόπτω",
       "explanation": [
-        "Βασική ιδέα: το aussetzen είναι χωριζόμενο ρήμα με πολλές σημασίες: εγκαταλείπω (σκύλο, παιδί), εκθέτω (στο κρύο, σε κίνδυνο), σταματώ ή διακόπτομαι (για κινητήρα, εργασία) και, με an + δοτική, έχω αντίρρηση.",
+        "Βασική ιδέα: το aussetzen είναι χωριζόμενο ρήμα με πολλές σημασίες: εγκαταλείπω (σκύλο, παιδί), εκθέτω (στο κρύο, σε κίνδυνο), σταματώ ή διακόπτομαι (για κινητήρα, εργασία) και, στην έκφραση etwas an + δοτική auszusetzen haben, έχω αντίρρηση, επικρίνω.",
         "Τύποι: setzt aus, setzte aus, hat ausgesetzt. Για την έκθεση σε κάτι χρησιμοποιείται δοτική: jemanden/etwas einer Gefahr aussetzen· sich der Sonne aussetzen. Το ausgesetzt sein σημαίνει είμαι εκτεθειμένος.",
         "Με τη σημασία «έχω αντίρρηση» χρησιμοποιείται η έκφραση etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Εδώ το zu μπαίνει ανάμεσα στο πρόθημα και στη ρίζα: auszusetzen."
       ],
@@ -10134,7 +10134,7 @@ const B2_WORDS = [
       "translation": "λυπάμαι • συμπονώ",
       "explanation": [
         "Βασική ιδέα: το sich erbarmen σημαίνει νιώθω συμπόνια για κάποιον που υποφέρει και τον βοηθώ ή τον σπλαχνίζομαι. Το ύφος είναι υψηλό, συχνά θρησκευτικό ή ειρωνικό.",
-        "Ακολουθεί συνήθως γενική: sich des Hundes erbarmen. Σπανιότερα χρησιμοποιείται über + αιτιατική. Τύποι: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Ακολουθεί συνήθως γενική: sich des Hundes erbarmen. Σπανιότερα (τοπικά, στην Αυστρία) χρησιμοποιείται über + αιτιατική. Τύποι: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Στην καθομιλουμένη, αστειευόμενοι: Wer erbarmt sich und …? — Ποιος θα λυπηθεί και …;"
       ],
       "examples": [
@@ -12070,7 +12070,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Το fleckig εκφράζει συχνά ανεπιθύμητη ή ανομοιόμορφη εμφάνιση (βρόμικο ρούχο, κόκκινες κηλίδες στο δέρμα).",
-        "Όταν προσθέτεις κατάληξη, θυμήσου το e: ein fleckiges Fell, eine fleckige Haut."
+        "Πριν από ουσιαστικό το fleckig παίρνει κατάληξη: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19553,7 +19553,7 @@ const B2_WORDS = [
       "translation": "μεταγενέστερος • συμπληρωματικός • εκ των υστέρων",
       "explanation": [
         "Βασική ιδέα: nachträglich σημαίνει μετά, αφού έχει ήδη γίνει η κύρια ενέργεια ή έχει περάσει η προθεσμία — κάτι που προστέθηκε ή έγινε αργότερα. Είναι και επίθετο (eine nachträgliche Änderung) και επίρρημα (nachträglich ändern).",
-        "Συχνή σημασία είναι η καθυστέρηση: nachträglich gratulieren — δίνω ευχές μετά το γεγονός. Το επίθετο δηλώνει επίσης κάτι πρόσθετο: eine nachträgliche Zahlung (συμπληρωματική πληρωμή)."
+        "Συχνή σημασία είναι η καθυστέρηση: nachträglich gratulieren — δίνω ευχές μετά το γεγονός. Το επίθετο σημαίνει επίσης κάτι που γίνεται αργότερα, μετά τον προβλεπόμενο χρόνο: eine nachträgliche Zahlung (μεταγενέστερη πληρωμή)."
       ],
       "examples": [
         {
@@ -23324,7 +23324,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "μεταφέρω (μήνυμα) • παραδίδω",
       "explanation": [
-        "Βασική ιδέα: überbringen σημαίνει παραδίδω στον παραλήπτη ένα μήνυμα, ευχές, ένα γράμμα ή ένα δώρο που μου έχουν εμπιστευτεί — το φέρνω και το παραδίδω προσωπικά. Ο παραλήπτης είναι σε δοτική: jemandem etwas überbringen.",
+        "Βασική ιδέα: überbringen σημαίνει παραδίδω στον παραλήπτη ένα μήνυμα, ευχές, ένα γράμμα ή ένα δώρο — το φέρνω και το παραδίδω προσωπικά. Ο παραλήπτης είναι σε δοτική: jemandem etwas überbringen.",
         "Αχώριστο πρόθημα über-: überbringt, überbrachte, hat überbracht. Στο απαρέμφατο το zu μπαίνει πριν από το ρήμα: um die Nachricht zu überbringen. Η λέξη είναι λίγο επίσημη."
       ],
       "examples": [

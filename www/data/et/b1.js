@@ -3154,8 +3154,8 @@ const B1_WORDS = [
         },
         {
           "word": "ablegen",
-          "meaning": "ära panema",
-          "example": "Sie legt die Jacke ab. – Ta paneb jope ära."
+          "meaning": "ära panema; seljast võtma",
+          "example": "Sie legt die Jacke ab. – Ta võtab jope seljast."
         }
       ],
       "tip": [
@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Me anname teile selle ülesande hea meelega."
+          "lv": "Me anname teile selle tellimuse (ülesande) hea meelega."
         }
       ],
       "comparison": [
@@ -10226,7 +10226,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen ei ole sama mis besorgt sein (mures olema): omadussõna besorgt on teine sõna.",
-        "Besorgen on lahutamatu eesliitega: besorgt, mitte gesorgt."
+        "Besorgen on lahutamatu eesliitega, täisminevikus ilma ge-ta: hat besorgt (gesorgt on teisest tegusõnast — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11691,7 +11691,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: bieten tähendab pakkuma või võimaldama – andma kellelegi võimalust, teenust või eelist; samuti oksjonil hinda pakkuma. See on tugev tegusõna: er bietet, bot, hat geboten. Järgneb akusatiiv, sageli koos datiiviga: jemandem etwas bieten.",
         "Näited: Das Hotel bietet viel Komfort (hotell pakub palju mugavust), Ich biete 100 Euro (ma pakun 100 eurot). Enesekohane sich bieten tähendab avanema: Eine Chance bietet sich (avaneb võimalus).",
-        "Sellega on seotud nimisõna das Angebot (pakkumine), kuid tegusõna anbieten (pakkuma) on eraldi sõna."
+        "Nimisõna das Angebot (pakkumine) tuleneb sõnast anbieten; sõnast bieten tuleneb das Gebot (pakkumine oksjonil)."
       ],
       "examples": [
         {
@@ -12114,7 +12114,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "plokk",
       "explanation": [
-        "Põhimõte: der Block on plokk – tihe, ühtne tükk või komplekt: märkmeplokk, jääplokk, hoonete plokk (kvartal). Mitmus on die Blöcke.",
+        "Põhimõte: der Block on plokk – tihe, ühtne tükk või komplekt: märkmeplokk, jääplokk, hoonete plokk (kvartal). Mitmus on die Blöcke (märkmeplokkide ja hoonete plokkide puhul sageli ka die Blocks).",
         "Tüüpilised liitsõnad: der Notizblock (märkmeplokk), der Wohnblock (kortermaja, elamukvartal), der Motorblock (mootoriplokk); ka ein Block Eis (jääplokk).",
         "Ülekantud tähenduses võib der Block olla ka poliitiline või majanduslik liit (eesti keeles sel juhul blokk): der Machtblock (võimublokk)."
       ],
@@ -12747,7 +12747,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft on naissoost.",
-        "Ära aja segi sõnaga das Konsulat (konsulaat): see teenindab tavaliselt kodanikke mingis kindlas linnas."
+        "Ära aja segi sõnaga das Konsulat (konsulaat): see teenindab kodanikke kindlas konsulaarpiirkonnas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13329,7 +13329,7 @@ const B1_WORDS = [
       "translation": "liit",
       "explanation": [
         "Põhimõte: der Bund on liit, ühendus või riiklik liit – mitme osapoole ühinemine üheks tervikuks. Mitmus on die Bünde. Sõna on meessoost.",
-        "Saksamaal tähendab der Bund sageli föderaalvalitsust ehk liitriiki vastandina liidumaadele (Länder): Bund und Länder. Liitsõnades: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Saksamaal tähendab der Bund sageli föderaalvalitsust ehk liitriiki vastandina liidumaadele (die Länder): Bund und Länder. Liitsõnades: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Muud tähendused: ein Bund fürs Leben (abielu, eluaegne liit) ja das Bund (kimp): ein Bund Radieschen. See on teine sõna teise artikliga."
       ],
       "examples": [
@@ -13663,7 +13663,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: dadurch on määrsõna, mis tähendab seeläbi, selle tõttu, sellega – osutab põhjusele või vahendile. Tavaliselt seob see eelmise lause tagajärjega: Er hat viel geübt. Dadurch wurde er besser.",
         "Sõnajärg: kui lause algab sõnaga dadurch, on tegusõna teisel kohal: Dadurch wird alles einfacher. Ühendina dadurch, dass (sellega, et; tänu sellele, et) alustab see kõrvallauset, mille tegusõna on lõpus.",
-        "Kohatähenduses tähendab dadurch sealt läbi ning siis on rõhk esimesel silbil: Die Tür war offen, wir sind dadurch gegangen."
+        "Kohatähenduses tähendab dadurch ka sealt läbi: Die Tür war offen, wir sind dadurch gegangen. Tavaliselt on rõhk teisel silbil; esimest silpi rõhutatakse ainult erilisel esiletõstmisel."
       ],
       "examples": [
         {
@@ -15487,7 +15487,7 @@ const B1_WORDS = [
       "translation": "teenima",
       "explanation": [
         "Põhimõte: dienen tähendab teenima ehk mingit eesmärki teenima või mingit ülesannet täitma. Sagedamad konstruktsioonid: dienen als + nominatiiv (millenagi toimima), dienen zu + datiiv (millekski mõeldud olema) ja dienen + datiiv (kellelegi või millelegi teenima).",
-        "Vormid: dient, diente, hat gedient. Tegusõnale järgneb datiiv (Er dient dem Land), mitte akusatiiv. Viisaka pöördumisena tähendab Womit kann ich dienen? „Kuidas saan teid aidata?“, sõjaväelises tähenduses tähendab dienen aga sõjaväes teenima."
+        "Vormid: dient, diente, hat gedient. Tegusõnale järgneb datiiv (Er dient dem Land), mitte akusatiiv. Womit kann ich dienen? („Kuidas saan teid aidata?“) on viisakas, veidi vanamoodne teenindaja pakkumine aidata, sõjaväelises tähenduses tähendab dienen aga sõjaväes teenima."
       ],
       "examples": [
         {
@@ -16332,7 +16332,7 @@ const B1_WORDS = [
       "translation": "kõhulahtisus",
       "explanation": [
         "Põhimõte: der Durchfall on meessoost nimisõna, mis tähendab kõhulahtisust – vedelat ja sagedast roojamist. Meditsiinis ja igapäevakeeles kasutatakse seda ainsuses: Durchfall haben – kõhulahtisus olema.",
-        "Mitmust die Durchfälle kasutatakse harva. Ülekantud tähenduses võib Durchfall tähendada ka läbikukkumist (eksamil, teatrietendusena), kuid siis kasutatakse tavaliselt tegusõna durchfallen."
+        "Mitmust die Durchfälle kasutatakse harva. Ülekantud tähenduses (kõnekeeles) võib Durchfall tähendada ka läbikukkumist (eksamil, teatrietendusena), kuid siis kasutatakse tavaliselt tegusõna durchfallen."
       ],
       "examples": [
         {
@@ -17057,7 +17057,7 @@ const B1_WORDS = [
       "translation": "oma",
       "explanation": [
         "Põhimõte: eigen on omadussõna, mis tähendab „oma, enda“. See rõhutab kuuluvust: mein eigenes Auto – minu enda auto. Tavaliselt seisab see nimisõna ees ja käändub: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Ülekantud tähenduses võib eigen tähendada ka „omapärane, eriline“: ein eigener Geruch – omapärane lõhn. Väljend etwas zu eigen haben – midagi (omadusena) omama. B1-tasemel on põhitähendus „oma, enda“."
+        "Ülekantud tähenduses võib eigen tähendada ka „omapärane, eriline“: ein eigener Geruch – omapärane lõhn. Väljend sich (Dat) etwas zu eigen machen – midagi omaks võtma. B1-tasemel on põhitähendus „oma, enda“."
       ],
       "examples": [
         {
@@ -29727,7 +29727,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Mitmuses on lõpp -er: die Geschlechter.",
-        "Ankeetides on sõna Geschlecht järel sageli täitmisväli, mitte küsimus."
+        "Ankeetides on Geschlecht välja nimetus (sugu), kus märgitakse männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32627,7 +32627,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pärast ein Haufen tuleb nimisõna ilma von'ita: ein Haufen Arbeit, ein Haufen Geld.",
+        "Pärast ein Haufen tuleb nimisõna tavaliselt ilma von'ita: ein Haufen Arbeit, ein Haufen Geld (harvem: ein Haufen von Problemen).",
         "Väljend über den Haufen werfen — (plaane) segi paiskama, nurjama."
       ],
       "important": [
@@ -34278,7 +34278,7 @@ const B1_WORDS = [
       "translation": "homoseksuaal",
       "explanation": [
         "Põhimõte: der Homosexuelle on nimisõna, mis tähendab homoseksuaalset meest, homoseksuaali. See käändub nagu omadussõna: ein Homosexueller, der Homosexuelle, die Homosexuellen (mitmus). Naise kohta: die Homosexuelle, eine Homosexuelle.",
-        "Sõna on neutraalne ja ametlik ning seda kasutatakse ametlikes tekstides, uudistes ja seadustes. Igapäevakeeles öeldakse sageli schwul (gei) või lesbisch (lesbi)."
+        "Sõna on neutraalne ja ametlik ning seda kasutatakse ametlikes tekstides, uudistes ja seadustes. Igapäevakeeles kasutatakse sageli omadussõnu: er ist schwul (ta on gei), sie ist lesbisch (ta on lesbi)."
       ],
       "examples": [
         {
@@ -45694,7 +45694,7 @@ const B1_WORDS = [
         "Liitsõnad: die Machtübernahme (võimuhaare), der Machtkampf (võimuvõitlus)."
       ],
       "important": [
-        "Macht ei tähenda füüsilist jõudu; selle jaoks kasutatakse die Kraft.",
+        "Macht ei tähenda füüsilist jõudu; seda nimetatakse die Kraft.",
         "Mitmus die Mächte käib peamiselt riikide või jõudude kohta."
       ],
       "sectionAccents": {
@@ -46069,7 +46069,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sõna das Maß kirjutatakse ß-iga, sest täishäälik on pikk.",
-        "Mitmus on die Maße (mõõtmed); daatiivis den Maßen (in Maßen, über alle Maßen)."
+        "Mitmus on die Maße (mõõtmed); daatiivis den Maßen (in Maßen). Väljendis über alle Maßen on säilinud ajalooline vorm."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47439,7 +47439,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben ei ole sama mis aufgeben: nachgeben tähendab kellelegi järele andma, aufgeben — mingist eesmärgist loobuma.",
-        "Eesliide nach- eraldub: gibt nach, mitte nachgibt."
+        "Eesliide nach- eraldub pealauses: er gibt nach (kõrvallauses koos: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47756,7 +47756,7 @@ const B1_WORDS = [
       "translation": "kalduma",
       "explanation": [
         "Põhimõte: neigen koos eessõnaga zu + datiiv tähendab millegi poole kalduma, kalduvust omama: Er neigt zu schnellen Entscheidungen. Vormid: neigt, neigte, hat geneigt.",
-        "Otseses tähenduses on etwas neigen kallutama, painutama (den Kopf neigen — pead kallutama). Enesekohaselt tähendab sich neigen kalduma, kummarduma või lõpule lähenema: Der Tag neigt sich.",
+        "Otseses tähenduses on etwas neigen kallutama, painutama (den Kopf neigen — pead kallutama). Enesekohaselt tähendab sich neigen kalduma, kummarduma või (kõrgemas stiilis) lõpule lähenema: Der Tag neigt sich. Väljend sich dem Ende zuneigen tuleb tegusõnast zuneigen.",
         "Samast tüvest on nimisõna die Neigung (kalduvus, kalle)."
       ],
       "examples": [
@@ -48653,7 +48653,7 @@ const B1_WORDS = [
       "translation": "häda",
       "explanation": [
         "Põhimõte: die Not on häda, puudus, viletsus — olukord, kus inimesel puudub kõige vajalikum (in Not leben, Not leiden). See on ka kiire vajadus või õnnetus: in der Not, in Not geraten.",
-        "Sõna on naissoost. Mitmus die Nöte on väga haruldane; tavaliselt kasutatakse ainsust.",
+        "Sõna on naissoost. Mitmust die Nöte kasutatakse harvem (Sorgen und Nöte); tavaliselt kasutatakse ainsust.",
         "Väljendid: zur Not (kui muud moodi ei saa; hädapärast), aus der Not eine Tugend machen (hädast voorust tegema), Not macht erfinderisch (häda teeb leidlikuks)."
       ],
       "examples": [
@@ -60284,7 +60284,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Istekoha kohta sõidukis öeldakse der Sitz või der Platz; ainult der Platz võib tähendada kohta üldiselt.",
-        "Firma asukoha kohta öeldakse der Firmensitz."
+        "Ettevõtte juriidilist asukohta (peakorterit) nimetatakse der Firmensitz."
       ],
       "important": [
         "Der Sitz ei ole das Sitzen: das Sitzen on tegevus, der Sitz – iste või asukoht.",
@@ -61258,7 +61258,7 @@ const B1_WORDS = [
         "Talletamise kohta (energia, vesi) kasutatakse samuti speichern."
       ],
       "important": [
-        "Käskiv kõneviis on Speichere (või Speicher), mitte Speichern.",
+        "Käskiv kõneviis on Speichere! (ka Speichre!; kõnekeeles Speicher!), mitte Speichern.",
         "speichern ei ole sperren (blokeerima)."
       ],
       "sectionAccents": {
@@ -76544,7 +76544,7 @@ const B1_WORDS = [
         "Zugeben järel tuleb sageli dass-lause, milles tegusõna on lõpus."
       ],
       "important": [
-        "Zugeben tähendab millegi enda jaoks ebasoodsa tunnistamist; kui tahad lihtsalt öelda, et lisad toidule midagi, kasuta hinzufügen.",
+        "Zugeben tähendab tavaliselt millegi enda jaoks ebasoodsa tunnistamist. Retseptides tähendab zugeben ka lisama (Salz zugeben); igapäevakeeles öeldakse selles tähenduses sagedamini hinzufügen.",
         "Zugeben järel on dass-lauses tegusõna lõpus: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

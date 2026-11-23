@@ -5065,7 +5065,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Con mucho gusto le confiamos el encargo."
+          "lv": "Con mucho gusto le adjudicamos el pedido (el encargo)."
         }
       ],
       "comparison": [
@@ -10210,7 +10210,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen no es lo mismo que besorgt sein (estar preocupado): el adjetivo besorgt es otra palabra.",
-        "Besorgen es inseparable: besorgt, no gebesorgt."
+        "Besorgen es inseparable y en el perfecto va sin ge-: hat besorgt (gesorgt viene de otro verbo: sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11679,7 +11679,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principal: bieten significa ofrecer o brindar: dar a alguien una posibilidad, un servicio o una ventaja; y también pujar en una subasta. Es un verbo fuerte: er bietet, bot, hat geboten. Rige acusativo, a menudo con dativo: jemandem etwas bieten.",
         "Ejemplos: Das Hotel bietet viel Komfort (el hotel ofrece mucha comodidad), Ich biete 100 Euro (ofrezco 100 euros). En forma reflexiva, sich bieten significa presentarse: Eine Chance bietet sich (se presenta una oportunidad).",
-        "Está emparentado con el sustantivo das Angebot (la oferta), pero el verbo anbieten (ofrecer) es otro verbo."
+        "El sustantivo das Angebot (la oferta) procede de anbieten; de bieten procede das Gebot (la puja en una subasta)."
       ],
       "examples": [
         {
@@ -12102,7 +12102,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bloque",
       "explanation": [
-        "Idea principal: der Block es un bloque: un trozo compacto y macizo o un conjunto: un bloc de notas, un bloque de hielo, un bloque de edificios. El plural es die Blöcke.",
+        "Idea principal: der Block es un bloque: un trozo compacto y macizo o un conjunto: un bloc de notas, un bloque de hielo, un bloque de edificios. El plural es die Blöcke (para los blocs de notas y los bloques de edificios, a menudo también die Blocks).",
         "Compuestos típicos: der Notizblock (el bloc de notas), der Wohnblock (el bloque de viviendas), der Motorblock (el bloque del motor); también ein Block Eis (un bloque de hielo).",
         "En sentido figurado, der Block puede ser también una alianza política o económica: der Machtblock (el bloque de poder)."
       ],
@@ -12738,7 +12738,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft es femenino.",
-        "No lo confundas con das Konsulat (el consulado): suele atender a los ciudadanos en una ciudad concreta."
+        "No lo confundas con das Konsulat (el consulado): atiende a los ciudadanos de una demarcación consular determinada."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13320,7 +13320,7 @@ const B1_WORDS = [
       "translation": "unión",
       "explanation": [
         "Idea principal: der Bund es una unión, alianza o federación: la unión de varias partes en un todo. El plural es die Bünde. Es masculino.",
-        "En Alemania, der Bund suele significar el Estado federal, frente a los estados federados (Länder): Bund und Länder. En compuestos: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "En Alemania, der Bund suele significar el Estado federal, frente a los estados federados (die Länder): Bund und Länder. En compuestos: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Otros sentidos: ein Bund fürs Leben (el matrimonio, la unión para toda la vida) y das Bund (el manojo): ein Bund Radieschen. Esta última es otra palabra con otro artículo."
       ],
       "examples": [
@@ -13655,7 +13655,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principal: dadurch es un adverbio que significa de este modo, así, gracias a ello: indica la causa o el medio. Suele enlazar la oración anterior con su consecuencia: Er hat viel geübt. Dadurch wurde er besser.",
         "Orden de las palabras: tras dadurch el verbo va en segunda posición: Dadurch wird alles einfacher. Además, dadurch, dass funciona como conjunción (por el hecho de que) e introduce una subordinada con el verbo al final.",
-        "En sentido espacial, dadurch significa también por ahí, a través de ello, y entonces se acentúa la primera sílaba: Die Tür war offen, wir sind dadurch gegangen."
+        "En sentido espacial, dadurch significa también por ahí, a través de ello: Die Tür war offen, wir sind dadurch gegangen. Normalmente se acentúa la segunda sílaba; la primera solo se acentúa para dar un énfasis especial."
       ],
       "examples": [
         {
@@ -15473,7 +15473,7 @@ const B1_WORDS = [
       "translation": "servir",
       "explanation": [
         "Idea principal: dienen significa servir, ser útil para un fin o cumplir una función. Las construcciones más frecuentes son dienen als + nominativo (servir de, servir como), dienen zu + dativo (servir para) y dienen + dativo (servir a alguien o a algo).",
-        "Formas: dient, diente, hat gedient. El verbo rige dativo (Er dient dem Land), no acusativo. Womit kann ich dienen? es una fórmula cortés para ofrecer ayuda («¿en qué puedo servirle?»), y en el sentido militar dienen significa «servir en el ejército, hacer la mili»."
+        "Formas: dient, diente, hat gedient. El verbo rige dativo (Er dient dem Land), no acusativo. Womit kann ich dienen? es una fórmula cortés y algo anticuada con la que un dependiente ofrece ayuda («¿en qué puedo servirle?»), y en el sentido militar dienen significa «servir en el ejército, hacer la mili»."
       ],
       "examples": [
         {
@@ -16312,7 +16312,7 @@ const B1_WORDS = [
       "translation": "diarrea",
       "explanation": [
         "Idea principal: der Durchfall es un sustantivo masculino que significa diarrea: deposiciones líquidas y frecuentes. Tanto en medicina como en el día a día se usa en singular: Durchfall haben – tener diarrea.",
-        "El plural die Durchfälle se usa poco. En sentido figurado, Durchfall también puede significar fracaso (en un examen, en una obra de teatro), aunque en ese caso se suele usar el verbo durchfallen."
+        "El plural die Durchfälle se usa poco. En sentido figurado (coloquial), Durchfall también puede significar fracaso (en un examen, en una obra de teatro), aunque en ese caso se suele usar el verbo durchfallen."
       ],
       "examples": [
         {
@@ -17037,7 +17037,7 @@ const B1_WORDS = [
       "translation": "propio",
       "explanation": [
         "Idea principal: eigen es un adjetivo que significa «propio». Subraya la pertenencia: mein eigenes Auto – mi propio coche. Suele ir delante del sustantivo y se declina: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "En sentido figurado, eigen también puede significar «peculiar, particular»: ein eigener Geruch – un olor peculiar. Expresión: etwas zu eigen haben – poseer algo, tenerlo como propio. En el nivel B1 el significado principal es «propio»."
+        "En sentido figurado, eigen también puede significar «peculiar, particular»: ein eigener Geruch – un olor peculiar. Expresión: sich (Dat) etwas zu eigen machen – adoptar algo como propio. En el nivel B1 el significado principal es «propio»."
       ],
       "examples": [
         {
@@ -29712,7 +29712,7 @@ const B1_WORDS = [
       ],
       "important": [
         "El plural lleva la terminación -er: die Geschlechter.",
-        "En los formularios, tras Geschlecht suele haber una casilla para rellenar, no una pregunta."
+        "En los formularios, Geschlecht es el nombre de la casilla (sexo), donde se marca männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32609,7 +32609,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tras ein Haufen va el sustantivo sin von (a diferencia del español un montón de): ein Haufen Arbeit, ein Haufen Geld.",
+        "Tras ein Haufen el sustantivo suele ir sin von (a diferencia del español un montón de): ein Haufen Arbeit, ein Haufen Geld (menos frecuente: ein Haufen von Problemen).",
         "Expresión: über den Haufen werfen, echar por tierra (unos planes)."
       ],
       "important": [
@@ -34257,7 +34257,7 @@ const B1_WORDS = [
       "translation": "homosexual",
       "explanation": [
         "Idea principal: der Homosexuelle es un sustantivo que significa hombre homosexual. Se declina como un adjetivo: ein Homosexueller, der Homosexuelle, die Homosexuellen (plural). Para una mujer: die Homosexuelle, eine Homosexuelle.",
-        "Es una palabra neutra y formal que se usa en textos oficiales, en las noticias y en las leyes. En el día a día se dice a menudo schwul (gay) o lesbisch (lesbiana)."
+        "Es una palabra neutra y formal que se usa en textos oficiales, en las noticias y en las leyes. En el día a día se suelen usar los adjetivos: er ist schwul (es gay), sie ist lesbisch (es lesbiana)."
       ],
       "examples": [
         {
@@ -46030,7 +46030,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß se escribe con ß porque la vocal es larga.",
-        "El plural es die Maße (medidas); en dativo, den Maßen (in Maßen, über alle Maßen)."
+        "El plural es die Maße (medidas); en dativo, den Maßen (in Maßen). En la expresión über alle Maßen se conserva una forma histórica."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47398,7 +47398,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben no es lo mismo que aufgeben: nachgeben es ceder ante alguien; aufgeben es abandonar un objetivo.",
-        "El prefijo nach- se separa: gibt nach, no nachgibt."
+        "El prefijo nach- se separa en la oración principal: er gibt nach (en la subordinada va junto: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47711,7 +47711,7 @@ const B1_WORDS = [
       "translation": "tender • inclinar",
       "explanation": [
         "Idea principal: neigen con zu + dativo significa tender a algo, tener propensión: Er neigt zu schnellen Entscheidungen. Formas: neigt, neigte, hat geneigt.",
-        "En sentido literal, etwas neigen es inclinar algo (den Kopf neigen). Como reflexivo, sich neigen significa inclinarse o acercarse al final: Der Tag neigt sich.",
+        "En sentido literal, etwas neigen es inclinar algo (den Kopf neigen). Como reflexivo, sich neigen significa inclinarse o (en estilo elevado) acercarse al final: Der Tag neigt sich. La expresión sich dem Ende zuneigen viene de zuneigen.",
         "De la misma raíz se forma el sustantivo die Neigung (tendencia, inclinación, pendiente)."
       ],
       "examples": [
@@ -48606,7 +48606,7 @@ const B1_WORDS = [
       "translation": "necesidad • miseria • apuro",
       "explanation": [
         "Idea principal: die Not es la necesidad, la miseria, una situación penosa en la que a alguien le falta lo más imprescindible (in Not leben, Not leiden). Es también un apuro o una emergencia: in der Not, in Not geraten.",
-        "Es femenino. El plural die Nöte es muy raro; normalmente se usa el singular.",
+        "Es femenino. El plural die Nöte es menos frecuente (Sorgen und Nöte); normalmente se usa el singular.",
         "Expresiones: zur Not (si no queda más remedio, en caso de necesidad), aus der Not eine Tugend machen (hacer de la necesidad virtud), Not macht erfinderisch (la necesidad agudiza el ingenio)."
       ],
       "examples": [
@@ -54746,7 +54746,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten no es braten: braten es freír o asar con aceite o grasa; rösten, tostar.",
-        "No confundas rösten con rostet (se oxida)."
+        "No confundas rösten con rosten (oxidarse)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60250,7 +60250,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Para un asiento en un medio de transporte se usa der Sitz o der Platz; solo der Platz puede significar sitio en general.",
-        "La sede de una empresa se llama der Firmensitz."
+        "La sede legal de una empresa (su domicilio social) se llama der Firmensitz."
       ],
       "important": [
         "Der Sitz no es das Sitzen: das Sitzen es la acción de estar sentado; der Sitz, el asiento o la sede.",
@@ -61224,7 +61224,7 @@ const B1_WORDS = [
         "Para almacenar (energía, agua) también se usa speichern."
       ],
       "important": [
-        "El imperativo es Speichere (o Speicher), no Speichern.",
+        "El imperativo es Speichere! (también Speichre!; en la lengua hablada, Speicher!), no Speichern.",
         "speichern no es sperren (bloquear)."
       ],
       "sectionAccents": {
@@ -70108,7 +70108,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "venda",
+          "meaning": "vendaje, venda",
           "example": "Sie wickelt eine Binde um den Fuß. – Se envuelve el pie con una venda."
         },
         {
@@ -76471,7 +76471,7 @@ const B1_WORDS = [
         "Después de zugeben suele venir una oración con dass, con el verbo al final."
       ],
       "important": [
-        "Zugeben es admitir algo que no le conviene al hablante; si solo quieres decir que añades algo a la comida, usa hinzufügen.",
+        "Zugeben suele significar admitir algo que no le conviene al hablante. En las recetas, zugeben significa también añadir (Salz zugeben); en el día a día, con este sentido se dice más a menudo hinzufügen.",
         "En la oración con dass que sigue a zugeben, el verbo va al final: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "einbýlishús",
       "explanation": [
         "Meginhugmynd: das Einfamilienhaus er hús ætlað einni fjölskyldu — frístandandi eða sambyggt öðrum, en með einni íbúð og yfirleitt eigin garði.",
-        "Hvorugkynsnafnorð: das Einfamilienhaus, fleirtala die Einfamilienhäuser. Samsett úr Ein- + Familie + Haus, líkt og íslenska orðið einbýlishús.",
+        "Hvorugkynsnafnorð: das Einfamilienhaus, fleirtala die Einfamilienhäuser. Samsett úr Ein- + Familien- (samsetningarmynd af Familie) + Haus, líkt og íslenska orðið einbýlishús.",
         "Andstæðan er das Mehrfamilienhaus (fjölbýlishús)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Í stjórnmálum er sagt eine Partei wählen eða für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei og die Party (partí, veisla) hljóma líkt en merkja allt annað."
+        "Die Partei og die Party (partí, veisla) hljóma líkt en merkja allt annað (bæði eru þó komin af latneska orðinu pars — hluti)."
       ],
       "sectionAccents": {
         "explanation": {

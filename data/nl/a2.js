@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "afmelden, uitschrijven",
+          "meaning": "zich afmelden, uitschrijven",
           "example": "Ich melde mich vom Kurs ab. – Ik meld me af voor de cursus."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Kern: anstecken is een scheidbaar werkwoord met de betekenis opspelden of aandoen (een bloem opspelden, een ring aandoen), en ook besmetten of aansteken (bij een ziekte).",
         "Vormen: steckt an, steckte an, hat angesteckt. Het voorvoegsel an- wordt in de zin afgesplitst: Er steckt mir den Ring an. Het werkwoord neemt een accusatief (wat?), vaak ook een datief (aan wie?).",
-        "In de betekenis besmetten gebruik je jemanden anstecken of sich anstecken (een ziekte oplopen): Ich habe mich bei ihm angesteckt. In sommige regio's betekent anstecken ook aansteken (eine Zigarette anstecken)."
+        "In de betekenis besmetten gebruik je jemanden anstecken of sich anstecken (een ziekte oplopen): Ich habe mich bei ihm angesteckt. In de spreektaal betekent anstecken ook aansteken (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Kern: die Bahn is een vrouwelijk zelfstandig naamwoord. Het betekent de spoorweg en het spoorvervoer in het algemeen (mit der Bahn fahren – met de trein reizen). In de bedrijfsnaam Deutsche Bahn zijn het de Duitse spoorwegen.",
         "Het meervoud is die Bahnen. Het woord komt ook voor in samenstellingen: die Straßenbahn (tram), die U-Bahn (metro), die S-Bahn (stadsspoorlijn), die Eisenbahn (spoorweg).",
-        "Andere betekenissen: baan of parcours (die Laufbahn, die Radrennbahn) en een baan in de ruimte (die Umlaufbahn). In de sport is die Bahn de atletiekbaan."
+        "Andere betekenissen: baan of parcours (die Radrennbahn; die Laufbahn — ook: loopbaan) en een baan in de ruimte (die Umlaufbahn). In de sport is die Bahn de atletiekbaan."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn is vrouwelijk; verwar het niet met der Bahnhof (station, mannelijk).",
-        "Het woord Bahn op zich betekent vaak het bedrijf Deutsche Bahn, niet een concrete trein; een concrete trein is der Zug."
+        "Het woord Bahn kan ook het bedrijf Deutsche Bahn betekenen (Die Bahn hat Verspätung); een concrete trein heet der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt is niet hetzelfde als bestimmen: bestimmen betekent bepalen, beslissen; bestimmt is een bijwoord of bijvoeglijk naamwoord.",
-        "Bestimmt kan ook een vermoeden uitdrukken, niet alleen zekerheid: Er ist bestimmt zu Hause (hij is vast thuis)."
+        "Bestimmt drukt ook een stellig vermoeden uit: Er ist bestimmt zu Hause (hij is zeker thuis)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11855,7 +11855,7 @@ const A2_WORDS = [
       "explanation": [
         "Kern: brennen is een onregelmatig werkwoord dat branden betekent: vuur, hout, licht en zelfs ogen of huid kunnen branden. In de basisbetekenis heeft het geen lijdend voorwerp.",
         "Vormen: brennt, brannte, hat gebrannt. Het is een gemengd werkwoord: de stamklinker verandert (brennen – brannte), maar de uitgangen zijn die van regelmatige werkwoorden (ich brannte, wir brannten).",
-        "Figuurlijk betekent brennen ook steken of schrijnen (van pijn of van de zon: Die Sonne brennt) en branden van enthousiasme (für etwas brennen). Met een lijdend voorwerp betekent brennen branden (eine CD brennen) of stoken (Schnaps brennen)."
+        "Figuurlijk betekent brennen ook steken of schrijnen (van pijn of van de zon: Die Sonne brennt) en branden van enthousiasme (für etwas brennen). Met een lijdend voorwerp betekent brennen branden (eine CD brennen) of distilleren (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12225,7 +12225,7 @@ const A2_WORDS = [
       "translation": "erbij • aanwezig",
       "explanation": [
         "Kern: dabei is een bijwoord gevormd uit da + bei. Het betekent erbij, daarbij: naast iets of bij een gebeurtenis. De meest gebruikte combinatie is dabei sein (erbij zijn, meedoen).",
-        "Andere veelvoorkomende betekenissen: bij je hebben (etwas dabei haben), daarbij (tegelijkertijd) en net bezig zijn iets te doen (dabei sein, etwas zu tun). Het is een woord van plaats en tijd dat verwijst naar iets wat al genoemd is.",
+        "Andere veelvoorkomende betekenissen: bij je hebben (etwas dabei haben), tegelijkertijd, bovendien en net bezig zijn iets te doen (dabei sein, etwas zu tun). Het is een woord van plaats en tijd dat verwijst naar iets wat al genoemd is.",
         "Dabei komt ook voor in samenstellingen: dabeibleiben (erbij blijven), dabeihaben (bij zich hebben), dabeisitzen (erbij zitten)."
       ],
       "examples": [
@@ -12422,7 +12422,7 @@ const A2_WORDS = [
       "explanation": [
         "Kern: dafür is een bijwoord (da + für). Het betekent daarvoor (in ruil, bij betalen, als dank), voor dat doel of voor (instemmend): Ich bin dafür (ik ben ervoor).",
         "Het vervangt für + iets wat al genoemd is: Ich danke dir dafür. Bij werkwoorden als sich interessieren für, sorgen für en sich entschuldigen für gebruik je dafür als je het zelfstandig naamwoord niet hoeft te herhalen.",
-        "In de spreektaal betekent dafür ook daarentegen, daar staat tegenover: Er ist nicht schnell, dafür arbeitet er genau. In die betekenis leidt het een tegenstelling met een positieve compensatie in."
+        "Dafür betekent ook daarentegen, daar staat tegenover: Er ist nicht schnell, dafür arbeitet er genau. In die betekenis leidt het een tegenstelling met een positieve compensatie in."
       ],
       "examples": [
         {
@@ -12656,7 +12656,7 @@ const A2_WORDS = [
       ],
       "important": [
         "In een bijzin met het voegwoord damit staat het werkwoord aan het eind.",
-        "damit betekent niet daarom; voor een reden gebruik je deshalb of darum."
+        "Het voegwoord damit (opdat) betekent niet daarom; voor de betekenis daarom gebruik je deshalb of darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19803,7 +19803,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "In deze betekenis staat gar bijna altijd bij nicht, kein of nichts."
+        "Als versterking van een ontkenning wordt gar gebruikt samen met nicht, kein of nichts."
       ],
       "important": [
         "gar versterkt de ontkenning: gar nicht is sterker dan nicht."
@@ -23637,7 +23637,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "In verband met Wenen hoor je het woord Kaffeehaus vaak; in Duitsland hoor je net zo vaak das Café.",
+        "Het woord Kaffeehaus is typisch voor Oostenrijk (Wenen); in Duitsland zegt men veel vaker das Café.",
         "Onthoud de delen: Kaffee (koffie) + das Haus (huis)."
       ],
       "important": [
@@ -26167,7 +26167,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen is mannelijk: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen alleen betekent auto of wagon, niet kinderwagen."
+        "Wagen alleen betekent meestal auto of wagon; een kinderwagen heet Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28667,7 +28667,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Onthoud: Kraft = kracht, Macht = macht, Energie = energie.",
-        "Prent je de uitdrukking in Kraft treten (in werking treden, van kracht worden) goed in; die kom je vaker tegen dan de basisbetekenis."
+        "Prent je de uitdrukking in Kraft treten (in werking treden, van kracht worden) goed in — die wordt vaak gebruikt voor wetten en regels."
       ],
       "important": [
         "Die Kraft is vrouwelijk; het meervoud is die Kräfte, niet die Krafte.",
@@ -32733,7 +32733,7 @@ const A2_WORDS = [
       "translation": "cijfer",
       "explanation": [
         "Kern: die Note is een vrouwelijk zelfstandig naamwoord. Op school en aan de universiteit betekent het cijfer (eine gute Note bekommen, een goed cijfer halen). In de muziek is het een noot: Noten lesen (noten lezen).",
-        "Het meervoud is die Noten. In Duitsland lopen de cijfers van 1 (sehr gut) tot 6 (ungenügend), en 1 is het beste. Eine gute Note is dus een laag getal.",
+        "Het meervoud is die Noten. Op Duitse scholen lopen de cijfers van 1 (sehr gut) tot 6 (ungenügend), en 1 is het beste (aan hogescholen en universiteiten is de schaal 1,0–5,0). Met eine gute Note bedoelt men dus een laag getal.",
         "Bij cijfers zeg je: eine Note bekommen, eine Note geben, die Note verbessern (het cijfer verbeteren)."
       ],
       "examples": [
@@ -35358,7 +35358,7 @@ const A2_WORDS = [
         "In de uitdrukking rechnen mit + datief is de betekenis „rekening houden met”, bijvoorbeeld met slecht weer."
       ],
       "important": [
-        "Rechnen mit betekent meestal „verwachten, rekening houden met”, niet „met iets rekenen” in wiskundige zin."
+        "Rechnen mit + datief betekent meestal „verwachten, rekening houden met” (Wir rechnen mit Regen); met een hulpmiddel betekent het „rekenen met”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36843,7 +36843,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "scherp • pittig",
       "explanation": [
-        "Kern: scharf is een bijvoeglijk naamwoord met meerdere betekenissen. Bij voorwerpen betekent het scherp (scharfes Messer – een scherp mes), bij eten pittig, heet van smaak (scharfes Essen). Figuurlijk kan het ook scherp of krachtig betekenen: eine scharfe Kurve, scharf bremsen.",
+        "Kern: scharf is een bijvoeglijk naamwoord met meerdere betekenissen. Bij voorwerpen betekent het scherp (scharfes Messer – een scherp mes), bij eten pittig, heet van smaak (scharfes Essen). Figuurlijk kan het ook abrupt of krachtig betekenen: eine scharfe Kurve (een scherpe bocht), scharf bremsen (hard remmen).",
         "De vergrotende trap is schärfer (met umlaut), de overtreffende trap am schärfsten. Voor een zelfstandig naamwoord: ein scharfes Messer, scharfe Soße.",
         "Let op: scharf gaat over een pittige, hete smaak (chili, mierikswortel), niet over een zoute smaak — zout is salzig."
       ],
@@ -37320,7 +37320,7 @@ const A2_WORDS = [
         "Een rij wachtende mensen heet Schlange; Reihe is eerder een rij als volgorde of beurt (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen is een vaste uitdrukking: niet in der Schlange sein, maar Schlange stehen."
+        "De meest gebruikte uitdrukking is Schlange stehen (ook in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45458,7 +45458,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln gebruik je als je het ene door het andere vervangt (school, werk, valuta); ändern als je iets zelf verandert.",
-        "Overstappen in het openbaar vervoer is umsteigen, niet wechseln."
+        "Overstappen in het openbaar vervoer is meestal umsteigen (ook mogelijk: den Zug wechseln)."
       ],
       "important": [
         "Met Geld wechseln bedoelt men meestal geld (om)wisselen, niet uitgeven.",

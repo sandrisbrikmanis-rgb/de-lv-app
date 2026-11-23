@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "enebolig",
       "explanation": [
         "Hovedidé: das Einfamilienhaus er et hus beregnet på én familie — frittliggende eller sammenbygd med naboens, men med én bolig og som regel egen hage. På norsk tilsvarer det oftest en enebolig.",
-        "Substantiv i intetkjønn: das Einfamilienhaus, flertall die Einfamilienhäuser. Det består av Ein- + Familie + Haus.",
+        "Substantiv i intetkjønn: das Einfamilienhaus, flertall die Einfamilienhäuser. Det består av Ein- + Familien- (sammensetningsform av Familie) + Haus.",
         "Motsetningen er das Mehrfamilienhaus (flerfamiliehus, boligblokk)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "I politikken sier man eine Partei wählen eller für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei og die Party (fest) ligner hverandre i lyd, men har ingenting med hverandre å gjøre."
+        "Die Partei og die Party (fest) ligner hverandre i lyd, men betyr noe helt annet (selv om begge kommer av latin pars — del)."
       ],
       "sectionAccents": {
         "explanation": {

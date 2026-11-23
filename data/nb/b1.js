@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Vi gir dere gjerne oppdraget."
+          "lv": "Vi gir dere gjerne denne bestillingen (dette oppdraget)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "besorgen er ikke det samme som besorgt sein (bekymret): adjektivet besorgt er et annet ord.",
-        "besorgen er ikke-delbart: besorgt, ikke gesorgt."
+        "besorgen er ikke-delbart, i perfektum uten ge-: hat besorgt (gesorgt kommer av et annet verb — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11679,7 +11679,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedtanke: bieten betyr å tilby eller gi – gi noen en mulighet, en tjeneste eller en fordel; og også å by på en auksjon. Det er et sterkt verb: er bietet, bot, hat geboten. Etter det følger akkusativ, ofte med dativ: jemandem etwas bieten.",
         "Eksempler: Das Hotel bietet viel Komfort (hotellet byr på mye komfort), Ich biete 100 Euro (jeg byr 100 euro). Refleksivt betyr sich bieten å by seg: Eine Chance bietet sich (det byr seg en sjanse).",
-        "Beslektet er substantivet das Angebot (tilbud), men verbet anbieten (tilby) er et annet ord."
+        "Substantivet das Angebot (tilbud) kommer av anbieten; av bieten kommer das Gebot (bud på auksjon)."
       ],
       "examples": [
         {
@@ -12100,7 +12100,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blokk",
       "explanation": [
-        "Hovedtanken: der Block er en blokk – et kompakt, sammenhengende stykke eller sett: en notatblokk, en isblokk, en boligblokk. Flertall er die Blöcke.",
+        "Hovedtanken: der Block er en blokk – et kompakt, sammenhengende stykke eller sett: en notatblokk, en isblokk, en boligblokk. Flertall er die Blöcke (om notatblokker og boligblokker ofte også die Blocks).",
         "Typiske sammensetninger: der Notizblock (notatblokk), der Wohnblock (boligblokk, boligkompleks), der Motorblock (motorblokk); også ein Block Eis (en isblokk).",
         "I overført betydning kan der Block også være en politisk eller økonomisk sammenslutning: der Machtblock (maktblokk)."
       ],
@@ -12734,7 +12734,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft er hunkjønn.",
-        "Ikke bland det sammen med das Konsulat (konsulat): det betjener som regel innbyggerne i en bestemt by."
+        "Ikke bland det sammen med das Konsulat (konsulat): det betjener borgere i et bestemt konsulatdistrikt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13316,7 +13316,7 @@ const B1_WORDS = [
       "translation": "forbund • union",
       "explanation": [
         "Hovedtanken: der Bund er et forbund, en sammenslutning eller en union på statlig nivå – flere parter som slutter seg sammen. Flertall er die Bünde. Ordet er hankjønn.",
-        "I Tyskland betyr der Bund ofte forbundsregjeringen, forbundsnivået, i motsetning til delstatene (Ländern): Bund und Länder. I sammensetninger: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "I Tyskland betyr der Bund ofte forbundsregjeringen, forbundsnivået, i motsetning til delstatene (die Länder): Bund und Länder. I sammensetninger: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Andre betydninger: ein Bund fürs Leben (ekteskap, et livslangt forbund) og das Bund (bunt): ein Bund Radieschen. Det er et annet ord med en annen artikkel."
       ],
       "examples": [
@@ -13650,7 +13650,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedtanken: dadurch er et adverb som betyr dermed, på den måten, ved det – det viser til en årsak eller et middel. Det knytter vanligvis den foregående setningen til følgen: Er hat viel geübt. Dadurch wurde er besser.",
         "Ordstilling: etter dadurch står verbet på andreplass: Dadurch wird alles einfacher. Dessuten innleder dadurch, dass som konjunksjon (ved at, fordi) en leddsetning med verbet til slutt.",
-        "I stedsbetydning betyr dadurch også gjennom det, og da ligger trykket på første stavelse: Die Tür war offen, wir sind dadurch gegangen."
+        "I stedsbetydning betyr dadurch også gjennom det: Die Tür war offen, wir sind dadurch gegangen. Vanligvis ligger trykket på andre stavelse; første stavelse får trykk bare ved spesiell framheving."
       ],
       "examples": [
         {
@@ -15478,7 +15478,7 @@ const B1_WORDS = [
       "translation": "tjene",
       "explanation": [
         "Hovedtanken: dienen betyr å tjene, være nyttig for et formål eller ha en bestemt funksjon. De vanligste konstruksjonene: dienen als + nominativ (tjene som), dienen zu + dativ (tjene til, brukes til) og dienen + dativ (tjene noen).",
-        "Former: dient, diente, hat gedient. Verbet tar dativ (Er dient dem Land), ikke akkusativ. I dagligtale er Womit kann ich dienen? et høflig tilbud om hjelp, og i militær betydning betyr dienen «gjøre tjeneste i forsvaret»."
+        "Former: dient, diente, hat gedient. Verbet tar dativ (Er dient dem Land), ikke akkusativ. Womit kann ich dienen? er et høflig, litt gammeldags tilbud om hjelp fra en ekspeditør eller servitør, og i militær betydning betyr dienen «gjøre tjeneste i forsvaret»."
       ],
       "examples": [
         {
@@ -16322,7 +16322,7 @@ const B1_WORDS = [
       "translation": "diaré",
       "explanation": [
         "Hovedtanken: der Durchfall er et substantiv i hankjønn som betyr diaré – tynn, hyppig avføring. I medisin og i hverdagen brukes det i entall: Durchfall haben – ha diaré, ha løs mage.",
-        "Flertallsformen die Durchfälle brukes sjelden. I overført betydning kan Durchfall også bety fiasko (til eksamen, i en teaterforestilling), men da bruker man som regel verbet durchfallen."
+        "Flertallsformen die Durchfälle brukes sjelden. I overført betydning (i dagligtale) kan Durchfall også bety fiasko (til eksamen, i en teaterforestilling), men da bruker man som regel verbet durchfallen."
       ],
       "examples": [
         {
@@ -17048,7 +17048,7 @@ const B1_WORDS = [
       "translation": "egen",
       "explanation": [
         "Hovedtanken: eigen er et adjektiv som betyr «egen». Det understreker eierskap: mein eigenes Auto – min egen bil. Det står vanligvis foran substantivet og bøyes: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "I overført betydning kan eigen også bety «særegen, egenartet»: ein eigener Geruch – en særegen lukt. Uttrykket etwas zu eigen haben betyr å ha noe ved seg. På B1-nivå er hovedbetydningen «egen»."
+        "I overført betydning kan eigen også bety «særegen, egenartet»: ein eigener Geruch – en særegen lukt. Uttrykket sich (Dat) etwas zu eigen machen betyr å gjøre noe til sitt eget. På B1-nivå er hovedbetydningen «egen»."
       ],
       "examples": [
         {
@@ -29696,7 +29696,7 @@ const B1_WORDS = [
       ],
       "important": [
         "I flertall får ordet endelsen -er: die Geschlechter.",
-        "På skjemaer står det ofte et felt som skal fylles ut etter Geschlecht, ikke et spørsmål."
+        "På skjemaer er Geschlecht navnet på feltet (kjønn), der man krysser av for männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32594,7 +32594,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Etter ein Haufen følger substantivet uten von: ein Haufen Arbeit, ein Haufen Geld.",
+        "Etter ein Haufen følger substantivet vanligvis uten 'von': ein Haufen Arbeit, ein Haufen Geld (sjeldnere: ein Haufen von Problemen).",
         "Uttrykket über den Haufen werfen – kullkaste (planer)."
       ],
       "important": [
@@ -34241,7 +34241,7 @@ const B1_WORDS = [
       "translation": "homofil • homoseksuell",
       "explanation": [
         "Hovedbetydning: der Homosexuelle er et substantiv som betyr en homofil mann. Det bøyes som et adjektiv: ein Homosexueller, der Homosexuelle, die Homosexuellen (flertall). Om en kvinne: die Homosexuelle, eine Homosexuelle.",
-        "Ordet er nøytralt og formelt og brukes i offisielle tekster, nyheter og lover. I hverdagen sier man ofte schwul (homo, homofil) eller lesbisch (lesbisk)."
+        "Ordet er nøytralt og formelt og brukes i offisielle tekster, nyheter og lover. I hverdagen bruker man ofte adjektivene: er ist schwul (han er homo), sie ist lesbisch (hun er lesbisk)."
       ],
       "examples": [
         {
@@ -34479,7 +34479,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "høre",
+          "meaning": "høre; lytte",
           "example": "Ich höre Musik. – Jeg hører på musikk."
         },
         {
@@ -45638,7 +45638,7 @@ const B1_WORDS = [
         "Sammensetninger: die Machtübernahme (maktovertakelse), der Machtkampf (maktkamp)."
       ],
       "important": [
-        "Macht betyr ikke bare fysisk styrke; til det bruker man die Kraft.",
+        "Macht betyr ikke fysisk styrke; det kalles die Kraft.",
         "Flertallet die Mächte viser for det meste til stater eller krefter."
       ],
       "sectionAccents": {
@@ -46013,7 +46013,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Ordet das Maß skrives med ß fordi vokalen er lang.",
-        "Flertall er die Maße (dimensjoner); i dativ — den Maßen (in Maßen, über alle Maßen)."
+        "Flertall er die Maße (dimensjoner); i dativ — den Maßen (in Maßen). I uttrykket über alle Maßen er en historisk form bevart."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47384,7 +47384,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben er ikke det samme som aufgeben: nachgeben er å gi etter for noen, aufgeben er å gi opp et mål.",
-        "Prefikset nach- skilles fra: gibt nach, ikke nachgibt."
+        "Prefikset nach- skilles fra i hovedsetning: er gibt nach (i leddsetning står det sammen: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47698,7 +47698,7 @@ const B1_WORDS = [
       "translation": "helle • være tilbøyelig til",
       "explanation": [
         "Hovedbetydning: neigen med zu + dativ betyr å ha en tendens til noe, være tilbøyelig til noe (jf. norsk helle mot noe): Er neigt zu schnellen Entscheidungen. Former: neigt, neigte, hat geneigt.",
-        "I konkret betydning betyr etwas neigen å bøye eller helle noe (den Kopf neigen). Refleksivt betyr sich neigen å bøye seg eller å nærme seg slutten: Der Tag neigt sich.",
+        "I konkret betydning betyr etwas neigen å bøye eller helle noe (den Kopf neigen). Refleksivt betyr sich neigen å bøye seg eller (i høyere stil) å nærme seg slutten: Der Tag neigt sich. Uttrykket sich dem Ende zuneigen kommer av zuneigen.",
         "Av samme rot er substantivet die Neigung (tilbøyelighet, hang, helling)."
       ],
       "examples": [
@@ -48593,7 +48593,7 @@ const B1_WORDS = [
       "translation": "nød • mangel",
       "explanation": [
         "Hovedbetydning: die Not er nød, mangel, en vanskelig situasjon der et menneske mangler det aller nødvendigste (in Not leben, Not leiden). Det er også et akutt behov eller en ulykke: in der Not, in Not geraten.",
-        "Ordet er hunkjønn. Flertall die Nöte er svært sjeldent; vanligvis brukes entall.",
+        "Ordet er hunkjønn. Flertall die Nöte brukes sjeldnere (Sorgen und Nöte); vanligvis brukes entall.",
         "Uttrykk: zur Not (hvis det ikke går annerledes; i verste fall), aus der Not eine Tugend machen (gjøre en dyd av nødvendighet), Not macht erfinderisch (nød lærer naken kvinne å spinne)."
       ],
       "examples": [
@@ -54739,7 +54739,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten er ikke braten: braten er å steke med olje eller fett, rösten – å riste.",
-        "Ikke bland rösten med rostet (ruster)."
+        "Ikke bland rösten med rosten (ruste)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60257,7 +60257,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Om sitteplass på transportmidler sier du der Sitz eller der Platz; bare der Platz kan bety plass generelt.",
-        "Et firmas hovedkontor kalles der Firmensitz."
+        "Et firmas juridiske sete (hovedkontor) kalles der Firmensitz."
       ],
       "important": [
         "Der Sitz er ikke das Sitzen: das Sitzen er handlingen, der Sitz er setet eller hovedsetet.",
@@ -61230,7 +61230,7 @@ const B1_WORDS = [
         "Om å samle opp (energi, vann) bruker man også speichern."
       ],
       "important": [
-        "Imperativ er Speichere (eller Speicher), ikke Speichern.",
+        "Imperativ er Speichere! (også Speichre!; i dagligtale Speicher!), ikke Speichern.",
         "speichern er ikke sperren (sperre)."
       ],
       "sectionAccents": {
@@ -76489,7 +76489,7 @@ const B1_WORDS = [
         "Etter zugeben følger ofte en dass-setning der verbet står sist."
       ],
       "important": [
-        "Zugeben er å innrømme noe som ikke er fordelaktig for den som snakker; vil du bare si at du tilsetter noe i maten, bruker du hinzufügen.",
+        "Zugeben betyr vanligvis å innrømme noe som ikke er fordelaktig for den som snakker. I oppskrifter betyr zugeben også å tilsette (Salz zugeben); i hverdagen sier man oftere hinzufügen i denne betydningen.",
         "Etter zugeben står verbet sist i dass-setningen: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "vienos šeimos namas",
       "explanation": [
         "Pagrindinė mintis: das Einfamilienhaus yra namas, skirtas vienai šeimai — atskirai stovintis arba šalia kaimynų, bet su vienu butu ir paprastai su savo sodu.",
-        "Niekatrosios giminės daiktavardis: das Einfamilienhaus, daugiskaita die Einfamilienhäuser. Sudarytas iš Ein- + Familie + Haus.",
+        "Niekatrosios giminės daiktavardis: das Einfamilienhaus, daugiskaita die Einfamilienhäuser. Sudarytas iš Ein- + Familien- (jungiamoji forma iš Familie) + Haus.",
         "Priešingybė yra das Mehrfamilienhaus (daugiabutis namas)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Politikoje sakoma eine Partei wählen arba für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei ir die Party (vakarėlis) skamba panašiai, bet nėra susiję."
+        "Die Partei ir die Party (vakarėlis) skamba panašiai, bet reikšmė visai kita (nors abu kilę iš lotynų pars – dalis)."
       ],
       "sectionAccents": {
         "explanation": {

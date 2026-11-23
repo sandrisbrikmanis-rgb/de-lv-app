@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Vă încredințăm cu plăcere sarcina."
+          "lv": "Vă încredințăm cu plăcere comanda (sarcina)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen nu este același lucru cu besorgt sein (îngrijorat): adjectivul besorgt este alt cuvânt.",
-        "Besorgen este neseparabil: besorgt, nu gesorgt."
+        "Besorgen este neseparabil, la perfectul compus fără ge-: hat besorgt (gesorgt vine de la alt verb — sorgen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideea principală: bieten înseamnă a oferi — a da cuiva o posibilitate, un serviciu sau un avantaj; de asemenea, a licita un preț. Este un verb tare: er bietet, bot, hat geboten. Este urmat de acuzativ, adesea și de dativ: jemandem etwas bieten.",
         "Exemple: Das Hotel bietet viel Komfort (hotelul oferă mult confort), Ich biete 100 Euro (ofer 100 de euro). Forma reflexivă sich bieten înseamnă a se ivi: Eine Chance bietet sich (se ivește o ocazie).",
-        "Substantivul înrudit este das Angebot (ofertă), însă verbul anbieten (a oferi) este un alt cuvânt."
+        "Substantivul das Angebot (ofertă) provine de la anbieten; de la bieten provine das Gebot (ofertă la licitație)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bloc",
       "explanation": [
-        "Ideea principală: der Block este un bloc — o bucată compactă, unitară, sau un set: un bloc de notițe, un bloc de gheață, un bloc de clădiri. Pluralul este die Blöcke.",
+        "Ideea principală: der Block este un bloc — o bucată compactă, unitară, sau un set: un bloc de notițe, un bloc de gheață, un bloc de clădiri. Pluralul este die Blöcke (pentru blocurile de notițe și de clădiri adesea și die Blocks).",
         "Compuse tipice: der Notizblock (carnet de notițe), der Wohnblock (bloc de locuințe), der Motorblock (blocul motor); de asemenea ein Block Eis (un bloc de gheață).",
         "Figurat, der Block poate fi și o alianță politică sau economică: der Machtblock (bloc de putere)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft este de genul feminin.",
-        "Nu confunda cu das Konsulat (consulat): acesta deservește de obicei cetățenii dintr-un anumit oraș."
+        "Nu confunda cu das Konsulat (consulat): acesta deservește cetățenii dintr-o anumită circumscripție consulară."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "uniune • federație",
       "explanation": [
         "Ideea principală: der Bund este o uniune, o alianță sau o federație la nivel de stat — unirea mai multor părți într-un tot. Pluralul este die Bünde. Cuvântul este de genul masculin.",
-        "În Germania, der Bund înseamnă adesea guvernul federal, în opoziție cu landurile (Ländern): Bund und Länder. În compuse: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "În Germania, der Bund înseamnă adesea guvernul federal, în opoziție cu landurile (die Länder): Bund und Länder. În compuse: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Alte sensuri: ein Bund fürs Leben (legământul căsătoriei) și das Bund (legătură, mănunchi): ein Bund Radieschen. Acesta este un alt cuvânt, cu alt articol."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Ideea principală: dadurch este un adverb care înseamnă astfel, prin aceasta, datorită acestui fapt — arată cauza sau mijlocul. De obicei leagă propoziția anterioară de consecință: Er hat viel geübt. Dadurch wurde er besser.",
         "Ordinea cuvintelor: după dadurch, verbul stă pe locul al doilea: Dadurch wird alles einfacher. De asemenea, dadurch, dass, ca conjuncție (prin faptul că), introduce o propoziție subordonată cu verbul la sfârșit.",
-        "Cu sens spațial, dadurch înseamnă și prin acolo, prin ea, iar atunci este accentuată prima silabă: Die Tür war offen, wir sind dadurch gegangen."
+        "Cu sens spațial, dadurch înseamnă și prin acolo, prin ea: Die Tür war offen, wir sind dadurch gegangen. De obicei este accentuată a doua silabă; prima silabă se accentuează doar pentru o evidențiere specială."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "a servi • a sluji",
       "explanation": [
         "Ideea principală: dienen înseamnă a servi, a sluji, a fi util unui scop sau a îndeplini o funcție. Construcțiile cele mai frecvente: dienen als + nominativ (a servi drept), dienen zu + dativ (a servi la ceva) și dienen + dativ (a servi pe cineva/ceva).",
-        "Forme: dient, diente, hat gedient. Verbul este urmat de dativ (Er dient dem Land), nu de acuzativ. În limba vorbită, Womit kann ich dienen? este o ofertă politicoasă de ajutor, iar cu sens militar dienen înseamnă „a face armata, a servi în armată”."
+        "Forme: dient, diente, hat gedient. Verbul este urmat de dativ (Er dient dem Land), nu de acuzativ. Womit kann ich dienen? este o ofertă de ajutor politicoasă, puțin demodată, a celui care servește clienții, iar cu sens militar dienen înseamnă „a face armata, a servi în armată”."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "diaree",
       "explanation": [
         "Ideea principală: der Durchfall este un substantiv masculin care înseamnă diaree – scaune lichide și dese. În medicină și în viața de zi cu zi se folosește la singular: Durchfall haben – a avea diaree.",
-        "Pluralul die Durchfälle se folosește rar. Figurat, Durchfall poate însemna și eșec (la un examen, la o piesă de teatru), dar în acest caz se folosește de obicei verbul durchfallen."
+        "Pluralul die Durchfälle se folosește rar. Figurat (în limba vorbită), Durchfall poate însemna și eșec (la un examen, la o piesă de teatru), dar în acest caz se folosește de obicei verbul durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "propriu",
       "explanation": [
         "Ideea principală: eigen este un adjectiv care înseamnă „propriu, al său”. Subliniază apartenența: mein eigenes Auto – propria mea mașină. De obicei stă înaintea substantivului și se declină: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Figurat, eigen poate însemna și „specific, aparte”: ein eigener Geruch – un miros aparte. Expresia etwas zu eigen haben – a avea ceva ca trăsătură proprie. La nivelul B1, sensul principal este „propriu”."
+        "Figurat, eigen poate însemna și „specific, aparte”: ein eigener Geruch – un miros aparte. Expresia sich (Dat) etwas zu eigen machen – a-și însuși ceva, a adopta ceva ca fiind al său. La nivelul B1, sensul principal este „propriu”."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "La plural are terminația -er: die Geschlechter.",
-        "În formulare, după Geschlecht urmează de obicei un câmp de completat, nu o întrebare."
+        "În formulare, Geschlecht este denumirea câmpului (sex), unde se bifează männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "După ein Haufen urmează substantivul fără 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "După ein Haufen substantivul urmează de obicei fără 'von': ein Haufen Arbeit, ein Haufen Geld (mai rar: ein Haufen von Problemen).",
         "Expresia über den Haufen werfen — a da peste cap (planuri)."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "homosexual",
       "explanation": [
         "Ideea principală: der Homosexuelle este un substantiv care înseamnă un bărbat homosexual. Se declină ca un adjectiv: ein Homosexueller, der Homosexuelle, die Homosexuellen (plural). Pentru o femeie: die Homosexuelle, eine Homosexuelle.",
-        "Cuvântul este neutru din punct de vedere stilistic, formal și se folosește în texte oficiale, în știri, în legi. În viața de zi cu zi se spune adesea schwul (gay) sau lesbisch (lesbiană)."
+        "Cuvântul este neutru din punct de vedere stilistic, formal și se folosește în texte oficiale, în știri, în legi. În viața de zi cu zi se folosesc adesea adjectivele: er ist schwul (el este gay), sie ist lesbisch (ea este lesbiană)."
       ],
       "examples": [
         {
@@ -34481,7 +34481,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "a auzi",
+          "meaning": "a auzi; a asculta",
           "example": "Ich höre Musik. – Ascult muzică."
         },
         {
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Compuse: die Machtübernahme (preluarea puterii), der Machtkampf (lupta pentru putere)."
       ],
       "important": [
-        "Macht nu înseamnă forță fizică; pentru aceasta se folosește die Kraft.",
+        "Macht nu înseamnă forță fizică; aceasta se numește die Kraft.",
         "Pluralul die Mächte se referă mai ales la state sau forțe."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Cuvântul das Maß se scrie cu ß, pentru că vocala este lungă.",
-        "Pluralul este die Maße (dimensiuni); la dativ — den Maßen (in Maßen, über alle Maßen)."
+        "Pluralul este die Maße (dimensiuni); la dativ — den Maßen (in Maßen). În expresia über alle Maßen s-a păstrat o formă istorică."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben nu este același lucru cu aufgeben: nachgeben înseamnă a ceda cuiva, aufgeben înseamnă a renunța la un scop.",
-        "Prefixul nach- se separă: gibt nach, nu nachgibt."
+        "Prefixul nach- se separă în propoziția principală: er gibt nach (în subordonată rămâne legat: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "a tinde • a se înclina",
       "explanation": [
         "Ideea principală: neigen cu zu + dativ înseamnă a tinde spre ceva, a avea înclinație: Er neigt zu schnellen Entscheidungen. Forme: neigt, neigte, hat geneigt.",
-        "La propriu, etwas neigen înseamnă a înclina, a apleca ceva (den Kopf neigen). Ca verb reflexiv, sich neigen înseamnă a se apleca sau a se apropia de sfârșit: Der Tag neigt sich.",
+        "La propriu, etwas neigen înseamnă a înclina, a apleca ceva (den Kopf neigen). Ca verb reflexiv, sich neigen înseamnă a se apleca sau (în stil elevat) a se apropia de sfârșit: Der Tag neigt sich. Expresia sich dem Ende zuneigen vine de la zuneigen.",
         "Din aceeași rădăcină se formează substantivul die Neigung (tendință, înclinație, pantă)."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "nevoie • lipsă • mizerie",
       "explanation": [
         "Ideea principală: die Not înseamnă lipsă, mizerie, o situație de restriște în care omului îi lipsesc cele mai necesare lucruri (in Not leben, Not leiden). Este și o nevoie urgentă sau o nenorocire: in der Not, in Not geraten.",
-        "Cuvântul este de genul feminin. Pluralul die Nöte este foarte rar; de obicei se folosește singularul.",
+        "Cuvântul este de genul feminin. Pluralul die Nöte se folosește mai rar (Sorgen und Nöte); de obicei se folosește singularul.",
         "Expresii: zur Not (la nevoie; dacă nu se poate altfel), aus der Not eine Tugend machen (a face din necesitate o virtute), Not macht erfinderisch (nevoia te face inventiv)."
       ],
       "examples": [
@@ -54741,7 +54741,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten nu este braten: braten înseamnă a prăji cu ulei sau grăsime, rösten – a prăji uscat, a rumeni.",
-        "Nu confunda rösten cu rostet (ruginește)."
+        "Nu confunda rösten cu rosten (a rugini)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60259,7 +60259,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Pentru un loc în mijloacele de transport se spune der Sitz sau der Platz; doar der Platz poate însemna loc în general.",
-        "Sediul unei firme se numește der Firmensitz."
+        "Sediul juridic al unei firme (sediul central) se numește der Firmensitz."
       ],
       "important": [
         "Der Sitz nu este das Sitzen: das Sitzen este acțiunea, der Sitz – scaunul sau sediul.",
@@ -61232,7 +61232,7 @@ const B1_WORDS = [
         "Pentru acumulare (energie, apă) se folosește tot speichern."
       ],
       "important": [
-        "Imperativul este Speichere (sau Speicher), nu Speichern.",
+        "Imperativul este Speichere! (și Speichre!; în limba vorbită Speicher!), nu Speichern.",
         "speichern nu este sperren (a bloca)."
       ],
       "sectionAccents": {
@@ -70128,7 +70128,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Binde",
-          "meaning": "fașă",
+          "meaning": "bandaj, fașă",
           "example": "Sie wickelt eine Binde um den Fuß. – Ea îi înfășoară o fașă în jurul piciorului."
         },
         {
@@ -76492,7 +76492,7 @@ const B1_WORDS = [
         "După zugeben urmează adesea o propoziție cu dass, în care verbul stă la sfârșit."
       ],
       "important": [
-        "Zugeben înseamnă a recunoaște ceva care nu e în avantajul vorbitorului; dacă vrei pur și simplu să spui că adaugi ceva la mâncare, folosește hinzufügen.",
+        "Zugeben înseamnă de obicei a recunoaște ceva care nu e în avantajul vorbitorului. În rețete, zugeben înseamnă și a adăuga (Salz zugeben); în viața de zi cu zi, cu acest sens se spune mai des hinzufügen.",
         "După zugeben, în propoziția cu dass verbul stă la sfârșit: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

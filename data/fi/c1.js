@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "omakotitalo",
       "explanation": [
         "Perusajatus: das Einfamilienhaus on yhdelle perheelle tarkoitettu talo — erillinen tai naapuritaloon kiinni rakennettu, mutta siinä on yksi asunto ja yleensä oma puutarha.",
-        "Neutrisubstantiivi: das Einfamilienhaus, monikko die Einfamilienhäuser. Se muodostuu osista Ein- + Familie + Haus.",
+        "Neutrisubstantiivi: das Einfamilienhaus, monikko die Einfamilienhäuser. Se muodostuu osista Ein- + Familien- (sanan Familie yhdysosamuoto) + Haus.",
         "Vastakohta on das Mehrfamilienhaus (usean perheen talo, kerrostalo)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Politiikassa sanotaan eine Partei wählen tai für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei ja die Party (juhlat) kuulostavat samankaltaisilta, mutta ne eivät liity toisiinsa."
+        "Die Partei ja die Party (juhlat) kuulostavat samankaltaisilta, mutta merkitys on aivan eri (molemmat tosin ovat peräisin latinan sanasta pars — osa)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "odhlásiť",
+          "meaning": "odhlásiť sa, zrušiť registráciu",
           "example": "Ich melde mich vom Kurs ab. – Odhlasujem sa z kurzu."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavná myšlienka: anstecken je odlučiteľné sloveso s významom pripnúť alebo navliecť (pripnúť kvet, navliecť prsteň), ako aj nakaziť a preniesť sa (o chorobe).",
         "Tvary: steckt an, steckte an, hat angesteckt. Predpona an- sa vo vete oddeľuje: Er steckt mir den Ring an. Vyžaduje akuzatív (koho? čo?), často aj datív (komu?).",
-        "Vo význame nakaziť sa používa jemanden anstecken alebo sich anstecken (chytiť chorobu): Ich habe mich bei ihm angesteckt. V niektorých regiónoch sa anstecken používa aj vo význame zapáliť (eine Zigarette anstecken)."
+        "Vo význame nakaziť sa používa jemanden anstecken alebo sich anstecken (chytiť chorobu): Ich habe mich bei ihm angesteckt. V hovorovej reči anstecken znamená aj zapáliť (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavná myšlienka: die Bahn je podstatné meno ženského rodu. Znamená železnicu a železničnú dopravu vo všeobecnosti (mit der Bahn fahren – cestovať vlakom). V názve podniku Deutsche Bahn ide o nemecké železnice.",
         "Množné číslo je die Bahnen. Slovo sa vyskytuje aj v zloženinách: die Straßenbahn (električka), die U-Bahn (metro), die S-Bahn (mestský vlak), die Eisenbahn (železnica).",
-        "Ďalšie významy: trať alebo dráha (die Laufbahn, die Radrennbahn) a obežná dráha (die Umlaufbahn). V športe je die Bahn bežecká dráha."
+        "Ďalšie významy: trať alebo dráha (die Radrennbahn; die Laufbahn — aj kariéra) a obežná dráha (die Umlaufbahn). V športe je die Bahn bežecká dráha."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn je ženského rodu; nezamieňaj si toto slovo s der Bahnhof (stanica, mužský rod).",
-        "Slovo Bahn samo osebe často znamená podnik Deutsche Bahn, nie konkrétny vlak; konkrétny vlak je der Zug."
+        "Slovo Bahn môže znamenať aj podnik Deutsche Bahn (Die Bahn hat Verspätung); konkrétny vlak sa nazýva der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt nie je to isté ako bestimmen: bestimmen znamená určiť, rozhodnúť, bestimmt je príslovka alebo prídavné meno.",
-        "Bestimmt môže vyjadrovať aj domnienku, nielen istotu: Er ist bestimmt zu Hause (asi je doma)."
+        "Bestimmt vyjadruje aj pevnú domnienku: Er ist bestimmt zu Hause (určite je doma)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11856,7 +11856,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavná myšlienka: brennen je nepravidelné sloveso s významom horieť: horieť môže oheň, drevo či svetlo, o očiach alebo pokožke sa povie, že pália. V základnom význame nemá priamy predmet.",
         "Tvary: brennt, brannte, hat gebrannt. Je to zmiešané sloveso: v kmeni sa mení samohláska (brennen – brannte), ale koncovky sú ako pri pravidelných slovesách (ich brannte, wir brannten).",
-        "V prenesenom význame brennen znamená aj páliť (o bolesti alebo slnku: Die Sonne brennt) a horieť nadšením (für etwas brennen). S predmetom znamená brennen napáliť (eine CD brennen) alebo páliť (Schnaps brennen)."
+        "V prenesenom význame brennen znamená aj páliť (o bolesti alebo slnku: Die Sonne brennt) a horieť nadšením (für etwas brennen). S predmetom znamená brennen napáliť (eine CD brennen) alebo destilovať (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "pritom",
       "explanation": [
         "Hlavná myšlienka: dabei je príslovka utvorená z da + bei. Znamená pri tom: popri niečom alebo pri nejakej udalosti. Najčastejšie spojenie je dabei sein (byť pri tom, zúčastniť sa).",
-        "Ďalšie časté významy: so sebou (etwas dabei haben – mať niečo so sebou), pritom (zároveň) a práve niečo robiť (dabei sein, etwas zu tun). Je to príslovka miesta a času, ktorá odkazuje na niečo už spomenuté.",
+        "Ďalšie časté významy: so sebou (etwas dabei haben – mať niečo so sebou), zároveň, navyše a práve niečo robiť (dabei sein, etwas zu tun). Je to príslovka miesta a času, ktorá odkazuje na niečo už spomenuté.",
         "Dabei je aj súčasťou zložených slov: dabeibleiben (zostať pri tom), dabeihaben (mať pri sebe), dabeisitzen (sedieť pri tom)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavná myšlienka: dafür je príslovka (da + für). Znamená za to (výmenou, ako platbu, ako poďakovanie), na to (na nejaký účel) alebo za (pri súhlase): Ich bin dafür (som za).",
         "Nahrádza für + niečo, čo už bolo spomenuté: Ich danke dir dafür. Pri slovesách ako sich interessieren für, sorgen für, sich entschuldigen für sa používa dafür, keď netreba opakovať podstatné meno.",
-        "V hovorovej reči dafür znamená aj zato, teda ako náhradu: Er ist nicht schnell, dafür arbeitet er genau. V tomto význame uvádza protiklad s pozitívnou náhradou."
+        "Dafür znamená aj zato, teda ako náhradu: Er ist nicht schnell, dafür arbeitet er genau. V tomto význame uvádza protiklad s pozitívnou náhradou."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Vo vete so spojkou damit je sloveso na konci vety.",
-        "damit neznamená preto; na vyjadrenie príčiny sa používa deshalb alebo darum."
+        "Spojka damit (aby) neznamená preto; vo význame preto sa používa deshalb alebo darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar sa bez nicht, kein, nichts zvyčajne nepoužíva."
+        "Vo význame zosilnenia zápory sa gar používa spolu s nicht, kein, nichts."
       ],
       "important": [
         "gar je zosilňovač záporu: gar nicht je silnejšie ako nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "V súvislosti s Viedňou sa slovo Kaffeehaus používa často; v Nemecku rovnako často počuješ das Café.",
+        "Slovo Kaffeehaus je typické pre Rakúsko (Viedeň); v Nemecku sa oveľa častejšie hovorí das Café.",
         "Zapamätaj si základné slová Kaffee (káva) + das Haus (dom)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavná myšlienka: der Kellner je podstatné meno mužského rodu, ktoré znamená čašníka, ktorý v reštaurácii alebo kaviarni prináša jedlo a nápoje. Žena je die Kellnerin.",
         "Množné číslo je die Kellner (muži) a die Kellnerinnen (ženy). Skloňovanie: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Na oslovenie čašníka je najvhodnejšie der Entschuldigung!; oslovenie Herr Ober! sa dnes považuje za staromódne."
+        "Čašníka je najlepšie osloviť „Entschuldigung!“; oslovenie Herr Ober! sa dnes považuje za staromódne."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen je mužského rodu: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen samostatne znamená auto alebo vozeň, nie kočík."
+        "Wagen samostatne zvyčajne znamená auto alebo vozeň; detský kočík sa nazýva Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Zapamätaj si: Kraft = sila, Macht = moc, Energie = energia.",
-        "Zapamätaj si frázu in Kraft treten (nadobudnúť platnosť), vyskytuje sa častejšie než základný význam."
+        "Zapamätaj si frázu in Kraft treten (nadobudnúť platnosť) — často sa používa o zákonoch a predpisoch."
       ],
       "important": [
         "Die Kraft je ženského rodu; množné číslo die Kräfte, nie die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "známka • nota",
       "explanation": [
         "Hlavná myšlienka: die Note je podstatné meno ženského rodu. V škole a na vysokej škole znamená známku (eine gute Note bekommen, dostať dobrú známku). V hudbe je to nota: Noten lesen (čítať noty).",
-        "Množné číslo je die Noten. V Nemecku sú známky od 1 (sehr gut) po 6 (ungenügend) a 1 je najlepšia. Preto eine gute Note znamená malé číslo.",
+        "Množné číslo je die Noten. V nemeckých školách sú známky od 1 (sehr gut) po 6 (ungenügend) a 1 je najlepšia (na vysokých školách je stupnica 1,0–5,0). Preto eine gute Note znamená malé číslo.",
         "So známkami sa hovorí: eine Note bekommen, eine Note geben, die Note verbessern (opraviť si známku)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "V spojení rechnen mit + datív je význam „rátať s“, napríklad so zlým počasím."
       ],
       "important": [
-        "Rechnen mit zvyčajne znamená „očakávať, brať do úvahy“, nie „počítať pomocou niečoho“."
+        "Rechnen mit + datív zvyčajne znamená „očakávať, brať do úvahy“ (Wir rechnen mit Regen); s nástrojom znamená „počítať pomocou niečoho“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "ostrý • pikantný",
       "explanation": [
-        "Hlavná myšlienka: scharf je prídavné meno s viacerými významami. Pri predmete znamená ostrý (scharfes Messer – ostrý nôž), pri jedle pikantný, pálivý (scharfes Essen). V prenesenom význame môže znamenať aj prudký alebo silný: eine scharfe Kurve, scharf bremsen.",
+        "Hlavná myšlienka: scharf je prídavné meno s viacerými významami. Pri predmete znamená ostrý (scharfes Messer – ostrý nôž), pri jedle pikantný, pálivý (scharfes Essen). V prenesenom význame môže znamenať aj prudký alebo silný: eine scharfe Kurve (ostrá zákruta), scharf bremsen (prudko brzdiť).",
         "Druhý stupeň je schärfer (s prehláskou), tretí — am schärfsten. Pred podstatným menom: ein scharfes Messer, scharfe Soße.",
         "Oplatí sa zapamätať: scharf sa týka pálivej chuti (čili, chren), nie slanej — slaný je salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Rad, v ktorom ľudia čakajú, sa volá Schlange; Reihe je skôr rad v zmysle poradia (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen je ustálené spojenie: nie in der Schlange sein, ale Schlange stehen."
+        "Najčastejšie spojenie je Schlange stehen (aj in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45469,7 +45469,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln sa používa, keď jednu vec nahrádzaš inou (škola, práca, mena). ändern – keď niečo pretváraš.",
-        "Prestup v doprave sa vyjadruje slovesom umsteigen, nie wechseln."
+        "Prestup v doprave sa zvyčajne vyjadruje slovesom umsteigen (možné je aj den Zug wechseln)."
       ],
       "important": [
         "Pod Geld wechseln sa spravidla rozumie zámena meny alebo rozmenenie peňazí, nie ich minutie.",

@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "kaydını sildirmek, iptal etmek",
+          "meaning": "kaydını sildirmek, kaydını iptal etmek",
           "example": "Ich melde mich vom Kurs ab. – Kurstan kaydımı sildiriyorum."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Kısaca: anstecken ayrılabilen bir fiildir; iğneyle tutturmak ya da takmak (bir çiçeği tutturmak, bir yüzük takmak) ve ayrıca (hastalık) bulaştırmak, bulaşmak anlamına gelir.",
         "Çekimi: steckt an, steckte an, hat angesteckt. an- ön eki cümlede ayrılır: Er steckt mir den Ring an. Belirtme hâli (Akkusativ — neyi?) ister, çoğu zaman yönelme hâli (Dativ — kime?) de alır.",
-        "Hastalık bulaştırmak anlamında jemanden anstecken ya da sich anstecken (hastalık kapmak) kullanılır: Ich habe mich bei ihm angesteckt. Bazı bölgelerde anstecken yakmak anlamında da kullanılır (eine Zigarette anstecken)."
+        "Hastalık bulaştırmak anlamında jemanden anstecken ya da sich anstecken (hastalık kapmak) kullanılır: Ich habe mich bei ihm angesteckt. Konuşma dilinde anstecken yakmak anlamına da gelir (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "die Bahn dişil bir isimdir. Demir yolu ve genel olarak demir yolu ulaşımı anlamına gelir (mit der Bahn fahren – trenle gitmek). Deutsche Bahn şirket adında Alman demir yollarıdır.",
         "Çoğulu die Bahnen'dir. Sözcük birleşik isimlerde de geçer: die Straßenbahn (tramvay), die U-Bahn (metro), die S-Bahn (banliyö treni), die Eisenbahn (demir yolu).",
-        "Başka anlamları: pist ya da şerit (die Laufbahn, die Radrennbahn) ve yörünge (die Umlaufbahn). Sporda die Bahn koşu pistidir."
+        "Başka anlamları: pist ya da şerit (die Radrennbahn; die Laufbahn — aynı zamanda kariyer) ve yörünge (die Umlaufbahn). Sporda die Bahn koşu pistidir."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn dişildir; onu der Bahnhof (istasyon, eril) ile karıştırma.",
-        "Bahn sözcüğü tek başına sık sık belirli bir treni değil, Deutsche Bahn şirketini ifade eder; belirli bir tren der Zug'dur."
+        "Bahn sözcüğü Deutsche Bahn şirketini de ifade edebilir (Die Bahn hat Verspätung); belirli bir trene der Zug denir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt, bestimmen ile aynı şey değildir: bestimmen belirlemek, karar vermek demektir; bestimmt ise zarf ya da sıfattır.",
-        "Bestimmt yalnızca eminliği değil, bir tahmini de ifade edebilir: Er ist bestimmt zu Hause (büyük olasılıkla evdedir)."
+        "Bestimmt güçlü bir tahmini de ifade eder: Er ist bestimmt zu Hause (kesinlikle evdedir)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "yanında • orada",
       "explanation": [
         "dabei, da ile bei birleşiminden oluşan bir zarftır. Yanında, orada, o işin içinde anlamına gelir: bir şeyin yanında ya da bir olayda. En sık kullanılan kalıp dabei sein'dır (orada bulunmak, katılmak).",
-        "Sık görülen diğer anlamları: yanında bulundurmak (etwas dabei haben – bir şeyi yanında bulundurmak), üstelik (aynı zamanda) ve tam o anda bir şey yapmakta olmak (dabei sein, etwas zu tun). Daha önce söylenene gönderme yapan bir yer ve zaman sözcüğüdür.",
+        "Sık görülen diğer anlamları: yanında bulundurmak (etwas dabei haben – bir şeyi yanında bulundurmak), aynı zamanda, üstelik ve tam o anda bir şey yapmakta olmak (dabei sein, etwas zu tun). Daha önce söylenene gönderme yapan bir yer ve zaman sözcüğüdür.",
         "Dabei birleşik sözcüklerin de bir parçasıdır: dabeibleiben (bir şeyi sürdürmek), dabeihaben (yanında bulundurmak), dabeisitzen (yanında oturmak)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "dafür bir zarftır (da + für). Bunun karşılığında (değiş tokuşta, ödemede, teşekkürde), bunun için (bir amaç için) ya da lehte (onaylayarak) anlamlarına gelir: Ich bin dafür (ben bundan yanayım).",
         "für + daha önce anılan bir şeyin yerini tutar: Ich danke dir dafür. sich interessieren für, sorgen für, sich entschuldigen für gibi fiillerle, ismi tekrarlamak gerekmediğinde dafür kullanılır.",
-        "Konuşma dilinde dafür buna karşılık, telafi olarak anlamına da gelir: Er ist nicht schnell, dafür arbeitet er genau. Bu anlamda olumlu bir telafi içeren bir karşıtlık başlatır."
+        "Dafür buna karşılık, telafi olarak anlamına da gelir: Er ist nicht schnell, dafür arbeitet er genau. Bu anlamda olumlu bir telafi içeren bir karşıtlık başlatır."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "damit bağlaçlı cümlede fiil cümlenin sonundadır.",
-        "damit bu yüzden anlamına gelmez; neden bildirmek için deshalb ya da darum kullanılır."
+        "Bağlaç olan damit (-sın diye) bu yüzden anlamına gelmez; bu yüzden anlamı için deshalb ya da darum kullanılır."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19810,7 +19810,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar genellikle nicht, kein, nichts olmadan kullanılmaz."
+        "Olumsuzluğu pekiştirme anlamında gar, nicht, kein, nichts ile birlikte kullanılır."
       ],
       "important": [
         "gar olumsuzluğu pekiştirir: gar nicht, yalnızca nicht demekten daha güçlüdür."
@@ -23644,7 +23644,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Viyana bağlamında Kaffeehaus sözcüğü sık kullanılır; Almanya'da ise aynı sıklıkla das Café duyarsın.",
+        "Kaffeehaus sözcüğü Avusturya'ya (Viyana'ya) özgüdür; Almanya'da çok daha sık das Café denir.",
         "Kök sözcükleri hatırla: Kaffee (kahve) + das Haus (ev)."
       ],
       "important": [
@@ -24626,7 +24626,7 @@ const A2_WORDS = [
       "explanation": [
         "Der Kellner eril bir isimdir ve garson anlamına gelir: restoranda ya da kafede yemek ve içecek getiren kişi. Kadın için die Kellnerin kullanılır.",
         "Çoğulu die Kellner (erkekler) ve die Kellnerinnen (kadınlar). Çekimi: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Garsona seslenmek için en uygunu Entschuldigung! demektir; Herr Ober! hitabı bugün eski moda sayılır."
+        "Garsona en iyi „Entschuldigung!” diyerek seslenilir; Herr Ober! hitabı bugün eski moda sayılır."
       ],
       "examples": [
         {
@@ -26174,7 +26174,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen erildir: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen tek başına otomobil ya da vagon anlamına gelir, bebek arabası değil."
+        "Wagen tek başına genellikle otomobil ya da vagon anlamına gelir; bebek arabasına Kinderwagen denir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28677,7 +28677,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Aklında tut: Kraft = güç, kuvvet; Macht = iktidar; Energie = enerji.",
-        "in Kraft treten (yürürlüğe girmek) ifadesini ezberle; temel anlamdan daha sık karşına çıkar."
+        "in Kraft treten (yürürlüğe girmek) ifadesini ezberle — yasalar ve kurallar için sık kullanılır."
       ],
       "important": [
         "Die Kraft dişildir; çoğulu die Kräfte, die Krafte değil.",
@@ -32745,7 +32745,7 @@ const A2_WORDS = [
       "translation": "not • nota",
       "explanation": [
         "Die Note dişil bir isimdir. Okulda ve üniversitede not anlamına gelir (eine gute Note bekommen, iyi bir not almak). Müzikte ise notadır: Noten lesen (nota okumak).",
-        "Çoğulu: die Noten. Almanya'da notlar 1'den (sehr gut) 6'ya (ungenügend) kadardır ve 1 en iyisidir. Bu yüzden eine gute Note küçük bir sayı demektir.",
+        "Çoğulu: die Noten. Almanya'da okullarda notlar 1'den (sehr gut) 6'ya (ungenügend) kadardır ve 1 en iyisidir (üniversitelerde ölçek 1,0–5,0 arasıdır). Bu yüzden eine gute Note küçük bir sayı demektir.",
         "Notlarla ilgili ifadeler: eine Note bekommen, eine Note geben, die Note verbessern (notu yükseltmek)."
       ],
       "examples": [
@@ -35370,7 +35370,7 @@ const A2_WORDS = [
         "rechnen mit + Dativ kalıbının anlamı „hesaba katmak”tır; örneğin kötü havayı hesaba katmak."
       ],
       "important": [
-        "Rechnen mit genellikle „beklemek, hesaba katmak” demektir, „bir şeyle hesap yapmak” değil."
+        "Rechnen mit + Dativ genellikle „beklemek, hesaba katmak” demektir (Wir rechnen mit Regen); bir araçla kullanıldığında „bir şeyle hesap yapmak” anlamına gelir: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36855,7 +36855,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "keskin • acı",
       "explanation": [
-        "scharf birkaç anlamı olan bir sıfattır. Eşyalar için keskin demektir (scharfes Messer – keskin bıçak), yemek için ise acı, yakıcı bir tadı anlatır (scharfes Essen). Mecaz anlamda keskin ya da sert de olabilir: eine scharfe Kurve, scharf bremsen.",
+        "scharf birkaç anlamı olan bir sıfattır. Eşyalar için keskin demektir (scharfes Messer – keskin bıçak), yemek için ise acı, yakıcı bir tadı anlatır (scharfes Essen). Mecaz anlamda ani ya da sert de olabilir: eine scharfe Kurve (keskin viraj), scharf bremsen (sert fren yapmak).",
         "Üstünlük derecesi schärfer (umlaut ile), en üstünlük derecesi am schärfsten. İsimden önce: ein scharfes Messer, scharfe Soße.",
         "Şunu hatırlamak faydalı: scharf acı tat (biber, yaban turpu) için kullanılır, tuzlu tat için değil; tuzlu ise salzig."
       ],
@@ -37332,7 +37332,7 @@ const A2_WORDS = [
         "İnsanların beklediği kuyruğa Schlange denir; Reihe ise daha çok sıralama anlamındaki sıradır (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen kalıplaşmış bir ifadedir: in der Schlange sein değil, Schlange stehen."
+        "En sık kullanılan ifade Schlange stehen'dir (in der Schlange stehen de denir)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45470,7 +45470,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln bir şeyi başka bir şeyle değiştirince kullanılır (okul, iş, para birimi). ändern – bir şeyi dönüştürünce.",
-        "Toplu taşımada aktarma umsteigen ile anlatılır, wechseln ile değil."
+        "Toplu taşımada aktarma genellikle umsteigen ile anlatılır (den Zug wechseln de mümkündür)."
       ],
       "important": [
         "Geld wechseln genellikle para bozdurmak ya da döviz değiştirmek demektir, para harcamak değil.",

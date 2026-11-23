@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "išregistruoti, išsirašyti",
+          "meaning": "išsiregistruoti, atšaukti registraciją",
           "example": "Ich melde mich vom Kurs ab. – Išsirašau iš kursų."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: anstecken yra skiriamasis veiksmažodis, reiškiantis prisegti arba užmauti (prisegti gėlę, užmauti žiedą), taip pat užkrėsti ir užsikrėsti (liga).",
         "Formos: steckt an, steckte an, hat angesteckt. Priešdėlis an- sakinyje atskiriamas: Er steckt mir den Ring an. Jis reikalauja galininko (ką?), dažnai ir naudininko (kam?).",
-        "Užkrėtimo reikšme vartojama jemanden anstecken arba sich anstecken (užsikrėsti liga): Ich habe mich bei ihm angesteckt. Kai kuriuose regionuose anstecken vartojamas ir reikšme uždegti (eine Zigarette anstecken)."
+        "Užkrėtimo reikšme vartojama jemanden anstecken arba sich anstecken (užsikrėsti liga): Ich habe mich bei ihm angesteckt. Šnekamojoje kalboje anstecken reiškia ir uždegti (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: die Bahn yra moteriškosios giminės daiktavardis. Jis reiškia geležinkelį ir apskritai geležinkelio transportą (mit der Bahn fahren – važiuoti traukiniu). Įmonės pavadinime Deutsche Bahn tai Vokietijos geležinkeliai.",
         "Daugiskaita – die Bahnen. Žodis dažnas ir sudurtiniuose žodžiuose: die Straßenbahn (tramvajus), die U-Bahn (metro), die S-Bahn (miesto ir priemiesčio traukinys), die Eisenbahn (geležinkelis).",
-        "Kitos reikšmės: trasa arba takas (die Laufbahn, die Radrennbahn) ir orbita (die Umlaufbahn). Sporte die Bahn – bėgimo takas."
+        "Kitos reikšmės: trasa arba takas (die Radrennbahn; die Laufbahn – taip pat karjera) ir orbita (die Umlaufbahn). Sporte die Bahn – bėgimo takas."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn yra moteriškosios giminės; nesupainiok jo su der Bahnhof (stotis, vyriškoji giminė).",
-        "Žodis Bahn pats savaime dažnai reiškia įmonę Deutsche Bahn, o ne konkretų traukinį; konkretus traukinys – der Zug."
+        "Žodis Bahn gali reikšti ir įmonę Deutsche Bahn (Die Bahn hat Verspätung); konkretus traukinys vadinamas der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt nėra tas pats, kas bestimmen: bestimmen reiškia nustatyti, nuspręsti, o bestimmt yra prieveiksmis arba būdvardis.",
-        "Bestimmt gali išreikšti ir spėjimą, ne tik užtikrintumą: Er ist bestimmt zu Hause (jis turbūt namie)."
+        "Bestimmt išreiškia ir tvirtą spėjimą: Er ist bestimmt zu Hause (jis tikrai namie)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12225,7 +12225,7 @@ const A2_WORDS = [
       "translation": "kartu • šalia",
       "explanation": [
         "Pagrindinė mintis: dabei yra prieveiksmis, sudarytas iš da + bei. Jis reiškia šalia, prie to, kartu: šalia ko nors arba kokiame nors įvykyje. Dažniausias junginys – dabei sein (būti kartu, dalyvauti).",
-        "Kitos dažnos reikšmės: su savimi (etwas dabei haben – turėti ką nors su savimi), tuo pačiu metu ir kaip tik dabar ką nors daryti (dabei sein, etwas zu tun). Tai vietos ir laiko žodis, nurodantis į tai, kas jau paminėta.",
+        "Kitos dažnos reikšmės: su savimi (etwas dabei haben – turėti ką nors su savimi), tuo pačiu metu, be to, ir kaip tik dabar ką nors daryti (dabei sein, etwas zu tun). Tai vietos ir laiko žodis, nurodantis į tai, kas jau paminėta.",
         "Dabei yra ir sudurtinių žodžių dalis: dabeibleiben (laikytis to, likti prie to), dabeihaben (turėti su savimi), dabeisitzen (sėdėti šalia)."
       ],
       "examples": [
@@ -12422,7 +12422,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: dafür yra prieveiksmis (da + für). Jis reiškia už tai (mainais, mokant, dėkojant), tam (tikslui) arba už (pritariant): Ich bin dafür (aš už).",
         "Jis pakeičia für + tai, kas paminėta anksčiau: Ich danke dir dafür. Su tokiais veiksmažodžiais kaip sich interessieren für, sorgen für, sich entschuldigen für vartojamas dafür, kai nereikia kartoti daiktavardžio.",
-        "Šnekamojoje kalboje dafür reiškia ir užtat, kompensuojant trūkumą: Er ist nicht schnell, dafür arbeitet er genau. Šia reikšme jis įveda priešpriešą su teigiama kompensacija."
+        "Dafür reiškia ir užtat, kompensuojant trūkumą: Er ist nicht schnell, dafür arbeitet er genau. Šia reikšme jis įveda priešpriešą su teigiama kompensacija."
       ],
       "examples": [
         {
@@ -12656,7 +12656,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Šalutiniame sakinyje su jungtuku damit veiksmažodis stovi sakinio gale.",
-        "damit nereiškia todėl; tokiai reikšmei vartojama deshalb arba darum."
+        "Jungtukas damit (kad) nereiškia „todėl“; reikšmei „todėl“ vartojama deshalb arba darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19807,7 +19807,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar be nicht, kein, nichts paprastai nevartojamas."
+        "Kaip neigimo stipriklis gar vartojamas kartu su nicht, kein, nichts."
       ],
       "important": [
         "gar yra neiginio stiprintuvas: gar nicht stipriau nei nicht."
@@ -23641,7 +23641,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Kalbant apie Vieną, žodis Kaffeehaus vartojamas dažnai; Vokietijoje taip pat dažnai išgirsi das Café.",
+        "Žodis Kaffeehaus būdingas Austrijai (Vienai); Vokietijoje daug dažniau sakoma das Café.",
         "Įsimink sudedamąsias dalis: Kaffee (kava) + das Haus (namas)."
       ],
       "important": [
@@ -24623,7 +24623,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: der Kellner yra vyriškosios giminės daiktavardis, reiškiantis padavėją, kuris restorane ar kavinėje atneša maistą ir gėrimus. Moteris yra die Kellnerin.",
         "Daugiskaita yra die Kellner (vyrai) ir die Kellnerinnen (moterys). Linksniavimas: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Norint pakviesti padavėją, geriausia sakyti Entschuldigung!; kreipinys Herr Ober! šiandien laikomas senamadišku."
+        "Norint pakviesti padavėją, geriausia sakyti „Entschuldigung!“; kreipinys Herr Ober! šiandien laikomas senamadišku."
       ],
       "examples": [
         {
@@ -26171,7 +26171,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen yra vyriškosios giminės: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen atskirai reiškia automobilį arba vagoną, ne vežimėlį."
+        "Wagen atskirai paprastai reiškia automobilį arba vagoną; vaikų vežimėlis vadinamas Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28671,7 +28671,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Įsimink: Kraft = jėga, Macht = valdžia, Energie = energija.",
-        "Įsimink frazę in Kraft treten (įsigalioti) – ji sutinkama net dažniau nei pagrindinė reikšmė."
+        "Įsimink frazę in Kraft treten (įsigalioti) – ji dažnai vartojama kalbant apie įstatymus ir taisykles."
       ],
       "important": [
         "Die Kraft yra moteriškosios giminės; daugiskaita – die Kräfte, ne die Krafte.",
@@ -32739,7 +32739,7 @@ const A2_WORDS = [
       "translation": "pažymys",
       "explanation": [
         "Pagrindinė mintis: die Note – moteriškosios giminės daiktavardis. Mokykloje ir aukštojoje mokykloje jis reiškia pažymį (eine gute Note bekommen – gauti gerą pažymį). Muzikoje tai nata: Noten lesen (skaityti natas).",
-        "Daugiskaita – die Noten. Vokietijoje pažymiai yra nuo 1 (sehr gut) iki 6 (ungenügend), ir 1 yra geriausias. Todėl eine gute Note reiškia mažą skaičių.",
+        "Daugiskaita – die Noten. Vokietijos mokyklose pažymiai yra nuo 1 (sehr gut) iki 6 (ungenügend), ir 1 yra geriausias (aukštosiose mokyklose skalė yra 1,0–5,0). Todėl eine gute Note reiškia mažą skaičių.",
         "Su pažymiais sakoma: eine Note bekommen, eine Note geben, die Note verbessern (pasitaisyti pažymį)."
       ],
       "examples": [
@@ -35364,7 +35364,7 @@ const A2_WORDS = [
         "Junginyje rechnen mit + Dativ reikšmė yra „tikėtis, atsižvelgti“, pavyzdžiui, blogo oro."
       ],
       "important": [
-        "Rechnen mit paprastai reiškia „tikėtis, atsižvelgti“, o ne „skaičiuoti su kuo nors“."
+        "Rechnen mit + naudininkas paprastai reiškia „tikėtis, atsižvelgti“ (Wir rechnen mit Regen); su įrankiu jis reiškia „skaičiuoti su“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36849,7 +36849,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "aštrus • aitrus",
       "explanation": [
-        "Pagrindinė mintis: scharf yra būdvardis su keliomis reikšmėmis. Apie daiktą jis reiškia aštrus (scharfes Messer – aštrus peilis), apie maistą – aštraus, aitraus skonio (scharfes Essen). Perkeltine reikšme jis gali reikšti ir staigų ar stiprų: eine scharfe Kurve, scharf bremsen.",
+        "Pagrindinė mintis: scharf yra būdvardis su keliomis reikšmėmis. Apie daiktą jis reiškia aštrus (scharfes Messer – aštrus peilis), apie maistą – aštraus, aitraus skonio (scharfes Essen). Perkeltine reikšme jis gali reikšti ir staigų ar stiprų: eine scharfe Kurve (staigus posūkis), scharf bremsen (staigiai stabdyti).",
         "Aukštesnysis laipsnis – schärfer (su umliautu), aukščiausiasis – am schärfsten. Prieš daiktavardį: ein scharfes Messer, scharfe Soße.",
         "Naudinga įsidėmėti: scharf reiškia aštrų skonį (čili, krienai), o ne sūrų – sūrus yra salzig."
       ],
@@ -37326,7 +37326,7 @@ const A2_WORDS = [
         "Eilė, kurioje žmonės laukia, vadinama Schlange; Reihe – greičiau eilė kaip seka (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen yra pastovus junginys: ne in der Schlange sein, o Schlange stehen."
+        "Dažniausias junginys yra Schlange stehen (taip pat in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45464,7 +45464,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln vartojamas, kai vienas dalykas pakeičiamas kitu (mokykla, darbas, valiuta). ändern – kai kas nors perdaroma.",
-        "Persėdimas transporte išreiškiamas umsteigen, ne wechseln."
+        "Persėdimas transporte paprastai išreiškiamas umsteigen (galima ir den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln paprastai reiškia valiutos ar pinigų keitimą, ne jų išleidimą.",

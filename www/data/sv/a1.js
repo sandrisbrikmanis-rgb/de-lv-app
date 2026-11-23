@@ -13179,7 +13179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Använd inte jung om föremål – säg neu.",
-        "Komparativ har alltid omljud: jünger, inte ”junger”."
+        "Komparativ har alltid omljud: jünger (junger är bara positiv med ändelse: ein junger Mann)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14899,7 +14899,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (territorium, landsbygd) och der Staat (staten som institution) är inte synonymer.",
-        "I plural finns omljud: die Länder, inte ”die Lande”."
+        "I plural finns omljud: die Länder; die Lande är en ålderdomlig, poetisk form."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21791,7 +21791,7 @@ const A1_WORDS = [
       "explanation": [
         "Grundidé: schauen betyder ”titta, se” — rikta blicken mot något: Wir schauen aus dem Fenster. I södra Tyskland, Österrike och Schweiz används det mycket ofta; i norr används oftare gucken eller sehen.",
         "Former: schaut, schaute, hat geschaut. Ofta med prepositioner: auf + ackusativ (Er schaut auf die Uhr), aus dem Fenster (ut genom fönstret), nach + dativ (Sie schaut nach dem Kind — ser efter barnet). Imperativ: Schau mal! — Titta!",
-        "Uttrycket Ich schaue fern betyder ”jag tittar på tv”."
+        "Uttrycket Ich schaue fern (av fernschauen — i Sydtyskland och Österrike; annars fernsehen) betyder ”jag tittar på tv”."
       ],
       "examples": [
         {
@@ -22614,7 +22614,7 @@ const A1_WORDS = [
         "Sehen betyder också ”förstå” i uttryck som Ich sehe, was du meinst."
       ],
       "important": [
-        "Det heter inte sehst eller sehet: rätt är du siehst, er sieht.",
+        "I presens heter det inte du sehst eller er seht: rätt är du siehst, er sieht.",
         "För att säga att man tittar på något (en film, en bild) kan man använda både sehen och sich (Dat) + ansehen."
       ],
       "sectionAccents": {
@@ -25240,7 +25240,7 @@ const A1_WORDS = [
       "translation": "runt • klockan",
       "explanation": [
         "Grundidé: um är en preposition som alltid kräver ackusativ. I tidsbetydelse anger um ett exakt klockslag: um acht Uhr (klockan åtta). I rumslig betydelse anger den ett läge eller en rörelse runt något: um den Tisch (runt bordet), um die Ecke (runt hörnet).",
-        "Frågan om tid är Um wie viel Uhr ...? (hur dags?). Efter um används klockslaget utan artikel: um 8 Uhr, inte in 8 Uhr.",
+        "Frågan om tid är Um wie viel Uhr ...? (hur dags?). Klockslag anges med um (utan artikel), inte med in: um 8 Uhr, inte in 8 Uhr.",
         "Med zu + infinitiv uttrycker um ett syfte: Er lernt, um zu verstehen (han lär sig för att förstå)."
       ],
       "examples": [
@@ -25492,7 +25492,7 @@ const A1_WORDS = [
         "Uttrycket unter uns betyder ”oss emellan” och används när man säger något i förtroende."
       ],
       "important": [
-        "Unter är inte detsamma som zwischen: unter syftar på en mängd eller grupp (unter Freunden), zwischen — på två bestämda saker.",
+        "Unter är inte detsamma som zwischen: unter syftar på en mängd eller grupp (unter Freunden), zwischen — på enskilda, namngivna saker (ofta två, men det kan också vara fler).",
         "Unter + tal betyder ”mindre än”: unter 18 är yngre än 18."
       ],
       "sectionAccents": {
@@ -27784,7 +27784,7 @@ const A1_WORDS = [
         "Tillsammans med personer används zu: zu mir, zu dir, zu uns."
       ],
       "important": [
-        "Zu kräver bara dativ: zu meinem Freund, zu der Schule.",
+        "Zu kräver bara dativ: zu meinem Freund, zur Schule (= zu der Schule).",
         "Med städer och länder används nach, inte zu: nach Berlin."
       ],
       "sectionAccents": {
@@ -28644,7 +28644,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "tv • television",
       "explanation": [
-        "Grundidé: das Fernsehen är ett neutrum som betecknar television som medium eller helheten av program. Plural finns i praktiken inte: man använder singular. Det står oftast med im: im Fernsehen (på tv), beim Fernsehen (på tv, om arbetsplatsen).",
+        "Grundidé: das Fernsehen är ett neutrum som betecknar television som medium eller helheten av program. Plural finns i praktiken inte: man använder singular. Det står oftast med im: im Fernsehen (på tv), beim Fernsehen (när man tittar på tv; även när man arbetar på tv).",
         "Det är ett substantiv bildat av verbet fernsehen (titta på tv). Apparaten heter der Fernseher, men sysselsättningen — fernsehen.",
         "Substantivet skrivs med stor bokstav; som verb är fernsehen skiljbart."
       ],
@@ -30072,7 +30072,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Kom ihåg: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
-        "Urlaub används oftast utan artikel: Urlaub haben, Urlaub nehmen."
+        "I uttrycken Urlaub haben, Urlaub nehmen används Urlaub utan artikel (men: im Urlaub, in den Urlaub)."
       ],
       "important": [
         "Om skolelever säger man oftast Ferien, inte Urlaub.",

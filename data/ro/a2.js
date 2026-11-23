@@ -3207,7 +3207,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "a retrage, a radia",
+          "meaning": "a se radia, a retrage înregistrarea",
           "example": "Ich melde mich vom Kurs ab. – Mă retrag de la curs."
         },
         {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideea principală: anstecken este un verb separabil cu sensul a prinde cu un ac sau a pune pe deget (a prinde o floare, a pune un inel), dar și a infecta, a molipsi (o boală).",
         "Forme: steckt an, steckte an, hat angesteckt. Prefixul an- se separă în propoziție: Er steckt mir den Ring an. Cere acuzativul (pe cine? ce?) și adesea și dativul (cui?).",
-        "Cu sensul de a infecta se folosește jemanden anstecken sau sich anstecken (a lua o boală de la cineva): Ich habe mich bei ihm angesteckt. În unele regiuni, anstecken se folosește și cu sensul de a aprinde (eine Zigarette anstecken)."
+        "Cu sensul de a infecta se folosește jemanden anstecken sau sich anstecken (a lua o boală de la cineva): Ich habe mich bei ihm angesteckt. În limba vorbită, anstecken înseamnă și a aprinde (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7579,7 +7579,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideea principală: die Bahn este un substantiv feminin. Desemnează calea ferată și transportul feroviar în general (mit der Bahn fahren – a merge cu trenul). În numele companiei Deutsche Bahn înseamnă căile ferate germane.",
         "Pluralul este die Bahnen. Cuvântul apare și în compuse: die Straßenbahn (tramvai), die U-Bahn (metrou), die S-Bahn (tren urban), die Eisenbahn (cale ferată).",
-        "Alte sensuri: pistă sau culoar (die Laufbahn, die Radrennbahn) și orbită (die Umlaufbahn). În sport, die Bahn este pista de alergare."
+        "Alte sensuri: pistă sau culoar (die Radrennbahn; die Laufbahn — și carieră) și orbită (die Umlaufbahn). În sport, die Bahn este pista de alergare."
       ],
       "examples": [
         {
@@ -7622,7 +7622,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn este feminin; nu-l confunda cu der Bahnhof (gară, masculin).",
-        "Cuvântul Bahn singur desemnează adesea compania Deutsche Bahn, nu un anumit tren; un tren concret este der Zug."
+        "Cuvântul Bahn poate desemna și compania Deutsche Bahn (Die Bahn hat Verspätung); un tren concret se numește der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt nu este același lucru cu bestimmen: bestimmen înseamnă a stabili, a hotărî, iar bestimmt este adverb sau adjectiv.",
-        "Bestimmt poate exprima și o presupunere, nu doar certitudine: Er ist bestimmt zu Hause (probabil este acasă)."
+        "Bestimmt exprimă și o presupunere fermă: Er ist bestimmt zu Hause (sigur este acasă)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12226,7 +12226,7 @@ const A2_WORDS = [
       "translation": "de față • prezent",
       "explanation": [
         "Ideea principală: dabei este un adverb format din da + bei. Înseamnă de față, alături, acolo: lângă ceva sau la un eveniment. Cea mai frecventă îmbinare este dabei sein (a fi de față, a participa).",
-        "Alte sensuri frecvente: la sine, asupra sa (etwas dabei haben – a avea ceva la tine), în același timp și a fi tocmai pe cale să faci ceva (dabei sein, etwas zu tun). Este un cuvânt de loc și de timp care trimite la ceva menționat anterior.",
+        "Alte sensuri frecvente: la sine, asupra sa (etwas dabei haben – a avea ceva la tine), în același timp, în plus și a fi tocmai pe cale să faci ceva (dabei sein, etwas zu tun). Este un cuvânt de loc și de timp care trimite la ceva menționat anterior.",
         "Dabei apare și în compuse: dabeibleiben (a rămâne la ceva), dabeihaben (a avea la sine), dabeisitzen (a sta alături)."
       ],
       "examples": [
@@ -12423,7 +12423,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideea principală: dafür este un adverb (da + für). Înseamnă pentru asta (în schimb, plătind, mulțumind), în acest scop sau pentru (exprimând acordul): Ich bin dafür (sunt pentru).",
         "Înlocuiește für + ceva menționat anterior: Ich danke dir dafür. Cu verbe precum sich interessieren für, sorgen für, sich entschuldigen für se folosește dafür când nu e nevoie să se repete substantivul.",
-        "În vorbire, dafür înseamnă și în schimb, totuși, ca o compensare: Er ist nicht schnell, dafür arbeitet er genau. Cu acest sens introduce un contrast cu o compensare pozitivă."
+        "Dafür înseamnă și în schimb, totuși, ca o compensare: Er ist nicht schnell, dafür arbeitet er genau. Cu acest sens introduce un contrast cu o compensare pozitivă."
       ],
       "examples": [
         {
@@ -12657,7 +12657,7 @@ const A2_WORDS = [
       ],
       "important": [
         "În propoziția cu conjuncția damit, verbul stă la sfârșitul propoziției.",
-        "Damit nu înseamnă de aceea; pentru sensul cauzal se folosește deshalb sau darum."
+        "Conjuncția damit (ca să) nu înseamnă de aceea; pentru sensul de aceea se folosește deshalb sau darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19809,7 +19809,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "De obicei, gar nu se folosește fără nicht, kein, nichts."
+        "Ca intensificator al negației, gar se folosește împreună cu nicht, kein, nichts."
       ],
       "important": [
         "gar întărește negația: gar nicht este mai puternic decât nicht."
@@ -23643,7 +23643,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "În legătură cu Viena, cuvântul Kaffeehaus se folosește des; în Germania vei auzi la fel de des das Café.",
+        "Cuvântul Kaffeehaus este caracteristic Austriei (Vienei); în Germania se spune mult mai des das Café.",
         "Reține cuvintele de bază Kaffee (cafea) + das Haus (casă)."
       ],
       "important": [
@@ -24625,7 +24625,7 @@ const A2_WORDS = [
       "explanation": [
         "Ideea principală: der Kellner este un substantiv masculin care înseamnă chelner, adică persoana care aduce mâncarea și băuturile într-un restaurant sau într-o cafenea. Femeia este die Kellnerin.",
         "Pluralul este die Kellner (bărbați) și die Kellnerinnen (femei). Declinarea: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Pentru a te adresa chelnerului, cel mai potrivit este Entschuldigung!; formula Herr Ober! este considerată astăzi demodată."
+        "Cel mai potrivit este să te adresezi chelnerului cu „Entschuldigung!”; formula Herr Ober! este considerată astăzi demodată."
       ],
       "examples": [
         {
@@ -26173,7 +26173,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen este masculin: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen singur înseamnă mașină sau vagon, nu cărucior."
+        "Wagen singur înseamnă de obicei mașină sau vagon; căruciorul pentru copii se numește Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28676,7 +28676,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Reține: Kraft = putere, forță; Macht = putere (stăpânire); Energie = energie.",
-        "Ține minte expresia in Kraft treten (a intra în vigoare); este întâlnită mai des decât sensul de bază."
+        "Ține minte expresia in Kraft treten (a intra în vigoare) — se folosește des despre legi și regulamente."
       ],
       "important": [
         "Die Kraft este feminin; pluralul este die Kräfte, nu die Krafte.",
@@ -32744,7 +32744,7 @@ const A2_WORDS = [
       "translation": "notă",
       "explanation": [
         "Ideea principală: die Note este un substantiv feminin. La școală și la facultate înseamnă notă (eine gute Note bekommen, a lua o notă bună). În muzică înseamnă notă muzicală: Noten lesen (a citi note).",
-        "Pluralul este die Noten. În Germania notele sunt de la 1 (sehr gut) la 6 (ungenügend), iar 1 este cea mai bună. De aceea eine gute Note înseamnă un număr mic.",
+        "Pluralul este die Noten. În școlile din Germania notele sunt de la 1 (sehr gut) la 6 (ungenügend), iar 1 este cea mai bună (în universități scala este 1,0–5,0). De aceea eine gute Note înseamnă un număr mic.",
         "Cu notele se spune: eine Note bekommen, eine Note geben, die Note verbessern (a-și îmbunătăți nota)."
       ],
       "examples": [
@@ -35369,7 +35369,7 @@ const A2_WORDS = [
         "În construcția rechnen mit + dativ sensul este „a se aștepta la”, de exemplu la vreme rea."
       ],
       "important": [
-        "Rechnen mit înseamnă de obicei „a se aștepta la, a ține cont de”, nu „a calcula cu ceva”."
+        "Rechnen mit + dativ înseamnă de obicei „a se aștepta la, a ține cont de” (Wir rechnen mit Regen); cu un instrument înseamnă „a calcula cu”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36854,7 +36854,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "ascuțit • iute • picant",
       "explanation": [
-        "Ideea principală: scharf este un adjectiv cu mai multe sensuri. Pentru un obiect înseamnă ascuțit (scharfes Messer – cuțit ascuțit), pentru mâncare — iute, picant (scharfes Essen). La figurat poate însemna și brusc sau puternic: eine scharfe Kurve, scharf bremsen.",
+        "Ideea principală: scharf este un adjectiv cu mai multe sensuri. Pentru un obiect înseamnă ascuțit (scharfes Messer – cuțit ascuțit), pentru mâncare — iute, picant (scharfes Essen). La figurat poate însemna și brusc sau puternic: eine scharfe Kurve (o curbă strânsă), scharf bremsen (a frâna brusc).",
         "Comparativul este schärfer (cu umlaut), superlativul — am schärfsten. Înaintea unui substantiv: ein scharfes Messer, scharfe Soße.",
         "Este util de reținut: scharf se referă la gustul iute (chili, hrean), nu la gustul sărat — sărat este salzig."
       ],
@@ -37331,7 +37331,7 @@ const A2_WORDS = [
         "Coada la care așteaptă oamenii se numește Schlange; Reihe înseamnă mai degrabă rând, ordine (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen este o expresie fixă: nu in der Schlange sein, ci Schlange stehen."
+        "Expresia cea mai frecventă este Schlange stehen (și in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45472,7 +45472,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln se folosește când un lucru este înlocuit cu altul (școală, loc de muncă, valută). ändern – când ceva este transformat.",
-        "Schimbarea mijlocului de transport se exprimă cu umsteigen, nu cu wechseln."
+        "Schimbarea mijlocului de transport se exprimă de obicei cu umsteigen (este posibil și den Zug wechseln)."
       ],
       "important": [
         "Prin Geld wechseln se înțelege de obicei schimbarea valutei sau a banilor, nu cheltuirea lor.",

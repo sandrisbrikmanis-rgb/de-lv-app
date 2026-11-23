@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "moradia",
       "explanation": [
         "Ideia principal: das Einfamilienhaus é uma casa destinada a uma só família — isolada ou encostada às dos vizinhos, mas com uma única habitação e geralmente com jardim próprio.",
-        "Substantivo neutro: das Einfamilienhaus, plural die Einfamilienhäuser. É composto por Ein- + Familie + Haus.",
+        "Substantivo neutro: das Einfamilienhaus, plural die Einfamilienhäuser. É composto por Ein- + Familien- (forma de composição de Familie) + Haus.",
         "O contrário é das Mehrfamilienhaus (prédio de habitação para várias famílias)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "Na política diz-se eine Partei wählen ou für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei e die Party (festa) soam parecido, mas não estão relacionadas."
+        "Die Partei e die Party (festa) soam parecido, mas o significado é completamente diferente (embora ambas venham do latim pars — parte)."
       ],
       "sectionAccents": {
         "explanation": {

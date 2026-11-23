@@ -493,7 +493,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Net mat abfinden ouni sich verwiesselen: dat bedeit entschiedegen oder mat Suen zefriddestellen.",
-        "D'Perfektform ass sich abgefunden (mat -ge- an der Mëtt), an net geabfunden."
+        "D'Perfektform ass hat sich abgefunden (-ge- tëscht ab- an dem Stamm), an net geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1730,7 +1730,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "aussetzen • ënnerbriechen",
       "explanation": [
-        "Haaptiddi: aussetzen ass en trennbaart Verb mat e puer Bedeitungen: aussetzen oder am Stach loossen (en Hond, e Kand), ausliwweren (der Keelt, enger Gefor), ophalen oder ënnerbriechen (Motor, Aarbecht) a mat an + Dativ – eppes auszesetzen hunn, kritiséieren.",
+        "Haaptiddi: aussetzen ass en trennbaart Verb mat e puer Bedeitungen: aussetzen oder am Stach loossen (en Hond, e Kand), ausliwweren (der Keelt, enger Gefor), ophalen oder ënnerbriechen (Motor, Aarbecht) an am Ausdrock etwas an + Dativ auszusetzen haben – eppes auszesetzen hunn, kritiséieren.",
         "Formen: setzt aus, setzte aus, hat ausgesetzt. Am Sënn vun ausliwweren steet den Dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. D'Partizip ausgesetzt sein bedeit ausgeliwwert sinn.",
         "Am Sënn vu kritiséieren gëtt den Ausdrock etwas an jemandem/etwas auszusetzen haben benotzt: Ich habe nichts daran auszusetzen. Hei kënnt zu tëscht de Präfix an de Stamm: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "sech erbaarmen",
       "explanation": [
         "Haaptiddi: sich erbarmen heescht, Matleed mat engem ze hunn, deen ënner eppes leit, an him ze hëllefen — op Lëtzebuergesch: sech erbaarmen. D'Sprooch ass gehuewen, dacks reliéis oder ironesch.",
-        "Dono kënnt am Däitsche meeschtens de Genitiv: sich des Hundes erbarmen. Méi seele gëtt über + Akkusativ benotzt. Formen: erbarmt sich, erbarmte sich, hat sich erbarmt. Well de Genitiv am Lëtzebuergeschen am Alldag kaum gebraucht gëtt, muss een dës Konstruktioun gutt léieren.",
+        "Dono kënnt am Däitsche meeschtens de Genitiv: sich des Hundes erbarmen. Méi seele (regional, an Éisterräich) gëtt über + Akkusativ benotzt. Formen: erbarmt sich, erbarmte sich, hat sich erbarmt. Well de Genitiv am Lëtzebuergeschen am Alldag kaum gebraucht gëtt, muss een dës Konstruktioun gutt léieren.",
         "Am Alldag, fir de Spaass: Wer erbarmt sich und …? — Wien erbaarmt sech a …?"
       ],
       "examples": [
@@ -12072,7 +12072,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig beschreift dacks eppes Ongewolltes oder Onregelméissegt (e knaschtegt Kleedungsstéck, rout Placken op der Haut).",
-        "Wann s du eng Endung drusetz, denk un den e: ein fleckiges Fell, eine fleckige Haut."
+        "Virun engem Substantiv kritt fleckig eng Endung: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19555,7 +19555,7 @@ const B2_WORDS = [
       "translation": "nodréiglech",
       "explanation": [
         "Haaptiddi: nachträglich heescht no der Saach, wann d'Haapthandlung oder d'Frist schonn eriwwer ass — méi spéit derbäikomm oder gemaach. Et ass souwuel en Adjektiv (eine nachträgliche Änderung) wéi en Adverb (nachträglich ändern).",
-        "Heefeg Bedeitung: d'Verspéidung — nachträglich gratulieren, nom Evenement gratuléieren. An der Verwaltungssprooch: eine nachträgliche Zahlung (eng spéider Bezuelung, déi nodréiglech gemaach gëtt)."
+        "Heefeg Bedeitung: d'Verspéidung — nachträglich gratulieren, nom Evenement gratuléieren. Als Adjektiv bedeit et och spéider, no der festgeluechter Zäit: eine nachträgliche Zahlung (eng spéider Bezuelung)."
       ],
       "examples": [
         {
@@ -23326,7 +23326,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "iwwerbréngen • iwwerreechen",
       "explanation": [
-        "Haaptiddi: überbringen heescht eng Noriicht, Gléckwënsch, e Bréif oder e Kaddo, deen engem uvertraut gouf, dem Empfänger iwwerbréngen — se perséinlech bréngen an iwwerreechen. Den Empfänger steet am Dativ: jemandem etwas überbringen.",
+        "Haaptiddi: überbringen heescht eng Noriicht, Gléckwënsch, e Bréif oder e Kaddo dem Empfänger iwwerbréngen — se perséinlech bréngen an iwwerreechen. Den Empfänger steet am Dativ: jemandem etwas überbringen.",
         "Ontrennbar Partikel über-: überbringt, überbrachte, hat überbracht. Am Infinitiv steet zu virum Verb: um die Nachricht zu überbringen. D'Wuert ass e bësse formell."
       ],
       "examples": [

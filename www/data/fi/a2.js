@@ -3204,7 +3204,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "perua ilmoittautuminen",
+          "meaning": "kirjautua ulos, perua ilmoittautuminen",
           "example": "Ich melde mich vom Kurs ab. – Peruutan ilmoittautumiseni kurssille."
         },
         {
@@ -3378,7 +3378,7 @@ const A2_WORDS = [
       "explanation": [
         "Pääajatus: anstecken on erotettava verbi, joka tarkoittaa kiinnittää tai pujottaa (kiinnittää kukka, pujottaa sormus sormeen) sekä tartuttaa ja tarttua (tauti).",
         "Muodot: steckt an, steckte an, hat angesteckt. Etuliite an- erottuu lauseessa: Er steckt mir den Ring an. Verbi vaatii akkusatiivin (mitä?), usein myös datiivin (kenelle?).",
-        "Tartuttamisen merkityksessä käytetään ilmauksia jemanden anstecken tai sich anstecken (saada tartunta): Ich habe mich bei ihm angesteckt. Joillakin alueilla anstecken tarkoittaa myös sytyttää (eine Zigarette anstecken)."
+        "Tartuttamisen merkityksessä käytetään ilmauksia jemanden anstecken tai sich anstecken (saada tartunta): Ich habe mich bei ihm angesteckt. Puhekielessä anstecken tarkoittaa myös sytyttää (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7576,7 +7576,7 @@ const A2_WORDS = [
       "explanation": [
         "Perusajatus: die Bahn on feminiininen substantiivi. Se tarkoittaa rautatietä ja raideliikennettä yleensä (mit der Bahn fahren – matkustaa junalla). Yrityksen nimessä Deutsche Bahn se tarkoittaa Saksan rautateitä.",
         "Monikko on die Bahnen. Sana esiintyy myös yhdyssanoissa: die Straßenbahn (raitiovaunu), die U-Bahn (metro), die S-Bahn (lähijuna), die Eisenbahn (rautatie).",
-        "Muita merkityksiä: rata tai kaista (die Laufbahn, die Radrennbahn) ja kiertorata (die Umlaufbahn). Urheilussa die Bahn on juoksurata."
+        "Muita merkityksiä: rata tai kaista (die Radrennbahn; die Laufbahn — myös ura) ja kiertorata (die Umlaufbahn). Urheilussa die Bahn on juoksurata."
       ],
       "examples": [
         {
@@ -7619,7 +7619,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn on feminiini; älä sekoita sitä sanaan der Bahnhof (asema, maskuliini).",
-        "Pelkkä sana Bahn tarkoittaa usein Deutsche Bahn -yhtiötä eikä tiettyä junaa; tietty juna on der Zug."
+        "Sana Bahn voi tarkoittaa myös Deutsche Bahn -yhtiötä (Die Bahn hat Verspätung); tietty juna on der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10144,7 +10144,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt ei ole sama kuin bestimmen: bestimmen tarkoittaa määrätä tai päättää, bestimmt on adverbi tai adjektiivi.",
-        "Bestimmt voi ilmaista myös oletusta eikä vain varmuutta: Er ist bestimmt zu Hause (hän on luultavasti kotona)."
+        "Bestimmt ilmaisee myös vahvaa oletusta: Er ist bestimmt zu Hause (hän on varmasti kotona)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12223,7 +12223,7 @@ const A2_WORDS = [
       "translation": "läsnä • mukana",
       "explanation": [
         "Perusajatus: dabei on adverbi, joka muodostuu sanoista da + bei. Se tarkoittaa läsnä, mukana, siinä: jonkin vieressä tai jossakin tapahtumassa. Yleisin ilmaus on dabei sein (olla läsnä, osallistua).",
-        "Muita yleisiä merkityksiä: mukana (etwas dabei haben – olla jotakin mukana), samalla (samaan aikaan) ja tehdä jotakin juuri nyt (dabei sein, etwas zu tun). Se on paikkaa ja aikaa ilmaiseva sana, joka viittaa aiemmin mainittuun.",
+        "Muita yleisiä merkityksiä: mukana (etwas dabei haben – olla jotakin mukana), samaan aikaan, lisäksi ja tehdä jotakin juuri nyt (dabei sein, etwas zu tun). Se on paikkaa ja aikaa ilmaiseva sana, joka viittaa aiemmin mainittuun.",
         "Dabei on myös yhdysverbien osa: dabeibleiben (pysyä siinä), dabeihaben (pitää mukana), dabeisitzen (istua vieressä)."
       ],
       "examples": [
@@ -12420,7 +12420,7 @@ const A2_WORDS = [
       "explanation": [
         "Perusajatus: dafür on adverbi (da + für). Se tarkoittaa siitä (vastineeksi, maksaessa, kiittäessä), sitä varten (tarkoitus) tai puolesta (kannattaen): Ich bin dafür (olen sen puolesta).",
         "Se korvaa für + aiemmin mainitun asian: Ich danke dir dafür. Sellaisten verbien kuin sich interessieren für, sorgen für, sich entschuldigen für kanssa käytetään dafür-sanaa, kun substantiivia ei tarvitse toistaa.",
-        "Puhekielessä dafür tarkoittaa myös sen sijaan, toisaalta, korvaukseksi: Er ist nicht schnell, dafür arbeitet er genau. Tässä merkityksessä se aloittaa vastakohdan, jossa on myönteinen korvaus."
+        "Dafür tarkoittaa myös sen sijaan, toisaalta, korvaukseksi: Er ist nicht schnell, dafür arbeitet er genau. Tässä merkityksessä se aloittaa vastakohdan, jossa on myönteinen korvaus."
       ],
       "examples": [
         {
@@ -12654,7 +12654,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Konjunktion damit aloittamassa sivulauseessa verbi on lauseen lopussa.",
-        "Sana damit ei tarkoita siksi; syyn ilmaisemiseen käytetään sanaa deshalb tai darum."
+        "Konjunktio damit (jotta) ei tarkoita siksi; merkityksessä siksi käytetään sanaa deshalb tai darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19807,7 +19807,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Sanaa gar ei yleensä käytetä ilman sanoja nicht, kein, nichts."
+        "Kiellon vahvistimena sanaa gar käytetään yhdessä sanojen nicht, kein, nichts kanssa."
       ],
       "important": [
         "gar on kiellon vahvistaja: gar nicht on vahvempi kuin nicht."
@@ -23641,7 +23641,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Wienin yhteydessä sanaa Kaffeehaus käytetään usein; Saksassa kuulet yhtä usein das Café.",
+        "Sana Kaffeehaus on tyypillinen Itävallalle (Wienille); Saksassa sanotaan paljon useammin das Café.",
         "Muista perussanat Kaffee (kahvi) + das Haus (talo)."
       ],
       "important": [
@@ -24623,7 +24623,7 @@ const A2_WORDS = [
       "explanation": [
         "Pääajatus: der Kellner on maskuliininen substantiivi, joka tarkoittaa tarjoilijaa, joka tuo ravintolassa tai kahvilassa ruoat ja juomat. Naispuolinen tarjoilija on die Kellnerin.",
         "Monikko on die Kellner (miehet) ja die Kellnerinnen (naiset). Taivutus: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Tarjoilijaa puhutellaan parhaiten sanomalla Entschuldigung!; puhuttelua Herr Ober! pidetään nykyään vanhanaikaisena."
+        "Tarjoilijaa puhutellaan parhaiten sanomalla ”Entschuldigung!”; puhuttelua Herr Ober! pidetään nykyään vanhanaikaisena."
       ],
       "examples": [
         {
@@ -26170,7 +26170,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen on maskuliini: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen yksinään tarkoittaa autoa tai junanvaunua, ei lastenvaunuja."
+        "Wagen yksinään tarkoittaa yleensä autoa tai junanvaunua; lastenvaunut ovat Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28673,7 +28673,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Muista: Kraft = voima, Macht = valta, Energie = energia.",
-        "Opettele fraasi in Kraft treten (tulla voimaan); se on yleisempi kuin perusmerkitys."
+        "Opettele fraasi in Kraft treten (tulla voimaan) — sitä käytetään usein laeista ja määräyksistä."
       ],
       "important": [
         "Die Kraft on feminiini; monikko on die Kräfte, ei die Krafte.",
@@ -32740,7 +32740,7 @@ const A2_WORDS = [
       "translation": "arvosana • nuotti",
       "explanation": [
         "Pääajatus: die Note on feminiininen substantiivi. Koulussa ja korkeakoulussa se tarkoittaa arvosanaa (eine gute Note bekommen, saada hyvä arvosana). Musiikissa se on nuotti: Noten lesen (lukea nuotteja).",
-        "Monikko on die Noten. Saksassa arvosanat annetaan asteikolla 1 (sehr gut) … 6 (ungenügend), ja 1 on paras. Siksi eine gute Note tarkoittaa pientä lukua.",
+        "Monikko on die Noten. Saksan kouluissa arvosanat annetaan asteikolla 1 (sehr gut) … 6 (ungenügend), ja 1 on paras (korkeakouluissa asteikko on 1,0–5,0). Siksi eine gute Note tarkoittaa pientä lukua.",
         "Arvosanoista sanotaan: eine Note bekommen, eine Note geben, die Note verbessern (parantaa arvosanaa)."
       ],
       "examples": [
@@ -35365,7 +35365,7 @@ const A2_WORDS = [
         "Ilmauksessa rechnen mit + datiivi merkitys on ”varautua johonkin”, esimerkiksi huonoon säähän."
       ],
       "important": [
-        "Rechnen mit tarkoittaa yleensä ”odottaa, ottaa huomioon”, ei ”laskea jollakin”."
+        "Rechnen mit + datiivi tarkoittaa yleensä ”odottaa, ottaa huomioon” (Wir rechnen mit Regen); välineen kanssa se tarkoittaa ”laskea jollakin”: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36850,7 +36850,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "terävä • tulinen",
       "explanation": [
-        "Perusajatus: scharf on adjektiivi, jolla on useita merkityksiä. Esineestä se tarkoittaa terävää (scharfes Messer – terävä veitsi), ruoasta tulista, voimakasta makua (scharfes Essen). Kuvaannollisesti se voi tarkoittaa myös jyrkkää tai voimakasta: eine scharfe Kurve, scharf bremsen.",
+        "Perusajatus: scharf on adjektiivi, jolla on useita merkityksiä. Esineestä se tarkoittaa terävää (scharfes Messer – terävä veitsi), ruoasta tulista, voimakasta makua (scharfes Essen). Kuvaannollisesti se voi tarkoittaa myös äkillistä tai voimakasta: eine scharfe Kurve (jyrkkä mutka), scharf bremsen (jarruttaa äkisti).",
         "Komparatiivi on schärfer (umlautilla), superlatiivi am schärfsten. Substantiivin edellä: ein scharfes Messer, scharfe Soße.",
         "Kannattaa muistaa: scharf tarkoittaa tulista makua (chili, piparjuuri), ei suolaista — suolainen on salzig."
       ],
@@ -37327,7 +37327,7 @@ const A2_WORDS = [
         "Jonoa, jossa ihmiset odottavat, kutsutaan sanalla Schlange; Reihe on pikemminkin vuoro tai järjestys (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen on vakiintunut ilmaus: ei in der Schlange sein, vaan Schlange stehen."
+        "Yleisin ilmaus on Schlange stehen (myös in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45465,7 +45465,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Verbiä wechseln käytetään, kun yksi asia vaihdetaan toiseen (koulu, työ, valuutta). ändern – kun jotakin muutetaan.",
-        "Kulkuneuvon vaihtaminen matkalla ilmaistaan verbillä umsteigen, ei wechseln."
+        "Kulkuneuvon vaihtaminen matkalla ilmaistaan yleensä verbillä umsteigen (mahdollista on myös den Zug wechseln)."
       ],
       "important": [
         "Ilmauksella Geld wechseln tarkoitetaan yleensä valuutan tai rahan vaihtamista, ei rahan kuluttamista.",

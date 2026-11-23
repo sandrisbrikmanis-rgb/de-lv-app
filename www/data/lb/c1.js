@@ -367,7 +367,7 @@ const C1_WORDS = [
       "translation": "Eefamilljenhaus",
       "explanation": [
         "Haaptiddi: das Einfamilienhaus ass en Haus fir eng eenzeg Famill — fräistoend oder mat Noperen, mee mat enger eenzeger Wunneng an normalerweis mat engem eegene Gaart.",
-        "Neutrum-Substantiv: das Einfamilienhaus, Pluralform die Einfamilienhäuser. Et besteet aus Ein- + Familie + Haus, grad wéi d'Lëtzebuergescht Eefamilljenhaus.",
+        "Neutrum-Substantiv: das Einfamilienhaus, Pluralform die Einfamilienhäuser. Et besteet aus Ein- + Familien- (Verbindungsform vu Familie) + Haus, grad wéi d'Lëtzebuergescht Eefamilljenhaus.",
         "De Géigendeel ass das Mehrfamilienhaus (Méifamilljenhaus, Haus mat e puer Wunnengen)."
       ],
       "examples": [
@@ -1144,7 +1144,7 @@ const C1_WORDS = [
         "An der Politik heescht et eine Partei wählen oder für eine Partei stimmen."
       ],
       "important": [
-        "Die Partei an die Party (Fest) klénge änlech, mee hunn näischt mateneen ze dinn."
+        "Die Partei an die Party (Fest) klénge änlech, mee d'Bedeitung ass eng ganz aner (allebéid kommen awer vum laténgesche pars — Deel)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Mes mielai jums patikime šį užsakymą."
+          "lv": "Mes mielai jums pavedame šį užsakymą (užduotį)."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen nėra tas pats, kas besorgt sein (susirūpinęs): būdvardis besorgt yra kitas žodis.",
-        "Besorgen yra neskiriamasis: besorgt, o ne gesorgt."
+        "Besorgen yra neskiriamasis, Perfekte be ge-: hat besorgt (gesorgt yra kito veiksmažodžio – sorgen – forma)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: bieten reiškia siūlyti arba teikti – suteikti kam nors galimybę, paslaugą ar pranašumą; taip pat siūlyti kainą aukcione. Tai stiprusis veiksmažodis: er bietet, bot, hat geboten. Po jo eina Akkusativ, dažnai su Dativ: jemandem etwas bieten.",
         "Pavyzdžiai: Das Hotel bietet viel Komfort (viešbutis siūlo daug patogumų), Ich biete 100 Euro (siūlau 100 eurų). Sangrąžinis sich bieten reiškia: Eine Chance bietet sich (atsiranda galimybė).",
-        "Giminingas daiktavardis – das Angebot (pasiūlymas), tačiau veiksmažodis anbieten (pasiūlyti) yra kitas."
+        "Daiktavardis das Angebot (pasiūlymas) kilęs iš anbieten; iš bieten – das Gebot (siūloma kaina aukcione)."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blokas",
       "explanation": [
-        "Pagrindinė mintis: der Block yra blokas – tankus, vientisas gabalas arba rinkinys: užrašų blokas, ledo luitas, namų blokas. Daugiskaita – die Blöcke.",
+        "Pagrindinė mintis: der Block yra blokas – tankus, vientisas gabalas arba rinkinys: užrašų blokas, ledo luitas, namų blokas. Daugiskaita – die Blöcke (užrašų ir namų blokams dažnai ir die Blocks).",
         "Tipiški sudurtiniai žodžiai: der Notizblock (užrašų blokas, bloknotas), der Wohnblock (gyvenamųjų namų kompleksas), der Motorblock (variklio blokas); taip pat ein Block Eis (ledo luitas).",
         "Perkeltine reikšme der Block gali būti ir politinė ar ekonominė sąjunga: der Machtblock (galios blokas)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft yra moteriškosios giminės.",
-        "Nepainiok su das Konsulat (konsulatas): jis paprastai aptarnauja gyventojus konkrečiame mieste."
+        "Nepainiok su das Konsulat (konsulatas): jis aptarnauja piliečius tam tikroje konsulinėje apygardoje."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "sąjunga",
       "explanation": [
         "Pagrindinė mintis: der Bund yra sąjunga, susivienijimas ar valstybinio lygmens sąjunga – kelių šalių susijungimas į vieną visumą. Daugiskaita – die Bünde. Žodis yra vyriškosios giminės.",
-        "Vokietijoje der Bund dažnai reiškia federalinę valdžią, priešpriešinamą žemėms (Ländern): Bund und Länder. Sudurtiniuose žodžiuose: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Vokietijoje der Bund dažnai reiškia federalinę valdžią, priešpriešinamą žemėms (die Länder): Bund und Länder. Sudurtiniuose žodžiuose: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Kitos reikšmės: ein Bund fürs Leben (santuokos sąjunga) ir das Bund (ryšelis): ein Bund Radieschen. Tai kitas žodis su kitu artikeliu."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: dadurch yra prieveiksmis, reiškiantis tokiu būdu, tuo, per tai – nurodo priežastį ar priemonę. Jis paprastai susieja ankstesnį sakinį su pasekmėmis: Er hat viel geübt. Dadurch wurde er besser.",
         "Žodžių tvarka: po dadurch veiksmažodis yra antroje vietoje: Dadurch wird alles einfacher. Be to, dadurch, dass kaip jungtukas (dėl to, kad) įveda šalutinį sakinį, kurio veiksmažodis yra gale.",
-        "Vietos reikšme dadurch reiškia ir pro tai, per tai, ir tada kirčiuojamas pirmasis skiemuo: Die Tür war offen, wir sind dadurch gegangen."
+        "Vietos reikšme dadurch reiškia ir pro tai, per tai: Die Tür war offen, wir sind dadurch gegangen. Paprastai kirčiuojamas antrasis skiemuo; pirmasis skiemuo kirčiuojamas tik ypač pabrėžiant."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "tarnauti",
       "explanation": [
         "Pagrindinė mintis: dienen reiškia tarnauti, būti naudingam tam tikram tikslui arba atlikti tam tikrą funkciją. Dažniausios konstrukcijos: dienen als + Nominativ (būti kuo, tarnauti kaip), dienen zu + Dativ (būti skirtam kam) ir dienen + Dativ (tarnauti kam nors).",
-        "Formos: dient, diente, hat gedient. Po veiksmažodžio eina Dativ (Er dient dem Land), ne Akkusativ. Šnekamojoje kalboje Womit kann ich dienen? yra mandagus pasiūlymas padėti, o karine reikšme dienen – „tarnauti kariuomenėje“."
+        "Formos: dient, diente, hat gedient. Po veiksmažodžio eina Dativ (Er dient dem Land), ne Akkusativ. Womit kann ich dienen? yra mandagus, šiek tiek senamadiškas aptarnaujančio asmens pasiūlymas padėti, o karine reikšme dienen – „tarnauti kariuomenėje“."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "viduriavimas",
       "explanation": [
         "Pagrindinė mintis: der Durchfall yra vyriškosios giminės daiktavardis, reiškiantis viduriavimą – skystą, dažną tuštinimąsi. Medicinoje ir kasdienėje kalboje jis vartojamas vienaskaita: Durchfall haben – viduriuoti.",
-        "Daugiskaita die Durchfälle vartojama retai. Perkeltine reikšme Durchfall gali reikšti ir nesėkmę (neišlaikytą egzaminą, nepavykusį spektaklį), tačiau tada paprastai vartojamas veiksmažodis durchfallen."
+        "Daugiskaita die Durchfälle vartojama retai. Perkeltine reikšme (šnekamojoje kalboje) Durchfall gali reikšti ir nesėkmę (neišlaikytą egzaminą, nepavykusį spektaklį), tačiau tada paprastai vartojamas veiksmažodis durchfallen."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "savas",
       "explanation": [
         "Pagrindinė mintis: eigen yra būdvardis, reiškiantis „savas, nuosavas, paties“. Jis pabrėžia priklausymą: mein eigenes Auto – mano paties automobilis. Paprastai jis stovi prieš daiktavardį ir yra kaitomas: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Perkeltine reikšme eigen gali reikšti ir „savitas, ypatingas“: ein eigener Geruch – savitas kvapas. Posakis etwas zu eigen haben – turėti kokią nors savybę. B1 lygyje pagrindinė reikšmė yra „savas, paties“."
+        "Perkeltine reikšme eigen gali reikšti ir „savitas, ypatingas“: ein eigener Geruch – savitas kvapas. Posakis sich (Dat) etwas zu eigen machen – priimti ką nors kaip savo. B1 lygyje pagrindinė reikšmė yra „savas, paties“."
       ],
       "examples": [
         {
@@ -29694,7 +29694,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Daugiskaitoje yra galūnė -er: die Geschlechter.",
-        "Anketose po žodžio Geschlecht dažniausiai būna laukelis, kurį reikia užpildyti, o ne klausimas."
+        "Anketose Geschlecht yra laukelio pavadinimas (lytis), kur pažymima männlich / weiblich / divers."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32592,7 +32592,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Po ein Haufen eina daiktavardis be „von“: ein Haufen Arbeit, ein Haufen Geld.",
+        "Po ein Haufen daiktavardis paprastai eina be „von“: ein Haufen Arbeit, ein Haufen Geld (rečiau: ein Haufen von Problemen).",
         "Posakis über den Haufen werfen — sugriauti (planus)."
       ],
       "important": [
@@ -34239,7 +34239,7 @@ const B1_WORDS = [
       "translation": "homoseksualas",
       "explanation": [
         "Pagrindinė mintis: der Homosexuelle yra daiktavardis, reiškiantis homoseksualų vyrą. Jis linksniuojamas kaip būdvardis: ein Homosexueller, der Homosexuelle, die Homosexuellen (daugiskaita). Moteris: die Homosexuelle, eine Homosexuelle.",
-        "Žodis neutralus, oficialus, vartojamas oficialiuose tekstuose, žiniose, įstatymuose. Kasdienėje kalboje dažnai sakoma schwul (gėjus) arba lesbisch (lesbietė)."
+        "Žodis neutralus, oficialus, vartojamas oficialiuose tekstuose, žiniose, įstatymuose. Kasdienėje kalboje dažnai sakomi būdvardžiai: er ist schwul (jis gėjus), sie ist lesbisch (ji lesbietė)."
       ],
       "examples": [
         {
@@ -46011,7 +46011,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Žodis das Maß rašomas su ß, nes balsis ilgas.",
-        "Daugiskaita – die Maße (išmatavimai); naudininke – den Maßen (in Maßen, über alle Maßen)."
+        "Daugiskaita – die Maße (išmatavimai); naudininke – den Maßen (in Maßen). Posakyje über alle Maßen išlikusi istorinė forma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47382,7 +47382,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben nėra tas pats, kas aufgeben: nachgeben – nusileisti kam nors, aufgeben – atsisakyti kokio nors tikslo.",
-        "Priešdėlis nach- atskiriamas: gibt nach, o ne nachgibt."
+        "Priešdėlis nach- pagrindiniame sakinyje atskiriamas: er gibt nach (šalutiniame sakinyje kartu: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47696,7 +47696,7 @@ const B1_WORDS = [
       "translation": "linkti",
       "explanation": [
         "Pagrindinė mintis: neigen su zu + Dativ reiškia linkti į ką nors, turėti polinkį: Er neigt zu schnellen Entscheidungen. Formos: neigt, neigte, hat geneigt.",
-        "Tiesiogine reikšme etwas neigen – palenkti (den Kopf neigen). Sangrąžinis sich neigen reiškia pasilenkti arba artėti į pabaigą: Der Tag neigt sich.",
+        "Tiesiogine reikšme etwas neigen – palenkti (den Kopf neigen). Sangrąžinis sich neigen reiškia pasilenkti arba (knyginiame stiliuje) artėti į pabaigą: Der Tag neigt sich. Posakis sich dem Ende zuneigen kilęs iš zuneigen.",
         "Iš tos pačios šaknies sudarytas daiktavardis die Neigung (polinkis, potraukis, nuolydis)."
       ],
       "examples": [
@@ -48591,7 +48591,7 @@ const B1_WORDS = [
       "translation": "stoka • vargas",
       "explanation": [
         "Pagrindinė mintis: die Not – tai stoka, vargas, skurdas: padėtis, kai žmogui trūksta būtiniausių dalykų (in Not leben, Not leiden). Tai taip pat skubus poreikis ar nelaimė: in der Not, in Not geraten.",
-        "Žodis moteriškosios giminės. Daugiskaita die Nöte labai reta; paprastai vartojama vienaskaita.",
+        "Žodis moteriškosios giminės. Daugiskaita die Nöte vartojama rečiau (Sorgen und Nöte); paprastai vartojama vienaskaita.",
         "Frazės: zur Not (jei kitaip neišeina; jei jau labai reikia), aus der Not eine Tugend machen (iš būtinybės padaryti dorybę), Not macht erfinderisch (būtinybė verčia būti išradingam)."
       ],
       "examples": [
@@ -54737,7 +54737,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten nėra braten: braten – kepti su aliejumi ar riebalais, rösten – skrudinti.",
-        "Nesupainiok rösten su rostet (rūdija)."
+        "Nesupainiok rösten su rosten (rūdyti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60255,7 +60255,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Sėdimai vietai transporte – der Sitz arba der Platz; tik der Platz gali reikšti vietą apskritai.",
-        "Įmonės buveinė vadinama der Firmensitz."
+        "Juridinė įmonės buveinė (pagrindinė būstinė) vadinama der Firmensitz."
       ],
       "important": [
         "Der Sitz nėra das Sitzen: das Sitzen – veiksmas, der Sitz – sėdynė ar būstinė.",
@@ -61228,7 +61228,7 @@ const B1_WORDS = [
         "Kaupimui (energija, vanduo) taip pat vartojama speichern."
       ],
       "important": [
-        "Liepiamoji nuosaka – Speichere (arba Speicher), o ne Speichern.",
+        "Liepiamoji nuosaka – Speichere! (taip pat Speichre!; šnekamojoje kalboje Speicher!), o ne Speichern.",
         "speichern nėra sperren (blokuoti)."
       ],
       "sectionAccents": {
@@ -76488,7 +76488,7 @@ const B1_WORDS = [
         "Po zugeben dažnai eina sakinys su dass, kuriame veiksmažodis būna gale."
       ],
       "important": [
-        "Zugeben – tai pripažinti ką nors, kas kalbėtojui nenaudinga; jei tiesiog nori pasakyti, kad ką nors įdedi į patiekalą, vartok hinzufügen.",
+        "Zugeben paprastai reiškia pripažinti ką nors, kas kalbėtojui nenaudinga. Receptuose zugeben reiškia ir įdėti, pridėti (Salz zugeben); kasdienėje kalboje šia reikšme dažniau sakoma hinzufügen.",
         "Po zugeben sakinyje su dass veiksmažodis eina gale: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {

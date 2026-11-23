@@ -3379,7 +3379,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpoeng: anstecken er et delbart verb som betyr å feste på eller sette på (feste på en blomst, sette på en ring), og dessuten å smitte (om sykdom).",
         "Former: steckt an, steckte an, hat angesteckt. Forstavelsen an- skilles fra i setningen: Er steckt mir den Ring an. Verbet tar akkusativ (hva?), ofte også dativ (hvem?).",
-        "I betydningen smitte bruker man jemanden anstecken eller sich anstecken (bli smittet): Ich habe mich bei ihm angesteckt. Noen steder brukes anstecken også om å tenne (eine Zigarette anstecken)."
+        "I betydningen smitte bruker man jemanden anstecken eller sich anstecken (bli smittet): Ich habe mich bei ihm angesteckt. I dagligtale betyr anstecken også å tenne (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7576,7 +7576,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpoeng: die Bahn er et hunkjønnssubstantiv. Det betyr jernbane og jernbanetransport generelt (mit der Bahn fahren – reise med tog). I firmanavnet Deutsche Bahn er det den tyske jernbanen.",
         "Flertall er die Bahnen. Ordet finnes også i sammensetninger: die Straßenbahn (trikk), die U-Bahn (T-bane), die S-Bahn (lokaltog), die Eisenbahn (jernbane).",
-        "Andre betydninger: bane eller løype (die Laufbahn, die Radrennbahn) og bane i verdensrommet (die Umlaufbahn). I idrett er die Bahn løpebanen."
+        "Andre betydninger: bane eller løype (die Radrennbahn; die Laufbahn — også karriere) og bane i verdensrommet (die Umlaufbahn). I idrett er die Bahn løpebanen."
       ],
       "examples": [
         {
@@ -7619,7 +7619,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn er hunkjønn; ikke bland det med der Bahnhof (stasjon, hankjønn).",
-        "Ordet Bahn alene betyr ofte selskapet Deutsche Bahn, ikke et bestemt tog; et bestemt tog er der Zug."
+        "Ordet Bahn kan også bety selskapet Deutsche Bahn (Die Bahn hat Verspätung); et bestemt tog kalles der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10141,7 +10141,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt er ikke det samme som bestimmen: bestimmen betyr å bestemme eller avgjøre, mens bestimmt er adverb eller adjektiv.",
-        "Bestimmt kan også uttrykke en antakelse, ikke bare sikkerhet: Er ist bestimmt zu Hause (han er nok hjemme)."
+        "Bestimmt uttrykker også en sikker antakelse: Er ist bestimmt zu Hause (han er helt sikkert hjemme)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11849,7 +11849,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpoenget: brennen er et uregelmessig verb som betyr brenne: ild, ved, lys og til og med øyne eller hud kan brenne. I grunnbetydningen har det ikke noe direkte objekt.",
         "Bøyning: brennt, brannte, hat gebrannt. Det er et blandet verb: stammen skifter vokal (brennen – brannte), men endelsene er som hos regelrette verb (ich brannte, wir brannten).",
-        "I overført betydning kan brennen også bety å svi (om smerte eller sol: Die Sonne brennt) og å brenne av entusiasme (für etwas brennen). Med objekt betyr brennen å brenne en CD (eine CD brennen) eller å brenne brennevin (Schnaps brennen)."
+        "I overført betydning kan brennen også bety å svi (om smerte eller sol: Die Sonne brennt) og å brenne av entusiasme (für etwas brennen). Med objekt betyr brennen å brenne en CD (eine CD brennen) eller å destillere (Schnaps brennen)."
       ],
       "examples": [
         {
@@ -12219,7 +12219,7 @@ const A2_WORDS = [
       "translation": "til stede • samtidig",
       "explanation": [
         "Hovedpoenget: dabei er et adverb dannet av da + bei. Det betyr til stede, ved det, med: ved siden av noe eller med i en hendelse. Den vanligste forbindelsen er dabei sein (være til stede, delta).",
-        "Andre vanlige betydninger: med seg (etwas dabei haben – ha noe med seg), samtidig (på samme tid) og å holde på med noe akkurat nå (dabei sein, etwas zu tun). Det er et steds- og tidsord som viser tilbake til noe som er nevnt før.",
+        "Andre vanlige betydninger: med seg (etwas dabei haben – ha noe med seg), samtidig, dessuten og å holde på med noe akkurat nå (dabei sein, etwas zu tun). Det er et steds- og tidsord som viser tilbake til noe som er nevnt før.",
         "Dabei inngår også i sammensetninger: dabeibleiben (holde fast ved det), dabeihaben (ha med seg), dabeisitzen (sitte ved siden av)."
       ],
       "examples": [
@@ -12416,7 +12416,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpoenget: dafür er et adverb (da + für). Det betyr for det (i bytte, som betaling, som takk), til det (et formål) eller for (å være enig): Ich bin dafür (jeg er for).",
         "Det erstatter für + noe som er nevnt før: Ich danke dir dafür. Med verb som sich interessieren für, sorgen für, sich entschuldigen für bruker man dafür når man ikke trenger å gjenta substantivet.",
-        "I dagligtale betyr dafür også til gjengjeld, som kompensasjon: Er ist nicht schnell, dafür arbeitet er genau. I denne betydningen innleder det en motsetning med en positiv kompensasjon."
+        "Dafür betyr også til gjengjeld, som kompensasjon: Er ist nicht schnell, dafür arbeitet er genau. I denne betydningen innleder det en motsetning med en positiv kompensasjon."
       ],
       "examples": [
         {
@@ -12650,7 +12650,7 @@ const A2_WORDS = [
       ],
       "important": [
         "I en leddsetning med damit står verbet sist.",
-        "damit betyr ikke derfor; for årsak bruker man deshalb eller darum."
+        "Konjunksjonen damit (for at) betyr ikke derfor; i betydningen derfor bruker man deshalb eller darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19800,7 +19800,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Uten nicht, kein, nichts brukes gar vanligvis ikke."
+        "Som forsterkning av en nektelse brukes gar sammen med nicht, kein, nichts."
       ],
       "important": [
         "gar forsterker en nektelse: gar nicht er sterkere enn nicht."
@@ -23634,7 +23634,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "I forbindelse med Wien brukes ordet Kaffeehaus ofte; i Tyskland hører du like ofte das Café.",
+        "Ordet Kaffeehaus er typisk for Østerrike (Wien); i Tyskland sier man mye oftere das Café.",
         "Husk grunnordene Kaffee (kaffe) + das Haus (hus)."
       ],
       "important": [
@@ -24616,7 +24616,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpoeng: der Kellner er et hankjønnssubstantiv som betyr kelner eller servitør, en som bringer mat og drikke på restaurant eller kafé. En kvinne er die Kellnerin.",
         "Flertall er die Kellner (menn) og die Kellnerinnen (kvinner). Bøyning: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "For å tilkalle kelneren passer Entschuldigung! best; tiltaleformen Herr Ober! regnes i dag som gammeldags."
+        "For å tilkalle kelneren passer «Entschuldigung!» best; tiltaleformen Herr Ober! regnes i dag som gammeldags."
       ],
       "examples": [
         {
@@ -26164,7 +26164,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen er hankjønn: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen alene betyr bil eller jernbanevogn, ikke barnevogn."
+        "Wagen alene betyr vanligvis bil eller jernbanevogn; en barnevogn kalles Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28664,7 +28664,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Husk: Kraft = kraft, Macht = makt, Energie = energi.",
-        "Lær uttrykket in Kraft treten (tre i kraft); det forekommer oftere enn grunnbetydningen."
+        "Lær uttrykket in Kraft treten (tre i kraft) — det brukes ofte om lover og regler."
       ],
       "important": [
         "Die Kraft er hunkjønn; flertall er die Kräfte, ikke die Krafte.",
@@ -32731,7 +32731,7 @@ const A2_WORDS = [
       "translation": "karakter • note",
       "explanation": [
         "Hovedtanken: die Note er et hunkjønnssubstantiv. På skolen og ved universitetet betyr det karakter (eine gute Note bekommen, få en god karakter). I musikk er det en note: Noten lesen (lese noter).",
-        "Flertall er die Noten. I Tyskland går karakterene fra 1 (sehr gut) til 6 (ungenügend), og 1 er best. Derfor betyr eine gute Note et lavt tall – stikk motsatt av den norske skalaen, der 6 er best.",
+        "Flertall er die Noten. I tyske skoler går karakterene fra 1 (sehr gut) til 6 (ungenügend), og 1 er best (på universiteter er skalaen 1,0–5,0). Derfor betyr eine gute Note et lavt tall – stikk motsatt av den norske skalaen, der 6 er best.",
         "Om karakterer sier man: eine Note bekommen, eine Note geben, die Note verbessern (forbedre karakteren)."
       ],
       "examples": [
@@ -35355,7 +35355,7 @@ const A2_WORDS = [
         "I uttrykket rechnen mit + dativ er betydningen «regne med», for eksempel med dårlig vær."
       ],
       "important": [
-        "Rechnen mit betyr vanligvis «vente, ta med i beregningen», ikke «regne ved hjelp av noe»."
+        "Rechnen mit + dativ betyr vanligvis «vente, ta med i beregningen» (Wir rechnen mit Regen); med et hjelpemiddel betyr det «regne ved hjelp av»: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37317,7 +37317,7 @@ const A2_WORDS = [
         "En kø der folk venter, heter Schlange; Reihe er heller en rekke i betydningen rekkefølge (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen er et fast uttrykk: man sier ikke in der Schlange sein, men Schlange stehen."
+        "Det vanligste uttrykket er Schlange stehen (også in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45455,7 +45455,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln brukes når man bytter ut én ting med en annen (skole, jobb, valuta). ändern – når man forandrer noe.",
-        "Bytte av tog eller buss uttrykkes med umsteigen, ikke wechseln."
+        "Bytte av tog eller buss uttrykkes vanligvis med umsteigen (det går også an å si den Zug wechseln)."
       ],
       "important": [
         "Med Geld wechseln mener man vanligvis å veksle valuta eller penger, ikke å bruke dem.",

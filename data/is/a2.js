@@ -3204,7 +3204,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abmelden",
-          "meaning": "afskrá, skrá úr",
+          "meaning": "skrá sig út, afskrá",
           "example": "Ich melde mich vom Kurs ab. – Ég skrái mig af námskeiðinu."
         },
         {
@@ -3378,7 +3378,7 @@ const A2_WORDS = [
       "explanation": [
         "Aðalatriðið: anstecken er aðskiljanleg sögn sem merkir að næla eða setja upp (næla á sig blóm, setja upp hring) og líka að smita (sjúkdómur).",
         "Myndir: steckt an, steckte an, hat angesteckt. Forskeytið an- skilst frá í setningunni: Er steckt mir den Ring an. Sögnin tekur með sér þolfall (hvað?), oft líka þágufall (hverjum?).",
-        "Í merkingunni að smita er notað jemanden anstecken eða sich anstecken (smitast): Ich habe mich bei ihm angesteckt. Sums staðar merkir anstecken líka að kveikja í (eine Zigarette anstecken)."
+        "Í merkingunni að smita er notað jemanden anstecken eða sich anstecken (smitast): Ich habe mich bei ihm angesteckt. Í talmáli merkir anstecken líka að kveikja í (eine Zigarette anstecken)."
       ],
       "examples": [
         {
@@ -7576,7 +7576,7 @@ const A2_WORDS = [
       "explanation": [
         "Aðalatriðið: die Bahn er kvenkynsnafnorð. Það merkir járnbraut og lestarsamgöngur almennt (mit der Bahn fahren – fara með lest). Í fyrirtækisheitinu Deutsche Bahn er það þýska járnbrautarfélagið.",
         "Fleirtalan er die Bahnen. Orðið kemur líka fyrir í samsettum orðum: die Straßenbahn (sporvagn), die U-Bahn (neðanjarðarlest), die S-Bahn (borgarlest), die Eisenbahn (járnbraut).",
-        "Aðrar merkingar: braut eða leið (die Laufbahn, die Radrennbahn) og sporbaugur (die Umlaufbahn). Í íþróttum er die Bahn hlaupabraut."
+        "Aðrar merkingar: braut eða leið (die Radrennbahn; die Laufbahn — líka starfsferill) og sporbaugur (die Umlaufbahn). Í íþróttum er die Bahn hlaupabraut."
       ],
       "examples": [
         {
@@ -7619,7 +7619,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bahn er kvenkyns; ruglaðu því ekki saman við der Bahnhof (lestarstöð, karlkyns).",
-        "Orðið Bahn eitt og sér merkir oft fyrirtækið Deutsche Bahn, ekki tiltekna lest; tiltekin lest er der Zug."
+        "Orðið Bahn getur líka merkt fyrirtækið Deutsche Bahn (Die Bahn hat Verspätung); tiltekin lest kallast der Zug."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10144,7 +10144,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Bestimmt er ekki það sama og bestimmen: bestimmen merkir að ákveða, bestimmt er atviksorð eða lýsingarorð.",
-        "Bestimmt getur líka lýst ágiskun, ekki aðeins vissu: Er ist bestimmt zu Hause (hann er sennilega heima)."
+        "Bestimmt lýsir líka sterkri ágiskun: Er ist bestimmt zu Hause (hann er örugglega heima)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12222,7 +12222,7 @@ const A2_WORDS = [
       "translation": "viðstaddur • með",
       "explanation": [
         "Meginhugsun: dabei er atviksorð myndað úr da + bei. Það merkir viðstaddur, hjá því, þar með: við hliðina á einhverju eða í einhverjum atburði. Algengasta sambandið er dabei sein (vera viðstaddur, taka þátt).",
-        "Aðrar algengar merkingar: með sér (etwas dabei haben – hafa eitthvað meðferðis), um leið (á sama tíma) og að vera einmitt að gera eitthvað (dabei sein, etwas zu tun). Orðið vísar til þess sem áður var nefnt.",
+        "Aðrar algengar merkingar: með sér (etwas dabei haben – hafa eitthvað meðferðis), á sama tíma, auk þess og að vera einmitt að gera eitthvað (dabei sein, etwas zu tun). Orðið vísar til þess sem áður var nefnt.",
         "Dabei er líka hluti samsettra orða: dabeibleiben (halda sig við það), dabeihaben (hafa meðferðis), dabeisitzen (sitja hjá)."
       ],
       "examples": [
@@ -12419,7 +12419,7 @@ const A2_WORDS = [
       "explanation": [
         "Meginhugsun: dafür er atviksorð (da + für). Það merkir fyrir það (í skiptum, sem greiðsla, í þakklæti), til þess (tilgangur) eða með (sem samþykki): Ich bin dafür (ég er með því).",
         "Það kemur í stað für + þess sem áður var nefnt: Ich danke dir dafür. Með sögnum eins og sich interessieren für, sorgen für, sich entschuldigen für er dafür notað þegar ekki þarf að endurtaka nafnorðið.",
-        "Í talmáli merkir dafür líka í staðinn, á móti: Er ist nicht schnell, dafür arbeitet er genau. Í þessari merkingu kynnir það andstæðu sem bætir upp hið neikvæða."
+        "Dafür merkir líka í staðinn, á móti: Er ist nicht schnell, dafür arbeitet er genau. Í þessari merkingu kynnir það andstæðu sem bætir upp hið neikvæða."
       ],
       "examples": [
         {
@@ -12653,7 +12653,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Í setningu með tengingunni damit stendur sögnin aftast.",
-        "damit merkir ekki þess vegna; til að tjá orsök er notað deshalb eða darum."
+        "Samtengingin damit (til þess að) merkir ekki þess vegna; í merkingunni þess vegna er notað deshalb eða darum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16150,7 +16150,7 @@ const A2_WORDS = [
         "Forskeytið ein losnar frá og fer aftast í setninguna: Ich lade dich ein."
       ],
       "important": [
-        "Lýsingarháttur þátíðar: hat eingeladen (ekki ge-ein-laden)."
+        "Í núliðinni tíð: hat eingeladen (ekki ge-ein-laden)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19797,7 +19797,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gar stendur yfirleitt ekki án nicht, kein eða nichts."
+        "Til að styrkja neitun er gar notað með nicht, kein eða nichts."
       ],
       "important": [
         "gar styrkir neitun: gar nicht er sterkara en nicht, eins og alls ekki er sterkara en ekki."
@@ -23631,7 +23631,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Í tengslum við Vín er orðið Kaffeehaus algengt; í Þýskalandi heyrirðu jafnoft das Café.",
+        "Orðið Kaffeehaus er einkennandi fyrir Austurríki (Vín); í Þýskalandi er miklu oftar sagt das Café.",
         "Mundu stofnana Kaffee (kaffi) + das Haus (hús)."
       ],
       "important": [
@@ -24613,7 +24613,7 @@ const A2_WORDS = [
       "explanation": [
         "Aðalatriðið: der Kellner er karlkynsnafnorð sem merkir þjónn, sá sem ber fram mat og drykki á veitingastað eða kaffihúsi. Kona er die Kellnerin.",
         "Fleirtalan er die Kellner (karlar) og die Kellnerinnen (konur). Beyging: der Kellner, den Kellner, dem Kellner, des Kellners.",
-        "Best er að ávarpa þjóninn með Entschuldigung!; ávarpið Herr Ober! þykir gamaldags í dag."
+        "Best er að ávarpa þjóninn með „Entschuldigung!“; ávarpið Herr Ober! þykir gamaldags í dag."
       ],
       "examples": [
         {
@@ -26161,7 +26161,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Kinderwagen er karlkyns: ein Kinderwagen, zwei Kinderwagen.",
-        "Wagen eitt og sér merkir oftast bíl eða járnbrautarvagn, ekki barnavagn."
+        "Wagen eitt og sér merkir oftast bíl eða járnbrautarvagn; barnavagn kallast Kinderwagen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28661,7 +28661,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Mundu: Kraft = kraftur, Macht = vald, Energie = orka.",
-        "Lærðu orðasambandið in Kraft treten (taka gildi), það er algengara en maður heldur."
+        "Lærðu orðasambandið in Kraft treten (taka gildi) — það er oft notað um lög og reglur."
       ],
       "important": [
         "Die Kraft er kvenkyns; fleirtalan er die Kräfte, ekki die Krafte.",
@@ -32729,7 +32729,7 @@ const A2_WORDS = [
       "translation": "einkunn",
       "explanation": [
         "Aðalatriðið: die Note er kvenkynsnafnorð. Í skóla og háskóla merkir það einkunn (eine gute Note bekommen, fá góða einkunn). Í tónlist er það nóta: Noten lesen (lesa nótur).",
-        "Fleirtalan er die Noten. Í Þýskalandi eru einkunnir frá 1 (sehr gut) til 6 (ungenügend) og 1 er best. Þess vegna merkir eine gute Note lága tölu.",
+        "Fleirtalan er die Noten. Í þýskum skólum eru einkunnir frá 1 (sehr gut) til 6 (ungenügend) og 1 er best (í háskólum er skalinn 1,0–5,0). Þess vegna merkir eine gute Note lága tölu.",
         "Með einkunnum er sagt: eine Note bekommen, eine Note geben, die Note verbessern (hækka einkunnina)."
       ],
       "examples": [
@@ -35354,7 +35354,7 @@ const A2_WORDS = [
         "Í sambandinu rechnen mit + þágufall er merkingin „reikna með“, til dæmis slæmu veðri."
       ],
       "important": [
-        "Rechnen mit merkir yfirleitt „búast við, taka með í reikninginn“, ekki „reikna með einhverju áhaldi“."
+        "Rechnen mit + þágufall merkir yfirleitt „búast við, taka með í reikninginn“ (Wir rechnen mit Regen); með áhaldi merkir það „reikna með“: mit dem Taschenrechner rechnen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37316,7 +37316,7 @@ const A2_WORDS = [
         "Biðröð þar sem fólk bíður kallast Schlange; Reihe er frekar röð í merkingunni „komið að einhverjum“ (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen er fast orðasamband: ekki in der Schlange sein, heldur Schlange stehen."
+        "Algengasta orðasambandið er Schlange stehen (líka in der Schlange stehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45454,7 +45454,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "wechseln er notað þegar einum hlut er skipt út fyrir annan (skóli, vinna, gjaldmiðill). ändern – þegar eitthvað er breytt.",
-        "Að skipta um vagn eða lest er umsteigen, ekki wechseln — þótt íslenska noti „skipta“ í báðum tilvikum."
+        "Að skipta um vagn eða lest er yfirleitt umsteigen (einnig er hægt að segja den Zug wechseln)."
       ],
       "important": [
         "Geld wechseln merkir að skipta peningum, ekki að eyða þeim.",

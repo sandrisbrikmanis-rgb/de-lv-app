@@ -494,7 +494,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Ne miješajte sa abfinden bez sich: to znači obeštetiti ili zadovoljiti novcem.",
-        "Oblik perfekta je sich abgefunden (s -ge- u sredini), a ne geabfunden."
+        "Oblik perfekta je hat sich abgefunden (-ge- između ab- i osnove), a ne geabfunden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1729,7 +1729,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "izložiti • prekinuti • prigovoriti",
       "explanation": [
-        "Glavna ideja: aussetzen je glagol s razdvojivim prefiksom i ima više značenja: ostaviti ili napustiti (psa, dijete), izložiti (hladnoći, opasnosti), prekinuti se ili zatajiti (o motoru, radu) i, uz an + dativ, prigovoriti.",
+        "Glavna ideja: aussetzen je glagol s razdvojivim prefiksom i ima više značenja: ostaviti ili napustiti (psa, dijete), izložiti (hladnoći, opasnosti), prekinuti se ili zatajiti (o motoru, radu) i u izrazu etwas an + dativ auszusetzen haben — prigovoriti, kritikovati.",
         "Oblici: setzt aus, setzte aus, hat ausgesetzt. Kod izlaganja koristi se dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Particip ausgesetzt sein znači biti izložen.",
         "U značenju prigovoriti koristi se izraz etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Ovdje zu stoji između prefiksa i osnove: auszusetzen."
       ],
@@ -10136,7 +10136,7 @@ const B2_WORDS = [
       "translation": "smilovati se • sažaliti se",
       "explanation": [
         "Glavna ideja: sich erbarmen znači sažaliti se nad onim ko pati i pomoći mu, ili se smilovati nekome. Stil je uzvišen, često religijski ili ironičan.",
-        "Iza njega obično dolazi genitiv: sich des Hundes erbarmen. Rjeđe se koristi über + akuzativ. Oblici: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Iza njega obično dolazi genitiv: sich des Hundes erbarmen. Rjeđe (regionalno, u Austriji) se koristi über + akuzativ. Oblici: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "U razgovornom jeziku u šali: Wer erbarmt sich und …? — Ko će se smilovati i …?"
       ],
       "examples": [
@@ -12074,7 +12074,7 @@ const B2_WORDS = [
       ],
       "important": [
         "fleckig često izražava neželjen ili neujednačen izgled (prljava odjeća, crvene mrlje na koži).",
-        "Kad dodaješ nastavak, pazi na e: ein fleckiges Fell, eine fleckige Haut."
+        "Ispred imenice fleckig dobija nastavak: ein fleckiges Fell, eine fleckige Haut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19557,7 +19557,7 @@ const B2_WORDS = [
       "translation": "naknadan • kasniji • dodatan",
       "explanation": [
         "Glavna ideja: nachträglich znači poslije, nakon glavne radnje ili roka, tj. naknadno dodan ili urađen. To je i pridjev (eine nachträgliche Änderung) i prilog (nachträglich ändern).",
-        "Često značenje je zakašnjenje: nachträglich gratulieren — čestitati nakon događaja. Pridjev izražava i dodatni karakter: eine nachträgliche Zahlung (dodatna uplata)."
+        "Često značenje je zakašnjenje: nachträglich gratulieren — čestitati nakon događaja. Pridjev znači i ono što se dešava kasnije, nakon predviđenog vremena: eine nachträgliche Zahlung (naknadna uplata)."
       ],
       "examples": [
         {
@@ -23328,7 +23328,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "prenijeti poruku • uputiti pozdrav • predati pismo • uručiti poklon",
       "explanation": [
-        "Glavna ideja: überbringen znači po zadatku dostaviti primaocu vijest, čestitku, pismo ili poklon, tj. donijeti i lično predati: prenijeti poruku, uputiti pozdrav, predati pismo, uručiti poklon. Onaj kome se nešto predaje stoji u dativu: jemandem etwas überbringen.",
+        "Glavna ideja: überbringen znači dostaviti primaocu vijest, čestitku, pismo ili poklon, tj. donijeti i lično predati: prenijeti poruku, uputiti pozdrav, predati pismo, uručiti poklon. Onaj kome se nešto predaje stoji u dativu: jemandem etwas überbringen.",
         "Nerazdvojivi prefiks über-: überbringt, überbrachte, hat überbracht. U infinitivu zu stoji ispred glagola: um die Nachricht zu überbringen. Riječ je pomalo formalna."
       ],
       "examples": [

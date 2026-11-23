@@ -5068,7 +5068,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir erteilen Ihnen den Auftrag gern.",
-          "lv": "Görevi size memnuniyetle veriyoruz."
+          "lv": "Bu siparişi (görevi) size memnuniyetle veriyoruz."
         }
       ],
       "comparison": [
@@ -10214,7 +10214,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Besorgen, besorgt sein (endişeli olmak) ile aynı şey değildir: sıfat olan besorgt başka bir sözcüktür.",
-        "Besorgen ayrılamayan bir fiildir: besorgt, gesorgt değil."
+        "Besorgen ayrılamayan bir fiildir, Perfekt'te ge- almaz: hat besorgt (gesorgt başka bir fiilden — sorgen — gelir)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,7 +11680,7 @@ const B1_WORDS = [
       "explanation": [
         "bieten sunmak ya da sağlamak demektir: birine bir olanak, hizmet ya da avantaj vermek; ayrıca açık artırmada fiyat teklif etmek. Güçlü bir fiildir: er bietet, bot, hat geboten. Ardından Akkusativ gelir, çoğu zaman Dativ ile birlikte: jemandem etwas bieten.",
         "Örnekler: Das Hotel bietet viel Komfort (otel çok konfor sunuyor), Ich biete 100 Euro (100 avro teklif ediyorum). Dönüşlü sich bieten şu anlama gelir: Eine Chance bietet sich (bir fırsat doğuyor).",
-        "İlgili isim das Angebot'tur (teklif); ancak anbieten (önermek, ikram etmek) ayrı bir fiildir."
+        "das Angebot (teklif) ismi anbieten fiilinden türemiştir; bieten fiilinden ise das Gebot (açık artırmada verilen teklif) türemiştir."
       ],
       "examples": [
         {
@@ -12101,7 +12101,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "blok",
       "explanation": [
-        "der Block, blok demektir: yoğun, tek parça bir kütle ya da bir takım: not bloğu, buz bloğu, bina bloğu. Çoğulu die Blöcke'dir.",
+        "der Block, blok demektir: yoğun, tek parça bir kütle ya da bir takım: not bloğu, buz bloğu, bina bloğu. Çoğulu die Blöcke'dir (not ve bina blokları için sık sık die Blocks da kullanılır).",
         "Tipik bileşik sözcükler: der Notizblock (bloknot), der Wohnblock (apartman bloğu), der Motorblock (motor bloğu); ayrıca ein Block Eis (bir buz bloğu).",
         "Mecazi anlamda der Block siyasi ya da ekonomik bir birlik de olabilir: der Machtblock (güç bloğu)."
       ],
@@ -12735,7 +12735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Botschaft dişil bir isimdir.",
-        "das Konsulat (konsolosluk) ile karıştırma: o genellikle bir şehirde yaşayanlara hizmet verir."
+        "das Konsulat (konsolosluk) ile karıştırma: o, belirli bir konsolosluk bölgesindeki vatandaşlara hizmet verir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13317,7 +13317,7 @@ const B1_WORDS = [
       "translation": "birlik • federasyon",
       "explanation": [
         "der Bund birlik, ittifak ya da devlet düzeyinde bir birlik demektir: birden fazla tarafın tek bir bütün hâlinde birleşmesi. Çoğulu die Bünde'dir. Sözcük erildir.",
-        "Almanya'da der Bund çoğu zaman eyaletlerin (Ländern) karşısında federal yönetim demektir: Bund und Länder. Bileşik sözcüklerde: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "Almanya'da der Bund çoğu zaman eyaletlerin (die Länder) karşısında federal yönetim demektir: Bund und Länder. Bileşik sözcüklerde: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Diğer anlamlar: ein Bund fürs Leben (evlilik bağı) ve das Bund (demet): ein Bund Radieschen. Bu, artikeli farklı olan başka bir sözcüktür."
       ],
       "examples": [
@@ -13651,7 +13651,7 @@ const B1_WORDS = [
       "explanation": [
         "dadurch bir zarftır; böylece, bu sayede, bununla anlamına gelir; bir nedeni ya da aracı gösterir. Genellikle önceki cümleyi sonucuna bağlar: Er hat viel geübt. Dadurch wurde er besser.",
         "Sözcük sırası: dadurch'tan sonra fiil ikinci sıradadır: Dadurch wird alles einfacher. Ayrıca dadurch, dass bağlaç olarak (… olması sayesinde) fiili sonda olan bir yan cümle başlatır.",
-        "Yer anlamında dadurch “onun içinden” demektir; bu durumda vurgu ilk hecededir: Die Tür war offen, wir sind dadurch gegangen."
+        "Yer anlamında dadurch “onun içinden” demektir: Die Tür war offen, wir sind dadurch gegangen. Vurgu genellikle ikinci hecededir; ilk hece yalnızca özel bir vurgulamada vurgulanır."
       ],
       "examples": [
         {
@@ -15479,7 +15479,7 @@ const B1_WORDS = [
       "translation": "hizmet etmek",
       "explanation": [
         "dienen hizmet etmek, bir amaca yaramak ya da bir işlevi yerine getirmek demektir. En sık yapılar: dienen als + Nominativ (… olarak işe yaramak), dienen zu + Dativ (bir şeye yaramak) ve dienen + Dativ (birine hizmet etmek).",
-        "Biçimleri: dient, diente, hat gedient. Fiilden sonra Akkusativ değil, Dativ gelir (Er dient dem Land). Günlük dilde Womit kann ich dienen? kibar bir yardım önerisidir; askerî anlamda ise dienen “askerlik yapmak” demektir."
+        "Biçimleri: dient, diente, hat gedient. Fiilden sonra Akkusativ değil, Dativ gelir (Er dient dem Land). Womit kann ich dienen? hizmet eden birinin kibar, biraz eski moda yardım önerisidir; askerî anlamda ise dienen “askerlik yapmak” demektir."
       ],
       "examples": [
         {
@@ -16323,7 +16323,7 @@ const B1_WORDS = [
       "translation": "ishal",
       "explanation": [
         "der Durchfall, ishal anlamına gelen eril bir isimdir: sulu ve sık dışkılama. Tıpta da günlük dilde de tekil kullanılır: Durchfall haben – ishal olmak.",
-        "Çoğul die Durchfälle nadiren kullanılır. Mecazi anlamda Durchfall (sınavda, tiyatro oyununda) başarısızlık da olabilir, ama bu durumda genellikle durchfallen fiili kullanılır."
+        "Çoğul die Durchfälle nadiren kullanılır. Mecazi anlamda (konuşma dilinde) Durchfall (sınavda, tiyatro oyununda) başarısızlık da olabilir, ama bu durumda genellikle durchfallen fiili kullanılır."
       ],
       "examples": [
         {
@@ -17049,7 +17049,7 @@ const B1_WORDS = [
       "translation": "kendi",
       "explanation": [
         "eigen “kendi” anlamına gelen bir sıfattır. Aidiyeti vurgular: mein eigenes Auto – benim kendi arabam. Genellikle ismin önünde durur ve çekimlenir: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Mecazi anlamda eigen “kendine özgü, tuhaf” da olabilir: ein eigener Geruch – kendine özgü bir koku. etwas zu eigen haben deyimi “bir şeye sahip olmak, bir özelliği taşımak” demektir. B1 düzeyinde bilmen gereken ana anlam “kendi” anlamıdır."
+        "Mecazi anlamda eigen “kendine özgü, tuhaf” da olabilir: ein eigener Geruch – kendine özgü bir koku. sich (Dat) etwas zu eigen machen deyimi “bir şeyi benimsemek, kendine mal etmek” demektir. B1 düzeyinde bilmen gereken ana anlam “kendi” anlamıdır."
       ],
       "examples": [
         {
@@ -29698,7 +29698,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Çoğulda -er eki vardır: die Geschlechter.",
-        "Formlarda Geschlecht sözcüğünden sonra genellikle bir soru değil, doldurulacak bir alan bulunur."
+        "Formlarda Geschlecht bir alanın adıdır (cinsiyet); burada männlich / weiblich / divers işaretlenir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32596,7 +32596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "ein Haufen kalıbından sonra isim 'von' olmadan gelir: ein Haufen Arbeit, ein Haufen Geld.",
+        "ein Haufen kalıbından sonra isim genellikle 'von' olmadan gelir: ein Haufen Arbeit, ein Haufen Geld (daha seyrek: ein Haufen von Problemen).",
         "über den Haufen werfen deyimi — (planları) altüst etmek, bozmak."
       ],
       "important": [
@@ -34243,7 +34243,7 @@ const B1_WORDS = [
       "translation": "eş cinsel",
       "explanation": [
         "der Homosexuelle, eş cinsel erkek anlamına gelen bir isimdir. Sıfat gibi çekilir: ein Homosexueller, der Homosexuelle, die Homosexuellen (çoğul). Kadın için: die Homosexuelle, eine Homosexuelle.",
-        "Sözcük nötr ve resmîdir; resmî metinlerde, haberlerde, yasalarda kullanılır. Gündelik dilde çoğu zaman schwul (gey) ya da lesbisch (lezbiyen) denir."
+        "Sözcük nötr ve resmîdir; resmî metinlerde, haberlerde, yasalarda kullanılır. Gündelik dilde çoğu zaman sıfatlar kullanılır: er ist schwul (o gey), sie ist lesbisch (o lezbiyen)."
       ],
       "examples": [
         {
@@ -34481,8 +34481,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hören",
-          "meaning": "duymak",
-          "example": "Ich höre Musik. – Müzik duyuyorum."
+          "meaning": "duymak; dinlemek",
+          "example": "Ich höre Musik. – Müzik dinliyorum."
         },
         {
           "word": "zuhören",
@@ -45640,7 +45640,7 @@ const B1_WORDS = [
         "Bileşik sözcükler: die Machtübernahme (iktidarın ele geçirilmesi), der Machtkampf (iktidar mücadelesi)."
       ],
       "important": [
-        "Macht yalnızca fiziksel güç demek değildir; fiziksel güç için die Kraft kullanılır.",
+        "Macht fiziksel güç demek değildir; fiziksel güce die Kraft denir.",
         "Çoğul die Mächte çoğunlukla devletleri ya da güçleri anlatır."
       ],
       "sectionAccents": {
@@ -46015,7 +46015,7 @@ const B1_WORDS = [
       ],
       "important": [
         "das Maß sözcüğü ß ile yazılır, çünkü ünlü uzundur.",
-        "Çoğulu die Maße (ölçüler); Dativ biçimi den Maßen (in Maßen, über alle Maßen)."
+        "Çoğulu die Maße (ölçüler); Dativ biçimi den Maßen (in Maßen). über alle Maßen deyiminde tarihsel bir biçim korunmuştur."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47386,7 +47386,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nachgeben, aufgeben ile aynı değildir: nachgeben birine taviz vermek, aufgeben bir hedeften vazgeçmektir.",
-        "nach- ön eki ayrılır: gibt nach, nachgibt değil."
+        "nach- ön eki ana cümlede ayrılır: er gibt nach (yan cümlede bitişik: …, weil er nachgibt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47700,7 +47700,7 @@ const B1_WORDS = [
       "translation": "eğilmek • eğilimli olmak",
       "explanation": [
         "Temel anlam: neigen, zu + Dativ ile bir şeye eğilimli olmak demektir: Er neigt zu schnellen Entscheidungen. Biçimleri: neigt, neigte, hat geneigt.",
-        "Doğrudan anlamda etwas neigen bir şeyi eğmektir (den Kopf neigen). Dönüşlü sich neigen eğilmek ya da sona yaklaşmak demektir: Der Tag neigt sich.",
+        "Doğrudan anlamda etwas neigen bir şeyi eğmektir (den Kopf neigen). Dönüşlü sich neigen eğilmek ya da (yüksek üslupta) sona yaklaşmak demektir: Der Tag neigt sich. sich dem Ende zuneigen deyimi zuneigen fiilinden gelir.",
         "Aynı kökten die Neigung (eğilim, yatkınlık, eğim) ismi türemiştir."
       ],
       "examples": [
@@ -48595,7 +48595,7 @@ const B1_WORDS = [
       "translation": "sıkıntı • yokluk",
       "explanation": [
         "Temel anlam: die Not yokluk, sefalet, insanın en temel ihtiyaçlardan yoksun kaldığı sıkıntılı durumdur (in Not leben, Not leiden). Acil ihtiyaç ya da felaket anlamına da gelir: in der Not, in Not geraten.",
-        "Sözcük dişildir. Çoğul die Nöte çok nadirdir; genellikle tekil kullanılır.",
+        "Sözcük dişildir. Çoğul die Nöte daha seyrek kullanılır (Sorgen und Nöte); genellikle tekil kullanılır.",
         "Kalıplar: zur Not (başka çare yoksa; illa gerekirse), aus der Not eine Tugend machen (zorunluluğu erdeme dönüştürmek), Not macht erfinderisch (ihtiyaç insanı yaratıcı yapar)."
       ],
       "examples": [
@@ -54741,7 +54741,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten, braten değildir: braten yağda kızartmak, rösten ise kavurmaktır.",
-        "rösten ile rostet (paslanıyor) sözcüklerini karıştırma."
+        "rösten ile rosten (paslanmak) sözcüklerini karıştırma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -60259,7 +60259,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Taşıtlardaki oturma yeri için der Sitz ya da der Platz; genel olarak yer anlamına yalnızca der Platz gelebilir.",
-        "Şirketin adresine der Firmensitz denir."
+        "Şirketin hukuki merkezine (genel merkezine) der Firmensitz denir."
       ],
       "important": [
         "Der Sitz, das Sitzen değildir: das Sitzen eylemdir, der Sitz ise koltuk ya da merkez.",
@@ -61232,7 +61232,7 @@ const B1_WORDS = [
         "Depolama (enerji, su) için de speichern kullanılır."
       ],
       "important": [
-        "Emir kipi Speichere (ya da Speicher) olur, Speichern değil.",
+        "Emir kipi Speichere! (ayrıca Speichre!; konuşma dilinde Speicher!) olur, Speichern değil.",
         "speichern, sperren (engellemek) değildir."
       ],
       "sectionAccents": {
@@ -76492,7 +76492,7 @@ const B1_WORDS = [
         "zugeben fiilinden sonra sık sık dass'lı bir cümle gelir; bu cümlede fiil sondadır."
       ],
       "important": [
-        "Zugeben, konuşanın işine gelmeyen bir şeyi kabul etmektir; yemeğe bir şey eklemekten söz ediyorsan hinzufügen kullan.",
+        "Zugeben genellikle konuşanın işine gelmeyen bir şeyi kabul etmektir. Yemek tariflerinde zugeben eklemek anlamına da gelir (Salz zugeben); gündelik dilde bu anlamda daha çok hinzufügen denir.",
         "zugeben fiilinden sonra gelen dass'lı cümlede fiil sondadır: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {
