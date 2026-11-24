@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Строеж на изречението",
     "sentenceStructureDesc": "Прост словоред в немските изречения.",
     "articlesSubtitle": "Der, die, das и основи на употребата им.",
-    "pronounsSubtitle": "Именителен, Винителен и Дателен падеж - форми на местоименията.",
+    "pronounsSubtitle": "Nominativ, Akkusativ и Dativ — форми на местоименията.",
     "pronunciationSubtitle": "Основи на немските звуци и произношението",
     "vowelsSubtitle": "Гласни — дълги и кратки",
     "consonantsSubtitle": "Съгласни и буквосъчетания",

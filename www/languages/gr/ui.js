@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Δομή της πρότασης",
     "sentenceStructureDesc": "Απλή σειρά λέξεων στις γερμανικές προτάσεις.",
     "articlesSubtitle": "Der, die, das και βασική χρήση τους.",
-    "pronounsSubtitle": "Nominativ, Akkusativ και Dativ - μορφές αντωνυμιών.",
+    "pronounsSubtitle": "Nominativ, Akkusativ και Dativ — οι τύποι των αντωνυμιών.",
     "pronunciationSubtitle": "Βασικά στοιχεία των γερμανικών ήχων και της προφοράς",
     "vowelsSubtitle": "Φωνήεντα — μακρά και βραχέα",
     "consonantsSubtitle": "Σύμφωνα και συνδυασμοί γραμμάτων",

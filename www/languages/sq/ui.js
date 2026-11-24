@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Ndërtimi i fjalisë",
     "sentenceStructureDesc": "Renditje e thjeshtë e fjalëve në fjalitë gjermane.",
     "articlesSubtitle": "Der, die, das dhe bazat e përdorimit të tyre.",
-    "pronounsSubtitle": "Format nominale, akusive dhe dative të përemrave.",
+    "pronounsSubtitle": "Nominativ, Akkusativ dhe Dativ — format e përemrave.",
     "pronunciationSubtitle": "Bazat e tingujve dhe të shqiptimit gjerman",
     "vowelsSubtitle": "Zanoret — të gjata dhe të shkurtra",
     "consonantsSubtitle": "Bashkëtingëlloret dhe kombinimet e shkronjave",

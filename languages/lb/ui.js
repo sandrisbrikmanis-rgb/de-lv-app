@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Sazbau",
     "sentenceStructureDesc": "Einfach Wuertstellung an däitsche Sätz.",
     "articlesSubtitle": "Der, die, das an d'Grondlage vum Gebrauch.",
-    "pronounsSubtitle": "Nominativ, Akkusativ an Dativ — Pronomeformen.",
+    "pronounsSubtitle": "Nominativ, Akkusativ an Dativ — Forme vun de Pronomen.",
     "pronunciationSubtitle": "Grondlage vun den däitsche Lauter an der Aussprooch",
     "vowelsSubtitle": "Vokaler — laang a kuerz",
     "consonantsSubtitle": "Konsonanten a Buschtawekombinatiounen",

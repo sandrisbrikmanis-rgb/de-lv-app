@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Structura propoziției",
     "sentenceStructureDesc": "Ordinea simplă a cuvintelor în propozițiile germane.",
     "articlesSubtitle": "Der, die, das și bazele folosirii lor.",
-    "pronounsSubtitle": "Nominativ, Akkusativ și Dativ - forme de pronume.",
+    "pronounsSubtitle": "Nominativ, Akkusativ și Dativ — formele pronumelor.",
     "pronunciationSubtitle": "Bazele sunetelor și ale pronunției germane",
     "vowelsSubtitle": "Vocale — lungi și scurte",
     "consonantsSubtitle": "Consoane și combinații de litere",

@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Sætningsopbygning",
     "sentenceStructureDesc": "Enkel ordstilling i tyske sætninger.",
     "articlesSubtitle": "Der, die, das og grundlæggende brug.",
-    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — pronominernes former.",
+    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — stedordenes former.",
     "pronunciationSubtitle": "Grundlæggende tyske lyde og udtale",
     "vowelsSubtitle": "Vokaler — lange og korte",
     "consonantsSubtitle": "Konsonanter og bogstavkombinationer",

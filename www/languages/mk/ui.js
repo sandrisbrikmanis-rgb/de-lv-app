@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Градба на реченицата",
     "sentenceStructureDesc": "Едноставен редослед на зборовите во германските реченици.",
     "articlesSubtitle": "Der, die, das и основи на нивната употреба.",
-    "pronounsSubtitle": "Номинатив, акузатив и датив - форми на заменки.",
+    "pronounsSubtitle": "Nominativ, Akkusativ и Dativ — форми на заменките.",
     "pronunciationSubtitle": "Основи на германските гласови и изговорот",
     "vowelsSubtitle": "Самогласки — долги и кратки",
     "consonantsSubtitle": "Согласки и комбинации на букви",
