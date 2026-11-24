@@ -2,11 +2,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "da",
   "splash": {
     "title": "Tysk",
-    "subtitle": "Lær tysk"
+    "subtitle": "Lær tysk",
+    "ariaLabel": "Indlæser"
   },
   "languageSelect": {
     "title": "Vælg sprog",
-    "footer": "Lær tysk"
+    "footer": "Lær tysk",
+    "ariaLabel": "Valg af sprog"
   },
   "app": {
     "title": "Tysk • DA-DE",
@@ -18,7 +20,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Kursus",
     "sentences": "Sætninger",
     "verbs": "Verber",
-    "chooseGroup": "Vælg en gruppe"
+    "chooseGroup": "Vælg en gruppe",
+    "learningModes": "Læringstilstande"
   },
   "groups": {
     "sentences": "Sætninger"
@@ -32,22 +35,22 @@ window.LANGUAGE_UI_STRINGS = {
   "buttons": {
     "known": "Jeg ved det",
     "unknown": "Jeg ved det ikke",
-    "next": "Næste ord",
+    "next": "Videre",
     "check": "Tjek",
     "continue": "Fortsæt",
     "close": "Luk",
     "delete": "Slet",
     "cancel": "Annuller",
-    "restore": "Tilbage",
-    "restoreAll": "Gendan alle",
+    "restore": "Gendan",
+    "restoreAll": "Slet fremskridt",
     "extraOptions": "Flere indstillinger",
     "extraOptionsOpen": "Flere indstillinger ▼",
     "extraOptionsClose": "Flere indstillinger ▲",
     "weeklyReview": "Ugentlig gennemgang",
     "monthlyReview": "Månedlig gennemgang",
     "unwantedWords": "Uønskede ord",
-    "knownWords": "Kendt",
-    "knownWithCount": "Kendt ({count})",
+    "knownWords": "Kendte",
+    "knownWithCount": "Kendte ({count})",
     "markMastered": "Jeg kan 100%",
     "shuffleVerbs": "Bland verberne",
     "restartSession": "🔄 Gennemgå sessionen igen",
@@ -67,10 +70,10 @@ window.LANGUAGE_UI_STRINGS = {
     "masteredWords": "100% kendt"
   },
   "tools": {
-    "problemShort": "Prob.",
+    "problemShort": "Problematiske",
     "problemFull": "Problematiske ord",
     "problemWithCount": "Problematiske ord ({count})",
-    "spellingShort": "Stav.",
+    "spellingShort": "Stavning",
     "spellingFull": "Stavning"
   },
   "modes": {
@@ -83,7 +86,7 @@ window.LANGUAGE_UI_STRINGS = {
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
-    "tapToReveal": "Klik på kortet for at se oversættelsen.",
+    "tapToReveal": "Tryk på kortet for at se oversættelsen.",
     "chooseNextStep": "Vælg, hvad du vil gøre næste gang.",
     "chooseModeOrReturn": "Vælg en anden tilstand, eller kom tilbage senere for at gennemgå.",
     "trainingCard": "{title} øvelseskort"
@@ -106,20 +109,20 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "verb": {
     "infinitive": "Infinitiv",
-    "present": "Nutid",
-    "imperfectIndicative": "Datid – indikativ",
-    "imperfectSubjunctive": "Datid – konjunktiv",
-    "pastParticiple": "Perfektum participium",
+    "present": "Präsens",
+    "imperfectIndicative": "Präteritum",
+    "imperfectSubjunctive": "Konjunktiv II",
+    "pastParticiple": "Partizip II",
     "infinitiv": "Infinitiv",
-    "writeInfinitive": "Skriv infinitivet",
-    "guessInfinitive": "Gæt infinitivet",
-    "writeImperfect": "Skriv datidsformen",
-    "guessImperfect": "Gæt datidsformen",
-    "writePastParticiple": "Skriv perfektum participium",
-    "guessPastParticiple": "Gæt perfektum participium",
+    "writeInfinitive": "Skriv infinitiv",
+    "guessInfinitive": "Gæt infinitiv",
+    "writeImperfect": "Skriv Präteritum-formen",
+    "guessImperfect": "Gæt Präteritum-formen",
+    "writePastParticiple": "Skriv Partizip II-formen",
+    "guessPastParticiple": "Gæt Partizip II-formen",
     "translationPrefix": "Oversættelse:",
-    "hintTapAnswer": "Klik på kortet for at se svaret.",
-    "hintTapSwitch": "Klik på kortet for at skifte form.",
+    "hintTapAnswer": "Tryk på kortet for at se svaret.",
+    "hintTapSwitch": "Tryk på kortet for at skifte form.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Dette verbum har ikke nok former til at blande."
   },
@@ -127,10 +130,10 @@ window.LANGUAGE_UI_STRINGS = {
     "chooseNextGroup": "Vælg den næste gruppe i hovedmenuen.",
     "sessionReloaded": "Session genindlæst med blandet rækkefølge.",
     "sessionMovedToKnown": "Sessionens ord er flyttet til kendte.",
-    "verbShuffleOn": "Verbum-blanding til.",
-    "verbShuffleOff": "Verbum-blanding fra.",
-    "spellingOn": "Stavningstilstand til.",
-    "spellingOff": "Stavningstilstand fra.",
+    "verbShuffleOn": "Blanding af verber til.",
+    "verbShuffleOff": "Blanding af verber fra.",
+    "spellingOn": "Stavetilstand til.",
+    "spellingOff": "Stavetilstand fra.",
     "showingKnown": "Vi viser de kendte kort.",
     "problemModeOff": "Tilstand for problematiske ord fra.",
     "showingProblems": "Viser problematiske ord.",
@@ -143,7 +146,7 @@ window.LANGUAGE_UI_STRINGS = {
     "knownReviewDone": "Gennemgang af kendte ord fuldført.",
     "continueKnownReview": "Vi fortsætter gennemgangen af kendte ord.",
     "noVerbToMark": "Der er ingen verber at markere.",
-    "verbMarkedKnown": "Verbum er markeret som kendt.",
+    "verbMarkedKnown": "Verbet er markeret som kendt.",
     "noCardToMark": "Der er ingen kort at markere.",
     "markedKnown": "Markeret som kendt.",
     "noCard": "Der er ingen kort at markere.",
@@ -153,7 +156,7 @@ window.LANGUAGE_UI_STRINGS = {
     "leftForReview": "Efterladt til gennemgang.",
     "showingTimeReview": "Viser: {label}.",
     "continueTimeReview": "Fortsætter: {label}.",
-    "enterAnswerFirst": "Indtast først det rigtige svar, og tryk på Tjek.",
+    "enterAnswerFirst": "Skriv først det rigtige svar, og tryk på »Tjek«.",
     "noCardForMastered": "Der er intet kort at tilføje til 100% kendt.",
     "addedMastered": "Ord tilføjet til 100% kendt.",
     "alreadyMastered": "Ordet er allerede på listen over 100% kendte.",
@@ -169,11 +172,11 @@ window.LANGUAGE_UI_STRINGS = {
     "weekLabel": "Ugentlig gennemgang",
     "weekEmpty": "Der er ingen lærte ord til den ugentlige gennemgang.",
     "weekDone": "Ugentlig gennemgang fuldført.",
-    "weekCount": "Lært denne uge: {count} {words}",
+    "weekCount": "Ord lært i denne uge: {count}",
     "monthLabel": "Månedlig gennemgang",
     "monthEmpty": "Der er ingen lærte ord til den månedlige gennemgang.",
-    "monthDone": "Månedlig rapport fuldført.",
-    "monthCount": "Lært denne måned: {count} {words}",
+    "monthDone": "Månedlig gennemgang fuldført.",
+    "monthCount": "Ord lært i denne måned: {count}",
     "knownReviewDone": "Gennemgang af kendte ord fuldført."
   },
   "lists": {
@@ -183,26 +186,26 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "restore": {
     "ariaLabel": "Bekræft sletning af al fremgang",
-    "warning": "Advarsel! Al lært fremgang og ordhistorik slettes fuldstændigt."
+    "warning": "Advarsel! Al læringsfremgang og ordhistorik slettes permanent."
   },
   "info": {
     "title": "Hvordan virker det?",
     "directionTitle": "Oversættelsesretning",
     "directionBody": "Tryk for at skifte mellem <strong>DE→{code}</strong> og <strong>{code}→DE</strong>.",
     "problemTitle": "Problematiske ord",
-    "problemBody": "Tryk på <strong>Prob.</strong> for at lære de ord, du svarede forkert på. I det normale flow tilføjer «Jeg ved det ikke» ordet her; her reducerer «Jeg ved det» fejlgraden.",
+    "problemBody": "Tryk på <strong>Problematiske</strong> for at øve de ord, du har svaret forkert på. »Jeg ved det ikke« føjer ordet til denne liste; i denne tilstand sænker »Jeg ved det« ordets fejlniveau.",
     "spellingTitle": "Stavning",
-    "spellingBody": "Tryk på <strong>Stav.</strong> for at skrive ordet i hånden, før du svarer.",
-    "intensityTitle": "Sessionsintensitet",
+    "spellingBody": "Tryk på <strong>Stavning</strong> for selv at skrive ordet, før svaret vises.",
+    "intensityTitle": "Sessionens intensitet",
     "intensityBody": "Vælg, hvor mange ord du vil lære i én session: <strong>Let · 10</strong>, <strong>Normal · 20</strong> eller <strong>Intensiv · 30</strong>.",
     "listeningTitle": "Lytning",
-    "listeningBody": "Klik på højttalerikonet på kortet for at høre udtalen.",
+    "listeningBody": "Tryk på højttalerikonet på kortet for at høre udtalen.",
     "unwantedTitle": "Uønskede ord",
-    "unwantedBody": "Tryk på det overstregede øje i hjørnet af kortet, og ordet forsvinder fra feedet. Du kan få det tilbage under Flere indstillinger.",
+    "unwantedBody": "Tryk på det overstregede øje i kortets hjørne, så forsvinder ordet fra sessionen. Du kan hente det tilbage under »Flere indstillinger«.",
     "answersTitle": "Svar",
-    "answersBody": "<strong>Jeg ved det</strong> — du kender svaret. <strong>Jeg ved det ikke</strong> — hjælper dig med at huske og tilføjer til problematiske. <strong>Næste ord</strong> — springer over uden vurdering.",
+    "answersBody": "<strong>Jeg ved det</strong> — du kender svaret. <strong>Jeg ved det ikke</strong> — hjælper dig med at huske og føjer ordet til problemordene. <strong>Videre</strong> — springer over uden vurdering.",
     "extraTitle": "Flere indstillinger",
-    "extraBody": "Åbn <strong>Flere indstillinger</strong> for at se ugentlige og månedlige gennemgange, kendte ord og gendanne skjulte."
+    "extraBody": "Åbn <strong>Flere indstillinger</strong> for at se ugens og månedens oversigt, kendte ord og hente skjulte ord tilbage."
   },
   "extra": {
     "wordManagement": "Ordadministration",
@@ -215,23 +218,23 @@ window.LANGUAGE_UI_STRINGS = {
   "kurss": {
     "panelLabel": "Kursus",
     "title": "Kursus",
-    "subtitle": "Grundlæggende tysk trin for trin",
+    "subtitle": "Tysk grammatik trin for trin",
     "back": "‹ Kursus",
     "closeCourse": "Luk kurset",
     "backToMain": "Tilbage til hovedskærmen",
-    "tipTitle": "Råd",
+    "tipTitle": "Tip",
     "tipBody": "Lyt, gentag og sammenlign. Dit øre er den bedste lærer!",
     "pronunciation": "Udtale",
     "pronunciationDesc": "Grundlæggende tyske lyde og udtale.",
-    "articles": "Artikler",
+    "articles": "Kendeord",
     "articlesDesc": "Der, die, das og grundlæggende brug.",
-    "pronouns": "Pronominer",
-    "pronounsDesc": "Former i nominativ, akkusativ og dativ.",
+    "pronouns": "Stedord",
+    "pronounsDesc": "Former i Nominativ, Akkusativ og Dativ.",
     "lessons": "Lektioner",
     "lessonsDesc": "Lektioner i rækkefølge fra 1 til 21.",
     "verbBasics": "Grundlæggende om verber",
     "verbBasicsDesc": "Personer, former og de mest almindelige verber.",
-    "sentenceStructure": "Sætningsstruktur",
+    "sentenceStructure": "Sætningsopbygning",
     "sentenceStructureDesc": "Enkel ordstilling i tyske sætninger.",
     "articlesSubtitle": "Der, die, das og grundlæggende brug.",
     "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — pronominernes former.",
@@ -249,7 +252,11 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Grammatik",
       "exercise": "Øvelse",
       "translate": "Oversæt",
-      "exerciseCombined": "Øvelse"
+      "exerciseCombined": "Øvelse",
+      "dialogues": "Dialoger / sætninger",
+      "words": "Ord",
+      "names": "Navne",
+      "reading": "Tekst / læsning"
     },
     "hints": {
       "tapToRevealAnswer": "Tryk på kortet for at se svaret.",
@@ -370,10 +377,10 @@ window.LANGUAGE_UI_STRINGS = {
   "spelling": {
     "writeNative": "Skriv på dansk",
     "writeGerman": "Skriv på tysk",
-    "correct": "Korrekt!",
+    "correct": "Rigtigt!",
     "incorrect": "Forkert",
-    "expectedLabel": "Korrekt:",
-    "noVerbTask": "Der er ingen stavningsopgave for dette verbum.",
+    "expectedLabel": "Rigtigt:",
+    "noVerbTask": "Der er ingen staveopgave til dette verbum.",
     "writeAnswer": "Skriv svaret",
     "missingChar": "mangler: {char}"
   },

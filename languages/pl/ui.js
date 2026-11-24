@@ -1,327 +1,425 @@
 window.LANGUAGE_UI_STRINGS = {
-  __langCode: "pl",
-  splash: { title: "Język niemiecki", subtitle: "Ucz się niemieckiego" },
-  languageSelect: { title: "Wybierz język", footer: "Ucz się niemieckiego" },
-  app: {
-    title: "Język niemiecki • PL-DE",
-    subtitle: "Twój inteligentny przewodnik po niemieckim według poziomów",
-    shellLabel: "Fiszki niemiecko-polskie"
+  "__langCode": "pl",
+  "splash": {
+    "title": "Język niemiecki",
+    "subtitle": "Ucz się niemieckiego",
+    "ariaLabel": "Ładowanie"
   },
-  menu: {
-    mainNav: "Menu główne",
-    course: "Kurs",
-    sentences: "Zdania",
-    verbs: "Czasowniki",
-    chooseGroup: "Wybierz grupę"
+  "languageSelect": {
+    "title": "Wybierz język",
+    "footer": "Ucz się niemieckiego",
+    "ariaLabel": "Wybór języka"
   },
-  groups: { sentences: "Zdania" },
-  nav: {
-    backHome: "Wróć do menu głównego",
-    changeLanguage: "Zmień język ojczysty",
-    howItWorks: "Jak to działa?",
-    quickTools: "Szybkie narzędzia"
+  "app": {
+    "title": "Język niemiecki • PL-DE",
+    "subtitle": "Twój inteligentny przewodnik po niemieckim według poziomów",
+    "shellLabel": "Fiszki niemiecko-polskie"
   },
-  buttons: {
-    known: "Znam poprawnie",
-    unknown: "Nie znam",
-    next: "Następne słowo",
-    check: "Sprawdź",
-    continue: "Kontynuuj",
-    close: "Zamknij",
-    delete: "Usuń",
-    cancel: "Anuluj",
-    restore: "Przywróć",
-    restoreAll: "Przywróć wszystko",
-    extraOptions: "Opcje dodatkowe",
-    extraOptionsOpen: "Opcje dodatkowe ▼",
-    extraOptionsClose: "Opcje dodatkowe ▲",
-    weeklyReview: "Przegląd tygodniowy",
-    monthlyReview: "Przegląd miesięczny",
-    unwantedWords: "Niepotrzebne słowa",
-    knownWords: "Znane",
-    knownWithCount: "Znane ({count})",
-    markMastered: "100% znam",
-    shuffleVerbs: "Mieszaj czasowniki",
-    restartSession: "🔄 Powtórz sesję od nowa",
-    markSessionLearned: "🏅 Oznacz sesję jako nauczoną",
-    chooseAnotherGroup: "Wybierz inną grupę",
-    listen: "Słuchaj",
-    listenPlural: "Słuchaj liczby mnogiej",
-    listenWithWord: "Słuchaj: {word}",
-    autoplayOn: "Automatyczne odtwarzanie włączone",
-    autoplayOff: "Automatyczne odtwarzanie wyłączone",
-    autoplayLabel: "Automatyczne odtwarzanie",
-    autoplayAriaOn: "{label} (automatycznie włączone)",
-    autoplayAriaOff: "{label} (automatycznie wyłączone)",
-    disableAutoplay: "Wyłącz automatyczne odtwarzanie",
-    enableAutoplay: "Włącz automatyczne odtwarzanie",
-    markUnwanted: "Oznacz jako niepotrzebne",
-    masteredWords: "100% znane"
+  "menu": {
+    "mainNav": "Menu główne",
+    "course": "Kurs",
+    "sentences": "Zdania",
+    "verbs": "Czasowniki",
+    "chooseGroup": "Wybierz grupę",
+    "learningModes": "Tryby nauki"
   },
-  tools: {
-    problemShort: "Probl.",
-    problemFull: "Problematyczne słowa",
-    problemWithCount: "Problematyczne słowa ({count})",
-    spellingShort: "Pis.",
-    spellingFull: "Pisownia"
+  "groups": {
+    "sentences": "Zdania"
   },
-  modes: { easy: "Łatwy", normal: "Normalny", intense: "Intensywny" },
-  direction: { deToNative: "🔄 DE ➔ {code}", nativeToDe: "🔄 {code} ➔ DE" },
-  hints: {
-    tapToReveal: "Kliknij kartę, aby zobaczyć tłumaczenie.",
-    chooseNextStep: "Wybierz, co zrobić dalej.",
-    chooseModeOrReturn: "Wybierz inny tryb lub wróć później do powtórki.",
-    trainingCard: "Karta ćwiczenia {title}"
+  "nav": {
+    "backHome": "Wróć do menu głównego",
+    "changeLanguage": "Zmień język ojczysty",
+    "howItWorks": "Jak to działa?",
+    "quickTools": "Szybkie narzędzia"
   },
-  card: {
-    pluralLabel: "Lm.",
-    spelling: "Pisownia",
-    spellingVerbs: "Pisownia · Czasowniki",
-    verbsShuffleTraining: "Czasowniki · Trening mieszany",
-    answerPrefix: "Odpowiedź:",
-    sessionComplete: "Sesja zakończona!",
-    sessionLabel: "Sesja",
-    lastSessionLabel: "Ostatnia sesja",
-    problemLabel: "Problematyczne",
-    levelCompleteTitle: "Świetnie! Poziom {label} ukończony! 🎉",
-    levelCompleteDesc: "Opanowałeś wszystkie słowa tej grupy. Czas zrobić następny krok!",
-    noActiveWords: "W tej grupie nie ma aktywnych słów.",
-    noCardsInSession: "W tej sesji nie ma kart.",
-    cardNotFound: "Nie znaleziono karty"
+  "buttons": {
+    "known": "Znam",
+    "unknown": "Nie znam",
+    "next": "Dalej",
+    "check": "Sprawdź",
+    "continue": "Kontynuuj",
+    "close": "Zamknij",
+    "delete": "Usuń",
+    "cancel": "Anuluj",
+    "restore": "Przywróć",
+    "restoreAll": "Usuń postępy",
+    "extraOptions": "Opcje dodatkowe",
+    "extraOptionsOpen": "Opcje dodatkowe ▼",
+    "extraOptionsClose": "Opcje dodatkowe ▲",
+    "weeklyReview": "Przegląd tygodniowy",
+    "monthlyReview": "Przegląd miesięczny",
+    "unwantedWords": "Niepotrzebne słowa",
+    "knownWords": "Znane",
+    "knownWithCount": "Znane ({count})",
+    "markMastered": "100% znam",
+    "shuffleVerbs": "Wymieszaj czasowniki",
+    "restartSession": "🔄 Powtórz sesję od nowa",
+    "markSessionLearned": "🏅 Oznacz sesję jako nauczoną",
+    "chooseAnotherGroup": "Wybierz inną grupę",
+    "listen": "Słuchaj",
+    "listenPlural": "Słuchaj liczby mnogiej",
+    "listenWithWord": "Słuchaj: {word}",
+    "autoplayOn": "Automatyczna wymowa włączona",
+    "autoplayOff": "Automatyczna wymowa wyłączona",
+    "autoplayLabel": "Automatyczna wymowa",
+    "autoplayAriaOn": "{label} (automatycznie włączone)",
+    "autoplayAriaOff": "{label} (automatycznie wyłączone)",
+    "disableAutoplay": "Wyłącz automatyczną wymowę",
+    "enableAutoplay": "Włącz automatyczną wymowę",
+    "markUnwanted": "Oznacz jako niepotrzebne",
+    "masteredWords": "100% znane"
   },
-  verb: {
-    infinitive: "Bezokolicznik",
-    present: "Czas teraźniejszy",
-    imperfectIndicative: "Przeszły - Indykatyw",
-    imperfectSubjunctive: "Przeszły - Tryb łączący",
-    pastParticiple: "Imiesłów przeszły",
-    infinitiv: "Bezokolicznik",
-    writeInfinitive: "Napisz bezokolicznik",
-    guessInfinitive: "Zgadnij bezokolicznik",
-    writeImperfect: "Napisz czas przeszły",
-    guessImperfect: "Zgadnij czas przeszły",
-    writePastParticiple: "Napisz imiesłów przeszły",
-    guessPastParticiple: "Zgadnij imiesłów przeszły",
-    translationPrefix: "Tłumaczenie:",
-    hintTapAnswer: "Kliknij kartę, aby zobaczyć odpowiedź.",
-    hintTapSwitch: "Kliknij kartę, aby zmienić formę.",
-    hintSessionProgress: "{label}: {current} / {total}. {tap}",
-    noShuffleForms: "Ten czasownik nie ma wystarczającej liczby form do losowania."
+  "tools": {
+    "problemShort": "Problematyczne",
+    "problemFull": "Problematyczne słowa",
+    "problemWithCount": "Problematyczne słowa ({count})",
+    "spellingShort": "Pisownia",
+    "spellingFull": "Pisownia"
   },
-  notices: {
-    chooseNextGroup: "Wybierz następną grupę w menu głównym.",
-    sessionReloaded: "Sesja załadowana ponownie w pomieszanej kolejności.",
-    sessionMovedToKnown: "Słowa sesji przeniesiono do znanych.",
-    verbShuffleOn: "Mieszanie czasowników włączone.",
-    verbShuffleOff: "Mieszanie czasowników wyłączone.",
-    spellingOn: "Tryb pisowni włączony.",
-    spellingOff: "Tryb pisowni wyłączony.",
-    showingKnown: "Pokazujemy znane karty.",
-    problemModeOff: "Tryb problematycznych słów wyłączony.",
-    showingProblems: "Pokazujemy problematyczne słowa.",
-    noProblems: "Brak problematycznych słów.",
-    errorLevelReduced: "Poziom błędów obniżony.",
-    movedToKnown: "Słowo przeniesiono do znanych!",
-    problemsFinishedMoved: "Problematyczne słowa opanowane. Słowo przeniesiono do znanych!",
-    lastSessionDone: "Powtórka ostatniej sesji zakończona.",
-    continueLastSession: "Kontynuujemy powtórkę ostatniej sesji.",
-    knownReviewDone: "Powtórka znanych słów zakończona.",
-    continueKnownReview: "Kontynuujemy powtórkę znanych słów.",
-    noVerbToMark: "Brak czasowników do oznaczenia.",
-    verbMarkedKnown: "Czasownik oznaczony jako znany.",
-    noCardToMark: "Brak kart do oznaczenia.",
-    markedKnown: "Oznaczono jako znane.",
-    noCard: "Brak karty do oznaczenia.",
-    answerRevealed: "Odpowiedź ujawniona. Słowo pozostaje w sesji.",
-    returnedToStudy: "Powrócono do trybu nauki.",
-    leftInProblems: "Pozostawiono w grupie problematycznej.",
-    leftForReview: "Pozostawiono do powtórki.",
-    showingTimeReview: "Pokazujemy: {label}.",
-    continueTimeReview: "Kontynuujemy: {label}.",
-    enterAnswerFirst: "Najpierw wpisz poprawną odpowiedź i naciśnij Sprawdź.",
-    noCardForMastered: "Brak karty do dodania do 100% znanych.",
-    addedMastered: "Słowo dodano do 100% znanych.",
-    alreadyMastered: "Słowo jest już na liście 100% znanych.",
-    noCardForUnwanted: "Brak karty do oznaczenia jako niepotrzebnej.",
-    markedUnwanted: "Słowo oznaczone jako niepotrzebne.",
-    loadFailed: "Nie udało się załadować kart. Odśwież stronę lub sprawdź dostępność plików danych.",
-    noCompletedSession: "Brak ukończonej sesji do powtórki.",
-    showingLastSession: "Pokazujemy ostatnią ukończoną sesję.",
-    sessionArchivedNext: "Ostatnia sesja oznaczona jako nauczona. Załadowano następną sesję.",
-    sessionArchived: "Ostatnia sesja oznaczona jako nauczona."
+  "modes": {
+    "easy": "Łatwy",
+    "normal": "Normalny",
+    "intense": "Intensywny"
   },
-  review: {
-    weekLabel: "Przegląd tygodniowy",
-    weekEmpty: "Brak nauczonych słów do przeglądu tygodniowego.",
-    weekDone: "Przegląd tygodniowy zakończony.",
-    weekCount: "Nauczone w tym tygodniu: {count} {words}",
-    monthLabel: "Przegląd miesięczny",
-    monthEmpty: "Brak nauczonych słów do przeglądu miesięcznego.",
-    monthDone: "Przegląd miesięczny zakończony.",
-    monthCount: "Nauczone w tym miesiącu: {count} {words}",
-    knownReviewDone: "Powtórka znanych słów zakończona."
+  "direction": {
+    "deToNative": "🔄 DE ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
-  lists: {
-    noUnwanted: "Brak niepotrzebnych słów.",
-    noLearned: "Brak nauczonych słów.",
-    noMastered: "Brak 100% znanych słów."
+  "hints": {
+    "tapToReveal": "Dotknij karty, aby zobaczyć tłumaczenie.",
+    "chooseNextStep": "Wybierz, co zrobić dalej.",
+    "chooseModeOrReturn": "Wybierz inny tryb lub wróć później do powtórki.",
+    "trainingCard": "Karta ćwiczenia {title}"
   },
-  restore: {
-    ariaLabel: "Potwierdź usunięcie całego postępu",
-    warning: "Uwaga! Cały nauczony postęp i historia słów zostaną całkowicie usunięte."
+  "card": {
+    "pluralLabel": "Lm.",
+    "spelling": "Pisownia",
+    "spellingVerbs": "Pisownia · Czasowniki",
+    "verbsShuffleTraining": "Czasowniki · Trening mieszany",
+    "answerPrefix": "Odpowiedź:",
+    "sessionComplete": "Sesja zakończona!",
+    "sessionLabel": "Sesja",
+    "lastSessionLabel": "Ostatnia sesja",
+    "problemLabel": "Problematyczne",
+    "levelCompleteTitle": "Świetnie! Poziom {label} ukończony! 🎉",
+    "levelCompleteDesc": "Opanowałeś wszystkie słowa tej grupy. Czas zrobić następny krok!",
+    "noActiveWords": "W tej grupie nie ma aktywnych słów.",
+    "noCardsInSession": "W tej sesji nie ma kart.",
+    "cardNotFound": "Nie znaleziono karty"
   },
-  info: {
-    title: "Jak to działa?",
-    directionTitle: "Kierunek tłumaczenia",
-    directionBody: "Naciśnij, aby przełączyć między <strong>DE→{code}</strong> a <strong>{code}→DE</strong>.",
-    problemTitle: "Problematyczne słowa",
-    problemBody: "Naciśnij <strong>Probl.</strong>, aby uczyć się słów, w których się pomyliłeś. W normalnym trybie «Nie znam» dodaje słowo tutaj; tutaj «Znam poprawnie» obniża poziom błędów.",
-    spellingTitle: "Pisownia",
-    spellingBody: "Naciśnij <strong>Pis.</strong>, aby przed odpowiedzią trzeba było wpisać słowo ręcznie.",
-    intensityTitle: "Intensywność sesji",
-    intensityBody: "Wybierz, ile słów uczyć się w jednej sesji: <strong>Łatwy · 10</strong>, <strong>Normalny · 20</strong> lub <strong>Intensywny · 30</strong>.",
-    listeningTitle: "Słuchanie",
-    listeningBody: "Naciśnij ikonę głośnika na karcie, aby posłuchać wymowy.",
-    unwantedTitle: "Niepotrzebne słowa",
-    unwantedBody: "Naciśnij przekreślone oko w rogu karty — słowo zniknie z przepływu. Możesz je przywrócić w Opcjach dodatkowych.",
-    answersTitle: "Odpowiedzi",
-    answersBody: "<strong>Znam poprawnie</strong> — znasz odpowiedź. <strong>Nie znam</strong> — pomaga zapamiętać i dodaje do problematycznych. <strong>Następne słowo</strong> — pomija bez oceny.",
-    extraTitle: "Opcje dodatkowe",
-    extraBody: "Otwórz <strong>Opcje dodatkowe</strong>, aby zobaczyć przegląd tygodniowy i miesięczny, znane słowa i przywrócić ukryte."
+  "verb": {
+    "infinitive": "Infinitiv",
+    "present": "Präsens",
+    "imperfectIndicative": "Präteritum",
+    "imperfectSubjunctive": "Konjunktiv II",
+    "pastParticiple": "Partizip II",
+    "infinitiv": "Bezokolicznik",
+    "writeInfinitive": "Napisz bezokolicznik",
+    "guessInfinitive": "Zgadnij bezokolicznik",
+    "writeImperfect": "Napisz formę Präteritum",
+    "guessImperfect": "Zgadnij formę Präteritum",
+    "writePastParticiple": "Napisz formę Partizip II",
+    "guessPastParticiple": "Zgadnij formę Partizip II",
+    "translationPrefix": "Tłumaczenie:",
+    "hintTapAnswer": "Dotknij karty, aby zobaczyć odpowiedź.",
+    "hintTapSwitch": "Dotknij karty, aby zmienić formę.",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
+    "noShuffleForms": "Ten czasownik nie ma wystarczająco wielu form do mieszania."
   },
-  extra: { wordManagement: "Zarządzanie słowami", statistics: "Statystyka", settings: "Ustawienia" },
-  settings: { appLanguage: "Język aplikacji" },
-  kurss: {
-    panelLabel: "Kurs",
-    title: "Kurs",
-    subtitle: "Podstawy języka niemieckiego krok po kroku",
-    back: "‹ Kurs",
-    closeCourse: "Zamknij kurs",
-    backToMain: "Wróć do ekranu głównego",
-    tipTitle: "Wskazówka",
-    tipBody: "Słuchaj, powtarzaj i porównuj. Twoje ucho to najlepszy nauczyciel!",
-    pronunciation: "Wymowa",
-    pronunciationDesc: "Podstawy dźwięków i wymowy języka niemieckiego.",
-    articles: "Rodzajniki",
-    articlesDesc: "Der, die, das i podstawy użycia.",
-    pronouns: "Zaimki",
-    pronounsDesc: "Formy Nominativ, Akkusativ i Dativ.",
-    lessons: "Lekcje",
-    lessonsDesc: "Lekcje edukacyjne po kolei od 1 do 21.",
-    verbBasics: "Podstawy czasowników",
-    verbBasicsDesc: "Osoby, formy i najczęstsze czasowniki.",
-    sentenceStructure: "Budowa zdań",
-    sentenceStructureDesc: "Prosta kolejność słów w niemieckich zdaniach.",
-    articlesSubtitle: "Der, die, das i podstawy użycia.",
-    pronounsSubtitle: "Nominativ, Akkusativ i Dativ — formy zaimków.",
-    pronunciationSubtitle: "Podstawy dźwięków i wymowy języka niemieckiego",
-    vowelsSubtitle: "Samogłoski — długie i krótkie",
-    consonantsSubtitle: "Spółgłoski i połączenia liter",
-    lessonsSubtitle: "Lekcje edukacyjne po kolei od 1 do 21.",
-    vowelsTitle: "Samogłoski — długie i krótkie",
-    vowelsDesc: "Długie i krótkie samogłoski z przykładami.",
-    consonantsTitle: "Spółgłoski i połączenia liter",
-    consonantsDesc: "Najważniejsze dźwięki spółgłoskowe dla początkujących.",
-    lessonProgress: "Lekcja {lesson} · Tłumacz: {current} / {total}",
-    exerciseProgress: "Lekcja {lesson} · Ćwiczenie",
-    sections: {
-      grammar: "Gramatyka",
-      exercise: "Ćwiczenie",
-      translate: "Tłumacz",
-      exerciseCombined: "Übung / Ćwiczenie"
+  "notices": {
+    "chooseNextGroup": "Wybierz następną grupę w menu głównym.",
+    "sessionReloaded": "Sesja załadowana ponownie w pomieszanej kolejności.",
+    "sessionMovedToKnown": "Słowa sesji przeniesiono do znanych.",
+    "verbShuffleOn": "Mieszanie czasowników włączone.",
+    "verbShuffleOff": "Mieszanie czasowników wyłączone.",
+    "spellingOn": "Tryb pisowni włączony.",
+    "spellingOff": "Tryb pisowni wyłączony.",
+    "showingKnown": "Pokazujemy znane karty.",
+    "problemModeOff": "Tryb problematycznych słów wyłączony.",
+    "showingProblems": "Pokazujemy problematyczne słowa.",
+    "noProblems": "Brak problematycznych słów.",
+    "errorLevelReduced": "Poziom błędów obniżony.",
+    "movedToKnown": "Słowo przeniesiono do znanych!",
+    "problemsFinishedMoved": "Problematyczne słowa opanowane. Słowo przeniesiono do znanych!",
+    "lastSessionDone": "Powtórka ostatniej sesji zakończona.",
+    "continueLastSession": "Kontynuujemy powtórkę ostatniej sesji.",
+    "knownReviewDone": "Powtórka znanych słów zakończona.",
+    "continueKnownReview": "Kontynuujemy powtórkę znanych słów.",
+    "noVerbToMark": "Brak czasowników do oznaczenia.",
+    "verbMarkedKnown": "Czasownik oznaczony jako znany.",
+    "noCardToMark": "Brak kart do oznaczenia.",
+    "markedKnown": "Oznaczono jako znane.",
+    "noCard": "Brak karty do oznaczenia.",
+    "answerRevealed": "Odpowiedź ujawniona. Słowo pozostaje w sesji.",
+    "returnedToStudy": "Powrócono do trybu nauki.",
+    "leftInProblems": "Pozostawiono w grupie problematycznej.",
+    "leftForReview": "Pozostawiono do powtórki.",
+    "showingTimeReview": "Pokazujemy: {label}.",
+    "continueTimeReview": "Kontynuujemy: {label}.",
+    "enterAnswerFirst": "Najpierw wpisz poprawną odpowiedź i dotknij „Sprawdź”.",
+    "noCardForMastered": "Brak karty do dodania do 100% znanych.",
+    "addedMastered": "Słowo dodano do 100% znanych.",
+    "alreadyMastered": "Słowo jest już na liście 100% znanych.",
+    "noCardForUnwanted": "Brak karty do oznaczenia jako niepotrzebnej.",
+    "markedUnwanted": "Słowo oznaczone jako niepotrzebne.",
+    "loadFailed": "Nie udało się załadować kart. Odśwież stronę lub sprawdź dostępność plików danych.",
+    "noCompletedSession": "Brak ukończonej sesji do powtórki.",
+    "showingLastSession": "Pokazujemy ostatnią ukończoną sesję.",
+    "sessionArchivedNext": "Ostatnia sesja oznaczona jako nauczona. Załadowano następną sesję.",
+    "sessionArchived": "Ostatnia sesja oznaczona jako nauczona."
+  },
+  "review": {
+    "weekLabel": "Przegląd tygodniowy",
+    "weekEmpty": "Brak nauczonych słów do przeglądu tygodniowego.",
+    "weekDone": "Przegląd tygodniowy zakończony.",
+    "weekCount": "Słowa nauczone w tym tygodniu: {count}",
+    "monthLabel": "Przegląd miesięczny",
+    "monthEmpty": "Brak nauczonych słów do przeglądu miesięcznego.",
+    "monthDone": "Przegląd miesięczny zakończony.",
+    "monthCount": "Słowa nauczone w tym miesiącu: {count}",
+    "knownReviewDone": "Powtórka znanych słów zakończona."
+  },
+  "lists": {
+    "noUnwanted": "Brak niepotrzebnych słów.",
+    "noLearned": "Brak nauczonych słów.",
+    "noMastered": "Brak 100% znanych słów."
+  },
+  "restore": {
+    "ariaLabel": "Potwierdź usunięcie całego postępu",
+    "warning": "Uwaga! Cały postęp nauki i historia słów zostaną trwale usunięte."
+  },
+  "info": {
+    "title": "Jak to działa?",
+    "directionTitle": "Kierunek tłumaczenia",
+    "directionBody": "Dotknij, aby przełączać między <strong>DE→{code}</strong> a <strong>{code}→DE</strong>.",
+    "problemTitle": "Problematyczne słowa",
+    "problemBody": "Dotknij <strong>Problematyczne</strong>, aby ćwiczyć słowa, w których się pomyliłeś. „Nie znam” dodaje słowo do tej listy; w tym trybie „Znam” obniża jego poziom błędów.",
+    "spellingTitle": "Pisownia",
+    "spellingBody": "Dotknij <strong>Pisownia</strong>, aby przed odpowiedzią samodzielnie wpisać słowo.",
+    "intensityTitle": "Intensywność sesji",
+    "intensityBody": "Wybierz, ile słów uczyć się w jednej sesji: <strong>Łatwy · 10</strong>, <strong>Normalny · 20</strong> lub <strong>Intensywny · 30</strong>.",
+    "listeningTitle": "Słuchanie",
+    "listeningBody": "Dotknij ikony głośnika na karcie, aby usłyszeć wymowę.",
+    "unwantedTitle": "Niepotrzebne słowa",
+    "unwantedBody": "Dotknij przekreślonego oka w rogu karty — słowo zniknie z sesji. Możesz je przywrócić w „Opcje dodatkowe”.",
+    "answersTitle": "Odpowiedzi",
+    "answersBody": "<strong>Znam</strong> — znasz odpowiedź. <strong>Nie znam</strong> — pomaga zapamiętać i dodaje słowo do problematycznych. <strong>Dalej</strong> — pomija bez oceny.",
+    "extraTitle": "Opcje dodatkowe",
+    "extraBody": "Otwórz <strong>Opcje dodatkowe</strong>, aby zobaczyć przegląd tygodniowy i miesięczny, znane słowa i przywrócić ukryte słowa."
+  },
+  "extra": {
+    "wordManagement": "Zarządzanie słowami",
+    "statistics": "Statystyka",
+    "settings": "Ustawienia"
+  },
+  "settings": {
+    "appLanguage": "Język aplikacji"
+  },
+  "kurss": {
+    "panelLabel": "Kurs",
+    "title": "Kurs",
+    "subtitle": "Podstawy języka niemieckiego krok po kroku",
+    "back": "‹ Kurs",
+    "closeCourse": "Zamknij kurs",
+    "backToMain": "Wróć do ekranu głównego",
+    "tipTitle": "Wskazówka",
+    "tipBody": "Słuchaj, powtarzaj i porównuj. Twoje ucho to najlepszy nauczyciel!",
+    "pronunciation": "Wymowa",
+    "pronunciationDesc": "Podstawy niemieckich dźwięków i wymowy.",
+    "articles": "Rodzajniki",
+    "articlesDesc": "Der, die, das i podstawy ich użycia.",
+    "pronouns": "Zaimki",
+    "pronounsDesc": "Formy w Nominativ, Akkusativ i Dativ.",
+    "lessons": "Lekcje",
+    "lessonsDesc": "Lekcje po kolei od 1 do 21.",
+    "verbBasics": "Podstawy czasowników",
+    "verbBasicsDesc": "Osoby, formy i najczęstsze czasowniki.",
+    "sentenceStructure": "Budowa zdania",
+    "sentenceStructureDesc": "Prosty szyk wyrazów w niemieckich zdaniach.",
+    "articlesSubtitle": "Der, die, das i podstawy ich użycia.",
+    "pronounsSubtitle": "Nominativ, Akkusativ i Dativ — formy zaimków.",
+    "pronunciationSubtitle": "Podstawy niemieckich dźwięków i wymowy",
+    "vowelsSubtitle": "Samogłoski — długie i krótkie",
+    "consonantsSubtitle": "Spółgłoski i połączenia liter",
+    "lessonsSubtitle": "Lekcje po kolei od 1 do 21.",
+    "vowelsTitle": "Samogłoski — długie i krótkie",
+    "vowelsDesc": "Długie i krótkie samogłoski z przykładami.",
+    "consonantsTitle": "Spółgłoski i połączenia liter",
+    "consonantsDesc": "Najważniejsze dźwięki spółgłoskowe dla początkujących.",
+    "lessonProgress": "Lekcja {lesson} · Tłumacz: {current} / {total}",
+    "exerciseProgress": "Lekcja {lesson} · Ćwiczenie",
+    "sections": {
+      "grammar": "Gramatyka",
+      "exercise": "Ćwiczenie",
+      "translate": "Tłumacz",
+      "exerciseCombined": "Übung / Ćwiczenie",
+      "dialogues": "Dialogi / zdania",
+      "words": "Słowa",
+      "names": "Imiona",
+      "reading": "Tekst / czytanie"
     },
-    hints: {
-      tapToRevealAnswer: "Dotknij karty, aby zobaczyć odpowiedź.",
-      tapToContinue: "Dotknij karty, aby kontynuować.",
-      tapToRevealGerman: "Dotknij karty, aby zobaczyć niemieckie tłumaczenie.",
-      tapNextStep: "Dotknij karty, aby przejść do następnego kroku.",
-      exerciseCardAria: "Karta ćwiczenia {title}"
+    "hints": {
+      "tapToRevealAnswer": "Dotknij karty, aby zobaczyć odpowiedź.",
+      "tapToContinue": "Dotknij karty, aby kontynuować.",
+      "tapToRevealGerman": "Dotknij karty, aby zobaczyć niemieckie tłumaczenie.",
+      "tapNextStep": "Dotknij karty, aby przejść do następnego kroku.",
+      "exerciseCardAria": "Karta ćwiczenia {title}"
     },
-    cta: {
-      tapNextCard: "Dotknij następnej karty",
-      tapToRevealAnswer: "Dotknij, aby zobaczyć odpowiedź",
-      tapContinue: "Dotknij, aby kontynuować",
-      transformSentence: "Przekształć zdanie.",
-      transformThirdSingular: "Przekształć zdanie w 3. osobie liczby pojedynczej.",
-      transformFirstPlural: "Przekształć zdanie w 1. osobie liczby mnogiej."
+    "cta": {
+      "tapNextCard": "Dotknij następnej karty",
+      "tapToRevealAnswer": "Dotknij, aby zobaczyć odpowiedź",
+      "tapContinue": "Dotknij, aby kontynuować",
+      "transformSentence": "Przekształć zdanie.",
+      "transformThirdSingular": "Przekształć zdanie w 3. osobie liczby pojedynczej.",
+      "transformFirstPlural": "Przekształć zdanie w 1. osobie liczby mnogiej."
     },
-    exerciseMeta: {
-      fillCase: "Übung I — użyj właściwego przypadku",
-      chooseCasePlural: "Wybierz właściwy przypadek i utwórz liczbę mnogą!",
-      answerPlural: "Teraz odpowiedz w liczbie mnogiej.",
-      translate: "Übung II — tłumacz",
-      formDu: "Forma 1/3: ty (liczba pojedyncza)",
-      formIhr: "Forma 2/3: wy (liczba mnoga)",
-      formSie: "Forma 3/3: Sie (forma grzecznościowa)"
+    "exerciseMeta": {
+      "fillCase": "Übung I — użyj właściwego przypadku",
+      "chooseCasePlural": "Wybierz właściwy przypadek i utwórz liczbę mnogą!",
+      "answerPlural": "Teraz odpowiedz w liczbie mnogiej.",
+      "translate": "Übung II — tłumacz",
+      "formDu": "Forma 1/3: ty (liczba pojedyncza)",
+      "formIhr": "Forma 2/3: wy (liczba mnoga)",
+      "formSie": "Forma 3/3: Sie (forma grzecznościowa)"
     },
-    lessonItems: {
-      "1": { title: "Lekcja 1", menuDesc: "Czasowniki w czasie teraźniejszym, słówka, gramatyka i ćwiczenia." },
-      "2": { title: "Lekcja 2", menuDesc: "Dialogi, słowa, wymowa, gramatyka i tłumaczenie." },
-      "3": { title: "Lekcja 3", menuDesc: "Dialogi, słowa, wymowa, gramatyka i tłumaczenie." },
-      "4": { title: "Lekcja 4", menuDesc: "Biernik, nehmen, hinlegen, hinausgehen i przymiotniki." },
-      "5": { title: "Lekcja 5", menuDesc: "Wen?, biernik, sitzen, fragen i końcówka -in." },
-      "6": { title: "Lekcja 6", menuDesc: "Liczebniki, liczba mnoga, umlauty i formy liczby mnogiej rzeczowników." },
-      "7": { title: "Lekcja 7", menuDesc: "Tryb rozkazujący, forma grzecznościowa i liczba mnoga." },
-      "8": { title: "Lekcja 8", menuDesc: "Czasowniki zwrotne, zmiana e → i/ie i biernik." },
-      "9": { title: "Lekcja 9", menuDesc: "Wiele przedmiotów, dieser/jener, liczba pojedyncza i mnoga." },
-      "10": { title: "Lekcja 10", menuDesc: "Sein, können, zdrowie, wiek i zawody." },
-      "11": { title: "Lekcja 11", menuDesc: "Haben, kein/keine/keinen, przynależność i złożone rzeczowniki." },
-      "12": { title: "Lekcja 12", menuDesc: "Stopnie wyższe, als/wie, wiek i kolory." },
-      "13": { title: "Lekcja 13", menuDesc: "Der Körper, części ciała, turnen i jeder." },
-      "14": { title: "Lekcja 14", menuDesc: "müssen, wollen, mögen i czasowniki modalne." },
-      "15": { title: "Lekcja 15", menuDesc: "sollen, dürfen, essen i owoce." },
-      "16": { title: "Lekcja 16", menuDesc: "Celownik, geben, sich nähern." },
-      "17": { title: "Lekcja 17", menuDesc: "mit + Dativ, womit / mit wem i Umlaut." },
-      "18": { title: "Lekcja 18", menuDesc: "wohin / wo, Akkusativ lub Dativ z an / in / auf." },
-      "19": { title: "Lekcja 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
-      "20": { title: "Lekcja 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ i złożone rzeczowniki." },
-      "21": { title: "Lekcja 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    "lessonItems": {
+      "1": {
+        "title": "Lekcja 1",
+        "menuDesc": "Czasowniki w czasie teraźniejszym, słówka, gramatyka i ćwiczenia."
+      },
+      "2": {
+        "title": "Lekcja 2",
+        "menuDesc": "Dialogi, słowa, wymowa, gramatyka i tłumaczenie."
+      },
+      "3": {
+        "title": "Lekcja 3",
+        "menuDesc": "Dialogi, słowa, wymowa, gramatyka i tłumaczenie."
+      },
+      "4": {
+        "title": "Lekcja 4",
+        "menuDesc": "Biernik, nehmen, hinlegen, hinausgehen i przymiotniki."
+      },
+      "5": {
+        "title": "Lekcja 5",
+        "menuDesc": "Wen?, biernik, sitzen, fragen i końcówka -in."
+      },
+      "6": {
+        "title": "Lekcja 6",
+        "menuDesc": "Liczebniki, liczba mnoga, umlauty i formy liczby mnogiej rzeczowników."
+      },
+      "7": {
+        "title": "Lekcja 7",
+        "menuDesc": "Tryb rozkazujący, forma grzecznościowa i liczba mnoga."
+      },
+      "8": {
+        "title": "Lekcja 8",
+        "menuDesc": "Czasowniki zwrotne, zmiana e → i/ie i biernik."
+      },
+      "9": {
+        "title": "Lekcja 9",
+        "menuDesc": "Wiele przedmiotów, dieser/jener, liczba pojedyncza i mnoga."
+      },
+      "10": {
+        "title": "Lekcja 10",
+        "menuDesc": "Sein, können, zdrowie, wiek i zawody."
+      },
+      "11": {
+        "title": "Lekcja 11",
+        "menuDesc": "Haben, kein/keine/keinen, przynależność i złożone rzeczowniki."
+      },
+      "12": {
+        "title": "Lekcja 12",
+        "menuDesc": "Stopnie wyższe, als/wie, wiek i kolory."
+      },
+      "13": {
+        "title": "Lekcja 13",
+        "menuDesc": "Der Körper, części ciała, turnen i jeder."
+      },
+      "14": {
+        "title": "Lekcja 14",
+        "menuDesc": "müssen, wollen, mögen i czasowniki modalne."
+      },
+      "15": {
+        "title": "Lekcja 15",
+        "menuDesc": "sollen, dürfen, essen i owoce."
+      },
+      "16": {
+        "title": "Lekcja 16",
+        "menuDesc": "Celownik, geben, sich nähern."
+      },
+      "17": {
+        "title": "Lekcja 17",
+        "menuDesc": "mit + Dativ, womit / mit wem i Umlaut."
+      },
+      "18": {
+        "title": "Lekcja 18",
+        "menuDesc": "wohin / wo, Akkusativ lub Dativ z an / in / auf."
+      },
+      "19": {
+        "title": "Lekcja 19",
+        "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
+      },
+      "20": {
+        "title": "Lekcja 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ i złożone rzeczowniki."
+      },
+      "21": {
+        "title": "Lekcja 21",
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
+      }
     }
   },
-  plural: { wordOne: "słowo", wordsFew: "słowa", wordsMany: "słów" },
-  spelling: {
-    writeNative: "Napisz po polsku",
-    writeGerman: "Napisz po niemiecku",
-    correct: "Poprawnie!",
-    incorrect: "Niepoprawnie",
-    expectedLabel: "Poprawnie:",
-    noVerbTask: "Brak zadania pisowni dla tego czasownika.",
-    writeAnswer: "Wpisz odpowiedź",
-    missingChar: "brakuje: {char}"
+  "plural": {
+    "wordOne": "słowo",
+    "wordsFew": "słowa",
+    "wordsMany": "słów"
   },
-  progress: { verbsHeading: "Czasowniki", courseHeading: "Kurs" },
-  study: {
-    hints: {
-      tapToOpenExplanation: "Kliknij kartę, aby otworzyć wyjaśnienie.",
-      tapToRevealGerman: "Kliknij kartę, aby zobaczyć niemieckie słowo."
+  "spelling": {
+    "writeNative": "Napisz po polsku",
+    "writeGerman": "Napisz po niemiecku",
+    "correct": "Dobrze!",
+    "incorrect": "Źle",
+    "expectedLabel": "Poprawnie:",
+    "noVerbTask": "Brak ćwiczenia z pisowni dla tego czasownika.",
+    "writeAnswer": "Wpisz odpowiedź",
+    "missingChar": "brakuje: {char}"
+  },
+  "progress": {
+    "verbsHeading": "Czasowniki",
+    "courseHeading": "Kurs"
+  },
+  "study": {
+    "hints": {
+      "tapToOpenExplanation": "Kliknij kartę, aby otworzyć wyjaśnienie.",
+      "tapToRevealGerman": "Kliknij kartę, aby zobaczyć niemieckie słowo."
     },
-    sections: {
-      mainIdea: "Główna myśl",
-      explanation: "Wyjaśnienie",
-      examples: "Przykłady",
-      comparison: "Porównanie",
-      tip: "Wskazówka",
-      important: "Ważne",
-      mistakes: "Typowe błędy",
-      remember: "Pamiętaj",
-      comparisonFocus: "Ważne porównanie",
-      comparisonBadge: "KARTA PORÓWNAWCZA"
+    "sections": {
+      "mainIdea": "Główna myśl",
+      "explanation": "Wyjaśnienie",
+      "examples": "Przykłady",
+      "comparison": "Porównanie",
+      "tip": "Wskazówka",
+      "important": "Ważne",
+      "mistakes": "Typowe błędy",
+      "remember": "Pamiętaj",
+      "comparisonFocus": "Ważne porównanie",
+      "comparisonBadge": "KARTA PORÓWNAWCZA"
     },
-    table: {
-      word: "Słowo",
-      meaning: "Znaczenie",
-      example: "Przykład",
-      native: "PL",
-      german: "DE",
-      mainMeaning: "Główne znaczenie",
-      describes: "Opisuje",
-      translation: "Tłumaczenie"
+    "table": {
+      "word": "Słowo",
+      "meaning": "Znaczenie",
+      "example": "Przykład",
+      "native": "PL",
+      "german": "DE",
+      "mainMeaning": "Główne znaczenie",
+      "describes": "Opisuje",
+      "translation": "Tłumaczenie"
     },
-    minimal: {
-      tipLabel: "Wskazówka:",
-      pluralLabel: "LM.",
-      formsLabel: "Formy:",
-      noteLabel: "Uwaga:"
+    "minimal": {
+      "tipLabel": "Wskazówka:",
+      "pluralLabel": "LM.",
+      "formsLabel": "Formy:",
+      "noteLabel": "Uwaga:"
     }
   }
 };

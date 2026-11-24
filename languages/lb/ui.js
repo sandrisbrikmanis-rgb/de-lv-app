@@ -2,11 +2,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "lb",
   "splash": {
     "title": "Däitsch",
-    "subtitle": "Léier Däitsch"
+    "subtitle": "Léier Däitsch",
+    "ariaLabel": "Lueden"
   },
   "languageSelect": {
     "title": "Sprooch wielen",
-    "footer": "Léier Däitsch"
+    "footer": "Léier Däitsch",
+    "ariaLabel": "Sproochauswiel"
   },
   "app": {
     "title": "Däitsch • LB-DE",
@@ -18,7 +20,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Cours",
     "sentences": "Sätz",
     "verbs": "Verben",
-    "chooseGroup": "Wiel eng Grupp"
+    "chooseGroup": "Wiel eng Grupp",
+    "learningModes": "Léiermodi"
   },
   "groups": {
     "sentences": "Sätz"
@@ -32,14 +35,14 @@ window.LANGUAGE_UI_STRINGS = {
   "buttons": {
     "known": "Ech weess et",
     "unknown": "Ech weess et net",
-    "next": "Numm",
+    "next": "Weider",
     "check": "Iwwerpréiwen",
     "continue": "Weider",
     "close": "Zoumaachen",
     "delete": "Läschen",
     "cancel": "Ofbriechen",
     "restore": "Zeréckhuelen",
-    "restoreAll": "Alles zeréckhuelen",
+    "restoreAll": "Fortschrëtt läschen",
     "extraOptions": "Zousätzlech Optiounen",
     "extraOptionsOpen": "Zousätzlech Optiounen ▼",
     "extraOptionsClose": "Zousätzlech Optiounen ▲",
@@ -49,7 +52,7 @@ window.LANGUAGE_UI_STRINGS = {
     "knownWords": "Bekannt",
     "knownWithCount": "Bekannt ({count})",
     "markMastered": "Ech kann et zu 100 %",
-    "shuffleVerbs": "Verbe mëschen",
+    "shuffleVerbs": "Verben mëschen",
     "restartSession": "🔄 D'Sessioun nach eng Kéier iwwerpréiwen",
     "markSessionLearned": "🏅 Sessioun als geléiert markéieren",
     "chooseAnotherGroup": "Eng aner Grupp auswielen",
@@ -67,10 +70,10 @@ window.LANGUAGE_UI_STRINGS = {
     "masteredWords": "Zu 100 % bekannt"
   },
   "tools": {
-    "problemShort": "Probl.",
+    "problemShort": "Problematesch",
     "problemFull": "Problemwierder",
     "problemWithCount": "Problemwierder ({count})",
-    "spellingShort": "Schreiw.",
+    "spellingShort": "Rechtschreiwung",
     "spellingFull": "Rechtschreiwung"
   },
   "modes": {
@@ -83,7 +86,7 @@ window.LANGUAGE_UI_STRINGS = {
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
-    "tapToReveal": "Klick op d'Kaart, fir d'Iwwersetzung ze gesinn.",
+    "tapToReveal": "Tipp op d'Kaart, fir d'Iwwersetzung ze gesinn.",
     "chooseNextStep": "Wiel, wat s du als Nächst maache wëlls.",
     "chooseModeOrReturn": "Wiel en anere Modus oder komm méi spéit fir d'Iwwerpréiwung zeréck.",
     "trainingCard": "Übungskaart: {title}"
@@ -106,20 +109,20 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "verb": {
     "infinitive": "Infinitiv",
-    "present": "Géigenwart",
-    "imperfectIndicative": "Imperfekt – Indikativ",
-    "imperfectSubjunctive": "Imperfekt – Konjunktiv",
+    "present": "Präsens",
+    "imperfectIndicative": "Präteritum",
+    "imperfectSubjunctive": "Konjunktiv II",
     "pastParticiple": "Partizip II",
     "infinitiv": "Infinitiv",
     "writeInfinitive": "Schreif den Infinitiv",
     "guessInfinitive": "Erréit den Infinitiv",
-    "writeImperfect": "Imperfekt schreiwen",
-    "guessImperfect": "Imperfekt erraten",
-    "writePastParticiple": "Schreif de Partizip II",
-    "guessPastParticiple": "Erréit de Partizip II",
+    "writeImperfect": "Schreif d'Präteritum-Form",
+    "guessImperfect": "Erréit d'Präteritum-Form",
+    "writePastParticiple": "Schreif d'Partizip-II-Form",
+    "guessPastParticiple": "Erréit d'Partizip-II-Form",
     "translationPrefix": "Iwwersetzung:",
-    "hintTapAnswer": "Klick op d'Kaart, fir d'Äntwert ze gesinn.",
-    "hintTapSwitch": "Klick op d'Kaart, fir d'Form ze wiesselen.",
+    "hintTapAnswer": "Tipp op d'Kaart, fir d'Äntwert ze gesinn.",
+    "hintTapSwitch": "Tipp op d'Kaart, fir d'Form ze wiesselen.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Dëst Verb huet net genuch Forme fir ze mëschen."
   },
@@ -153,7 +156,7 @@ window.LANGUAGE_UI_STRINGS = {
     "leftForReview": "Fir d'Iwwerpréiwung gelooss.",
     "showingTimeReview": "Ugewisen: {label}.",
     "continueTimeReview": "Mir fuere weider: {label}.",
-    "enterAnswerFirst": "Gëff fir d'éischt déi richteg Äntwert an a klick op Iwwerpréiwen.",
+    "enterAnswerFirst": "Gëff fir d'éischt déi richteg Äntwert an an tipp op „Iwwerpréiwen“.",
     "noCardForMastered": "Et gëtt keng Kaart fir bei déi zu 100 % bekannte Wierder derbäizesetzen.",
     "addedMastered": "D'Wuert gouf bei déi zu 100 % bekannte Wierder derbäigesat.",
     "alreadyMastered": "D'Wuert ass schonn an der Lëscht vun de zu 100 % bekannte Wierder.",
@@ -169,11 +172,11 @@ window.LANGUAGE_UI_STRINGS = {
     "weekLabel": "Wocheniwwersiicht",
     "weekEmpty": "Et gëtt keng geléiert Wierder fir d'Wocheniwwersiicht.",
     "weekDone": "D'Wocheniwwersiicht ass ofgeschloss.",
-    "weekCount": "Dës Woch geléiert: {count} {words}",
+    "weekCount": "Dës Woch geléiert Wierder: {count}",
     "monthLabel": "Mountsiwwersiicht",
     "monthEmpty": "Et gëtt keng geléiert Wierder fir d'Mountsiwwersiicht.",
     "monthDone": "D'Mountsiwwersiicht ass ofgeschloss.",
-    "monthCount": "Dëse Mount geléiert: {count} {words}",
+    "monthCount": "Dëse Mount geléiert Wierder: {count}",
     "knownReviewDone": "D'Iwwerpréiwung vun de bekannte Wierder ass ofgeschloss."
   },
   "lists": {
@@ -183,26 +186,26 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "restore": {
     "ariaLabel": "D'Läsche vum ganze Fortschrëtt bestätegen",
-    "warning": "Opgepasst! De ganze Léierfortschrëtt an d'Geschicht vun de Wierder ginn definitiv geläscht an op null zeréckgesat."
+    "warning": "Opgepasst! De ganze Léierfortschrëtt an d'Geschicht vun de Wierder ginn definitiv geläscht."
   },
   "info": {
     "title": "Wéi funktionéiert et?",
     "directionTitle": "Iwwersetzungsrichtung",
-    "directionBody": "Klick, fir tëscht <strong>DE→{code}</strong> an <strong>{code}→DE</strong> ze wiesselen.",
+    "directionBody": "Tipp, fir tëscht <strong>DE→{code}</strong> an <strong>{code}→DE</strong> ze wiesselen.",
     "problemTitle": "Problemwierder",
-    "problemBody": "Klick op <strong>Probl.</strong>, fir Wierder ze léieren, bei deenen s du Feeler gemaach hues. Am normale Modus füügt «Ech weess et net» d'Wuert hei derbäi; hei reduzéiert «Ech weess et» de Feelergrad.",
+    "problemBody": "Tipp op <strong>Problematesch</strong>, fir d'Wierder ze üben, bei deenen s du Feeler gemaach hues. „Ech weess et net“ setzt d'Wuert op dës Lëscht; an dësem Modus reduzéiert „Ech weess et“ säi Feelergrad.",
     "spellingTitle": "Rechtschreiwung",
-    "spellingBody": "Klick op <strong>Schreiwen</strong>, fir d'Wuert virun der Äntwert selwer anzeginn.",
+    "spellingBody": "Tipp op <strong>Rechtschreiwung</strong>, fir d'Wuert virun der Äntwert selwer anzeginn.",
     "intensityTitle": "Intensitéit vun der Sessioun",
     "intensityBody": "Wiel, wéi vill Wierder s du an enger Sessioun léiere wëlls: <strong>Liicht · 10</strong>, <strong>Normal · 20</strong> oder <strong>Intensiv · 30</strong>.",
     "listeningTitle": "Lauschteren",
-    "listeningBody": "Klick op d'Lautsprecher-Symbol op der Kaart, fir d'Aussprooch ze lauschteren.",
+    "listeningBody": "Tipp op d'Lautsprecher-Symbol op der Kaart, fir d'Aussprooch ze lauschteren.",
     "unwantedTitle": "Net gebraucht Wierder",
-    "unwantedBody": "Klick op dat duerchgestrachent A am Eck vun der Kaart — d'Wuert verschwënnt aus dem Léierlaf. Du kanns et ënner Zousätzlech Optiounen zerécksetzen.",
+    "unwantedBody": "Tipp op dat duerchgestrachent A am Eck vun der Kaart — d'Wuert verschwënnt aus der Sessioun. Du kanns et ënner „Zousätzlech Optiounen“ zréckhuelen.",
     "answersTitle": "Äntwerten",
-    "answersBody": "<strong>Ech weess et</strong> — du kenns d'Äntwert. <strong>Ech weess et net</strong> — hëlleft beim Erënneren a füügt d'Wuert bei d'Problemwierder derbäi. <strong>Nächst Wuert</strong> — iwwerspréngt ouni Bewäertung.",
+    "answersBody": "<strong>Ech weess et</strong> — du kenns d'Äntwert. <strong>Ech weess et net</strong> — hëlleft beim Erënneren a setzt d'Wuert bei d'Problemwierder. <strong>Weider</strong> — geet weider ouni Bewäertung.",
     "extraTitle": "Zousätzlech Optiounen",
-    "extraBody": "Maach <strong>Zousätzlech Optiounen</strong> op, fir d'Wochen- a Mountsiwwersiicht, déi bekannt Wierder an déi verstoppte Wierder ze gesinn."
+    "extraBody": "Maach <strong>Zousätzlech Optiounen</strong> op, fir d'Wochen- a Mountsiwwersiicht, déi bekannt Wierder ze gesinn an déi verstoppte Wierder zréckzehuelen."
   },
   "extra": {
     "wordManagement": "Wierder verwalten",
@@ -215,30 +218,30 @@ window.LANGUAGE_UI_STRINGS = {
   "kurss": {
     "panelLabel": "Cours",
     "title": "Cours",
-    "subtitle": "Grondlage vun der däitscher Sprooch, Schrëtt fir Schrëtt",
+    "subtitle": "Grondlage vun der däitscher Sprooch Schrëtt fir Schrëtt",
     "back": "‹ Cours",
     "closeCourse": "Cours zoumaachen",
-    "backToMain": "Zeréck op den Haaptbildschierm",
+    "backToMain": "Zeréck op den Haaptschierm",
     "tipTitle": "Tipp",
-    "tipBody": "Lauschter, widderhuel a vergläich. Däin Ouer ass dee beschte Léiermeeschter!",
+    "tipBody": "Lauschter, widderhuel a vergläich. Däin Ouer ass de beschte Léierer!",
     "pronunciation": "Aussprooch",
-    "pronunciationDesc": "Däitsch Lauter an d'Grondlage vun der Aussprooch.",
+    "pronunciationDesc": "Grondlage vun den däitsche Lauter an der Aussprooch.",
     "articles": "Artikelen",
-    "articlesDesc": "Grondlage vum Gebrauch vun der, die an das.",
+    "articlesDesc": "Der, die, das an d'Grondlage vum Gebrauch.",
     "pronouns": "Pronomen",
-    "pronounsDesc": "Nominativ-, Akkusativ- an Dativformen.",
+    "pronounsDesc": "Formen am Nominativ, Akkusativ an Dativ.",
     "lessons": "Lektiounen",
-    "lessonsDesc": "Léierlektionen an der Reiefolleg vun 1 bis 21.",
+    "lessonsDesc": "Lektiounen an der Reiefolleg vun 1 bis 21.",
     "verbBasics": "Grondlage vun de Verben",
     "verbBasicsDesc": "Persounen, Formen an déi heefegst Verben.",
-    "sentenceStructure": "Sazstruktur",
+    "sentenceStructure": "Sazbau",
     "sentenceStructureDesc": "Einfach Wuertstellung an däitsche Sätz.",
-    "articlesSubtitle": "Grondlage vum Gebrauch vun der, die an das.",
+    "articlesSubtitle": "Der, die, das an d'Grondlage vum Gebrauch.",
     "pronounsSubtitle": "Nominativ, Akkusativ an Dativ — Pronomeformen.",
-    "pronunciationSubtitle": "Däitsch Lauter an d'Grondlage vun der Aussprooch",
+    "pronunciationSubtitle": "Grondlage vun den däitsche Lauter an der Aussprooch",
     "vowelsSubtitle": "Vokaler — laang a kuerz",
     "consonantsSubtitle": "Konsonanten a Buschtawekombinatiounen",
-    "lessonsSubtitle": "Léierlektionen an der Reiefolleg vun 1 bis 21.",
+    "lessonsSubtitle": "Lektiounen an der Reiefolleg vun 1 bis 21.",
     "vowelsTitle": "Vokaler — laang a kuerz",
     "vowelsDesc": "Laang a kuerz Vokaler mat Beispiller.",
     "consonantsTitle": "Konsonanten a Buschtawekombinatiounen",
@@ -249,7 +252,11 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Gramatika",
       "exercise": "Übung",
       "translate": "Iwwersetzen",
-      "exerciseCombined": "Übung / Übung"
+      "exerciseCombined": "Übung / Übung",
+      "dialogues": "Dialoger / Sätz",
+      "words": "Wierder",
+      "names": "Nimm",
+      "reading": "Text / Liesen"
     },
     "hints": {
       "tapToRevealAnswer": "Klick op d'Kaart, fir d'Äntwert ze gesinn.",
@@ -368,8 +375,8 @@ window.LANGUAGE_UI_STRINGS = {
     "wordsMany": "Wierder"
   },
   "spelling": {
-    "writeNative": "Schreift op Lëtzebuergesch",
-    "writeGerman": "Schreift op Däitsch",
+    "writeNative": "Schreif op Lëtzebuergesch",
+    "writeGerman": "Schreif op Däitsch",
     "correct": "Richteg!",
     "incorrect": "Falsch",
     "expectedLabel": "Richteg:",

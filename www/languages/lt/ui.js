@@ -1,327 +1,425 @@
 window.LANGUAGE_UI_STRINGS = {
-  __langCode: "lt",
-  splash: { title: "Vokiečių kalba", subtitle: "Deutsch lernen" },
-  languageSelect: { title: "Sprache wählen", footer: "Deutsch lernen" },
-  app: {
-    title: "Vokiečių kalba • LT-DE",
-    subtitle: "Tavo išmanus vokiečių kalbos vadovas pagal lygius",
-    shellLabel: "Vokiečių–lietuvių kortelės"
+  "__langCode": "lt",
+  "splash": {
+    "title": "Vokiečių kalba",
+    "subtitle": "Mokykitės vokiečių kalbos",
+    "ariaLabel": "Įkeliama"
   },
-  menu: {
-    mainNav: "Pagrindinis meniu",
-    course: "Kursas",
-    sentences: "Sakiniai",
-    verbs: "Veiksmažodžiai",
-    chooseGroup: "Pasirinkite grupę"
+  "languageSelect": {
+    "title": "Pasirinkite kalbą",
+    "footer": "Mokykitės vokiečių kalbos",
+    "ariaLabel": "Kalbos pasirinkimas"
   },
-  groups: { sentences: "Sakiniai" },
-  nav: {
-    backHome: "Grįžti į pagrindinį meniu",
-    changeLanguage: "Keisti gimtąją kalbą",
-    howItWorks: "Kaip tai veikia?",
-    quickTools: "Greiti įrankiai"
+  "app": {
+    "title": "Vokiečių kalba • LT-DE",
+    "subtitle": "Tavo išmanus vokiečių kalbos vadovas pagal lygius",
+    "shellLabel": "Vokiečių–lietuvių kortelės"
   },
-  buttons: {
-    known: "Žinau teisingai",
-    unknown: "Nežinau",
-    next: "Kitas žodis",
-    check: "Tikrinti",
-    continue: "Tęsti",
-    close: "Uždaryti",
-    delete: "Ištrinti",
-    cancel: "Atšaukti",
-    restore: "Grąžinti",
-    restoreAll: "Grąžinti viską",
-    extraOptions: "Papildomos parinktys",
-    extraOptionsOpen: "Papildomos parinktys ▼",
-    extraOptionsClose: "Papildomos parinktys ▲",
-    weeklyReview: "Savaitės apžvalga",
-    monthlyReview: "Mėnesio apžvalga",
-    unwantedWords: "Nereikalingi žodžiai",
-    knownWords: "Žinomi",
-    knownWithCount: "Žinomi ({count})",
-    markMastered: "100% žinau",
-    shuffleVerbs: "Maišyti veiksmažodžius",
-    restartSession: "🔄 Peržiūrėti sesiją iš naujo",
-    markSessionLearned: "🏅 Pažymėti sesiją kaip išmoktą",
-    chooseAnotherGroup: "Pasirinkti kitą grupę",
-    listen: "Klausyti",
-    listenPlural: "Klausyti daugiskaitos",
-    listenWithWord: "Klausyti: {word}",
-    autoplayOn: "Automatinis atkūrimas įjungtas",
-    autoplayOff: "Automatinis atkūrimas išjungtas",
-    autoplayLabel: "Automatinis atkūrimas",
-    autoplayAriaOn: "{label} (automatiškai įjungta)",
-    autoplayAriaOff: "{label} (automatiškai išjungta)",
-    disableAutoplay: "Išjungti automatinį atkūrimą",
-    enableAutoplay: "Įjungti automatinį atkūrimą",
-    markUnwanted: "Pažymėti kaip nereikalingą",
-    masteredWords: "100% žinomi"
+  "menu": {
+    "mainNav": "Pagrindinis meniu",
+    "course": "Kursas",
+    "sentences": "Sakiniai",
+    "verbs": "Veiksmažodžiai",
+    "chooseGroup": "Pasirinkite grupę",
+    "learningModes": "Mokymosi režimai"
   },
-  tools: {
-    problemShort: "Probl.",
-    problemFull: "Probleminiai žodžiai",
-    problemWithCount: "Probleminiai žodžiai ({count})",
-    spellingShort: "Raš.",
-    spellingFull: "Rašyba"
+  "groups": {
+    "sentences": "Sakiniai"
   },
-  modes: { easy: "Lengvas", normal: "Normalus", intense: "Intensyvus" },
-  direction: { deToNative: "🔄 DE ➔ {code}", nativeToDe: "🔄 {code} ➔ DE" },
-  hints: {
-    tapToReveal: "Spustelėkite kortelę, kad pamatytumėte vertimą.",
-    chooseNextStep: "Pasirinkite, ką daryti toliau.",
-    chooseModeOrReturn: "Pasirinkite kitą režimą arba grįžkite vėliau peržiūrai.",
-    trainingCard: "Pratimo kortelė {title}"
+  "nav": {
+    "backHome": "Grįžti į pagrindinį meniu",
+    "changeLanguage": "Keisti gimtąją kalbą",
+    "howItWorks": "Kaip tai veikia?",
+    "quickTools": "Greiti įrankiai"
   },
-  card: {
-    pluralLabel: "Dgsk.",
-    spelling: "Rašyba",
-    spellingVerbs: "Rašyba · Veiksmažodžiai",
-    verbsShuffleTraining: "Veiksmažodžiai · Maišytas treniravimas",
-    answerPrefix: "Atsakymas:",
-    sessionComplete: "Sesija baigta!",
-    sessionLabel: "Sesija",
-    lastSessionLabel: "Paskutinė sesija",
-    problemLabel: "Probleminiai",
-    levelCompleteTitle: "Puiku! {label} lygis baigtas! 🎉",
-    levelCompleteDesc: "Įvaldėte visus šios grupės žodžius. Laikas žengti kitą žingsnį!",
-    noActiveWords: "Šioje grupėje nėra aktyvių žodžių.",
-    noCardsInSession: "Šioje sesijoje nėra kortelių.",
-    cardNotFound: "Kortelė nerasta"
+  "buttons": {
+    "known": "Žinau teisingai",
+    "unknown": "Nežinau",
+    "next": "Toliau",
+    "check": "Tikrinti",
+    "continue": "Tęsti",
+    "close": "Uždaryti",
+    "delete": "Ištrinti",
+    "cancel": "Atšaukti",
+    "restore": "Grąžinti",
+    "restoreAll": "Ištrinti pažangą",
+    "extraOptions": "Papildomos parinktys",
+    "extraOptionsOpen": "Papildomos parinktys ▼",
+    "extraOptionsClose": "Papildomos parinktys ▲",
+    "weeklyReview": "Savaitės apžvalga",
+    "monthlyReview": "Mėnesio apžvalga",
+    "unwantedWords": "Nereikalingi žodžiai",
+    "knownWords": "Žinomi",
+    "knownWithCount": "Žinomi ({count})",
+    "markMastered": "100% žinau",
+    "shuffleVerbs": "Maišyti veiksmažodžius",
+    "restartSession": "🔄 Peržiūrėti sesiją iš naujo",
+    "markSessionLearned": "🏅 Pažymėti sesiją kaip išmoktą",
+    "chooseAnotherGroup": "Pasirinkti kitą grupę",
+    "listen": "Klausyti",
+    "listenPlural": "Klausyti daugiskaitos",
+    "listenWithWord": "Klausyti: {word}",
+    "autoplayOn": "Automatinis tarimas įjungtas",
+    "autoplayOff": "Automatinis tarimas išjungtas",
+    "autoplayLabel": "Automatinis tarimas",
+    "autoplayAriaOn": "{label} (automatiškai įjungta)",
+    "autoplayAriaOff": "{label} (automatiškai išjungta)",
+    "disableAutoplay": "Išjungti automatinį tarimą",
+    "enableAutoplay": "Įjungti automatinį tarimą",
+    "markUnwanted": "Pažymėti kaip nereikalingą",
+    "masteredWords": "100% žinomi"
   },
-  verb: {
-    infinitive: "Bendratis",
-    present: "Esamasis laikas",
-    imperfectIndicative: "Būtasis - Indikatyvas",
-    imperfectSubjunctive: "Būtasis - Subjunktyvas",
-    pastParticiple: "Būtojo laiko dalyvis",
-    infinitiv: "Infinitiv",
-    writeInfinitive: "Parašykite bendratį",
-    guessInfinitive: "Atspėkite bendratį",
-    writeImperfect: "Parašykite būtąjį laiką",
-    guessImperfect: "Atspėkite būtąjį laiką",
-    writePastParticiple: "Parašykite būtojo laiko dalyvį",
-    guessPastParticiple: "Atspėkite būtojo laiko dalyvį",
-    translationPrefix: "Vertimas:",
-    hintTapAnswer: "Spustelėkite kortelę, kad pamatytumėte atsakymą.",
-    hintTapSwitch: "Spustelėkite kortelę, kad pakeistumėte formą.",
-    hintSessionProgress: "{label}: {current} / {total}. {tap}",
-    noShuffleForms: "Šiam veiksmažodžiui nėra pakankamai formų maišymui."
+  "tools": {
+    "problemShort": "Probleminiai",
+    "problemFull": "Probleminiai žodžiai",
+    "problemWithCount": "Probleminiai žodžiai ({count})",
+    "spellingShort": "Rašyba",
+    "spellingFull": "Rašyba"
   },
-  notices: {
-    chooseNextGroup: "Pasirinkite kitą grupę pagrindiniame meniu.",
-    sessionReloaded: "Sesija įkelta iš naujo sumaišyta tvarka.",
-    sessionMovedToKnown: "Sesijos žodžiai perkelti į žinomus.",
-    verbShuffleOn: "Veiksmažodžių maišymas įjungtas.",
-    verbShuffleOff: "Veiksmažodžių maišymas išjungtas.",
-    spellingOn: "Rašybos režimas įjungtas.",
-    spellingOff: "Rašybos režimas išjungtas.",
-    showingKnown: "Rodome žinomas korteles.",
-    problemModeOff: "Probleminių žodžių režimas išjungtas.",
-    showingProblems: "Rodome probleminius žodžius.",
-    noProblems: "Nėra probleminių žodžių.",
-    errorLevelReduced: "Klaidų lygis sumažintas.",
-    movedToKnown: "Žodis perkeltas į žinomus!",
-    problemsFinishedMoved: "Probleminiai žodžiai išmokti. Žodis perkeltas į žinomus!",
-    lastSessionDone: "Paskutinės sesijos peržiūra baigta.",
-    continueLastSession: "Tęsiame paskutinės sesijos peržiūrą.",
-    knownReviewDone: "Žinomų žodžių peržiūra baigta.",
-    continueKnownReview: "Tęsiame žinomų žodžių peržiūrą.",
-    noVerbToMark: "Nėra veiksmažodžių, kuriuos pažymėti.",
-    verbMarkedKnown: "Veiksmažodis pažymėtas kaip žinomas.",
-    noCardToMark: "Nėra kortelių, kurias pažymėti.",
-    markedKnown: "Pažymėta kaip žinoma.",
-    noCard: "Nėra kortelės, kurią pažymėti.",
-    answerRevealed: "Atsakymas atskleistas. Žodis lieka sesijoje.",
-    returnedToStudy: "Grąžinta į mokymosi režimą.",
-    leftInProblems: "Palikta probleminėje grupėje.",
-    leftForReview: "Palikta peržiūrai.",
-    showingTimeReview: "Rodome: {label}.",
-    continueTimeReview: "Tęsiame: {label}.",
-    enterAnswerFirst: "Pirmiausia įveskite teisingą atsakymą ir paspauskite Tikrinti.",
-    noCardForMastered: "Nėra kortelės, kurią pridėti prie 100% žinomų.",
-    addedMastered: "Žodis pridėtas prie 100% žinomų.",
-    alreadyMastered: "Žodis jau yra 100% žinomų sąraše.",
-    noCardForUnwanted: "Nėra kortelės, kurią pažymėti kaip nereikalingą.",
-    markedUnwanted: "Žodis pažymėtas kaip nereikalingas.",
-    loadFailed: "Nepavyko įkelti kortelių. Perkraukite puslapį arba patikrinkite, ar visi duomenų failai pasiekiami.",
-    noCompletedSession: "Nėra užbaigtos sesijos peržiūrai.",
-    showingLastSession: "Rodome paskutinę užbaigtą sesiją.",
-    sessionArchivedNext: "Paskutinė sesija pažymėta kaip išmokta. Įkelta kita sesija.",
-    sessionArchived: "Paskutinė sesija pažymėta kaip išmokta."
+  "modes": {
+    "easy": "Lengvas",
+    "normal": "Normalus",
+    "intense": "Intensyvus"
   },
-  review: {
-    weekLabel: "Savaitės apžvalga",
-    weekEmpty: "Nėra išmoktų žodžių savaitės apžvalgai.",
-    weekDone: "Savaitės apžvalga baigta.",
-    weekCount: "Šią savaitę išmokta: {count} {words}",
-    monthLabel: "Mėnesio apžvalga",
-    monthEmpty: "Nėra išmoktų žodžių mėnesio apžvalgai.",
-    monthDone: "Mėnesio apžvalga baigta.",
-    monthCount: "Šį mėnesį išmokta: {count} {words}",
-    knownReviewDone: "Žinomų žodžių peržiūra baigta."
+  "direction": {
+    "deToNative": "🔄 DE ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
-  lists: {
-    noUnwanted: "Nėra nereikalingų žodžių.",
-    noLearned: "Nėra išmoktų žodžių.",
-    noMastered: "Nėra 100% žinomų žodžių."
+  "hints": {
+    "tapToReveal": "Bakstelėkite kortelę, kad pamatytumėte vertimą.",
+    "chooseNextStep": "Pasirinkite, ką daryti toliau.",
+    "chooseModeOrReturn": "Pasirinkite kitą režimą arba grįžkite vėliau peržiūrai.",
+    "trainingCard": "Pratimo kortelė {title}"
   },
-  restore: {
-    ariaLabel: "Patvirtinti viso progreso ištrynimą",
-    warning: "Dėmesio! Visas išmoktas progresas ir žodžių istorija bus visiškai ištrinta."
+  "card": {
+    "pluralLabel": "Dgsk.",
+    "spelling": "Rašyba",
+    "spellingVerbs": "Rašyba · Veiksmažodžiai",
+    "verbsShuffleTraining": "Veiksmažodžiai · Mišri treniruotė",
+    "answerPrefix": "Atsakymas:",
+    "sessionComplete": "Sesija baigta!",
+    "sessionLabel": "Sesija",
+    "lastSessionLabel": "Paskutinė sesija",
+    "problemLabel": "Probleminiai",
+    "levelCompleteTitle": "Puiku! {label} lygis baigtas! 🎉",
+    "levelCompleteDesc": "Įvaldėte visus šios grupės žodžius. Laikas žengti kitą žingsnį!",
+    "noActiveWords": "Šioje grupėje nėra aktyvių žodžių.",
+    "noCardsInSession": "Šioje sesijoje nėra kortelių.",
+    "cardNotFound": "Kortelė nerasta"
   },
-  info: {
-    title: "Kaip tai veikia?",
-    directionTitle: "Vertimo kryptis",
-    directionBody: "Paspauskite, kad perjungtumėte tarp <strong>DE→{code}</strong> ir <strong>{code}→DE</strong>.",
-    problemTitle: "Probleminiai žodžiai",
-    problemBody: "Paspauskite <strong>Probl.</strong>, kad mokytumėtės žodžių, kuriuose klydote. Įprastame režime «Nežinau» prideda žodį čia; čia «Žinau teisingai» sumažina klaidų lygį.",
-    spellingTitle: "Rašyba",
-    spellingBody: "Paspauskite <strong>Raš.</strong>, kad prieš atsakymą reikėtų ranka įvesti žodį.",
-    intensityTitle: "Sesijos intensyvumas",
-    intensityBody: "Pasirinkite, kiek žodžių mokytis vienoje sesijoje: <strong>Lengvas · 10</strong>, <strong>Normalus · 20</strong> arba <strong>Intensyvus · 30</strong>.",
-    listeningTitle: "Klausymas",
-    listeningBody: "Paspauskite garsiakalbio piktogramą kortelėje, kad išklausytumėte tarimą.",
-    unwantedTitle: "Nereikalingi žodžiai",
-    unwantedBody: "Paspauskite perbrauktą akį kortelės kampe — žodis dings iš srauto. Grąžinti galite Papildomose parinktyse.",
-    answersTitle: "Atsakymai",
-    answersBody: "<strong>Žinau teisingai</strong> — žinote atsakymą. <strong>Nežinau</strong> — padeda prisiminti ir prideda prie probleminių. <strong>Kitas žodis</strong> — praleidžia be vertinimo.",
-    extraTitle: "Papildomos parinktys",
-    extraBody: "Atidarykite <strong>Papildomas parinktis</strong>, kad peržiūrėtumėte savaitės ir mėnesio apžvalgą, žinomus žodžius ir grąžintumėte paslėptus."
+  "verb": {
+    "infinitive": "Infinitiv",
+    "present": "Präsens",
+    "imperfectIndicative": "Präteritum",
+    "imperfectSubjunctive": "Konjunktiv II",
+    "pastParticiple": "Partizip II",
+    "infinitiv": "Bendratis",
+    "writeInfinitive": "Parašykite bendratį",
+    "guessInfinitive": "Atspėkite bendratį",
+    "writeImperfect": "Parašykite Präteritum formą",
+    "guessImperfect": "Atspėkite Präteritum formą",
+    "writePastParticiple": "Parašykite Partizip II formą",
+    "guessPastParticiple": "Atspėkite Partizip II formą",
+    "translationPrefix": "Vertimas:",
+    "hintTapAnswer": "Bakstelėkite kortelę, kad pamatytumėte atsakymą.",
+    "hintTapSwitch": "Bakstelėkite kortelę, kad pakeistumėte formą.",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
+    "noShuffleForms": "Šis veiksmažodis neturi pakankamai formų maišymui."
   },
-  extra: { wordManagement: "Žodžių valdymas", statistics: "Statistika", settings: "Nustatymai" },
-  settings: { appLanguage: "Programos kalba" },
-  kurss: {
-    panelLabel: "Kursas",
-    title: "Kursas",
-    subtitle: "Vokiečių kalbos pagrindai žingsnis po žingsnio",
-    back: "‹ Kursas",
-    closeCourse: "Uždaryti kursą",
-    backToMain: "Grįžti į pagrindinį ekraną",
-    tipTitle: "Patarimas",
-    tipBody: "Klausykite, kartokite ir lyginkite. Jūsų klausa yra geriausias mokytojas!",
-    pronunciation: "Tarimas",
-    pronunciationDesc: "Vokiečių kalbos garsų ir tarimo pagrindai.",
-    articles: "Artikeliai",
-    articlesDesc: "Der, die, das ir naudojimo pagrindai.",
-    pronouns: "Įvardžiai",
-    pronounsDesc: "Nominativ, Akkusativ ir Dativ formos.",
-    lessons: "Pamokos",
-    lessonsDesc: "Mokomosios pamokos iš eilės nuo 1 iki 21.",
-    verbBasics: "Veiksmažodžių pagrindai",
-    verbBasicsDesc: "Asmenys, formos ir dažniausi veiksmažodžiai.",
-    sentenceStructure: "Sakinio struktūra",
-    sentenceStructureDesc: "Paprasta žodžių tvarka vokiečių sakiniuose.",
-    articlesSubtitle: "Der, die, das ir naudojimo pagrindai.",
-    pronounsSubtitle: "Nominativ, Akkusativ ir Dativ — įvardžių formos.",
-    pronunciationSubtitle: "Vokiečių kalbos garsų ir tarimo pagrindai",
-    vowelsSubtitle: "Balsės — ilgos ir trumpos",
-    consonantsSubtitle: "Priebalsės ir raidžių junginiai",
-    lessonsSubtitle: "Mokomosios pamokos iš eilės nuo 1 iki 21.",
-    vowelsTitle: "Balsės — ilgos ir trumpos",
-    vowelsDesc: "Ilgos ir trumpos balsės su pavyzdžiais.",
-    consonantsTitle: "Priebalsės ir raidžių junginiai",
-    consonantsDesc: "Svarbiausi priebalsių garsai pradedantiesiems.",
-    lessonProgress: "Pamoka {lesson} · Versti: {current} / {total}",
-    exerciseProgress: "Pamoka {lesson} · Pratimas",
-    sections: {
-      grammar: "Gramatika",
-      exercise: "Pratimas",
-      translate: "Versti",
-      exerciseCombined: "Übung / Pratimas"
+  "notices": {
+    "chooseNextGroup": "Pasirinkite kitą grupę pagrindiniame meniu.",
+    "sessionReloaded": "Sesija įkelta iš naujo sumaišyta tvarka.",
+    "sessionMovedToKnown": "Sesijos žodžiai perkelti į žinomus.",
+    "verbShuffleOn": "Veiksmažodžių maišymas įjungtas.",
+    "verbShuffleOff": "Veiksmažodžių maišymas išjungtas.",
+    "spellingOn": "Rašybos režimas įjungtas.",
+    "spellingOff": "Rašybos režimas išjungtas.",
+    "showingKnown": "Rodome žinomas korteles.",
+    "problemModeOff": "Probleminių žodžių režimas išjungtas.",
+    "showingProblems": "Rodome probleminius žodžius.",
+    "noProblems": "Nėra probleminių žodžių.",
+    "errorLevelReduced": "Klaidų lygis sumažintas.",
+    "movedToKnown": "Žodis perkeltas į žinomus!",
+    "problemsFinishedMoved": "Probleminiai žodžiai išmokti. Žodis perkeltas į žinomus!",
+    "lastSessionDone": "Paskutinės sesijos peržiūra baigta.",
+    "continueLastSession": "Tęsiame paskutinės sesijos peržiūrą.",
+    "knownReviewDone": "Žinomų žodžių peržiūra baigta.",
+    "continueKnownReview": "Tęsiame žinomų žodžių peržiūrą.",
+    "noVerbToMark": "Nėra veiksmažodžių, kuriuos būtų galima pažymėti.",
+    "verbMarkedKnown": "Veiksmažodis pažymėtas kaip žinomas.",
+    "noCardToMark": "Nėra kortelių, kurias pažymėti.",
+    "markedKnown": "Pažymėta kaip žinoma.",
+    "noCard": "Nėra kortelės, kurią pažymėti.",
+    "answerRevealed": "Atsakymas atskleistas. Žodis lieka sesijoje.",
+    "returnedToStudy": "Grąžinta į mokymosi režimą.",
+    "leftInProblems": "Palikta probleminėje grupėje.",
+    "leftForReview": "Palikta peržiūrai.",
+    "showingTimeReview": "Rodome: {label}.",
+    "continueTimeReview": "Tęsiame: {label}.",
+    "enterAnswerFirst": "Pirmiausia įrašykite teisingą atsakymą ir bakstelėkite „Tikrinti“.",
+    "noCardForMastered": "Nėra kortelės, kurią pridėti prie 100% žinomų.",
+    "addedMastered": "Žodis pridėtas prie 100% žinomų.",
+    "alreadyMastered": "Žodis jau yra 100% žinomų sąraše.",
+    "noCardForUnwanted": "Nėra kortelės, kurią pažymėti kaip nereikalingą.",
+    "markedUnwanted": "Žodis pažymėtas kaip nereikalingas.",
+    "loadFailed": "Nepavyko įkelti kortelių. Perkraukite puslapį arba patikrinkite, ar visi duomenų failai pasiekiami.",
+    "noCompletedSession": "Nėra užbaigtos sesijos peržiūrai.",
+    "showingLastSession": "Rodome paskutinę užbaigtą sesiją.",
+    "sessionArchivedNext": "Paskutinė sesija pažymėta kaip išmokta. Įkelta kita sesija.",
+    "sessionArchived": "Paskutinė sesija pažymėta kaip išmokta."
+  },
+  "review": {
+    "weekLabel": "Savaitės apžvalga",
+    "weekEmpty": "Nėra išmoktų žodžių savaitės apžvalgai.",
+    "weekDone": "Savaitės apžvalga baigta.",
+    "weekCount": "Šią savaitę išmokti žodžiai: {count}",
+    "monthLabel": "Mėnesio apžvalga",
+    "monthEmpty": "Nėra išmoktų žodžių mėnesio apžvalgai.",
+    "monthDone": "Mėnesio apžvalga baigta.",
+    "monthCount": "Šį mėnesį išmokti žodžiai: {count}",
+    "knownReviewDone": "Žinomų žodžių peržiūra baigta."
+  },
+  "lists": {
+    "noUnwanted": "Nėra nereikalingų žodžių.",
+    "noLearned": "Nėra išmoktų žodžių.",
+    "noMastered": "Nėra 100% žinomų žodžių."
+  },
+  "restore": {
+    "ariaLabel": "Patvirtinti viso progreso ištrynimą",
+    "warning": "Dėmesio! Visa mokymosi pažanga ir žodžių istorija bus ištrinta negrįžtamai."
+  },
+  "info": {
+    "title": "Kaip tai veikia?",
+    "directionTitle": "Vertimo kryptis",
+    "directionBody": "Bakstelėkite, kad perjungtumėte tarp <strong>DE→{code}</strong> ir <strong>{code}→DE</strong>.",
+    "problemTitle": "Probleminiai žodžiai",
+    "problemBody": "Bakstelėkite <strong>Probleminiai</strong>, kad mokytumėtės žodžių, kuriuose klydote. „Nežinau“ prideda žodį į šį sąrašą; šiame režime „Žinau teisingai“ sumažina jo klaidų lygį.",
+    "spellingTitle": "Rašyba",
+    "spellingBody": "Bakstelėkite <strong>Rašyba</strong>, kad prieš atsakymą žodį įrašytumėte patys.",
+    "intensityTitle": "Sesijos intensyvumas",
+    "intensityBody": "Pasirinkite, kiek žodžių mokytis per vieną sesiją: <strong>Lengvas · 10</strong>, <strong>Normalus · 20</strong> arba <strong>Intensyvus · 30</strong>.",
+    "listeningTitle": "Klausymas",
+    "listeningBody": "Bakstelėkite garsiakalbio piktogramą kortelėje, kad išgirstumėte tarimą.",
+    "unwantedTitle": "Nereikalingi žodžiai",
+    "unwantedBody": "Bakstelėkite perbrauktą akį kortelės kampe — žodis dings iš sesijos. Grąžinti jį galite skiltyje „Papildomos parinktys“.",
+    "answersTitle": "Atsakymai",
+    "answersBody": "<strong>Žinau teisingai</strong> — žinote atsakymą. <strong>Nežinau</strong> — padeda įsiminti ir prideda žodį prie probleminių. <strong>Toliau</strong> — praleidžia be vertinimo.",
+    "extraTitle": "Papildomos parinktys",
+    "extraBody": "Atidarykite <strong>Papildomos parinktys</strong>, kad pamatytumėte savaitės ir mėnesio apžvalgą, žinomus žodžius ir grąžintumėte paslėptus žodžius."
+  },
+  "extra": {
+    "wordManagement": "Žodžių valdymas",
+    "statistics": "Statistika",
+    "settings": "Nustatymai"
+  },
+  "settings": {
+    "appLanguage": "Programos kalba"
+  },
+  "kurss": {
+    "panelLabel": "Kursas",
+    "title": "Kursas",
+    "subtitle": "Vokiečių kalbos pagrindai žingsnis po žingsnio",
+    "back": "‹ Kursas",
+    "closeCourse": "Uždaryti kursą",
+    "backToMain": "Grįžti į pagrindinį ekraną",
+    "tipTitle": "Patarimas",
+    "tipBody": "Klausykite, kartokite ir lyginkite. Jūsų ausis – geriausias mokytojas!",
+    "pronunciation": "Tarimas",
+    "pronunciationDesc": "Vokiečių kalbos garsų ir tarimo pagrindai.",
+    "articles": "Artikeliai",
+    "articlesDesc": "Der, die, das ir jų vartojimo pagrindai.",
+    "pronouns": "Įvardžiai",
+    "pronounsDesc": "Nominativ, Akkusativ ir Dativ formos.",
+    "lessons": "Pamokos",
+    "lessonsDesc": "Pamokos iš eilės nuo 1 iki 21.",
+    "verbBasics": "Veiksmažodžių pagrindai",
+    "verbBasicsDesc": "Asmenys, formos ir dažniausi veiksmažodžiai.",
+    "sentenceStructure": "Sakinio sandara",
+    "sentenceStructureDesc": "Paprasta žodžių tvarka vokiečių sakiniuose.",
+    "articlesSubtitle": "Der, die, das ir jų vartojimo pagrindai.",
+    "pronounsSubtitle": "Nominativ, Akkusativ ir Dativ — įvardžių formos.",
+    "pronunciationSubtitle": "Vokiečių kalbos garsų ir tarimo pagrindai",
+    "vowelsSubtitle": "Balsės — ilgos ir trumpos",
+    "consonantsSubtitle": "Priebalsės ir raidžių junginiai",
+    "lessonsSubtitle": "Pamokos iš eilės nuo 1 iki 21.",
+    "vowelsTitle": "Balsės — ilgos ir trumpos",
+    "vowelsDesc": "Ilgos ir trumpos balsės su pavyzdžiais.",
+    "consonantsTitle": "Priebalsės ir raidžių junginiai",
+    "consonantsDesc": "Svarbiausi priebalsių garsai pradedantiesiems.",
+    "lessonProgress": "Pamoka {lesson} · Versti: {current} / {total}",
+    "exerciseProgress": "Pamoka {lesson} · Pratimas",
+    "sections": {
+      "grammar": "Gramatika",
+      "exercise": "Pratimas",
+      "translate": "Versti",
+      "exerciseCombined": "Übung / Pratimas",
+      "dialogues": "Dialogai / sakiniai",
+      "words": "Žodžiai",
+      "names": "Vardai",
+      "reading": "Tekstas / skaitymas"
     },
-    hints: {
-      tapToRevealAnswer: "Palieskite kortelę, kad pamatytumėte atsakymą.",
-      tapToContinue: "Palieskite kortelę, kad tęstumėte.",
-      tapToRevealGerman: "Palieskite kortelę, kad pamatytumėte vokišką vertimą.",
-      tapNextStep: "Palieskite kortelę, kad pereitumėte prie kito žingsnio.",
-      exerciseCardAria: "{title} pratimo kortelė"
+    "hints": {
+      "tapToRevealAnswer": "Palieskite kortelę, kad pamatytumėte atsakymą.",
+      "tapToContinue": "Palieskite kortelę, kad tęstumėte.",
+      "tapToRevealGerman": "Palieskite kortelę, kad pamatytumėte vokišką vertimą.",
+      "tapNextStep": "Palieskite kortelę, kad pereitumėte prie kito žingsnio.",
+      "exerciseCardAria": "{title} pratimo kortelė"
     },
-    cta: {
-      tapNextCard: "Palieskite kitą kortelę",
-      tapToRevealAnswer: "Palieskite, kad pamatytumėte atsakymą",
-      tapContinue: "Palieskite tęsti",
-      transformSentence: "Perrašykite sakinį.",
-      transformThirdSingular: "Perrašykite sakinį 3-ojo asmens vienaskaita.",
-      transformFirstPlural: "Perrašykite sakinį 1-ojo asmens daugiskaita."
+    "cta": {
+      "tapNextCard": "Palieskite kitą kortelę",
+      "tapToRevealAnswer": "Palieskite, kad pamatytumėte atsakymą",
+      "tapContinue": "Palieskite tęsti",
+      "transformSentence": "Perrašykite sakinį.",
+      "transformThirdSingular": "Perrašykite sakinį 3-ojo asmens vienaskaita.",
+      "transformFirstPlural": "Perrašykite sakinį 1-ojo asmens daugiskaita."
     },
-    exerciseMeta: {
-      fillCase: "Übung I — naudokite tinkamą linksnį",
-      chooseCasePlural: "Pasirinkite tinkamą linksnį ir sudarykite daugiskaitą!",
-      answerPlural: "Dabar atsakykite daugiskaita.",
-      translate: "Übung II — verskite",
-      formDu: "Forma 1/3: tu (vienaskaita)",
-      formIhr: "Forma 2/3: jūs (daugiskaita)",
-      formSie: "Forma 3/3: Sie (mandagumo forma)"
+    "exerciseMeta": {
+      "fillCase": "Übung I — naudokite tinkamą linksnį",
+      "chooseCasePlural": "Pasirinkite tinkamą linksnį ir sudarykite daugiskaitą!",
+      "answerPlural": "Dabar atsakykite daugiskaita.",
+      "translate": "Übung II — verskite",
+      "formDu": "Forma 1/3: tu (vienaskaita)",
+      "formIhr": "Forma 2/3: jūs (daugiskaita)",
+      "formSie": "Forma 3/3: Sie (mandagumo forma)"
     },
-    lessonItems: {
-      "1": { title: "Pamoka 1", menuDesc: "Veiksmažodžiai esamuoju laiku, žodžiai, gramatika ir pratimas." },
-      "2": { title: "Pamoka 2", menuDesc: "Dialogai, žodžiai, tarimas, gramatika ir vertimas." },
-      "3": { title: "Pamoka 3", menuDesc: "Dialogai, žodžiai, tarimas, gramatika ir vertimas." },
-      "4": { title: "Pamoka 4", menuDesc: "Galininkas, nehmen, hinlegen, hinausgehen ir būdvardžiai." },
-      "5": { title: "Pamoka 5", menuDesc: "Wen?, galininkas, sitzen, fragen ir -in galūnė." },
-      "6": { title: "Pamoka 6", menuDesc: "Skaičiai, daugiskaita, umlautai ir daiktavardžių daugiskaitos formos." },
-      "7": { title: "Pamoka 7", menuDesc: "Liepiamoji nuosaka, mandagumo forma ir daugiskaita." },
-      "8": { title: "Pamoka 8", menuDesc: "Refleksyvūs veiksmažodžiai, e → i/ie kaita ir galininkas." },
-      "9": { title: "Pamoka 9", menuDesc: "Keli daiktai, dieser/jener, vienaskaita ir daugiskaita." },
-      "10": { title: "Pamoka 10", menuDesc: "Sein, können, sveikata, amžius ir profesijos." },
-      "11": { title: "Pamoka 11", menuDesc: "Haben, kein/keine/keinen, priklausomybė ir sudėtiniai daiktavardžiai." },
-      "12": { title: "Pamoka 12", menuDesc: "Palyginamieji laipsniai, als/wie, amžius ir spalvos." },
-      "13": { title: "Pamoka 13", menuDesc: "Der Körper, kūno dalys, turnen ir jeder." },
-      "14": { title: "Pamoka 14", menuDesc: "müssen, wollen, mögen ir modaliniai veiksmažodžiai." },
-      "15": { title: "Pamoka 15", menuDesc: "sollen, dürfen, essen ir vaisiai." },
-      "16": { title: "Pamoka 16", menuDesc: "Naudininkas, geben, sich nähern." },
-      "17": { title: "Pamoka 17", menuDesc: "mit + Dativ, womit / mit wem ir Umlaut." },
-      "18": { title: "Pamoka 18", menuDesc: "wohin / wo, Akkusativ arba Dativ su an / in / auf." },
-      "19": { title: "Pamoka 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
-      "20": { title: "Pamoka 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ ir sudėtiniai daiktavardžiai." },
-      "21": { title: "Pamoka 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    "lessonItems": {
+      "1": {
+        "title": "Pamoka 1",
+        "menuDesc": "Veiksmažodžiai esamuoju laiku, žodžiai, gramatika ir pratimas."
+      },
+      "2": {
+        "title": "Pamoka 2",
+        "menuDesc": "Dialogai, žodžiai, tarimas, gramatika ir vertimas."
+      },
+      "3": {
+        "title": "Pamoka 3",
+        "menuDesc": "Dialogai, žodžiai, tarimas, gramatika ir vertimas."
+      },
+      "4": {
+        "title": "Pamoka 4",
+        "menuDesc": "Galininkas, nehmen, hinlegen, hinausgehen ir būdvardžiai."
+      },
+      "5": {
+        "title": "Pamoka 5",
+        "menuDesc": "Wen?, galininkas, sitzen, fragen ir -in galūnė."
+      },
+      "6": {
+        "title": "Pamoka 6",
+        "menuDesc": "Skaičiai, daugiskaita, umlautai ir daiktavardžių daugiskaitos formos."
+      },
+      "7": {
+        "title": "Pamoka 7",
+        "menuDesc": "Liepiamoji nuosaka, mandagumo forma ir daugiskaita."
+      },
+      "8": {
+        "title": "Pamoka 8",
+        "menuDesc": "Refleksyvūs veiksmažodžiai, e → i/ie kaita ir galininkas."
+      },
+      "9": {
+        "title": "Pamoka 9",
+        "menuDesc": "Keli daiktai, dieser/jener, vienaskaita ir daugiskaita."
+      },
+      "10": {
+        "title": "Pamoka 10",
+        "menuDesc": "Sein, können, sveikata, amžius ir profesijos."
+      },
+      "11": {
+        "title": "Pamoka 11",
+        "menuDesc": "Haben, kein/keine/keinen, priklausomybė ir sudėtiniai daiktavardžiai."
+      },
+      "12": {
+        "title": "Pamoka 12",
+        "menuDesc": "Palyginamieji laipsniai, als/wie, amžius ir spalvos."
+      },
+      "13": {
+        "title": "Pamoka 13",
+        "menuDesc": "Der Körper, kūno dalys, turnen ir jeder."
+      },
+      "14": {
+        "title": "Pamoka 14",
+        "menuDesc": "müssen, wollen, mögen ir modaliniai veiksmažodžiai."
+      },
+      "15": {
+        "title": "Pamoka 15",
+        "menuDesc": "sollen, dürfen, essen ir vaisiai."
+      },
+      "16": {
+        "title": "Pamoka 16",
+        "menuDesc": "Naudininkas, geben, sich nähern."
+      },
+      "17": {
+        "title": "Pamoka 17",
+        "menuDesc": "mit + Dativ, womit / mit wem ir Umlaut."
+      },
+      "18": {
+        "title": "Pamoka 18",
+        "menuDesc": "wohin / wo, Akkusativ arba Dativ su an / in / auf."
+      },
+      "19": {
+        "title": "Pamoka 19",
+        "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
+      },
+      "20": {
+        "title": "Pamoka 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ir sudėtiniai daiktavardžiai."
+      },
+      "21": {
+        "title": "Pamoka 21",
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
+      }
     }
   },
-  plural: { wordOne: "žodis", wordsFew: "žodžiai", wordsMany: "žodžių" },
-  spelling: {
-    writeNative: "Rašykite lietuviškai",
-    writeGerman: "Rašykite vokiškai",
-    correct: "Teisingai!",
-    incorrect: "Neteisingai",
-    expectedLabel: "Teisingai:",
-    noVerbTask: "Šiam veiksmažodžiui nėra rašybos užduoties.",
-    writeAnswer: "Įrašykite atsakymą",
-    missingChar: "trūksta: {char}"
+  "plural": {
+    "wordOne": "žodis",
+    "wordsFew": "žodžiai",
+    "wordsMany": "žodžių"
   },
-  progress: { verbsHeading: "Veiksmažodžiai", courseHeading: "Kursas" },
-  study: {
-    hints: {
-      tapToOpenExplanation: "Spustelėkite kortelę, kad atidarytumėte paaiškinimą.",
-      tapToRevealGerman: "Spustelėkite kortelę, kad pamatytumėte vokišką žodį."
+  "spelling": {
+    "writeNative": "Rašykite lietuviškai",
+    "writeGerman": "Rašykite vokiškai",
+    "correct": "Teisingai!",
+    "incorrect": "Neteisingai",
+    "expectedLabel": "Teisingai:",
+    "noVerbTask": "Šiam veiksmažodžiui nėra rašybos užduoties.",
+    "writeAnswer": "Įrašykite atsakymą",
+    "missingChar": "trūksta: {char}"
+  },
+  "progress": {
+    "verbsHeading": "Veiksmažodžiai",
+    "courseHeading": "Kursas"
+  },
+  "study": {
+    "hints": {
+      "tapToOpenExplanation": "Spustelėkite kortelę, kad atidarytumėte paaiškinimą.",
+      "tapToRevealGerman": "Spustelėkite kortelę, kad pamatytumėte vokišką žodį."
     },
-    sections: {
-      mainIdea: "Pagrindinė mintis",
-      explanation: "Paaiškinimas",
-      examples: "Pavyzdžiai",
-      comparison: "Palyginimas",
-      tip: "Patarimas",
-      important: "Svarbu",
-      mistakes: "Tipinės klaidos",
-      remember: "Prisimink",
-      comparisonFocus: "Svarbus palyginimas",
-      comparisonBadge: "PALYGINIMO KORTELĖ"
+    "sections": {
+      "mainIdea": "Pagrindinė mintis",
+      "explanation": "Paaiškinimas",
+      "examples": "Pavyzdžiai",
+      "comparison": "Palyginimas",
+      "tip": "Patarimas",
+      "important": "Svarbu",
+      "mistakes": "Tipinės klaidos",
+      "remember": "Prisimink",
+      "comparisonFocus": "Svarbus palyginimas",
+      "comparisonBadge": "PALYGINIMO KORTELĖ"
     },
-    table: {
-      word: "Žodis",
-      meaning: "Reikšmė",
-      example: "Pavyzdys",
-      native: "LT",
-      german: "DE",
-      mainMeaning: "Pagrindinė reikšmė",
-      describes: "Aprašo",
-      translation: "Vertimas"
+    "table": {
+      "word": "Žodis",
+      "meaning": "Reikšmė",
+      "example": "Pavyzdys",
+      "native": "LT",
+      "german": "DE",
+      "mainMeaning": "Pagrindinė reikšmė",
+      "describes": "Aprašo",
+      "translation": "Vertimas"
     },
-    minimal: {
-      tipLabel: "Patarimas:",
-      pluralLabel: "DAUGSK.",
-      formsLabel: "Formos:",
-      noteLabel: "Pastaba:"
+    "minimal": {
+      "tipLabel": "Patarimas:",
+      "pluralLabel": "DAUGSK.",
+      "formsLabel": "Formos:",
+      "noteLabel": "Pastaba:"
     }
   }
 };

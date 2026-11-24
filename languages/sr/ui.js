@@ -2,11 +2,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "sr",
   "splash": {
     "title": "Nemački",
-    "subtitle": "Uči nemački"
+    "subtitle": "Uči nemački",
+    "ariaLabel": "Učitavanje"
   },
   "languageSelect": {
     "title": "Izaberite jezik",
-    "footer": "Uči nemački"
+    "footer": "Uči nemački",
+    "ariaLabel": "Izbor jezika"
   },
   "app": {
     "title": "Nemački • SR-DE",
@@ -18,7 +20,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Kurs",
     "sentences": "Rečenice",
     "verbs": "Glagoli",
-    "chooseGroup": "Izaberite grupu"
+    "chooseGroup": "Izaberite grupu",
+    "learningModes": "Načini učenja"
   },
   "groups": {
     "sentences": "Rečenice"
@@ -32,14 +35,14 @@ window.LANGUAGE_UI_STRINGS = {
   "buttons": {
     "known": "Znam",
     "unknown": "Ne znam",
-    "next": "Sledeća reč",
+    "next": "Dalje",
     "check": "Proveri",
     "continue": "Nastavi",
     "close": "Zatvori",
     "delete": "Obriši",
     "cancel": "Otkaži",
     "restore": "Vrati",
-    "restoreAll": "Vrati sve",
+    "restoreAll": "Obriši napredak",
     "extraOptions": "Dodatne opcije",
     "extraOptionsOpen": "Dodatne opcije ▼",
     "extraOptionsClose": "Dodatne opcije ▲",
@@ -67,10 +70,10 @@ window.LANGUAGE_UI_STRINGS = {
     "masteredWords": "100% poznate"
   },
   "tools": {
-    "problemShort": "Probl.",
+    "problemShort": "Problematične",
     "problemFull": "Problematične reči",
     "problemWithCount": "Problematične reči ({count})",
-    "spellingShort": "Pis.",
+    "spellingShort": "Pravopis",
     "spellingFull": "Pravopis"
   },
   "modes": {
@@ -83,7 +86,7 @@ window.LANGUAGE_UI_STRINGS = {
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
-    "tapToReveal": "Kliknite na karticu da vidite prevod.",
+    "tapToReveal": "Dodirnite karticu da vidite prevod.",
     "chooseNextStep": "Izaberite šta ćete dalje.",
     "chooseModeOrReturn": "Izaberite drugi režim ili se vratite kasnije radi ponavljanja.",
     "trainingCard": "Kartica za vežbu: {title}"
@@ -106,20 +109,20 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "verb": {
     "infinitive": "Infinitiv",
-    "present": "Prezent",
-    "imperfectIndicative": "Preterit – indikativ",
-    "imperfectSubjunctive": "Preterit – konjunktiv",
-    "pastParticiple": "Particip perfekta",
+    "present": "Präsens",
+    "imperfectIndicative": "Präteritum",
+    "imperfectSubjunctive": "Konjunktiv II",
+    "pastParticiple": "Partizip II",
     "infinitiv": "Infinitiv",
-    "writeInfinitive": "Napiši infinitiv",
-    "guessInfinitive": "Pogodi infinitiv",
-    "writeImperfect": "Napiši preterit",
-    "guessImperfect": "Pogodi preterit",
-    "writePastParticiple": "Napiši particip perfekta",
-    "guessPastParticiple": "Pogodi particip perfekta",
+    "writeInfinitive": "Napišite infinitiv",
+    "guessInfinitive": "Pogodite infinitiv",
+    "writeImperfect": "Napišite oblik Präteritum",
+    "guessImperfect": "Pogodite oblik Präteritum",
+    "writePastParticiple": "Napišite oblik Partizip II",
+    "guessPastParticiple": "Pogodite oblik Partizip II",
     "translationPrefix": "Prevod:",
-    "hintTapAnswer": "Kliknite na karticu da vidite odgovor.",
-    "hintTapSwitch": "Kliknite na karticu da promenite oblik.",
+    "hintTapAnswer": "Dodirnite karticu da vidite odgovor.",
+    "hintTapSwitch": "Dodirnite karticu da promenite oblik.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Ovaj glagol nema dovoljno oblika za mešanje."
   },
@@ -153,7 +156,7 @@ window.LANGUAGE_UI_STRINGS = {
     "leftForReview": "Ostavljeno za ponavljanje.",
     "showingTimeReview": "Prikazujemo: {label}.",
     "continueTimeReview": "Nastavljamo: {label}.",
-    "enterAnswerFirst": "Najpre unesite tačan odgovor i pritisnite Proveri.",
+    "enterAnswerFirst": "Prvo upišite tačan odgovor i dodirnite „Proveri“.",
     "noCardForMastered": "Nema kartice za dodavanje u 100% poznate.",
     "addedMastered": "Reč je dodata u 100% poznate.",
     "alreadyMastered": "Reč je već na spisku 100% poznatih.",
@@ -169,11 +172,11 @@ window.LANGUAGE_UI_STRINGS = {
     "weekLabel": "Nedeljni pregled",
     "weekEmpty": "Nema naučenih reči za nedeljni pregled.",
     "weekDone": "Nedeljni pregled je završen.",
-    "weekCount": "Naučeno ove nedelje: {count} {words}",
+    "weekCount": "Reči naučene ove nedelje: {count}",
     "monthLabel": "Mesečni pregled",
     "monthEmpty": "Nema naučenih reči za mesečni pregled.",
     "monthDone": "Mesečni pregled je završen.",
-    "monthCount": "Naučeno ovog meseca: {count} {words}",
+    "monthCount": "Reči naučene ovog meseca: {count}",
     "knownReviewDone": "Ponavljanje poznatih reči je završeno."
   },
   "lists": {
@@ -183,26 +186,26 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "restore": {
     "ariaLabel": "Potvrdite brisanje celokupnog napretka",
-    "warning": "Pažnja! Celokupan napredak u učenju i istorija reči biće potpuno obrisani."
+    "warning": "Pažnja! Celokupan napredak u učenju i istorija reči biće trajno obrisani."
   },
   "info": {
     "title": "Kako ovo funkcioniše?",
     "directionTitle": "Smer prevoda",
-    "directionBody": "Pritisnite da biste prebacili između <strong>DE→{code}</strong> i <strong>{code}→DE</strong>.",
+    "directionBody": "Dodirnite za prebacivanje između <strong>DE→{code}</strong> i <strong>{code}→DE</strong>.",
     "problemTitle": "Problematične reči",
-    "problemBody": "Pritisnite <strong>Probl.</strong> da biste vežbali reči u kojima ste grešili. U običnom toku «Ne znam» dodaje reč ovde; ovde «Znam» smanjuje nivo grešaka.",
+    "problemBody": "Dodirnite <strong>Problematične</strong> da biste vežbali reči u kojima ste grešili. „Ne znam“ dodaje reč na ovu listu; u ovom režimu „Znam“ smanjuje njen nivo grešaka.",
     "spellingTitle": "Pravopis",
-    "spellingBody": "Pritisnite <strong>Pis.</strong> ako želite da pre odgovora ručno upišete reč.",
+    "spellingBody": "Dodirnite <strong>Pravopis</strong> da biste sami upisali reč pre prikaza odgovora.",
     "intensityTitle": "Intenzitet sesije",
-    "intensityBody": "Izaberite koliko reči želite da učite u jednoj sesiji: <strong>Lako · 10</strong>, <strong>Normalno · 20</strong> ili <strong>Intenzivno · 30</strong>.",
+    "intensityBody": "Izaberite koliko reči da učite u jednoj sesiji: <strong>Lako · 10</strong>, <strong>Normalno · 20</strong> ili <strong>Intenzivno · 30</strong>.",
     "listeningTitle": "Slušanje",
-    "listeningBody": "Pritisnite ikonu zvučnika na kartici da biste čuli izgovor.",
+    "listeningBody": "Dodirnite ikonu zvučnika na kartici da biste čuli izgovor.",
     "unwantedTitle": "Nepotrebne reči",
-    "unwantedBody": "Pritisnite precrtano oko u uglu kartice – reč će nestati iz toka. Možete je vratiti u odeljku Dodatne opcije.",
+    "unwantedBody": "Dodirnite precrtano oko u uglu kartice i reč nestaje iz sesije. Možete je vratiti u „Dodatne opcije“.",
     "answersTitle": "Odgovori",
-    "answersBody": "<strong>Znam</strong> – znate odgovor. <strong>Ne znam</strong> – pomaže vam da zapamtite i dodaje reč među problematične. <strong>Sledeća reč</strong> – preskače bez ocene.",
+    "answersBody": "<strong>Znam</strong> — znate odgovor. <strong>Ne znam</strong> — pomaže da zapamtite i dodaje reč među problematične. <strong>Dalje</strong> — preskače bez ocene.",
     "extraTitle": "Dodatne opcije",
-    "extraBody": "Otvorite <strong>Dodatne opcije</strong> da biste videli nedeljni i mesečni pregled, poznate reči i vratili sakrivene."
+    "extraBody": "Otvorite <strong>Dodatne opcije</strong> da biste videli nedeljni i mesečni pregled, poznate reči i vratili sakrivene reči."
   },
   "extra": {
     "wordManagement": "Upravljanje rečima",
@@ -218,7 +221,7 @@ window.LANGUAGE_UI_STRINGS = {
     "subtitle": "Osnove nemačkog jezika korak po korak",
     "back": "‹ Kurs",
     "closeCourse": "Zatvori kurs",
-    "backToMain": "Povratak na početni ekran",
+    "backToMain": "Povratak na glavni ekran",
     "tipTitle": "Savet",
     "tipBody": "Slušaj, ponavljaj i upoređuj. Tvoje uho je najbolji učitelj!",
     "pronunciation": "Izgovor",
@@ -231,15 +234,15 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonsDesc": "Lekcije redom od 1 do 21.",
     "verbBasics": "Osnove glagola",
     "verbBasicsDesc": "Lica, oblici i najčešći glagoli.",
-    "sentenceStructure": "Struktura rečenice",
-    "sentenceStructureDesc": "Jednostavan red reči u nemačkoj rečenici.",
+    "sentenceStructure": "Građa rečenice",
+    "sentenceStructureDesc": "Jednostavan red reči u nemačkim rečenicama.",
     "articlesSubtitle": "Der, die, das i osnove upotrebe.",
     "pronounsSubtitle": "Nominativ, Akkusativ i Dativ – oblici zamenica.",
     "pronunciationSubtitle": "Osnove nemačkih glasova i izgovora",
-    "vowelsSubtitle": "Samoglasnici – dugi i kratki",
+    "vowelsSubtitle": "Samoglasnici — dugi i kratki",
     "consonantsSubtitle": "Suglasnici i kombinacije slova",
     "lessonsSubtitle": "Lekcije redom od 1 do 21.",
-    "vowelsTitle": "Samoglasnici – dugi i kratki",
+    "vowelsTitle": "Samoglasnici — dugi i kratki",
     "vowelsDesc": "Dugi i kratki samoglasnici s primerima.",
     "consonantsTitle": "Suglasnici i kombinacije slova",
     "consonantsDesc": "Najvažniji suglasnici za početnike.",
@@ -249,7 +252,11 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Gramatika",
       "exercise": "Vežba",
       "translate": "Prevedi",
-      "exerciseCombined": "Übung / Vežba"
+      "exerciseCombined": "Übung / Vežba",
+      "dialogues": "Dijalozi / rečenice",
+      "words": "Reči",
+      "names": "Imena",
+      "reading": "Tekst / čitanje"
     },
     "hints": {
       "tapToRevealAnswer": "Dodirnite karticu da vidite odgovor.",
@@ -368,8 +375,8 @@ window.LANGUAGE_UI_STRINGS = {
     "wordsMany": "reči"
   },
   "spelling": {
-    "writeNative": "Piši srpski",
-    "writeGerman": "Piši nemački",
+    "writeNative": "Pišite na srpskom",
+    "writeGerman": "Pišite na nemačkom",
     "correct": "Tačno!",
     "incorrect": "Netačno",
     "expectedLabel": "Tačno:",
