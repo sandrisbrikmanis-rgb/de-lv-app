@@ -2,11 +2,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "et",
   "splash": {
     "title": "Saksa keel",
-    "subtitle": "Õpi saksa keelt"
+    "subtitle": "Õpi saksa keelt",
+    "ariaLabel": "Laadimine"
   },
   "languageSelect": {
     "title": "Vali keel",
-    "footer": "Õpi saksa keelt"
+    "footer": "Õpi saksa keelt",
+    "ariaLabel": "Keele valik"
   },
   "app": {
     "title": "Saksa keel • ET-DE",
@@ -18,7 +20,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Kursus",
     "sentences": "Laused",
     "verbs": "Tegusõnad",
-    "chooseGroup": "Vali grupp"
+    "chooseGroup": "Vali grupp",
+    "learningModes": "Õpirežiimid"
   },
   "groups": {
     "sentences": "Laused"
@@ -32,14 +35,14 @@ window.LANGUAGE_UI_STRINGS = {
   "buttons": {
     "known": "Tean õigesti",
     "unknown": "Ei tea",
-    "next": "Järgmine sõna",
+    "next": "Edasi",
     "check": "Kontrolli",
     "continue": "Jätka",
     "close": "Sulge",
     "delete": "Kustuta",
     "cancel": "Tühista",
     "restore": "Taasta",
-    "restoreAll": "Taasta kõik",
+    "restoreAll": "Kustuta edenemine",
     "extraOptions": "Lisavalikud",
     "extraOptionsOpen": "Lisavalikud ▼",
     "extraOptionsClose": "Lisavalikud ▲",
@@ -49,28 +52,28 @@ window.LANGUAGE_UI_STRINGS = {
     "knownWords": "Tuntud",
     "knownWithCount": "Tuntud ({count})",
     "markMastered": "100% tean",
-    "shuffleVerbs": "Sega tegusõnad",
+    "shuffleVerbs": "Sega tegusõnu",
     "restartSession": "🔄 Vaata seanssi uuesti",
     "markSessionLearned": "🏅 Märgi seanss õpituks",
     "chooseAnotherGroup": "Vali teine grupp",
     "listen": "Kuula",
     "listenPlural": "Kuula mitmust",
     "listenWithWord": "Kuula: {word}",
-    "autoplayOn": "Automaatne esitus sees",
-    "autoplayOff": "Automaatne esitus väljas",
-    "autoplayLabel": "Automaatne esitus",
+    "autoplayOn": "Automaatne hääldus sees",
+    "autoplayOff": "Automaatne hääldus väljas",
+    "autoplayLabel": "Automaatne hääldus",
     "autoplayAriaOn": "{label} (automaatselt sees)",
     "autoplayAriaOff": "{label} (automaatselt väljas)",
-    "disableAutoplay": "Lülita automaatne esitus välja",
-    "enableAutoplay": "Lülita automaatne esitus sisse",
+    "disableAutoplay": "Lülita automaatne hääldus välja",
+    "enableAutoplay": "Lülita automaatne hääldus sisse",
     "markUnwanted": "Märgi ebavajalikuks",
     "masteredWords": "100% tuntud"
   },
   "tools": {
-    "problemShort": "Probl.",
+    "problemShort": "Probleemsed",
     "problemFull": "Probleemsed sõnad",
     "problemWithCount": "Probleemsed sõnad ({count})",
-    "spellingShort": "Kirj.",
+    "spellingShort": "Õigekiri",
     "spellingFull": "Õigekiri"
   },
   "modes": {
@@ -83,7 +86,7 @@ window.LANGUAGE_UI_STRINGS = {
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
-    "tapToReveal": "Klõpsa kaardil, et näha tõlget.",
+    "tapToReveal": "Puuduta kaarti, et näha tõlget.",
     "chooseNextStep": "Vali, mida edasi teha.",
     "chooseModeOrReturn": "Vali teine režiim või tule hiljem ülevaatamiseks tagasi.",
     "trainingCard": "Harjutuse kaart {title}"
@@ -105,23 +108,23 @@ window.LANGUAGE_UI_STRINGS = {
     "cardNotFound": "Kaarti ei leitud"
   },
   "verb": {
-    "infinitive": "Infinitiiv",
-    "present": "Olevik",
-    "imperfectIndicative": "Minevik - Indikatiiv",
-    "imperfectSubjunctive": "Minevik - Konjunktiiv",
-    "pastParticiple": "Mineviku osavõte",
+    "infinitive": "Infinitiv",
+    "present": "Präsens",
+    "imperfectIndicative": "Präteritum",
+    "imperfectSubjunctive": "Konjunktiv II",
+    "pastParticiple": "Partizip II",
     "infinitiv": "Infinitiiv",
     "writeInfinitive": "Kirjuta infinitiiv",
     "guessInfinitive": "Arva infinitiiv",
-    "writeImperfect": "Kirjuta imperfekt",
-    "guessImperfect": "Arva imperfekt",
-    "writePastParticiple": "Kirjuta mineviku kesksõna",
-    "guessPastParticiple": "Arva mineviku kesksõna",
+    "writeImperfect": "Kirjuta Präteritum-vorm",
+    "guessImperfect": "Arva Präteritum-vorm",
+    "writePastParticiple": "Kirjuta Partizip II vorm",
+    "guessPastParticiple": "Arva Partizip II vorm",
     "translationPrefix": "Tõlge:",
     "hintTapAnswer": "Puuduta kaarti, et näha vastust.",
-    "hintTapSwitch": "Puuduta kaarti, et vahetada vormi.",
+    "hintTapSwitch": "Puuduta kaarti, et vormi vahetada.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
-    "noShuffleForms": "Sellel tegusõnal ei ole segamiseks piisavalt vorme."
+    "noShuffleForms": "Sellel tegusõnal pole segamiseks piisavalt vorme."
   },
   "notices": {
     "chooseNextGroup": "Vali järgmine grupp peamenüüst.",
@@ -129,8 +132,8 @@ window.LANGUAGE_UI_STRINGS = {
     "sessionMovedToKnown": "Seansi sõnad viidi tuntud hulka.",
     "verbShuffleOn": "Tegusõnade segamine on sees.",
     "verbShuffleOff": "Tegusõnade segamine on väljas.",
-    "spellingOn": "Õigekirja režiim on sees.",
-    "spellingOff": "Õigekirja režiim on väljas.",
+    "spellingOn": "Õigekirjarežiim on sees.",
+    "spellingOff": "Õigekirjarežiim on väljas.",
     "showingKnown": "Näitame tuntud kaarte.",
     "problemModeOff": "Probleemsete sõnade režiim on väljas.",
     "showingProblems": "Näitame probleemseid sõnu.",
@@ -153,7 +156,7 @@ window.LANGUAGE_UI_STRINGS = {
     "leftForReview": "Jäeti ülevaatamiseks.",
     "showingTimeReview": "Näitame: {label}.",
     "continueTimeReview": "Jätkame: {label}.",
-    "enterAnswerFirst": "Sisesta esmalt õige vastus ja vajuta Kontrolli.",
+    "enterAnswerFirst": "Kirjuta kõigepealt õige vastus ja puuduta „Kontrolli“.",
     "noCardForMastered": "Pole kaarti, mida lisada 100% tuntud hulka.",
     "addedMastered": "Sõna lisati 100% tuntud hulka.",
     "alreadyMastered": "Sõna on juba 100% tuntud nimekirjas.",
@@ -169,11 +172,11 @@ window.LANGUAGE_UI_STRINGS = {
     "weekLabel": "Nädala ülevaade",
     "weekEmpty": "Nädala ülevaateks pole õpitud sõnu.",
     "weekDone": "Nädala ülevaade on lõpetatud.",
-    "weekCount": "Sel nädalal õpitud: {count} {words}",
+    "weekCount": "Sel nädalal õpitud sõnad: {count}",
     "monthLabel": "Kuu ülevaade",
     "monthEmpty": "Kuu ülevaateks pole õpitud sõnu.",
     "monthDone": "Kuu ülevaade on lõpetatud.",
-    "monthCount": "Sel kuul õpitud: {count} {words}",
+    "monthCount": "Sel kuul õpitud sõnad: {count}",
     "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
   },
   "lists": {
@@ -183,26 +186,26 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "restore": {
     "ariaLabel": "Kinnita kogu edenemise kustutamine",
-    "warning": "Tähelepanu! Kogu õpitud edenemine ja sõnade ajalugu kustutatakse täielikult."
+    "warning": "Tähelepanu! Kogu õppimise edenemine ja sõnade ajalugu kustutatakse jäädavalt."
   },
   "info": {
     "title": "Kuidas see töötab?",
     "directionTitle": "Tõlke suund",
-    "directionBody": "Vajuta, et lülituda <strong>DE→{code}</strong> ja <strong>{code}→DE</strong> vahel.",
+    "directionBody": "Puuduta, et vahetada suunda <strong>DE→{code}</strong> ja <strong>{code}→DE</strong> vahel.",
     "problemTitle": "Probleemsed sõnad",
-    "problemBody": "Vajuta <strong>Probl.</strong>, et õppida sõnu, milles eksisid. Tavalises režiimis «Ei tea» lisab sõna siia; siin «Tean õigesti» vähendab vigade taset.",
+    "problemBody": "Puuduta <strong>Probleemsed</strong>, et harjutada sõnu, milles eksisid. „Ei tea“ lisab sõna sellesse loendisse; selles režiimis vähendab „Tean õigesti“ selle veataset.",
     "spellingTitle": "Õigekiri",
-    "spellingBody": "Vajuta <strong>Kirj.</strong>, et enne vastamist tuleks sõna käsitsi sisestada.",
+    "spellingBody": "Puuduta <strong>Õigekiri</strong>, et kirjutada sõna enne vastuse nägemist ise.",
     "intensityTitle": "Seansi intensiivsus",
     "intensityBody": "Vali, mitu sõna ühes seansis õppida: <strong>Kerge · 10</strong>, <strong>Tavaline · 20</strong> või <strong>Intensiivne · 30</strong>.",
     "listeningTitle": "Kuulamine",
-    "listeningBody": "Vajuta kaardil kõlarikooni, et kuulata hääldust.",
+    "listeningBody": "Puuduta kaardil kõlariikooni, et kuulata hääldust.",
     "unwantedTitle": "Ebavajalikud sõnad",
-    "unwantedBody": "Vajuta kaardi nurgas läbikriipsutatud silma — sõna kaob voost. Saad selle tagasi tuua Lisavalikutes.",
+    "unwantedBody": "Puuduta kaardi nurgas läbikriipsutatud silma — sõna kaob seansist. Saad selle tagasi tuua jaotisest „Lisavalikud“.",
     "answersTitle": "Vastused",
-    "answersBody": "<strong>Tean õigesti</strong> — tead vastust. <strong>Ei tea</strong> — aitab meeles pidada ja lisab probleemsete hulka. <strong>Järgmine sõna</strong> — jätab hindamata vahele.",
+    "answersBody": "<strong>Tean õigesti</strong> — tead vastust. <strong>Ei tea</strong> — aitab meelde jätta ja lisab sõna probleemsete hulka. <strong>Edasi</strong> — jätab hindamata vahele.",
     "extraTitle": "Lisavalikud",
-    "extraBody": "Ava <strong>Lisavalikud</strong>, et vaadata nädala ja kuu ülevaadet, tuntud sõnu ja taastada peidetud."
+    "extraBody": "Ava <strong>Lisavalikud</strong>, et näha nädala ja kuu ülevaadet, tuntud sõnu ja tuua tagasi peidetud sõnad."
   },
   "extra": {
     "wordManagement": "Sõnade haldus",
@@ -218,7 +221,7 @@ window.LANGUAGE_UI_STRINGS = {
     "subtitle": "Saksa keele alused samm-sammult",
     "back": "‹ Kursus",
     "closeCourse": "Sulge kursus",
-    "backToMain": "Tagasi põhiekraanile",
+    "backToMain": "Tagasi avaekraanile",
     "tipTitle": "Nõuanne",
     "tipBody": "Kuula, korda ja võrdle. Sinu kõrv on parim õpetaja!",
     "pronunciation": "Hääldus",
@@ -226,7 +229,7 @@ window.LANGUAGE_UI_STRINGS = {
     "articles": "Artiklid",
     "articlesDesc": "Der, die, das ja nende kasutamise alused.",
     "pronouns": "Asesõnad",
-    "pronounsDesc": "Nominativ, Akkusativ ja Dativ vormid.",
+    "pronounsDesc": "Nominativ-, Akkusativ- ja Dativ-vormid.",
     "lessons": "Õppetunnid",
     "lessonsDesc": "Õppetunnid järjekorras 1–21.",
     "verbBasics": "Tegusõnade alused",
@@ -249,7 +252,11 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Grammatika",
       "exercise": "Harjutus",
       "translate": "Tõlgi",
-      "exerciseCombined": "Harjutus"
+      "exerciseCombined": "Harjutus",
+      "dialogues": "Dialoogid / laused",
+      "words": "Sõnad",
+      "names": "Nimed",
+      "reading": "Tekst / lugemine"
     },
     "hints": {
       "tapToRevealAnswer": "Klõpsa kaardil, et näha vastust.",
@@ -372,8 +379,8 @@ window.LANGUAGE_UI_STRINGS = {
     "writeGerman": "Kirjuta saksa keeles",
     "correct": "Õigesti!",
     "incorrect": "Valesti",
-    "expectedLabel": "Õigesti:",
-    "noVerbTask": "Selle tegusõna jaoks pole õigekirja ülesannet.",
+    "expectedLabel": "Õige:",
+    "noVerbTask": "Selle tegusõna jaoks pole õigekirjaülesannet.",
     "writeAnswer": "Sisesta vastus",
     "missingChar": "puudub: {char}"
   },

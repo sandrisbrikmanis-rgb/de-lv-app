@@ -273,7 +273,7 @@ function infoMockToolBtn(iconName, shortLabel) {
 }
 
 function infoMockModeRow() {
-  return `<span class="info-mock-modes">${modeButtonHtml("easy", 10)}${modeButtonHtml("normal", 15)}${modeButtonHtml("intense", 30)}</span>`;
+  return `<span class="info-mock-modes">${modeButtonHtml("easy", 10)}${modeButtonHtml("normal", 20)}${modeButtonHtml("intense", 30)}</span>`;
 }
 
 function infoMockActionRow() {
@@ -4549,7 +4549,7 @@ function renderTimeReviewModalContent(container, mode) {
   const header = modal?.querySelector(".modal-header h2");
   if (header) {
     header.className = "modal-count-title";
-    header.textContent = entries.length ? config.countTitle(entries.length) : config.empty;
+    header.textContent = entries.length ? config.countTitle(entries.length) : t(mode === "month" ? "review.monthLabel" : "review.weekLabel");
   }
 
   if (!entries.length) {
@@ -4835,16 +4835,16 @@ function spellingVerbOptions(verb) {
   if (state.direction === "de-native") {
     const nativePrompt = t("spelling.writeNative");
     return [
-      { front: forms.tagadne, prompt: nativePrompt, expected: forms.tagadneLv },
-      { front: forms.nakotne, prompt: nativePrompt, expected: forms.nakotneLv },
-      { front: forms.pagatne, prompt: nativePrompt, expected: forms.pagatneLv }
+      { front: forms.infinitiv, prompt: nativePrompt, expected: forms.infinitivLv },
+      { front: forms.imperfektIndikativ, prompt: nativePrompt, expected: forms.imperfektIndikativLv },
+      { front: forms.partizipVergangenheit, prompt: nativePrompt, expected: forms.partizipVergangenheitLv }
     ].filter((item) => item.front && item.expected);
   }
 
   return [
-    { front: forms.tagadneLv, prompt: t("verb.writeInfinitive"), expected: forms.tagadne },
-    { front: forms.tagadneLv, prompt: t("verb.writeImperfect"), expected: forms.nakotne },
-    { front: forms.tagadneLv, prompt: t("verb.writePastParticiple"), expected: forms.pagatne }
+    { front: forms.infinitivLv, prompt: t("verb.writeInfinitive"), expected: forms.infinitiv },
+    { front: forms.infinitivLv, prompt: t("verb.writeImperfect"), expected: forms.imperfektIndikativ },
+    { front: forms.infinitivLv, prompt: t("verb.writePastParticiple"), expected: forms.partizipVergangenheit }
   ].filter((item) => item.front && item.expected);
 }
 
@@ -4892,9 +4892,9 @@ function checkSpellingAnswer() {
 function verbRandomOptions(verb) {
   const forms = verbForms(verb);
   return [
-    { show: forms.tagadneLv, prompt: t("verb.guessInfinitive"), reveal: forms.tagadne },
-    { show: forms.tagadneLv, prompt: t("verb.guessImperfect"), reveal: forms.nakotne },
-    { show: forms.tagadneLv, prompt: t("verb.guessPastParticiple"), reveal: forms.pagatne }
+    { show: forms.infinitivLv, prompt: t("verb.guessInfinitive"), reveal: forms.infinitiv },
+    { show: forms.infinitivLv, prompt: t("verb.guessImperfect"), reveal: forms.imperfektIndikativ },
+    { show: forms.infinitivLv, prompt: t("verb.guessPastParticiple"), reveal: forms.partizipVergangenheit }
   ].filter((item) => item.show && item.reveal);
 }
 
