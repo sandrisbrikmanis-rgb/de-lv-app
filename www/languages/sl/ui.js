@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Zgradba stavka",
     "sentenceStructureDesc": "Preprost besedni red v nemških stavkih.",
     "articlesSubtitle": "Der, die, das in osnove njihove rabe.",
-    "pronounsSubtitle": "Nominativ, tožilnik in dajalnik - oblike zaimkov.",
+    "pronounsSubtitle": "Nominativ, Akkusativ in Dativ — oblike zaimkov.",
     "pronunciationSubtitle": "Osnove nemških glasov in izgovorjave",
     "vowelsSubtitle": "Samoglasniki — dolgi in kratki",
     "consonantsSubtitle": "Soglasniki in črkovne kombinacije",

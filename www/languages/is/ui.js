@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Setningaskipan",
     "sentenceStructureDesc": "Einföld orðaröð í þýskum setningum.",
     "articlesSubtitle": "Der, die, das og grunnnotkun þeirra.",
-    "pronounsSubtitle": "Nominativ, Akkusativ ja Dativ — asesõnade vormid.",
+    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — form fornafna.",
     "pronunciationSubtitle": "Undirstöðuatriði þýskra hljóða og framburðar",
     "vowelsSubtitle": "Sérhljóð — löng og stutt",
     "consonantsSubtitle": "Samhljóð og stafasambönd",

@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Structure de la phrase",
     "sentenceStructureDesc": "Ordre simple des mots dans la phrase allemande.",
     "articlesSubtitle": "Der, die, das et leur emploi de base.",
-    "pronounsSubtitle": "Nominativ, Akkusativ et Dativ - formes de pronoms.",
+    "pronounsSubtitle": "Nominativ, Akkusativ et Dativ — les formes des pronoms.",
     "pronunciationSubtitle": "Les bases des sons et de la prononciation allemands",
     "vowelsSubtitle": "Voyelles — longues et courtes",
     "consonantsSubtitle": "Consonnes et combinaisons de lettres",

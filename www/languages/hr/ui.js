@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Građa rečenice",
     "sentenceStructureDesc": "Jednostavan red riječi u njemačkim rečenicama.",
     "articlesSubtitle": "Der, die, das i osnove uporabe.",
-    "pronounsSubtitle": "Nominativ, tožilnik in dajalnik - oblike zaimkov.",
+    "pronounsSubtitle": "Nominativ, Akkusativ i Dativ — oblici zamjenica.",
     "pronunciationSubtitle": "Osnove njemačkih glasova i izgovora",
     "vowelsSubtitle": "Samoglasnici — dugi i kratki",
     "consonantsSubtitle": "Suglasnici i kombinacije slova",

@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Zinsbouw",
     "sentenceStructureDesc": "Eenvoudige woordvolgorde in Duitse zinnen.",
     "articlesSubtitle": "Der, die, das en de basis van het gebruik.",
-    "pronounsSubtitle": "Nominativ, Akkusativ ja Dativ — asesõnade vormid.",
+    "pronounsSubtitle": "Nominativ, Akkusativ en Dativ — vormen van de voornaamwoorden.",
     "pronunciationSubtitle": "Basis van Duitse klanken en uitspraak",
     "vowelsSubtitle": "Klinkers — lang en kort",
     "consonantsSubtitle": "Medeklinkers en lettercombinaties",

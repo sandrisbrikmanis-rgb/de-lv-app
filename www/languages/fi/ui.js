@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Lauserakenne",
     "sentenceStructureDesc": "Yksinkertainen sanajärjestys saksan lauseissa.",
     "articlesSubtitle": "Der, die, das ja niiden käytön perusteet.",
-    "pronounsSubtitle": "Nominativ, Akkusativ ja Dativ — asesõnade vormid.",
+    "pronounsSubtitle": "Nominativ, Akkusativ ja Dativ — pronominien muodot.",
     "pronunciationSubtitle": "Saksan äänteiden ja ääntämisen perusteet",
     "vowelsSubtitle": "Vokaalit — pitkät ja lyhyet",
     "consonantsSubtitle": "Konsonantit ja kirjainyhdistelmät",

@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Mondatszerkezet",
     "sentenceStructureDesc": "Egyszerű szórend a német mondatokban.",
     "articlesSubtitle": "Der, die, das és használatuk alapjai.",
-    "pronounsSubtitle": "Nominativ, Akkusativ és Dativ - névmások formái.",
+    "pronounsSubtitle": "Nominativ, Akkusativ és Dativ — a névmások alakjai.",
     "pronunciationSubtitle": "A német hangok és a kiejtés alapjai",
     "vowelsSubtitle": "Magánhangzók — hosszú és rövid",
     "consonantsSubtitle": "Mássalhangzók és betűkombinációk",

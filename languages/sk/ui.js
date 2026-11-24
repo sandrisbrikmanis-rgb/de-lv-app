@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Stavba vety",
     "sentenceStructureDesc": "Jednoduchý slovosled v nemeckých vetách.",
     "articlesSubtitle": "Der, die, das a základy ich použitia.",
-    "pronounsSubtitle": "Nominativ, Akkusativ i Dativ — formy zaimków.",
+    "pronounsSubtitle": "Nominativ, Akkusativ a Dativ — tvary zámen.",
     "pronunciationSubtitle": "Základy nemeckých hlások a výslovnosti",
     "vowelsSubtitle": "Samohlásky — dlhé a krátke",
     "consonantsSubtitle": "Spoluhlásky a spojenia písmen",

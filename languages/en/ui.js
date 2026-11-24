@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Sentence structure",
     "sentenceStructureDesc": "Simple word order in German sentences.",
     "articlesSubtitle": "Der, die, das and the basics of using them.",
-    "pronounsSubtitle": "Nominativ, Akkusativ and Dativ - forms of pronouns.",
+    "pronounsSubtitle": "Nominativ, Akkusativ and Dativ — pronoun forms.",
     "pronunciationSubtitle": "Basics of German sounds and pronunciation",
     "vowelsSubtitle": "Vowels — long and short",
     "consonantsSubtitle": "Consonants and letter combinations",

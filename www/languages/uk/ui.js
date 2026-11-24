@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Будова речення",
     "sentenceStructureDesc": "Простий порядок слів у німецьких реченнях.",
     "articlesSubtitle": "Der, die, das та основи їх вживання.",
-    "pronounsSubtitle": "Nominativ, Akkusativ та Dativ — форми займенників.",
+    "pronounsSubtitle": "Nominativ, Akkusativ і Dativ — форми займенників.",
     "pronunciationSubtitle": "Основи звуків і вимови німецької мови",
     "vowelsSubtitle": "Голосні — довгі та короткі",
     "consonantsSubtitle": "Приголосні та літерні поєднання",
