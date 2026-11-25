@@ -20,7 +20,7 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Kurz",
     "sentences": "Vety",
     "verbs": "Slovesá",
-    "chooseGroup": "Wybierz grupę",
+    "chooseGroup": "Vyberte skupinu",
     "learningModes": "Režimy učenia"
   },
   "groups": {
@@ -37,7 +37,7 @@ window.LANGUAGE_UI_STRINGS = {
     "unknown": "Neviem",
     "next": "Ďalej",
     "check": "Skontrolovať",
-    "continue": "Kontynuuj",
+    "continue": "Pokračovať",
     "close": "Zavrieť",
     "delete": "Vymazať",
     "cancel": "Zrušiť",
@@ -46,18 +46,18 @@ window.LANGUAGE_UI_STRINGS = {
     "extraOptions": "Ďalšie možnosti",
     "extraOptionsOpen": "Ďalšie možnosti ▼",
     "extraOptionsClose": "Ďalšie možnosti ▲",
-    "weeklyReview": "Týždenný prehľad",
-    "monthlyReview": "Mesačný prehľad",
+    "weeklyReview": "Týždenné opakovanie",
+    "monthlyReview": "Mesačné opakovanie",
     "unwantedWords": "Nepotrebné slová",
     "knownWords": "Známe",
     "knownWithCount": "Známe ({count})",
     "markMastered": "100% viem",
     "shuffleVerbs": "Premiešať slovesá",
-    "restartSession": "🔄 Opakovať reláciu",
-    "markSessionLearned": "🏅 Oznacz sesję jako nauczoną",
-    "chooseAnotherGroup": "Wybierz inną grupę",
+    "restartSession": "🔄 Zopakovať reláciu od začiatku",
+    "markSessionLearned": "🏅 Označiť reláciu ako naučenú",
+    "chooseAnotherGroup": "Vybrať inú skupinu",
     "listen": "Počúvať",
-    "listenPlural": "Słuchaj liczby mnogiej",
+    "listenPlural": "Počúvať množné číslo",
     "listenWithWord": "Počúvať: {word}",
     "autoplayOn": "Automatická výslovnosť zapnutá",
     "autoplayOff": "Automatická výslovnosť vypnutá",
@@ -72,7 +72,7 @@ window.LANGUAGE_UI_STRINGS = {
   "tools": {
     "problemShort": "Problematické",
     "problemFull": "Problematické slová",
-    "problemWithCount": "Problematyczne słowa ({count})",
+    "problemWithCount": "Problematické slová ({count})",
     "spellingShort": "Pravopis",
     "spellingFull": "Pravopis"
   },
@@ -87,9 +87,9 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "hints": {
     "tapToReveal": "Ťuknite na kartičku a uvidíte preklad.",
-    "chooseNextStep": "Wybierz, co zrobić dalej.",
-    "chooseModeOrReturn": "Vyberte iný režim alebo sa vráťte k prehrávaniu neskôr.",
-    "trainingCard": "Karta ćwiczenia {title}"
+    "chooseNextStep": "Vyberte, čo ďalej.",
+    "chooseModeOrReturn": "Vyberte iný režim alebo sa vráťte neskôr na opakovanie.",
+    "trainingCard": "Cvičná kartička {title}"
   },
   "card": {
     "pluralLabel": "Lm.",
@@ -97,15 +97,15 @@ window.LANGUAGE_UI_STRINGS = {
     "spellingVerbs": "Pravopis · Slovesá",
     "verbsShuffleTraining": "Slovesá · Zmiešaný tréning",
     "answerPrefix": "Odpoveď:",
-    "sessionComplete": "Sesja zakończona!",
+    "sessionComplete": "Relácia dokončená!",
     "sessionLabel": "Relácia",
-    "lastSessionLabel": "Ostatnia sesja",
+    "lastSessionLabel": "Posledná relácia",
     "problemLabel": "Problematické",
-    "levelCompleteTitle": "Skvelé! {label} úroveň dokončená! 🎉",
+    "levelCompleteTitle": "Výborne! Úroveň {label} je dokončená! 🎉",
     "levelCompleteDesc": "Ovládli ste všetky slová tejto skupiny. Je čas urobiť ďalší krok!",
     "noActiveWords": "V tejto skupine nie sú žiadne aktívne slová.",
-    "noCardsInSession": "V tejto relácii nie sú žiadne karty.",
-    "cardNotFound": "Nie znaleziono karty"
+    "noCardsInSession": "V tejto relácii nie sú žiadne kartičky.",
+    "cardNotFound": "Kartička sa nenašla"
   },
   "verb": {
     "infinitive": "Infinitiv",
@@ -127,62 +127,62 @@ window.LANGUAGE_UI_STRINGS = {
     "noShuffleForms": "Toto sloveso nemá dosť tvarov na premiešanie."
   },
   "notices": {
-    "chooseNextGroup": "Z hlavnej ponuky vyber ďalšiu skupinu.",
-    "sessionReloaded": "Sesja załadowana ponownie w pomieszanej kolejności.",
-    "sessionMovedToKnown": "Słowa sesji przeniesiono do znanych.",
+    "chooseNextGroup": "V hlavnej ponuke vyberte ďalšiu skupinu.",
+    "sessionReloaded": "Relácia bola znova načítaná v zmiešanom poradí.",
+    "sessionMovedToKnown": "Slová relácie boli presunuté medzi známe.",
     "verbShuffleOn": "Miešanie slovies zapnuté.",
     "verbShuffleOff": "Miešanie slovies vypnuté.",
     "spellingOn": "Režim pravopisu je zapnutý.",
     "spellingOff": "Režim pravopisu je vypnutý.",
-    "showingKnown": "Ukazujeme známe karty.",
-    "problemModeOff": "Problematický slovný režim je zakázaný.",
-    "showingProblems": "Ukazujeme problematické slová.",
+    "showingKnown": "Zobrazujeme známe kartičky.",
+    "problemModeOff": "Režim problematických slov je vypnutý.",
+    "showingProblems": "Zobrazujeme problematické slová.",
     "noProblems": "Žiadne problematické slová.",
-    "errorLevelReduced": "Poziom błędów obniżony.",
-    "movedToKnown": "Słowo przeniesiono do znanych!",
-    "problemsFinishedMoved": "Problematyczne słowa opanowane. Słowo przeniesiono do znanych!",
-    "lastSessionDone": "Powtórka ostatniej sesji zakończona.",
-    "continueLastSession": "Kontynuujemy powtórkę ostatniej sesji.",
+    "errorLevelReduced": "Úroveň chýb bola znížená.",
+    "movedToKnown": "Slovo bolo presunuté medzi známe!",
+    "problemsFinishedMoved": "Problematické slová zvládnuté. Slovo bolo presunuté medzi známe!",
+    "lastSessionDone": "Opakovanie poslednej relácie je dokončené.",
+    "continueLastSession": "Pokračujeme v opakovaní poslednej relácie.",
     "knownReviewDone": "Opakovanie známych slov dokončené.",
-    "continueKnownReview": "Pokračujeme opakovaním známych slov.",
+    "continueKnownReview": "Pokračujeme v opakovaní známych slov.",
     "noVerbToMark": "Nie sú žiadne slovesá na označenie.",
     "verbMarkedKnown": "Sloveso je označené ako známe.",
-    "noCardToMark": "Neexistujú žiadne karty na označenie.",
+    "noCardToMark": "Nie sú žiadne kartičky na označenie.",
     "markedKnown": "Označené ako známe.",
-    "noCard": "Brak karty do oznaczenia.",
+    "noCard": "Nie je žiadna kartička na označenie.",
     "answerRevealed": "Odpoveď odhalená. Slovo zostáva v relácii.",
-    "returnedToStudy": "Späť do režimu učenia.",
-    "leftInProblems": "Pozostawiono w grupie problematycznej.",
-    "leftForReview": "Vľavo na prehratie.",
-    "showingTimeReview": "Pokazujemy: {label}.",
+    "returnedToStudy": "Vrátené do režimu učenia.",
+    "leftInProblems": "Ponechané v skupine problematických slov.",
+    "leftForReview": "Ponechané na opakovanie.",
+    "showingTimeReview": "Zobrazujeme: {label}.",
     "continueTimeReview": "Pokračujeme: {label}.",
     "enterAnswerFirst": "Najprv napíšte správnu odpoveď a ťuknite na „Skontrolovať“.",
-    "noCardForMastered": "Žiadna karta, ktorá by sa pridala k 100% známej.",
-    "addedMastered": "Słowo dodano do 100% znanych.",
-    "alreadyMastered": "Słowo jest już na liście 100% znanych.",
+    "noCardForMastered": "Nie je žiadna kartička na pridanie medzi 100% známe.",
+    "addedMastered": "Slovo bolo pridané medzi 100% známe.",
+    "alreadyMastered": "Slovo už je v zozname 100% známych.",
     "noCardForUnwanted": "Nie je žiadna kartička na označenie ako nepotrebná.",
     "markedUnwanted": "Slovo bolo označené ako nepotrebné.",
     "loadFailed": "Nepodarilo sa načítať karty. Obnovte stránku alebo skontrolujte dostupnosť dátových súborov.",
-    "noCompletedSession": "Neexistuje žiadna dokončená relácia na opakovanie.",
-    "showingLastSession": "Pokazujemy ostatnią ukończoną sesję.",
-    "sessionArchivedNext": "Posledná relácia označená ako naučená. Nasledujúca relácia bola načítaná.",
-    "sessionArchived": "Ostatnia sesja oznaczona jako nauczona."
+    "noCompletedSession": "Nie je žiadna dokončená relácia na opakovanie.",
+    "showingLastSession": "Zobrazujeme poslednú dokončenú reláciu.",
+    "sessionArchivedNext": "Posledná relácia bola označená ako naučená. Nasledujúca relácia je načítaná.",
+    "sessionArchived": "Posledná relácia bola označená ako naučená."
   },
   "review": {
-    "weekLabel": "Týždenný prehľad",
-    "weekEmpty": "Pre týždenný prehľad nie sú žiadne naučené slová.",
-    "weekDone": "Týždenný prehľad je dokončený.",
+    "weekLabel": "Týždenné opakovanie",
+    "weekEmpty": "Na týždenné opakovanie nie sú žiadne naučené slová.",
+    "weekDone": "Týždenné opakovanie je dokončené.",
     "weekCount": "Slová naučené tento týždeň: {count}",
-    "monthLabel": "Mesačný prehľad",
-    "monthEmpty": "Pre mesačný prehľad nie sú žiadne naučené slová.",
-    "monthDone": "Mesačný prehľad je dokončený.",
+    "monthLabel": "Mesačné opakovanie",
+    "monthEmpty": "Na mesačné opakovanie nie sú žiadne naučené slová.",
+    "monthDone": "Mesačné opakovanie je dokončené.",
     "monthCount": "Slová naučené tento mesiac: {count}",
     "knownReviewDone": "Opakovanie známych slov dokončené."
   },
   "lists": {
     "noUnwanted": "Žiadne nepotrebné slová.",
     "noLearned": "Žiadne naučené slová.",
-    "noMastered": "Brak 100% znanych słów."
+    "noMastered": "Žiadne 100% známe slová."
   },
   "restore": {
     "ariaLabel": "Potvrďte vymazanie celého pokroku",
@@ -205,12 +205,12 @@ window.LANGUAGE_UI_STRINGS = {
     "answersTitle": "Odpovede",
     "answersBody": "<strong>Viem</strong> — poznáte odpoveď. <strong>Neviem</strong> — pomôže zapamätať si a pridá slovo medzi problematické. <strong>Ďalej</strong> — preskočí bez hodnotenia.",
     "extraTitle": "Ďalšie možnosti",
-    "extraBody": "Otvorte <strong>Ďalšie možnosti</strong> a uvidíte týždenný a mesačný prehľad, známe slová a môžete vrátiť skryté slová."
+    "extraBody": "Otvorte <strong>Ďalšie možnosti</strong> a uvidíte týždenné a mesačné opakovanie, známe slová a môžete vrátiť skryté slová."
   },
   "extra": {
     "wordManagement": "Správa slov",
     "statistics": "Štatistika",
-    "settings": "Ustawienia"
+    "settings": "Nastavenia"
   },
   "settings": {
     "appLanguage": "Jazyk aplikácie"
@@ -249,9 +249,9 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Lekcia {lesson} · Prelož: {current} / {total}",
     "exerciseProgress": "Lekcia {lesson} · Cvičenie",
     "sections": {
-      "grammar": "Gramatyka",
-      "exercise": "Ćwiczenie",
-      "translate": "Tłumacz",
+      "grammar": "Gramatika",
+      "exercise": "Cvičenie",
+      "translate": "Prelož",
       "exerciseCombined": "Übung / Cvičenie",
       "dialogues": "Dialógy / vety",
       "words": "Slová",
@@ -259,28 +259,28 @@ window.LANGUAGE_UI_STRINGS = {
       "reading": "Text / čítanie"
     },
     "hints": {
-      "tapToRevealAnswer": "Odpoveď zobrazíte ťuknutím na kartu.",
-      "tapToContinue": "Dotknij karty, aby kontynuować.",
-      "tapToRevealGerman": "Dotknij karty, aby zobaczyć niemieckie tłumaczenie.",
-      "tapNextStep": "Ťuknutím na kartu prejdete na ďalší krok.",
-      "exerciseCardAria": "Karta ćwiczenia {title}"
+      "tapToRevealAnswer": "Ťuknite na kartičku a uvidíte odpoveď.",
+      "tapToContinue": "Ťuknite na kartičku a pokračujte.",
+      "tapToRevealGerman": "Ťuknite na kartičku a uvidíte nemecký preklad.",
+      "tapNextStep": "Ťuknite na kartičku a prejdete na ďalší krok.",
+      "exerciseCardAria": "Cvičná kartička {title}"
     },
     "cta": {
-      "tapNextCard": "Ťuknite na ďalšiu kartu.",
+      "tapNextCard": "Ťuknite na ďalšiu kartičku",
       "tapToRevealAnswer": "Ťuknutím zobrazíte odpoveď",
       "tapContinue": "Pokračujte ťuknutím",
-      "transformSentence": "Przekształć zdanie.",
-      "transformThirdSingular": "Przekształć zdanie w 3. osobie liczby pojedynczej.",
-      "transformFirstPlural": "Przekształć zdanie w 1. osobie liczby mnogiej."
+      "transformSentence": "Pretvorte vetu.",
+      "transformThirdSingular": "Pretvorte vetu do 3. osoby jednotného čísla.",
+      "transformFirstPlural": "Pretvorte vetu do 1. osoby množného čísla."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I — použite správne puzdro",
-      "chooseCasePlural": "Wybierz właściwy przypadek i utwórz liczbę mnogą!",
+      "fillCase": "Übung I — použite správny pád",
+      "chooseCasePlural": "Použite správny pád a utvorte množné číslo!",
       "answerPlural": "Teraz odpovedzte v množnom čísle.",
-      "translate": "Übung II — tłumacz",
-      "formDu": "Forma 1/3: ty (liczba pojedyncza)",
-      "formIhr": "Formulár 2/3: vy (množné číslo)",
-      "formSie": "Formulár 3/3: Aug (zdvorilostný formulár)"
+      "translate": "Übung II — preložte",
+      "formDu": "Tvar 1/3: ty (jednotné číslo)",
+      "formIhr": "Tvar 2/3: vy (množné číslo)",
+      "formSie": "Tvar 3/3: Sie (zdvorilostný tvar)"
     },
     "lessonItems": {
       "1": {
@@ -371,8 +371,8 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "plural": {
     "wordOne": "slovo",
-    "wordsFew": "słowa",
-    "wordsMany": "słów"
+    "wordsFew": "slová",
+    "wordsMany": "slov"
   },
   "spelling": {
     "writeNative": "Píšte po slovensky",
@@ -390,36 +390,36 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Kliknij kartę, aby otworzyć wyjaśnienie.",
-      "tapToRevealGerman": "Kliknij kartę, aby zobaczyć niemieckie słowo."
+      "tapToOpenExplanation": "Ťuknite na kartičku a otvorí sa vysvetlenie.",
+      "tapToRevealGerman": "Ťuknite na kartičku a uvidíte nemecké slovo."
     },
     "sections": {
-      "mainIdea": "Główna myśl",
-      "explanation": "Wyjaśnienie",
-      "examples": "Programovanie",
+      "mainIdea": "Hlavná myšlienka",
+      "explanation": "Vysvetlenie",
+      "examples": "Príklady",
       "comparison": "Porovnanie",
       "tip": "Rada",
-      "important": "Ważne",
-      "mistakes": "Typowe błędy",
-      "remember": "Zapamätať",
-      "comparisonFocus": "Ważne porównanie",
+      "important": "Dôležité",
+      "mistakes": "Typické chyby",
+      "remember": "Zapamätajte si",
+      "comparisonFocus": "Dôležité porovnanie",
       "comparisonBadge": "POROVNÁVACIA KARTA"
     },
     "table": {
-      "word": "Słowo",
+      "word": "Slovo",
       "meaning": "Význam",
       "example": "Príklad",
       "native": "SK",
       "german": "DE",
-      "mainMeaning": "Główne znaczenie",
+      "mainMeaning": "Hlavný význam",
       "describes": "Opisuje",
       "translation": "Preklad"
     },
     "minimal": {
-      "tipLabel": "Wskazówka:",
+      "tipLabel": "Tip:",
       "pluralLabel": "LM.",
-      "formsLabel": "Formuláre:",
-      "noteLabel": "Uwaga:"
+      "formsLabel": "Tvary:",
+      "noteLabel": "Poznámka:"
     }
   }
 };

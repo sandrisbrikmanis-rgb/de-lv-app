@@ -13,14 +13,14 @@ window.LANGUAGE_UI_STRINGS = {
   "app": {
     "title": "Alemão • PT-DE",
     "subtitle": "O seu guia inteligente para aprender alemão por nível",
-    "shellLabel": "Cartões Alemão–Português"
+    "shellLabel": "Cartões alemão–português"
   },
   "menu": {
     "mainNav": "Menu principal",
     "course": "Curso",
     "sentences": "Frases",
     "verbs": "Verbos",
-    "chooseGroup": "Grupo válido",
+    "chooseGroup": "Escolha um grupo",
     "learningModes": "Modos de aprendizagem"
   },
   "groups": {
@@ -28,16 +28,16 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "nav": {
     "backHome": "Voltar ao menu principal",
-    "changeLanguage": "Muuda emakelt",
+    "changeLanguage": "Mudar a língua materna",
     "howItWorks": "Como funciona?",
-    "quickTools": "Kiirtööriistad"
+    "quickTools": "Ferramentas rápidas"
   },
   "buttons": {
     "known": "Eu sei",
     "unknown": "Não sei",
     "next": "Seguinte",
     "check": "Verificar",
-    "continue": "jatka",
+    "continue": "Continuar",
     "close": "Fechar",
     "delete": "Apagar",
     "cancel": "Cancelar",
@@ -51,13 +51,13 @@ window.LANGUAGE_UI_STRINGS = {
     "unwantedWords": "Palavras desnecessárias",
     "knownWords": "Conhecidas",
     "knownWithCount": "Conhecidas ({count})",
-    "markMastered": "100% então",
+    "markMastered": "Sei a 100%",
     "shuffleVerbs": "Misturar verbos",
-    "restartSession": "🔄 Vaata seanssi uuesti",
-    "markSessionLearned": "🏅 Märgi seanss õpituks",
-    "chooseAnotherGroup": "Válido para este grupo",
+    "restartSession": "🔄 Rever a sessão de novo",
+    "markSessionLearned": "🏅 Marcar a sessão como aprendida",
+    "chooseAnotherGroup": "Escolher outro grupo",
     "listen": "Ouvir",
-    "listenPlural": "kuula mitmust",
+    "listenPlural": "Ouvir o plural",
     "listenWithWord": "Ouvir: {word}",
     "autoplayOn": "Pronúncia automática ativada",
     "autoplayOff": "Pronúncia automática desativada",
@@ -67,12 +67,12 @@ window.LANGUAGE_UI_STRINGS = {
     "disableAutoplay": "Desativar a pronúncia automática",
     "enableAutoplay": "Ativar a pronúncia automática",
     "markUnwanted": "Marcar como desnecessária",
-    "masteredWords": "100% estupidez"
+    "masteredWords": "Conhecidas a 100%"
   },
   "tools": {
     "problemShort": "Problemáticas",
     "problemFull": "Palavras problemáticas",
-    "problemWithCount": "Problemas resolvidos ({count})",
+    "problemWithCount": "Palavras problemáticas ({count})",
     "spellingShort": "Ortografia",
     "spellingFull": "Ortografia"
   },
@@ -87,25 +87,25 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "hints": {
     "tapToReveal": "Toque no cartão para ver a tradução.",
-    "chooseNextStep": "Vali, meça edasi teha.",
-    "chooseModeOrReturn": "Vali teine ​​​​​​​​režiim või tule hiljem ülevaatamiseks tagasi.",
-    "trainingCard": "Harjutuse kaart {title}"
+    "chooseNextStep": "Escolha o que fazer a seguir.",
+    "chooseModeOrReturn": "Escolha outro modo ou volte mais tarde para rever.",
+    "trainingCard": "Cartão de exercício {title}"
   },
   "card": {
-    "pluralLabel": "Mitm.",
+    "pluralLabel": "Pl.",
     "spelling": "Ortografia",
     "spellingVerbs": "Ortografia · Verbos",
     "verbsShuffleTraining": "Verbos · Treino misto",
     "answerPrefix": "Resposta:",
-    "sessionComplete": "Seja honesto!",
+    "sessionComplete": "Sessão concluída!",
     "sessionLabel": "Sessão",
-    "lastSessionLabel": "Viimane Seanss",
-    "problemLabel": "Problemas resolvidos",
-    "levelCompleteTitle": "Suureparane! Tase {label} em läbitud! 🎉",
-    "levelCompleteDesc": "Oled selle kõik groups sõnad selgeks õppinud. Aeg astuto järgmine samm!",
-    "noActiveWords": "Selles agrupa pólo ativo sõnu.",
-    "noCardsInSession": "Selles seansis pole kaarte.",
-    "cardNotFound": "Kaarti ei leitão"
+    "lastSessionLabel": "Última sessão",
+    "problemLabel": "Problemáticas",
+    "levelCompleteTitle": "Excelente! Nível {label} concluído! 🎉",
+    "levelCompleteDesc": "Aprendeu todas as palavras deste grupo. É hora de dar o passo seguinte!",
+    "noActiveWords": "Não há palavras ativas neste grupo.",
+    "noCardsInSession": "Não há cartões nesta sessão.",
+    "cardNotFound": "Cartão não encontrado"
   },
   "verb": {
     "infinitive": "Infinitiv",
@@ -122,51 +122,51 @@ window.LANGUAGE_UI_STRINGS = {
     "guessPastParticiple": "Adivinhe a forma do Partizip II",
     "translationPrefix": "Tradução:",
     "hintTapAnswer": "Toque no cartão para ver a resposta.",
-    "hintTapSwitch": "Toque no cartão para mudar de forma.",
+    "hintTapSwitch": "Toque no cartão para alternar a forma.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Este verbo não tem formas suficientes para misturar."
   },
   "notices": {
-    "chooseNextGroup": "Vali järgmine groupe peamenüüst.",
-    "sessionReloaded": "Seanss laaditi uuesti segatud järjekorras.",
-    "sessionMovedToKnown": "Seansi sõnad viidi tuntud hulka.",
+    "chooseNextGroup": "Escolha o grupo seguinte no menu principal.",
+    "sessionReloaded": "Sessão recarregada por ordem aleatória.",
+    "sessionMovedToKnown": "Palavras da sessão movidas para as conhecidas.",
     "verbShuffleOn": "Mistura de verbos ativada.",
     "verbShuffleOff": "Mistura de verbos desativada.",
     "spellingOn": "Modo de ortografia ativado.",
     "spellingOff": "Modo de ortografia desativado.",
-    "showingKnown": "Näitame tuntud kararte.",
-    "problemModeOff": "Os problemas surgem imediatamente.",
-    "showingProblems": "Naitame problemaeid sonu.",
-    "noProblems": "Problema resolvido.",
-    "errorLevelReduced": "Vigade tase vähenes.",
-    "movedToKnown": "Sõna viidi tuntud hulka!",
-    "problemsFinishedMoved": "Problemas resolvidos no local. Sõna viidi tuntud hulka!",
-    "lastSessionDone": "Viimase seansi ülevaatus em lõpetatud.",
-    "continueLastSession": "Jätkame viimase seansi ülevaatust.",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud.",
-    "continueKnownReview": "Jätkame tuntud sõnade ülevaatust.",
+    "showingKnown": "A mostrar os cartões conhecidos.",
+    "problemModeOff": "Modo de palavras problemáticas desativado.",
+    "showingProblems": "A mostrar as palavras problemáticas.",
+    "noProblems": "Não há palavras problemáticas.",
+    "errorLevelReduced": "Nível de erro reduzido.",
+    "movedToKnown": "Palavra movida para as conhecidas!",
+    "problemsFinishedMoved": "Palavras problemáticas aprendidas. Palavra movida para as conhecidas!",
+    "lastSessionDone": "Revisão da última sessão concluída.",
+    "continueLastSession": "Continuamos a revisão da última sessão.",
+    "knownReviewDone": "Revisão das palavras conhecidas concluída.",
+    "continueKnownReview": "Continuamos a revisão das palavras conhecidas.",
     "noVerbToMark": "Não há verbos para marcar.",
     "verbMarkedKnown": "Verbo marcado como conhecido.",
-    "noCardToMark": "Pole kaarte, mida märkida.",
+    "noCardToMark": "Não há cartões para marcar.",
     "markedKnown": "Marcada como conhecida.",
-    "noCard": "Pole kaarti, mida märkida.",
-    "answerRevealed": "Vastus avalikustati. Sõna jääb seanssi.",
-    "returnedToStudy": "Tagasi õpperežiimi.",
-    "leftInProblems": "Grupos problemáticos Jäeti.",
-    "leftForReview": "Jäeti ülevaatamiseks.",
-    "showingTimeReview": "Naitame: {label}.",
-    "continueTimeReview": "Jatkame: {label}.",
+    "noCard": "Não há nenhum cartão para marcar.",
+    "answerRevealed": "Resposta revelada. A palavra fica na sessão.",
+    "returnedToStudy": "De volta ao modo de aprendizagem.",
+    "leftInProblems": "Deixada nas problemáticas.",
+    "leftForReview": "Deixada para revisão.",
+    "showingTimeReview": "A mostrar: {label}.",
+    "continueTimeReview": "A continuar: {label}.",
     "enterAnswerFirst": "Primeiro escreva a resposta correta e toque em «Verificar».",
-    "noCardForMastered": "Pole kaarti, meça 100% tuntud hulka.",
-    "addedMastered": "Parece 100% hulka tuntud.",
-    "alreadyMastered": "Sõna en juba 100% tuntud nimekirjas.",
+    "noCardForMastered": "Não há nenhum cartão para adicionar às conhecidas a 100%.",
+    "addedMastered": "Palavra adicionada às conhecidas a 100%.",
+    "alreadyMastered": "A palavra já está na lista das conhecidas a 100%.",
     "noCardForUnwanted": "Não há nenhum cartão para marcar como desnecessário.",
     "markedUnwanted": "Palavra marcada como desnecessária.",
-    "loadFailed": "Kaartide laadimine ebaõnnestus. Leia isto para verificar e mefailide kättesaadavust.",
-    "noCompletedSession": "Pole lõpetatud seanssi kordamiseks.",
-    "showingLastSession": "Näitame viimast lõpetatud seanssi.",
-    "sessionArchivedNext": "Viimane seanss märgiti õpituks. Laaditi järgmine seanss.",
-    "sessionArchived": "Viimane seanss märgiti õpituks."
+    "loadFailed": "Não foi possível carregar os cartões. Recarregue a página ou verifique se todos os ficheiros de dados estão disponíveis.",
+    "noCompletedSession": "Não há sessões concluídas para rever.",
+    "showingLastSession": "A mostrar a última sessão concluída.",
+    "sessionArchivedNext": "Última sessão marcada como aprendida. Sessão seguinte carregada.",
+    "sessionArchived": "Última sessão marcada como aprendida."
   },
   "review": {
     "weekLabel": "Revisão semanal",
@@ -177,12 +177,12 @@ window.LANGUAGE_UI_STRINGS = {
     "monthEmpty": "Não há palavras aprendidas para a revisão mensal.",
     "monthDone": "Revisão mensal concluída.",
     "monthCount": "Palavras aprendidas este mês: {count}",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
+    "knownReviewDone": "Revisão das palavras conhecidas concluída."
   },
   "lists": {
     "noUnwanted": "Não há palavras desnecessárias.",
     "noLearned": "Não há palavras aprendidas.",
-    "noMastered": "100% perfeito estado."
+    "noMastered": "Não há palavras conhecidas a 100%."
   },
   "restore": {
     "ariaLabel": "Confirmar a eliminação de todo o progresso",
@@ -208,9 +208,9 @@ window.LANGUAGE_UI_STRINGS = {
     "extraBody": "Abra <strong>Mais opções</strong> para ver a revisão semanal e mensal, as palavras conhecidas e recuperar as ocultas."
   },
   "extra": {
-    "wordManagement": "Sonada Haldus",
+    "wordManagement": "Gestão de palavras",
     "statistics": "Estatísticas",
-    "settings": "Sentado"
+    "settings": "Definições"
   },
   "settings": {
     "appLanguage": "Idioma da aplicação"
@@ -249,38 +249,38 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Lição {lesson} · Traduz: {current} / {total}",
     "exerciseProgress": "Lição {lesson} · Exercício",
     "sections": {
-      "grammar": "gramática",
-      "exercise": "harjutus",
-      "translate": "Tõlgi",
-      "exerciseCombined": "Übung / Harjutus",
+      "grammar": "Gramática",
+      "exercise": "Exercício",
+      "translate": "Traduz",
+      "exerciseCombined": "Übung / Exercício",
       "dialogues": "Diálogos / frases",
       "words": "Palavras",
       "names": "Nomes",
       "reading": "Texto / leitura"
     },
     "hints": {
-      "tapToRevealAnswer": "Klõpsa kaardil, et näha Vastust.",
-      "tapToContinue": "Klõpsa kaardil, et jätkata.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa tõlget.",
-      "tapNextStep": "Klõpsa kaardil, et minna järgmise sammu juurde.",
-      "exerciseCardAria": "{title} harjutuskaart"
+      "tapToRevealAnswer": "Toque no cartão para ver a resposta.",
+      "tapToContinue": "Toque no cartão para continuar.",
+      "tapToRevealGerman": "Toque no cartão para ver a tradução em alemão.",
+      "tapNextStep": "Toque no cartão para passar ao passo seguinte.",
+      "exerciseCardAria": "Cartão de exercício {title}"
     },
     "cta": {
-      "tapNextCard": "Klõpsa järgmisele kaardile",
-      "tapToRevealAnswer": "Klõpsa, et näha vasto",
-      "tapContinue": "Klõpsa jätkamisek",
-      "transformSentence": "Muuda lauset.",
-      "transformThirdSingular": "Muuda lause 3. isikus ainsuses.",
-      "transformFirstPlural": "Muuda lause 1. isikus mitmuses."
+      "tapNextCard": "Toque no cartão seguinte",
+      "tapToRevealAnswer": "Toque para ver a resposta",
+      "tapContinue": "Toque para continuar",
+      "transformSentence": "Transforme a frase.",
+      "transformThirdSingular": "Transforme a frase na 3.ª pessoa do singular.",
+      "transformFirstPlural": "Transforme a frase na 1.ª pessoa do plural."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I — kasuta õiget käänet",
-      "chooseCasePlural": "Pan õige kääne ja tee mitmus !",
-      "answerPlural": "Nüüd vastos mitmuses.",
-      "translate": "Übung II - tõlgi",
-      "formDu": "Vorm 1/3: sina (ainsus)",
-      "formIhr": "Vorm 2/3: teie (mitmus)",
-      "formSie": "Vorm 3/3: Sie (viisakusvorm)"
+      "fillCase": "Übung I — use o caso correto",
+      "chooseCasePlural": "Use o caso correto e forme o plural!",
+      "answerPlural": "Agora responda no plural.",
+      "translate": "Übung II — traduza",
+      "formDu": "Forma 1/3: tu (singular)",
+      "formIhr": "Forma 2/3: vocês (plural)",
+      "formSie": "Forma 3/3: Sie (forma de cortesia)"
     },
     "lessonItems": {
       "1": {
@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
     }
   },
   "plural": {
-    "wordOne": "som",
-    "wordsFew": "som",
-    "wordsMany": "som"
+    "wordOne": "palavra",
+    "wordsFew": "palavras",
+    "wordsMany": "palavras"
   },
   "spelling": {
     "writeNative": "Escreva em português",
@@ -390,36 +390,36 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Klõpsa kaardil, et avada selgitus.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa sõna."
+      "tapToOpenExplanation": "Toque no cartão para abrir a explicação.",
+      "tapToRevealGerman": "Toque no cartão para ver a palavra em alemão."
     },
     "sections": {
-      "mainIdea": "pohiidee",
-      "explanation": "Selgitus",
-      "examples": "Näited",
-      "comparison": "Võrdlus",
-      "tip": "Nouanne",
-      "important": "tahtis",
-      "mistakes": "vegetais tuüpilizados",
-      "remember": "Ervilha Meles",
-      "comparisonFocus": "Oluline võrdlus",
-      "comparisonBadge": "VÕRDLUSKAART"
+      "mainIdea": "Ideia principal",
+      "explanation": "Explicação",
+      "examples": "Exemplos",
+      "comparison": "Comparação",
+      "tip": "Dica",
+      "important": "Importante",
+      "mistakes": "Erros típicos",
+      "remember": "Lembre-se",
+      "comparisonFocus": "Comparação importante",
+      "comparisonBadge": "CARTÃO DE COMPARAÇÃO"
     },
     "table": {
-      "word": "Sona",
-      "meaning": "Tähendus",
-      "example": "cupê",
+      "word": "Palavra",
+      "meaning": "Significado",
+      "example": "Exemplo",
       "native": "PT",
-      "german": "Delaware",
-      "mainMeaning": "Peamina tähendus",
-      "describes": "Kirjeldab",
-      "translation": "Tõlge"
+      "german": "DE",
+      "mainMeaning": "Significado principal",
+      "describes": "Descreve",
+      "translation": "Tradução"
     },
     "minimal": {
-      "tipLabel": "Nouanne:",
-      "pluralLabel": "MITM.",
-      "formsLabel": "Vórmide:",
-      "noteLabel": "Marca:"
+      "tipLabel": "Dica:",
+      "pluralLabel": "PL.",
+      "formsLabel": "Formas:",
+      "noteLabel": "Nota:"
     }
   }
 };

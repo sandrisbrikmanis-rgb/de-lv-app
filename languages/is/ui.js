@@ -12,15 +12,15 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "app": {
     "title": "Þýska • IS-DE",
-    "subtitle": "Snjalla þýskunámsleiðbeiningin þín eftir stigum",
-    "shellLabel": "Þýsk–íslensk kort"
+    "subtitle": "Snjall leiðarvísir þinn í þýsku eftir getustigum",
+    "shellLabel": "Þýsk–íslensk spjöld"
   },
   "menu": {
     "mainNav": "Aðalvalmynd",
     "course": "Námskeið",
     "sentences": "Setningar",
     "verbs": "Sagnir",
-    "chooseGroup": "Vali grupp",
+    "chooseGroup": "Veldu hóp",
     "learningModes": "Námshættir"
   },
   "groups": {
@@ -28,16 +28,16 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "nav": {
     "backHome": "Aftur í aðalvalmynd",
-    "changeLanguage": "Muuda emakeelt",
+    "changeLanguage": "Breyta móðurmáli",
     "howItWorks": "Hvernig virkar þetta?",
-    "quickTools": "Kiirtööriistad"
+    "quickTools": "Flýtiverkfæri"
   },
   "buttons": {
     "known": "Ég kann þetta",
     "unknown": "Ég kann þetta ekki",
     "next": "Áfram",
     "check": "Athuga",
-    "continue": "Jätka",
+    "continue": "Halda áfram",
     "close": "Loka",
     "delete": "Eyða",
     "cancel": "Hætta við",
@@ -51,13 +51,13 @@ window.LANGUAGE_UI_STRINGS = {
     "unwantedWords": "Óþörf orð",
     "knownWords": "Þekkt",
     "knownWithCount": "Þekkt ({count})",
-    "markMastered": "100% tean",
+    "markMastered": "Ég kann 100%",
     "shuffleVerbs": "Stokka sagnir",
-    "restartSession": "🔄 Vaata seanssi uuesti",
-    "markSessionLearned": "🏅 Märgi seanss õpituks",
-    "chooseAnotherGroup": "Vali teine grupp",
+    "restartSession": "🔄 Rifja lotuna upp aftur",
+    "markSessionLearned": "🏅 Merkja lotuna sem lærða",
+    "chooseAnotherGroup": "Velja annan hóp",
     "listen": "Hlusta",
-    "listenPlural": "Kuula mitmust",
+    "listenPlural": "Hlusta á fleirtölu",
     "listenWithWord": "Hlusta: {word}",
     "autoplayOn": "Sjálfvirkur framburður á",
     "autoplayOff": "Sjálfvirkur framburður af",
@@ -67,12 +67,12 @@ window.LANGUAGE_UI_STRINGS = {
     "disableAutoplay": "Slökkva á sjálfvirkum framburði",
     "enableAutoplay": "Kveikja á sjálfvirkum framburði",
     "markUnwanted": "Merkja sem óþarft",
-    "masteredWords": "100% tuntud"
+    "masteredWords": "100% þekkt"
   },
   "tools": {
     "problemShort": "Erfið orð",
     "problemFull": "Erfið orð",
-    "problemWithCount": "Probleemsed sõnad ({count})",
+    "problemWithCount": "Erfið orð ({count})",
     "spellingShort": "Stafsetning",
     "spellingFull": "Stafsetning"
   },
@@ -87,25 +87,25 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "hints": {
     "tapToReveal": "Ýttu á spjaldið til að sjá þýðinguna.",
-    "chooseNextStep": "Vali, mida edasi teha.",
-    "chooseModeOrReturn": "Vali teine režiim või tule hiljem ülevaatamiseks tagasi.",
-    "trainingCard": "Harjutuse kaart {title}"
+    "chooseNextStep": "Veldu hvað þú vilt gera næst.",
+    "chooseModeOrReturn": "Veldu annan ham eða komdu aftur síðar til að rifja upp.",
+    "trainingCard": "{title}: æfingaspjald"
   },
   "card": {
-    "pluralLabel": "Mitm.",
+    "pluralLabel": "Ft.",
     "spelling": "Stafsetning",
     "spellingVerbs": "Stafsetning · Sagnir",
     "verbsShuffleTraining": "Sagnir · Blönduð þjálfun",
     "answerPrefix": "Svar:",
-    "sessionComplete": "Seanss lõpetatud!",
+    "sessionComplete": "Lotu lokið!",
     "sessionLabel": "Lota",
-    "lastSessionLabel": "Viimane seanss",
-    "problemLabel": "Probleemsed",
-    "levelCompleteTitle": "Suurepärane! Tase {label} on läbitud! 🎉",
-    "levelCompleteDesc": "Oled selle grupi kõik sõnad selgeks õppinud. Aeg astuda järgmine samm!",
-    "noActiveWords": "Selles grupis pole aktiivseid sõnu.",
-    "noCardsInSession": "Selles seansis pole kaarte.",
-    "cardNotFound": "Kaarti ei leitud"
+    "lastSessionLabel": "Síðasta lota",
+    "problemLabel": "Erfið orð",
+    "levelCompleteTitle": "Frábært! Stigi {label} er lokið! 🎉",
+    "levelCompleteDesc": "Þú hefur lært öll orðin í þessum hópi. Tími til að taka næsta skref!",
+    "noActiveWords": "Engin virk orð eru í þessum hópi.",
+    "noCardsInSession": "Engin spjöld eru í þessari lotu.",
+    "cardNotFound": "Spjald fannst ekki"
   },
   "verb": {
     "infinitive": "Infinitiv",
@@ -127,46 +127,46 @@ window.LANGUAGE_UI_STRINGS = {
     "noShuffleForms": "Þessi sögn hefur ekki nógu margar myndir til að stokka."
   },
   "notices": {
-    "chooseNextGroup": "Vali järgmine grupp peamenüüst.",
-    "sessionReloaded": "Seanss laaditi uuesti segatud järjekorras.",
-    "sessionMovedToKnown": "Seansi sõnad viidi tuntud hulka.",
+    "chooseNextGroup": "Veldu næsta hóp í aðalvalmyndinni.",
+    "sessionReloaded": "Lotan var hlaðin aftur í blandaðri röð.",
+    "sessionMovedToKnown": "Orð lotunnar færð í þekkt.",
     "verbShuffleOn": "Stokkun sagna á.",
     "verbShuffleOff": "Stokkun sagna af.",
     "spellingOn": "Stafsetningarhamur á.",
     "spellingOff": "Stafsetningarhamur af.",
-    "showingKnown": "Näitame tuntud kaarte.",
-    "problemModeOff": "Probleemsete sõnade režiim on väljas.",
-    "showingProblems": "Näitame probleemseid sõnu.",
-    "noProblems": "Probleemseid sõnu pole.",
-    "errorLevelReduced": "Vigade tase vähenes.",
-    "movedToKnown": "Sõna viidi tuntud hulka!",
-    "problemsFinishedMoved": "Probleemsed sõnad on õpitud. Sõna viidi tuntud hulka!",
-    "lastSessionDone": "Viimase seansi ülevaatus on lõpetatud.",
-    "continueLastSession": "Jätkame viimase seansi ülevaatust.",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud.",
-    "continueKnownReview": "Jätkame tuntud sõnade ülevaatust.",
+    "showingKnown": "Sýnum þekkt spjöld.",
+    "problemModeOff": "Hamur erfiðra orða af.",
+    "showingProblems": "Sýnum erfið orð.",
+    "noProblems": "Engin erfið orð.",
+    "errorLevelReduced": "Villustig lækkað.",
+    "movedToKnown": "Orðið fært í þekkt!",
+    "problemsFinishedMoved": "Erfiðu orðin lærð. Orðið fært í þekkt!",
+    "lastSessionDone": "Upprifjun síðustu lotu lokið.",
+    "continueLastSession": "Höldum áfram upprifjun síðustu lotu.",
+    "knownReviewDone": "Upprifjun þekktra orða lokið.",
+    "continueKnownReview": "Höldum áfram upprifjun þekktra orða.",
     "noVerbToMark": "Engar sagnir til að merkja.",
     "verbMarkedKnown": "Sögnin merkt sem þekkt.",
-    "noCardToMark": "Pole kaarte, mida märkida.",
+    "noCardToMark": "Engin spjöld til að merkja.",
     "markedKnown": "Merkt sem þekkt.",
-    "noCard": "Pole kaarti, mida märkida.",
-    "answerRevealed": "Vastus avalikustati. Sõna jääb seanssi.",
-    "returnedToStudy": "Tagasi õpperežiimi.",
-    "leftInProblems": "Jäeti probleemsesse gruppi.",
-    "leftForReview": "Jäeti ülevaatamiseks.",
-    "showingTimeReview": "Näitame: {label}.",
-    "continueTimeReview": "Jätkame: {label}.",
+    "noCard": "Ekkert spjald til að merkja.",
+    "answerRevealed": "Svarið birt. Orðið verður áfram í lotunni.",
+    "returnedToStudy": "Aftur í námsham.",
+    "leftInProblems": "Skilið eftir í hópi erfiðra orða.",
+    "leftForReview": "Skilið eftir til upprifjunar.",
+    "showingTimeReview": "Sýnum: {label}.",
+    "continueTimeReview": "Höldum áfram: {label}.",
     "enterAnswerFirst": "Skrifaðu fyrst rétta svarið og ýttu á „Athuga“.",
-    "noCardForMastered": "Pole kaarti, mida lisada 100% tuntud hulka.",
-    "addedMastered": "Sõna lisati 100% tuntud hulka.",
-    "alreadyMastered": "Sõna on juba 100% tuntud nimekirjas.",
+    "noCardForMastered": "Ekkert spjald til að bæta við 100% þekkt.",
+    "addedMastered": "Orðinu bætt við 100% þekkt.",
+    "alreadyMastered": "Orðið er þegar á listanum yfir 100% þekkt.",
     "noCardForUnwanted": "Ekkert spjald til að merkja sem óþarft.",
     "markedUnwanted": "Orðið merkt sem óþarft.",
-    "loadFailed": "Kaartide laadimine ebaõnnestus. Laadi leht uuesti või kontrolli andmefailide kättesaadavust.",
-    "noCompletedSession": "Pole lõpetatud seanssi kordamiseks.",
-    "showingLastSession": "Näitame viimast lõpetatud seanssi.",
-    "sessionArchivedNext": "Viimane seanss märgiti õpituks. Laaditi järgmine seanss.",
-    "sessionArchived": "Viimane seanss märgiti õpituks."
+    "loadFailed": "Ekki tókst að hlaða spjöldunum. Endurhlaðaðu síðuna eða athugaðu hvort allar gagnaskrár séu aðgengilegar.",
+    "noCompletedSession": "Engin lokin lota til upprifjunar.",
+    "showingLastSession": "Sýnum síðustu loknu lotuna.",
+    "sessionArchivedNext": "Síðasta lota merkt sem lærð. Næsta lota hlaðin.",
+    "sessionArchived": "Síðasta lota merkt sem lærð."
   },
   "review": {
     "weekLabel": "Vikuyfirlit",
@@ -177,12 +177,12 @@ window.LANGUAGE_UI_STRINGS = {
     "monthEmpty": "Engin lærð orð fyrir mánaðaryfirlitið.",
     "monthDone": "Mánaðaryfirliti lokið.",
     "monthCount": "Orð lærð í þessum mánuði: {count}",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
+    "knownReviewDone": "Upprifjun þekktra orða lokið."
   },
   "lists": {
     "noUnwanted": "Engin óþörf orð.",
     "noLearned": "Engin lærð orð.",
-    "noMastered": "100% tuntud sõnu pole."
+    "noMastered": "Engin 100% þekkt orð."
   },
   "restore": {
     "ariaLabel": "Staðfesta eyðingu allrar framvindu",
@@ -208,9 +208,9 @@ window.LANGUAGE_UI_STRINGS = {
     "extraBody": "Opnaðu <strong>Fleiri valkostir</strong> til að sjá viku- og mánaðaryfirlit, þekkt orð og sækja falin orð aftur."
   },
   "extra": {
-    "wordManagement": "Sõnade haldus",
-    "statistics": "Statistika",
-    "settings": "Seaded"
+    "wordManagement": "Orðastjórnun",
+    "statistics": "Tölfræði",
+    "settings": "Stillingar"
   },
   "settings": {
     "appLanguage": "Tungumál forrits"
@@ -237,7 +237,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sentenceStructure": "Setningaskipan",
     "sentenceStructureDesc": "Einföld orðaröð í þýskum setningum.",
     "articlesSubtitle": "Der, die, das og grunnnotkun þeirra.",
-    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — form fornafna.",
+    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — myndir fornafna.",
     "pronunciationSubtitle": "Undirstöðuatriði þýskra hljóða og framburðar",
     "vowelsSubtitle": "Sérhljóð — löng og stutt",
     "consonantsSubtitle": "Samhljóð og stafasambönd",
@@ -249,38 +249,38 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Kennslustund {lesson} · Þýddu: {current} / {total}",
     "exerciseProgress": "Kennslustund {lesson} · Æfing",
     "sections": {
-      "grammar": "Grammatika",
-      "exercise": "Harjutus",
-      "translate": "Tõlgi",
-      "exerciseCombined": "Übung / Harjutus",
+      "grammar": "Málfræði",
+      "exercise": "Æfing",
+      "translate": "Þýddu",
+      "exerciseCombined": "Übung / Æfing",
       "dialogues": "Samtöl / setningar",
       "words": "Orð",
       "names": "Nöfn",
       "reading": "Texti / lestur"
     },
     "hints": {
-      "tapToRevealAnswer": "Klõpsa kaardil, et näha vastust.",
-      "tapToContinue": "Klõpsa kaardil, et jätkata.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa tõlget.",
-      "tapNextStep": "Klõpsa kaardil, et minna järgmise sammu juurde.",
-      "exerciseCardAria": "{title} harjutuskaart"
+      "tapToRevealAnswer": "Ýttu á spjaldið til að sjá svarið.",
+      "tapToContinue": "Ýttu á spjaldið til að halda áfram.",
+      "tapToRevealGerman": "Ýttu á spjaldið til að sjá þýsku þýðinguna.",
+      "tapNextStep": "Ýttu á spjaldið til að fara í næsta skref.",
+      "exerciseCardAria": "{title}: æfingaspjald"
     },
     "cta": {
-      "tapNextCard": "Klõpsa järgmisele kaardile",
-      "tapToRevealAnswer": "Klõpsa, et näha vastust",
-      "tapContinue": "Klõpsa jätkamiseks",
-      "transformSentence": "Muuda lauset.",
-      "transformThirdSingular": "Muuda lause 3. isikus ainsuses.",
-      "transformFirstPlural": "Muuda lause 1. isikus mitmuses."
+      "tapNextCard": "Ýttu á næsta spjald",
+      "tapToRevealAnswer": "Ýttu til að sjá svarið",
+      "tapContinue": "Ýttu til að halda áfram",
+      "transformSentence": "Umbreyttu setningunni.",
+      "transformThirdSingular": "Settu setninguna í 3. persónu eintölu.",
+      "transformFirstPlural": "Settu setninguna í 1. persónu fleirtölu."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I — kasuta õiget käänet",
-      "chooseCasePlural": "Pane õige kääne ja tee mitmus!",
-      "answerPlural": "Nüüd vasta mitmuses.",
-      "translate": "Übung II — tõlgi",
-      "formDu": "Vorm 1/3: sina (ainsus)",
-      "formIhr": "Vorm 2/3: teie (mitmus)",
-      "formSie": "Vorm 3/3: Sie (viisakusvorm)"
+      "fillCase": "Übung I — notaðu rétt fall",
+      "chooseCasePlural": "Settu rétt fall og myndaðu fleirtölu!",
+      "answerPlural": "Svaraðu nú í fleirtölu.",
+      "translate": "Übung II — þýddu",
+      "formDu": "Mynd 1/3: þú (eintala)",
+      "formIhr": "Mynd 2/3: þið (fleirtala)",
+      "formSie": "Mynd 3/3: Sie (kurteisisform)"
     },
     "lessonItems": {
       "1": {
@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
     }
   },
   "plural": {
-    "wordOne": "sõna",
-    "wordsFew": "sõna",
-    "wordsMany": "sõna"
+    "wordOne": "orð",
+    "wordsFew": "orð",
+    "wordsMany": "orð"
   },
   "spelling": {
     "writeNative": "Skrifaðu á íslensku",
@@ -390,36 +390,36 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Klõpsa kaardil, et avada selgitus.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa sõna."
+      "tapToOpenExplanation": "Ýttu á spjaldið til að opna útskýringuna.",
+      "tapToRevealGerman": "Ýttu á spjaldið til að sjá þýska orðið."
     },
     "sections": {
-      "mainIdea": "Põhiidee",
-      "explanation": "Selgitus",
-      "examples": "Näited",
-      "comparison": "Võrdlus",
-      "tip": "Nõuanne",
-      "important": "Tähtis",
-      "mistakes": "Tüüpilised vead",
-      "remember": "Pea meeles",
-      "comparisonFocus": "Oluline võrdlus",
-      "comparisonBadge": "VÕRDLUSKAART"
+      "mainIdea": "Meginhugmynd",
+      "explanation": "Útskýring",
+      "examples": "Dæmi",
+      "comparison": "Samanburður",
+      "tip": "Ábending",
+      "important": "Mikilvægt",
+      "mistakes": "Algengar villur",
+      "remember": "Mundu",
+      "comparisonFocus": "Mikilvægur samanburður",
+      "comparisonBadge": "SAMANBURÐARSPJALD"
     },
     "table": {
-      "word": "Sõna",
-      "meaning": "Tähendus",
-      "example": "Näide",
+      "word": "Orð",
+      "meaning": "Merking",
+      "example": "Dæmi",
       "native": "IS",
       "german": "DE",
-      "mainMeaning": "Peamine tähendus",
-      "describes": "Kirjeldab",
-      "translation": "Tõlge"
+      "mainMeaning": "Aðalmerking",
+      "describes": "Lýsir",
+      "translation": "Þýðing"
     },
     "minimal": {
-      "tipLabel": "Nõuanne:",
-      "pluralLabel": "MITM.",
-      "formsLabel": "Vormid:",
-      "noteLabel": "Märkus:"
+      "tipLabel": "Ábending:",
+      "pluralLabel": "FT.",
+      "formsLabel": "Myndir:",
+      "noteLabel": "Athugasemd:"
     }
   }
 };

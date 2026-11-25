@@ -28,16 +28,16 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "nav": {
     "backHome": "Povratak na glavni izbornik",
-    "changeLanguage": "Promijenite maternji jezik",
+    "changeLanguage": "Promijenite materinski jezik",
     "howItWorks": "Kako funkcionira?",
-    "quickTools": "Hitra orodja"
+    "quickTools": "Brzi alati"
   },
   "buttons": {
     "known": "Znam",
     "unknown": "Ne znam",
     "next": "Dalje",
     "check": "Provjeri",
-    "continue": "Nadaljuj",
+    "continue": "Nastavi",
     "close": "Zatvori",
     "delete": "Izbriši",
     "cancel": "Odustani",
@@ -51,13 +51,13 @@ window.LANGUAGE_UI_STRINGS = {
     "unwantedWords": "Nepotrebne riječi",
     "knownWords": "Poznate",
     "knownWithCount": "Poznate ({count})",
-    "markMastered": "vem 100%",
+    "markMastered": "Znam 100%",
     "shuffleVerbs": "Promiješaj glagole",
-    "restartSession": "🔄 Ponovno ponovite sejo",
-    "markSessionLearned": "🏅 Označi sejo kot naučeno",
-    "chooseAnotherGroup": "Izberite drugo skupino",
+    "restartSession": "🔄 Ponovi sesiju još jednom",
+    "markSessionLearned": "🏅 Označi sesiju kao naučenu",
+    "chooseAnotherGroup": "Odaberite drugu grupu",
     "listen": "Slušaj",
-    "listenPlural": "Poslušaj množino",
+    "listenPlural": "Poslušaj množinu",
     "listenWithWord": "Slušaj: {word}",
     "autoplayOn": "Automatski izgovor uključen",
     "autoplayOff": "Automatski izgovor isključen",
@@ -67,12 +67,12 @@ window.LANGUAGE_UI_STRINGS = {
     "disableAutoplay": "Isključi automatski izgovor",
     "enableAutoplay": "Uključi automatski izgovor",
     "markUnwanted": "Označi kao nepotrebno",
-    "masteredWords": "100% poznan"
+    "masteredWords": "100% poznate"
   },
   "tools": {
     "problemShort": "Problematične",
     "problemFull": "Problematične riječi",
-    "problemWithCount": "Težavne besede ({count})",
+    "problemWithCount": "Problematične riječi ({count})",
     "spellingShort": "Pravopis",
     "spellingFull": "Pravopis"
   },
@@ -82,30 +82,30 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Intenzivno"
   },
   "direction": {
-    "deToNative": "🔄 OD ➔ {code}",
+    "deToNative": "🔄 DE ➔ {code}",
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Dodirnite karticu da biste vidjeli prijevod.",
-    "chooseNextStep": "Izberite, kaj boste storili naprej.",
-    "chooseModeOrReturn": "Izberite drug način ali se vrnite in poskusite znova pozneje.",
-    "trainingCard": "Vadba {title}"
+    "chooseNextStep": "Odaberite što dalje.",
+    "chooseModeOrReturn": "Odaberite drugi režim učenja ili se vratite kasnije na ponavljanje.",
+    "trainingCard": "{title}: kartica vježbe"
   },
   "card": {
-    "pluralLabel": "Lm.",
+    "pluralLabel": "Mn.",
     "spelling": "Pravopis",
     "spellingVerbs": "Pravopis · Glagoli",
     "verbsShuffleTraining": "Glagoli · Mješovita vježba",
     "answerPrefix": "Odgovor:",
-    "sessionComplete": "Seje je konec!",
+    "sessionComplete": "Sesija je završena!",
     "sessionLabel": "Sesija",
-    "lastSessionLabel": "Zadnja seja",
-    "problemLabel": "Problematično",
-    "levelCompleteTitle": "čudovito! Raven {label} je končana! 🎉",
-    "levelCompleteDesc": "Obvladali ste vse besede v tej skupini. Čas je, da naredite naslednji korak!",
-    "noActiveWords": "V tej skupini ni aktivnih besed.",
-    "noCardsInSession": "V tej seji ni kartic.",
-    "cardNotFound": "Kartice ni mogoče najti"
+    "lastSessionLabel": "Zadnja sesija",
+    "problemLabel": "Problematične riječi",
+    "levelCompleteTitle": "Odlično! Razina {label} je završena! 🎉",
+    "levelCompleteDesc": "Naučili ste sve riječi u ovoj grupi. Vrijeme je za sljedeći korak!",
+    "noActiveWords": "U ovoj grupi nema aktivnih riječi.",
+    "noCardsInSession": "U ovoj sesiji nema kartica.",
+    "cardNotFound": "Kartica nije pronađena"
   },
   "verb": {
     "infinitive": "Infinitiv",
@@ -113,7 +113,7 @@ window.LANGUAGE_UI_STRINGS = {
     "imperfectIndicative": "Präteritum",
     "imperfectSubjunctive": "Konjunktiv II",
     "pastParticiple": "Partizip II",
-    "infinitiv": "nedoločnik",
+    "infinitiv": "Infinitiv",
     "writeInfinitive": "Napišite infinitiv",
     "guessInfinitive": "Pogodite infinitiv",
     "writeImperfect": "Napišite oblik Präteritum",
@@ -127,46 +127,46 @@ window.LANGUAGE_UI_STRINGS = {
     "noShuffleForms": "Ovaj glagol nema dovoljno oblika za miješanje."
   },
   "notices": {
-    "chooseNextGroup": "V glavnem meniju izberite naslednjo skupino.",
-    "sessionReloaded": "Seja je bila ponovno naložena v mešanem vrstnem redu.",
-    "sessionMovedToKnown": "Besede iz seje so bile premaknjene v Znano.",
+    "chooseNextGroup": "U glavnom izborniku odaberite sljedeću grupu.",
+    "sessionReloaded": "Sesija je ponovno učitana nasumičnim redoslijedom.",
+    "sessionMovedToKnown": "Riječi iz sesije premještene su u poznate.",
     "verbShuffleOn": "Miješanje glagola je uključeno.",
     "verbShuffleOff": "Miješanje glagola je isključeno.",
     "spellingOn": "Način pravopisa je uključen.",
     "spellingOff": "Način pravopisa je isključen.",
-    "showingKnown": "Predstavljamo znane knjige.",
-    "problemModeOff": "Način problemske besede je onemogočen.",
-    "showingProblems": "Pokažemo problemske besede.",
-    "noProblems": "Brez težavnih besed.",
-    "errorLevelReduced": "Stopnja napak se zmanjša.",
-    "movedToKnown": "Beseda se je premaknila na slavni!",
-    "problemsFinishedMoved": "Izpopolnjene problemske besede. Beseda se je premaknila na slavni!",
-    "lastSessionDone": "Nadaljujte z zadnjo zaključeno sejo.",
-    "continueLastSession": "Nadaljujemo s ponavljanjem zadnje seje.",
-    "knownReviewDone": "Pregled znanih besed je končan.",
-    "continueKnownReview": "Ponavljamo znane besede.",
+    "showingKnown": "Prikazujemo poznate kartice.",
+    "problemModeOff": "Način problematičnih riječi je isključen.",
+    "showingProblems": "Prikazujemo problematične riječi.",
+    "noProblems": "Nema problematičnih riječi.",
+    "errorLevelReduced": "Razina pogrešaka je smanjena.",
+    "movedToKnown": "Riječ je premještena u poznate!",
+    "problemsFinishedMoved": "Problematične riječi su naučene. Riječ je premještena u poznate!",
+    "lastSessionDone": "Ponavljanje zadnje sesije je završeno.",
+    "continueLastSession": "Nastavljamo s ponavljanjem zadnje sesije.",
+    "knownReviewDone": "Ponavljanje poznatih riječi je završeno.",
+    "continueKnownReview": "Nastavljamo s ponavljanjem poznatih riječi.",
     "noVerbToMark": "Nema glagola za označavanje.",
     "verbMarkedKnown": "Glagol je označen kao poznat.",
-    "noCardToMark": "Brez točk.",
+    "noCardToMark": "Nema kartica za označavanje.",
     "markedKnown": "Označeno kao poznato.",
-    "noCard": "Brez točk.",
-    "answerRevealed": "Odgovor se razkriva sam od sebe. Beseda ostaja pri sestanku.",
-    "returnedToStudy": "Nazaj v način vadbe.",
-    "leftInProblems": "Ostal je v problemski skupini.",
-    "leftForReview": "Naj se ponovi.",
+    "noCard": "Nema kartice za označavanje.",
+    "answerRevealed": "Odgovor je otkriven. Riječ ostaje u sesiji.",
+    "returnedToStudy": "Ponovno ste u načinu učenja.",
+    "leftInProblems": "Ostavljeno među problematičnim riječima.",
+    "leftForReview": "Ostavljeno za ponavljanje.",
     "showingTimeReview": "Prikaz: {label}.",
-    "continueTimeReview": "Nadaljujemo: {label}.",
+    "continueTimeReview": "Nastavljamo: {label}.",
     "enterAnswerFirst": "Prvo upišite točan odgovor i dodirnite „Provjeri”.",
-    "noCardForMastered": "Ni znanih kart za dodajanje 100 %.",
-    "addedMastered": "Beseda je bila dodana k 100 % znano.",
-    "alreadyMastered": "Beseda je zdaj na seznamu 100 % znanih.",
+    "noCardForMastered": "Nema kartice za dodavanje u 100% poznate.",
+    "addedMastered": "Riječ je dodana u 100% poznate.",
+    "alreadyMastered": "Riječ je već na popisu 100% poznatih.",
     "noCardForUnwanted": "Nema kartice koju biste označili kao nepotrebnu.",
     "markedUnwanted": "Riječ je označena kao nepotrebna.",
-    "loadFailed": "Ni naloženih kartic. Osvežite stran ali preverite razpoložljivost podatkovnih datotek.",
-    "noCompletedSession": "Ni dokončanih sej za nadaljevanje.",
-    "showingLastSession": "Predstavljamo vam zadnjo zaključeno sejo.",
-    "sessionArchivedNext": "Zadnja seja je označena kot naučena. Naslednja seja je naložena.",
-    "sessionArchived": "Zadnja seja je označena kot naučena."
+    "loadFailed": "Učitavanje kartica nije uspjelo. Ponovno učitajte stranicu ili provjerite jesu li dostupne sve podatkovne datoteke.",
+    "noCompletedSession": "Nema završene sesije za ponavljanje.",
+    "showingLastSession": "Prikazujemo zadnju završenu sesiju.",
+    "sessionArchivedNext": "Zadnja sesija označena je kao naučena. Učitana je sljedeća sesija.",
+    "sessionArchived": "Zadnja sesija označena je kao naučena."
   },
   "review": {
     "weekLabel": "Tjedni pregled",
@@ -177,12 +177,12 @@ window.LANGUAGE_UI_STRINGS = {
     "monthEmpty": "Nema naučenih riječi za mjesečni pregled.",
     "monthDone": "Mjesečni pregled je završen.",
     "monthCount": "Riječi naučene ovaj mjesec: {count}",
-    "knownReviewDone": "Pregled znanih besed je končan."
+    "knownReviewDone": "Ponavljanje poznatih riječi je završeno."
   },
   "lists": {
     "noUnwanted": "Nema nepotrebnih riječi.",
     "noLearned": "Nema naučenih riječi.",
-    "noMastered": "100% znanih besed ni."
+    "noMastered": "Nema 100% poznatih riječi."
   },
   "restore": {
     "ariaLabel": "Potvrdite brisanje cijelog napretka",
@@ -208,9 +208,9 @@ window.LANGUAGE_UI_STRINGS = {
     "extraBody": "Otvorite <strong>Dodatne mogućnosti</strong> da biste vidjeli tjedni i mjesečni pregled, poznate riječi i vratili skrivene riječi."
   },
   "extra": {
-    "wordManagement": "Upravljanje besed",
-    "statistics": "statistično",
-    "settings": "nastavitve"
+    "wordManagement": "Upravljanje riječima",
+    "statistics": "Statistika",
+    "settings": "Postavke"
   },
   "settings": {
     "appLanguage": "Jezik aplikacije"
@@ -249,38 +249,38 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Lekcija {lesson} · Prevedi: {current} / {total}",
     "exerciseProgress": "Lekcija {lesson} · Vježba",
     "sections": {
-      "grammar": "Slovnica",
-      "exercise": "telovadba",
-      "translate": "Prevajalec",
-      "exerciseCombined": "Übung / Vaja",
+      "grammar": "Gramatika",
+      "exercise": "Vježba",
+      "translate": "Prevedi",
+      "exerciseCombined": "Übung / Vježba",
       "dialogues": "Dijalozi / rečenice",
       "words": "Riječi",
       "names": "Imena",
       "reading": "Tekst / čitanje"
     },
     "hints": {
-      "tapToRevealAnswer": "Tapnite kartico, da vidite odgovor.",
-      "tapToContinue": "Za nadaljevanje tapnite kartico.",
-      "tapToRevealGerman": "Tapnite zemljevid, da si ogledate nemški prevod.",
-      "tapNextStep": "Tapnite kartico, da greste na naslednji korak.",
-      "exerciseCardAria": "Vadba {title}"
+      "tapToRevealAnswer": "Dodirnite karticu da biste vidjeli odgovor.",
+      "tapToContinue": "Dodirnite karticu za nastavak.",
+      "tapToRevealGerman": "Dodirnite karticu da biste vidjeli njemački prijevod.",
+      "tapNextStep": "Dodirnite karticu za prijelaz na sljedeći korak.",
+      "exerciseCardAria": "{title}: kartica vježbe"
     },
     "cta": {
-      "tapNextCard": "Dotaknite se naslednjega razdelka",
-      "tapToRevealAnswer": "Tapnite za ogled odgovora",
-      "tapContinue": "Tapnite za nadaljevanje",
-      "transformSentence": "Prepiši stavek.",
-      "transformThirdSingular": "Prepiši poved v 3. osebi ednine.",
-      "transformFirstPlural": "Naredi stavek prve osebe množine."
+      "tapNextCard": "Dodirnite sljedeću karticu",
+      "tapToRevealAnswer": "Dodirnite za prikaz odgovora",
+      "tapContinue": "Dodirnite za nastavak",
+      "transformSentence": "Preoblikujte rečenicu.",
+      "transformThirdSingular": "Preoblikujte rečenicu u 3. lice jednine.",
+      "transformFirstPlural": "Preoblikujte rečenicu u 1. lice množine."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I - uporabi pravilno črko",
-      "chooseCasePlural": "Izberite pravilni primer in tvorite množino!",
-      "answerPlural": "Zdaj odgovorite v množini.",
-      "translate": "Übung II - prevajalec",
-      "formDu": "Oblika 1/3: ti (ednina)",
-      "formIhr": "Oblika 2/3: ti (množina)",
-      "formSie": "3/3: avgust (ugodna oblika)"
+      "fillCase": "Übung I — upotrijebite pravilan padež",
+      "chooseCasePlural": "Stavite pravilan padež i tvorite množinu!",
+      "answerPlural": "Sada odgovorite u množini.",
+      "translate": "Übung II — prevedite",
+      "formDu": "Oblik 1/3: ti (jednina)",
+      "formIhr": "Oblik 2/3: vi (množina)",
+      "formSie": "Oblik 3/3: Sie (oblik iz poštovanja)"
     },
     "lessonItems": {
       "1": {
@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
     }
   },
   "plural": {
-    "wordOne": "ena beseda",
-    "wordsFew": "BESEDE",
-    "wordsMany": "BESEDE"
+    "wordOne": "riječ",
+    "wordsFew": "riječi",
+    "wordsMany": "riječi"
   },
   "spelling": {
     "writeNative": "Pišite na hrvatskom",
@@ -390,36 +390,36 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Kliknite zavihek, da odprete razlago.",
-      "tapToRevealGerman": "Kliknite na zemljevid, da vidite nemško besedo."
+      "tapToOpenExplanation": "Dodirnite karticu da biste otvorili objašnjenje.",
+      "tapToRevealGerman": "Dodirnite karticu da biste vidjeli njemačku riječ."
     },
     "sections": {
-      "mainIdea": "glavna ideja",
-      "explanation": "Razlaga",
-      "examples": "Primeri",
-      "comparison": "Primerjava",
-      "tip": "nasveti",
-      "important": "pomembno",
-      "mistakes": "Pogoste napake",
-      "remember": "Ne pozabite",
-      "comparisonFocus": "Pomembna primerjava",
-      "comparisonBadge": "PRIMERJALNA TABELA"
+      "mainIdea": "Glavna misao",
+      "explanation": "Objašnjenje",
+      "examples": "Primjeri",
+      "comparison": "Usporedba",
+      "tip": "Savjet",
+      "important": "Važno",
+      "mistakes": "Česte pogreške",
+      "remember": "Zapamtite",
+      "comparisonFocus": "Važna usporedba",
+      "comparisonBadge": "KARTICA USPOREDBE"
     },
     "table": {
-      "word": "Ena beseda",
-      "meaning": "pomen",
-      "example": "Primer",
+      "word": "Riječ",
+      "meaning": "Značenje",
+      "example": "Primjer",
       "native": "HR",
-      "german": "OD",
-      "mainMeaning": "Glavni pomen",
-      "describes": "opisujem",
-      "translation": "Prevajanje"
+      "german": "DE",
+      "mainMeaning": "Glavno značenje",
+      "describes": "Opisuje",
+      "translation": "Prijevod"
     },
     "minimal": {
-      "tipLabel": "nasvet:",
-      "pluralLabel": "LM.",
-      "formsLabel": "oblike:",
-      "noteLabel": "Pozor:"
+      "tipLabel": "Savjet:",
+      "pluralLabel": "MN.",
+      "formsLabel": "Oblici:",
+      "noteLabel": "Napomena:"
     }
   }
 };

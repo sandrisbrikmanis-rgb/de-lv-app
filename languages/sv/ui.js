@@ -20,7 +20,7 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Kurs",
     "sentences": "Meningar",
     "verbs": "Verb",
-    "chooseGroup": "Vali grupp",
+    "chooseGroup": "Välj en grupp",
     "learningModes": "Inlärningslägen"
   },
   "groups": {
@@ -28,16 +28,16 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "nav": {
     "backHome": "Tillbaka till huvudmenyn",
-    "changeLanguage": "Muuda emakeelt",
+    "changeLanguage": "Byt modersmål",
     "howItWorks": "Hur fungerar det?",
-    "quickTools": "Kiirtööriistad"
+    "quickTools": "Snabbverktyg"
   },
   "buttons": {
     "known": "Jag kan det",
     "unknown": "Jag kan det inte",
     "next": "Nästa",
     "check": "Kontrollera",
-    "continue": "Jätka",
+    "continue": "Fortsätt",
     "close": "Stäng",
     "delete": "Radera",
     "cancel": "Avbryt",
@@ -51,13 +51,13 @@ window.LANGUAGE_UI_STRINGS = {
     "unwantedWords": "Onödiga ord",
     "knownWords": "Kända",
     "knownWithCount": "Kända ({count})",
-    "markMastered": "100% tean",
+    "markMastered": "Jag kan det till 100 %",
     "shuffleVerbs": "Blanda verben",
-    "restartSession": "🔄 Vaata seanssi uuesti",
-    "markSessionLearned": "🏅 Märgi seanss õpituks",
-    "chooseAnotherGroup": "Vali teine grupp",
+    "restartSession": "🔄 Gå igenom sessionen igen",
+    "markSessionLearned": "🏅 Markera sessionen som inlärd",
+    "chooseAnotherGroup": "Välj en annan grupp",
     "listen": "Lyssna",
-    "listenPlural": "Kuula mitmust",
+    "listenPlural": "Lyssna på pluralformen",
     "listenWithWord": "Lyssna: {word}",
     "autoplayOn": "Automatiskt uttal på",
     "autoplayOff": "Automatiskt uttal av",
@@ -67,12 +67,12 @@ window.LANGUAGE_UI_STRINGS = {
     "disableAutoplay": "Stäng av automatiskt uttal",
     "enableAutoplay": "Slå på automatiskt uttal",
     "markUnwanted": "Markera som onödigt",
-    "masteredWords": "100% tuntud"
+    "masteredWords": "Kan till 100 %"
   },
   "tools": {
     "problemShort": "Problemord",
     "problemFull": "Problemord",
-    "problemWithCount": "Probleemsed sõnad ({count})",
+    "problemWithCount": "Problemord ({count})",
     "spellingShort": "Stavning",
     "spellingFull": "Stavning"
   },
@@ -87,25 +87,25 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "hints": {
     "tapToReveal": "Tryck på kortet för att se översättningen.",
-    "chooseNextStep": "Vali, mida edasi teha.",
-    "chooseModeOrReturn": "Vali teine režiim või tule hiljem ülevaatamiseks tagasi.",
-    "trainingCard": "Harjutuse kaart {title}"
+    "chooseNextStep": "Välj vad du vill göra härnäst.",
+    "chooseModeOrReturn": "Välj ett annat läge eller kom tillbaka senare för att repetera.",
+    "trainingCard": "Övningskort {title}"
   },
   "card": {
-    "pluralLabel": "Mitm.",
+    "pluralLabel": "Pl.",
     "spelling": "Stavning",
     "spellingVerbs": "Stavning · Verb",
     "verbsShuffleTraining": "Verb · Blandad träning",
     "answerPrefix": "Svar:",
-    "sessionComplete": "Seanss lõpetatud!",
+    "sessionComplete": "Sessionen är klar!",
     "sessionLabel": "Session",
-    "lastSessionLabel": "Viimane seanss",
-    "problemLabel": "Probleemsed",
-    "levelCompleteTitle": "Suurepärane! Tase {label} on läbitud! 🎉",
-    "levelCompleteDesc": "Oled selle grupi kõik sõnad selgeks õppinud. Aeg astuda järgmine samm!",
-    "noActiveWords": "Selles grupis pole aktiivseid sõnu.",
-    "noCardsInSession": "Selles seansis pole kaarte.",
-    "cardNotFound": "Kaarti ei leitud"
+    "lastSessionLabel": "Senaste sessionen",
+    "problemLabel": "Problemord",
+    "levelCompleteTitle": "Utmärkt! Nivå {label} är klar! 🎉",
+    "levelCompleteDesc": "Du har lärt dig alla ord i den här gruppen. Dags att ta nästa steg!",
+    "noActiveWords": "Det finns inga aktiva ord i den här gruppen.",
+    "noCardsInSession": "Det finns inga kort i den här sessionen.",
+    "cardNotFound": "Kortet hittades inte"
   },
   "verb": {
     "infinitive": "Infinitiv",
@@ -127,46 +127,46 @@ window.LANGUAGE_UI_STRINGS = {
     "noShuffleForms": "Det här verbet har inte tillräckligt många former att blanda."
   },
   "notices": {
-    "chooseNextGroup": "Vali järgmine grupp peamenüüst.",
-    "sessionReloaded": "Seanss laaditi uuesti segatud järjekorras.",
-    "sessionMovedToKnown": "Seansi sõnad viidi tuntud hulka.",
+    "chooseNextGroup": "Välj nästa grupp i huvudmenyn.",
+    "sessionReloaded": "Sessionen har laddats om i blandad ordning.",
+    "sessionMovedToKnown": "Sessionens ord har flyttats till kända.",
     "verbShuffleOn": "Blandning av verb på.",
     "verbShuffleOff": "Blandning av verb av.",
     "spellingOn": "Stavningsläge på.",
     "spellingOff": "Stavningsläge av.",
-    "showingKnown": "Näitame tuntud kaarte.",
-    "problemModeOff": "Probleemsete sõnade režiim on väljas.",
-    "showingProblems": "Näitame probleemseid sõnu.",
-    "noProblems": "Probleemseid sõnu pole.",
-    "errorLevelReduced": "Vigade tase vähenes.",
-    "movedToKnown": "Sõna viidi tuntud hulka!",
-    "problemsFinishedMoved": "Probleemsed sõnad on õpitud. Sõna viidi tuntud hulka!",
-    "lastSessionDone": "Viimase seansi ülevaatus on lõpetatud.",
-    "continueLastSession": "Jätkame viimase seansi ülevaatust.",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud.",
-    "continueKnownReview": "Jätkame tuntud sõnade ülevaatust.",
+    "showingKnown": "Vi visar de kända korten.",
+    "problemModeOff": "Problemordsläge av.",
+    "showingProblems": "Vi visar problemorden.",
+    "noProblems": "Inga problemord.",
+    "errorLevelReduced": "Felnivån har sänkts.",
+    "movedToKnown": "Ordet har flyttats till kända!",
+    "problemsFinishedMoved": "Problemorden är inlärda. Ordet har flyttats till kända!",
+    "lastSessionDone": "Repetitionen av den senaste sessionen är klar.",
+    "continueLastSession": "Vi fortsätter att repetera den senaste sessionen.",
+    "knownReviewDone": "Repetitionen av kända ord är klar.",
+    "continueKnownReview": "Vi fortsätter att repetera kända ord.",
     "noVerbToMark": "Det finns inga verb att markera.",
     "verbMarkedKnown": "Verbet har markerats som känt.",
-    "noCardToMark": "Pole kaarte, mida märkida.",
+    "noCardToMark": "Det finns inga kort att markera.",
     "markedKnown": "Markerad som känd.",
-    "noCard": "Pole kaarti, mida märkida.",
-    "answerRevealed": "Vastus avalikustati. Sõna jääb seanssi.",
-    "returnedToStudy": "Tagasi õpperežiimi.",
-    "leftInProblems": "Jäeti probleemsesse gruppi.",
-    "leftForReview": "Jäeti ülevaatamiseks.",
-    "showingTimeReview": "Näitame: {label}.",
-    "continueTimeReview": "Jätkame: {label}.",
+    "noCard": "Det finns inget kort att markera.",
+    "answerRevealed": "Svaret har visats. Ordet stannar kvar i sessionen.",
+    "returnedToStudy": "Tillbaka till inlärningsläget.",
+    "leftInProblems": "Kvar bland problemorden.",
+    "leftForReview": "Sparat för repetition.",
+    "showingTimeReview": "Vi visar: {label}.",
+    "continueTimeReview": "Vi fortsätter: {label}.",
     "enterAnswerFirst": "Skriv först rätt svar och tryck på ”Kontrollera”.",
-    "noCardForMastered": "Pole kaarti, mida lisada 100% tuntud hulka.",
-    "addedMastered": "Sõna lisati 100% tuntud hulka.",
-    "alreadyMastered": "Sõna on juba 100% tuntud nimekirjas.",
+    "noCardForMastered": "Det finns inget kort att lägga till i Kan till 100 %.",
+    "addedMastered": "Ordet har lagts till i Kan till 100 %.",
+    "alreadyMastered": "Ordet finns redan i listan Kan till 100 %.",
     "noCardForUnwanted": "Det finns inget kort att markera som onödigt.",
     "markedUnwanted": "Ordet har markerats som onödigt.",
-    "loadFailed": "Kaartide laadimine ebaõnnestus. Laadi leht uuesti või kontrolli andmefailide kättesaadavust.",
-    "noCompletedSession": "Pole lõpetatud seanssi kordamiseks.",
-    "showingLastSession": "Näitame viimast lõpetatud seanssi.",
-    "sessionArchivedNext": "Viimane seanss märgiti õpituks. Laaditi järgmine seanss.",
-    "sessionArchived": "Viimane seanss märgiti õpituks."
+    "loadFailed": "Det gick inte att ladda korten. Ladda om sidan eller kontrollera att alla datafiler är tillgängliga.",
+    "noCompletedSession": "Det finns inga avslutade sessioner att repetera.",
+    "showingLastSession": "Vi visar den senast avslutade sessionen.",
+    "sessionArchivedNext": "Den senaste sessionen har markerats som inlärd. Nästa session har laddats.",
+    "sessionArchived": "Den senaste sessionen har markerats som inlärd."
   },
   "review": {
     "weekLabel": "Veckoöversikt",
@@ -177,12 +177,12 @@ window.LANGUAGE_UI_STRINGS = {
     "monthEmpty": "Inga inlärda ord för månadsöversikten.",
     "monthDone": "Månadsöversikten är klar.",
     "monthCount": "Ord inlärda den här månaden: {count}",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
+    "knownReviewDone": "Repetitionen av kända ord är klar."
   },
   "lists": {
     "noUnwanted": "Inga onödiga ord.",
     "noLearned": "Inga inlärda ord.",
-    "noMastered": "100% tuntud sõnu pole."
+    "noMastered": "Det finns inga ord som du kan till 100 %."
   },
   "restore": {
     "ariaLabel": "Bekräfta radering av alla framsteg",
@@ -208,9 +208,9 @@ window.LANGUAGE_UI_STRINGS = {
     "extraBody": "Öppna <strong>Fler alternativ</strong> för att se vecko- och månadsöversikten, kända ord och hämta tillbaka dolda ord."
   },
   "extra": {
-    "wordManagement": "Sõnade haldus",
-    "statistics": "Statistika",
-    "settings": "Seaded"
+    "wordManagement": "Ordhantering",
+    "statistics": "Statistik",
+    "settings": "Inställningar"
   },
   "settings": {
     "appLanguage": "Appspråk"
@@ -249,38 +249,38 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Lektion {lesson} · Översätt: {current} / {total}",
     "exerciseProgress": "Lektion {lesson} · Övning",
     "sections": {
-      "grammar": "Grammatika",
-      "exercise": "Harjutus",
-      "translate": "Tõlgi",
-      "exerciseCombined": "Übung / Harjutus",
+      "grammar": "Grammatik",
+      "exercise": "Övning",
+      "translate": "Översätt",
+      "exerciseCombined": "Übung / Övning",
       "dialogues": "Dialoger / meningar",
       "words": "Ord",
       "names": "Namn",
       "reading": "Text / läsning"
     },
     "hints": {
-      "tapToRevealAnswer": "Klõpsa kaardil, et näha vastust.",
-      "tapToContinue": "Klõpsa kaardil, et jätkata.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa tõlget.",
-      "tapNextStep": "Klõpsa kaardil, et minna järgmise sammu juurde.",
-      "exerciseCardAria": "{title} harjutuskaart"
+      "tapToRevealAnswer": "Tryck på kortet för att se svaret.",
+      "tapToContinue": "Tryck på kortet för att fortsätta.",
+      "tapToRevealGerman": "Tryck på kortet för att se den tyska översättningen.",
+      "tapNextStep": "Tryck på kortet för att gå till nästa steg.",
+      "exerciseCardAria": "Övningskort {title}"
     },
     "cta": {
-      "tapNextCard": "Klõpsa järgmisele kaardile",
-      "tapToRevealAnswer": "Klõpsa, et näha vastust",
-      "tapContinue": "Klõpsa jätkamiseks",
-      "transformSentence": "Muuda lauset.",
-      "transformThirdSingular": "Muuda lause 3. isikus ainsuses.",
-      "transformFirstPlural": "Muuda lause 1. isikus mitmuses."
+      "tapNextCard": "Tryck på nästa kort",
+      "tapToRevealAnswer": "Tryck för att se svaret",
+      "tapContinue": "Tryck för att fortsätta",
+      "transformSentence": "Skriv om meningen.",
+      "transformThirdSingular": "Skriv om meningen i tredje person singular.",
+      "transformFirstPlural": "Skriv om meningen i första person plural."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I — kasuta õiget käänet",
-      "chooseCasePlural": "Pane õige kääne ja tee mitmus!",
-      "answerPlural": "Nüüd vasta mitmuses.",
-      "translate": "Übung II — tõlgi",
-      "formDu": "Vorm 1/3: sina (ainsus)",
-      "formIhr": "Vorm 2/3: teie (mitmus)",
-      "formSie": "Vorm 3/3: Sie (viisakusvorm)"
+      "fillCase": "Übung I — använd rätt kasus",
+      "chooseCasePlural": "Använd rätt kasus och bilda plural!",
+      "answerPlural": "Svara nu i plural.",
+      "translate": "Übung II — översätt",
+      "formDu": "Form 1/3: du (singular)",
+      "formIhr": "Form 2/3: ni (plural)",
+      "formSie": "Form 3/3: Sie (artighetsform)"
     },
     "lessonItems": {
       "1": {
@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
     }
   },
   "plural": {
-    "wordOne": "sõna",
-    "wordsFew": "sõna",
-    "wordsMany": "sõna"
+    "wordOne": "ord",
+    "wordsFew": "ord",
+    "wordsMany": "ord"
   },
   "spelling": {
     "writeNative": "Skriv på svenska",
@@ -390,36 +390,36 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Klõpsa kaardil, et avada selgitus.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa sõna."
+      "tapToOpenExplanation": "Tryck på kortet för att öppna förklaringen.",
+      "tapToRevealGerman": "Tryck på kortet för att se det tyska ordet."
     },
     "sections": {
-      "mainIdea": "Põhiidee",
-      "explanation": "Selgitus",
-      "examples": "Näited",
-      "comparison": "Võrdlus",
-      "tip": "Nõuanne",
-      "important": "Tähtis",
-      "mistakes": "Tüüpilised vead",
-      "remember": "Pea meeles",
-      "comparisonFocus": "Oluline võrdlus",
-      "comparisonBadge": "VÕRDLUSKAART"
+      "mainIdea": "Huvudtanke",
+      "explanation": "Förklaring",
+      "examples": "Exempel",
+      "comparison": "Jämförelse",
+      "tip": "Råd",
+      "important": "Viktigt",
+      "mistakes": "Vanliga misstag",
+      "remember": "Kom ihåg",
+      "comparisonFocus": "Viktig jämförelse",
+      "comparisonBadge": "JÄMFÖRELSEKORT"
     },
     "table": {
-      "word": "Sõna",
-      "meaning": "Tähendus",
-      "example": "Näide",
+      "word": "Ord",
+      "meaning": "Betydelse",
+      "example": "Exempel",
       "native": "SV",
       "german": "DE",
-      "mainMeaning": "Peamine tähendus",
-      "describes": "Kirjeldab",
-      "translation": "Tõlge"
+      "mainMeaning": "Huvudbetydelse",
+      "describes": "Beskriver",
+      "translation": "Översättning"
     },
     "minimal": {
-      "tipLabel": "Nõuanne:",
-      "pluralLabel": "MITM.",
-      "formsLabel": "Vormid:",
-      "noteLabel": "Märkus:"
+      "tipLabel": "Tips:",
+      "pluralLabel": "PL.",
+      "formsLabel": "Former:",
+      "noteLabel": "Anmärkning:"
     }
   }
 };
