@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronoms",
     "pronounsDesc": "Formes au Nominativ, à l'Akkusativ et au Dativ.",
     "lessons": "Leçons",
-    "lessonsDesc": "Leçons dans l'ordre, de 1 à 21.",
+    "lessonsDesc": "Les leçons dans l’ordre, de 1 à 21.",
     "verbBasics": "Les bases des verbes",
     "verbBasicsDesc": "Personnes, formes et verbes les plus courants.",
     "sentenceStructure": "Structure de la phrase",
@@ -241,12 +241,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Les bases des sons et de la prononciation allemands",
     "vowelsSubtitle": "Voyelles — longues et courtes",
     "consonantsSubtitle": "Consonnes et combinaisons de lettres",
-    "lessonsSubtitle": "Leçons dans l'ordre, de 1 à 21.",
+    "lessonsSubtitle": "Les leçons dans l’ordre, de 1 à 21.",
     "vowelsTitle": "Voyelles — longues et courtes",
     "vowelsDesc": "Voyelles longues et courtes avec exemples.",
     "consonantsTitle": "Consonnes et combinaisons de lettres",
     "consonantsDesc": "Les consonnes les plus importantes pour le débutant.",
-    "lessonProgress": "Leçon {lesson} · Traduction : {current} / {total}",
+    "lessonProgress": "Leçon {lesson} · Traduis : {current} / {total}",
     "exerciseProgress": "Leçon {lesson} · Exercice",
     "sections": {
       "grammar": "Grammaire",
@@ -285,87 +285,87 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Leçon 1",
-        "menuDesc": "Verbes au présent, mots, grammaire et pratique."
+        "menuDesc": "Verbes au présent, vocabulaire, grammaire et entraînement."
       },
       "2": {
-        "title": "Conférence 2",
-        "menuDesc": "Dialogues, mots, prononciation, grammaire et traduction."
+        "title": "Leçon 2",
+        "menuDesc": "Dialogues, vocabulaire, prononciation, grammaire et traduction."
       },
       "3": {
-        "title": "Conférence 3",
-        "menuDesc": "Dialogues, mots, prononciation, grammaire et traduction."
+        "title": "Leçon 3",
+        "menuDesc": "Dialogues, vocabulaire, prononciation, grammaire et traduction."
       },
       "4": {
-        "title": "Conférence 4",
-        "menuDesc": "Accusatif, nehmen, hinlegen, hinausgehen et adjectifs."
+        "title": "Leçon 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen et adjectifs."
       },
       "5": {
-        "title": "Conférence 5",
-        "menuDesc": "Wen ?, accusatif, sitzen, fragen et -in se terminant."
+        "title": "Leçon 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen et la terminaison -in."
       },
       "6": {
-        "title": "Conférence 6",
-        "menuDesc": "Nombres, pluriels, trémas et formes plurielles des noms."
+        "title": "Leçon 6",
+        "menuDesc": "Nombres, pluriel, inflexions (Umlaut) et formes du pluriel des noms."
       },
       "7": {
-        "title": "Conférence 7",
-        "menuDesc": "Impératif, forme d'adresse et pluriel."
+        "title": "Leçon 7",
+        "menuDesc": "Impératif, forme de politesse et pluriel."
       },
       "8": {
-        "title": "Conférence 8",
-        "menuDesc": "Verbes réfléchis, e → i/ie changement et accusatif."
+        "title": "Leçon 8",
+        "menuDesc": "Verbes pronominaux, alternance e → i/ie et Akkusativ."
       },
       "9": {
-        "title": "Conférence 9",
-        "menuDesc": "Sujets multiples, dieser/jener, singulier et pluriel."
+        "title": "Leçon 9",
+        "menuDesc": "Plusieurs objets, dieser/jener, singulier et pluriel."
       },
       "10": {
-        "title": "Conférence 10",
-        "menuDesc": "Sein, können, santé, âge et professions."
+        "title": "Leçon 10",
+        "menuDesc": "Sein, können, la santé, l’âge et les métiers."
       },
       "11": {
-        "title": "Conférence 11",
-        "menuDesc": "Haben, kein/keine/keinen, noms possessifs et composés."
+        "title": "Leçon 11",
+        "menuDesc": "Haben, kein/keine/keinen, la possession et les noms composés."
       },
       "12": {
-        "title": "Conférence 12",
-        "menuDesc": "Qualités comparables, en termes d'âge et de couleurs."
+        "title": "Leçon 12",
+        "menuDesc": "Degrés de comparaison, als/wie, l’âge et les couleurs."
       },
       "13": {
-        "title": "Conférence 13",
-        "menuDesc": "Der Körper, parties du corps, turnen et jeder."
+        "title": "Leçon 13",
+        "menuDesc": "Der Körper, les parties du corps, turnen et jeder."
       },
       "14": {
-        "title": "Conférence 14",
-        "menuDesc": "müssen, wollen, mögen et verbes modaux."
+        "title": "Leçon 14",
+        "menuDesc": "müssen, wollen, mögen et les verbes de modalité."
       },
       "15": {
-        "title": "Conférence 15",
-        "menuDesc": "sollen, dürfen, essen et fruits."
+        "title": "Leçon 15",
+        "menuDesc": "sollen, dürfen, essen et les fruits."
       },
       "16": {
-        "title": "Conférence 16",
-        "menuDesc": "Datif, geben, sich nähern."
+        "title": "Leçon 16",
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Conférence 17",
+        "title": "Leçon 17",
         "menuDesc": "mit + Dativ, womit / mit wem et Umlaut."
       },
       "18": {
-        "title": "Conférence 18",
-        "menuDesc": "wohin / wo, Akkusativ ou Dativ avec un / in / auf."
+        "title": "Leçon 18",
+        "menuDesc": "wohin / wo, Akkusativ ou Dativ avec an / in / auf."
       },
       "19": {
-        "title": "Conférence 19",
-        "menuDesc": "Wechselpräpositionen : vor,hinter, unter, über, neben, zwischen."
+        "title": "Leçon 19",
+        "menuDesc": "Wechselpräpositionen : vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Conférence 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ et noms composés."
+        "title": "Leçon 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ et les noms composés."
       },
       "21": {
-        "title": "Conférence 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Datif."
+        "title": "Leçon 21",
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

@@ -246,7 +246,7 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Долгие и краткие гласные с примерами.",
     "consonantsTitle": "Согласные и буквенные сочетания",
     "consonantsDesc": "Важнейшие согласные звуки для начинающих.",
-    "lessonProgress": "Урок {lesson} · Перевод: {current} / {total}",
+    "lessonProgress": "Урок {lesson} · Переведи: {current} / {total}",
     "exerciseProgress": "Урок {lesson} · Упражнение",
     "sections": {
       "grammar": "Грамматика",
@@ -297,23 +297,23 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Урок 4",
-        "menuDesc": "Винительный падеж, nehmen, hinlegen, hinausgehen и прилагательные."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen и прилагательные."
       },
       "5": {
         "title": "Урок 5",
-        "menuDesc": "Wen?, винительный падеж, sitzen, fragen и окончание -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen и окончание -in."
       },
       "6": {
         "title": "Урок 6",
-        "menuDesc": "Числительные, множественное число, умляуты и формы множественного числа существительных."
+        "menuDesc": "Числительные, множественное число, умлауты и формы множественного числа существительных."
       },
       "7": {
         "title": "Урок 7",
-        "menuDesc": "Повелительное наклонение, вежливая форма и множественное число."
+        "menuDesc": "Повелительное наклонение, вежливая форма обращения и множественное число."
       },
       "8": {
         "title": "Урок 8",
-        "menuDesc": "Возвратные глаголы, чередование e → i/ie и винительный падеж."
+        "menuDesc": "Возвратные глаголы, чередование e → i/ie и Akkusativ."
       },
       "9": {
         "title": "Урок 9",
@@ -325,11 +325,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Урок 11",
-        "menuDesc": "Haben, kein/keine/keinen, принадлежность и составные существительные."
+        "menuDesc": "Haben, kein/keine/keinen, принадлежность и сложные существительные."
       },
       "12": {
         "title": "Урок 12",
-        "menuDesc": "Сравнительная степень, als/wie, возраст и цвета."
+        "menuDesc": "Степени сравнения, als/wie, возраст и цвета."
       },
       "13": {
         "title": "Урок 13",
@@ -345,7 +345,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Урок 16",
-        "menuDesc": "Дательный падеж, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Урок 17",
@@ -361,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Урок 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ и составные существительные."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ и сложные существительные."
       },
       "21": {
         "title": "Урок 21",

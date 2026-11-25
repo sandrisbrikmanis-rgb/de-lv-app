@@ -246,7 +246,7 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Долги и кратки самогласки со примери.",
     "consonantsTitle": "Согласки и комбинации на букви",
     "consonantsDesc": "Најважните согласки за почетници.",
-    "lessonProgress": "Лекција {lesson} · Преведувач: {current} / {total}",
+    "lessonProgress": "Лекција {lesson} · Преведи: {current} / {total}",
     "exerciseProgress": "Лекција {lesson} · Вежба",
     "sections": {
       "grammar": "Граматика",
@@ -285,39 +285,39 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Лекција 1",
-        "menuDesc": "Глаголи во сегашно време, вокабулар, граматика и вежби."
+        "menuDesc": "Глаголи во сегашно време, зборови, граматика и вежбање."
       },
       "2": {
         "title": "Лекција 2",
-        "menuDesc": "Дијалози, зборови, изговор, граматика и превод."
+        "menuDesc": "Дијалози, зборови, изговор, граматика и преведување."
       },
       "3": {
         "title": "Лекција 3",
-        "menuDesc": "Дијалози, зборови, изговор, граматика и превод."
+        "menuDesc": "Дијалози, зборови, изговор, граматика и преведување."
       },
       "4": {
         "title": "Лекција 4",
-        "menuDesc": "Акузатив, немен, хинлеген, хинаусгехен и придавки."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen и придавки."
       },
       "5": {
         "title": "Лекција 5",
-        "menuDesc": "Wen?, акузатив, sitzen, fragen и завршува -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen и наставката -in."
       },
       "6": {
         "title": "Лекција 6",
-        "menuDesc": "Броеви, множина, умлаути и множина на именките."
+        "menuDesc": "Броеви, множина, умлаути и форми за множина на именките."
       },
       "7": {
         "title": "Лекција 7",
-        "menuDesc": "Императив, љубезен и множина."
+        "menuDesc": "Заповеден начин, форма на обраќање и множина."
       },
       "8": {
         "title": "Лекција 8",
-        "menuDesc": "Рефлексивни глаголи, промена e → i/ie и акузативна буква."
+        "menuDesc": "Повратни глаголи, промена e → i/ie и Akkusativ."
       },
       "9": {
         "title": "Лекција 9",
-        "menuDesc": "Многу предмети, различни/жанрови, еднина и множина."
+        "menuDesc": "Повеќе предмети, dieser/jener, еднина и множина."
       },
       "10": {
         "title": "Лекција 10",
@@ -325,15 +325,15 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Лекција 11",
-        "menuDesc": "Haben, kein/keine/keinen, поседување и сложени именки."
+        "menuDesc": "Haben, kein/keine/keinen, сопственост и сложени именки."
       },
       "12": {
         "title": "Лекција 12",
-        "menuDesc": "Универзитетски оценки, сите знаења, возрасти и бои."
+        "menuDesc": "Степени на споредба, als/wie, возраст и бои."
       },
       "13": {
         "title": "Лекција 13",
-        "menuDesc": "Der Körper, делови од телото, свртување и тестиси."
+        "menuDesc": "Der Körper, делови на телото, turnen и jeder."
       },
       "14": {
         "title": "Лекција 14",
@@ -341,19 +341,19 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "15": {
         "title": "Лекција 15",
-        "menuDesc": "солен, дирфен, есен и овошје."
+        "menuDesc": "sollen, dürfen, essen и овошје."
       },
       "16": {
         "title": "Лекција 16",
-        "menuDesc": "Dative, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Лекција 17",
-        "menuDesc": "mit + датив, womit/mit wem и umlaut."
+        "menuDesc": "mit + Dativ, womit / mit wem и Umlaut."
       },
       "18": {
         "title": "Лекција 18",
-        "menuDesc": "whin/wo, акузатив или датив со an/in/auf."
+        "menuDesc": "wohin / wo, Akkusativ или Dativ со an / in / auf."
       },
       "19": {
         "title": "Лекција 19",
@@ -361,11 +361,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Лекција 20",
-        "menuDesc": "Haus, Stockwerk, Dative/Akkusativ и сложени именки."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ и сложени именки."
       },
       "21": {
         "title": "Лекција 21",
-        "menuDesc": "woher / whin / wo, von / aus / mit + Dative."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

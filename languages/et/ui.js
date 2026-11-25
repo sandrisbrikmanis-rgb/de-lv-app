@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Asesõnad",
     "pronounsDesc": "Nominativ-, Akkusativ- ja Dativ-vormid.",
     "lessons": "Õppetunnid",
-    "lessonsDesc": "Õppetunnid järjekorras 1–21.",
+    "lessonsDesc": "Õppetunnid järjest 1. kuni 21.",
     "verbBasics": "Tegusõnade alused",
     "verbBasicsDesc": "Isikud, vormid ja sagedasemad tegusõnad.",
     "sentenceStructure": "Lause ülesehitus",
@@ -241,7 +241,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Saksa keele häälikute ja häälduse alused",
     "vowelsSubtitle": "Täishäälikud — pikad ja lühikesed",
     "consonantsSubtitle": "Kaashäälikud ja tähekombinatsioonid",
-    "lessonsSubtitle": "Õppetunnid järjekorras 1–21.",
+    "lessonsSubtitle": "Õppetunnid järjest 1. kuni 21.",
     "vowelsTitle": "Täishäälikud — pikad ja lühikesed",
     "vowelsDesc": "Pikad ja lühikesed täishäälikud näidetega.",
     "consonantsTitle": "Kaashäälikud ja tähekombinatsioonid",
@@ -285,7 +285,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Õppetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, grammatika ja treening."
+        "menuDesc": "Verbid olevikus, sõnad, grammatika ja harjutamine."
       },
       "2": {
         "title": "Õppetund 2",
@@ -297,23 +297,23 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Õppetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen ja omadussõnad."
       },
       "5": {
         "title": "Õppetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen ja lõpp -in."
       },
       "6": {
         "title": "Õppetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
+        "menuDesc": "Arvud, mitmus, umlaudid ja nimisõnade mitmuse vormid."
       },
       "7": {
         "title": "Õppetund 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
+        "menuDesc": "Käskiv kõneviis, viisakas pöördumisvorm ja mitmus."
       },
       "8": {
         "title": "Õppetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
+        "menuDesc": "Enesekohased verbid, vaheldus e → i/ie ja Akkusativ."
       },
       "9": {
         "title": "Õppetund 9",
@@ -325,7 +325,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Õppetund 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
+        "menuDesc": "Haben, kein/keine/keinen, omamine ja liitnimisõnad."
       },
       "12": {
         "title": "Õppetund 12",
@@ -337,7 +337,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "14": {
         "title": "Õppetund 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
+        "menuDesc": "müssen, wollen, mögen ja modaalverbid."
       },
       "15": {
         "title": "Õppetund 15",
@@ -345,7 +345,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Õppetund 16",
-        "menuDesc": "Daativ, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Õppetund 17",
@@ -361,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Õppetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitnimisõnad."
       },
       "21": {
         "title": "Õppetund 21",

@@ -246,7 +246,7 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Długie i krótkie samogłoski z przykładami.",
     "consonantsTitle": "Spółgłoski i połączenia liter",
     "consonantsDesc": "Najważniejsze dźwięki spółgłoskowe dla początkujących.",
-    "lessonProgress": "Lekcja {lesson} · Tłumacz: {current} / {total}",
+    "lessonProgress": "Lekcja {lesson} · Przetłumacz: {current} / {total}",
     "exerciseProgress": "Lekcja {lesson} · Ćwiczenie",
     "sections": {
       "grammar": "Gramatyka",
@@ -285,7 +285,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lekcja 1",
-        "menuDesc": "Czasowniki w czasie teraźniejszym, słówka, gramatyka i ćwiczenia."
+        "menuDesc": "Czasowniki w czasie teraźniejszym, słówka, gramatyka i trening."
       },
       "2": {
         "title": "Lekcja 2",
@@ -297,11 +297,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lekcja 4",
-        "menuDesc": "Biernik, nehmen, hinlegen, hinausgehen i przymiotniki."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen i przymiotniki."
       },
       "5": {
         "title": "Lekcja 5",
-        "menuDesc": "Wen?, biernik, sitzen, fragen i końcówka -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen i końcówka -in."
       },
       "6": {
         "title": "Lekcja 6",
@@ -313,11 +313,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "8": {
         "title": "Lekcja 8",
-        "menuDesc": "Czasowniki zwrotne, zmiana e → i/ie i biernik."
+        "menuDesc": "Czasowniki zwrotne, wymiana e → i/ie i Akkusativ."
       },
       "9": {
         "title": "Lekcja 9",
-        "menuDesc": "Wiele przedmiotów, dieser/jener, liczba pojedyncza i mnoga."
+        "menuDesc": "Kilka przedmiotów, dieser/jener, liczba pojedyncza i mnoga."
       },
       "10": {
         "title": "Lekcja 10",
@@ -325,11 +325,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Lekcja 11",
-        "menuDesc": "Haben, kein/keine/keinen, przynależność i złożone rzeczowniki."
+        "menuDesc": "Haben, kein/keine/keinen, posiadanie i rzeczowniki złożone."
       },
       "12": {
         "title": "Lekcja 12",
-        "menuDesc": "Stopnie wyższe, als/wie, wiek i kolory."
+        "menuDesc": "Stopniowanie, als/wie, wiek i kolory."
       },
       "13": {
         "title": "Lekcja 13",
@@ -345,7 +345,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Lekcja 16",
-        "menuDesc": "Celownik, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Lekcja 17",
@@ -361,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lekcja 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ i złożone rzeczowniki."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ i rzeczowniki złożone."
       },
       "21": {
         "title": "Lekcja 21",

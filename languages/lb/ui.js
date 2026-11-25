@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronomen",
     "pronounsDesc": "Formen am Nominativ, Akkusativ an Dativ.",
     "lessons": "Lektiounen",
-    "lessonsDesc": "Lektiounen an der Reiefolleg vun 1 bis 21.",
+    "lessonsDesc": "D'Lektiounen an der Reih vun 1 bis 21.",
     "verbBasics": "Grondlage vun de Verben",
     "verbBasicsDesc": "Persounen, Formen an déi heefegst Verben.",
     "sentenceStructure": "Sazbau",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Grondlage vun den däitsche Lauter an der Aussprooch",
     "vowelsSubtitle": "Vokaler — laang a kuerz",
     "consonantsSubtitle": "Konsonanten a Buschtawekombinatiounen",
-    "lessonsSubtitle": "Lektiounen an der Reiefolleg vun 1 bis 21.",
+    "lessonsSubtitle": "D'Lektiounen an der Reih vun 1 bis 21.",
     "vowelsTitle": "Vokaler — laang a kuerz",
     "vowelsDesc": "Laang a kuerz Vokaler mat Beispiller.",
     "consonantsTitle": "Konsonanten a Buschtawekombinatiounen",
     "consonantsDesc": "Déi wichtegst Konsonantelaute fir Ufänger.",
-    "lessonProgress": "Lektioun {lesson} · Iwwersat: {current} / {total}",
-    "exerciseProgress": "Lektioun {lesson} · Übung",
+    "lessonProgress": "Lektioun {lesson} · Iwwersetz: {current} / {total}",
+    "exerciseProgress": "Lektioun {lesson} · Exercice",
     "sections": {
       "grammar": "Gramatika",
       "exercise": "Übung",
@@ -285,15 +285,15 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lektioun 1",
-        "menuDesc": "Verben am Present, kleng Wierder, Grammatik an Training."
+        "menuDesc": "Verben am Present, Wierder, Grammaire an Training."
       },
       "2": {
         "title": "Lektioun 2",
-        "menuDesc": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen."
+        "menuDesc": "Dialogen, Wierder, Aussprooch, Grammaire an Iwwersetzen."
       },
       "3": {
         "title": "Lektioun 3",
-        "menuDesc": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen."
+        "menuDesc": "Dialogen, Wierder, Aussprooch, Grammaire an Iwwersetzen."
       },
       "4": {
         "title": "Lektioun 4",
@@ -301,43 +301,43 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "5": {
         "title": "Lektioun 5",
-        "menuDesc": "Wen?, Akkusativ, sitzen, fragen an -in Endung."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen an d'Endung -in."
       },
       "6": {
         "title": "Lektioun 6",
-        "menuDesc": "Zuelen, Plural, Umlauter an Pluralformen vun Nomen."
+        "menuDesc": "Zuelen, Plural, Ëmlauter a Pluralforme vun de Substantiver."
       },
       "7": {
         "title": "Lektioun 7",
-        "menuDesc": "Imperativ, Uriedsform an Plural."
+        "menuDesc": "Imperativ, Héiflechkeetsform a Plural."
       },
       "8": {
         "title": "Lektioun 8",
-        "menuDesc": "Reflexivverben, e → i/ie Wechsel an Akkusativ."
+        "menuDesc": "Reflexiv Verben, Wiessel e → i/ie an Akkusativ."
       },
       "9": {
         "title": "Lektioun 9",
-        "menuDesc": "Méi Subjekter, dieser/jener, Singular an Plural."
+        "menuDesc": "Méi Saachen, dieser/jener, Singular a Plural."
       },
       "10": {
         "title": "Lektioun 10",
-        "menuDesc": "Sein, können, Gesondheet, Alter an Beruffer."
+        "menuDesc": "Sein, können, Gesondheet, Alter a Beruffer."
       },
       "11": {
         "title": "Lektioun 11",
-        "menuDesc": "Haben, kein/keine/keinen, Besëtz an zesummegesate Nomen."
+        "menuDesc": "Haben, kein/keine/keinen, Besëtz an zesummegesate Substantiver."
       },
       "12": {
         "title": "Lektioun 12",
-        "menuDesc": "Vergläichsformen, als/wie, Alter an Faarwen."
+        "menuDesc": "Steigerungsformen, als/wie, Alter a Faarwen."
       },
       "13": {
         "title": "Lektioun 13",
-        "menuDesc": "Der Körper, Kierperdeeler, turnen an jeder."
+        "menuDesc": "Der Körper, Kierperdeeler, turnen a jeder."
       },
       "14": {
         "title": "Lektioun 14",
-        "menuDesc": "müssen, wollen, mögen an modal Verben."
+        "menuDesc": "müssen, wollen, mögen a Modalverben."
       },
       "15": {
         "title": "Lektioun 15",
@@ -361,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lektioun 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ an zesummegesate Nomen."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ an zesummegesate Substantiver."
       },
       "21": {
         "title": "Lektioun 21",

@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronomen",
     "pronounsDesc": "Former i Nominativ, Akkusativ och Dativ.",
     "lessons": "Lektioner",
-    "lessonsDesc": "Lektioner i ordning från 1 till 21.",
+    "lessonsDesc": "Lektionerna i ordning från 1 till 21.",
     "verbBasics": "Grunderna i verb",
     "verbBasicsDesc": "Personer, former och de vanligaste verben.",
     "sentenceStructure": "Meningsbyggnad",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Grunderna i tyska ljud och uttal",
     "vowelsSubtitle": "Vokaler — långa och korta",
     "consonantsSubtitle": "Konsonanter och bokstavskombinationer",
-    "lessonsSubtitle": "Lektioner i ordning från 1 till 21.",
+    "lessonsSubtitle": "Lektionerna i ordning från 1 till 21.",
     "vowelsTitle": "Vokaler — långa och korta",
     "vowelsDesc": "Långa och korta vokaler med exempel.",
     "consonantsTitle": "Konsonanter och bokstavskombinationer",
     "consonantsDesc": "De viktigaste konsonantljuden för nybörjare.",
-    "lessonProgress": "Õppetund {lesson} · Tõlgi: {current} / {total}",
-    "exerciseProgress": "Õppetund {lesson} · Harjutus",
+    "lessonProgress": "Lektion {lesson} · Översätt: {current} / {total}",
+    "exerciseProgress": "Lektion {lesson} · Övning",
     "sections": {
       "grammar": "Grammatika",
       "exercise": "Harjutus",
@@ -284,87 +284,87 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Õppetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, grammatika ja treening."
+        "title": "Lektion 1",
+        "menuDesc": "Verb i presens, ord, grammatik och övning."
       },
       "2": {
-        "title": "Õppetund 2",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Lektion 2",
+        "menuDesc": "Dialoger, ord, uttal, grammatik och översättning."
       },
       "3": {
-        "title": "Õppetund 3",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Lektion 3",
+        "menuDesc": "Dialoger, ord, uttal, grammatik och översättning."
       },
       "4": {
-        "title": "Õppetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad."
+        "title": "Lektion 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen och adjektiv."
       },
       "5": {
-        "title": "Õppetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
+        "title": "Lektion 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen och ändelsen -in."
       },
       "6": {
-        "title": "Õppetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
+        "title": "Lektion 6",
+        "menuDesc": "Räkneord, plural, omljud och substantivens pluralformer."
       },
       "7": {
-        "title": "Õppetund 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
+        "title": "Lektion 7",
+        "menuDesc": "Imperativ, tilltalsform och plural."
       },
       "8": {
-        "title": "Õppetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
+        "title": "Lektion 8",
+        "menuDesc": "Reflexiva verb, växlingen e → i/ie och Akkusativ."
       },
       "9": {
-        "title": "Õppetund 9",
-        "menuDesc": "Mitu eset, dieser/jener, ainsus ja mitmus."
+        "title": "Lektion 9",
+        "menuDesc": "Flera föremål, dieser/jener, singular och plural."
       },
       "10": {
-        "title": "Õppetund 10",
-        "menuDesc": "Sein, können, tervis, vanus ja ametid."
+        "title": "Lektion 10",
+        "menuDesc": "Sein, können, hälsa, ålder och yrken."
       },
       "11": {
-        "title": "Õppetund 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
+        "title": "Lektion 11",
+        "menuDesc": "Haben, kein/keine/keinen, ägande och sammansatta substantiv."
       },
       "12": {
-        "title": "Õppetund 12",
-        "menuDesc": "Võrdlusastmed, als/wie, vanus ja värvid."
+        "title": "Lektion 12",
+        "menuDesc": "Komparation, als/wie, ålder och färger."
       },
       "13": {
-        "title": "Õppetund 13",
-        "menuDesc": "Der Körper, kehaosad, turnen ja jeder."
+        "title": "Lektion 13",
+        "menuDesc": "Der Körper, kroppsdelar, turnen och jeder."
       },
       "14": {
-        "title": "Õppetund 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
+        "title": "Lektion 14",
+        "menuDesc": "müssen, wollen, mögen och modala hjälpverb."
       },
       "15": {
-        "title": "Õppetund 15",
-        "menuDesc": "sollen, dürfen, essen ja puuviljad."
+        "title": "Lektion 15",
+        "menuDesc": "sollen, dürfen, essen och frukt."
       },
       "16": {
-        "title": "Õppetund 16",
+        "title": "Lektion 16",
         "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Õppetund 17",
-        "menuDesc": "mit + Dativ, womit / mit wem ja Umlaut."
+        "title": "Lektion 17",
+        "menuDesc": "mit + Dativ, womit / mit wem och Umlaut."
       },
       "18": {
-        "title": "Õppetund 18",
-        "menuDesc": "wohin / wo, Akkusativ või Dativ koos an / in / auf."
+        "title": "Lektion 18",
+        "menuDesc": "wohin / wo, Akkusativ eller Dativ med an / in / auf."
       },
       "19": {
-        "title": "Õppetund 19",
+        "title": "Lektion 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Õppetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad."
+        "title": "Lektion 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ och sammansatta substantiv."
       },
       "21": {
-        "title": "Õppetund 21",
+        "title": "Lektion 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }

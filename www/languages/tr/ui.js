@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Zamirler",
     "pronounsDesc": "Nominativ, Akkusativ ve Dativ biçimleri.",
     "lessons": "Dersler",
-    "lessonsDesc": "1'den 21'e sırayla dersler.",
+    "lessonsDesc": "1'den 21'e kadar sırayla dersler.",
     "verbBasics": "Fiillerin temelleri",
     "verbBasicsDesc": "Şahıslar, biçimler ve en sık kullanılan fiiller.",
     "sentenceStructure": "Cümle yapısı",
@@ -241,7 +241,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Almanca seslerin ve telaffuzun temelleri",
     "vowelsSubtitle": "Ünlü harfler — uzun ve kısa",
     "consonantsSubtitle": "Ünsüzler ve harf kombinasyonları",
-    "lessonsSubtitle": "1'den 21'e sırayla dersler.",
+    "lessonsSubtitle": "1'den 21'e kadar sırayla dersler.",
     "vowelsTitle": "Ünlü harfler — uzun ve kısa",
     "vowelsDesc": "Örneklerle birlikte uzun ve kısa sesli harfler.",
     "consonantsTitle": "Ünsüzler ve harf kombinasyonları",
@@ -285,7 +285,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Ders 1",
-        "menuDesc": "Şimdiki zamandaki fiiller, kelime bilgisi, dilbilgisi ve alıştırmalar."
+        "menuDesc": "Şimdiki zamanda fiiller, kelimeler, dilbilgisi ve alıştırma."
       },
       "2": {
         "title": "Ders 2",
@@ -297,27 +297,27 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Ders 4",
-        "menuDesc": "Suçlayıcı, nehmen, hinlegen, hinausgehen ve sıfatlar."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen ve sıfatlar."
       },
       "5": {
         "title": "Ders 5",
-        "menuDesc": "Venüs, akümülatör, sitzen, fragen ve tip - in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen ve -in eki."
       },
       "6": {
         "title": "Ders 6",
-        "menuDesc": "Rakamlar, çoğullar, umlautlar ve isimlerin çoğul biçimleri."
+        "menuDesc": "Sayılar, çoğul, umlautlar ve isimlerin çoğul biçimleri."
       },
       "7": {
         "title": "Ders 7",
-        "menuDesc": "Komut modu, nezaket formu ve çoğul."
+        "menuDesc": "Emir kipi, hitap biçimi ve çoğul."
       },
       "8": {
         "title": "Ders 8",
-        "menuDesc": "Fiilleri, → i/e değişimini ve suçlayıcıyı döndürün."
+        "menuDesc": "Dönüşlü fiiller, e → i/ie değişimi ve Akkusativ."
       },
       "9": {
         "title": "Ders 9",
-        "menuDesc": "Birden fazla öğe, dieser/jeneratör, tekil ve çoğul."
+        "menuDesc": "Birden çok nesne, dieser/jener, tekil ve çoğul."
       },
       "10": {
         "title": "Ders 10",
@@ -325,27 +325,27 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Ders 11",
-        "menuDesc": "Haben, kein/keine/keinen, üyelik ve bileşik isimler."
+        "menuDesc": "Haben, kein/keine/keinen, sahiplik ve birleşik isimler."
       },
       "12": {
         "title": "Ders 12",
-        "menuDesc": "Daha yüksek dereceler, ALS/WIE, yaş ve renkler."
+        "menuDesc": "Karşılaştırma dereceleri, als/wie, yaş ve renkler."
       },
       "13": {
         "title": "Ders 13",
-        "menuDesc": "Der Körper, gövde parçaları, turnen ve jeder."
+        "menuDesc": "Der Körper, vücudun bölümleri, turnen ve jeder."
       },
       "14": {
         "title": "Ders 14",
-        "menuDesc": "müssen, wollen, mögen ve modal fiiller."
+        "menuDesc": "müssen, wollen, mögen ve kip fiilleri."
       },
       "15": {
         "title": "Ders 15",
-        "menuDesc": "sollen, dürfen, essen ve meyve."
+        "menuDesc": "sollen, dürfen, essen ve meyveler."
       },
       "16": {
         "title": "Ders 16",
-        "menuDesc": "Görme, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Ders 17",
@@ -353,7 +353,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "18": {
         "title": "Ders 18",
-        "menuDesc": "wohin / wo, Akkusativ veya Dativ from an / in / auf."
+        "menuDesc": "wohin / wo, an / in / auf ile Akkusativ veya Dativ."
       },
       "19": {
         "title": "Ders 19",
@@ -361,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Ders 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ve bileşik isimler."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ve birleşik isimler."
       },
       "21": {
         "title": "Ders 21",

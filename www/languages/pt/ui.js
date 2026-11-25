@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronomes",
     "pronounsDesc": "Formas no Nominativ, Akkusativ e Dativ.",
     "lessons": "Lições",
-    "lessonsDesc": "Lições por ordem de 1 a 21.",
+    "lessonsDesc": "As lições por ordem, da 1 à 21.",
     "verbBasics": "Bases dos verbos",
     "verbBasicsDesc": "Pessoas, formas e os verbos mais comuns.",
     "sentenceStructure": "Estrutura da frase",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Bases dos sons e da pronúncia do alemão",
     "vowelsSubtitle": "Vogais — longas e curtas",
     "consonantsSubtitle": "Consoantes e combinações de letras",
-    "lessonsSubtitle": "Lições por ordem de 1 a 21.",
+    "lessonsSubtitle": "As lições por ordem, da 1 à 21.",
     "vowelsTitle": "Vogais — longas e curtas",
     "vowelsDesc": "Vogais longas e curtas com exemplos.",
     "consonantsTitle": "Consoantes e combinações de letras",
     "consonantsDesc": "Os sons consonânticos mais importantes para principiantes.",
-    "lessonProgress": "Õppetund {lesson} · Tõlgi: {current} / {total}",
-    "exerciseProgress": "Õppetund {lesson} · Harjutus",
+    "lessonProgress": "Lição {lesson} · Traduz: {current} / {total}",
+    "exerciseProgress": "Lição {lesson} · Exercício",
     "sections": {
       "grammar": "gramática",
       "exercise": "harjutus",
@@ -284,87 +284,87 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Õpetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, gramatical e treening."
+        "title": "Lição 1",
+        "menuDesc": "Verbos no presente, vocabulário, gramática e prática."
       },
       "2": {
-        "title": "Õpetund 2",
-        "menuDesc": "Dialogid, sonad, hääldus, gramatical e tõlkimine."
+        "title": "Lição 2",
+        "menuDesc": "Diálogos, palavras, pronúncia, gramática e tradução."
       },
       "3": {
-        "title": "episódio 3",
-        "menuDesc": "Dialogid, sonad, hääldus, gramatical e tõlkimine."
+        "title": "Lição 3",
+        "menuDesc": "Diálogos, palavras, pronúncia, gramática e tradução."
       },
       "4": {
-        "title": "Õpetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen e omadussõnad."
+        "title": "Lição 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen e adjetivos."
       },
       "5": {
-        "title": "Õpetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
+        "title": "Lição 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen e a terminação -in."
       },
       "6": {
-        "title": "Õpetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
+        "title": "Lição 6",
+        "menuDesc": "Números, plural, tremas e formas do plural dos substantivos."
       },
       "7": {
-        "title": "episódio 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
+        "title": "Lição 7",
+        "menuDesc": "Imperativo, forma de cortesia e plural."
       },
       "8": {
-        "title": "Õpetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
+        "title": "Lição 8",
+        "menuDesc": "Verbos reflexos, mudança e → i/ie e Akkusativ."
       },
       "9": {
-        "title": "episódio 9",
-        "menuDesc": "Mitu eset, dieser/jener, ainsus ja mitmus."
+        "title": "Lição 9",
+        "menuDesc": "Vários objetos, dieser/jener, singular e plural."
       },
       "10": {
-        "title": "Õpetund 10",
-        "menuDesc": "Sein, können, tervis, vanus ja ametid."
+        "title": "Lição 10",
+        "menuDesc": "Sein, können, saúde, idade e profissões."
       },
       "11": {
-        "title": "Episódio 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
+        "title": "Lição 11",
+        "menuDesc": "Haben, kein/keine/keinen, posse e substantivos compostos."
       },
       "12": {
-        "title": "episódio 12",
-        "menuDesc": "Võrdlusastmed, também/wie, vanus ja värvid."
+        "title": "Lição 12",
+        "menuDesc": "Graus de comparação, als/wie, idade e cores."
       },
       "13": {
-        "title": "episódio 13",
-        "menuDesc": "Der Körper, kehaosad, turnen ja jeder."
+        "title": "Lição 13",
+        "menuDesc": "Der Körper, partes do corpo, turnen e jeder."
       },
       "14": {
-        "title": "episódio 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
+        "title": "Lição 14",
+        "menuDesc": "müssen, wollen, mögen e verbos modais."
       },
       "15": {
-        "title": "episódio 15",
-        "menuDesc": "sollen, dürfen, essen ja puuviljad."
+        "title": "Lição 15",
+        "menuDesc": "sollen, dürfen, essen e frutas."
       },
       "16": {
-        "title": "episódio 16",
+        "title": "Lição 16",
         "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "episódio 17",
-        "menuDesc": "mit + Dativ, womit / mit wem ja Umlaut."
+        "title": "Lição 17",
+        "menuDesc": "mit + Dativ, womit / mit wem e Umlaut."
       },
       "18": {
-        "title": "Õpetund 18",
-        "menuDesc": "wohin / wo, Akkusativ või Dativ koos an / in / auf."
+        "title": "Lição 18",
+        "menuDesc": "wohin / wo, Akkusativ ou Dativ com an / in / auf."
       },
       "19": {
-        "title": "episódio 19",
-        "menuDesc": "Wechselpräpositionen: vor, dificultar, unter, über, neben, zwischen."
+        "title": "Lição 19",
+        "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Õpetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ e liitsõnad."
+        "title": "Lição 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ e substantivos compostos."
       },
       "21": {
-        "title": "episódio 21",
+        "title": "Lição 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }

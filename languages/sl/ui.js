@@ -246,7 +246,7 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Dolgi in kratki samoglasniki s primeri.",
     "consonantsTitle": "Soglasniki in črkovne kombinacije",
     "consonantsDesc": "Najpomembnejši soglasniki za začetnike.",
-    "lessonProgress": "Lekcija {lesson} · Prevajalec: {current} / {total}",
+    "lessonProgress": "Lekcija {lesson} · Prevedi: {current} / {total}",
     "exerciseProgress": "Lekcija {lesson} · Vaja",
     "sections": {
       "grammar": "Slovnica",
@@ -285,39 +285,39 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lekcija 1",
-        "menuDesc": "Glagoli sedanjika, besedišče, slovnica in vaje."
+        "menuDesc": "Glagoli v sedanjiku, besedišče, slovnica in utrjevanje."
       },
       "2": {
         "title": "Lekcija 2",
-        "menuDesc": "Dialogi, besede, izgovorjava, slovnica in prevod."
+        "menuDesc": "Dialogi, besede, izgovorjava, slovnica in prevajanje."
       },
       "3": {
         "title": "Lekcija 3",
-        "menuDesc": "Dialogi, besede, izgovorjava, slovnica in prevod."
+        "menuDesc": "Dialogi, besede, izgovorjava, slovnica in prevajanje."
       },
       "4": {
         "title": "Lekcija 4",
-        "menuDesc": "Tožilnik, srednji rod, hinlegen, hinausgehen in pridevniki."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen in pridevniki."
       },
       "5": {
         "title": "Lekcija 5",
-        "menuDesc": "Wen?, tožilnik, sitzen, fragen in se konča na -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen in končnica -in."
       },
       "6": {
         "title": "Lekcija 6",
-        "menuDesc": "Števila, množine, preglasi in množine samostalnikov."
+        "menuDesc": "Števila, množina, preglasi in množinske oblike samostalnikov."
       },
       "7": {
         "title": "Lekcija 7",
-        "menuDesc": "Velilni, vljudni in množinski."
+        "menuDesc": "Velelnik, vljudnostni ogovor in množina."
       },
       "8": {
         "title": "Lekcija 8",
-        "menuDesc": "Povratni glagoli, sprememba e → i/ie in tožilnik."
+        "menuDesc": "Povratni glagoli, menjava e → i/ie in Akkusativ."
       },
       "9": {
         "title": "Lekcija 9",
-        "menuDesc": "Veliko predmetov, različnih/zvrsti, ednina in množina."
+        "menuDesc": "Več predmetov, dieser/jener, ednina in množina."
       },
       "10": {
         "title": "Lekcija 10",
@@ -325,15 +325,15 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Lekcija 11",
-        "menuDesc": "Haben, kein/keine/keinen, posest in samostalniki."
+        "menuDesc": "Haben, kein/keine/keinen, posedovanje in zloženi samostalniki."
       },
       "12": {
         "title": "Lekcija 12",
-        "menuDesc": "Univerzitetne ocene, vsa znanja, starosti in barve."
+        "menuDesc": "Stopnjevanje, als/wie, starost in barve."
       },
       "13": {
         "title": "Lekcija 13",
-        "menuDesc": "Der Körper, deli telesa, struženje in testisi."
+        "menuDesc": "Der Körper, deli telesa, turnen in jeder."
       },
       "14": {
         "title": "Lekcija 14",
@@ -341,7 +341,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "15": {
         "title": "Lekcija 15",
-        "menuDesc": "slano, pikantno, jesensko in sadno."
+        "menuDesc": "sollen, dürfen, essen in sadje."
       },
       "16": {
         "title": "Lekcija 16",
@@ -349,11 +349,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "17": {
         "title": "Lekcija 17",
-        "menuDesc": "mit + dativ, womit/mit wem in preglas."
+        "menuDesc": "mit + Dativ, womit / mit wem in Umlaut."
       },
       "18": {
         "title": "Lekcija 18",
-        "menuDesc": "whin/wo, tožilnik ali dajal z an/in/auf."
+        "menuDesc": "wohin / wo, Akkusativ ali Dativ z an / in / auf."
       },
       "19": {
         "title": "Lekcija 19",
@@ -361,11 +361,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lekcija 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ in sestavljeni samostalniki."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ in zloženi samostalniki."
       },
       "21": {
         "title": "Lekcija 21",
-        "menuDesc": "woher / whin / wo, von / aus / mit + Dativ."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

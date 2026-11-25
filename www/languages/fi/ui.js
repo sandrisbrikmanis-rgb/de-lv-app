@@ -246,8 +246,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Pitkät ja lyhyet vokaalit esimerkein.",
     "consonantsTitle": "Konsonantit ja kirjainyhdistelmät",
     "consonantsDesc": "Tärkeimmät konsonanttiäänteet aloittelijalle.",
-    "lessonProgress": "Õppetund {lesson} · Tõlgi: {current} / {total}",
-    "exerciseProgress": "Õppetund {lesson} · Harjutus",
+    "lessonProgress": "Oppitunti {lesson} · Käännä: {current} / {total}",
+    "exerciseProgress": "Oppitunti {lesson} · Harjoitus",
     "sections": {
       "grammar": "Grammatika",
       "exercise": "Harjutus",
@@ -284,87 +284,87 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Õppetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, grammatika ja treening."
+        "title": "Oppitunti 1",
+        "menuDesc": "Verbit preesensissä, sanasto, kielioppi ja harjoittelu."
       },
       "2": {
-        "title": "Õppetund 2",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Oppitunti 2",
+        "menuDesc": "Dialogit, sanasto, ääntäminen, kielioppi ja kääntäminen."
       },
       "3": {
-        "title": "Õppetund 3",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Oppitunti 3",
+        "menuDesc": "Dialogit, sanasto, ääntäminen, kielioppi ja kääntäminen."
       },
       "4": {
-        "title": "Õppetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad."
+        "title": "Oppitunti 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen ja adjektiivit."
       },
       "5": {
-        "title": "Õppetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
+        "title": "Oppitunti 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen ja pääte -in."
       },
       "6": {
-        "title": "Õppetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
+        "title": "Oppitunti 6",
+        "menuDesc": "Luvut, monikko, umlautit ja substantiivien monikkomuodot."
       },
       "7": {
-        "title": "Õppetund 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
+        "title": "Oppitunti 7",
+        "menuDesc": "Imperatiivi, kohtelias puhuttelumuoto ja monikko."
       },
       "8": {
-        "title": "Õppetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
+        "title": "Oppitunti 8",
+        "menuDesc": "Refleksiiviverbit, vaihtelu e → i/ie ja Akkusativ."
       },
       "9": {
-        "title": "Õppetund 9",
-        "menuDesc": "Mitu eset, dieser/jener, ainsus ja mitmus."
+        "title": "Oppitunti 9",
+        "menuDesc": "Useita esineitä, dieser/jener, yksikkö ja monikko."
       },
       "10": {
-        "title": "Õppetund 10",
-        "menuDesc": "Sein, können, tervis, vanus ja ametid."
+        "title": "Oppitunti 10",
+        "menuDesc": "Sein, können, terveys, ikä ja ammatit."
       },
       "11": {
-        "title": "Õppetund 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
+        "title": "Oppitunti 11",
+        "menuDesc": "Haben, kein/keine/keinen, omistaminen ja yhdyssubstantiivit."
       },
       "12": {
-        "title": "Õppetund 12",
-        "menuDesc": "Võrdlusastmed, als/wie, vanus ja värvid."
+        "title": "Oppitunti 12",
+        "menuDesc": "Vertailuasteet, als/wie, ikä ja värit."
       },
       "13": {
-        "title": "Õppetund 13",
-        "menuDesc": "Der Körper, kehaosad, turnen ja jeder."
+        "title": "Oppitunti 13",
+        "menuDesc": "Der Körper, ruumiinosat, turnen ja jeder."
       },
       "14": {
-        "title": "Õppetund 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
+        "title": "Oppitunti 14",
+        "menuDesc": "müssen, wollen, mögen ja modaaliverbit."
       },
       "15": {
-        "title": "Õppetund 15",
-        "menuDesc": "sollen, dürfen, essen ja puuviljad."
+        "title": "Oppitunti 15",
+        "menuDesc": "sollen, dürfen, essen ja hedelmät."
       },
       "16": {
-        "title": "Õppetund 16",
+        "title": "Oppitunti 16",
         "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Õppetund 17",
+        "title": "Oppitunti 17",
         "menuDesc": "mit + Dativ, womit / mit wem ja Umlaut."
       },
       "18": {
-        "title": "Õppetund 18",
-        "menuDesc": "wohin / wo, Akkusativ või Dativ koos an / in / auf."
+        "title": "Oppitunti 18",
+        "menuDesc": "wohin / wo, Akkusativ tai Dativ prepositioiden an / in / auf kanssa."
       },
       "19": {
-        "title": "Õppetund 19",
+        "title": "Oppitunti 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Õppetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad."
+        "title": "Oppitunti 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja yhdyssubstantiivit."
       },
       "21": {
-        "title": "Õppetund 21",
+        "title": "Oppitunti 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }

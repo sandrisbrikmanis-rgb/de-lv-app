@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Займенники",
     "pronounsDesc": "Форми Nominativ, Akkusativ та Dativ.",
     "lessons": "Уроки",
-    "lessonsDesc": "Уроки по порядку від 1 до 21.",
+    "lessonsDesc": "Уроки по порядку з 1 по 21.",
     "verbBasics": "Основи дієслів",
     "verbBasicsDesc": "Особи, форми та найуживаніші дієслова.",
     "sentenceStructure": "Будова речення",
@@ -241,12 +241,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Основи звуків і вимови німецької мови",
     "vowelsSubtitle": "Голосні — довгі та короткі",
     "consonantsSubtitle": "Приголосні та літерні поєднання",
-    "lessonsSubtitle": "Уроки по порядку від 1 до 21.",
+    "lessonsSubtitle": "Уроки по порядку з 1 по 21.",
     "vowelsTitle": "Голосні — довгі та короткі",
     "vowelsDesc": "Довгі та короткі голосні з прикладами.",
     "consonantsTitle": "Приголосні та літерні поєднання",
     "consonantsDesc": "Найважливіші приголосні звуки для початківців.",
-    "lessonProgress": "Урок {lesson} · Переклад: {current} / {total}",
+    "lessonProgress": "Урок {lesson} · Переклади: {current} / {total}",
     "exerciseProgress": "Урок {lesson} · Вправа",
     "sections": {
       "grammar": "Граматика",
@@ -297,23 +297,23 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Урок 4",
-        "menuDesc": "Знахідний відмінок, nehmen, hinlegen, hinausgehen і прикметники."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen і прикметники."
       },
       "5": {
         "title": "Урок 5",
-        "menuDesc": "Wen?, знахідний відмінок, sitzen, fragen і закінчення -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen і суфікс -in."
       },
       "6": {
         "title": "Урок 6",
-        "menuDesc": "Числівники, множина, умляути й форми множини іменників."
+        "menuDesc": "Числівники, множина, умлаути та форми множини іменників."
       },
       "7": {
         "title": "Урок 7",
-        "menuDesc": "Наказовий спосіб, ввічлива форма й множина."
+        "menuDesc": "Наказовий спосіб, ввічлива форма звертання та множина."
       },
       "8": {
         "title": "Урок 8",
-        "menuDesc": "Зворотні дієслова, чергування e → i/ie і знахідний відмінок."
+        "menuDesc": "Зворотні дієслова, чергування e → i/ie та Akkusativ."
       },
       "9": {
         "title": "Урок 9",
@@ -345,7 +345,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Урок 16",
-        "menuDesc": "Давальний відмінок, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Урок 17",
@@ -353,7 +353,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "18": {
         "title": "Урок 18",
-        "menuDesc": "wohin / wo, Akkusativ або Dativ з an / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ чи Dativ з an / in / auf."
       },
       "19": {
         "title": "Урок 19",

@@ -297,23 +297,23 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lekcija 4",
-        "menuDesc": "Akuzativ, nehmen, hinlegen, hinausgehen i pridevi."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen i pridevi."
       },
       "5": {
         "title": "Lekcija 5",
-        "menuDesc": "Wen?, akuzativ, sitzen, fragen i nastavak -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen i nastavak -in."
       },
       "6": {
         "title": "Lekcija 6",
-        "menuDesc": "Brojevi, množina, umlauti i oblici množine imenica."
+        "menuDesc": "Brojevi, množina, preglasi i oblici množine imenica."
       },
       "7": {
         "title": "Lekcija 7",
-        "menuDesc": "Imperativ, oblik obraćanja i množina."
+        "menuDesc": "Imperativ, učtivo obraćanje i množina."
       },
       "8": {
         "title": "Lekcija 8",
-        "menuDesc": "Povratni glagoli, promena e → i/ie i akuzativ."
+        "menuDesc": "Povratni glagoli, promena e → i/ie i Akkusativ."
       },
       "9": {
         "title": "Lekcija 9",
@@ -321,15 +321,15 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "10": {
         "title": "Lekcija 10",
-        "menuDesc": "Sein, können, zdravlje, godine i zanimanja."
+        "menuDesc": "Sein, können, zdravlje, starost i zanimanja."
       },
       "11": {
         "title": "Lekcija 11",
-        "menuDesc": "Haben, kein/keine/keinen, pripadanje i složene imenice."
+        "menuDesc": "Haben, kein/keine/keinen, posedovanje i složene imenice."
       },
       "12": {
         "title": "Lekcija 12",
-        "menuDesc": "Stepeni poređenja, als/wie, godine i boje."
+        "menuDesc": "Poređenje prideva, als/wie, starost i boje."
       },
       "13": {
         "title": "Lekcija 13",
@@ -353,7 +353,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "18": {
         "title": "Lekcija 18",
-        "menuDesc": "wohin / wo, Akkusativ ili Dativ uz an / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ ili Dativ sa an / in / auf."
       },
       "19": {
         "title": "Lekcija 19",

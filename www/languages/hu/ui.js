@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Névmások",
     "pronounsDesc": "Nominativ, Akkusativ és Dativ alakok.",
     "lessons": "Leckék",
-    "lessonsDesc": "Leckék sorrendben 1-től 21-ig.",
+    "lessonsDesc": "A leckék sorrendben, 1-től 21-ig.",
     "verbBasics": "Az igék alapjai",
     "verbBasicsDesc": "Személyek, alakok és a leggyakoribb igék.",
     "sentenceStructure": "Mondatszerkezet",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "A német hangok és a kiejtés alapjai",
     "vowelsSubtitle": "Magánhangzók — hosszú és rövid",
     "consonantsSubtitle": "Mássalhangzók és betűkombinációk",
-    "lessonsSubtitle": "Leckék sorrendben 1-től 21-ig.",
+    "lessonsSubtitle": "A leckék sorrendben, 1-től 21-ig.",
     "vowelsTitle": "Magánhangzók — hosszú és rövid",
     "vowelsDesc": "Hosszú és rövid magánhangzók példákkal.",
     "consonantsTitle": "Mássalhangzók és betűkombinációk",
     "consonantsDesc": "A kezdők számára a legfontosabb mássalhangzók.",
-    "lessonProgress": "{lesson} előadás · Fordította: {current} / {total}",
-    "exerciseProgress": "Előadás {lesson} · Gyakorlat",
+    "lessonProgress": "{lesson}. lecke · Fordítsd le: {current} / {total}",
+    "exerciseProgress": "{lesson}. lecke · Gyakorlat",
     "sections": {
       "grammar": "Nyelvtan",
       "exercise": "Gyakorlat",
@@ -284,88 +284,88 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "1. előadás",
-        "menuDesc": "Igék jelen időben, szavak, nyelvtan és gyakorlat."
+        "title": "1. lecke",
+        "menuDesc": "Igék jelen időben, szavak, nyelvtan és gyakorlás."
       },
       "2": {
-        "title": "2. előadás",
+        "title": "2. lecke",
         "menuDesc": "Párbeszédek, szavak, kiejtés, nyelvtan és fordítás."
       },
       "3": {
-        "title": "3. előadás",
+        "title": "3. lecke",
         "menuDesc": "Párbeszédek, szavak, kiejtés, nyelvtan és fordítás."
       },
       "4": {
-        "title": "4. előadás",
-        "menuDesc": "Accusative, nehmen, hinlegen, hinausgehen és melléknevek."
+        "title": "4. lecke",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen és melléknevek."
       },
       "5": {
-        "title": "5. előadás",
-        "menuDesc": "Wen?, accusative, sitzen, fragen és -in végződés."
+        "title": "5. lecke",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen és az -in végződés."
       },
       "6": {
-        "title": "6. előadás",
-        "menuDesc": "A főnevek számok, többes számok, umlautok és többes számú alakok."
+        "title": "6. lecke",
+        "menuDesc": "Számok, többes szám, Umlaut és a főnevek többes számú alakjai."
       },
       "7": {
-        "title": "7. előadás",
-        "menuDesc": "Felszólító, megszólítási és többes szám."
+        "title": "7. lecke",
+        "menuDesc": "Felszólító mód, megszólítási forma és többes szám."
       },
       "8": {
-        "title": "8. előadás",
-        "menuDesc": "Visszaható igék, e → i/ie változtat és accusative."
+        "title": "8. lecke",
+        "menuDesc": "Visszaható igék, e → i/ie váltakozás és Akkusativ."
       },
       "9": {
-        "title": "9. előadás",
-        "menuDesc": "Több alany, dieser/jener, egyes és többes szám."
+        "title": "9. lecke",
+        "menuDesc": "Több tárgy, dieser/jener, egyes és többes szám."
       },
       "10": {
-        "title": "10. előadás",
-        "menuDesc": "Sein, können, egészség, életkor és szakmák."
+        "title": "10. lecke",
+        "menuDesc": "Sein, können, egészség, életkor és foglalkozások."
       },
       "11": {
-        "title": "11. előadás",
-        "menuDesc": "Haben, kein/keine/keinen, birtokos és összetett főnevek."
+        "title": "11. lecke",
+        "menuDesc": "Haben, kein/keine/keinen, birtoklás és összetett főnevek."
       },
       "12": {
-        "title": "12. előadás",
-        "menuDesc": "Összehasonlítható minőségek, als/wie, kor és színek."
+        "title": "12. lecke",
+        "menuDesc": "Fokozás, als/wie, életkor és színek."
       },
       "13": {
-        "title": "13. előadás",
+        "title": "13. lecke",
         "menuDesc": "Der Körper, testrészek, turnen és jeder."
       },
       "14": {
-        "title": "14. előadás",
-        "menuDesc": "müssen, wollen, mögen és modális igék."
+        "title": "14. lecke",
+        "menuDesc": "müssen, wollen, mögen és a módbeli segédigék."
       },
       "15": {
-        "title": "15. előadás",
-        "menuDesc": "sollen, dürfen, essen és gyümölcs."
+        "title": "15. lecke",
+        "menuDesc": "sollen, dürfen, essen és gyümölcsök."
       },
       "16": {
-        "title": "16. előadás",
-        "menuDesc": "Dative, geben, sich nähern."
+        "title": "16. lecke",
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "17. előadás",
+        "title": "17. lecke",
         "menuDesc": "mit + Dativ, womit / mit wem és Umlaut."
       },
       "18": {
-        "title": "18. előadás",
-        "menuDesc": "wohin / wo, Akkusativ vagy Dativ / in / auf."
+        "title": "18. lecke",
+        "menuDesc": "wohin / wo, Akkusativ vagy Dativ az an / in / auf után."
       },
       "19": {
-        "title": "19. előadás",
+        "title": "19. lecke",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "20. előadás",
+        "title": "20. lecke",
         "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ és összetett főnevek."
       },
       "21": {
-        "title": "21. előadás",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Dative."
+        "title": "21. lecke",
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },
