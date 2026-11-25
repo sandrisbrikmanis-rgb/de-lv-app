@@ -961,3 +961,28 @@ body.is-home-screen #homeMenuScreen.mobile-home-v2 .home-menu-language-btn {
 .home-menu-screen[hidden] {
   display: none !important;
 }
+/* UZDEVUMS314: sākuma ekrāns bez vairoga un mirdzuma — pogām pašām savas krāsas (melns, sarkans, zelts) */
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black,
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black:hover {
+  background-color: #161616 !important;
+  border-color: rgba(255, 255, 255, 0.22) !important;
+}
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black:active {
+  background-color: #262626 !important;
+}
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red,
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red:hover {
+  background-color: #B0000E !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red:active {
+  background-color: #8E000B !important;
+}
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold,
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold:hover {
+  background-color: #C9A100 !important;
+  border-color: rgba(0, 0, 0, 0.25) !important;
+}
+html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold:active {
+  background-color: #A88600 !important;
+}
