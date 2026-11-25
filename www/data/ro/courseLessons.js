@@ -59,11 +59,11 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "Cursul 8",
-    "subtitle": "Verbe reflexive, e → i/ie schimbare și acuzativ.",
+    "title": "Lecția 8",
+    "subtitle": "Verbe reflexive, alternanța e → i/ie și acuzativul.",
     "sections": [
       {
-        "title": "Dialoguri/propoziții",
+        "title": "Dialoguri / propoziții",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Cuvinte",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
-          "stehen auf — pieceļas",
-          "grüßen (grüsen) — sveicināt",
-          "guten Morgen — labrīt",
-          "gut — labs",
-          "der Morgen — rīts",
-          "der Herr — kungs",
-          "das Kind — bērns",
-          "die Kinder — bērni",
-          "setzt euch (zect oich) — sēstieties!",
-          "sie setzen sich — viņi apsēžas",
-          "fragen (ar akuzatīvu) — jautāt",
-          "sprechen — runāt",
-          "er spricht — viņš runā",
-          "aber — bet",
-          "sehr (zēr) — ļoti",
-          "leise — klusi",
-          "laut — skaļi",
-          "jetzt (ject) — tagad",
-          "lesen — lasīt",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
-          "schreiben — rakstīt",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — stāstīt",
-          "zuhören — klausīties",
-          "sie hören zu — viņi klausās",
-          "was ist das — kas tas ir?",
-          "der Arbeiter — strādnieks",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — maiznieks",
-          "der Schneider (dēr šneider) — drēbnieks",
-          "der Gärtner (dēr gertner) — dārznieks",
-          "der Schuster — kurpnieks"
+          "alle — toți",
+          "aufstehen — a se ridica",
+          "stehen auf — se ridică",
+          "grüßen (grüsen) — a saluta",
+          "guten Morgen — bună dimineața",
+          "gut — bun",
+          "der Morgen — dimineață",
+          "der Herr — domn",
+          "das Kind — copil",
+          "die Kinder — copii",
+          "setzt euch (zețt oih) — așezați-vă!",
+          "sie setzen sich — ei se așază",
+          "fragen (cu acuzativul) — a întreba",
+          "sprechen — a vorbi",
+          "er spricht — el vorbește",
+          "aber — dar",
+          "sehr (zer) — foarte",
+          "leise — încet",
+          "laut — tare",
+          "jetzt (iețt) — acum",
+          "lesen — a citi",
+          "lies! — citește!",
+          "gut — bine",
+          "schlecht — rău, prost",
+          "deutlich (doitlih) — clar, deslușit",
+          "schreiben — a scrie",
+          "endlich (entlih) — în sfârșit",
+          "erzählen (erțelen) — a povesti",
+          "zuhören — a asculta",
+          "sie hören zu — ei ascultă",
+          "was ist das — ce este asta?",
+          "der Arbeiter — muncitor",
+          "der Müller — morar",
+          "der Tischler — tâmplar",
+          "der Bäcker (der becher) — brutar",
+          "der Schneider (der șnaider) — croitor",
+          "der Gärtner (der ghertner) — grădinar",
+          "der Schuster — cizmar"
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä, după cum s-a menționat, se pronunță ca un e închis, scurt sau lung. Exemple: der Bäcker (becher), das Mädchen (met-hen).",
+          "ä se mai pronunță și ca un e deschis, de exemplu în cuvântul der Gärtner (der ghertner).",
+          "În cuvintele Schüler, Bücher — ü este lung (ü lung), iar în Müller — ü este scurt.",
+          "ie se pronunță ca un i lung: liest (list).",
+          "ß se pronunță ca s: grüßen (grüsen).",
+          "eu se pronunță ca oi: deutlich (doitlih)."
         ]
       },
       {
         "title": "Gramatică",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "La multe verbe cu vocala e în temă, la persoanele a 2-a și a 3-a singular ale prezentului apare i sau ie în loc de e.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "La aceste verbe, și la imperativul singular apare i sau ie în loc de e în temă: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "În limba română, verbele reflexive se folosesc cu pronumele reflexive mă, te, se etc. Nici în germană nu există o conjugare specială pentru ele. Se conjugă la fel ca celelalte verbe, adăugându-se pronumele reflexiv sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Modul imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Exercițiu",
         "exerciseType": "mixed",
-        "description": "Übung I - Folosește conjugarea corectă. Übung II - Carduri de traducere.",
+        "description": "Übung I — folosește cazul corect. Übung II — cartonașe de traducere.",
         "cards": [
           {
             "type": "fill",
@@ -249,22 +249,22 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Salutați profesorul și profesorul!",
+            "lv": "Salută-l pe profesor și pe profesoară!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Ce saluti?",
+            "lv": "Pe cine saluți?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Salut domnisoara.",
+            "lv": "O salut pe domnișoara.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Deschide toate ferestrele!",
+            "lv": "Deschideți toate ferestrele!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -274,7 +274,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Deschizi fereastra",
+            "lv": "Deschizi fereastra?",
             "de": "Öffnest du das Fenster?"
           },
           {
@@ -284,27 +284,27 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Toți elevii se așează.",
+            "lv": "Toți elevii se așază.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Paul, stai jos!",
+            "lv": "Paul, așază-te!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Copii, stați jos!",
+            "lv": "Copii, așezați-vă!",
             "de": "Kinder, setzt euch!"
           },
           {
             "type": "translate",
-            "lv": "Nu vorbi linistit!",
+            "lv": "Nu vorbi încet!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Cum vorbeste?",
+            "lv": "Cum vorbește el?",
             "de": "Wie spricht er?"
           },
           {
@@ -314,12 +314,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Cine citește cu voce tare?",
+            "lv": "Cine citește tare?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Elevul citește cu voce tare și clar.",
+            "lv": "Eleva citește tare și clar.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -329,42 +329,42 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Nu vorbi linistit!",
+            "lv": "Nu vorbi încet!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Citește bine!",
+            "lv": "Citiți bine!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis scrie bine, dar Ana scrie prost.",
+            "lv": "Hans scrie bine, dar Anna scrie prost.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Domnișoară Müller, vă rog să cântați un cântec!",
+            "lv": "Domnișoară Müller, cântați, vă rog, un cântec!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Domnule profesor, vă rog să vă așezați!",
+            "lv": "Domnule profesor, vă rog, așezați-vă!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "exerciseType": "translate",
-        "description": "Traduceți propoziții în limba letonă în germană.",
+        "description": "Tradu propozițiile din română în germană.",
         "cards": [
           {
-            "lv": "Salutați profesorul și profesorul.",
+            "lv": "Salută-l pe profesor și pe profesoară!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Deschide toate ferestrele!",
+            "lv": "Deschideți toate ferestrele!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -372,7 +372,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Ai deschis fereastra",
+            "lv": "Ai deschis fereastra?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
@@ -380,23 +380,23 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Toți elevii se așează.",
+            "lv": "Toți elevii se așază.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paul, stai jos!",
+            "lv": "Paul, așază-te!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Copii, stați jos!",
+            "lv": "Copii, așezați-vă!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Nu vorbi linistit!",
+            "lv": "Nu vorbi încet!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Cum vorbeste?",
+            "lv": "Cum vorbește el?",
             "de": "Wie spricht er?"
           },
           {
@@ -404,11 +404,11 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Cine citește cu voce tare?",
+            "lv": "Cine citește tare?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Elevul citește cu voce tare și clar.",
+            "lv": "Eleva citește tare și clar.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -416,23 +416,23 @@ const COURSE_LESSON_DATA = {
             "de": "Lies gut!"
           },
           {
-            "lv": "Nu vorbi linistit!",
+            "lv": "Nu vorbi încet!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Citește bine!",
+            "lv": "Citiți bine!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis scrie bine, dar Ana scrie prost.",
+            "lv": "Hans scrie bine, dar Anna scrie prost.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Domnișoară Müller, vă rog să cântați un cântec!",
+            "lv": "Domnișoară Müller, cântați, vă rog, un cântec!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Domnule profesor, vă rog să vă așezați!",
+            "lv": "Domnule profesor, vă rog, așezați-vă!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,12 +441,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "Cursul 9",
-    "subtitle": "Subiecte multiple, dieser/jener, singular și plural",
-    "intro": "A noua prelegere: plural de substantive, pronume demonstrative dieser/jener, exerciții și traducere.",
+    "title": "Lecția 9",
+    "subtitle": "Mai multe obiecte, dieser/jener, singularul și pluralul",
+    "intro": "A noua lecție: pluralul substantivelor, pronumele demonstrative dieser/jener, exerciții și traducere.",
     "sections": [
       {
-        "title": "Dialoguri/propoziții",
+        "title": "Dialoguri / propoziții",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Cuvinte",
         "items": [
-          "mehrere (mērere) — vairāki, vairākas",
-          "hier (hīr) — šeit, te",
-          "dort — tur",
-          "auch — arī",
-          "langsam (lankzām) — lēni",
-          "schnell (šnel) — ātri",
-          "mehr (mēr) — vairāk",
-          "zumachen — aiztaisīt",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — sēdēt",
-          "ruhig (rū-ich) — mierīgi",
-          "dieser (dīzer) — šis",
-          "jener (jēner) — tas",
-          "der Brief (dēr brīf) — vēstule",
-          "die Briefe — vēstules",
-          "kurz (kurc) — īss",
-          "rein — tīrs",
-          "schmutzig (šmucich) — netīrs"
+          "mehrere (merere) — mai mulți, mai multe",
+          "hier (hir) — aici",
+          "dort — acolo",
+          "auch — și, de asemenea",
+          "langsam (lanczam) — încet",
+          "schnell (șnel) — repede",
+          "mehr (mer) — mai mult",
+          "zumachen — a închide",
+          "ich mache zu — eu închid",
+          "sitzen (zițen) — a ședea",
+          "ruhig (ru-ih) — liniștit",
+          "dieser (dizer) — acesta",
+          "jener (iener) — acela",
+          "der Brief (der brif) — scrisoare",
+          "die Briefe — scrisori",
+          "kurz (curț) — scurt",
+          "rein — curat",
+          "schmutzig (șmuțih) — murdar"
         ]
       },
       {
         "title": "Gramatică",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Indicați pronumele dieser și jener ca articol hotărât."
+            "heading": "Pronumele demonstrative",
+            "text": "Pronumele demonstrative dieser și jener se declină ca articolul hotărât."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Singular",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Plural",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Dacă substantivul este precedat de un pronume sau de un cuvânt numeric, articolul nu este folosit."
+            "heading": "Fără articol",
+            "text": "Dacă înaintea substantivului stă un pronume sau un numeral, articolul nu se folosește."
           },
           {
             "examples": [
@@ -560,23 +560,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir nehmen ein Heft."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir schreiben schnell."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir machen das Heft zu."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Propoziție de deschidere",
-                "task": "Schimbați această propoziție la persoana a 3-a singular.",
+                "label": "1/4 Propoziția inițială",
+                "task": "Pune această propoziție la persoana a 3-a singular.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Schimbați propoziția de la început la persoana I plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pune propoziția inițială la persoana 1 plural.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 formă de fir",
-                "task": "Folosiți pluralul în loc de singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Folosește substantivul la plural în loc de singular.",
                 "text": "Wir sitzen ruhig."
               },
               {
                 "label": "4/4 Plural",
-                "task": "Gata. Următorul clic arată următorul card.",
+                "task": "Gata. Următorul clic arată cartonașul următor.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,11 +784,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Fata se așează și scrie o scrisoare.",
+            "lv": "Fata se așază și scrie o scrisoare.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
@@ -800,19 +800,19 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Ce faci",
+            "lv": "Ce faceți dumneavoastră?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Stăm și citim.",
+            "lv": "Stăm jos și citim.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paul, stai jos și citește!",
+            "lv": "Paul, așază-te și citește!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Domnule profesor, stați jos și citiți!",
+            "lv": "Domnule profesor, așezați-vă și citiți!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
@@ -820,15 +820,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Scrie rapid sau încet?",
+            "lv": "Scriu repede sau încet?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Ei scriu foarte încet.",
+            "lv": "Scriu foarte încet.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Ce este această farfurie?",
+            "lv": "Cum este această farfurie?",
             "de": "Wie ist dieser Teller?"
           },
           {
@@ -836,19 +836,19 @@ const COURSE_LESSON_DATA = {
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Literele sunt lungi sau scurte?",
+            "lv": "Scrisorile sunt lungi sau scurte?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Ana, ascuți creionul!",
+            "lv": "Anna, ascute acest creion!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Profesor, te rog ascuți acest creion!",
+            "lv": "Domnule profesor, vă rog, ascuțiți acest creion!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Lasă creionul ăla!",
+            "lv": "Pune jos creionul acela!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -860,7 +860,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Ea închide fereastra și iese.",
+            "lv": "Ea închide fereastra și iese afară.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,12 +869,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "Cursul 10",
-    "subtitle": "Sein, können, sănătate, vârstă și profesii",
-    "intro": "A zecea prelegere: sein, können, forme de comandă, sănătate, vârstă și profesii.",
+    "title": "Lecția 10",
+    "subtitle": "Sein, können, sănătatea, vârsta și profesiile",
+    "intro": "A zecea lecție: sein, können, formele de imperativ, sănătatea, vârsta și profesiile.",
     "sections": [
       {
-        "title": "Dialoguri/propoziții",
+        "title": "Dialoguri / propoziții",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Cuvinte",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — mēs esam",
-          "ihr seid (īr zeit) — jūs esat",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — viņš var",
-          "wir können — mēs varam",
-          "ihr könnt — jūs varat",
-          "sie können — viņi var",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (dēr knābe) — zēns",
-          "der Mann — vīrs, vīrietis",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — vectēvs",
-          "krank — slims",
-          "fleißig (fleišich) — čakls",
-          "lernen — mācīties",
-          "alt — vecs",
-          "das Jahr (jār) — gads",
-          "die Jahre — gadi",
-          "wie — kā, kāds, cik"
+          "gesund (ghezunt) — sănătos",
+          "ich bin gesund — eu sunt sănătos",
+          "du bist — tu ești",
+          "wir sind — noi suntem",
+          "ihr seid (ir zait) — voi sunteți",
+          "ich kann — eu pot",
+          "du kannst — tu poți",
+          "er kann — el poate",
+          "wir können — noi putem",
+          "ihr könnt — voi puteți",
+          "sie können — ei pot",
+          "sei gesund — fii sănătos!",
+          "seid gesund — fiți sănătoși!",
+          "seien Sie gesund — fiți sănătos, dumneavoastră!",
+          "der Knabe (der cnabe) — băiat",
+          "der Mann — bărbat, soț",
+          "die Frau — femeie, soție",
+          "der Großvater (der grosfater) — bunic",
+          "krank — bolnav",
+          "fleißig (flaisih) — harnic",
+          "lernen — a învăța",
+          "alt — bătrân, vechi",
+          "das Jahr (iar) — an",
+          "die Jahre — ani",
+          "wie — cum, ce fel de, cât"
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Umlauturile vocalelor trebuie pronunțate corect.",
+          "ö se pronunță cu buzele rotunjite, ca e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü se pronunță cu buzele rotunjite, ca i: Müller (müler), Bücher (büher).",
+          "Lungimea sau scurtimea vocalelor depinde de consoanele care urmează.",
+          "Dacă după vocală urmează o singură consoană, vocala se pronunță lung: Vögel (föghel), Schüler (șüler), Bücher (büher).",
+          "Dacă după vocală urmează două sau mai multe consoane, vocala se pronunță scurt: wir können, der Löffel, der Müller.",
+          "o german se pronunță curat, ca o românesc, de exemplu în cuvintele: fond, nominativ, fotograf.",
+          "Pronunță corect: der Großvater (der grosfater).",
+          "Diftongul ei se pronunță ca ai: seid (zait), fleißig (flaisih).",
+          "e german poate fi închis sau deschis: der Lehrer (der lerer). e din temă este lung și închis, e din terminație este scurt și deschis."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Verb auxiliar sein - a fi o mizerie de cerc. Prin urmare, ar trebui să fie învățat bine."
+            "text": "Verbul auxiliar sein — a fi se conjugă neregulat. De aceea trebuie învățat bine."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "La fel, verbul auxiliar können - a putea - este flexat neregulat."
+            "text": "La fel se conjugă neregulat și verbul auxiliar können — a putea."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,11 +1051,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Esti sanatos?",
+            "lv": "Ești sănătos?",
             "de": "Bist du gesund?"
           },
           {
@@ -1063,7 +1063,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Este Paul sănătos?",
+            "lv": "Paul este sănătos?",
             "de": "Ist Paul gesund?"
           },
           {
@@ -1071,11 +1071,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Poate lucra?",
+            "lv": "Poate el să lucreze?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Nu, nu poate lucra.",
+            "lv": "Nu, el nu poate lucra.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
@@ -1099,23 +1099,23 @@ const COURSE_LESSON_DATA = {
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Cine eşti tu",
+            "lv": "Cine ești?",
             "de": "Wer bist du?"
           },
           {
-            "lv": "Eu sunt bărbat.",
+            "lv": "Sunt un bărbat.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Este el profesor?",
+            "lv": "El este profesor?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Nu, este muncitor.",
+            "lv": "Nu, el este muncitor.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Cine este profesor?",
+            "lv": "Ce este profesorul?",
             "de": "Was ist der Lehrer?"
           },
           {
@@ -1123,11 +1123,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Cine este profesor?",
+            "lv": "Ce este profesoara?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Profesorul este o femeie.",
+            "lv": "Profesoara este o femeie.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
@@ -1135,7 +1135,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "Putem lucra cu toții.",
+            "lv": "Noi toți putem lucra.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1144,12 +1144,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "Cursul 11",
-    "subtitle": "Haben, kein/keine/keinen, substantive posesive și compuse",
-    "intro": "A unsprezecea prelegere: haben, negație cu kein, posesie, substantive compuse și ordinea cuvintelor cu denn.",
+    "title": "Lecția 11",
+    "subtitle": "Haben, kein/keine/keinen, posesia și substantivele compuse",
+    "intro": "A unsprezecea lecție: haben, negația cu kein, exprimarea posesiei, substantivele compuse și ordinea cuvintelor cu denn.",
     "sections": [
       {
-        "title": "Dialoguri/propoziții",
+        "title": "Dialoguri / propoziții",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1191,44 +1191,44 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Cuvinte",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — viņam ir",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — viņiem ir",
-          "der Bruder (dēr brūder) — brālis",
-          "die Brüder — brāļi",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — gaišs",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — kopā",
-          "oft — bieži",
-          "der Freund (dēr froint) — draugs",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krēsls",
-          "die Stühle — krēsli",
-          "die Tischlampe — galda lampa",
-          "das Bücherbrett — grāmatu plaukts",
-          "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
-          "glücklich — laimīgs",
-          "denn — jo",
-          "die Schwester (dī švester) — māsa",
-          "die Schwestern — māsas"
+          "ich habe — eu am",
+          "du hast — tu ai",
+          "er hat — el are",
+          "wir haben — noi avem",
+          "ihr habt — voi aveți",
+          "sie haben — ei au",
+          "der Bruder (der bruder) — frate",
+          "die Brüder — frați",
+          "das Zimmer (das țimer) — cameră",
+          "ist nicht — nu este",
+          "groß (gros) — mare",
+          "hell — luminos",
+          "breit — lat",
+          "der Schreibtisch (der șraibtiș) — birou, masă de scris",
+          "da — acolo",
+          "kein, keine, kein — niciun, nicio, niciun",
+          "zusammen (țuzamen) — împreună",
+          "oft — des",
+          "der Freund (der froint) — prieten",
+          "die Freunde — prieteni",
+          "der Schrank — dulap",
+          "der Stuhl (der ștul) — scaun",
+          "die Stühle — scaune",
+          "die Tischlampe — lampă de birou",
+          "das Bücherbrett — raft de cărți",
+          "die Landkarte (di lantcarte) — hartă geografică",
+          "glücklich — fericit",
+          "denn — căci, pentru că",
+          "die Schwester (di șvester) — soră",
+          "die Schwestern — surori"
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu se pronunță ca oi: der Freund (der froint), neun (noin).",
+          "h este de cele mai multe ori semn de lungire a vocalei precedente: der Stuhl (der ștul), zehn (țen).",
+          "z se pronunță ca ț românesc: Franz (franț), das Zimmer (țimer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Verbul auxiliar haben în germană exprimă conceptul de apartenență. În letonă, este adesea exprimat cu: am, tu ai, el are etc. t. t."
+            "text": "În germană, verbul auxiliar haben exprimă ideea de posesie. În română se spune la fel: eu am, tu ai, el are etc."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "eu am"
               ],
               [
                 "du hast",
-                "tev ir"
+                "tu ai"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "el/ea are"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "noi avem"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "voi aveți"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "ei/ele au"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "În letonă, persoana căreia îi aparține ceva este în cazul dativ, iar subiectul este în cazul nominativ. În limba germană, persoana este în cazul nominativ și obiectul posedat în cazul acuzativ."
+            "heading": "Posesia în română și în germană: nominativ/acuzativ",
+            "text": "În română, posesorul este subiect, iar obiectul posedat — complement direct. La fel în germană: persoana stă în nominativ, iar obiectul posedat — în acuzativ."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Exemple",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — eu am o masă",
+              "Der Vater hat ein Buch — tatăl are o carte",
+              "Sie haben eine Feder — ei au o peniță"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Comparație cu alte limbi",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "rusă: я имею тетрадь; отец имеет книгу.",
+              "engleză: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Verbul haben trebuie învățat bine și folosit corect. Ar trebui să cunoașteți și formularele de comandă."
+            "text": "Verbul haben trebuie învățat bine și folosit corect. Trebuie cunoscute și formele de imperativ."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — exemple",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — răbdare! / ai răbdare!",
+              "habt Geduld! — aveți răbdare!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Dubla negație a limbii letone nu este exprimată în germană cu cuvântul negativ kein. Cuvântul negativ kein se află doar înaintea substantivului."
+            "text": "Dubla negație din română, de tipul „nu am niciun caiet”, se exprimă în germană numai prin cuvântul de negație kein. Cuvântul de negație kein stă numai înaintea substantivului."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — singular",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — plural",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Dacă propoziţia narativă conţine conjuncţia denn, verbul rămâne în poziţia a 2-a. Conjuncția denn nu contează ca membru al propoziției."
+            "heading": "Ordinea cuvintelor cu denn",
+            "text": "Dacă în propoziția enunțiativă apare conjuncția denn, verbul rămâne pe locul al doilea. Conjuncția denn nu se socotește parte de propoziție."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — exemple",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Substantivele compuse sunt precedate de articolul ultimului substantiv. Accentul este pus pe primul cuvânt al cazului."
+            "heading": "Substantivele compuse",
+            "text": "Înaintea substantivului compus stă articolul ultimului substantiv. Accentul cade pe primul substantiv."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Substantivele compuse — exemple",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,11 +1358,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ce ai",
+            "lv": "Ce ai?",
             "de": "Was hast du?"
           },
           {
@@ -1370,7 +1370,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Care sunt cărțile?",
+            "lv": "Cum sunt cărțile?",
             "de": "Wie sind die Bücher?"
           },
           {
@@ -1386,11 +1386,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franc nu are stilou și creion.",
+            "lv": "Franz nu are nicio peniță și niciun creion.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Cum este camera",
+            "lv": "Cum este camera?",
             "de": "Wie ist das Zimmer?"
           },
           {
@@ -1398,19 +1398,19 @@ const COURSE_LESSON_DATA = {
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Ai un birou",
+            "lv": "Ai o masă de scris?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Da, am un birou și o lampă de masă.",
+            "lv": "Da, am o masă de scris și o lampă de birou.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Ce are un profesor?",
+            "lv": "Ce are profesorul?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Profesorul are multe cărți și un raft.",
+            "lv": "Profesorul are multe cărți și un raft de cărți.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1418,11 +1418,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Copilul este fericit pentru că are un tată și o mamă.",
+            "lv": "Copilul este fericit, căci are un tată și o mamă.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Ce face Ana?",
+            "lv": "Ce face Anna?",
             "de": "Was tut Anna?"
           },
           {
@@ -1430,19 +1430,19 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Scrie și Francisc?",
+            "lv": "Scrie și Franz?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nu, Francis nu scrie, el desenează.",
+            "lv": "Nu, Franz nu scrie, el desenează.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Sunt în picioare?",
+            "lv": "Ei stau în picioare?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Nu, se așează și studiază.",
+            "lv": "Nu, ei se așază și învață.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,12 +1451,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "Cursul 12",
-    "subtitle": "Grade comparative, als/wie, vârstă, adjective și culori.",
-    "intro": "A douăsprezecea prelegere: grade comparative, als / wie, vârstă, adjective și culori.",
+    "title": "Lecția 12",
+    "subtitle": "Gradele de comparație, als / wie, vârsta, adjectivele și culorile.",
+    "intro": "A douăsprezecea lecție: gradele de comparație, als / wie, vârsta, adjectivele și culorile.",
     "sections": [
       {
-        "title": "Dialoguri/propoziții",
+        "title": "Dialoguri / propoziții",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Cuvinte",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — kā tevi sauc",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — liels",
-          "klein — mazs",
-          "kleiner als ich — mazāks par mani",
-          "alt — vecs",
-          "jung — jauns",
-          "jünger als ich — jaunāks par mani",
-          "so alt wie — tik vecs kā",
-          "der Vetter (dēr feter) — brālēns",
-          "am ältesten (am eltesten) — visvecākais",
-          "ebenso — tāpat",
-          "wie — kā",
-          "am jüngsten — visjaunākais",
-          "faul — slinks",
-          "fleißig — čakls",
-          "blau — zils",
-          "braun — brūns",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — gumija",
-          "grau — pelēks",
-          "der Baum — koks",
-          "grün — zaļš",
-          "die Blume — puķe",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — krīts",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "heißen — a se numi",
+          "wie heißt du — cum te cheamă",
+          "ich heiße — mă cheamă",
+          "die Grube — groapă",
+          "wieviel — cât, câți",
+          "Max (macs) — Max",
+          "groß — mare",
+          "klein — mic",
+          "kleiner als ich — mai mic decât mine",
+          "alt — bătrân, vechi",
+          "jung — tânăr",
+          "jünger als ich — mai tânăr decât mine",
+          "so alt wie — la fel de în vârstă ca",
+          "der Vetter (der feter) — văr",
+          "am ältesten (am eltesten) — cel mai în vârstă",
+          "ebenso — la fel, tot așa",
+          "wie — ca",
+          "am jüngsten — cel mai tânăr",
+          "faul — leneș",
+          "fleißig — harnic",
+          "blau — albastru",
+          "braun — maro",
+          "gelb — galben",
+          "das Gummi (das gumi) — gumă de șters",
+          "grau — gri",
+          "der Baum — copac",
+          "grün — verde",
+          "die Blume — floare",
+          "rot — roșu",
+          "die Tinte — cerneală",
+          "die Kreide — cretă",
+          "weiß — alb",
+          "schwarz — negru",
+          "krank — bolnav",
+          "gesund — sănătos"
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme."
+          "x se pronunță ca cs: Max (macs), Felix (felics).",
+          "În cuvintele Schwester, am jüngsten, st se pronunță ca un st obișnuit din română: Schwester (șvester), jüngsten (iüncsten).",
+          "În cuvântul der Federhalter, h este un sunet care se pronunță, iar în cuvântul der Sohn — semn de lungire."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Gradul superlativ (Komparativ) al adjectivelor se formează din gradul de bază (Positiv) cu terminația -er.",
+            "text": "Comparativul adjectivelor (Komparativ) se formează de la gradul pozitiv (Positiv) cu terminația -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Majoritatea adjectivelor monosilabice cu vocala stem a, o, u au o Umlaut la gradul superlativ.",
+            "heading": "Umlaut la comparativ",
+            "text": "Majoritatea adjectivelor monosilabice cu vocala a, o, u în temă primesc Umlaut la comparativ.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie este folosit când exprimă egalitatea. als este folosit când se exprimă inegalitatea.",
+            "heading": "Comparația cu wie și als",
+            "text": "wie se folosește când se exprimă egalitatea. als se folosește când se exprimă inegalitatea.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Gradul general (Superlativ) se realizează adăugând la gradul de bază terminația -sten sau -esten și cuvântul de trafic am în față.",
+            "text": "Superlativul (Superlativ) se formează adăugând la gradul pozitiv terminația -sten sau -esten și punând înainte prepoziția am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Grade de comparație neregulate",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (aproape)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (înalt)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (bun)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (mult)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (curând)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (cu plăcere)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,7 +1611,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
@@ -1619,11 +1619,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Ești mai în vârstă decât mine.",
+            "lv": "Tu ești mai în vârstă decât mine.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Cine este cel mai bătrân?",
+            "lv": "Cine este cel mai în vârstă?",
             "de": "Wer ist am ältesten?"
           },
           {
@@ -1631,27 +1631,27 @@ const COURSE_LESSON_DATA = {
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Cum te numești",
+            "lv": "Cum te cheamă?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Numele meu este Peter.",
+            "lv": "Mă cheamă Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Care este numele lui?",
+            "lv": "Cum îl cheamă?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Numele lui este John.",
+            "lv": "Îl cheamă Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Cum te numești?",
+            "lv": "Cum vă numiți?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Câți ani ai?",
+            "lv": "Câți ani aveți?",
             "de": "Wie alt sind Sie?"
           },
           {
@@ -1659,27 +1659,27 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Maxi este mare?",
+            "lv": "Max este mare?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Nu, Max nu este mare, Rudolph este mai mare.",
+            "lv": "Nu, Max nu este mare, Rudolf este mai mare.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Care este cel mai mare?",
+            "lv": "Cine este cel mai mare?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis este cel mai mare.",
+            "lv": "Franz este cel mai mare.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Cati ani are mama?",
+            "lv": "Câți ani are mama?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Mama are aceeași vârstă cu tatăl.",
+            "lv": "Mama este la fel de în vârstă ca tatăl.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
@@ -1691,15 +1691,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Care sunt numele lor?",
+            "lv": "Cum le cheamă?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Numele lor sunt Elsa, Marta și Alma.",
+            "lv": "Le cheamă Elsa, Martha și Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Cati frati ai?",
+            "lv": "Câți frați aveți?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
@@ -1707,31 +1707,31 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Ce este cerneala?",
+            "lv": "Cum este cerneala?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Este negru.",
+            "lv": "Este neagră.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Ce este creta?",
+            "lv": "Cum este creta?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Este alb.",
+            "lv": "Este albă.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Ce sunt florile?",
+            "lv": "Cum sunt florile?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Sunt albastru, roșu, galben și alb.",
+            "lv": "Sunt albastre, roșii, galbene și albe.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Este fratele sanatos?",
+            "lv": "Fratele este sănătos?",
             "de": "Ist der Bruder gesund?"
           },
           {
@@ -1739,11 +1739,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Ești fericit?",
+            "lv": "Sunteți fericiți?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Da, suntem fericiți pentru că suntem sănătoși.",
+            "lv": "Da, suntem fericiți, căci suntem sănătoși.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1752,12 +1752,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "Cursul 13",
-    "subtitle": "Der Körper, părți ale corpului, turnen, jeder și plural.",
-    "intro": "Lectura a treisprezecea: Der Körper, părți ale corpului, exerciții, verbe reflexive și plural.",
+    "title": "Lecția 13",
+    "subtitle": "Der Körper, părțile corpului, turnen, jeder și pluralul.",
+    "intro": "A treisprezecea lecție: Der Körper, părțile corpului, gimnastica, verbele reflexive și pluralul.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "der Körper — ķermenis",
-          "der Mensch — cilvēks",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — kāja",
-          "die Beine — kājas",
-          "der Fuß — kājas pēda",
-          "die Füße — kāju pēdas",
-          "rund — apaļš",
-          "lang — garš",
-          "kurz — īss",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — tievs / plāns",
-          "die Brust — krūtis",
-          "vorn — priekšā",
-          "der Rücken — mugura",
-          "hinten — aizmugurē",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — kājas pirksts",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — tīrīt",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — darīt / taisīt",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — stāvēt",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — turēt",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dziļi"
+          "der Körper — corp",
+          "der Mensch — om",
+          "der Kopf — cap",
+          "der Hals — gât",
+          "der Rumpf — trunchi",
+          "der Arm — braț",
+          "die Hand — mână",
+          "die Hände — mâini",
+          "das Bein — picior",
+          "die Beine — picioare",
+          "der Fuß — laba piciorului",
+          "die Füße — labele picioarelor",
+          "rund — rotund",
+          "lang — lung",
+          "kurz — scurt",
+          "klein — mic",
+          "groß — mare",
+          "dick — gras / gros",
+          "dünn — slab / subțire",
+          "die Brust — piept",
+          "vorn — în față",
+          "der Rücken — spate",
+          "hinten — în spate",
+          "jeder — fiecare",
+          "jede — fiecare",
+          "jedes — fiecare",
+          "der Finger — deget",
+          "die Zehe — deget de la picior",
+          "beide — amândoi",
+          "der Nagel — unghie",
+          "die Nägel — unghii",
+          "beschneiden — a tăia",
+          "reinigen — a curăța",
+          "turnen — a face gimnastică",
+          "heben — a ridica",
+          "machen — a face / a confecționa",
+          "der Schritt — pas",
+          "bleiben — a rămâne",
+          "stehen — a sta în picioare",
+          "sich umkehren — a se întoarce",
+          "ausstrecken — a întinde",
+          "senken — a coborî",
+          "drehen — a răsuci / a întoarce",
+          "nach links — la stânga",
+          "nach rechts — la dreapta",
+          "halten — a ține",
+          "gerade — drept",
+          "atmen — a respira",
+          "tief — adânc"
         ]
       },
       {
         "title": "Gramatică",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Unele verbe cu vocala stem a sau au la persoanele prezente a 2-a și a 3-a singular au o Umlaut.",
+            "heading": "Umlaut la prezent",
+            "text": "Unele verbe cu vocala a sau au în temă primesc Umlaut la persoanele a 2-a și a 3-a singular ale prezentului.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren - a se întoarce",
+            "heading": "Verbul reflexiv",
+            "text": "sich umkehren — a se întoarce",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Imperativul cu sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Amintiți-vă să respirați",
+            "heading": "Verbul atmen",
+            "text": "atmen — a respira",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Imperativul cu atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Dacă partea prepozițională este accentuată, se separă la timpul prezent și merge la sfârșitul propoziției.",
+            "heading": "Verbele compuse",
+            "text": "Dacă prefixul este accentuat, la prezent el se desparte și trece la sfârșitul propoziției.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Dacă prefixul este neaccentuat, este neaccentuat.",
+            "heading": "Prefixe neseparabile",
+            "text": "Dacă prefixul nu este accentuat, el nu se desparte.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Pronumele jeder merge în cercuri ca articolele der / die / das.",
+            "heading": "Pronumele jeder",
+            "text": "Pronumele jeder se declină ca articolele der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Masculin",
+                "Feminin",
+                "Neutru"
               ],
               [
-                "Nominatīvs",
+                "Nominativ",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Acuzativ",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Plural fără terminație",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Plural cu terminația -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Plural cu terminația -en sau -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Plural cu terminația -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Substantivele feminine formate cu -in iau -nen la plural.",
+            "heading": "Substantive feminine cu -in",
+            "text": "Substantivele feminine formate cu -in primesc la plural -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1979,18 +1979,18 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "În cuvântul halten, h se aude ca sunet.",
+          "În cuvântul fahren, h arată lungimea vocalei.",
+          "În cuvântul halten, a se pronunță scurt: halten.",
+          "În cuvântul tragen, a se pronunță lung: tragen.",
+          "äu se pronunță ca oi: du läufst, er läuft.",
+          "În cuvântul Kopf, pf se pronunță astfel încât se aud ambele consoane."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,15 +2055,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Câte mâini are o persoană?",
+            "lv": "Câte brațe are omul?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Cate picioare ai",
+            "lv": "Câte picioare ai?",
             "de": "Wie viele Beine hast du?"
           },
           {
@@ -2075,23 +2075,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Ce este o mână?",
+            "lv": "Cum este brațul?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Ce este piciorul?",
+            "lv": "Cum este piciorul?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Mâna este mică, dar piciorul este mare.",
+            "lv": "Brațul este mic, dar piciorul este mare.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Unde este cufărul",
+            "lv": "Unde este pieptul?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Unde e spatele?",
+            "lv": "Unde este spatele?",
             "de": "Wo ist der Rücken?"
           },
           {
@@ -2099,11 +2099,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Câte degete are o mână?",
+            "lv": "Câte degete are mâna?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Palma are cinci degete.",
+            "lv": "Mâna are cinci degete.",
             "de": "Die Hand hat fünf Finger."
           },
           {
@@ -2115,19 +2115,19 @@ const COURSE_LESSON_DATA = {
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Ce este un deget?",
+            "lv": "Ce are degetul?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Degetul are o gheară.",
+            "lv": "Degetul are o unghie.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Ce faci",
+            "lv": "Ce faci?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Îmi tund și curăț unghiile.",
+            "lv": "Tai și curăț unghiile.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
@@ -2135,27 +2135,27 @@ const COURSE_LESSON_DATA = {
             "de": "Was tut Paul?"
           },
           {
-            "lv": "El face exerciții.",
+            "lv": "Face gimnastică.",
             "de": "Er turnt."
           },
           {
-            "lv": "Cum fac ei exercitii?",
+            "lv": "Cum fac ei gimnastică?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Își ridică picioarele și brațele.",
+            "lv": "Ei ridică picioarele și brațele.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Își întind ambele mâini.",
+            "lv": "Ei întind ambele brațe.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Își cad ambele mâini.",
+            "lv": "Ei coboară ambele brațe.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Își întorc capul spre dreapta.",
+            "lv": "Ei întorc capul la dreapta.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
@@ -2163,31 +2163,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter și Ana respiră adânc.",
+            "lv": "Peter și Anna respiră adânc.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Face și Robert exerciții fizice?",
+            "lv": "Face și Robert gimnastică?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Nu, Robert și Ion nu fac exerciții fizice.",
+            "lv": "Nu, Robert și Johann nu fac gimnastică.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, exersează-te!",
+            "lv": "Robert, fă gimnastică!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert și Jāni, įršų-vă!",
+            "lv": "Robert și Johann, faceți gimnastică!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Domnișoară Müller, exercițiu!",
+            "lv": "Domnișoară Müller, faceți gimnastică!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Fă doi pași și apoi stai în picioare!",
+            "lv": "Faceți doi pași și apoi rămâneți pe loc!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,12 +2196,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "Cursul 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Cursul a 14-a: Verbe modale müssen, wollen și mögen.",
+    "title": "Lecția 14",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "A paisprezecea lecție: verbele modale müssen, wollen și mögen.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "müssen — vajadzēt / būt jādara",
-          "ich muss — man vajag / man jādara",
-          "du musst — tev vajag / tev jādara",
-          "er muss — viņam vajag / viņam jādara",
-          "sie muss — viņai vajag / viņai jādara",
-          "es muss — tam vajag / tam jādara",
-          "wir müssen — mums vajag / mums jādara",
-          "ihr müsst — jums vajag / jums jādara",
-          "sie müssen — viņiem / viņām vajag",
-          "lernen — mācīties",
-          "vorwärts — uz priekšu",
-          "vorwärts kommen — tikt uz priekšu",
-          "wollen — gribēt",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — viņš grib",
-          "sie will — viņa grib",
-          "es will — tas grib",
-          "wir wollen — mēs gribam",
-          "ihr wollt — jūs gribat",
-          "sie wollen — viņi / viņas grib",
-          "mögen — gribēt / vēlēties / patikt",
-          "ich mag — es gribu / man patīk",
-          "du magst — tu gribi / tev patīk",
-          "er mag — viņš grib / viņam patīk",
-          "sie mag — viņa grib / viņai patīk",
-          "es mag — tas grib / tam patīk",
-          "wir mögen — mēs gribam",
-          "ihr mögt — jūs gribat",
-          "sie mögen — viņi / viņas grib",
-          "die Suppe — zupa",
-          "munden — labi garšot",
-          "mir — man",
-          "dir — tev",
-          "ihm — viņam",
-          "ihr — viņai",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — viņiem / viņām",
-          "denn — jo"
+          "müssen — a trebui / a fi obligat",
+          "ich muss — eu trebuie / trebuie să fac",
+          "du musst — tu trebuie / trebuie să faci",
+          "er muss — el trebuie / trebuie să facă",
+          "sie muss — ea trebuie / trebuie să facă",
+          "es muss — acesta trebuie / trebuie să facă",
+          "wir müssen — noi trebuie / trebuie să facem",
+          "ihr müsst — voi trebuie / trebuie să faceți",
+          "sie müssen — ei / ele trebuie",
+          "lernen — a învăța",
+          "vorwärts — înainte",
+          "vorwärts kommen — a merge înainte, a progresa",
+          "wollen — a vrea",
+          "ich will — eu vreau",
+          "du willst — tu vrei",
+          "er will — el vrea",
+          "sie will — ea vrea",
+          "es will — acesta vrea",
+          "wir wollen — noi vrem",
+          "ihr wollt — voi vreți",
+          "sie wollen — ei / ele vor",
+          "mögen — a vrea / a dori / a plăcea",
+          "ich mag — eu vreau / îmi place",
+          "du magst — tu vrei / îți place",
+          "er mag — el vrea / îi place",
+          "sie mag — ea vrea / îi place",
+          "es mag — acesta vrea / îi place",
+          "wir mögen — noi vrem",
+          "ihr mögt — voi vreți",
+          "sie mögen — ei / ele vor",
+          "die Suppe — supă",
+          "munden — a fi gustos, a plăcea la gust",
+          "mir — mie",
+          "dir — ție",
+          "ihm — lui",
+          "ihr — ei",
+          "uns — nouă",
+          "euch — vouă",
+          "ihnen — lor",
+          "denn — căci, pentru că"
         ]
       },
       {
         "title": "Gramatică",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Verbele modale",
             "text": "Verbele müssen, wollen și mögen sunt verbe modale."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "La singular prezent, persoanele 1 și 3 sunt aceleași.",
+            "heading": "Persoanele 1 și 3 singular",
+            "text": "La prezent singular, persoanele 1 și 3 sunt identice.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Alternanța vocalei din temă",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen înseamnă a avea nevoie/a fi nevoie.",
+            "text": "Müssen înseamnă a trebui / a fi necesar.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Trebuie să învăț."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen înseamnă să vrei în mod deliberat să faci ceva.",
+            "text": "Wollen înseamnă a vrea în mod conștient să faci ceva.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Vreau să merg înainte."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen își exprimă o dorință sau o dorință.",
+            "text": "Mögen exprimă dorința sau plăcerea.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Nu vreau să mănânc supa.",
+              "Die Suppe mundet mir nicht. — Supa nu-mi place."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "În letonă, spunem adesea „trebuie să studiez”, „trebuie să scrii”, „trebuie să vină”. Germana folosește adesea müssen în astfel de propoziții.",
+            "heading": "Important",
+            "text": "În română spunem adesea „trebuie să învăț”, „trebuie să scrii”, „trebuie să vină”. În germană, în astfel de propoziții se folosește adesea müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2360,66 +2360,66 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß se pronunță ca s românesc.",
+          "ß se scrie în mijlocul sau la sfârșitul cuvântului după o vocală lungă sau un diftong: die Füße, die Straße, ich muss, er muss.",
+          "Dacă în alte forme apare ss, atunci înaintea terminației poate apărea ß: müssen, ich muss, du musst, ihr müsst.",
+          "În cuvântul mögen, ö se pronunță ca un sunet ö clar.",
+          "Dacă după g urmează t, g sună mai aproape de k: du magst, ihr mögt.",
+          "În română, g se pronunță întotdeauna sonor, de aceea această pronunție apropiată de k trebuie exersată."
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Cine vrea să studieze din greu?",
+            "lv": "Cine vrea să învețe cu sârguință?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Toți studenții vor să învețe din greu.",
+            "lv": "Toți elevii vor să învețe cu sârguință.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Cine ar trebui să vină astăzi?",
+            "lv": "Cine trebuie să vină azi?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Trebuie să vin azi.",
+            "lv": "Eu trebuie să vin azi.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Trebuie să scrii o scrisoare.",
+            "lv": "Tu trebuie să scrii scrisoarea.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Cine trebuie să studieze din greu?",
+            "lv": "Cine trebuie să învețe cu sârguință?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Elevii trebuie să studieze din greu.",
+            "lv": "Elevii trebuie să învețe cu sârguință.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Nu vreau să mănânc supă pentru că nu-mi place.",
+            "lv": "Nu vreau să mănânc supa, căci nu-mi place.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Cine vrea să mănânce supă?",
+            "lv": "Cine vrea să mănânce supa?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa vrea să mănânce supă.",
+            "lv": "Elsa vrea să mănânce supa.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Cine ar trebui să citească cartea?",
+            "lv": "Cine trebuie să citească cartea?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Fratele trebuie să citească o carte.",
+            "lv": "Fratele trebuie să citească cartea.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
@@ -2427,7 +2427,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Tata trebuie să cumpere o masă.",
+            "lv": "Tatăl trebuie să cumpere o masă.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

@@ -59,11 +59,11 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "8. õppetund",
-    "subtitle": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv.",
+    "title": "Lektion 8",
+    "subtitle": "Reflexiva verb, växlingen e → i/ie och ackusativ.",
     "sections": [
       {
-        "title": "Dialoogid / laused",
+        "title": "Dialoger / meningar",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -88,79 +88,79 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "alle — kõik",
-          "aufstehen — püsti tõusma",
-          "stehen auf — tõuseb püsti",
-          "grüßen (grüsen) — tervitama",
-          "guten Morgen — tere hommikust",
-          "gut — hea",
-          "der Morgen — hommik",
-          "der Herr — härra",
-          "das Kind — laps",
-          "die Kinder — lapsed",
-          "setzt euch (zect oich) — istuge!",
-          "sie setzen sich — nemad istuvad maha",
-          "fragen (ar akuzatīvu) — küsima",
-          "sprechen — rääkima",
-          "er spricht — tema räägib",
-          "aber — aga",
-          "sehr (zēr) — väga",
-          "leise — vaikselt",
-          "laut — valjult",
-          "jetzt (ject) — praegu",
-          "lesen — lugema",
-          "lies! — loe!",
-          "gut — hästi",
-          "schlecht — halvasti",
-          "deutlich (doitlich) — selgelt, arusaadavalt",
-          "schreiben — kirjutama",
-          "endlich (entlich) — lõpuks",
-          "erzählen (ercēlen) — jutustama",
-          "zuhören — kuulama",
-          "sie hören zu — nemad kuulavad",
-          "was ist das — mis see on?",
-          "der Arbeiter — töömees",
-          "der Müller — mölder",
-          "der Tischler — puusepp",
-          "der Bäcker (dēr beker) — pagar",
-          "der Schneider (dēr šneider) — rätsepp",
-          "der Gärtner (dēr gertner) — aednik",
-          "der Schuster — kingsepp"
+          "alle — alla",
+          "aufstehen — stiga upp, resa sig",
+          "stehen auf — stiger upp, reser sig",
+          "grüßen (grysen) — hälsa",
+          "guten Morgen — god morgon",
+          "gut — god",
+          "der Morgen — morgonen",
+          "der Herr — herrn",
+          "das Kind — barnet",
+          "die Kinder — barnen",
+          "setzt euch (zetst ojch) — sätt er!",
+          "sie setzen sich — de sätter sig",
+          "fragen (med ackusativ) — fråga",
+          "sprechen — tala",
+          "er spricht — han talar",
+          "aber — men",
+          "sehr (zer) — mycket",
+          "leise — tyst, lågt",
+          "laut — högt",
+          "jetzt (jetst) — nu",
+          "lesen — läsa",
+          "lies! — läs!",
+          "gut — bra",
+          "schlecht — dåligt",
+          "deutlich (dojtlich) — tydligt, begripligt",
+          "schreiben — skriva",
+          "endlich (entlich) — äntligen",
+          "erzählen (ertselen) — berätta",
+          "zuhören — lyssna",
+          "sie hören zu — de lyssnar",
+          "was ist das — vad är det?",
+          "der Arbeiter — arbetaren",
+          "der Müller — mjölnaren",
+          "der Tischler — snickaren",
+          "der Bäcker (der bäcker) — bagaren",
+          "der Schneider (der schnajder) — skräddaren",
+          "der Gärtner (der gärtner) — trädgårdsmästaren",
+          "der Schuster — skomakaren"
         ]
       },
       {
-        "title": "Hääldus",
+        "title": "Uttal",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä uttalas, som redan nämnts, som ett kort eller långt slutet e. Exempel: der Bäcker (bäcker), das Mädchen (määtchen).",
+          "ä uttalas också som ett öppet ä, till exempel i ordet der Gärtner (der gärtner).",
+          "I orden Schüler, Bücher — långt ü (yy), men i Müller — kort ü.",
+          "ie uttalas som ett långt i: liest (list).",
+          "ß uttalas som s: grüßen (grysen).",
+          "eu uttalas som oj: deutlich (dojtlich)."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Många verb med vokalen e i stammen har i eller ie i stället för e i 2:a och 3:e person singular presens.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "I imperativ singular har dessa verb också i eller ie i stället för e i stammen: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "På svenska bildas reflexiva verb med ett reflexivt pronomen: jag sätter mig, du sätter dig, han sätter sig. Inte heller tyskan har någon särskild böjning för dem. De böjs som andra verb, med det reflexiva pronomenet sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Übung / Vingrinājums",
+        "title": "Übung / Övning",
         "exerciseType": "mixed",
-        "description": "Übung I — kasuta õiget käänet. Übung II — tõlkekaardid.",
+        "description": "Übung I — använd rätt kasus. Übung II — översättningskort.",
         "cards": [
           {
             "type": "fill",
@@ -249,190 +249,190 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Tervita õpetajat ja õpetajannat!",
+            "lv": "Hälsa på läraren och lärarinnan!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Keda sina tervitad?",
+            "lv": "Vem hälsar du på?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Mina tervitan preilit.",
+            "lv": "Jag hälsar på fröken.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Avage kõik aknad!",
+            "lv": "Öppna alla fönster (till flera)!",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Meie avame kõik aknad.",
+            "lv": "Vi öppnar alla fönster.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Kas sina avad akna?",
+            "lv": "Öppnar du fönstret?",
             "de": "Öffnest du das Fenster?"
           },
           {
             "type": "translate",
-            "lv": "Ei, mina ei avanud akent.",
+            "lv": "Nej, jag har inte öppnat fönstret.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
             "type": "translate",
-            "lv": "Kõik õpilased istuvad maha.",
+            "lv": "Alla elever sätter sig.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Paul, istu maha!",
+            "lv": "Paul, sätt dig!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Lapsed, istuge!",
+            "lv": "Barn, sätt er!",
             "de": "Kinder, setzt euch!"
           },
           {
             "type": "translate",
-            "lv": "Ära räägi vaikselt!",
+            "lv": "Tala inte tyst!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Kuidas tema räägib?",
+            "lv": "Hur talar han?",
             "de": "Wie spricht er?"
           },
           {
             "type": "translate",
-            "lv": "Kõik õpilased räägivad valjult.",
+            "lv": "Alla elever talar högt.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Kes loeb valjult?",
+            "lv": "Vem läser högt?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Õpilane loeb valjult ja selgelt.",
+            "lv": "Skolflickan läser högt och tydligt.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Loe hästi!",
+            "lv": "Läs bra!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Ära räägi vaikselt!",
+            "lv": "Tala inte tyst!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Lugege hästi!",
+            "lv": "Läs bra (till flera)!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Hans kirjutab hästi, aga Anna kirjutab halvasti.",
+            "lv": "Hans skriver bra, men Anna skriver dåligt.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Preili Müller, palun laulge laul!",
+            "lv": "Fröken Müller, var snäll och sjung en sång!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Härra õpetaja, palun istuge!",
+            "lv": "Herr lärare, var så god och sätt Er!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "exerciseType": "translate",
-        "description": "Tõlgi eestikeelsed laused saksa keelde.",
+        "description": "Översätt de svenska meningarna till tyska.",
         "cards": [
           {
-            "lv": "Tervita õpetajat ja õpetajannat.",
+            "lv": "Hälsa på läraren och lärarinnan.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Avage kõik aknad!",
+            "lv": "Öppna alla fönster (till flera)!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Meie avame kõik aknad.",
+            "lv": "Vi öppnar alla fönster.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Kas sina avasid akna?",
+            "lv": "Har du öppnat fönstret?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Ei, mina ei avanud akent.",
+            "lv": "Nej, jag har inte öppnat fönstret.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Kõik õpilased istuvad maha.",
+            "lv": "Alla elever sätter sig.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paul, istu!",
+            "lv": "Paul, sätt dig!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Lapsed, istuge!",
+            "lv": "Barn, sätt er!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Ära räägi vaikselt!",
+            "lv": "Tala inte tyst!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Kuidas tema räägib?",
+            "lv": "Hur talar han?",
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Kõik õpilased räägivad valjult.",
+            "lv": "Alla elever talar högt.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Kes loeb valjult?",
+            "lv": "Vem läser högt?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Õpilane loeb valjult ja selgelt.",
+            "lv": "Skolflickan läser högt och tydligt.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Loe hästi!",
+            "lv": "Läs bra!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Ära räägi vaikselt!",
+            "lv": "Tala inte tyst!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Lugege hästi!",
+            "lv": "Läs bra (till flera)!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Hans kirjutab hästi, aga Anna kirjutab halvasti.",
+            "lv": "Hans skriver bra, men Anna skriver dåligt.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Preili Müller, palun laulge laul!",
+            "lv": "Fröken Müller, var snäll och sjung en sång!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Härra õpetaja, palun istuge!",
+            "lv": "Herr lärare, var så god och sätt Er!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,12 +441,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "9. õppetund",
-    "subtitle": "Mitmed esemed, dieser/jener, ainsus ja mitmus",
-    "intro": "Üheksas õppetund: nimisõnade mitmus, näitavad asesõnad dieser/jener, harjutused ja tõlkimine.",
+    "title": "Lektion 9",
+    "subtitle": "Flera föremål, dieser/jener, singular och plural",
+    "intro": "Nionde lektionen: substantivens plural, de demonstrativa pronomenen dieser/jener, övningar och översättning.",
     "sections": [
       {
-        "title": "Dialoogid / laused",
+        "title": "Dialoger / meningar",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -471,37 +471,37 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "mehrere (mērere) — mitu, mitmed",
-          "hier (hīr) — siin",
-          "dort — seal",
-          "auch — ka",
-          "langsam (lankzām) — aeglaselt",
-          "schnell (šnel) — kiiresti",
-          "mehr (mēr) — rohkem",
-          "zumachen — sulgema",
-          "ich mache zu — mina sulgen",
-          "sitzen (zicen) — istuma",
-          "ruhig (rū-ih) — rahulikult",
-          "dieser (dīzer) — see",
-          "jener (jēner) — too",
-          "der Brief (dēr brīf) — kiri",
-          "die Briefe — kirjad",
-          "kurz (kurc) — lühike",
-          "rein — puhas",
-          "schmutzig (šmucich) — must (määrdunud)"
+          "mehrere (merere) — flera",
+          "hier (hir) — här",
+          "dort — där",
+          "auch — också",
+          "langsam (langzam) — långsamt",
+          "schnell (schnell) — snabbt",
+          "mehr (mer) — mer",
+          "zumachen — stänga",
+          "ich mache zu — jag stänger",
+          "sitzen (zitsen) — sitta",
+          "ruhig (ro-ich) — lugnt",
+          "dieser (dizer) — denna, den här",
+          "jener (jener) — den där",
+          "der Brief (der brif) — brevet",
+          "die Briefe — breven",
+          "kurz (korts) — kort",
+          "rein — ren",
+          "schmutzig (schmotsich) — smutsig"
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Näitavaid asesõnu dieser ja jener käänatakse nagu määravat artiklit."
+            "heading": "Demonstrativa pronomen",
+            "text": "De demonstrativa pronomenen dieser och jener böjs som den bestämda artikeln."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Singular",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Plural",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Kui nimisõna ees on asesõna või arvsõna, artiklit ei kasutata."
+            "heading": "Ingen artikel",
+            "text": "Om ett pronomen eller ett räkneord står framför substantivet används ingen artikel."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Übung / Vingrinājums",
+        "title": "Übung / Övning",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Algne lause",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Utgångsmening",
+                "task": "Gör om meningen till 3:e person singular.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er vorm",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Er-form",
+                "task": "Gör om utgångsmeningen till 1:a person plural.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir vorm",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Wir-form",
+                "task": "Använd substantivet i plural i stället för singular.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Mitmus",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Plural",
+                "task": "Klart. Nästa klick visar nästa kort.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,83 +784,83 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Tüdruk istub maha ja kirjutab kirja.",
+            "lv": "Flickan sätter sig och skriver ett brev.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Kas kiri on lühike?",
+            "lv": "Är brevet kort?",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Ei, kiri ei ole lühike, see on pikk.",
+            "lv": "Nej, brevet är inte kort, det är långt.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Mida teie teete?",
+            "lv": "Vad gör Ni?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Meie istume ja loeme.",
+            "lv": "Vi sitter och läser.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paul, istu maha ja loe!",
+            "lv": "Paul, sätt dig och läs!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Härra õpetaja, istuge maha ja lugege!",
+            "lv": "Herr lärare, sätt Er och läs!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Kuidas lapsed kirjutavad?",
+            "lv": "Hur skriver barnen?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Kas nemad kirjutavad kiiresti või aeglaselt?",
+            "lv": "Skriver de snabbt eller långsamt?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Nemad kirjutavad väga aeglaselt.",
+            "lv": "De skriver mycket långsamt.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Milline on see taldrik?",
+            "lv": "Hurdan är den här tallriken?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "See taldrik ei ole puhas, see on must.",
+            "lv": "Den här tallriken är inte ren, den är smutsig.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Kas kirjad on pikad või lühikesed?",
+            "lv": "Är breven långa eller korta?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, terita see pliiats!",
+            "lv": "Anna, vässa den här blyertspennan!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Härra õpetaja, palun teritage see pliiats!",
+            "lv": "Herr lärare, var snäll och vässa den här blyertspennan!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Pane too pliiats maha!",
+            "lv": "Lägg ner den där blyertspennan!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
-            "lv": "Sule aken!",
+            "lv": "Stäng fönstret!",
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Mida tüdruk lõpuks teeb?",
+            "lv": "Vad gör flickan till slut?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Tema sulgeb akna ja läheb välja.",
+            "lv": "Hon stänger fönstret och går ut.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,12 +869,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "10. õppetund",
-    "subtitle": "Sein, können, tervis, vanus ja elukutsed",
-    "intro": "Kümnes õppetund: sein, können, käskiva kõneviisi vormid, tervis, vanus ja elukutsed.",
+    "title": "Lektion 10",
+    "subtitle": "Sein, können, hälsa, ålder och yrken",
+    "intro": "Tionde lektionen: sein, können, imperativformer, hälsa, ålder och yrken.",
     "sections": [
       {
-        "title": "Dialoogid / laused",
+        "title": "Dialoger / meningar",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -927,56 +927,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "gesund (gezunt) — terve",
-          "ich bin gesund — mina olen terve",
-          "du bist — sina oled",
-          "wir sind — meie oleme",
-          "ihr seid (īr zeit) — teie olete",
-          "ich kann — mina saan/võin",
-          "du kannst — sina saad/võid",
-          "er kann — tema saab/võib",
-          "wir können — meie saame/võime",
-          "ihr könnt — teie saate/võite",
-          "sie können — nemad saavad/võivad",
-          "sei gesund — ole terve!",
-          "seid gesund — olge terved!",
-          "seien Sie gesund — olge Teie terve!",
-          "der Knabe (dēr knābe) — poiss",
-          "der Mann — mees",
-          "die Frau — naine",
-          "der Großvater (dēr grōsfāter) — vanaisa",
-          "krank — haige",
-          "fleißig (fleišich) — usin",
-          "lernen — õppima",
-          "alt — vana",
-          "das Jahr (jār) — aasta",
-          "die Jahre — aastad",
-          "wie — kuidas, milline, kui"
+          "gesund (gezont) — frisk",
+          "ich bin gesund — jag är frisk",
+          "du bist — du är",
+          "wir sind — vi är",
+          "ihr seid (ir zajt) — ni är",
+          "ich kann — jag kan",
+          "du kannst — du kan",
+          "er kann — han kan",
+          "wir können — vi kan",
+          "ihr könnt — ni kan",
+          "sie können — de kan",
+          "sei gesund — var frisk!",
+          "seid gesund — var friska!",
+          "seien Sie gesund — var frisk! (artigt tilltal)",
+          "der Knabe (der knabe) — pojken",
+          "der Mann — mannen",
+          "die Frau — kvinnan, hustrun",
+          "der Großvater (der gråsfater) — farfar, morfar",
+          "krank — sjuk",
+          "fleißig (flajsich) — flitig",
+          "lernen — lära sig, plugga",
+          "alt — gammal",
+          "das Jahr (jar) — året",
+          "die Jahre — åren",
+          "wie — hur, hurdan, hur många"
         ]
       },
       {
-        "title": "Hääldus",
+        "title": "Uttal",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Omljuden måste uttalas korrekt.",
+          "ö uttalas med rundade läppar som e, ungefär som svenskt ö: wir können, ihr könnt, sie können, der Löffel.",
+          "ü uttalas med rundade läppar som i, ungefär som svenskt y: Müller (myller), Bücher (bycher).",
+          "Om en vokal är lång eller kort beror på konsonanterna som följer.",
+          "Om vokalen följs av en konsonant uttalas den långt: Vögel (fögel), Schüler (schyler), Bücher (bycher).",
+          "Om vokalen följs av två eller flera konsonanter uttalas den kort: wir können, der Löffel, der Müller.",
+          "Tyskt o låter inte som svenskt o i sol, utan ungefär som svenskt å, till exempel i gå, åka, fånga.",
+          "Uttala rätt: der Großvater (der gråsfater).",
+          "Diftongen ei uttalas som aj: seid (zajt), fleißig (flajsich).",
+          "Tyskt e kan vara slutet eller öppet: der Lehrer (der lerer). Stammens e är långt och slutet, ändelsens e är kort och öppet."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
           {
             "heading": "Sein",
-            "text": "Abitegusõna sein — olema käänatakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida."
+            "text": "Hjälpverbet sein — vara böjs oregelbundet. Därför måste man lära sig det ordentligt."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Samamoodi käänatakse ebareeglipäraselt ka abitegusõna können — võima/oskama."
+            "text": "Hjälpverbet können — kunna böjs också oregelbundet."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,91 +1051,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas sina oled terve?",
+            "lv": "Är du frisk?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Jah, mina olen terve.",
+            "lv": "Ja, jag är frisk.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Kas Paul on terve?",
+            "lv": "Är Paul frisk?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Ei, Paul ei ole terve, tema on haige.",
+            "lv": "Nej, Paul är inte frisk, han är sjuk.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Kas tema saab töötada?",
+            "lv": "Kan han arbeta?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Ei, tema ei saa töötada.",
+            "lv": "Nej, han kan inte arbeta.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Kas vanaisa on vana?",
+            "lv": "Är farfar gammal?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Jah, tema on väga vana.",
+            "lv": "Ja, han är mycket gammal.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Vanaisa ja vanaema on väga vanad.",
+            "lv": "Farfar och farmor är mycket gamla.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Kui vana on Adolf?",
+            "lv": "Hur gammal är Adolf?",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Adolf on üheksa aastat vana.",
+            "lv": "Adolf är nio år gammal.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Kes sina oled?",
+            "lv": "Vem är du?",
             "de": "Wer bist du?"
           },
           {
-            "lv": "Mina olen mees.",
+            "lv": "Jag är en man.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Kas tema on õpetaja?",
+            "lv": "Är han lärare?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Ei, tema on töömees.",
+            "lv": "Nej, han är arbetare.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Kes on õpetaja?",
+            "lv": "Vad är läraren?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "Õpetaja on mees.",
+            "lv": "Läraren är en man.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Kes on õpetajanna?",
+            "lv": "Vad är lärarinnan?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Õpetajanna on naine.",
+            "lv": "Lärarinnan är en kvinna.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Kes saab töötada?",
+            "lv": "Vem kan arbeta?",
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "Meie kõik saame töötada.",
+            "lv": "Vi kan alla arbeta.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1144,12 +1144,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "11. õppetund",
-    "subtitle": "Haben, kein/keine/keinen, omamine ja liitnimisõnad",
-    "intro": "Üheteistkümnes õppetund: haben, eitus sõnaga kein, omamise väljendamine, liitnimisõnad ja sõnajärg sõnaga denn.",
+    "title": "Lektion 11",
+    "subtitle": "Haben, kein/keine/keinen, ägande och sammansatta substantiv",
+    "intro": "Elfte lektionen: haben, negation med kein, att uttrycka ägande, sammansatta substantiv och ordföljd med denn.",
     "sections": [
       {
-        "title": "Dialoogid / laused",
+        "title": "Dialoger / meningar",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1189,121 +1189,121 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "ich habe — minul on",
-          "du hast — sinul on",
-          "er hat — temal on",
-          "wir haben — meil on",
-          "ihr habt — teil on",
-          "sie haben — neil on",
-          "der Bruder (dēr brūder) — vend",
-          "die Brüder — vennad",
-          "das Zimmer (das cimer) — tuba",
-          "ist nicht — ei ole",
-          "groß (grōs) — suur",
-          "hell — hele",
-          "breit — lai",
-          "der Schreibtisch (dēr šreibtīš) — kirjutuslaud",
-          "da — seal",
-          "kein, keine, kein — mitte ükski",
-          "zusammen (cuzāmen) — koos",
-          "oft — sageli",
-          "der Freund (dēr froint) — sõber",
-          "die Freunde — sõbrad",
-          "der Schrank — kapp",
-          "der Stuhl (dēr štūl) — tool",
-          "die Stühle — toolid",
-          "die Tischlampe — laualamp",
-          "das Bücherbrett — raamaturiiul",
-          "die Landkarte (dī lantkarte) — maakaart",
-          "glücklich — õnnelik",
-          "denn — sest",
-          "die Schwester (dī švester) — õde",
-          "die Schwestern — õed"
+          "ich habe — jag har",
+          "du hast — du har",
+          "er hat — han har",
+          "wir haben — vi har",
+          "ihr habt — ni har",
+          "sie haben — de har",
+          "der Bruder (der broder) — brodern",
+          "die Brüder — bröderna",
+          "das Zimmer (das tsimmer) — rummet",
+          "ist nicht — är inte",
+          "groß (grås) — stor",
+          "hell — ljus",
+          "breit — bred",
+          "der Schreibtisch (der schrajbtisch) — skrivbordet",
+          "da — där",
+          "kein, keine, kein — ingen, ingen, inget",
+          "zusammen (tsozammen) — tillsammans",
+          "oft — ofta",
+          "der Freund (der frojnt) — vännen",
+          "die Freunde — vännerna",
+          "der Schrank — skåpet",
+          "der Stuhl (der schtol) — stolen",
+          "die Stühle — stolarna",
+          "die Tischlampe — bordslampan",
+          "das Bücherbrett — bokhyllan",
+          "die Landkarte (di lantkarte) — kartan",
+          "glücklich — lycklig",
+          "denn — för, eftersom",
+          "die Schwester (di schvester) — systern",
+          "die Schwestern — systrarna"
         ]
       },
       {
-        "title": "Hääldus",
+        "title": "Uttal",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu uttalas som oj: der Freund (der frojnt), neun (nojn).",
+          "h är oftast ett längdtecken för den föregående vokalen: der Stuhl (der schtol), zehn (tsen).",
+          "z uttalas som ts: Franz (frants), das Zimmer (tsimmer)."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
           {
             "heading": "Haben",
-            "text": "Abitegusõnaga haben väljendatakse saksa keeles omamise mõistet. Eesti keeles väljendatakse seda sageli: minul on, sinul on, temal on jne."
+            "text": "Med hjälpverbet haben uttrycker tyskan ägande. På svenska motsvaras det av: jag har, du har, han har osv."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "jag har"
               ],
               [
                 "du hast",
-                "tev ir"
+                "du har"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "han/hon/den har"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "vi har"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "ni har"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "de har"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "Eesti keeles kasutatakse omamise väljendamiseks adessiivi (minul, sinul, temal), aga saksa keeles on omav isik nominatiivis ja omatav ese akusatiivis."
+            "heading": "Ägaren och det ägda: nominativ/ackusativ",
+            "text": "På svenska är ägaren subjekt i satsen — precis som på tyska. På tyska står personen i nominativ, men det ägda föremålet — i ackusativ."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Exempel",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — jag har ett bord",
+              "Der Vater hat ein Buch — pappan har en bok",
+              "Sie haben eine Feder — de har en penna"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Jämförelse med andra språk",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "ryska: я имею тетрадь; отец имеет книгу.",
+              "engelska: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Tegusõna haben tuleb hästi selgeks õppida ja õigesti kasutada. Ka käskiva kõneviisi vorme tuleb teada."
+            "text": "Verbet haben måste man lära sig ordentligt och använda rätt. Man måste också kunna imperativformerna."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — exempel",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — ha tålamod!",
+              "habt Geduld! — ha tålamod (till flera)!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Saksa keeles ei väljendata topelteitust eitava sõnaga kein. Eitav sõna kein seisab ainult nimisõna ees."
+            "text": "Det negerande ordet kein motsvarar svenskt ingen, inget, inga, och ingen ytterligare negation behövs. Ordet kein står bara framför ett substantiv."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — singular",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — plural",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Kui jutustavas lauses on sidesõna denn, jääb tegusõna 2. kohale. Sidesõna denn ei loeta lauseliikmeks."
+            "heading": "Ordföljd med denn",
+            "text": "Om ett påstående innehåller konjunktionen denn står verbet kvar på 2:a plats. Konjunktionen denn räknas inte som satsdel."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — exempel",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Liitnimisõna ees seisab viimase nimisõna artikkel. Rõhk on esimesel sõnal."
+            "heading": "Sammansatta substantiv",
+            "text": "Framför ett sammansatt substantiv står artikeln för det sista substantivet. Betoningen ligger på det första substantivet."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Sammansatta substantiv — exempel",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,91 +1358,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Mis sinul on?",
+            "lv": "Vad har du?",
             "de": "Was hast du?"
           },
           {
-            "lv": "Minul on raamatud.",
+            "lv": "Jag har böcker.",
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Millised on raamatud?",
+            "lv": "Hurdana är böckerna?",
             "de": "Wie sind die Bücher?"
           },
           {
-            "lv": "Raamatud on paksud.",
+            "lv": "Böckerna är tjocka.",
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Preili Müller, kas Teil on vihikuid?",
+            "lv": "Fröken Müller, har Ni skrivhäften?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Minul ei ole ühtegi vihikut.",
+            "lv": "Jag har inga skrivhäften.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franzil ei ole sulge ega pliiatsit.",
+            "lv": "Franz har ingen penna och ingen blyertspenna.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Milline on tuba?",
+            "lv": "Hurdant är rummet?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Tuba on suur, hele ja soe.",
+            "lv": "Rummet är stort, ljust och varmt.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Kas sinul on kirjutuslaud?",
+            "lv": "Har du ett skrivbord?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Jah, minul on kirjutuslaud ja laualamp.",
+            "lv": "Ja, jag har ett skrivbord och en bordslampa.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Mis on õpetajal?",
+            "lv": "Vad har läraren?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Õpetajal on palju raamatuid ja raamaturiiul.",
+            "lv": "Läraren har många böcker och en bokhylla.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Kes on õnnelik?",
+            "lv": "Vem är lycklig?",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Laps on õnnelik, sest lapsel on isa ja ema.",
+            "lv": "Barnet är lyckligt, för det har en pappa och en mamma.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Mida teeb Anna?",
+            "lv": "Vad gör Anna?",
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Tema kirjutab.",
+            "lv": "Hon skriver.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Kas Franz ka kirjutab?",
+            "lv": "Skriver Franz också?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Ei, Franz ei kirjuta, tema joonistab.",
+            "lv": "Nej, Franz skriver inte, han ritar.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Kas nemad seisavad?",
+            "lv": "Står de?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Ei, nemad istuvad maha ja õpivad.",
+            "lv": "Nej, de sätter sig och pluggar.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,12 +1451,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "12. õppetund",
-    "subtitle": "Võrdlusastmed, als / wie, vanus, omadussõnad ja värvid.",
-    "intro": "Kaheteistkümnes õppetund: võrdlusastmed, als / wie, vanus, omadussõnad ja värvid.",
+    "title": "Lektion 12",
+    "subtitle": "Komparation, als / wie, ålder, adjektiv och färger.",
+    "intro": "Tolfte lektionen: komparation, als / wie, ålder, adjektiv och färger.",
     "sections": [
       {
-        "title": "Dialoogid / laused",
+        "title": "Dialoger / meningar",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1484,59 +1484,59 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "heißen — nimetama (kutsuma)",
-          "wie heißt du — mis su nimi on",
-          "ich heiße — minu nimi on",
-          "die Grube — auk",
-          "wieviel — kui palju",
+          "heißen — heta",
+          "wie heißt du — vad heter du",
+          "ich heiße — jag heter",
+          "die Grube — gropen",
+          "wieviel — hur mycket, hur många",
           "Max (maks) — Max",
-          "groß — suur",
-          "klein — väike",
-          "kleiner als ich — väiksem kui mina",
-          "alt — vana",
-          "jung — noor",
-          "jünger als ich — noorem kui mina",
-          "so alt wie — sama vana kui",
-          "der Vetter (dēr feter) — nõbu",
-          "am ältesten (am eltesten) — kõige vanem",
-          "ebenso — samuti",
-          "wie — nagu, kuidas",
-          "am jüngsten — kõige noorem",
-          "faul — laisk",
-          "fleißig — usin",
-          "blau — sinine",
-          "braun — pruun",
-          "gelb — kollane",
-          "das Gummi (das gumī) — kustutuskumm",
-          "grau — hall",
-          "der Baum — puu",
-          "grün — roheline",
-          "die Blume — lill",
-          "rot — punane",
-          "die Tinte — tint",
-          "die Kreide — kriit",
-          "weiß — valge",
-          "schwarz — must",
-          "krank — haige",
-          "gesund — terve"
+          "groß — stor",
+          "klein — liten",
+          "kleiner als ich — mindre än jag",
+          "alt — gammal",
+          "jung — ung",
+          "jünger als ich — yngre än jag",
+          "so alt wie — lika gammal som",
+          "der Vetter (der fetter) — kusinen",
+          "am ältesten (am ältesten) — äldst",
+          "ebenso — lika, likaså",
+          "wie — som",
+          "am jüngsten — yngst",
+          "faul — lat",
+          "fleißig — flitig",
+          "blau — blå",
+          "braun — brun",
+          "gelb — gul",
+          "das Gummi (das gommi) — suddgummit",
+          "grau — grå",
+          "der Baum — trädet",
+          "grün — grön",
+          "die Blume — blomman",
+          "rot — röd",
+          "die Tinte — bläcket",
+          "die Kreide — kritan",
+          "weiß — vit",
+          "schwarz — svart",
+          "krank — sjuk",
+          "gesund — frisk"
         ]
       },
       {
-        "title": "Hääldus",
+        "title": "Uttal",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk."
+          "x uttalas som ks: Max (maks), Felix (feliks).",
+          "I orden Schwester, am jüngsten uttalas st som ett vanligt svenskt st: Schwester (schvester), jüngsten (jynksten).",
+          "h i ordet der Federhalter är ett ljud som uttalas, men i ordet der Sohn — ett längdtecken."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Omadussõna võrdlev aste (Komparativ) moodustatakse algastmest (Positiv) lõpuga -er.",
+            "text": "Adjektivens komparativ (Komparativ) bildas av positiv (Positiv) med ändelsen -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Enamikul üherõhulistel omadussõnadel, mille tüves on täishäälik a, o, u, on võrdlevas astmes Umlaut.",
+            "heading": "Omljud i komparativ",
+            "text": "De flesta enstaviga adjektiv med stamvokalen a, o, u får omljud i komparativ.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie kasutatakse võrdsuse väljendamiseks. als kasutatakse ebavõrdsuse väljendamiseks.",
+            "heading": "Jämförelse med wie och als",
+            "text": "wie används när man uttrycker likhet. als används när man uttrycker olikhet.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Ülivõrre (Superlativ) moodustatakse, lisades algastmele lõpu -sten või -esten ja ette sõna am.",
+            "text": "Superlativ (Superlativ) bildas genom att man lägger till ändelsen -sten eller -esten till positiv och sätter ordet am framför.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Oregelbunden komparation",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (nära)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (hög)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (bra)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (mycket)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (snart)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (gärna)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,139 +1611,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kes on vanem, sina või mina?",
+            "lv": "Vem är äldre, du eller jag?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Sina oled vanem kui mina.",
+            "lv": "Du är äldre än jag.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Kes on kõige vanem?",
+            "lv": "Vem är äldst?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paul on kõige vanem.",
+            "lv": "Paul är äldst.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Mis su nimi on?",
+            "lv": "Vad heter du?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Minu nimi on Peter.",
+            "lv": "Jag heter Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Mis on tema nimi?",
+            "lv": "Vad heter han?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Tema nimi on Johann.",
+            "lv": "Han heter Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Mis on Teie nimi?",
+            "lv": "Vad heter Ni?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Kui vana Teie olete?",
+            "lv": "Hur gammal är Ni?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Mina olen 20 aastat vana.",
+            "lv": "Jag är 20 år gammal.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Kas Max on suur?",
+            "lv": "Är Max stor?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Ei, Max ei ole suur, Rudolf on suurem.",
+            "lv": "Nej, Max är inte stor, Rudolf är större.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Kes on kõige suurem?",
+            "lv": "Vem är störst?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Franz on kõige suurem.",
+            "lv": "Franz är störst.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Kui vana on ema?",
+            "lv": "Hur gammal är mamman?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Ema on sama vana kui isa.",
+            "lv": "Mamman är lika gammal som pappan.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Mitu õde sinul on?",
+            "lv": "Hur många systrar har du?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Minul on kolm õde.",
+            "lv": "Jag har tre systrar.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Mis on nende nimed?",
+            "lv": "Vad heter de?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Nende nimed on Elsa, Martha ja Alma.",
+            "lv": "De heter Elsa, Martha och Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Mitu venda Teil on?",
+            "lv": "Hur många bröder har Ni?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Minul on üks vend.",
+            "lv": "Jag har en bror.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Milline on tint?",
+            "lv": "Hurdant är bläcket?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "See on must.",
+            "lv": "Det är svart.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Milline on kriit?",
+            "lv": "Hurdan är kritan?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "See on valge.",
+            "lv": "Den är vit.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Millised on lilled?",
+            "lv": "Hurdana är blommorna?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Need on sinised, punased, kollased ja valged.",
+            "lv": "De är blå, röda, gula och vita.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Kas vend on terve?",
+            "lv": "Är brodern frisk?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Jah, vend on terve, aga õde on haige.",
+            "lv": "Ja, brodern är frisk, men systern är sjuk.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Kas teie olete õnnelikud?",
+            "lv": "Är Ni lyckliga?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Jah, meie oleme õnnelikud, sest meie oleme terved.",
+            "lv": "Ja, vi är lyckliga, för vi är friska.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1752,12 +1752,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "13. õppetund",
-    "subtitle": "Der Körper, kehaosad, turnen, jeder ja mitmus.",
-    "intro": "Kolmeteistkümnes õppetund: Der Körper, kehaosad, võimlemine, refleksiivsed tegusõnad ja mitmus.",
+    "title": "Lektion 13",
+    "subtitle": "Der Körper, kroppsdelar, turnen, jeder och plural.",
+    "intro": "Trettonde lektionen: Der Körper, kroppsdelar, gymnastik, reflexiva verb och plural.",
     "sections": [
       {
-        "title": "Tekst / Lugemine",
+        "title": "Text / Läsning",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "der Körper — keha",
-          "der Mensch — inimene",
-          "der Kopf — pea",
-          "der Hals — kael",
-          "der Rumpf — kere",
-          "der Arm — käsivars",
-          "die Hand — käsi (peopesa)",
-          "die Hände — käed",
-          "das Bein — jalg",
-          "die Beine — jalad",
-          "der Fuß — jalatald",
-          "die Füße — jalatallad",
-          "rund — ümmargune",
-          "lang — pikk",
-          "kurz — lühike",
-          "klein — väike",
-          "groß — suur",
-          "dick — paks",
-          "dünn — peenike / õhuke",
-          "die Brust — rind",
-          "vorn — ees",
-          "der Rücken — selg",
-          "hinten — taga",
-          "jeder — iga (mees)",
-          "jede — iga (naine)",
-          "jedes — iga (kesksugu)",
-          "der Finger — sõrm",
-          "die Zehe — varvas",
-          "beide — mõlemad",
-          "der Nagel — küüs",
-          "die Nägel — küüned",
-          "beschneiden — lõikama",
-          "reinigen — puhastama",
-          "turnen — võimlema",
-          "heben — tõstma",
-          "machen — tegema",
-          "der Schritt — samm",
-          "bleiben — jääma",
-          "stehen — seisma",
-          "sich umkehren — ümber pöörduma",
-          "ausstrecken — sirutama",
-          "senken — langetama",
-          "drehen — pöörama",
-          "nach links — vasakule",
-          "nach rechts — paremale",
-          "halten — hoidma",
-          "gerade — sirgelt",
-          "atmen — hingama",
-          "tief — sügavalt"
+          "der Körper — kroppen",
+          "der Mensch — människan",
+          "der Kopf — huvudet",
+          "der Hals — halsen",
+          "der Rumpf — bålen",
+          "der Arm — armen",
+          "die Hand — handen",
+          "die Hände — händerna",
+          "das Bein — benet",
+          "die Beine — benen",
+          "der Fuß — foten",
+          "die Füße — fötterna",
+          "rund — rund",
+          "lang — lång",
+          "kurz — kort",
+          "klein — liten",
+          "groß — stor",
+          "dick — tjock / fet",
+          "dünn — smal / tunn",
+          "die Brust — bröstet",
+          "vorn — framtill",
+          "der Rücken — ryggen",
+          "hinten — baktill",
+          "jeder — varje",
+          "jede — varje",
+          "jedes — varje",
+          "der Finger — fingret",
+          "die Zehe — tån",
+          "beide — båda",
+          "der Nagel — nageln",
+          "die Nägel — naglarna",
+          "beschneiden — klippa",
+          "reinigen — rengöra",
+          "turnen — gympa, göra gymnastik",
+          "heben — lyfta",
+          "machen — göra",
+          "der Schritt — steget",
+          "bleiben — stanna, förbli",
+          "stehen — stå",
+          "sich umkehren — vända sig om",
+          "ausstrecken — sträcka ut",
+          "senken — sänka",
+          "drehen — vrida / vända",
+          "nach links — åt vänster",
+          "nach rechts — åt höger",
+          "halten — hålla",
+          "gerade — rakt",
+          "atmen — andas",
+          "tief — djupt"
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Mõnedel tegusõnadel, mille tüves on täishäälik a või au, on oleviku ainsuse 2. ja 3. isikus Umlaut.",
+            "heading": "Omljud i presens",
+            "text": "Vissa verb med stamvokalen a eller au får omljud i 2:a och 3:e person singular presens.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — ümber pöörduma",
+            "heading": "Reflexivt verb",
+            "text": "sich umkehren — vända sig om",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Imperativ med sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Atmen — hingama",
+            "heading": "Verbet atmen",
+            "text": "atmen — andas",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Imperativ med atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Kui eesliide on rõhutatud, eraldub see olevikus ja läheb lause lõppu.",
+            "heading": "Sammansatta verb",
+            "text": "Om prefixet är betonat skiljs det i presens från verbet och hamnar i slutet av satsen.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Kui eesliide ei ole rõhutatud, ei eraldu see.",
+            "heading": "Oskiljbara prefix",
+            "text": "Om prefixet är obetonat skiljs det inte från verbet.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Asesõna jeder käänatakse nagu artikleid der / die / das.",
+            "heading": "Pronomenet jeder",
+            "text": "Pronomenet jeder böjs som artiklarna der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Maskulinum",
+                "Femininum",
+                "Neutrum"
               ],
               [
-                "Nominatīvs",
+                "Nominativ",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Ackusativ",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Plural utan ändelse",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Plural med ändelsen -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Plural med ändelsen -en eller -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Plural med ändelsen -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Naissoost nimisõnad, mis on moodustatud lõpuga -in, saavad mitmuses lõpu -nen.",
+            "heading": "Feminina substantiv på -in",
+            "text": "Feminina substantiv som bildats med -in får -nen i plural.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1979,18 +1979,18 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Hääldus",
+        "title": "Uttal",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "h i ordet halten hörs som ett ljud.",
+          "h i ordet fahren visar att vokalen är lång.",
+          "a i ordet halten uttalas kort: halten.",
+          "a i ordet tragen uttalas långt: tragen.",
+          "äu uttalas som oj: du läufst, er läuft.",
+          "pf i ordet Kopf uttalas så att båda konsonanterna hörs."
         ]
       },
       {
-        "title": "Vingrinājums",
+        "title": "Övning",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,139 +2055,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Mitu kätt on inimesel?",
+            "lv": "Hur många armar har människan?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Mitu jalga sinul on?",
+            "lv": "Hur många ben har du?",
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Milline on pea?",
+            "lv": "Hurdant är huvudet?",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Milline on kere?",
+            "lv": "Hurdan är bålen?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Milline on käsivars?",
+            "lv": "Hurdan är armen?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Milline on jalg?",
+            "lv": "Hurdant är benet?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Käsivars on väike, aga jalg on suur.",
+            "lv": "Armen är liten, men benet är stort.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Kus on rind?",
+            "lv": "Var är bröstet?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Kus on selg?",
+            "lv": "Var är ryggen?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Rind on ees, selg on taga.",
+            "lv": "Bröstet är framtill, ryggen är baktill.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Mitu sõrme on käel?",
+            "lv": "Hur många fingrar har handen?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Käel on viis sõrme.",
+            "lv": "Handen har fem fingrar.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Mitu sõrme on kahel käel?",
+            "lv": "Hur många fingrar har två händer?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Kahel käel on kümme sõrme.",
+            "lv": "Två händer har tio fingrar.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Mis on sõrmel?",
+            "lv": "Vad har fingret?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Sõrmel on küüs.",
+            "lv": "Fingret har en nagel.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Mida sina teed?",
+            "lv": "Vad gör du?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Mina lõikan ja puhastan küüsi.",
+            "lv": "Jag klipper och rengör naglarna.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Mida teeb Paul?",
+            "lv": "Vad gör Paul?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Tema võimleb.",
+            "lv": "Han gympar.",
             "de": "Er turnt."
           },
           {
-            "lv": "Kuidas nemad võimlevad?",
+            "lv": "Hur gympar de?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Nemad tõstavad jalgu ja käsi.",
+            "lv": "De lyfter benen och armarna.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Nemad sirutavad mõlemad käed.",
+            "lv": "De sträcker ut båda armarna.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Nemad langetavad mõlemad käed.",
+            "lv": "De sänker båda armarna.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Nemad pööravad pea paremale.",
+            "lv": "De vrider huvudet åt höger.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Kes hingab sügavalt?",
+            "lv": "Vem andas djupt?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter ja Anna hingavad sügavalt.",
+            "lv": "Peter och Anna andas djupt.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Kas Robert ka võimleb?",
+            "lv": "Gympar Robert också?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Ei, Robert ja Johann ei võimle.",
+            "lv": "Nej, Robert och Johann gympar inte.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, võimle!",
+            "lv": "Robert, gympa!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert ja Johann, võimelge!",
+            "lv": "Robert och Johann, gympa!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Preili Müller, võimelge!",
+            "lv": "Fröken Müller, gympa!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Astuge kaks sammu ja siis jääge seisma!",
+            "lv": "Ta två steg och stå sedan still!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,12 +2196,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "14. õppetund",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Neljateistkümnes õppetund: modaaltegusõnad müssen, wollen ja mögen.",
+    "title": "Lektion 14",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Fjortonde lektionen: modalverben müssen, wollen och mögen.",
     "sections": [
       {
-        "title": "Tekst / Lugemine",
+        "title": "Text / Läsning",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Sõnad",
+        "title": "Ord",
         "items": [
-          "müssen — pidama (kohustus)",
-          "ich muss — mina pean",
-          "du musst — sina pead",
-          "er muss — tema peab",
-          "sie muss — tema peab (naine)",
-          "es muss — see peab",
-          "wir müssen — meie peame",
-          "ihr müsst — teie peate",
-          "sie müssen — nemad peavad",
-          "lernen — õppima",
-          "vorwärts — edasi",
-          "vorwärts kommen — edasi jõudma",
-          "wollen — tahtma",
-          "ich will — mina tahan",
-          "du willst — sina tahad",
-          "er will — tema tahab",
-          "sie will — tema tahab (naine)",
-          "es will — see tahab",
-          "wir wollen — meie tahame",
-          "ihr wollt — teie tahate",
-          "sie wollen — nemad tahavad",
-          "mögen — meeldida / soovida",
-          "ich mag — mina soovin / mulle meeldib",
-          "du magst — sina soovid / sulle meeldib",
-          "er mag — tema soovib / talle meeldib",
-          "sie mag — tema soovib / talle meeldib (naine)",
-          "es mag — see soovib / sellele meeldib",
-          "wir mögen — meie soovime",
-          "ihr mögt — teie soovite",
-          "sie mögen — nemad soovivad",
-          "die Suppe — supp",
-          "munden — hästi maitsema",
-          "mir — mulle",
-          "dir — sulle",
-          "ihm — talle",
-          "ihr — talle (naine)",
-          "uns — meile",
-          "euch — teile",
-          "ihnen — neile",
-          "denn — sest"
+          "müssen — måste / vara tvungen",
+          "ich muss — jag måste",
+          "du musst — du måste",
+          "er muss — han måste",
+          "sie muss — hon måste",
+          "es muss — det måste",
+          "wir müssen — vi måste",
+          "ihr müsst — ni måste",
+          "sie müssen — de måste",
+          "lernen — lära sig, plugga",
+          "vorwärts — framåt",
+          "vorwärts kommen — komma framåt",
+          "wollen — vilja",
+          "ich will — jag vill",
+          "du willst — du vill",
+          "er will — han vill",
+          "sie will — hon vill",
+          "es will — det vill",
+          "wir wollen — vi vill",
+          "ihr wollt — ni vill",
+          "sie wollen — de vill",
+          "mögen — vilja / önska / tycka om",
+          "ich mag — jag vill / jag tycker om",
+          "du magst — du vill / du tycker om",
+          "er mag — han vill / han tycker om",
+          "sie mag — hon vill / hon tycker om",
+          "es mag — det vill / det tycker om",
+          "wir mögen — vi vill",
+          "ihr mögt — ni vill",
+          "sie mögen — de vill",
+          "die Suppe — soppan",
+          "munden — smaka bra",
+          "mir — mig",
+          "dir — dig",
+          "ihm — honom",
+          "ihr — henne",
+          "uns — oss",
+          "euch — er",
+          "ihnen — dem",
+          "denn — för, eftersom"
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatik",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
-            "text": "Tegusõnad müssen, wollen ja mögen on modaaltegusõnad."
+            "heading": "Modalverb",
+            "text": "Verben müssen, wollen och mögen är modalverb."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Oleviku ainsuses on 1. ja 3. isik ühesugused.",
+            "heading": "1:a och 3:e person singular",
+            "text": "I presens singular är 1:a och 3:e person likadana.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Växling av stamvokalen",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen tähendab pidama / olema vajalik.",
+            "text": "Müssen betyder måste / vara nödvändigt.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Jag måste plugga."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen tähendab teadlikult midagi tahta teha.",
+            "text": "Wollen betyder att medvetet vilja göra något.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Jag vill komma framåt."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen väljendab soovi või meeldimist.",
+            "text": "Mögen uttrycker önskan eller tycke.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Jag vill inte äta soppan.",
+              "Die Suppe mundet mir nicht. — Soppan faller mig inte i smaken."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Eesti keeles ütleme sageli „ma pean õppima”, „sa pead kirjutama”, „ta peab tulema”. Saksa keeles kasutatakse sellistes lausetes sageli müssen.",
+            "heading": "Viktigt",
+            "text": "På svenska säger vi ofta ”jag måste plugga”, ”du måste skriva”, ”han måste komma”. På tyska används i sådana meningar ofta müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2360,74 +2360,74 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Hääldus",
+        "title": "Uttal",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß uttalas som svenskt s.",
+          "ß skrivs mitt i eller i slutet av ett ord efter en lång vokal eller en diftong: die Füße, die Straße, ich muss, er muss.",
+          "Om andra former har ss, kan det stå ß före ändelsen: müssen, ich muss, du musst, ihr müsst.",
+          "ö i ordet mögen uttalas som ett tydligt ö-ljud.",
+          "Om g följs av t låter g mer som k: du magst, ihr mögt.",
+          "På liknande sätt låter g nästan som k i svenska ord som ”högt” och ”sagt”."
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Översätt",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kes tahab usinasti õppida?",
+            "lv": "Vem vill plugga flitigt?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Kõik õpilased tahavad usinasti õppida.",
+            "lv": "Alla elever vill plugga flitigt.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Kes peab täna tulema?",
+            "lv": "Vem måste komma i dag?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Mina pean täna tulema.",
+            "lv": "Jag måste komma i dag.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Sina pead kirjutama kirja.",
+            "lv": "Du måste skriva brevet.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Kes peab usinasti õppima?",
+            "lv": "Vem måste plugga flitigt?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Õpilased peavad usinasti õppima.",
+            "lv": "Eleverna måste plugga flitigt.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Mina ei taha suppi süüa, sest see mulle ei maitse.",
+            "lv": "Jag vill inte äta soppan, för den faller mig inte i smaken.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Kes tahab suppi süüa?",
+            "lv": "Vem vill äta soppan?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa tahab suppi süüa.",
+            "lv": "Elsa vill äta soppan.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kes peab raamatut lugema?",
+            "lv": "Vem måste läsa boken?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Vend peab raamatut lugema.",
+            "lv": "Brodern måste läsa boken.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Mina ei taha laulda.",
+            "lv": "Jag vill inte sjunga.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Isa peab ostma laua.",
+            "lv": "Pappan måste köpa ett bord.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

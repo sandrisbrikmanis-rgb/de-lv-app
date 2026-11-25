@@ -60,7 +60,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "8 pamoka",
-    "subtitle": "Sangrąžiniai veiksmažodžiai, e → i/ie kaita ir akuzatyvas.",
+    "subtitle": "Sangrąžiniai veiksmažodžiai, e → i/ie kaita ir galininkas.",
     "sections": [
       {
         "title": "Dialogai / sakiniai",
@@ -91,9 +91,9 @@ const COURSE_LESSON_DATA = {
         "title": "Žodžiai",
         "items": [
           "alle — visi",
-          "aufstehen — atsistoti",
-          "stehen auf — atsistoja",
-          "grüßen (grüsen) — sveikinti",
+          "aufstehen — atsikelti",
+          "stehen auf — atsikelia",
+          "grüßen (griūsen) — sveikinti",
           "guten Morgen — labas rytas",
           "gut — geras",
           "der Morgen — rytas",
@@ -102,11 +102,11 @@ const COURSE_LESSON_DATA = {
           "die Kinder — vaikai",
           "setzt euch (zect oich) — sėskitės!",
           "sie setzen sich — jie atsisėda",
-          "fragen (ar akuzatīvu) — klausti",
+          "fragen (su galininku) — klausti",
           "sprechen — kalbėti",
           "er spricht — jis kalba",
           "aber — bet",
-          "sehr (zēr) — labai",
+          "sehr (zėr) — labai",
           "leise — tyliai",
           "laut — garsiai",
           "jetzt (ject) — dabar",
@@ -117,50 +117,50 @@ const COURSE_LESSON_DATA = {
           "deutlich (doitlich) — aiškiai, suprantamai",
           "schreiben — rašyti",
           "endlich (entlich) — pagaliau",
-          "erzählen (ercēlen) — pasakoti",
+          "erzählen (ercėlen) — pasakoti",
           "zuhören — klausytis",
           "sie hören zu — jie klausosi",
-          "was ist das — kas tai yra?",
+          "was ist das — kas tai?",
           "der Arbeiter — darbininkas",
           "der Müller — malūnininkas",
           "der Tischler — stalius",
-          "der Bäcker (dēr beker) — kepėjas",
-          "der Schneider (dēr šneider) — siuvėjas",
-          "der Gärtner (dēr gertner) — sodininkas",
+          "der Bäcker (dėr beker) — kepėjas",
+          "der Schneider (dėr šnaider) — siuvėjas",
+          "der Gärtner (dėr gertner) — sodininkas",
           "der Schuster — batsiuvys"
         ]
       },
       {
         "title": "Tarimas",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü yra ilgas (ū), bet Müller — trumpas ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä, kaip jau minėta, tariamas kaip uždaras trumpas arba ilgas e garsas. Pavyzdžiai: der Bäcker (beker), das Mädchen (mėtchen).",
+          "ä taip pat tariamas kaip atviras e, pvz., žodyje der Gärtner (dėr gertner).",
+          "Žodžiuose Schüler, Bücher — ü ilgas (iū), o žodyje Müller — trumpas ü.",
+          "ie tariamas kaip ilgasis i: liest (lyst).",
+          "ß tariamas kaip s: grüßen (griūsen).",
+          "eu tariamas kaip oi: deutlich (doitlich)."
         ]
       },
       {
         "title": "Gramatika",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Daugelio veiksmažodžių, kurių kamiene yra balsis e, esamojo laiko vienaskaitos 2 ir 3 asmenyje vietoj e būna i arba ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Šių veiksmažodžių vienaskaitos liepiamojoje formoje kamiene taip pat vietoj e būna i arba ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "Lietuvių kalboje sangrąžiniai veiksmažodžiai turi savo dalelytę -si ir atskirą asmenavimą. Vokiečių kalboje ypatingo asmenavimo nėra. Jie asmenuojami kaip ir kiti veiksmažodžiai, pridedant sangrąžinį įvardį sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Liepiamoji nuosaka: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Pratimas",
         "exerciseType": "mixed",
-        "description": "Übung I — vartok tinkamą formą. Übung II — vertimo kortelės.",
+        "description": "Übung I — vartok tinkamą linksnį. Übung II — vertimo kortelės.",
         "cards": [
           {
             "type": "fill",
@@ -249,7 +249,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Pasveikink mokytoją ir mokytoją!",
+            "lv": "Pasveikink mokytoją ir mokytoją (moterį)!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
@@ -289,7 +289,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Paul, pasodink save!",
+            "lv": "Paul, atsisėsk!",
             "de": "Paul, setz dich!"
           },
           {
@@ -339,17 +339,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Ansis rašo gerai, bet Anna rašo blogai.",
+            "lv": "Hans rašo gerai, bet Anna rašo blogai.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Panele Müller, prašau, padainuokite dainą!",
+            "lv": "Panele Müller, prašom, padainuokite dainą!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Pone mokytojau, prašau, sėskitės!",
+            "lv": "Pone mokytojau, prašom, atsisėskite!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -360,7 +360,7 @@ const COURSE_LESSON_DATA = {
         "description": "Išversk lietuviškus sakinius į vokiečių kalbą.",
         "cards": [
           {
-            "lv": "Pasveikink mokytoją ir mokytoją.",
+            "lv": "Pasveikink mokytoją ir mokytoją (moterį).",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
@@ -424,15 +424,15 @@ const COURSE_LESSON_DATA = {
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis rašo gerai, bet Anna rašo blogai.",
+            "lv": "Hans rašo gerai, bet Anna rašo blogai.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Panele Müller, prašau, padainuokite dainą!",
+            "lv": "Panele Müller, prašom, padainuokite dainą!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Pone mokytojau, prašau, sėskitės!",
+            "lv": "Pone mokytojau, prašom, atsisėskite!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -443,7 +443,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson9",
     "title": "9 pamoka",
     "subtitle": "Keli daiktai, dieser/jener, vienaskaita ir daugiskaita",
-    "intro": "Devinta pamoka: daiktavardžių daugiskaita, nurodomieji įvardžiai dieser/jener, pratimai ir vertimas.",
+    "intro": "Devintoji pamoka: daiktavardžių daugiskaita, parodomieji įvardžiai dieser/jener, pratimai ir vertimas.",
     "sections": [
       {
         "title": "Dialogai / sakiniai",
@@ -473,20 +473,20 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Žodžiai",
         "items": [
-          "mehrere (mērere) — keli, kelios",
-          "hier (hīr) — čia",
-          "dort — tur",
+          "mehrere (mėrere) — keli, kelios",
+          "hier (hyr) — čia, šičia",
+          "dort — ten",
           "auch — taip pat",
-          "langsam (lankzām) — lėtai",
+          "langsam (lankzam) — lėtai",
           "schnell (šnel) — greitai",
-          "mehr (mēr) — daugiau",
+          "mehr (mėr) — daugiau",
           "zumachen — uždaryti",
           "ich mache zu — aš uždarau",
           "sitzen (zicen) — sėdėti",
           "ruhig (rū-ich) — ramiai",
-          "dieser (dīzer) — šis",
-          "jener (jēner) — tas",
-          "der Brief (dēr brīf) — laiškas",
+          "dieser (dyzer) — šis",
+          "jener (jėner) — tas",
+          "der Brief (dėr bryf) — laiškas",
           "die Briefe — laiškai",
           "kurz (kurc) — trumpas",
           "rein — švarus",
@@ -497,11 +497,11 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Parodomieji įvardžiai dieser ir jener linksniuojami taip pat, kaip žymimasis artikelis."
+            "heading": "Parodomieji įvardžiai",
+            "text": "Parodomieji įvardžiai dieser ir jener linksniuojami kaip žymimasis artikelis."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Vienaskaita",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Daugiskaita",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Jei prieš daiktavardį stovi įvardis arba skaitvardis, artikelis nevartojamas."
+            "heading": "Artikelis nevartojamas",
+            "text": "Jei prieš daiktavardį eina įvardis arba skaitvardis, artikelis nevartojamas."
           },
           {
             "examples": [
@@ -561,22 +561,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich nehme ein Heft."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er nimmt ein Heft."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir nehmen ein Heft."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -586,22 +586,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich öffne das Heft."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er öffnet das Heft."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -611,22 +611,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -636,22 +636,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -661,22 +661,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -686,22 +686,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich schreibe schnell."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er schreibt schnell."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir schreiben schnell."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -711,22 +711,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich mache das Heft zu."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er macht das Heft zu."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir machen das Heft zu."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -736,22 +736,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er legt den Bleistift hin."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -761,22 +761,22 @@ const COURSE_LESSON_DATA = {
             "forms": [
               {
                 "label": "1/4 Pradinis sakinys",
-                "task": "Pakeisk šį sakinį į 3 asmenį vienaskaitą.",
+                "task": "Perrašyk šį sakinį vienaskaitos 3 asmeniu.",
                 "text": "Ich sitze ruhig."
               },
               {
                 "label": "2/4 Er forma",
-                "task": "Pakeisk pradinį sakinį į 1 asmenį daugiskaitą.",
+                "task": "Perrašyk pradinį sakinį daugiskaitos 1 asmeniu.",
                 "text": "Er sitzt ruhig."
               },
               {
                 "label": "3/4 Wir forma",
-                "task": "Vartok daiktavardžio daugiskaitą vienaskaitos vietoje.",
+                "task": "Daiktavardį pavartok ne vienaskaita, o daugiskaita.",
                 "text": "Wir sitzen ruhig."
               },
               {
                 "label": "4/4 Daugiskaita",
-                "task": "Paruošta. Kitas paspaudimas parodys kitą kortelę.",
+                "task": "Atlikta. Kitas spustelėjimas parodo kitą kortelę.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -796,11 +796,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Ne, laiškas nėra trumpas, jis yra ilgas.",
+            "lv": "Ne, laiškas nėra trumpas, jis ilgas.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Ką jūs darote?",
+            "lv": "Ką Jūs darote?",
             "de": "Was machen Sie?"
           },
           {
@@ -820,7 +820,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Ar jie rašo greitai ar lėtai?",
+            "lv": "Ar jie rašo greitai, ar lėtai?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
@@ -832,19 +832,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Ši lėkštė nėra švari, ji yra nešvari.",
+            "lv": "Ši lėkštė nėra švari, ji nešvari.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Ar laiškai yra ilgi ar trumpi?",
+            "lv": "Ar laiškai ilgi, ar trumpi?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, nudrožk šį pieštuką!",
+            "lv": "Anna, padrožk šį pieštuką!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Pone mokytojau, prašau, nudrožkite šį pieštuką!",
+            "lv": "Pone mokytojau, prašom, padrožkite šį pieštuką!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
@@ -856,7 +856,7 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Ką mergaitė galiausiai daro?",
+            "lv": "Ką mergaitė pagaliau daro?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
@@ -871,7 +871,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson10",
     "title": "10 pamoka",
     "subtitle": "Sein, können, sveikata, amžius ir profesijos",
-    "intro": "Dešimta pamoka: sein, können, liepiamosios formos, sveikata, amžius ir profesijos.",
+    "intro": "Dešimtoji pamoka: sein, können, liepiamosios formos, sveikata, amžius ir profesijos.",
     "sections": [
       {
         "title": "Dialogai / sakiniai",
@@ -933,7 +933,7 @@ const COURSE_LESSON_DATA = {
           "ich bin gesund — aš esu sveikas",
           "du bist — tu esi",
           "wir sind — mes esame",
-          "ihr seid (īr zeit) — jūs esate",
+          "ihr seid (yr zait) — jūs esate",
           "ich kann — aš galiu",
           "du kannst — tu gali",
           "er kann — jis gali",
@@ -943,15 +943,15 @@ const COURSE_LESSON_DATA = {
           "sei gesund — būk sveikas!",
           "seid gesund — būkite sveiki!",
           "seien Sie gesund — būkite Jūs sveiki!",
-          "der Knabe (dēr knābe) — berniukas",
-          "der Mann — vyras",
+          "der Knabe (dėr knabe) — berniukas",
+          "der Mann — vyras, vyriškis",
           "die Frau — žmona, moteris",
-          "der Großvater (dēr grōsfāter) — senelis",
-          "krank — ligotas",
-          "fleißig (fleišich) — darbštus",
+          "der Großvater (dėr grosfater) — senelis",
+          "krank — sergantis, ligotas",
+          "fleißig (flaisich) — stropus",
           "lernen — mokytis",
           "alt — senas",
-          "das Jahr (jār) — metai",
+          "das Jahr (jar) — metai",
           "die Jahre — metai",
           "wie — kaip, koks, kiek"
         ]
@@ -959,16 +959,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Umliautus reikia tarti taisyklingai.",
+          "ö tariamas suapvalintomis lūpomis kaip e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü tariamas suapvalintomis lūpomis kaip i: Müller (miuler), Bücher (biūcher).",
+          "Balsio ilgumas ar trumpumas priklauso nuo po jo einančių priebalsių.",
+          "Jei po balsio eina vienas priebalsis, balsis tariamas ilgai: Vögel (fiogel), Schüler (šiūler), Bücher (biūcher).",
+          "Jei po balsio eina du ar daugiau priebalsių, balsis tariamas trumpai: wir können, der Löffel, der Müller.",
+          "Vokiečių o yra grynas balsis be jokio priegarsio, jis skamba panašiai kaip lietuvių o tarptautiniuose žodžiuose, pvz.: fondas, nominatyvas, fotografas.",
+          "Taisyklingai tark: der Großvater (dėr grosfater).",
+          "Dvibalsis ei tariamas kaip ai: seid (zait), fleißig (flaisich).",
+          "Vokiečių e gali būti uždaras arba atviras: der Lehrer (dėr lėrer). Kamieno ė ilgas ir uždaras, galūnės e trumpas ir atviras."
         ]
       },
       {
@@ -1055,19 +1055,19 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ar tu esi sveikas?",
+            "lv": "Ar tu sveikas?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Taip, aš esu sveikas.",
+            "lv": "Taip, aš sveikas.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Ar Pauls yra sveikas?",
+            "lv": "Ar Paul sveikas?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Ne, Pauls nėra sveikas, jis yra ligotas.",
+            "lv": "Ne, Paul nėra sveikas, jis serga.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
@@ -1079,23 +1079,23 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Ar senelis yra senas?",
+            "lv": "Ar senelis senas?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Taip, jis yra labai senas.",
+            "lv": "Taip, jis labai senas.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Senelis ir močiutė yra labai seni.",
+            "lv": "Senelis ir senelė labai seni.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Kiek metų yra Adolfs?",
+            "lv": "Kelerių metų yra Adolf?",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Adolfs yra devynerių metų.",
+            "lv": "Adolf yra devynerių metų.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
@@ -1107,11 +1107,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Ar jis yra mokytojas?",
+            "lv": "Ar jis mokytojas?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Ne, jis yra darbininkas.",
+            "lv": "Ne, jis darbininkas.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
@@ -1145,8 +1145,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "11 pamoka",
-    "subtitle": "Haben, kein/keine/keinen, priklausomybė ir sudurtiniai daiktavardžiai",
-    "intro": "Vienuolikta pamoka: haben, neigimas su kein, priklausomybės išraiška, sudurtiniai daiktavardžiai ir žodžių tvarka su denn.",
+    "subtitle": "Haben, kein/keine/keinen, priklausymas ir sudurtiniai daiktavardžiai",
+    "intro": "Vienuoliktoji pamoka: haben, neiginys su kein, priklausymo reiškimas, sudurtiniai daiktavardžiai ir žodžių tvarka su denn.",
     "sections": [
       {
         "title": "Dialogai / sakiniai",
@@ -1197,38 +1197,38 @@ const COURSE_LESSON_DATA = {
           "wir haben — mes turime",
           "ihr habt — jūs turite",
           "sie haben — jie turi",
-          "der Bruder (dēr brūder) — brolis",
+          "der Bruder (dėr brūder) — brolis",
           "die Brüder — broliai",
           "das Zimmer (das cimer) — kambarys",
           "ist nicht — nėra",
-          "groß (grōs) — didelis",
+          "groß (gros) — didelis",
           "hell — šviesus",
           "breit — platus",
-          "der Schreibtisch (dēr šreibtīš) — rašomasis stalas",
-          "da — tur",
-          "kein, keine, kein — nė vienas, nė viena, nė vienas",
-          "zusammen (cuzāmen) — kartu",
+          "der Schreibtisch (dėr šraibtiš) — rašomasis stalas",
+          "da — ten",
+          "kein, keine, kein — joks, jokia, joks",
+          "zusammen (cuzamen) — kartu",
           "oft — dažnai",
-          "der Freund (dēr froint) — draugas",
+          "der Freund (dėr froint) — draugas",
           "die Freunde — draugai",
           "der Schrank — spinta",
-          "der Stuhl (dēr štūl) — kėdė",
+          "der Stuhl (dėr štūl) — kėdė",
           "die Stühle — kėdės",
           "die Tischlampe — stalinė lempa",
           "das Bücherbrett — knygų lentyna",
-          "die Landkarte (dī lantkarte) — geografijos žemėlapis",
+          "die Landkarte (dy lantkarte) — žemėlapis",
           "glücklich — laimingas",
           "denn — nes",
-          "die Schwester (dī švester) — sesuo",
+          "die Schwester (dy švester) — sesuo",
           "die Schwestern — seserys"
         ]
       },
       {
         "title": "Tarimas",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu tariamas kaip oi: der Freund (dėr froint), neun (noin).",
+          "h dažniausiai žymi prieš jį esančio balsio ilgumą: der Stuhl (dėr štūl), zehn (cėn).",
+          "z tariamas kaip lietuviškas c: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Su pagalbiniu veiksmažodžiu haben vokiečių kalboje išreiškiama turėjimo (nuosavybės) sąvoka. Latviškai tai dažnai išreiškiama taip: man ir, tau ir, jam ir ir t. t."
+            "text": "Pagalbiniu veiksmažodžiu haben vokiečių kalboje reiškiamas priklausymas. Lietuviškai tai taip pat sakoma: aš turiu, tu turi, jis turi ir t. t."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "aš turiu"
               ],
               [
                 "du hast",
-                "tev ir"
+                "tu turi"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "jis/ji/tai turi"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "mes turime"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "jūs turite"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "jie turi"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "Latvių kalboje asmuo, kuriam kas nors priklauso, yra datyve, o daiktas — nominatyve. Vokiečių kalboje asmuo yra nominatyve, o priklausantis daiktas — akuzatyve."
+            "heading": "Vardininkas ir galininkas reiškiant priklausymą",
+            "text": "Lietuvių kalboje asmuo, kuriam kas nors priklauso, yra vardininko linksnio, o daiktas — galininko. Vokiečių kalboje taip pat: asmuo yra vardininko linksnio, o turimas daiktas — galininko."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Pavyzdžiai",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — aš turiu stalą",
+              "Der Vater hat ein Buch — tėvas turi knygą",
+              "Sie haben eine Feder — jie turi plunksną"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Palyginimas su kitomis kalbomis",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "rusų: я имею тетрадь; отец имеет книгу.",
+              "anglų: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Veiksmažodį haben reikia gerai išmokti ir taisyklingai vartoti. Taip pat reikia žinoti liepiamosios nuosakos formas."
+            "text": "Veiksmažodį haben reikia gerai išmokti ir taisyklingai vartoti. Taip pat reikia mokėti liepiamąsias formas."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — pavyzdžiai",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — kantrybės! / turėk kantrybės!",
+              "habt Geduld! — turėkite kantrybės!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Latvių kalbos dvigubas neigimas vokiškai nereiškiamas neigiamuoju žodžiu kein. Neigiamasis žodis kein vartojamas tik prieš daiktavardį."
+            "text": "Vokiečių kalboje, kitaip nei lietuvių, su neiginiu kein dvigubas neiginys nevartojamas. Neiginys kein eina tik prieš daiktavardį."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — vienaskaita",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — daugiskaita",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Jei pasakojamajame sakinyje yra jungtukas denn, veiksmažodis pasilieka antroje vietoje. Jungtukas denn nelaikomas sakinio dalimi."
+            "heading": "Žodžių tvarka su denn",
+            "text": "Jei tiesioginiame sakinyje yra jungtukas denn, veiksmažodis lieka 2 vietoje. Jungtukas denn nelaikomas sakinio dalimi."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — pavyzdžiai",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Prieš sudėtinį daiktavardį vartojamas paskutinio daiktavardžio artikelis. Kirtis krinta ant pirmojo daiktavardžio."
+            "heading": "Sudurtiniai daiktavardžiai",
+            "text": "Prieš sudurtinį daiktavardį eina paskutiniojo daiktavardžio artikelis. Kirtis tenka pirmajam daiktavardžiui."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Sudurtiniai daiktavardžiai — pavyzdžiai",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1374,7 +1374,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Bücher?"
           },
           {
-            "lv": "Knygos yra storos.",
+            "lv": "Knygos storos.",
             "de": "Die Bücher sind dick."
           },
           {
@@ -1382,11 +1382,11 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Aš neturiu nė vieno sąsiuvinio.",
+            "lv": "Aš neturiu jokių sąsiuvinių.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Francis neturi nė vienos plunksnos ir nė vieno pieštuko.",
+            "lv": "Franz neturi jokios plunksnos ir jokio pieštuko.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
@@ -1394,7 +1394,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Kambarys yra didelis, šviesus ir šiltas.",
+            "lv": "Kambarys didelis, šviesus ir šiltas.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
@@ -1418,7 +1418,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Vaikas yra laimingas, nes vaikas turi tėvą ir motiną.",
+            "lv": "Vaikas laimingas, nes jis turi tėvą ir motiną.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
@@ -1430,11 +1430,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Ar Francis taip pat rašo?",
+            "lv": "Ar Franz taip pat rašo?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Ne, Francis nerašo, jis piešia.",
+            "lv": "Ne, Franz nerašo, jis piešia.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
@@ -1452,8 +1452,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson12": {
     "id": "lesson12",
     "title": "12 pamoka",
-    "subtitle": "Lyginamieji laipsniai, als / wie, amžius, būdvardžiai ir spalvos.",
-    "intro": "Dvyliktoji pamoka: lyginamieji laipsniai, als / wie, amžius, būdvardžiai ir spalvos.",
+    "subtitle": "Laipsniavimas, als / wie, amžius, būdvardžiai ir spalvos.",
+    "intro": "Dvyliktoji pamoka: laipsniavimas, als / wie, amžius, būdvardžiai ir spalvos.",
     "sections": [
       {
         "title": "Dialogai / sakiniai",
@@ -1487,29 +1487,29 @@ const COURSE_LESSON_DATA = {
         "title": "Žodžiai",
         "items": [
           "heißen — vadintis",
-          "wie heißt du — kaip tave vadina",
-          "ich heiße — mane vadina",
+          "wie heißt du — kuo tu vardu",
+          "ich heiße — mano vardas",
           "die Grube — duobė",
           "wieviel — kiek",
-          "Max (maks) — Maksis",
+          "Max (maks) — Max",
           "groß — didelis",
           "klein — mažas",
           "kleiner als ich — mažesnis už mane",
           "alt — senas",
           "jung — jaunas",
           "jünger als ich — jaunesnis už mane",
-          "so alt wie — toks pat senas kaip",
-          "der Vetter (dēr feter) — pusbrolis",
+          "so alt wie — tokio pat amžiaus kaip",
+          "der Vetter (dėr feter) — pusbrolis",
           "am ältesten (am eltesten) — vyriausias",
-          "ebenso — taip pat",
+          "ebenso — lygiai taip pat",
           "wie — kaip",
           "am jüngsten — jauniausias",
           "faul — tingus",
-          "fleißig — darbštus",
+          "fleißig — stropus",
           "blau — mėlynas",
           "braun — rudas",
           "gelb — geltonas",
-          "das Gummi (das gumī) — guma",
+          "das Gummi (das gumy) — guma, trintukas",
           "grau — pilkas",
           "der Baum — medis",
           "grün — žalias",
@@ -1519,16 +1519,16 @@ const COURSE_LESSON_DATA = {
           "die Kreide — kreida",
           "weiß — baltas",
           "schwarz — juodas",
-          "krank — ligotas",
+          "krank — sergantis, ligotas",
           "gesund — sveikas"
         ]
       },
       {
         "title": "Tarimas",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — Žodyje der Federhalter h yra tariamas garsas, o žodyje der Sohn h yra tik ilgumo ženklas."
+          "x tariamas kaip ks: Max (maks), Felix (feliks).",
+          "Žodžiuose Schwester, am jüngsten st tariamas kaip įprastas lietuviškas st: Schwester (švester), jüngsten (jiunksten).",
+          "Žodyje der Federhalter h yra tariamas garsas, o žodyje der Sohn — ilgumo ženklas."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Būdvardžių aukštesnysis laipsnis (Komparativ) daromas iš pagrindinio laipsnio (Positiv) su galūne -er.",
+            "text": "Būdvardžių aukštesnysis laipsnis (Komparativ) sudaromas iš nelyginamojo laipsnio (Positiv) su galūne -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Daugumai vienskiemenių būdvardžių, kurių kamieno balsis yra a, o, u, aukštesniajame laipsnyje atsiranda Umlaut.",
+            "heading": "Umlaut aukštesniajame laipsnyje",
+            "text": "Daugumos vienskiemenių būdvardžių, kurių kamieno balsis a, o, u, aukštesniajame laipsnyje atsiranda Umlaut.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,7 +1553,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
+            "heading": "Lyginimas su wie ir als",
             "text": "wie vartojamas, kai reiškiama lygybė. als vartojamas, kai reiškiama nelygybė.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Aukščiausiasis laipsnis (Superlativ) daromas prie pagrindinio laipsnio pridedant galūnę -sten arba -esten ir prieš tai vartojant žodelį am.",
+            "text": "Aukščiausiasis laipsnis (Superlativ) sudaromas prie nelyginamojo laipsnio pridedant galūnę -sten arba -esten, o priekyje dedant prielinksnį am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Netaisyklingas laipsniavimas",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (artimas)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (aukštas)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (geras)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (daug)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (greitai)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (mielai)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1615,39 +1615,39 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas yra vyresnis, tu ar aš?",
+            "lv": "Kas vyresnis, tu ar aš?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Tu esi vyresnis už mane.",
+            "lv": "Tu vyresnis už mane.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Kas yra vyriausias?",
+            "lv": "Kas vyriausias?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Pauls yra vyriausias.",
+            "lv": "Paul vyriausias.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Kaip tave vadina?",
+            "lv": "Kuo tu vardu?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Mane vadina Petras.",
+            "lv": "Mano vardas Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Kaip jį vadina?",
+            "lv": "Kuo jis vardu?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Jį vadina Jonas.",
+            "lv": "Jo vardas Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Kaip Jus vadina?",
+            "lv": "Kuo Jūs vardu?",
             "de": "Wie heißen Sie?"
           },
           {
@@ -1655,35 +1655,35 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Man yra 20 metų.",
+            "lv": "Man 20 metų.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Ar Maksis yra didelis?",
+            "lv": "Ar Max didelis?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Ne, Maksis nėra didelis, Rudolfas yra didesnis.",
+            "lv": "Ne, Max nėra didelis, Rudolf didesnis.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Kas yra didžiausias?",
+            "lv": "Kas didžiausias?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis yra didžiausias.",
+            "lv": "Franz didžiausias.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Kiek mamai metų?",
+            "lv": "Kiek metų motinai?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Mama yra tokio pat amžiaus kaip tėvas.",
+            "lv": "Motina lygiai tokio pat amžiaus kaip tėvas.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Kiek turi seserų?",
+            "lv": "Kiek tu turi seserų?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
@@ -1691,15 +1691,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Kaip jas vadina?",
+            "lv": "Kuo jos vardu?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Jas vadina Elza, Marta ir Alma.",
+            "lv": "Jų vardai Elsa, Martha ir Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Kiek turite brolių?",
+            "lv": "Kiek Jūs turite brolių?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
@@ -1711,7 +1711,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Jis yra juodas.",
+            "lv": "Jis juodas.",
             "de": "Sie ist schwarz."
           },
           {
@@ -1719,7 +1719,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Ji yra balta.",
+            "lv": "Ji balta.",
             "de": "Sie ist weiß."
           },
           {
@@ -1727,23 +1727,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Jos yra mėlynos, raudonos, geltonos ir baltos.",
+            "lv": "Jos mėlynos, raudonos, geltonos ir baltos.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Ar brolis yra sveikas?",
+            "lv": "Ar brolis sveikas?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Taip, brolis yra sveikas, bet sesuo serga.",
+            "lv": "Taip, brolis sveikas, bet sesuo serga.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Ar jūs esate laimingi?",
+            "lv": "Ar Jūs laimingi?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Taip, mes esame laimingi, nes esame sveiki.",
+            "lv": "Taip, mes laimingi, nes esame sveiki.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1777,7 +1777,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
           "der Körper — kūnas",
           "der Mensch — žmogus",
@@ -1796,8 +1796,8 @@ const COURSE_LESSON_DATA = {
           "kurz — trumpas",
           "klein — mažas",
           "groß — didelis",
-          "dick — storas / apkūnus",
-          "dünn — plonas / lieknas",
+          "dick — storas / riebus",
+          "dünn — liesas / plonas",
           "die Brust — krūtinė",
           "vorn — priekyje",
           "der Rücken — nugara",
@@ -1810,7 +1810,7 @@ const COURSE_LESSON_DATA = {
           "beide — abu",
           "der Nagel — nagas",
           "die Nägel — nagai",
-          "beschneiden — apkarpyti",
+          "beschneiden — apkirpti",
           "reinigen — valyti",
           "turnen — mankštintis",
           "heben — kelti",
@@ -1834,8 +1834,8 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Kai kurių veiksmažodžių, kurių kamieno balsis a arba au, esamojo laiko 2. ir 3. asmenyje vienaskaitoje atsiranda Umlaut.",
+            "heading": "Umlaut esamajame laike",
+            "text": "Kai kurių veiksmažodžių, kurių kamieno balsis a arba au, esamojo laiko vienaskaitos 2 ir 3 asmenyje atsiranda Umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,7 +1846,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
+            "heading": "Sangrąžinis veiksmažodis",
             "text": "sich umkehren — apsisukti",
             "examples": [
               "ich kehre mich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Liepiamoji forma su sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,7 +1866,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
+            "heading": "Veiksmažodis atmen",
             "text": "atmen — kvėpuoti",
             "examples": [
               "ich atme",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Liepiamoji forma su atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,15 +1886,15 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Jei kirčiuota priešdėlio dalis, ji esamajame laike atsiskiria ir keliauja į sakinio galą.",
+            "heading": "Sudurtiniai veiksmažodžiai",
+            "text": "Jei priešdėlis kirčiuotas, esamajame laike jis atsiskiria ir eina sakinio gale.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
+            "heading": "Neatskiriamieji priešdėliai",
             "text": "Jei priešdėlis nekirčiuotas, jis neatsiskiria.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
@@ -1902,23 +1902,23 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Įvardis jeder linksniuojamas taip pat, kaip artikeliai der / die / das.",
+            "heading": "Įvardis jeder",
+            "text": "Įvardis jeder linksniuojamas kaip artikeliai der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Vyriškoji",
+                "Moteriškoji",
+                "Bevardė"
               ],
               [
-                "Nominatīvs",
+                "Vardininkas",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Galininkas",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Daugiskaita be galūnės",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Daugiskaita su galūne -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Daugiskaita su galūne -en arba -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Daugiskaita su galūne -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Moteriškosios giminės daiktavardžiai, sudaryti su -in, daugiskaitoje gauna galūnę -nen.",
+            "heading": "Moteriškosios giminės daiktavardžiai su -in",
+            "text": "Moteriškosios giminės daiktavardžiai, sudaryti su -in, daugiskaitoje gauna -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "Žodyje halten h girdimas kaip garsas.",
+          "Žodyje fahren h rodo balsio ilgumą.",
+          "Žodyje halten a tariamas trumpai: halten.",
+          "Žodyje tragen a tariamas ilgai: tragen.",
+          "äu tariamas kaip oi: du läufst, er läuft.",
+          "Žodyje Kopf pf tariamas taip, kad girdėtųsi abu priebalsiai."
         ]
       },
       {
@@ -2059,11 +2059,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kiek žmogus turi rankų?",
+            "lv": "Kiek rankų turi žmogus?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Kiek turi kojų?",
+            "lv": "Kiek kojų tu turi?",
             "de": "Wie viele Beine hast du?"
           },
           {
@@ -2083,7 +2083,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Ranka yra maža, bet koja yra didelė.",
+            "lv": "Ranka maža, bet koja didelė.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
@@ -2107,11 +2107,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Kiek pirštų turi dvi rankos?",
+            "lv": "Kiek pirštų turi dvi plaštakos?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Dvi rankos turi dešimt pirštų.",
+            "lv": "Dvi plaštakos turi dešimt pirštų.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
@@ -2127,11 +2127,11 @@ const COURSE_LESSON_DATA = {
             "de": "Was tust du?"
           },
           {
-            "lv": "Aš apkarpau ir valau nagus.",
+            "lv": "Aš apkerpu ir valau nagus.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Ką Pauls daro?",
+            "lv": "Ką daro Paul?",
             "de": "Was tut Paul?"
           },
           {
@@ -2159,27 +2159,27 @@ const COURSE_LESSON_DATA = {
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Kas kvėpuoja giliai?",
+            "lv": "Kas giliai kvėpuoja?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Petras ir Anna kvėpuoja giliai.",
+            "lv": "Peter ir Anna giliai kvėpuoja.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Ar Robertas taip pat mankštinasi?",
+            "lv": "Ar Robert taip pat mankštinasi?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Ne, Robertas ir Jonas nesimankština.",
+            "lv": "Ne, Robert ir Johann nesimankština.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robertai, mankštinkis!",
+            "lv": "Robert, mankštinkis!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robertai ir Jonai, mankštinkitės!",
+            "lv": "Robert ir Johann, mankštinkitės!",
             "de": "Robert und Johann, turnt!"
           },
           {
@@ -2187,7 +2187,7 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Žengkite du žingsnius, o tada likite stovėti!",
+            "lv": "Ženkite du žingsnius, o tada likite stovėti!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2222,35 +2222,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
-          "müssen — turėti / privalėti",
+          "müssen — reikėti / turėti (ką daryti)",
           "ich muss — man reikia / aš turiu",
           "du musst — tau reikia / tu turi",
           "er muss — jam reikia / jis turi",
           "sie muss — jai reikia / ji turi",
-          "es muss — tam reikia / tas turi",
+          "es muss — tam reikia / tai turi",
           "wir müssen — mums reikia / mes turime",
           "ihr müsst — jums reikia / jūs turite",
           "sie müssen — jiems / joms reikia",
           "lernen — mokytis",
-          "vorwärts — į priekį",
-          "vorwärts kommen — pažengti į priekį",
+          "vorwärts — pirmyn",
+          "vorwärts kommen — pasistūmėti pirmyn",
           "wollen — norėti",
           "ich will — aš noriu",
           "du willst — tu nori",
           "er will — jis nori",
           "sie will — ji nori",
-          "es will — tas nori",
+          "es will — tai nori",
           "wir wollen — mes norime",
           "ihr wollt — jūs norite",
           "sie wollen — jie / jos nori",
-          "mögen — norėti / trokšti / patikti",
+          "mögen — norėti / pageidauti / patikti",
           "ich mag — aš noriu / man patinka",
           "du magst — tu nori / tau patinka",
           "er mag — jis nori / jam patinka",
           "sie mag — ji nori / jai patinka",
-          "es mag — tas nori / tam patinka",
+          "es mag — tai nori / tam patinka",
           "wir mögen — mes norime",
           "ihr mögt — jūs norite",
           "sie mögen — jie / jos nori",
@@ -2270,12 +2270,12 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Modaliniai veiksmažodžiai",
             "text": "Veiksmažodžiai müssen, wollen ir mögen yra modaliniai veiksmažodžiai."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Esamojo laiko vienaskaitoje 1. ir 3. asmuo yra vienodi.",
+            "heading": "Vienaskaitos 1 ir 3 asmuo",
+            "text": "Esamojo laiko vienaskaitoje 1 ir 3 asmuo sutampa.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Kamieno balsio kaita",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2330,27 +2330,27 @@ const COURSE_LESSON_DATA = {
             "heading": "Müssen",
             "text": "Müssen reiškia reikėti / būti būtinam.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Man reikia mokytis."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen reiškia sąmoningai norėti kažką daryti.",
+            "text": "Wollen reiškia sąmoningai norėti ką nors daryti.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Aš noriu pasistūmėti pirmyn."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen išreiškia norą arba patiką.",
+            "text": "Mögen reiškia norą arba patikimą.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Aš nenoriu valgyti sriubos.",
+              "Die Suppe mundet mir nicht. — Sriuba man neskani."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Latviškai dažnai sakome “man reikia mokytis”, “tau reikia rašyti”, “jam reikia ateiti”. Vokiškai tokiuose sakiniuose dažnai vartojamas müssen.",
+            "heading": "Svarbu",
+            "text": "Lietuviškai dažnai sakome „man reikia mokytis“, „tau reikia rašyti“, „jam reikia ateiti“. Vokiškai tokiuose sakiniuose dažnai vartojamas müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß tariamas kaip lietuviškas s.",
+          "ß rašoma žodžio viduryje arba gale po ilgojo balsio ar dvibalsio: die Füße, die Straße, ich muss, er muss.",
+          "Jei kitose formose yra ss, prieš galūnę gali būti ß: müssen, ich muss, du musst, ihr müsst.",
+          "Žodyje mögen ö tariamas kaip aiškus ö garsas.",
+          "Jei po g eina t, g skamba panašiau į k: du magst, ihr mögt.",
+          "Panašiai ir lietuvių kalboje žodyje „degti“ g prieš t skamba panašiau į k."
         ]
       },
       {
@@ -2375,31 +2375,31 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas nori darbščiai mokytis?",
+            "lv": "Kas nori stropiai mokytis?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Visi mokiniai nori darbščiai mokytis.",
+            "lv": "Visi mokiniai nori stropiai mokytis.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Kam šiandien reikia ateiti?",
+            "lv": "Kas šiandien turi ateiti?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Man šiandien reikia ateiti.",
+            "lv": "Aš šiandien turiu ateiti.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Tau reikia rašyti laišką.",
+            "lv": "Tu turi parašyti laišką.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Kam reikia darbščiai mokytis?",
+            "lv": "Kas turi stropiai mokytis?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Mokiniams reikia darbščiai mokytis.",
+            "lv": "Mokiniai turi stropiai mokytis.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
@@ -2411,15 +2411,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elza nori valgyti sriubą.",
+            "lv": "Elsa nori valgyti sriubą.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kam reikia skaityti knygą?",
+            "lv": "Kas turi perskaityti knygą?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Broliui reikia skaityti knygą.",
+            "lv": "Brolis turi perskaityti knygą.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
@@ -2427,7 +2427,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Tėvui reikia pirkti stalą.",
+            "lv": "Tėvas turi nupirkti stalą.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

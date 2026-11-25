@@ -59,11 +59,11 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "Лекция 8",
-    "subtitle": "Возвратные глаголы, e → i/ie, изменение и винительный падеж.",
+    "title": "Урок 8",
+    "subtitle": "Възвратни глаголи, смяна e → i/ie и акузатив.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Диалози / изречения",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -88,79 +88,79 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Думи",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
-          "stehen auf — pieceļas",
-          "grüßen (grüsen) — sveicināt",
-          "guten Morgen — labrīt",
-          "gut — labs",
-          "der Morgen — rīts",
-          "der Herr — kungs",
-          "das Kind — bērns",
-          "die Kinder — bērni",
-          "setzt euch (zect oich) — sēstieties!",
-          "sie setzen sich — viņi apsēžas",
-          "fragen (ar akuzatīvu) — jautāt",
-          "sprechen — runāt",
-          "er spricht — viņš runā",
-          "aber — bet",
-          "sehr (zēr) — ļoti",
-          "leise — klusi",
-          "laut — skaļi",
-          "jetzt (ject) — tagad",
-          "lesen — lasīt",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
-          "schreiben — rakstīt",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — stāstīt",
-          "zuhören — klausīties",
-          "sie hören zu — viņi klausās",
-          "was ist das — kas tas ir?",
-          "der Arbeiter — strādnieks",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — maiznieks",
-          "der Schneider (dēr šneider) — drēbnieks",
-          "der Gärtner (dēr gertner) — dārznieks",
-          "der Schuster — kurpnieks"
+          "alle — всички",
+          "aufstehen — ставам",
+          "stehen auf — става",
+          "grüßen (грюсен) — поздравявам",
+          "guten Morgen — добро утро",
+          "gut — добър",
+          "der Morgen — утро",
+          "der Herr — господин",
+          "das Kind — дете",
+          "die Kinder — деца",
+          "setzt euch (зецт ойх) — седнете!",
+          "sie setzen sich — те сядат",
+          "fragen (с акузатив) — питам",
+          "sprechen — говоря",
+          "er spricht — той говори",
+          "aber — но",
+          "sehr (зер) — много",
+          "leise — тихо",
+          "laut — силно, високо",
+          "jetzt (йецт) — сега",
+          "lesen — чета",
+          "lies! — чети!",
+          "gut — добре",
+          "schlecht — лошо",
+          "deutlich (дойтлих) — ясно, разбираемо",
+          "schreiben — пиша",
+          "endlich (ентлих) — най-накрая",
+          "erzählen (ерцелен) — разказвам",
+          "zuhören — слушам",
+          "sie hören zu — те слушат",
+          "was ist das — какво е това?",
+          "der Arbeiter — работник",
+          "der Müller — мелничар",
+          "der Tischler — дърводелец",
+          "der Bäcker (дер бекер) — хлебар",
+          "der Schneider (дер шнайдер) — шивач",
+          "der Gärtner (дер гертнер) — градинар",
+          "der Schuster — обущар"
         ]
       },
       {
         "title": "Произношение",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä, както вече беше споменато, се произнася като затворено кратко или дълго е. Примери: der Bäcker (бекер), das Mädchen (метхен).",
+          "ä се произнася и като открито е, например в думата der Gärtner (дер гертнер).",
+          "В думите Schüler, Bücher — ü е дълго (юю), а в Müller — кратко ü.",
+          "ie се произнася като дълго и: liest (лист).",
+          "ß се произнася като с: grüßen (грюсен).",
+          "eu се произнася като ой: deutlich (дойтлих)."
         ]
       },
       {
         "title": "Граматика",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Много глаголи с гласна e в основата имат i или ie вместо e във 2. и 3. лице единствено число в сегашно време.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "При тези глаголи и в повелителната форма за единствено число в основата вместо e стои i или ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "В българския възвратните глаголи се образуват с частицата „се“, например: обличам се. И в немския няма особено спрежение. Тези глаголи се спрягат като другите глаголи, като се добавя възвратното местоимение sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Повелителна форма: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Упражнение",
         "exerciseType": "mixed",
-        "description": "Übung I – Используйте правильное спряжение. Übung II - Карты перевода.",
+        "description": "Übung I — използвай правилния падеж. Übung II — карти за превод.",
         "cards": [
           {
             "type": "fill",
@@ -249,190 +249,190 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Приветствуйте учителя и учительницу!",
+            "lv": "Поздрави учителя и учителката!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Что ты приветствуешь?",
+            "lv": "Кого поздравяваш?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Приветствую мисс.",
+            "lv": "Поздравявам госпожицата.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Откройте все окна!",
+            "lv": "Отворете всички прозорци!",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Открываем все окна.",
+            "lv": "Ние отваряме всички прозорци.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Ты открываешь окно?",
+            "lv": "Отваряш ли прозореца?",
             "de": "Öffnest du das Fenster?"
           },
           {
             "type": "translate",
-            "lv": "Нет, я не открывал окно.",
+            "lv": "Не, не съм отворил прозореца.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
             "type": "translate",
-            "lv": "Все ученики садятся.",
+            "lv": "Всички ученици сядат.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Пол, садись!",
+            "lv": "Паул, седни!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Дети, садитесь!",
+            "lv": "Деца, седнете!",
             "de": "Kinder, setzt euch!"
           },
           {
             "type": "translate",
-            "lv": "Не говорите тихо!",
+            "lv": "Не говори тихо!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Как он говорит?",
+            "lv": "Как говори той?",
             "de": "Wie spricht er?"
           },
           {
             "type": "translate",
-            "lv": "Все ученики говорят громко.",
+            "lv": "Всички ученици говорят високо.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Кто читает вслух?",
+            "lv": "Кой чете на глас?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Учащийся читает громко и четко.",
+            "lv": "Ученичката чете на глас и ясно.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Читайте хорошо!",
+            "lv": "Чети добре!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Не говорите тихо!",
+            "lv": "Не говори тихо!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Читайте хорошо!",
+            "lv": "Четете добре!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ансис пишет хорошо, а Анна пишет плохо.",
+            "lv": "Ханс пише добре, а Анна пише лошо.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Мисс Мюллер, спойте, пожалуйста, песню!",
+            "lv": "Госпожице Мюлер, моля, изпейте една песен!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Господин Учитель, пожалуйста, сядьте!",
+            "lv": "Господин учител, моля, седнете!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "exerciseType": "translate",
-        "description": "Переведите латышские предложения на немецкий.",
+        "description": "Преведи българските изречения на немски.",
         "cards": [
           {
-            "lv": "Приветствуйте учителя и учителя.",
+            "lv": "Поздрави учителя и учителката!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Откройте все окна!",
+            "lv": "Отворете всички прозорци!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Открываем все окна.",
+            "lv": "Ние отваряме всички прозорци.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Ты открыл окно?",
+            "lv": "Отворил ли си прозореца?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Нет, я не открывал окно.",
+            "lv": "Не, не съм отворил прозореца.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Все ученики садятся.",
+            "lv": "Всички ученици сядат.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Пол, садись!",
+            "lv": "Паул, седни!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Дети, садитесь!",
+            "lv": "Деца, седнете!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Не говорите тихо!",
+            "lv": "Не говори тихо!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Как он говорит?",
+            "lv": "Как говори той?",
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Все ученики говорят громко.",
+            "lv": "Всички ученици говорят високо.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Кто читает вслух?",
+            "lv": "Кой чете на глас?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Учащийся читает громко и четко.",
+            "lv": "Ученичката чете на глас и ясно.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Читайте хорошо!",
+            "lv": "Чети добре!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Не говорите тихо!",
+            "lv": "Не говори тихо!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Читайте хорошо!",
+            "lv": "Четете добре!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ансис пишет хорошо, а Анна пишет плохо.",
+            "lv": "Ханс пише добре, а Анна пише лошо.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Мисс Мюллер, спойте, пожалуйста, песню!",
+            "lv": "Госпожице Мюлер, моля, изпейте една песен!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Господин Учитель, пожалуйста, сядьте!",
+            "lv": "Господин учител, моля, седнете!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,12 +441,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "Лекция 9",
-    "subtitle": "Несколько предметов, dieser/jener, единственное и множественное число",
-    "intro": "Девятая лекция: множественное число существительных, указательные местоимения dieser/jener, упражнения и перевод.",
+    "title": "Урок 9",
+    "subtitle": "Няколко предмета, dieser/jener, единствено и множествено число",
+    "intro": "Девети урок: множествено число на съществителните, показателните местоимения dieser/jener, упражнения и превод.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Диалози / изречения",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -471,37 +471,37 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Думи",
         "items": [
-          "mehrere (mērere) — vairāki, vairākas",
-          "hier (hīr) — šeit, te",
-          "dort — tur",
-          "auch — arī",
-          "langsam (lankzām) — lēni",
-          "schnell (šnel) — ātri",
-          "mehr (mēr) — vairāk",
-          "zumachen — aiztaisīt",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — sēdēt",
-          "ruhig (rū-ich) — mierīgi",
-          "dieser (dīzer) — šis",
-          "jener (jēner) — tas",
-          "der Brief (dēr brīf) — vēstule",
-          "die Briefe — vēstules",
-          "kurz (kurc) — īss",
-          "rein — tīrs",
-          "schmutzig (šmucich) — netīrs"
+          "mehrere (мерере) — няколко",
+          "hier (хир) — тук",
+          "dort — там",
+          "auch — също",
+          "langsam (лангзам) — бавно",
+          "schnell (шнел) — бързо",
+          "mehr (мер) — повече",
+          "zumachen — затварям",
+          "ich mache zu — аз затварям",
+          "sitzen (зицен) — седя",
+          "ruhig (ру-их) — спокойно, тихо",
+          "dieser (дизер) — този",
+          "jener (йенер) — онзи",
+          "der Brief (дер бриф) — писмо",
+          "die Briefe — писма",
+          "kurz (курц) — къс, кратък",
+          "rein — чист",
+          "schmutzig (шмуцих) — мръсен"
         ]
       },
       {
         "title": "Граматика",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Укажите местоимения dieser и jener как определенный артикль."
+            "heading": "Показателни местоимения",
+            "text": "Показателните местоимения dieser и jener се склоняват като определителния член."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Единствено число",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Множествено число",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Если перед существительным стоит местоимение или числовое слово, артикль не используется."
+            "heading": "Без член",
+            "text": "Ако пред съществителното стои местоимение или числително, член не се използва."
           },
           {
             "examples": [
@@ -560,23 +560,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Изходно изречение",
+                "task": "Преобразувай това изречение в 3. лице единствено число.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "Форма 2/4 Er",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Форма с Er",
+                "task": "Преобразувай изходното изречение в 1. лице множествено число.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "Форма проволоки 3/4",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Форма с Wir",
+                "task": "Употреби съществителното в множествено вместо в единствено число.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 множественное число",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Множествено число",
+                "task": "Готово. Следващото кликване показва следващата карта.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,83 +784,83 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Девушка садится и пишет письмо.",
+            "lv": "Момичето сяда и пише писмо.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Письмо короткое?",
+            "lv": "Кратко ли е писмото?",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Нет, письмо не короткое, оно длинное.",
+            "lv": "Не, писмото не е кратко, то е дълго.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Какво правиш",
+            "lv": "Какво правите Вие?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Сидим и читаем.",
+            "lv": "Ние седим и четем.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Павел, садись и читай!",
+            "lv": "Паул, седни и чети!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Господин Учитель, садитесь и читайте!",
+            "lv": "Господин учител, седнете и четете!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Как пишут дети?",
+            "lv": "Как пишат децата?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Они печатают быстро или медленно?",
+            "lv": "Бързо или бавно пишат те?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Они пишут очень медленно.",
+            "lv": "Те пишат много бавно.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Что это за тарелка?",
+            "lv": "Каква е тази чиния?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Эта тарелка не чистая, она грязная.",
+            "lv": "Тази чиния не е чиста, тя е мръсна.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Буквы длинные или короткие?",
+            "lv": "Дълги или кратки са писмата?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Анна, заточи этот карандаш!",
+            "lv": "Анна, подостри този молив!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Учитель, пожалуйста, заточите этот карандаш!",
+            "lv": "Господин учител, моля, подострете този молив!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Отложи этот карандаш!",
+            "lv": "Остави онзи молив!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
-            "lv": "Закройте окно!",
+            "lv": "Затвори прозореца!",
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Что в итоге делает девушка?",
+            "lv": "Какво прави най-накрая момичето?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Она закрывает окно и выходит.",
+            "lv": "Тя затваря прозореца и излиза навън.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,12 +869,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "Лекция 10",
-    "subtitle": "Сейн, кённен, здоровье, возраст и профессии",
-    "intro": "Лекция десета: sein, können, екипни форми, здраве, възраст и професии.",
+    "title": "Урок 10",
+    "subtitle": "Sein, können, здраве, възраст и професии",
+    "intro": "Десети урок: sein, können, повелителни форми, здраве, възраст и професии.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Диалози / изречения",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -927,48 +927,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Думи",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — mēs esam",
-          "ihr seid (īr zeit) — jūs esat",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — viņš var",
-          "wir können — mēs varam",
-          "ihr könnt — jūs varat",
-          "sie können — viņi var",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (dēr knābe) — zēns",
-          "der Mann — vīrs, vīrietis",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — vectēvs",
-          "krank — slims",
-          "fleißig (fleišich) — čakls",
-          "lernen — mācīties",
-          "alt — vecs",
-          "das Jahr (jār) — gads",
-          "die Jahre — gadi",
-          "wie — kā, kāds, cik"
+          "gesund (гезунт) — здрав",
+          "ich bin gesund — аз съм здрав",
+          "du bist — ти си",
+          "wir sind — ние сме",
+          "ihr seid (ир зайт) — вие сте",
+          "ich kann — аз мога",
+          "du kannst — ти можеш",
+          "er kann — той може",
+          "wir können — ние можем",
+          "ihr könnt — вие можете",
+          "sie können — те могат",
+          "sei gesund — бъди здрав!",
+          "seid gesund — бъдете здрави!",
+          "seien Sie gesund — бъдете Вие здрави!",
+          "der Knabe (дер кнабе) — момче",
+          "der Mann — мъж",
+          "die Frau — жена",
+          "der Großvater (дер гросфатер) — дядо",
+          "krank — болен",
+          "fleißig (флайсих) — прилежен, трудолюбив",
+          "lernen — уча",
+          "alt — стар",
+          "das Jahr (яр) — година",
+          "die Jahre — години",
+          "wie — как, какъв, колко"
         ]
       },
       {
         "title": "Произношение",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Умлаутите трябва да се произнасят правилно.",
+          "ö се произнася със закръглени устни като е: wir können, ihr könnt, sie können, der Löffel.",
+          "ü се произнася със закръглени устни като и: Müller (мюлер), Bücher (бюхер).",
+          "Дали гласната е дълга или кратка, зависи от следващите съгласни.",
+          "Ако след гласната следва една съгласна, гласната се произнася дълго: Vögel (фьогел), Schüler (шюлер), Bücher (бюхер).",
+          "Ако след гласната следват две или повече съгласни, гласната се произнася кратко: wir können, der Löffel, der Müller.",
+          "Немското o се произнася като чисто о, без призвук, както в думите: фонд, номинатив, фотограф.",
+          "Произнасяй правилно: der Großvater (дер гросфатер).",
+          "Дифтонгът ei се произнася като ай: seid (зайт), fleißig (флайсих).",
+          "Немското e може да бъде затворено или открито: der Lehrer (дер лерер). Коренното e е дълго и затворено, а e в окончанието е кратко и открито."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Вспомогательный глагол sein – быть в кругу беспорядка. Поэтому этому следует хорошо научиться."
+            "text": "Спомагателният глагол sein — съм се спряга неправилно. Затова трябва да се научи добре."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Аналогично, вспомогательный глагол können – иметь возможность – склоняется неправильно."
+            "text": "По същия начин неправилно се спряга и глаголът können — мога."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,91 +1051,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ты здоров?",
+            "lv": "Здрав ли си?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Да, я здоров.",
+            "lv": "Да, здрав съм.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Пол здоров?",
+            "lv": "Здрав ли е Паул?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Нет, Павел не здоров, он болен.",
+            "lv": "Не, Паул не е здрав, той е болен.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Может ли он работать?",
+            "lv": "Може ли той да работи?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Нет, он не может работать.",
+            "lv": "Не, той не може да работи.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Дедушка старый?",
+            "lv": "Стар ли е дядото?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Да, он очень старый.",
+            "lv": "Да, той е много стар.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Дедушка и бабушка очень старые.",
+            "lv": "Дядото и бабата са много стари.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Сколько лет Адольфу?",
+            "lv": "На колко години е Адолф?",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Адольфу девять лет.",
+            "lv": "Адолф е на девет години.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Кой си ти",
+            "lv": "Кой си ти?",
             "de": "Wer bist du?"
           },
           {
-            "lv": "Я мужчина.",
+            "lv": "Аз съм мъж.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Он учитель?",
+            "lv": "Учител ли е той?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Нет, он рабочий.",
+            "lv": "Не, той е работник.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Кто такой учитель?",
+            "lv": "Какво е учителят?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "Учитель – мужчина.",
+            "lv": "Учителят е мъж.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Кто такой учитель?",
+            "lv": "Какво е учителката?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Учитель – женщина.",
+            "lv": "Учителката е жена.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Кто может работать?",
+            "lv": "Кой може да работи?",
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "Мы все можем работать.",
+            "lv": "Всички ние можем да работим.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1144,12 +1144,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "Лекция 11",
-    "subtitle": "Хабен, кеин/кейне/кейнен, притяжательные и составные существительные",
-    "intro": "Одиннадцатая лекция: хабен, отрицание с кейн, владение, сложные существительные и порядок слов с денн.",
+    "title": "Урок 11",
+    "subtitle": "Haben, kein/keine/keinen, притежание и сложни съществителни",
+    "intro": "Единадесети урок: haben, отрицание с kein, изразяване на притежание, сложни съществителни и словоред с denn.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Диалози / изречения",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1189,46 +1189,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Думи",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — viņam ir",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — viņiem ir",
-          "der Bruder (dēr brūder) — brālis",
-          "die Brüder — brāļi",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — gaišs",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — kopā",
-          "oft — bieži",
-          "der Freund (dēr froint) — draugs",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krēsls",
-          "die Stühle — krēsli",
-          "die Tischlampe — galda lampa",
-          "das Bücherbrett — grāmatu plaukts",
-          "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
-          "glücklich — laimīgs",
-          "denn — jo",
-          "die Schwester (dī švester) — māsa",
-          "die Schwestern — māsas"
+          "ich habe — имам",
+          "du hast — имаш",
+          "er hat — той има",
+          "wir haben — имаме",
+          "ihr habt — имате",
+          "sie haben — те имат",
+          "der Bruder (дер брудер) — брат",
+          "die Brüder — братя",
+          "das Zimmer (дас цимер) — стая",
+          "ist nicht — не е",
+          "groß (грос) — голям",
+          "hell — светъл",
+          "breit — широк",
+          "der Schreibtisch (дер шрайбтиш) — писалище, бюро",
+          "da — там",
+          "kein, keine, kein — никакъв, никаква, никакво",
+          "zusammen (цузамен) — заедно",
+          "oft — често",
+          "der Freund (дер фройнт) — приятел",
+          "die Freunde — приятели",
+          "der Schrank — шкаф, гардероб",
+          "der Stuhl (дер щул) — стол",
+          "die Stühle — столове",
+          "die Tischlampe — настолна лампа",
+          "das Bücherbrett — етажерка за книги",
+          "die Landkarte (ди ланткарте) — географска карта",
+          "glücklich — щастлив",
+          "denn — защото",
+          "die Schwester (ди швестер) — сестра",
+          "die Schwestern — сестри"
         ]
       },
       {
         "title": "Произношение",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu се произнася като ой: der Freund (дер фройнт), neun (нойн).",
+          "h в повечето случаи е знак за дължина на предходната гласна: der Stuhl (дер щул), zehn (цен).",
+          "z се произнася като българското ц: Franz (франц), das Zimmer (цимер)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Вспомогательный глагол haben в немецком языке выражает понятие принадлежности. В латышском языке это часто выражается словами: у меня есть, у тебя есть, у него есть и т. д. т.е. т. е."
+            "text": "В немския със спомагателния глагол haben се изразява притежание. На български това се казва също с глагол: имам, имаш, има и т.н."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "имам"
               ],
               [
                 "du hast",
-                "tev ir"
+                "имаш"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "той/тя/то има"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "имаме"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "имате"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "те имат"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "В латышском языке лицо, которому что-то принадлежит, стоит в дательном падеже, а подлежащее – в именительном падеже. В немецком языке лицо стоит в именительном падеже, а объект владения — в винительном падеже."
+            "heading": "Притежание: немски номинатив и акузатив",
+            "text": "В българския притежателят е подлог, а притежаваното — пряко допълнение: аз имам маса. В немския притежателят е в номинатив, а притежаваният предмет — в акузатив."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Примери",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — имам маса",
+              "Der Vater hat ein Buch — бащата има книга",
+              "Sie haben eine Feder — те имат перо"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Сравнение с други езици",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "руски: я имею тетрадь; отец имеет книгу.",
+              "английски: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Глагол haben необходимо хорошо выучить и правильно использовать. Вы также должны знать формы команд."
+            "text": "Глаголът haben трябва да се научи добре и да се използва правилно. Трябва да се знаят и повелителните форми."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — примери",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — търпение! / имай търпение!",
+              "habt Geduld! — имайте търпение!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Двойное отрицание латышского языка не выражается в немецком языке отрицательным словом kein. Отрицательное слово kein стоит только перед существительным."
+            "text": "Двойното отрицание, обичайно в българския, например „нямам никаква тетрадка“, в немския не се изразява с отрицателната дума kein. Думата kein стои само пред съществително."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — единствено число",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — множествено число",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Если в повествовательном предложении присутствует союз denn, глагол остается на 2-й позиции. Союз denn не считается членом предложения."
+            "heading": "Словоред с denn",
+            "text": "Ако в съобщителното изречение има съюз denn, глаголът остава на 2. място. Съюзът denn не се брои за част на изречението."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — примери",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Перед сложными существительными стоит артикль последнего существительного. Ударение делается на первое слово по делу."
+            "heading": "Сложни съществителни",
+            "text": "Пред сложното съществително стои членът на последното съществително. Ударението е върху първото съществително."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Сложни съществителни — примери",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,91 +1358,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Что у тебя есть",
+            "lv": "Какво имаш?",
             "de": "Was hast du?"
           },
           {
-            "lv": "У меня есть книги.",
+            "lv": "Имам книги.",
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Какие книги?",
+            "lv": "Какви са книгите?",
             "de": "Wie sind die Bücher?"
           },
           {
-            "lv": "Книги толстые.",
+            "lv": "Книгите са дебели.",
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Мисс Мюллер, у вас есть блокноты?",
+            "lv": "Госпожице Мюлер, имате ли тетрадки?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "У меня нет тетрадей.",
+            "lv": "Нямам тетрадки.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "У Франка нет ни ручки, ни карандаша.",
+            "lv": "Франц няма нито перо, нито молив.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Какова комната",
+            "lv": "Каква е стаята?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Комната большая, светлая и теплая.",
+            "lv": "Стаята е голяма, светла и топла.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "У вас есть стол?",
+            "lv": "Имаш ли писалище?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Да, у меня есть письменный стол и настольная лампа.",
+            "lv": "Да, имам писалище и настолна лампа.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Что есть у учителя?",
+            "lv": "Какво има учителят?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "У учителя много книг и книжная полка.",
+            "lv": "Учителят има много книги и етажерка за книги.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Кто счастлив?",
+            "lv": "Кой е щастлив?",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Ребенок счастлив, потому что у него есть отец и мать.",
+            "lv": "Детето е щастливо, защото има баща и майка.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Что делает Анна?",
+            "lv": "Какво прави Анна?",
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Она пишет.",
+            "lv": "Тя пише.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Фрэнсис тоже пишет?",
+            "lv": "Франц също ли пише?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Нет, Фрэнсис не пишет, он рисует.",
+            "lv": "Не, Франц не пише, той рисува.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Они стоят?",
+            "lv": "Стоят ли те?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Нет, они садятся и учатся.",
+            "lv": "Не, те сядат и учат.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,12 +1451,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "Лекция 12",
-    "subtitle": "Сравнительные степени, als/wie, возраст, прилагательные и цвета.",
-    "intro": "Двенадцатая лекция: сравнительные степени, als/wie, возраст, прилагательные и цвета.",
+    "title": "Урок 12",
+    "subtitle": "Степени за сравнение, als / wie, възраст, прилагателни и цветове.",
+    "intro": "Дванадесети урок: степени за сравнение, als / wie, възраст, прилагателни и цветове.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Диалози / изречения",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1484,51 +1484,51 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Думи",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — kā tevi sauc",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — liels",
-          "klein — mazs",
-          "kleiner als ich — mazāks par mani",
-          "alt — vecs",
-          "jung — jauns",
-          "jünger als ich — jaunāks par mani",
-          "so alt wie — tik vecs kā",
-          "der Vetter (dēr feter) — brālēns",
-          "am ältesten (am eltesten) — visvecākais",
-          "ebenso — tāpat",
-          "wie — kā",
-          "am jüngsten — visjaunākais",
-          "faul — slinks",
-          "fleißig — čakls",
-          "blau — zils",
-          "braun — brūns",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — gumija",
-          "grau — pelēks",
-          "der Baum — koks",
-          "grün — zaļš",
-          "die Blume — puķe",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — krīts",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "heißen — казвам се",
+          "wie heißt du — как се казваш",
+          "ich heiße — казвам се",
+          "die Grube — яма",
+          "wieviel — колко",
+          "Max (макс) — Макс",
+          "groß — голям",
+          "klein — малък",
+          "kleiner als ich — по-малък от мен",
+          "alt — стар",
+          "jung — млад",
+          "jünger als ich — по-млад от мен",
+          "so alt wie — толкова стар, колкото",
+          "der Vetter (дер фетер) — братовчед",
+          "am ältesten (ам елтестен) — най-стар",
+          "ebenso — също така",
+          "wie — като, колкото",
+          "am jüngsten — най-млад",
+          "faul — мързелив",
+          "fleißig — прилежен",
+          "blau — син",
+          "braun — кафяв",
+          "gelb — жълт",
+          "das Gummi (дас гуми) — гума за триене",
+          "grau — сив",
+          "der Baum — дърво",
+          "grün — зелен",
+          "die Blume — цвете",
+          "rot — червен",
+          "die Tinte — мастило",
+          "die Kreide — тебешир",
+          "weiß — бял",
+          "schwarz — черен",
+          "krank — болен",
+          "gesund — здрав"
         ]
       },
       {
         "title": "Произношение",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme."
+          "x се произнася като кс: Max (макс), Felix (феликс).",
+          "В думите Schwester, am jüngsten st се произнася като обикновено българско ст: Schwester (швестер), jüngsten (юнгстен).",
+          "h в думата der Federhalter е звук, който се произнася, а в думата der Sohn — знак за дължина."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Превосходная степень (Comparativ) прилагательных образуется от основной степени (Positiv) с окончанием -er.",
+            "text": "Сравнителната степен (Komparativ) на прилагателните се образува от основната степен (Positiv) с окончание -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Большинство односложных прилагательных с основной гласной a, o, u имеют умлаут в превосходной степени.",
+            "heading": "Умлаут в сравнителната степен",
+            "text": "Повечето едносрични прилагателни с коренна гласна a, o, u имат умлаут в сравнителната степен.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie используется для выражения равенства. als используется при выражении неравенства.",
+            "heading": "Сравнение с wie и als",
+            "text": "wie се използва, когато се изразява равенство. als се използва, когато се изразява неравенство.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Общая степень (Superlativ) образуется путем добавления окончания -sten или -esten к основной степени и дорожного слова am перед ней.",
+            "text": "Превъзходната степен (Superlativ) се образува, като към основната степен се добави окончание -sten или -esten, а пред нея се постави предлогът am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Неправилни степени за сравнение",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (близък)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (висок)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (добър)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (много)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (скоро)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (с удоволствие)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,139 +1611,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Кто старше, ты или я?",
+            "lv": "Кой е по-стар, ти или аз?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Ты старше меня.",
+            "lv": "Ти си по-стар от мен.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Кто самый старший?",
+            "lv": "Кой е най-стар?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Пол — самый старший.",
+            "lv": "Паул е най-стар.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Как вас зовут",
+            "lv": "Как се казваш?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Меня зовут Питер.",
+            "lv": "Казвам се Петер.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Как его зовут?",
+            "lv": "Как се казва той?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Его зовут Джон.",
+            "lv": "Той се казва Йохан.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Как вас зовут?",
+            "lv": "Как се казвате?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Сколько тебе лет?",
+            "lv": "На колко години сте?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Мне 20 лет.",
+            "lv": "Аз съм на 20 години.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Макси большой?",
+            "lv": "Голям ли е Макс?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Нет, Макс не большой, Рудольф больше.",
+            "lv": "Не, Макс не е голям, Рудолф е по-голям.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Что самое великое?",
+            "lv": "Кой е най-голям?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Фрэнсис величайший.",
+            "lv": "Франц е най-голям.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Сколько лет матери?",
+            "lv": "На колко години е майката?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Мать того же возраста, что и отец.",
+            "lv": "Майката е също толкова стара, колкото бащата.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Сколько у тебя сестер?",
+            "lv": "Колко сестри имаш?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "У меня три сестры.",
+            "lv": "Имам три сестри.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Как их зовут?",
+            "lv": "Как се казват те?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Их зовут Эльза, Марта и Альма.",
+            "lv": "Те се казват Елза, Марта и Алма.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Сколько у тебя братьев?",
+            "lv": "Колко братя имате?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "У меня есть один брат.",
+            "lv": "Имам един брат.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Что такое чернила?",
+            "lv": "Какво е мастилото?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Он черный.",
+            "lv": "То е черно.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Что такое мел?",
+            "lv": "Какъв е тебеширът?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Он белый.",
+            "lv": "Той е бял.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Что такое цветы?",
+            "lv": "Какви са цветята?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Они синие, красные, желтые и белые.",
+            "lv": "Те са сини, червени, жълти и бели.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Брат здоров?",
+            "lv": "Здрав ли е братът?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Да, брат здоров, но сестра больна.",
+            "lv": "Да, братът е здрав, но сестрата е болна.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Вы счастливы?",
+            "lv": "Щастливи ли сте?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Да, мы счастливы, потому что мы здоровы.",
+            "lv": "Да, ние сме щастливи, защото сме здрави.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1752,12 +1752,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "Лекция 13",
-    "subtitle": "Der Körper, части тела, Turnen, Jeder и множественное число.",
-    "intro": "Лекция тринадцатая: Der Körper, части тела, упражнения, возвратные глаголы и множественное число.",
+    "title": "Урок 13",
+    "subtitle": "Der Körper, части на тялото, turnen, jeder и множествено число.",
+    "intro": "Тринадесети урок: Der Körper, части на тялото, гимнастика, възвратни глаголи и множествено число.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "der Körper — ķermenis",
-          "der Mensch — cilvēks",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — kāja",
-          "die Beine — kājas",
-          "der Fuß — kājas pēda",
-          "die Füße — kāju pēdas",
-          "rund — apaļš",
-          "lang — garš",
-          "kurz — īss",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — tievs / plāns",
-          "die Brust — krūtis",
-          "vorn — priekšā",
-          "der Rücken — mugura",
-          "hinten — aizmugurē",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — kājas pirksts",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — tīrīt",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — darīt / taisīt",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — stāvēt",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — turēt",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dziļi"
+          "der Körper — тяло",
+          "der Mensch — човек",
+          "der Kopf — глава",
+          "der Hals — шия",
+          "der Rumpf — торс",
+          "der Arm — ръка",
+          "die Hand — длан",
+          "die Hände — длани",
+          "das Bein — крак",
+          "die Beine — крака",
+          "der Fuß — стъпало",
+          "die Füße — стъпала",
+          "rund — кръгъл",
+          "lang — дълъг",
+          "kurz — къс",
+          "klein — малък",
+          "groß — голям",
+          "dick — дебел",
+          "dünn — тънък / слаб",
+          "die Brust — гърди",
+          "vorn — отпред",
+          "der Rücken — гръб",
+          "hinten — отзад",
+          "jeder — всеки",
+          "jede — всяка",
+          "jedes — всяко",
+          "der Finger — пръст",
+          "die Zehe — пръст на крака",
+          "beide — двата, двете",
+          "der Nagel — нокът",
+          "die Nägel — нокти",
+          "beschneiden — подрязвам",
+          "reinigen — чистя",
+          "turnen — правя гимнастика",
+          "heben — вдигам",
+          "machen — правя",
+          "der Schritt — крачка",
+          "bleiben — оставам",
+          "stehen — стоя",
+          "sich umkehren — обръщам се",
+          "ausstrecken — протягам",
+          "senken — спускам, свалям",
+          "drehen — въртя / завъртам",
+          "nach links — наляво",
+          "nach rechts — надясно",
+          "halten — държа",
+          "gerade — изправено, право",
+          "atmen — дишам",
+          "tief — дълбоко"
         ]
       },
       {
         "title": "Граматика",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Некоторые глаголы с основной гласной a или au во 2-м и 3-м лице настоящего единственного числа имеют умлаут.",
+            "heading": "Умлаут в сегашно време",
+            "text": "Някои глаголи с коренна гласна a или au имат умлаут във 2. и 3. лице единствено число в сегашно време.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — обернуться",
+            "heading": "Възвратен глагол",
+            "text": "sich umkehren — обръщам се",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Повелителна форма на sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Не забывай дышать",
+            "heading": "Глаголът atmen",
+            "text": "atmen — дишам",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Повелителна форма на atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Если предложная часть подчеркнута, она отделяется в настоящем времени и идет в конце предложения.",
+            "heading": "Сложни глаголи",
+            "text": "Ако представката е ударена, в сегашно време тя се отделя и отива в края на изречението.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Если приставка безударная, то она безударная.",
+            "heading": "Неотделяеми представки",
+            "text": "Ако представката не е ударена, тя не се отделя.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Местоимение jeder идет по кругу, как и артикли der/die/das.",
+            "heading": "Местоимението jeder",
+            "text": "Местоимението jeder се склонява като членовете der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Мъжки",
+                "Женски",
+                "Среден"
               ],
               [
-                "Nominatīvs",
+                "Номинатив",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Акузатив",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Множествено число без окончание",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Множествено число с окончание -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Множествено число с окончание -en или -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Множествено число с окончание -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Существительные женского рода, образованные с помощью -in take -nen во множественном числе.",
+            "heading": "Съществителни от женски род на -in",
+            "text": "Съществителните от женски род, образувани с -in, получават в множествено число -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "h в думата halten се чува като звук.",
+          "h в думата fahren показва дължината на гласната.",
+          "a в думата halten се произнася кратко: halten.",
+          "a в думата tragen се произнася дълго: tragen.",
+          "äu се произнася като ой: du läufst, er läuft.",
+          "pf в думата Kopf се произнася така, че се чуват и двете съгласни."
         ]
       },
       {
@@ -2055,139 +2055,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Сколько рук у человека?",
+            "lv": "Колко ръце има човекът?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Сколько у тебя ног",
+            "lv": "Колко крака имаш?",
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Какова голова?",
+            "lv": "Каква е главата?",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Как выглядит туловище?",
+            "lv": "Какъв е торсът?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Что такое рука?",
+            "lv": "Каква е ръката?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Что такое нога?",
+            "lv": "Какъв е кракът?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Рука маленькая, а нога большая.",
+            "lv": "Ръката е малка, а кракът е голям.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Где сундук",
+            "lv": "Къде са гърдите?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Где спина?",
+            "lv": "Къде е гърбът?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Грудь впереди, спинка сзади.",
+            "lv": "Гърдите са отпред, гърбът е отзад.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Сколько пальцев на руке?",
+            "lv": "Колко пръста има дланта?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "На ладони пять пальцев.",
+            "lv": "Дланта има пет пръста.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Сколько пальцев на двух руках?",
+            "lv": "Колко пръста имат две длани?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "На двух руках десять пальцев.",
+            "lv": "Две длани имат десет пръста.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Что такое палец?",
+            "lv": "Какво има пръстът?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "На пальце есть коготь.",
+            "lv": "Пръстът има нокът.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Какво правиш",
+            "lv": "Какво правиш?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Я подстригаю и чищу ногти.",
+            "lv": "Подрязвам и чистя ноктите.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Что делает Пол?",
+            "lv": "Какво прави Паул?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Он тренируется.",
+            "lv": "Той прави гимнастика.",
             "de": "Er turnt."
           },
           {
-            "lv": "Как они тренируются?",
+            "lv": "Как правят гимнастика те?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Они поднимают ноги и руки.",
+            "lv": "Те вдигат краката и ръцете.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Они протягивают обе руки.",
+            "lv": "Те протягат двете си ръце.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Они опускают обе руки.",
+            "lv": "Те спускат двете си ръце.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Они поворачивают головы вправо.",
+            "lv": "Те завъртат главата надясно.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Кто дышит глубоко?",
+            "lv": "Кой диша дълбоко?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Питер и Анна глубоко дышат.",
+            "lv": "Петер и Анна дишат дълбоко.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Роберт тоже занимается спортом?",
+            "lv": "Роберт също ли прави гимнастика?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Нет, Робертс и Янис не занимаются спортом.",
+            "lv": "Не, Роберт и Йохан не правят гимнастика.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Роберт, тренируйся!",
+            "lv": "Роберт, прави гимнастика!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Роберт и Яни, тренируйтесь!",
+            "lv": "Роберт и Йохан, правете гимнастика!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Мисс Мюллер, занимайтесь спортом!",
+            "lv": "Госпожице Мюлер, правете гимнастика!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Сделайте два шага и оставайтесь стоять!",
+            "lv": "Направете две крачки и после останете на място!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,12 +2196,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "Лекция 14",
-    "subtitle": "Мюссен, шерстяной, мёген",
-    "intro": "Лекция четырнадцатая: Модальные глаголы müssen, wollen и mögen.",
+    "title": "Урок 14",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Четиринадесети урок: модалните глаголи müssen, wollen и mögen.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "müssen — vajadzēt / būt jādara",
-          "ich muss — man vajag / man jādara",
-          "du musst — tev vajag / tev jādara",
-          "er muss — viņam vajag / viņam jādara",
-          "sie muss — viņai vajag / viņai jādara",
-          "es muss — tam vajag / tam jādara",
-          "wir müssen — mums vajag / mums jādara",
-          "ihr müsst — jums vajag / jums jādara",
-          "sie müssen — viņiem / viņām vajag",
-          "lernen — mācīties",
-          "vorwärts — uz priekšu",
-          "vorwärts kommen — tikt uz priekšu",
-          "wollen — gribēt",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — viņš grib",
-          "sie will — viņa grib",
-          "es will — tas grib",
-          "wir wollen — mēs gribam",
-          "ihr wollt — jūs gribat",
-          "sie wollen — viņi / viņas grib",
-          "mögen — gribēt / vēlēties / patikt",
-          "ich mag — es gribu / man patīk",
-          "du magst — tu gribi / tev patīk",
-          "er mag — viņš grib / viņam patīk",
-          "sie mag — viņa grib / viņai patīk",
-          "es mag — tas grib / tam patīk",
-          "wir mögen — mēs gribam",
-          "ihr mögt — jūs gribat",
-          "sie mögen — viņi / viņas grib",
-          "die Suppe — zupa",
-          "munden — labi garšot",
-          "mir — man",
-          "dir — tev",
-          "ihm — viņam",
-          "ihr — viņai",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — viņiem / viņām",
-          "denn — jo"
+          "müssen — трябва / длъжен съм",
+          "ich muss — аз трябва",
+          "du musst — ти трябва",
+          "er muss — той трябва",
+          "sie muss — тя трябва",
+          "es muss — то трябва",
+          "wir müssen — ние трябва",
+          "ihr müsst — вие трябва",
+          "sie müssen — те трябва",
+          "lernen — уча",
+          "vorwärts — напред",
+          "vorwärts kommen — напредвам",
+          "wollen — искам",
+          "ich will — аз искам",
+          "du willst — ти искаш",
+          "er will — той иска",
+          "sie will — тя иска",
+          "es will — то иска",
+          "wir wollen — ние искаме",
+          "ihr wollt — вие искате",
+          "sie wollen — те искат",
+          "mögen — искам / желая / харесвам",
+          "ich mag — аз искам / харесва ми",
+          "du magst — ти искаш / харесва ти",
+          "er mag — той иска / харесва му",
+          "sie mag — тя иска / харесва ѝ",
+          "es mag — то иска / харесва му",
+          "wir mögen — ние искаме",
+          "ihr mögt — вие искате",
+          "sie mögen — те искат",
+          "die Suppe — супа",
+          "munden — вкусен съм, харесвам на вкус",
+          "mir — на мен, ми",
+          "dir — на теб, ти",
+          "ihm — на него, му",
+          "ihr — на нея, ѝ",
+          "uns — на нас, ни",
+          "euch — на вас, ви",
+          "ihnen — на тях, им",
+          "denn — защото"
         ]
       },
       {
         "title": "Граматика",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
-            "text": "Глаголы müssen, wollen и mögen являются модальными глаголами."
+            "heading": "Модални глаголи",
+            "text": "Глаголите müssen, wollen и mögen са модални глаголи."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "В настоящем единственном числе 1-е и 3-е лица совпадают.",
+            "heading": "1. и 3. лице единствено число",
+            "text": "В сегашно време 1. и 3. лице единствено число са еднакви.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Смяна на коренната гласна",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen означает нуждаться/быть нужным.",
+            "text": "Müssen означава трябва / необходимо е.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Трябва да уча."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen означает намеренное желание что-то сделать.",
+            "text": "Wollen означава съзнателно да искаш да направиш нещо.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Искам да напредвам."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Мёген выражает желание или симпатию.",
+            "text": "Mögen изразява желание или харесване.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Не искам да ям супата.",
+              "Die Suppe mundet mir nicht. — Супата не ми е вкусна."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "По-латышски мы часто говорим: «Мне нужно учиться», «Ты должен писать», «Он должен прийти». В таких предложениях немецкий язык часто использует müssen.",
+            "heading": "Важно",
+            "text": "На български често казваме „трябва да уча“, „трябва да пишеш“, „трябва да дойде“. На немски в такива изречения често се използва müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,72 +2362,72 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß се произнася като българското с.",
+          "ß се пише в средата или в края на думата след дълга гласна или дифтонг: die Füße, die Straße, ich muss, er muss.",
+          "Ако в другите форми има ss, пред окончанието може да стои ß: müssen, ich muss, du musst, ihr müsst.",
+          "ö в думата mögen се произнася като ясно ö.",
+          "Когато след g следва t, g звучи по-близо до к: du magst, ihr mögt.",
+          "Подобно е и в българския: в думата „сняг“ г накрая звучи като к."
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Кто хочет хорошо учиться?",
+            "lv": "Кой иска да учи прилежно?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Все студенты хотят хорошо учиться.",
+            "lv": "Всички ученици искат да учат прилежно.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Кто должен прийти сегодня?",
+            "lv": "Кой трябва да дойде днес?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Я должен прийти сегодня.",
+            "lv": "Аз трябва да дойда днес.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Вам нужно написать письмо.",
+            "lv": "Трябва да напишеш писмото.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Кому нужно усердно учиться?",
+            "lv": "Кой трябва да учи прилежно?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Студенты должны усердно учиться.",
+            "lv": "Учениците трябва да учат прилежно.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Не искам да ям супа, защото не я обичам.",
+            "lv": "Не искам да ям супата, защото не ми е вкусна.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Кто хочет съесть суп?",
+            "lv": "Кой иска да яде супата?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Эльза хочет съесть суп.",
+            "lv": "Елза иска да яде супата.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Кому стоит прочитать книгу?",
+            "lv": "Кой трябва да прочете книгата?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Брат должен прочитать книгу.",
+            "lv": "Братът трябва да прочете книгата.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Я не хочу петь.",
+            "lv": "Не искам да пея.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Отцу нужно купить стол.",
+            "lv": "Бащата трябва да купи маса.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

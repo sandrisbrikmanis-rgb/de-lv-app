@@ -59,11 +59,11 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "Lekcija 8",
-    "subtitle": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+    "title": "Lezione 8",
+    "subtitle": "Verbi riflessivi, alternanza e → i/ie e accusativo.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialoghi / frasi",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -88,79 +88,79 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Parole",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
-          "stehen auf — pieceļas",
-          "grüßen (grüsen) — sveicināt",
-          "guten Morgen — labrīt",
-          "gut — labs",
-          "der Morgen — rīts",
-          "der Herr — kungs",
-          "das Kind — bērns",
-          "die Kinder — bērni",
-          "setzt euch (zect oich) — sēstieties!",
-          "sie setzen sich — viņi apsēžas",
-          "fragen (ar akuzatīvu) — jautāt",
-          "sprechen — runāt",
-          "er spricht — viņš runā",
-          "aber — bet",
-          "sehr (zēr) — ļoti",
-          "leise — klusi",
-          "laut — skaļi",
-          "jetzt (ject) — tagad",
-          "lesen — lasīt",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
-          "schreiben — rakstīt",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — stāstīt",
-          "zuhören — klausīties",
-          "sie hören zu — viņi klausās",
-          "was ist das — kas tas ir?",
-          "der Arbeiter — strādnieks",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — maiznieks",
-          "der Schneider (dēr šneider) — drēbnieks",
-          "der Gärtner (dēr gertner) — dārznieks",
-          "der Schuster — kurpnieks"
+          "alle — tutti",
+          "aufstehen — alzarsi",
+          "stehen auf — si alzano",
+          "grüßen (grüsen) — salutare",
+          "guten Morgen — buongiorno",
+          "gut — buono",
+          "der Morgen — il mattino",
+          "der Herr — il signore",
+          "das Kind — il bambino",
+          "die Kinder — i bambini",
+          "setzt euch (setst oih) — sedetevi!",
+          "sie setzen sich — loro si siedono",
+          "fragen (con l'accusativo) — chiedere, domandare",
+          "sprechen — parlare",
+          "er spricht — lui parla",
+          "aber — ma",
+          "sehr (seer) — molto",
+          "leise — piano, a bassa voce",
+          "laut — forte, ad alta voce",
+          "jetzt (ietst) — adesso, ora",
+          "lesen — leggere",
+          "lies! — leggi!",
+          "gut — bene",
+          "schlecht — male",
+          "deutlich (doitlih) — chiaramente, in modo comprensibile",
+          "schreiben — scrivere",
+          "endlich (entlih) — finalmente",
+          "erzählen (ertseelen) — raccontare",
+          "zuhören — ascoltare",
+          "sie hören zu — loro ascoltano",
+          "was ist das — che cos'è?",
+          "der Arbeiter — l'operaio",
+          "der Müller — il mugnaio",
+          "der Tischler — il falegname",
+          "der Bäcker (deer bekker) — il fornaio",
+          "der Schneider (deer shnaider) — il sarto",
+          "der Gärtner (deer ghertner) — il giardiniere",
+          "der Schuster — il calzolaio"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Pronuncia",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "Come già detto, la ä si pronuncia come una e chiusa, breve o lunga. Esempi: der Bäcker (beeker), das Mädchen (meet-hen).",
+          "La ä si pronuncia anche come una e aperta, per esempio nella parola der Gärtner (deer ghertner).",
+          "Nelle parole Schüler, Bücher — la ü è lunga (üü), mentre in Müller — la ü è breve.",
+          "ie si pronuncia come una i lunga: liest (liist).",
+          "ß si pronuncia come una s: grüßen (grüsen).",
+          "eu si pronuncia oi: deutlich (doitlih)."
         ]
       },
       {
         "title": "Grammatica",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Molti verbi con la vocale e nella radice hanno i o ie al posto di e alla 2ª e 3ª persona singolare del presente.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Anche all'imperativo singolare questi verbi hanno i o ie al posto di e nella radice: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "In italiano i verbi riflessivi si coniugano con i pronomi riflessivi mi, ti, si ecc. Anche in tedesco non esiste una coniugazione particolare: si coniugano come gli altri verbi, aggiungendo il pronome riflessivo sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Imperativo: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Übung / Vingrinājums",
+        "title": "Übung / Esercizio",
         "exerciseType": "mixed",
-        "description": "Übung I - Gebruik de juiste vervoeging. Übung II - Vertaalkaarten.",
+        "description": "Übung I — usa il caso giusto. Übung II — schede di traduzione.",
         "cards": [
           {
             "type": "fill",
@@ -249,190 +249,190 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Sveicini skolotāju un skolotāju!",
+            "lv": "Saluta il maestro e la maestra!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Ko tu sveicini?",
+            "lv": "Chi saluti?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Es sveicinu jaunkundzi.",
+            "lv": "Saluto la signorina.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Atverite visus logus !",
+            "lv": "Aprite tutte le finestre!",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Mēs atveram visus logus.",
+            "lv": "Apriamo tutte le finestre.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Vai tu atver logu?",
+            "lv": "Apri la finestra?",
             "de": "Öffnest du das Fenster?"
           },
           {
             "type": "translate",
-            "lv": "Nē, es neatvēru logu.",
+            "lv": "No, non ho aperto la finestra.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
             "type": "translate",
-            "lv": "Visi skolēni apsēžas.",
+            "lv": "Tutti gli alunni si siedono.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Paul, sēdini sevi!",
+            "lv": "Paul, siediti!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Bērni, sēdieties!",
+            "lv": "Bambini, sedetevi!",
             "de": "Kinder, setzt euch!"
           },
           {
             "type": "translate",
-            "lv": "Nerunā klusi!",
+            "lv": "Non parlare piano!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Kā viņš runā?",
+            "lv": "Come parla lui?",
             "de": "Wie spricht er?"
           },
           {
             "type": "translate",
-            "lv": "Visi skolēni runā skaļi.",
+            "lv": "Tutti gli alunni parlano ad alta voce.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Kas lasa skaļi?",
+            "lv": "Chi legge ad alta voce?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Skolniece lasa skaļi un skaidri.",
+            "lv": "L'alunna legge ad alta voce e chiaramente.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Lasi labi!",
+            "lv": "Leggi bene!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Nerunā klusi!",
+            "lv": "Non parlare piano!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Lasiet labi!",
+            "lv": "Leggete bene!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis schrijft goed, maar Anna schrijft slecht.",
+            "lv": "Hans scrive bene, ma Anna scrive male.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Müller jaunkundze, lūdzu dziediet dziesmu!",
+            "lv": "Signorina Müller, per favore, canti una canzone!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Skolotāja kungs, lūdzu sēdieties!",
+            "lv": "Signor maestro, prego, si sieda!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "exerciseType": "translate",
-        "description": "Tulko latviskos teikumus vāciski.",
+        "description": "Traduci le frasi italiane in tedesco.",
         "cards": [
           {
-            "lv": "Sveicini skolotāju un skolotāju.",
+            "lv": "Saluta il maestro e la maestra.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Atverite visus logus !",
+            "lv": "Aprite tutte le finestre!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Mēs atveram visus logus.",
+            "lv": "Apriamo tutte le finestre.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Vai tu atvēri logu?",
+            "lv": "Hai aperto la finestra?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Nē, es neatvēru logu.",
+            "lv": "No, non ho aperto la finestra.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Visi skolnieki apsēžas.",
+            "lv": "Tutti gli alunni si siedono.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paul, sēdies!",
+            "lv": "Paul, siediti!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Bērni, sēdieties!",
+            "lv": "Bambini, sedetevi!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Nerunā klusi!",
+            "lv": "Non parlare piano!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Kā viņš runā?",
+            "lv": "Come parla lui?",
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Alle leerlingen spreken luid.",
+            "lv": "Tutti gli alunni parlano ad alta voce.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Kas lasa skaļi?",
+            "lv": "Chi legge ad alta voce?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Skolniece lasa skaļi un skaidri.",
+            "lv": "L'alunna legge ad alta voce e chiaramente.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Lasi labi!",
+            "lv": "Leggi bene!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Nerunā klusi!",
+            "lv": "Non parlare piano!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Lasiet labi!",
+            "lv": "Leggete bene!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis schrijft goed, maar Anna schrijft slecht.",
+            "lv": "Hans scrive bene, ma Anna scrive male.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Müllera jaunkundze, lūdzu, dziediet dziesmu!",
+            "lv": "Signorina Müller, per favore, canti una canzone!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Skolotāja kungs, lūdzu, sēdieties!",
+            "lv": "Signor maestro, prego, si sieda!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,12 +441,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "Lezing 9",
-    "subtitle": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis",
-    "intro": "Devītā lekcija: lietvārdu daudzskaitlis, norādāmie vietniekvārdi dieser/jener, vingrinājumi un pārtulkošana.",
+    "title": "Lezione 9",
+    "subtitle": "Più oggetti, dieser/jener, singolare e plurale",
+    "intro": "Nona lezione: plurale dei sostantivi, pronomi dimostrativi dieser/jener, esercizi e traduzione.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialoghi / frasi",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -471,37 +471,37 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Parole",
         "items": [
-          "mehrere (mērere) — vairāki, vairākas",
-          "hier (hīr) — šeit, te",
-          "dort — tur",
-          "auch — arī",
-          "langsam (lankzām) — lēni",
-          "schnell (šnel) — ātri",
-          "mehr (mēr) — vairāk",
-          "zumachen — aiztaisīt",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — sēdēt",
-          "ruhig (rū-ich) — mierīgi",
-          "dieser (dīzer) — šis",
-          "jener (jēner) — tas",
-          "der Brief (dēr brīf) — vēstule",
-          "die Briefe — vēstules",
-          "kurz (kurc) — īss",
-          "rein — tīrs",
-          "schmutzig (šmucich) — netīrs"
+          "mehrere (meerere) — parecchi, parecchie",
+          "hier (hiir) — qui, qua",
+          "dort — là",
+          "auch — anche",
+          "langsam (lanksaam) — lentamente",
+          "schnell (shnell) — velocemente",
+          "mehr (meer) — di più",
+          "zumachen — chiudere",
+          "ich mache zu — io chiudo",
+          "sitzen (sitsen) — stare seduto",
+          "ruhig (ruu-ih) — tranquillamente",
+          "dieser (diiser) — questo",
+          "jener (ieener) — quello",
+          "der Brief (deer briif) — la lettera",
+          "die Briefe — le lettere",
+          "kurz (kurts) — corto",
+          "rein — pulito",
+          "schmutzig (shmutsih) — sporco"
         ]
       },
       {
         "title": "Grammatica",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Norādāmos vietniekvārdus dieser un jener loka kā noteikto artikulu."
+            "heading": "Pronomi dimostrativi",
+            "text": "I pronomi dimostrativi dieser e jener si declinano come l'articolo determinativo."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Singolare",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Plurale",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Ja lietvārda priekšā stāv vietniekvārds vai skaitļa vārds, artikulu nelieto."
+            "heading": "Senza articolo",
+            "text": "Se davanti al sostantivo c'è un pronome o un numerale, l'articolo non si usa."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Übung / Vingrinājums",
+        "title": "Übung / Esercizio",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Frase iniziale",
+                "task": "Trasforma questa frase alla 3ª persona singolare.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Forma Er",
+                "task": "Trasforma la frase iniziale alla 1ª persona plurale.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa il plurale del sostantivo invece del singolare.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Plurale",
+                "task": "Fatto. Il clic successivo mostra la scheda seguente.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,83 +784,83 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Meitene apsēžas un raksta vēstuli.",
+            "lv": "La ragazza si siede e scrive una lettera.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Vai vēstule ir īsa?",
+            "lv": "La lettera è corta?",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Nē, vēstule nav īsa, tā ir gara.",
+            "lv": "No, la lettera non è corta, è lunga.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Ko jūs darāt?",
+            "lv": "Che cosa fa Lei?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Mēs sēžam un lasām.",
+            "lv": "Stiamo seduti e leggiamo.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paul, ga zitten en lees!",
+            "lv": "Paul, siediti e leggi!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Skolotāja kungs, apsēdieties un lasiet!",
+            "lv": "Signor maestro, si sieda e legga!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Kā bērni raksta?",
+            "lv": "Come scrivono i bambini?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Vai viņi raksta ātri vai lēni?",
+            "lv": "Scrivono velocemente o lentamente?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Viņi raksta ļoti lēni.",
+            "lv": "Scrivono molto lentamente.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Kāds ir šis šķīvis?",
+            "lv": "Com'è questo piatto?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Šis šķīvis nav tīrs, tas ir netīrs.",
+            "lv": "Questo piatto non è pulito, è sporco.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Vai vēstules ir garas vai īsas?",
+            "lv": "Le lettere sono lunghe o corte?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, uzasini šo zīmuli!",
+            "lv": "Anna, tempera questa matita!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Skolotāja kungs, lūdzu, uzasiniet šo zīmuli!",
+            "lv": "Signor maestro, per favore, temperi questa matita!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Noliec to zīmuli!",
+            "lv": "Metti giù quella matita!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
-            "lv": "Aiztaisi logu!",
+            "lv": "Chiudi la finestra!",
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Ko meitene beidzot dara?",
+            "lv": "Che cosa fa finalmente la ragazza?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Viņa aiztaisa logu un iziet ārā.",
+            "lv": "Lei chiude la finestra ed esce.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,12 +869,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "Lekcija 10",
-    "subtitle": "Sein, können, veselība, vecums un profesijas",
-    "intro": "Desmitā lekcija: sein, können, pavēles formas, veselība, vecums un profesijas.",
+    "title": "Lezione 10",
+    "subtitle": "Sein, können, salute, età e professioni",
+    "intro": "Decima lezione: sein, können, forme dell'imperativo, salute, età e professioni.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialoghi / frasi",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -927,48 +927,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Parole",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — mēs esam",
-          "ihr seid (īr zeit) — jūs esat",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — viņš var",
-          "wir können — mēs varam",
-          "ihr könnt — jūs varat",
-          "sie können — viņi var",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (dēr knābe) — zēns",
-          "der Mann — vīrs, vīrietis",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — vectēvs",
-          "krank — slims",
-          "fleißig (fleišich) — čakls",
-          "lernen — mācīties",
-          "alt — vecs",
-          "das Jahr (jār) — gads",
-          "die Jahre — gadi",
-          "wie — kā, kāds, cik"
+          "gesund (ghesunt) — sano",
+          "ich bin gesund — io sono sano",
+          "du bist — tu sei",
+          "wir sind — noi siamo",
+          "ihr seid (iir sait) — voi siete",
+          "ich kann — io posso",
+          "du kannst — tu puoi",
+          "er kann — lui può",
+          "wir können — noi possiamo",
+          "ihr könnt — voi potete",
+          "sie können — loro possono",
+          "sei gesund — sii sano!",
+          "seid gesund — siate sani!",
+          "seien Sie gesund — sia sano!",
+          "der Knabe (deer knaabe) — il ragazzo",
+          "der Mann — l'uomo, il marito",
+          "die Frau — la donna, la moglie",
+          "der Großvater (deer groosfaater) — il nonno",
+          "krank — malato",
+          "fleißig (flaisih) — diligente",
+          "lernen — imparare, studiare",
+          "alt — vecchio",
+          "das Jahr (iaar) — l'anno",
+          "die Jahre — gli anni",
+          "wie — come, quanto"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Pronuncia",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Bisogna pronunciare correttamente le vocali con l'Umlaut.",
+          "La ö si pronuncia come una e, ma con le labbra arrotondate: wir können, ihr könnt, sie können, der Löffel.",
+          "La ü si pronuncia come una i, ma con le labbra arrotondate: Müller (müller), Bücher (büher).",
+          "La lunghezza della vocale dipende dalle consonanti che seguono.",
+          "Se una vocale è seguita da una sola consonante, si pronuncia lunga: Vögel (föögel), Schüler (shüüler), Bücher (büüher).",
+          "Se una vocale è seguita da due o più consonanti, si pronuncia breve: wir können, der Löffel, der Müller.",
+          "La o tedesca è una vocale pura, non un dittongo; la o lunga suona come la o chiusa italiana, per esempio: sole, nome, dono.",
+          "Pronuncia correttamente: der Großvater (deer groosfaater).",
+          "Il dittongo ei si pronuncia ai: seid (sait), fleißig (flaisih).",
+          "La e tedesca può essere chiusa o aperta: der Lehrer (deer leerer). La e lunga della radice è chiusa, la e della desinenza è breve e aperta."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Palīga darbības vārdu sein — būt loka nekārtni. Tāpēc tas labi jāiemācās."
+            "text": "Il verbo ausiliare sein — essere si coniuga in modo irregolare. Perciò va imparato bene."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Tāpat nekārtni loka arī palīga darbības vārdu können — varēt."
+            "text": "Anche il verbo ausiliare können — potere si coniuga in modo irregolare."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,91 +1051,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Vai tu esi vesels?",
+            "lv": "Sei sano?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Jā, es esmu vesels.",
+            "lv": "Sì, sono sano.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Vai Paul ir vesels?",
+            "lv": "Paul è sano?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Nē, Paul nav vesels, viņš ir slims.",
+            "lv": "No, Paul non è sano, è malato.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Vai viņš var strādāt?",
+            "lv": "Può lavorare?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Nē, viņš nevar strādāt.",
+            "lv": "No, non può lavorare.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Vai vectēvs ir vecs?",
+            "lv": "Il nonno è vecchio?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Jā, viņš ir ļoti vecs.",
+            "lv": "Sì, è molto vecchio.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Vectēvs un vecmāmiņa ir ļoti veci.",
+            "lv": "Il nonno e la nonna sono molto vecchi.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Cik vecs ir Adolfs?",
+            "lv": "Quanti anni ha Adolf?",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Adolfs ir deviņus gadus vecs.",
+            "lv": "Adolf ha nove anni.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Sei esistito?",
+            "lv": "Chi sei?",
             "de": "Wer bist du?"
           },
           {
-            "lv": "Es esmu vīrietis.",
+            "lv": "Sono un uomo.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Vai viņš ir skolotājs?",
+            "lv": "È un maestro?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Nē, viņš ir strādnieks.",
+            "lv": "No, è un operaio.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Kas ir skolotājs?",
+            "lv": "Che cos'è il maestro?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "Skolotājs ir vīrietis.",
+            "lv": "Il maestro è un uomo.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Kas ir skolotāja?",
+            "lv": "Che cos'è la maestra?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Skolotāja ir sieviete.",
+            "lv": "La maestra è una donna.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Kas var strādāt?",
+            "lv": "Chi può lavorare?",
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "We kunnen allemaal werken.",
+            "lv": "Possiamo lavorare tutti.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1144,12 +1144,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "Lekcija 11",
-    "subtitle": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi",
-    "intro": "Vienpadsmitā lekcija: haben, noliegums ar kein, piederības izteikšana, saliktie lietvārdi un vārdu kārtība ar denn.",
+    "title": "Lezione 11",
+    "subtitle": "Haben, kein/keine/keinen, possesso e sostantivi composti",
+    "intro": "Undicesima lezione: haben, la negazione con kein, come esprimere il possesso, i sostantivi composti e l'ordine delle parole con denn.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialoghi / frasi",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1189,46 +1189,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Parole",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — viņam ir",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — viņiem ir",
-          "der Bruder (dēr brūder) — brālis",
-          "die Brüder — brāļi",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — gaišs",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — kopā",
-          "oft — bieži",
-          "der Freund (dēr froint) — draugs",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krēsls",
-          "die Stühle — krēsli",
-          "die Tischlampe — galda lampa",
-          "das Bücherbrett — grāmatu plaukts",
-          "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
-          "glücklich — laimīgs",
-          "denn — jo",
-          "die Schwester (dī švester) — māsa",
-          "die Schwestern — māsas"
+          "ich habe — io ho",
+          "du hast — tu hai",
+          "er hat — lui ha",
+          "wir haben — noi abbiamo",
+          "ihr habt — voi avete",
+          "sie haben — loro hanno",
+          "der Bruder (deer bruuder) — il fratello",
+          "die Brüder — i fratelli",
+          "das Zimmer (das tsimmer) — la stanza",
+          "ist nicht — non è",
+          "groß (groos) — grande",
+          "hell — luminoso, chiaro",
+          "breit — largo",
+          "der Schreibtisch (deer shraibtish) — la scrivania",
+          "da — là",
+          "kein, keine, kein — nessuno, nessuna, nessuno",
+          "zusammen (tsusammen) — insieme",
+          "oft — spesso",
+          "der Freund (deer froint) — l'amico",
+          "die Freunde — gli amici",
+          "der Schrank — l'armadio",
+          "der Stuhl (deer shtuul) — la sedia",
+          "die Stühle — le sedie",
+          "die Tischlampe — la lampada da tavolo",
+          "das Bücherbrett — lo scaffale dei libri",
+          "die Landkarte (dii lantkarte) — la carta geografica",
+          "glücklich — felice",
+          "denn — perché, poiché",
+          "die Schwester (dii shvester) — la sorella",
+          "die Schwestern — le sorelle"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Pronuncia",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu si pronuncia oi: der Freund (deer froint), neun (noin).",
+          "La h di solito indica che la vocale precedente è lunga: der Stuhl (deer shtuul), zehn (tseen).",
+          "z si pronuncia come la z italiana di «pizza»: Franz (frants), das Zimmer (tsimmer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Ar palīga darbības vārdu haben vācu valodā izsaka piederības jēdzienu. Latviski to bieži izsaka ar: man ir, tev ir, viņam ir u. t. t."
+            "text": "Con il verbo ausiliare haben in tedesco si esprime il possesso, come in italiano con avere: io ho, tu hai, lui ha ecc."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "io ho"
               ],
               [
                 "du hast",
-                "tev ir"
+                "tu hai"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "lui/lei/esso ha"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "noi abbiamo"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "voi avete"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "loro hanno"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "Latviešu valodā persona, kam kas pieder, ir datīvā, bet priekšmets — nominatīvā. Vācu valodā persona ir nominatīvā, bet piederošais priekšmets — akuzatīvā."
+            "heading": "Nominativo e accusativo con haben",
+            "text": "In tedesco, come in italiano, chi possiede è il soggetto — al nominativo, mentre la cosa posseduta è l'oggetto — all'accusativo."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Esempi",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — ho un tavolo",
+              "Der Vater hat ein Buch — il padre ha un libro",
+              "Sie haben eine Feder — loro hanno un pennino"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Confronto con altre lingue",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "russo: я имею тетрадь; отец имеет книгу.",
+              "inglese: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Darbības vārdu haben vajag labi iemācīties un pareizi lietot. Arī pavēles formas jāzina."
+            "text": "Il verbo haben va imparato bene e usato correttamente. Bisogna conoscere anche le forme dell'imperativo."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — esempi",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — pazienza! / abbi pazienza!",
+              "habt Geduld! — abbiate pazienza!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Latviešu valodas divkāršo noliegumu vāciski neizsaka ar noliedzamo vārdu kein. Noliedzamais vārds kein stāv tikai lietas vārda priekšā."
+            "text": "La doppia negazione italiana, come non ho nessun quaderno, in tedesco non si fa con kein: basta kein da solo. La parola negativa kein si trova solo davanti a un sostantivo."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — singolare",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — plurale",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Ja stāstāmā teikumā ir saiklis denn, darbības vārds paliek 2. vietā. Saikli denn kā teikuma locekli neskaita."
+            "heading": "Ordine delle parole con denn",
+            "text": "Se in una frase enunciativa c'è la congiunzione denn, il verbo resta al 2º posto. La congiunzione denn non conta come elemento della frase."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — esempi",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Salikto lietvārdu priekšā stāv pēdējā lietvārda artikuls. Uzsvars ir uz pirmā lietas vārda."
+            "heading": "Sostantivi composti",
+            "text": "Il sostantivo composto prende l'articolo dell'ultimo sostantivo. L'accento cade sul primo sostantivo."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Sostantivi composti — esempi",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,91 +1358,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas tev ir?",
+            "lv": "Che cosa hai?",
             "de": "Was hast du?"
           },
           {
-            "lv": "Man ir grāmatas.",
+            "lv": "Ho dei libri.",
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Kādas ir grāmatas?",
+            "lv": "Come sono i libri?",
             "de": "Wie sind die Bücher?"
           },
           {
-            "lv": "Grāmatas ir biezas.",
+            "lv": "I libri sono spessi.",
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Müller jaunkundze, vai Jums ir burtnīcas?",
+            "lv": "Signorina Müller, ha dei quaderni?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Man nav nevienas burtnīcas.",
+            "lv": "Non ho quaderni.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Francim nav nevienas spalvas un neviena zīmuļa.",
+            "lv": "Franz non ha né pennino né matita.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Kāda ir istaba?",
+            "lv": "Com'è la stanza?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Istaba ir liela, gaiša un silta.",
+            "lv": "La stanza è grande, luminosa e calda.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Vai tev ir rakstāmgalds?",
+            "lv": "Hai una scrivania?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Jā, man ir rakstāmgalds un galda lampa.",
+            "lv": "Sì, ho una scrivania e una lampada da tavolo.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Kas ir skolotājam?",
+            "lv": "Che cosa ha il maestro?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Skolotājam ir daudz grāmatu un grāmatu plaukts.",
+            "lv": "Il maestro ha molti libri e uno scaffale per i libri.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Kas ir laimīgs?",
+            "lv": "Chi è felice?",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Bērns ir laimīgs, jo bērnam ir tēvs un māte.",
+            "lv": "Il bambino è felice, perché ha un padre e una madre.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Wat is Anna aan het doen?",
+            "lv": "Che cosa fa Anna?",
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Viņa raksta.",
+            "lv": "Lei scrive.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Vai Francis arī raksta?",
+            "lv": "Anche Franz scrive?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nē, Francis neraksta, viņš zīmē.",
+            "lv": "No, Franz non scrive, disegna.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Vai viņi stāv?",
+            "lv": "Loro stanno in piedi?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Nē, viņi apsēžas un mācās.",
+            "lv": "No, si siedono e studiano.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,12 +1451,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "Lekcija 12",
-    "subtitle": "Salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
-    "intro": "Divpadsmitā lekcija: salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+    "title": "Lezione 12",
+    "subtitle": "Gradi di comparazione, als / wie, età, aggettivi e colori.",
+    "intro": "Dodicesima lezione: gradi di comparazione, als / wie, età, aggettivi e colori.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialoghi / frasi",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1484,51 +1484,51 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Parole",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — kā tevi sauc",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
+          "heißen — chiamarsi",
+          "wie heißt du — come ti chiami",
+          "ich heiße — mi chiamo",
+          "die Grube — la fossa",
+          "wieviel — quanto, quanti",
           "Max (maks) — Max",
-          "groß — liels",
-          "klein — mazs",
-          "kleiner als ich — mazāks par mani",
-          "alt — vecs",
-          "jung — jauns",
-          "jünger als ich — jaunāks par mani",
-          "so alt wie — tik vecs kā",
-          "der Vetter (dēr feter) — brālēns",
-          "am ältesten (am eltesten) — visvecākais",
-          "ebenso — tāpat",
-          "wie — kā",
-          "am jüngsten — visjaunākais",
-          "faul — slinks",
-          "fleißig — čakls",
-          "blau — zils",
-          "braun — brūns",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — gumija",
-          "grau — pelēks",
-          "der Baum — koks",
-          "grün — zaļš",
-          "die Blume — puķe",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — krīts",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "groß — grande",
+          "klein — piccolo",
+          "kleiner als ich — più piccolo di me",
+          "alt — vecchio",
+          "jung — giovane",
+          "jünger als ich — più giovane di me",
+          "so alt wie — vecchio quanto",
+          "der Vetter (deer fetter) — il cugino",
+          "am ältesten (am eltesten) — il più vecchio",
+          "ebenso — altrettanto",
+          "wie — come",
+          "am jüngsten — il più giovane",
+          "faul — pigro",
+          "fleißig — diligente",
+          "blau — blu",
+          "braun — marrone",
+          "gelb — giallo",
+          "das Gummi (das gummi) — la gomma",
+          "grau — grigio",
+          "der Baum — l'albero",
+          "grün — verde",
+          "die Blume — il fiore",
+          "rot — rosso",
+          "die Tinte — l'inchiostro",
+          "die Kreide — il gesso",
+          "weiß — bianco",
+          "schwarz — nero",
+          "krank — malato",
+          "gesund — sano"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Pronuncia",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme."
+          "x si pronuncia ks: Max (maks), Felix (feliks).",
+          "Nelle parole Schwester, am jüngsten st si pronuncia come una normale st italiana: Schwester (shvester), jüngsten (jünksten).",
+          "Nella parola der Federhalter la h si pronuncia, mentre nella parola der Sohn — segno di allungamento della vocale."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Īpašības vārdu pārāko pakāpi (Komparativ) darina no pamata pakāpes (Positiv) ar galotni -er.",
+            "text": "Il comparativo degli aggettivi (Komparativ) si forma dal grado positivo (Positiv) con la desinenza -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Lielākai daļai vienzilbīgu īpašības vārdu ar celma patskani a, o, u pārākā pakāpē ir Umlaut.",
+            "heading": "L'Umlaut nel comparativo",
+            "text": "La maggior parte degli aggettivi monosillabici con vocale radicale a, o, u prende l'Umlaut al comparativo.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie lieto, kad izsaka vienādību. als lieto, kad izsaka nevienādību.",
+            "heading": "Il confronto con wie e als",
+            "text": "wie si usa per esprimere uguaglianza. als si usa per esprimere disuguaglianza.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Vispārāko pakāpi (Superlativ) darina, pieliekot pamata pakāpei galotni -sten vai -esten un priekšā satiksmes vārdu am.",
+            "text": "Il superlativo (Superlativ) si forma aggiungendo al grado positivo la desinenza -sten o -esten e, davanti, la preposizione am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Gradi di comparazione irregolari",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (vicino)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (alto)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (buono)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (molto)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (presto)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (volentieri)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,139 +1611,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas ir vecāks, tu vai es?",
+            "lv": "Chi è più vecchio, tu o io?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Tu esi vecāks par mani.",
+            "lv": "Tu sei più vecchio di me.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Kas ir visvecākais?",
+            "lv": "Chi è il più vecchio?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paul ir visvecākais.",
+            "lv": "Paul è il più vecchio.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Salsa Ka tevi?",
+            "lv": "Come ti chiami?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Mijn naam is Petrus.",
+            "lv": "Mi chiamo Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Kā viņu sauc?",
+            "lv": "Come si chiama lui?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Viņu sauc Jan.",
+            "lv": "Si chiama Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Kā Jūs sauc?",
+            "lv": "Lei come si chiama?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Cik vecs Jūs esat?",
+            "lv": "Quanti anni ha Lei?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Es esmu 20 gadus vecs.",
+            "lv": "Ho 20 anni.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Vai Max ir liels?",
+            "lv": "Max è grande?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Nē, Max nav liels, Rudolf ir lielāks.",
+            "lv": "No, Max non è grande, Rudolf è più grande.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Kas ir vislielākais?",
+            "lv": "Chi è il più grande?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis ir vislielākais.",
+            "lv": "Franz è il più grande.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Cik veca ir māte?",
+            "lv": "Quanti anni ha la madre?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Māte ir tikpat veca kā tēvs.",
+            "lv": "La madre è vecchia quanto il padre.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Cik tev māsu?",
+            "lv": "Quante sorelle hai?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Man ir trīs māsas.",
+            "lv": "Ho tre sorelle.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Kā viņas sauc?",
+            "lv": "Come si chiamano?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Hun namen zijn Elsa, Marta en Alma.",
+            "lv": "Si chiamano Elsa, Martha e Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Cik jums brāļu?",
+            "lv": "Quanti fratelli ha Lei?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Man ir viens brālis.",
+            "lv": "Ho un fratello.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Kāda ir tinte?",
+            "lv": "Com'è l'inchiostro?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Tā ir melna.",
+            "lv": "È nero.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Kāds ir krīts?",
+            "lv": "Com'è il gesso?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Tas ir balts.",
+            "lv": "È bianco.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Kādas ir puķes?",
+            "lv": "Come sono i fiori?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Tās ir zilas, sarkanas, dzeltenas un baltas.",
+            "lv": "Sono blu, rossi, gialli e bianchi.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Vai brālis ir vesels?",
+            "lv": "Il fratello è sano?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Jā, brālis ir vesels, bet māsa ir slima.",
+            "lv": "Sì, il fratello è sano, ma la sorella è malata.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Vai jūs esat laimīgi?",
+            "lv": "Lei è felice?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Jā, mēs esam laimīgi, jo mēs esam veseli.",
+            "lv": "Sì, siamo felici, perché siamo sani.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1752,12 +1752,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "Lekcija 13",
-    "subtitle": "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
-    "intro": "Trīspadsmitā lekcija: Der Körper, ķermeņa daļas, vingrošana, atgriezeniskie darbības vārdi un daudzskaitlis.",
+    "title": "Lezione 13",
+    "subtitle": "Der Körper, parti del corpo, turnen, jeder e plurale.",
+    "intro": "Tredicesima lezione: Der Körper, parti del corpo, ginnastica, verbi riflessivi e plurale.",
     "sections": [
       {
-        "title": "Teksts / Lasīšana",
+        "title": "Testo / Lettura",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdiņi",
+        "title": "Vocaboli",
         "items": [
-          "der Körper — ķermenis",
-          "der Mensch — cilvēks",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — kāja",
-          "die Beine — kājas",
-          "der Fuß — kājas pēda",
-          "die Füße — kāju pēdas",
-          "rund — apaļš",
-          "lang — garš",
-          "kurz — īss",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — tievs / plāns",
-          "die Brust — krūtis",
-          "vorn — priekšā",
-          "der Rücken — mugura",
-          "hinten — aizmugurē",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — kājas pirksts",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — tīrīt",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — darīt / taisīt",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — stāvēt",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — turēt",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dziļi"
+          "der Körper — il corpo",
+          "der Mensch — l'uomo, l'essere umano",
+          "der Kopf — la testa",
+          "der Hals — il collo",
+          "der Rumpf — il tronco",
+          "der Arm — il braccio",
+          "die Hand — la mano",
+          "die Hände — le mani",
+          "das Bein — la gamba",
+          "die Beine — le gambe",
+          "der Fuß — il piede",
+          "die Füße — i piedi",
+          "rund — rotondo",
+          "lang — lungo",
+          "kurz — corto",
+          "klein — piccolo",
+          "groß — grande",
+          "dick — grasso / spesso",
+          "dünn — magro / sottile",
+          "die Brust — il petto",
+          "vorn — davanti",
+          "der Rücken — la schiena",
+          "hinten — dietro",
+          "jeder — ciascuno, ogni",
+          "jede — ciascuna, ogni",
+          "jedes — ciascuno, ogni (neutro)",
+          "der Finger — il dito",
+          "die Zehe — il dito del piede",
+          "beide — entrambi",
+          "der Nagel — l'unghia",
+          "die Nägel — le unghie",
+          "beschneiden — tagliare",
+          "reinigen — pulire",
+          "turnen — fare ginnastica",
+          "heben — alzare, sollevare",
+          "machen — fare",
+          "der Schritt — il passo",
+          "bleiben — restare, rimanere",
+          "stehen — stare in piedi",
+          "sich umkehren — girarsi, voltarsi",
+          "ausstrecken — stendere, distendere",
+          "senken — abbassare",
+          "drehen — girare / voltare",
+          "nach links — a sinistra",
+          "nach rechts — a destra",
+          "halten — tenere",
+          "gerade — dritto",
+          "atmen — respirare",
+          "tief — profondamente"
         ]
       },
       {
         "title": "Grammatica",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Dažiem darbības vārdiem ar celma patskani a vai au tagadnes 2. un 3. personā vienskaitlī ir Umlaut.",
+            "heading": "L'Umlaut al presente",
+            "text": "Alcuni verbi con vocale radicale a o au hanno l'Umlaut alla 2ª e 3ª persona singolare del presente.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — apgriezties",
+            "heading": "Il verbo riflessivo",
+            "text": "sich umkehren — girarsi, voltarsi",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "L'imperativo di sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Respiration — elpot",
+            "heading": "Il verbo atmen",
+            "text": "atmen — respirare",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "L'imperativo di atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Ja uzsvērta priedēkļa daļa, tā tagadnē atdalās un iet teikuma beigās.",
+            "heading": "Verbi composti",
+            "text": "Se il prefisso è accentato, al presente si separa e va alla fine della frase.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Ja priedēklis nav uzsvērts, tas neatdalās.",
+            "heading": "Prefissi inseparabili",
+            "text": "Se il prefisso non è accentato, non si separa.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Vietniekvārds jeder lokās kā artikuli der / die / das.",
+            "heading": "Il pronome jeder",
+            "text": "Il pronome jeder si declina come gli articoli der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Maschile",
+                "Femminile",
+                "Neutro"
               ],
               [
-                "Nominatīvs",
+                "Nominativo",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Accusativo",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Plurale senza desinenza",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Plurale con la desinenza -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Plurale con la desinenza -en o -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Plurale con la desinenza -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Sieviešu kārtas lietvārdi, kas veidoti ar -in, daudzskaitlī pieņem -nen.",
+            "heading": "Sostantivi femminili in -in",
+            "text": "I sostantivi femminili formati con -in al plurale prendono -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1979,18 +1979,18 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Pronuncia",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "Nella parola halten la h si sente.",
+          "Nella parola fahren la h indica la lunghezza della vocale.",
+          "Nella parola halten la a si pronuncia breve: halten.",
+          "Nella parola tragen la a si pronuncia lunga: tragen.",
+          "äu si pronuncia oi: du läufst, er läuft.",
+          "pf nella parola Kopf si pronuncia in modo che si sentano entrambe le consonanti."
         ]
       },
       {
-        "title": "Vingrinājums",
+        "title": "Esercizio",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,139 +2055,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Cik cilvēkam ir roku?",
+            "lv": "Quante braccia ha l'uomo?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Cik tev ir kāju?",
+            "lv": "Quante gambe hai?",
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Kāda ir galva?",
+            "lv": "Com'è la testa?",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Kāds ir rumpis?",
+            "lv": "Com'è il tronco?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Kāda ir roka?",
+            "lv": "Com'è il braccio?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Kāda ir kāja?",
+            "lv": "Com'è la gamba?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Roka ir maza, bet kāja ir liela.",
+            "lv": "Il braccio è piccolo, ma la gamba è grande.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Kur ir krūtis?",
+            "lv": "Dov'è il petto?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Kur ir mugura?",
+            "lv": "Dov'è la schiena?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Krūtis ir priekšā, mugura ir aizmugurē.",
+            "lv": "Il petto è davanti, la schiena è dietro.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Cik pirkstu ir plaukstai?",
+            "lv": "Quante dita ha la mano?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Plaukstai ir pieci pirksti.",
+            "lv": "La mano ha cinque dita.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Cik pirkstu ir divām rokām?",
+            "lv": "Quante dita hanno due mani?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Divām rokām ir desmit pirkstu.",
+            "lv": "Due mani hanno dieci dita.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Kas ir pirkstam?",
+            "lv": "Che cosa ha il dito?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Pirkstam ir nags.",
+            "lv": "Il dito ha un'unghia.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Come fai a dari?",
+            "lv": "Che cosa fai?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Es apgriežu un tīru nagus.",
+            "lv": "Taglio e pulisco le unghie.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Ko Paul dara?",
+            "lv": "Che cosa fa Paul?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Viņš vingro.",
+            "lv": "Fa ginnastica.",
             "de": "Er turnt."
           },
           {
-            "lv": "Hoe sporten ze?",
+            "lv": "Come fanno ginnastica?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Viņi ceļ kājas un rokas.",
+            "lv": "Alzano le gambe e le braccia.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Viņi izstiepj abas rokas.",
+            "lv": "Stendono entrambe le braccia.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Viņi nolaiž abas rokas.",
+            "lv": "Abbassano entrambe le braccia.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Viņi pagriež galvu pa labi.",
+            "lv": "Girano la testa a destra.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Kas elpo dziļi?",
+            "lv": "Chi respira profondamente?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter un Anna elpo dziļi.",
+            "lv": "Peter e Anna respirano profondamente.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Vai Robert arī vingro?",
+            "lv": "Anche Robert fa ginnastica?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Nē, Robert un Jan nevingro.",
+            "lv": "No, Robert e Johann non fanno ginnastica.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, vingro!",
+            "lv": "Robert, fa' ginnastica!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert un Jāni, vingrojiet!",
+            "lv": "Robert e Johann, fate ginnastica!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Müller jaunkundze, vingrojiet!",
+            "lv": "Signorina Müller, faccia ginnastica!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Pasperiet divus soļus un tad palieciet stāvam!",
+            "lv": "Faccia due passi e poi resti fermo!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,12 +2196,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "Lekcija 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Četrpadsmitā lekcija: modālie darbības vārdi müssen, wollen un mögen.",
+    "title": "Lezione 14",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Quattordicesima lezione: i verbi modali müssen, wollen e mögen.",
     "sections": [
       {
-        "title": "Teksts / Lasīšana",
+        "title": "Testo / Lettura",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdiņi",
+        "title": "Vocaboli",
         "items": [
-          "müssen — vajadzēt / būt jādara",
-          "ich muss — man vajag / man jādara",
-          "du musst — tev vajag / tev jādara",
-          "er muss — viņam vajag / viņam jādara",
-          "sie muss — viņai vajag / viņai jādara",
-          "es muss — tam vajag / tam jādara",
-          "wir müssen — mums vajag / mums jādara",
-          "ihr müsst — jums vajag / jums jādara",
-          "sie müssen — viņiem / viņām vajag",
-          "lernen — mācīties",
-          "vorwärts — uz priekšu",
-          "vorwärts kommen — tikt uz priekšu",
-          "wollen — gribēt",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — viņš grib",
-          "sie will — viņa grib",
-          "es will — tas grib",
-          "wir wollen — mēs gribam",
-          "ihr wollt — jūs gribat",
-          "sie wollen — viņi / viņas grib",
-          "mögen — gribēt / vēlēties / patikt",
-          "ich mag — es gribu / man patīk",
-          "du magst — tu gribi / tev patīk",
-          "er mag — viņš grib / viņam patīk",
-          "sie mag — viņa grib / viņai patīk",
-          "es mag — tas grib / tam patīk",
-          "wir mögen — mēs gribam",
-          "ihr mögt — jūs gribat",
-          "sie mögen — viņi / viņas grib",
-          "die Suppe — zupa",
-          "munden — labi garšot",
-          "mir — man",
-          "dir — tev",
-          "ihm — viņam",
-          "ihr — viņai",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — viņiem / viņām",
-          "denn — jo"
+          "müssen — dovere / essere necessario",
+          "ich muss — io devo / mi tocca",
+          "du musst — tu devi / ti tocca",
+          "er muss — lui deve / gli tocca",
+          "sie muss — lei deve / le tocca",
+          "es muss — esso deve / gli tocca",
+          "wir müssen — noi dobbiamo / ci tocca",
+          "ihr müsst — voi dovete / vi tocca",
+          "sie müssen — essi / esse devono",
+          "lernen — imparare, studiare",
+          "vorwärts — avanti",
+          "vorwärts kommen — andare avanti, fare progressi",
+          "wollen — volere",
+          "ich will — io voglio",
+          "du willst — tu vuoi",
+          "er will — lui vuole",
+          "sie will — lei vuole",
+          "es will — esso vuole",
+          "wir wollen — noi vogliamo",
+          "ihr wollt — voi volete",
+          "sie wollen — essi / esse vogliono",
+          "mögen — volere / desiderare / piacere",
+          "ich mag — io voglio / mi piace",
+          "du magst — tu vuoi / ti piace",
+          "er mag — lui vuole / gli piace",
+          "sie mag — lei vuole / le piace",
+          "es mag — esso vuole / gli piace",
+          "wir mögen — noi vogliamo",
+          "ihr mögt — voi volete",
+          "sie mögen — essi / esse vogliono",
+          "die Suppe — la minestra",
+          "munden — avere un buon sapore",
+          "mir — a me",
+          "dir — a te",
+          "ihm — a lui",
+          "ihr — a lei",
+          "uns — a noi",
+          "euch — a voi",
+          "ihnen — a loro / a loro",
+          "denn — perché, poiché"
         ]
       },
       {
         "title": "Grammatica",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
-            "text": "De werkwoorden müssen, wollen en mögen zijn modale werkwoorden."
+            "heading": "Verbi modali",
+            "text": "I verbi müssen, wollen e mögen sono verbi modali."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.",
+            "heading": "1ª e 3ª persona singolare",
+            "text": "Al singolare del presente la 1ª e la 3ª persona sono uguali.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Cambio della vocale radicale",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen nozīmē vajadzēt / būt nepieciešamam.",
+            "text": "Müssen significa dovere / essere necessario.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Devo studiare."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen nozīmē apzināti gribēt kaut ko darīt.",
+            "text": "Wollen significa voler fare qualcosa consapevolmente.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Voglio andare avanti."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen izsaka vēlēšanos vai patiku.",
+            "text": "Mögen esprime un desiderio o un gradimento.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Non voglio mangiare la minestra.",
+              "Die Suppe mundet mir nicht. — La minestra non mi piace."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Latviski bieži sakām “man jāmācās”, “tev jāraksta”, “viņam jānāk”. Vāciski šādos teikumos bieži lieto müssen.",
+            "heading": "Importante",
+            "text": "In italiano diciamo spesso «devo studiare», «devi scrivere», «deve venire». In tedesco in frasi come queste si usa spesso müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2360,74 +2360,74 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Pronuncia",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß si pronuncia come la s italiana di «sole».",
+          "ß si scrive all'interno o alla fine della parola dopo una vocale lunga o un dittongo: die Füße, die Straße, ich muss, er muss.",
+          "Se in altre forme c'è ss, prima della desinenza può esserci ß: müssen, ich muss, du musst, ihr müsst.",
+          "Nella parola mögen la ö si pronuncia come una ö netta.",
+          "Se dopo la g segue una t, la g suona più simile a una k: du magst, ihr mögt.",
+          "In italiano questo fenomeno non esiste: la g resta sempre sonora, quindi bisogna farci attenzione."
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Traduci",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas grib čakli mācīties?",
+            "lv": "Chi vuole studiare con impegno?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Visi skolnieki grib čakli mācīties.",
+            "lv": "Tutti gli alunni vogliono studiare con impegno.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Kam šodien jānāk?",
+            "lv": "Chi deve venire oggi?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Man šodien jānāk.",
+            "lv": "Devo venire oggi.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Tev jāraksta vēstule.",
+            "lv": "Devi scrivere la lettera.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Kam čakli jāmācās?",
+            "lv": "Chi deve studiare con impegno?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Skolniekiem čakli jāmācās.",
+            "lv": "Gli alunni devono studiare con impegno.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Es negribu zupu ēst, jo tā man negaršo.",
+            "lv": "Non voglio mangiare la minestra, perché non mi piace.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Wie wil er soep eten?",
+            "lv": "Chi vuole mangiare la minestra?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elza grib zupu ēst.",
+            "lv": "Elsa vuole mangiare la minestra.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kam jālasa grāmata?",
+            "lv": "Chi deve leggere il libro?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Brālim jālasa grāmata.",
+            "lv": "Il fratello deve leggere il libro.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Es negribu dziedāt.",
+            "lv": "Non voglio cantare.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Tēvam jāpērk galds.",
+            "lv": "Il padre deve comprare un tavolo.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

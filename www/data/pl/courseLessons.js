@@ -59,8 +59,8 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "Wykład 8",
-    "subtitle": "Czasowniki zwrotne e → i/ie zmiana i biernik.",
+    "title": "Lekcja 8",
+    "subtitle": "Czasowniki zwrotne, wymiana e → i/ie i biernik.",
     "sections": [
       {
         "title": "Dialogi / zdania",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Słowa",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
+          "alle — wszyscy",
+          "aufstehen — wstawać",
           "stehen auf — wstaje",
-          "grüßen (grüsen) — pozdrawiać",
+          "grüßen (grysen) — pozdrawiać",
           "guten Morgen — dzień dobry",
-          "gut — labs",
-          "der Morgen — poranek",
-          "der Herr — kungs",
+          "gut — dobry",
+          "der Morgen — ranek",
+          "der Herr — pan",
           "das Kind — dziecko",
           "die Kinder — dzieci",
-          "setzt euch (zect oich) — usiądź!",
-          "sie setzen sich — siadają",
-          "fragen (ar akuzatīvu) — pytać",
+          "setzt euch (zect ojch) — usiądźcie!",
+          "sie setzen sich — oni siadają",
+          "fragen (z biernikiem) — pytać",
           "sprechen — mówić",
-          "er spricht — mówi",
-          "aber — bet",
-          "sehr (zēr) — bardzo dużo",
-          "leise — klusi",
+          "er spricht — on mówi",
+          "aber — ale",
+          "sehr (zer) — bardzo",
+          "leise — cicho",
           "laut — głośno",
-          "jetzt (ject) — tagad",
+          "jetzt (ject) — teraz",
           "lesen — czytać",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
+          "lies! — czytaj!",
+          "gut — dobrze",
+          "schlecht — źle",
+          "deutlich (dojtlich) — wyraźnie, zrozumiale",
           "schreiben — pisać",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — opowiadać",
+          "endlich (entlich) — wreszcie, w końcu",
+          "erzählen (ercelen) — opowiadać",
           "zuhören — słuchać",
-          "sie hören zu — słuchają",
-          "was ist das — kas tas ir?",
+          "sie hören zu — oni słuchają",
+          "was ist das — co to jest?",
           "der Arbeiter — robotnik",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — przegrzany",
-          "der Schneider (dēr šneider) — krawiec",
-          "der Gärtner (dēr gertner) — ogrodnik",
-          "der Schuster — kurpnieks"
+          "der Müller — młynarz",
+          "der Tischler — stolarz",
+          "der Bäcker (der beker) — piekarz",
+          "der Schneider (der sznajder) — krawiec",
+          "der Gärtner (der gertner) — ogrodnik",
+          "der Schuster — szewc"
         ]
       },
       {
         "title": "Wymowa",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü jest długie (ü), a Müller - krótkie ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä, jak już wspomniano, wymawia się jak krótkie lub długie zamknięte e. Przykłady: der Bäcker (beker), das Mädchen (metchen).",
+          "ä wymawia się też jak otwarte e, np. w słowie der Gärtner (der gertner).",
+          "W słowach Schüler, Bücher — ü jest długie (długie y), a w Müller — krótkie.",
+          "ie wymawia się jak długie i: liest (list).",
+          "ß wymawia się jak s: grüßen (grysen).",
+          "eu wymawia się jak oj: deutlich (dojtlich)."
         ]
       },
       {
         "title": "Gramatyka",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Wiele czasowników z samogłoską e w temacie ma w 2. i 3. osobie liczby pojedynczej czasu teraźniejszego i lub ie zamiast e.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Czasowniki te również w trybie rozkazującym liczby pojedynczej mają w temacie i lub ie zamiast e: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "W języku polskim czasowniki zwrotne łączą się z zaimkiem się. W języku niemieckim nie mają one osobnej odmiany. Odmienia się je tak jak inne czasowniki, dodając zaimek zwrotny sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Tryb rozkazujący: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Ubung / Ćwiczenia",
+        "title": "Übung / Ćwiczenie",
         "exerciseType": "mixed",
-        "description": "Übung I – Użyj właściwej koniugacji. Übung II - Karty tłumaczeń.",
+        "description": "Übung I — użyj właściwego przypadku. Übung II — fiszki do tłumaczenia.",
         "cards": [
           {
             "type": "fill",
@@ -249,22 +249,22 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Witamy nauczyciela i nauczyciela!",
+            "lv": "Pozdrów nauczyciela i nauczycielkę!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Co witasz?",
+            "lv": "Kogo pozdrawiasz?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Pozdrawiam Panią.",
+            "lv": "Pozdrawiam pannę.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Otwórz wszystkie okna!",
+            "lv": "Otwórzcie wszystkie okna!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -274,7 +274,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Otwierasz okno?",
+            "lv": "Czy otwierasz okno?",
             "de": "Öffnest du das Fenster?"
           },
           {
@@ -289,7 +289,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Paweł, usiądź!",
+            "lv": "Paul, usiądź!",
             "de": "Paul, setz dich!"
           },
           {
@@ -314,17 +314,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Kto czyta na głos?",
+            "lv": "Kto czyta głośno?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Uczeń czyta głośno i wyraźnie.",
+            "lv": "Uczennica czyta głośno i wyraźnie.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Przeczytaj dobrze!",
+            "lv": "Czytaj dobrze!",
             "de": "Lies gut!"
           },
           {
@@ -334,37 +334,37 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Przeczytaj dobrze!",
+            "lv": "Czytajcie dobrze!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis pisze dobrze, ale Anna pisze słabo.",
+            "lv": "Hans pisze dobrze, ale Anna pisze źle.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Pani Müller, proszę zaśpiewać piosenkę!",
+            "lv": "Panno Müller, proszę zaśpiewać piosenkę!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Panie Nauczycielu, proszę usiąść!",
+            "lv": "Panie nauczycielu, proszę usiąść!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "exerciseType": "translate",
-        "description": "Przetłumacz zdania łotewskie na język niemiecki.",
+        "description": "Przetłumacz polskie zdania na niemiecki.",
         "cards": [
           {
-            "lv": "Pozdrawiam nauczyciela i nauczyciela.",
+            "lv": "Pozdrów nauczyciela i nauczycielkę!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Otwórz wszystkie okna!",
+            "lv": "Otwórzcie wszystkie okna!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -372,7 +372,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Otworzyłeś okno?",
+            "lv": "Czy otworzyłeś okno?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
@@ -384,7 +384,7 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paweł, usiądź!",
+            "lv": "Paul, usiądź!",
             "de": "Paul, setz dich!"
           },
           {
@@ -404,15 +404,15 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Kto czyta na głos?",
+            "lv": "Kto czyta głośno?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Uczeń czyta głośno i wyraźnie.",
+            "lv": "Uczennica czyta głośno i wyraźnie.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Przeczytaj dobrze!",
+            "lv": "Czytaj dobrze!",
             "de": "Lies gut!"
           },
           {
@@ -420,19 +420,19 @@ const COURSE_LESSON_DATA = {
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Przeczytaj dobrze!",
+            "lv": "Czytajcie dobrze!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis pisze dobrze, ale Anna pisze słabo.",
+            "lv": "Hans pisze dobrze, ale Anna pisze źle.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Pani Müller, proszę zaśpiewać piosenkę!",
+            "lv": "Panno Müller, proszę zaśpiewać piosenkę!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Panie Nauczycielu, proszę usiąść!",
+            "lv": "Panie nauczycielu, proszę usiąść!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,9 +441,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "Wykład 9",
-    "subtitle": "Wiele tematów, dieser/jener, liczba pojedyncza i mnoga",
-    "intro": "Wykład dziewiąty: rzeczowniki w liczbie mnogiej, zaimki wskazujące dieser/jener, ćwiczenia i tłumaczenie.",
+    "title": "Lekcja 9",
+    "subtitle": "Kilka przedmiotów, dieser/jener, liczba pojedyncza i mnoga",
+    "intro": "Dziewiąta lekcja: liczba mnoga rzeczowników, zaimki wskazujące dieser/jener, ćwiczenia i tłumaczenie.",
     "sections": [
       {
         "title": "Dialogi / zdania",
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Słowa",
         "items": [
-          "mehrere (mērere) — kilka, kilka",
-          "hier (hīr) — tutaj, tutaj",
-          "dort — tur",
-          "auch — także",
-          "langsam (lankzām) — powoli",
-          "schnell (šnel) — szybko",
-          "mehr (mēr) — więcej",
-          "zumachen — zamknąć",
-          "ich mache zu — es aiztaisu",
+          "mehrere (merere) — kilka, kilku",
+          "hier (hir) — tu, tutaj",
+          "dort — tam",
+          "auch — też, także",
+          "langsam (langzam) — wolno, powoli",
+          "schnell (sznel) — szybko",
+          "mehr (mer) — więcej",
+          "zumachen — zamykać",
+          "ich mache zu — zamykam",
           "sitzen (zicen) — siedzieć",
-          "ruhig (rū-ich) - spokój",
-          "dieser (dīzer) — to",
-          "jener (jēner) — to",
-          "der Brief (dēr brīf) — list",
+          "ruhig (ruich) — spokojnie",
+          "dieser (dizer) — ten",
+          "jener (jener) — tamten",
+          "der Brief (der brif) — list",
           "die Briefe — listy",
           "kurz (kurc) — krótki",
           "rein — czysty",
-          "schmutzig (šmucich) — brudny"
+          "schmutzig (szmucich) — brudny"
         ]
       },
       {
         "title": "Gramatyka",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Wskaż zaimki dieser i jener jako rodzajnik określony."
+            "heading": "Zaimki wskazujące",
+            "text": "Zaimki wskazujące dieser i jener odmienia się jak rodzajnik określony."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Liczba pojedyncza",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Liczba mnoga",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Jeżeli rzeczownik jest poprzedzony zaimkiem lub wyrazem liczbowym, rodzajnik nie jest używany."
+            "heading": "Bez rodzajnika",
+            "text": "Jeśli przed rzeczownikiem stoi zaimek lub liczebnik, rodzajnika się nie używa."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ubung / Ćwiczenia",
+        "title": "Übung / Ćwiczenie",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 zdanie wstępne",
-                "task": "Zmień to zdanie na trzecią osobę liczby pojedynczej.",
+                "label": "1/4 Zdanie wyjściowe",
+                "task": "Przekształć to zdanie na 3. osobę liczby pojedynczej.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Zmień zdanie początkowe na pierwszą osobę liczby mnogiej.",
+                "label": "2/4 Forma Er",
+                "task": "Przekształć zdanie wyjściowe na 1. osobę liczby mnogiej.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Użyj liczby mnogiej zamiast liczby pojedynczej.",
+                "label": "3/4 Forma Wir",
+                "task": "Użyj rzeczownika w liczbie mnogiej zamiast pojedynczej.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gotowy. Następne kliknięcie pokazuje następną kartę.",
+                "label": "4/4 Liczba mnoga",
+                "task": "Gotowe. Kolejne kliknięcie pokazuje następną fiszkę.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,11 +784,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Dziewczyna siada i pisze list.",
+            "lv": "Dziewczynka siada i pisze list.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
@@ -800,7 +800,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Co robisz",
+            "lv": "Co Państwo robią?",
             "de": "Was machen Sie?"
           },
           {
@@ -808,11 +808,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paweł, usiądź i czytaj!",
+            "lv": "Paul, usiądź i czytaj!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Panie Nauczycielu, usiądź i czytaj!",
+            "lv": "Panie nauczycielu, proszę usiąść i czytać!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
@@ -820,7 +820,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Czy piszą szybko czy wolno?",
+            "lv": "Czy one piszą szybko, czy wolno?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
@@ -828,27 +828,27 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Co to za talerz?",
+            "lv": "Jaki jest ten talerz?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Ta płyta nie jest czysta, jest brudna.",
+            "lv": "Ten talerz nie jest czysty, jest brudny.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Czy litery są długie czy krótkie?",
+            "lv": "Czy listy są długie, czy krótkie?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, naostrz ten ołówek!",
+            "lv": "Anno, zatemperuj ten ołówek!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Nauczycielu, proszę naostrz ten ołówek!",
+            "lv": "Panie nauczycielu, proszę zatemperować ten ołówek!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Odłóż ten ołówek!",
+            "lv": "Odłóż tamten ołówek!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,11 +856,11 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Co w końcu robi dziewczyna?",
+            "lv": "Co w końcu robi dziewczynka?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Zamyka okno i wychodzi.",
+            "lv": "Ona zamyka okno i wychodzi.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,9 +869,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "Wykład 10",
+    "title": "Lekcja 10",
     "subtitle": "Sein, können, zdrowie, wiek i zawody",
-    "intro": "Wykład dziesiąty: sein, können, formy poleceń, zdrowie, wiek i zawody.",
+    "intro": "Dziesiąta lekcja: sein, können, formy trybu rozkazującego, zdrowie, wiek i zawody.",
     "sections": [
       {
         "title": "Dialogi / zdania",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Słowa",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — jesteśmy",
-          "ihr seid (īr zeit) — jesteś",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — potrafi",
-          "wir können — możemy",
-          "ihr könnt — możesz",
-          "sie können — mogą",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — bądź zdrowy!",
-          "der Knabe (dēr knābe) — chłopiec",
+          "gesund (gezunt) — zdrowy",
+          "ich bin gesund — jestem zdrowy",
+          "du bist — ty jesteś",
+          "wir sind — my jesteśmy",
+          "ihr seid (ir zajt) — wy jesteście",
+          "ich kann — ja mogę",
+          "du kannst — ty możesz",
+          "er kann — on może",
+          "wir können — my możemy",
+          "ihr könnt — wy możecie",
+          "sie können — oni mogą",
+          "sei gesund — bądź zdrowy!",
+          "seid gesund — bądźcie zdrowi!",
+          "seien Sie gesund — niech Pan / Pani będzie zdrów!",
+          "der Knabe (der knabe) — chłopiec",
           "der Mann — mąż, mężczyzna",
-          "die Frau — sieva, kobieta",
-          "der Großvater (dēr grōsfāter) — śpiewać",
-          "krank — slims",
-          "fleißig (fleišich) — uciążliwy",
+          "die Frau — żona, kobieta",
+          "der Großvater (der grosfater) — dziadek",
+          "krank — chory",
+          "fleißig (flajsich) — pracowity, pilny",
           "lernen — uczyć się",
-          "alt — vecs",
-          "das Jahr (jār) — rok",
-          "die Jahre — gadi",
-          "wie — jak, kto, ile"
+          "alt — stary",
+          "das Jahr (jar) — rok",
+          "die Jahre — lata",
+          "wie — jak, jaki, ile"
         ]
       },
       {
         "title": "Wymowa",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Należy poprawnie wymawiać przegłosy samogłosek.",
+          "ö wymawia się z zaokrąglonymi wargami jak e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü wymawia się z zaokrąglonymi wargami jak i: Müller (myller), Bücher (bycher).",
+          "Długość samogłoski zależy od następujących po niej spółgłosek.",
+          "Jeśli po samogłosce następuje jedna spółgłoska, samogłoskę wymawia się długo: Vögel (fogel), Schüler (szyler), Bücher (bycher).",
+          "Jeśli po samogłosce następują dwie lub więcej spółgłosek, samogłoskę wymawia się krótko: wir können, der Löffel, der Müller.",
+          "Niemieckie o brzmi podobnie do polskiego o, ale długie o jest bardziej zamknięte i wymawia się je z mocniej zaokrąglonymi wargami.",
+          "Wymawiaj poprawnie: der Großvater (der grosfater).",
+          "Dwugłoskę ei wymawia się jak aj: seid (zajt), fleißig (flajsich).",
+          "Niemieckie e może być zamknięte lub otwarte: der Lehrer (der lerer). e w temacie jest długie i zamknięte, a e w końcówce jest krótkie i otwarte."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Czasownik pomocniczy sein – być bałaganem w kręgu. Dlatego warto się tego dobrze uczyć."
+            "text": "Czasownik posiłkowy sein — być odmienia się nieregularnie. Dlatego trzeba się go dobrze nauczyć."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Podobnie czasownik pomocniczy können – móc – jest odmieniany nieregularnie."
+            "text": "Nieregularnie odmienia się także czasownik posiłkowy können — móc."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,11 +1051,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Czy jesteś zdrowy",
+            "lv": "Czy jesteś zdrowy?",
             "de": "Bist du gesund?"
           },
           {
@@ -1063,19 +1063,19 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Czy Paweł jest zdrowy?",
+            "lv": "Czy Paul jest zdrowy?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Nie, Paweł nie jest zdrowy, on jest chory.",
+            "lv": "Nie, Paul nie jest zdrowy, jest chory.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Czy może pracować?",
+            "lv": "Czy on może pracować?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Nie, nie może pracować.",
+            "lv": "Nie, on nie może pracować.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
@@ -1099,7 +1099,7 @@ const COURSE_LESSON_DATA = {
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Kim jesteś",
+            "lv": "Kim jesteś?",
             "de": "Wer bist du?"
           },
           {
@@ -1111,7 +1111,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Nie, jest pracownikiem.",
+            "lv": "Nie, on jest robotnikiem.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
@@ -1123,11 +1123,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Kim jest nauczyciel?",
+            "lv": "Kim jest nauczycielka?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Nauczycielką jest kobieta.",
+            "lv": "Nauczycielka jest kobietą.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
@@ -1144,9 +1144,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "Wykład 11",
-    "subtitle": "Haben, kein/keine/keinen, rzeczowniki dzierżawcze i złożone",
-    "intro": "Wykład jedenasty: haben, negacja z kein, posiadanie, rzeczowniki złożone i szyk wyrazów z denn.",
+    "title": "Lekcja 11",
+    "subtitle": "Haben, kein/keine/keinen, posiadanie i rzeczowniki złożone",
+    "intro": "Jedenasta lekcja: haben, przeczenie z kein, wyrażanie posiadania, rzeczowniki złożone i szyk wyrazów z denn.",
     "sections": [
       {
         "title": "Dialogi / zdania",
@@ -1191,44 +1191,44 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Słowa",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — ma",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — mają",
-          "der Bruder (dēr brūder) — brat",
+          "ich habe — ja mam",
+          "du hast — ty masz",
+          "er hat — on ma",
+          "wir haben — my mamy",
+          "ihr habt — wy macie",
+          "sie haben — oni mają",
+          "der Bruder (der bruder) — brat",
           "die Brüder — bracia",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — jasne",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — biurko",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — razem",
+          "das Zimmer (das cimer) — pokój",
+          "ist nicht — nie jest",
+          "groß (gros) — duży",
+          "hell — jasny",
+          "breit — szeroki",
+          "der Schreibtisch (der szrajbtisz) — biurko",
+          "da — tam",
+          "kein, keine, kein — żaden, żadna, żadne",
+          "zusammen (cuzamen) — razem",
           "oft — często",
-          "der Freund (dēr froint) — przyjaciel",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krzesło",
+          "der Freund (der frojnt) — przyjaciel",
+          "die Freunde — przyjaciele",
+          "der Schrank — szafa",
+          "der Stuhl (der sztul) — krzesło",
           "die Stühle — krzesła",
-          "die Tischlampe — galda lampa",
+          "die Tischlampe — lampa biurkowa",
           "das Bücherbrett — półka na książki",
-          "die Landkarte (dī lantkarte) — mapa geograficzna",
+          "die Landkarte (di lantkarte) — mapa",
           "glücklich — szczęśliwy",
-          "denn — jo",
-          "die Schwester (dī švester) — siostra",
+          "denn — bo, ponieważ",
+          "die Schwester (di szwester) — siostra",
           "die Schwestern — siostry"
         ]
       },
       {
         "title": "Wymowa",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu wymawia się jak oj: der Freund (der frojnt), neun (nojn).",
+          "h najczęściej oznacza długość poprzedzającej samogłoski: der Stuhl (der sztul), zehn (cen).",
+          "z wymawia się jak polskie c: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Czasownik pomocniczy haben w języku niemieckim wyraża koncepcję przynależności. W języku łotewskim często wyraża się to słowami: mam, ty masz, on ma itp. t. T."
+            "text": "Za pomocą czasownika posiłkowego haben wyraża się w języku niemieckim posiadanie. Po polsku mówimy podobnie: mam, masz, ma itd."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "ja mam"
               ],
               [
                 "du hast",
-                "tev ir"
+                "ty masz"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "on/ona/ono ma"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "my mamy"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "wy macie"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "oni mają"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "W języku łotewskim osoba, do której coś należy, występuje w celowniku, a podmiot w mianowniku. W języku niemieckim osoba występuje w mianowniku, a posiadany przedmiot w bierniku."
+            "heading": "Posiadanie: mianownik i biernik",
+            "text": "W języku polskim, tak jak w niemieckim, osoba, która coś posiada, stoi w mianowniku, a posiadany przedmiot — zwykle w bierniku. W języku niemieckim osoba stoi w mianowniku, a posiadany przedmiot — w bierniku."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Przykłady",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — mam stół",
+              "Der Vater hat ein Buch — ojciec ma książkę",
+              "Sie haben eine Feder — oni mają stalówkę"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Porównanie z innymi językami",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "rosyjski: я имею тетрадь; отец имеет книгу.",
+              "angielski: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Czasownika haben należy się dobrze nauczyć i prawidłowo go używać. Powinieneś także znać formularze poleceń."
+            "text": "Czasownika haben trzeba się dobrze nauczyć i poprawnie go używać. Trzeba też znać formy trybu rozkazującego."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — przykłady",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — cierpliwości! / miej cierpliwość!",
+              "habt Geduld! — miejcie cierpliwość!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Podwójna negacja języka łotewskiego nie jest wyrażana w języku niemieckim przeczącym słowem kein. Słowo przeczące kein występuje tylko przed rzeczownikiem."
+            "text": "Polskiego podwójnego przeczenia, np. nie mam żadnego zeszytu, nie oddaje się po niemiecku: wystarcza samo słowo przeczące kein. Słowo przeczące kein stoi tylko przed rzeczownikiem."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — liczba pojedyncza",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — liczba mnoga",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Jeśli zdanie narracyjne zawiera spójnik denn, czasownik pozostaje na drugiej pozycji. Spójnik denn nie liczy się jako członek zdania."
+            "heading": "Szyk wyrazów z denn",
+            "text": "Jeśli w zdaniu oznajmującym występuje spójnik denn, czasownik pozostaje na 2. miejscu. Spójnika denn nie liczy się jako części zdania."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — przykłady",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Rzeczowniki złożone poprzedzane są przedimkiem ostatniego rzeczownika. Nacisk położony jest na pierwsze słowo w tej sprawie."
+            "heading": "Rzeczowniki złożone",
+            "text": "Przed rzeczownikiem złożonym stoi rodzajnik ostatniego rzeczownika. Akcent pada na pierwszy rzeczownik."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Rzeczowniki złożone — przykłady",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,11 +1358,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Co masz",
+            "lv": "Co masz?",
             "de": "Was hast du?"
           },
           {
@@ -1378,19 +1378,19 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Pani Müller, ma pani notesy?",
+            "lv": "Panno Müller, czy ma Pani zeszyty?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Nie mam żadnych notatników.",
+            "lv": "Nie mam żadnych zeszytów.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Frank nie ma pióra ani ołówka.",
+            "lv": "Franz nie ma żadnej stalówki ani żadnego ołówka.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Jaki jest pokój",
+            "lv": "Jaki jest pokój?",
             "de": "Wie ist das Zimmer?"
           },
           {
@@ -1398,11 +1398,11 @@ const COURSE_LESSON_DATA = {
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Masz biurko?",
+            "lv": "Czy masz biurko?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Tak, mam biurko i lampę stołową.",
+            "lv": "Tak, mam biurko i lampę biurkową.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
@@ -1410,7 +1410,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Nauczyciel ma wiele książek i półkę na książki.",
+            "lv": "Nauczyciel ma dużo książek i półkę na książki.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1430,11 +1430,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Czy Franciszek też pisze?",
+            "lv": "Czy Franz też pisze?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nie, Franciszek nie pisze, on rysuje.",
+            "lv": "Nie, Franz nie pisze, on rysuje.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
@@ -1442,7 +1442,7 @@ const COURSE_LESSON_DATA = {
             "de": "Stehen sie?"
           },
           {
-            "lv": "Nie, siedzą i się uczą.",
+            "lv": "Nie, oni siadają i się uczą.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,9 +1451,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "Wykład 12",
-    "subtitle": "Stopnie porównawcze, als / wie, wiek, przymiotniki i kolory.",
-    "intro": "Wykład dwunasty: stopnie porównawcze, als/wie, wiek, przymiotniki i kolory.",
+    "title": "Lekcja 12",
+    "subtitle": "Stopniowanie, als / wie, wiek, przymiotniki i kolory.",
+    "intro": "Dwunasta lekcja: stopniowanie, als / wie, wiek, przymiotniki i kolory.",
     "sections": [
       {
         "title": "Dialogi / zdania",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Słowa",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — jak masz na imię",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — liels",
-          "klein — mazs",
+          "heißen — nazywać się",
+          "wie heißt du — jak się nazywasz",
+          "ich heiße — nazywam się",
+          "die Grube — dół",
+          "wieviel — ile",
+          "Max (maks) — Maks",
+          "groß — duży",
+          "klein — mały",
           "kleiner als ich — mniejszy ode mnie",
-          "alt — vecs",
-          "jung — jauns",
+          "alt — stary",
+          "jung — młody",
           "jünger als ich — młodszy ode mnie",
           "so alt wie — tak stary jak",
-          "der Vetter (dēr feter) — kuzynka",
+          "der Vetter (der feter) — kuzyn",
           "am ältesten (am eltesten) — najstarszy",
-          "ebenso — podobnie",
+          "ebenso — tak samo",
           "wie — jak",
-          "am jüngsten — najnowszy",
-          "faul — slinks",
-          "fleißig — pracowity",
-          "blau — zils",
+          "am jüngsten — najmłodszy",
+          "faul — leniwy",
+          "fleißig — pracowity, pilny",
+          "blau — niebieski",
           "braun — brązowy",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — guma",
+          "gelb — żółty",
+          "das Gummi (das gumi) — gumka",
           "grau — szary",
-          "der Baum — koks",
+          "der Baum — drzewo",
           "grün — zielony",
           "die Blume — kwiat",
-          "rot — sarkans",
-          "die Tinte — tinte",
+          "rot — czerwony",
+          "die Tinte — atrament",
           "die Kreide — kreda",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "weiß — biały",
+          "schwarz — czarny",
+          "krank — chory",
+          "gesund — zdrowy"
         ]
       },
       {
         "title": "Wymowa",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — H w słowie der Federhalter oznacza wymawiany dźwięk, a w słowie der Sohn tęsknotę."
+          "x wymawia się jak ks: Max (maks), Felix (feliks).",
+          "W słowach Schwester, am jüngsten st wymawia się jak zwykłe polskie st: Schwester (szwester), jüngsten (jynksten).",
+          "W słowie der Federhalter h jest wymawianym dźwiękiem, a w słowie der Sohn — znakiem długości."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Stopień najwyższy (Komparativ) przymiotników tworzy się ze stopnia podstawowego (Positiv) z końcówką -er.",
+            "text": "Stopień wyższy przymiotników (Komparativ) tworzy się od stopnia równego (Positiv) za pomocą końcówki -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Większość przymiotników jednosylabowych z samogłoską rdzenia a, o, u ma przegłos w stopniu najwyższym.",
+            "heading": "Umlaut w stopniu wyższym",
+            "text": "Większość jednosylabowych przymiotników z samogłoską a, o, u w temacie ma w stopniu wyższym Umlaut.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "wie jest używane do wyrażania równości. als stosuje się przy wyrażaniu nierówności.",
+            "heading": "Porównywanie z wie i als",
+            "text": "wie używa się, gdy wyraża się równość. als używa się, gdy wyraża się nierówność.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Stopień ogólny (Superlativ) tworzy się przez dodanie końcówki -sten lub -esten do stopnia podstawowego i wyrazu drogowego am na początku.",
+            "text": "Stopień najwyższy (Superlativ) tworzy się, dodając do stopnia równego końcówkę -sten lub -esten, a przed nim słówko am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Nieregularne stopniowanie",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (bliski)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (wysoki)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (dobry)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (dużo)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (wkrótce)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (chętnie)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,7 +1611,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "type": "translationCards",
         "cards": [
           {
@@ -1627,15 +1627,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paweł jest najstarszy.",
+            "lv": "Paul jest najstarszy.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Jak masz na imię?",
+            "lv": "Jak się nazywasz?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Mam na imię Piotr.",
+            "lv": "Nazywam się Peter.",
             "de": "Ich heiße Peter."
           },
           {
@@ -1643,15 +1643,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Ma na imię Jan.",
+            "lv": "On nazywa się Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Jak masz na imię?",
+            "lv": "Jak się Pan nazywa?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Ile masz lat?",
+            "lv": "Ile Pan ma lat?",
             "de": "Wie alt sind Sie?"
           },
           {
@@ -1659,7 +1659,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Czy Maxi jest duży?",
+            "lv": "Czy Max jest duży?",
             "de": "Ist Max groß?"
           },
           {
@@ -1667,11 +1667,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Co jest największe?",
+            "lv": "Kto jest największy?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Franciszek jest największy.",
+            "lv": "Franz jest największy.",
             "de": "Franz ist am größten."
           },
           {
@@ -1679,7 +1679,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Matka jest w tym samym wieku co ojciec.",
+            "lv": "Matka jest tak samo stara jak ojciec.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
@@ -1691,15 +1691,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Jakie są ich imiona?",
+            "lv": "Jak one się nazywają?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Nazywają się Elsa, Marta i Alma.",
+            "lv": "Nazywają się Elsa, Martha i Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Ilu masz braci?",
+            "lv": "Ilu ma Pan braci?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
@@ -1707,7 +1707,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Co to jest atrament?",
+            "lv": "Jaki jest atrament?",
             "de": "Wie ist die Tinte?"
           },
           {
@@ -1715,15 +1715,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Co to jest kreda?",
+            "lv": "Jaka jest kreda?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Jest biały.",
+            "lv": "Jest biała.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Czym są kwiaty?",
+            "lv": "Jakie są kwiaty?",
             "de": "Wie sind die Blumen?"
           },
           {
@@ -1739,7 +1739,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Czy jesteś szczęśliwy?",
+            "lv": "Czy Państwo są szczęśliwi?",
             "de": "Sind Sie glücklich?"
           },
           {
@@ -1752,9 +1752,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "Wykład 13",
+    "title": "Lekcja 13",
     "subtitle": "Der Körper, części ciała, turnen, jeder i liczba mnoga.",
-    "intro": "Wykład trzynasty: Der Körper, części ciała, ćwiczenia, czasowniki zwrotne i liczba mnoga.",
+    "intro": "Trzynasta lekcja: Der Körper, części ciała, gimnastyka, czasowniki zwrotne i liczba mnoga.",
     "sections": [
       {
         "title": "Tekst / Czytanie",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Słówka",
         "items": [
           "der Körper — ciało",
-          "der Mensch — istota ludzka",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
+          "der Mensch — człowiek",
+          "der Kopf — głowa",
+          "der Hals — szyja",
+          "der Rumpf — tułów",
+          "der Arm — ręka, ramię",
+          "die Hand — dłoń",
+          "die Hände — dłonie",
           "das Bein — noga",
           "die Beine — nogi",
-          "der Fuß — stopa stopy",
+          "der Fuß — stopa",
           "die Füße — stopy",
           "rund — okrągły",
           "lang — długi",
           "kurz — krótki",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — cienki / cienki",
-          "die Brust — pierś",
+          "klein — mały",
+          "groß — duży",
+          "dick — gruby",
+          "dünn — chudy / cienki",
+          "die Brust — pierś, klatka piersiowa",
           "vorn — z przodu",
-          "der Rücken — mugura",
+          "der Rücken — plecy",
           "hinten — z tyłu",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
+          "jeder — każdy",
+          "jede — każda",
+          "jedes — każde",
+          "der Finger — palec",
           "die Zehe — palec u nogi",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — sprzątać",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — robić/robić",
-          "der Schritt — solis",
-          "bleiben — palikt",
+          "beide — oba, obie",
+          "der Nagel — paznokieć",
+          "die Nägel — paznokcie",
+          "beschneiden — obcinać",
+          "reinigen — czyścić",
+          "turnen — gimnastykować się, ćwiczyć",
+          "heben — podnosić",
+          "machen — robić",
+          "der Schritt — krok",
+          "bleiben — zostawać, pozostawać",
           "stehen — stać",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — trzymaj się",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — głęboki"
+          "sich umkehren — odwracać się",
+          "ausstrecken — wyciągać",
+          "senken — opuszczać",
+          "drehen — kręcić / obracać",
+          "nach links — w lewo",
+          "nach rechts — w prawo",
+          "halten — trzymać",
+          "gerade — prosto",
+          "atmen — oddychać",
+          "tief — głęboko"
         ]
       },
       {
         "title": "Gramatyka",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Niektóre czasowniki z rdzeniem samogłoskowym a lub au w drugiej i trzeciej osobie liczby pojedynczej mają przegłos.",
+            "heading": "Umlaut w czasie teraźniejszym",
+            "text": "Niektóre czasowniki z samogłoską a lub au w temacie mają w 2. i 3. osobie liczby pojedynczej czasu teraźniejszego Umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "sich umkehren — apgriezties",
+            "heading": "Czasownik zwrotny",
+            "text": "sich umkehren — odwracać się",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Tryb rozkazujący czasownika sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "atmen — elpot",
+            "heading": "Czasownik atmen",
+            "text": "atmen — oddychać",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Tryb rozkazujący czasownika atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Jeśli akcentowana jest część przyimkowa, oddziela się ona w czasie teraźniejszym i pojawia się na końcu zdania.",
+            "heading": "Czasowniki złożone",
+            "text": "Jeśli przedrostek jest akcentowany, w czasie teraźniejszym oddziela się i przechodzi na koniec zdania.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Jeśli przedrostek jest nieakcentowany, jest nieakcentowany.",
+            "heading": "Przedrostki nierozdzielne",
+            "text": "Jeśli przedrostek nie jest akcentowany, nie oddziela się.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Zaimek jeder krąży w kółko, podobnie jak przedimki der / die / das.",
+            "heading": "Zaimek jeder",
+            "text": "Zaimek jeder odmienia się jak rodzajniki der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Męski",
+                "Żeński",
+                "Nijaki"
               ],
               [
-                "Nominatīvs",
+                "Mianownik",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Biernik",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Liczba mnoga bez końcówki",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Liczba mnoga z końcówką -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Liczba mnoga z końcówką -en lub -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Liczba mnoga z końcówką -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Rzeczowniki żeńskie utworzone przez -in take -nen w liczbie mnogiej.",
+            "heading": "Rzeczowniki rodzaju żeńskiego z -in",
+            "text": "Rzeczowniki rodzaju żeńskiego utworzone za pomocą -in w liczbie mnogiej przyjmują -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,16 +1981,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Wymowa",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "h w słowie halten jest słyszalne.",
+          "h w słowie fahren oznacza długość samogłoski.",
+          "a w słowie halten wymawia się krótko: halten.",
+          "a w słowie tragen wymawia się długo: tragen.",
+          "äu wymawia się jak oj: du läufst, er läuft.",
+          "pf w słowie Kopf wymawia się tak, że słychać obie spółgłoski."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ćwiczenie",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,7 +2055,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "type": "translationCards",
         "cards": [
           {
@@ -2063,7 +2063,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Ile masz nóg",
+            "lv": "Ile masz nóg?",
             "de": "Wie viele Beine hast du?"
           },
           {
@@ -2075,7 +2075,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Co to jest ręka?",
+            "lv": "Jaka jest ręka?",
             "de": "Wie ist der Arm?"
           },
           {
@@ -2087,15 +2087,15 @@ const COURSE_LESSON_DATA = {
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Gdzie jest skrzynia",
+            "lv": "Gdzie jest klatka piersiowa?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Gdzie jest tył?",
+            "lv": "Gdzie są plecy?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Klatka piersiowa jest z przodu, plecy z tyłu.",
+            "lv": "Klatka piersiowa jest z przodu, plecy są z tyłu.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
@@ -2107,55 +2107,55 @@ const COURSE_LESSON_DATA = {
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Ile palców mają dwie ręce?",
+            "lv": "Ile palców mają dwie dłonie?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Dwie ręce mają dziesięć palców.",
+            "lv": "Dwie dłonie mają dziesięć palców.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Co to jest palec?",
+            "lv": "Co ma palec?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Palec ma pazur.",
+            "lv": "Palec ma paznokieć.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Co robisz",
+            "lv": "Co robisz?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Przycinam i oczyszczam paznokcie.",
+            "lv": "Obcinam i czyszczę paznokcie.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Co robi Paweł?",
+            "lv": "Co robi Paul?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Ćwiczy.",
+            "lv": "On się gimnastykuje.",
             "de": "Er turnt."
           },
           {
-            "lv": "Jak ćwiczą?",
+            "lv": "Jak oni się gimnastykują?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Podnoszą nogi i ręce.",
+            "lv": "Oni podnoszą nogi i ręce.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Wyciągają obie ręce.",
+            "lv": "Oni wyciągają obie ręce.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Opuszczają obie ręce.",
+            "lv": "Oni opuszczają obie ręce.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Odwracają głowy w prawo.",
+            "lv": "Oni obracają głowę w prawo.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
@@ -2163,31 +2163,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Piotr i Anna oddychają głęboko.",
+            "lv": "Peter i Anna oddychają głęboko.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Czy Robert też ćwiczy?",
+            "lv": "Czy Robert też się gimnastykuje?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Nie, Robert i Jan nie ćwiczą.",
+            "lv": "Nie, Robert i Johann się nie gimnastykują.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robercie, ćwicz!",
+            "lv": "Robert, gimnastykuj się!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robercie i Jāni, ćwiczcie!",
+            "lv": "Robert i Johann, gimnastykujcie się!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Panno Müller, ćwicz!",
+            "lv": "Panno Müller, proszę się gimnastykować!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Zrób dwa kroki i stój!",
+            "lv": "Proszę zrobić dwa kroki, a potem się zatrzymać!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,9 +2196,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "Wykład 14",
+    "title": "Lekcja 14",
     "subtitle": "müssen, wollen, mögen",
-    "intro": "Wykład czternasty: Czasowniki modalne müssen, wollen i mögen.",
+    "intro": "Czternasta lekcja: czasowniki modalne müssen, wollen i mögen.",
     "sections": [
       {
         "title": "Tekst / Czytanie",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Słówka",
         "items": [
-          "müssen — muszę / muszę zrobić",
-          "ich muss — muszę / muszę zrobić",
-          "du musst — potrzebujesz / musisz zrobić",
-          "er muss — on potrzebuje / musi",
-          "sie muss — ona potrzebuje / musi",
-          "es muss — to musi / musi wystarczyć",
-          "wir müssen — musimy / musimy zrobić",
-          "ihr müsst — potrzebujesz / musisz",
-          "sie müssen — oni / oni potrzebują",
+          "müssen — musieć / być zmuszonym",
+          "ich muss — ja muszę",
+          "du musst — ty musisz",
+          "er muss — on musi",
+          "sie muss — ona musi",
+          "es muss — ono musi",
+          "wir müssen — my musimy",
+          "ihr müsst — wy musicie",
+          "sie müssen — oni / one muszą",
           "lernen — uczyć się",
-          "vorwärts — do przodu",
-          "vorwärts kommen — iść do przodu",
+          "vorwärts — naprzód",
+          "vorwärts kommen — posuwać się naprzód, robić postępy",
           "wollen — chcieć",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — chce",
+          "ich will — ja chcę",
+          "du willst — ty chcesz",
+          "er will — on chce",
           "sie will — ona chce",
-          "es will — tas grib",
-          "wir wollen — chcemy",
-          "ihr wollt — chcesz",
-          "sie wollen — oni / oni chcą",
-          "mögen — chcieć / chcieć / lubić",
+          "es will — ono chce",
+          "wir wollen — my chcemy",
+          "ihr wollt — wy chcecie",
+          "sie wollen — oni / one chcą",
+          "mögen — chcieć / pragnąć / lubić",
           "ich mag — chcę / lubię",
           "du magst — chcesz / lubisz",
-          "er mag — chce / lubi",
+          "er mag — on chce / on lubi",
           "sie mag — ona chce / ona lubi",
-          "es mag — chce / lubi",
-          "wir mögen — chcemy",
-          "ihr mögt — chcesz",
-          "sie mögen — oni/ona chcą",
+          "es mag — ono chce / ono lubi",
+          "wir mögen — my chcemy",
+          "ihr mögt — wy chcecie",
+          "sie mögen — oni / one chcą",
           "die Suppe — zupa",
-          "munden — smakować dobrze",
-          "mir — man",
-          "dir — tev",
-          "ihm — do niego",
-          "ihr — dla niej",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — dla nich / nich",
-          "denn — jo"
+          "munden — smakować",
+          "mir — mnie, mi",
+          "dir — tobie, ci",
+          "ihm — jemu, mu",
+          "ihr — jej",
+          "uns — nam",
+          "euch — wam",
+          "ihnen — im",
+          "denn — bo, ponieważ"
         ]
       },
       {
         "title": "Gramatyka",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Czasowniki modalne",
             "text": "Czasowniki müssen, wollen i mögen są czasownikami modalnymi."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "W czasie teraźniejszym liczby pojedynczej pierwsza i trzecia osoba są takie same.",
+            "heading": "1. i 3. osoba liczby pojedynczej",
+            "text": "W czasie teraźniejszym 1. i 3. osoba liczby pojedynczej mają tę samą formę.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Zmiana samogłoski w temacie",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen oznacza potrzebować/być potrzebnym.",
+            "text": "Müssen znaczy musieć / być koniecznym.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Muszę się uczyć."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen oznacza celowo chcieć coś zrobić.",
+            "text": "Wollen znaczy świadomie chcieć coś zrobić.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Chcę robić postępy."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen wyraża życzenie lub sympatię.",
+            "text": "Mögen wyraża chęć albo upodobanie.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Nie mam ochoty jeść zupy.",
+              "Die Suppe mundet mir nicht. — Zupa mi nie smakuje."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "W języku łotewskim często mówimy „muszę się uczyć”, „musisz pisać”, „on musi przyjść”. Niemiecki często używa müssen w takich zdaniach.",
+            "heading": "Ważne",
+            "text": "Po polsku mówimy „muszę się uczyć”, „musisz pisać”, „on musi przyjść”. Po niemiecku w takich zdaniach używa się müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,16 +2362,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Wymowa",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß wymawia się jak polskie s.",
+          "ß pisze się w środku lub na końcu słowa po długiej samogłosce lub dwugłosce: die Füße, die Straße, ich muss, er muss.",
+          "Jeśli w innych formach występuje ss, przed końcówką może stać ß: müssen, ich muss, du musst, ihr müsst.",
+          "ö w słowie mögen wymawia się jako wyraźne ö.",
+          "Jeśli po g następuje t, g brzmi bliżej k: du magst, ihr mögt.",
+          "Podobnie po polsku w słowie „róg” g na końcu brzmi jak k."
         ]
       },
       {
-        "title": "Tłumaczyć",
+        "title": "Przetłumacz",
         "type": "translationCards",
         "cards": [
           {
@@ -2379,19 +2379,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Wszyscy studenci chcą się pilnie uczyć.",
+            "lv": "Wszyscy uczniowie chcą się pilnie uczyć.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Kto powinien dzisiaj przyjść?",
+            "lv": "Kto musi dziś przyjść?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Muszę dzisiaj przyjechać.",
+            "lv": "Muszę dziś przyjść.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Musisz napisać list.",
+            "lv": "Musisz napisać ten list.",
             "de": "Du musst den Brief schreiben."
           },
           {
@@ -2399,23 +2399,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Studenci muszą się pilnie uczyć.",
+            "lv": "Uczniowie muszą się pilnie uczyć.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Nie chcę jeść zupy, bo jej nie lubię.",
+            "lv": "Nie mam ochoty jeść zupy, bo mi nie smakuje.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Kto chce zjeść zupę?",
+            "lv": "Kto chce jeść zupę?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa chce zjeść zupę.",
+            "lv": "Elsa chce jeść zupę.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kto powinien przeczytać książkę?",
+            "lv": "Kto musi przeczytać książkę?",
             "de": "Wer muss das Buch lesen?"
           },
           {
@@ -2423,7 +2423,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Nie chcę śpiewać.",
+            "lv": "Nie mam ochoty śpiewać.",
             "de": "Ich mag nicht singen."
           },
           {

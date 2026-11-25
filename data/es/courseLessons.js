@@ -60,10 +60,10 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Lección 8",
-    "subtitle": "Verbos reflexivos, e → i/ie cambio y acusativo.",
+    "subtitle": "Verbos reflexivos, el cambio e → i/ie y el acusativo.",
     "sections": [
       {
-        "title": "Diálogo / frases",
+        "title": "Diálogos / oraciones",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -88,283 +88,283 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Palabras",
+        "title": "Vocabulario",
         "items": [
           "alle — todos",
-          "aufstehen — levantarse",
+          "aufstehen — levantarse, ponerse de pie",
           "stehen auf — se levantan",
-          "grüßen (grüsen) — saludar",
+          "grüßen (grüüsen) — saludar",
           "guten Morgen — buenos días",
-          "gut — bien",
+          "gut — bueno",
           "der Morgen — la mañana",
-          "der Herr — señor",
-          "das Kind — niño",
+          "der Herr — el señor",
+          "das Kind — el niño",
           "die Kinder — los niños",
-          "setzt euch (zect oich) — ¡sentaos!",
+          "setzt euch (setst óij) — ¡sentaos!",
           "sie setzen sich — se sientan",
           "fragen (con acusativo) — preguntar",
           "sprechen — hablar",
           "er spricht — él habla",
           "aber — pero",
-          "sehr (zēr) — muy",
-          "leise — silencioso",
-          "laut — alto",
-          "jetzt (ject) — ahora",
+          "sehr (seer) — muy",
+          "leise — bajo, en voz baja",
+          "laut — alto, en voz alta",
+          "jetzt (yetst) — ahora",
           "lesen — leer",
-          "lies! — ¡lasi!",
+          "lies! — ¡lee!",
           "gut — bien",
-          "schlecht — malo",
-          "deutlich (doitlich) — claramente",
+          "schlecht — mal",
+          "deutlich (dóitlij) — claramente, de forma comprensible",
           "schreiben — escribir",
-          "endlich (entlich) — finalmente",
-          "erzählen (ercēlen) — contar",
+          "endlich (éntlij) — por fin, finalmente",
+          "erzählen (ertséelen) — contar, narrar",
           "zuhören — escuchar",
-          "sie hören zu — ellos escuchan",
-          "was ist das — ¿qué es eso?",
-          "der Arbeiter — obrero",
+          "sie hören zu — escuchan",
+          "was ist das — ¿qué es esto?",
+          "der Arbeiter — el obrero",
           "der Müller — el molinero",
-          "der Tischler — carpintero",
-          "der Bäcker (dēr beker) — panadero",
-          "der Schneider (dēr šneider) — sastre",
-          "der Gärtner (dēr gertner) — jardinero",
-          "der Schuster — zapatero"
+          "der Tischler — el carpintero",
+          "der Bäcker (deer béker) — el panadero",
+          "der Schneider (deer shnáider) — el sastre",
+          "der Gärtner (deer guértner) — el jardinero",
+          "der Schuster — el zapatero"
         ]
       },
       {
         "title": "Pronunciación",
         "items": [
-          "La ä puede pronunciarse como una e abierta, corta o larga. Ejemplos: der Bäcker (bēker), das Mädchen (mētchen).",
-          "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).",
-          "En Schüler y Bücher, la ü es larga; en Müller, es corta.",
-          "ie se pronuncia como una i larga: liest (līst).",
-          "ß se pronuncia como s: grüßen (grüsen).",
-          "eu se pronuncia «oi»: deutlich (doitlich)."
+          "Como ya se ha dicho, la ä se pronuncia como una e cerrada, breve o larga. Ejemplos: der Bäcker (béker), das Mädchen (méetjen).",
+          "La ä se pronuncia también como una e abierta, por ejemplo en la palabra der Gärtner (deer guértner).",
+          "En las palabras Schüler, Bücher — la ü es larga (üü), pero en Müller — es una ü breve.",
+          "ie se pronuncia como una i larga: liest (liist).",
+          "La ß se pronuncia como s: grüßen (grüüsen).",
+          "eu se pronuncia oi: deutlich (dóitlij)."
         ]
       },
       {
         "title": "Gramática",
         "items": [
-          "En muchos verbos con e en la raíz, la e cambia a i o ie en la segunda y tercera persona singular del presente.",
-          "sprechen — hablar",
-          "geben — dar",
-          "essen — comer",
-          "nehmen — tomar",
-          "lesen — leer",
-          "sehen — ver",
-          "En el imperativo singular de estos verbos, la e cambia a i o ie: Paul, sprich! Lies! En plural: Paul und Hans, lest und sprecht!",
-          "En alemán, los verbos reflexivos se conjugan como los demás y llevan el pronombre reflexivo correspondiente.",
+          "Muchos verbos con la vocal e en la raíz tienen i o ie en lugar de e en la 2.ª y 3.ª persona del singular del presente.",
+          "sprechen — ich spreche, du sprichst, er spricht.",
+          "geben — ich gebe, du gibst, er gibt.",
+          "essen — ich esse, du isst, er isst.",
+          "nehmen — ich nehme, du nimmst, er nimmt.",
+          "lesen — ich lese, du liest, er liest.",
+          "sehen — ich sehe, du siehst, er sieht.",
+          "Estos verbos tienen también i o ie en lugar de e en la raíz en el imperativo singular: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "En español, los verbos reflexivos llevan un pronombre como me, te o se. En alemán no tienen una conjugación especial: se conjugan como los demás verbos, añadiendo el pronombre reflexivo sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Imperativo: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "El imperativo: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Ejercicio",
-        "exerciseType": "mezclado",
-        "description": "Ejercicio I: usa la conjugación correcta. Ejercicio II: tarjetas de traducción.",
+        "title": "Übung / Ejercicio",
+        "exerciseType": "mixed",
+        "description": "Übung I — usa el caso correcto. Übung II — tarjetas de traducción.",
         "cards": [
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Lehrer.",
             "answer": "Das Kind grüßt den Lehrer."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Lehrerin.",
             "answer": "Das Kind grüßt die Lehrerin."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Fräulein.",
             "answer": "Das Kind grüßt das Fräulein."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Schüler.",
             "answer": "Das Kind grüßt den Schüler."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Schülerin.",
             "answer": "Das Kind grüßt die Schülerin."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Eimer.",
             "answer": "Der Schüler nimmt den Eimer."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Teller.",
             "answer": "Der Schüler nimmt den Teller."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Hammer.",
             "answer": "Der Schüler nimmt den Hammer."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Schlüssel.",
             "answer": "Der Schüler nimmt den Schlüssel."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Schüssel.",
             "answer": "Der Schüler nimmt die Schüssel."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Nadel.",
             "answer": "Der Schüler nimmt die Nadel."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Messer.",
             "answer": "Der Schüler nimmt das Messer."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Spiegel.",
             "answer": "Der Schüler nimmt den Spiegel."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Buch.",
             "answer": "Der Schüler nimmt das Buch."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Heft.",
             "answer": "Der Schüler nimmt das Heft."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Bleistift.",
             "answer": "Der Schüler nimmt den Bleistift."
           },
           {
-            "type": "llenar",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Federhalter.",
             "answer": "Der Schüler nimmt den Federhalter."
           },
           {
-            "type": "traducir",
-            "lv": "¡Saluda al maestro y a la maestra!",
+            "type": "translate",
+            "lv": "¡Saluda al profesor y a la profesora!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "type": "traducir",
+            "type": "translate",
             "lv": "¿A quién saludas?",
             "de": "Wen grüßt du?"
           },
           {
-            "type": "traducir",
-            "lv": "Es sveicinu jaunkundzi.",
+            "type": "translate",
+            "lv": "Saludo a la señorita.",
             "de": "Ich grüße das Fräulein."
           },
           {
-            "type": "traducir",
-            "lv": "Atveriet visus logus!",
+            "type": "translate",
+            "lv": "¡Abrid todas las ventanas!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "type": "traducir",
+            "type": "translate",
             "lv": "Abrimos todas las ventanas.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "type": "traducir",
-            "lv": "Vai tu atver logu?",
+            "type": "translate",
+            "lv": "¿Abres la ventana?",
             "de": "Öffnest du das Fenster?"
           },
           {
-            "type": "traducir",
-            "lv": "No, no abrí la ventana.",
+            "type": "translate",
+            "lv": "No, no he abierto la ventana.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "type": "traducir",
-            "lv": "Todos los estudiantes se sientan.",
+            "type": "translate",
+            "lv": "Todos los alumnos se sientan.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "type": "traducir",
-            "lv": "¡Pablo, siéntate!",
+            "type": "translate",
+            "lv": "¡Paul, siéntate!",
             "de": "Paul, setz dich!"
           },
           {
-            "type": "traducir",
+            "type": "translate",
             "lv": "¡Niños, sentaos!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "type": "traducir",
-            "lv": "¡No hables en voz baja!",
+            "type": "translate",
+            "lv": "¡No hables bajo!",
             "de": "Sprich nicht leise!"
           },
           {
-            "type": "traducir",
+            "type": "translate",
             "lv": "¿Cómo habla él?",
             "de": "Wie spricht er?"
           },
           {
-            "type": "traducir",
-            "lv": "Todos los estudiantes hablan en voz alta.",
+            "type": "translate",
+            "lv": "Todos los alumnos hablan alto.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "type": "traducir",
+            "type": "translate",
             "lv": "¿Quién lee en voz alta?",
             "de": "Wer liest laut?"
           },
           {
-            "type": "traducir",
-            "lv": "La estudiante lee en voz alta y con claridad.",
+            "type": "translate",
+            "lv": "La alumna lee en voz alta y con claridad.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "type": "traducir",
-            "lv": "Lasi labi!",
+            "type": "translate",
+            "lv": "¡Lee bien!",
             "de": "Lies gut!"
           },
           {
-            "type": "traducir",
-            "lv": "¡No hables en voz baja!",
+            "type": "translate",
+            "lv": "¡No hables bajo!",
             "de": "Sprich nicht leise!"
           },
           {
-            "type": "traducir",
+            "type": "translate",
             "lv": "¡Leed bien!",
             "de": "Lest gut!"
           },
           {
-            "type": "traducir",
-            "lv": "Ansis raksta labi, apuesta Anna raksta slikti.",
+            "type": "translate",
+            "lv": "Hans escribe bien, pero Anna escribe mal.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "type": "traducir",
-            "lv": "¡Señorita Müller, por favor cante una canción!",
+            "type": "translate",
+            "lv": "¡Señorita Müller, cante una canción, por favor!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "type": "traducir",
-            "lv": "Señor profesor, ¡siéntese, por favor!",
+            "type": "translate",
+            "lv": "¡Señor profesor, siéntese, por favor!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Traducir",
-        "exerciseType": "traducir",
-        "description": "Traduce frases del español al alemán.",
+        "title": "Traduce",
+        "exerciseType": "translate",
+        "description": "Traduce al alemán las oraciones en español.",
         "cards": [
           {
             "lv": "¡Saluda al profesor y a la profesora!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Atveriet visus logus!",
+            "lv": "¡Abrid todas las ventanas!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -372,19 +372,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "¿Abriste la ventana?",
+            "lv": "¿Has abierto la ventana?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "No, no abrí la ventana.",
+            "lv": "No, no he abierto la ventana.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Todos los estudiantes se sientan.",
+            "lv": "Todos los alumnos se sientan.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "¡Pablo, siéntate!",
+            "lv": "¡Paul, siéntate!",
             "de": "Paul, setz dich!"
           },
           {
@@ -392,7 +392,7 @@ const COURSE_LESSON_DATA = {
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "¡No hables en voz baja!",
+            "lv": "¡No hables bajo!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -400,7 +400,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Todos los estudiantes hablan en voz alta.",
+            "lv": "Todos los alumnos hablan alto.",
             "de": "Alle Schüler sprechen laut."
           },
           {
@@ -408,15 +408,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wer liest laut?"
           },
           {
-            "lv": "La estudiante lee en voz alta y con claridad.",
+            "lv": "La alumna lee en voz alta y con claridad.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Lasi labi!",
+            "lv": "¡Lee bien!",
             "de": "Lies gut!"
           },
           {
-            "lv": "¡No hables en voz baja!",
+            "lv": "¡No hables bajo!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -424,15 +424,15 @@ const COURSE_LESSON_DATA = {
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis raksta labi, apuesta Anna raksta slikti.",
+            "lv": "Hans escribe bien, pero Anna escribe mal.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "¡Señorita Müller, por favor cante una canción!",
+            "lv": "¡Señorita Müller, cante una canción, por favor!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Señor profesor, ¡siéntese, por favor!",
+            "lv": "¡Señor profesor, siéntese, por favor!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -442,11 +442,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson9": {
     "id": "lesson9",
     "title": "Lección 9",
-    "subtitle": "Múltiples sujetos, dieser/jener, singular y plural",
-    "intro": "Novena lección: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
+    "subtitle": "Varios objetos, dieser/jener, singular y plural",
+    "intro": "Novena lección: el plural de los sustantivos, los demostrativos dieser/jener, ejercicios y traducción.",
     "sections": [
       {
-        "title": "Diálogo / frases",
+        "title": "Diálogos / oraciones",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -471,34 +471,34 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Palabras",
+        "title": "Vocabulario",
         "items": [
-          "mehrere (mērere) — varios",
-          "hier (hīr) — aquí",
-          "dort — allá",
+          "mehrere (méerere) — varios, varias",
+          "hier (jiir) — aquí",
+          "dort — allí",
           "auch — también",
-          "langsam (lankzām) — lento",
-          "schnell (šnel) — rápido",
-          "mehr (mēr) — más",
+          "langsam (lángsaam) — despacio, lentamente",
+          "schnell (shnel) — rápido, deprisa",
+          "mehr (meer) — más",
           "zumachen — cerrar",
           "ich mache zu — yo cierro",
-          "sitzen (zicen) — estar sentado",
-          "ruhig (rū-ich) — tranquilo",
-          "dieser (dīzer) — Éste",
-          "jener (jēner) — aquel",
-          "der Brief (dēr brīf) — carta",
-          "die Briefe — cartas",
-          "kurz (kurc) — corto",
+          "sitzen (sítsen) — estar sentado",
+          "ruhig (rúuij) — tranquilamente",
+          "dieser (díiser) — este",
+          "jener (yéener) — aquel",
+          "der Brief (deer briif) — la carta",
+          "die Briefe — las cartas",
+          "kurz (kurts) — corto",
           "rein — limpio",
-          "schmutzig (šmucich) — sucio"
+          "schmutzig (shmútsij) — sucio"
         ]
       },
       {
         "title": "Gramática",
         "items": [
           {
-            "heading": "Pronombres demostrativos",
-            "text": "Indique los pronombres dieser y jener como artículo definido."
+            "heading": "Los pronombres demostrativos",
+            "text": "Los pronombres demostrativos dieser y jener se declinan como el artículo determinado."
           },
           {
             "heading": "Singular",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el artículo."
+            "heading": "Sin artículo",
+            "text": "Si delante del sustantivo hay un pronombre o un numeral, no se usa artículo."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ejercicio",
-        "type": "gramáticaTransformCards",
+        "title": "Übung / Ejercicio",
+        "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambie esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 frase inicial",
-                "task": "Cambia esta oración a la tercera persona del singular.",
+                "label": "1/4 Oración inicial",
+                "task": "Pasa esta oración a la 3.ª persona del singular.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Cambie la oración inicial a la primera persona del plural.",
+                "label": "2/4 Forma Er",
+                "task": "Pasa la oración inicial a la 1.ª persona del plural.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "Forma de alambre 3/4",
-                "task": "Utilice el plural en lugar del singular.",
+                "label": "3/4 Forma Wir",
+                "task": "Usa el sustantivo en plural en lugar de en singular.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Listo. El siguiente clic muestra la siguiente card.",
+                "label": "4/4 Plural",
+                "task": "Listo. El siguiente clic muestra la tarjeta siguiente.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,15 +784,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "La niña se sienta y escribe una carta.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "¿La carta es corta?",
+            "lv": "¿Es corta la carta?",
             "de": "Ist der Brief kurz?"
           },
           {
@@ -800,11 +800,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "¿Qué está haciendo usted?",
+            "lv": "¿Qué hacen ustedes?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Nos sentamos y leemos.",
+            "lv": "Estamos sentados y leemos.",
             "de": "Wir sitzen und lesen."
           },
           {
@@ -820,11 +820,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "¿Escriben rápido o lento?",
+            "lv": "¿Escriben deprisa o despacio?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Escriben muy lentamente.",
+            "lv": "Escriben muy despacio.",
             "de": "Sie schreiben sehr langsam."
           },
           {
@@ -840,15 +840,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "¡Anna, afila este lápiz!",
+            "lv": "¡Anna, saca punta a este lápiz!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "¡Profesor, por favor, afile este lápiz!",
+            "lv": "¡Señor profesor, por favor, saque punta a este lápiz!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "¡Pon ese lápiz ahí!",
+            "lv": "¡Deja aquel lápiz!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,11 +856,11 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Ko meitene beidzot dara?",
+            "lv": "¿Qué hace la niña por fin?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Ella cierra la ventana y sale.",
+            "lv": "Cierra la ventana y sale.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -868,13 +868,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson10": {
-    "id": "lección 10",
+    "id": "lesson10",
     "title": "Lección 10",
-    "subtitle": "Sein, können, salud, edad y profesiones",
-    "intro": "Lección décima: sein, können, formas del imperativo, salud, edad y profesiones.",
+    "subtitle": "Sein, können, la salud, la edad y las profesiones",
+    "intro": "Décima lección: sein, können, las formas del imperativo, la salud, la edad y las profesiones.",
     "sections": [
       {
-        "title": "Diálogo / frases",
+        "title": "Diálogos / oraciones",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -927,48 +927,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Palabras",
+        "title": "Vocabulario",
         "items": [
-          "gesund (gezunt) — sano",
+          "gesund (guesúnt) — sano",
           "ich bin gesund — estoy sano",
-          "du bist — tú eres / estás",
-          "wir sind — somos",
-          "ihr seid (īr zeit) — vosotros sois / estáis",
+          "du bist — tú eres, tú estás",
+          "wir sind — nosotros somos, nosotros estamos",
+          "ihr seid (iir sait) — vosotros sois, vosotros estáis",
           "ich kann — yo puedo",
           "du kannst — tú puedes",
           "er kann — él puede",
-          "wir können — podemos",
+          "wir können — nosotros podemos",
           "ihr könnt — vosotros podéis",
           "sie können — ellos pueden",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — ¡manténgase saludable!",
-          "der Knabe (dēr knābe) — un niño",
-          "der Mann — hombre",
-          "die Frau — mujer o esposa, según el contexto",
-          "der Großvater (dēr grōsfāter) — abuelo",
+          "sei gesund — ¡que estés sano!",
+          "seid gesund — ¡que estéis sanos!",
+          "seien Sie gesund — ¡que esté usted sano!",
+          "der Knabe (deer knáabe) — el muchacho",
+          "der Mann — el hombre, el marido",
+          "die Frau — la mujer, la esposa",
+          "der Großvater (deer gróosfaater) — el abuelo",
           "krank — enfermo",
-          "fleißig (fleišich) — diligente",
-          "lernen — aprender",
-          "alt — viejo",
-          "das Jahr (jār) — año",
-          "die Jahre — años",
-          "wie — cómo"
+          "fleißig (fláisij) — aplicado, trabajador",
+          "lernen — aprender, estudiar",
+          "alt — viejo, mayor",
+          "das Jahr (yaar) — el año",
+          "die Jahre — los años",
+          "wie — cómo, qué tal, cuánto"
         ]
       },
       {
         "title": "Pronunciación",
         "items": [
-          "Los umlauts deben pronunciarse correctamente.",
-          "La ö se pronuncia con los labios redondeados, intentando decir e: wir können, ihr könnt, sie können, der Löffel.",
-          "La ü se pronuncia con los labios redondeados, intentando decir i: Müller, Bücher.",
-          "La longitud de una vocal depende a menudo de las consonantes que la siguen.",
-          "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Si a la vocal le siguen dos o más consonantes, normalmente es corta: wir können, der Löffel, der Müller.",
-          "La o alemana debe pronunciarse como una vocal simple, no como un diptongo.",
-          "Pronuncia correctamente: der Großvater (dēr grōsfāter).",
-          "El diptongo ei se pronuncia «ai»: seid (zait), fleißig (flaišich).",
-          "La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta."
+          "Hay que pronunciar correctamente las vocales con umlaut.",
+          "La ö se pronuncia con los labios redondeados, como una e: wir können, ihr könnt, sie können, der Löffel.",
+          "La ü se pronuncia con los labios redondeados, como una i: Müller (müler), Bücher (büjer).",
+          "Que una vocal sea larga o breve depende de las consonantes que la siguen.",
+          "Si a una vocal le sigue una sola consonante, la vocal se pronuncia larga: Vögel (fööguel), Schüler (shüüler), Bücher (büüjer).",
+          "Si a una vocal le siguen dos o más consonantes, la vocal se pronuncia breve: wir können, der Löffel, der Müller.",
+          "La o alemana es una vocal pura, parecida a la o española de «foto», «fondo» o «nominativo»; la o larga es algo más cerrada.",
+          "Pronuncia correctamente: der Großvater (deer gróosfaater).",
+          "El diptongo ei se pronuncia ai: seid (sait), fleißig (fláisij).",
+          "La e alemana puede ser cerrada o abierta: der Lehrer (deer léerer). La e de la raíz es larga y cerrada; la e de la terminación es breve y abierta."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "El verbo auxiliar sein («ser/estar») es irregular. Por tanto, hay que aprenderlo bien."
+            "text": "El verbo auxiliar sein — ser/estar se conjuga de forma irregular. Por eso hay que aprenderlo bien."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Asimismo, el verbo modal können («poder») tiene una conjugación irregular."
+            "text": "El verbo auxiliar können — poder también se conjuga de forma irregular."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,11 +1051,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "Vai tu esi vesels?",
+            "lv": "¿Estás sano?",
             "de": "Bist du gesund?"
           },
           {
@@ -1063,7 +1063,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Vai Paul ir vasijas?",
+            "lv": "¿Está sano Paul?",
             "de": "Ist Paul gesund?"
           },
           {
@@ -1071,7 +1071,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "¿Puede trabajar?",
+            "lv": "¿Puede trabajar él?",
             "de": "Kann er arbeiten?"
           },
           {
@@ -1079,15 +1079,15 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "¿El abuelo es viejo?",
+            "lv": "¿Es viejo el abuelo?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Sí, es muy mayor.",
+            "lv": "Sí, es muy viejo.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "El abuelo y la abuela son muy mayores.",
+            "lv": "El abuelo y la abuela son muy viejos.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
@@ -1107,27 +1107,27 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "¿Es profesor?",
+            "lv": "¿Es él un profesor?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "No, es un trabajador.",
+            "lv": "No, es un obrero.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "¿Quién es un maestro?",
+            "lv": "¿Qué es el profesor?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "El maestro es un hombre.",
+            "lv": "El profesor es un hombre.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "¿Quién es un maestro?",
+            "lv": "¿Qué es la profesora?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "La maestra es una mujer.",
+            "lv": "La profesora es una mujer.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
@@ -1143,13 +1143,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson11": {
-    "id": "lección 11",
+    "id": "lesson11",
     "title": "Lección 11",
-    "subtitle": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos",
-    "intro": "Undécima lección: haben, negación con kein, posesión, sustantivos compuestos y orden de las palabras con denn.",
+    "subtitle": "Haben, kein/keine/keinen, la posesión y los sustantivos compuestos",
+    "intro": "Undécima lección: haben, la negación con kein, la expresión de la posesión, los sustantivos compuestos y el orden de las palabras con denn.",
     "sections": [
       {
-        "title": "Diálogo / frases",
+        "title": "Diálogos / oraciones",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1174,9 +1174,9 @@ const COURSE_LESSON_DATA = {
           "Du hast einen Schreibtisch.",
           "Da liegen drei Bücher.",
           "Anna hat einen Federhalter, eine Feder und einen Bleistift.",
-          "Anna escribe y pregunta: «Franz, ¿tú también escribes?»",
-          "Franz responde: «No sé escribir. No tengo ningún cuaderno, ninguna pluma ni ningún lápiz».",
-          "Anna dice: «Coge este cuaderno y este lápiz. Trabajamos juntos».",
+          "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+          "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+          "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
           "Anna und Franz arbeiten oft zusammen.",
           "Sie sind Freunde.",
           "Was hast du?",
@@ -1189,46 +1189,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Palabras",
+        "title": "Vocabulario",
         "items": [
           "ich habe — yo tengo",
           "du hast — tú tienes",
           "er hat — él tiene",
           "wir haben — nosotros tenemos",
           "ihr habt — vosotros tenéis",
-          "sie haben — tienen",
-          "der Bruder (dēr brūder) — hermano",
-          "die Brüder — hermanos",
-          "das Zimmer (das cimer) — habitación",
-          "ist nicht — nav",
-          "groß (grōs) — grande",
-          "hell — luminoso",
+          "sie haben — ellos tienen",
+          "der Bruder (deer brúuder) — el hermano",
+          "die Brüder — los hermanos",
+          "das Zimmer (das tsímer) — la habitación",
+          "ist nicht — no es, no está",
+          "groß (groos) — grande",
+          "hell — claro, luminoso",
           "breit — ancho",
-          "der Schreibtisch (dēr šreibtīš) — un escritorio",
-          "da — allá",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — juntos",
+          "der Schreibtisch (deer shráibtish) — el escritorio",
+          "da — allí, ahí",
+          "kein, keine, kein — ningún, ninguna, ningún",
+          "zusammen (tsusámen) — juntos",
           "oft — a menudo",
-          "der Freund (dēr froint) — amigo",
-          "die Freunde — amigos",
-          "der Schrank — armario",
-          "der Stuhl (dēr štūl) — silla",
+          "der Freund (deer froint) — el amigo",
+          "die Freunde — los amigos",
+          "der Schrank — el armario",
+          "der Stuhl (deer shtuul) — la silla",
           "die Stühle — las sillas",
-          "die Tischlampe — lámpara de mesa",
-          "das Bücherbrett — estantería",
-          "die Landkarte (dī lantkarte) — mapa geográfico",
+          "die Tischlampe — la lámpara de mesa",
+          "das Bücherbrett — la estantería",
+          "die Landkarte (dii lántkarte) — el mapa",
           "glücklich — feliz",
-          "denn — porque",
-          "die Schwester (dī švester) — hermana",
-          "die Schwestern — hermanas"
+          "denn — pues, porque",
+          "die Schwester (dii shvéster) — la hermana",
+          "die Schwestern — las hermanas"
         ]
       },
       {
         "title": "Pronunciación",
         "items": [
-          "eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).",
-          "A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).",
-          "La z suena como «ts»: Franz (frans), das Zimmer (tsimer)."
+          "eu se pronuncia oi: der Freund (deer froint), neun (noin).",
+          "La h indica casi siempre que la vocal anterior es larga: der Stuhl (deer shtuul), zehn (tseen).",
+          "La z se pronuncia ts: Franz (frants), das Zimmer (tsímer)."
         ]
       },
       {
@@ -1236,30 +1236,30 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "El verbo alemán haben expresa posesión. En español, suele traducirse como «tener»: yo tengo, tú tienes, él tiene, etc."
+            "text": "En alemán, la posesión se expresa con el verbo auxiliar haben. En español ocurre igual con «tener»: yo tengo, tú tienes, él tiene, etc."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "yo tengo"
               ],
               [
                 "du hast",
-                "tev ir"
+                "tú tienes"
               ],
               [
                 "er/sie/es hat",
-                "él/ella/ello tiene"
+                "él/ella tiene"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "nosotros tenemos"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "vosotros tenéis"
               ],
               [
                 "sie haben",
@@ -1268,42 +1268,42 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Construcción alemana con nominativo y acusativo",
-            "text": "En español, la persona que posee algo es el sujeto y lo poseído funciona como complemento directo. En alemán, la persona está en nominativo y el objeto poseído, en acusativo."
+            "heading": "Poseedor y objeto poseído: nominativo/acusativo",
+            "text": "En alemán, como en español, el poseedor es el sujeto — va en nominativo, y el objeto poseído es el complemento directo — va en acusativo."
           },
           {
             "heading": "Ejemplos",
             "examples": [
-              "Ich habe einen Tisch — Tengo una mesa.",
-              "Der Vater hat ein Buch — El padre tiene un libro.",
-              "Sie haben eine Feder — Ellos tienen una pluma."
+              "Ich habe einen Tisch — tengo una mesa",
+              "Der Vater hat ein Buch — el padre tiene un libro",
+              "Sie haben eine Feder — ellos tienen una plumilla"
             ]
           },
           {
             "heading": "Comparación con otras lenguas",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
+              "ruso: я имею тетрадь; отец имеет книгу.",
               "inglés: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "El verbo haben debe aprenderse bien y utilizarse correctamente. También debes conocer las formas del imperativo."
+            "text": "Hay que aprender bien el verbo haben y usarlo correctamente. También hay que saber sus formas del imperativo."
           },
           {
-            "heading": "Imperativo: ejemplos",
+            "heading": "Imperativ — ejemplos",
             "examples": [
-              "habe Geduld! — ¡Ten paciencia!",
-              "habt Geduld! — ¡Tened paciencia!",
+              "habe Geduld! — ¡paciencia! / ¡ten paciencia!",
+              "habt Geduld! — ¡tened paciencia!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "La negación española con «no» y «ningún/ninguna» suele expresarse en alemán con kein. Kein es un determinante negativo que se coloca delante del sustantivo y se declina según el género, el número y el caso."
+            "text": "A diferencia del español, que usa la doble negación, como en «no tengo ningún cuaderno», el alemán expresa la negación solo con kein. La palabra negativa kein va solo delante de un sustantivo."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — singular",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — plural",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Orden de palabras con denn",
-            "text": "Si la oración contiene la conjunción denn, el verbo permanece en segunda posición. La conjunción denn no cuenta como elemento de la oración."
+            "heading": "El orden de las palabras con denn",
+            "text": "Si en una oración enunciativa aparece la conjunción denn, el verbo se queda en 2.º lugar. La conjunción denn no cuenta como elemento de la oración."
           },
           {
-            "heading": "Denn — porque",
+            "heading": "Denn — ejemplos",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Sustantivos compuestos",
-            "text": "Los sustantivos compuestos llevan el artículo del último sustantivo. El acento recae en la primera parte."
+            "heading": "Los sustantivos compuestos",
+            "text": "Delante de un sustantivo compuesto va el artículo del último sustantivo. El acento recae en el primer sustantivo."
           },
           {
-            "heading": "Sustantivos compuestos: ejemplos",
+            "heading": "Sustantivos compuestos — ejemplos",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,8 +1358,8 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "¿Qué tienes?",
@@ -1378,15 +1378,15 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Señorita Müller, ¿tiene cuadernos?",
+            "lv": "Señorita Müller, ¿tiene usted cuadernos?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "No tengo cuadernos.",
+            "lv": "No tengo ningún cuaderno.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franz no tiene pluma ni lápiz.",
+            "lv": "Franz no tiene ni plumilla ni lápiz.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
@@ -1406,11 +1406,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "¿Qué tiene un maestro?",
+            "lv": "¿Qué tiene el profesor?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "El maestro tiene muchos libros y una estantería.",
+            "lv": "El profesor tiene muchos libros y una estantería.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1418,11 +1418,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "El niño es feliz porque tiene un padre y una madre.",
+            "lv": "El niño es feliz, porque tiene un padre y una madre.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Ko dara Anna?",
+            "lv": "¿Qué hace Anna?",
             "de": "Was tut Anna?"
           },
           {
@@ -1430,11 +1430,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "¿Francisco también escribe?",
+            "lv": "¿Escribe Franz también?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "No, Francisco no escribe, dibuja.",
+            "lv": "No, Franz no escribe, dibuja.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
@@ -1450,13 +1450,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson12": {
-    "id": "lección 12",
+    "id": "lesson12",
     "title": "Lección 12",
-    "subtitle": "Grados comparativos, als/wie, edad, adjetivos y colores.",
-    "intro": "Conferencia duodécima: grados comparativos, als/wie, edad, adjetivos y colores.",
+    "subtitle": "Los grados de comparación, als / wie, la edad, los adjetivos y los colores.",
+    "intro": "Duodécima lección: los grados de comparación, als / wie, la edad, los adjetivos y los colores.",
     "sections": [
       {
-        "title": "Diálogo / frases",
+        "title": "Diálogos / oraciones",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1484,39 +1484,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Palabras",
+        "title": "Vocabulario",
         "items": [
-          "heißen — llamarse / significar",
-          "wie heißt du — ¿cómo te llamas?",
+          "heißen — llamarse",
+          "wie heißt du — cómo te llamas",
           "ich heiße — me llamo",
-          "die Grube — hoyo",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — grande",
+          "die Grube — la fosa, el hoyo",
+          "wieviel — cuánto, cuántos",
+          "Max (maks) — Max",
+          "groß — grande, alto",
           "klein — pequeño",
           "kleiner als ich — más pequeño que yo",
-          "alt — mayor (al hablar de la edad)",
+          "alt — viejo, mayor",
           "jung — joven",
           "jünger als ich — más joven que yo",
-          "so alt wie — de la misma edad que",
-          "der Vetter (dēr feter) — primo",
-          "am ältesten (am eltesten) — el más antiguo",
-          "ebenso — igualmente",
+          "so alt wie — tan mayor como",
+          "der Vetter (deer féter) — el primo",
+          "am ältesten (am éltesten) — el mayor de todos",
+          "ebenso — igual de, igualmente",
           "wie — como",
-          "am jüngsten — el más joven",
-          "faul — perezoso",
-          "fleißig — diligente",
+          "am jüngsten — el más joven de todos",
+          "faul — perezoso, vago",
+          "fleißig — aplicado, trabajador",
           "blau — azul",
           "braun — marrón",
           "gelb — amarillo",
-          "das Gummi (das gumī) — goma",
+          "das Gummi (das gúmi) — la goma",
           "grau — gris",
-          "der Baum — árbol",
+          "der Baum — el árbol",
           "grün — verde",
-          "die Blume — flor",
+          "die Blume — la flor",
           "rot — rojo",
-          "die Tinte — tinta",
-          "die Kreide — tiza",
+          "die Tinte — la tinta",
+          "die Kreide — la tiza",
           "weiß — blanco",
           "schwarz — negro",
           "krank — enfermo",
@@ -1526,9 +1526,9 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "x se pronuncia «ks»: Max (maks), Felix (feliks).",
-          "En Schwester y am jüngsten, st se pronuncia como una secuencia normal de s + t.",
-          "En der Federhalter, la h se pronuncia; en der Sohn, indica que la vocal anterior es larga."
+          "La x se pronuncia ks: Max (maks), Felix (féeliks).",
+          "En las palabras Schwester, am jüngsten, st se pronuncia como una st normal, como en «este»: Schwester (shvéster), jüngsten (yünksten).",
+          "En la palabra der Federhalter, la h es un sonido que se pronuncia, pero en la palabra der Sohn — una señal de que la vocal es larga."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "El comparativo (Komparativ) se forma normalmente añadiendo -er al grado positivo (Positiv).",
+            "text": "El comparativo (Komparativ) de los adjetivos se forma a partir del grado positivo (Positiv) con la terminación -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1545,7 +1545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Umlaut en el comparativo",
-            "text": "La mayoría de los adjetivos monosilábicos cuya vocal raíz es a, o, u tienen una diéresis en el comparativo.",
+            "text": "La mayoría de los adjetivos monosílabos con la vocal a, o, u en la raíz llevan Umlaut en el comparativo.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Comparación con wie y als",
-            "text": "wie se utiliza para expresar igualdad. als se utiliza para expresar desigualdad.",
+            "heading": "La comparación con wie y als",
+            "text": "wie se usa para expresar igualdad. als se usa para expresar desigualdad.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,7 +1562,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "El superlativo (Superlativ) se forma normalmente con am + adjetivo + -sten o -esten.",
+            "text": "El superlativo (Superlativ) se forma añadiendo al grado positivo la terminación -sten o -esten y poniendo delante la preposición am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
@@ -1577,22 +1577,22 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (cerca)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (alto)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (bueno)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (mucho)",
                 "mehr",
                 "am meisten"
               ],
@@ -1611,39 +1611,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "¿Quién es mayor, tú o yo?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Eres mayor que yo.",
+            "lv": "Tú eres mayor que yo.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "¿Quién es el mayor?",
+            "lv": "¿Quién es el mayor de todos?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Pablo es el mayor.",
+            "lv": "Paul es el mayor de todos.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "cómo te llamas",
+            "lv": "¿Cómo te llamas?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Mi nombre es Pedro.",
+            "lv": "Me llamo Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "¿Cuál es su nombre?",
+            "lv": "¿Cómo se llama él?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Su nombre es Juan.",
+            "lv": "Se llama Johann.",
             "de": "Er heißt Johann."
           },
           {
@@ -1651,27 +1651,27 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "¿Cuántos años tiene?",
+            "lv": "¿Cuántos años tiene usted?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Es esmu 20 gadus vecs.",
+            "lv": "Tengo 20 años.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "¿Es Max alto?",
+            "lv": "¿Es alto Max?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "No, Max no es grande, Rudolph es más grande.",
+            "lv": "No, Max no es alto, Rudolf es más alto.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "¿Cuál es el más grande?",
+            "lv": "¿Quién es el más alto de todos?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francisco es el más grande.",
+            "lv": "Franz es el más alto de todos.",
             "de": "Franz ist am größten."
           },
           {
@@ -1691,15 +1691,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "¿Cuáles son sus nombres?",
+            "lv": "¿Cómo se llaman ellas?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Sus nombres son Elsa, Marta y Alma.",
+            "lv": "Se llaman Elsa, Martha y Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "¿Cuántos hermanos tiene?",
+            "lv": "¿Cuántos hermanos tiene usted?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
@@ -1719,7 +1719,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Tas ir balts.",
+            "lv": "Es blanca.",
             "de": "Sie ist weiß."
           },
           {
@@ -1727,11 +1727,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Son azules, rojos, amarillos y blancos.",
+            "lv": "Son azules, rojas, amarillas y blancas.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "¿El hermano está sano?",
+            "lv": "¿Está sano el hermano?",
             "de": "Ist der Bruder gesund?"
           },
           {
@@ -1739,11 +1739,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "¿Está feliz?",
+            "lv": "¿Son ustedes felices?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Sí, estamos felices porque estamos sanos.",
+            "lv": "Sí, somos felices, porque estamos sanos.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1751,10 +1751,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson13": {
-    "id": "lección 13",
+    "id": "lesson13",
     "title": "Lección 13",
-    "subtitle": "Der Körper, partes del cuerpo, turnen, jeder y plural.",
-    "intro": "Lección 13: «Der Körper», partes del cuerpo, gimnasia, verbos reflexivos y plural.",
+    "subtitle": "Der Körper, las partes del cuerpo, turnen, jeder y el plural.",
+    "intro": "Decimotercera lección: Der Körper, las partes del cuerpo, la gimnasia, los verbos reflexivos y el plural.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -1764,78 +1764,78 @@ const COURSE_LESSON_DATA = {
           "Der Hals ist kurz.",
           "Der Rumpf ist lang.",
           "Der Arm ist auch lang.",
-          "La mano es pequeña.",
-          "La pierna es gruesa.",
-          "El pie es delgado.",
-          "El pecho está delante, pero la espalda está detrás.",
-          "Cada mano tiene cinco dedos.",
-          "Ambas manos tienen diez dedos.",
-          "Cada pie tiene cinco dedos del pie.",
-          "Ambos pies tienen diez dedos del pie.",
-          "Cada dedo y cada dedo del pie tienen una uña.",
-          "Recorto y limpio las uñas a menudo."
+          "Die Hand ist klein.",
+          "Das Bein ist dick.",
+          "Der Fuß ist dünn.",
+          "Die Brust ist vorn, aber der Rücken ist hinten.",
+          "Jede Hand hat fünf Finger.",
+          "Beide Hände haben zehn Finger.",
+          "Jeder Fuß hat fünf Zehen.",
+          "Beide Füße haben zehn Zehen.",
+          "Jeder Finger und jede Zehe haben einen Nagel.",
+          "Ich beschneide und reinige die Nägel oft."
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
           "der Körper — el cuerpo",
-          "der Mensch — persona",
-          "der Kopf — cabeza",
-          "der Hals — cuello",
-          "der Rumpf — torso",
-          "der Arm — brazo",
-          "die Hand — mano",
-          "die Hände — manos",
-          "das Bein — pierna",
-          "die Beine — piernas",
-          "der Fuß — pie",
-          "die Füße — pies",
+          "der Mensch — el ser humano, la persona",
+          "der Kopf — la cabeza",
+          "der Hals — el cuello",
+          "der Rumpf — el tronco",
+          "der Arm — el brazo",
+          "die Hand — la mano",
+          "die Hände — las manos",
+          "das Bein — la pierna",
+          "die Beine — las piernas",
+          "der Fuß — el pie",
+          "die Füße — los pies",
           "rund — redondo",
           "lang — largo",
           "kurz — corto",
           "klein — pequeño",
-          "groß — grande",
-          "dick — grueso",
-          "dünn — delgado",
-          "die Brust — mama",
-          "vorn — al frente",
-          "der Rücken — espalda",
-          "hinten — en la parte de atrás",
-          "jeder — cada uno",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — dedo",
+          "groß — grande, alto",
+          "dick — gordo / grueso",
+          "dünn — delgado / fino",
+          "die Brust — el pecho",
+          "vorn — delante",
+          "der Rücken — la espalda",
+          "hinten — detrás",
+          "jeder — cada (masculino)",
+          "jede — cada (femenino)",
+          "jedes — cada (neutro)",
+          "der Finger — el dedo",
           "die Zehe — el dedo del pie",
-          "beide — ambos",
-          "der Nagel — uña",
-          "die Nägel — uñas",
-          "beschneiden — apgriezt",
+          "beide — ambos, los dos",
+          "der Nagel — la uña",
+          "die Nägel — las uñas",
+          "beschneiden — cortar, recortar",
           "reinigen — limpiar",
           "turnen — hacer gimnasia",
-          "heben — levantar",
+          "heben — levantar, alzar",
           "machen — hacer",
-          "der Schritt — paso",
-          "bleiben — quedarse",
+          "der Schritt — el paso",
+          "bleiben — quedarse, permanecer",
           "stehen — estar de pie",
           "sich umkehren — darse la vuelta",
-          "ausstrecken — estirar",
+          "ausstrecken — estirar, extender",
           "senken — bajar",
-          "drehen — girar",
+          "drehen — girar / volver",
           "nach links — a la izquierda",
           "nach rechts — a la derecha",
-          "halten — mantener",
-          "gerade — recto",
+          "halten — sostener, mantener",
+          "gerade — recto, derecho",
           "atmen — respirar",
-          "tief — profundo"
+          "tief — profundamente"
         ]
       },
       {
         "title": "Gramática",
         "items": [
           {
-            "heading": "Umlaut en presente",
-            "text": "Algunos verbos cuya raíz contiene a o au cambian estas vocales por ä o äu en la segunda y tercera persona del presente de indicativo singular.",
+            "heading": "Umlaut en el presente",
+            "text": "Algunos verbos con la vocal a o au en la raíz llevan Umlaut en la 2.ª y 3.ª persona del singular del presente.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,7 +1846,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Verbo reflexivo",
+            "heading": "El verbo reflexivo",
             "text": "sich umkehren — darse la vuelta",
             "examples": [
               "ich kehre mich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Imperativo con sich umkehren",
+            "heading": "El imperativo de sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Imperativo de atmen",
+            "heading": "El imperativo de atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,16 +1886,16 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Verbos separables",
-            "text": "Si el prefijo está acentuado, se separa en presente y se coloca al final de la oración.",
+            "heading": "Los verbos compuestos",
+            "text": "Si el prefijo es tónico, en presente se separa y va al final de la oración.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Prefijos inseparables",
-            "text": "Si el prefijo no está acentuado, no se separa.",
+            "heading": "Los prefijos inseparables",
+            "text": "Si el prefijo es átono, no se separa.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
@@ -1903,7 +1903,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "El pronombre jeder",
-            "text": "El pronombre «jeder» se declina como los artículos «der», «die» y «das».",
+            "text": "El pronombre jeder se declina como los artículos der / die / das.",
             "table": [
               [
                 "",
@@ -1967,7 +1967,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sustantivos femeninos con -in",
+            "heading": "Sustantivos femeninos en -in",
             "text": "Los sustantivos femeninos formados con -in toman -nen en plural.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "En halten, la h se pronuncia.",
-          "En fahren, la h indica que la vocal anterior es larga.",
-          "En halten, la a se pronuncia corta.",
-          "En tragen, la a se pronuncia larga.",
-          "äu se pronuncia «oi»: du läufst, er läuft.",
-          "En Kopf se pronuncian las dos consonantes de pf."
+          "En la palabra halten, la h se oye como sonido.",
+          "En la palabra fahren, la h indica que la vocal es larga.",
+          "En la palabra halten, la a se pronuncia breve: halten.",
+          "En la palabra tragen, la a se pronuncia larga: tragen.",
+          "äu se pronuncia oi: du läufst, er läuft.",
+          "pf en la palabra Kopf se pronuncia de modo que se oigan las dos consonantes."
         ]
       },
       {
@@ -2028,13 +2028,13 @@ const COURSE_LESSON_DATA = {
             "wir": "Wir strecken beide Arme aus."
           },
           {
-            "ich": "Ich senske beide Arme.",
-            "er": "Er sentkt beide Arme.",
-            "wir": "Wir senten beide Arme."
+            "ich": "Ich senke beide Arme.",
+            "er": "Er senkt beide Arme.",
+            "wir": "Wir senken beide Arme."
           },
           {
             "ich": "Ich drehe den Kopf nach links.",
-            "er": "Er dreht den Kopf nach enlaces.",
+            "er": "Er dreht den Kopf nach links.",
             "wir": "Wir drehen den Kopf nach links."
           },
           {
@@ -2055,11 +2055,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "¿Cuántos brazos tiene una persona?",
+            "lv": "¿Cuántos brazos tiene el ser humano?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
@@ -2071,7 +2071,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "¿Cómo es el torso?",
+            "lv": "¿Cómo es el tronco?",
             "de": "Wie ist der Rumpf?"
           },
           {
@@ -2095,7 +2095,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "El pecho está al frente, la espalda está atrás.",
+            "lv": "El pecho está delante, la espalda está detrás.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
@@ -2103,7 +2103,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Plaukstai ir pieci pirksti.",
+            "lv": "La mano tiene cinco dedos.",
             "de": "Die Hand hat fünf Finger."
           },
           {
@@ -2115,7 +2115,7 @@ const COURSE_LESSON_DATA = {
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "¿Qué le pasa al dedo?",
+            "lv": "¿Qué tiene el dedo?",
             "de": "Was hat der Finger?"
           },
           {
@@ -2127,19 +2127,19 @@ const COURSE_LESSON_DATA = {
             "de": "Was tust du?"
           },
           {
-            "lv": "Me corto las uñas y las limpio.",
+            "lv": "Corto y limpio las uñas.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Ko Paul dara?",
+            "lv": "¿Qué hace Paul?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Él hace ejercicio.",
+            "lv": "Hace gimnasia.",
             "de": "Er turnt."
           },
           {
-            "lv": "¿Cómo hacen ejercicio?",
+            "lv": "¿Cómo hacen gimnasia?",
             "de": "Wie turnen sie?"
           },
           {
@@ -2147,15 +2147,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Extienden ambos brazos.",
+            "lv": "Estiran los dos brazos.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Bajan ambos brazos.",
+            "lv": "Bajan los dos brazos.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Giran la cabeza hacia la derecha.",
+            "lv": "Giran la cabeza a la derecha.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
@@ -2163,23 +2163,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Pedro y Anna respiran profundamente.",
+            "lv": "Peter y Anna respiran profundamente.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "¿Roberto también hace ejercicio?",
+            "lv": "¿Hace Robert gimnasia también?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "No, Roberto y Juan no hacen ejercicio.",
+            "lv": "No, Robert y Johann no hacen gimnasia.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Roberto, vingro!",
+            "lv": "¡Robert, haz gimnasia!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert y Johann, ¡haced gimnasia!",
+            "lv": "¡Robert y Johann, haced gimnasia!",
             "de": "Robert und Johann, turnt!"
           },
           {
@@ -2195,10 +2195,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson14": {
-    "id": "lección 14",
+    "id": "lesson14",
     "title": "Lección 14",
-    "subtitle": "müssen, lana, mögen",
-    "intro": "Lección Catorce: Verbos modales müssen, wollen y mögen.",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Decimocuarta lección: los verbos modales müssen, wollen y mögen.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "müssen — tener que",
-          "ich muss — necesito / tengo que hacer",
-          "du musst — necesitas / debes hacer",
-          "er muss — él necesita / tiene que",
-          "sie muss — ella necesita / tiene que",
-          "es muss — necesita / tiene que hacer",
-          "wir müssen — necesitamos / tenemos que hacer",
-          "ihr müsst — necesitas / debes",
-          "sie müssen — ellos / ellos necesitan",
-          "lernen — aprender",
-          "vorwärts — adelante",
-          "vorwärts kommen — salir adelante",
+          "müssen — necesitar / tener que",
+          "ich muss — necesito / tengo que",
+          "du musst — necesitas / tienes que",
+          "er muss — él necesita / él tiene que",
+          "sie muss — ella necesita / ella tiene que",
+          "es muss — (ello) necesita / tiene que",
+          "wir müssen — necesitamos / tenemos que",
+          "ihr müsst — necesitáis / tenéis que",
+          "sie müssen — ellos / ellas necesitan",
+          "lernen — aprender, estudiar",
+          "vorwärts — adelante, hacia delante",
+          "vorwärts kommen — salir adelante, progresar",
           "wollen — querer",
           "ich will — yo quiero",
           "du willst — tú quieres",
           "er will — él quiere",
           "sie will — ella quiere",
-          "es will — quiere",
-          "wir wollen — queremos",
+          "es will — (ello) quiere",
+          "wir wollen — nosotros queremos",
           "ihr wollt — vosotros queréis",
           "sie wollen — ellos / ellas quieren",
-          "mögen — gustar",
+          "mögen — querer / desear / gustar",
           "ich mag — quiero / me gusta",
           "du magst — quieres / te gusta",
           "er mag — él quiere / le gusta",
           "sie mag — ella quiere / le gusta",
-          "es mag — quiere / le gusta",
-          "wir mögen — nos gusta",
-          "ihr mögt — os gusta",
-          "sie mögen — ellos / ella quieren",
-          "die Suppe — sopa",
-          "munden — saber bien",
-          "mir — a mí",
-          "dir — tev",
-          "ihm — a él",
-          "ihr — a ella",
-          "uns — a nosotros",
-          "euch — os / a vosotros",
-          "ihnen — para ellos / ellos",
-          "denn — porque"
+          "es mag — (ello) quiere / le gusta",
+          "wir mögen — nosotros queremos",
+          "ihr mögt — vosotros queréis",
+          "sie mögen — ellos / ellas quieren",
+          "die Suppe — la sopa",
+          "munden — saber bien, gustar",
+          "mir — me, a mí",
+          "dir — te, a ti",
+          "ihm — le, a él",
+          "ihr — le, a ella",
+          "uns — nos, a nosotros",
+          "euch — os, a vosotros",
+          "ihnen — les, a ellos / a ellas",
+          "denn — pues, porque"
         ]
       },
       {
         "title": "Gramática",
         "items": [
           {
-            "heading": "Verbos modales",
+            "heading": "Los verbos modales",
             "text": "Los verbos müssen, wollen y mögen son verbos modales."
           },
           {
-            "heading": "Primera y tercera persona singular",
-            "text": "En presente, las formas de la 1.ª y 3.ª persona del singular son iguales.",
+            "heading": "1.ª y 3.ª persona del singular",
+            "text": "En el singular del presente, la 1.ª y la 3.ª persona son iguales.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Cambio de vocal en la raíz",
+            "heading": "El cambio de la vocal de la raíz",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen significa necesitar/ser necesitado.",
+            "text": "Müssen significa necesitar / tener que.",
             "examples": [
               "Ich muss lernen. — Tengo que estudiar."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen expresa la voluntad o la intención de hacer algo.",
+            "text": "Wollen significa querer hacer algo de forma consciente.",
             "examples": [
-              "Ich will vorwärts kommen. — Quiero avanzar."
+              "Ich will vorwärts kommen. — Quiero salir adelante."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen expresa agrado o preferencia.",
+            "text": "Mögen expresa un deseo o un gusto.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — No me gusta comer la sopa.",
-              "Die Suppe mundet mir nicht. — No me gusta la sopa."
+              "Ich mag die Suppe nicht essen. — No quiero comer la sopa.",
+              "Die Suppe mundet mir nicht. — La sopa no me sabe bien."
             ]
           },
           {
             "heading": "Importante",
-            "text": "En español solemos decir \"tengo que estudiar\", \"tienes que escribir\", \"él tiene que venir\". El alemán suele utilizar müssen en este tipo de frases.",
+            "text": "En español decimos a menudo «tengo que estudiar», «tienes que escribir», «él tiene que venir». En alemán, en estas oraciones se usa a menudo müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,24 +2362,24 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "ß se pronuncia como s.",
-          "ß se escribe en medio o al final de una palabra después de una vocal larga o un diptongo: die Füße, die Straße. Después de una vocal corta se escribe ss: ich muss, er muss.",
-          "Observa la alternancia entre ss y ß según la longitud vocálica: müssen, ich muss, du musst, ihr müsst.",
-          "En mögen, la ö debe pronunciarse claramente.",
-          "Cuando g va seguida de t, se ensordece y suena cercana a k: du magst, ihr mögt.",
-          "Del mismo modo, en español, la g de «signos» puede sonar más cercana a una k."
+          "La ß se pronuncia como la s española.",
+          "La ß se escribe en medio o al final de una palabra después de una vocal larga o de un diptongo: die Füße, die Straße, ich muss, er muss.",
+          "Si en otras formas hay ss, delante de la terminación puede aparecer ß: müssen, ich muss, du musst, ihr müsst.",
+          "En la palabra mögen, la ö se pronuncia como un sonido ö claro.",
+          "Si a la g le sigue una t, la g suena más cerca del sonido k: du magst, ihr mögt.",
+          "Algo parecido ocurre en español en palabras como «absurdo» u «obtener», donde la b, delante de s o t, se acerca al sonido p."
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "¿Quién quiere estudiar con mucho empeño?",
+            "lv": "¿Quién quiere estudiar con aplicación?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Todos los estudiantes quieren estudiar con mucho empeño.",
+            "lv": "Todos los alumnos quieren estudiar con aplicación.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
@@ -2395,23 +2395,23 @@ const COURSE_LESSON_DATA = {
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "¿Quién tiene que estudiar con mucho empeño?",
+            "lv": "¿Quién tiene que estudiar con aplicación?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Los estudiantes tienen que estudiar con mucho empeño.",
+            "lv": "Los alumnos tienen que estudiar con aplicación.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "No quiero comer sopa porque no me gusta.",
+            "lv": "No me apetece comer la sopa, porque no me sabe bien.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "¿Quién quiere comer sopa?",
+            "lv": "¿Quién quiere comer la sopa?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa quiere comer sopa.",
+            "lv": "Elsa quiere comer la sopa.",
             "de": "Elsa will die Suppe essen."
           },
           {
@@ -2423,7 +2423,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "No me gusta cantar.",
+            "lv": "No me apetece cantar.",
             "de": "Ich mag nicht singen."
           },
           {

@@ -60,7 +60,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Lesson 8",
-    "subtitle": "Reflexive verbs, e → i/ie change and accusative.",
+    "subtitle": "Reflexive verbs, the e → i/ie change and the accusative.",
     "sections": [
       {
         "title": "Dialogues / sentences",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Words",
         "items": [
-          "alle — all",
-          "aufstehen — to get up",
-          "stehen auf — stands up",
-          "grüßen (grüsen) — to greet",
+          "alle — all, everybody",
+          "aufstehen — to get up, to stand up",
+          "stehen auf — they get up",
+          "grüßen (grüh-sen) — to greet",
           "guten Morgen — good morning",
           "gut — good",
-          "der Morgen — morning",
-          "der Herr — man / sir",
+          "der Morgen — the morning",
+          "der Herr — the gentleman, Mr",
           "das Kind — the child",
           "die Kinder — the children",
-          "setzt euch (zect oich) — sit down!",
+          "setzt euch (zetst oykh) — sit down! (you pl.)",
           "sie setzen sich — they sit down",
-          "fragen (ar akuzatīvu) — to ask",
+          "fragen (with the accusative) — to ask",
           "sprechen — to speak",
           "er spricht — he speaks",
           "aber — but",
-          "sehr (zēr) — very much",
+          "sehr (zair) — very",
           "leise — quietly",
-          "laut — loudly",
-          "jetzt (ject) — now",
+          "laut — loudly, aloud",
+          "jetzt (yetst) — now",
           "lesen — to read",
           "lies! — read!",
           "gut — well",
           "schlecht — badly",
-          "deutlich (doitlich) — clearly, understandably",
+          "deutlich (doyt-likh) — clearly, distinctly",
           "schreiben — to write",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — to tell",
+          "endlich (ent-likh) — at last, finally",
+          "erzählen (air-tsaylen) — to tell",
           "zuhören — to listen",
           "sie hören zu — they listen",
-          "was ist das — what is that?",
+          "was ist das — what is this?",
           "der Arbeiter — the worker",
-          "der Müller — miller",
-          "der Tischler — carpenter",
-          "der Bäcker (dēr beker) — baker",
-          "der Schneider (dēr šneider) — a tailor",
-          "der Gärtner (dēr gertner) — gardener",
-          "der Schuster — shoemaker"
+          "der Müller — the miller",
+          "der Tischler — the joiner",
+          "der Bäcker (dair becker) — the baker",
+          "der Schneider (dair shnyder) — the tailor",
+          "der Gärtner (dair gert-ner) — the gardener",
+          "der Schuster — the shoemaker"
         ]
       },
       {
         "title": "Pronunciation",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü is long (ü) and Müller - short ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "As already mentioned, ä is pronounced as a closed short or long e sound. Examples: der Bäcker (becker), das Mädchen (mayt-khen).",
+          "ä is also pronounced as an open e, as in bed, for example in the word der Gärtner (dair gert-ner).",
+          "In the words Schüler, Bücher — the ü is long (üh), but in Müller — a short ü.",
+          "ie is pronounced as a long ee: liest (leest).",
+          "ß is pronounced as s: grüßen (grüh-sen).",
+          "eu is pronounced like oy in boy: deutlich (doyt-likh)."
         ]
       },
       {
         "title": "Grammar",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Many verbs with the vowel e in the stem have i or ie instead of e in the 2nd and 3rd person singular of the present tense.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "These verbs also have i or ie instead of e in the stem in the singular imperative: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "In English, reflexive verbs are used with a pronoun such as myself or yourself. German reflexive verbs have no special conjugation: they are conjugated like other verbs, with the reflexive pronoun sich added.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "The imperative: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Exercise",
         "exerciseType": "mixed",
-        "description": "Übung I - Use the correct conjugation. Übung II - Translation cards.",
+        "description": "Übung I — use the correct case. Übung II — translation cards.",
         "cards": [
           {
             "type": "fill",
@@ -249,12 +249,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Greet the teacher and the teacher!",
+            "lv": "Greet the male teacher and the female teacher!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Who are you greeting?",
+            "lv": "Whom are you greeting?",
             "de": "Wen grüßt du?"
           },
           {
@@ -264,7 +264,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Open all the windows!",
+            "lv": "Open all the windows (all of you)!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -279,17 +279,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "No, I didn't open the window.",
+            "lv": "No, I haven't opened the window.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
             "type": "translate",
-            "lv": "All students sit down.",
+            "lv": "All the pupils sit down.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Paul, sit yourself down!",
+            "lv": "Paul, sit down!",
             "de": "Paul, setz dich!"
           },
           {
@@ -299,7 +299,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Do not speak quietly!",
+            "lv": "Don't speak quietly!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -309,17 +309,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "All students speak loudly.",
+            "lv": "All the pupils speak loudly.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Who reads aloud?",
+            "lv": "Who is reading aloud?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "The student reads aloud and clearly.",
+            "lv": "The schoolgirl reads aloud and clearly.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -329,12 +329,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Do not speak quietly!",
+            "lv": "Don't speak quietly!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Read well! (plural)",
+            "lv": "Read well (all of you)!",
             "de": "Lest gut!"
           },
           {
@@ -349,7 +349,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Mr. Teacher, please sit down!",
+            "lv": "Teacher, please sit down!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -357,14 +357,14 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Translate",
         "exerciseType": "translate",
-        "description": "Translate the sentences into German.",
+        "description": "Translate the English sentences into German.",
         "cards": [
           {
-            "lv": "Greet the teacher and the teacher.",
+            "lv": "Greet the male teacher and the female teacher!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Open all the windows!",
+            "lv": "Open all the windows (all of you)!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -372,15 +372,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "did you open the window",
+            "lv": "Have you opened the window?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "No, I didn't open the window.",
+            "lv": "No, I haven't opened the window.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "All students sit down.",
+            "lv": "All the pupils sit down.",
             "de": "Alle Schüler setzen sich."
           },
           {
@@ -392,7 +392,7 @@ const COURSE_LESSON_DATA = {
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Do not speak quietly!",
+            "lv": "Don't speak quietly!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -400,15 +400,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie spricht er?"
           },
           {
-            "lv": "All students speak loudly.",
+            "lv": "All the pupils speak loudly.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Who reads aloud?",
+            "lv": "Who is reading aloud?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "The student reads aloud and clearly.",
+            "lv": "The schoolgirl reads aloud and clearly.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -416,11 +416,11 @@ const COURSE_LESSON_DATA = {
             "de": "Lies gut!"
           },
           {
-            "lv": "Do not speak quietly!",
+            "lv": "Don't speak quietly!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Read well! (plural)",
+            "lv": "Read well (all of you)!",
             "de": "Lest gut!"
           },
           {
@@ -432,7 +432,7 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Mr. Teacher, please sit down!",
+            "lv": "Teacher, please sit down!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -442,8 +442,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson9": {
     "id": "lesson9",
     "title": "Lesson 9",
-    "subtitle": "Multiple subjects, dieser/jener, singular and plural",
-    "intro": "Ninth lecture: plural of nouns, demonstrative pronouns dieser/jener, exercises and translation.",
+    "subtitle": "Several objects, dieser/jener, singular and plural",
+    "intro": "Lesson nine: the plural of nouns, the demonstrative pronouns dieser/jener, exercises and translation.",
     "sections": [
       {
         "title": "Dialogues / sentences",
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Words",
         "items": [
-          "mehrere (mērere) — several, several",
-          "hier (hīr) — here, here",
-          "dort — tur",
-          "auch — also",
-          "langsam (lankzām) — slowly",
-          "schnell (šnel) — quickly",
-          "mehr (mēr) — more",
-          "zumachen — to close",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — to sit",
-          "ruhig (rū-ich) - calm",
-          "dieser (dīzer) — this",
-          "jener (jēner) — that",
-          "der Brief (dēr brīf) — a letter",
-          "die Briefe — letters",
-          "kurz (kurc) — short",
+          "mehrere (mair-er-uh) — several",
+          "hier (heer) — here",
+          "dort — there",
+          "auch — also, too",
+          "langsam (lahng-zahm) — slowly",
+          "schnell (shnell) — quickly, fast",
+          "mehr (mair) — more",
+          "zumachen — to close, to shut",
+          "ich mache zu — I close",
+          "sitzen (zitsen) — to sit",
+          "ruhig (roo-ikh) — quietly, calmly",
+          "dieser (deezer) — this",
+          "jener (yayner) — that",
+          "der Brief (dair breef) — the letter",
+          "die Briefe — the letters",
+          "kurz (koorts) — short",
           "rein — clean",
-          "schmutzig (šmucich) — dirty"
+          "schmutzig (shmoots-ikh) — dirty"
         ]
       },
       {
         "title": "Grammar",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Indicate the pronouns dieser and jener as the definite article."
+            "heading": "Demonstrative pronouns",
+            "text": "The demonstrative pronouns dieser and jener are declined like the definite article."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Singular",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Plural",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "If the noun is preceded by a pronoun or a number word, the article is not used."
+            "heading": "No article",
+            "text": "If a noun is preceded by a pronoun or a numeral, no article is used."
           },
           {
             "examples": [
@@ -560,23 +560,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Opening sentence",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Starting sentence",
+                "task": "Change this sentence to the 3rd person singular.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er form",
+                "task": "Change the starting sentence to the 1st person plural.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir form",
+                "task": "Use the plural of the noun instead of the singular.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Ready. Next click shows the next card.",
+                "label": "4/4 Plural",
+                "task": "Done. The next click shows the next card.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -796,15 +796,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "No, the letter is not short, it is long.",
+            "lv": "No, the letter isn't short, it's long.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "what are you doing",
+            "lv": "What are you doing (polite)?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "We sit and read.",
+            "lv": "We are sitting and reading.",
             "de": "Wir sitzen und lesen."
           },
           {
@@ -812,15 +812,15 @@ const COURSE_LESSON_DATA = {
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Mr. Teacher, sit down and read!",
+            "lv": "Teacher, sit down and read!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "How do children write?",
+            "lv": "How do the children write?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Do they type fast or slow?",
+            "lv": "Do they write quickly or slowly?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
@@ -828,11 +828,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "What is this plate?",
+            "lv": "What is this plate like?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "This plate is not clean, it is dirty.",
+            "lv": "This plate isn't clean, it's dirty.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
@@ -840,7 +840,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, sharpen that pencil!",
+            "lv": "Anna, sharpen this pencil!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
@@ -848,7 +848,7 @@ const COURSE_LESSON_DATA = {
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Put down that pencil!",
+            "lv": "Put that pencil down!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,7 +856,7 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "What is the girl finally doing?",
+            "lv": "What does the girl do in the end?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
@@ -870,8 +870,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson10": {
     "id": "lesson10",
     "title": "Lesson 10",
-    "subtitle": "Sein, können, health, age and professions",
-    "intro": "Tenth lecture: sein, können, command forms, health, age and professions.",
+    "subtitle": "Sein, können, health, age and occupations",
+    "intro": "Lesson ten: sein, können, imperative forms, health, age and occupations.",
     "sections": [
       {
         "title": "Dialogues / sentences",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Words",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
+          "gesund (guh-zoont) — healthy, well",
+          "ich bin gesund — I am healthy",
+          "du bist — you are",
           "wir sind — we are",
-          "ihr seid (īr zeit) — you are",
-          "ich kann — es varu",
-          "du kannst — tu vari",
+          "ihr seid (eer zite) — you (pl.) are",
+          "ich kann — I can",
+          "du kannst — you can",
           "er kann — he can",
           "wir können — we can",
-          "ihr könnt — you can",
+          "ihr könnt — you (pl.) can",
           "sie können — they can",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — be healthy!",
-          "der Knabe (dēr knābe) — a boy",
-          "der Mann — husband, man",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — grandfather",
-          "krank — slims",
-          "fleißig (fleišich) — diligent",
-          "lernen — to learn",
-          "alt — vecs",
-          "das Jahr (jār) — year",
-          "die Jahre — gadi",
-          "wie — how, who, how many"
+          "sei gesund — be healthy!",
+          "seid gesund — be healthy! (you pl.)",
+          "seien Sie gesund — be healthy! (polite)",
+          "der Knabe (dair k-nahb-uh) — the boy",
+          "der Mann — the man, the husband",
+          "die Frau — the wife, the woman",
+          "der Großvater (dair grohs-fahter) — the grandfather",
+          "krank — ill",
+          "fleißig (fly-sikh) — hard-working, diligent",
+          "lernen — to learn, to study",
+          "alt — old",
+          "das Jahr (yahr) — the year",
+          "die Jahre — the years",
+          "wie — how, what … like"
         ]
       },
       {
         "title": "Pronunciation",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "The umlauts must be pronounced correctly.",
+          "ö is pronounced with rounded lips, like e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü is pronounced with rounded lips, like ee: Müller (müller), Bücher (bükher).",
+          "Whether a vowel is long or short depends on the consonants that follow it.",
+          "If a vowel is followed by one consonant, it is pronounced long: Vögel (föh-gel), Schüler (shüh-ler), Bücher (büh-kher).",
+          "If a vowel is followed by two or more consonants, it is pronounced short: wir können, der Löffel, der Müller.",
+          "In English o is often a diphthong, as in go or no. German o sounds different: it is a pure vowel without any glide.",
+          "Pronounce correctly: der Großvater (dair grohs-fahter).",
+          "The diphthong ei is pronounced like the i in fine: seid (zite), fleißig (fly-sikh).",
+          "German e can be closed or open: der Lehrer (dair layrer). The e in the stem is long and closed; the e in the ending is short and open."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Auxiliary verb sein - to be arc messy. Therefore, it should be learned well."
+            "text": "The auxiliary verb sein — to be is conjugated irregularly. So it must be learnt well."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Likewise, the auxiliary verb können - to be able to - is irregularly inflected."
+            "text": "The auxiliary verb können — can is also conjugated irregularly."
           },
           {
             "heading": "Können — Präsens",
@@ -1067,7 +1067,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "No, Paul is not healthy, he is sick.",
+            "lv": "No, Paul isn't healthy, he is ill.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
@@ -1079,7 +1079,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Is grandfather old?",
+            "lv": "Is the grandfather old?",
             "de": "Ist der Großvater alt?"
           },
           {
@@ -1087,7 +1087,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Grandfather and grandmother are very old.",
+            "lv": "The grandfather and the grandmother are very old.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
@@ -1115,7 +1115,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Who is a teacher?",
+            "lv": "What is the teacher?",
             "de": "Was ist der Lehrer?"
           },
           {
@@ -1123,11 +1123,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Who is a teacher?",
+            "lv": "What is the female teacher?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "The teacher is a woman.",
+            "lv": "The female teacher is a woman.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
@@ -1145,8 +1145,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "Lesson 11",
-    "subtitle": "Haben, kein/keine/keinen, possessive and compound nouns",
-    "intro": "Eleventh lecture: haben, negation with kein, possession, compound nouns and word order with denn.",
+    "subtitle": "Haben, kein/keine/keinen, possession and compound nouns",
+    "intro": "Lesson eleven: haben, negation with kein, expressing possession, compound nouns and word order with denn.",
     "sections": [
       {
         "title": "Dialogues / sentences",
@@ -1195,40 +1195,40 @@ const COURSE_LESSON_DATA = {
           "du hast — you have",
           "er hat — he has",
           "wir haben — we have",
-          "ihr habt — you have",
+          "ihr habt — you (pl.) have",
           "sie haben — they have",
-          "der Bruder (dēr brūder) — brother",
-          "die Brüder — brothers",
-          "das Zimmer (das cimer) — room",
+          "der Bruder (dair brooder) — the brother",
+          "die Brüder — the brothers",
+          "das Zimmer (dass tsimmer) — the room",
           "ist nicht — is not",
-          "groß (grōs) — big / tall",
-          "hell — bright",
-          "breit — wide",
-          "der Schreibtisch (dēr šreibtīš) — a desk",
+          "groß (grohs) — big, large",
+          "hell — bright, light",
+          "breit — wide, broad",
+          "der Schreibtisch (dair shribe-tish) — the desk",
           "da — there",
-          "kein, keine, kein — no / none",
-          "zusammen (cuzāmen) — together",
+          "kein, keine, kein — no, not a (masc., fem., neut.)",
+          "zusammen (tsoo-zammen) — together",
           "oft — often",
-          "der Freund (dēr froint) — friend",
-          "die Freunde — friends",
-          "der Schrank — cupboard / wardrobe",
-          "der Stuhl (dēr štūl) — a chair",
+          "der Freund (dair froynt) — the friend",
+          "die Freunde — the friends",
+          "der Schrank — the cupboard, the wardrobe",
+          "der Stuhl (dair shtool) — the chair",
           "die Stühle — the chairs",
-          "die Tischlampe — table lamp",
-          "das Bücherbrett — bookshelf",
-          "die Landkarte (dī lantkarte) — a map of geography",
+          "die Tischlampe — the desk lamp",
+          "das Bücherbrett — the bookshelf",
+          "die Landkarte (dee lant-kart-uh) — the map",
           "glücklich — happy",
-          "denn — for / because",
-          "die Schwester (dī švester) — sister",
-          "die Schwestern — sisters"
+          "denn — because, for",
+          "die Schwester (dee shvester) — the sister",
+          "die Schwestern — the sisters"
         ]
       },
       {
         "title": "Pronunciation",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu is pronounced like oy in boy: der Freund (dair froynt), neun (noyn).",
+          "h is mostly a sign that the preceding vowel is long: der Stuhl (dair shtool), zehn (tsayn).",
+          "z is pronounced like ts in cats: Franz (frants), das Zimmer (tsimmer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "The auxiliary verb haben in German expresses possession. In English this is expressed with: I have, you have, he has, etc."
+            "text": "In German possession is expressed with the auxiliary verb haben. English does the same: I have, you have, he has etc."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "I have"
               ],
               [
                 "du hast",
-                "tev ir"
+                "you have"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "he/she/it has"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "we have"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "you (pl.) have"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "they have"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "In English we say \"I have a table\" (subject + verb + object). In German the possessor is in the nominative case and the possessed object in the accusative case."
+            "heading": "Possessor and possession: nominative/accusative",
+            "text": "In German, as in English, the owner is the subject — in the nominative, and the thing owned is the object — in the accusative."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Examples",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — I have a table",
+              "Der Vater hat ein Buch — the father has a book",
+              "Sie haben eine Feder — they have a nib"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Comparison with other languages",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "Russian: я имею тетрадь; отец имеет книгу.",
+              "English: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "The verb haben needs to be learned well and used correctly. You should also know the command forms."
+            "text": "The verb haben must be learnt well and used correctly. You also need to know its imperative forms."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — examples",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — patience! / have patience!",
+              "habt Geduld! — have patience! (you pl.)",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Double negation in English is not expressed in German with the negative word kein. The word kein only stands before the noun."
+            "text": "In German kein is never combined with a second negative word: one kein is enough. The negative word kein is only used before a noun."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — singular",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — plural",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "If the narrative sentence contains the conjunction denn, the verb remains in 2nd position. The conjunction denn does not count as a member of the sentence."
+            "heading": "Word order with denn",
+            "text": "If a statement contains the conjunction denn, the verb stays in 2nd position. The conjunction denn is not counted as a sentence element."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — examples",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Compound nouns are preceded by the article of the last noun. Emphasis is on the first word of the case."
+            "heading": "Compound nouns",
+            "text": "A compound noun takes the article of its last noun. The stress falls on the first noun."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Compound nouns — examples",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1370,7 +1370,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "What are the books?",
+            "lv": "What are the books like?",
             "de": "Wie sind die Bücher?"
           },
           {
@@ -1378,39 +1378,39 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Miss Müller, do you have notebooks?",
+            "lv": "Miss Müller, do you have exercise books?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "I don't have any notebooks.",
+            "lv": "I have no exercise books.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franc has no pen and no pencil.",
+            "lv": "Franz has no nib and no pencil.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "what is the room like",
+            "lv": "What is the room like?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "The room is large, bright and warm.",
+            "lv": "The room is big, bright and warm.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "do you have a desk",
+            "lv": "Do you have a desk?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Yes, I have a desk and a table lamp.",
+            "lv": "Yes, I have a desk and a desk lamp.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "What does a teacher have?",
+            "lv": "What does the teacher have?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "The teacher has many books and a bookshelf.",
+            "lv": "The teacher has a lot of books and a bookshelf.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1418,7 +1418,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "The child is happy because the child has a father and a mother.",
+            "lv": "The child is happy, because it has a father and a mother.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
@@ -1426,15 +1426,15 @@ const COURSE_LESSON_DATA = {
             "de": "Was tut Anna?"
           },
           {
-            "lv": "She writes.",
+            "lv": "She is writing.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Does Francis also write?",
+            "lv": "Is Franz writing too?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "No, Francis doesn't write, he draws.",
+            "lv": "No, Franz isn't writing, he is drawing.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
@@ -1442,7 +1442,7 @@ const COURSE_LESSON_DATA = {
             "de": "Stehen sie?"
           },
           {
-            "lv": "No, they sit down and study.",
+            "lv": "No, they are sitting down and studying.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1452,8 +1452,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson12": {
     "id": "lesson12",
     "title": "Lesson 12",
-    "subtitle": "Comparative degrees, als / wie, age, adjectives and colours.",
-    "intro": "Twelfth lecture: comparative degrees, als / wie, age, adjectives and colours.",
+    "subtitle": "Degrees of comparison, als / wie, age, adjectives and colours.",
+    "intro": "Lesson twelve: degrees of comparison, als / wie, age, adjectives and colours.",
     "sections": [
       {
         "title": "Dialogues / sentences",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Words",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — what's your name",
+          "heißen — to be called",
+          "wie heißt du — what is your name",
           "ich heiße — my name is",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — big / tall",
-          "klein — mazs",
+          "die Grube — the pit",
+          "wieviel — how much, how many",
+          "Max (maks) — Max",
+          "groß — big, tall",
+          "klein — small, little",
           "kleiner als ich — smaller than me",
-          "alt — vecs",
-          "jung — jauns",
+          "alt — old",
+          "jung — young",
           "jünger als ich — younger than me",
           "so alt wie — as old as",
-          "der Vetter (dēr feter) — cousin",
+          "der Vetter (dair fetter) — the cousin",
           "am ältesten (am eltesten) — the oldest",
-          "ebenso — likewise",
-          "wie — how",
-          "am jüngsten — the most recent",
-          "faul — slinks",
-          "fleißig — diligent",
-          "blau — zils",
+          "ebenso — just as, likewise",
+          "wie — as",
+          "am jüngsten — the youngest",
+          "faul — lazy",
+          "fleißig — hard-working, diligent",
+          "blau — blue",
           "braun — brown",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — rubber",
+          "gelb — yellow",
+          "das Gummi (dass goomee) — the rubber",
           "grau — grey",
-          "der Baum — koks",
+          "der Baum — the tree",
           "grün — green",
-          "die Blume — a flower",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — chalk",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "die Blume — the flower",
+          "rot — red",
+          "die Tinte — the ink",
+          "die Kreide — the chalk",
+          "weiß — white",
+          "schwarz — black",
+          "krank — ill",
+          "gesund — healthy, well"
         ]
       },
       {
         "title": "Pronunciation",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — The h in the word der Federhalter is the sound that is pronounced, and in the word der Sohn the longing."
+          "x is pronounced ks: Max (maks), Felix (fay-liks).",
+          "In the words Schwester, am jüngsten, st is pronounced as an ordinary st, as in English best: Schwester (shvester), jüngsten (yünksten).",
+          "In the word der Federhalter h is a sound that is pronounced, but in the word der Sohn — a sign that the vowel is long."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "The superlative degree (Komparativ) of adjectives is formed from the basic degree (Positiv) with the ending -er.",
+            "text": "The comparative (Komparativ) of adjectives is formed from the positive (Positiv) with the ending -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Most monosyllabic adjectives with the stem vowel a, o, u have an Umlaut in the superlative degree.",
+            "heading": "Umlaut in the comparative",
+            "text": "Most one-syllable adjectives with the stem vowel a, o, u take an Umlaut in the comparative.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "wie is used when expressing equality. als is used when expressing inequality.",
+            "heading": "Comparison with wie and als",
+            "text": "wie is used to express equality. als is used to express inequality.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "The general degree (Superlativ) is made by adding the ending -sten or -esten to the basic degree and the traffic word am in front.",
+            "text": "The superlative (Superlativ) is formed by adding the ending -sten or -esten to the positive and putting the preposition am in front.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Irregular degrees of comparison",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (near)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (high)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (good)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (much)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (soon)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (gladly)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1615,7 +1615,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Who is older, you or me?",
+            "lv": "Who is older, you or I?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
@@ -1631,7 +1631,7 @@ const COURSE_LESSON_DATA = {
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "what is your name",
+            "lv": "What is your name?",
             "de": "Wie heißt du?"
           },
           {
@@ -1643,19 +1643,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt er?"
           },
           {
-            "lv": "His name is John.",
+            "lv": "His name is Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "What is your name?",
+            "lv": "What is your name (polite)?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "How old are you?",
+            "lv": "How old are you (polite)?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "I am twenty years old.",
+            "lv": "I am 20 years old.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
@@ -1663,15 +1663,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ist Max groß?"
           },
           {
-            "lv": "No, Max is not big, Rudolph is bigger.",
+            "lv": "No, Max isn't tall, Rudolf is taller.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "What is the greatest?",
+            "lv": "Who is the tallest?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis is the greatest.",
+            "lv": "Franz is the tallest.",
             "de": "Franz ist am größten."
           },
           {
@@ -1679,7 +1679,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "The mother is the same age as the father.",
+            "lv": "The mother is just as old as the father.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
@@ -1699,7 +1699,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "How many brothers do you have?",
+            "lv": "How many brothers do you have (polite)?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
@@ -1707,7 +1707,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "What is ink?",
+            "lv": "What is the ink like?",
             "de": "Wie ist die Tinte?"
           },
           {
@@ -1715,15 +1715,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "What is chalk?",
+            "lv": "What is the chalk like?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Tas ir balts.",
+            "lv": "It is white.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "What are flowers?",
+            "lv": "What are the flowers like?",
             "de": "Wie sind die Blumen?"
           },
           {
@@ -1735,15 +1735,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Yes, the brother is healthy, but the sister is sick.",
+            "lv": "Yes, the brother is healthy, but the sister is ill.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Are you happy?",
+            "lv": "Are you happy (polite)?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Yes, we are happy because we are healthy.",
+            "lv": "Yes, we are happy, because we are healthy.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1753,8 +1753,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson13": {
     "id": "lesson13",
     "title": "Lesson 13",
-    "subtitle": "Der Körper, body parts, turnen, jeder and plural.",
-    "intro": "Lesson Thirteen: Der Körper, body parts, exercise, reflexive verbs and the plural.",
+    "subtitle": "Der Körper, parts of the body, turnen, jeder and the plural.",
+    "intro": "Lesson thirteen: Der Körper, parts of the body, gymnastics, reflexive verbs and the plural.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
           "der Körper — the body",
-          "der Mensch — the human being",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — leg",
-          "die Beine — legs",
-          "der Fuß — the foot of the foot",
-          "die Füße — feet",
+          "der Mensch — the human being, the person",
+          "der Kopf — the head",
+          "der Hals — the neck",
+          "der Rumpf — the trunk",
+          "der Arm — the arm",
+          "die Hand — the hand",
+          "die Hände — the hands",
+          "das Bein — the leg",
+          "die Beine — the legs",
+          "der Fuß — the foot",
+          "die Füße — the feet",
           "rund — round",
           "lang — long",
           "kurz — short",
-          "klein — mazs",
-          "groß — big / tall",
-          "dick — resns / biezs",
-          "dünn — thin / thin",
-          "die Brust — the breast",
-          "vorn — in front",
-          "der Rücken — mugura",
-          "hinten — behind",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
+          "klein — small, little",
+          "groß — big, tall",
+          "dick — fat / thick",
+          "dünn — slim / thin",
+          "die Brust — the chest",
+          "vorn — at the front",
+          "der Rücken — the back",
+          "hinten — at the back, behind",
+          "jeder — every, each (masculine)",
+          "jede — every, each (feminine)",
+          "jedes — every, each (neuter)",
+          "der Finger — the finger",
           "die Zehe — the toe",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
+          "beide — both",
+          "der Nagel — the nail",
+          "die Nägel — the nails",
+          "beschneiden — to cut, to trim",
           "reinigen — to clean",
           "turnen — to do gymnastics",
-          "heben — celt",
-          "machen — to do / make",
-          "der Schritt — solis",
-          "bleiben — palikt",
+          "heben — to lift, to raise",
+          "machen — to do / to make",
+          "der Schritt — the step",
+          "bleiben — to stay, to remain",
           "stehen — to stand",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — hold",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — deep"
+          "sich umkehren — to turn round",
+          "ausstrecken — to stretch out",
+          "senken — to lower",
+          "drehen — to turn / to rotate",
+          "nach links — to the left",
+          "nach rechts — to the right",
+          "halten — to hold",
+          "gerade — straight",
+          "atmen — to breathe",
+          "tief — deeply"
         ]
       },
       {
         "title": "Grammar",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Some verbs with the stem vowel a or au in the present 2nd and 3rd person singular have an Umlaut.",
+            "heading": "Umlaut in the present tense",
+            "text": "Some verbs with the stem vowel a or au take an Umlaut in the 2nd and 3rd person singular of the present tense.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "sich umkehren — apgriezties",
+            "heading": "The reflexive verb",
+            "text": "sich umkehren — to turn round",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "The imperative of sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "atmen — elpot",
+            "heading": "The verb atmen",
+            "text": "atmen — to breathe",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "The imperative of atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "If the prepositional part is stressed, it separates in the present tense and goes at the end of the sentence.",
+            "heading": "Compound verbs",
+            "text": "If the prefix is stressed, it separates in the present tense and goes to the end of the sentence.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "If the prefix is ​​unstressed, it is unstressed.",
+            "heading": "Inseparable prefixes",
+            "text": "If the prefix is not stressed, it does not separate.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "The pronoun jeder goes in circles like the articles der / die / das.",
+            "heading": "The pronoun jeder",
+            "text": "The pronoun jeder is declined like the articles der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Masculine",
+                "Feminine",
+                "Neuter"
               ],
               [
-                "Nominatīvs",
+                "Nominative",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Accusative",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Plural without an ending",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Plural with the ending -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Plural with the ending -en or -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Plural with the ending -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Feminine nouns formed with -in take -nen in the plural.",
+            "heading": "Feminine nouns in -in",
+            "text": "Feminine nouns formed with -in add -nen in the plural.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "In the word halten the h is heard as a sound.",
+          "In the word fahren the h shows that the vowel is long.",
+          "In the word halten the a is pronounced short: halten.",
+          "In the word tragen the a is pronounced long: tragen.",
+          "äu is pronounced like oy in boy: du läufst, er läuft.",
+          "pf in the word Kopf is pronounced so that both consonants can be heard."
         ]
       },
       {
@@ -2059,11 +2059,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "How many hands does a person have?",
+            "lv": "How many arms does a person have?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "how many legs do you have",
+            "lv": "How many legs do you have?",
             "de": "Wie viele Beine hast du?"
           },
           {
@@ -2071,31 +2071,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "What is the torso like?",
+            "lv": "What is the trunk like?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "What is a hand?",
+            "lv": "What is the arm like?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "What is the leg?",
+            "lv": "What is the leg like?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "The hand is small, but the leg is big.",
+            "lv": "The arm is small, but the leg is big.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "where is the chest",
+            "lv": "Where is the chest?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Kur ir mugura?",
+            "lv": "Where is the back?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Chest is in front, back is in back.",
+            "lv": "The chest is in front, the back is behind.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
@@ -2103,7 +2103,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Plaukstai ir pieci pirksti.",
+            "lv": "The hand has five fingers.",
             "de": "Die Hand hat fünf Finger."
           },
           {
@@ -2115,11 +2115,11 @@ const COURSE_LESSON_DATA = {
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "What is on the finger?",
+            "lv": "What does the finger have?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Pirkstam ir nags.",
+            "lv": "The finger has a nail.",
             "de": "Der Finger hat einen Nagel."
           },
           {
@@ -2127,7 +2127,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was tust du?"
           },
           {
-            "lv": "I trim and clean my nails.",
+            "lv": "I trim and clean the nails.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
@@ -2135,59 +2135,59 @@ const COURSE_LESSON_DATA = {
             "de": "Was tut Paul?"
           },
           {
-            "lv": "He exercises.",
+            "lv": "He is doing gymnastics.",
             "de": "Er turnt."
           },
           {
-            "lv": "How do they exercise?",
+            "lv": "How do they do gymnastics?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "They raise their legs and arms.",
+            "lv": "They raise the legs and the arms.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "They stretch out both hands.",
+            "lv": "They stretch out both arms.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "They drop both hands.",
+            "lv": "They lower both arms.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "They turn their heads to the right.",
+            "lv": "They turn the head to the right.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Who breathes deeply?",
+            "lv": "Who is breathing deeply?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter and Anna breathe deeply.",
+            "lv": "Peter and Anna are breathing deeply.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Does Robert exercise too?",
+            "lv": "Is Robert doing gymnastics too?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "No, Robert and John do not exercise.",
+            "lv": "No, Robert and Johann aren't doing gymnastics.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, exercise!",
+            "lv": "Robert, do gymnastics!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert and John, exercise!",
+            "lv": "Robert and Johann, do gymnastics!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Miss Müller, exercise!",
+            "lv": "Miss Müller, do gymnastics!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Take two steps and then stay standing!",
+            "lv": "Take two steps, and then stand still (polite)!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2198,7 +2198,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson14",
     "title": "Lesson 14",
     "subtitle": "müssen, wollen, mögen",
-    "intro": "Lesson Fourteen: Modal verbs müssen, wollen and mögen.",
+    "intro": "Lesson fourteen: the modal verbs müssen, wollen and mögen.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -2222,20 +2222,20 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "müssen — need / have to do",
-          "ich muss — I need / I have to do",
-          "du musst — you need / you must do",
-          "er muss — he needs / he has to",
-          "sie muss — she needs / she has to",
-          "es muss — it needs / it has to do",
-          "wir müssen — we need / we have to do",
-          "ihr müsst — you need / you must",
-          "sie müssen — they need / have to",
-          "lernen — to learn",
-          "vorwärts — forward",
-          "vorwärts kommen — to get ahead",
+          "müssen — to need to / to have to",
+          "ich muss — I need to / I have to",
+          "du musst — you need to / you have to",
+          "er muss — he needs to / he has to",
+          "sie muss — she needs to / she has to",
+          "es muss — it needs to / it has to",
+          "wir müssen — we need to / we have to",
+          "ihr müsst — you (pl.) need to / you (pl.) have to",
+          "sie müssen — they need to",
+          "lernen — to learn, to study",
+          "vorwärts — forward, forwards",
+          "vorwärts kommen — to get ahead, to make progress",
           "wollen — to want",
           "ich will — I want",
           "du willst — you want",
@@ -2243,39 +2243,39 @@ const COURSE_LESSON_DATA = {
           "sie will — she wants",
           "es will — it wants",
           "wir wollen — we want",
-          "ihr wollt — you want",
+          "ihr wollt — you (pl.) want",
           "sie wollen — they want",
-          "mögen — want / want / like",
+          "mögen — to want / to wish / to like",
           "ich mag — I want / I like",
           "du magst — you want / you like",
           "er mag — he wants / he likes",
           "sie mag — she wants / she likes",
           "es mag — it wants / it likes",
           "wir mögen — we want",
-          "ihr mögt — you want",
-          "sie mögen — they like",
-          "die Suppe — soup",
+          "ihr mögt — you (pl.) want",
+          "sie mögen — they want",
+          "die Suppe — the soup",
           "munden — to taste good",
-          "mir — to me",
-          "dir — to you",
-          "ihm — to him",
-          "ihr — for her",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — to them",
-          "denn — for / because"
+          "mir — (to) me",
+          "dir — (to) you",
+          "ihm — (to) him",
+          "ihr — (to) her",
+          "uns — (to) us",
+          "euch — (to) you (pl.)",
+          "ihnen — (to) them",
+          "denn — because, for"
         ]
       },
       {
         "title": "Grammar",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Modal verbs",
             "text": "The verbs müssen, wollen and mögen are modal verbs."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "In the present singular, the 1st and 3rd persons are the same.",
+            "heading": "1st and 3rd person singular",
+            "text": "In the present tense singular, the 1st and 3rd person are the same.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Change of the stem vowel",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen means to need/be needed.",
+            "text": "Müssen means to need to / to have to.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — I have to study."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen means to deliberately want to do something.",
+            "text": "Wollen means consciously wanting to do something.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — I want to get ahead."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen expresses a wish or liking.",
+            "text": "Mögen expresses a wish or a liking.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — I don't want to eat the soup.",
+              "Die Suppe mundet mir nicht. — The soup doesn't taste good to me."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "In English we often say \"I have to study\", \"you have to write\", \"he has to come\". German often uses müssen in such sentences.",
+            "heading": "Important",
+            "text": "In English we often say “I have to study”, “you must write”, “he has to come”. In German such sentences often use müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß is pronounced like the English s in so.",
+          "ß is written in the middle or at the end of a word after a long vowel or a diphthong: die Füße, die Straße, ich muss, er muss.",
+          "If other forms have ss, ß may appear before the ending: müssen, ich muss, du musst, ihr müsst.",
+          "In the word mögen the ö is pronounced as a clear ö sound.",
+          "If g is followed by t, the g sounds closer to a k: du magst, ihr mögt.",
+          "This is unlike English, where g keeps its voiced sound before s, as in “bags”."
         ]
       },
       {
@@ -2379,11 +2379,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "All students want to study hard.",
+            "lv": "All the pupils want to study hard.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Who should come today?",
+            "lv": "Who has to come today?",
             "de": "Wer muss heute kommen?"
           },
           {
@@ -2391,43 +2391,43 @@ const COURSE_LESSON_DATA = {
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "You have to write a letter.",
+            "lv": "You have to write the letter.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Who needs to study hard?",
+            "lv": "Who has to study hard?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Students must study hard.",
+            "lv": "The pupils have to study hard.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "I don't want to eat soup because I don't like it.",
+            "lv": "I don't feel like eating the soup, because it doesn't taste good to me.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Who wants to eat soup?",
+            "lv": "Who wants to eat the soup?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa wants to eat soup.",
+            "lv": "Elsa wants to eat the soup.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Who should read the book?",
+            "lv": "Who has to read the book?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Brother must read a book.",
+            "lv": "The brother has to read the book.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "I don't want to sing.",
+            "lv": "I don't feel like singing.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Father has to buy a table.",
+            "lv": "The father has to buy a table.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]
