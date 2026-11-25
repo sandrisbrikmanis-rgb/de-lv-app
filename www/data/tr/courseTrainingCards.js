@@ -2,551 +2,535 @@
 
 window.lesson1TrainingCardsTr = [
   {
-    "front": "Idziesz ze mną?",
+    "front": "Geliyor musun?",
     "back": "Kommst du?"
   },
   {
-    "front": "Tak, przyjdę.",
+    "front": "Evet, geliyorum.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Kto śpiewa?",
+    "front": "Kim şarkı söylüyor?",
     "back": "Wer singt?"
   },
   {
-    "front": "Marta śpiewa.",
+    "front": "Marta şarkı söylüyor.",
     "back": "Marta singt."
   },
   {
-    "front": "Z kim idą?",
+    "front": "Onlar gidiyor mu?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Tak, idą.",
+    "front": "Evet, onlar gidiyor.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Z kim on stoi?",
+    "front": "O ayakta duruyor mu?",
     "back": "Steht er?"
   },
   {
-    "front": "Tak, stoi.",
+    "front": "Evet, o ayakta duruyor.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Zmieniamy się.",
+    "front": "Biz gidiyoruz.",
     "back": "Wir gehen."
   },
   {
-    "front": "Czy chodzisz na randki?",
+    "front": "Siz gidiyor musunuz?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Zbliża się marzec Alberty.",
+    "front": "Albert ve Marta geliyor ve gidiyor.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsTr = [
   {
-    "front": "Kto słucha?",
+    "front": "Kim soruyor?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paula słucha.",
+    "front": "Paul soruyor.",
     "back": "Paul fragt."
   },
   {
-    "front": "Słuchali.",
+    "front": "Onlar soruyor.",
     "back": "Sie fragen."
   },
   {
-    "front": "Z odpowiedzią Paulasa?",
+    "front": "Paul cevap veriyor mu?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nie, nie odpowiada, słucha.",
+    "front": "Hayır, o cevap vermiyor, o soruyor.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Czy Maria śpiewa z Paulasem?",
+    "front": "Paul ve Marie şarkı söylüyor mu?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nie, oni nie śpiewają, oni się liczą.",
+    "front": "Hayır, onlar şarkı söylemiyor, hesap yapıyorlar.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ne yapıyorsun",
+    "front": "Ne yapıyorsun?",
     "back": "Was tust du?"
   },
   {
-    "front": "Śpiewam.",
+    "front": "Ayakta duruyorum ve şarkı söylüyorum.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "O czym ty mówisz?",
+    "front": "Resim çiziyor musunuz?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Tak, przychodzimy, ale Maria gra.",
+    "front": "Evet, biz resim çiziyoruz, ama Marie oynuyor.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Co robisz?",
+    "front": "Ne yapıyorsunuz?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Nasz powrót jest odpowiedzialny.",
+    "front": "Biz geliyoruz ve cevap veriyoruz.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Co się dzieje?",
+    "front": "Kim gidiyor?",
     "back": "Wer geht?"
   },
   {
-    "front": "Zmieniamy się.",
+    "front": "Biz gidiyoruz.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsTr = [
   {
-    "front": "Z kim liczyłeś?",
+    "front": "Hesap yapıyor musun?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Nie, nie liczę, liczę.",
+    "front": "Hayır, hesap yapmıyorum, resim çiziyorum.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kto tam stoi?",
+    "front": "Orada ne duruyor?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Są stoły.",
+    "front": "Orada bir masa duruyor.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kto tu śpi?",
+    "front": "Burada ne bulunuyor?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Leży tu książka.",
+    "front": "Burada bir kitap bulunuyor.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Z książką plona?",
+    "front": "Kitap ince mi?",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Nie, książka jest gruba.",
+    "front": "Hayır, kitap kalın.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Jakie plony?",
+    "front": "Ne ince?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plona.",
+    "front": "Defter ince.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Drewniane ławki?",
+    "front": "Bank nasıl?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Ławki niskie.",
+    "front": "Bank alçak.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Drewniane stoły?",
+    "front": "Masa nasıl?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Stoły są wysokie.",
+    "front": "Masa yüksek.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar dziesięć lat sąsiuvinis?",
+    "front": "Orada bir defter var mı / bulunuyor mu?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Tak, leży tam świnia.",
+    "front": "Evet, orada bir defter bulunuyor.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Z Ateiną Pauli?",
+    "front": "Paul geliyor mu?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nie, Paulas nie odpowiada, stoi.",
+    "front": "Hayır, Paul gelmiyor, o ayakta duruyor.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Co tu jest?",
+    "front": "Burada ne asılı?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Oto zdjęcie.",
+    "front": "Burada bir resim asılı.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Co tam jest?",
+    "front": "Orada ne asılı?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Tam wisi wstążka.",
+    "front": "Orada bir yazı tahtası asılı.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsTr = [
   {
-    "front": "Dziewczyna ma długopis.",
+    "front": "Kız bir kalem sapı alıyor.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Pióra nie są białe, są czarne.",
+    "front": "Kalem sapı beyaz değil, siyah.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas ma pióro.",
+    "front": "Paul bir kalem ucu alıyor.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Jakie pióro?",
+    "front": "Kalem ucu nasıl?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Z czubkiem pióra?",
+    "front": "Kalem ucu sivri mi?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Czy on ma nóż?",
+    "front": "O bir bıçak alıyor mu?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nie, on ma pióro.",
+    "front": "Hayır, o bir kalem ucu alıyor.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Kładzie pióro.",
+    "front": "O kalem ucunu bırakıyor.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Z nożem buka?",
+    "front": "Bıçak kör mü?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nie, jest ostry.",
+    "front": "Hayır, keskin.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Co robi dziewczyna?",
+    "front": "Kız ne yapıyor?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Wyjście Ji to tirba.",
+    "front": "O dışarı çıkıyor ve çalışıyor.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Co pokazuje Olga?",
+    "front": "Olga ne gösteriyor?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga pokazuje książkę.",
+    "front": "Olga bir kitap gösteriyor.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Jaka książka?",
+    "front": "Kitap nasıl?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Książka jest niewielka.",
+    "front": "Kitap küçük.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsTr = [
   {
-    "front": "Ką myli ojciec?",
+    "front": "Baba kimi seviyor?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Kadın öğretmen kimi övüyor?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Co robisz?",
+    "front": "Ne alıyorsun?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Czego słuchasz?",
+    "front": "Kime soruyorsun?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Öğretmen kimi azarlıyor?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Prześladowca słucha prześladowcy.",
+    "front": "Öğretmen öğrenciye soruyor.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Jak odpowiada student?",
+    "front": "Öğrenci nasıl cevap veriyor?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys odpowiada na blogu.",
+    "front": "Öğrenci kötü cevap veriyor.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Z mokinė odpowiada na blogu?",
+    "front": "Kız öğrenci kötü mü cevap veriyor?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nie, mokinė nie odpowiada na blogu, odpowiada na dobrym.",
+    "front": "Hayır, kız öğrenci kötü cevap vermiyor, iyi cevap veriyor.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Dziewczyna ma długopis, pióro jest nożem.",
+    "front": "Kız kalem sapını, kalem ucunu ve bıçağı alıyor.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji wkłada nóż do pióra.",
+    "front": "O bıçağı ve kalem sapını bırakıyor.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Wygląd dziewczyny to tirba.",
+    "front": "Kız dışarı çıkıyor ve çalışıyor.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Jaki dzieciak?",
+    "front": "Çocuk nasıl?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Mandagus Wajki.",
+    "front": "Çocuk uslu.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Ojcowie to matki, które kochają swoje dzieci.",
+    "front": "Baba ve anne çocuğu seviyor.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsTr = [
   {
-    "front": "Ołówek Pauli to ciasto.",
+    "front": "Paul bir kurşun kalem alıyor ve resim çiziyor.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Co zrobił?",
+    "front": "O ne çiziyor?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Wyciągnął wiadro.",
+    "front": "O bir kova çiziyor.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kto napisał powóz?",
+    "front": "Kim bir araba çiziyor?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Dziewczyna ma na sobie poroże.",
+    "front": "Kız bir kızak çiziyor.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Ile jest igieł?",
+    "front": "Burada kaç iğne var?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Jest tu sześć igieł.",
+    "front": "Burada altı iğne var.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Ile talerzy?",
+    "front": "Kaç tabak?",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Mam trzy igły.",
+    "front": "Üç iğne alıyorum.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Dałem dwie igły.",
+    "front": "İki iğne bırakıyorum.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Jakie są talerze kiħinja peilius?",
+    "front": "Bıçakları ve tabakları kim sayıyor?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Posiada pokrywkę.",
+    "front": "Bu bir kapak.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Ta pokrywka.",
+    "front": "Bunlar kapak.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Ma pióro.",
+    "front": "Bu bir kalem ucu.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Ma pióra.",
+    "front": "Bunlar kalem ucu.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Co robią mokytoja?",
+    "front": "Öğretmen ne yapıyor?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilė to bezpieczny ołówek.",
+    "front": "Öğretmen bir bıçak alıyor ve kurşun kalemi açıyor.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Bu nedir?",
+    "front": "Bu ne?",
     "back": "Was ist das?"
   },
   {
-    "front": "Ma pióra.",
+    "front": "Bu bir kalem sapı.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Pierzaste drzewo?",
+    "front": "Kalem sapı nasıl?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Pióra są czarne.",
+    "front": "Kalem sapı siyah.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsTr = [
   {
-    "front": "",
-    "back": "",
     "infinitive": "fragen",
+    "lv": "sormak",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "antworten",
+    "lv": "cevap vermek",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "loben",
+    "lv": "övmek",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "lieben",
+    "lv": "sevmek",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "zählen",
+    "lv": "saymak",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "göstermek",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "resim çizmek",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "hesap yapmak",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "çalışmak",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "kommen",
+    "lv": "gelmek",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "gehen",
+    "lv": "gitmek",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "stehen",
+    "lv": "durmak, ayakta durmak",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "açmak",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "singen",
+    "lv": "şarkı söylemek",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "tun",
+    "lv": "yapmak",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "almak",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

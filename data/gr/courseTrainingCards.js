@@ -2,535 +2,535 @@
 
 window.lesson1TrainingCardsGr = [
   {
-    "front": "Είσαι από Αθήνα • ",
+    "front": "Έρχεσαι;",
     "back": "Kommst du?"
   },
   {
-    "front": "Ναι, έτρωγα.",
+    "front": "Ναι, έρχομαι.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Είναι καρχαρίας • ",
+    "front": "Ποιος τραγουδά;",
     "back": "Wer singt?"
   },
   {
-    "front": "Marta dainouja.",
+    "front": "Η Marta τραγουδά.",
     "back": "Marta singt."
   },
   {
-    "front": "Είσαι ο μόνος • ",
+    "front": "Πηγαίνουν;",
     "back": "Gehen sie?"
   },
   {
-    "front": "Ναι, ναι.",
+    "front": "Ναι, πηγαίνουν.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Στέκεσαι • ",
+    "front": "Στέκεται;",
     "back": "Steht er?"
   },
   {
-    "front": "Ναι, περίμενε.",
+    "front": "Ναι, στέκεται.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Τρώμε.",
+    "front": "Πηγαίνουμε.",
     "back": "Wir gehen."
   },
   {
-    "front": "Τρώτε • ",
+    "front": "Πηγαίνετε;",
     "back": "Geht ihr?"
   },
   {
-    "front": "Στην Αλμπέρτα, η Μάρτα είναι ανύπαντρη.",
+    "front": "Ο Albert και η Marta έρχονται και φεύγουν.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsGr = [
   {
-    "front": "Μια ρήτρα • ",
+    "front": "Ποιος ρωτά;",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paulas Clausia.",
+    "front": "Ο Paul ρωτά.",
     "back": "Paul fragt."
   },
   {
-    "front": "Ρήτρα Jie.",
+    "front": "Αυτοί ρωτούν.",
     "back": "Sie fragen."
   },
   {
-    "front": "Θα απαντήσει ο Πάουλας • ",
+    "front": "Απαντά ο Paul;",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Ne, jis neatako, jis clause.",
+    "front": "Όχι, δεν απαντά, ρωτά.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Είναι ο Paulas ir Marija dainouja • ",
+    "front": "Τραγουδούν ο Paul και η Marie;",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Ne, jie nedainuoja, jie kaijuja.",
+    "front": "Όχι, δεν τραγουδούν, κάνουν λογαριασμούς.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ká tu darai • ",
+    "front": "Τι κάνεις;",
     "back": "Was tust du?"
   },
   {
-    "front": "Aš stoviu ir dainooju.",
+    "front": "Στέκομαι και τραγουδώ.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Χαϊδεύεις • ",
+    "front": "Ζωγραφίζετε;",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Taip, mes piešiame, στοίχημα Marija παίζει.",
+    "front": "Ναι, ζωγραφίζουμε, αλλά η Marie παίζει.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Τι κάνεις • ",
+    "front": "Τι κάνετε;",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Σερβίρουμε και αρνούμαστε.",
+    "front": "Ερχόμαστε και απαντάμε.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Είναι το μόνο • ",
+    "front": "Ποιος πηγαίνει;",
     "back": "Wer geht?"
   },
   {
-    "front": "Τρώμε.",
+    "front": "Πηγαίνουμε εμείς.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsGr = [
   {
-    "front": "Μετράς • ",
+    "front": "Κάνεις λογαριασμούς;",
     "back": "Rechnest du?"
   },
   {
-    "front": "Ne, aš nesičiukju, aš piešiu.",
+    "front": "Όχι, δεν κάνω λογαριασμούς, ζωγραφίζω.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Στέκεσαι • ",
+    "front": "Τι στέκεται εκεί;",
     "back": "Was steht dort?"
   },
   {
-    "front": "Δέκα στοβί στάλες.",
+    "front": "Εκεί στέκεται ένα τραπέζι.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Είναι chia guli • ",
+    "front": "Τι βρίσκεται εδώ;",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Чиа гули книга.",
+    "front": "Εδώ βρίσκεται ένα βιβλίο.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Ar knyga plona • ",
+    "front": "Είναι λεπτό το βιβλίο;",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Νε, κνυγα στορα.",
+    "front": "Όχι, το βιβλίο είναι χοντρό.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Στην πλόνα • ",
+    "front": "Τι είναι λεπτό;",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "Το τετράδιο είναι λεπτό.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Κοκ σε αλάτι • ",
+    "front": "Πώς είναι το θρανίο;",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Αλμυρή μαρμελάδα.",
+    "front": "Το θρανίο είναι χαμηλό.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Κόκα κόλα στάλα • ",
+    "front": "Πώς είναι το τραπέζι;",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Stalas auksta.",
+    "front": "Το τραπέζι είναι ψηλό.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sásiuvinis • ",
+    "front": "Υπάρχει εκεί ένα τετράδιο;",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Taip, ten guli sąsiuvinis.",
+    "front": "Ναι, εκεί βρίσκεται ένα τετράδιο.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Είναι ο Paulas Athena • ",
+    "front": "Έρχεται ο Paul;",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Νε, Paulas neateina, jis stovi.",
+    "front": "Όχι, ο Paul δεν έρχεται, στέκεται.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Είναι chia kabo • ",
+    "front": "Τι κρέμεται εδώ;",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Εικόνα Chia Kabo.",
+    "front": "Εδώ κρέμεται μια εικόνα.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Κάμπο • ",
+    "front": "Τι κρέμεται εκεί;",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Δέκα kabo lenta.",
+    "front": "Εκεί κρέμεται ένας πίνακας.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsGr = [
   {
-    "front": "Mergaitė ima plunksnakote.",
+    "front": "Το κορίτσι παίρνει έναν κονδυλοφόρο.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Ne baltas, jis judua στο Plunksnakot.",
+    "front": "Ο κονδυλοφόρος δεν είναι άσπρος, είναι μαύρος.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas ima plunksną.",
+    "front": "Ο Paul παίρνει μια πένα.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Τι είδους χνούδι • ",
+    "front": "Πώς είναι η πένα;",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Ar plunksna smiley • ",
+    "front": "Είναι μυτερή η πένα;",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Έχεις καθρέφτη • ",
+    "front": "Παίρνει αυτός ένα μαχαίρι;",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ne, jis ima plunksną.",
+    "front": "Όχι, παίρνει μια πένα.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Jis pudeta plunksną.",
+    "front": "Αφήνει κάτω την πένα.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Κοιτάς τον μπούκα • ",
+    "front": "Είναι στομωμένο το μαχαίρι;",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Ne, jis aštrus.",
+    "front": "Όχι, είναι κοφτερό.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Ká daro κορίτσι • ",
+    "front": "Τι κάνει το κορίτσι;",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji išeina ir dirba.",
+    "front": "Βγαίνει έξω και δουλεύει.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Ká rodo Όλγα • ",
+    "front": "Τι δείχνει η Olga;",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Η Όλγα καβάλησε το βιβλίο.",
+    "front": "Η Olga δείχνει ένα βιβλίο.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Τι βιβλίο • ",
+    "front": "Πώς είναι το βιβλίο;",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Knyga malika.",
+    "front": "Το βιβλίο είναι μικρό.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsGr = [
   {
-    "front": "Ką myli πατέρα • ",
+    "front": "Ποιον αγαπά ο πατέρας;",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja • ",
+    "front": "Ποιον επαινεί η δασκάλα;",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Ká tu imi • ",
+    "front": "Τι παίρνεις;",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Ποια είναι η ρήτρα σας • ",
+    "front": "Ποιον ρωτάς;",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas • ",
+    "front": "Ποιον μαλώνει ο δάσκαλος;",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Mokytoja clausia mokinio.",
+    "front": "Ο δάσκαλος ρωτά τον μαθητή.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Kaip mokinys odsho • ",
+    "front": "Πώς απαντά ο μαθητής;",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys odsho blogai.",
+    "front": "Ο μαθητής απαντά άσχημα.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Μήπως είστε blogai • ",
+    "front": "Απαντά άσχημα η μαθήτρια;",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ne, mokinė neatsako blogai, ji takso gerai.",
+    "front": "Όχι, η μαθήτρια δεν απαντά άσχημα, απαντά καλά.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Mergaitė ima plunksnakotį, plunksną ir peilį.",
+    "front": "Το κορίτσι παίρνει τον κονδυλοφόρο, την πένα και το μαχαίρι.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji pūda peilī ir plunksnakotī.",
+    "front": "Αφήνει κάτω το μαχαίρι και τον κονδυλοφόρο.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Mergaitė išeina ir dirba.",
+    "front": "Το κορίτσι βγαίνει έξω και δουλεύει.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Κόκα Βάικας • ",
+    "front": "Πώς είναι το παιδί;",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Ήσυχη ευγένεια.",
+    "front": "Το παιδί είναι φρόνιμο.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Tėvas ir motina myli vaiką.",
+    "front": "Ο πατέρας και η μητέρα αγαπούν το παιδί.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsGr = [
   {
-    "front": "Paulas ima płasą ir piešia.",
+    "front": "Ο Paul παίρνει ένα μολύβι και ζωγραφίζει.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Ką jis piešia • ",
+    "front": "Τι ζωγραφίζει;",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Jis piešia kibirą.",
+    "front": "Ζωγραφίζει έναν κουβά.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Είναι το piešia vežimą • ",
+    "front": "Ποιος ζωγραφίζει ένα κάρο;",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Mergaitė piešia roges.",
+    "front": "Το κορίτσι ζωγραφίζει ένα έλκηθρο.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Τι είναι αυτό • ",
+    "front": "Πόσες βελόνες είναι εδώ;",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Čia yra šešios adatos.",
+    "front": "Εδώ είναι έξι βελόνες.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Kiek lėkščių • ",
+    "front": "Πόσα πιάτα;",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Aš imu tris adatas.",
+    "front": "Παίρνω τρεις βελόνες.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Aš padedu dvi adatas.",
+    "front": "Αφήνω κάτω δύο βελόνες.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Κοίταξε η αριθμομηχανή στον καθρέφτη • ",
+    "front": "Ποιος μετρά τα μαχαίρια και τα πιάτα;",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Ταϊλανδέζικο ντανγκίτ.",
+    "front": "Αυτό είναι ένα καπάκι.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Thai dangčiai.",
+    "front": "Αυτά είναι καπάκια.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Ταϊλανδικό plunksna.",
+    "front": "Αυτή είναι μια πένα.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Ταϊλανδικά plunksnos.",
+    "front": "Αυτές είναι πένες.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Ką daro mokytojas • ",
+    "front": "Τι κάνει ο δάσκαλος;",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilį ir drožia płasą.",
+    "front": "Ο δάσκαλος παίρνει ένα μαχαίρι και ξύνει το μολύβι.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Είναι ταϊλανδέζικο • ",
+    "front": "Τι είναι αυτό;",
     "back": "Was ist das?"
   },
   {
-    "front": "Σε ταϊλανδέζικη τσάντα splash.",
+    "front": "Αυτό είναι ένας κονδυλοφόρος.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Κόκα κόλα σε σακούλα πιτσιλίσματος • ",
+    "front": "Πώς είναι ο κονδυλοφόρος;",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Έπινε σε ένα σακίδιο.",
+    "front": "Ο κονδυλοφόρος είναι μαύρος.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsGr = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "ρωτώ",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "απαντώ",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "επαινώ",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "αγαπώ",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "μετρώ",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "δείχνω",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "ζωγραφίζω",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "κάνω λογαριασμούς",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "δουλεύω",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "έρχομαι",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "πηγαίνω",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "στέκομαι",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "ανοίγω",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "τραγουδώ",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "κάνω",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "παίρνω",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

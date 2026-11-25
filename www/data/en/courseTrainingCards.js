@@ -6,7 +6,7 @@ window.lesson1TrainingCardsEn = [
     "back": "Kommst du?"
   },
   {
-    "front": "Yes, I'm coming.",
+    "front": "Yes, I am coming.",
     "back": "Ja, ich komme."
   },
   {
@@ -14,7 +14,7 @@ window.lesson1TrainingCardsEn = [
     "back": "Wer singt?"
   },
   {
-    "front": "Marta sings.",
+    "front": "Marta is singing.",
     "back": "Marta singt."
   },
   {
@@ -38,7 +38,7 @@ window.lesson1TrainingCardsEn = [
     "back": "Wir gehen."
   },
   {
-    "front": "Are you going?",
+    "front": "Are you (plural) going?",
     "back": "Geht ihr?"
   },
   {
@@ -53,27 +53,27 @@ window.lesson2TrainingCardsEn = [
     "back": "Wer fragt?"
   },
   {
-    "front": "Paul asks.",
+    "front": "Paul is asking.",
     "back": "Paul fragt."
   },
   {
-    "front": "They ask.",
+    "front": "They are asking.",
     "back": "Sie fragen."
   },
   {
-    "front": "Does Paul answer?",
+    "front": "Is Paul answering?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "No, he doesn't answer, he asks.",
+    "front": "No, he isn't answering, he is asking.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Do Paul and Marie sing?",
+    "front": "Are Paul and Marie singing?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "No, they don't sing, they count.",
+    "front": "No, they aren't singing, they are doing sums.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
@@ -81,19 +81,19 @@ window.lesson2TrainingCardsEn = [
     "back": "Was tust du?"
   },
   {
-    "front": "I stand and sing.",
+    "front": "I am standing and singing.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "do you draw",
+    "front": "Are you (plural) drawing?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Yes, we draw, but Maria plays.",
+    "front": "Yes, we are drawing, but Marie is playing.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "what are you doing",
+    "front": "What are you (plural) doing?",
     "back": "Was tut ihr?"
   },
   {
@@ -112,27 +112,27 @@ window.lesson2TrainingCardsEn = [
 
 window.lesson3TrainingCardsEn = [
   {
-    "front": "do you count",
+    "front": "Are you doing sums?",
     "back": "Rechnest du?"
   },
   {
-    "front": "No, I don't count, I draw.",
+    "front": "No, I'm not doing sums, I'm drawing.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Who is standing there?",
+    "front": "What is standing there?",
     "back": "Was steht dort?"
   },
   {
-    "front": "There is a table.",
+    "front": "A table is standing there.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Who is here?",
+    "front": "What is lying here?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Here is the book.",
+    "front": "A book is lying here.",
     "back": "Hier liegt ein Buch."
   },
   {
@@ -148,7 +148,7 @@ window.lesson3TrainingCardsEn = [
     "back": "Was ist dünn?"
   },
   {
-    "front": "The letterbox is thin.",
+    "front": "The exercise book is thin.",
     "back": "Das Heft ist dünn."
   },
   {
@@ -168,11 +168,11 @@ window.lesson3TrainingCardsEn = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Is there / is there a notebook?",
+    "front": "Is there an exercise book lying there?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Yes, there is a notebook.",
+    "front": "Yes, there is an exercise book lying there.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
@@ -180,58 +180,58 @@ window.lesson3TrainingCardsEn = [
     "back": "Kommt Paul?"
   },
   {
-    "front": "No, Paul is not coming, he is standing.",
+    "front": "No, Paul isn't coming, he is standing.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "What's hanging here?",
+    "front": "What is hanging here?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "There is a picture hanging here.",
+    "front": "A picture is hanging here.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "What's hanging there?",
+    "front": "What is hanging there?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "There is a blackboard hanging there.",
+    "front": "A blackboard is hanging there.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsEn = [
   {
-    "front": "The girl takes a pen holder.",
+    "front": "The girl takes a penholder.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "The quill is not white, it is black.",
+    "front": "The penholder isn't white, it is black.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul takes the feather.",
+    "front": "Paul takes a nib.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "What is a feather?",
+    "front": "What is the nib like?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Is the pen pointed?",
+    "front": "Is the nib pointed?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Does he take a knife?",
+    "front": "Is he taking a knife?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "No, he takes a feather.",
+    "front": "No, he is taking a nib.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "He puts down the feather.",
+    "front": "He puts the nib down.",
     "back": "Er legt die Feder hin."
   },
   {
@@ -239,7 +239,7 @@ window.lesson4TrainingCardsEn = [
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "No, it's sharp.",
+    "front": "No, it is sharp.",
     "back": "Nein, es ist scharf."
   },
   {
@@ -251,15 +251,15 @@ window.lesson4TrainingCardsEn = [
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "What does Olga show?",
+    "front": "What is Olga showing?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga shows the book.",
+    "front": "Olga is showing a book.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "what is the book",
+    "front": "What is the book like?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -270,35 +270,35 @@ window.lesson4TrainingCardsEn = [
 
 window.lesson5TrainingCardsEn = [
   {
-    "front": "What does father love?",
+    "front": "Whom does the father love?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "What does the teacher praise?",
+    "front": "Whom does the female teacher praise?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "what do you take",
+    "front": "What are you taking?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Who are you asking?",
+    "front": "Whom are you asking?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Who does the teacher scold?",
+    "front": "Whom does the teacher scold?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "The teacher asks the student.",
+    "front": "The teacher asks the pupil.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "How does the student answer?",
+    "front": "How does the pupil answer?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "The student answers badly.",
+    "front": "The pupil answers badly.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
@@ -306,15 +306,15 @@ window.lesson5TrainingCardsEn = [
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "No, the student does not answer badly, she answers well.",
+    "front": "No, the schoolgirl doesn't answer badly, she answers well.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "The girl takes a quill, a feather and a knife.",
+    "front": "The girl takes the penholder, the nib and the knife.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "She puts down the knife and quill.",
+    "front": "She puts down the knife and the penholder.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -330,7 +330,7 @@ window.lesson5TrainingCardsEn = [
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Father and mother love the child.",
+    "front": "The father and the mother love the child.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
@@ -345,19 +345,19 @@ window.lesson6TrainingCardsEn = [
     "back": "Was zeichnet er?"
   },
   {
-    "front": "He draws a bucket.",
+    "front": "He is drawing a bucket.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Who draws the cart?",
+    "front": "Who is drawing a cart?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "The girl draws a sled.",
+    "front": "The girl is drawing a sledge.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "How many needles are there?",
+    "front": "How many needles are there here?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -377,47 +377,47 @@ window.lesson6TrainingCardsEn = [
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Who counts knives and plates?",
+    "front": "Who is counting the knives and the plates?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "It's a cover.",
+    "front": "This is a lid.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "These are the covers.",
+    "front": "These are lids.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "It's a feather.",
+    "front": "This is a nib.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "They are feathers.",
+    "front": "These are nibs.",
     "back": "Das sind Federn."
   },
   {
-    "front": "What does the teacher do?",
+    "front": "What is the teacher doing?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "The teacher takes a knife and sharpens a pencil.",
+    "front": "The teacher takes a knife and sharpens the pencil.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "What is that?",
+    "front": "What is this?",
     "back": "Was ist das?"
   },
   {
-    "front": "It is a pen holder.",
+    "front": "This is a penholder.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "What is the pen holder like?",
+    "front": "What is the penholder like?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "The pen holder is black.",
+    "front": "The penholder is black.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -439,7 +439,7 @@ window.lesson7ExerciseCardsEn = [
   },
   {
     "infinitive": "loben",
-    "lv": "praise",
+    "lv": "to praise",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
@@ -460,7 +460,7 @@ window.lesson7ExerciseCardsEn = [
   },
   {
     "infinitive": "zeigen",
-    "lv": "show",
+    "lv": "to show",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
@@ -474,7 +474,7 @@ window.lesson7ExerciseCardsEn = [
   },
   {
     "infinitive": "rechnen",
-    "lv": "to count",
+    "lv": "to calculate",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"

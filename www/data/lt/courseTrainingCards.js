@@ -42,7 +42,7 @@ window.lesson1TrainingCardsLt = [
     "back": "Geht ihr?"
   },
   {
-    "front": "Albertas ir Marta ateina ir eina.",
+    "front": "Albert ir Marta ateina ir eina.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
@@ -53,7 +53,7 @@ window.lesson2TrainingCardsLt = [
     "back": "Wer fragt?"
   },
   {
-    "front": "Paulas klausia.",
+    "front": "Paul klausia.",
     "back": "Paul fragt."
   },
   {
@@ -61,7 +61,7 @@ window.lesson2TrainingCardsLt = [
     "back": "Sie fragen."
   },
   {
-    "front": "Ar Paulas atsako?",
+    "front": "Ar Paul atsako?",
     "back": "Antwortet Paul?"
   },
   {
@@ -69,7 +69,7 @@ window.lesson2TrainingCardsLt = [
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Ar Paulas ir Marija dainuoja?",
+    "front": "Ar Paul ir Marie dainuoja?",
     "back": "Singen Paul und Marie?"
   },
   {
@@ -89,7 +89,7 @@ window.lesson2TrainingCardsLt = [
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Taip, mes piešiame, bet Marija žaidžia.",
+    "front": "Taip, mes piešiame, bet Marie žaidžia.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
@@ -116,7 +116,7 @@ window.lesson3TrainingCardsLt = [
     "back": "Rechnest du?"
   },
   {
-    "front": "Ne, aš nesiskaičiuoju, aš piešiu.",
+    "front": "Ne, aš neskaičiuoju, aš piešiu.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
@@ -144,7 +144,7 @@ window.lesson3TrainingCardsLt = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Kas plonas?",
+    "front": "Kas yra plonas?",
     "back": "Was ist dünn?"
   },
   {
@@ -152,7 +152,7 @@ window.lesson3TrainingCardsLt = [
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Koks suolas?",
+    "front": "Koks yra suolas?",
     "back": "Wie ist die Bank?"
   },
   {
@@ -160,7 +160,7 @@ window.lesson3TrainingCardsLt = [
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Koks stalas?",
+    "front": "Koks yra stalas?",
     "back": "Wie ist der Tisch?"
   },
   {
@@ -168,7 +168,7 @@ window.lesson3TrainingCardsLt = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sąsiuvinis?",
+    "front": "Ar ten yra / guli sąsiuvinis?",
     "back": "Liegt dort ein Heft?"
   },
   {
@@ -176,11 +176,11 @@ window.lesson3TrainingCardsLt = [
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Ar Paulas ateina?",
+    "front": "Ar Paul ateina?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ne, Paulas neateina, jis stovi.",
+    "front": "Ne, Paul neateina, jis stovi.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
@@ -211,11 +211,11 @@ window.lesson4TrainingCardsLt = [
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas ima plunksną.",
+    "front": "Paul ima plunksną.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Kokia plunksna?",
+    "front": "Kokia yra plunksna?",
     "back": "Wie ist die Feder?"
   },
   {
@@ -235,7 +235,7 @@ window.lesson4TrainingCardsLt = [
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Ar peilis bukas?",
+    "front": "Ar peilis atšipęs?",
     "back": "Ist das Messer stumpf?"
   },
   {
@@ -247,11 +247,11 @@ window.lesson4TrainingCardsLt = [
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji išeina ir dirba.",
+    "front": "Ji išeina laukan ir dirba.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Ką rodo Olga?",
+    "front": "Ką Olga rodo?",
     "back": "Was zeigt Olga?"
   },
   {
@@ -259,7 +259,7 @@ window.lesson4TrainingCardsLt = [
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Kokia knyga?",
+    "front": "Kokia yra knyga?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -282,11 +282,11 @@ window.lesson5TrainingCardsLt = [
     "back": "Was nimmst du?"
   },
   {
-    "front": "Ką tu klausi?",
+    "front": "Ko tu klausi?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Ką peikia mokytojas?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
@@ -306,7 +306,7 @@ window.lesson5TrainingCardsLt = [
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ne, mokinė neatsako blogai, ji atsako gerai.",
+    "front": "Ne, mokinė atsako ne blogai, ji atsako gerai.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
@@ -318,15 +318,15 @@ window.lesson5TrainingCardsLt = [
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Mergaitė išeina ir dirba.",
+    "front": "Mergaitė išeina laukan ir dirba.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Koks vaikas?",
+    "front": "Koks yra vaikas?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Vaikas mandagus.",
+    "front": "Vaikas paklusnus.",
     "back": "Das Kind ist artig."
   },
   {
@@ -337,7 +337,7 @@ window.lesson5TrainingCardsLt = [
 
 window.lesson6TrainingCardsLt = [
   {
-    "front": "Paulas ima pieštuką ir piešia.",
+    "front": "Paul ima pieštuką ir piešia.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
@@ -357,7 +357,7 @@ window.lesson6TrainingCardsLt = [
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kiek adatų čia?",
+    "front": "Kiek adatų yra čia?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -401,11 +401,11 @@ window.lesson6TrainingCardsLt = [
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilį ir drožia pieštuką.",
+    "front": "Mokytojas ima peilį ir padrožia pieštuką.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Kas tai yra?",
+    "front": "Kas tai?",
     "back": "Was ist das?"
   },
   {
@@ -413,7 +413,7 @@ window.lesson6TrainingCardsLt = [
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Koks plunksnakotis?",
+    "front": "Koks yra plunksnakotis?",
     "back": "Wie ist der Federhalter?"
   },
   {
@@ -439,7 +439,7 @@ window.lesson7ExerciseCardsLt = [
   },
   {
     "infinitive": "loben",
-    "lv": "girioti",
+    "lv": "girti",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
@@ -474,7 +474,7 @@ window.lesson7ExerciseCardsLt = [
   },
   {
     "infinitive": "rechnen",
-    "lv": "skaičiuoti",
+    "lv": "skaičiuoti, apskaičiuoti",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"

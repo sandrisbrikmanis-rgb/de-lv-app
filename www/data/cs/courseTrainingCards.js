@@ -128,11 +128,11 @@ window.lesson3TrainingCardsCs = [
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Co zde leží?",
+    "front": "Co tady leží?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Zde leží kniha.",
+    "front": "Tady leží kniha.",
     "back": "Hier liegt ein Buch."
   },
   {
@@ -152,11 +152,11 @@ window.lesson3TrainingCardsCs = [
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Jaká je lavička?",
+    "front": "Jaká je lavice?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Lavička je nízká.",
+    "front": "Lavice je nízká.",
     "back": "Die Bank ist niedrig."
   },
   {
@@ -168,11 +168,11 @@ window.lesson3TrainingCardsCs = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Leží tam sešit?",
+    "front": "Je / leží tam sešit?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Ano, leží tam sešit.",
+    "front": "Ano, tam leží sešit.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
@@ -184,11 +184,11 @@ window.lesson3TrainingCardsCs = [
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Co zde visí?",
+    "front": "Co tady visí?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Zde visí obraz.",
+    "front": "Tady visí obraz.",
     "back": "Hier hängt ein Bild."
   },
   {
@@ -203,15 +203,15 @@ window.lesson3TrainingCardsCs = [
 
 window.lesson4TrainingCardsCs = [
   {
-    "front": "Dívka bere násadku na pero.",
+    "front": "Dívka bere násadku.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Násadka na pero není bílá, je černá.",
+    "front": "Násadka není bílá, je černá.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Pavel bere pero.",
+    "front": "Paul bere pero.",
     "back": "Paul nimmt eine Feder."
   },
   {
@@ -231,7 +231,7 @@ window.lesson4TrainingCardsCs = [
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Pokládá pero.",
+    "front": "Odkládá pero.",
     "back": "Er legt die Feder hin."
   },
   {
@@ -286,7 +286,7 @@ window.lesson5TrainingCardsCs = [
     "back": "Wen fragst du?"
   },
   {
-    "front": "Koho učitel kárá?",
+    "front": "Koho kárá učitel?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
@@ -294,7 +294,7 @@ window.lesson5TrainingCardsCs = [
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Jak žák odpovídá?",
+    "front": "Jak odpovídá žák?",
     "back": "Wie antwortet der Schüler?"
   },
   {
@@ -310,11 +310,11 @@ window.lesson5TrainingCardsCs = [
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Dívka bere násadku na pero, pero a nůž.",
+    "front": "Dívka bere násadku, pero a nůž.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Pokládá nůž a násadku na pero.",
+    "front": "Odkládá nůž a násadku.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -337,7 +337,7 @@ window.lesson5TrainingCardsCs = [
 
 window.lesson6TrainingCardsCs = [
   {
-    "front": "Pavel bere tužku a kreslí.",
+    "front": "Paul bere tužku a kreslí.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
@@ -357,11 +357,11 @@ window.lesson6TrainingCardsCs = [
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kolik je zde jehel?",
+    "front": "Kolik jehel je tady?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Zde je šest jehel.",
+    "front": "Tady je šest jehel.",
     "back": "Hier sind sechs Nadeln."
   },
   {
@@ -373,7 +373,7 @@ window.lesson6TrainingCardsCs = [
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Pokládám dvě jehly.",
+    "front": "Odkládám dvě jehly.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
@@ -409,15 +409,15 @@ window.lesson6TrainingCardsCs = [
     "back": "Was ist das?"
   },
   {
-    "front": "To je násadka na pero.",
+    "front": "To je násadka.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Jaká je násadka na pero?",
+    "front": "Jaká je násadka?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Násadka na pero je černá.",
+    "front": "Násadka je černá.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -425,130 +425,114 @@ window.lesson6TrainingCardsCs = [
 window.lesson7ExerciseCardsCs = [
   {
     "infinitive": "fragen",
-    "lv": "Zeptat se",
+    "lv": "ptát se",
     "du": "frag! / frage!",
     "ihr": "fragt!",
-    "sie": "fragen Sie!",
-    "back": ""
+    "sie": "fragen Sie!"
   },
   {
     "infinitive": "antworten",
-    "lv": "Odpovědět",
+    "lv": "odpovídat",
     "du": "antworte!",
     "ihr": "antwortet!",
-    "sie": "antworten Sie!",
-    "back": ""
+    "sie": "antworten Sie!"
   },
   {
     "infinitive": "loben",
-    "lv": "Chvála",
+    "lv": "chválit",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
-    "sie": "loben Sie!",
-    "back": ""
+    "sie": "loben Sie!"
   },
   {
     "infinitive": "lieben",
-    "lv": "Milovat",
+    "lv": "milovat",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
-    "sie": "lieben Sie!",
-    "back": ""
+    "sie": "lieben Sie!"
   },
   {
     "infinitive": "zählen",
-    "lv": "Počítat",
+    "lv": "počítat",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
-    "sie": "zählen Sie!",
-    "back": ""
+    "sie": "zählen Sie!"
   },
   {
     "infinitive": "zeigen",
-    "lv": "Show",
+    "lv": "ukazovat",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
-    "sie": "zeigen Sie!",
-    "back": ""
+    "sie": "zeigen Sie!"
   },
   {
     "infinitive": "zeichnen",
-    "lv": "Kreslit",
+    "lv": "kreslit",
     "du": "zeichne!",
     "ihr": "zeichnet!",
-    "sie": "zeichnen Sie!",
-    "back": ""
+    "sie": "zeichnen Sie!"
   },
   {
     "infinitive": "rechnen",
-    "lv": "Počítat",
+    "lv": "počítat (příklady)",
     "du": "rechne!",
     "ihr": "rechnet!",
-    "sie": "rechnen Sie!",
-    "back": ""
+    "sie": "rechnen Sie!"
   },
   {
     "infinitive": "arbeiten",
-    "lv": "Pracovat",
+    "lv": "pracovat",
     "du": "arbeite!",
     "ihr": "arbeitet!",
-    "sie": "arbeiten Sie!",
-    "back": ""
+    "sie": "arbeiten Sie!"
   },
   {
     "infinitive": "kommen",
-    "lv": "Přijít",
+    "lv": "přicházet",
     "du": "komm! / komme!",
     "ihr": "kommt!",
-    "sie": "kommen Sie!",
-    "back": ""
+    "sie": "kommen Sie!"
   },
   {
     "infinitive": "gehen",
-    "lv": "Jít",
+    "lv": "jít",
     "du": "geh! / gehe!",
     "ihr": "geht!",
-    "sie": "gehen Sie!",
-    "back": ""
+    "sie": "gehen Sie!"
   },
   {
     "infinitive": "stehen",
-    "lv": "Stát",
+    "lv": "stát",
     "du": "steh! / stehe!",
     "ihr": "steht!",
-    "sie": "stehen Sie!",
-    "back": ""
+    "sie": "stehen Sie!"
   },
   {
     "infinitive": "öffnen",
-    "lv": "Otevřít",
+    "lv": "otevírat",
     "du": "öffne!",
     "ihr": "öffnet!",
-    "sie": "öffnen Sie!",
-    "back": ""
+    "sie": "öffnen Sie!"
   },
   {
     "infinitive": "singen",
-    "lv": "Zpívat",
+    "lv": "zpívat",
     "du": "sing! / singe!",
     "ihr": "singt!",
-    "sie": "singen Sie!",
-    "back": ""
+    "sie": "singen Sie!"
   },
   {
     "infinitive": "tun",
-    "lv": "Dělat",
+    "lv": "dělat",
     "du": "tu!",
     "ihr": "tut!",
-    "sie": "tun Sie!",
-    "back": ""
+    "sie": "tun Sie!"
   },
   {
     "infinitive": "nehmen",
-    "lv": "Vzít",
+    "lv": "brát",
     "du": "nimm!",
     "ihr": "nehmt!",
-    "sie": "nehmen Sie!",
-    "back": ""
+    "sie": "nehmen Sie!"
   }
 ];

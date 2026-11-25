@@ -2,7 +2,7 @@
 
 window.lesson1TrainingCardsHu = [
   {
-    "front": "jössz velem?",
+    "front": "Jössz?",
     "back": "Kommst du?"
   },
   {
@@ -14,11 +14,11 @@ window.lesson1TrainingCardsHu = [
     "back": "Wer singt?"
   },
   {
-    "front": "Márta énekel.",
+    "front": "Marta énekel.",
     "back": "Marta singt."
   },
   {
-    "front": "Kivel mennek?",
+    "front": "Mennek ők?",
     "back": "Gehen sie?"
   },
   {
@@ -26,7 +26,7 @@ window.lesson1TrainingCardsHu = [
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Kivel áll?",
+    "front": "Áll ő?",
     "back": "Steht er?"
   },
   {
@@ -34,109 +34,109 @@ window.lesson1TrainingCardsHu = [
     "back": "Ja, er steht."
   },
   {
-    "front": "Változunk.",
+    "front": "Megyünk.",
     "back": "Wir gehen."
   },
   {
-    "front": "randiztok?",
+    "front": "Mentek?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Alberta márciusa jön.",
+    "front": "Albert és Marta jönnek és mennek.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsHu = [
   {
-    "front": "Ki hallgat?",
+    "front": "Ki kérdez?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paula hallgat.",
+    "front": "Paul kérdez.",
     "back": "Paul fragt."
   },
   {
-    "front": "Hallgattak.",
+    "front": "Ők kérdeznek.",
     "back": "Sie fragen."
   },
   {
-    "front": "Paulas válaszával?",
+    "front": "Válaszol Paul?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nem, nem válaszol, hallgat.",
+    "front": "Nem, ő nem válaszol, ő kérdez.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Marija Paulasszal énekel?",
+    "front": "Énekel Paul és Marie?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nem, nem énekelnek, hanem számolnak.",
+    "front": "Nem, ők nem énekelnek, ők számolnak.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "mit csinálsz",
+    "front": "Mit csinálsz?",
     "back": "Was tust du?"
   },
   {
-    "front": "én énekelek.",
+    "front": "Állok és énekelek.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "miről beszélsz?",
+    "front": "Rajzoltok?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Igen, jövünk, de Maria játszik.",
+    "front": "Igen, mi rajzolunk, de Marie játszik.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "mit csinálsz?",
+    "front": "Mit csináltok?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Visszaküldésünk felelősséggel tartozik.",
+    "front": "Jövünk és válaszolunk.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "mi folyik itt?",
+    "front": "Ki megy?",
     "back": "Wer geht?"
   },
   {
-    "front": "Változunk.",
+    "front": "Megyünk.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsHu = [
   {
-    "front": "kivel számoltál?",
+    "front": "Számolsz?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Nem, nem számolok, hanem számolok.",
+    "front": "Nem, nem számolok, rajzolok.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Ki áll ott?",
+    "front": "Mi áll ott?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Vannak asztalok.",
+    "front": "Ott egy asztal áll.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Ki alszik itt?",
+    "front": "Mi fekszik itt?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Itt hever egy könyv.",
+    "front": "Itt egy könyv fekszik.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "A könyv plonával?",
+    "front": "Vékony a könyv?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -144,98 +144,98 @@ window.lesson3TrainingCardsHu = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Milyen bújik?",
+    "front": "Mi vékony?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "A füzet vékony.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Fa padok?",
+    "front": "Milyen a pad?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "A padok alacsonyak.",
+    "front": "A pad alacsony.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Fa asztalok?",
+    "front": "Milyen az asztal?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Az asztalok magasak.",
+    "front": "Az asztal magas.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sąsiuvinis?",
+    "front": "Fekszik ott egy füzet?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Igen, ott hever egy disznó.",
+    "front": "Igen, ott fekszik egy füzet.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Paula Ateinájával?",
+    "front": "Jön Paul?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nem, Paulas nem válaszol, áll.",
+    "front": "Nem, Paul nem jön, ő áll.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "mi van itt?",
+    "front": "Mi lóg itt?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Itt a kép.",
+    "front": "Itt egy kép lóg.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "mi van ott?",
+    "front": "Mi lóg ott?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Ott egy szalag lóg.",
+    "front": "Ott egy tábla lóg.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsHu = [
   {
-    "front": "A lánynak van egy tolla.",
+    "front": "A lány elvesz egy tollszárat.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "A tollak nem fehérek, hanem feketék.",
+    "front": "A tollszár nem fehér, hanem fekete.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulasnak tolla van.",
+    "front": "Paul elvesz egy tollat.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Milyen toll?",
+    "front": "Milyen a toll?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "A toll hegyével?",
+    "front": "Hegyes a toll?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Van nála kés?",
+    "front": "Elvesz ő egy kést?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nem, van tolla.",
+    "front": "Nem, egy tollat vesz el.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Felteszi a tollat.",
+    "front": "Leteszi a tollat.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Késsel buka?",
+    "front": "Tompa a kés?",
     "back": "Ist das Messer stumpf?"
   },
   {
@@ -247,7 +247,7 @@ window.lesson4TrainingCardsHu = [
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji kilépés tirba.",
+    "front": "Kimegy és dolgozik.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
@@ -255,11 +255,11 @@ window.lesson4TrainingCardsHu = [
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga megmutatja a könyvet.",
+    "front": "Olga egy könyvet mutat.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Milyen könyvet?",
+    "front": "Milyen a könyv?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -270,94 +270,94 @@ window.lesson4TrainingCardsHu = [
 
 window.lesson5TrainingCardsHu = [
   {
-    "front": "Ką myli apa?",
+    "front": "Kit szeret az apa?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Kit dicsér a tanárnő?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "mit csinálsz?",
+    "front": "Mit veszel el?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "mit hallgatsz?",
+    "front": "Kit kérdezel?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Kit szid a tanár?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "A zaklató hallgat a zaklatóra.",
+    "front": "A tanár kérdezi a tanulót.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Hogyan válaszol a diák?",
+    "front": "Hogyan válaszol a tanuló?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys válaszol a blognak.",
+    "front": "A tanuló rosszul válaszol.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "A mokinė válaszol a blog?",
+    "front": "Rosszul válaszol a tanulólány?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nem, mokinė nem egy blogra válaszol, hanem egy jóra.",
+    "front": "Nem, a tanulólány nem válaszol rosszul, jól válaszol.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "A lánynál van egy toll, a toll egy kés.",
+    "front": "A lány elveszi a tollszárat, a tollat és a kést.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji beteszi a kést a tollba.",
+    "front": "Leteszi a kést és a tollszárat.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "A lány megjelenése tirba.",
+    "front": "A lány kimegy és dolgozik.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Milyen gyerek?",
+    "front": "Milyen a gyermek?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Vaika mandagus.",
+    "front": "A gyermek szófogadó.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Az apák olyan anyák, akik szeretik gyermekeiket.",
+    "front": "Az apa és az anya szereti a gyermeket.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsHu = [
   {
-    "front": "Paula ceruzája egy pite.",
+    "front": "Paul elvesz egy ceruzát, és rajzol.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "mit csinált?",
+    "front": "Mit rajzol?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Vödröt húzott.",
+    "front": "Egy vödröt rajzol.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Ki írta a kocsit?",
+    "front": "Ki rajzol egy kocsit?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "A lány agancsot visel.",
+    "front": "A lány egy szánkót rajzol.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Hány tű van?",
+    "front": "Hány tű van itt?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -369,168 +369,168 @@ window.lesson6TrainingCardsHu = [
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Három tűm van.",
+    "front": "Elveszek három tűt.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Adtam két tűt.",
+    "front": "Leteszek két tűt.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Melyek a kiľiņja peilius lemezei?",
+    "front": "Ki számolja meg a késeket és a tányérokat?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Fedővel rendelkezik.",
+    "front": "Ez egy fedő.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Az a fedél.",
+    "front": "Ezek fedők.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Van egy tolla.",
+    "front": "Ez egy toll.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Tollai vannak.",
+    "front": "Ezek tollak.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Mit csinálnak a tanárok?",
+    "front": "Mit csinál a tanár?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "A Mokytojas ima peilė egy biztonságos ceruza.",
+    "front": "A tanár elvesz egy kést, és kihegyezi a ceruzát.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Mi az?",
+    "front": "Mi ez?",
     "back": "Was ist das?"
   },
   {
-    "front": "Tollai vannak.",
+    "front": "Ez egy tollszár.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Egy tollas fa?",
+    "front": "Milyen a tollszár?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "A tollak feketék.",
+    "front": "A tollszár fekete.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsHu = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "kérdezni",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "válaszolni",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "dicsérni",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "szeretni",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "számlálni",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "mutatni",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "rajzolni",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "számolni",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "dolgozni",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "jönni",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "menni",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "állni",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "kinyitni",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "énekelni",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "tenni, csinálni",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "venni, elvenni",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

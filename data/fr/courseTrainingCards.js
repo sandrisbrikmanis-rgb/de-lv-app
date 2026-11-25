@@ -2,23 +2,23 @@
 
 window.lesson1TrainingCardsFr = [
   {
-    "front": "Tu viens",
+    "front": "Viens-tu ?",
     "back": "Kommst du?"
   },
   {
-    "front": "Oui, j'arrive.",
+    "front": "Oui, je viens.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Qui chante ?",
+    "front": "Qui chante ?",
     "back": "Wer singt?"
   },
   {
-    "front": "Martha chante.",
+    "front": "Marta chante.",
     "back": "Marta singt."
   },
   {
-    "front": "Est-ce qu'ils y vont ?",
+    "front": "Y vont-ils ?",
     "back": "Gehen sie?"
   },
   {
@@ -26,7 +26,7 @@ window.lesson1TrainingCardsFr = [
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Est-il debout ?",
+    "front": "Est-il debout ?",
     "back": "Steht er?"
   },
   {
@@ -38,22 +38,22 @@ window.lesson1TrainingCardsFr = [
     "back": "Wir gehen."
   },
   {
-    "front": "Y allez-vous",
+    "front": "Y allez-vous ?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert et Martha vont et viennent.",
+    "front": "Albert et Marta vont et viennent.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsFr = [
   {
-    "front": "Qui demande ?",
+    "front": "Qui demande ?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Demande Paul.",
+    "front": "Paul demande.",
     "back": "Paul fragt."
   },
   {
@@ -61,7 +61,7 @@ window.lesson2TrainingCardsFr = [
     "back": "Sie fragen."
   },
   {
-    "front": "Répondre Paul?",
+    "front": "Paul répond-il ?",
     "back": "Antwortet Paul?"
   },
   {
@@ -69,39 +69,39 @@ window.lesson2TrainingCardsFr = [
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Est-ce que Paul et Maria chantent ?",
+    "front": "Paul et Marie chantent-ils ?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Non, ils ne chantent pas, ils comptent.",
+    "front": "Non, ils ne chantent pas, ils calculent.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Was tust du ?",
+    "front": "Que fais-tu ?",
     "back": "Was tust du?"
   },
   {
-    "front": "Je me lève et je chante.",
+    "front": "Je suis debout et je chante.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Est-ce que tu dessines",
+    "front": "Dessinez-vous ?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Oui, nous dessinons, mais Maria joue.",
+    "front": "Oui, nous dessinons, mais Marie joue.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Que fais-tu",
+    "front": "Que faites-vous ?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Nous venons répondre.",
+    "front": "Nous venons et nous répondons.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Qui part ?",
+    "front": "Qui y va ?",
     "back": "Wer geht?"
   },
   {
@@ -112,31 +112,31 @@ window.lesson2TrainingCardsFr = [
 
 window.lesson3TrainingCardsFr = [
   {
-    "front": "Comptez-vous",
+    "front": "Calcules-tu ?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Non, je ne compte pas, je dessine.",
+    "front": "Non, je ne calcule pas, je dessine.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Qui est là ?",
+    "front": "Qu’est-ce qui se trouve là-bas ?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Il y a un tableau.",
+    "front": "Là-bas, il y a une table.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Qui est ici ?",
+    "front": "Qu’est-ce qui est posé ici ?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Voici le livre.",
+    "front": "Ici, il y a un livre.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Le livre est-il fin ?",
+    "front": "Le livre est-il mince ?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -144,15 +144,15 @@ window.lesson3TrainingCardsFr = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Quel est le plan ?",
+    "front": "Qu’est-ce qui est mince ?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "La boîte aux lettres est fine.",
+    "front": "Le cahier est mince.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Comment est le banc ?",
+    "front": "Comment est le banc ?",
     "back": "Wie ist die Bank?"
   },
   {
@@ -160,7 +160,7 @@ window.lesson3TrainingCardsFr = [
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Comment est le tableau ?",
+    "front": "Comment est la table ?",
     "back": "Wie ist der Tisch?"
   },
   {
@@ -168,15 +168,15 @@ window.lesson3TrainingCardsFr = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Y a-t-il/y a-t-il un cahier ?",
+    "front": "Y a-t-il un cahier là-bas ?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Oui, il y a un cahier.",
+    "front": "Oui, il y a un cahier là-bas.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Est-ce que Paul vient ?",
+    "front": "Paul vient-il ?",
     "back": "Kommt Paul?"
   },
   {
@@ -184,46 +184,46 @@ window.lesson3TrainingCardsFr = [
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Qu'est-ce qui traîne ici ?",
+    "front": "Qu’est-ce qui est accroché ici ?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Il y a une photo accrochée ici.",
+    "front": "Ici, il y a une image accrochée.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Qu'est-ce qui traîne là ?",
+    "front": "Qu’est-ce qui est accroché là-bas ?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Il y a un tableau noir accroché là.",
+    "front": "Là-bas, il y a un tableau accroché.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsFr = [
   {
-    "front": "La fille prend une tige de plume.",
+    "front": "La fille prend un porte-plume.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "La plume n'est pas blanche, elle est noire.",
+    "front": "Le porte-plume n’est pas blanc, il est noir.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul prend la plume.",
+    "front": "Paul prend une plume.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Qu'est-ce qu'une plume ?",
+    "front": "Comment est la plume ?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "La plume est-elle pointue ?",
+    "front": "La plume est-elle pointue ?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Est-ce qu'il prend un couteau ?",
+    "front": "Prend-il un couteau ?",
     "back": "Nimmt er ein Messer?"
   },
   {
@@ -231,19 +231,19 @@ window.lesson4TrainingCardsFr = [
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Il dépose la plume.",
+    "front": "Il pose la plume.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Ist das Messer stumpf ?",
+    "front": "Le couteau est-il émoussé ?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Non, c'est pointu.",
+    "front": "Non, il est tranchant.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Que fait la jeune fille ?",
+    "front": "Que fait la fille ?",
     "back": "Was tut das Mädchen?"
   },
   {
@@ -251,15 +251,15 @@ window.lesson4TrainingCardsFr = [
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Que montre Olga ?",
+    "front": "Que montre Olga ?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga montre le livre.",
+    "front": "Olga montre un livre.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Quel est le livre",
+    "front": "Comment est le livre ?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -270,51 +270,51 @@ window.lesson4TrainingCardsFr = [
 
 window.lesson5TrainingCardsFr = [
   {
-    "front": "Qu'est-ce que papa aime ?",
+    "front": "Qui le père aime-t-il ?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Que loue le professeur ?",
+    "front": "Qui la professeure félicite-t-elle ?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Que prends-tu",
+    "front": "Que prends-tu ?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "À qui demandez-vous ?",
+    "front": "Qui interroges-tu ?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Que gagne un enseignant ?",
+    "front": "Qui le professeur réprimande-t-il ?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Le professeur demande à l'élève.",
+    "front": "Le professeur interroge l’élève.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Comment l’élève répond-il ?",
+    "front": "Comment l’élève répond-il ?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "L'élève répond mal.",
+    "front": "L’élève répond mal.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "L'élève répond-elle mal ?",
+    "front": "L’élève répond-elle mal ?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Non, l'élève ne répond pas mal, elle répond bien.",
+    "front": "Non, l’élève ne répond pas mal, elle répond bien.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "La jeune fille prend une plume, une plume et un couteau.",
+    "front": "La fille prend le porte-plume, la plume et le couteau.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Elle pose le couteau et la plume.",
+    "front": "Elle pose le couteau et le porte-plume.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -322,15 +322,15 @@ window.lesson5TrainingCardsFr = [
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Comment est l'enfant ?",
+    "front": "Comment est l’enfant ?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "L'enfant est bavard.",
+    "front": "L’enfant est sage.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Le père et la mère aiment l'enfant.",
+    "front": "Le père et la mère aiment l’enfant.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
@@ -341,7 +341,7 @@ window.lesson6TrainingCardsFr = [
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Que dessine-t-il ?",
+    "front": "Que dessine-t-il ?",
     "back": "Was zeichnet er?"
   },
   {
@@ -349,23 +349,23 @@ window.lesson6TrainingCardsFr = [
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Qui tire la charrette ?",
+    "front": "Qui dessine une charrette ?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "La jeune fille dessine un traîneau.",
+    "front": "La fille dessine une luge.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Combien y a-t-il d'aiguilles ?",
+    "front": "Combien d’aiguilles y a-t-il ici ?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Il y a six aiguilles ici.",
+    "front": "Ici, il y a six aiguilles.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Combien d'assiettes ?",
+    "front": "Combien d’assiettes ?",
     "back": "Wieviel Teller?"
   },
   {
@@ -377,19 +377,19 @@ window.lesson6TrainingCardsFr = [
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Qui compte les couteaux et les assiettes ?",
+    "front": "Qui compte les couteaux et les assiettes ?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "C'est une couverture.",
+    "front": "C’est un couvercle.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Ce sont les couvertures.",
+    "front": "Ce sont des couvercles.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "C'est une plume.",
+    "front": "C’est une plume.",
     "back": "Das ist eine Feder."
   },
   {
@@ -397,140 +397,140 @@ window.lesson6TrainingCardsFr = [
     "back": "Das sind Federn."
   },
   {
-    "front": "Que fait le professeur ?",
+    "front": "Que fait le professeur ?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Le professeur prend un couteau et taille un crayon.",
+    "front": "Le professeur prend un couteau et taille le crayon.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Qu'est-ce que c'est ?",
+    "front": "Qu’est-ce que c’est ?",
     "back": "Was ist das?"
   },
   {
-    "front": "Il est à plumes.",
+    "front": "C’est un porte-plume.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Qu'est-ce qui est à plumes ?",
+    "front": "Comment est le porte-plume ?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "La plume est noire.",
+    "front": "Le porte-plume est noir.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsFr = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "demander",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "répondre",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "louer, féliciter",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "aimer",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "compter",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "montrer",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "dessiner",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "calculer",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "travailler",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "venir",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "aller",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "être debout",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "ouvrir",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "chanter",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "faire",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "prendre",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"
