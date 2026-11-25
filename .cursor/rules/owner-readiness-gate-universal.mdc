@@ -69,8 +69,6 @@ When no `SCOPE_REGISTRY` entry exists, the module must define its own verify scr
 
 | Module | Generator | Verify |
 |---|---|---|
-| Crowdin UI INTENTIONAL_SAME | `build-crowdin-ui-intentional-same-lock-owner.js` | `npm run i18n:ui:verify-intentional-locks` |
-| Crowdin UI (full) | `audit-crowdin-ui-untranslated.js` | `npm run i18n:ui:verify` |
 | MASTER v1.9 publisher | `publishOwnerArtifacts()` | `node scripts/test-owner-artifact-publisher.js` (tooling) |
 
 **Pattern for new modules:** add `scripts/build-<module>-owner-*.js` + `scripts/verify-<module>-owner-*.js` (or npm script) before claiming readiness.
