@@ -166,10 +166,6 @@
     const splash = document.getElementById("appSplashScreen");
     if (splash) {
       splash.setAttribute("aria-label", window.AppI18n.t("splash.ariaLabel"));
-      const splashTitle = splash.querySelector(".app-splash-title");
-      const splashSubtitle = splash.querySelector(".app-splash-subtitle");
-      if (splashTitle) splashTitle.textContent = window.AppI18n.t("splash.title");
-      if (splashSubtitle) splashSubtitle.textContent = window.AppI18n.t("splash.subtitle");
     }
     const languageScreen = document.getElementById("appLanguageScreen");
     if (languageScreen) {
