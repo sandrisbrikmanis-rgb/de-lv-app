@@ -2435,10 +2435,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson15": {
-    "id": "lección 15",
+    "id": "lesson15",
     "title": "Lección 15",
-    "subtitle": "sollen, dürfen, essen, fruta",
-    "intro": "Decimoquinta lección: sollen, dürfen, essen y palabras sobre frutas.",
+    "subtitle": "sollen, dürfen, essen, las frutas",
+    "intro": "Decimoquinta lección: sollen, dürfen, essen y vocabulario de frutas.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -2471,48 +2471,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "sollen — deber",
-          "ich soll — necesito / tengo que hacer",
-          "du sollst — necesitas / debes hacer",
-          "er soll — él necesita / tiene que",
-          "wir sollen — necesitamos / tenemos que hacer",
-          "ihr sollt — necesitas / deberías",
-          "sie sollen — ellos / ellos necesitan",
-          "dürfen — poder",
-          "ich darf — puedo",
-          "du darfst — tú puedes",
-          "er darf — él puede",
-          "wir dürfen — podemos",
-          "ihr dürft — vosotros podéis",
-          "sie dürfen — ellos / ellos pueden",
+          "sollen — deber / tener la obligación de",
+          "ich soll — debo / tengo que hacerlo",
+          "du sollst — debes / tienes que hacerlo",
+          "er soll — él debe / él tiene que hacerlo",
+          "wir sollen — debemos / tenemos que hacerlo",
+          "ihr sollt — debéis / tenéis que hacerlo",
+          "sie sollen — ellos / ellas deben",
+          "dürfen — poder, tener permiso",
+          "ich darf — puedo, tengo permiso",
+          "du darfst — puedes, tienes permiso",
+          "er darf — él puede, él tiene permiso",
+          "wir dürfen — podemos, tenemos permiso",
+          "ihr dürft — podéis, tenéis permiso",
+          "sie dürfen — ellos / ellas pueden, tienen permiso",
           "nicht — no",
-          "das Messer — cuchillo",
-          "der Apfel — manzana",
-          "die Äpfel — manzanas",
+          "das Messer — el cuchillo",
+          "der Apfel — la manzana",
+          "die Äpfel — las manzanas",
           "schälen — pelar",
-          "entzweischneiden — cortar por la mitad",
-          "die Birne — pera",
-          "die Birnen — peras",
-          "die Pflaume — ciruela",
-          "die Pflaumen — ciruelas",
-          "die Kirsche — cereza",
-          "die Kirschen — cerezas",
-          "gern — de buena gana",
+          "entzweischneiden — partir por la mitad",
+          "die Birne — la pera",
+          "die Birnen — las peras",
+          "die Pflaume — la ciruela",
+          "die Pflaumen — las ciruelas",
+          "die Kirsche — la cereza",
+          "die Kirschen — las cerezas",
+          "gern — con gusto",
           "reif — maduro",
-          "unreif — no entres / no madures",
-          "nehmen — tomar",
-          "ich nehme — tomo",
-          "du nimmst — tomas",
-          "er nimmt — él toma",
+          "unreif — verde, no maduro",
+          "nehmen — tomar, coger",
+          "ich nehme — tomo, cojo",
+          "du nimmst — tomas, coges",
+          "er nimmt — él toma, él coge",
           "essen — comer",
-          "ich esse — yo como",
-          "du isst — tú comes",
+          "ich esse — como",
+          "du isst — comes",
           "er isst — él come",
           "wir essen — comemos",
-          "ihr esst — vosotros coméis",
-          "sie essen — ellos comen"
+          "ihr esst — coméis",
+          "sie essen — ellos / ellas comen"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen expresa deber u obligación, normalmente por indicación de otra persona."
+            "text": "Sollen significa «deber» en el sentido de una obligación."
           },
           {
             "heading": "Comparación",
             "examples": [
-              "müssen — tener que / deber",
-              "sollen — deber",
+              "müssen — tener que (por necesidad o convicción)",
+              "sollen — deber (por obligación)",
               "Ich muss lernen. — Tengo que estudiar porque es necesario.",
               "Ich soll lernen. — Debo estudiar porque es mi obligación."
             ]
           },
           {
             "heading": "Formas de sollen",
-            "text": "El verbo sollen tiene la misma 1ª y 3ª persona del presente del singular.",
+            "text": "En el presente del verbo sollen, la 1.ª y la 3.ª persona del singular son iguales.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen significa «tener permiso». En el verbo dürfen, la vocal del radical es a en singular y ü en plural.",
+            "text": "Dürfen significa «poder, tener permiso». En singular, la vocal de la raíz de dürfen es a, y en plural, ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "El verbo essen se conjuga así:",
+            "text": "Essen se conjuga así.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ortografía moderna",
-            "text": "Con la ortografía moderna, se escriben las formas: du isst, er/sie/es isst, ihr esst."
+            "heading": "Ortografía actual",
+            "text": "Si se usa la ortografía actual, se puede escribir: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "En el verbo entzweischneiden, el énfasis recae en el prefijo separable entzwei-, por lo que, en presente, este se separa y se coloca al final de la oración.",
+            "text": "En el verbo compuesto entzweischneiden el acento recae en el prefijo entzwei-, por eso en presente el prefijo se separa y va al final de la oración.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Corto la manzana en dos."
+              "Ich schneide den Apfel entzwei. — Parto la manzana por la mitad."
             ]
           }
         ]
@@ -2583,23 +2583,23 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "En Äpfel y schälen, ä se pronuncia como una e abierta.",
-          "En Äpfel, ä es corta porque va seguida de dos consonantes.",
-          "En schälen, ä es larga porque va seguida de una sola consonante.",
-          "En gern, la e es corta y abierta.",
-          "Recuerda: el diptongo ei en alemán se pronuncia como ai: reif, unreif."
+          "La ä de las palabras Äpfel y schälen se pronuncia como una e cerrada.",
+          "En la palabra Äpfel la ä es breve, porque a la vocal le siguen dos consonantes.",
+          "En la palabra schälen la ä es larga, porque a la vocal le sigue una sola consonante.",
+          "En la palabra gern la e es breve y abierta.",
+          "Recuerda: el diptongo alemán ei se pronuncia ai: reif, unreif."
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "¿Quién está sano, quién puede trabajar?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Francisco está sano, puede trabajar.",
+            "lv": "Franz está sano, puede trabajar.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
@@ -2607,15 +2607,15 @@ const COURSE_LESSON_DATA = {
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "No, el abuelo no puede trabajar porque está enfermo.",
+            "lv": "No, el abuelo no puede trabajar, porque está enfermo.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Madre, ¿puedo comer ciruelas?",
+            "lv": "Madre, ¿puedo comerme las ciruelas?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "No, no debes comerte las ciruelas; están verdes.",
+            "lv": "No, no debes comerte las ciruelas, están verdes.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
@@ -2623,11 +2623,11 @@ const COURSE_LESSON_DATA = {
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
-            "lv": "Yo como una pera.",
+            "lv": "Como una pera.",
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "¿A qué sabe una pera?",
+            "lv": "¿Qué tal sabe la pera?",
             "de": "Wie mundet die Birne?"
           },
           {
@@ -2639,7 +2639,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Un estudiante debe estudiar.",
+            "lv": "El alumno tiene que estudiar.",
             "de": "Der Schüler muss lernen."
           },
           {
@@ -2651,11 +2651,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "¿Puede un niño coger un cuchillo?",
+            "lv": "¿Puede el niño coger el cuchillo?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Un niño no debe coger un cuchillo porque está afilado.",
+            "lv": "El niño no debe coger el cuchillo, porque el cuchillo está afilado.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2663,38 +2663,38 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson16": {
-    "id": "lección 16",
+    "id": "lesson16",
     "title": "Lección 16",
-    "subtitle": "Dativs, geben, sich nähern",
-    "intro": "Decimosexta lección: el dativo, geben, sich nähern y ejercicios sobre el dativo.",
+    "subtitle": "El dativo, geben, sich nähern",
+    "intro": "Decimosexta lección: el dativo, geben, sich nähern y ejercicios de dativo.",
     "sections": [
       {
         "title": "Texto / Lectura",
         "items": [
-          "¿A quién le regala el padre un libro?",
-          "El padre le regala un libro al hijo.",
-          "El padre les regala libros a los hijos.",
-          "¿A quién se acerca la madre?",
-          "La madre se acerca a la hija.",
-          "La madre se acerca a las hijas.",
-          "¿A quién le da la criada pan y leche?",
-          "La criada le da pan y leche al niño.",
-          "La criada les da pan y leche a los niños.",
-          "¿A quién obedecen los niños?",
-          "Obedecen a sus padres.",
-          "¿A quién obedece el perro?",
-          "El perro obedece al criado.",
-          "¿A quién pertenecen los campos, los prados y los bosques?",
-          "Los campos, los prados y los bosques pertenecen a los agricultores y las agricultoras.",
-          "¿A quién sigue el perro?",
-          "El perro sigue al cazador.",
-          "El perro es fiel al cazador."
+          "Wem schenkt der Vater ein Buch?",
+          "Der Vater schenkt dem Sohne ein Buch.",
+          "Der Vater schenkt den Söhnen Bücher.",
+          "Wem nähert sich die Mutter?",
+          "Die Mutter nähert sich der Tochter.",
+          "Die Mutter nähert sich den Töchtern.",
+          "Wem gibt die Magd Brot und Milch?",
+          "Die Magd gibt dem Kinde Brot und Milch.",
+          "Die Magd gibt den Kindern Brot und Milch.",
+          "Wem gehorchen die Kinder?",
+          "Sie gehorchen den Eltern.",
+          "Wem gehorcht der Hund?",
+          "Der Hund gehorcht dem Knechte.",
+          "Wem gehören die Felder, die Wiesen und die Wälder?",
+          "Die Felder, die Wiesen und die Wälder gehören den Bauern und den Bäuerinnen.",
+          "Wem folgt der Hund?",
+          "Der Hund folgt dem Jäger.",
+          "Der Hund ist dem Jäger treu."
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "wem — kam?",
+          "wem — ¿a quién?",
           "schenken — regalar",
           "dem Sohne — al hijo",
           "den Söhnen — a los hijos",
@@ -2702,25 +2702,25 @@ const COURSE_LESSON_DATA = {
           "ich nähere mich — me acerco",
           "du näherst dich — te acercas",
           "geben — dar",
-          "ich gebe — yo doy",
-          "du gibst — tú das",
+          "ich gebe — doy",
+          "du gibst — das",
           "er gibt — él da",
-          "die Magd — criada",
+          "die Magd — la criada",
           "Brot — pan",
           "Milch — leche",
           "gehorchen — obedecer",
-          "der Knecht — criado",
+          "der Knecht — el mozo, el criado",
           "gehören — pertenecer",
-          "das Feld — campo",
-          "die Felder — campos",
-          "die Wiese — prado",
-          "die Wiesen — prados",
-          "der Wald — bosque",
-          "die Wälder — bosques",
-          "der Bauer — campesino",
-          "die Bäuerin — campesina",
+          "das Feld — el campo",
+          "die Felder — los campos",
+          "die Wiese — el prado",
+          "die Wiesen — los prados",
+          "der Wald — el bosque",
+          "die Wälder — los bosques",
+          "der Bauer — el campesino",
+          "die Bäuerin — la campesina",
           "folgen — seguir",
-          "der Jäger — cazador",
+          "der Jäger — el cazador",
           "treu — fiel"
         ]
       },
@@ -2728,8 +2728,8 @@ const COURSE_LESSON_DATA = {
         "title": "Gramática",
         "items": [
           {
-            "heading": "Dativo",
-            "text": "El dativo responde a la pregunta: ¿wem? — ¿A quién?"
+            "heading": "El dativo",
+            "text": "El dativo responde a la pregunta: wem? — ¿a quién?"
           },
           {
             "heading": "Singular",
@@ -2741,19 +2741,19 @@ const COURSE_LESSON_DATA = {
                 "Neutro"
               ],
               [
-                "Nominativo",
+                "Nominativ",
                 "der Sohn",
                 "die Tochter",
                 "das Kind"
               ],
               [
-                "Dativo",
+                "Dativ",
                 "dem Sohn(e)",
                 "der Tochter",
                 "dem Kind(e)"
               ],
               [
-                "Acusativo",
+                "Akkusativ",
                 "den Sohn",
                 "die Tochter",
                 "das Kind"
@@ -2770,19 +2770,19 @@ const COURSE_LESSON_DATA = {
                 "Neutro"
               ],
               [
-                "Nominativo",
+                "Nominativ",
                 "die Söhne",
                 "die Töchter",
                 "die Kinder"
               ],
               [
-                "Dativo",
+                "Dativ",
                 "den Söhnen",
                 "den Töchtern",
                 "den Kindern"
               ],
               [
-                "Acusativo",
+                "Akkusativ",
                 "die Söhne",
                 "die Töchter",
                 "die Kinder"
@@ -2791,7 +2791,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "La -e del dativo",
-            "text": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, esta terminación suele omitirse.",
+            "text": "Los sustantivos masculinos y neutros pueden tomar la terminación -e en el dativo singular. Hoy en día esta terminación suele omitirse.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Femenino en dativo",
-            "text": "Los sustantivos femeninos no llevan terminación en dativo singular.",
+            "heading": "El femenino en dativo",
+            "text": "Los sustantivos femeninos no toman terminación en el dativo singular.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artículo indefinido en dativo",
+            "heading": "El artículo indeterminado en dativo",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dativo plural",
-            "text": "El artículo dativo plural y el sustantivo suelen tener la terminación -n.",
+            "heading": "El dativo plural",
+            "text": "En el dativo plural, el artículo y el sustantivo suelen tomar la terminación -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,7 +2830,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Cuando el plural ya termina en -n",
+            "heading": "Si el plural ya termina en -n",
             "text": "Si el plural ya termina en -n, no se añade otra -n.",
             "examples": [
               "die Wiesen — den Wiesen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "En el verbo geben, e cambia a i en la segunda y tercera persona del singular.",
+            "text": "En el verbo geben, la e se convierte en i en la 2.ª y 3.ª persona del singular.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Verbo reflexivo: sich nähern - acercarse.",
+            "text": "Verbo reflexivo: sich nähern — acercarse.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,26 +2857,26 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Plural con umlaut",
+            "heading": "Plural con Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "Palabras que se utilizan a menudo sin el artículo: die Milch, das Brot."
+            "heading": "Sin artículo",
+            "text": "Palabras que suelen usarse sin artículo: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Pronunciación",
         "items": [
-          "En wem, dem, den y der, la e es larga y cerrada.",
-          "En gehorchen, la h se pronuncia: ge-hor-chen.",
-          "En die Wälder, ä se pronuncia como una e corta y abierta.",
-          "En die Bäuerinnen, äu se pronuncia «oi».",
-          "ie representa una i larga: die Wiese."
+          "En las palabras wem, dem, den, der — la e es larga y cerrada.",
+          "En la palabra gehorchen la h se oye: ge-hor-chen.",
+          "die Wälder: la ä se pronuncia como una e cerrada breve.",
+          "die Bäuerinnen: äu se pronuncia oi.",
+          "-ie indica una i larga: die Wiese."
         ]
       },
       {
@@ -2884,96 +2884,96 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Pon el article correcto en dativo/acusativo según el significado de la oración.",
+            "task": "Escribe el artículo correcto en dativo/acusativo según el sentido de la oración.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Pon el article correcto en dativo/acusativo según el significado de la oración.",
+            "task": "Escribe el artículo correcto en dativo/acusativo según el sentido de la oración.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Pon el article correcto en dativo/acusativo según el significado de la oración.",
+            "task": "Escribe el artículo correcto en dativo/acusativo según el sentido de la oración.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Pon el article correcto en dativo/acusativo según el significado de la oración.",
+            "task": "Escribe el artículo correcto en dativo/acusativo según el sentido de la oración.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Pon el article correcto en dativo/acusativo según el significado de la oración.",
+            "task": "Escribe el artículo correcto en dativo/acusativo según el sentido de la oración.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Pon el article correcto en dativo/acusativo según el significado de la oración.",
+            "task": "Escribe el artículo correcto en dativo/acusativo según el sentido de la oración.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Pon el article correcto en el dativo.",
+            "task": "Escribe el artículo correcto en dativo.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Convertir a plural.",
+            "task": "Pasa al plural.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Convertir a plural.",
+            "task": "Pasa al plural.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "¿A quién llama el padre?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Llama a su hijo y a su hija.",
+            "lv": "Llama al hijo y a la hija.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
@@ -2981,15 +2981,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Este bosque pertenece al agricultor.",
+            "lv": "Este bosque pertenece al campesino.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Kam paklausa soles?",
+            "lv": "¿A quién obedece el perro?",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "El perro obedece a los sirvientes y criadas.",
+            "lv": "El perro obedece a los mozos y a las criadas.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3013,15 +3013,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Los perros son leales.",
+            "lv": "Los perros son fieles.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "¿Quién se acerca a los alumnos y las alumnas?",
+            "lv": "¿Quién se acerca a los alumnos y a las alumnas?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "El profesor se acerca a los alumnos.",
+            "lv": "El profesor se acerca a los alumnos y a las alumnas.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3029,10 +3029,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson17": {
-    "id": "lección 17",
+    "id": "lesson17",
     "title": "Lección 17",
-    "subtitle": "mit + Dativ, womit / mit wem, verbos con diéresis",
-    "intro": "Decimoséptima conferencia: mit + Dativ, womit / mit wem y verbos con diéresis.",
+    "subtitle": "mit + Dativ, womit / mit wem, verbos con Umlaut",
+    "intro": "Decimoséptima lección: mit + Dativ, womit / mit wem y los verbos con Umlaut.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "der Spaten — pala",
-          "die Grube — hoyo",
+          "der Spaten — la pala",
+          "die Grube — el hoyo, la fosa",
           "graben — cavar",
-          "womit — ar ko?",
-          "der Ball — pelota",
-          "werfen — lanzar",
-          "fangen — atrapar",
-          "auffangen — atrapar / atrapar",
-          "wieder — de nuevo",
-          "der Schuldiener — conserje de la escuela",
-          "der Besen — escoba",
-          "fegen — barrer",
-          "die Diele — vestíbulo",
-          "der Lappen — trapo",
-          "wischen — limpiar / limpiar",
-          "abwischen — limpiar",
+          "womit — ¿con qué?",
+          "der Ball — la pelota",
+          "werfen — lanzar, tirar",
+          "fangen — coger, atrapar",
+          "auffangen — atrapar / coger al vuelo",
+          "wieder — otra vez, de nuevo",
+          "der Schuldiener — el conserje de la escuela",
+          "der Besen — la escoba",
+          "fegen — barrer (con escoba)",
+          "die Diele — el suelo",
+          "der Lappen — el trapo / el paño",
+          "wischen — pasar un trapo / limpiar",
+          "abwischen — limpiar, quitar con un trapo",
           "helfen — ayudar",
-          "danken — agradecer",
-          "der Freund — amigo",
-          "die Freundin — amiga",
-          "die Freundinnen — amigas",
+          "danken — dar las gracias, agradecer",
+          "der Freund — el amigo",
+          "die Freundin — la amiga",
+          "die Freundinnen — las amigas",
           "mit — con",
           "mit wem — ¿con quién?",
-          "der Staub — polvo",
-          "der Bruder — hermano",
-          "die Schwester — hermana",
-          "die Dienerin — criada"
+          "der Staub — el polvo",
+          "der Bruder — el hermano",
+          "die Schwester — la hermana",
+          "die Dienerin — la sirvienta"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "La preposición mit siempre va con el caso dativo. Español: mit = con."
+            "text": "La preposición mit siempre rige dativo. En español: mit = con."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "La pregunta alemana \"¿con qué?\" expresado de dos maneras: mit wem? — ¿Sobre las personas, mujer? — sobre cosas/temas.",
+            "text": "En alemán, la pregunta «¿con quién?» o «¿con qué?» se expresa de dos maneras: mit wem? — para personas, womit? — para cosas/objetos.",
             "examples": [
               "Mit wem spricht der Bruder? — ¿Con quién habla el hermano?",
-              "Womit gräbt der Knabe die Grube? — ¿Con qué cava el niño el hoyo?"
+              "Womit gräbt der Knabe die Grube? — ¿Con qué cava el muchacho el hoyo?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "En graben, fangen y auffangen, la vocal de la raíz cambia a ä en la 2.ª y 3.ª persona del singular.",
+            "text": "Los verbos graben, fangen, auffangen llevan Umlaut en la 2.ª y 3.ª persona del singular.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "En los verbos helfen y werfen en la 2.ª y 3.ª persona del singular, la raíz e cambia a i.",
+            "text": "En los verbos helfen y werfen, la e de la raíz se convierte en i en la 2.ª y 3.ª persona del singular.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3148,7 +3148,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Prefijos separables",
-            "text": "Los verbos compuestos auffangen y abwischen tienen un prefijo separable. Por tanto, el prefijo verbal se separa y se coloca al final de la oración.",
+            "text": "En los verbos compuestos auffangen y abwischen el acento recae en el prefijo. Por eso, en presente, el prefijo se separa y va al final de la oración.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen significa «barrer», mientras que wischen significa «limpiar o pasar un paño»; su uso es diferente.",
+            "text": "Fegen y wischen significan ambos limpiar una superficie, pero se usan de forma distinta.",
             "examples": [
-              "fegen — barrer",
+              "fegen — barrer (con escoba)",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — limpiar con un paño / quitar el polvo",
+              "wischen / abwischen — limpiar con un trapo o un paño, quitar el polvo",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "En werfen, la primera e es abierta.",
-          "En wieder, la e final se pronuncia como una vocal neutra o reducida [ə].",
-          "En wieder y die Diele, ie representa una i larga.",
-          "En der Spaten, sp se pronuncia «shp»."
+          "En la palabra werfen la primera e es abierta: werfen.",
+          "En la palabra wieder la e es abierta: wieder.",
+          "En las palabras wieder y die Diele, ie indica una i larga: wieder, die Diele.",
+          "En la palabra der Spaten, sp se pronuncia shp: der Spaten."
         ]
       },
       {
@@ -3181,35 +3181,35 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Responda en singular y luego en plural.",
+            "task": "Responde en singular y después en plural.",
             "task2": "Ahora responde en plural.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Responda en singular y luego en plural.",
+            "task": "Responde en singular y después en plural.",
             "task2": "Ahora responde en plural.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Responda en singular y luego en plural.",
+            "task": "Responde en singular y después en plural.",
             "task2": "Ahora responde en plural.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Responda en singular y luego en plural.",
+            "task": "Responde en singular y después en plural.",
             "task2": "Ahora responde en plural.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Responda en singular y luego en plural.",
+            "task": "Responde en singular y después en plural.",
             "task2": "Ahora responde en plural.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
@@ -3217,11 +3217,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "¿Qué es más ancha, la puerta o la ventana?",
+            "lv": "¿Qué es más ancho, la puerta o la ventana?",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
@@ -3237,27 +3237,27 @@ const COURSE_LESSON_DATA = {
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "¿Con qué limpia la niña el polvo?",
+            "lv": "¿Con qué quita la niña el polvo?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "¿Con quién está hablando la chica?",
+            "lv": "¿Con quién habla la niña?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
-            "lv": "Ella está hablando con el jardinero.",
+            "lv": "Habla con el jardinero.",
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "¿Está hablando con un amigo?",
+            "lv": "¿Habla con el amigo?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "No, ella está hablando con sus amigos.",
+            "lv": "No, habla con los amigos.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "¿A quién ayuda el chico?",
+            "lv": "¿A quién ayuda el muchacho?",
             "de": "Wem hilft der Knabe?"
           },
           {
@@ -3265,11 +3265,11 @@ const COURSE_LESSON_DATA = {
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "¿Con qué corta el papel?",
+            "lv": "¿Con qué parte el papel por la mitad?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Corta el papel con unas tijeras.",
+            "lv": "Parte el papel por la mitad con las tijeras.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
@@ -3277,7 +3277,7 @@ const COURSE_LESSON_DATA = {
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Dibuja con lápiz y tiza.",
+            "lv": "Dibuja con el lápiz y con la tiza.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
@@ -3293,7 +3293,7 @@ const COURSE_LESSON_DATA = {
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Trabajamos con nuestras manos.",
+            "lv": "Trabajamos con las manos.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
@@ -3301,15 +3301,15 @@ const COURSE_LESSON_DATA = {
             "de": "Womit sehen wir?"
           },
           {
-            "lv": "Vemos con nuestros ojos.",
+            "lv": "Vemos con los ojos.",
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "¿Con qué escuchamos?",
+            "lv": "¿Con qué oímos?",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Oímos con nuestros oídos.",
+            "lv": "Oímos con los oídos.",
             "de": "Wir hören mit den Ohren."
           },
           {
@@ -3317,7 +3317,7 @@ const COURSE_LESSON_DATA = {
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "El hermano va con su padre, con su madre, con su maestro, con su tío, con su tía, con su primo y con su prima.",
+            "lv": "El hermano va con el padre, con la madre, con el profesor, con el tío, con la tía, con el primo, con la prima.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3327,8 +3327,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson18": {
     "id": "lesson18",
     "title": "Lección 18",
-    "subtitle": "wohin / wo, Akkusativ vai Dativ ar an / in / auf",
-    "intro": "Decimoctava conferencia: wohin / wo, Akkusativ o Dativ con an / in / auf.",
+    "subtitle": "wohin / wo, Akkusativ o Dativ con an / in / auf",
+    "intro": "Decimoctava lección: wohin / wo, Akkusativ o Dativ con an / in / auf.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
+          "wohin — ¿adónde?",
+          "wo — ¿dónde?",
           "tragen — llevar",
-          "ich trage — yo llevo",
-          "du trägst — tú llevas",
-          "er/sie/es trägt — él/ella/ello lleva",
-          "der Korb — cesta",
-          "die Körbe — cestas",
-          "das Körbchen — cestita",
-          "stellen — poner en posición vertical",
-          "legen — poner",
-          "das Wasser — agua",
-          "gießen — verter / regar",
-          "der Krug — jarra",
-          "die Krüge — jarras",
+          "ich trage — llevo",
+          "du trägst — llevas",
+          "er/sie/es trägt — él/ella lleva",
+          "der Korb — la cesta",
+          "die Körbe — las cestas",
+          "das Körbchen — la cestita",
+          "stellen — colocar / poner de pie",
+          "legen — poner / poner tumbado",
+          "das Wasser — el agua",
+          "gießen — echar, verter",
+          "der Krug — la jarra",
+          "die Krüge — las jarras",
           "jetzt — ahora",
-          "an — en",
-          "auf — sobre / encima de",
-          "in — en",
-          "der Tisch — mesa",
-          "die Bank — banco",
-          "die Diele — recibidor",
-          "der Eimer — cubo"
+          "an — junto a",
+          "auf — sobre, en",
+          "in — en / dentro de",
+          "der Tisch — la mesa",
+          "die Bank — el banco",
+          "die Diele — el suelo",
+          "der Eimer — el cubo"
         ]
       },
       {
@@ -3389,96 +3389,96 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Las preposiciones an, in y auf pueden acompañar tanto al acusativo como al dativo."
+            "text": "Las preposiciones an, in, auf pueden ir tanto con Akkusativ como con Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Si la acción indica un cambio de dirección o de lugar, se utiliza el acusativo. Pregunta: ¿adónde?",
+            "text": "Si la acción indica una dirección o un cambio de lugar, se usa el Akkusativ. Pregunta: wohin? — ¿adónde?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Pongo las manzanas en la cesta.",
-              "Ich gieße das Wasser in den Krug. — Vierto el agua en la jarra."
+              "Ich gehe an den Tisch. — Voy a la mesa.",
+              "Ich stelle den Korb auf die Bank. — Pongo la cesta en el banco.",
+              "Ich lege die Äpfel in das Körbchen. — Meto las manzanas en la cestita.",
+              "Ich gieße das Wasser in den Krug. — Echo el agua en la jarra."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Si la acción indica ubicación o estado, se utiliza el dativo. Pregunta: ¿wo? - ¿dónde?",
+            "text": "Si la acción indica un lugar o una posición, se usa el Dativ. Pregunta: wo? — ¿dónde?",
             "examples": [
               "Ich stehe an dem Tische. — Estoy de pie junto a la mesa.",
-              "Der Korb steht auf der Bank. — La cesta está sobre el banco.",
-              "Die Äpfel sind in dem Körbchen. — Las manzanas están en la cesta.",
+              "Der Korb steht auf der Bank. — La cesta está en el banco.",
+              "Die Äpfel sind in dem Körbchen. — Las manzanas están en la cestita.",
               "Das Wasser ist in dem Kruge. — El agua está en la jarra."
             ]
           },
           {
             "heading": "Verbos con wohin?",
-            "text": "Estos verbos suelen indicar dirección y, por tanto, responden a la pregunta ¿wohin?",
+            "text": "Estos verbos suelen indicar una dirección y por eso responden a la pregunta wohin?",
             "examples": [
-              "gehen — iet",
+              "gehen — ir",
               "kommen — venir",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
+              "fahren — ir (en vehículo), viajar",
+              "laufen — correr",
+              "fliegen — volar",
               "springen — saltar",
-              "kriechen — gatear",
-              "schleichen — deslizarse sigilosamente",
+              "kriechen — arrastrarse, gatear",
+              "schleichen — andar sigilosamente",
               "hängen — colgar",
               "sich setzen — sentarse",
-              "sich stellen — ponerse de pie / colocarse",
-              "werfen — lanzar",
-              "reiten — montar"
+              "sich stellen — ponerse, colocarse",
+              "werfen — lanzar, tirar",
+              "reiten — montar a caballo"
             ]
           },
           {
             "heading": "Verbos con wo?",
-            "text": "Estos verbos suelen indicar ubicación o estado y, por tanto, responden a la pregunta ¿wo?",
+            "text": "Estos verbos suelen indicar un lugar o una posición y por eso responden a la pregunta wo?",
             "examples": [
-              "sein — ser",
-              "sich befinden — atrasties",
+              "sein — ser, estar",
+              "sich befinden — encontrarse, hallarse",
               "arbeiten — trabajar",
-              "liegen — estar tumbado / estar situado",
+              "liegen — estar tumbado / yacer",
               "sitzen — estar sentado",
-              "hängen — colgar",
-              "finden — atrast",
+              "hängen — estar colgado",
+              "finden — encontrar",
               "suchen — buscar",
               "spielen — jugar"
             ]
           },
           {
-            "heading": "Nombres de sustancias",
-            "text": "Los sustantivos suelen aparecer sin artículo.",
+            "heading": "Sustantivos de materia",
+            "text": "Los sustantivos de materia suelen usarse sin artículo.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Hay agua en el cubo."
+              "Ich trinke Milch. — Bebo leche.",
+              "In dem Eimer ist Wasser. — En el cubo hay agua."
             ]
           },
           {
-            "heading": "Sustancia concreta",
-            "text": "Si la sustancia se menciona en una determinada cantidad o en un determinado lugar, entonces se utiliza el artículo.",
+            "heading": "Una materia concreta",
+            "text": "Si la materia se menciona en una cantidad determinada o en un lugar concreto, se usa el artículo.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Vierto el agua en la jarra."
+              "Ich gieße das Wasser in den Krug. — Echo el agua en la jarra."
             ]
           },
           {
-            "heading": "in + ubicación",
-            "text": "Si la preposición in no se traduce como «en», sino que expresa una ubicación, se utiliza el dativo.",
+            "heading": "in + lugar",
+            "text": "Si la preposición in no significa «dentro», sino que expresa simplemente el lugar, en español se traduce sencillamente por «en».",
             "examples": [
               "in dem Eimer — en el cubo",
               "in dem Zimmer — en la habitación"
             ]
           },
           {
-            "heading": "Formas modernas",
-            "text": "Las formas antiguas como dem Tische, dem Kruge, im Walde se utilizan a menudo de forma más breve hoy en día: dem Tisch, dem Krug, im Wald."
+            "heading": "Formas actuales",
+            "text": "Las formas antiguas, como dem Tische, dem Kruge, im Walde, hoy en día suelen usarse en forma más corta: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Pronunciación",
         "items": [
-          "En wohin, la h se pronuncia: wo-hin.",
-          "En wo, la o es larga."
+          "En la palabra wohin la h se oye: wo-hin.",
+          "En la palabra wo la o es larga: wo."
         ]
       },
       {
@@ -3486,56 +3486,56 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Elige la conjugación correcta: Dativ o Akkusativ.",
+            "task": "Elige el caso correcto: Dativ o Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "¿Adónde va el criado?",
+            "lv": "¿Adónde viene el criado?",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Entra en la habitación.",
+            "lv": "Viene a la habitación.",
             "de": "Er kommt in das Zimmer."
           },
           {
@@ -3547,7 +3547,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "El hombre pone el banco junto a la ventana.",
+            "lv": "El hombre coloca el banco junto a la ventana.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
@@ -3567,15 +3567,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "La madre pone la cesta sobre el armario.",
+            "lv": "La madre pone la cesta encima del armario.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "La cesta está sobre el armario.",
+            "lv": "La cesta está encima del armario.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "El estudiante pone los cuadernos en la carpeta.",
+            "lv": "El alumno mete los cuadernos en la cartera.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3583,15 +3583,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Los cuadernos ya están en la carpeta.",
+            "lv": "Los cuadernos están ahora en la cartera.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "¿A dónde va el maestro?",
+            "lv": "¿Adónde va el profesor?",
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "Él va a clase.",
+            "lv": "Va a la clase.",
             "de": "Er geht in die Klasse."
           },
           {
@@ -3599,7 +3599,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sitzt der Lehrer?"
           },
           {
-            "lv": "El profesor está sentado en el aula.",
+            "lv": "El profesor está sentado en la clase.",
             "de": "Der Lehrer sitzt in der Klasse."
           }
         ]
@@ -3609,8 +3609,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson19": {
     "id": "lesson19",
     "title": "Lección 19",
-    "subtitle": "Wechselpräpositionen: vor, hinder, unter, über, neben, zwischen",
-    "intro": "Lección 19: vor, hinter, unter, über, neben y zwischen con acusativo o dativo.",
+    "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
+    "intro": "Decimonovena lección: vor, hinter, unter, über, neben, zwischen con Akkusativ o Dativ.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -3642,44 +3642,44 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "vor — delante de",
+          "vor — delante de / antes de",
           "hinter — detrás de",
           "unter — debajo de",
-          "über — sobre",
-          "neben — junto a",
+          "über — encima de / por encima de",
+          "neben — al lado de",
           "zwischen — entre",
-          "werfen — lanzar",
-          "stellen — poner en posición vertical",
-          "der Spiegel — espejo",
-          "der Schrank — armario",
-          "der Eimer — cubo",
-          "die Bank — banco",
-          "das Bild — imagen",
-          "das Klavier — piano",
-          "der Großvater — abuelo",
-          "die Großmutter — abuela",
-          "der Stuhl — silla",
-          "der Zaun — una valla",
-          "die Brücke — puente",
+          "werfen — lanzar, tirar",
+          "stellen — colocar / poner de pie / poner",
+          "der Spiegel — el espejo",
+          "der Schrank — el armario",
+          "der Eimer — el cubo",
+          "die Bank — el banco",
+          "das Bild — el cuadro / la imagen",
+          "das Klavier — el piano",
+          "der Großvater — el abuelo",
+          "die Großmutter — la abuela",
+          "der Stuhl — la silla",
+          "der Zaun — la valla",
+          "die Brücke — el puente",
           "pflanzen — plantar",
-          "der Strauch — arbusto",
+          "der Strauch — el arbusto",
           "wachsen — crecer",
-          "die Mühle — molino",
-          "die Scheune — cobertizo",
-          "der Teich — estanque",
-          "der Garten — jardín",
-          "das Feld — campo",
-          "die Laube — cenador",
-          "die Wand — pared",
-          "die Karte — tarjeta",
-          "das Land — país",
-          "die Stadt — ciudad",
-          "der Berg — montaña",
-          "der See — lago",
-          "der Fluss — río",
-          "zeigen — mostrar",
+          "die Mühle — el molino",
+          "die Scheune — el granero",
+          "der Teich — el estanque",
+          "der Garten — el jardín",
+          "das Feld — el campo",
+          "die Laube — el cenador",
+          "die Wand — la pared",
+          "die Karte — el mapa",
+          "das Land — el país, la tierra",
+          "die Stadt — la ciudad",
+          "der Berg — la montaña",
+          "der See — el lago",
+          "der Fluss — el río",
+          "zeigen — mostrar, enseñar",
           "nennen — nombrar",
           "so — así"
         ]
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "En esta lección, continuamos con las preposiciones que pueden regir tanto acusativo como dativo."
+            "text": "En esta lección seguimos con las preposiciones que pueden ir tanto con Akkusativ como con Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Si hay una dirección/movimiento hacia algún lugar, la pregunta es ¿quién? y utiliza Akkusativ.",
+            "text": "Si hay dirección / movimiento hacia algún lugar, la pregunta es wohin? y se usa el Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Si se indica una ubicación, la pregunta es «¿dónde?» y se utiliza el dativo.",
+            "text": "Si se trata de un lugar, la pregunta es wo? y se usa el Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3721,14 +3721,14 @@ const COURSE_LESSON_DATA = {
               "vor — delante de",
               "hinter — detrás de",
               "unter — debajo de",
-              "über — sobre / encima de",
-              "neben — junto a",
+              "über — encima de / por encima de",
+              "neben — al lado de",
               "zwischen — entre"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
-            "text": "¿Adónde? → Acusativo",
+            "heading": "Resumen: wohin?",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3742,8 +3742,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
-            "text": "¿Dónde? → Dativo",
+            "heading": "Resumen: wo?",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "gehen = ir, cuando la acción indica un desplazamiento continuo. treten = entrar, acercarse o pisar, cuando el desplazamiento termina con una interrupción de la acción.",
+            "text": "gehen — ir, andar, cuando la acción significa andar de forma continuada. treten — entrar, acercarse, subirse, cuando el andar termina y el movimiento se detiene.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "En vor, la o se pronuncia larga.",
-          "En hinter, la h se pronuncia y la e es abierta.",
-          "En der Stuhl, st se pronuncia «sht» y la h indica longitud vocálica, por lo que no se pronuncia.",
-          "En der Strauch, st se pronuncia «sht».",
-          "En wachsen, ch se pronuncia como la «j» española."
+          "En la palabra vor la o es larga.",
+          "En la palabra hinter la h se oye y la e es abierta.",
+          "En der Stuhl: st se pronuncia sht; la h indica que la vocal es larga y no se pronuncia.",
+          "En der Strauch: st se pronuncia sht.",
+          "En wachsen: ch se pronuncia k."
         ]
       },
       {
@@ -3783,26 +3783,26 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Elige la conjugación correcta: wohin? → Akkusativ, ¿wo? → dativo",
+            "task": "Elige el caso correcto: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Elige la conjugación correcta: wohin? → Akkusativ, ¿wo? → dativo",
+            "task": "Elige el caso correcto: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "El profesor llega al aula.",
+            "lv": "El profesor entra en la clase.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Tiene una card en la mano.",
+            "lv": "Tiene un mapa en la mano.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
@@ -3810,27 +3810,27 @@ const COURSE_LESSON_DATA = {
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Muestra a los alumnos y alumnas muchos países, ciudades, montañas, lagos y ríos.",
+            "lv": "Muestra a los alumnos y a las alumnas muchos países, ciudades, montañas, lagos y ríos.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Luego el profesor llama a un alumno.",
+            "lv": "Luego el profesor saca a un alumno.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Skolnieks pieiet pie kartes.",
+            "lv": "El alumno se acerca al mapa.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Él se queda de pie frente al mapa.",
+            "lv": "Se detiene delante del mapa.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "Nombra las ciudades, las montañas y los ríos y se los muestra al profesor.",
+            "lv": "Nombra y muestra al profesor las ciudades, las montañas y los ríos.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Así trabaja el profesor en el aula.",
+            "lv": "Así trabaja el profesor en la clase.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3840,8 +3840,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson20": {
     "id": "lesson20",
     "title": "Lección 20",
-    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, sustantivos compuestos",
-    "intro": "Vigésima conferencia: casa, pisos, Dativ/Akkusativ y sustantivos compuestos.",
+    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, los sustantivos compuestos",
+    "intro": "Vigésima lección: la casa, los pisos, Dativ/Akkusativ y los sustantivos compuestos.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -3872,48 +3872,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "das Haus — casa",
-          "das Stockwerk — piso",
-          "die Mauer — muro",
-          "der Stein — piedra",
-          "das Holz — madera",
-          "das Glas — vidrio",
-          "aus Glas — de vidrio",
-          "die Wohnung — un apartamento",
-          "das Vorhaus — vestíbulo",
-          "die Küche — cocina",
-          "das Dach — tejado",
-          "der Boden — el piso",
-          "der Keller — sótano",
-          "der Schornstein — chimenea",
-          "der Schornsteinfeger — deshollinador",
-          "die Stadt — ciudad",
+          "das Haus — la casa",
+          "das Stockwerk — el piso, la planta",
+          "die Mauer — el muro",
+          "der Stein — la piedra",
+          "das Holz — la madera / la leña",
+          "das Glas — el cristal, el vidrio",
+          "aus Glas — de cristal",
+          "die Wohnung — la vivienda",
+          "das Vorhaus — el vestíbulo / el pasillo",
+          "die Küche — la cocina",
+          "das Dach — el tejado",
+          "der Boden — el desván / el suelo / la tierra",
+          "der Keller — el sótano",
+          "der Schornstein — la chimenea",
+          "der Schornsteinfeger — el deshollinador",
+          "die Stadt — la ciudad",
           "leben — vivir",
           "tragen — llevar",
-          "bringen — traer",
-          "stecken — introducir",
-          "der Ofen — horno",
+          "bringen — llevar / traer",
+          "stecken — meter / introducir",
+          "der Ofen — la estufa",
           "anzünden — encender",
           "bald — pronto",
           "brennen — arder",
-          "licht — claro / luminoso",
-          "hell — brillante",
-          "die Tür — puerta",
-          "das Fenster — ventana",
-          "der Mensch — persona"
+          "licht — claro, luminoso",
+          "hell — claro / brillante",
+          "die Tür — la puerta",
+          "das Fenster — la ventana",
+          "der Mensch — la persona, el ser humano"
         ]
       },
       {
         "title": "Gramática",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Las expresiones temporales que responden a la pregunta «¿cuándo?» en las lecciones 19 y 20 se construyen con dativo. El dativo responde no solo a «wo?» («¿dónde?»), sino también a «wann?» («¿cuándo?»).",
+            "heading": "El dativo con wann?",
+            "text": "Las preposiciones de las lecciones 19 y 20 que responden a la pregunta wann? — ¿cuándo? van con Dativ. El Dativ no solo responde a wo? — ¿dónde?, sino también a wann? — ¿cuándo?.",
             "examples": [
-              "an dem Tage / am Tage — durante el día",
-              "in der Nacht — por la noche",
+              "an dem Tage / am Tage — de día",
+              "in der Nacht — de noche",
               "in dem Sommer / im Sommer — en verano",
               "in dem Januar / im Januar — en enero",
               "vor drei Tagen — hace tres días"
@@ -3921,7 +3921,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Preposición + artículo",
-            "text": "Muchas preposiciones se unen al artículo.",
+            "text": "Muchas preposiciones se contraen con el artículo.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3933,7 +3933,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "-e- entre la raíz y la terminación",
-            "text": "Si la raíz del verbo termina en t, d, m, n, entonces en la segunda y tercera persona del singular y en la segunda persona del plural, a menudo se inserta una -e- entre la raíz y la terminación para una mejor pronunciación.",
+            "text": "Si la raíz del verbo termina en t, d, m, n, en la 2.ª y 3.ª persona del singular y en la 2.ª persona del plural se suele intercalar una -e- entre la raíz y la terminación para facilitar la pronunciación.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,7 +3942,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sustantivos compuestos",
+            "heading": "Los sustantivos compuestos",
             "text": "Los sustantivos compuestos suelen llevar el artículo de la última palabra.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Formación de sustantivos compuestos",
+            "heading": "La formación de los sustantivos compuestos",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "En el verbo tragen en la segunda y tercera persona del singular, la vocal raíz a toma diéresis.",
+            "text": "En el verbo tragen, la vocal a de la raíz lleva Umlaut en la 2.ª y 3.ª persona del singular.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "En Stockwerk, Stein, Stadt y stecken, st se pronuncia «sht».",
-          "En der Ofen y der Boden, la o es larga.",
-          "sch se pronuncia «sh»: der Schornstein, der Mensch.",
-          "En das Haus y das Holz, la h se pronuncia.",
-          "En die Wohnung y wohnen, la h indica longitud vocálica y no se pronuncia.",
-          "En die Küche y die Dächer, ch se pronuncia como el sonido ich del alemán.",
-          "En das Vorhaus, la v se pronuncia como f."
+          "En las palabras Stockwerk, Stein, Stadt, stecken: st se pronuncia sht.",
+          "En las palabras der Ofen, der Boden: la o es larga.",
+          "sch se pronuncia como la sh inglesa: der Schornstein, der Mensch.",
+          "En las palabras das Haus, das Holz: la h se oye y hay que pronunciarla, como una j suave.",
+          "En las palabras die Wohnung, wohnen: la h indica que la vocal es larga y no se pronuncia.",
+          "En las palabras die Küche, die Dächer: ch se pronuncia como una j muy suave, el ich-Laut alemán.",
+          "En la palabra das Vorhaus: la v se pronuncia como f."
         ]
       },
       {
@@ -3987,94 +3987,94 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Elige la conjugación correcta: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Elige el caso correcto: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "¿Qué es alto?",
@@ -4085,27 +4085,27 @@ const COURSE_LESSON_DATA = {
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "¿Dónde están las ventanas y las puertas?",
+            "lv": "¿Dónde hay ventanas y puertas?",
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "¿De qué están hechas las paredes?",
+            "lv": "¿De qué son los muros?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "¿De qué están hechas las puertas?",
+            "lv": "¿De qué son las puertas?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "¿De qué están hechas las ventanas?",
+            "lv": "¿De qué son las ventanas?",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "¿Dónde hay diez apartamentos?",
+            "lv": "¿Dónde hay diez viviendas?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "¿Qué tiene cada apartamento?",
+            "lv": "¿Qué tiene cada vivienda?",
             "de": "Was hat jede Wohnung?"
           },
           {
@@ -4113,11 +4113,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Keller?"
           },
           {
-            "lv": "¿Dónde está el ático?",
+            "lv": "¿Dónde está el desván?",
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "¿Dónde están las tres chimeneas?",
+            "lv": "¿Dónde hay tres chimeneas?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
@@ -4125,11 +4125,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
-            "lv": "¿Dónde está parado?",
+            "lv": "¿Dónde está de pie?",
             "de": "Wo steht er?"
           },
           {
-            "lv": "¿Qué está haciendo?",
+            "lv": "¿Qué hace?",
             "de": "Was tut er?"
           },
           {
@@ -4137,11 +4137,11 @@ const COURSE_LESSON_DATA = {
             "de": "Was hat die Stadt?"
           },
           {
-            "lv": "¿Dónde hay muchos apartamentos?",
+            "lv": "¿Dónde hay muchas viviendas?",
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "¿Dónde vive mucha gente?",
+            "lv": "¿Dónde viven muchas personas?",
             "de": "Wo leben viele Menschen?"
           },
           {
@@ -4157,11 +4157,11 @@ const COURSE_LESSON_DATA = {
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "¿Dónde necesitas llevar leña?",
+            "lv": "¿Adónde tienes que llevar la leña?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Kurp tu liec malku?",
+            "lv": "¿Dónde metes la leña?",
             "de": "Wohin steckst du das Holz?"
           },
           {
@@ -4169,7 +4169,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was zündest du an?"
           },
           {
-            "lv": "¿Qué arde con fuerza?",
+            "lv": "¿Qué arde con luz brillante?",
             "de": "Was brennt hell?"
           }
         ]
@@ -4180,7 +4180,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson21",
     "title": "Lección 21",
     "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
-    "intro": "Vigésima primera conferencia: woher / wohin / wo, von / aus / mit + Dativ.",
+    "intro": "Vigesimoprimera lección: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
         "title": "Texto / Lectura",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nombres",
+        "title": "Vocabulario",
         "items": [
-          "der Holzhauer — leñador",
+          "der Holzhauer — el leñador",
           "sägen — serrar",
-          "spalten — partir",
-          "die Axt — hacha",
-          "von — de",
-          "aus — de / desde",
+          "spalten — partir, rajar",
+          "die Axt — el hacha",
+          "von — de, desde",
+          "aus — de / desde dentro de",
           "mit — con",
           "helfen — ayudar",
-          "treten — pisar / dar un paso",
-          "du trittst — tú das un paso",
-          "er tritt — va / da un paso",
+          "treten — ir / venir / dar un paso",
+          "du trittst — vas / das un paso",
+          "er tritt — él va / da un paso",
           "rufen — llamar",
-          "holen — buscar",
+          "holen — ir a buscar / traer",
           "eilen — darse prisa",
-          "zurück — atrás",
+          "zurück — de vuelta, atrás",
           "finden — encontrar",
           "sehen — ver",
-          "du siehst — tú ves",
+          "du siehst — ves",
           "er sieht — él ve",
-          "fleißig — diligente",
-          "die Scheune — granero",
-          "das Feld — campo",
-          "der Berg — montaña",
-          "die Brücke — puente",
-          "der Hof — patio",
-          "der Keller — sótano",
-          "die Küche — cocina",
-          "die Milch — leche",
-          "der Eimer — cubo",
-          "die Säge — sierra",
-          "das Beil — hacha"
+          "fleißig — con diligencia, con empeño",
+          "die Scheune — el granero",
+          "das Feld — el campo",
+          "der Berg — la montaña",
+          "die Brücke — el puente",
+          "der Hof — el patio",
+          "der Keller — el sótano",
+          "die Küche — la cocina",
+          "die Milch — la leche",
+          "der Eimer — el cubo",
+          "die Säge — la sierra",
+          "das Beil — la hachuela"
         ]
       },
       {
@@ -4251,11 +4251,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Las preposiciones mit, von y aus siempre van con el dativo.",
+            "text": "Las preposiciones mit, von y aus siempre van con Dativ.",
             "examples": [
               "mit — con",
-              "von — de",
-              "aus — de / desde",
+              "von — de, desde",
+              "aus — de / desde dentro de",
               "mit dem Mann — con el hombre",
               "von dem Felde / vom Felde — del campo",
               "aus der Küche — de la cocina"
@@ -4263,16 +4263,16 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von dem = vom",
-            "text": "La preposición von puede fusionarse con el artículo.",
+            "text": "La preposición von puede contraerse con el artículo.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Forma moderna: vom Feld, vom Berg."
+              "Forma actual: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — ¿De dónde?",
-            "text": "Si una persona u objeto está en una habitación, lugar o recipiente y sale de él, utilice aus.",
+            "heading": "Woher? — ¿de dónde?",
+            "text": "Si una persona o un objeto está dentro de un espacio, un lugar o un recipiente y sale de él, se usa aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Si una persona u objeto está encima de un lugar o sobre algo y se aleja de él, se utiliza von.",
+            "text": "Si una persona o un objeto está encima de un lugar o sobre algo y se aleja de él, se usa von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4296,7 +4296,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Material",
-            "text": "Cuando hable del material del que está hecho el objeto, utilice aus.",
+            "text": "Cuando se habla del material del que está hecho un objeto, se usa aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciación",
         "items": [
-          "En die Axt, x se pronuncia «ks».",
-          "En arbeiten, das Beil y steigen, ei se pronuncia «ai».",
-          "En die Scheune, eu se pronuncia «oi».",
-          "En die Brücke, ck se pronuncia como k."
+          "En la palabra die Axt: la x se pronuncia ks.",
+          "En las palabras arbeiten, das Beil, steigen: ei se pronuncia ai.",
+          "En la palabra die Scheune: eu se pronuncia oi.",
+          "En la palabra die Brücke: ck se pronuncia como una k doble."
         ]
       },
       {
@@ -4320,115 +4320,115 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Responde después de leer el texto.",
+            "task": "Responde según el texto de lectura.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
-        "title": "Traducir",
-        "type": "traducciónTarjetas",
+        "title": "Traduce",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "Todos los cuadernos están en la carpeta.",
+            "lv": "Todos los cuadernos están en la cartera.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Saco los cuadernos de la carpeta.",
+            "lv": "Saco los cuadernos de la cartera.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Saco el reloj del bolso.",
+            "lv": "Saco el reloj del bolsillo.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "En el sótano hay un cubo con leche.",
+            "lv": "Un cubo con leche está en el sótano.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Es nesu spaini no pagraba.",
+            "lv": "Saco el cubo del sótano.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Me quito el gorro de la cabeza.",
+            "lv": "Me quito la gorra de la cabeza.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
-            "lv": "El cuadro cuelga de la pared.",
+            "lv": "El cuadro está colgado en la pared.",
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "El padre quita el cuadro de la pared.",
+            "lv": "El padre descuelga el cuadro de la pared.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
@@ -4436,23 +4436,23 @@ const COURSE_LESSON_DATA = {
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Saco las notas del piano.",
+            "lv": "Quito las partituras del piano.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Venimos de un amigo.",
+            "lv": "Venimos de casa del amigo.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Venimos de una novia.",
+            "lv": "Venimos de casa de la amiga.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "Venimos del maestro.",
+            "lv": "Venimos de casa del profesor.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Todos vienen de un amigo, de una novia, de un profesor.",
+            "lv": "Todos vienen de casa del amigo, de casa de la amiga, de casa del profesor.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

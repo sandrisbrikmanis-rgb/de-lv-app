@@ -2436,12 +2436,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson15": {
     "id": "lesson15",
-    "title": "Лекция 15",
-    "subtitle": "Соллен, Дюрфен, Эссен, фрукты",
-    "intro": "Пятнадцатая лекция: соллен, дюрфен, эссен и фруктовые слова.",
+    "title": "Урок 15",
+    "subtitle": "sollen, dürfen, essen, плодове",
+    "intro": "Петнадесети урок: sollen, dürfen, essen и думи за плодове.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Ich soll das Messer nicht nehmen, denn ich darf den Apfel nicht schälen.",
           "Du sollst das Messer nicht nehmen, denn du darfst den Apfel nicht schälen.",
@@ -2471,48 +2471,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "sollen — vajadzēt / būt pienākumam",
-          "ich soll — man vajag / man jādara",
-          "du sollst — tev vajag / tev jādara",
-          "er soll — viņam vajag / viņam jādara",
-          "wir sollen — mums vajag / mums jādara",
-          "ihr sollt — jums vajag / jums jādara",
-          "sie sollen — viņiem / viņām vajag",
-          "dürfen — drīkstēt",
-          "ich darf — es drīkstu",
-          "du darfst — tu drīksti",
-          "er darf — viņš drīkst",
-          "wir dürfen — mēs drīkstam",
-          "ihr dürft — jūs drīkstat",
-          "sie dürfen — viņi / viņas drīkst",
-          "nicht — ne",
-          "das Messer — nazis",
-          "der Apfel — ābols",
-          "die Äpfel — āboli",
-          "schälen — mizot",
-          "entzweischneiden — pārgriezt uz pusēm",
-          "die Birne — bumbieris",
-          "die Birnen — bumbieri",
-          "die Pflaume — plūme",
-          "die Pflaumen — plūmes",
-          "die Kirsche — ķirsis",
-          "die Kirschen — ķirši",
-          "gern — labprāt",
-          "reif — ienācies / nogatavojies",
-          "unreif — neienācies / nenogatavojies",
-          "nehmen — ņemt",
-          "ich nehme — es ņemu",
-          "du nimmst — tu ņem",
-          "er nimmt — viņš ņem",
-          "essen — ēst",
-          "ich esse — es ēdu",
-          "du isst — tu ēd",
-          "er isst — viņš ēd",
-          "wir essen — mēs ēdam",
-          "ihr esst — jūs ēdat",
-          "sie essen — viņi / viņas ēd"
+          "sollen — трябва / длъжен съм",
+          "ich soll — аз трябва / аз съм длъжен",
+          "du sollst — ти трябва / ти си длъжен",
+          "er soll — той трябва / той е длъжен",
+          "wir sollen — ние трябва / ние сме длъжни",
+          "ihr sollt — вие трябва / вие сте длъжни",
+          "sie sollen — те трябва",
+          "dürfen — смея / имам право",
+          "ich darf — аз смея",
+          "du darfst — ти смееш",
+          "er darf — той смее",
+          "wir dürfen — ние смеем",
+          "ihr dürft — вие смеете",
+          "sie dürfen — те смеят",
+          "nicht — не",
+          "das Messer — нож",
+          "der Apfel — ябълка",
+          "die Äpfel — ябълки",
+          "schälen — беля",
+          "entzweischneiden — разрязвам на две",
+          "die Birne — круша",
+          "die Birnen — круши",
+          "die Pflaume — слива",
+          "die Pflaumen — сливи",
+          "die Kirsche — череша",
+          "die Kirschen — череши",
+          "gern — с удоволствие",
+          "reif — узрял / зрял",
+          "unreif — неузрял / незрял",
+          "nehmen — вземам",
+          "ich nehme — аз вземам",
+          "du nimmst — ти вземаш",
+          "er nimmt — той взема",
+          "essen — ям",
+          "ich esse — аз ям",
+          "du isst — ти ядеш",
+          "er isst — той яде",
+          "wir essen — ние ядем",
+          "ihr esst — вие ядете",
+          "sie essen — те ядат"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Соллен означает нуждаться в чувстве долга."
+            "text": "Sollen означава „трябва“ в смисъл на задължение."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Сравнение",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — трябва поради необходимост или убеждение",
+              "sollen — трябва в смисъл на задължение",
+              "Ich muss lernen. — Трябва да уча, защото това е необходимо.",
+              "Ich soll lernen. — Трябва да уча, защото това е мое задължение."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "Глагол sollen имеет одинаковое 1-е и 3-е лицо настоящего единственного числа.",
+            "heading": "Форми на sollen",
+            "text": "При глагола sollen 1. и 3. лице единствено число в сегашно време са еднакви.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Дюрфен означает «разрешено». В Дюрфене основная гласная — a в единственном числе и ü во множественном числе.",
+            "text": "Dürfen означава „смея, имам право“. В единствено число коренната гласна на dürfen е a, а в множествено число е ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Эссенская дуга выглядит следующим образом.",
+            "text": "Essen се спряга така.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Если в проекте используется современное письмо, можно написать: du isst, er/sie/es isst, ihr esst."
+            "heading": "Съвременен правопис",
+            "text": "Ако се използва съвременният правопис, може да се пише: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "В сложном глаголе entzweischneiden ударение ставится на приставку entzweí-, поэтому в настоящем времени приставка отделяется и ставится в конце предложения.",
+            "text": "В сложния глагол entzweischneiden ударението е върху представката entzwei-, затова в сегашно време представката се отделя и застава в края на изречението.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Разрязвам ябълката на две."
             ]
           }
         ]
@@ -2583,43 +2583,43 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "ä в думите Äpfel и schälen се произнася като затворено е.",
+          "В думата Äpfel ä се произнася кратко, защото след гласната следват две съгласни.",
+          "В думата schälen ä се произнася дълго, защото след гласната следва една съгласна.",
+          "В думата gern e е кратко и открито.",
+          "Запомни: дифтонгът ei в немския се произнася като ай: reif, unreif."
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Кто здоров, кому разрешено работать?",
+            "lv": "Кой е здрав, кой има право да работи?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Фрэнсис здоров, он может работать.",
+            "lv": "Франц е здрав, той има право да работи.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Может ли дедушка работать?",
+            "lv": "Има ли дядото право да работи?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Нет, дедушка не может работать, потому что он болен.",
+            "lv": "Не, дядото няма право да работи, защото е болен.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Мама, можно ли мне есть сливы?",
+            "lv": "Мамо, разрешено ли ми е да ям сливите?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Нет, сливы есть не надо, они не прилетели.",
+            "lv": "Не, сливите не трябва да ги ядеш, те са неузрели.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Ты ел яблоко или грушу?",
+            "lv": "Ядеш ли ябълка или круша?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
@@ -2627,35 +2627,35 @@ const COURSE_LESSON_DATA = {
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Какой вкус у груши?",
+            "lv": "Какъв вкус има крушата?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "Груша очень вкусная.",
+            "lv": "Крушата има много хубав вкус.",
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Кому нужно учиться?",
+            "lv": "Кой трябва да учи?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Студент должен учиться.",
+            "lv": "Ученикът трябва да учи.",
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "Хочет ли он вырваться вперед?",
+            "lv": "Иска ли той да напредва?",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Да, он хочет вырваться вперед.",
+            "lv": "Да, той иска да напредва.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Можно ли ребенку брать нож?",
+            "lv": "Разрешено ли е на детето да взема ножа?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Ребенку нельзя брать нож, потому что нож острый.",
+            "lv": "Детето не трябва да взема ножа, защото ножът е остър.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2664,12 +2664,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson16": {
     "id": "lesson16",
-    "title": "Лекция 16",
-    "subtitle": "Дательный падеж, geben, sich nähern",
-    "intro": "Шестнадцатая лекция: дательный падеж, гебен, sich nähern и упражнения на дательный падеж.",
+    "title": "Урок 16",
+    "subtitle": "Датив, geben, sich nähern",
+    "intro": "Шестнадесети урок: датив, geben, sich nähern и упражнения за датив.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Wem schenkt der Vater ein Buch?",
           "Der Vater schenkt dem Sohne ein Buch.",
@@ -2692,53 +2692,53 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "wem — kam?",
-          "schenken — dāvināt",
-          "dem Sohne — dēlam",
-          "den Söhnen — dēliem",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
-          "er gibt — viņš dod",
-          "die Magd — kalpone",
-          "Brot — maize",
-          "Milch — piens",
-          "gehorchen — paklausīt",
-          "der Knecht — kalps",
-          "gehören — piederēt",
-          "das Feld — lauks / tīrums",
-          "die Felder — lauki / tīrumi",
-          "die Wiese — pļava",
-          "die Wiesen — pļavas",
-          "der Wald — mežs",
-          "die Wälder — meži",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
-          "treu — uzticīgs"
+          "wem — на кого?",
+          "schenken — подарявам",
+          "dem Sohne — на сина",
+          "den Söhnen — на синовете",
+          "sich nähern — приближавам се",
+          "ich nähere mich — аз се приближавам",
+          "du näherst dich — ти се приближаваш",
+          "geben — давам",
+          "ich gebe — аз давам",
+          "du gibst — ти даваш",
+          "er gibt — той дава",
+          "die Magd — слугиня",
+          "Brot — хляб",
+          "Milch — мляко",
+          "gehorchen — подчинявам се",
+          "der Knecht — ратай",
+          "gehören — принадлежа",
+          "das Feld — поле / нива",
+          "die Felder — полета / ниви",
+          "die Wiese — ливада",
+          "die Wiesen — ливади",
+          "der Wald — гора",
+          "die Wälder — гори",
+          "der Bauer — селянин",
+          "die Bäuerin — селянка",
+          "folgen — следвам",
+          "der Jäger — ловец",
+          "treu — верен"
         ]
       },
       {
         "title": "Граматика",
         "items": [
           {
-            "heading": "Dativs",
-            "text": "Дательный падеж отвечает на вопрос: wem? - кому?"
+            "heading": "Датив",
+            "text": "Дативът отговаря на въпроса: wem? — на кого?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Единствено число",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Мъжки",
+                "Женски",
+                "Среден"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Множествено число",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Мъжки",
+                "Женски",
+                "Среден"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Существительные мужского и среднего рода в дательном падеже единственного числа могут иметь окончание -е. В настоящее время этот финал часто опускается.",
+            "heading": "Окончание -e в датив",
+            "text": "Съществителните от мъжки и среден род могат да получат в датив единствено число окончание -e. Днес това окончание често отпада.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Существительные женского рода не имеют окончания в дательном падеже единственного числа.",
+            "heading": "Женски род в датив",
+            "text": "Съществителните от женски род не получават окончание в датив единствено число.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Неопределителният член в датив",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "Дательный артикль множественного числа и существительное часто имеют окончание -n.",
+            "heading": "Датив в множествено число",
+            "text": "В датив множествено число членът и съществителното често получават окончание -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Если множественное число уже заканчивается на -n, еще один -n не добавляется.",
+            "heading": "Ако множественото число вече завършва на -n",
+            "text": "Ако множественото число вече завършва на -n, не се добавя още едно -n.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "В глаголе geben e меняется на i во 2-м и 3-м лице единственного числа.",
+            "text": "При глагола geben във 2. и 3. лице единствено число e се променя в i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Возвратный глагол: sich nähern – приближаться.",
+            "text": "Възвратен глагол: sich nähern — приближавам се.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,26 +2857,26 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Множествено число с умлаут",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "Думи, които често се използват без член: die Milch, das Brot."
+            "heading": "Без член",
+            "text": "Думи, които често се употребяват без член: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Произношение",
         "items": [
-          "Vārdos wem, dem, den, der — e ir garš un šaurs.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie ir garā ī apzīmējums: die Wiese."
+          "В думите wem, dem, den, der — e е дълго и затворено.",
+          "В думата gehorchen h се чува: ge-hor-chen.",
+          "die Wälder: ä се произнася като кратко затворено е.",
+          "die Bäuerinnen: äu се произнася като ой.",
+          "-ie означава дълго и: die Wiese."
         ]
       },
       {
@@ -2884,104 +2884,104 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Постави правилния член в датив/акузатив според смисъла на изречението.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Постави правилния член в датив/акузатив според смисъла на изречението.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Постави правилния член в датив/акузатив според смисъла на изречението.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Постави правилния член в датив/акузатив според смисъла на изречението.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Постави правилния член в датив/акузатив според смисъла на изречението.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Постави правилния член в датив/акузатив според смисъла на изречението.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Постави правилния член в датив.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Pārveido daudzskaitlī.",
+            "task": "Преобразувай в множествено число.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Pārveido daudzskaitlī.",
+            "task": "Преобразувай в множествено число.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Как се казва бащата",
+            "lv": "Кого вика бащата?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Вика сина си и дъщеря си.",
+            "lv": "Той вика сина и дъщерята.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Кой е собственик на тази гора?",
+            "lv": "На кого принадлежи тази гора?",
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Тази гора принадлежи на фермер.",
+            "lv": "Тази гора принадлежи на селянина.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
@@ -2989,7 +2989,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Кучето се подчинява на слугите и прислужниците.",
+            "lv": "Кучето се подчинява на ратаите и слугините.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3001,7 +3001,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Jäger hat fünf Hunde."
           },
           {
-            "lv": "Какво куче?",
+            "lv": "Какво е кучето?",
             "de": "Wie ist der Hund?"
           },
           {
@@ -3009,19 +3009,19 @@ const COURSE_LESSON_DATA = {
             "de": "Der Hund ist treu."
           },
           {
-            "lv": "Какви кучета?",
+            "lv": "Какви са кучетата?",
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Кучетата са лоялни.",
+            "lv": "Кучетата са верни.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Какво се доближава до ученици и момичета?",
+            "lv": "Кой се приближава към учениците и ученичките?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Учителят се приближава към учениците.",
+            "lv": "Учителят се приближава към учениците и ученичките.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3030,12 +3030,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson17": {
     "id": "lesson17",
-    "title": "Лекция 17",
-    "subtitle": "Mit + Dativ, womit / mit wem, глаголи с умлаут",
-    "intro": "Лекция седемнадесета: mit + dativ, womit/mit wem и глаголи с умлаут.",
+    "title": "Урок 17",
+    "subtitle": "mit + Dativ, womit / mit wem, глаголи с умлаут",
+    "intro": "Седемнадесети урок: mit + Dativ, womit / mit wem и глаголи с умлаут.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Der Knabe hat einen Spaten.",
           "Er will eine Grube graben.",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "der Spaten — lāpsta",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
-          "werfen — mest",
-          "fangen — ķert",
-          "auffangen — uzķert / noķert",
-          "wieder — atkal",
-          "der Schuldiener — skolas apkalpotājs",
-          "der Besen — slota",
-          "fegen — slaucīt ar slotu",
-          "die Diele — grīda",
-          "der Lappen — lupata / drāna",
-          "wischen — slaucīt / tīrīt",
-          "abwischen — noslaucīt",
-          "helfen — palīdzēt",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — draudzene",
-          "die Freundinnen — draudzenes",
-          "mit — ar",
-          "mit wem — ar ko? / ar kuru?",
-          "der Staub — putekļi",
-          "der Bruder — brālis",
-          "die Schwester — māsa",
-          "die Dienerin — kalpone"
+          "der Spaten — лопата",
+          "die Grube — яма",
+          "graben — копая",
+          "womit — с какво?",
+          "der Ball — топка",
+          "werfen — хвърлям",
+          "fangen — ловя",
+          "auffangen — улавям / хващам",
+          "wieder — отново",
+          "der Schuldiener — училищен прислужник",
+          "der Besen — метла",
+          "fegen — мета с метла",
+          "die Diele — под",
+          "der Lappen — парцал / кърпа",
+          "wischen — бърша / чистя",
+          "abwischen — избърсвам",
+          "helfen — помагам",
+          "danken — благодаря",
+          "der Freund — приятел",
+          "die Freundin — приятелка",
+          "die Freundinnen — приятелки",
+          "mit — с",
+          "mit wem — с кого?",
+          "der Staub — прах",
+          "der Bruder — брат",
+          "die Schwester — сестра",
+          "die Dienerin — прислужница"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Предлогът mit винаги се появява в дателен падеж. латвийски: mit = s."
+            "text": "Предлогът mit винаги се употребява с датив. На български: mit = с."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Германският въпрос \"с какво?\" изразено по два начина: mit we? - За хората, пич? - за неща/предмети.",
+            "text": "На немски, както и на български, въпросът се задава по два начина: mit wem? — „с кого?“ за лица, womit? — „с какво?“ за неща/предмети.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — С кого говори братът?",
+              "Womit gräbt der Knabe die Grube? — С какво копае момчето ямата?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Глаголите graben, fangen, auffangen имат умлаут във 2-ро и 3-то лице единствено число.",
+            "text": "Глаголите graben, fangen, auffangen имат умлаут във 2. и 3. лице единствено число.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "При глаголите helfen и werfen във 2-ро и 3-то лице единствено число основата e се променя на i.",
+            "text": "При глаголите helfen и werfen във 2. и 3. лице единствено число коренното e се променя в i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Сложните глаголи auffangen и abwischen имат ударението върху представката. Следователно префиксът за сегашно време е отделен и поставен в края на изречението.",
+            "heading": "Отделяеми представки",
+            "text": "При сложните глаголи auffangen и abwischen ударението е върху представката. Затова в сегашно време представката се отделя и застава в края на изречението.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen и wischen означават да помете, но употребата им е различна.",
+            "text": "И fegen, и wischen означават „чистя“, но се употребяват различно.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — мета с метла",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — бърша с парцал, кърпа, избърсвам праха",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "В думата werfen първото e е открито: werfen.",
+          "В думата wieder e е открито: wieder.",
+          "В думите wieder и die Diele ie означава дълго и: wieder, die Diele.",
+          "В думата der Spaten sp се произнася като шп: der Spaten."
         ]
       },
       {
@@ -3181,47 +3181,47 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Отговори в единствено число, после в множествено число.",
+            "task2": "Сега отговори в множествено число.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Отговори в единствено число, после в множествено число.",
+            "task2": "Сега отговори в множествено число.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Отговори в единствено число, после в множествено число.",
+            "task2": "Сега отговори в множествено число.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Отговори в единствено число, после в множествено число.",
+            "task2": "Сега отговори в множествено число.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Отговори в единствено число, после в множествено число.",
+            "task2": "Сега отговори в множествено число.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Какво е по-широко: врата или прозорец?",
+            "lv": "Кое е по-широко, вратата или прозорецът?",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
@@ -3229,15 +3229,15 @@ const COURSE_LESSON_DATA = {
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Какво бърше момичето?",
+            "lv": "Какво избърсва момичето?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
-            "lv": "Момичето бърше дъската.",
+            "lv": "Момичето избърсва дъската.",
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "С какво момичето бърше праха?",
+            "lv": "С какво избърсва момичето праха?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
@@ -3249,11 +3249,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Говори ли с приятел?",
+            "lv": "Говори ли тя с приятеля?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Не, тя говори с приятелите си.",
+            "lv": "Не, тя говори с приятелите.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
@@ -3265,59 +3265,59 @@ const COURSE_LESSON_DATA = {
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Как реже хартия?",
+            "lv": "С какво разрязва той хартията на две?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Той реже хартия с ножица.",
+            "lv": "Той разрязва хартията на две с ножицата.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "С какво рисува брат ти?",
+            "lv": "С какво рисува братът?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Рисува с молив и тебешир.",
+            "lv": "Той рисува с молив и с тебешир.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "Как държиш лопатата?",
+            "lv": "С какво държиш лопатата?",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "В ръката си държа лопата.",
+            "lv": "Държа лопатата с ръка.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "С кого работим?",
+            "lv": "С какво работим ние?",
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Ние работим с ръцете си.",
+            "lv": "Ние работим с ръцете.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "Какво виждаме",
+            "lv": "С какво виждаме ние?",
             "de": "Womit sehen wir?"
           },
           {
-            "lv": "Виждаме със собствените си очи.",
+            "lv": "Ние виждаме с очите.",
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Какво чуваме?",
+            "lv": "С какво чуваме ние?",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Ние чуваме с ушите си.",
+            "lv": "Ние чуваме с ушите.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "С какво идва брат ти?",
+            "lv": "С кого отива братът?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Брат отива с баща си, с майка си, с учителя си, с чичо си, с леля си, с братовчед си, с братовчед си.",
+            "lv": "Братът отива с бащата, с майката, с учителя, с чичото, с лелята, с братовчеда, с братовчедката.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3326,12 +3326,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson18": {
     "id": "lesson18",
-    "title": "Лекция 18",
-    "subtitle": "Wohin/wo, Винителен или Дателен с an/v/auf",
-    "intro": "Осемнадесета лекция: vohin/vo, винителен или дателен с an/v/auf.",
+    "title": "Урок 18",
+    "subtitle": "wohin / wo, Akkusativ или Dativ с an / in / auf",
+    "intro": "Осемнадесети урок: wohin / wo, Akkusativ или Dativ с an / in / auf.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Wohin gehst du?",
           "Ich gehe an den Tisch.",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
-          "tragen — nest",
-          "ich trage — es nesu",
-          "du trägst — tu nes",
-          "er/sie/es trägt — viņš/viņa/tas nes",
-          "der Korb — grozs / kurvis",
-          "die Körbe — grozi / kurvji",
-          "das Körbchen — groziņš / kurvītis",
-          "stellen — novietot / nolikt stāvus",
-          "legen — likt / nolikt guļus",
-          "das Wasser — ūdens",
-          "gießen — liet",
-          "der Krug — krūze",
-          "die Krüge — krūzes",
-          "jetzt — tagad",
-          "an — pie",
-          "auf — uz",
-          "in — iekšā / uz iekšpusi",
-          "der Tisch — galds",
-          "die Bank — sols",
-          "die Diele — grīda",
-          "der Eimer — spainis"
+          "wohin — накъде?",
+          "wo — къде?",
+          "tragen — нося",
+          "ich trage — аз нося",
+          "du trägst — ти носиш",
+          "er/sie/es trägt — той/тя/то носи",
+          "der Korb — кош / кошница",
+          "die Körbe — кошове / кошници",
+          "das Körbchen — кошничка",
+          "stellen — поставям / слагам изправено",
+          "legen — слагам / полагам легнало",
+          "das Wasser — вода",
+          "gießen — наливам",
+          "der Krug — кана",
+          "die Krüge — кани",
+          "jetzt — сега",
+          "an — при / до",
+          "auf — на / върху",
+          "in — в / вътре",
+          "der Tisch — маса",
+          "die Bank — пейка",
+          "die Diele — под",
+          "der Eimer — кофа"
         ]
       },
       {
@@ -3389,96 +3389,96 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Предлозите an, in, auf могат да се появят както във винителен, така и в дателен падеж."
+            "text": "Предлозите an, in, auf могат да се употребяват както с Akkusativ, така и с Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Ако действието показва промяна в посоката или местоположението, се използва акузатив. Въпрос: какво? - Къде?",
+            "text": "Ако действието показва посока или смяна на мястото, се използва Akkusativ. Въпрос: wohin? — накъде?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Отивам до масата.",
+              "Ich stelle den Korb auf die Bank. — Поставям кошницата на пейката.",
+              "Ich lege die Äpfel in das Körbchen. — Слагам ябълките в кошничката.",
+              "Ich gieße das Wasser in den Krug. — Наливам водата в каната."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Ако действието показва местоположение или състояние, се използва дателен падеж. Въпрос: какво? - Къде?",
+            "text": "Ако действието показва местонахождение или състояние, се използва Dativ. Въпрос: wo? — къде?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Стоя при масата.",
+              "Der Korb steht auf der Bank. — Кошницата стои на пейката.",
+              "Die Äpfel sind in dem Körbchen. — Ябълките са в кошничката.",
+              "Das Wasser ist in dem Kruge. — Водата е в каната."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Тези глаголи често показват посока и следователно отговарят на въпроса „какво?“",
+            "heading": "Глаголи с wohin?",
+            "text": "Тези глаголи често показват посока и затова отговарят на въпроса wohin?",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — вървя / отивам",
+              "kommen — идвам",
+              "fahren — пътувам (с превозно средство)",
+              "laufen — тичам",
+              "fliegen — летя",
+              "springen — скачам",
+              "kriechen — пълзя",
+              "schleichen — промъквам се",
+              "hängen — окачвам",
+              "sich setzen — сядам",
+              "sich stellen — заставам",
+              "werfen — хвърлям",
+              "reiten — яздя"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Тези глаголи често показват местоположение или състояние и следователно отговарят на въпроса wo?.",
+            "heading": "Глаголи с wo?",
+            "text": "Тези глаголи често показват местонахождение или състояние и затова отговарят на въпроса wo?",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — съм",
+              "sich befinden — намирам се",
+              "arbeiten — работя",
+              "liegen — лежа / намирам се в легнало положение",
+              "sitzen — седя",
+              "hängen — вися",
+              "finden — намирам",
+              "suchen — търся",
+              "spielen — играя"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "Съществителните обикновено нямат член.",
+            "heading": "Веществени съществителни",
+            "text": "Веществените съществителни обикновено се употребяват без член.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Пия мляко.",
+              "In dem Eimer ist Wasser. — В кофата има вода."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Ако дадено вещество се споменава в определено количество или на определено място, тогава се използва артикулът.",
+            "heading": "Конкретно вещество",
+            "text": "Ако веществото се споменава в определено количество или на конкретно място, се използва член.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Наливам водата в каната."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Ако предлогът в не се превежда като „във“, а изразява местоположение, той може да бъде преведен с местен падеж.",
+            "heading": "in + място",
+            "text": "Ако предлогът in не означава „вътре“, а изразява местонахождение, на български се превежда просто с „в“.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — в кофата",
+              "in dem Zimmer — в стаята"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Стари форми като dem Tische, dem Kruge, im Walde често се използват днес в по-кратка форма: dem Tisch, dem Krug, im Wald."
+            "heading": "Съвременни форми",
+            "text": "Старите форми, например dem Tische, dem Kruge, im Walde, днес често се използват в по-кратък вид: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Произношение",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "В думата wohin h се чува: wo-hin.",
+          "В думата wo o е дълго: wo."
         ]
       },
       {
@@ -3486,60 +3486,60 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Избери правилния падеж: Dativ или Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "От къде е сървъра?",
+            "lv": "Накъде идва прислужникът?",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Той влиза в стаята.",
+            "lv": "Той идва в стаята.",
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Къде работи",
+            "lv": "Къде работи той?",
             "de": "Wo arbeitet er?"
           },
           {
@@ -3547,11 +3547,11 @@ const COURSE_LESSON_DATA = {
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "Мъж поставя пейка до прозореца.",
+            "lv": "Мъжът поставя пейката до прозореца.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "Пейката е близо до прозореца.",
+            "lv": "Пейката стои до прозореца.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
@@ -3559,23 +3559,23 @@ const COURSE_LESSON_DATA = {
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Те берат горски плодове в гората.",
+            "lv": "Те търсят горски плодове в гората.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "Те намират много горски плодове в гората.",
+            "lv": "Те намират в гората много горски плодове.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Майка слага кошницата на шкафа.",
+            "lv": "Майката поставя кошницата на шкафа.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Кошницата е на шкафа.",
+            "lv": "Кошницата стои на шкафа.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Ученикът прибира тетрадките си в чантата.",
+            "lv": "Ученикът слага тетрадките в чантата.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3583,15 +3583,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Писмата вече са в чантата.",
+            "lv": "Сега тетрадките са в чантата.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Къде отива учителят?",
+            "lv": "Накъде отива учителят?",
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "Той отива в час.",
+            "lv": "Той отива в класната стая.",
             "de": "Er geht in die Klasse."
           },
           {
@@ -3608,12 +3608,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson19": {
     "id": "lesson19",
-    "title": "Лекция 19",
+    "title": "Урок 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Деветнадесета лекция: vor, hinter, unter, über, neben, zwischen с Akkusativ или Dativ.",
+    "intro": "Деветнадесети урок: vor, hinter, unter, über, neben, zwischen с Akkusativ или Dativ.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Wohin geht die Frau?",
           "Sie geht vor den Spiegel.",
@@ -3642,46 +3642,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "vor — priekšā / pirms",
-          "hinter — aiz",
-          "unter — zem",
-          "über — virs / pāri",
-          "neben — blakus",
-          "zwischen — starp",
-          "werfen — mest",
-          "stellen — novietot / nostādīt / nolikt",
-          "der Spiegel — spogulis",
-          "der Schrank — skapis",
-          "der Eimer — spainis",
-          "die Bank — sols",
-          "das Bild — attēls / bilde",
-          "das Klavier — klavieres",
-          "der Großvater — vectēvs",
-          "die Großmutter — vecmāmiņa",
-          "der Stuhl — krēsls",
-          "der Zaun — žogs",
-          "die Brücke — tilts",
-          "pflanzen — stādīt",
-          "der Strauch — krūms",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
-          "die Scheune — šķūnis",
-          "der Teich — dīķis",
-          "der Garten — dārzs",
-          "das Feld — lauks",
-          "die Laube — lapene",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
-          "die Stadt — pilsēta",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
-          "zeigen — rādīt",
-          "nennen — nosaukt",
-          "so — tā"
+          "vor — пред / преди",
+          "hinter — зад",
+          "unter — под",
+          "über — над / през",
+          "neben — до / редом с",
+          "zwischen — между",
+          "werfen — хвърлям",
+          "stellen — поставям / слагам",
+          "der Spiegel — огледало",
+          "der Schrank — шкаф, гардероб",
+          "der Eimer — кофа",
+          "die Bank — пейка",
+          "das Bild — картина / снимка",
+          "das Klavier — пиано",
+          "der Großvater — дядо",
+          "die Großmutter — баба",
+          "der Stuhl — стол",
+          "der Zaun — ограда",
+          "die Brücke — мост",
+          "pflanzen — садя",
+          "der Strauch — храст",
+          "wachsen — раста",
+          "die Mühle — мелница",
+          "die Scheune — хамбар",
+          "der Teich — езерце",
+          "der Garten — градина",
+          "das Feld — поле",
+          "die Laube — беседка",
+          "die Wand — стена",
+          "die Karte — карта",
+          "das Land — страна",
+          "die Stadt — град",
+          "der Berg — планина",
+          "der See — езеро",
+          "der Fluss — река",
+          "zeigen — показвам",
+          "nennen — назовавам",
+          "so — така"
         ]
       },
       {
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "В тази лекция продължаваме да разглеждаме предлози, които могат да се появят както във винителен, така и в дателен падеж."
+            "text": "В този урок продължаваме с предлозите, които могат да се употребяват както с Akkusativ, така и с Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Ако някъде има посока/движение, то въпросът е към кого? и използва акузатив.",
+            "text": "Ако има посока / движение към някъде, въпросът е wohin? и се използва Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Ако има място, какъв е въпросът? и използва дателен падеж.",
+            "text": "Ако става дума за местонахождение, въпросът е wo? и се използва Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,19 +3716,19 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Предлози",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — пред",
+              "hinter — зад",
+              "unter — под",
+              "über — над / през",
+              "neben — до / редом с",
+              "zwischen — между"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
-            "text": "Вохин? → Винителен падеж",
+            "heading": "Обобщение: wohin?",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3742,8 +3742,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
-            "text": "Какво? → Дателен падеж",
+            "heading": "Обобщение: wo?",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen – да вървиш, когато действието означава постоянно да вървиш. treten - влизам, приближавам се, стъпвам, ако ходенето завършва с прекъсване на действието.",
+            "text": "gehen — вървя, когато действието означава непрекъснато вървене. treten — влизам, приближавам се, стъпвам, когато вървенето завършва с прекъсване на действието.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "В думата vor o се произнася дълго.",
+          "В думата hinter h се чува, а e е открито.",
+          "В думата der Stuhl: st се произнася като шт; h е знак за дължина и не се произнася.",
+          "В думата der Strauch: st се произнася като шт.",
+          "В думата wachsen: ch се произнася като к."
         ]
       },
       {
@@ -3783,54 +3783,54 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Избери правилния падеж: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Избери правилния падеж: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Учителят идва в час.",
+            "lv": "Учителят идва в класната стая.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Той държи карта в ръката си.",
+            "lv": "Той има карта в ръката.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Окачва картата на стената.",
+            "lv": "Той окачва картата на стената.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Той показва на момчетата и момичетата много градове, земи, планини, езера и реки.",
+            "lv": "Той показва на учениците и ученичките много страни, градове, планини, езера и реки.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "След това учителят извиква ученика.",
+            "lv": "Тогава учителят извиква един ученик.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Ученикът се приближава до картата.",
+            "lv": "Ученикът пристъпва към картата.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Той остава да стои пред картата.",
+            "lv": "Той спира и остава да стои пред картата.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "Назовава и показва на учителя градове, планини и реки.",
+            "lv": "Той назовава и показва на учителя градовете, планините и реките.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Ето как учителят работи в час.",
+            "lv": "Така работи учителят в класната стая.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3839,12 +3839,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson20": {
     "id": "lesson20",
-    "title": "Лекция 20",
+    "title": "Урок 20",
     "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, сложни съществителни",
-    "intro": "Лекция 20: къща, етажи, дателен/винителен падеж и сложни съществителни.",
+    "intro": "Двадесети урок: къща, етажи, Dativ/Akkusativ и сложни съществителни.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Dieses Haus ist hoch.",
           "Es hat drei Stockwerke.",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "das Haus — māja",
-          "das Stockwerk — stāvs",
-          "die Mauer — mūris",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
-          "die Wohnung — dzīvoklis",
-          "das Vorhaus — priekšnams / gaitenis",
-          "die Küche — virtuve",
-          "das Dach — jumts",
-          "der Boden — bēniņi / grīda / zeme",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
-          "der Schornsteinfeger — skursteņslaucītājs",
-          "die Stadt — pilsēta",
-          "leben — dzīvot",
-          "tragen — nest",
-          "bringen — nest / atnest",
-          "stecken — bāzt / ielikt",
-          "der Ofen — krāsns",
-          "anzünden — aizdedzināt",
-          "bald — drīz",
-          "brennen — degt",
-          "licht — gaišs",
-          "hell — gaišs / spožs",
-          "die Tür — durvis",
-          "das Fenster — logs",
-          "der Mensch — cilvēks"
+          "das Haus — къща",
+          "das Stockwerk — етаж",
+          "die Mauer — зид",
+          "der Stein — камък",
+          "das Holz — дърво / дърва за огрев",
+          "das Glas — стъкло",
+          "aus Glas — от стъкло",
+          "die Wohnung — жилище",
+          "das Vorhaus — антре / коридор",
+          "die Küche — кухня",
+          "das Dach — покрив",
+          "der Boden — таван / под / земя",
+          "der Keller — мазе",
+          "der Schornstein — комин",
+          "der Schornsteinfeger — коминочистач",
+          "die Stadt — град",
+          "leben — живея",
+          "tragen — нося",
+          "bringen — нося / донасям",
+          "stecken — пъхам / слагам",
+          "der Ofen — печка",
+          "anzünden — запалвам",
+          "bald — скоро",
+          "brennen — горя",
+          "licht — светъл",
+          "hell — светъл / ярък",
+          "die Tür — врата",
+          "das Fenster — прозорец",
+          "der Mensch — човек"
         ]
       },
       {
         "title": "Граматика",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Пътни думи, които отговарят на въпроса „Искаш ли?“ в лекции 19 и 20 - кога? стои до дателен падеж. Дателният падеж отговаря не само на wo? - къде?, но също и на wann? - Кога?",
+            "heading": "Датив с wann?",
+            "text": "Предлозите, които в 19. и 20. урок отговарят на въпроса wann? — кога?, се употребяват с Dativ. Дативът отговаря не само на wo? — къде?, но и на wann? — кога?",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — през деня",
+              "in der Nacht — през нощта",
+              "in dem Sommer / im Sommer — през лятото",
+              "in dem Januar / im Januar — през януари",
+              "vor drei Tagen — преди три дни"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Към члена се добавят много предлози.",
+            "heading": "Предлог + член",
+            "text": "Много предлози се сливат с члена.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Ако глаголната основа завършва на t, d, m, n, тогава във 2-ро и 3-то лице единствено число и във 2-ро лице множествено число често се вмъква -e- между основата и окончанието за по-добро произношение.",
+            "heading": "-e- между основата и окончанието",
+            "text": "Ако основата на глагола завършва на t, d, m, n, във 2. и 3. лице единствено число и във 2. лице множествено число между основата и окончанието често се вмъква -e- за по-лесно произношение.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Сложните съществителни обикновено имат краен член.",
+            "heading": "Сложни съществителни",
+            "text": "Сложните съществителни обикновено получават члена на последната дума.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Образуване на сложни съществителни",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "В глагола tragen във 2-ро и 3-то лице единствено число основната гласна a приема умлаут.",
+            "text": "При глагола tragen във 2. и 3. лице единствено число коренната гласна a получава умлаут.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "В думите Stockwerk, Stein, Stadt, stecken: st се произнася като шт.",
+          "В думите der Ofen, der Boden: o е дълго.",
+          "sch се произнася като ш: der Schornstein, der Mensch.",
+          "В думите das Haus, das Holz: h се чува и трябва да се произнася.",
+          "В думите die Wohnung, wohnen: h е знак за дължина и не се произнася.",
+          "В думите die Küche, die Dächer: ch се произнася като мек звук от типа „х“, като немския ich-Laut.",
+          "В думата das Vorhaus: v се произнася като ф."
         ]
       },
       {
@@ -3987,93 +3987,93 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Избери правилния падеж: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
@@ -4081,7 +4081,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Колко етажа има в къщата?",
+            "lv": "Колко етажа има къщата?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
@@ -4089,23 +4089,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "От какво са направени стените?",
+            "lv": "От какво са зидовете?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "От какво е направена вратата?",
+            "lv": "От какво са вратите?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "От какво са направени прозорците?",
+            "lv": "От какво са прозорците?",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Къде са десетте апартамента?",
+            "lv": "Къде има десет жилища?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Какво има всеки апартамент?",
+            "lv": "Какво има всяко жилище?",
             "de": "Was hat jede Wohnung?"
           },
           {
@@ -4113,7 +4113,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Keller?"
           },
           {
-            "lv": "Къде е тавана?",
+            "lv": "Къде е таванът?",
             "de": "Wo ist der Boden?"
           },
           {
@@ -4121,23 +4121,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Къде гледа коминочистача?",
+            "lv": "Накъде се качва коминочистачът?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
-            "lv": "Къде стои?",
+            "lv": "Къде стои той?",
             "de": "Wo steht er?"
           },
           {
-            "lv": "Какво прави той",
+            "lv": "Какво прави той?",
             "de": "Was tut er?"
           },
           {
-            "lv": "Какво е град?",
+            "lv": "Какво има градът?",
             "de": "Was hat die Stadt?"
           },
           {
-            "lv": "Къде има много апартаменти?",
+            "lv": "Къде има много жилища?",
             "de": "Wo sind viele Wohnungen?"
           },
           {
@@ -4153,19 +4153,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "На кой етаж живееш",
+            "lv": "На кой етаж живееш?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Къде трябва да се транспортират дърва за огрев?",
+            "lv": "Накъде трябва да носиш дървата?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Къде слагате дървата?",
+            "lv": "Къде пъхаш дървата?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Какво запалихте?",
+            "lv": "Какво запалваш?",
             "de": "Was zündest du an?"
           },
           {
@@ -4178,12 +4178,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson21": {
     "id": "lesson21",
-    "title": "Лекция 21",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Дателен падеж",
-    "intro": "Двадесет и първа лекция: woher/wohin/wo, von/aus/mit + Dativ.",
+    "title": "Урок 21",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "Двадесет и първи урок: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Текст / Четене",
         "items": [
           "Die Holzhauer arbeiten in der Scheune.",
           "Sie sägen und spalten Holz.",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Думи",
         "items": [
-          "der Holzhauer — malkas cirtējs",
-          "sägen — zāģēt",
-          "spalten — skaldīt",
-          "die Axt — cirvis",
-          "von — no",
-          "aus — no / iz",
-          "mit — ar",
-          "helfen — palīdzēt",
-          "treten — iet / nākt / spert soli",
-          "du trittst — tu ej / tu sper soli",
-          "er tritt — viņš iet / sper soli",
-          "rufen — saukt",
-          "holen — atnest / atgādāt",
-          "eilen — steigties",
-          "zurück — atpakaļ",
-          "finden — atrast",
-          "sehen — redzēt",
-          "du siehst — tu redzi",
-          "er sieht — viņš redz",
-          "fleißig — čakli",
-          "die Scheune — šķūnis",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — spainis",
-          "die Säge — zāģis",
-          "das Beil — cirvis"
+          "der Holzhauer — дървосекач",
+          "sägen — режа с трион",
+          "spalten — цепя",
+          "die Axt — брадва",
+          "von — от",
+          "aus — от / из",
+          "mit — с",
+          "helfen — помагам",
+          "treten — вървя / идвам / пристъпвам",
+          "du trittst — ти вървиш / ти пристъпваш",
+          "er tritt — той върви / пристъпва",
+          "rufen — викам",
+          "holen — донасям / доставям",
+          "eilen — бързам",
+          "zurück — назад / обратно",
+          "finden — намирам",
+          "sehen — виждам",
+          "du siehst — ти виждаш",
+          "er sieht — той вижда",
+          "fleißig — прилежно",
+          "die Scheune — хамбар",
+          "das Feld — поле",
+          "der Berg — планина",
+          "die Brücke — мост",
+          "der Hof — двор",
+          "der Keller — мазе",
+          "die Küche — кухня",
+          "die Milch — мляко",
+          "der Eimer — кофа",
+          "die Säge — трион",
+          "das Beil — брадва"
         ]
       },
       {
@@ -4251,28 +4251,28 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Предлозите mit, von и aus винаги стоят до дателния падеж.",
+            "text": "Предлозите mit, von и aus винаги се употребяват с Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — с",
+              "von — от",
+              "aus — от / из",
+              "mit dem Mann — с мъжа",
+              "von dem Felde / vom Felde — от полето",
+              "aus der Küche — от кухнята"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Предлогът фон може да се слее с члена.",
+            "text": "Предлогът von може да се слее с члена.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Съвременна форма: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Ако човек или предмет е в и извън стая, място или контейнер, използвайте aus.",
+            "heading": "Woher? — откъде?",
+            "text": "Ако лице или предмет се намира в някакво помещение, място или съд и излиза навън от него, се използва aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Когато човек или обект е над място или върху нещо и се отдалечава от него, се използва фон.",
+            "text": "Ако лице или предмет се намира над някакво място или върху нещо и се отдалечава от него, се използва von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Когато говорите за материала, от който е направен даден предмет, използвайте aus.",
+            "heading": "Материал",
+            "text": "Когато се говори за материала, от който е направен предметът, се използва aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Произношение",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "В думата die Axt: x се произнася като кс.",
+          "В думите arbeiten, das Beil, steigen: ei се произнася като ай.",
+          "В думата die Scheune: eu се произнася като ой.",
+          "В думата die Brücke: ck се произнася като двойно к."
         ]
       },
       {
@@ -4320,83 +4320,83 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Отговори според текста за четене.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Преведи",
         "type": "translationCards",
         "cards": [
           {
@@ -4404,23 +4404,23 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Изваждам тетрадките от чантата си.",
+            "lv": "Изваждам тетрадките от чантата.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Изваждам часовника от джоба си.",
+            "lv": "Измъквам часовника от джоба.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "В мазето има кофа с мляко.",
+            "lv": "Една кофа с мляко стои в мазето.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Нося кофа от мазето.",
+            "lv": "Нося кофата от мазето.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Свалям шапка от главата си.",
+            "lv": "Свалям шапката от главата.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
@@ -4428,31 +4428,31 @@ const COURSE_LESSON_DATA = {
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Баща сваля картина от стената.",
+            "lv": "Бащата сваля картината от стената.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Нотите са на пианото.",
+            "lv": "Нотите лежат на пианото.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Махам нотите от пианото.",
+            "lv": "Вземам нотите от пианото.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Дойдохме от приятел.",
+            "lv": "Идваме от приятеля.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Идваме от приятел.",
+            "lv": "Идваме от приятелката.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "Ние идваме от учителя.",
+            "lv": "Идваме от учителя.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Всичко идва от приятел, от приятелка, от учител.",
+            "lv": "Всички идват от приятеля, от приятелката, от учителя.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

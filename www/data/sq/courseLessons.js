@@ -2436,12 +2436,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson15": {
     "id": "lesson15",
-    "title": "Ders 15",
-    "subtitle": "Sollen, dürfen, essen, owoc",
-    "intro": "Onbeşinci ders: sollen, dürfen, essen ve meyve kelimeleri.",
+    "title": "Mësimi 15",
+    "subtitle": "sollen, dürfen, essen, frutat",
+    "intro": "Mësimi i pesëmbëdhjetë: sollen, dürfen, essen dhe fjalët për frutat.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Ich soll das Messer nicht nehmen, denn ich darf den Apfel nicht schälen.",
           "Du sollst das Messer nicht nehmen, denn du darfst den Apfel nicht schälen.",
@@ -2471,69 +2471,69 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "sollen — ihtiyaç duymak / mecbur olmak",
-          "ich soll — Yapmalıyım /Yapmalıyım",
-          "du sollst — potrzebujesz / musisz zrobić",
-          "er soll — on potrzebuje / musi",
-          "wir sollen — yapmalıyız / yapmalıyız",
-          "ihr sollt — ihtiyacın var/yapmalısın",
-          "sie sollen — onların/onların ihtiyaçları var",
-          "dürfen — izin vermek",
-          "ich darf — yapabilirim",
-          "du darfst — yapabilirsiniz",
-          "er darf — belki",
-          "wir dürfen — yapabiliriz",
-          "ihr dürft — yapabilirsin",
-          "sie dürfen — onlar / yapabilirler",
-          "nicht — ne",
-          "das Messer — bıçak",
-          "der Apfel — elma",
-          "die Äpfel — elmalar",
-          "schälen — mizot",
-          "entzweischneiden — ikiye bölünmüş",
-          "die Birne — bumbieris",
-          "die Birnen — bumbieri",
-          "die Pflaume — śliwka",
-          "die Pflaumen — erikler",
-          "die Kirsche — kiraz",
-          "die Kirschen — kiraz",
-          "gern — isteyerek",
-          "reif — enter / mature",
-          "unreif — girme / olgunlaşma",
-          "nehmen — take",
-          "ich nehme — alıyorum",
-          "du nimmst — bierzesz",
-          "er nimmt — bierze",
-          "essen — yemek",
-          "ich esse — jem",
-          "du isst — jesz",
-          "er isst — on je",
-          "wir essen — jemy",
-          "ihr esst — jesz",
-          "sie essen — onlar / onlar yiyorlar"
+          "sollen — duhet / kam për detyrë",
+          "ich soll — unë duhet / e kam për detyrë",
+          "du sollst — ti duhet / e ke për detyrë",
+          "er soll — ai duhet / e ka për detyrë",
+          "wir sollen — ne duhet / e kemi për detyrë",
+          "ihr sollt — ju duhet / e keni për detyrë",
+          "sie sollen — ata / ato duhet",
+          "dürfen — më lejohet, kam leje",
+          "ich darf — mua më lejohet",
+          "du darfst — ty të lejohet",
+          "er darf — atij i lejohet",
+          "wir dürfen — neve na lejohet",
+          "ihr dürft — juve ju lejohet",
+          "sie dürfen — atyre u lejohet",
+          "nicht — nuk, jo",
+          "das Messer — thikë",
+          "der Apfel — mollë",
+          "die Äpfel — mollët",
+          "schälen — qëroj",
+          "entzweischneiden — pres përgjysmë",
+          "die Birne — dardhë",
+          "die Birnen — dardhat",
+          "die Pflaume — kumbull",
+          "die Pflaumen — kumbullat",
+          "die Kirsche — qershi",
+          "die Kirschen — qershitë",
+          "gern — me dëshirë",
+          "reif — i pjekur",
+          "unreif — i papjekur",
+          "nehmen — marr",
+          "ich nehme — unë marr",
+          "du nimmst — ti merr",
+          "er nimmt — ai merr",
+          "essen — ha",
+          "ich esse — unë ha",
+          "du isst — ti ha",
+          "er isst — ai ha",
+          "wir essen — ne hamë",
+          "ihr esst — ju hani",
+          "sie essen — ata / ato hanë"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen yükümlülük anlamında ihtiyaç anlamına gelir."
+            "text": "Sollen do të thotë duhet në kuptimin e detyrimit."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Krahasim",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — duhet nga nevoja ose bindja",
+              "sollen — duhet në kuptimin e detyrimit",
+              "Ich muss lernen. — Duhet të mësoj, sepse është e nevojshme.",
+              "Ich soll lernen. — Duhet të mësoj, sepse është detyra ime."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "Sollen fiilinin birinci ve üçüncü tekil şahısları aynıdır.",
+            "heading": "Format e sollen",
+            "text": "Te folja sollen veta e 1. dhe e 3. njëjës e kohës së tashme janë të njëjta.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen izin vermek demektir. Dürfen'de kök ünlüsü tekilde a, çoğulda ise ü'dür.",
+            "text": "Dürfen do të thotë më lejohet, kam leje. Te dürfen zanorja e temës në njëjës është a, kurse në shumës ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen Kemeri buna benziyor.",
+            "text": "Essen zgjedhohet kështu.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,94 +2568,94 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Proje modern bir senaryo kullanıyorsa, şöyle yazabilirsiniz: du isst, er/sie/es isst, ihr esst."
+            "heading": "Drejtshkrimi i sotëm",
+            "text": "Sipas drejtshkrimit të sotëm mund të shkruhet: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "Bileşik fiil entzweischneiden'de vurgu entzweí- öneki üzerindedir, dolayısıyla şimdiki zamanda önek ayrılır ve cümlenin sonuna yerleştirilir.",
+            "text": "Te folja e përbërë entzweischneiden theksi bie te parashtesa entzwei-, prandaj në kohën e tashme parashtesa ndahet dhe shkon në fund të fjalisë.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — E pres mollën përgjysmë."
             ]
           }
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "ä në fjalët Äpfel dhe schälen shqiptohet si e e mbyllur.",
+          "Në fjalën Äpfel ä shqiptohet e shkurtër, sepse pas zanores vijnë dy bashkëtingëllore.",
+          "Në fjalën schälen ä shqiptohet e gjatë, sepse pas zanores vjen një bashkëtingëllore.",
+          "Në fjalën gern e është e shkurtër dhe e hapur.",
+          "Mbaj mend: diftongu ei në gjermanisht shqiptohet si aj: reif, unreif."
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kim sağlıklı, kim çalışabilir?",
+            "lv": "Kush është i shëndoshë, kujt i lejohet të punojë?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Franciszek sağlıklı ve çalışabiliyor.",
+            "lv": "Franz është i shëndoshë, atij i lejohet të punojë.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Dede çalışabilir mi?",
+            "lv": "A i lejohet gjyshit të punojë?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Hayır, dede hasta olduğu için çalışamıyor.",
+            "lv": "Jo, gjyshit nuk i lejohet të punojë, sepse ai është i sëmurë.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Anne, erik yiyebilir miyim?",
+            "lv": "Nënë, a më lejohet t'i ha kumbullat?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Hayır, erikleri yemene gerek yok, daha gelmediler.",
+            "lv": "Jo, kumbullat nuk duhet t'i hash, ato janë të papjekura.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Elma mı, armut mu yedin?",
+            "lv": "A ha ti një mollë apo një dardhë?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
-            "lv": "Armut yiyorum.",
+            "lv": "Unë ha një dardhë.",
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Jak smakuje gruszka?",
+            "lv": "Çfarë shije ka dardha?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "Gruszka smakuje bardzo dobrze.",
+            "lv": "Dardha ka shije shumë të mirë.",
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Kimin çalışması gerekiyor?",
+            "lv": "Kush duhet të mësojë?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Bir öğrencinin öğrenmesi gerekir.",
+            "lv": "Nxënësi duhet të mësojë.",
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "İlerlemek mi istiyor?",
+            "lv": "A do ai të ecë përpara?",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Evet, ilerlemek istiyor.",
+            "lv": "Po, ai do të ecë përpara.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Bir çocuk bıçak alabilir mi?",
+            "lv": "A i lejohet fëmijës ta marrë thikën?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Bıçak keskin olduğu için çocuk bıçağı almamalıdır.",
+            "lv": "Fëmija nuk duhet ta marrë thikën, sepse thika është e mprehtë.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2664,12 +2664,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson16": {
     "id": "lesson16",
-    "title": "Ders 16",
-    "subtitle": "Dativs, geben, sich nähern",
-    "intro": "On altıncı ders: datif, geben, sich nähern ve datif egzersizler.",
+    "title": "Mësimi 16",
+    "subtitle": "Dativi, geben, sich nähern",
+    "intro": "Mësimi i gjashtëmbëdhjetë: dativi, geben, sich nähern dhe ushtrime për dativin.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Wem schenkt der Vater ein Buch?",
           "Der Vater schenkt dem Sohne ein Buch.",
@@ -2692,53 +2692,53 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "wem — kam?",
-          "schenken — dağıtmak",
-          "dem Sohne — synowi",
-          "den Söhnen — synom",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
-          "er gibt — daje",
-          "die Magd — kalpone",
-          "Brot — maize",
-          "Milch — piens",
-          "gehorchen — itaat et",
-          "der Knecht — kalps",
-          "gehören — ait",
-          "das Feld — pole / pole",
-          "die Felder — pola / pola",
-          "die Wiese — çayır",
-          "die Wiesen — çayırlar",
-          "der Wald — las",
-          "die Wälder — lasy",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
-          "treu — wierny"
+          "wem — kujt?",
+          "schenken — dhuroj",
+          "dem Sohne — djalit",
+          "den Söhnen — djemve",
+          "sich nähern — afrohem",
+          "ich nähere mich — unë afrohem",
+          "du näherst dich — ti afrohesh",
+          "geben — jap",
+          "ich gebe — unë jap",
+          "du gibst — ti jep",
+          "er gibt — ai jep",
+          "die Magd — shërbëtore",
+          "Brot — bukë",
+          "Milch — qumësht",
+          "gehorchen — bindem",
+          "der Knecht — shërbëtor",
+          "gehören — i përkas",
+          "das Feld — fushë / arë",
+          "die Felder — fushat / arat",
+          "die Wiese — livadh",
+          "die Wiesen — livadhet",
+          "der Wald — pyll",
+          "die Wälder — pyjet",
+          "der Bauer — fshatar",
+          "die Bäuerin — fshatare",
+          "folgen — ndjek",
+          "der Jäger — gjahtar",
+          "treu — besnik"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs",
-            "text": "Celownik odpowiada na pytanie: wem? — komu?"
+            "heading": "Dativi",
+            "text": "Dativi i përgjigjet pyetjes: wem? — kujt?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Njëjësi",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Mashkullore",
+                "Femërore",
+                "Asnjanëse"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Shumësi",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Mashkullore",
+                "Femërore",
+                "Asnjanëse"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Datif tekildeki eril ve nötr isimler -e ile bitebilir. Günümüzde bu son genellikle terk ediliyor.",
+            "heading": "-e e dativit",
+            "text": "Emrat e gjinisë mashkullore dhe asnjanëse në dativin njëjës mund të marrin mbaresën -e. Sot kjo mbaresë shpesh bie.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Dişil isimler tekil hali ile bitmez.",
+            "heading": "Gjinia femërore në dativ",
+            "text": "Emrat e gjinisë femërore në dativin njëjës nuk marrin mbaresë.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Nyja joshquese në dativ",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "Çoğul datif artikel ve isim genellikle -n ile biter.",
+            "heading": "Dativi i shumësit",
+            "text": "Në dativin shumës nyja dhe emri shpesh marrin mbaresën -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Eğer çoğul zaten -n ile bitiyorsa başka -n eklenmez.",
+            "heading": "Kur shumësi mbaron tashmë me -n",
+            "text": "Kur shumësi mbaron tashmë me -n, nuk shtohet një -n tjetër.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "Geben fiilinde e, 2. ve 3. tekil şahısta i olarak değişir.",
+            "text": "Te folja geben në vetën e 2. dhe të 3. njëjës e kthehet në i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Czasownik zwrotny: sich nähern – zbliżać się.",
+            "text": "Folje vetvetore: sich nähern — afrohem.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,171 +2857,171 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Shumësi me Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "Artikel olmadan sıklıkla kullanılan kelimeler: die Milch, das Brot."
+            "heading": "Pa nyje",
+            "text": "Fjalë që shpesh përdoren pa nyje: die Milch, das Brot."
           }
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "Vārdos wem, dem, den, der — W wem, dem, den, der, e jest długie i wąskie.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen kelimesini duyarsınız.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie znaczyło długo ī: die Wiese."
+          "Në fjalët wem, dem, den, der — e është e gjatë dhe e mbyllur.",
+          "Në fjalën gehorchen h dëgjohet: ge-hor-chen.",
+          "die Wälder: ä shqiptohet si e e mbyllur dhe e shkurtër.",
+          "die Bäuerinnen: äu shqiptohet si oj.",
+          "-ie shënon i-në e gjatë: die Wiese."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ushtrim",
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Cümlenin anlamına göre doğru makaleyi datif/suçlama durumunda koyun.",
+            "task": "Vendos nyjen e duhur në dativ/akuzativ sipas kuptimit të fjalisë.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Cümlenin anlamına göre doğru makaleyi datif/suçlama durumunda koyun.",
+            "task": "Vendos nyjen e duhur në dativ/akuzativ sipas kuptimit të fjalisë.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Cümlenin anlamına göre doğru makaleyi datif/suçlama durumunda koyun.",
+            "task": "Vendos nyjen e duhur në dativ/akuzativ sipas kuptimit të fjalisë.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Cümlenin anlamına göre doğru makaleyi datif/suçlama durumunda koyun.",
+            "task": "Vendos nyjen e duhur në dativ/akuzativ sipas kuptimit të fjalisë.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Cümlenin anlamına göre doğru makaleyi datif/suçlama durumunda koyun.",
+            "task": "Vendos nyjen e duhur në dativ/akuzativ sipas kuptimit të fjalisë.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Cümlenin anlamına göre doğru makaleyi datif/suçlama durumunda koyun.",
+            "task": "Vendos nyjen e duhur në dativ/akuzativ sipas kuptimit të fjalisë.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Doğru makaleyi datif'e koyun.",
+            "task": "Vendos nyjen e duhur në dativ.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Çoğul olarak değiştirin.",
+            "task": "Ktheje në shumës.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Çoğul olarak değiştirin.",
+            "task": "Ktheje në shumës.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Babanın adı nedir?",
+            "lv": "Kë thërret babai?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Oğlunu ve kızını aradı.",
+            "lv": "Ai thërret djalin dhe vajzën.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Bu ormanın sahibi kim?",
+            "lv": "Kujt i përket ky pyll?",
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Bu orman çiftçinindir.",
+            "lv": "Ky pyll i përket fshatarit.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Köpek kime itaat eder?",
+            "lv": "Kujt i bindet qeni?",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Köpek hizmetçilere ve hizmetçilere itaat eder.",
+            "lv": "Qeni u bindet shërbëtorëve dhe shërbëtoreve.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
-            "lv": "Bir avcının kaç köpeği vardır?",
+            "lv": "Sa qen ka gjahtari?",
             "de": "Wieviel Hunde hat der Jäger?"
           },
           {
-            "lv": "Avcının beş köpeği var.",
+            "lv": "Gjahtari ka pesë qen.",
             "de": "Der Jäger hat fünf Hunde."
           },
           {
-            "lv": "Jaki tallet me byrekët?",
+            "lv": "Si është qeni?",
             "de": "Wie ist der Hund?"
           },
           {
-            "lv": "Pies jest wierny.",
+            "lv": "Qeni është besnik.",
             "de": "Der Hund ist treu."
           },
           {
-            "lv": "Köpekler nasıldır?",
+            "lv": "Si janë qentë?",
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Köpekler sadıktır.",
+            "lv": "Qentë janë besnikë.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Öğrencilere ve kızlara ne geliyor?",
+            "lv": "Kush u afrohet nxënësve dhe nxënëseve?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Öğretmen öğrencilerin yanına gelir.",
+            "lv": "Mësuesi u afrohet nxënësve dhe nxënëseve.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3030,12 +3030,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson17": {
     "id": "lesson17",
-    "title": "Ders 17",
-    "subtitle": "Mit + Dativ, womit / mit wem, czasowniki z umlautem",
-    "intro": "On yedinci ders: mit + Dativ, womit / mit wem ve çift noktalı fiiller.",
+    "title": "Mësimi 17",
+    "subtitle": "mit + Dativ, womit / mit wem, foljet me Umlaut",
+    "intro": "Mësimi i shtatëmbëdhjetë: mit + Dativ, womit / mit wem dhe foljet me Umlaut.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Der Knabe hat einen Spaten.",
           "Er will eine Grube graben.",
@@ -3060,50 +3060,50 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "der Spaten — kürek",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
-          "werfen — mest",
-          "fangen — yakalamak",
-          "auffangen — yakalamak/yakalamak",
-          "wieder — atkal",
-          "der Schuldiener — okul çalışanı",
-          "der Besen — slota",
-          "fegen — süpürgeyle süpürmek",
-          "die Diele — zemin",
-          "der Lappen — szmata / szmatka",
-          "wischen — silmek / temizlemek",
-          "abwischen — silmek",
-          "helfen — yardım etmek",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — draudzene",
-          "die Freundinnen — draudzenes",
-          "mit — ar",
-          "mit wem — ar ko? / ar kuru?",
-          "der Staub — kurz",
-          "der Bruder — brat",
-          "die Schwester — siostra",
-          "die Dienerin — kalpone"
+          "der Spaten — lopatë",
+          "die Grube — gropë",
+          "graben — gërmoj",
+          "womit — me çfarë?",
+          "der Ball — top",
+          "werfen — hedh",
+          "fangen — kap",
+          "auffangen — kap / zë",
+          "wieder — përsëri",
+          "der Schuldiener — shërbyes i shkollës",
+          "der Besen — fshesë",
+          "fegen — fshij me fshesë",
+          "die Diele — dysheme",
+          "der Lappen — leckë / pecetë",
+          "wischen — fshij / pastroj",
+          "abwischen — fshij, pastroj duke fshirë",
+          "helfen — ndihmoj",
+          "danken — falënderoj",
+          "der Freund — mik",
+          "die Freundin — mike",
+          "die Freundinnen — miket",
+          "mit — me",
+          "mit wem — me kë?",
+          "der Staub — pluhur",
+          "der Bruder — vëlla",
+          "die Schwester — motër",
+          "die Dienerin — shërbëtore"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Mit edatı her zaman datif durumda ortaya çıkar. Letonca: mit = z."
+            "text": "Parafjala mit qëndron gjithmonë me dativ. Në shqip: mit = me."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Alman sorusu \"neyle?\" iki şekilde ifade edilir: efsane mi? - insanlar hakkında, değil mi? — şeyler/konular hakkında.",
+            "text": "Në gjermanisht pyetja “me kë?” ose “me çfarë?” shprehet në dy mënyra: mit wem? — për persona, womit? — për sende/objekte.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — Me kë flet vëllai?",
+              "Womit gräbt der Knabe die Grube? — Me çfarë e gërmon djali gropën?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Graben, fangen, auffangen fiillerinde ikinci ve üçüncü tekil şahısta çift nokta bulunur.",
+            "text": "Foljet graben, fangen, auffangen marrin Umlaut në vetën e 2. dhe të 3. njëjës.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "2. ve 3. tekil şahıslardaki helfen ve werfen fiillerinde e kökü i olarak değişir.",
+            "text": "Te foljet helfen dhe werfen në vetën e 2. dhe të 3. njëjës e-ja e temës kthehet në i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Auffangen ve abwischen bileşik fiillerinde önekin vurgusu vardır. Bu nedenle şimdiki önek ayrılarak cümlenin sonuna yerleştirilir.",
+            "heading": "Parashtesat e ndashme",
+            "text": "Te foljet e përbëra auffangen dhe abwischen theksi bie te parashtesa. Prandaj në kohën e tashme parashtesa ndahet dhe shkon në fund të fjalisë.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Hem Fegen hem de Wischen süpürmek anlamına gelir ancak kullanımları farklıdır.",
+            "text": "Fegen dhe wischen të dyja do të thonë fshij, por përdoren ndryshe.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — fshij me fshesë",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — fshij me leckë, me pecetë, fshij pluhurin",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3168,156 +3168,156 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "Në fjalën werfen e-ja e parë është e hapur: werfen.",
+          "Në fjalën wieder e është e hapur: wieder.",
+          "Në fjalët wieder dhe die Diele ie shënon i-në e gjatë: wieder, die Diele.",
+          "Në fjalën der Spaten sp shqiptohet si shp: der Spaten."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ushtrim",
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Önce tekil, sonra çoğul olarak cevap verin.",
-            "task2": "Teraz odpowiedz w liczbie mnogiej.",
+            "task": "Përgjigju në njëjës, pastaj në shumës.",
+            "task2": "Tani përgjigju në shumës.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Önce tekil, sonra çoğul olarak cevap verin.",
-            "task2": "Teraz odpowiedz w liczbie mnogiej.",
+            "task": "Përgjigju në njëjës, pastaj në shumës.",
+            "task2": "Tani përgjigju në shumës.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Önce tekil, sonra çoğul olarak cevap verin.",
-            "task2": "Teraz odpowiedz w liczbie mnogiej.",
+            "task": "Përgjigju në njëjës, pastaj në shumës.",
+            "task2": "Tani përgjigju në shumës.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Önce tekil, sonra çoğul olarak cevap verin.",
-            "task2": "Teraz odpowiedz w liczbie mnogiej.",
+            "task": "Përgjigju në njëjës, pastaj në shumës.",
+            "task2": "Tani përgjigju në shumës.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Önce tekil, sonra çoğul olarak cevap verin.",
-            "task2": "Teraz odpowiedz w liczbie mnogiej.",
+            "task": "Përgjigju në njëjës, pastaj në shumës.",
+            "task2": "Tani përgjigju në shumës.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Co jest szersze, drzwi czy okno?",
+            "lv": "Çfarë është më e gjerë, dera apo dritarja?",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
-            "lv": "Drzwi są szersze niż okno.",
+            "lv": "Dera është më e gjerë se dritarja.",
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Co wyciera dziewczyna?",
+            "lv": "Çfarë fshin vajza?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
-            "lv": "Kız tahtayı siliyor.",
+            "lv": "Vajza fshin dërrasën e zezë.",
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "Czym dziewczyna wyciera kurz?",
+            "lv": "Me çfarë e fshin vajza pluhurin?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "Z kim rozmawia ta dziewczyna?",
+            "lv": "Me kë flet vajza?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
-            "lv": "Rozmawia z ogrodnikiem.",
+            "lv": "Ajo flet me kopshtarin.",
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Czy ona rozmawia z przyjacielem?",
+            "lv": "A flet ajo me mikun?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Hayır, arkadaşlarıyla konuşuyor.",
+            "lv": "Jo, ajo flet me miqtë.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Çocuk kime yardım ediyor?",
+            "lv": "Kë ndihmon djali?",
             "de": "Wem hilft der Knabe?"
           },
           {
-            "lv": "Pomaga ogrodnikowi.",
+            "lv": "Ai ndihmon kopshtarin.",
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Czym przecina papier?",
+            "lv": "Me çfarë e pret ai letrën përgjysmë?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Kağıdı makasla keser.",
+            "lv": "Ai e pret letrën përgjysmë me gërshërë.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Czym rysuje brat?",
+            "lv": "Me çfarë vizaton vëllai?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Kurşun kalem ve tebeşirle resim yapıyor.",
+            "lv": "Ai vizaton me laps dhe me shkumës.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "Küreği neyle tutuyorsun?",
+            "lv": "Me çfarë e mban ti lopatën?",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "Elimde bir kürek tutuyorum.",
+            "lv": "Unë e mbaj lopatën me dorë.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "Kiminle işbirliği yapıyoruz?",
+            "lv": "Me çfarë punojmë ne?",
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Ellerimizle çalışıyoruz.",
+            "lv": "Ne punojmë me duar.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "Z czym widzimy?",
+            "lv": "Me çfarë shohim ne?",
             "de": "Womit sehen wir?"
           },
           {
-            "lv": "Widzimy oczami.",
+            "lv": "Ne shohim me sy.",
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Neyle duyuyoruz?",
+            "lv": "Me çfarë dëgjojmë ne?",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Kulaklarımızla duyuyoruz.",
+            "lv": "Ne dëgjojmë me veshë.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "Z czym brat chodzi?",
+            "lv": "Me kë shkon vëllai?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Kardeş babasıyla, annesiyle, öğretmeniyle, amcasıyla, teyzesiyle, kuzeniyle, kuzeniyle gider.",
+            "lv": "Vëllai shkon me babain, me nënën, me mësuesin, me xhaxhain, me tezen, me kushëririn, me kushërirën.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3326,12 +3326,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson18": {
     "id": "lesson18",
-    "title": "Wykład 18",
-    "subtitle": "Wohin / wo, Akkusativ vai Dativ ar an / in / auf",
-    "intro": "On sekizinci ders: wohin/wo, Akkusativ veya Dativ z/in/auf.",
+    "title": "Mësimi 18",
+    "subtitle": "wohin / wo, Akkusativ ose Dativ me an / in / auf",
+    "intro": "Mësimi i tetëmbëdhjetë: wohin / wo, Akkusativ ose Dativ me an / in / auf.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Wohin gehst du?",
           "Ich gehe an den Tisch.",
@@ -3357,249 +3357,249 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
-          "tragen — nest",
-          "ich trage — es nesu",
-          "du trägst — tu nes",
-          "er/sie/es trägt — on/ona/ono niesie",
-          "der Korb — grozs / kurvis",
-          "die Körbe — grozi / kurvji",
-          "das Körbchen — kosz",
-          "stellen — dik konuma getirmek / koymak",
-          "legen — uzanmak",
-          "das Wasser — woda",
-          "gießen — liet",
-          "der Krug — kubek",
-          "die Krüge — kubki",
-          "jetzt — tagad",
-          "an — pie",
-          "auf — uz",
-          "in — içeride / içeride",
-          "der Tisch — masa",
-          "die Bank — sols",
-          "die Diele — zemin",
-          "der Eimer — spainis"
+          "wohin — për ku?",
+          "wo — ku?",
+          "tragen — mbart",
+          "ich trage — unë mbart",
+          "du trägst — ti mbart",
+          "er/sie/es trägt — ai/ajo/ai mbart",
+          "der Korb — shportë / kosh",
+          "die Körbe — shportat / koshat",
+          "das Körbchen — shportëz / kosh i vogël",
+          "stellen — vendos / vë në këmbë",
+          "legen — vë / vendos shtrirë",
+          "das Wasser — ujë",
+          "gießen — derdh",
+          "der Krug — kanë",
+          "die Krüge — kanat",
+          "jetzt — tani",
+          "an — pranë, te",
+          "auf — mbi",
+          "in — brenda / në",
+          "der Tisch — tryezë",
+          "die Bank — bankë",
+          "die Diele — dysheme",
+          "der Eimer — kovë"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "An, in, auf edatları hem Akkusativ hem de Dative ile birlikte ortaya çıkabilir."
+            "text": "Parafjalët an, in, auf mund të qëndrojnë si me Akkusativ, ashtu edhe me Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Eylem yön veya yer değişikliğini gösteriyorsa Akkusativ kullanılır. Soru: ne? - Nerede?",
+            "text": "Kur veprimi tregon drejtim ose ndryshim vendi, përdoret Akkusativ. Pyetja: wohin? — për ku?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Shkoj te tryeza.",
+              "Ich stelle den Korb auf die Bank. — E vendos shportën mbi bankë.",
+              "Ich lege die Äpfel in das Körbchen. — I vë mollët në shportëz.",
+              "Ich gieße das Wasser in den Krug. — E derdh ujin në kanë."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Eylem bir konumu veya durumu gösteriyorsa artı işareti kullanılır. Soru: ne? - Nerede?",
+            "text": "Kur veprimi tregon vendndodhjen ose gjendjen, përdoret Dativ. Pyetja: wo? — ku?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Qëndroj pranë tryezës.",
+              "Der Korb steht auf der Bank. — Shporta qëndron mbi bankë.",
+              "Die Äpfel sind in dem Körbchen. — Mollët janë në shportëz.",
+              "Das Wasser ist in dem Kruge. — Uji është në kanë."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Bu fiiller genellikle yön belirtir ve bu nedenle \"wohin?\" sorusuna cevap verir.",
+            "heading": "Foljet me wohin?",
+            "text": "Këto folje shpesh tregojnë drejtim dhe prandaj i përgjigjen pyetjes wohin?.",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — shkoj",
+              "kommen — vij",
+              "fahren — udhëtoj (me mjet)",
+              "laufen — vrapoj",
+              "fliegen — fluturoj",
+              "springen — kërcej",
+              "kriechen — zvarritem",
+              "schleichen — shkoj vjedhurazi",
+              "hängen — var",
+              "sich setzen — ulem",
+              "sich stellen — zë vend në këmbë",
+              "werfen — hedh",
+              "reiten — kalëroj"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Bu fiiller genellikle bir konumu veya durumu belirtir ve bu nedenle ne olur sorusuna yanıt verir.",
+            "heading": "Foljet me wo?",
+            "text": "Këto folje shpesh tregojnë vendndodhjen ose gjendjen dhe prandaj i përgjigjen pyetjes wo?.",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — jam",
+              "sich befinden — ndodhem",
+              "arbeiten — punoj",
+              "liegen — rri shtrirë / ndodhem",
+              "sitzen — rri ulur",
+              "hängen — varem, rri i varur",
+              "finden — gjej",
+              "suchen — kërkoj",
+              "spielen — luaj"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "Rzeczowniki zwykle występują bez rodzajnika.",
+            "heading": "Emrat e lëndës",
+            "text": "Emrat e lëndës zakonisht përdoren pa nyje.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Pi qumësht.",
+              "In dem Eimer ist Wasser. — Në kovë ka ujë."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Maddenin belirli bir miktarda veya belirli bir yerde bahsi geçiyorsa eşya kullanılır.",
+            "heading": "Lëndë e caktuar",
+            "text": "Kur lënda përmendet në një sasi të caktuar ose në një vend të caktuar, përdoret nyja.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — E derdh ujin në kanë."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Eğer in edatı \"in\" olarak çevrilmemiş ancak bir konumu ifade ediyorsa, konum fiili kullanılarak çevrilebilir.",
+            "heading": "in + vend",
+            "text": "Kur parafjala in nuk përkthehet si “brenda”, por shpreh vendndodhjen, në shqip mund të përkthehet thjesht me “në”.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — në kovë",
+              "in dem Zimmer — në dhomë"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Dem Tische, dem Kruge, im Walde gibi eski biçimler günümüzde sıklıkla daha kısa biçimler olarak kullanılmaktadır: dem Tisch, dem Krug, im Wald."
+            "heading": "Format e sotme",
+            "text": "Format e vjetra, p.sh. dem Tische, dem Kruge, im Walde, sot shpesh përdoren më shkurt: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin kelimesini duyarsınız.",
-          "Vārdā wo o ir garš: wo."
+          "Në fjalën wohin h dëgjohet: wo-hin.",
+          "Në fjalën wo o është e gjatë: wo."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ushtrim",
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Doğru çekimi seçin: Dativ veya Akkusativ.",
+            "task": "Zgjidh rasën e duhur: Dativ ose Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Sunucu nereden?",
+            "lv": "Ku vjen shërbyesi?",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Wchodzi do pokoju.",
+            "lv": "Ai vjen në dhomë.",
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Gdzie on pracuje",
+            "lv": "Ku punon ai?",
             "de": "Wo arbeitet er?"
           },
           {
-            "lv": "Pratsuje w pokoju.",
+            "lv": "Ai punon në dhomë.",
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "Adam pencerenin yanına bir bank koyuyor.",
+            "lv": "Burri e vendos bankën pranë dritares.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "Ławka stoi przy oknie.",
+            "lv": "Banka qëndron pranë dritares.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "Çocuklar ormana gider.",
+            "lv": "Fëmijët shkojnë në pyll.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Ormanda çilek topluyorlar.",
+            "lv": "Ata kërkojnë manaferra në pyll.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "Ormanda birçok meyve bulurlar.",
+            "lv": "Ata gjejnë në pyll shumë manaferra.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Anne sepeti dolaba koyar.",
+            "lv": "Nëna e vendos shportën mbi dollap.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Kosz stoi na szafce.",
+            "lv": "Shporta qëndron mbi dollap.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Öğrenci defterlerini çantasına koyar.",
+            "lv": "Nxënësi i vë fletoret në çantë.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
-            "lv": "Defterler nerede?",
+            "lv": "Ku janë fletoret?",
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Mektuplar zaten çantada.",
+            "lv": "Fletoret tani janë në çantë.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Öğretmen nereye gidiyor?",
+            "lv": "Ku shkon mësuesi?",
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "Sınıfa gidiyor.",
+            "lv": "Ai shkon në klasë.",
             "de": "Er geht in die Klasse."
           },
           {
-            "lv": "Gdzie siedzi nauczyciel?",
+            "lv": "Ku rri ulur mësuesi?",
             "de": "Wo sitzt der Lehrer?"
           },
           {
-            "lv": "Nauczyciel siedzi w klasie.",
+            "lv": "Mësuesi rri ulur në klasë.",
             "de": "Der Lehrer sitzt in der Klasse."
           }
         ]
@@ -3608,12 +3608,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson19": {
     "id": "lesson19",
-    "title": "Ders 19",
+    "title": "Mësimi 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Ders XIX: Akkusativ veya Dativ ile vor, tip, unter, über, neben, zwischen.",
+    "intro": "Mësimi i nëntëmbëdhjetë: vor, hinter, unter, über, neben, zwischen me Akkusativ ose Dativ.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Wohin geht die Frau?",
           "Sie geht vor den Spiegel.",
@@ -3642,58 +3642,58 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "vor — z przodu / przed",
-          "hinter — aiz",
-          "unter — zem",
-          "über — ponad / ponad",
-          "neben — blakus",
-          "zwischen — starp",
-          "werfen — mest",
-          "stellen — koymak / ayarlamak / bir kenara koymak",
-          "der Spiegel — spogulis",
-          "der Schrank — skapis",
-          "der Eimer — spainis",
-          "die Bank — sols",
-          "das Bild — obraz / obraz",
-          "das Klavier — klavieres",
-          "der Großvater — dziadek",
-          "die Großmutter — babcia",
-          "der Stuhl — krzesło",
-          "der Zaun — çit",
-          "die Brücke — tilts",
-          "pflanzen — sadzić",
-          "der Strauch — krzak",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
-          "die Scheune — ahır",
-          "der Teich — staw",
-          "der Garten — bahçe",
-          "das Feld — lauks",
-          "die Laube — lapene",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
-          "die Stadt — miasto",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
-          "zeigen — göstermek",
-          "nennen — nosaukt",
-          "so — şöyle böyle"
+          "vor — para / përpara",
+          "hinter — pas / prapa",
+          "unter — nën",
+          "über — mbi / përtej",
+          "neben — pranë",
+          "zwischen — midis",
+          "werfen — hedh",
+          "stellen — vendos / vë",
+          "der Spiegel — pasqyrë",
+          "der Schrank — dollap",
+          "der Eimer — kovë",
+          "die Bank — bankë",
+          "das Bild — pikturë / figurë",
+          "das Klavier — piano",
+          "der Großvater — gjysh",
+          "die Großmutter — gjyshe",
+          "der Stuhl — karrige",
+          "der Zaun — gardh",
+          "die Brücke — urë",
+          "pflanzen — mbjell",
+          "der Strauch — shkurre",
+          "wachsen — rritem",
+          "die Mühle — mulli",
+          "die Scheune — hambar",
+          "der Teich — pellg",
+          "der Garten — kopsht",
+          "das Feld — fushë",
+          "die Laube — çardak",
+          "die Wand — mur",
+          "die Karte — hartë",
+          "das Land — vend",
+          "die Stadt — qytet",
+          "der Berg — mal",
+          "der See — liqen",
+          "der Fluss — lumë",
+          "zeigen — tregoj",
+          "nennen — emërtoj",
+          "so — kështu"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "Bu dersimizde hem Akkusativ hem de Dative hallerinde oluşabilecek edatlara devam edeceğiz."
+            "text": "Në këtë mësim vazhdojmë me parafjalët që mund të qëndrojnë si me Akkusativ, ashtu edhe me Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Eğer bir yön/hareket varsa soru şu: kim? ve Akkusativ'i kullanıyor.",
+            "text": "Kur ka drejtim / lëvizje drejt diku, pyetja është wohin? dhe përdoret Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Eğer bir konum varsa soru şu: nerede? ve artı işaretini kullanır.",
+            "text": "Kur ka vendndodhje, pyetja është wo? dhe përdoret Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,18 +3716,18 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Parafjalët",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — para",
+              "hinter — pas / prapa",
+              "unter — nën",
+              "über — mbi / përtej",
+              "neben — pranë",
+              "zwischen — midis"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
+            "heading": "Përmbledhje: wohin?",
             "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
@@ -3742,7 +3742,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
+            "heading": "Përmbledhje: wo?",
             "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen – eylemin sürekli yürümek anlamına geldiği zaman gidin. treten - eğer yürüyüş bir mola ile biterse girmek, yaklaşmak, adım atmak.",
+            "text": "gehen — shkoj, kur veprimi tregon ecje të pandërprerë. treten — hyj, afrohem, ngjitem, kur ecja përfundon me ndërprerjen e veprimit.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3769,68 +3769,68 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "Në fjalën vor o shqiptohet e gjatë.",
+          "Në fjalën hinter h dëgjohet dhe e është e hapur.",
+          "Në fjalën der Stuhl: st shqiptohet si sht; h është shenjë gjatësie dhe nuk shqiptohet.",
+          "Në fjalën der Strauch: st shqiptohet si sht.",
+          "Në fjalën wachsen: ch shqiptohet si k."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ushtrim",
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Doğru çekimi seçin: wohin? → Akkusativ, öyle mi? → Artı işareti",
+            "task": "Zgjidh rasën e duhur: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Doğru çekimi seçin: wohin? → Akkusativ, öyle mi? → Artı işareti",
+            "task": "Zgjidh rasën e duhur: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Nauczyciel przychodzi do klasy.",
+            "lv": "Mësuesi vjen në klasë.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Elinde bir kart var.",
+            "lv": "Ai ka një hartë në dorë.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Haritayı duvara asar.",
+            "lv": "Ai e var hartën në mur.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Kız ve erkek çocuklarına birçok şehri, ülkeyi, dağları, gölleri ve nehirleri gösterir.",
+            "lv": "Ai u tregon nxënësve dhe nxënëseve shumë vende, qytete, male, liqene dhe lumenj.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Daha sonra öğretmen öğrenciyi çağırır.",
+            "lv": "Pastaj mësuesi thërret një nxënës.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Öğrenci karta yaklaşır.",
+            "lv": "Nxënësi afrohet te harta.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Kartın önünde durmaya devam ediyor.",
+            "lv": "Ai ndalet para hartës.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "Öğretmene şehirleri, dağları ve nehirleri isimlendirir ve gösterir.",
+            "lv": "Ai ia emërton dhe ia tregon mësuesit qytetet, malet dhe lumenjtë.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Tak wygląda praca nauczyciela w klasie.",
+            "lv": "Kështu punon mësuesi në klasë.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3839,12 +3839,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson20": {
     "id": "lesson20",
-    "title": "Ders 20",
-    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, bileşik isimler",
-    "intro": "Yirminci ders: ev, katlar, Dativ/Akkusativ ve bileşik isimler.",
+    "title": "Mësimi 20",
+    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, emrat e përbërë",
+    "intro": "Mësimi i njëzetë: shtëpia, katet, Dativ/Akkusativ dhe emrat e përbërë.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Dieses Haus ist hoch.",
           "Es hat drei Stockwerke.",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "das Haus — dom",
-          "das Stockwerk — zemin",
-          "die Mauer — duvar",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
-          "die Wohnung — mieszkanie",
-          "das Vorhaus — hol/korytarz",
-          "die Küche — virtuve",
-          "das Dach — jumts",
-          "der Boden — çatı katı / birinci kat / zemin kat",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
-          "der Schornsteinfeger — kominiarz",
-          "die Stadt — miasto",
-          "leben — yaşamak",
-          "tragen — nest",
-          "bringen — nest / atnest",
-          "stecken — yapıştır/ekle",
-          "der Ofen — piekarnik",
-          "anzünden — aydınlatmak",
-          "bald — yakında",
-          "brennen — degt",
-          "licht — ışık",
-          "hell — açık / parlak",
-          "die Tür — drzwi",
-          "das Fenster — logs",
-          "der Mensch — istota ludzka"
+          "das Haus — shtëpi",
+          "das Stockwerk — kat",
+          "die Mauer — mur",
+          "der Stein — gur",
+          "das Holz — dru / dru zjarri",
+          "das Glas — xham",
+          "aus Glas — prej xhami",
+          "die Wohnung — banesë",
+          "das Vorhaus — paradhomë / korridor",
+          "die Küche — kuzhinë",
+          "das Dach — çati",
+          "der Boden — papafingo / dysheme / tokë",
+          "der Keller — bodrum",
+          "der Schornstein — oxhak",
+          "der Schornsteinfeger — oxhakpastrues",
+          "die Stadt — qytet",
+          "leben — jetoj",
+          "tragen — mbart",
+          "bringen — sjell / mbart",
+          "stecken — fus / vë brenda",
+          "der Ofen — sobë / furrë",
+          "anzünden — ndez",
+          "bald — së shpejti",
+          "brennen — digjem",
+          "licht — i ndritshëm",
+          "hell — i ndritshëm / i shndritshëm",
+          "die Tür — derë",
+          "das Fenster — dritare",
+          "der Mensch — njeri"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Soruya cevap veren anahtar kelimeler ister misiniz? 19. ve 20. derslerde — ne zaman?, bir tarih durumuyla birlikte duruyor. Artı işareti yalnızca çağrılara yanıt vermiyor mu? — nerede? ama aynı zamanda Wanna'da mı? - Ne zaman?",
+            "heading": "Dativi me wann?",
+            "text": "Parafjalët që në mësimet 19 dhe 20 i përgjigjen pyetjes wann? — kur?, qëndrojnë me Dativ. Dativi nuk i përgjigjet vetëm pyetjes wo? — ku?, por edhe pyetjes wann? — kur?.",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — ditën",
+              "in der Nacht — natën",
+              "in dem Sommer / im Sommer — verës",
+              "in dem Januar / im Januar — në janar",
+              "vor drei Tagen — para tri ditësh"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Makaleye birçok edat eklenmiştir.",
+            "heading": "Parafjalë + nyje",
+            "text": "Shumë parafjalë bashkohen me nyjen.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Fiil kökü t, d, m, n ile bitiyorsa, 2. ve 3. tekil şahıslarda ve 2. çoğul şahıslarda daha iyi telaffuz sağlamak için genellikle kök ile bitiş arasına -e- eki eklenir.",
+            "heading": "-e- midis temës dhe mbaresës",
+            "text": "Kur tema e foljes mbaron me t, d, m, n, në vetën e 2. dhe të 3. njëjës dhe në vetën e 2. shumës midis temës dhe mbaresës shpesh futet -e- për shqiptim më të lehtë.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Bileşik isimler genellikle son makaleyi alır.",
+            "heading": "Emrat e përbërë",
+            "text": "Emrat e përbërë zakonisht marrin nyjen e fjalës së fundit.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Formimi i emrave të përbërë",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "2. ve 3. tekil şahıstaki tragen fiilinde kök sesli harf a, çift nokta alır.",
+            "text": "Te folja tragen në vetën e 2. dhe të 3. njëjës zanorja e temës a merr Umlaut.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3971,205 +3971,205 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut'ta olduğu gibi \"h\" sesiyle telaffuz edilir.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "Në fjalët Stockwerk, Stein, Stadt, stecken: st shqiptohet si sht.",
+          "Në fjalët der Ofen, der Boden: o është e gjatë.",
+          "sch shqiptohet si sh: der Schornstein, der Mensch.",
+          "Në fjalët das Haus, das Holz: h dëgjohet dhe duhet shqiptuar.",
+          "Në fjalët die Wohnung, wohnen: h është shenjë gjatësie dhe nuk shqiptohet.",
+          "Në fjalët die Küche, die Dächer: ch shqiptohet si një tingull i llojit “hj”, si ich-Laut gjerman.",
+          "Në fjalën das Vorhaus: v shqiptohet si f."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ushtrim",
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Doğru çekimi seçin: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Zgjidh rasën e duhur: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Co jest wysokie?",
+            "lv": "Çfarë është e lartë?",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Ev kaç katlı?",
+            "lv": "Sa kate ka shtëpia?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "Pencereler ve kapılar nerede?",
+            "lv": "Ku janë dritaret dhe dyert?",
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "Duvarlar neyden yapılmıştır?",
+            "lv": "Prej çfarë janë muret?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Kapılar nelerden yapılmıştır?",
+            "lv": "Prej çfarë janë dyert?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "Pencereler neyden yapılmıştır?",
+            "lv": "Prej çfarë janë dritaret?",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "On daire nerede?",
+            "lv": "Ku janë dhjetë banesa?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Her dairede neler var?",
+            "lv": "Çfarë ka çdo banesë?",
             "de": "Was hat jede Wohnung?"
           },
           {
-            "lv": "Gdzie jest piwnica?",
+            "lv": "Ku është bodrumi?",
             "de": "Wo ist der Keller?"
           },
           {
-            "lv": "Gdzie jest strych?",
+            "lv": "Ku është papafingoja?",
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Üç baca nerede?",
+            "lv": "Ku janë tre oxhaqe?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Gdzie idzie kominiarz?",
+            "lv": "Ku ngjitet oxhakpastruesi?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
-            "lv": "Gdzie on stoi?",
+            "lv": "Ku qëndron ai?",
             "de": "Wo steht er?"
           },
           {
-            "lv": "Co on robi",
+            "lv": "Çfarë bën ai?",
             "de": "Was tut er?"
           },
           {
-            "lv": "Jakie jest miasto?",
+            "lv": "Çfarë ka qyteti?",
             "de": "Was hat die Stadt?"
           },
           {
-            "lv": "Nerede bu kadar çok daire var?",
+            "lv": "Ku janë shumë banesa?",
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "Birçok insan nerede yaşıyor?",
+            "lv": "Ku jetojnë shumë njerëz?",
             "de": "Wo leben viele Menschen?"
           },
           {
-            "lv": "Kto pracuje?",
+            "lv": "Kush punon?",
             "de": "Wer arbeitet?"
           },
           {
-            "lv": "Kim çalışmak zorunda?",
+            "lv": "Kush duhet të punojë?",
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "Hangi katta oturuyorsunuz?",
+            "lv": "Në cilin kat banon ti?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Yakacak odun nereye taşınmalı?",
+            "lv": "Ku duhet t'i mbartësh drutë?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Yakacak odunu nereye koyarsınız?",
+            "lv": "Ku i fut drutë?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Neyi yaktın?",
+            "lv": "Çfarë ndez ti?",
             "de": "Was zündest du an?"
           },
           {
-            "lv": "Ne parlak yanıyor?",
+            "lv": "Çfarë digjet me dritë të fortë?",
             "de": "Was brennt hell?"
           }
         ]
@@ -4178,12 +4178,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson21": {
     "id": "lesson21",
-    "title": "Ders 21",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Dativ",
-    "intro": "Yirmi birinci ders: woher / wohin / wo, von / aus / mit + Dativ.",
+    "title": "Mësimi 21",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "Mësimi i njëzetenjëtë: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Tekst / Lexim",
         "items": [
           "Die Holzhauer arbeiten in der Scheune.",
           "Sie sägen und spalten Holz.",
@@ -4211,68 +4211,68 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Fjalët",
         "items": [
-          "der Holzhauer — drwal",
-          "sägen — görmek",
-          "spalten — bölmek",
-          "die Axt — cirvis",
-          "von — no",
-          "aus — no / iz",
-          "mit — ar",
-          "helfen — yardım etmek",
-          "treten — git / gel / bir adım at",
-          "du trittst — idziesz / tu sper soli",
-          "er tritt — idzie / robi krok",
-          "rufen — saukt",
-          "holen — przynieś / dostarcz",
-          "eilen — steigties",
-          "zurück — z powrotem",
-          "finden — atrast",
-          "sehen — görmek",
-          "du siehst — tu redzi",
-          "er sieht — widzi",
-          "fleißig — pilnie",
-          "die Scheune — ahır",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — spainis",
-          "die Säge — içti",
-          "das Beil — cirvis"
+          "der Holzhauer — druvar",
+          "sägen — sharroj",
+          "spalten — çaj",
+          "die Axt — sëpatë",
+          "von — nga",
+          "aus — nga / prej",
+          "mit — me",
+          "helfen — ndihmoj",
+          "treten — shkoj / vij / hedh hap",
+          "du trittst — ti shkon / ti hedh hap",
+          "er tritt — ai shkon / hedh hap",
+          "rufen — thërras",
+          "holen — sjell / shkoj e marr",
+          "eilen — nxitoj",
+          "zurück — prapa",
+          "finden — gjej",
+          "sehen — shoh",
+          "du siehst — ti sheh",
+          "er sieht — ai sheh",
+          "fleißig — me zell",
+          "die Scheune — hambar",
+          "das Feld — fushë",
+          "der Berg — mal",
+          "die Brücke — urë",
+          "der Hof — oborr",
+          "der Keller — bodrum",
+          "die Küche — kuzhinë",
+          "die Milch — qumësht",
+          "der Eimer — kovë",
+          "die Säge — sharrë",
+          "das Beil — sëpatë"
         ]
       },
       {
-        "title": "Gramatikë",
+        "title": "Gramatika",
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Mit, von ve aus edatları her zaman datif duruma sahiptir.",
+            "text": "Parafjalët mit, von dhe aus qëndrojnë gjithmonë me Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — me",
+              "von — nga",
+              "aus — nga / prej",
+              "mit dem Mann — me burrin",
+              "von dem Felde / vom Felde — nga fusha",
+              "aus der Küche — nga kuzhina"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Von edatı bir artikel ile birleştirilebilir.",
+            "text": "Parafjala von mund të bashkohet me nyjen.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Forma e sotme: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Bir kişi veya nesne bir odaya, yere veya konteynere girip çıkıyorsa aus'u kullanın.",
+            "heading": "Woher? — nga?",
+            "text": "Kur personi ose sendi ndodhet në një hapësirë, vend ose enë dhe del prej saj, përdoret aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Bir kişi veya nesne bir yerin veya bir şeyin üzerindeyse ve oradan uzaklaşıyorsa von kullanılır.",
+            "text": "Kur personi ose sendi ndodhet sipër një vendi ose mbi diçka dhe largohet prej tij, përdoret von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Bir öğenin yapıldığı malzeme hakkında konuşurken aus kullanın.",
+            "heading": "Materiali",
+            "text": "Kur flitet për materialin prej të cilit është bërë sendi, përdoret aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4307,152 +4307,152 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Telaffuz",
+        "title": "Shqiptimi",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "Në fjalën die Axt: x shqiptohet si ks.",
+          "Në fjalët arbeiten, das Beil, steigen: ei shqiptohet si aj.",
+          "Në fjalën die Scheune: eu shqiptohet si oj.",
+          "Në fjalën die Brücke: ck shqiptohet si k e dyfishtë."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Ushtrim",
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Metni okuduktan sonra cevap verin.",
+            "task": "Përgjigju sipas tekstit të leximit.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Përkthe",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Bütün not defterleri çantanın içindedir.",
+            "lv": "Të gjitha fletoret janë në çantë.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Çantamdan defterlerimi çıkarıyorum.",
+            "lv": "Unë i nxjerr fletoret nga çanta.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Cebimden saatimi çıkarıyorum.",
+            "lv": "Unë e nxjerr orën nga xhepi.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "Wiadro mleka jest w piwnicy.",
+            "lv": "Një kovë me qumësht qëndron në bodrum.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Bodrumdan bir kova getiriyorum.",
+            "lv": "Unë e mbart kovën nga bodrumi.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Şapkamı kafamdan çıkarıyorum.",
+            "lv": "Unë e heq kapelën nga koka.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
-            "lv": "Piktura është e varur në mur.",
+            "lv": "Piktura varet në mur.",
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Baba resmi duvardan alır.",
+            "lv": "Babai e heq pikturën nga muri.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Notalar piyanodadır.",
+            "lv": "Notat ndodhen mbi piano.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Notaları piyanodan çıkarıyorum.",
+            "lv": "Unë i heq notat nga pianoja.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Pochodzimy od znajomego.",
+            "lv": "Ne vijmë nga miku.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Pochodzimy od dziewczyny.",
+            "lv": "Ne vijmë nga mikja.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "Przychodzimy od nauczyciela.",
+            "lv": "Ne vijmë nga mësuesi.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Hepsi bir arkadaştan, bir kız arkadaştan, bir öğretmenden geliyor.",
+            "lv": "Të gjithë vijnë nga miku, nga mikja, nga mësuesi.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

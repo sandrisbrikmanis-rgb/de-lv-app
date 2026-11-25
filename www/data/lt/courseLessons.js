@@ -2471,22 +2471,22 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
-          "sollen — turėti / būti pareiga",
-          "ich soll — man reikia / aš turiu",
-          "du sollst — tau reikia / tu turi",
-          "er soll — jam reikia / jis turi",
-          "wir sollen — mums reikia / mes turime",
-          "ihr sollt — jums reikia / jūs turite",
+          "sollen — reikėti / privalėti",
+          "ich soll — man reikia / aš privalau",
+          "du sollst — tau reikia / tu privalai",
+          "er soll — jam reikia / jis privalo",
+          "wir sollen — mums reikia / mes privalome",
+          "ihr sollt — jums reikia / jūs privalote",
           "sie sollen — jiems / joms reikia",
-          "dürfen — galėti",
-          "ich darf — aš galiu",
-          "du darfst — tu gali",
-          "er darf — jis gali",
-          "wir dürfen — mes galime",
-          "ihr dürft — jūs galite",
-          "sie dürfen — jie / jos gali",
+          "dürfen — būti leidžiama, galėti",
+          "ich darf — man leidžiama",
+          "du darfst — tau leidžiama",
+          "er darf — jam leidžiama",
+          "wir dürfen — mums leidžiama",
+          "ihr dürft — jums leidžiama",
+          "sie dürfen — jiems / joms leidžiama",
           "nicht — ne",
           "das Messer — peilis",
           "der Apfel — obuolys",
@@ -2500,8 +2500,8 @@ const COURSE_LESSON_DATA = {
           "die Kirsche — vyšnia",
           "die Kirschen — vyšnios",
           "gern — mielai",
-          "reif — prinokęs",
-          "unreif — neprinokęs",
+          "reif — prinokęs / sunokęs",
+          "unreif — neprinokęs / nesunokęs",
           "nehmen — imti",
           "ich nehme — aš imu",
           "du nimmst — tu imi",
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen reiškia reikėti pareigos prasme."
+            "text": "Sollen reiškia „reikėti, privalėti“ pareigos prasme."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Palyginimas",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — reikėti dėl būtinybės arba įsitikinimo",
+              "sollen — reikėti pareigos prasme",
+              "Ich muss lernen. — Man reikia mokytis, nes tai būtina.",
+              "Ich soll lernen. — Man reikia mokytis, nes tai mano pareiga."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "Veiksmažodžio sollen esamojo laiko vienaskaitos 1. ir 3. asmuo yra vienodi.",
+            "heading": "Veiksmažodžio sollen formos",
+            "text": "Veiksmažodžio sollen esamojo laiko vienaskaitos 1 ir 3 asmens formos sutampa.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen reiškia turėti leidimą (galėti). Dürfen vienaskaitoje kamieno balsis yra a, o daugiskaitoje ü.",
+            "text": "Dürfen reiškia „būti leidžiama, galėti“. Veiksmažodžio dürfen kamieno balsis vienaskaitoje yra a, o daugiskaitoje ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Jei projekte naudojama šiuolaikinė rašyba, galima rašyti: du isst, er/sie/es isst, ihr esst."
+            "heading": "Dabartinė rašyba",
+            "text": "Jei projekte vartojama dabartinė rašyba, galima rašyti: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "Sudurtiniame veiksmažodyje entzweischneiden kirtis krinta ant priešdėlio entzweí-, todėl esamajame laike priešdėlis atsiskiria ir atsistoja sakinio gale.",
+            "text": "Sudurtiniame veiksmažodyje entzweischneiden kirčiuotas priešdėlis entzweí-, todėl esamajame laike priešdėlis atsiskiria ir eina sakinio gale.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Aš perpjaunu obuolį pusiau."
             ]
           }
         ]
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "Žodžiuose Äpfel ir schälen ä tariamas kaip uždaras e.",
+          "Žodyje Äpfel ä tariamas trumpai, nes po balsio eina du priebalsiai.",
+          "Žodyje schälen ä tariamas ilgai, nes po balsio eina vienas priebalsis.",
+          "Žodyje gern e trumpas ir atviras.",
+          "Atsimink: dvibalsis ei vokiečių kalboje tariamas kaip ai: reif, unreif."
         ]
       },
       {
@@ -2595,31 +2595,31 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas yra sveikas, kas gali dirbti?",
+            "lv": "Kas sveikas, kam leidžiama dirbti?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Francis yra sveikas, jis gali dirbti.",
+            "lv": "Franz sveikas, jam leidžiama dirbti.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Ar senelis gali dirbti?",
+            "lv": "Ar seneliui leidžiama dirbti?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Ne, senelis negali dirbti, nes jis serga.",
+            "lv": "Ne, seneliui neleidžiama dirbti, nes jis serga.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Mama, ar galiu valgyti slyvas?",
+            "lv": "Motina, ar man galima valgyti slyvas?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Ne, slyvų tau nereikia valgyti, jos yra neprinokusios.",
+            "lv": "Ne, slyvų tau nereikėtų valgyti, jos neprinokusios.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Ar tu valgei obuolį ar kriaušę?",
+            "lv": "Ar tu valgai obuolį, ar kriaušę?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
@@ -2627,7 +2627,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Kokia skani kriaušė?",
+            "lv": "Kokio skonio kriaušė?",
             "de": "Wie mundet die Birne?"
           },
           {
@@ -2635,11 +2635,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Kam reikia mokytis?",
+            "lv": "Kas turi mokytis?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Mokiniui reikia mokytis.",
+            "lv": "Mokinys turi mokytis.",
             "de": "Der Schüler muss lernen."
           },
           {
@@ -2651,11 +2651,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Ar vaikas gali imti peilį?",
+            "lv": "Ar vaikui leidžiama imti peilį?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Vaikui nereikia imti peilio, nes peilis yra aštrus.",
+            "lv": "Vaikui nereikėtų imti peilio, nes peilis aštrus.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2665,8 +2665,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson16": {
     "id": "lesson16",
     "title": "16 pamoka",
-    "subtitle": "Datyvas, geben, sich nähern",
-    "intro": "Šešioliktoji pamoka: datyvas, geben, sich nähern ir datyvo pratimai.",
+    "subtitle": "Naudininkas, geben, sich nähern",
+    "intro": "Šešioliktoji pamoka: naudininkas, geben, sich nähern ir naudininko pratimai.",
     "sections": [
       {
         "title": "Tekstas / Skaitymas",
@@ -2692,15 +2692,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
           "wem — kam?",
           "schenken — dovanoti",
           "dem Sohne — sūnui",
           "den Söhnen — sūnums",
-          "sich nähern — artintis",
-          "ich nähere mich — aš artinuosi",
-          "du näherst dich — tu artiniesi",
+          "sich nähern — artėti",
+          "ich nähere mich — aš artėju",
+          "du näherst dich — tu artėji",
           "geben — duoti",
           "ich gebe — aš duodu",
           "du gibst — tu duodi",
@@ -2717,8 +2717,8 @@ const COURSE_LESSON_DATA = {
           "die Wiesen — pievos",
           "der Wald — miškas",
           "die Wälder — miškai",
-          "der Bauer — ūkininkas",
-          "die Bäuerin — ūkininkė",
+          "der Bauer — valstietis",
+          "die Bäuerin — valstietė",
           "folgen — sekti",
           "der Jäger — medžiotojas",
           "treu — ištikimas"
@@ -2728,17 +2728,17 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs",
-            "text": "Datyvas atsako į klausimą: wem? — kam?"
+            "heading": "Naudininkas",
+            "text": "Naudininkas atsako į klausimą: wem? — kam?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Vienaskaita",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Vyriškoji",
+                "Moteriškoji",
+                "Bevardė"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Daugiskaita",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Vyriškoji",
+                "Moteriškoji",
+                "Bevardė"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Vyriškosios ir bevardės giminės daiktavardžiai vienaskaitos datyve gali gauti galūnę -e. Šiais laikais šita galūnė dažnai išnyksta.",
+            "heading": "Naudininko -e",
+            "text": "Vyriškosios ir bevardės giminės daiktavardžiai vienaskaitos naudininke gali gauti galūnę -e. Šiandien ši galūnė dažnai atmetama.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Moteriškosios giminės daiktavardžiai vienaskaitos datyve galūnės negauna.",
+            "heading": "Moteriškoji giminė naudininke",
+            "text": "Moteriškosios giminės daiktavardžiai vienaskaitos naudininke galūnės negauna.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Nežymimasis artikelis naudininke",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "Daugiskaitos datyve artikelis ir daiktavardis dažnai gauna galūnę -n.",
+            "heading": "Daugiskaitos naudininkas",
+            "text": "Daugiskaitos naudininke artikelis ir daiktavardis dažnai gauna galūnę -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,7 +2830,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
+            "heading": "Jei daugiskaita jau baigiasi -n",
             "text": "Jei daugiskaita jau baigiasi -n, dar vieno -n nepridedama.",
             "examples": [
               "die Wiesen — den Wiesen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "Veiksmažodyje geben 2. ir 3. asmenyje vienaskaitoje e pakinta į i.",
+            "text": "Veiksmažodžio geben vienaskaitos 2 ir 3 asmenyje e virsta i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Sangrąžinis veiksmažodis: sich nähern — artintis.",
+            "text": "Sangrąžinis veiksmažodis: sich nähern — artėti.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,14 +2857,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Daugiskaita su Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
+            "heading": "Be artikelio",
             "text": "Žodžiai, kurie dažnai vartojami be artikelio: die Milch, das Brot."
           }
         ]
@@ -2872,11 +2872,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "Vārdos wem, dem, den, der — e yra ilgas ir siauras.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie yra ilgojo ī žymėjimas: die Wiese."
+          "Žodžiuose wem, dem, den, der — e ilgas ir uždaras.",
+          "Žodyje gehorchen h tariamas: ge-hor-chen.",
+          "die Wälder: ä tariamas kaip uždaras trumpas e.",
+          "die Bäuerinnen: äu tariamas kaip oi.",
+          "-ie žymi ilgąjį i: die Wiese."
         ]
       },
       {
@@ -2884,72 +2884,72 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Įrašyk teisingą artikelį kilmininku arba galininku pagal sakinio reikšmę.",
+            "task": "Įrašyk tinkamą artikelį naudininku arba galininku pagal sakinio prasmę.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Įrašyk teisingą artikelį kilmininku arba galininku pagal sakinio reikšmę.",
+            "task": "Įrašyk tinkamą artikelį naudininku arba galininku pagal sakinio prasmę.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Įrašyk teisingą artikelį kilmininku arba galininku pagal sakinio reikšmę.",
+            "task": "Įrašyk tinkamą artikelį naudininku arba galininku pagal sakinio prasmę.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Įrašyk teisingą artikelį kilmininku arba galininku pagal sakinio reikšmę.",
+            "task": "Įrašyk tinkamą artikelį naudininku arba galininku pagal sakinio prasmę.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Įrašyk teisingą artikelį kilmininku arba galininku pagal sakinio reikšmę.",
+            "task": "Įrašyk tinkamą artikelį naudininku arba galininku pagal sakinio prasmę.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Įrašyk teisingą artikelį kilmininku arba galininku pagal sakinio reikšmę.",
+            "task": "Įrašyk tinkamą artikelį naudininku arba galininku pagal sakinio prasmę.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Įrašyk teisingą artikelį kilmininku.",
+            "task": "Įrašyk tinkamą artikelį naudininku.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
@@ -2981,7 +2981,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Šis miškas priklauso ūkininkui.",
+            "lv": "Šis miškas priklauso valstiečiui.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
@@ -3005,7 +3005,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Hund?"
           },
           {
-            "lv": "Šuo yra ištikimas.",
+            "lv": "Šuo ištikimas.",
             "de": "Der Hund ist treu."
           },
           {
@@ -3013,15 +3013,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Šunys yra ištikimi.",
+            "lv": "Šunys ištikimi.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Kas artinasi prie mokinių ir mokinių?",
+            "lv": "Kas artėja prie mokinių ir mokinių (mergaičių)?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Mokytojas artinasi prie mokinių ir mokinių.",
+            "lv": "Mokytojas artėja prie mokinių ir mokinių (mergaičių).",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3060,7 +3060,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
           "der Spaten — kastuvas",
           "die Grube — duobė",
@@ -3071,11 +3071,11 @@ const COURSE_LESSON_DATA = {
           "fangen — gaudyti",
           "auffangen — pagauti / sugauti",
           "wieder — vėl",
-          "der Schuldiener — mokyklos tarnas",
+          "der Schuldiener — mokyklos sargas",
           "der Besen — šluota",
           "fegen — šluoti šluota",
           "die Diele — grindys",
-          "der Lappen — skuduras / šluostė",
+          "der Lappen — skuduras / audeklas",
           "wischen — šluostyti / valyti",
           "abwischen — nušluostyti",
           "helfen — padėti",
@@ -3084,7 +3084,7 @@ const COURSE_LESSON_DATA = {
           "die Freundin — draugė",
           "die Freundinnen — draugės",
           "mit — su",
-          "mit wem — su kuo?",
+          "mit wem — su kuo? / su kuriuo?",
           "der Staub — dulkės",
           "der Bruder — brolis",
           "die Schwester — sesuo",
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Prielinksnis mit visada vartojamas su datyvu. Lietuviškai: mit = su."
+            "text": "Prielinksnis mit visada vartojamas su naudininku. Lietuviškai: mit = su."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Vokiškai klausimą “su kuo?” galima išreikšti dvejopai: mit wem? — apie asmenis, womit? — apie daiktus.",
+            "text": "Klausimas „su kuo?“ arba „kuo?“ vokiškai reiškiamas dvejopai: mit wem? — apie asmenis, womit? — apie daiktus.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — Su kuo kalba brolis?",
+              "Womit gräbt der Knabe die Grube? — Kuo berniukas kasa duobę?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Veiksmažodžiams graben, fangen, auffangen 2. ir 3. asmenyje vienaskaitoje yra Umlaut.",
+            "text": "Veiksmažodžių graben, fangen, auffangen vienaskaitos 2 ir 3 asmenyje atsiranda Umlaut.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "Veiksmažodžiams helfen ir werfen 2. ir 3. asmenyje vienaskaitoje kamieno e pakinta į i.",
+            "text": "Veiksmažodžių helfen ir werfen vienaskaitos 2 ir 3 asmenyje kamieno e virsta i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Sudurtiniams veiksmažodžiams auffangen ir abwischen kirtis krinta ant priešdėlio. Todėl esamajame laike priešdėlis atsiskiria ir atsistoja sakinio gale.",
+            "heading": "Atskiriamieji priešdėliai",
+            "text": "Sudurtinių veiksmažodžių auffangen ir abwischen priešdėlis kirčiuotas. Todėl esamajame laike priešdėlis atsiskiria ir eina sakinio gale.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen ir wischen abu reiškia šluoti, bet jų vartojimas skiriasi.",
+            "text": "Fegen ir wischen abu reiškia „šluoti, valyti“, bet vartojami skirtingai.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — šluoti šluota",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — valyti skuduru, audeklu, nušluostyti dulkes",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "Žodyje werfen pirmasis e atviras: werfen.",
+          "Žodyje wieder e atviras: wieder.",
+          "Žodžiuose wieder ir die Diele ie žymi ilgąjį i: wieder, die Diele.",
+          "Žodyje der Spaten sp tariamas kaip šp: der Spaten."
         ]
       },
       {
@@ -3181,35 +3181,35 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Atsakyk vienaskaita, tada daugiskaita.",
+            "task": "Atsakyk vienaskaita, paskui daugiskaita.",
             "task2": "Dabar atsakyk daugiskaita.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Atsakyk vienaskaita, tada daugiskaita.",
+            "task": "Atsakyk vienaskaita, paskui daugiskaita.",
             "task2": "Dabar atsakyk daugiskaita.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Atsakyk vienaskaita, tada daugiskaita.",
+            "task": "Atsakyk vienaskaita, paskui daugiskaita.",
             "task2": "Dabar atsakyk daugiskaita.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Atsakyk vienaskaita, tada daugiskaita.",
+            "task": "Atsakyk vienaskaita, paskui daugiskaita.",
             "task2": "Dabar atsakyk daugiskaita.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Atsakyk vienaskaita, tada daugiskaita.",
+            "task": "Atsakyk vienaskaita, paskui daugiskaita.",
             "task2": "Dabar atsakyk daugiskaita.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
@@ -3229,7 +3229,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Ką mergaitė nušluosto?",
+            "lv": "Ką nušluosto mergaitė?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
@@ -3265,15 +3265,15 @@ const COURSE_LESSON_DATA = {
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Kuo jis perkerpa popierių?",
+            "lv": "Kuo jis perpjauna popierių?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Jis perkerpa popierių žirklėmis.",
+            "lv": "Jis perpjauna popierių žirklėmis.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Kuo brolis piešia?",
+            "lv": "Kuo piešia brolis?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
@@ -3328,7 +3328,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson18",
     "title": "18 pamoka",
     "subtitle": "wohin / wo, Akkusativ arba Dativ su an / in / auf",
-    "intro": "Aštuoniolikta pamoka: wohin / wo, Akkusativ arba Dativ su an / in / auf.",
+    "intro": "Aštuonioliktoji pamoka: wohin / wo, Akkusativ arba Dativ su an / in / auf.",
     "sections": [
       {
         "title": "Tekstas / Skaitymas",
@@ -3357,27 +3357,27 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
-          "wohin — kurp?",
+          "wohin — kur link?",
           "wo — kur?",
           "tragen — nešti",
           "ich trage — aš nešu",
           "du trägst — tu neši",
-          "er/sie/es trägt — jis/ji/tas neša",
-          "der Korb — krepšys / pintinė",
-          "die Körbe — krepšiai / pintinės",
-          "das Körbchen — krepšelis / pintinėlė",
-          "stellen — pastatyti / padėti stačiai",
+          "er/sie/es trägt — jis/ji/tai neša",
+          "der Korb — pintinė / krepšys",
+          "die Körbe — pintinės / krepšiai",
+          "das Körbchen — pintinėlė / krepšelis",
+          "stellen — statyti / pastatyti stačiai",
           "legen — dėti / padėti gulsčiai",
           "das Wasser — vanduo",
-          "gießen — lieti",
+          "gießen — pilti",
           "der Krug — ąsotis",
           "die Krüge — ąsočiai",
           "jetzt — dabar",
           "an — prie",
           "auf — ant",
-          "in — į vidų / vidun",
+          "in — į / viduje",
           "der Tisch — stalas",
           "die Bank — suolas",
           "die Diele — grindys",
@@ -3389,96 +3389,96 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Prielinksniai an, in, auf gali būti vartojami tiek su Akkusativ, tiek su Dativ."
+            "text": "Prielinksniai an, in, auf gali būti vartojami ir su Akkusativ, ir su Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Jei veiksmas rodo judėjimo kryptį arba vietos pasikeitimą, vartojamas Akkusativ. Klausimas: wohin? — į kur?",
+            "text": "Jei veiksmas rodo kryptį ar vietos pakeitimą, vartojamas Akkusativ. Klausimas: wohin? — kur link?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Aš einu prie stalo.",
+              "Ich stelle den Korb auf die Bank. — Aš pastatau pintinę ant suolo.",
+              "Ich lege die Äpfel in das Körbchen. — Aš dedu obuolius į pintinėlę.",
+              "Ich gieße das Wasser in den Krug. — Aš pilu vandenį į ąsotį."
             ]
           },
           {
             "heading": "Dativ: wo?",
             "text": "Jei veiksmas rodo buvimo vietą ar padėtį, vartojamas Dativ. Klausimas: wo? — kur?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Aš stoviu prie stalo.",
+              "Der Korb steht auf der Bank. — Pintinė stovi ant suolo.",
+              "Die Äpfel sind in dem Körbchen. — Obuoliai yra pintinėlėje.",
+              "Das Wasser ist in dem Kruge. — Vanduo yra ąsotyje."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Šie veiksmažodžiai dažnai rodo kryptį, todėl atsako į klausimą wohin?.",
+            "heading": "Veiksmažodžiai su wohin?",
+            "text": "Šie veiksmažodžiai dažnai rodo kryptį, todėl atsako į klausimą wohin?",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — eiti",
+              "kommen — ateiti",
+              "fahren — važiuoti",
+              "laufen — bėgti",
+              "fliegen — skristi",
+              "springen — šokti",
+              "kriechen — šliaužti",
+              "schleichen — sėlinti",
+              "hängen — kabinti",
+              "sich setzen — atsisėsti",
+              "sich stellen — atsistoti",
+              "werfen — mesti",
+              "reiten — joti"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Šie veiksmažodžiai dažnai rodo buvimo vietą ar padėtį, todėl atsako į klausimą wo?.",
+            "heading": "Veiksmažodžiai su wo?",
+            "text": "Šie veiksmažodžiai dažnai rodo buvimo vietą ar padėtį, todėl atsako į klausimą wo?",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — būti",
+              "sich befinden — būti, rastis",
+              "arbeiten — dirbti",
+              "liegen — gulėti / būti gulsčiam",
+              "sitzen — sėdėti",
+              "hängen — kaboti",
+              "finden — rasti",
+              "suchen — ieškoti",
+              "spielen — žaisti"
             ]
           },
           {
-            "heading": "Vielu vārdi",
+            "heading": "Medžiagų pavadinimai",
             "text": "Medžiagų pavadinimai paprastai vartojami be artikelio.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Aš geriu pieną.",
+              "In dem Eimer ist Wasser. — Kibire yra vandens."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Jei medžiaga minima nurodytu kiekiu arba konkrečioje vietoje, vartojamas artikelis.",
+            "heading": "Konkreti medžiaga",
+            "text": "Jei medžiaga minima tam tikru kiekiu ar konkrečioje vietoje, vartojamas artikelis.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Aš pilu vandenį į ąsotį."
             ]
           },
           {
             "heading": "in + vieta",
-            "text": "Jei prielinksnis in neverčiamas kaip “viduje”, bet reiškia buvimo vietą, jį galima išversti vietininko linksniu.",
+            "text": "Jei prielinksnis in reiškia ne „į vidų“, o buvimo vietą, lietuviškai jį galima versti vietininku.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — kibire",
+              "in dem Zimmer — kambaryje"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Senosios formos, pavyzdžiui, dem Tische, dem Kruge, im Walde, šiais laikais dažnai vartojamos trumpiau: dem Tisch, dem Krug, im Wald."
+            "heading": "Dabartinės formos",
+            "text": "Senosios formos, pvz., dem Tische, dem Kruge, im Walde, šiandien dažnai vartojamos trumpiau: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Tarimas",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "Žodyje wohin h tariamas: wo-hin.",
+          "Žodyje wo o ilgas: wo."
         ]
       },
       {
@@ -3486,42 +3486,42 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Pasirink teisingą linksnį: Dativ ar Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: Dativ ar Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
@@ -3531,11 +3531,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kurp ateina tarnas?",
+            "lv": "Kur link ateina tarnas?",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Jis įeina į kambarį.",
+            "lv": "Jis ateina į kambarį.",
             "de": "Er kommt in das Zimmer."
           },
           {
@@ -3559,7 +3559,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Jie miške renka uogas.",
+            "lv": "Jie miške ieško uogų.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
@@ -3567,15 +3567,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Motina pastato krepšį ant spintos.",
+            "lv": "Motina pastato pintinę ant spintos.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Krepšys stovi ant spintos.",
+            "lv": "Pintinė stovi ant spintos.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Mokinys sudeda sąsiuvinius į kuprinę.",
+            "lv": "Mokinys sudeda sąsiuvinius į portfelį.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3583,11 +3583,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Sąsiuviniai dabar yra kuprinėje.",
+            "lv": "Sąsiuviniai dabar yra portfelyje.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Kurp eina mokytojas?",
+            "lv": "Kur link eina mokytojas?",
             "de": "Wohin geht der Lehrer?"
           },
           {
@@ -3642,7 +3642,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
           "vor — priešais / prieš",
           "hinter — už",
@@ -3651,12 +3651,12 @@ const COURSE_LESSON_DATA = {
           "neben — šalia",
           "zwischen — tarp",
           "werfen — mesti",
-          "stellen — pastatyti / statyti / padėti",
+          "stellen — pastatyti / padėti",
           "der Spiegel — veidrodis",
           "der Schrank — spinta",
           "der Eimer — kibiras",
           "die Bank — suolas",
-          "das Bild — paveikslas / vaizdas",
+          "das Bild — paveikslas / nuotrauka",
           "das Klavier — pianinas",
           "der Großvater — senelis",
           "die Großmutter — senelė",
@@ -3674,7 +3674,7 @@ const COURSE_LESSON_DATA = {
           "die Laube — pavėsinė",
           "die Wand — siena",
           "die Karte — žemėlapis",
-          "das Land — žemė",
+          "das Land — šalis",
           "die Stadt — miestas",
           "der Berg — kalnas",
           "der See — ežeras",
@@ -3689,7 +3689,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "Šioje pamokoje tęsiame prielinksnius, kurie gali būti vartojami tiek su Akkusativ, tiek su Dativ."
+            "text": "Šioje pamokoje toliau nagrinėjame prielinksnius, kurie gali būti vartojami ir su Akkusativ, ir su Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Jei yra buvimo vieta, klausimas yra wo? ir vartojamas Dativ.",
+            "text": "Jei kalbama apie buvimo vietą, klausimas yra wo? ir vartojamas Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,18 +3716,18 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Prielinksniai",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — priešais",
+              "hinter — už",
+              "unter — po",
+              "über — virš / per",
+              "neben — šalia",
+              "zwischen — tarp"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
+            "heading": "Santrauka: wohin?",
             "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
@@ -3742,7 +3742,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
+            "heading": "Santrauka: wo?",
             "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "gehen — eiti, kai veiksmas reiškia nenutrūkstamą ėjimą. treten — įeiti, prieiti, užlipti, kai ėjimas baigiasi veiksmo nutrūkimu.",
+            "text": "gehen — eiti, jei veiksmas reiškia nenutrūkstamą ėjimą. treten — įeiti, prieiti, užlipti, jei ėjimas baigiasi sustojimu.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "Žodyje vor o tariamas ilgai.",
+          "Žodyje hinter h tariamas, o e atviras.",
+          "Žodyje der Stuhl: st tariamas kaip št; h žymi ilgumą ir netariamas.",
+          "Žodyje der Strauch: st tariamas kaip št.",
+          "Žodyje wachsen: ch tariamas kaip k."
         ]
       },
       {
@@ -3783,12 +3783,12 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Pasirink teisingą linksnį: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Pasirink tinkamą linksnį: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Pasirink teisingą linksnį: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Pasirink tinkamą linksnį: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
@@ -3798,23 +3798,23 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Mokytojas įeina į klasę.",
+            "lv": "Mokytojas ateina į klasę.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Jis rankoje turi žemėlapį.",
+            "lv": "Jis turi žemėlapį rankoje.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Jis kabina žemėlapį ant sienos.",
+            "lv": "Jis pakabina žemėlapį ant sienos.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Jis rodo mokiniams ir mokinėms daug miestų, žemę, kalną, ežerą ir upę.",
+            "lv": "Jis rodo mokiniams ir mokinėms daug šalių, miestų, kalnų, ežerų ir upių.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Tada mokytojas pašaukia mokinį.",
+            "lv": "Tada mokytojas iškviečia mokinį.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
@@ -3822,7 +3822,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Jis pasilieka stovėti žemėlapio priekyje.",
+            "lv": "Jis sustoja priešais žemėlapį.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
@@ -3830,7 +3830,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Taip dirba mokytojas klasėje.",
+            "lv": "Taip mokytojas dirba klasėje.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3872,13 +3872,13 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
           "das Haus — namas",
           "das Stockwerk — aukštas",
-          "die Mauer — mūras",
+          "die Mauer — mūras / siena",
           "der Stein — akmuo",
-          "das Holz — mediena / malkos",
+          "das Holz — medis / malkos",
           "das Glas — stiklas",
           "aus Glas — iš stiklo",
           "die Wohnung — butas",
@@ -3893,10 +3893,10 @@ const COURSE_LESSON_DATA = {
           "leben — gyventi",
           "tragen — nešti",
           "bringen — nešti / atnešti",
-          "stecken — įkišti / įdėti",
+          "stecken — kišti / įdėti",
           "der Ofen — krosnis",
           "anzünden — uždegti",
-          "bald — greitai",
+          "bald — netrukus",
           "brennen — degti",
           "licht — šviesus",
           "hell — šviesus / ryškus",
@@ -3909,19 +3909,19 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Prielinksniai, kurie 19. ir 20. pamokose atsako į klausimą wann? — kada?, vartojami su Dativ. Datyvas atsako ne tik į wo? — kur?, bet ir į wann? — kada?.",
+            "heading": "Dativ su wann?",
+            "text": "Laiko žodžiai, kurie 19 ir 20 pamokoje atsako į klausimą wann? — kada?, vartojami su Dativ. Dativ atsako ne tik į wo? — kur?, bet ir į wann? — kada?",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — dieną",
+              "in der Nacht — naktį",
+              "in dem Sommer / im Sommer — vasarą",
+              "in dem Januar / im Januar — sausį",
+              "vor drei Tagen — prieš tris dienas"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Daugelis prielinksnių jungiasi su artikeliu.",
+            "heading": "Prielinksnis + artikelis",
+            "text": "Daugelis prielinksnių susilieja su artikeliu.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Jei veiksmažodžio kamienas baigiasi t, d, m, n, tada 2. ir 3. asmenyje vienaskaitoje ir 2. asmenyje daugiskaitoje tarp kamieno ir galūnės dažnai įterpiama -e- geresniam tarimui.",
+            "heading": "-e- tarp kamieno ir galūnės",
+            "text": "Jei veiksmažodžio kamienas baigiasi t, d, m, n, tai vienaskaitos 2 ir 3 asmenyje ir daugiskaitos 2 asmenyje tarp kamieno ir galūnės dažnai įterpiamas -e-, kad būtų lengviau tarti.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,7 +3942,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
+            "heading": "Sudurtiniai daiktavardžiai",
             "text": "Sudurtiniai daiktavardžiai paprastai gauna paskutinio žodžio artikelį.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Sudurtinių daiktavardžių sudarymas",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "Veiksmažodyje tragen 2. ir 3. asmenyje vienaskaitoje kamieno balsis a įgauna Umlaut.",
+            "text": "Veiksmažodžio tragen vienaskaitos 2 ir 3 asmenyje kamieno balsis a gauna Umlaut.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "Žodžiuose Stockwerk, Stein, Stadt, stecken: st tariamas kaip št.",
+          "Žodžiuose der Ofen, der Boden: o ilgas.",
+          "sch tariamas kaip š: der Schornstein, der Mensch.",
+          "Žodžiuose das Haus, das Holz: h girdimas ir turi būti tariamas.",
+          "Žodžiuose die Wohnung, wohnen: h žymi ilgumą, jis netariamas.",
+          "Žodžiuose die Küche, die Dächer: ch tariamas minkštai, kaip vokiškasis ich-Laut.",
+          "Žodyje das Vorhaus: v tariamas kaip f."
         ]
       },
       {
@@ -3987,87 +3987,87 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Pasirink teisingą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Pasirink tinkamą linksnį: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
@@ -4077,7 +4077,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas yra aukštas?",
+            "lv": "Kas aukštas?",
             "de": "Was ist hoch?"
           },
           {
@@ -4089,15 +4089,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "Iš ko yra mūrai?",
+            "lv": "Iš ko padaryti mūrai?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Iš ko yra durys?",
+            "lv": "Iš ko padarytos durys?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "Iš ko yra langai?",
+            "lv": "Iš ko padaryti langai?",
             "de": "Woraus sind die Fenster?"
           },
           {
@@ -4105,7 +4105,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Kas yra kiekviename bute?",
+            "lv": "Ką turi kiekvienas butas?",
             "de": "Was hat jede Wohnung?"
           },
           {
@@ -4121,7 +4121,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Kurp lipa kaminkrėtys?",
+            "lv": "Kur link lipa kaminkrėtys?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
@@ -4133,7 +4133,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was tut er?"
           },
           {
-            "lv": "Kas yra miestui?",
+            "lv": "Ką turi miestas?",
             "de": "Was hat die Stadt?"
           },
           {
@@ -4149,7 +4149,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer arbeitet?"
           },
           {
-            "lv": "Kam reikia dirbti?",
+            "lv": "Kas turi dirbti?",
             "de": "Wer muss arbeiten?"
           },
           {
@@ -4157,11 +4157,11 @@ const COURSE_LESSON_DATA = {
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Kurp tau reikia nešti malkas?",
+            "lv": "Kur link tu turi nešti malkas?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Kurp tu dedi malkas?",
+            "lv": "Kur tu kiši malkas?",
             "de": "Wohin steckst du das Holz?"
           },
           {
@@ -4180,7 +4180,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson21",
     "title": "21 pamoka",
     "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
-    "intro": "Dvidešimt pirma pamoka: woher / wohin / wo, von / aus / mit + Dativ.",
+    "intro": "Dvidešimt pirmoji pamoka: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
         "title": "Tekstas / Skaitymas",
@@ -4211,28 +4211,28 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Žodeliai",
+        "title": "Žodžiai",
         "items": [
           "der Holzhauer — malkų kirtėjas",
-          "sägen — pjauti",
+          "sägen — pjauti pjūklu",
           "spalten — skaldyti",
           "die Axt — kirvis",
           "von — nuo",
-          "aus — nuo / iš",
+          "aus — iš",
           "mit — su",
           "helfen — padėti",
-          "treten — eiti / ateiti / žengti žingsnį",
-          "du trittst — tu eini / tu žengi žingsnį",
-          "er tritt — jis eina / žengia žingsnį",
+          "treten — eiti / ateiti / žengti",
+          "du trittst — tu eini / tu žengi",
+          "er tritt — jis eina / žengia",
           "rufen — šaukti",
-          "holen — atnešti / atgabenti",
+          "holen — atnešti / parnešti",
           "eilen — skubėti",
           "zurück — atgal",
           "finden — rasti",
           "sehen — matyti",
           "du siehst — tu matai",
           "er sieht — jis mato",
-          "fleißig — darbščiai",
+          "fleißig — stropiai",
           "die Scheune — daržinė",
           "das Feld — laukas",
           "der Berg — kalnas",
@@ -4253,12 +4253,12 @@ const COURSE_LESSON_DATA = {
             "heading": "mit / von / aus + Dativ",
             "text": "Prielinksniai mit, von ir aus visada vartojami su Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — su",
+              "von — nuo",
+              "aus — iš",
+              "mit dem Mann — su vyru",
+              "von dem Felde / vom Felde — iš lauko",
+              "aus der Küche — iš virtuvės"
             ]
           },
           {
@@ -4267,12 +4267,12 @@ const COURSE_LESSON_DATA = {
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Dabartinė forma: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Jei asmuo ar daiktas yra kokioje patalpoje, vietoje ar inde ir iš jos išeina, vartojamas aus.",
+            "heading": "Woher? — iš kur?",
+            "text": "Jei asmuo ar daiktas yra kokioje nors patalpoje, vietoje ar inde ir iš jos išeina, vartojamas aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Jei asmuo ar daiktas yra virš kokios vietos ar ant ko nors ir tolsta nuo jos, vartojamas von.",
+            "text": "Jei asmuo ar daiktas yra virš kokios nors vietos ar ant ko nors ir nuo jos pasitraukia, vartojamas von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Jei kalbama apie medžiagą, iš kurios daiktas pagamintas, vartojamas aus.",
+            "heading": "Medžiaga",
+            "text": "Kalbant apie medžiagą, iš kurios daiktas pagamintas, vartojamas aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Tarimas",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "Žodyje die Axt: x tariamas kaip ks.",
+          "Žodžiuose arbeiten, das Beil, steigen: ei tariamas kaip ai.",
+          "Žodyje die Scheune: eu tariamas kaip oi.",
+          "Žodyje die Brücke: ck tariamas kaip dvigubas k."
         ]
       },
       {
@@ -4400,15 +4400,15 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Visi sąsiuviniai yra kuprinėje.",
+            "lv": "Visi sąsiuviniai yra portfelyje.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Aš išimu sąsiuvinius iš kuprinės.",
+            "lv": "Aš išimu sąsiuvinius iš portfelio.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Aš išsiimu laikrodį iš kišenės.",
+            "lv": "Aš ištraukiu laikrodį iš kišenės.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
@@ -4432,7 +4432,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Natos yra ant pianino.",
+            "lv": "Natos guli ant pianino.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
@@ -4440,19 +4440,19 @@ const COURSE_LESSON_DATA = {
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Mes ateiname iš draugo.",
+            "lv": "Mes ateiname nuo draugo.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Mes ateiname iš draugės.",
+            "lv": "Mes ateiname nuo draugės.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "Mes ateiname iš mokytojo.",
+            "lv": "Mes ateiname nuo mokytojo.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Visi ateina iš draugo, iš draugės, iš mokytojo.",
+            "lv": "Visi ateina nuo draugo, nuo draugės, nuo mokytojo.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

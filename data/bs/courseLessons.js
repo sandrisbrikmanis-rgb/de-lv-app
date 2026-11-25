@@ -2437,8 +2437,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson15": {
     "id": "lesson15",
     "title": "Lekcija 15",
-    "subtitle": "Sollen, dürfen, essen, voće",
-    "intro": "Petnaesto lekcija: sollen, dürfen, essen i voćne riječi.",
+    "subtitle": "sollen, dürfen, essen, voće",
+    "intro": "Petnaesta lekcija: sollen, dürfen, essen i riječi za voće.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -2471,48 +2471,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
           "sollen — trebati / biti dužan",
-          "ich soll — trebam / moram učiniti",
-          "du sollst — trebate / morate učiniti",
-          "er soll — treba / mora",
-          "wir sollen — trebamo / moramo učiniti",
-          "ihr sollt — trebaš / trebaš",
-          "sie sollen — oni / trebaju",
-          "dürfen — biti dozvoljeno",
-          "ich darf — mogu",
-          "du darfst — možete",
-          "er darf — može",
-          "wir dürfen — možemo",
-          "ihr dürft — možete",
-          "sie dürfen — oni / mogu",
+          "ich soll — ja trebam / ja sam dužan",
+          "du sollst — ti trebaš / ti si dužan",
+          "er soll — on treba / on je dužan",
+          "wir sollen — mi trebamo / mi smo dužni",
+          "ihr sollt — vi trebate / vi ste dužni",
+          "sie sollen — oni / one trebaju",
+          "dürfen — smjeti",
+          "ich darf — ja smijem",
+          "du darfst — ti smiješ",
+          "er darf — on smije",
+          "wir dürfen — mi smijemo",
+          "ihr dürft — vi smijete",
+          "sie dürfen — oni / one smiju",
           "nicht — ne",
           "das Messer — nož",
           "der Apfel — jabuka",
           "die Äpfel — jabuke",
-          "schälen — mizot",
-          "entzweischneiden — prepoloviti",
-          "die Birne — bumbieris",
-          "die Birnen — bumbieri",
-          "die Pflaume — plūme",
-          "die Pflaumen — plūmes",
+          "schälen — guliti",
+          "entzweischneiden — prerezati napola",
+          "die Birne — kruška",
+          "die Birnen — kruške",
+          "die Pflaume — šljiva",
+          "die Pflaumen — šljive",
           "die Kirsche — trešnja",
           "die Kirschen — trešnje",
-          "gern — voljno",
-          "reif — ući / sazreti",
-          "unreif — ne ulazi / ne sazreva",
+          "gern — rado",
+          "reif — zreo / dozreo",
+          "unreif — nezreo / nedozreo",
           "nehmen — uzeti",
-          "ich nehme — uzimam",
-          "du nimmst — uzimate",
+          "ich nehme — ja uzimam",
+          "du nimmst — ti uzimaš",
           "er nimmt — on uzima",
           "essen — jesti",
-          "ich esse — jedem",
-          "du isst — jedeš",
+          "ich esse — ja jedem",
+          "du isst — ti jedeš",
           "er isst — on jede",
-          "wir essen — jedemo",
-          "ihr esst — jedeš",
-          "sie essen — oni / oni jedu"
+          "wir essen — mi jedemo",
+          "ihr esst — vi jedete",
+          "sie essen — oni / one jedu"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen znači imati potrebu u smislu dužnosti."
+            "text": "Sollen znači „trebati“ u smislu obaveze."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Poređenje",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — morati zbog nužnosti ili uvjerenja",
+              "sollen — trebati u smislu obaveze",
+              "Ich muss lernen. — Moram učiti jer je to nužno.",
+              "Ich soll lernen. — Trebam učiti jer mi je to dužnost."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "Glagol sollen ima isto 1. i 3. lice prezenta jednine.",
+            "heading": "Oblici glagola sollen",
+            "text": "Kod glagola sollen 1. i 3. lice jednine prezenta su jednaki.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen znači biti dozvoljen. U Dürfenu je osnovni samoglasnik a u jednini i ü u množini.",
+            "text": "Dürfen znači „smjeti“. U jednini je samoglasnik u osnovi glagola dürfen a, a u množini ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen luk kako slijedi.",
+            "text": "Essen se konjugira ovako.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Ako projekat koristi moderno pisanje, možete napisati: du isst, er/sie/es isst, ihr esst."
+            "heading": "Savremeni pravopis",
+            "text": "Ako se koristi savremeni pravopis, može se pisati: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "U složenom glagolu entzweischneiden naglasak je na prefiksu entzweí-, pa se u prezentu prefiks odvaja i stavlja na kraj rečenice.",
+            "text": "U složenom glagolu entzweischneiden naglasak je na prefiksu entzwei-, zato se u prezentu prefiks odvaja i stoji na kraju rečenice.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Prerezujem jabuku napola."
             ]
           }
         ]
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "ä se u riječima Äpfel i schälen izgovara kao zatvoreno e.",
+          "U riječi Äpfel ä se izgovara kratko jer iza samoglasnika slijede dva suglasnika.",
+          "U riječi schälen ä se izgovara dugo jer iza samoglasnika slijedi jedan suglasnik.",
+          "U riječi gern e je kratko i otvoreno.",
+          "Zapamti: diftong ei se u njemačkom izgovara kao aj: reif, unreif."
         ]
       },
       {
@@ -2595,31 +2595,31 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ko je zdrav, kome je dozvoljeno da radi?",
+            "lv": "Ko je zdrav, ko smije raditi?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Franjo je zdrav, može da radi.",
+            "lv": "Franz je zdrav, on smije raditi.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Može li deda da radi?",
+            "lv": "Smije li djed raditi?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Ne, deda ne može da radi jer je bolestan.",
+            "lv": "Ne, djed ne smije raditi jer je bolestan.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Majko, mogu li da jedem šljive?",
+            "lv": "Majko, smijem li jesti šljive?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Ne, ne morate jesti šljive, nisu stigle.",
+            "lv": "Ne, šljive ne trebaš jesti, one su nezrele.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Jeste li pojeli jabuku ili krušku?",
+            "lv": "Jedeš li jabuku ili krušku?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
@@ -2627,35 +2627,35 @@ const COURSE_LESSON_DATA = {
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Kakav je ukus kruške?",
+            "lv": "Kakvog je okusa kruška?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "Kruška je veoma dobrog ukusa.",
+            "lv": "Kruška je vrlo dobrog okusa.",
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Ko treba da uči?",
+            "lv": "Ko mora učiti?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Student mora da uči.",
+            "lv": "Učenik mora učiti.",
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "Da li želi da napreduje?",
+            "lv": "Želi li on napredovati?",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Da, on želi da napreduje.",
+            "lv": "Da, on želi napredovati.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Može li dijete uzeti nož?",
+            "lv": "Smije li dijete uzeti nož?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Dete ne treba da uzima nož, jer je nož oštar.",
+            "lv": "Dijete ne treba uzimati nož jer je nož oštar.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2666,7 +2666,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson16",
     "title": "Lekcija 16",
     "subtitle": "Dativ, geben, sich nähern",
-    "intro": "Šesnaesto lekcija: dativ, geben, sich nähern i dativne vježbe.",
+    "intro": "Šesnaesta lekcija: dativ, geben, sich nähern i vježbe za dativ.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -2692,35 +2692,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
-          "wem — kam?",
-          "schenken — dati",
+          "wem — kome?",
+          "schenken — pokloniti",
           "dem Sohne — sinu",
           "den Söhnen — sinovima",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
+          "sich nähern — približavati se",
+          "ich nähere mich — ja se približavam",
+          "du näherst dich — ti se približavaš",
+          "geben — davati",
+          "ich gebe — ja dajem",
+          "du gibst — ti daješ",
           "er gibt — on daje",
-          "die Magd — kalpone",
-          "Brot — maize",
-          "Milch — piens",
-          "gehorchen — poslušati",
-          "der Knecht — kalps",
+          "die Magd — sluškinja",
+          "Brot — hljeb",
+          "Milch — mlijeko",
+          "gehorchen — slušati",
+          "der Knecht — sluga",
           "gehören — pripadati",
-          "das Feld — polje / polje",
-          "die Felder — polja / polja",
+          "das Feld — polje / njiva",
+          "die Felder — polja / njive",
           "die Wiese — livada",
           "die Wiesen — livade",
-          "der Wald — mežs",
-          "die Wälder — meži",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
+          "der Wald — šuma",
+          "die Wälder — šume",
+          "der Bauer — seljak",
+          "die Bäuerin — seljanka",
+          "folgen — slijediti",
+          "der Jäger — lovac",
           "treu — vjeran"
         ]
       },
@@ -2728,17 +2728,17 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs",
+            "heading": "Dativ",
             "text": "Dativ odgovara na pitanje: wem? — kome?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Jednina",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Muški",
+                "Ženski",
+                "Srednji"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Množina",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Muški",
+                "Ženski",
+                "Srednji"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Imenice muškog i srednjeg roda u dativu jednine mogu imati završetak -e. Danas se ovaj završetak često izostavlja.",
+            "heading": "Nastavak -e u dativu",
+            "text": "Imenice muškog i srednjeg roda u dativu jednine mogu dobiti nastavak -e. Danas ovaj nastavak često otpada.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Imenice ženskog roda ne završavaju u dativu jednine.",
+            "heading": "Ženski rod u dativu",
+            "text": "Imenice ženskog roda u dativu jednine ne dobijaju nastavak.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Neodređeni član u dativu",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "Dativ u množini i imenica često imaju završetak -n.",
+            "heading": "Dativ množine",
+            "text": "U dativu množine član i imenica često dobijaju nastavak -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Ako se množina već završava sa -n, drugi -n se ne dodaje.",
+            "heading": "Ako množina već završava na -n",
+            "text": "Ako množina već završava na -n, ne dodaje se još jedno -n.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "U glagolu geben, e se mijenja u i u 2. i 3. licu jednine.",
+            "text": "Kod glagola geben u 2. i 3. licu jednine e prelazi u i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Povratni glagol: sich nähern - pristupiti.",
+            "text": "Povratni glagol: sich nähern — približavati se.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,99 +2857,99 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Množina s umlautom",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "Riječi koje se često koriste bez članka: die Milch, das Brot."
+            "heading": "Bez člana",
+            "text": "Riječi koje se često upotrebljavaju bez člana: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "Vārdos wem, dem, den, der — U wem, dem, den, der, e je dugo i usko.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie stoji za dugo ī: die Wiese."
+          "U riječima wem, dem, den, der — e je dugo i zatvoreno.",
+          "U riječi gehorchen h se čuje: ge-hor-chen.",
+          "die Wälder: ä se izgovara kao kratko zatvoreno e.",
+          "die Bäuerinnen: äu se izgovara kao oj.",
+          "-ie označava dugo i: die Wiese."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Stavite tačan član u dativ/akuzativ prema značenju rečenice.",
+            "task": "Umetni pravilan član u dativu/akuzativu prema smislu rečenice.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Stavite tačan član u dativ/akuzativ prema značenju rečenice.",
+            "task": "Umetni pravilan član u dativu/akuzativu prema smislu rečenice.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Stavite tačan član u dativ/akuzativ prema značenju rečenice.",
+            "task": "Umetni pravilan član u dativu/akuzativu prema smislu rečenice.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Stavite tačan član u dativ/akuzativ prema značenju rečenice.",
+            "task": "Umetni pravilan član u dativu/akuzativu prema smislu rečenice.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Stavite tačan član u dativ/akuzativ prema značenju rečenice.",
+            "task": "Umetni pravilan član u dativu/akuzativu prema smislu rečenice.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Stavite tačan član u dativ/akuzativ prema značenju rečenice.",
+            "task": "Umetni pravilan član u dativu/akuzativu prema smislu rečenice.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Stavite tačan član u dativ.",
+            "task": "Umetni pravilan član u dativu.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
@@ -2969,15 +2969,15 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kako se zove otac?",
+            "lv": "Koga zove otac?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Zove sina i ćerku.",
+            "lv": "On zove sina i kćer.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Ko je vlasnik ove šume?",
+            "lv": "Kome pripada ova šuma?",
             "de": "Wem gehört dieser Wald?"
           },
           {
@@ -2985,11 +2985,11 @@ const COURSE_LESSON_DATA = {
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Koga pas sluša?",
+            "lv": "Kome se pokorava pas?",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Pas sluša sluge i sluškinje.",
+            "lv": "Pas se pokorava slugama i sluškinjama.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3013,15 +3013,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Psi su odani.",
+            "lv": "Psi su vjerni.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Šta se približava školarcima i djevojčicama?",
+            "lv": "Ko se približava učenicima i učenicama?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Nastavnik prilazi učenicima.",
+            "lv": "Učitelj se približava učenicima i učenicama.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3031,8 +3031,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson17": {
     "id": "lesson17",
     "title": "Lekcija 17",
-    "subtitle": "Mit + Dativ, womit / mit wem, glagoli sa umlautom",
-    "intro": "Sedamnaesto lekcija: mit + Dativ, womit / mit wem i glagoli sa umlautom.",
+    "subtitle": "mit + Dativ, womit / mit wem, glagoli s umlautom",
+    "intro": "Sedamnaesta lekcija: mit + Dativ, womit / mit wem i glagoli s umlautom.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
-          "der Spaten — pik",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
-          "werfen — mest",
-          "fangen — uhvatiti",
-          "auffangen — uhvatiti / uhvatiti",
-          "wieder — atkal",
-          "der Schuldiener — polaznik škole",
-          "der Besen — slota",
-          "fegen — pomesti metlom",
+          "der Spaten — lopata",
+          "die Grube — jama",
+          "graben — kopati",
+          "womit — čime?",
+          "der Ball — lopta",
+          "werfen — bacati",
+          "fangen — hvatati",
+          "auffangen — uhvatiti / uloviti",
+          "wieder — opet",
+          "der Schuldiener — školski podvornik",
+          "der Besen — metla",
+          "fegen — mesti metlom",
           "die Diele — pod",
-          "der Lappen — krpa / krpa",
-          "wischen — obrisati / očistiti",
+          "der Lappen — krpa / tkanina",
+          "wischen — brisati / čistiti",
           "abwischen — obrisati",
-          "helfen — pomoći",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — draudzene",
-          "die Freundinnen — draudzenes",
-          "mit — ar",
-          "mit wem — ar ko? / ar kuru?",
+          "helfen — pomagati",
+          "danken — zahvaljivati se",
+          "der Freund — prijatelj",
+          "die Freundin — prijateljica",
+          "die Freundinnen — prijateljice",
+          "mit — s / sa",
+          "mit wem — s kim?",
           "der Staub — prašina",
           "der Bruder — brat",
           "die Schwester — sestra",
-          "die Dienerin — kalpone"
+          "die Dienerin — služavka"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Prijedlog mit uvijek stoji uz dativ. Bosanski: mit = sa."
+            "text": "Prijedlog mit uvijek stoji s dativom. Na bosanskom: mit = s."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Njemačko pitanje \"sa čime?\" izraženo na dva načina: mit wem? — o osobama, womit? — o stvarima/predmetima.",
+            "text": "U njemačkom se, kao i u bosanskom, to pitanje postavlja na dva načina: mit wem? — „s kim?“ za osobe, womit? — „čime?“ za stvari/predmete.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — S kim razgovara brat?",
+              "Womit gräbt der Knabe die Grube? — Čime dječak kopa jamu?"
             ]
           },
           {
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "U glagolima helfen i werfen u 2. i 3. licu jednine, osnova e se mijenja u i.",
+            "text": "Kod glagola helfen i werfen u 2. i 3. licu jednine e u osnovi prelazi u i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Složeni glagoli auffangen i abwischen imaju akcenat na prefiksu. Stoga se sadašnji prefiks odvaja i stavlja na kraj rečenice.",
+            "heading": "Razdvojivi prefiksi",
+            "text": "Kod složenih glagola auffangen i abwischen naglasak je na prefiksu. Zato se u prezentu prefiks odvaja i stoji na kraju rečenice.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen i wischen znače pometati, ali upotreba je drugačija.",
+            "text": "I fegen i wischen znače „čistiti“, ali se različito upotrebljavaju.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — mesti metlom",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — brisati krpom, tkaninom, obrisati prašinu",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,47 +3170,47 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "U riječi werfen prvo e je otvoreno: werfen.",
+          "U riječi wieder e je otvoreno: wieder.",
+          "U riječima wieder i die Diele ie označava dugo i: wieder, die Diele.",
+          "U riječi der Spaten sp se izgovara kao šp: der Spaten."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Odgovorite u jednini, pa u množini.",
-            "task2": "Sada odgovorite u množini.",
+            "task": "Odgovori u jednini, zatim u množini.",
+            "task2": "Sada odgovori u množini.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Odgovorite u jednini, pa u množini.",
-            "task2": "Sada odgovorite u množini.",
+            "task": "Odgovori u jednini, zatim u množini.",
+            "task2": "Sada odgovori u množini.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Odgovorite u jednini, pa u množini.",
-            "task2": "Sada odgovorite u množini.",
+            "task": "Odgovori u jednini, zatim u množini.",
+            "task2": "Sada odgovori u množini.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Odgovorite u jednini, pa u množini.",
-            "task2": "Sada odgovorite u množini.",
+            "task": "Odgovori u jednini, zatim u množini.",
+            "task2": "Sada odgovori u množini.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Odgovorite u jednini, pa u množini.",
-            "task2": "Sada odgovorite u množini.",
+            "task": "Odgovori u jednini, zatim u množini.",
+            "task2": "Sada odgovori u množini.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
@@ -3229,55 +3229,55 @@ const COURSE_LESSON_DATA = {
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Šta cura briše?",
+            "lv": "Šta djevojčica briše?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
-            "lv": "Djevojka briše tablu.",
+            "lv": "Djevojčica briše tablu.",
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "Čime djevojka briše prašinu?",
+            "lv": "Čime djevojčica briše prašinu?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "S kim djevojka priča?",
+            "lv": "S kim razgovara djevojčica?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
-            "lv": "Ona razgovara sa baštovanom.",
+            "lv": "Ona razgovara s vrtlarom.",
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Da li razgovara sa prijateljicom?",
+            "lv": "Razgovara li ona s prijateljem?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Ne, ona priča sa svojim prijateljima.",
+            "lv": "Ne, ona razgovara s prijateljima.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Kome dečak pomaže?",
+            "lv": "Kome pomaže dječak?",
             "de": "Wem hilft der Knabe?"
           },
           {
-            "lv": "Pomaže baštovanu.",
+            "lv": "On pomaže vrtlaru.",
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Čime seče papir?",
+            "lv": "Čime on prerezuje papir napola?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Seče papir makazama.",
+            "lv": "On prerezuje papir napola makazama.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Čime brat crta?",
+            "lv": "Čime crta brat?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Crta olovkom i kredom.",
+            "lv": "On crta olovkom i kredom.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
@@ -3289,35 +3289,35 @@ const COURSE_LESSON_DATA = {
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "S kim radimo?",
+            "lv": "Čime mi radimo?",
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Radimo rukama.",
+            "lv": "Mi radimo rukama.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "Sa čime vidimo?",
+            "lv": "Čime mi vidimo?",
             "de": "Womit sehen wir?"
           },
           {
-            "lv": "Vidimo očima.",
+            "lv": "Mi vidimo očima.",
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Sa čime čujemo?",
+            "lv": "Čime mi čujemo?",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Čujemo našim ušima.",
+            "lv": "Mi čujemo ušima.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "Sa čime ide brat?",
+            "lv": "S kim ide brat?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Brat ide sa ocem, sa svojom majkom, sa svojom učiteljicom, sa svojim ujakom, sa svojom tetkom, sa svojim rođakom, sa svojim rođakom.",
+            "lv": "Brat ide s ocem, s majkom, s učiteljem, sa stricem, s tetkom, s rođakom, s rođakinjom.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3327,8 +3327,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson18": {
     "id": "lesson18",
     "title": "Lekcija 18",
-    "subtitle": "Wohin / wo, Akkusativ ili Dativ sa / in / auf",
-    "intro": "Osamnaesto lekcija: wohin / wo, Akkusativ ili Dativ sa / in / auf.",
+    "subtitle": "wohin / wo, Akkusativ ili Dativ uz an / in / auf",
+    "intro": "Osamnaesta lekcija: wohin / wo, Akkusativ ili Dativ uz an / in / auf.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
-          "tragen — nest",
-          "ich trage — es nesu",
-          "du trägst — tu nes",
-          "er/sie/es trägt — on/ona/to nosi",
-          "der Korb — grozs / kurvis",
-          "die Körbe — grozi / kurvji",
-          "das Körbchen — korpa",
-          "stellen — postaviti / postaviti uspravno",
-          "legen — ležati",
-          "das Wasser — ūdens",
-          "gießen — liet",
-          "der Krug — krūze",
-          "die Krüge — krūzes",
+          "wohin — kuda?",
+          "wo — gdje?",
+          "tragen — nositi",
+          "ich trage — ja nosim",
+          "du trägst — ti nosiš",
+          "er/sie/es trägt — on/ona/ono nosi",
+          "der Korb — korpa / koš",
+          "die Körbe — korpe / koševi",
+          "das Körbchen — korpica",
+          "stellen — staviti / postaviti uspravno",
+          "legen — staviti / položiti da leži",
+          "das Wasser — voda",
+          "gießen — sipati",
+          "der Krug — vrč",
+          "die Krüge — vrčevi",
           "jetzt — sada",
-          "an — pie",
-          "auf — uz",
-          "in — unutra / unutra",
+          "an — kod / uz",
+          "auf — na",
+          "in — u / unutra",
           "der Tisch — sto",
-          "die Bank — sols",
+          "die Bank — klupa",
           "die Diele — pod",
-          "der Eimer — spainis"
+          "der Eimer — kanta"
         ]
       },
       {
@@ -3393,135 +3393,135 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Ako radnja ukazuje na promjenu smjera ili mjesta, koristi se Akkusativ. Pitanje: wohin? - gde?",
+            "text": "Ako radnja označava smjer ili promjenu mjesta, upotrebljava se Akkusativ. Pitanje: wohin? — kuda?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Idem do stola.",
+              "Ich stelle den Korb auf die Bank. — Stavljam korpu na klupu.",
+              "Ich lege die Äpfel in das Körbchen. — Stavljam jabuke u korpicu.",
+              "Ich gieße das Wasser in den Krug. — Sipam vodu u vrč."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Ako radnja ukazuje na lokaciju ili stanje, koristi se dativ. Pitanje: wo? — gdje?",
+            "text": "Ako radnja označava mjesto ili stanje, upotrebljava se Dativ. Pitanje: wo? — gdje?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Stojim kod stola.",
+              "Der Korb steht auf der Bank. — Korpa stoji na klupi.",
+              "Die Äpfel sind in dem Körbchen. — Jabuke su u korpici.",
+              "Das Wasser ist in dem Kruge. — Voda je u vrču."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Ovi glagoli često ukazuju na smjer i stoga odgovaraju na pitanje wohin?.",
+            "heading": "Glagoli s wohin?",
+            "text": "Ovi glagoli često označavaju smjer i zato odgovaraju na pitanje wohin?",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — ići",
+              "kommen — dolaziti",
+              "fahren — voziti se",
+              "laufen — trčati",
+              "fliegen — letjeti",
+              "springen — skakati",
+              "kriechen — puzati",
+              "schleichen — šunjati se",
+              "hängen — objesiti",
+              "sich setzen — sjesti",
+              "sich stellen — stati",
+              "werfen — bacati",
+              "reiten — jahati"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Ovi glagoli često ukazuju na lokaciju ili stanje i stoga odgovaraju na pitanje wo?.",
+            "heading": "Glagoli s wo?",
+            "text": "Ovi glagoli često označavaju mjesto ili stanje i zato odgovaraju na pitanje wo?",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — biti",
+              "sich befinden — nalaziti se",
+              "arbeiten — raditi",
+              "liegen — ležati",
+              "sitzen — sjediti",
+              "hängen — visjeti",
+              "finden — naći",
+              "suchen — tražiti",
+              "spielen — igrati"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "Imenice obično stoje bez člana.",
+            "heading": "Gradivne imenice",
+            "text": "Gradivne imenice obično stoje bez člana.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Pijem mlijeko.",
+              "In dem Eimer ist Wasser. — U kanti je voda."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Ako je supstanca spomenuta u određenoj količini ili na određenom mjestu, tada se koristi artikal.",
+            "heading": "Određena tvar",
+            "text": "Ako se tvar spominje u određenoj količini ili na određenom mjestu, upotrebljava se član.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Sipam vodu u vrč."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Ako se prijedlog in ne prevodi kao \"u\", već izražava lokaciju, može se prevesti lokativom.",
+            "heading": "in + mjesto",
+            "text": "Ako se prijedlog in ne prevodi kao „unutra“, nego izražava mjesto, na bosanski se može prevesti lokativom: u + lokativ.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — u kanti",
+              "in dem Zimmer — u sobi"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Stari oblici kao što su dem Tische, dem Kruge, im Walde danas se često koriste kraće: dem Tisch, dem Krug, im Wald."
+            "heading": "Savremeni oblici",
+            "text": "Stari oblici, npr. dem Tische, dem Kruge, im Walde, danas se često koriste u kraćem obliku: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "U riječi wohin h se čuje: wo-hin.",
+          "U riječi wo o je dugo: wo."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Odaberite ispravnu konjugaciju: Dativ ili Akkusativ.",
+            "task": "Izaberi pravilan padež: Dativ ili Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
@@ -3531,7 +3531,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Odakle dolazi server?",
+            "lv": "Kuda dolazi sluga?",
             "de": "Wohin kommt der Diener?"
           },
           {
@@ -3539,7 +3539,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Gdje radi",
+            "lv": "Gdje on radi?",
             "de": "Wo arbeitet er?"
           },
           {
@@ -3547,11 +3547,11 @@ const COURSE_LESSON_DATA = {
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "Čovjek stavlja klupu pored prozora.",
+            "lv": "Čovjek stavlja klupu do prozora.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "Klupa stoji pored prozora.",
+            "lv": "Klupa stoji kod prozora.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
@@ -3559,11 +3559,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Beru bobice u šumi.",
+            "lv": "Oni traže bobice u šumi.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "U šumi nalaze mnogo bobica.",
+            "lv": "Oni u šumi nalaze mnogo bobica.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
@@ -3571,7 +3571,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Korpa je na ormariću.",
+            "lv": "Korpa stoji na ormaru.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
@@ -3583,11 +3583,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Pisma su sada u torbi.",
+            "lv": "Sveske su sada u torbi.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Gde ide učiteljica?",
+            "lv": "Kuda ide učitelj?",
             "de": "Wohin geht der Lehrer?"
           },
           {
@@ -3599,7 +3599,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sitzt der Lehrer?"
           },
           {
-            "lv": "Učiteljica sjedi u učionici.",
+            "lv": "Učitelj sjedi u razredu.",
             "de": "Der Lehrer sitzt in der Klasse."
           }
         ]
@@ -3610,7 +3610,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson19",
     "title": "Lekcija 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Devetnaesto lekcija: vor, hinter, unter, über, neben, zwischen sa Akkusativ ili Dativ.",
+    "intro": "Devetnaesta lekcija: vor, hinter, unter, über, neben, zwischen uz Akkusativ ili Dativ.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -3642,45 +3642,45 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
           "vor — ispred / prije",
-          "hinter — aiz",
-          "unter — zem",
-          "über — preko / preko",
-          "neben — blakus",
-          "zwischen — starp",
-          "werfen — mest",
-          "stellen — postaviti / postaviti / spustiti",
-          "der Spiegel — spogulis",
-          "der Schrank — skapis",
-          "der Eimer — spainis",
-          "die Bank — sols",
-          "das Bild — slika / slika",
-          "das Klavier — klavieres",
+          "hinter — iza",
+          "unter — ispod",
+          "über — iznad / preko",
+          "neben — pored",
+          "zwischen — između",
+          "werfen — bacati",
+          "stellen — staviti / postaviti",
+          "der Spiegel — ogledalo",
+          "der Schrank — ormar",
+          "der Eimer — kanta",
+          "die Bank — klupa",
+          "das Bild — slika",
+          "das Klavier — klavir",
           "der Großvater — djed",
           "die Großmutter — baka",
           "der Stuhl — stolica",
-          "der Zaun — žogs",
-          "die Brücke — tilts",
+          "der Zaun — ograda",
+          "die Brücke — most",
           "pflanzen — saditi",
-          "der Strauch — krūms",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
-          "die Scheune — štala",
-          "der Teich — ribnjak",
-          "der Garten — vrt",
-          "das Feld — lauks",
-          "die Laube — lapene",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
+          "der Strauch — grm",
+          "wachsen — rasti",
+          "die Mühle — mlin",
+          "die Scheune — ambar",
+          "der Teich — bara",
+          "der Garten — bašta",
+          "das Feld — polje",
+          "die Laube — sjenica",
+          "die Wand — zid",
+          "die Karte — karta",
+          "das Land — zemlja",
           "die Stadt — grad",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
-          "zeigen — pokazati",
-          "nennen — nosaukt",
+          "der Berg — planina",
+          "der See — jezero",
+          "der Fluss — rijeka",
+          "zeigen — pokazivati",
+          "nennen — imenovati",
           "so — tako"
         ]
       },
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "U ovom predavanju nastavljamo s prijedlozima koji mogu stajati i uz Akkusativ i uz Dativ."
+            "text": "U ovoj lekciji nastavljamo s prijedlozima koji mogu stajati i uz Akkusativ i uz Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Ako postoji pravac/kretanje ka nekome, pitanje je šta? i koristi Akkusativ.",
+            "text": "Ako postoji smjer / kretanje prema nekom mjestu, pitanje je wohin? i upotrebljava se Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Ako postoji lokacija, pitanje je wo? i koristi Dativ.",
+            "text": "Ako je riječ o mjestu, pitanje je wo? i upotrebljava se Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,19 +3716,19 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Prijedlozi",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — ispred",
+              "hinter — iza",
+              "unter — ispod",
+              "über — iznad / preko",
+              "neben — pored",
+              "zwischen — između"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
-            "text": "Wohin? → Akuzativ",
+            "heading": "Sažetak: wohin?",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3742,8 +3742,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
-            "text": "Sta? → Dativ",
+            "heading": "Sažetak: wo?",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen - idi kada radnja znači neprekidno hodati. treten - ući, prići, nagaziti, ako se hodanje završi prekidom u akciji.",
+            "text": "gehen — ići, kada radnja znači neprekidno hodanje. treten — ući, prići, stupiti, kada se hodanje završava prekidom radnje.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,24 +3771,24 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "U riječi vor o se izgovara dugo.",
+          "U riječi hinter h se čuje, a e je otvoreno.",
+          "U riječi der Stuhl: st se izgovara kao št; h je znak dužine i ne izgovara se.",
+          "U riječi der Strauch: st se izgovara kao št.",
+          "U riječi wachsen: ch se izgovara kao k."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Odaberite ispravnu konjugaciju: wohin? → Akkusativ, wo? → Dativ",
+            "task": "Izaberi pravilan padež: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Odaberite ispravnu konjugaciju: wohin? → Akkusativ, wo? → Dativ",
+            "task": "Izaberi pravilan padež: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
@@ -3798,39 +3798,39 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Učiteljica dolazi u učionicu.",
+            "lv": "Učitelj dolazi u razred.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Ima kartu u ruci.",
+            "lv": "On ima kartu u ruci.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Okači kartu na zid.",
+            "lv": "On vješa kartu na zid.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Dječacima i djevojčicama pokazuje mnoge gradove, zemlje, planine, jezera i rijeke.",
+            "lv": "On pokazuje učenicima i učenicama mnoge zemlje, gradove, planine, jezera i rijeke.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Zatim nastavnik poziva učenika.",
+            "lv": "Tada učitelj proziva jednog učenika.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Učenik prilazi mapi.",
+            "lv": "Učenik prilazi karti.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Ostaje stajati ispred karte.",
+            "lv": "On ostaje stajati ispred karte.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "On imenuje i pokazuje učiteljima gradove, planine i rijeke.",
+            "lv": "On imenuje i pokazuje učitelju gradove, planine i rijeke.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Ovako radi nastavnik u učionici.",
+            "lv": "Tako radi učitelj u razredu.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3840,8 +3840,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson20": {
     "id": "lesson20",
     "title": "Lekcija 20",
-    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, složene imenice",
-    "intro": "Dvadeseto lekcija: kuća, podovi, Dativ/Akkusativ i složene imenice.",
+    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, složenice",
+    "intro": "Dvadeseta lekcija: kuća, spratovi, Dativ/Akkusativ i složenice.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
           "das Haus — kuća",
-          "das Stockwerk — kat",
-          "die Mauer — mūris",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
+          "das Stockwerk — sprat",
+          "die Mauer — zid",
+          "der Stein — kamen",
+          "das Holz — drvo / drva za ogrjev",
+          "das Glas — staklo",
+          "aus Glas — od stakla",
           "die Wohnung — stan",
-          "das Vorhaus — priekšnams / gaitenis",
-          "die Küche — virtuve",
-          "das Dach — jumts",
-          "der Boden — potkrovlje/kat/prizemlje",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
+          "das Vorhaus — predsoblje / hodnik",
+          "die Küche — kuhinja",
+          "das Dach — krov",
+          "der Boden — tavan / pod / zemlja",
+          "der Keller — podrum",
+          "der Schornstein — dimnjak",
           "der Schornsteinfeger — dimnjačar",
           "die Stadt — grad",
           "leben — živjeti",
-          "tragen — nest",
-          "bringen — nest / atnest",
-          "stecken — štap / umetak",
-          "der Ofen — pećnica",
+          "tragen — nositi",
+          "bringen — nositi / donijeti",
+          "stecken — gurnuti / staviti",
+          "der Ofen — peć",
           "anzünden — zapaliti",
           "bald — uskoro",
-          "brennen — degt",
-          "licht — gaišs",
-          "hell — gaišs / spožs",
+          "brennen — gorjeti",
+          "licht — svijetao",
+          "hell — svijetao / sjajan",
           "die Tür — vrata",
-          "das Fenster — logs",
-          "der Mensch — ljudsko biće"
+          "das Fenster — prozor",
+          "der Mensch — čovjek"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Saobraćajne riječi koje odgovaraju na pitanje wann? u predavanjima 19 i 20. — kada?, stoji uz Dativ. Dativ ne odgovara samo na wo? — gdje?, ali i na wann? - kada?",
+            "heading": "Dativ s wann?",
+            "text": "Prijedlozi koji u 19. i 20. lekciji odgovaraju na pitanje wann? — kada?, stoje uz Dativ. Dativ ne odgovara samo na wo? — gdje?, nego i na wann? — kada?",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — danju",
+              "in der Nacht — noću",
+              "in dem Sommer / im Sommer — ljeti",
+              "in dem Januar / im Januar — u januaru",
+              "vor drei Tagen — prije tri dana"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Mnogi prijedlozi se pridružuju članku.",
+            "heading": "Prijedlog + član",
+            "text": "Mnogi prijedlozi se stapaju s članom.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Ako se osnova glagola završava na t, d, m, n, tada se u 2. i 3. licu jednine i u 2. licu množine često ubacuje -e- između osnove i završetka radi boljeg izgovora.",
+            "heading": "-e- između osnove i nastavka",
+            "text": "Ako osnova glagola završava na t, d, m, n, onda se u 2. i 3. licu jednine i u 2. licu množine između osnove i nastavka često umeće -e- radi lakšeg izgovora.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Složene imenice obično uzimaju član posljednje riječi.",
+            "heading": "Složenice",
+            "text": "Složenice obično dobijaju član posljednje riječi.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Tvorba složenica",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "U glagolu tragen u 2. i 3. licu jednine, osnovni samoglasnik a zauzima umlaut.",
+            "text": "Kod glagola tragen u 2. i 3. licu jednine samoglasnik a u osnovi dobija umlaut.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,101 +3973,101 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "U riječima Stockwerk, Stein, Stadt, stecken: st se izgovara kao št.",
+          "U riječima der Ofen, der Boden: o je dugo.",
+          "sch se izgovara kao š: der Schornstein, der Mensch.",
+          "U riječima das Haus, das Holz: h se čuje i mora se izgovoriti.",
+          "U riječima die Wohnung, wohnen: h je znak dužine i ne izgovara se.",
+          "U riječima die Küche, die Dächer: ch se izgovara kao meki glas tipa „h“, kao njemački ich-Laut.",
+          "U riječi das Vorhaus: v se izgovara kao f."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Odaberite ispravnu konjugaciju: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Izaberi pravilan padež: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
@@ -4093,11 +4093,11 @@ const COURSE_LESSON_DATA = {
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Od čega su vrata napravljena?",
+            "lv": "Od čega su vrata?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "Od čega su napravljeni prozori?",
+            "lv": "Od čega su prozori?",
             "de": "Woraus sind die Fenster?"
           },
           {
@@ -4105,7 +4105,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Šta se nalazi u svakom stanu?",
+            "lv": "Šta ima svaki stan?",
             "de": "Was hat jede Wohnung?"
           },
           {
@@ -4121,7 +4121,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Gdje ide dimnjačar?",
+            "lv": "Kuda se penje dimnjačar?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
@@ -4129,11 +4129,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo steht er?"
           },
           {
-            "lv": "Šta on radi",
+            "lv": "Šta on radi?",
             "de": "Was tut er?"
           },
           {
-            "lv": "Šta je grad?",
+            "lv": "Šta ima grad?",
             "de": "Was hat die Stadt?"
           },
           {
@@ -4149,27 +4149,27 @@ const COURSE_LESSON_DATA = {
             "de": "Wer arbeitet?"
           },
           {
-            "lv": "Ko treba da radi?",
+            "lv": "Ko mora raditi?",
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "Na kom spratu živiš?",
+            "lv": "Na kojem spratu živiš?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Gdje trebate nositi drva za ogrjev?",
+            "lv": "Kuda moraš nositi drva?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Gdje stavljate drva za ogrjev?",
+            "lv": "Kuda guraš drva?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Šta si zapalio?",
+            "lv": "Šta pališ?",
             "de": "Was zündest du an?"
           },
           {
-            "lv": "Šta žarko gori?",
+            "lv": "Šta gori jarko?",
             "de": "Was brennt hell?"
           }
         ]
@@ -4179,8 +4179,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson21": {
     "id": "lesson21",
     "title": "Lekcija 21",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Dativ",
-    "intro": "Dvadeset prvo lekcija: woher / wohin / wo, von / aus / mit + Dativ.",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "Dvadeset prva lekcija: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
           "der Holzhauer — drvosječa",
-          "sägen — pilati",
-          "spalten — razdvojiti",
-          "die Axt — cirvis",
-          "von — no",
-          "aus — no / iz",
-          "mit — ar",
-          "helfen — pomoći",
-          "treten — ići / doći / napraviti korak",
-          "du trittst — tu ej / tu sper soli",
-          "er tritt — ide / napravi korak",
-          "rufen — saukt",
-          "holen — donijeti / dostaviti",
-          "eilen — steigties",
+          "sägen — piliti",
+          "spalten — cijepati",
+          "die Axt — sjekira",
+          "von — od",
+          "aus — iz",
+          "mit — s / sa",
+          "helfen — pomagati",
+          "treten — ići / doći / zakoračiti",
+          "du trittst — ti ideš / ti koračaš",
+          "er tritt — on ide / korača",
+          "rufen — zvati",
+          "holen — donijeti / dobaviti",
+          "eilen — žuriti",
           "zurück — nazad",
-          "finden — atrast",
+          "finden — naći",
           "sehen — vidjeti",
-          "du siehst — tu redzi",
+          "du siehst — ti vidiš",
           "er sieht — on vidi",
-          "fleißig — čakli",
-          "die Scheune — štala",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — spainis",
+          "fleißig — marljivo",
+          "die Scheune — ambar",
+          "das Feld — polje",
+          "der Berg — planina",
+          "die Brücke — most",
+          "der Hof — dvorište",
+          "der Keller — podrum",
+          "die Küche — kuhinja",
+          "die Milch — mlijeko",
+          "der Eimer — kanta",
           "die Säge — pila",
-          "das Beil — cirvis"
+          "das Beil — sjekira"
         ]
       },
       {
@@ -4251,28 +4251,28 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Prijedlozi mit, von i aus uvijek stoje uz dativ.",
+            "text": "Prijedlozi mit, von i aus uvijek stoje uz Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — s / sa",
+              "von — od",
+              "aus — iz",
+              "mit dem Mann — s čovjekom",
+              "von dem Felde / vom Felde — s polja",
+              "aus der Küche — iz kuhinje"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Prijedlog von se može spojiti s člankom.",
+            "text": "Prijedlog von može se stopiti s članom.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Savremeni oblik: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Ako se osoba ili predmet nalazi u prostoriji, mjestu ili kontejneru i izlazi iz njega, koristite aus.",
+            "heading": "Woher? — odakle?",
+            "text": "Ako se osoba ili predmet nalazi u nekoj prostoriji, mjestu ili posudi i izlazi iz nje, upotrebljava se aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Ako se osoba ili predmet nalazi iznad mjesta ili na nečemu i udaljava se od toga, koristi se von.",
+            "text": "Ako se osoba ili predmet nalazi iznad nekog mjesta ili na nečemu i udaljava se od toga, upotrebljava se von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Kada govorimo o materijalu od kojeg je predmet napravljen, koristite aus.",
+            "heading": "Materijal",
+            "text": "Kada se govori o materijalu od kojeg je predmet napravljen, upotrebljava se aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,88 +4309,88 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "U riječi die Axt: x se izgovara kao ks.",
+          "U riječima arbeiten, das Beil, steigen: ei se izgovara kao aj.",
+          "U riječi die Scheune: eu se izgovara kao oj.",
+          "U riječi die Brücke: ck se izgovara kao dvostruko k."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Odgovorite nakon čitanja teksta.",
+            "task": "Odgovori prema tekstu za čitanje.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
@@ -4408,19 +4408,19 @@ const COURSE_LESSON_DATA = {
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Nosim sat iz džepa.",
+            "lv": "Izvlačim sat iz džepa.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "Kanta mlijeka je u podrumu.",
+            "lv": "Kanta s mlijekom stoji u podrumu.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Donosim kantu iz podruma.",
+            "lv": "Nosim kantu iz podruma.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Skidam šešir s glave.",
+            "lv": "Skidam kapu s glave.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
@@ -4432,11 +4432,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Nota je na klaviru.",
+            "lv": "Note leže na klaviru.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Uklanjam note sa klavira.",
+            "lv": "Uzimam note s klavira.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
@@ -4444,7 +4444,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Dolazimo od devojke.",
+            "lv": "Dolazimo od prijateljice.",
             "de": "Wir kommen von der Freundin."
           },
           {
@@ -4452,7 +4452,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Svi dolaze od prijatelja, od djevojke, od učitelja.",
+            "lv": "Svi dolaze od prijatelja, od prijateljice, od učitelja.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

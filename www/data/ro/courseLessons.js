@@ -2436,12 +2436,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson15": {
     "id": "lesson15",
-    "title": "Cursul 15",
-    "subtitle": "Sollen, dürfen, essen, fruct",
-    "intro": "A cincisprezecea prelegere: sollen, dürfen, essen și cuvinte cu fructe.",
+    "title": "Lecția 15",
+    "subtitle": "sollen, dürfen, essen, fructe",
+    "intro": "A cincisprezecea lecție: sollen, dürfen, essen și cuvinte despre fructe.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Ich soll das Messer nicht nehmen, denn ich darf den Apfel nicht schälen.",
           "Du sollst das Messer nicht nehmen, denn du darfst den Apfel nicht schälen.",
@@ -2471,48 +2471,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "sollen — vajadzēt / būt pienākumam",
-          "ich soll — man vajag / man jādara",
-          "du sollst — tev vajag / tev jādara",
-          "er soll — viņam vajag / viņam jādara",
-          "wir sollen — mums vajag / mums jādara",
-          "ihr sollt — jums vajag / jums jādara",
-          "sie sollen — viņiem / viņām vajag",
-          "dürfen — drīkstēt",
-          "ich darf — es drīkstu",
-          "du darfst — tu drīksti",
-          "er darf — viņš drīkst",
-          "wir dürfen — mēs drīkstam",
-          "ihr dürft — jūs drīkstat",
-          "sie dürfen — viņi / viņas drīkst",
-          "nicht — ne",
-          "das Messer — nazis",
-          "der Apfel — ābols",
-          "die Äpfel — āboli",
-          "schälen — mizot",
-          "entzweischneiden — pārgriezt uz pusēm",
-          "die Birne — bumbieris",
-          "die Birnen — bumbieri",
-          "die Pflaume — plūme",
-          "die Pflaumen — plūmes",
-          "die Kirsche — ķirsis",
-          "die Kirschen — ķirši",
-          "gern — labprāt",
-          "reif — ienācies / nogatavojies",
-          "unreif — neienācies / nenogatavojies",
-          "nehmen — ņemt",
-          "ich nehme — es ņemu",
-          "du nimmst — tu ņem",
-          "er nimmt — viņš ņem",
-          "essen — ēst",
-          "ich esse — es ēdu",
-          "du isst — tu ēd",
-          "er isst — viņš ēd",
-          "wir essen — mēs ēdam",
-          "ihr esst — jūs ēdat",
-          "sie essen — viņi / viņas ēd"
+          "sollen — a trebui / a avea datoria",
+          "ich soll — eu trebuie / trebuie să fac",
+          "du sollst — tu trebuie / trebuie să faci",
+          "er soll — el trebuie / trebuie să facă",
+          "wir sollen — noi trebuie / trebuie să facem",
+          "ihr sollt — voi trebuie / trebuie să faceți",
+          "sie sollen — ei / ele trebuie",
+          "dürfen — a avea voie",
+          "ich darf — eu am voie",
+          "du darfst — tu ai voie",
+          "er darf — el are voie",
+          "wir dürfen — noi avem voie",
+          "ihr dürft — voi aveți voie",
+          "sie dürfen — ei / ele au voie",
+          "nicht — nu",
+          "das Messer — cuțit",
+          "der Apfel — măr",
+          "die Äpfel — mere",
+          "schälen — a coji",
+          "entzweischneiden — a tăia în două",
+          "die Birne — pară",
+          "die Birnen — pere",
+          "die Pflaume — prună",
+          "die Pflaumen — prune",
+          "die Kirsche — cireașă",
+          "die Kirschen — cireșe",
+          "gern — cu plăcere",
+          "reif — copt / ajuns la maturitate",
+          "unreif — necopt / crud",
+          "nehmen — a lua",
+          "ich nehme — eu iau",
+          "du nimmst — tu iei",
+          "er nimmt — el ia",
+          "essen — a mânca",
+          "ich esse — eu mănânc",
+          "du isst — tu mănânci",
+          "er isst — el mănâncă",
+          "wir essen — noi mâncăm",
+          "ihr esst — voi mâncați",
+          "sie essen — ei / ele mănâncă"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen înseamnă a avea nevoie în sensul datoriei."
+            "text": "Sollen înseamnă „a trebui” în sensul de obligație, de datorie."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Comparație",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — a trebui din necesitate sau din convingere",
+              "sollen — a trebui în sensul de obligație",
+              "Ich muss lernen. — Trebuie să învăț, pentru că este necesar.",
+              "Ich soll lernen. — Trebuie să învăț, pentru că este datoria mea."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "Verbul sollen are aceleași persoane I și III prezent singular.",
+            "heading": "Formele verbului sollen",
+            "text": "La verbul sollen, persoanele 1 și 3 singular ale prezentului au aceeași formă.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen înseamnă a fi permis. În Dürfen, vocala stem este a la singular și ü la plural.",
+            "text": "Dürfen înseamnă „a avea voie”. La dürfen, vocala temei este a la singular și ü la plural.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen arc după cum urmează.",
+            "text": "Essen se conjugă astfel.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,30 +2568,30 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Dacă proiectul folosește scrierea modernă, puteți scrie: du isst, er/sie/es isst, ihr esst."
+            "heading": "Ortografia actuală",
+            "text": "Dacă se folosește ortografia actuală, se poate scrie: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "În verbul compus entzweischneiden, accentul este pus pe prefixul entzweí-, deci la timpul prezent prefixul este separat și plasat la sfârșitul propoziției.",
+            "text": "În verbul compus entzweischneiden accentul cade pe prefixul entzweí-, de aceea la prezent prefixul se desparte și trece la sfârșitul propoziției.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Tai mărul în două."
             ]
           }
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "ä din cuvintele Äpfel și schälen se pronunță ca un e închis.",
+          "În cuvântul Äpfel, ä se pronunță scurt, deoarece după vocală urmează două consoane.",
+          "În cuvântul schälen, ä se pronunță lung, deoarece după vocală urmează o singură consoană.",
+          "În cuvântul gern, e este scurt și deschis.",
+          "Reține: în germană, diftongul ei se pronunță ca ai: reif, unreif."
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
@@ -2599,63 +2599,63 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Francis este sănătos, poate munci.",
+            "lv": "Franz este sănătos, el are voie să lucreze.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Bunicul poate lucra?",
+            "lv": "Bunicul are voie să lucreze?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Nu, bunicul nu poate lucra pentru că este bolnav.",
+            "lv": "Nu, bunicul nu are voie să lucreze, pentru că este bolnav.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Mamă, pot să mănânc prune?",
+            "lv": "Mamă, am voie să mănânc prunele?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Nu, nu trebuie să mănânci prunele, nu au ajuns.",
+            "lv": "Nu, prunele nu trebuie să le mănânci, sunt necoapte.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Ai mâncat un măr sau o peră?",
+            "lv": "Mănânci un măr sau o pară?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
-            "lv": "Mănânc o peră.",
+            "lv": "Mănânc o pară.",
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Ce gust are o para?",
+            "lv": "Cum e para la gust?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "Pera are un gust foarte bun.",
+            "lv": "Para are un gust foarte bun.",
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Cine trebuie să studieze?",
+            "lv": "Cine trebuie să învețe?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Un student trebuie să studieze.",
+            "lv": "Elevul trebuie să învețe.",
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "Vrea să treacă înainte?",
+            "lv": "Vrea el să progreseze?",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Da, vrea să treacă înainte.",
+            "lv": "Da, el vrea să progreseze.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Poate un copil să ia un cuțit?",
+            "lv": "Copilul are voie să ia cuțitul?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Un copil nu ar trebui să ia un cuțit, deoarece cuțitul este ascuțit.",
+            "lv": "Copilul nu trebuie să ia cuțitul, pentru că cuțitul este ascuțit.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2664,12 +2664,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson16": {
     "id": "lesson16",
-    "title": "Cursul 16",
-    "subtitle": "Dativ, geben, sich nähern",
-    "intro": "A șaisprezecea prelegere: exerciții cu dativ, geben, sich nähern și dativ.",
+    "title": "Lecția 16",
+    "subtitle": "Dativul, geben, sich nähern",
+    "intro": "A șaisprezecea lecție: dativul, geben, sich nähern și exerciții cu dativul.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Wem schenkt der Vater ein Buch?",
           "Der Vater schenkt dem Sohne ein Buch.",
@@ -2692,53 +2692,53 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "wem — kam?",
-          "schenken — dāvināt",
-          "dem Sohne — dēlam",
-          "den Söhnen — dēliem",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
-          "er gibt — viņš dod",
-          "die Magd — kalpone",
-          "Brot — maize",
-          "Milch — piens",
-          "gehorchen — paklausīt",
-          "der Knecht — kalps",
-          "gehören — piederēt",
-          "das Feld — lauks / tīrums",
-          "die Felder — lauki / tīrumi",
-          "die Wiese — pļava",
-          "die Wiesen — pļavas",
-          "der Wald — mežs",
-          "die Wälder — meži",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
-          "treu — uzticīgs"
+          "wem — cui?",
+          "schenken — a dărui",
+          "dem Sohne — fiului",
+          "den Söhnen — fiilor",
+          "sich nähern — a se apropia",
+          "ich nähere mich — eu mă apropii",
+          "du näherst dich — tu te apropii",
+          "geben — a da",
+          "ich gebe — eu dau",
+          "du gibst — tu dai",
+          "er gibt — el dă",
+          "die Magd — slujnică",
+          "Brot — pâine",
+          "Milch — lapte",
+          "gehorchen — a asculta (de cineva)",
+          "der Knecht — argat",
+          "gehören — a aparține",
+          "das Feld — câmp / ogor",
+          "die Felder — câmpuri / ogoare",
+          "die Wiese — pajiște",
+          "die Wiesen — pajiști",
+          "der Wald — pădure",
+          "die Wälder — păduri",
+          "der Bauer — țăran",
+          "die Bäuerin — țărancă",
+          "folgen — a urma",
+          "der Jäger — vânător",
+          "treu — credincios"
         ]
       },
       {
         "title": "Gramatică",
         "items": [
           {
-            "heading": "Dativs",
-            "text": "Dativul răspunde la întrebarea: wem? - la care?"
+            "heading": "Dativul",
+            "text": "Dativul răspunde la întrebarea: wem? — cui?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Singular",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Masculin",
+                "Feminin",
+                "Neutru"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Plural",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Masculin",
+                "Feminin",
+                "Neutru"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Substantivele masculine și neutre la dativ singular pot lua terminația -e. În zilele noastre, acest final este adesea abandonat.",
+            "heading": "Terminația -e la dativ",
+            "text": "Substantivele masculine și neutre pot primi la dativ singular terminația -e. Astăzi această terminație cade adesea.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Substantivele feminine nu au o terminație la dativ singular.",
+            "heading": "Femininul la dativ",
+            "text": "Substantivele feminine nu primesc nicio terminație la dativ singular.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Articolul nehotărât la dativ",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "Articolul dativ și substantivul la plural iau adesea terminația -n.",
+            "heading": "Dativul plural",
+            "text": "La dativ plural, articolul și substantivul primesc adesea terminația -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Dacă pluralul se termină deja cu -n, nu se adaugă un alt -n.",
+            "heading": "Dacă pluralul se termină deja în -n",
+            "text": "Dacă pluralul se termină deja în -n, nu se mai adaugă încă un -n.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "La verbul geben, e se schimbă în i la persoanele a 2-a și a 3-a singular.",
+            "text": "La verbul geben, la persoanele a 2-a și a 3-a singular, e se schimbă în i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Verb reflexiv: sich nähern - a se apropia.",
+            "text": "Verb reflexiv: sich nähern — a se apropia.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,139 +2857,139 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Plural cu Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
+            "heading": "Fără articol",
             "text": "Cuvinte folosite adesea fără articol: die Milch, das Brot."
           }
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Vārdos wem, dem, den, der — e ir garš un šaurs.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie ir garā ī apzīmējums: die Wiese."
+          "În cuvintele wem, dem, den, der — e este lung și închis.",
+          "În cuvântul gehorchen, h se aude: ge-hor-chen.",
+          "die Wälder: ä se pronunță ca un e închis scurt.",
+          "die Bäuerinnen: äu se pronunță ca oi.",
+          "-ie marchează un i lung: die Wiese."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Pune articolul corect în dativ/acuzativ în funcție de sensul propoziției.",
+            "task": "Pune articolul corect la dativ/acuzativ, după sensul propoziției.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Pune articolul corect în dativ/acuzativ în funcție de sensul propoziției.",
+            "task": "Pune articolul corect la dativ/acuzativ, după sensul propoziției.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Pune articolul corect în dativ/acuzativ în funcție de sensul propoziției.",
+            "task": "Pune articolul corect la dativ/acuzativ, după sensul propoziției.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Pune articolul corect în dativ/acuzativ în funcție de sensul propoziției.",
+            "task": "Pune articolul corect la dativ/acuzativ, după sensul propoziției.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Pune articolul corect în dativ/acuzativ în funcție de sensul propoziției.",
+            "task": "Pune articolul corect la dativ/acuzativ, după sensul propoziției.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Pune articolul corect în dativ/acuzativ în funcție de sensul propoziției.",
+            "task": "Pune articolul corect la dativ/acuzativ, după sensul propoziției.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Pune articolul corect în dativ.",
+            "task": "Pune articolul corect la dativ.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Convertiți la plural.",
+            "task": "Trece la plural.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Convertiți la plural.",
+            "task": "Trece la plural.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Care este numele tatălui?",
+            "lv": "Pe cine cheamă tatăl?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Își sună fiul și fiica.",
+            "lv": "El îi cheamă pe fiu și pe fiică.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Cine deține această pădure?",
+            "lv": "Cui aparține această pădure?",
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Această pădure aparține fermierului.",
+            "lv": "Această pădure aparține țăranului.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Cui ascultă câinele?",
+            "lv": "De cine ascultă câinele?",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Câinele se supune slujitorilor și slujnicelor.",
+            "lv": "Câinele ascultă de argați și de slujnice.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3005,7 +3005,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Hund?"
           },
           {
-            "lv": "Câinele este fidel.",
+            "lv": "Câinele este credincios.",
             "de": "Der Hund ist treu."
           },
           {
@@ -3013,15 +3013,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Câinii sunt loiali.",
+            "lv": "Câinii sunt credincioși.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Ce se apropie de școlari și fete?",
+            "lv": "Cine se apropie de elevi și eleve?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Profesorul se apropie de elevi.",
+            "lv": "Profesorul se apropie de elevi și eleve.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3030,12 +3030,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson17": {
     "id": "lesson17",
-    "title": "Cursul 17",
-    "subtitle": "Mit + Dativ, womit / mit wem, verbe cu Umlaut",
-    "intro": "A șaptesprezecea prelegere: mit + Dativ, womit / mit wem și verbe cu Umlaut.",
+    "title": "Lecția 17",
+    "subtitle": "mit + Dativ, womit / mit wem, verbe cu Umlaut",
+    "intro": "A șaptesprezecea lecție: mit + Dativ, womit / mit wem și verbe cu Umlaut.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Der Knabe hat einen Spaten.",
           "Er will eine Grube graben.",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "der Spaten — lāpsta",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
-          "werfen — mest",
-          "fangen — ķert",
-          "auffangen — uzķert / noķert",
-          "wieder — atkal",
-          "der Schuldiener — skolas apkalpotājs",
-          "der Besen — slota",
-          "fegen — slaucīt ar slotu",
-          "die Diele — grīda",
-          "der Lappen — lupata / drāna",
-          "wischen — slaucīt / tīrīt",
-          "abwischen — noslaucīt",
-          "helfen — palīdzēt",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — draudzene",
-          "die Freundinnen — draudzenes",
-          "mit — ar",
-          "mit wem — ar ko? / ar kuru?",
-          "der Staub — putekļi",
-          "der Bruder — brālis",
-          "die Schwester — māsa",
-          "die Dienerin — kalpone"
+          "der Spaten — cazma",
+          "die Grube — groapă",
+          "graben — a săpa",
+          "womit — cu ce?",
+          "der Ball — minge",
+          "werfen — a arunca",
+          "fangen — a prinde",
+          "auffangen — a prinde din zbor / a prinde",
+          "wieder — din nou",
+          "der Schuldiener — îngrijitor de școală",
+          "der Besen — mătură",
+          "fegen — a mătura",
+          "die Diele — podea",
+          "der Lappen — cârpă / bucată de pânză",
+          "wischen — a șterge / a curăța",
+          "abwischen — a șterge",
+          "helfen — a ajuta",
+          "danken — a mulțumi",
+          "der Freund — prieten",
+          "die Freundin — prietenă",
+          "die Freundinnen — prietene",
+          "mit — cu",
+          "mit wem — cu cine?",
+          "der Staub — praf",
+          "der Bruder — frate",
+          "die Schwester — soră",
+          "die Dienerin — servitoare"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Prepoziţia mit stă întotdeauna cu cazul dativului. Letonă: mit = cu."
+            "text": "Prepoziția mit se folosește întotdeauna cu dativul. În română: mit = cu."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Întrebarea germană „cu ce?” exprimată în două moduri: mit wem? — despre persoane, womit? — despre lucruri/subiecte.",
+            "text": "În germană, întrebările „cu cine?” și „cu ce?” se exprimă diferit: mit wem? — pentru persoane, womit? — pentru lucruri/obiecte.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — Cu cine vorbește fratele?",
+              "Womit gräbt der Knabe die Grube? — Cu ce sapă băiatul groapa?"
             ]
           },
           {
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "La verbele helfen și werfen la persoanele a 2-a și a 3-a singular, rădăcina e se schimbă în i.",
+            "text": "La verbele helfen și werfen, la persoanele a 2-a și a 3-a singular, e din temă se schimbă în i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Verbele compuse auffangen și abwischen au accentul pe prefix. Prin urmare, prefixul prezent este separat și plasat la sfârșitul propoziției.",
+            "heading": "Prefixe separabile",
+            "text": "La verbele compuse auffangen și abwischen accentul cade pe prefix. De aceea, la prezent prefixul se desparte și trece la sfârșitul propoziției.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen și wischen înseamnă ambele să măture, dar utilizarea este diferită.",
+            "text": "Fegen și wischen înseamnă amândouă „a curăța”, dar se folosesc diferit.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — a mătura",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — a curăța cu o cârpă, cu o pânză, a șterge praful",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3168,48 +3168,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "În cuvântul werfen, primul e este deschis: werfen.",
+          "În cuvântul wieder, e este deschis: wieder.",
+          "În cuvintele wieder și die Diele, ie marchează un i lung: wieder, die Diele.",
+          "În cuvântul der Spaten, sp se pronunță ca șp: der Spaten."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Raspunde la singular, apoi la plural.",
+            "task": "Răspunde la singular, apoi la plural.",
             "task2": "Acum răspunde la plural.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Raspunde la singular, apoi la plural.",
+            "task": "Răspunde la singular, apoi la plural.",
             "task2": "Acum răspunde la plural.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Raspunde la singular, apoi la plural.",
+            "task": "Răspunde la singular, apoi la plural.",
             "task2": "Acum răspunde la plural.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Raspunde la singular, apoi la plural.",
+            "task": "Răspunde la singular, apoi la plural.",
             "task2": "Acum răspunde la plural.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Raspunde la singular, apoi la plural.",
+            "task": "Răspunde la singular, apoi la plural.",
             "task2": "Acum răspunde la plural.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
@@ -3217,11 +3217,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Care este mai lată, ușa sau fereastra?",
+            "lv": "Ce este mai lat, ușa sau fereastra?",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
@@ -3237,11 +3237,11 @@ const COURSE_LESSON_DATA = {
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "Cu ce ​​șterge fata praful?",
+            "lv": "Cu ce șterge fata praful?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "Cu cine vorbeste fata?",
+            "lv": "Cu cine vorbește fata?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
@@ -3249,11 +3249,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Vorbește cu o prietenă?",
+            "lv": "Vorbește ea cu prietenul?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Nu, vorbește cu prietenii ei.",
+            "lv": "Nu, ea vorbește cu prietenii.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
@@ -3265,39 +3265,39 @@ const COURSE_LESSON_DATA = {
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Cu ce ​​taie hârtia?",
+            "lv": "Cu ce taie el hârtia în două?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Taie hârtia cu foarfecele.",
+            "lv": "El taie hârtia în două cu foarfeca.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Cu ce ​​desenează fratele?",
+            "lv": "Cu ce desenează fratele?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Desenează cu creion și cretă.",
+            "lv": "El desenează cu creionul și cu creta.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "Cu ce ​​ții lopata?",
+            "lv": "Cu ce ții cazmaua?",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "Țin o lopată cu mâna.",
+            "lv": "Țin cazmaua cu mâna.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "Cu cine lucram?",
+            "lv": "Cu ce lucrăm?",
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Lucrăm cu mâinile noastre.",
+            "lv": "Lucrăm cu mâinile.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "Cu ce ​​vedem?",
+            "lv": "Cu ce vedem?",
             "de": "Womit sehen wir?"
           },
           {
@@ -3305,19 +3305,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Cu ce ​​auzim?",
+            "lv": "Cu ce auzim?",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Auzim cu urechile noastre.",
+            "lv": "Auzim cu urechile.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "Cu ce ​​merge fratele?",
+            "lv": "Cu cine merge fratele?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Un frate merge cu tatăl, cu mama, cu profesorul, cu unchiul, cu mătușa, cu vărul, cu vărul.",
+            "lv": "Fratele merge cu tatăl, cu mama, cu profesorul, cu unchiul, cu mătușa, cu vărul, cu verișoara.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3326,12 +3326,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson18": {
     "id": "lesson18",
-    "title": "Cursul 18",
-    "subtitle": "Wohin / wo, Akkusativ sau Dativ cu un / in / auf",
-    "intro": "A optsprezecea prelegere: wohin / wo, Akkusativ sau Dativ cu un / in / auf.",
+    "title": "Lecția 18",
+    "subtitle": "wohin / wo, Akkusativ sau Dativ cu an / in / auf",
+    "intro": "A optsprezecea lecție: wohin / wo, Akkusativ sau Dativ cu an / in / auf.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Wohin gehst du?",
           "Ich gehe an den Tisch.",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
-          "tragen — nest",
-          "ich trage — es nesu",
-          "du trägst — tu nes",
-          "er/sie/es trägt — viņš/viņa/tas nes",
-          "der Korb — grozs / kurvis",
-          "die Körbe — grozi / kurvji",
-          "das Körbchen — groziņš / kurvītis",
-          "stellen — novietot / nolikt stāvus",
-          "legen — likt / nolikt guļus",
-          "das Wasser — ūdens",
-          "gießen — liet",
-          "der Krug — krūze",
-          "die Krüge — krūzes",
-          "jetzt — tagad",
-          "an — pie",
-          "auf — uz",
-          "in — iekšā / uz iekšpusi",
-          "der Tisch — galds",
-          "die Bank — sols",
-          "die Diele — grīda",
-          "der Eimer — spainis"
+          "wohin — încotro?",
+          "wo — unde?",
+          "tragen — a duce",
+          "ich trage — eu duc",
+          "du trägst — tu duci",
+          "er/sie/es trägt — el/ea duce",
+          "der Korb — coș",
+          "die Körbe — coșuri",
+          "das Körbchen — coșuleț",
+          "stellen — a așeza / a pune în picioare",
+          "legen — a pune / a așeza culcat",
+          "das Wasser — apă",
+          "gießen — a turna",
+          "der Krug — ulcior",
+          "die Krüge — ulcioare",
+          "jetzt — acum",
+          "an — la, lângă",
+          "auf — pe",
+          "in — în / înăuntru",
+          "der Tisch — masă",
+          "die Bank — bancă",
+          "die Diele — podea",
+          "der Eimer — găleată"
         ]
       },
       {
@@ -3393,145 +3393,145 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Dacă acțiunea indică o schimbare de direcție sau de loc, se folosește Akkusativ. Întrebare: wohin? - unde?",
+            "text": "Dacă acțiunea arată o direcție sau o schimbare de loc, se folosește Akkusativ. Întrebarea: wohin? — încotro?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Merg la masă.",
+              "Ich stelle den Korb auf die Bank. — Pun coșul pe bancă.",
+              "Ich lege die Äpfel in das Körbchen. — Pun merele în coșuleț.",
+              "Ich gieße das Wasser in den Krug. — Torn apa în ulcior."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Dacă acțiunea indică locația sau starea, se folosește Dativul. Întrebare: wo? — unde?",
+            "text": "Dacă acțiunea arată locul sau poziția, se folosește Dativ. Întrebarea: wo? — unde?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Stau lângă masă.",
+              "Der Korb steht auf der Bank. — Coșul stă pe bancă.",
+              "Die Äpfel sind in dem Körbchen. — Merele sunt în coșuleț.",
+              "Das Wasser ist in dem Kruge. — Apa este în ulcior."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Aceste verbe indică adesea direcția și, prin urmare, răspund la întrebarea wohin?.",
+            "heading": "Verbe cu wohin?",
+            "text": "Aceste verbe arată adesea o direcție și de aceea răspund la întrebarea wohin?.",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — a merge",
+              "kommen — a veni",
+              "fahren — a merge (cu un vehicul)",
+              "laufen — a alerga",
+              "fliegen — a zbura",
+              "springen — a sări",
+              "kriechen — a se târî",
+              "schleichen — a se furișa",
+              "hängen — a agăța",
+              "sich setzen — a se așeza",
+              "sich stellen — a se așeza în picioare",
+              "werfen — a arunca",
+              "reiten — a călări"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Aceste verbe indică adesea locația sau starea și, prin urmare, răspund la întrebarea wo?.",
+            "heading": "Verbe cu wo?",
+            "text": "Aceste verbe arată adesea locul sau poziția și de aceea răspund la întrebarea wo?.",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — a fi",
+              "sich befinden — a se afla",
+              "arbeiten — a lucra",
+              "liegen — a sta culcat / a se afla culcat",
+              "sitzen — a ședea",
+              "hängen — a atârna",
+              "finden — a găsi",
+              "suchen — a căuta",
+              "spielen — a juca"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "Substantivele stau de obicei fără articol.",
+            "heading": "Substantive care denumesc materii",
+            "text": "Substantivele care denumesc materii stau de obicei fără articol.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Beau lapte.",
+              "In dem Eimer ist Wasser. — În găleată este apă."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Dacă substanța este menționată într-o anumită cantitate sau într-un anumit loc, atunci articolul este folosit.",
+            "heading": "Materie concretă",
+            "text": "Dacă materia este menționată într-o cantitate determinată sau într-un loc concret, se folosește articolul.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Torn apa în ulcior."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Dacă prepoziția în nu se traduce prin „în”, ci exprimă o locație, ea poate fi tradusă cu locativ.",
+            "heading": "in + loc",
+            "text": "Dacă prepoziția in nu înseamnă „înăuntru”, ci exprimă locul, în română se traduce simplu prin „în”.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — în găleată",
+              "in dem Zimmer — în cameră"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Formele vechi precum dem Tische, dem Kruge, im Walde sunt adesea folosite mai scurte astăzi: dem Tisch, dem Krug, im Wald."
+            "heading": "Forme actuale",
+            "text": "Formele vechi, de exemplu dem Tische, dem Kruge, im Walde, astăzi se folosesc adesea mai scurt: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "În cuvântul wohin, h se aude: wo-hin.",
+          "În cuvântul wo, o este lung: wo."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Alegeți conjugarea corectă: Dativ sau Akkusativ.",
+            "task": "Alege cazul corect: Dativ sau Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "De unde vine serverul?",
+            "lv": "Încotro vine servitorul?",
             "de": "Wohin kommt der Diener?"
           },
           {
@@ -3539,11 +3539,11 @@ const COURSE_LESSON_DATA = {
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Unde lucreaza",
+            "lv": "Unde lucrează el?",
             "de": "Wo arbeitet er?"
           },
           {
-            "lv": "Lucrează în cameră.",
+            "lv": "El lucrează în cameră.",
             "de": "Er arbeitet in dem Zimmer."
           },
           {
@@ -3555,15 +3555,15 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "Copiii merg la pădure.",
+            "lv": "Copiii merg în pădure.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Ei culeg fructe de pădure în pădure.",
+            "lv": "Ei caută fructe de pădure în pădure.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "Găsesc multe fructe de pădure în pădure.",
+            "lv": "Ei găsesc în pădure multe fructe de pădure.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
@@ -3571,11 +3571,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Coșul este pe dulap.",
+            "lv": "Coșul stă pe dulap.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Elevul pune caietele în geantă.",
+            "lv": "Elevul pune caietele în ghiozdan.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3583,23 +3583,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Scrisorile sunt acum în geantă.",
+            "lv": "Caietele sunt acum în ghiozdan.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Unde se duce profesorul?",
+            "lv": "Încotro merge profesorul?",
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "El merge la clasa.",
+            "lv": "El merge în clasă.",
             "de": "Er geht in die Klasse."
           },
           {
-            "lv": "Unde stă profesorul?",
+            "lv": "Unde stă așezat profesorul?",
             "de": "Wo sitzt der Lehrer?"
           },
           {
-            "lv": "Profesorul stă în clasă.",
+            "lv": "Profesorul stă așezat în clasă.",
             "de": "Der Lehrer sitzt in der Klasse."
           }
         ]
@@ -3608,12 +3608,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson19": {
     "id": "lesson19",
-    "title": "Cursul 19",
+    "title": "Lecția 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Prelegerea a XIX-a: vor, hinter, unter, über, neben, zwischen cu Akkusativ sau Dativ.",
+    "intro": "A nouăsprezecea lecție: vor, hinter, unter, über, neben, zwischen cu Akkusativ sau Dativ.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Wohin geht die Frau?",
           "Sie geht vor den Spiegel.",
@@ -3642,46 +3642,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "vor — priekšā / pirms",
-          "hinter — aiz",
-          "unter — zem",
-          "über — virs / pāri",
-          "neben — blakus",
-          "zwischen — starp",
-          "werfen — mest",
-          "stellen — novietot / nostādīt / nolikt",
-          "der Spiegel — spogulis",
-          "der Schrank — skapis",
-          "der Eimer — spainis",
-          "die Bank — sols",
-          "das Bild — attēls / bilde",
-          "das Klavier — klavieres",
-          "der Großvater — vectēvs",
-          "die Großmutter — vecmāmiņa",
-          "der Stuhl — krēsls",
-          "der Zaun — žogs",
-          "die Brücke — tilts",
-          "pflanzen — stādīt",
-          "der Strauch — krūms",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
-          "die Scheune — šķūnis",
-          "der Teich — dīķis",
-          "der Garten — dārzs",
-          "das Feld — lauks",
-          "die Laube — lapene",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
-          "die Stadt — pilsēta",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
-          "zeigen — rādīt",
-          "nennen — nosaukt",
-          "so — tā"
+          "vor — în fața / înainte de",
+          "hinter — în spatele",
+          "unter — sub",
+          "über — deasupra / peste",
+          "neben — lângă",
+          "zwischen — între",
+          "werfen — a arunca",
+          "stellen — a așeza / a pune în picioare / a pune",
+          "der Spiegel — oglindă",
+          "der Schrank — dulap",
+          "der Eimer — găleată",
+          "die Bank — bancă",
+          "das Bild — imagine / tablou",
+          "das Klavier — pian",
+          "der Großvater — bunic",
+          "die Großmutter — bunică",
+          "der Stuhl — scaun",
+          "der Zaun — gard",
+          "die Brücke — pod",
+          "pflanzen — a planta",
+          "der Strauch — tufiș",
+          "wachsen — a crește",
+          "die Mühle — moară",
+          "die Scheune — șură",
+          "der Teich — iaz",
+          "der Garten — grădină",
+          "das Feld — câmp",
+          "die Laube — foișor",
+          "die Wand — perete",
+          "die Karte — hartă",
+          "das Land — țară",
+          "die Stadt — oraș",
+          "der Berg — munte",
+          "der See — lac",
+          "der Fluss — râu",
+          "zeigen — a arăta",
+          "nennen — a numi",
+          "so — așa"
         ]
       },
       {
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "În această prelegere, continuăm cu prepoziții care pot sta atât cu Akkusativ, cât și cu Dativ."
+            "text": "În această lecție continuăm cu prepozițiile care pot sta atât cu Akkusativ, cât și cu Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Dacă există o direcție / mișcare către undeva, întrebarea este wohin? și folosește Akkusativ.",
+            "text": "Dacă există o direcție / o mișcare spre undeva, întrebarea este wohin? și se folosește Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Dacă există o locație, întrebarea este wo? și folosește Dativul.",
+            "text": "Dacă este vorba de locul unde se află ceva, întrebarea este wo? și se folosește Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,19 +3716,19 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Prepoziții",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — în fața",
+              "hinter — în spatele",
+              "unter — sub",
+              "über — deasupra / peste",
+              "neben — lângă",
+              "zwischen — între"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
-            "text": "Wohin? → Acuzativ",
+            "heading": "Rezumat: wohin?",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3742,8 +3742,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
-            "text": "Ce? → Dativ",
+            "heading": "Rezumat: wo?",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen - mergi atunci când acțiunea înseamnă a merge continuu. treten - a intra, a se apropia, a călca, dacă mersul se termină cu o pauză în acțiune.",
+            "text": "gehen — a merge, dacă acțiunea înseamnă un mers continuu. treten — a intra, a se apropia, a urca, dacă mersul se încheie, iar acțiunea se întrerupe.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3769,68 +3769,68 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "În cuvântul vor, o se pronunță lung.",
+          "În cuvântul hinter, h se aude, iar e este deschis.",
+          "În cuvântul der Stuhl: st se pronunță ca șt; h este semn de lungire și nu se pronunță.",
+          "În cuvântul der Strauch: st se pronunță ca șt.",
+          "În cuvântul wachsen: ch se pronunță ca k."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Alegeți conjugarea corectă: wohin? → Akkusativ, wo? → Dativ",
+            "task": "Alege cazul corect: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Alegeți conjugarea corectă: wohin? → Akkusativ, wo? → Dativ",
+            "task": "Alege cazul corect: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Profesorul vine la clasă.",
+            "lv": "Profesorul vine în clasă.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Are o carte în mână.",
+            "lv": "El are o hartă în mână.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "El atârnă harta pe perete.",
+            "lv": "El agață harta pe perete.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "El le arată băieților și fetelor multe orașe, pământuri, munți, lacuri și râuri.",
+            "lv": "El le arată elevilor și elevelor multe țări, orașe, munți, lacuri și râuri.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Apoi profesorul îl sună pe elev.",
+            "lv": "Apoi profesorul scoate un elev la răspuns.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Elevul se apropie de card.",
+            "lv": "Elevul se apropie de hartă.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "El rămâne în picioare în fața cardului.",
+            "lv": "El se oprește în fața hărții.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "El numește și arată profesorului orașe, munți și râuri.",
+            "lv": "El îi numește și îi arată profesorului orașele, munții și râurile.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Așa lucrează un profesor într-o clasă.",
+            "lv": "Așa lucrează profesorul în clasă.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3839,12 +3839,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson20": {
     "id": "lesson20",
-    "title": "Cursul 20",
+    "title": "Lecția 20",
     "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, substantive compuse",
-    "intro": "A douăzecea prelegere: casă, etaje, Dativ/Akkusativ și substantive compuse.",
+    "intro": "A douăzecea lecție: casa, etajele, Dativ/Akkusativ și substantivele compuse.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Dieses Haus ist hoch.",
           "Es hat drei Stockwerke.",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "das Haus — māja",
-          "das Stockwerk — stāvs",
-          "die Mauer — mūris",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
-          "die Wohnung — dzīvoklis",
-          "das Vorhaus — priekšnams / gaitenis",
-          "die Küche — virtuve",
-          "das Dach — jumts",
-          "der Boden — bēniņi / grīda / zeme",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
-          "der Schornsteinfeger — skursteņslaucītājs",
-          "die Stadt — pilsēta",
-          "leben — dzīvot",
-          "tragen — nest",
-          "bringen — nest / atnest",
-          "stecken — bāzt / ielikt",
-          "der Ofen — krāsns",
-          "anzünden — aizdedzināt",
-          "bald — drīz",
-          "brennen — degt",
-          "licht — gaišs",
-          "hell — gaišs / spožs",
-          "die Tür — durvis",
-          "das Fenster — logs",
-          "der Mensch — cilvēks"
+          "das Haus — casă",
+          "das Stockwerk — etaj",
+          "die Mauer — zid",
+          "der Stein — piatră",
+          "das Holz — lemn / lemne de foc",
+          "das Glas — sticlă",
+          "aus Glas — din sticlă",
+          "die Wohnung — apartament",
+          "das Vorhaus — vestibul / hol",
+          "die Küche — bucătărie",
+          "das Dach — acoperiș",
+          "der Boden — pod / podea / pământ",
+          "der Keller — pivniță",
+          "der Schornstein — coș de fum",
+          "der Schornsteinfeger — coșar",
+          "die Stadt — oraș",
+          "leben — a trăi",
+          "tragen — a duce",
+          "bringen — a duce / a aduce",
+          "stecken — a vârî / a băga",
+          "der Ofen — sobă",
+          "anzünden — a aprinde",
+          "bald — curând",
+          "brennen — a arde",
+          "licht — luminos",
+          "hell — luminos / strălucitor",
+          "die Tür — ușă",
+          "das Fenster — fereastră",
+          "der Mensch — om"
         ]
       },
       {
         "title": "Gramatică",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Cuvinte de trafic care răspund la întrebarea wann? în Cursurile 19 și 20. — când?, stă cu Dativ. Dativul răspunde nu numai la wo? — unde?, dar și pe wann? - când?",
+            "heading": "Dativul cu wann?",
+            "text": "Expresiile de timp care în lecțiile 19 și 20 răspund la întrebarea wann? — când?, stau cu Dativ. Dativul răspunde nu numai la wo? — unde?, ci și la wann? — când?.",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — ziua",
+              "in der Nacht — noaptea",
+              "in dem Sommer / im Sommer — vara",
+              "in dem Januar / im Januar — în ianuarie",
+              "vor drei Tagen — acum trei zile"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Multe prepoziții se alătură articolului.",
+            "heading": "Prepoziție + articol",
+            "text": "Multe prepoziții se contopesc cu articolul.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Dacă tulpina verbului se termină în t, d, m, n, atunci la persoana a 2-a și a 3-a singular și la persoana a 2-a plural, un -e- este adesea inserat între tulpină și terminație pentru o pronunție mai bună.",
+            "heading": "-e- între temă și terminație",
+            "text": "Dacă tema verbului se termină în t, d, m, n, atunci la persoanele a 2-a și a 3-a singular și la persoana a 2-a plural se intercalează adesea un -e- între temă și terminație, pentru o pronunție mai ușoară.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Substantivele compuse iau de obicei articolul ultimului cuvânt.",
+            "heading": "Substantive compuse",
+            "text": "Substantivele compuse primesc de obicei articolul ultimului cuvânt.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Formarea substantivelor compuse",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "La verbul tragen la persoanele a 2-a și a 3-a singular, vocala stem a ia Umlaut.",
+            "text": "La verbul tragen, la persoanele a 2-a și a 3-a singular, vocala a din temă primește Umlaut.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3971,117 +3971,117 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "În cuvintele Stockwerk, Stein, Stadt, stecken: st se pronunță ca șt.",
+          "În cuvintele der Ofen, der Boden: o este lung.",
+          "sch se pronunță ca ș: der Schornstein, der Mensch.",
+          "În cuvintele das Haus, das Holz: h se aude și trebuie pronunțat.",
+          "În cuvintele die Wohnung, wohnen: h este semn de lungire și nu se pronunță.",
+          "În cuvintele die Küche, die Dächer: ch se pronunță ca un sunet de tip „h” moale, ca ich-Laut german, aproximativ ca h din „hienă”.",
+          "În cuvântul das Vorhaus: v se pronunță ca f."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Alegeți conjugarea corectă: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Alege cazul corect: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ce este mare?",
+            "lv": "Ce este înalt?",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Cate etaje are casa?",
+            "lv": "Câte etaje are casa?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
@@ -4089,39 +4089,39 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "Din ce sunt alcătuiți pereții?",
+            "lv": "Din ce sunt zidurile?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Din ce este făcută ușa?",
+            "lv": "Din ce sunt ușile?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "Din ce sunt făcute ferestrele?",
+            "lv": "Din ce sunt ferestrele?",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Unde sunt cele zece apartamente?",
+            "lv": "Unde sunt zece apartamente?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Ce este în fiecare apartament?",
+            "lv": "Ce are fiecare apartament?",
             "de": "Was hat jede Wohnung?"
           },
           {
-            "lv": "Unde este subsolul?",
+            "lv": "Unde este pivnița?",
             "de": "Wo ist der Keller?"
           },
           {
-            "lv": "Unde este mansarda?",
+            "lv": "Unde este podul?",
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Unde sunt cele trei coșuri?",
+            "lv": "Unde sunt trei coșuri de fum?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Unde se duce curătorul de coșuri?",
+            "lv": "Încotro urcă coșarul?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
@@ -4129,11 +4129,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo steht er?"
           },
           {
-            "lv": "Ce face",
+            "lv": "Ce face el?",
             "de": "Was tut er?"
           },
           {
-            "lv": "Ce este orasul?",
+            "lv": "Ce are orașul?",
             "de": "Was hat die Stadt?"
           },
           {
@@ -4141,7 +4141,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "Unde locuiesc multi oameni?",
+            "lv": "Unde trăiesc mulți oameni?",
             "de": "Wo leben viele Menschen?"
           },
           {
@@ -4153,23 +4153,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "La ce etaj locuiesti?",
+            "lv": "La ce etaj locuiești?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Unde trebuie să cărați lemne de foc?",
+            "lv": "Încotro trebuie să duci lemnele?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Unde pui lemnele de foc?",
+            "lv": "Încotro bagi lemnele?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Ce ai aprins?",
+            "lv": "Ce aprinzi?",
             "de": "Was zündest du an?"
           },
           {
-            "lv": "Ce arde puternic?",
+            "lv": "Ce arde luminos?",
             "de": "Was brennt hell?"
           }
         ]
@@ -4178,12 +4178,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson21": {
     "id": "lesson21",
-    "title": "Cursul 21",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Dativ",
-    "intro": "A douăzeci și unu prelegere: woher / wohin / wo, von / aus / mit + Dativ.",
+    "title": "Lecția 21",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "A douăzeci și una lecție: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
-        "title": "Text / Citire",
+        "title": "Text / Lectură",
         "items": [
           "Die Holzhauer arbeiten in der Scheune.",
           "Sie sägen und spalten Holz.",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nume",
+        "title": "Cuvinte",
         "items": [
-          "der Holzhauer — malkas cirtējs",
-          "sägen — zāģēt",
-          "spalten — skaldīt",
-          "die Axt — cirvis",
-          "von — no",
-          "aus — no / iz",
-          "mit — ar",
-          "helfen — palīdzēt",
-          "treten — iet / nākt / spert soli",
-          "du trittst — tu ej / tu sper soli",
-          "er tritt — viņš iet / sper soli",
-          "rufen — saukt",
-          "holen — atnest / atgādāt",
-          "eilen — steigties",
-          "zurück — atpakaļ",
-          "finden — atrast",
-          "sehen — redzēt",
-          "du siehst — tu redzi",
-          "er sieht — viņš redz",
-          "fleißig — čakli",
-          "die Scheune — šķūnis",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — spainis",
-          "die Säge — zāģis",
-          "das Beil — cirvis"
+          "der Holzhauer — tăietor de lemne",
+          "sägen — a tăia cu fierăstrăul",
+          "spalten — a despica",
+          "die Axt — topor",
+          "von — de la",
+          "aus — din",
+          "mit — cu",
+          "helfen — a ajuta",
+          "treten — a merge / a veni / a păși",
+          "du trittst — tu mergi / tu pășești",
+          "er tritt — el merge / pășește",
+          "rufen — a chema",
+          "holen — a aduce / a merge după ceva",
+          "eilen — a se grăbi",
+          "zurück — înapoi",
+          "finden — a găsi",
+          "sehen — a vedea",
+          "du siehst — tu vezi",
+          "er sieht — el vede",
+          "fleißig — cu sârguință",
+          "die Scheune — șură",
+          "das Feld — câmp",
+          "der Berg — munte",
+          "die Brücke — pod",
+          "der Hof — curte",
+          "der Keller — pivniță",
+          "die Küche — bucătărie",
+          "die Milch — lapte",
+          "der Eimer — găleată",
+          "die Säge — fierăstrău",
+          "das Beil — secure"
         ]
       },
       {
@@ -4251,28 +4251,28 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Prepozițiile mit, von și aus stau întotdeauna cu Dativul.",
+            "text": "Prepozițiile mit, von și aus stau întotdeauna cu Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — cu",
+              "von — de la",
+              "aus — din",
+              "mit dem Mann — cu bărbatul",
+              "von dem Felde / vom Felde — de pe câmp",
+              "aus der Küche — din bucătărie"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Prepoziţia von poate fuziona cu articolul.",
+            "text": "Prepoziția von se poate contopi cu articolul.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Forma actuală: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Dacă o persoană sau un obiect se află într-o cameră, loc sau container și iese din acesta, utilizați aus.",
+            "heading": "Woher? — De unde?",
+            "text": "Dacă o persoană sau un obiect se află într-o încăpere, într-un loc sau într-un vas și iese din acesta, se folosește aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Dacă o persoană sau un obiect se află deasupra unui loc sau pe ceva și se îndepărtează de acesta, se folosește von.",
+            "text": "Dacă o persoană sau un obiect se află deasupra unui loc sau pe ceva și se îndepărtează de acolo, se folosește von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Când vorbiți despre materialul din care este realizat obiectul, utilizați aus.",
+            "heading": "Material",
+            "text": "Când se vorbește despre materialul din care este făcut un obiect, se folosește aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4307,144 +4307,144 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pronunţie",
+        "title": "Pronunție",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "În cuvântul die Axt: x se pronunță ca cs.",
+          "În cuvintele arbeiten, das Beil, steigen: ei se pronunță ca ai.",
+          "În cuvântul die Scheune: eu se pronunță ca oi.",
+          "În cuvântul die Brücke: ck se pronunță ca un k dublu."
         ]
       },
       {
-        "title": "Exercita",
+        "title": "Exercițiu",
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Răspunde după ce ai citit textul.",
+            "task": "Răspunde pe baza textului de lectură.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
-        "title": "Traduce",
+        "title": "Tradu",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Toate caietele sunt în geantă.",
+            "lv": "Toate caietele sunt în ghiozdan.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Scot caietele din geantă.",
+            "lv": "Scot caietele din ghiozdan.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Port un ceas din buzunar.",
+            "lv": "Trag ceasul din buzunar.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "O găleată cu lapte este în subsol.",
+            "lv": "O găleată cu lapte stă în pivniță.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Aduc o găleată din pivniță.",
+            "lv": "Duc găleata din pivniță.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Îmi scot pălăria de pe cap.",
+            "lv": "Îmi iau căciula de pe cap.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
-            "lv": "Poza atârnă pe perete.",
+            "lv": "Tabloul atârnă pe perete.",
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Tatăl scoate poza de pe perete.",
+            "lv": "Tatăl ia tabloul de pe perete.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Partitura este la pian.",
+            "lv": "Notele stau pe pian.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Scot notele de la pian.",
+            "lv": "Iau notele de pe pian.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Venim de la un prieten.",
+            "lv": "Venim de la prieten.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Venim de la o iubită.",
+            "lv": "Venim de la prietenă.",
             "de": "Wir kommen von der Freundin."
           },
           {
@@ -4452,7 +4452,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Toate vin de la un prieten, de la o iubită, de la un profesor.",
+            "lv": "Toți vin de la prieten, de la prietenă, de la profesor.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

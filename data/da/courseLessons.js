@@ -2437,11 +2437,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson15": {
     "id": "lesson15",
     "title": "Lektion 15",
-    "subtitle": "Skulle, måtte, spise, frugt",
-    "intro": "Femtende lektion: sollen, dürfen, essen og frugtnavne.",
+    "subtitle": "sollen, dürfen, essen, frugt",
+    "intro": "Femtende lektion: sollen, dürfen, essen og ord for frugt.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Ich soll das Messer nicht nehmen, denn ich darf den Apfel nicht schälen.",
           "Du sollst das Messer nicht nehmen, denn du darfst den Apfel nicht schälen.",
@@ -2471,42 +2471,42 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
-          "sollen — at skulle / at burde",
+          "sollen — skulle / have pligt til",
           "ich soll — jeg skal / jeg bør",
           "du sollst — du skal / du bør",
           "er soll — han skal / han bør",
           "wir sollen — vi skal / vi bør",
           "ihr sollt — I skal / I bør",
-          "sie sollen — de skal / de bør",
-          "dürfen — at måtte / have lov til",
-          "ich darf — jeg må / jeg har lov til",
-          "du darfst — du må / du har lov til",
-          "er darf — han må / han har lov til",
-          "wir dürfen — vi må / vi har lov til",
-          "ihr dürft — I må / I har lov til",
-          "sie dürfen — de må / de har lov til",
-          "nicht — ne",
-          "das Messer — nazis",
+          "sie sollen — de skal",
+          "dürfen — måtte, have lov til",
+          "ich darf — jeg må",
+          "du darfst — du må",
+          "er darf — han må",
+          "wir dürfen — vi må",
+          "ihr dürft — I må",
+          "sie dürfen — de må",
+          "nicht — ikke",
+          "das Messer — kniv",
           "der Apfel — æble",
           "die Äpfel — æbler",
-          "schälen — mizot",
-          "entzweischneiden — at skære i to",
-          "die Birne — bumbieris",
-          "die Birnen — bumbieri",
+          "schälen — skrælle",
+          "entzweischneiden — skære over i to",
+          "die Birne — pære",
+          "die Birnen — pærer",
           "die Pflaume — blomme",
           "die Pflaumen — blommer",
           "die Kirsche — kirsebær",
-          "die Kirschen — kirsebær",
-          "gern — gerne / med glæde",
+          "die Kirschen — kirsebær (flertal)",
+          "gern — gerne",
           "reif — moden",
           "unreif — umoden",
-          "nehmen — at tage",
+          "nehmen — tage",
           "ich nehme — jeg tager",
           "du nimmst — du tager",
           "er nimmt — han tager",
-          "essen — at spise",
+          "essen — spise",
           "ich esse — jeg spiser",
           "du isst — du spiser",
           "er isst — han spiser",
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen betyder at skulle i betydningen pligt."
+            "text": "Sollen betyder »skulle« i betydningen pligt."
           },
           {
             "heading": "Sammenligning",
             "examples": [
-              "müssen — at være nødt til på grund af nødvendighed eller overbevisning",
-              "sollen — skulle/burde i betydningen pligt eller forventning",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — skulle af nødvendighed eller overbevisning",
+              "sollen — skulle som en pligt",
+              "Ich muss lernen. — Jeg må lære, fordi det er nødvendigt.",
+              "Ich soll lernen. — Jeg skal lære, fordi det er min pligt."
             ]
           },
           {
-            "heading": "Sollen-former",
-            "text": "Verbet sollen har samme 1. og 3. person presens ental.",
+            "heading": "Former af sollen",
+            "text": "Verbet sollen har samme form i 1. og 3. person ental i nutid.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen betyder at få lov. I Dürfen er stammevokalen a i ental og ü i flertal.",
+            "text": "Dürfen betyder at måtte, at have lov til. I ental er stammevokalen i dürfen a, men i flertal ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen bøjes som følger.",
+            "text": "Essen bøjes således.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Moderne stavemåde",
-            "text": "Hvis projektet bruger moderne skrift, kan du skrive: du isst, er/sie/es isst, ihr esst."
+            "heading": "Nutidig retskrivning",
+            "text": "Bruger man nutidig retskrivning, kan man skrive: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "I det sammensatte verbum entzweischneiden ligger trykket på præfikset entzweí-, så præfikset i præsens adskilles og placeres sidst i sætningen.",
+            "text": "I det sammensatte verbum entzweischneiden ligger trykket på forstavelsen entzweí-, derfor skilles forstavelsen fra i nutid og står sidst i sætningen.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Jeg skærer æblet over i to."
             ]
           }
         ]
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "ä i ordene Äpfel og schälen udtales som en åben e-lyd.",
+          "ä i ordene Äpfel og schälen udtales som et lukket e.",
           "I ordet Äpfel udtales ä kort, fordi der følger to konsonanter efter vokalen.",
           "I ordet schälen udtales ä langt, fordi der følger én konsonant efter vokalen.",
           "I ordet gern er e kort og åbent.",
-          "Husk: diftongen ei udtales som ai: reif, unreif."
+          "Husk: diftongen ei udtales på tysk som aj: reif, unreif."
         ]
       },
       {
@@ -2607,15 +2607,15 @@ const COURSE_LESSON_DATA = {
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Nej, bedstefar må ikke arbejde, fordi han er syg.",
+            "lv": "Nej, bedstefar må ikke arbejde, for han er syg.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Mor, må jeg spise blommer?",
+            "lv": "Mor, må jeg spise blommerne?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Nej, du skal ikke spise blommerne, de er ikke modne.",
+            "lv": "Nej, blommerne skal du ikke spise, de er umodne.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
@@ -2643,11 +2643,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "Vil han komme videre?",
+            "lv": "Vil han komme fremad?",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Ja, han vil gerne frem.",
+            "lv": "Ja, han vil komme fremad.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
@@ -2655,7 +2655,7 @@ const COURSE_LESSON_DATA = {
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Barnet bør ikke tage kniven, fordi kniven er skarp.",
+            "lv": "Barnet skal ikke tage kniven, for kniven er skarp.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2666,10 +2666,10 @@ const COURSE_LESSON_DATA = {
     "id": "lesson16",
     "title": "Lektion 16",
     "subtitle": "Dativ, geben, sich nähern",
-    "intro": "Sekstende lektion: dativ, geben, sich nähern og dativøvelser.",
+    "intro": "Sekstende lektion: dativ, geben, sich nähern og øvelser i dativ.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Wem schenkt der Vater ein Buch?",
           "Der Vater schenkt dem Sohne ein Buch.",
@@ -2692,36 +2692,36 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
-          "wem — kam?",
-          "schenken — at forære",
-          "dem Sohne — til sønnen",
-          "den Söhnen — til sønnerne",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
+          "wem — til hvem?",
+          "schenken — forære, give i gave",
+          "dem Sohne — (til) sønnen",
+          "den Söhnen — (til) sønnerne",
+          "sich nähern — nærme sig",
+          "ich nähere mich — jeg nærmer mig",
+          "du näherst dich — du nærmer dig",
+          "geben — give",
+          "ich gebe — jeg giver",
+          "du gibst — du giver",
           "er gibt — han giver",
-          "die Magd — kalpone",
+          "die Magd — tjenestepige",
           "Brot — brød",
-          "Milch — piens",
+          "Milch — mælk",
           "gehorchen — adlyde",
-          "der Knecht — kalps",
-          "gehören — at tilhøre",
-          "das Feld — mark",
-          "die Felder — marker",
-          "die Wiese — engen",
-          "die Wiesen — engene",
-          "der Wald — skoven",
-          "die Wälder — skovene",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
-          "treu — trofast"
+          "der Knecht — karl",
+          "gehören — tilhøre",
+          "das Feld — mark / ager",
+          "die Felder — marker / agre",
+          "die Wiese — eng",
+          "die Wiesen — enge",
+          "der Wald — skov",
+          "die Wälder — skove",
+          "der Bauer — bonde",
+          "die Bäuerin — bondekone",
+          "folgen — følge",
+          "der Jäger — jæger",
+          "treu — tro, trofast"
         ]
       },
       {
@@ -2729,16 +2729,16 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Dativ",
-            "text": "Dativen besvarer spørgsmålet: wem? – til hvem?"
+            "text": "Dativ svarer på spørgsmålet: wem? — til hvem?"
           },
           {
             "heading": "Ental",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Hankøn",
+                "Hunkøn",
+                "Intetkøn"
               ],
               [
                 "Nominativ",
@@ -2765,9 +2765,9 @@ const COURSE_LESSON_DATA = {
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Hankøn",
+                "Hunkøn",
+                "Intetkøn"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dativ på -e",
-            "text": "Hankøns- og intetkønssubstantiver i dativ ental kan have endelsen -e. I moderne tysk udelades denne endelse ofte.",
+            "heading": "Dativendelsen -e",
+            "text": "Hankøns- og intetkønsnavneord kan i dativ ental få endelsen -e. I dag falder denne endelse ofte bort.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2801,7 +2801,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Hunkøn i dativ",
-            "text": "Hunkønsnavneord har ingen endelse i dativ ental.",
+            "text": "Hunkønsnavneord får ingen endelse i dativ ental.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Den ubestemte artikel i dativ",
+            "heading": "Det ubestemte kendeord i dativ",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2821,7 +2821,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dativ flertal",
-            "text": "Dativartikel og navneord i flertal har ofte endelsen -n.",
+            "text": "I dativ flertal får kendeordet og navneordet ofte endelsen -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Hvis flertallet allerede ender med -n",
-            "text": "Hvis flertallet allerede ender på -n, tilføjes der ikke endnu et -n.",
+            "heading": "Når flertal allerede ender på -n",
+            "text": "Ender flertalsformen allerede på -n, tilføjes der ikke endnu et -n.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "I verbet geben ændres e til i i 2. og 3. person ental.",
+            "text": "I verbet geben bliver e til i i 2. og 3. person ental.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Refleksivt verbum: sich nähern - at nærme sig.",
+            "text": "Refleksivt verbum: sich nähern — nærme sig.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,26 +2857,26 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Flertal med Umlaut",
+            "heading": "Flertal med omlyd",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Uden artikel",
-            "text": "Ord, der ofte bruges uden artikel: die Milch, das Brot."
+            "heading": "Uden kendeord",
+            "text": "Ord, der ofte bruges uden kendeord: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "I ordene wem, dem, den og der er e-lyden lang og lukket.",
-          "I ordet gehorchen udtales h: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie står for langt i: die Wiese."
+          "I ordene wem, dem, den, der — er e langt og lukket.",
+          "I ordet gehorchen kan h høres: ge-hor-chen.",
+          "die Wälder: ä udtales som et kort lukket e.",
+          "die Bäuerinnen: äu udtales som oj.",
+          "-ie betegner et langt i: die Wiese."
         ]
       },
       {
@@ -2884,82 +2884,82 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+            "task": "Indsæt det rigtige kendeord i dativ/akkusativ efter sætningens betydning.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+            "task": "Indsæt det rigtige kendeord i dativ/akkusativ efter sætningens betydning.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+            "task": "Indsæt det rigtige kendeord i dativ/akkusativ efter sætningens betydning.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+            "task": "Indsæt det rigtige kendeord i dativ/akkusativ efter sætningens betydning.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+            "task": "Indsæt det rigtige kendeord i dativ/akkusativ efter sætningens betydning.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+            "task": "Indsæt det rigtige kendeord i dativ/akkusativ efter sætningens betydning.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Indsæt den rigtige artikel i dativ.",
+            "task": "Indsæt det rigtige kendeord i dativ.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Omskriv til flertal.",
+            "task": "Sæt i flertal.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Omskriv til flertal.",
+            "task": "Sæt i flertal.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
@@ -2969,7 +2969,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hvem kalder faderen på?",
+            "lv": "Hvem kalder far på?",
             "de": "Wen ruft der Vater?"
           },
           {
@@ -2977,7 +2977,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Hvem ejer denne skov?",
+            "lv": "Hvem tilhører denne skov?",
             "de": "Wem gehört dieser Wald?"
           },
           {
@@ -2989,7 +2989,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Hunden adlyder tjenerne og tjenestepigerne.",
+            "lv": "Hunden adlyder karlene og tjenestepigerne.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3017,11 +3017,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Hvem nærmer sig eleverne?",
+            "lv": "Hvem nærmer sig skoledrengene og skolepigerne?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Læreren nærmer sig eleverne.",
+            "lv": "Læreren nærmer sig skoledrengene og skolepigerne.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3031,11 +3031,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson17": {
     "id": "lesson17",
     "title": "Lektion 17",
-    "subtitle": "Mit + Dativ, womit / mit wem, verber med Umlaut",
-    "intro": "Syttende lektion: mit + Dativ, womit / mit wem og verber med Umlaut.",
+    "subtitle": "mit + Dativ, womit / mit wem, verber med omlyd",
+    "intro": "Syttende lektion: mit + Dativ, womit / mit wem og verber med omlyd.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Der Knabe hat einen Spaten.",
           "Er will eine Grube graben.",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
           "der Spaten — spade",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
-          "werfen — mest",
-          "fangen — at fange",
-          "auffangen — at gribe / opfange",
-          "wieder — atkal",
-          "der Schuldiener — skolebetjent",
-          "der Besen — slota",
-          "fegen — at feje med en kost",
-          "die Diele — entré",
-          "der Lappen — klud / klæde",
-          "wischen — at tørre af / aftørre",
-          "abwischen — at aftørre",
-          "helfen — at hjælpe",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — draudzene",
-          "die Freundinnen — draudzenes",
-          "mit — ar",
-          "mit wem — med hvem?",
+          "die Grube — grube, hul",
+          "graben — grave",
+          "womit — med hvad?",
+          "der Ball — bold",
+          "werfen — kaste",
+          "fangen — fange",
+          "auffangen — gribe / fange",
+          "wieder — igen",
+          "der Schuldiener — pedel",
+          "der Besen — kost",
+          "fegen — feje med en kost",
+          "die Diele — gulv",
+          "der Lappen — klud",
+          "wischen — tørre / rengøre",
+          "abwischen — tørre af",
+          "helfen — hjælpe",
+          "danken — takke",
+          "der Freund — ven",
+          "die Freundin — veninde",
+          "die Freundinnen — veninder",
+          "mit — med",
+          "mit wem — med hvem? / med hvad?",
           "der Staub — støv",
           "der Bruder — bror",
           "die Schwester — søster",
-          "die Dienerin — kalpone"
+          "die Dienerin — tjenerinde"
         ]
       },
       {
@@ -3096,11 +3096,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Præpositionen mit styrer altid dativ. På dansk betyder mit = med."
+            "text": "Forholdsordet mit står altid med dativ. På dansk: mit = med."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "På tysk udtrykkes spørgsmålet »med hvem/med hvad?« på to måder: mit wem? bruges om personer, og womit? bruges om ting.",
+            "text": "Spørgsmålet »med hvem?« eller »med hvad?« udtrykkes på tysk på to måder: mit wem? — om personer, womit? — om ting/genstande.",
             "examples": [
               "Mit wem spricht der Bruder? — Hvem taler broren med?",
               "Womit gräbt der Knabe die Grube? — Hvad graver drengen hullet med?"
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Verberne graben, fangen, auffangen har Umlaut i 2. og 3. person ental.",
+            "text": "Verberne graben, fangen, auffangen får omlyd i 2. og 3. person ental.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "I verberne helfen og werfen ændres stammens e til i i 2. og 3. person ental.",
+            "text": "I verberne helfen og werfen bliver stammens e til i i 2. og 3. person ental.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Adskillelige præfikser",
-            "text": "De sammensatte verber auffangen og abwischen har tryk på præfikset. Derfor adskilles præfikset i præsens og placeres sidst i sætningen.",
+            "heading": "Adskillelige forstavelser",
+            "text": "I de sammensatte verber auffangen og abwischen ligger trykket på forstavelsen. Derfor skilles forstavelsen fra i nutid og står sidst i sætningen.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen betyder at feje, mens wischen betyder at tørre eller viske; de bruges forskelligt.",
+            "text": "Fegen og wischen betyder begge »gøre rent«, men de bruges forskelligt.",
             "examples": [
               "fegen — feje med en kost",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — at tørre med en klud, at tørre støv af",
+              "wischen / abwischen — tørre af med en klud, støve af",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3171,9 +3171,9 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "I ordet werfen er det første e åbent: werfen.",
-          "I ordet wieder udtales ie som en lang i-lyd: wieder.",
-          "I ordene wieder og die Diele betegner ie en lang i-lyd: wieder, die Diele.",
-          "I ordet der Spaten udtales sp som [ʃp]: der Spaten."
+          "I ordet wieder er e åbent: wieder.",
+          "I ordene wieder og die Diele betegner ie et langt i: wieder, die Diele.",
+          "I ordet der Spaten udtales sp som sjp: der Spaten."
         ]
       },
       {
@@ -3182,35 +3182,35 @@ const COURSE_LESSON_DATA = {
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
             "task": "Svar i ental, derefter i flertal.",
-            "task2": "Now answer in the plural.",
+            "task2": "Svar nu i flertal.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
             "task": "Svar i ental, derefter i flertal.",
-            "task2": "Now answer in the plural.",
+            "task2": "Svar nu i flertal.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
             "task": "Svar i ental, derefter i flertal.",
-            "task2": "Now answer in the plural.",
+            "task2": "Svar nu i flertal.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
             "task": "Svar i ental, derefter i flertal.",
-            "task2": "Now answer in the plural.",
+            "task2": "Svar nu i flertal.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
             "task": "Svar i ental, derefter i flertal.",
-            "task2": "Now answer in the plural.",
+            "task2": "Svar nu i flertal.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
@@ -3241,7 +3241,7 @@ const COURSE_LESSON_DATA = {
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "Med hvem taler pigen?",
+            "lv": "Hvem taler pigen med?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
@@ -3249,15 +3249,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Taler hun med en ven?",
+            "lv": "Taler hun med vennen?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Nej, hun taler med sine venner.",
+            "lv": "Nej, hun taler med vennerne.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Hvem er det, drengen hjælper?",
+            "lv": "Hvem hjælper drengen?",
             "de": "Wem hilft der Knabe?"
           },
           {
@@ -3269,15 +3269,15 @@ const COURSE_LESSON_DATA = {
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Han klipper papiret over med en saks.",
+            "lv": "Han klipper papiret over med saksen.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Hvad tegner broderen med?",
+            "lv": "Hvad tegner broren med?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Han tegner med blyant og kridt.",
+            "lv": "Han tegner med blyanten og med kridtet.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
@@ -3309,15 +3309,15 @@ const COURSE_LESSON_DATA = {
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Vi hører med vores ører.",
+            "lv": "Vi hører med ørerne.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "Med hvem går broren?",
+            "lv": "Hvem går broren med?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Broren går med sin far, med sin mor, med sin lærer, med sin onkel, med sin tante, med sin fætter og med sin kusine.",
+            "lv": "Broren går med far, med mor, med læreren, med onklen, med tanten, med fætteren, med kusinen.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3327,11 +3327,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson18": {
     "id": "lesson18",
     "title": "Lektion 18",
-    "subtitle": "Wohin / wo, Akkusativ eller Dativ med an / in / auf",
+    "subtitle": "wohin / wo, Akkusativ eller Dativ med an / in / auf",
     "intro": "Attende lektion: wohin / wo, Akkusativ eller Dativ med an / in / auf.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Wohin gehst du?",
           "Ich gehe an den Tisch.",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
-          "tragen — nest",
-          "ich trage — es nesu",
-          "du trägst — tu nes",
-          "er/sie/es trägt — han/hun/det bærer",
-          "der Korb — grozs / kurvis",
-          "die Körbe — grozi / kurvji",
+          "wohin — hvorhen?",
+          "wo — hvor?",
+          "tragen — bære",
+          "ich trage — jeg bærer",
+          "du trägst — du bærer",
+          "er/sie/es trägt — han/hun/den bærer",
+          "der Korb — kurv",
+          "die Körbe — kurve",
           "das Körbchen — lille kurv",
-          "stellen — at placere / sætte op",
-          "legen — at lægge ned",
+          "stellen — stille / sætte (stående)",
+          "legen — lægge / lægge ned (liggende)",
           "das Wasser — vand",
-          "gießen — liet",
+          "gießen — hælde",
           "der Krug — kande",
           "die Krüge — kander",
-          "jetzt — tagad",
-          "an — pie",
-          "auf — uz",
-          "in — inden i / ind i",
-          "der Tisch — galds",
-          "die Bank — sols",
+          "jetzt — nu",
+          "an — ved, hen til",
+          "auf — på",
+          "in — i / ind i",
+          "der Tisch — bord",
+          "die Bank — bænk",
           "die Diele — gulv",
-          "der Eimer — spainis"
+          "der Eimer — spand"
         ]
       },
       {
@@ -3389,96 +3389,96 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Præpositionerne an, in og auf kan bruges både med Akkusativ og med Dativ."
+            "text": "Forholdsordene an, in, auf kan stå både med akkusativ og med dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Hvis handlingen angiver en retning eller en ændring af placering, bruges Akkusativ. Spørgsmålet er: wohin? — hvorhen?",
+            "text": "Udtrykker handlingen retning eller stedskifte, bruges akkusativ. Spørgsmål: wohin? — hvorhen?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Jeg går hen til bordet.",
+              "Ich stelle den Korb auf die Bank. — Jeg stiller kurven på bænken.",
+              "Ich lege die Äpfel in das Körbchen. — Jeg lægger æblerne i den lille kurv.",
+              "Ich gieße das Wasser in den Krug. — Jeg hælder vandet i kanden."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Hvis handlingen angiver placering eller tilstand, bruges dativ. Spørgsmål: wo? – hvor?",
+            "text": "Udtrykker handlingen et sted eller en tilstand, bruges dativ. Spørgsmål: wo? — hvor?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Jeg står ved bordet.",
+              "Der Korb steht auf der Bank. — Kurven står på bænken.",
+              "Die Äpfel sind in dem Körbchen. — Æblerne er i den lille kurv.",
+              "Das Wasser ist in dem Kruge. — Vandet er i kanden."
             ]
           },
           {
             "heading": "Verber med wohin?",
-            "text": "Disse verber angiver ofte en retning og besvarer derfor spørgsmålet wohin?",
+            "text": "Disse verber udtrykker ofte retning og svarer derfor på spørgsmålet wohin?.",
             "examples": [
-              "gehen — iet",
+              "gehen — gå",
               "kommen — komme",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — hoppe",
-              "kriechen — krybe",
+              "fahren — køre",
+              "laufen — løbe",
+              "fliegen — flyve",
+              "springen — springe",
+              "kriechen — kravle",
               "schleichen — snige sig",
-              "hängen — hænge noget op",
+              "hängen — hænge (op)",
               "sich setzen — sætte sig",
               "sich stellen — stille sig",
-              "werfen — mest",
+              "werfen — kaste",
               "reiten — ride"
             ]
           },
           {
             "heading": "Verber med wo?",
-            "text": "Disse verber angiver ofte placering eller tilstand og besvarer derfor spørgsmålet wo?",
+            "text": "Disse verber udtrykker ofte et sted eller en tilstand og svarer derfor på spørgsmålet wo?.",
             "examples": [
               "sein — være",
-              "sich befinden — atrasties",
+              "sich befinden — befinde sig",
               "arbeiten — arbejde",
               "liegen — ligge",
               "sitzen — sidde",
               "hängen — hænge",
-              "finden — atrast",
-              "suchen — søge",
-              "spielen — spille"
+              "finden — finde",
+              "suchen — søge, lede efter",
+              "spielen — spille, lege"
             ]
           },
           {
             "heading": "Stofnavne",
-            "text": "Stofnavne står normalt uden en artikel.",
+            "text": "Stofnavne står normalt uden kendeord.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
+              "Ich trinke Milch. — Jeg drikker mælk.",
               "In dem Eimer ist Wasser. — Der er vand i spanden."
             ]
           },
           {
             "heading": "Et bestemt stof",
-            "text": "Hvis stoffet omtales i en bestemt mængde eller på et bestemt sted, bruges artiklen.",
+            "text": "Nævnes stoffet i en bestemt mængde eller på et bestemt sted, bruges kendeord.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Jeg hælder vandet i kanden."
             ]
           },
           {
             "heading": "in + sted",
-            "text": "Hvis præpositionen in ikke udtrykker en retning »ind i«, men en placering »i«, bruges dativ.",
+            "text": "Når forholdsordet in ikke betyder »ind i«, men angiver et sted, oversættes det på dansk med »i«.",
             "examples": [
               "in dem Eimer — i spanden",
               "in dem Zimmer — i værelset"
             ]
           },
           {
-            "heading": "Moderne former",
-            "text": "Gamle former som dem Tische, dem Kruge og im Walde erstattes i dag ofte af kortere former: dem Tisch, dem Krug og im Wald."
+            "heading": "Nutidige former",
+            "text": "De gamle former, f.eks. dem Tische, dem Kruge, im Walde, bruges i dag ofte i kortere form: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "I ordet wohin udtales h’et: wo-hin.",
-          "I ordet wo er o’et langt: wo."
+          "I ordet wohin kan h høres: wo-hin.",
+          "I ordet wo er o langt: wo."
         ]
       },
       {
@@ -3486,42 +3486,42 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Vælg den rigtige kasus: dativ eller akkusativ.",
+            "task": "Vælg den rigtige kasus: Dativ eller Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
@@ -3535,7 +3535,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Han kommer ind i rummet.",
+            "lv": "Han kommer ind i værelset.",
             "de": "Er kommt in das Zimmer."
           },
           {
@@ -3543,7 +3543,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo arbeitet er?"
           },
           {
-            "lv": "Han arbejder i rummet.",
+            "lv": "Han arbejder i værelset.",
             "de": "Er arbeitet in dem Zimmer."
           },
           {
@@ -3555,7 +3555,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "Børnene går ind i skoven.",
+            "lv": "Børnene går ud i skoven.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
@@ -3567,7 +3567,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Moderen sætter kurven på skabet.",
+            "lv": "Mor stiller kurven op på skabet.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
@@ -3575,7 +3575,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Eleven lægger hæfterne i mappen.",
+            "lv": "Eleven lægger hæfterne i skoletasken.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3583,11 +3583,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Hæfterne er nu i mappen.",
+            "lv": "Hæfterne er nu i skoletasken.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Hvor skal læreren hen?",
+            "lv": "Hvor går læreren hen?",
             "de": "Wohin geht der Lehrer?"
           },
           {
@@ -3609,11 +3609,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson19": {
     "id": "lesson19",
     "title": "Lektion 19",
-    "subtitle": "Vekselpræpositioner: vor, hinter, unter, über, neben, zwischen",
+    "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
     "intro": "Nittende lektion: vor, hinter, unter, über, neben, zwischen med Akkusativ eller Dativ.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Wohin geht die Frau?",
           "Sie geht vor den Spiegel.",
@@ -3642,58 +3642,58 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
           "vor — foran / før",
-          "hinter — aiz",
-          "unter — zem",
+          "hinter — bag",
+          "unter — under",
           "über — over / hen over",
-          "neben — blakus",
-          "zwischen — starp",
-          "werfen — mest",
-          "stellen — at placere / sætte / lægge",
-          "der Spiegel — spogulis",
-          "der Schrank — skapis",
-          "der Eimer — spainis",
-          "die Bank — sols",
+          "neben — ved siden af",
+          "zwischen — mellem",
+          "werfen — kaste",
+          "stellen — stille / anbringe / sætte",
+          "der Spiegel — spejl",
+          "der Schrank — skab",
+          "der Eimer — spand",
+          "die Bank — bænk",
           "das Bild — billede",
-          "das Klavier — klavieres",
+          "das Klavier — klaver",
           "der Großvater — bedstefar",
           "die Großmutter — bedstemor",
           "der Stuhl — stol",
           "der Zaun — hegn",
-          "die Brücke — tilts",
-          "pflanzen — at plante",
+          "die Brücke — bro",
+          "pflanzen — plante",
           "der Strauch — busk",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
+          "wachsen — vokse",
+          "die Mühle — mølle",
           "die Scheune — lade",
           "der Teich — dam",
           "der Garten — have",
-          "das Feld — lauks",
-          "die Laube — lapene",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
+          "das Feld — mark",
+          "die Laube — lysthus",
+          "die Wand — væg",
+          "die Karte — kort",
+          "das Land — land",
           "die Stadt — by",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
-          "zeigen — at vise",
-          "nennen — nosaukt",
-          "so — så"
+          "der Berg — bjerg",
+          "der See — sø",
+          "der Fluss — flod",
+          "zeigen — vise",
+          "nennen — nævne",
+          "so — så, sådan"
         ]
       },
       {
         "title": "Grammatik",
         "items": [
           {
-            "heading": "Vekselpræpositioner",
-            "text": "I denne lektion fortsætter vi med præpositioner, der kan stå både med Akkusativ og Dativ."
+            "heading": "Wechselpräpositionen",
+            "text": "I denne lektion fortsætter vi med forholdsord, der kan stå både med akkusativ og med dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Hvis der er en retning eller bevægelse hen imod et sted, er spørgsmålet »wohin?«, og der bruges Akkusativ.",
+            "text": "Er der tale om retning / bevægelse hen et sted, er spørgsmålet wohin?, og man bruger akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Hvis der er tale om en placering, er spørgsmålet »wo?«, og der bruges Dativ.",
+            "text": "Er der tale om et sted, hvor noget befinder sig, er spørgsmålet wo?, og man bruger dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,18 +3716,18 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Præpositioner",
+            "heading": "Forholdsord",
             "examples": [
               "vor — foran",
-              "hinter — aiz",
-              "unter — zem",
-              "über — over",
-              "neben — blakus",
-              "zwischen — starp"
+              "hinter — bag",
+              "unter — under",
+              "über — over / hen over",
+              "neben — ved siden af",
+              "zwischen — mellem"
             ]
           },
           {
-            "heading": "Opsummering: wohin?",
+            "heading": "Sammenfatning: wohin?",
             "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
@@ -3742,7 +3742,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Opsummering: wo?",
+            "heading": "Sammenfatning: wo?",
             "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen betyder »at gå«, mens treten bl.a. kan betyde »at træde« eller »at gå ind« afhængigt af sammenhængen.",
+            "text": "gehen — gå, når handlingen betyder vedvarende gang. treten — træde ind, træde hen til, træde op, når gangen ender med, at handlingen afbrydes.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3772,10 +3772,10 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "I ordet vor udtales o langt.",
-          "I ordet hinter udtales h, og e er åbent.",
-          "I ordet der Stuhl udtales st som št; h fungerer som længdetegn og udtales ikke.",
-          "I ordet der Strauch udtales st som št.",
-          "I ordet wachsen udtales bogstavkombinationen chs som ks."
+          "I ordet hinter kan h høres, og e er åbent.",
+          "I ordet der Stuhl: st udtales som sjt; h er længdetegn og udtales ikke.",
+          "I ordet der Strauch: st udtales som sjt.",
+          "I ordet wachsen: ch udtales som k."
         ]
       },
       {
@@ -3783,12 +3783,12 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Vælg den rigtige kasus: wohin? → akkusativ, wo? → dativ.",
+            "task": "Vælg den rigtige kasus: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Vælg den rigtige kasus: wohin? → akkusativ, wo? → dativ.",
+            "task": "Vælg den rigtige kasus: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
@@ -3798,7 +3798,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Læreren kommer til klasseværelset.",
+            "lv": "Læreren kommer ind i klassen.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
@@ -3806,19 +3806,19 @@ const COURSE_LESSON_DATA = {
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Han hænger kortet på væggen.",
+            "lv": "Han hænger kortet op på væggen.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Han viser eleverne mange lande, byer, bjerge, søer og floder.",
+            "lv": "Han viser skoledrengene og skolepigerne mange lande, byer, bjerge, søer og floder.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Så kalder læreren en elev frem.",
+            "lv": "Så kalder læreren en elev op.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Eleven går hen til kortet.",
+            "lv": "Eleven træder hen til kortet.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
@@ -3844,7 +3844,7 @@ const COURSE_LESSON_DATA = {
     "intro": "Tyvende lektion: hus, etager, Dativ/Akkusativ og sammensatte navneord.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Dieses Haus ist hoch.",
           "Es hat drei Stockwerke.",
@@ -3872,36 +3872,36 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
-          "das Haus — huset",
+          "das Haus — hus",
           "das Stockwerk — etage",
           "die Mauer — mur",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
+          "der Stein — sten",
+          "das Holz — træ / brænde",
+          "das Glas — glas",
+          "aus Glas — af glas",
           "die Wohnung — lejlighed",
-          "das Vorhaus — entré / forstue",
-          "die Küche — virtuve",
-          "das Dach — jumts",
+          "das Vorhaus — forstue / gang",
+          "die Küche — køkken",
+          "das Dach — tag",
           "der Boden — loft / gulv / jord",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
+          "der Keller — kælder",
+          "der Schornstein — skorsten",
           "der Schornsteinfeger — skorstensfejer",
           "die Stadt — by",
-          "leben — at leve",
-          "tragen — nest",
-          "bringen — at bringe / bære",
-          "stecken — stikke / indsætte",
-          "der Ofen — ovn",
-          "anzünden — at tænde",
+          "leben — leve",
+          "tragen — bære",
+          "bringen — bringe / bære",
+          "stecken — stikke / putte",
+          "der Ofen — kakkelovn",
+          "anzünden — tænde",
           "bald — snart",
-          "brennen — degt",
+          "brennen — brænde",
           "licht — lys",
           "hell — lys / klar",
-          "die Tür — durvis",
-          "das Fenster — logs",
+          "die Tür — dør",
+          "das Fenster — vindue",
           "der Mensch — menneske"
         ]
       },
@@ -3909,8 +3909,8 @@ const COURSE_LESSON_DATA = {
         "title": "Grammatik",
         "items": [
           {
-            "heading": "Dativ ved wann?",
-            "text": "Tidsudtryk, der besvarer spørgsmålet wann? — hvornår?, kan stå i dativ.",
+            "heading": "Dativ med wann?",
+            "text": "Forholdsord, der i 19. og 20. lektion svarer på spørgsmålet wann? — hvornår?, står med dativ. Dativ svarer ikke kun på wo? — hvor?, men også på wann? — hvornår?.",
             "examples": [
               "an dem Tage / am Tage — om dagen",
               "in der Nacht — om natten",
@@ -3920,8 +3920,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Præposition + artikel",
-            "text": "Mange præpositioner smelter sammen med artiklen.",
+            "heading": "Forholdsord + kendeord",
+            "text": "Mange forholdsord smelter sammen med kendeordet.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3933,7 +3933,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "-e- mellem stamme og endelse",
-            "text": "Hvis verbets stamme ender på t, d, m eller n, indsættes der ofte et -e- mellem stammen og endelsen i 2. og 3. person ental samt 2. person flertal for at gøre udtalen lettere.",
+            "text": "Ender verbets stamme på t, d, m, n, indskydes der i 2. og 3. person ental og i 2. person flertal ofte et -e- mellem stamme og endelse for at lette udtalen.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sammensatte substantiver",
-            "text": "Sammensatte navneord får normalt artiklen fra det sidste ord.",
+            "heading": "Sammensatte navneord",
+            "text": "Sammensatte navneord får normalt det sidste ords kendeord.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dannelse af sammensatte substantiver",
+            "heading": "Dannelse af sammensatte navneord",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "I verbet tragen får stammevokalen a i 2. og 3. person ental en umlaut.",
+            "text": "I verbet tragen får stammevokalen a omlyd i 2. og 3. person ental.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "I ordene Stockwerk, Stein, Stadt, stecken udtales st som [ʃt].",
-          "I ordene der Ofen og der Boden er o'et langt.",
-          "sch udtales som [ʃ]: der Schornstein, der Mensch.",
-          "I ordene das Haus og das Holz udtales h'et tydeligt.",
-          "I ordene die Wohnung og wohnen markerer h'et en lang vokal og udtales ikke.",
-          "I ordene die Küche, die Dächer udtales ch som en h-lignende lyd.",
-          "I ordet das Vorhaus udtales v som f."
+          "I ordene Stockwerk, Stein, Stadt, stecken: st udtales som sjt.",
+          "I ordene der Ofen, der Boden: o er langt.",
+          "sch udtales som sj: der Schornstein, der Mensch.",
+          "I ordene das Haus, das Holz: h høres og skal udtales.",
+          "I ordene die Wohnung, wohnen: h er længdetegn og udtales ikke.",
+          "I ordene die Küche, die Dächer: ch udtales som en hvæsende lyd fortil i munden, ligesom tysk ich-Laut.",
+          "I ordet das Vorhaus: v udtales som f."
         ]
       },
       {
@@ -3987,87 +3987,87 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
-            "prompt": "Denne mand går over (broen).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "prompt": "Dieser Mann geht über (die Brücke).",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
-            "prompt": "Den mand står under (broen).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "prompt": "Jener Mann steht unter (die Brücke).",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
@@ -4085,27 +4085,27 @@ const COURSE_LESSON_DATA = {
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "Hvor er vinduer og døre?",
+            "lv": "Hvor er der vinduer og døre?",
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "Hvad er væggene lavet af?",
+            "lv": "Hvad er murene af?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Hvad er dørene lavet af?",
+            "lv": "Hvad er dørene af?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "Hvad er vinduerne lavet af?",
+            "lv": "Hvad er vinduerne af?",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Hvor er ti lejligheder?",
+            "lv": "Hvor er der ti lejligheder?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Hvad er der i hver lejlighed?",
+            "lv": "Hvad har hver lejlighed?",
             "de": "Was hat jede Wohnung?"
           },
           {
@@ -4117,7 +4117,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Hvor er de tre skorstene?",
+            "lv": "Hvor er der tre skorstene?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
@@ -4129,7 +4129,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo steht er?"
           },
           {
-            "lv": "Hvad laver han?",
+            "lv": "Hvad gør han?",
             "de": "Was tut er?"
           },
           {
@@ -4141,7 +4141,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "Hvor bor mange mennesker?",
+            "lv": "Hvor lever der mange mennesker?",
             "de": "Wo leben viele Menschen?"
           },
           {
@@ -4153,7 +4153,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "Hvilken etage bor du på?",
+            "lv": "På hvilken etage bor du?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
@@ -4161,7 +4161,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Hvor putter du brændet hen?",
+            "lv": "Hvor putter du brændet?",
             "de": "Wohin steckst du das Holz?"
           },
           {
@@ -4179,11 +4179,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson21": {
     "id": "lesson21",
     "title": "Lektion 21",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Dativ",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
     "intro": "Enogtyvende lektion: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Die Holzhauer arbeiten in der Scheune.",
           "Sie sägen und spalten Holz.",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
           "der Holzhauer — skovhugger",
-          "sägen — at save",
-          "spalten — at kløve",
-          "die Axt — cirvis",
-          "von — no",
+          "sägen — save",
+          "spalten — kløve",
+          "die Axt — økse",
+          "von — fra",
           "aus — fra / ud af",
-          "mit — ar",
-          "helfen — at hjælpe",
-          "treten — at træde",
-          "du trittst — tu ej / tu sper soli",
-          "er tritt — han træder",
-          "rufen — saukt",
-          "holen — at hente",
-          "eilen — steigties",
+          "mit — med",
+          "helfen — hjælpe",
+          "treten — gå / komme / træde",
+          "du trittst — du går / du træder",
+          "er tritt — han går / træder",
+          "rufen — kalde",
+          "holen — hente",
+          "eilen — skynde sig",
           "zurück — tilbage",
-          "finden — atrast",
-          "sehen — at se",
-          "du siehst — tu redzi",
+          "finden — finde",
+          "sehen — se",
+          "du siehst — du ser",
           "er sieht — han ser",
-          "fleißig — flittig",
+          "fleißig — flittigt",
           "die Scheune — lade",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — spainis",
+          "das Feld — mark",
+          "der Berg — bjerg",
+          "die Brücke — bro",
+          "der Hof — gård",
+          "der Keller — kælder",
+          "die Küche — køkken",
+          "die Milch — mælk",
+          "der Eimer — spand",
           "die Säge — sav",
-          "das Beil — cirvis"
+          "das Beil — håndøkse"
         ]
       },
       {
@@ -4251,28 +4251,28 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Præpositionerne mit, von og aus står altid med dativ.",
+            "text": "Forholdsordene mit, von og aus står altid med dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — fra",
+              "mit — med",
+              "von — fra",
+              "aus — fra / ud af",
               "mit dem Mann — med manden",
               "von dem Felde / vom Felde — fra marken",
-              "aus der Küche — no virtuves"
+              "aus der Küche — ud af køkkenet"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Præpositionen von kan smelte sammen med artiklen.",
+            "text": "Forholdsordet von kan smelte sammen med kendeordet.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Moderne form: vom Feld, vom Berg."
+              "Nutidig form: vom Feld, vom Berg."
             ]
           },
           {
             "heading": "Woher? — hvorfra?",
-            "text": "Hvis en person eller genstand befinder sig i et rum, på et sted eller i en beholder og bevæger sig ud derfra, bruges aus.",
+            "text": "Befinder en person eller ting sig i et rum, på et sted eller i en beholder og kommer ud derfra, bruges aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Hvis en person eller genstand er over et sted eller på noget og bevæger sig væk fra det, bruges von.",
+            "text": "Befinder en person eller ting sig over et sted eller oven på noget og bevæger sig væk derfra, bruges von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4296,7 +4296,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Materiale",
-            "text": "Når man taler om det materiale, som en genstand er lavet af, bruges aus.",
+            "text": "Taler man om det materiale, en genstand er lavet af, bruges aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "I ordet die Axt udtales x som ks.",
-          "I ordene arbeiten, das Beil, steigen udtales ei som [aɪ̯].",
-          "I ordet die Scheune udtales eu som [ɔʏ̯].",
-          "I ordet die Brücke udtales ck som [k]."
+          "I ordet die Axt: x udtales som ks.",
+          "I ordene arbeiten, das Beil, steigen: ei udtales som aj.",
+          "I ordet die Scheune: eu udtales som oj.",
+          "I ordet die Brücke: ck udtales som dobbelt k."
         ]
       },
       {
@@ -4320,77 +4320,77 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Svar efter at have læst teksten.",
+            "task": "Svar ud fra læseteksten.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
@@ -4400,23 +4400,23 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Alle notesbøgerne er i tasken.",
+            "lv": "Alle hæfterne er i skoletasken.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Jeg tager notesbøgerne ud af tasken.",
+            "lv": "Jeg tager hæfterne op af skoletasken.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Jeg tager uret ud af lommen.",
+            "lv": "Jeg trækker uret op af lommen.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "En spand mælk står i kælderen.",
+            "lv": "En spand med mælk står i kælderen.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Jeg bærer spanden ud af kælderen.",
+            "lv": "Jeg bærer spanden op af kælderen.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
@@ -4428,15 +4428,15 @@ const COURSE_LESSON_DATA = {
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Faderen fjerner billedet fra væggen.",
+            "lv": "Far tager billedet ned fra væggen.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Nodearkene ligger på klaveret.",
+            "lv": "Noderne ligger på klaveret.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Jeg tager noderne fra klaveret.",
+            "lv": "Jeg tager noderne af klaveret.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {

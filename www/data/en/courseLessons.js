@@ -2438,7 +2438,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson15",
     "title": "Lesson 15",
     "subtitle": "sollen, dürfen, essen, fruit",
-    "intro": "Fifteenth lecture: sollen, dürfen, essen and fruit words.",
+    "intro": "Lesson fifteen: sollen, dürfen, essen and words for fruit.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -2471,37 +2471,37 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "sollen — to need / to be obliged",
-          "ich soll — I need / I have to do",
-          "du sollst — you need / you must do",
-          "er soll — he needs / he has to",
-          "wir sollen — we need / we have to do",
-          "ihr sollt — you need / you should",
-          "sie sollen — they must / should",
-          "dürfen — to be allowed",
-          "ich darf — I may",
-          "du darfst — you may",
-          "er darf — he may",
-          "wir dürfen — we may",
-          "ihr dürft — you may",
-          "sie dürfen — they may",
+          "sollen — to be supposed to / to have a duty to",
+          "ich soll — I am supposed to / I have to",
+          "du sollst — you are supposed to / you have to",
+          "er soll — he is supposed to / he has to",
+          "wir sollen — we are supposed to / we have to",
+          "ihr sollt — you (pl.) are supposed to / you (pl.) have to",
+          "sie sollen — they are supposed to",
+          "dürfen — to be allowed to, may",
+          "ich darf — I may, I am allowed to",
+          "du darfst — you may, you are allowed to",
+          "er darf — he may, he is allowed to",
+          "wir dürfen — we may, we are allowed to",
+          "ihr dürft — you (pl.) may, you (pl.) are allowed to",
+          "sie dürfen — they may, they are allowed to",
           "nicht — not",
-          "das Messer — knife",
-          "der Apfel — apple",
-          "die Äpfel — apples",
+          "das Messer — the knife",
+          "der Apfel — the apple",
+          "die Äpfel — the apples",
           "schälen — to peel",
-          "entzweischneiden — cut in half",
-          "die Birne — pear",
-          "die Birnen — pears",
-          "die Pflaume — plum",
-          "die Pflaumen — plums",
+          "entzweischneiden — to cut in two",
+          "die Birne — the pear",
+          "die Birnen — the pears",
+          "die Pflaume — the plum",
+          "die Pflaumen — the plums",
           "die Kirsche — the cherry",
-          "die Kirschen — cherries",
-          "gern — willingly",
-          "reif — come in / ripen",
-          "unreif — don't come in / don't ripen",
+          "die Kirschen — the cherries",
+          "gern — gladly, willingly",
+          "reif — ripe",
+          "unreif — unripe",
           "nehmen — to take",
           "ich nehme — I take",
           "du nimmst — you take",
@@ -2511,7 +2511,7 @@ const COURSE_LESSON_DATA = {
           "du isst — you eat",
           "er isst — he eats",
           "wir essen — we eat",
-          "ihr esst — you eat",
+          "ihr esst — you (pl.) eat",
           "sie essen — they eat"
         ]
       },
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen means to need in the sense of duty."
+            "text": "Sollen means 'should' in the sense of a duty or obligation."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Comparison",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — must, to have to (out of necessity or conviction)",
+              "sollen — should, to be supposed to (out of duty)",
+              "Ich muss lernen. — I have to study because it is necessary.",
+              "Ich soll lernen. — I have to study because it is my duty."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "The verb sollen has the same 1st and 3rd person present singular.",
+            "heading": "Forms of sollen",
+            "text": "In the present tense of the verb sollen, the 1st and 3rd person singular are the same.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen means to be allowed. In Dürfen the stem vowel is a in the singular and ü in the plural.",
+            "text": "Dürfen means 'to be allowed to'. In the singular the stem vowel of dürfen is a, in the plural ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen arc as follows.",
+            "text": "Essen is conjugated as follows.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "If the project uses modern writing, you may write: du isst, er/sie/es isst, ihr esst."
+            "heading": "Modern spelling",
+            "text": "If modern spelling is used, you may write: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "In the compound verb entzweischneiden, the emphasis is on the prefix entzweí-, so in the present tense the prefix is ​​separated and placed at the end of the sentence.",
+            "text": "In the compound verb entzweischneiden the stress falls on the prefix entzwei-, so in the present tense the prefix separates and goes to the end of the sentence.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — I cut the apple in two."
             ]
           }
         ]
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "ä in the words Äpfel and schälen is pronounced like a closed e.",
+          "In the word Äpfel the ä is short, because the vowel is followed by two consonants.",
+          "In the word schälen the ä is long, because the vowel is followed by one consonant.",
+          "In the word gern the e is short and open.",
+          "Remember: the German diphthong ei is pronounced like the i in fine: reif, unreif."
         ]
       },
       {
@@ -2599,47 +2599,47 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Francis is healthy, he can work.",
+            "lv": "Franz is healthy, he is allowed to work.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Can grandfather work?",
+            "lv": "Is the grandfather allowed to work?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "No, grandfather can't work because he is sick.",
+            "lv": "No, the grandfather is not allowed to work, because he is ill.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Mother, can I eat plums?",
+            "lv": "Mother, may I eat the plums?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "No, you don't need to eat the plums, they haven't arrived.",
+            "lv": "No, you shouldn't eat the plums, they are unripe.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Did you eat an apple or a pear?",
+            "lv": "Are you eating an apple or a pear?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
-            "lv": "I eat a pear.",
+            "lv": "I am eating a pear.",
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "What does a pear taste like?",
+            "lv": "How does the pear taste?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "Pear tastes very good.",
+            "lv": "The pear tastes very good.",
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Who needs to study?",
+            "lv": "Who has to study?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "A student must study.",
+            "lv": "The pupil has to study.",
             "de": "Der Schüler muss lernen."
           },
           {
@@ -2651,11 +2651,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Can a child take a knife?",
+            "lv": "Is the child allowed to take the knife?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "A child should not take a knife, because the knife is sharp.",
+            "lv": "The child shouldn't take the knife, because the knife is sharp.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2665,8 +2665,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson16": {
     "id": "lesson16",
     "title": "Lesson 16",
-    "subtitle": "Dativs, geben, sich nähern",
-    "intro": "Sixteenth lecture: dative, geben, sich nähern and dative exercises.",
+    "subtitle": "The dative, geben, sich nähern",
+    "intro": "Lesson sixteen: the dative, geben, sich nähern and dative exercises.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -2692,53 +2692,53 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "wem — kam?",
-          "schenken — to give away",
+          "wem — to whom?",
+          "schenken — to give (as a present)",
           "dem Sohne — to the son",
           "den Söhnen — to the sons",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
+          "sich nähern — to approach",
+          "ich nähere mich — I approach",
+          "du näherst dich — you approach",
+          "geben — to give",
+          "ich gebe — I give",
+          "du gibst — you give",
           "er gibt — he gives",
-          "die Magd — maid",
-          "Brot — maise",
-          "Milch — piens",
-          "gehorchen — obey",
-          "der Knecht — kalps",
+          "die Magd — the maid",
+          "Brot — bread",
+          "Milch — milk",
+          "gehorchen — to obey",
+          "der Knecht — the farmhand",
           "gehören — to belong",
-          "das Feld — field / field",
-          "die Felder — fields / fields",
+          "das Feld — the field",
+          "die Felder — the fields",
           "die Wiese — the meadow",
-          "die Wiesen — meadows",
+          "die Wiesen — the meadows",
           "der Wald — the forest",
-          "die Wälder — forests",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
-          "treu — faithful"
+          "die Wälder — the forests",
+          "der Bauer — the farmer",
+          "die Bäuerin — the farmer's wife, the farmer (woman)",
+          "folgen — to follow",
+          "der Jäger — the hunter",
+          "treu — faithful, loyal"
         ]
       },
       {
         "title": "Grammar",
         "items": [
           {
-            "heading": "Dativs",
+            "heading": "The dative",
             "text": "The dative answers the question: wem? — to whom?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Singular",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Masculine",
+                "Feminine",
+                "Neuter"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Plural",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Masculine",
+                "Feminine",
+                "Neuter"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Masculine and neuter nouns in the dative singular can take the ending -e. Nowadays, this ending is often dropped.",
+            "heading": "The dative -e",
+            "text": "Masculine and neuter nouns can take the ending -e in the dative singular. Nowadays this ending is often dropped.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Feminine nouns do not take an ending in the dative singular.",
+            "heading": "The feminine in the dative",
+            "text": "Feminine nouns take no ending in the dative singular.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "The indefinite article in the dative",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "The plural dative article and noun often take the ending -n.",
+            "heading": "The dative plural",
+            "text": "In the dative plural the article and the noun often take the ending -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "If the plural already ends with -n, another -n is not added.",
+            "heading": "If the plural already ends in -n",
+            "text": "If the plural already ends in -n, no further -n is added.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Reflexive verb: sich nähern - to approach.",
+            "text": "Reflexive verb: sich nähern — to approach.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,26 +2857,26 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Plural with Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "Words often used without the article: die Milch, das Brot."
+            "heading": "Without an article",
+            "text": "Words that are often used without an article: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Pronunciation",
         "items": [
-          "Vārdos wem, dem, den, der — In wem, dem, den, der, the e is long and narrow.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie stands for long ī: die Wiese."
+          "In the words wem, dem, den, der — the e is long and closed.",
+          "In the word gehorchen the h is audible: ge-hor-chen.",
+          "die Wälder: ä is pronounced like a short closed e.",
+          "die Bäuerinnen: äu is pronounced like oy in boy.",
+          "-ie marks a long ee: die Wiese."
         ]
       },
       {
@@ -2884,82 +2884,82 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Put the correct article in dative/accusative according to the meaning of the sentence.",
+            "task": "Fill in the correct article in the dative/accusative according to the meaning of the sentence.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Put the correct article in dative/accusative according to the meaning of the sentence.",
+            "task": "Fill in the correct article in the dative/accusative according to the meaning of the sentence.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Put the correct article in dative/accusative according to the meaning of the sentence.",
+            "task": "Fill in the correct article in the dative/accusative according to the meaning of the sentence.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Put the correct article in dative/accusative according to the meaning of the sentence.",
+            "task": "Fill in the correct article in the dative/accusative according to the meaning of the sentence.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Put the correct article in dative/accusative according to the meaning of the sentence.",
+            "task": "Fill in the correct article in the dative/accusative according to the meaning of the sentence.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Put the correct article in dative/accusative according to the meaning of the sentence.",
+            "task": "Fill in the correct article in the dative/accusative according to the meaning of the sentence.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Put the correct article in the dative.",
+            "task": "Fill in the correct article in the dative.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Convert to plural.",
+            "task": "Change to the plural.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Convert to plural.",
+            "task": "Change to the plural.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
@@ -2969,15 +2969,15 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "What is the father's name?",
+            "lv": "Whom is the father calling?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "He calls his son and daughter.",
+            "lv": "He is calling the son and the daughter.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Who owns this forest?",
+            "lv": "Who does this forest belong to?",
             "de": "Wem gehört dieser Wald?"
           },
           {
@@ -2985,11 +2985,11 @@ const COURSE_LESSON_DATA = {
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Kam paklausa suns?",
+            "lv": "Whom does the dog obey?",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "The dog obeys the servants and maids.",
+            "lv": "The dog obeys the farmhands and the maids.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3009,19 +3009,19 @@ const COURSE_LESSON_DATA = {
             "de": "Der Hund ist treu."
           },
           {
-            "lv": "What are dogs like?",
+            "lv": "What are the dogs like?",
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Dogs are loyal.",
+            "lv": "The dogs are faithful.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "What is approaching schoolboys and girls?",
+            "lv": "Who is approaching the schoolboys and schoolgirls?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "The teacher approaches the students.",
+            "lv": "The teacher is approaching the schoolboys and schoolgirls.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3032,7 +3032,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson17",
     "title": "Lesson 17",
     "subtitle": "mit + Dativ, womit / mit wem, verbs with Umlaut",
-    "intro": "Seventeenth lecture: mit + Dativ, womit / mit wem and verbs with Umlaut.",
+    "intro": "Lesson seventeen: mit + Dativ, womit / mit wem and verbs with Umlaut.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "der Spaten — spade",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
+          "der Spaten — the spade",
+          "die Grube — the pit, the hole",
+          "graben — to dig",
+          "womit — with what?",
+          "der Ball — the ball",
           "werfen — to throw",
-          "fangen — catch",
-          "auffangen — to catch / catch",
-          "wieder — atkal",
-          "der Schuldiener — school attendant",
-          "der Besen — slota",
-          "fegen — to sweep with a broom",
+          "fangen — to catch",
+          "auffangen — to catch / to catch hold of",
+          "wieder — again",
+          "der Schuldiener — the school caretaker",
+          "der Besen — the broom",
+          "fegen — to sweep (with a broom)",
           "die Diele — the floor",
-          "der Lappen — rag / cloth",
-          "wischen — to wipe / clean",
+          "der Lappen — the rag / the cloth",
+          "wischen — to wipe / to clean",
           "abwischen — to wipe off",
           "helfen — to help",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — girlfriend / female friend",
-          "die Freundinnen — girlfriends / female friends",
-          "mit — ar",
-          "mit wem — ar ko? / ar kuru?",
-          "der Staub — dust",
-          "der Bruder — brother",
+          "danken — to thank",
+          "der Freund — the friend",
+          "die Freundin — the (female) friend",
+          "die Freundinnen — the (female) friends",
+          "mit — with",
+          "mit wem — with whom? / who … with?",
+          "der Staub — the dust",
+          "der Bruder — the brother",
           "die Schwester — the sister",
-          "die Dienerin — maid / servant (female)"
+          "die Dienerin — the maidservant"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "The preposition mit always stands with the dative case. mit = with."
+            "text": "The preposition mit always takes the dative. In English: mit = with."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "The German question \"with what?\" expressed in two ways: mit wem? — about persons, womit? — about things/subjects.",
+            "text": "In German the question “with whom?” or “with what?” is expressed in two ways: mit wem? — for people, womit? — for things/objects.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — Who is the brother talking to?",
+              "Womit gräbt der Knabe die Grube? — What is the boy digging the pit with?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "The verbs graben, fangen, auffangen have Umlaut in the 2nd and 3rd person singular.",
+            "text": "The verbs graben, fangen, auffangen take an Umlaut in the 2nd and 3rd person singular.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "In the verbs helfen and werfen in the 2nd and 3rd person singular, the stem e changes to i.",
+            "text": "In the verbs helfen and werfen, the stem vowel e changes to i in the 2nd and 3rd person singular.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "The compound verbs auffangen and abwischen have the accent on the prefix. Therefore, the present prefix is ​​separated and placed at the end of the sentence.",
+            "heading": "Separable prefixes",
+            "text": "In the compound verbs auffangen and abwischen the stress falls on the prefix. So in the present tense the prefix separates and goes to the end of the sentence.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen and wischen both mean to sweep, but the usage is different.",
+            "text": "Fegen and wischen both mean cleaning a surface, but they are used differently.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — to sweep (with a broom)",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — to wipe with a rag or cloth, to wipe off dust",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "In the word werfen the first e is open: werfen.",
+          "In the word wieder the e is open: wieder.",
+          "In the words wieder and die Diele, ie marks a long ee: wieder, die Diele.",
+          "In the word der Spaten, sp is pronounced shp: der Spaten."
         ]
       },
       {
@@ -3229,15 +3229,15 @@ const COURSE_LESSON_DATA = {
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "What does the girl wipe?",
+            "lv": "What is the girl wiping?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
-            "lv": "The girl wipes the blackboard.",
+            "lv": "The girl is wiping the blackboard.",
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "What does the girl wipe the dust with?",
+            "lv": "What is the girl wiping the dust off with?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
@@ -3249,47 +3249,47 @@ const COURSE_LESSON_DATA = {
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Is she talking to a friend?",
+            "lv": "Is she talking to the friend?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "No, she's talking to her friends.",
+            "lv": "No, she is talking to the friends.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Who does the boy help?",
+            "lv": "Who is the boy helping?",
             "de": "Wem hilft der Knabe?"
           },
           {
-            "lv": "He helps the gardener.",
+            "lv": "He is helping the gardener.",
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "What does he cut the paper with?",
+            "lv": "What is he cutting the paper in two with?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "He cuts the paper with scissors.",
+            "lv": "He cuts the paper in two with the scissors.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "What does the brother draw with?",
+            "lv": "What is the brother drawing with?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "He draws with pencil and chalk.",
+            "lv": "He draws with the pencil and with the chalk.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "What are you holding the shovel with?",
+            "lv": "What are you holding the spade with?",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "I'm holding a shovel with my hand.",
+            "lv": "I hold the spade with my hand.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "Who do we work with?",
+            "lv": "What do we work with?",
             "de": "Womit arbeiten wir?"
           },
           {
@@ -3297,7 +3297,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "With what do we see?",
+            "lv": "What do we see with?",
             "de": "Womit sehen wir?"
           },
           {
@@ -3305,7 +3305,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "With what do we hear?",
+            "lv": "What do we hear with?",
             "de": "Womit hören wir?"
           },
           {
@@ -3313,11 +3313,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "What does the brother go with?",
+            "lv": "Who is the brother going with?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "A brother goes with his father, with his mother, with his teacher, with his uncle, with his aunt, with his cousin, with his cousin.",
+            "lv": "The brother goes with the father, with the mother, with the teacher, with the uncle, with the aunt, with the (male) cousin, with the (female) cousin.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3327,8 +3327,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson18": {
     "id": "lesson18",
     "title": "Lesson 18",
-    "subtitle": "wohin / wo, Akkusativ vai Dativ ar an / in / auf",
-    "intro": "Eighteenth lecture: wohin / wo, Akkusativ or Dativ with an / in / auf.",
+    "subtitle": "wohin / wo, Akkusativ or Dativ with an / in / auf",
+    "intro": "Lesson eighteen: wohin / wo, Akkusativ or Dativ with an / in / auf.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
+          "wohin — where to?",
+          "wo — where?",
           "tragen — to carry",
           "ich trage — I carry",
           "du trägst — you carry",
           "er/sie/es trägt — he/she/it carries",
-          "der Korb — basket / crate",
-          "die Körbe — baskets / crates",
-          "das Körbchen — a basket",
-          "stellen — to place / put upright",
-          "legen — to lay down",
-          "das Wasser — water",
+          "der Korb — the basket",
+          "die Körbe — the baskets",
+          "das Körbchen — the little basket",
+          "stellen — to put / to stand (something) upright",
+          "legen — to put / to lay (something) down flat",
+          "das Wasser — the water",
           "gießen — to pour",
-          "der Krug — mug",
-          "die Krüge — mugs",
+          "der Krug — the jug",
+          "die Krüge — the jugs",
           "jetzt — now",
-          "an — at / on",
-          "auf — onto / on",
-          "in — inside / inside",
-          "der Tisch — table",
-          "die Bank — bench",
+          "an — at, by",
+          "auf — on",
+          "in — in / into",
+          "der Tisch — the table",
+          "die Bank — the bench",
           "die Diele — the floor",
-          "der Eimer — bucket"
+          "der Eimer — the bucket"
         ]
       },
       {
@@ -3389,96 +3389,96 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Prepositions an, in, auf can stand both with Akkusativ and with Dative."
+            "text": "The prepositions an, in, auf can take either the Akkusativ or the Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "If the action indicates a change of direction or place, Akkusativ is used. Question: wohin? - where?",
+            "text": "If the action indicates a direction or a change of place, the Akkusativ is used. Question: wohin? — where to?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — I go to the table.",
+              "Ich stelle den Korb auf die Bank. — I put the basket on the bench.",
+              "Ich lege die Äpfel in das Körbchen. — I put the apples into the little basket.",
+              "Ich gieße das Wasser in den Krug. — I pour the water into the jug."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "If the action indicates location or state, the Dative is used. Question: wo? — where?",
+            "text": "If the action indicates a location or a position, the Dativ is used. Question: wo? — where?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — I am standing at the table.",
+              "Der Korb steht auf der Bank. — The basket is standing on the bench.",
+              "Die Äpfel sind in dem Körbchen. — The apples are in the little basket.",
+              "Das Wasser ist in dem Kruge. — The water is in the jug."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "These verbs often indicate direction and therefore answer the question wohin?.",
+            "heading": "Verbs with wohin?",
+            "text": "These verbs often indicate a direction and therefore answer the question wohin?",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — to go",
+              "kommen — to come",
+              "fahren — to drive, to travel",
+              "laufen — to run",
+              "fliegen — to fly",
+              "springen — to jump",
+              "kriechen — to crawl",
+              "schleichen — to creep, to sneak",
+              "hängen — to hang (something)",
+              "sich setzen — to sit down",
+              "sich stellen — to go and stand, to take up a position",
+              "werfen — to throw",
+              "reiten — to ride (a horse)"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "These verbs often indicate location or state and therefore answer the question wo?.",
+            "heading": "Verbs with wo?",
+            "text": "These verbs often indicate a location or a position and therefore answer the question wo?",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — to be",
+              "sich befinden — to be (located)",
+              "arbeiten — to work",
+              "liegen — to lie / to be lying down",
+              "sitzen — to sit, to be sitting",
+              "hängen — to hang, to be hanging",
+              "finden — to find",
+              "suchen — to look for",
+              "spielen — to play"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "Nouns usually stand without an article.",
+            "heading": "Nouns denoting substances",
+            "text": "Nouns denoting substances are usually used without an article.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — I drink milk.",
+              "In dem Eimer ist Wasser. — There is water in the bucket."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "If the substance is mentioned in a certain amount or in a certain place, then the article is used.",
+            "heading": "A specific substance",
+            "text": "If a substance is mentioned in a specific quantity or in a specific place, the article is used.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — I pour the water into the jug."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "If the preposition in does not translate as \"in\", but expresses a location, it can be translated with the locative.",
+            "heading": "in + place",
+            "text": "If the preposition in does not mean “inside” but simply expresses location, it is translated into English simply as “in”.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — in the bucket",
+              "in dem Zimmer — in the room"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Old forms such as dem Tische, dem Kruge, im Walde are often used shorter today: dem Tisch, dem Krug, im Wald."
+            "heading": "Modern forms",
+            "text": "Old forms such as dem Tische, dem Kruge, im Walde are often shortened nowadays: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Pronunciation",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "In the word wohin the h is audible: wo-hin.",
+          "In the word wo the o is long: wo."
         ]
       },
       {
@@ -3486,42 +3486,42 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Choose the correct conjugation: Dativ or Akkusativ.",
+            "task": "Choose the correct case: Dativ or Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
@@ -3531,7 +3531,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Where does the server come from?",
+            "lv": "Where is the servant coming to?",
             "de": "Wohin kommt der Diener?"
           },
           {
@@ -3539,7 +3539,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "where does he work",
+            "lv": "Where does he work?",
             "de": "Wo arbeitet er?"
           },
           {
@@ -3551,15 +3551,15 @@ const COURSE_LESSON_DATA = {
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "The bench stands by the window.",
+            "lv": "The bench is standing by the window.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "Children go to the forest.",
+            "lv": "The children go into the forest.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "They pick berries in the forest.",
+            "lv": "They look for berries in the forest.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
@@ -3571,19 +3571,19 @@ const COURSE_LESSON_DATA = {
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "The basket is on the cupboard.",
+            "lv": "The basket is standing on the cupboard.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "The student puts the notebooks in the bag.",
+            "lv": "The pupil puts the exercise books into the satchel.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
-            "lv": "Where are the notebooks?",
+            "lv": "Where are the exercise books?",
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "The letters are now in the bag.",
+            "lv": "The exercise books are now in the satchel.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
@@ -3591,7 +3591,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "He goes to class.",
+            "lv": "He is going into the classroom.",
             "de": "Er geht in die Klasse."
           },
           {
@@ -3610,7 +3610,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson19",
     "title": "Lesson 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Nineteenth Lesson: vor, hinter, unter, über, neben, zwischen with Akkusativ or Dativ.",
+    "intro": "Lesson nineteen: vor, hinter, unter, über, neben, zwischen with the Akkusativ or the Dativ.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -3642,46 +3642,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "vor — in front / before",
-          "hinter — aiz",
-          "unter — zem",
-          "über — over / over",
-          "neben — blakus",
-          "zwischen — starp",
+          "vor — in front of / before",
+          "hinter — behind",
+          "unter — under",
+          "über — above / over",
+          "neben — next to",
+          "zwischen — between",
           "werfen — to throw",
-          "stellen — to place / set / put down",
-          "der Spiegel — spogulis",
-          "der Schrank — cupboard / wardrobe",
-          "der Eimer — bucket",
-          "die Bank — bench",
-          "das Bild — image / picture",
-          "das Klavier — klavieres",
-          "der Großvater — grandfather",
-          "die Großmutter — grandmother",
-          "der Stuhl — a chair",
-          "der Zaun — a fence",
-          "die Brücke — tilts",
+          "stellen — to place / to stand / to put",
+          "der Spiegel — the mirror",
+          "der Schrank — the cupboard",
+          "der Eimer — the bucket",
+          "die Bank — the bench",
+          "das Bild — the picture / the image",
+          "das Klavier — the piano",
+          "der Großvater — the grandfather",
+          "die Großmutter — the grandmother",
+          "der Stuhl — the chair",
+          "der Zaun — the fence",
+          "die Brücke — the bridge",
           "pflanzen — to plant",
-          "der Strauch — a bush",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
+          "der Strauch — the bush",
+          "wachsen — to grow",
+          "die Mühle — the mill",
           "die Scheune — the barn",
-          "der Teich — a pond",
+          "der Teich — the pond",
           "der Garten — the garden",
-          "das Feld — lauks",
-          "die Laube — arbour / gazebo",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
-          "die Stadt — the city",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
+          "das Feld — the field",
+          "die Laube — the arbour",
+          "die Wand — the wall",
+          "die Karte — the map",
+          "das Land — the country, the land",
+          "die Stadt — the town, the city",
+          "der Berg — the mountain",
+          "der See — the lake",
+          "der Fluss — the river",
           "zeigen — to show",
-          "nennen — nosaukt",
-          "so — so"
+          "nennen — to name",
+          "so — so, thus"
         ]
       },
       {
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "In this lecture, we continue with prepositions that can stand both with Akkusativ and with Dative."
+            "text": "In this lesson we continue with prepositions that can take either the Akkusativ or the Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "If there is a direction / movement to somewhere, the question is wohin? and uses Akkusativ.",
+            "text": "If there is a direction / movement towards somewhere, the question is wohin? and the Akkusativ is used.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "If there is a location, the question is wo? and uses the Dative.",
+            "text": "If there is a location, the question is wo? and the Dativ is used.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,18 +3716,18 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Prepositions",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — in front of",
+              "hinter — behind",
+              "unter — under",
+              "über — above / over",
+              "neben — next to",
+              "zwischen — between"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
+            "heading": "Summary: wohin?",
             "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
@@ -3742,7 +3742,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
+            "heading": "Summary: wo?",
             "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "gehen - go when the action means to walk continuously. treten - to enter, to approach, to step on, if walking ends with a break in action.",
+            "text": "gehen — to go, to walk, when the action means continuous walking. treten — to step in, to step up to, to step onto, when the walking ends and the movement stops.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "In the word vor the o is long.",
+          "In the word hinter the h is audible and the e is open.",
+          "In der Stuhl: st is pronounced sht; the h marks a long vowel and is not pronounced.",
+          "In der Strauch: st is pronounced sht.",
+          "In wachsen: ch is pronounced k."
         ]
       },
       {
@@ -3783,12 +3783,12 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Choose the correct conjugation: wohin? → Akkusativ, wo? → Dative",
+            "task": "Choose the correct case: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Choose the correct conjugation: wohin? → Akkusativ, wo? → Dative",
+            "task": "Choose the correct case: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
@@ -3798,11 +3798,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "The teacher comes to the classroom.",
+            "lv": "The teacher comes into the classroom.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "He has a card in his hand.",
+            "lv": "He has a map in his hand.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
@@ -3810,27 +3810,27 @@ const COURSE_LESSON_DATA = {
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "He shows the boys and girls many cities, lands, mountains, lakes and rivers.",
+            "lv": "He shows the schoolboys and schoolgirls many countries, cities, mountains, lakes and rivers.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Then the teacher calls the student.",
+            "lv": "Then the teacher calls on a pupil.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Skolnieks pieiet pie kartes.",
+            "lv": "The pupil steps up to the map.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "He remains standing in front of the card.",
+            "lv": "He stops in front of the map.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "He names and shows the teacher cities, mountains and rivers.",
+            "lv": "He names and shows the teacher the cities, the mountains and the rivers.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "This is how a teacher works in a classroom.",
+            "lv": "This is how the teacher works in the classroom.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3841,7 +3841,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson20",
     "title": "Lesson 20",
     "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, compound nouns",
-    "intro": "Twentieth lecture: house, floors, Dativ/Akkusativ and compound nouns.",
+    "intro": "Lesson twenty: the house, storeys, Dativ/Akkusativ and compound nouns.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
           "das Haus — the house",
-          "das Stockwerk — floor",
-          "die Mauer — the wall",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
-          "die Wohnung — an apartment",
-          "das Vorhaus — hall / corridor",
-          "die Küche — virtuve",
-          "das Dach — jumts",
-          "der Boden — attic / floor / ground",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
-          "der Schornsteinfeger — chimney sweep",
-          "die Stadt — the city",
+          "das Stockwerk — the storey, the floor",
+          "die Mauer — the (outer) wall",
+          "der Stein — the stone",
+          "das Holz — the wood / the firewood",
+          "das Glas — the glass",
+          "aus Glas — made of glass",
+          "die Wohnung — the flat",
+          "das Vorhaus — the entrance hall / the hallway",
+          "die Küche — the kitchen",
+          "das Dach — the roof",
+          "der Boden — the attic / the floor / the ground",
+          "der Keller — the cellar",
+          "der Schornstein — the chimney",
+          "der Schornsteinfeger — the chimney sweep",
+          "die Stadt — the town, the city",
           "leben — to live",
           "tragen — to carry",
-          "bringen — to bring",
-          "stecken — stick / insert",
-          "der Ofen — oven",
-          "anzünden — to ignite",
+          "bringen — to carry / to bring",
+          "stecken — to stick / to put in",
+          "der Ofen — the stove",
+          "anzünden — to light",
           "bald — soon",
-          "brennen — degt",
-          "licht — light",
-          "hell — bright / bright",
-          "die Tür — durvis",
-          "das Fenster — logs",
-          "der Mensch — the human being"
+          "brennen — to burn",
+          "licht — light, bright",
+          "hell — bright / shining",
+          "die Tür — the door",
+          "das Fenster — the window",
+          "der Mensch — the person, the human being"
         ]
       },
       {
         "title": "Grammar",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Traffic words that answer the question wann? in Lectures 19 and 20. — when?, stands with Dative. The dative answers not only to wo? — where?, but also on wann? - when?",
+            "heading": "The dative with wann?",
+            "text": "Prepositions that answer the question wann? — when? in lessons 19 and 20 take the Dativ. The Dativ answers not only wo? — where?, but also wann? — when?.",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — during the day",
+              "in der Nacht — at night",
+              "in dem Sommer / im Sommer — in summer",
+              "in dem Januar / im Januar — in January",
+              "vor drei Tagen — three days ago"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Many prepositions join the article.",
+            "heading": "Preposition + article",
+            "text": "Many prepositions merge with the article.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "If the stem of the verb ends in t, d, m, n, then in the 2nd and 3rd person singular and in the 2nd person plural, an -e- is often inserted between the stem and the ending for better pronunciation.",
+            "heading": "-e- between the stem and the ending",
+            "text": "If the verb stem ends in t, d, m, n, an -e- is often inserted between the stem and the ending in the 2nd and 3rd person singular and the 2nd person plural to make pronunciation easier.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,7 +3942,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
+            "heading": "Compound nouns",
             "text": "Compound nouns usually take the article of the last word.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Forming compound nouns",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "In the verb tragen in the 2nd and 3rd person singular, the stem vowel a takes Umlaut.",
+            "text": "In the verb tragen, the stem vowel a takes an Umlaut in the 2nd and 3rd person singular.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "In the words Stockwerk, Stein, Stadt, stecken: st is pronounced sht.",
+          "In the words der Ofen, der Boden: the o is long.",
+          "sch is pronounced like the English sh: der Schornstein, der Mensch.",
+          "In the words das Haus, das Holz: the h is audible and must be pronounced.",
+          "In the words die Wohnung, wohnen: the h marks a long vowel and is not pronounced.",
+          "In the words die Küche, die Dächer: ch is pronounced as a soft, hissing h-like sound, the German ich-Laut, similar to the h in huge.",
+          "In the word das Vorhaus: v is pronounced like f."
         ]
       },
       {
@@ -3987,87 +3987,87 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Choose the correct case: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
@@ -4077,15 +4077,15 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "What is tall?",
+            "lv": "What is high?",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "How many floors does the house have?",
+            "lv": "How many storeys does the house have?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "Kur ir logi un durvis?",
+            "lv": "Where are windows and doors?",
             "de": "Wo sind Fenster und Türen?"
           },
           {
@@ -4093,7 +4093,7 @@ const COURSE_LESSON_DATA = {
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "What is the door made of?",
+            "lv": "What are the doors made of?",
             "de": "Woraus sind die Türen?"
           },
           {
@@ -4101,15 +4101,15 @@ const COURSE_LESSON_DATA = {
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Where are the ten apartments?",
+            "lv": "Where are there ten flats?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "What is in each apartment?",
+            "lv": "What does each flat have?",
             "de": "Was hat jede Wohnung?"
           },
           {
-            "lv": "Kur ir pagrabs?",
+            "lv": "Where is the cellar?",
             "de": "Wo ist der Keller?"
           },
           {
@@ -4117,11 +4117,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Where are the three chimneys?",
+            "lv": "Where are there three chimneys?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Where does the chimney sweep go?",
+            "lv": "Where does the chimney sweep climb to?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
@@ -4129,15 +4129,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wo steht er?"
           },
           {
-            "lv": "what is he doing",
+            "lv": "What is he doing?",
             "de": "Was tut er?"
           },
           {
-            "lv": "What is the city?",
+            "lv": "What does the town have?",
             "de": "Was hat die Stadt?"
           },
           {
-            "lv": "Where are there many apartments?",
+            "lv": "Where are there many flats?",
             "de": "Wo sind viele Wohnungen?"
           },
           {
@@ -4149,23 +4149,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wer arbeitet?"
           },
           {
-            "lv": "Who needs to work?",
+            "lv": "Who has to work?",
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "What floor do you live on?",
+            "lv": "Which floor do you live on?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Where do you need to carry firewood?",
+            "lv": "Where do you have to carry the wood?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Kurp tu liec malku?",
+            "lv": "Where do you put the wood?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "What are you lighting?",
+            "lv": "What do you light?",
             "de": "Was zündest du an?"
           },
           {
@@ -4180,7 +4180,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson21",
     "title": "Lesson 21",
     "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
-    "intro": "Twenty-first lecture: woher / wohin / wo, von / aus / mit + Dativ.",
+    "intro": "Lesson twenty-one: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
         "title": "Text / Reading",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Names",
+        "title": "Words",
         "items": [
-          "der Holzhauer — woodcutter",
+          "der Holzhauer — the woodcutter",
           "sägen — to saw",
-          "spalten — to split",
-          "die Axt — cirvis",
-          "von — no",
-          "aus — no / iz",
-          "mit — ar",
+          "spalten — to split, to chop",
+          "die Axt — the axe",
+          "von — from, of",
+          "aus — from / out of",
+          "mit — with",
           "helfen — to help",
-          "treten — go / come / take a step",
-          "du trittst — tu ej / tu sper soli",
-          "er tritt — he goes / takes a step",
-          "rufen — saukt",
-          "holen — bring / deliver",
-          "eilen — steigties",
+          "treten — to go / to come / to step",
+          "du trittst — you go / you step",
+          "er tritt — he goes / he steps",
+          "rufen — to call",
+          "holen — to fetch / to bring",
+          "eilen — to hurry",
           "zurück — back",
           "finden — to find",
           "sehen — to see",
-          "du siehst — tu redzi",
+          "du siehst — you see",
           "er sieht — he sees",
-          "fleißig — diligently",
+          "fleißig — diligently, hard",
           "die Scheune — the barn",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — bucket",
-          "die Säge — saw",
-          "das Beil — cirvis"
+          "das Feld — the field",
+          "der Berg — the mountain",
+          "die Brücke — the bridge",
+          "der Hof — the yard, the courtyard",
+          "der Keller — the cellar",
+          "die Küche — the kitchen",
+          "die Milch — the milk",
+          "der Eimer — the bucket",
+          "die Säge — the saw",
+          "das Beil — the hatchet"
         ]
       },
       {
@@ -4251,14 +4251,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "The prepositions mit, von and aus always stand with the Dative.",
+            "text": "The prepositions mit, von and aus always take the Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — with",
+              "von — from, of",
+              "aus — from / out of",
+              "mit dem Mann — with the man",
+              "von dem Felde / vom Felde — from the field",
+              "aus der Küche — out of the kitchen"
             ]
           },
           {
@@ -4267,12 +4267,12 @@ const COURSE_LESSON_DATA = {
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Modern form: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "If a person or object is in a room, place or container and comes out of it, use aus.",
+            "heading": "Woher? — where from?",
+            "text": "If a person or thing is inside a room, place or container and comes out of it, aus is used.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "If a person or object is above a place or on something and moving away from it, von is used.",
+            "text": "If a person or thing is above a place or on something and moves away from it, von is used.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "When talking about the material from which the object is made, use aus.",
+            "heading": "Material",
+            "text": "When talking about the material something is made of, aus is used.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Pronunciation",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "In the word die Axt: x is pronounced ks.",
+          "In the words arbeiten, das Beil, steigen: ei is pronounced like the i in fine.",
+          "In the word die Scheune: eu is pronounced like oy in boy.",
+          "In the word die Brücke: ck is pronounced like a double k."
         ]
       },
       {
@@ -4320,77 +4320,77 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Answer after reading the text.",
+            "task": "Answer according to the reading text.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
@@ -4400,19 +4400,19 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "All the notebooks are in the bag.",
+            "lv": "All the exercise books are in the satchel.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "I take the notebooks out of my bag.",
+            "lv": "I take the exercise books out of the satchel.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "I carry a watch from my pocket.",
+            "lv": "I pull the watch out of my pocket.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "A bucket of milk is in the basement.",
+            "lv": "A bucket of milk is standing in the cellar.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
@@ -4420,39 +4420,39 @@ const COURSE_LESSON_DATA = {
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "I take my hat off my head.",
+            "lv": "I take the cap off my head.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
-            "lv": "The picture hangs on the wall.",
+            "lv": "The picture is hanging on the wall.",
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "The father removes the picture from the wall.",
+            "lv": "The father takes the picture off the wall.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "The sheet music is on the piano.",
+            "lv": "The sheet music is lying on the piano.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "I remove the notes from the piano.",
+            "lv": "I take the sheet music off the piano.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "We come from a friend.",
+            "lv": "We are coming from the friend's.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "We come from a girlfriend.",
+            "lv": "We are coming from the (female) friend's.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "We come from the teacher.",
+            "lv": "We are coming from the teacher's.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "All come from a friend, from a girlfriend, from a teacher.",
+            "lv": "Everyone is coming from the friend's, from the (female) friend's, from the teacher's.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]
