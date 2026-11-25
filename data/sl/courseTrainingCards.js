@@ -2,11 +2,11 @@
 
 window.lesson1TrainingCardsSl = [
   {
-    "front": "Greš z menoj?",
+    "front": "Ali prihajaš?",
     "back": "Kommst du?"
   },
   {
-    "front": "Ja, pridem.",
+    "front": "Da, prihajam.",
     "back": "Ja, ich komme."
   },
   {
@@ -18,117 +18,117 @@ window.lesson1TrainingCardsSl = [
     "back": "Marta singt."
   },
   {
-    "front": "S kom gredo?",
+    "front": "Ali oni gredo?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Ja, gredo.",
+    "front": "Da, gredo.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "S kom stoji?",
+    "front": "Ali on stoji?",
     "back": "Steht er?"
   },
   {
-    "front": "Ja, stoji.",
+    "front": "Da, stoji.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Spremenimo se.",
+    "front": "Gremo.",
     "back": "Wir gehen."
   },
   {
-    "front": "Ali hodiš?",
+    "front": "Ali greste?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Prihaja Albertin marec.",
+    "front": "Albert in Marta prihajata in odhajata.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsSl = [
   {
-    "front": "Kdo posluša?",
+    "front": "Kdo sprašuje?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paula posluša.",
+    "front": "Paul sprašuje.",
     "back": "Paul fragt."
   },
   {
-    "front": "Poslušali so.",
+    "front": "Oni sprašujejo.",
     "back": "Sie fragen."
   },
   {
-    "front": "S Paulasovim odgovorom?",
+    "front": "Ali Paul odgovarja?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Ne, ne odgovarja, posluša.",
+    "front": "Ne, ne odgovarja, sprašuje.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Ali Marija poje s Paulasom?",
+    "front": "Ali Paul in Marie pojeta?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Ne, ne pojejo, ampak štejejo.",
+    "front": "Ne, ne pojeta, računata.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Kaj počneš",
+    "front": "Kaj delaš?",
     "back": "Was tust du?"
   },
   {
-    "front": "Jaz pojem.",
+    "front": "Stojim in pojem.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "O čem govoriš",
+    "front": "Ali rišete?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Da, prihajamo, ampak Maria igra.",
+    "front": "Da, rišemo, ampak Marie se igra.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Kaj počneš",
+    "front": "Kaj delate?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Naše vračilo je odgovorno.",
+    "front": "Prihajamo in odgovarjamo.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Kaj se dogaja",
+    "front": "Kdo gre?",
     "back": "Wer geht?"
   },
   {
-    "front": "Spremenimo se.",
+    "front": "Gremo.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsSl = [
   {
-    "front": "S kom ste računali?",
+    "front": "Ali računaš?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Ne, ne štejem, štejem.",
+    "front": "Ne, ne računam, rišem.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kdo tam stoji?",
+    "front": "Kaj stoji tam?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Obstajajo mize.",
+    "front": "Tam stoji miza.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kdo spi tukaj?",
+    "front": "Kaj leži tukaj?",
     "back": "Was liegt hier?"
   },
   {
@@ -136,7 +136,7 @@ window.lesson3TrainingCardsSl = [
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "S knjigo Plona?",
+    "front": "Ali je knjiga tanka?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -144,122 +144,122 @@ window.lesson3TrainingCardsSl = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Kakšni načrti?",
+    "front": "Kaj je tanko?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "Zvezek je tanek.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Lesene klopi?",
+    "front": "Kakšna je klop?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Klopi nizke.",
+    "front": "Klop je nizka.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Lesene mize?",
+    "front": "Kakšna je miza?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Mize so visoke.",
+    "front": "Miza je visoka.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sąsiuvinis?",
+    "front": "Ali je / leži tam zvezek?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Ja, tam leži prašič.",
+    "front": "Da, tam leži zvezek.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "S Paulino Ateino?",
+    "front": "Ali Paul prihaja?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ne, Paulas ne odgovori, stoji.",
+    "front": "Ne, Paul ne prihaja, stoji.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Kaj je tukaj?",
+    "front": "Kaj visi tukaj?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Tukaj je slika.",
+    "front": "Tukaj visi slika.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Kaj je tam zgoraj?",
+    "front": "Kaj visi tam?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Tam visi trak.",
+    "front": "Tam visi tabla.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsSl = [
   {
-    "front": "Deklica ima pero.",
+    "front": "Deklica vzame peresnik.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Perje ni belo, črno je.",
+    "front": "Peresnik ni bel, črn je.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas ima pero.",
+    "front": "Paul vzame pero.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Kakšno pero?",
+    "front": "Kakšno je pero?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "S konico perja?",
+    "front": "Ali je pero šiljasto?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Ali ima nož?",
+    "front": "Ali vzame nož?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ne, ima pero.",
+    "front": "Ne, vzame pero.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Postavi pero.",
+    "front": "Odloži pero.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Z nožem buka?",
+    "front": "Ali je nož top?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Ne, ostro je.",
+    "front": "Ne, oster je.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Kaj počne punca?",
+    "front": "Kaj dela deklica?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji izhod je tirba.",
+    "front": "Gre ven in dela.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Kaj pokaže Olga?",
+    "front": "Kaj kaže Olga?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga pokaže knjigo.",
+    "front": "Olga kaže knjigo.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Kakšno knjigo?",
+    "front": "Kakšna je knjiga?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -270,94 +270,94 @@ window.lesson4TrainingCardsSl = [
 
 window.lesson5TrainingCardsSl = [
   {
-    "front": "Ką myli oče?",
+    "front": "Koga ljubi oče?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Koga hvali učiteljica?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Kaj počneš",
+    "front": "Kaj vzameš?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Kaj poslušaš",
+    "front": "Koga vprašaš?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Koga graja učitelj?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Nasilnež posluša nasilneža.",
+    "front": "Učitelj vpraša učenca.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Kako učenec odgovori?",
+    "front": "Kako odgovarja učenec?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys odgovarja na blog.",
+    "front": "Učenec odgovarja slabo.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Z mokinė odgovori na blog?",
+    "front": "Ali učenka odgovarja slabo?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ne, mokinė se ne odziva na blog, odziva se na dobrega.",
+    "front": "Ne, učenka ne odgovarja slabo, odgovarja dobro.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Dekle ima pero, pero je nož.",
+    "front": "Deklica vzame peresnik, pero in nož.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji vstavi nož v pero.",
+    "front": "Odloži nož in peresnik.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Videz dekleta je tirba.",
+    "front": "Deklica gre ven in dela.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Kakšen otrok?",
+    "front": "Kakšen je otrok?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Vaika mandagus.",
+    "front": "Otrok je priden.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Očetje so matere, ki imajo rade svoje otroke.",
+    "front": "Oče in mati ljubita otroka.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsSl = [
   {
-    "front": "Paulin svinčnik je pita.",
+    "front": "Paul vzame svinčnik in riše.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Kaj je naredil?",
+    "front": "Kaj riše?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Narisal je vedro.",
+    "front": "Riše vedro.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kdo je napisal kočijo?",
+    "front": "Kdo riše voz?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Deklica nosi rogovje.",
+    "front": "Deklica riše sani.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Koliko igel je tam?",
+    "front": "Koliko igel je tukaj?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -369,168 +369,168 @@ window.lesson6TrainingCardsSl = [
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Imam tri igle.",
+    "front": "Vzamem tri igle.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Dal sem dve igli.",
+    "front": "Odložim dve igli.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Kakšne so plošče kiľiņja peilius?",
+    "front": "Kdo šteje nože in krožnike?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Ima pokrov.",
+    "front": "To je pokrov.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Ta pokrov.",
+    "front": "To so pokrovi.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Ima pero.",
+    "front": "To je pero.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Ima perje.",
+    "front": "To so peresa.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Kaj počnejo mokytojas?",
+    "front": "Kaj dela učitelj?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilė je varen svinčnik.",
+    "front": "Učitelj vzame nož in ošili svinčnik.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Kaj je",
+    "front": "Kaj je to?",
     "back": "Was ist das?"
   },
   {
-    "front": "Ima perje.",
+    "front": "To je peresnik.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Pernato drevo?",
+    "front": "Kakšen je peresnik?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Perje je črno.",
+    "front": "Peresnik je črn.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsSl = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "vprašati",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "odgovoriti",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "hvaliti",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "ljubiti",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "šteti",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "kazati",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "risati",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "računati",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "delati",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "priti",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "iti",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "stati",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "odpreti",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "peti",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "storiti, delati",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "vzeti",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

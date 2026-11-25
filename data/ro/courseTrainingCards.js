@@ -2,11 +2,11 @@
 
 window.lesson1TrainingCardsRo = [
   {
-    "front": "Vii cu mine?",
+    "front": "Vii?",
     "back": "Kommst du?"
   },
   {
-    "front": "Da, vin.",
+    "front": "Da, eu vin.",
     "back": "Ja, ich komme."
   },
   {
@@ -18,7 +18,7 @@ window.lesson1TrainingCardsRo = [
     "back": "Marta singt."
   },
   {
-    "front": "Cu cine merg ei?",
+    "front": "Ei merg?",
     "back": "Gehen sie?"
   },
   {
@@ -26,117 +26,117 @@ window.lesson1TrainingCardsRo = [
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Cu cine stă el?",
+    "front": "El stă în picioare?",
     "back": "Steht er?"
   },
   {
-    "front": "Da, stă în picioare.",
+    "front": "Da, el stă în picioare.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Ne schimbam.",
+    "front": "Noi mergem.",
     "back": "Wir gehen."
   },
   {
-    "front": "Te întâlnești?",
+    "front": "Voi mergeți?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Marșul Albertei vine.",
+    "front": "Albert și Marta vin și pleacă.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsRo = [
   {
-    "front": "Cine ascultă?",
+    "front": "Cine întreabă?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paula ascultă.",
+    "front": "Paul întreabă.",
     "back": "Paul fragt."
   },
   {
-    "front": "Au ascultat.",
+    "front": "Ei întreabă.",
     "back": "Sie fragen."
   },
   {
-    "front": "Cu răspunsul lui Paula?",
+    "front": "Paul răspunde?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nu, el nu răspunde, el ascultă.",
+    "front": "Nu, el nu răspunde, el întreabă.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Cântă Maria cu Paulas?",
+    "front": "Paul și Maria cântă?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nu, ei nu cântă, contează.",
+    "front": "Nu, ei nu cântă, ei socotesc.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ce faci",
+    "front": "Ce faci?",
     "back": "Was tust du?"
   },
   {
-    "front": "Eu cânt.",
+    "front": "Eu stau în picioare și cânt.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Ce vrei sa spui?",
+    "front": "Voi desenați?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Da, venim, dar Maria joacă.",
+    "front": "Da, noi desenăm, dar Maria se joacă.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Ce faci?",
+    "front": "Ce faceți?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Returul nostru este responsabil.",
+    "front": "Noi venim și răspundem.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Ce se întâmplă?",
+    "front": "Cine merge?",
     "back": "Wer geht?"
   },
   {
-    "front": "Ne schimbam.",
+    "front": "Noi mergem.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsRo = [
   {
-    "front": "Cu cine ai contat?",
+    "front": "Tu socotești?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Nu, nu număr, număr.",
+    "front": "Nu, eu nu socotesc, eu desenez.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Cine stă acolo?",
+    "front": "Ce stă acolo?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Sunt mese.",
+    "front": "Acolo stă o masă.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Cine doarme aici?",
+    "front": "Ce se află aici?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Există o carte întinsă aici.",
+    "front": "Aici se află o carte.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Cu cartea plona?",
+    "front": "Cartea este subțire?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -144,102 +144,102 @@ window.lesson3TrainingCardsRo = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Ce plons?",
+    "front": "Ce este subțire?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "Caietul este subțire.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Bănci de lemn?",
+    "front": "Cum este banca?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Bănci joase.",
+    "front": "Banca este joasă.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Mese de lemn?",
+    "front": "Cum este masa?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Mesele sunt înalte.",
+    "front": "Masa este înaltă.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sąsiuvinis?",
+    "front": "Acolo este / se află un caiet?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Da, e un porc întins acolo.",
+    "front": "Da, acolo se află un caiet.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Cu Ateina Paulei?",
+    "front": "Paul vine?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nu, Paulas nu răspunde, el stă în picioare.",
+    "front": "Nu, Paul nu vine, el stă în picioare.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Ce e aici?",
+    "front": "Ce atârnă aici?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Iată poza.",
+    "front": "Aici atârnă un tablou.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Ce e acolo sus?",
+    "front": "Ce atârnă acolo?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Există o panglică atârnată acolo.",
+    "front": "Acolo atârnă o tablă.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsRo = [
   {
-    "front": "Fata are un stilou.",
+    "front": "Fata ia un toc.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Penele nu sunt albe, sunt negre.",
+    "front": "Tocul nu este alb, este negru.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas are o pană.",
+    "front": "Paul ia o peniță.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Ce pană?",
+    "front": "Cum este penița?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Cu vârful unei pene?",
+    "front": "Penița este ascuțită?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Are un cuțit?",
+    "front": "El ia un cuțit?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nu, are o pană.",
+    "front": "Nu, el ia o peniță.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "El pune pana.",
+    "front": "El pune jos penița.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Cu un cuțit buka?",
+    "front": "Cuțitul este tocit?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nu, este ascuțit.",
+    "front": "Nu, este tăios.",
     "back": "Nein, es ist scharf."
   },
   {
@@ -247,7 +247,7 @@ window.lesson4TrainingCardsRo = [
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji iesirea este tirba.",
+    "front": "Ea iese afară și lucrează.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
@@ -255,11 +255,11 @@ window.lesson4TrainingCardsRo = [
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga arată cartea.",
+    "front": "Olga arată o carte.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Ce carte?",
+    "front": "Cum este cartea?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -270,27 +270,27 @@ window.lesson4TrainingCardsRo = [
 
 window.lesson5TrainingCardsRo = [
   {
-    "front": "Ką myli tată?",
+    "front": "Pe cine iubește tatăl?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Pe cine laudă profesoara?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Ce faci?",
+    "front": "Ce iei?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Ce asculti?",
+    "front": "Pe cine întrebi?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Pe cine mustră profesorul?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Bătăușul îl ascultă pe bătăuș.",
+    "front": "Profesorul îl întreabă pe elev.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
@@ -298,70 +298,70 @@ window.lesson5TrainingCardsRo = [
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys răspunde blogului.",
+    "front": "Elevul răspunde prost.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Cu mokinė răspunde blogului?",
+    "front": "Eleva răspunde prost?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nu, mokinė nu răspunde la un blog, ea răspunde la unul bun.",
+    "front": "Nu, eleva nu răspunde prost, ea răspunde bine.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Fata are un stilou, stiloul este un cuțit.",
+    "front": "Fata ia tocul, penița și cuțitul.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji pune cuțitul în pix.",
+    "front": "Ea pune jos cuțitul și tocul.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Aspectul fetei este tirba.",
+    "front": "Fata iese afară și lucrează.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Ce copil?",
+    "front": "Cum este copilul?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Vaika mandagus.",
+    "front": "Copilul este cuminte.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Tații sunt mame care își iubesc copiii.",
+    "front": "Tatăl și mama iubesc copilul.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsRo = [
   {
-    "front": "Creionul Paulei este o plăcintă.",
+    "front": "Paul ia un creion și desenează.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Ce a făcut?",
+    "front": "Ce desenează el?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "A tras o găleată.",
+    "front": "El desenează o găleată.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Cine a scris trăsura?",
+    "front": "Cine desenează o căruță?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Fata poartă coarne.",
+    "front": "Fata desenează o sanie.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Câte ace sunt?",
+    "front": "Câte ace sunt aici?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Sunt șase ace aici.",
+    "front": "Aici sunt șase ace.",
     "back": "Hier sind sechs Nadeln."
   },
   {
@@ -369,168 +369,168 @@ window.lesson6TrainingCardsRo = [
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Am trei ace.",
+    "front": "Eu iau trei ace.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Am dat două ace.",
+    "front": "Eu pun jos două ace.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Care sunt farfuriile de kiľiņja peilius?",
+    "front": "Cine numără cuțitele și farfuriile?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Are capac.",
+    "front": "Acesta este un capac.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Capacul acela.",
+    "front": "Acestea sunt capace.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Are o pană.",
+    "front": "Aceasta este o peniță.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Are pene.",
+    "front": "Acestea sunt penițe.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Ce fac mokytojas?",
+    "front": "Ce face profesorul?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilė este un creion sigur.",
+    "front": "Profesorul ia un cuțit și ascute creionul.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Ce este?",
+    "front": "Ce este asta?",
     "back": "Was ist das?"
   },
   {
-    "front": "Are pene.",
+    "front": "Acesta este un toc.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Un copac cu pene?",
+    "front": "Cum este tocul?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Penele sunt negre.",
+    "front": "Tocul este negru.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsRo = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "a întreba",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "a răspunde",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "a lăuda",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "a iubi",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "a număra",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "a arăta",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "a desena",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "a socoti",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "a lucra",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "a veni",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "a merge",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "a sta în picioare",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "a deschide",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "a cânta",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "a face",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "a lua",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

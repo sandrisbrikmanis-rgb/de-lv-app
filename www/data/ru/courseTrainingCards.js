@@ -2,23 +2,23 @@
 
 window.lesson1TrainingCardsRu = [
   {
-    "front": "Ты пойдешь со мной?",
+    "front": "Ты приходишь?",
     "back": "Kommst du?"
   },
   {
-    "front": "Да, я приду.",
+    "front": "Да, я прихожу.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Кто поет?",
+    "front": "Кто поёт?",
     "back": "Wer singt?"
   },
   {
-    "front": "Марта поет.",
+    "front": "Марта поёт.",
     "back": "Marta singt."
   },
   {
-    "front": "С кем они идут?",
+    "front": "Они идут?",
     "back": "Gehen sie?"
   },
   {
@@ -26,7 +26,7 @@ window.lesson1TrainingCardsRu = [
     "back": "Ja, sie gehen."
   },
   {
-    "front": "С кем он стоит?",
+    "front": "Он стоит?",
     "back": "Steht er?"
   },
   {
@@ -34,42 +34,42 @@ window.lesson1TrainingCardsRu = [
     "back": "Ja, er steht."
   },
   {
-    "front": "Мы меняемся.",
+    "front": "Мы идём.",
     "back": "Wir gehen."
   },
   {
-    "front": "Вы встречаетесь?",
+    "front": "Вы идёте?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Марш Альберты приближается.",
+    "front": "Альберт и Марта приходят и уходят.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsRu = [
   {
-    "front": "Кто слушает?",
+    "front": "Кто спрашивает?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Паула слушает.",
+    "front": "Пауль спрашивает.",
     "back": "Paul fragt."
   },
   {
-    "front": "Они слушали.",
+    "front": "Они спрашивают.",
     "back": "Sie fragen."
   },
   {
-    "front": "С ответом Паулы?",
+    "front": "Пауль отвечает?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Нет, он не отвечает, он слушает.",
+    "front": "Нет, он не отвечает, он спрашивает.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Мария поет с Пауласом?",
+    "front": "Пауль и Мария поют?",
     "back": "Singen Paul und Marie?"
   },
   {
@@ -77,58 +77,58 @@ window.lesson2TrainingCardsRu = [
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Что ты делаешь",
+    "front": "Что ты делаешь?",
     "back": "Was tust du?"
   },
   {
-    "front": "Я пою.",
+    "front": "Я стою и пою.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "О чем ты говоришь?",
+    "front": "Вы рисуете?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Да, мы приходим, но Мария играет.",
+    "front": "Да, мы рисуем, а Мария играет.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Что ты делаешь?",
+    "front": "Что вы делаете?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Наш возврат несет ответственность.",
+    "front": "Мы приходим и отвечаем.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Что происходит?",
+    "front": "Кто идёт?",
     "back": "Wer geht?"
   },
   {
-    "front": "Мы меняемся.",
+    "front": "Мы идём.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsRu = [
   {
-    "front": "С кем ты считался?",
+    "front": "Ты считаешь?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Нет, я не считаю, я считаю.",
+    "front": "Нет, я не считаю, я рисую.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Кто там стоит?",
+    "front": "Что там стоит?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Есть столы.",
+    "front": "Там стоит стол.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Кто здесь спит?",
+    "front": "Что здесь лежит?",
     "back": "Was liegt hier?"
   },
   {
@@ -136,7 +136,7 @@ window.lesson3TrainingCardsRu = [
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "С книжной планой?",
+    "front": "Книга тонкая?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -144,74 +144,74 @@ window.lesson3TrainingCardsRu = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Какие планы?",
+    "front": "Что тонкое?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "Тетрадь тонкая.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Деревянные скамейки?",
+    "front": "Какая скамья?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Скамейки низкие.",
+    "front": "Скамья низкая.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Деревянные столы?",
+    "front": "Какой стол?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Столы высокие.",
+    "front": "Стол высокий.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Десять лет назад?",
+    "front": "Там есть / лежит тетрадь?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Да, там лежит свинья.",
+    "front": "Да, там лежит тетрадь.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "С Атейной Паулы?",
+    "front": "Пауль приходит?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Нет, Паулас не отвечает, он стоит.",
+    "front": "Нет, Пауль не приходит, он стоит.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Что здесь?",
+    "front": "Что здесь висит?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Вот картинка.",
+    "front": "Здесь висит картина.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Что там?",
+    "front": "Что там висит?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Там висит ленточка.",
+    "front": "Там висит доска.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsRu = [
   {
-    "front": "У девочки есть ручка.",
+    "front": "Девочка берёт ручку.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Перья не белые, они черные.",
+    "front": "Ручка не белая, она чёрная.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "У Пауласа есть перо.",
+    "front": "Пауль берёт перо.",
     "back": "Paul nimmt eine Feder."
   },
   {
@@ -219,23 +219,23 @@ window.lesson4TrainingCardsRu = [
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Кончиком пера?",
+    "front": "Перо острое?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "У него есть нож?",
+    "front": "Он берёт нож?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Нет, у него есть перо.",
+    "front": "Нет, он берёт перо.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Он кладет перо.",
+    "front": "Он кладёт перо.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "С ножом-букой?",
+    "front": "Нож тупой?",
     "back": "Ist das Messer stumpf?"
   },
   {
@@ -243,11 +243,11 @@ window.lesson4TrainingCardsRu = [
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Что делает девушка?",
+    "front": "Что делает девочка?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Выход Джи — тирба.",
+    "front": "Она выходит и работает.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
@@ -270,27 +270,27 @@ window.lesson4TrainingCardsRu = [
 
 window.lesson5TrainingCardsRu = [
   {
-    "front": "Ką мыли отец?",
+    "front": "Кого любит отец?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Кого хвалит учительница?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Что ты делаешь?",
+    "front": "Что ты берёшь?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Что ты слушаешь?",
+    "front": "Кого ты спрашиваешь?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Кого ругает учитель?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Хулиган слушает хулигана.",
+    "front": "Учитель спрашивает ученика.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
@@ -298,66 +298,66 @@ window.lesson5TrainingCardsRu = [
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Мокинис отвечает в блоге.",
+    "front": "Ученик отвечает плохо.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "С мокине отвечает в блоге?",
+    "front": "Ученица отвечает плохо?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Нет, Мокине не отвечает на блог, она отвечает на хороший.",
+    "front": "Нет, ученица отвечает не плохо, она отвечает хорошо.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "У девушки есть ручка, ручка — нож.",
+    "front": "Девочка берёт ручку, перо и нож.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Джи кладет нож в ручку.",
+    "front": "Она кладёт нож и ручку.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Внешность девушки тирба.",
+    "front": "Девочка выходит и работает.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Какой ребенок?",
+    "front": "Какой ребёнок?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Вайка мандагус.",
+    "front": "Ребёнок послушный.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Отцы – матери, которые любят своих детей.",
+    "front": "Отец и мать любят ребёнка.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsRu = [
   {
-    "front": "Карандаш Паулы - это пирог.",
+    "front": "Пауль берёт карандаш и рисует.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Что он сделал?",
+    "front": "Что он рисует?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Он вытащил ведро.",
+    "front": "Он рисует ведро.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Кто написал карету?",
+    "front": "Кто рисует телегу?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Девушка носит рога.",
+    "front": "Девочка рисует сани.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Сколько иголок?",
+    "front": "Сколько здесь иголок?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -369,168 +369,168 @@ window.lesson6TrainingCardsRu = [
     "back": "Wieviel Teller?"
   },
   {
-    "front": "У меня три иглы.",
+    "front": "Я беру три иголки.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Я дала две иглы.",
+    "front": "Я кладу две иголки.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Что представляют собой пластинки kiľiņja peilius?",
+    "front": "Кто считает ножи и тарелки?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "У него есть крышка.",
+    "front": "Это крышка.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Эта крышка.",
+    "front": "Это крышки.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "У него есть перо.",
+    "front": "Это перо.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "У него есть перья.",
+    "front": "Это перья.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Что делают мокитоя?",
+    "front": "Что делает учитель?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilė – безопасный карандаш.",
+    "front": "Учитель берёт нож и точит карандаш.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Что это такое?",
+    "front": "Что это?",
     "back": "Was ist das?"
   },
   {
-    "front": "У него есть перья.",
+    "front": "Это ручка.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Пернатое дерево?",
+    "front": "Какая ручка?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Перья черные.",
+    "front": "Ручка чёрная.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsRu = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "спрашивать",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "отвечать",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "хвалить",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "любить",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "считать",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "показывать",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "рисовать",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "вычислять",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "работать",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "приходить",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "идти",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "стоять",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "открывать",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "петь",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "делать",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "брать",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

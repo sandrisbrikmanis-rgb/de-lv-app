@@ -2,535 +2,535 @@
 
 window.lesson1TrainingCardsIt = [
   {
-    "front": "Ar tu ateini?",
+    "front": "Vieni?",
     "back": "Kommst du?"
   },
   {
-    "front": "Taip, aš ateinu.",
+    "front": "Sì, vengo.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Kas dainuoja?",
+    "front": "Chi canta?",
     "back": "Wer singt?"
   },
   {
-    "front": "Marta dainuoja.",
+    "front": "Marta canta.",
     "back": "Marta singt."
   },
   {
-    "front": "Ar jie eina?",
+    "front": "Loro vanno?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Taip, jie eina.",
+    "front": "Sì, loro vanno.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Ar jis stovi?",
+    "front": "Lui sta in piedi?",
     "back": "Steht er?"
   },
   {
-    "front": "Taip, jis stovi.",
+    "front": "Sì, lui sta in piedi.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Mes einame.",
+    "front": "Noi andiamo.",
     "back": "Wir gehen."
   },
   {
-    "front": "Ar jūs einate?",
+    "front": "Andate?",
     "back": "Geht ihr?"
   },
   {
-    "front": "De Mars van Alberta komt eraan.",
+    "front": "Albert e Marta vengono e vanno.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsIt = [
   {
-    "front": "Kas klausia?",
+    "front": "Chi chiede?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paulas klausia.",
+    "front": "Paul chiede.",
     "back": "Paul fragt."
   },
   {
-    "front": "Jie klausia.",
+    "front": "Loro chiedono.",
     "back": "Sie fragen."
   },
   {
-    "front": "Ar Paulas atsako?",
+    "front": "Paul risponde?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Ne, jis neatsako, jis klausia.",
+    "front": "No, lui non risponde, chiede.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Ar Paulas ir Marija dainuoja?",
+    "front": "Paul e Maria cantano?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Ne, jie nedainuoja, jie skaičiuoja.",
+    "front": "No, non cantano, calcolano.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ką tu darai?",
+    "front": "Che cosa fai?",
     "back": "Was tust du?"
   },
   {
-    "front": "Aš stoviu ir dainuoju.",
+    "front": "Sto in piedi e canto.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Ar jūs piešiate?",
+    "front": "Disegnate?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Taip, mes piešiame, bet Marija žaidžia.",
+    "front": "Sì, noi disegniamo, ma Maria gioca.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Ką jūs darote?",
+    "front": "Che cosa fate?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Mes ateiname ir atsakome.",
+    "front": "Veniamo e rispondiamo.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Kas eina?",
+    "front": "Chi va?",
     "back": "Wer geht?"
   },
   {
-    "front": "Mes einame.",
+    "front": "Noi andiamo.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsIt = [
   {
-    "front": "Ar tu skaičiuoji?",
+    "front": "Calcoli?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Ne, aš nesiskaičiuoju, aš piešiu.",
+    "front": "No, non calcolo, disegno.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kas ten stovi?",
+    "front": "Che cosa c'è là?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Ten stovi stalas.",
+    "front": "Là c'è un tavolo.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kas čia guli?",
+    "front": "Che cosa c'è qui?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Čia guli knyga.",
+    "front": "Qui c'è un libro.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Ar knyga plona?",
+    "front": "Il libro è sottile?",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Ne, knyga stora.",
+    "front": "No, il libro è spesso.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Welke plonsen?",
+    "front": "Che cosa è sottile?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "Il quaderno è sottile.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Koks suolas?",
+    "front": "Com'è la panca?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Suolas žemas.",
+    "front": "La panca è bassa.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Koks stalas?",
+    "front": "Com'è il tavolo?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Stalas aukštas.",
+    "front": "Il tavolo è alto.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sąsiuvinis?",
+    "front": "C'è / si trova un quaderno là?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Taip, ten guli sąsiuvinis.",
+    "front": "Sì, là c'è un quaderno.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Ar Paulas ateina?",
+    "front": "Paul viene?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ne, Paulas neateina, jis stovi.",
+    "front": "No, Paul non viene, sta in piedi.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Kas čia kabo?",
+    "front": "Che cosa è appeso qui?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Čia kabo paveikslas.",
+    "front": "Qui è appeso un quadro.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Kas ten kabo?",
+    "front": "Che cosa è appeso là?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Ten kabo lenta.",
+    "front": "Là è appesa una lavagna.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsIt = [
   {
-    "front": "Mergaitė ima plunksnakot.",
+    "front": "La ragazza prende un portapenne.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Plunksnakotis ne baltas, jis juodas.",
+    "front": "Il portapenne non è bianco, è nero.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas heeft een veer.",
+    "front": "Paul prende un pennino.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Kokia plunksna?",
+    "front": "Com'è il pennino?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Ar plunksna smaili?",
+    "front": "Il pennino è appuntito?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Ar jis ima peilį?",
+    "front": "Lui prende un coltello?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ne, jis ima plunksną.",
+    "front": "No, lui prende un pennino.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Jis padeda plunksną.",
+    "front": "Lui posa il pennino.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Ar peilis bukas?",
+    "front": "Il coltello è smussato?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Ne, jis aštrus.",
+    "front": "No, è affilato.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Ką daro mergaitė?",
+    "front": "Che cosa fa la ragazza?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji išeina ir dirba.",
+    "front": "Lei esce e lavora.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Ką rodo Olga?",
+    "front": "Che cosa mostra Olga?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga rodo knygą.",
+    "front": "Olga mostra un libro.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Kokia knyga?",
+    "front": "Com'è il libro?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Knyga maža.",
+    "front": "Il libro è piccolo.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsIt = [
   {
-    "front": "Ką myli tėvas?",
+    "front": "Il padre chi ama?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "La maestra chi loda?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Ką tu imi?",
+    "front": "Che cosa prendi?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Ką tu klausi?",
+    "front": "A chi chiedi?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Il maestro chi rimprovera?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Mokytojas klausia mokinio.",
+    "front": "Il maestro interroga l'alunno.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Kaip mokinys atsako?",
+    "front": "Come risponde l'alunno?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys atsako blogai.",
+    "front": "L'alunno risponde male.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Ar mokinė atsako blogai?",
+    "front": "L'alunna risponde male?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ne, mokinė neatsako blogai, ji atsako gerai.",
+    "front": "No, l'alunna non risponde male, risponde bene.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Mergaitė ima plunksnakotį, plunksną ir peilį.",
+    "front": "La ragazza prende il portapenne, il pennino e il coltello.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji padeda peilį ir plunksnakotį.",
+    "front": "Lei posa il coltello e il portapenne.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Mergaitė išeina ir dirba.",
+    "front": "La ragazza esce e lavora.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Koks vaikas?",
+    "front": "Com'è il bambino?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Vaikas mandagus.",
+    "front": "Il bambino è bravo.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Tėvas ir motina myli vaiką.",
+    "front": "Il padre e la madre amano il bambino.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsIt = [
   {
-    "front": "Paulas ima pieštuką ir piešia.",
+    "front": "Paul prende una matita e disegna.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Ką jis piešia?",
+    "front": "Che cosa disegna?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Jis piešia kibirą.",
+    "front": "Disegna un secchio.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kas piešia vežimą?",
+    "front": "Chi disegna un carro?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Mergaitė piešia roges.",
+    "front": "La ragazza disegna una slitta.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kiek adatų čia?",
+    "front": "Quanti aghi ci sono qui?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Čia yra šešios adatos.",
+    "front": "Qui ci sono sei aghi.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Hoeveel borden?",
+    "front": "Quanti piatti?",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Aš imu tris adatas.",
+    "front": "Prendo tre aghi.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Aš padedu dvi adatas.",
+    "front": "Poso due aghi.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Kas skaičiuoja peilius ir lėkštes?",
+    "front": "Chi conta i coltelli e i piatti?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Tai dangtis.",
+    "front": "Questo è un coperchio.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Tai dangčiai.",
+    "front": "Questi sono coperchi.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Tai plunksna.",
+    "front": "Questo è un pennino.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Tai plunksnos.",
+    "front": "Questi sono pennini.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Ką daro mokytojas?",
+    "front": "Che cosa fa il maestro?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilį ir drožia pieštuką.",
+    "front": "Il maestro prende un coltello e tempera la matita.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Kas tai yra?",
+    "front": "Che cos'è?",
     "back": "Was ist das?"
   },
   {
-    "front": "Tai plunksnakotis.",
+    "front": "Questo è un portapenne.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Koks plunksnakotis?",
+    "front": "Com'è il portapenne?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Plunksnakotis juodas.",
+    "front": "Il portapenne è nero.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsIt = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "chiedere",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "rispondere",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "lodare",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "amare",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "contare",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "mostrare",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "disegnare",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "calcolare",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "lavorare",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "venire",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "andare",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "stare in piedi",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "aprire",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "cantare",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "fare",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "prendere",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

@@ -2,11 +2,11 @@
 
 window.lesson1TrainingCardsPl = [
   {
-    "front": "Idziesz ze mną?",
+    "front": "Czy przychodzisz?",
     "back": "Kommst du?"
   },
   {
-    "front": "Tak, przyjdę.",
+    "front": "Tak, przychodzę.",
     "back": "Ja, ich komme."
   },
   {
@@ -18,125 +18,125 @@ window.lesson1TrainingCardsPl = [
     "back": "Marta singt."
   },
   {
-    "front": "Z kim idą?",
+    "front": "Czy oni idą?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Tak, idą.",
+    "front": "Tak, oni idą.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Z kim on stoi?",
+    "front": "Czy on stoi?",
     "back": "Steht er?"
   },
   {
-    "front": "Tak, stoi.",
+    "front": "Tak, on stoi.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Zmieniamy się.",
+    "front": "My idziemy.",
     "back": "Wir gehen."
   },
   {
-    "front": "Czy chodzisz na randki?",
+    "front": "Czy idziecie?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Zbliża się marzec Alberty.",
+    "front": "Albert i Marta przychodzą i idą.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsPl = [
   {
-    "front": "Kto słucha?",
+    "front": "Kto pyta?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paula słucha.",
+    "front": "Paul pyta.",
     "back": "Paul fragt."
   },
   {
-    "front": "Słuchali.",
+    "front": "Oni pytają.",
     "back": "Sie fragen."
   },
   {
-    "front": "Z odpowiedzią Paulasa?",
+    "front": "Czy Paul odpowiada?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nie, nie odpowiada, słucha.",
+    "front": "Nie, on nie odpowiada, on pyta.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Czy Maria śpiewa z Paulasem?",
+    "front": "Czy Paul i Marie śpiewają?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nie, oni nie śpiewają, oni się liczą.",
+    "front": "Nie, oni nie śpiewają, oni liczą.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Co robisz",
+    "front": "Co robisz?",
     "back": "Was tust du?"
   },
   {
-    "front": "Śpiewam.",
+    "front": "Stoję i śpiewam.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "O czym ty mówisz?",
+    "front": "Czy rysujecie?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Tak, przychodzimy, ale Maria gra.",
+    "front": "Tak, rysujemy, ale Marie się bawi.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Co robisz?",
+    "front": "Co robicie?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Nasz powrót jest odpowiedzialny.",
+    "front": "Przychodzimy i odpowiadamy.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Co się dzieje?",
+    "front": "Kto idzie?",
     "back": "Wer geht?"
   },
   {
-    "front": "Zmieniamy się.",
+    "front": "My idziemy.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsPl = [
   {
-    "front": "Z kim liczyłeś?",
+    "front": "Czy liczysz?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Nie, nie liczę, liczę.",
+    "front": "Nie, nie liczę, rysuję.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kto tam stoi?",
+    "front": "Co tam stoi?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Są stoły.",
+    "front": "Tam stoi stół.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kto tu śpi?",
+    "front": "Co tu leży?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Leży tu książka.",
+    "front": "Tu leży książka.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Z książką plona?",
+    "front": "Czy książka jest cienka?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -144,98 +144,98 @@ window.lesson3TrainingCardsPl = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Jakie plony?",
+    "front": "Co jest cienkie?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plona.",
+    "front": "Zeszyt jest cienki.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Drewniane ławki?",
+    "front": "Jaka jest ławka?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Ławki niskie.",
+    "front": "Ławka jest niska.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Drewniane stoły?",
+    "front": "Jaki jest stół?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Stoły są wysokie.",
+    "front": "Stół jest wysoki.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar dziesięć lat sąsiuvinis?",
+    "front": "Czy tam jest / leży zeszyt?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Tak, leży tam świnia.",
+    "front": "Tak, tam leży zeszyt.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Z Ateiną Pauli?",
+    "front": "Czy Paul przychodzi?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nie, Paulas nie odpowiada, stoi.",
+    "front": "Nie, Paul nie przychodzi, on stoi.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Co tu jest?",
+    "front": "Co tu wisi?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Oto zdjęcie.",
+    "front": "Tu wisi obraz.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Co tam jest?",
+    "front": "Co tam wisi?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Tam wisi wstążka.",
+    "front": "Tam wisi tablica.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsPl = [
   {
-    "front": "Dziewczyna ma długopis.",
+    "front": "Dziewczynka bierze obsadkę.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Pióra nie są białe, są czarne.",
+    "front": "Obsadka nie jest biała, jest czarna.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas ma pióro.",
+    "front": "Paul bierze stalówkę.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Jakie pióro?",
+    "front": "Jaka jest stalówka?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Z czubkiem pióra?",
+    "front": "Czy stalówka jest spiczasta?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Czy on ma nóż?",
+    "front": "Czy on bierze nóż?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nie, on ma pióro.",
+    "front": "Nie, on bierze stalówkę.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Kładzie pióro.",
+    "front": "On odkłada stalówkę.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Z nożem buka?",
+    "front": "Czy nóż jest tępy?",
     "back": "Ist das Messer stumpf?"
   },
   {
@@ -243,11 +243,11 @@ window.lesson4TrainingCardsPl = [
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Co robi dziewczyna?",
+    "front": "Co robi dziewczynka?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Wyjście Ji to tirba.",
+    "front": "Ona wychodzi na zewnątrz i pracuje.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
@@ -259,109 +259,109 @@ window.lesson4TrainingCardsPl = [
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Jaka książka?",
+    "front": "Jaka jest książka?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Książka jest niewielka.",
+    "front": "Książka jest mała.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsPl = [
   {
-    "front": "Ką myli ojciec?",
+    "front": "Kogo kocha ojciec?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Kogo chwali nauczycielka?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Co robisz?",
+    "front": "Co bierzesz?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Czego słuchasz?",
+    "front": "Kogo pytasz?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Kogo gani nauczyciel?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Prześladowca słucha prześladowcy.",
+    "front": "Nauczyciel pyta ucznia.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Jak odpowiada student?",
+    "front": "Jak odpowiada uczeń?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys odpowiada na blogu.",
+    "front": "Uczeń odpowiada źle.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Z mokinė odpowiada na blogu?",
+    "front": "Czy uczennica odpowiada źle?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nie, mokinė nie odpowiada na blogu, odpowiada na dobrym.",
+    "front": "Nie, uczennica nie odpowiada źle, ona odpowiada dobrze.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Dziewczyna ma długopis, pióro jest nożem.",
+    "front": "Dziewczynka bierze obsadkę, stalówkę i nóż.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji wkłada nóż do pióra.",
+    "front": "Ona odkłada nóż i obsadkę.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Wygląd dziewczyny to tirba.",
+    "front": "Dziewczynka wychodzi na zewnątrz i pracuje.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Jaki dzieciak?",
+    "front": "Jakie jest dziecko?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Mandagus Wajki.",
+    "front": "Dziecko jest grzeczne.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Ojcowie to matki, które kochają swoje dzieci.",
+    "front": "Ojciec i matka kochają dziecko.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsPl = [
   {
-    "front": "Ołówek Pauli to ciasto.",
+    "front": "Paul bierze ołówek i rysuje.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Co zrobił?",
+    "front": "Co on rysuje?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Wyciągnął wiadro.",
+    "front": "On rysuje wiadro.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kto napisał powóz?",
+    "front": "Kto rysuje wóz?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Dziewczyna ma na sobie poroże.",
+    "front": "Dziewczynka rysuje sanki.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Ile jest igieł?",
+    "front": "Ile igieł tu jest?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Jest tu sześć igieł.",
+    "front": "Tu jest sześć igieł.",
     "back": "Hier sind sechs Nadeln."
   },
   {
@@ -369,39 +369,39 @@ window.lesson6TrainingCardsPl = [
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Mam trzy igły.",
+    "front": "Biorę trzy igły.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Dałem dwie igły.",
+    "front": "Odkładam dwie igły.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Jakie są talerze kiħinja peilius?",
+    "front": "Kto liczy noże i talerze?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Posiada pokrywkę.",
+    "front": "To jest pokrywka.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Ta pokrywka.",
+    "front": "To są pokrywki.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Ma pióro.",
+    "front": "To jest stalówka.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Ma pióra.",
+    "front": "To są stalówki.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Co robią mokytoja?",
+    "front": "Co robi nauczyciel?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilė to bezpieczny ołówek.",
+    "front": "Nauczyciel bierze nóż i temperuje ołówek.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
@@ -409,144 +409,128 @@ window.lesson6TrainingCardsPl = [
     "back": "Was ist das?"
   },
   {
-    "front": "Ma pióra.",
+    "front": "To jest obsadka.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Pierzaste drzewo?",
+    "front": "Jaka jest obsadka?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Pióra są czarne.",
+    "front": "Obsadka jest czarna.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsPl = [
   {
-    "front": "",
-    "back": "",
     "infinitive": "fragen",
+    "lv": "pytać",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "antworten",
+    "lv": "odpowiadać",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "loben",
+    "lv": "chwalić",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "lieben",
+    "lv": "kochać",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "zählen",
+    "lv": "liczyć",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "pokazywać",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "rysować",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "rachować, liczyć",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "pracować",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "kommen",
+    "lv": "przychodzić",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "gehen",
+    "lv": "iść",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "stehen",
+    "lv": "stać",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "otwierać",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "singen",
+    "lv": "śpiewać",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "tun",
+    "lv": "robić",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "front": "",
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "brać",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

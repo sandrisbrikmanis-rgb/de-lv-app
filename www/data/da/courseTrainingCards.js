@@ -89,7 +89,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Ja, vi tegner, men Marie spiller.",
+    "front": "Ja, vi tegner, men Marie leger.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
@@ -120,11 +120,11 @@ window.lesson3TrainingCardsDa = [
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Hvad står derovre?",
+    "front": "Hvad står derhenne?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Derovre står et bord.",
+    "front": "Derhenne står et bord.",
     "back": "Dort steht ein Tisch."
   },
   {
@@ -148,7 +148,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Was ist dünn?"
   },
   {
-    "front": "Heftet er tyndt.",
+    "front": "Hæftet er tyndt.",
     "back": "Das Heft ist dünn."
   },
   {
@@ -168,11 +168,11 @@ window.lesson3TrainingCardsDa = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ligger der et hæfte?",
+    "front": "Er der / ligger der et hæfte derhenne?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Ja, der ligger et hæfte.",
+    "front": "Ja, derhenne ligger et hæfte.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
@@ -184,7 +184,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Hvad hænger der her?",
+    "front": "Hvad hænger her?",
     "back": "Was hängt hier?"
   },
   {
@@ -192,34 +192,34 @@ window.lesson3TrainingCardsDa = [
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Hvad hænger der?",
+    "front": "Hvad hænger derhenne?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Der hænger en tavle.",
+    "front": "Derhenne hænger en tavle.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsDa = [
   {
-    "front": "Pigen tager en penneholder.",
+    "front": "Pigen tager et penneskaft.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Penneholderen er ikke hvid, den er sort.",
+    "front": "Penneskaftet er ikke hvidt, det er sort.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul tager en fjer.",
+    "front": "Paul tager en pen.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Hvordan er fjeren?",
+    "front": "Hvordan er pennen?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Er fjeren spids?",
+    "front": "Er pennen spids?",
     "back": "Ist die Feder spitz?"
   },
   {
@@ -227,11 +227,11 @@ window.lesson4TrainingCardsDa = [
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nej, han tager en fjer.",
+    "front": "Nej, han tager en pen.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Han lægger fjeren fra sig.",
+    "front": "Han lægger pennen fra sig.",
     "back": "Er legt die Feder hin."
   },
   {
@@ -255,7 +255,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga viser en bog frem.",
+    "front": "Olga viser en bog.",
     "back": "Olga zeigt ein Buch."
   },
   {
@@ -270,11 +270,11 @@ window.lesson4TrainingCardsDa = [
 
 window.lesson5TrainingCardsDa = [
   {
-    "front": "Hvem elsker faren?",
+    "front": "Hvem er det, faren elsker?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Hvem roser læreren?",
+    "front": "Hvem er det, lærerinden roser?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
@@ -286,7 +286,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Wen fragst du?"
   },
   {
-    "front": "Hvem skælder læreren ud?",
+    "front": "Hvem er det, læreren dadler?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
@@ -302,19 +302,19 @@ window.lesson5TrainingCardsDa = [
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Svarer elevinden dårligt?",
+    "front": "Svarer skolepigen dårligt?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nej, eleven svarer ikke dårligt, hun svarer godt.",
+    "front": "Nej, skolepigen svarer ikke dårligt, hun svarer godt.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Pigen tager penneholderen, fjeren og kniven.",
+    "front": "Pigen tager penneskaftet, pennen og kniven.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Hun lægger kniven og penneholderen.",
+    "front": "Hun lægger kniven og penneskaftet fra sig.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -330,7 +330,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Far og mor elsker barnet.",
+    "front": "Faren og moren elsker barnet.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
@@ -357,11 +357,11 @@ window.lesson6TrainingCardsDa = [
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Hvor mange nåle er der?",
+    "front": "Hvor mange nåle er der her?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Der er seks nåle her.",
+    "front": "Her er seks nåle.",
     "back": "Hier sind sechs Nadeln."
   },
   {
@@ -373,11 +373,11 @@ window.lesson6TrainingCardsDa = [
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Jeg lægger to nåle.",
+    "front": "Jeg lægger to nåle fra mig.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Hvem tæller knive og tallerkener?",
+    "front": "Hvem tæller knivene og tallerkenerne?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
@@ -389,11 +389,11 @@ window.lesson6TrainingCardsDa = [
     "back": "Das sind Deckel."
   },
   {
-    "front": "Det er en fjer.",
+    "front": "Det er en pen.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Det er fjer.",
+    "front": "Det er penne.",
     "back": "Das sind Federn."
   },
   {
@@ -409,128 +409,128 @@ window.lesson6TrainingCardsDa = [
     "back": "Was ist das?"
   },
   {
-    "front": "Det er en penneholder.",
+    "front": "Det er et penneskaft.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Hvordan er penneholderen?",
+    "front": "Hvordan er penneskaftet?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Penneholderen er sort.",
+    "front": "Penneskaftet er sort.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsDa = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "spørge",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "svare",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "rose",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "elske",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "tælle",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "vise",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "tegne",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "regne",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "arbejde",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "komme",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "gå",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "stå",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "åbne",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "synge",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "gøre",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "tage",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

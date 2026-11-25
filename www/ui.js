@@ -1316,6 +1316,10 @@ function getExerciseSourceCards(lessonId) {
     if (lang === "is" && typeof lesson7ExerciseCardsIs !== "undefined") {
       return lesson7ExerciseCardsIs;
     }
+    const genericLesson7Deck = window[`lesson7ExerciseCards${lang.charAt(0).toUpperCase()}${lang.slice(1)}`];
+    if (Array.isArray(genericLesson7Deck) && genericLesson7Deck.length) {
+      return genericLesson7Deck;
+    }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
   if (lessonNumber === "8") {
@@ -1854,6 +1858,10 @@ function handleCourseExerciseCardClick(card) {
       return isDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
     }
   } else if (lang !== "lt") {
+    const genericDeck = window[`lesson${lessonNumber}TrainingCards${lang.charAt(0).toUpperCase()}${lang.slice(1)}`];
+    if (Array.isArray(genericDeck) && genericDeck.length) {
+      return genericDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
     const isEt = lang === "et";
     const legacyDecks = {
       lesson1: (isEt && typeof lesson1TrainingCardsEt !== "undefined") ? lesson1TrainingCardsEt : (typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : []),
@@ -2232,11 +2240,11 @@ const lesson1TrainingCards = [
 ];
 const lesson1TrainingCardsEt = [
   {
-    "front": "Kas sina tuled?",
+    "front": "Kas sa tuled?",
     "back": "Kommst du?"
   },
   {
-    "front": "Jah, mina tulen.",
+    "front": "Jah, ma tulen.",
     "back": "Ja, ich komme."
   },
   {
@@ -2248,27 +2256,27 @@ const lesson1TrainingCardsEt = [
     "back": "Marta singt."
   },
   {
-    "front": "Kas nemad lähevad?",
+    "front": "Kas nad lähevad?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Jah, nemad lähevad.",
+    "front": "Jah, nad lähevad.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Kas tema seisab?",
+    "front": "Kas ta seisab?",
     "back": "Steht er?"
   },
   {
-    "front": "Jah, tema seisab.",
+    "front": "Jah, ta seisab.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Meie läheme.",
+    "front": "Me läheme.",
     "back": "Wir gehen."
   },
   {
-    "front": "Kas teie lähete?",
+    "front": "Kas te lähete?",
     "back": "Geht ihr?"
   },
   {
@@ -2303,7 +2311,7 @@ const lesson2TrainingCardsEt = [
     "back": "Paul fragt."
   },
   {
-    "front": "Nemad küsivad.",
+    "front": "Nad küsivad.",
     "back": "Sie fragen."
   },
   {
@@ -2311,7 +2319,7 @@ const lesson2TrainingCardsEt = [
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Ei, tema ei vasta, tema küsib.",
+    "front": "Ei, ta ei vasta, ta küsib.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
@@ -2319,31 +2327,31 @@ const lesson2TrainingCardsEt = [
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Ei, nemad ei laula, nemad arvutavad.",
+    "front": "Ei, nad ei laula, nad arvutavad.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Mida sina teed?",
+    "front": "Mida sa teed?",
     "back": "Was tust du?"
   },
   {
-    "front": "Mina seisan ja laulan.",
+    "front": "Ma seisan ja laulan.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Kas teie joonistate?",
+    "front": "Kas te joonistate?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Jah, meie joonistame, aga Marie mängib.",
+    "front": "Jah, me joonistame, aga Marie mängib.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Mida teie teete?",
+    "front": "Mida te teete?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Meie tuleme ja vastame.",
+    "front": "Me tuleme ja vastame.",
     "back": "Wir kommen und antworten."
   },
   {
@@ -2351,7 +2359,7 @@ const lesson2TrainingCardsEt = [
     "back": "Wer geht?"
   },
   {
-    "front": "Meie läheme.",
+    "front": "Me läheme.",
     "back": "Wir gehen."
   }
 ];
@@ -2382,11 +2390,11 @@ const lesson3TrainingCards = [
 ];
 const lesson3TrainingCardsEt = [
   {
-    "front": "Kas sina arvutad?",
+    "front": "Kas sa arvutad?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Ei, mina ei arvuta, mina joonistan.",
+    "front": "Ei, ma ei arvuta, ma joonistan.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
@@ -2398,11 +2406,11 @@ const lesson3TrainingCardsEt = [
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Mis siin on?",
+    "front": "Mis siin lebab?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Siin on raamat.",
+    "front": "Siin lebab raamat.",
     "back": "Hier liegt ein Buch."
   },
   {
@@ -2438,11 +2446,11 @@ const lesson3TrainingCardsEt = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Kas seal on vihik?",
+    "front": "Kas seal on / lebab vihik?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Jah, seal on vihik.",
+    "front": "Jah, seal lebab vihik.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
@@ -2450,7 +2458,7 @@ const lesson3TrainingCardsEt = [
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ei, Paul ei tule, tema seisab.",
+    "front": "Ei, Paul ei tule, ta seisab.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
@@ -2506,19 +2514,19 @@ const lesson4TrainingCardsEt = [
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Kas sulg on terav?",
+    "front": "Kas sulg on teravaotsaline?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Kas tema võtab noa?",
+    "front": "Kas ta võtab noa?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ei, tema võtab sule.",
+    "front": "Ei, ta võtab sule.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Tema paneb sule maha.",
+    "front": "Ta paneb sule maha.",
     "back": "Er legt die Feder hin."
   },
   {
@@ -2530,15 +2538,15 @@ const lesson4TrainingCardsEt = [
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Mida teeb tüdruk?",
+    "front": "Mida tüdruk teeb?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Tema läheb välja ja töötab.",
+    "front": "Ta läheb välja ja töötab.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Mida näitab Olga?",
+    "front": "Mida Olga näitab?",
     "back": "Was zeigt Olga?"
   },
   {
@@ -2574,23 +2582,23 @@ const lesson5TrainingCards = [
 ];
 const lesson5TrainingCardsEt = [
   {
-    "front": "Keda armastab isa?",
+    "front": "Keda isa armastab?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Keda kiidab õpetajanna?",
+    "front": "Keda õpetajanna kiidab?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Mida sina võtad?",
+    "front": "Mida sa võtad?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Keda sina küsid?",
+    "front": "Kellelt sa küsid?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Keda laidab õpetaja?",
+    "front": "Keda õpetaja laidab?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
@@ -2598,7 +2606,7 @@ const lesson5TrainingCardsEt = [
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Kuidas vastab õpilane?",
+    "front": "Kuidas õpilane vastab?",
     "back": "Wie antwortet der Schüler?"
   },
   {
@@ -2606,11 +2614,11 @@ const lesson5TrainingCardsEt = [
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Kas naisõpilane vastab halvasti?",
+    "front": "Kas koolitüdruk vastab halvasti?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ei, naisõpilane ei vasta halvasti, tema vastab hästi.",
+    "front": "Ei, koolitüdruk ei vasta halvasti, ta vastab hästi.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
@@ -2618,7 +2626,7 @@ const lesson5TrainingCardsEt = [
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Tema paneb noa ja sulepea maha.",
+    "front": "Ta paneb noa ja sulepea maha.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -2667,11 +2675,11 @@ const lesson6TrainingCardsEt = [
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Mida tema joonistab?",
+    "front": "Mida ta joonistab?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Tema joonistab ämbrit.",
+    "front": "Ta joonistab ämbrit.",
     "back": "Er zeichnet einen Eimer."
   },
   {
@@ -2683,7 +2691,7 @@ const lesson6TrainingCardsEt = [
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kui palju nõelu on siin?",
+    "front": "Mitu nõela siin on?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -2691,19 +2699,19 @@ const lesson6TrainingCardsEt = [
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Kui palju taldrikuid?",
+    "front": "Mitu taldrikut?",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Mina võtan kolm nõela.",
+    "front": "Ma võtan kolm nõela.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Mina panen kaks nõela maha.",
+    "front": "Ma panen kaks nõela maha.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Kes loeb nuge ja taldrikuid?",
+    "front": "Kes loendab nuge ja taldrikuid?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
@@ -2723,11 +2731,11 @@ const lesson6TrainingCardsEt = [
     "back": "Das sind Federn."
   },
   {
-    "front": "Mida teeb õpetaja?",
+    "front": "Mida õpetaja teeb?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Õpetaja võtab noa ja teritab pliiatsit.",
+    "front": "Õpetaja võtab noa ja teritab pliiatsi.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {

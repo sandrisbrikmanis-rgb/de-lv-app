@@ -6,7 +6,7 @@ window.lesson1TrainingCardsEs = [
     "back": "Kommst du?"
   },
   {
-    "front": "Sí, ya voy.",
+    "front": "Sí, vengo.",
     "back": "Ja, ich komme."
   },
   {
@@ -18,31 +18,31 @@ window.lesson1TrainingCardsEs = [
     "back": "Marta singt."
   },
   {
-    "front": "¿Se van?",
+    "front": "¿Van ellos?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Sí, se van.",
+    "front": "Sí, ellos van.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "¿Está de pie?",
+    "front": "¿Está él de pie?",
     "back": "Steht er?"
   },
   {
-    "front": "Sí, está de pie.",
+    "front": "Sí, él está de pie.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Nos vamos.",
+    "front": "Nosotros vamos.",
     "back": "Wir gehen."
   },
   {
-    "front": "¿Vais?",
+    "front": "¿Vais vosotros?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert y Marta van y vienen.",
+    "front": "Albert y Marta vienen y van.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
@@ -53,31 +53,31 @@ window.lesson2TrainingCardsEs = [
     "back": "Wer fragt?"
   },
   {
-    "front": "Pablo pregunta.",
+    "front": "Paul pregunta.",
     "back": "Paul fragt."
   },
   {
-    "front": "Preguntan.",
+    "front": "Ellos preguntan.",
     "back": "Sie fragen."
   },
   {
-    "front": "¿Pablo responde?",
+    "front": "¿Responde Paul?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "No, no responde, pregunta.",
+    "front": "No, él no responde, pregunta.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "¿Están cantando Pablo y María?",
+    "front": "¿Cantan Paul y Marie?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "No, no cantan, calculan.",
+    "front": "No, ellos no cantan, hacen cuentas.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "qué estás haciendo",
+    "front": "¿Qué haces?",
     "back": "Was tust du?"
   },
   {
@@ -85,15 +85,15 @@ window.lesson2TrainingCardsEs = [
     "back": "Ich stehe und singe."
   },
   {
-    "front": "¿Dibujan?",
+    "front": "¿Dibujáis?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Sí, dibujamos, pero María juega.",
+    "front": "Sí, dibujamos, pero Marie juega.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "qué están haciendo",
+    "front": "¿Qué hacéis?",
     "back": "Was tut ihr?"
   },
   {
@@ -101,26 +101,26 @@ window.lesson2TrainingCardsEs = [
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "¿Quién se va?",
+    "front": "¿Quién va?",
     "back": "Wer geht?"
   },
   {
-    "front": "Nos vamos.",
+    "front": "Nosotros vamos.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsEs = [
   {
-    "front": "¿Cuentas?",
+    "front": "¿Haces cuentas?",
     "back": "Rechnest du?"
   },
   {
-    "front": "No, no cuento, dibujo.",
+    "front": "No, no hago cuentas, dibujo.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "¿Qué hay ahí?",
+    "front": "¿Qué hay allí?",
     "back": "Was steht dort?"
   },
   {
@@ -136,7 +136,7 @@ window.lesson3TrainingCardsEs = [
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "¿El libro es delgado?",
+    "front": "¿Es delgado el libro?",
     "back": "Ist das Buch dünn?"
   },
   {
@@ -168,7 +168,7 @@ window.lesson3TrainingCardsEs = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "¿Hay allí un cuaderno?",
+    "front": "¿Hay un cuaderno allí?",
     "back": "Liegt dort ein Heft?"
   },
   {
@@ -176,11 +176,11 @@ window.lesson3TrainingCardsEs = [
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "¿Viene Pablo?",
+    "front": "¿Viene Paul?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "No, Pablo no viene, está de pie.",
+    "front": "No, Paul no viene, está de pie.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
@@ -188,22 +188,22 @@ window.lesson3TrainingCardsEs = [
     "back": "Was hängt hier?"
   },
   {
-    "front": "Hay un cuadro colgado aquí.",
+    "front": "Aquí cuelga un cuadro.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "¿Qué cuelga ahí?",
+    "front": "¿Qué cuelga allí?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Hay una pizarra colgada allí.",
+    "front": "Allí cuelga una pizarra.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsEs = [
   {
-    "front": "La niña toma un portaplumas.",
+    "front": "La niña coge un portaplumas.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
@@ -211,31 +211,31 @@ window.lesson4TrainingCardsEs = [
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul toma la pluma.",
+    "front": "Paul coge una plumilla.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "¿Cómo es la pluma?",
+    "front": "¿Cómo es la plumilla?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "¿La pluma es puntiaguda?",
+    "front": "¿Es puntiaguda la plumilla?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "¿Toma un cuchillo?",
+    "front": "¿Coge él un cuchillo?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "No, toma una pluma.",
+    "front": "No, él coge una plumilla.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Deja la pluma.",
+    "front": "Él deja la plumilla.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "¿El cuchillo está desafilado?",
+    "front": "¿Está desafilado el cuchillo?",
     "back": "Ist das Messer stumpf?"
   },
   {
@@ -243,7 +243,7 @@ window.lesson4TrainingCardsEs = [
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "¿Qué está haciendo la chica?",
+    "front": "¿Qué hace la niña?",
     "back": "Was tut das Mädchen?"
   },
   {
@@ -270,39 +270,39 @@ window.lesson4TrainingCardsEs = [
 
 window.lesson5TrainingCardsEs = [
   {
-    "front": "¿A quién ama el padre?",
+    "front": "¿A quién quiere el padre?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "¿A quién elogia la maestra?",
+    "front": "¿A quién elogia la profesora?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "¿Qué tomas?",
+    "front": "¿Qué coges?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "¿A quién le preguntas?",
+    "front": "¿A quién preguntas?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "¿A quién reprende el maestro?",
+    "front": "¿A quién regaña el profesor?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "El profesor le pregunta al alumno.",
+    "front": "El profesor pregunta al alumno.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "¿Cómo responde el estudiante?",
+    "front": "¿Cómo responde el alumno?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "El estudiante responde mal.",
+    "front": "El alumno responde mal.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "¿El estudiante responde mal?",
+    "front": "¿Responde mal la alumna?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
@@ -310,7 +310,7 @@ window.lesson5TrainingCardsEs = [
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "La niña toma el portaplumas, la pluma y el cuchillo.",
+    "front": "La niña coge el portaplumas, la plumilla y el cuchillo.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
@@ -318,7 +318,7 @@ window.lesson5TrainingCardsEs = [
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "La chica sale y trabaja.",
+    "front": "La niña sale y trabaja.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
@@ -326,26 +326,26 @@ window.lesson5TrainingCardsEs = [
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "El niño es bien educado.",
+    "front": "El niño es obediente.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "El padre y la madre aman al niño.",
+    "front": "El padre y la madre quieren al niño.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsEs = [
   {
-    "front": "Paul toma un lápiz y dibuja.",
+    "front": "Paul coge un lápiz y dibuja.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "¿Qué está dibujando?",
+    "front": "¿Qué dibuja él?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Dibuja un balde.",
+    "front": "Él dibuja un cubo.",
     "back": "Er zeichnet einen Eimer."
   },
   {
@@ -357,7 +357,7 @@ window.lesson6TrainingCardsEs = [
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "¿Cuántas agujas hay?",
+    "front": "¿Cuántas agujas hay aquí?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -369,11 +369,11 @@ window.lesson6TrainingCardsEs = [
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Tomo tres agujas.",
+    "front": "Cojo tres agujas.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Coloco dos agujas.",
+    "front": "Dejo dos agujas.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
@@ -381,35 +381,35 @@ window.lesson6TrainingCardsEs = [
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Es una tapa.",
+    "front": "Esto es una tapa.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Estas son las tapas.",
+    "front": "Estas son tapas.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Es una pluma.",
+    "front": "Esto es una plumilla.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Son plumas.",
+    "front": "Estas son plumillas.",
     "back": "Das sind Federn."
   },
   {
-    "front": "¿Qué hace el maestro?",
+    "front": "¿Qué hace el profesor?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "El maestro toma un cuchillo y afila un lápiz.",
+    "front": "El profesor coge un cuchillo y le saca punta al lápiz.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "¿Qué es?",
+    "front": "¿Qué es esto?",
     "back": "Was ist das?"
   },
   {
-    "front": "Es un portaplumas.",
+    "front": "Esto es un portaplumas.",
     "back": "Das ist ein Federhalter."
   },
   {
@@ -446,7 +446,7 @@ window.lesson7ExerciseCardsEs = [
   },
   {
     "infinitive": "lieben",
-    "lv": "amar",
+    "lv": "querer, amar",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
@@ -530,7 +530,7 @@ window.lesson7ExerciseCardsEs = [
   },
   {
     "infinitive": "nehmen",
-    "lv": "tomar",
+    "lv": "coger, tomar",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"

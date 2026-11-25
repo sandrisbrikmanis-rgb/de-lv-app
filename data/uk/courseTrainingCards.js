@@ -84,7 +84,7 @@ window.lesson2TrainingCardsUk = [
     "back": "Was tust du?"
   },
   {
-    "front": "Я стою і співаю.",
+    "front": "Я стою й співаю.",
     "back": "Ich stehe und singe."
   },
   {
@@ -92,7 +92,7 @@ window.lesson2TrainingCardsUk = [
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Так, ми малюємо, а Марі грає.",
+    "front": "Так, ми малюємо, але Марі грається.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
@@ -100,7 +100,7 @@ window.lesson2TrainingCardsUk = [
     "back": "Was tut ihr?"
   },
   {
-    "front": "Ми приходимо і відповідаємо.",
+    "front": "Ми приходимо й відповідаємо.",
     "back": "Wir kommen und antworten."
   },
   {
@@ -135,15 +135,15 @@ window.lesson3TrainingCardsUk = [
     "back": "Was liegt hier?"
   },
   {
-    "front": "Тут лежить книга.",
+    "front": "Тут лежить книжка.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Книга тонка?",
+    "front": "Книжка тонка?",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Ні, книга товста.",
+    "front": "Ні, книжка товста.",
     "back": "Nein, das Buch ist dick."
   },
   {
@@ -171,7 +171,7 @@ window.lesson3TrainingCardsUk = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Чи там лежить зошит?",
+    "front": "Там лежить зошит?",
     "back": "Liegt dort ein Heft?"
   },
   {
@@ -206,11 +206,11 @@ window.lesson3TrainingCardsUk = [
 
 window.lesson4TrainingCardsUk = [
   {
-    "front": "Дівчинка бере ручку.",
+    "front": "Дівчинка бере ручку для пера.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Ручка не біла, вона чорна.",
+    "front": "Ручка для пера не біла, вона чорна.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
@@ -258,15 +258,15 @@ window.lesson4TrainingCardsUk = [
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Ольга показує книгу.",
+    "front": "Ольга показує книжку.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Яка книга?",
+    "front": "Яка книжка?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Книга маленька.",
+    "front": "Книжка маленька.",
     "back": "Das Buch ist klein."
   }
 ];
@@ -277,7 +277,7 @@ window.lesson5TrainingCardsUk = [
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Кого хвалить вчителька?",
+    "front": "Кого хвалить учителька?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
@@ -289,11 +289,11 @@ window.lesson5TrainingCardsUk = [
     "back": "Wen fragst du?"
   },
   {
-    "front": "Кого лає вчитель?",
+    "front": "Кого ганить учитель?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Вчитель питає учня.",
+    "front": "Учитель питає учня.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
@@ -309,15 +309,15 @@ window.lesson5TrainingCardsUk = [
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ні, учениця не відповідає погано, вона відповідає добре.",
+    "front": "Ні, учениця відповідає не погано, вона відповідає добре.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Дівчинка бере ручку, перо і ніж.",
+    "front": "Дівчинка бере ручку для пера, перо й ніж.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Вона кладе ніж і ручку.",
+    "front": "Вона кладе ніж і ручку для пера.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -329,11 +329,11 @@ window.lesson5TrainingCardsUk = [
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Дитина слухняна.",
+    "front": "Дитина чемна.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Батько і мати люблять дитину.",
+    "front": "Батько й мати люблять дитину.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
@@ -356,11 +356,11 @@ window.lesson6TrainingCardsUk = [
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Дівчинка малює санчата.",
+    "front": "Дівчинка малює сани.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Скільки голок тут?",
+    "front": "Скільки тут голок?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
@@ -380,7 +380,7 @@ window.lesson6TrainingCardsUk = [
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Хто рахує ножі й тарілки?",
+    "front": "Хто лічить ножі й тарілки?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
@@ -400,11 +400,11 @@ window.lesson6TrainingCardsUk = [
     "back": "Das sind Federn."
   },
   {
-    "front": "Що робить вчитель?",
+    "front": "Що робить учитель?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Вчитель бере ніж і загострює олівець.",
+    "front": "Учитель бере ніж і загострює олівець.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
@@ -412,15 +412,15 @@ window.lesson6TrainingCardsUk = [
     "back": "Was ist das?"
   },
   {
-    "front": "Це ручка.",
+    "front": "Це ручка для пера.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Яка ручка?",
+    "front": "Яка ручка для пера?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Ручка чорна.",
+    "front": "Ручка для пера чорна.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -456,7 +456,7 @@ window.lesson7ExerciseCardsUk = [
   },
   {
     "infinitive": "zählen",
-    "lv": "рахувати",
+    "lv": "лічити",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
@@ -477,7 +477,7 @@ window.lesson7ExerciseCardsUk = [
   },
   {
     "infinitive": "rechnen",
-    "lv": "обчислювати",
+    "lv": "рахувати",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
@@ -498,7 +498,7 @@ window.lesson7ExerciseCardsUk = [
   },
   {
     "infinitive": "gehen",
-    "lv": "йти",
+    "lv": "іти",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
@@ -512,7 +512,7 @@ window.lesson7ExerciseCardsUk = [
   },
   {
     "infinitive": "öffnen",
-    "lv": "відкривати",
+    "lv": "відчиняти",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"

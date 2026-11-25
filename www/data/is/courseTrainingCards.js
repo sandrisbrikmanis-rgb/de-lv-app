@@ -2,535 +2,535 @@
 
 window.lesson1TrainingCardsIs = [
   {
-    "front": "Kas sina tuled?",
+    "front": "Kemur þú?",
     "back": "Kommst du?"
   },
   {
-    "front": "Jah, mina tulen.",
+    "front": "Já, ég kem.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Kes laulab?",
+    "front": "Hver syngur?",
     "back": "Wer singt?"
   },
   {
-    "front": "Marta laulab.",
+    "front": "Marta syngur.",
     "back": "Marta singt."
   },
   {
-    "front": "Kas nemad lähevad?",
+    "front": "Fara þeir?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Jah, nemad lähevad.",
+    "front": "Já, þeir fara.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Kas tema seisab?",
+    "front": "Stendur hann?",
     "back": "Steht er?"
   },
   {
-    "front": "Jah, tema seisab.",
+    "front": "Já, hann stendur.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Meie läheme.",
+    "front": "Við förum.",
     "back": "Wir gehen."
   },
   {
-    "front": "Kas teie lähete?",
+    "front": "Farið þið?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert ja Marta tulevad ja lähevad.",
+    "front": "Albert og Marta koma og fara.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsIs = [
   {
-    "front": "Kes küsib?",
+    "front": "Hver spyr?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paul küsib.",
+    "front": "Paul spyr.",
     "back": "Paul fragt."
   },
   {
-    "front": "Nemad küsivad.",
+    "front": "Þeir spyrja.",
     "back": "Sie fragen."
   },
   {
-    "front": "Kas Paul vastab?",
+    "front": "Svarar Paul?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Ei, tema ei vasta, tema küsib.",
+    "front": "Nei, hann svarar ekki, hann spyr.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Kas Paul ja Maria laulavad?",
+    "front": "Syngja Paul og María?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Ei, nemad ei laula, nemad arvutavad.",
+    "front": "Nei, þau syngja ekki, þau reikna.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Mida sina teed?",
+    "front": "Hvað gerir þú?",
     "back": "Was tust du?"
   },
   {
-    "front": "Mina seisan ja laulan.",
+    "front": "Ég stend og syng.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Kas teie joonistate?",
+    "front": "Teiknið þið?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Jah, meie joonistame, aga Maria mängib.",
+    "front": "Já, við teiknum, en María leikur sér.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Mida teie teete?",
+    "front": "Hvað gerið þið?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Meie tuleme ja vastame.",
+    "front": "Við komum og svörum.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Kes läheb?",
+    "front": "Hver fer?",
     "back": "Wer geht?"
   },
   {
-    "front": "Meie läheme.",
+    "front": "Við förum.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsIs = [
   {
-    "front": "Kas sina arvutad?",
+    "front": "Reiknar þú?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Ei, mina ei arvuta, mina joonistan.",
+    "front": "Nei, ég reikna ekki, ég teikna.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Mis seal seisab?",
+    "front": "Hvað stendur þarna?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Seal seisab laud.",
+    "front": "Þarna stendur borð.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Mis siin on?",
+    "front": "Hvað liggur hér?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Siin on raamat.",
+    "front": "Hér liggur bók.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Kas raamat on õhuke?",
+    "front": "Er bókin þunn?",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Ei, raamat on paks.",
+    "front": "Nei, bókin er þykk.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Mis on õhuke?",
+    "front": "Hvað er þunnt?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Vihik on õhuke.",
+    "front": "Stílabókin er þunn.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Milline on pink?",
+    "front": "Hvernig er bekkurinn?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Pink on madal.",
+    "front": "Bekkurinn er lágur.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Milline on laud?",
+    "front": "Hvernig er borðið?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Laud on kõrge.",
+    "front": "Borðið er hátt.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Kas seal on vihik?",
+    "front": "Er / liggur stílabók þarna?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Jah, seal on vihik.",
+    "front": "Já, þarna liggur stílabók.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Kas Paul tuleb?",
+    "front": "Kemur Paul?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ei, Paul ei tule, tema seisab.",
+    "front": "Nei, Paul kemur ekki, hann stendur.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Mis siin ripub?",
+    "front": "Hvað hangir hér?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Siin ripub pilt.",
+    "front": "Hér hangir mynd.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Mis seal ripub?",
+    "front": "Hvað hangir þarna?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Seal ripub tahvel.",
+    "front": "Þarna hangir tafla.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsIs = [
   {
-    "front": "Tüdruk võtab sulepea.",
+    "front": "Stúlkan tekur pennaskaft.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Sulepea ei ole valge, see on must.",
+    "front": "Pennaskaftið er ekki hvítt, það er svart.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul võtab sule.",
+    "front": "Paul tekur penna.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Milline on sulg?",
+    "front": "Hvernig er penninn?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Kas sulg on terav?",
+    "front": "Er penninn oddhvass?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Kas tema võtab noa?",
+    "front": "Tekur hann hníf?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ei, tema võtab sule.",
+    "front": "Nei, hann tekur penna.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Tema paneb sule maha.",
+    "front": "Hann leggur pennann frá sér.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Kas nuga on nüri?",
+    "front": "Er hnífurinn bitlaus?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Ei, see on terav.",
+    "front": "Nei, hann er beittur.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Mida teeb tüdruk?",
+    "front": "Hvað gerir stúlkan?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Tema läheb välja ja töötab.",
+    "front": "Hún fer út og vinnur.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Mida näitab Olga?",
+    "front": "Hvað sýnir Olga?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga näitab raamatut.",
+    "front": "Olga sýnir bók.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Milline on raamat?",
+    "front": "Hvernig er bókin?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Raamat on väike.",
+    "front": "Bókin er lítil.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsIs = [
   {
-    "front": "Keda armastab isa?",
+    "front": "Hvern elskar faðirinn?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Keda kiidab õpetajanna?",
+    "front": "Hverjum hrósar kennslukonan?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Mida sina võtad?",
+    "front": "Hvað tekur þú?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Keda sina küsid?",
+    "front": "Hvern spyrð þú?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Keda laidab õpetaja?",
+    "front": "Hvern ávítar kennarinn?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Õpetaja küsib õpilaselt.",
+    "front": "Kennarinn spyr nemandann.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Kuidas vastab õpilane?",
+    "front": "Hvernig svarar nemandinn?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Õpilane vastab halvasti.",
+    "front": "Nemandinn svarar illa.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Kas õpilane (naine) vastab halvasti?",
+    "front": "Svarar skólastúlkan illa?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ei, õpilane (naine) ei vasta halvasti, tema vastab hästi.",
+    "front": "Nei, skólastúlkan svarar ekki illa, hún svarar vel.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Tüdruk võtab sulepea, sule ja noa.",
+    "front": "Stúlkan tekur pennaskaftið, pennann og hnífinn.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Tema paneb noa ja sulepea maha.",
+    "front": "Hún leggur hnífinn og pennaskaftið frá sér.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Tüdruk läheb välja ja töötab.",
+    "front": "Stúlkan fer út og vinnur.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Milline on laps?",
+    "front": "Hvernig er barnið?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Laps on sõnakuulelik.",
+    "front": "Barnið er þægt.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Isa ja ema armastavad last.",
+    "front": "Faðirinn og móðirin elska barnið.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsIs = [
   {
-    "front": "Paul võtab pliiatsi ja joonistab.",
+    "front": "Paul tekur blýant og teiknar.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Mida tema joonistab?",
+    "front": "Hvað teiknar hann?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Tema joonistab ämbrit.",
+    "front": "Hann teiknar fötu.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kes joonistab vankrit?",
+    "front": "Hver teiknar vagn?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Tüdruk joonistab kelku.",
+    "front": "Stúlkan teiknar sleða.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kui palju nõelu on siin?",
+    "front": "Hve margar nálar eru hér?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Siin on kuus nõela.",
+    "front": "Hér eru sex nálar.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Kui palju taldrikuid?",
+    "front": "Hve margir diskar?",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Mina võtan kolm nõela.",
+    "front": "Ég tek þrjár nálar.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Mina panen kaks nõela maha.",
+    "front": "Ég legg tvær nálar frá mér.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Kes loeb nuge ja taldrikuid?",
+    "front": "Hver telur hnífana og diskana?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "See on kaas.",
+    "front": "Þetta er lok.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Need on kaaned.",
+    "front": "Þetta eru lok.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "See on sulg.",
+    "front": "Þetta er penni.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Need on suled.",
+    "front": "Þetta eru pennar.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Mida teeb õpetaja?",
+    "front": "Hvað gerir kennarinn?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Õpetaja võtab noa ja teritab pliiatsit.",
+    "front": "Kennarinn tekur hníf og yddar blýantinn.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Ser du på?",
+    "front": "Hvað er þetta?",
     "back": "Was ist das?"
   },
   {
-    "front": "See on sulepea.",
+    "front": "Þetta er pennaskaft.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Milline on sulepea?",
+    "front": "Hvernig er pennaskaftið?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Sulepea on must.",
+    "front": "Pennaskaftið er svart.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
 window.lesson7ExerciseCardsIs = [
   {
-    "back": "",
     "infinitive": "fragen",
+    "lv": "spyrja",
     "du": "frag! / frage!",
     "ihr": "fragt!",
     "sie": "fragen Sie!"
   },
   {
-    "back": "",
     "infinitive": "antworten",
+    "lv": "svara",
     "du": "antworte!",
     "ihr": "antwortet!",
     "sie": "antworten Sie!"
   },
   {
-    "back": "",
     "infinitive": "loben",
+    "lv": "hrósa",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
   },
   {
-    "back": "",
     "infinitive": "lieben",
+    "lv": "elska",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
     "sie": "lieben Sie!"
   },
   {
-    "back": "",
     "infinitive": "zählen",
+    "lv": "telja",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
     "sie": "zählen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeigen",
+    "lv": "sýna",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
   },
   {
-    "back": "",
     "infinitive": "zeichnen",
+    "lv": "teikna",
     "du": "zeichne!",
     "ihr": "zeichnet!",
     "sie": "zeichnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "rechnen",
+    "lv": "reikna",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "arbeiten",
+    "lv": "vinna",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
   },
   {
-    "back": "",
     "infinitive": "kommen",
+    "lv": "koma",
     "du": "komm! / komme!",
     "ihr": "kommt!",
     "sie": "kommen Sie!"
   },
   {
-    "back": "",
     "infinitive": "gehen",
+    "lv": "fara",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "stehen",
+    "lv": "standa",
     "du": "steh! / stehe!",
     "ihr": "steht!",
     "sie": "stehen Sie!"
   },
   {
-    "back": "",
     "infinitive": "öffnen",
+    "lv": "opna",
     "du": "öffne!",
     "ihr": "öffnet!",
     "sie": "öffnen Sie!"
   },
   {
-    "back": "",
     "infinitive": "singen",
+    "lv": "syngja",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
-    "back": "",
     "infinitive": "tun",
+    "lv": "gera",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
   },
   {
-    "back": "",
     "infinitive": "nehmen",
+    "lv": "taka",
     "du": "nimm!",
     "ihr": "nehmt!",
     "sie": "nehmen Sie!"
