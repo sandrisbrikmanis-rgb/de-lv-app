@@ -2437,8 +2437,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson15": {
     "id": "lesson15",
     "title": "Μάθημα 15",
-    "subtitle": "Sollen, dürfen, essen, φρούτα",
-    "intro": "Μάθημα Δεκαπέντε: ονόματα sollen, dürfen, essen και φρούτων.",
+    "subtitle": "sollen, dürfen, essen, τα φρούτα",
+    "intro": "Δέκατο πέμπτο μάθημα: sollen, dürfen, essen και λέξεις για τα φρούτα.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -2471,48 +2471,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "sollen — pidama (kohustus)",
-          "ich soll — mina pean",
-          "du sollst — sina pead",
-          "er soll — tema peab",
-          "wir sollen — meie peame",
-          "ihr sollt — teie peate",
-          "sie sollen — nemad peavad",
-          "dürfen — tohtima",
-          "ich darf — mina tohin",
-          "du darfst — sina tohid",
-          "er darf — tema tohib",
-          "wir dürfen — meie tohime",
-          "ihr dürft — teie tohite",
-          "sie dürfen — nemad tohivad",
-          "nicht — mitte",
-          "das Messer — nuga",
-          "der Apfel — õun",
-          "die Äpfel — õunad",
-          "schälen — koorima",
-          "entzweischneiden — pooleks lõikama",
-          "die Birne — pirn",
-          "die Birnen — pirnid",
-          "die Pflaume — ploom",
-          "die Pflaumen — ploomid",
-          "die Kirsche — kirss",
-          "die Kirschen — kirsid",
-          "gern — meelsasti",
-          "reif — valminud",
-          "unreif — valmimata",
-          "nehmen — võtma",
-          "ich nehme — mina võtan",
-          "du nimmst — sina võtad",
-          "er nimmt — tema võtab",
-          "essen — sööma",
-          "ich esse — mina söön",
-          "du isst — sina sööd",
-          "er isst — tema sööb",
-          "wir essen — meie sööme",
-          "ihr esst — teie sööte",
-          "sie essen — nemad söövad"
+          "sollen — πρέπει / οφείλω",
+          "ich soll — εγώ πρέπει / οφείλω",
+          "du sollst — εσύ πρέπει / οφείλεις",
+          "er soll — αυτός πρέπει / οφείλει",
+          "wir sollen — εμείς πρέπει / οφείλουμε",
+          "ihr sollt — εσείς πρέπει / οφείλετε",
+          "sie sollen — αυτοί / αυτές πρέπει",
+          "dürfen — έχω το δικαίωμα, μου επιτρέπεται",
+          "ich darf — εγώ έχω το δικαίωμα",
+          "du darfst — εσύ έχεις το δικαίωμα",
+          "er darf — αυτός έχει το δικαίωμα",
+          "wir dürfen — εμείς έχουμε το δικαίωμα",
+          "ihr dürft — εσείς έχετε το δικαίωμα",
+          "sie dürfen — αυτοί / αυτές έχουν το δικαίωμα",
+          "nicht — δεν, όχι",
+          "das Messer — το μαχαίρι",
+          "der Apfel — το μήλο",
+          "die Äpfel — τα μήλα",
+          "schälen — ξεφλουδίζω",
+          "entzweischneiden — κόβω στα δύο",
+          "die Birne — το αχλάδι",
+          "die Birnen — τα αχλάδια",
+          "die Pflaume — το δαμάσκηνο",
+          "die Pflaumen — τα δαμάσκηνα",
+          "die Kirsche — το κεράσι",
+          "die Kirschen — τα κεράσια",
+          "gern — ευχαρίστως",
+          "reif — ώριμος",
+          "unreif — άγουρος",
+          "nehmen — παίρνω",
+          "ich nehme — εγώ παίρνω",
+          "du nimmst — εσύ παίρνεις",
+          "er nimmt — αυτός παίρνει",
+          "essen — τρώω",
+          "ich esse — εγώ τρώω",
+          "du isst — εσύ τρως",
+          "er isst — αυτός τρώει",
+          "wir essen — εμείς τρώμε",
+          "ihr esst — εσείς τρώτε",
+          "sie essen — αυτοί / αυτές τρώνε"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen σημαίνει κρατώ με την έννοια της υποχρέωσης."
+            "text": "Το Sollen σημαίνει πρέπει με την έννοια της υποχρέωσης."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Σύγκριση",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — πρέπει από ανάγκη ή από πεποίθηση",
+              "sollen — πρέπει με την έννοια της υποχρέωσης",
+              "Ich muss lernen. — Πρέπει να μάθω, γιατί είναι αναγκαίο.",
+              "Ich soll lernen. — Πρέπει να μάθω, γιατί είναι υποχρέωσή μου."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "Το ρήμα sollen έχει το ίδιο 1ο και 3ο πρόσωπο ενεστώτα ενικού.",
+            "heading": "Οι τύποι του sollen",
+            "text": "Στο ρήμα sollen το 1ο και το 3ο ενικό πρόσωπο του ενεστώτα είναι ίδια.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Dürfen σημαίνει να επιτρέπεται. Το Dürfen έχει το αρχικό φωνήεν a στον ενικό, αλλά ü στον πληθυντικό.",
+            "text": "Το Dürfen σημαίνει έχω το δικαίωμα, μου επιτρέπεται. Στον ενικό του dürfen το φωνήεν του θέματος είναι a, ενώ στον πληθυντικό ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Το Έσσεν κλίνεται ως εξής.",
+            "text": "Το Essen κλίνεται έτσι.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Εάν χρησιμοποιείται η σύγχρονη ορθογραφία, μπορείτε να γράψετε: du isst, er/sie/es isst, ihr essst."
+            "heading": "Σύγχρονη ορθογραφία",
+            "text": "Με τη σύγχρονη ορθογραφία μπορεί να γράφεται: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "Στο σύνθετο ρήμα entzweischneiden, η έμφαση είναι στο πρόθεμα entzweí-, επομένως το πρόθεμα διαχωρίζεται στον ενεστώτα και βρίσκεται στο τέλος της πρότασης.",
+            "text": "Στο σύνθετο ρήμα entzweischneiden ο τόνος πέφτει στο πρόθεμα entzweí-, γι’ αυτό στον ενεστώτα το πρόθεμα χωρίζεται και μπαίνει στο τέλος της πρότασης.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Κόβω το μήλο στα δύο."
             ]
           }
         ]
@@ -2583,43 +2583,43 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "Στις λέξεις Äpfel και schälen το ä προφέρεται σαν κλειστό ε.",
+          "Στη λέξη Äpfel το ä προφέρεται σύντομο, γιατί μετά το φωνήεν ακολουθούν δύο σύμφωνα.",
+          "Στη λέξη schälen το ä προφέρεται μακρύ, γιατί μετά το φωνήεν ακολουθεί μόνο ένα σύμφωνο.",
+          "Στη λέξη gern το e είναι σύντομο και ανοιχτό.",
+          "Θυμήσου: στα γερμανικά η δίφθογγος ei προφέρεται άι: reif, unreif."
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ποιος είναι υγιής, ποιος μπορεί να εργαστεί • ",
+            "lv": "Ποιος είναι υγιής, ποιος έχει το δικαίωμα να δουλεύει;",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Ο Φραντς είναι υγιής, μπορεί να δουλέψει.",
+            "lv": "Ο Franz είναι υγιής, έχει το δικαίωμα να δουλεύει.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Μπορεί ο παππούς να δουλέψει • ",
+            "lv": "Έχει ο παππούς το δικαίωμα να δουλεύει;",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Όχι, ο παππούς δεν μπορεί να δουλέψει γιατί είναι άρρωστος.",
+            "lv": "Όχι, ο παππούς δεν έχει το δικαίωμα να δουλεύει, γιατί είναι άρρωστος.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Μαμά, μπορώ να φάω τα δαμάσκηνα • ",
+            "lv": "Μαμά, έχω το δικαίωμα να φάω τα δαμάσκηνα;",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Όχι, δεν χρειάζεται να φας τα δαμάσκηνα, είναι άγουρα.",
+            "lv": "Όχι, τα δαμάσκηνα δεν πρέπει να τα φας, είναι άγουρα.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Τρως μήλο ή αχλάδι • ",
+            "lv": "Τρως ένα μήλο ή ένα αχλάδι;",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
@@ -2627,7 +2627,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Πώς έχει η γεύση ενός αχλαδιού • ",
+            "lv": "Τι γεύση έχει το αχλάδι;",
             "de": "Wie mundet die Birne?"
           },
           {
@@ -2635,27 +2635,27 @@ const COURSE_LESSON_DATA = {
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Ποιος χρειάζεται να σπουδάσει • ",
+            "lv": "Ποιος πρέπει να μάθει;",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Ο μαθητής πρέπει να μελετήσει.",
+            "lv": "Ο μαθητής πρέπει να μάθει.",
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "Θέλει να προχωρήσει • ",
+            "lv": "Θέλει να προοδεύσει;",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Ναι, θέλει να προχωρήσει.",
+            "lv": "Ναι, θέλει να προοδεύσει.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Μπορεί ένα παιδί να πάρει ένα μαχαίρι • ",
+            "lv": "Έχει το παιδί το δικαίωμα να πάρει το μαχαίρι;",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Το παιδί δεν χρειάζεται να πάρει το μαχαίρι γιατί το μαχαίρι είναι κοφτερό.",
+            "lv": "Το παιδί δεν πρέπει να πάρει το μαχαίρι, γιατί το μαχαίρι είναι κοφτερό.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2665,8 +2665,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson16": {
     "id": "lesson16",
     "title": "Μάθημα 16",
-    "subtitle": "Dative, geben, sich nähern",
-    "intro": "Δέκατο μάθημα: δοτικές, geben, sich nähern και δοτικές ασκήσεις.",
+    "subtitle": "Δοτική, geben, sich nähern",
+    "intro": "Δέκατο έκτο μάθημα: η δοτική, geben, sich nähern και ασκήσεις στη δοτική.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -2692,53 +2692,53 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "wem — kellele?",
-          "schenken — kinkima",
-          "dem Sohne — pojale",
-          "den Söhnen — poegadele",
-          "sich nähern — lähenema",
-          "ich nähere mich — mina lähenen",
-          "du näherst dich — sina lähened",
-          "geben — andma",
-          "ich gebe — mina annan",
-          "du gibst — sina annad",
-          "er gibt — tema annab",
-          "die Magd — teenijatüdruk",
-          "Brot — leib",
-          "Milch — piim",
-          "gehorchen — kuuletuma",
-          "der Knecht — sulane",
-          "gehören — kuuluma",
-          "das Feld — põld",
-          "die Felder — põllud",
-          "die Wiese — niit (heinamaa)",
-          "die Wiesen — niidud",
-          "der Wald — mets",
-          "die Wälder — metsad",
-          "der Bauer — talupoeg",
-          "die Bäuerin — talunaine",
-          "folgen — järgnema",
-          "der Jäger — jahimees",
-          "treu — ustav"
+          "wem — σε ποιον;",
+          "schenken — χαρίζω",
+          "dem Sohne — στον γιο",
+          "den Söhnen — στους γιους",
+          "sich nähern — πλησιάζω",
+          "ich nähere mich — εγώ πλησιάζω",
+          "du näherst dich — εσύ πλησιάζεις",
+          "geben — δίνω",
+          "ich gebe — εγώ δίνω",
+          "du gibst — εσύ δίνεις",
+          "er gibt — αυτός δίνει",
+          "die Magd — η υπηρέτρια",
+          "Brot — ψωμί",
+          "Milch — γάλα",
+          "gehorchen — υπακούω",
+          "der Knecht — ο υπηρέτης",
+          "gehören — ανήκω",
+          "das Feld — το χωράφι",
+          "die Felder — τα χωράφια",
+          "die Wiese — το λιβάδι",
+          "die Wiesen — τα λιβάδια",
+          "der Wald — το δάσος",
+          "die Wälder — τα δάση",
+          "der Bauer — ο αγρότης",
+          "die Bäuerin — η αγρότισσα",
+          "folgen — ακολουθώ",
+          "der Jäger — ο κυνηγός",
+          "treu — πιστός"
         ]
       },
       {
         "title": "Γραμματική",
         "items": [
           {
-            "heading": "Dativs",
-            "text": "Η δοτική απαντά στην ερώτηση: εμείς • — σε ποιον • "
+            "heading": "Δοτική",
+            "text": "Η δοτική απαντά στην ερώτηση: wem? — σε ποιον;"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Ενικός",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Αρσενικό",
+                "Θηλυκό",
+                "Ουδέτερο"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Πληθυντικός",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Αρσενικό",
+                "Θηλυκό",
+                "Ουδέτερο"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "Τα αρσενικά και ουδέτερα ουσιαστικά μπορούν να τελειώνουν σε -e στη δοτική ενικού. Σήμερα, αυτή η κατάληξη συχνά παραλείπεται.",
+            "heading": "Το -e της δοτικής",
+            "text": "Τα αρσενικά και ουδέτερα ουσιαστικά μπορούν να παίρνουν στη δοτική του ενικού την κατάληξη -e. Σήμερα αυτή η κατάληξη συχνά παραλείπεται.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Τα θηλυκά ουσιαστικά δεν μπορούν να τελειώνουν στη δοτική ενικού.",
+            "heading": "Το θηλυκό στη δοτική",
+            "text": "Τα θηλυκά ουσιαστικά δεν παίρνουν κατάληξη στη δοτική του ενικού.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Το αόριστο άρθρο στη δοτική",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "Στη δοτική πληθυντικού, το άρθρο και το ουσιαστικό συχνά τελειώνουν σε -n.",
+            "heading": "Η δοτική του πληθυντικού",
+            "text": "Στη δοτική του πληθυντικού το άρθρο και το ουσιαστικό παίρνουν συχνά την κατάληξη -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Εάν ο πληθυντικός τελειώνει ήδη σε -n, δεν προστίθεται άλλο -n.",
+            "heading": "Αν ο πληθυντικός τελειώνει ήδη σε -n",
+            "text": "Αν ο πληθυντικός τελειώνει ήδη σε -n, δεν προστίθεται δεύτερο -n.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "Στο ρήμα geben, το e αλλάζει σε i στο 2ο και 3ο ενικό πρόσωπο.",
+            "text": "Στο ρήμα geben το e γίνεται i στο 2ο και 3ο ενικό πρόσωπο.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Ανακλαστικό ρήμα: sich nähern — πλησιάζω.",
+            "text": "Αυτοπαθές ρήμα: sich nähern — πλησιάζω.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,127 +2857,127 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Πληθυντικός με Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "Λέξεις που χρησιμοποιούνται συχνά χωρίς το άρθρο: die Milch, das Brot."
+            "heading": "Χωρίς άρθρο",
+            "text": "Λέξεις που συχνά χρησιμοποιούνται χωρίς άρθρο: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Προφορά",
         "items": [
-          "Vārdos wem, dem, den, der — Sõnades wem, dem, den, der on e pikk ja kitsas.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie tähistab pikka ii-häälikut: die Wiese."
+          "Στις λέξεις wem, dem, den, der — το e είναι μακρύ και κλειστό.",
+          "Στη λέξη gehorchen το h ακούγεται: ge-hor-chen.",
+          "die Wälder: το ä προφέρεται σαν κλειστό σύντομο ε.",
+          "die Bäuerinnen: το äu προφέρεται όι.",
+          "Το ie δείχνει το μακρύ ι: die Wiese."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική/αιτιατική ανάλογα με το νόημα της πρότασης.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική/αιτιατική ανάλογα με το νόημα της πρότασης.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική/αιτιατική ανάλογα με το νόημα της πρότασης.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική/αιτιατική ανάλογα με το νόημα της πρότασης.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική/αιτιατική ανάλογα με το νόημα της πρότασης.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική/αιτιατική ανάλογα με το νόημα της πρότασης.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Pane õige artikkel daativis.",
+            "task": "Βάλε το σωστό άρθρο σε δοτική.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Muuda mitmusesse.",
+            "task": "Μετάτρεψε στον πληθυντικό.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Muuda mitmusesse.",
+            "task": "Μετάτρεψε στον πληθυντικό.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ποιος καλεί ο πατέρας • ",
+            "lv": "Ποιον φωνάζει ο πατέρας;",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Φωνάζει τον γιο και την κόρη του.",
+            "lv": "Φωνάζει τον γιο και την κόρη.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Σε ποιον ανήκει αυτό το δάσος • ",
+            "lv": "Σε ποιον ανήκει αυτό το δάσος;",
             "de": "Wem gehört dieser Wald?"
           },
           {
@@ -2985,15 +2985,15 @@ const COURSE_LESSON_DATA = {
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Σε ποιον υπακούει ο σκύλος • ",
+            "lv": "Σε ποιον υπακούει ο σκύλος;",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Ο σκύλος υπακούει στους υπηρέτες και τις υπηρέτριες.",
+            "lv": "Ο σκύλος υπακούει στους υπηρέτες και στις υπηρέτριες.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
-            "lv": "Πόσα σκυλιά έχει ο κυνηγός • ",
+            "lv": "Πόσα σκυλιά έχει ο κυνηγός;",
             "de": "Wieviel Hunde hat der Jäger?"
           },
           {
@@ -3001,7 +3001,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Jäger hat fünf Hunde."
           },
           {
-            "lv": "Πώς είναι ο σκύλος • ",
+            "lv": "Πώς είναι ο σκύλος;",
             "de": "Wie ist der Hund?"
           },
           {
@@ -3009,7 +3009,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Hund ist treu."
           },
           {
-            "lv": "Πώς είναι τα σκυλιά • ",
+            "lv": "Πώς είναι τα σκυλιά;",
             "de": "Wie sind die Hunde?"
           },
           {
@@ -3017,11 +3017,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Ποιος προσεγγίζει τους μαθητές • ",
+            "lv": "Ποιος πλησιάζει τους μαθητές και τις μαθήτριες;",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Ο δάσκαλος πλησιάζει τους μαθητές.",
+            "lv": "Ο δάσκαλος πλησιάζει τους μαθητές και τις μαθήτριες.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3031,8 +3031,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson17": {
     "id": "lesson17",
     "title": "Μάθημα 17",
-    "subtitle": "Mit + Dative, womit / mit wem, ρήματα με Umlaut",
-    "intro": "Μάθημα Δεκαεπτά: mit + Dativ, womit / mit wem και Ρήματα με Umlaut.",
+    "subtitle": "mit + Dativ, womit / mit wem, ρήματα με Umlaut",
+    "intro": "Δέκατο έβδομο μάθημα: mit + Dativ, womit / mit wem και ρήματα με Umlaut.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "der Spaten — labidas",
-          "die Grube — auk",
-          "graben — kaevama",
-          "womit — millega?",
-          "der Ball — pall",
-          "werfen — viskama",
-          "fangen — püüdma",
-          "auffangen — kinni püüdma",
-          "wieder — jälle",
-          "der Schuldiener — kooliteenija",
-          "der Besen — luud",
-          "fegen — pühkima",
-          "die Diele — põrand",
-          "der Lappen — lapp",
-          "wischen — pühkima (lapiga)",
-          "abwischen — ära pühkima",
-          "helfen — aitama",
-          "danken — tänama",
-          "der Freund — sõber",
-          "die Freundin — sõbratar",
-          "die Freundinnen — sõbratarid",
-          "mit — koos, -ga",
-          "mit wem — kellega?",
-          "der Staub — tolm",
-          "der Bruder — vend",
-          "die Schwester — õde",
-          "die Dienerin — teenijanna"
+          "der Spaten — το φτυάρι",
+          "die Grube — ο λάκκος",
+          "graben — σκάβω",
+          "womit — με τι;",
+          "der Ball — η μπάλα",
+          "werfen — ρίχνω, πετώ",
+          "fangen — πιάνω",
+          "auffangen — πιάνω / πιάνω στον αέρα",
+          "wieder — πάλι, ξανά",
+          "der Schuldiener — ο επιστάτης του σχολείου",
+          "der Besen — η σκούπα",
+          "fegen — σκουπίζω με σκούπα",
+          "die Diele — το πάτωμα",
+          "der Lappen — το πανί / το κουρέλι",
+          "wischen — σφουγγίζω / καθαρίζω",
+          "abwischen — σκουπίζω, σβήνω με πανί",
+          "helfen — βοηθώ",
+          "danken — ευχαριστώ",
+          "der Freund — ο φίλος",
+          "die Freundin — η φίλη",
+          "die Freundinnen — οι φίλες",
+          "mit — με",
+          "mit wem — με ποιον;",
+          "der Staub — η σκόνη",
+          "der Bruder — ο αδελφός",
+          "die Schwester — η αδελφή",
+          "die Dienerin — η υπηρέτρια"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Το συνδετικό mit απαιτεί πάντα τη δοτική. Στα εσθονικά: mit = με / -ga."
+            "text": "Η πρόθεση mit συντάσσεται πάντα με δοτική. Στα ελληνικά: mit = με."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Στα γερμανικά, η ερώτηση εκφράζεται ως \"με ποιον/τι • \" δύο τρόποι: τι είμαστε • — των προσώπων, γουιτ • — για πράγματα/αντικείμενα.",
+            "text": "Στα γερμανικά η ερώτηση «με ποιον;» ή «με τι;» εκφράζεται με δύο τρόπους: mit wem? — για πρόσωπα, womit? — για πράγματα/αντικείμενα.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — Με ποιον μιλάει ο αδελφός;",
+              "Womit gräbt der Knabe die Grube? — Με τι σκάβει το αγόρι τον λάκκο;"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Τα ρήματα graben, fangen, auffangen έχουν Umlaut στο 2ο και 3ο ενικό πρόσωπο.",
+            "text": "Τα ρήματα graben, fangen, auffangen παίρνουν Umlaut στο 2ο και 3ο ενικό πρόσωπο.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "Στα ρήματα helfen και werfen, το στέλεχος e γίνεται i στο 2ο και 3ο ενικό πρόσωπο.",
+            "text": "Στα ρήματα helfen και werfen το e του θέματος γίνεται i στο 2ο και 3ο ενικό πρόσωπο.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Τα σύνθετα ρήματα auffangen και abwischen έχουν τον τόνο στο πρόθεμα. Επομένως, το πρόθεμα χωρίζεται στον ενεστώτα και βρίσκεται στο τέλος της πρότασης.",
+            "heading": "Χωριστά προθέματα",
+            "text": "Στα σύνθετα ρήματα auffangen και abwischen ο τόνος πέφτει στο πρόθεμα. Γι’ αυτό στον ενεστώτα το πρόθεμα χωρίζεται και μπαίνει στο τέλος της πρότασης.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Το Fegen και το wischen σημαίνουν και τα δύο σκούπισμα, αλλά η χρήση διαφέρει.",
+            "text": "Τα fegen και wischen σημαίνουν και τα δύο «σκουπίζω», αλλά η χρήση τους διαφέρει.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — σκουπίζω με σκούπα",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — σκουπίζω με πανί, με κουρέλι, ξεσκονίζω",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,58 +3170,58 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "Στη λέξη werfen το πρώτο e είναι ανοιχτό: werfen.",
+          "Στη λέξη wieder το e είναι ανοιχτό: wieder.",
+          "Στις λέξεις wieder και die Diele το ie δείχνει το μακρύ ι: wieder, die Diele.",
+          "Στη λέξη der Spaten το sp προφέρεται σαν «σπ» με παχύ σ: der Spaten."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Vasta ainsuses, seejärel mitmuses.",
-            "task2": "Nüüd vasta mitmuses.",
+            "task": "Απάντησε στον ενικό και μετά στον πληθυντικό.",
+            "task2": "Τώρα απάντησε στον πληθυντικό.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Vasta ainsuses, seejärel mitmuses.",
-            "task2": "Nüüd vasta mitmuses.",
+            "task": "Απάντησε στον ενικό και μετά στον πληθυντικό.",
+            "task2": "Τώρα απάντησε στον πληθυντικό.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Vasta ainsuses, seejärel mitmuses.",
-            "task2": "Nüüd vasta mitmuses.",
+            "task": "Απάντησε στον ενικό και μετά στον πληθυντικό.",
+            "task2": "Τώρα απάντησε στον πληθυντικό.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Vasta ainsuses, seejärel mitmuses.",
-            "task2": "Nüüd vasta mitmuses.",
+            "task": "Απάντησε στον ενικό και μετά στον πληθυντικό.",
+            "task2": "Τώρα απάντησε στον πληθυντικό.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Vasta ainsuses, seejärel mitmuses.",
-            "task2": "Nüüd vasta mitmuses.",
+            "task": "Απάντησε στον ενικό και μετά στον πληθυντικό.",
+            "task2": "Τώρα απάντησε στον πληθυντικό.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Τι είναι πιο φαρδύ, η πόρτα ή το παράθυρο • ",
+            "lv": "Τι είναι πιο φαρδύ, η πόρτα ή το παράθυρο;",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
@@ -3229,7 +3229,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Τι σκουπίζει το κορίτσι • ",
+            "lv": "Τι σκουπίζει το κορίτσι;",
             "de": "Was wischt das Mädchen ab?"
           },
           {
@@ -3237,11 +3237,11 @@ const COURSE_LESSON_DATA = {
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "Με τι σκουπίζει τη σκόνη το κορίτσι • ",
+            "lv": "Με τι σκουπίζει το κορίτσι τη σκόνη;",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "Σε ποιον μιλάει το κορίτσι • ",
+            "lv": "Με ποιον μιλάει το κορίτσι;",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
@@ -3249,15 +3249,15 @@ const COURSE_LESSON_DATA = {
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Μιλάει σε φίλο • ",
+            "lv": "Μιλάει με τον φίλο;",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Όχι, μιλάει με φίλους.",
+            "lv": "Όχι, μιλάει με τους φίλους.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Ποιον βοηθάει το αγόρι • ",
+            "lv": "Ποιον βοηθάει το αγόρι;",
             "de": "Wem hilft der Knabe?"
           },
           {
@@ -3265,59 +3265,59 @@ const COURSE_LESSON_DATA = {
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Τι χρησιμοποιεί για να κόψει το χαρτί στη μέση • ",
+            "lv": "Με τι κόβει το χαρτί στα δύο;",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Κόβει το χαρτί στη μέση με το ψαλίδι.",
+            "lv": "Κόβει το χαρτί στα δύο με το ψαλίδι.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Με τι ζωγραφίζει ο αδερφός • ",
+            "lv": "Με τι ζωγραφίζει ο αδελφός;",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Ζωγραφίζει με μολύβι και κιμωλία.",
+            "lv": "Ζωγραφίζει με το μολύβι και με την κιμωλία.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "Με τι κρατάς ένα φτυάρι • ",
+            "lv": "Με τι κρατάς το φτυάρι;",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "Κρατώ το φτυάρι με το χέρι μου.",
+            "lv": "Κρατάω το φτυάρι με το χέρι.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "Με τι δουλεύουμε • ",
+            "lv": "Με τι δουλεύουμε;",
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Δουλεύουμε με τα χέρια μας.",
+            "lv": "Δουλεύουμε με τα χέρια.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "Τι βλέπουμε • ",
+            "lv": "Με τι βλέπουμε;",
             "de": "Womit sehen wir?"
           },
           {
-            "lv": "Βλέπουμε με τα μάτια μας.",
+            "lv": "Βλέπουμε με τα μάτια.",
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Με τι ακούμε • ",
+            "lv": "Με τι ακούμε;",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Ακούμε με τα αυτιά μας.",
+            "lv": "Ακούμε με τα αυτιά.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "Με ποιον πάει ο αδερφός • ",
+            "lv": "Με ποιον πηγαίνει ο αδελφός;",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Ο αδερφός πάει με τον πατέρα, τη μητέρα, τον δάσκαλο, τον θείο, τη θεία, τον ξάδερφο (αρσενικό), τον ξάδερφο (θηλυκό).",
+            "lv": "Ο αδελφός πηγαίνει με τον πατέρα, με τη μητέρα, με τον δάσκαλο, με τον θείο, με τη θεία, με τον ξάδελφο, με την ξαδέλφη.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3327,7 +3327,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson18": {
     "id": "lesson18",
     "title": "Μάθημα 18",
-    "subtitle": "Wohin / wo, Akkusativ ή Dativ με / in / auf",
+    "subtitle": "wohin / wo, Akkusativ ή Dativ με an / in / auf",
     "intro": "Δέκατο όγδοο μάθημα: wohin / wo, Akkusativ ή Dativ με an / in / auf.",
     "sections": [
       {
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "wohin — kuhu?",
-          "wo — kus?",
-          "tragen — kandma",
-          "ich trage — mina kannan",
-          "du trägst — sina kannad",
-          "er/sie/es trägt — tema kannab",
-          "der Korb — korv",
-          "die Körbe — korvid",
-          "das Körbchen — korvike",
-          "stellen — panema (püsti)",
-          "legen — panema (pikali)",
-          "das Wasser — vesi",
-          "gießen — valama",
-          "der Krug — kann",
-          "die Krüge — kannud",
-          "jetzt — praegu",
-          "an — juures",
-          "auf — peal",
-          "in — sees / sisse",
-          "der Tisch — laud",
-          "die Bank — pink",
-          "die Diele — põrand",
-          "der Eimer — ämber"
+          "wohin — πού; (προς τα πού;)",
+          "wo — πού;",
+          "tragen — κουβαλώ",
+          "ich trage — εγώ κουβαλώ",
+          "du trägst — εσύ κουβαλάς",
+          "er/sie/es trägt — αυτός/αυτή/αυτό κουβαλά",
+          "der Korb — το καλάθι / το κοφίνι",
+          "die Körbe — τα καλάθια / τα κοφίνια",
+          "das Körbchen — το καλαθάκι",
+          "stellen — τοποθετώ / βάζω όρθιο",
+          "legen — βάζω / ακουμπώ ξαπλωτό",
+          "das Wasser — το νερό",
+          "gießen — χύνω, ρίχνω (υγρό)",
+          "der Krug — η κανάτα",
+          "die Krüge — οι κανάτες",
+          "jetzt — τώρα",
+          "an — σε, κοντά σε, δίπλα σε",
+          "auf — πάνω σε",
+          "in — μέσα σε",
+          "der Tisch — το τραπέζι",
+          "die Bank — ο πάγκος, το θρανίο",
+          "die Diele — το πάτωμα",
+          "der Eimer — ο κουβάς"
         ]
       },
       {
@@ -3389,157 +3389,157 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Οι σύνδεσμοι an, in, auf μπορούν να σταθούν τόσο με Akkusativ όσο και με Dative."
+            "text": "Οι προθέσεις an, in, auf μπορούν να συντάσσονται και με Akkusativ και με Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Εάν η ενέργεια υποδεικνύει αλλαγή κατεύθυνσης ή θέσης, χρησιμοποιείται το Κατηγορούμενο. Ερώτηση: whin • — που • ",
+            "text": "Όταν η ενέργεια δείχνει κατεύθυνση ή αλλαγή τόπου, χρησιμοποιείται Akkusativ. Ερώτηση: wohin? — προς τα πού;",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Πηγαίνω στο τραπέζι.",
+              "Ich stelle den Korb auf die Bank. — Βάζω το καλάθι πάνω στον πάγκο.",
+              "Ich lege die Äpfel in das Körbchen. — Βάζω τα μήλα μέσα στο καλαθάκι.",
+              "Ich gieße das Wasser in den Krug. — Ρίχνω το νερό στην κανάτα."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Όταν η ενέργεια υποδεικνύει τοποθεσία ή κατάσταση, χρησιμοποιείται το Dative. Ερώτηση: ουά • — που • ",
+            "text": "Όταν η ενέργεια δείχνει τόπο ή θέση, χρησιμοποιείται Dativ. Ερώτηση: wo? — πού;",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Στέκομαι δίπλα στο τραπέζι.",
+              "Der Korb steht auf der Bank. — Το καλάθι βρίσκεται πάνω στον πάγκο.",
+              "Die Äpfel sind in dem Körbchen. — Τα μήλα είναι μέσα στο καλαθάκι.",
+              "Das Wasser ist in dem Kruge. — Το νερό είναι μέσα στην κανάτα."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Αυτά τα ρήματα δείχνουν συχνά κατεύθυνση και επομένως απαντούν στην ερώτηση whin?.",
+            "heading": "Ρήματα με wohin?",
+            "text": "Αυτά τα ρήματα δείχνουν συχνά κατεύθυνση και γι’ αυτό απαντούν στην ερώτηση wohin?",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — πηγαίνω",
+              "kommen — έρχομαι",
+              "fahren — πηγαίνω (με όχημα), οδηγώ",
+              "laufen — τρέχω",
+              "fliegen — πετώ",
+              "springen — πηδώ",
+              "kriechen — σέρνομαι",
+              "schleichen — γλιστρώ κρυφά, προχωρώ αθόρυβα",
+              "hängen — κρεμώ",
+              "sich setzen — κάθομαι (κάπου)",
+              "sich stellen — στέκομαι (κάπου), παίρνω θέση",
+              "werfen — ρίχνω, πετώ",
+              "reiten — ιππεύω"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Αυτά τα ρήματα συχνά υποδηλώνουν τοποθεσία ή κατάσταση και επομένως απαντούν στην ερώτηση wo?.",
+            "heading": "Ρήματα με wo?",
+            "text": "Αυτά τα ρήματα δείχνουν συχνά τόπο ή θέση και γι’ αυτό απαντούν στην ερώτηση wo?",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — είμαι",
+              "sich befinden — βρίσκομαι",
+              "arbeiten — δουλεύω",
+              "liegen — είμαι ξαπλωμένος / βρίσκομαι οριζόντια",
+              "sitzen — κάθομαι",
+              "hängen — κρέμομαι",
+              "finden — βρίσκω",
+              "suchen — ψάχνω",
+              "spielen — παίζω"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "Τα ονόματα των θεμάτων συνήθως ισχύουν χωρίς το άρθρο.",
+            "heading": "Ουσιαστικά ύλης",
+            "text": "Τα ουσιαστικά ύλης συνήθως χρησιμοποιούνται χωρίς άρθρο.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Πίνω γάλα.",
+              "In dem Eimer ist Wasser. — Στον κουβά έχει νερό."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Όταν μια ουσία αναφέρεται στο πλαίσιο μιας συγκεκριμένης ποσότητας ή ενός συγκεκριμένου τόπου, το αντικείμενο χρησιμοποιείται.",
+            "heading": "Συγκεκριμένη ύλη",
+            "text": "Όταν η ύλη αναφέρεται σε ορισμένη ποσότητα ή σε συγκεκριμένο σημείο, χρησιμοποιείται άρθρο.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Ρίχνω το νερό στην κανάτα."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Εάν το επίρρημα in δεν μεταφράζεται \"μέσα\", αλλά εκφράζει μια τοποθεσία, μπορεί να μεταφραστεί με πεζό εντοπισμό.",
+            "heading": "in + τόπος",
+            "text": "Όταν η πρόθεση in δεν σημαίνει «μέσα σε», αλλά δηλώνει απλώς τόπο, μεταφράζεται συνήθως απλώς με «σε».",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — στον κουβά",
+              "in dem Zimmer — στο δωμάτιο"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "Παλιές μορφές όπως dem Tische, dem Kruge, im Walde χρησιμοποιούνται συχνά πιο σύντομες σήμερα: dem Tisch, dem Krug, im Wald."
+            "heading": "Σύγχρονες μορφές",
+            "text": "Οι παλιές μορφές, για παράδειγμα dem Tische, dem Kruge, im Walde, σήμερα χρησιμοποιούνται συχνά πιο σύντομα: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Προφορά",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "Στη λέξη wohin το h ακούγεται: wo-hin.",
+          "Στη λέξη wo το o είναι μακρύ: wo."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Vali õige kääne: Dativ või Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: Dativ ή Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Πού έρχεται ο υπηρέτης • ",
+            "lv": "Πού έρχεται ο υπηρέτης;",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Μπαίνει στο δωμάτιο.",
+            "lv": "Έρχεται στο δωμάτιο.",
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Πού εργάζεται • ",
+            "lv": "Πού δουλεύει;",
             "de": "Wo arbeitet er?"
           },
           {
@@ -3551,15 +3551,15 @@ const COURSE_LESSON_DATA = {
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "Ο πάγκος στέκεται δίπλα στο παράθυρο.",
+            "lv": "Ο πάγκος βρίσκεται δίπλα στο παράθυρο.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "Τα παιδιά πάνε στο δάσος.",
+            "lv": "Τα παιδιά πηγαίνουν στο δάσος.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Μαζεύουν μούρα στο δάσος.",
+            "lv": "Ψάχνουν μούρα στο δάσος.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
@@ -3567,27 +3567,27 @@ const COURSE_LESSON_DATA = {
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Η μητέρα βάζει το καλάθι πάνω από το ντουλάπι.",
+            "lv": "Η μητέρα βάζει το καλάθι πάνω στην ντουλάπα.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Το καλάθι βρίσκεται στο ντουλάπι.",
+            "lv": "Το καλάθι βρίσκεται πάνω στην ντουλάπα.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Ο μαθητής βάζει τα τετράδια στην τσάντα.",
+            "lv": "Ο μαθητής βάζει τα τετράδια μέσα στη σάκα.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
-            "lv": "Πού είναι τα σημειωματάρια • ",
+            "lv": "Πού είναι τα τετράδια;",
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Τα τετράδια είναι τώρα στην τσάντα.",
+            "lv": "Τα τετράδια είναι τώρα μέσα στη σάκα.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Πού πάει ο δάσκαλος • ",
+            "lv": "Πού πηγαίνει ο δάσκαλος;",
             "de": "Wohin geht der Lehrer?"
           },
           {
@@ -3595,7 +3595,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er geht in die Klasse."
           },
           {
-            "lv": "Πού κάθεται ο δάσκαλος • ",
+            "lv": "Πού κάθεται ο δάσκαλος;",
             "de": "Wo sitzt der Lehrer?"
           },
           {
@@ -3610,7 +3610,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson19",
     "title": "Μάθημα 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Μάθημα δέκατο ένατο: vor, hinter, unter, über, neben, zwischen με Akkusativ ή Dative.",
+    "intro": "Δέκατο ένατο μάθημα: vor, hinter, unter, über, neben, zwischen με Akkusativ ή Dativ.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -3642,46 +3642,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "vor — ees / enne",
-          "hinter — taga",
-          "unter — all",
-          "über — üleval / üle",
-          "neben — kõrval",
-          "zwischen — vahel",
-          "werfen — viskama",
-          "stellen — panema (püsti)",
-          "der Spiegel — peegel",
-          "der Schrank — kapp",
-          "der Eimer — ämber",
-          "die Bank — pink",
-          "das Bild — pilt",
-          "das Klavier — klaver",
-          "der Großvater — vanaisa",
-          "die Großmutter — vanaema",
-          "der Stuhl — tool",
-          "der Zaun — aed (tara)",
-          "die Brücke — sild",
-          "pflanzen — istutama",
-          "der Strauch — põõsas",
-          "wachsen — kasvama",
-          "die Mühle — veski",
-          "die Scheune — küün",
-          "der Teich — tiik",
-          "der Garten — aed",
-          "das Feld — põld",
-          "die Laube — lehtla",
-          "die Wand — sein",
-          "die Karte — kaart",
-          "das Land — maa",
-          "die Stadt — linn",
-          "der Berg — mägi",
-          "der See — järv",
-          "der Fluss — jõgi",
-          "zeigen — näitama",
-          "nennen — nimetama",
-          "so — nii"
+          "vor — μπροστά σε / πριν",
+          "hinter — πίσω από",
+          "unter — κάτω από",
+          "über — πάνω από / πέρα από",
+          "neben — δίπλα σε",
+          "zwischen — ανάμεσα σε",
+          "werfen — ρίχνω, πετώ",
+          "stellen — τοποθετώ / στήνω / βάζω όρθιο",
+          "der Spiegel — ο καθρέφτης",
+          "der Schrank — η ντουλάπα",
+          "der Eimer — ο κουβάς",
+          "die Bank — ο πάγκος, το θρανίο",
+          "das Bild — η εικόνα / ο πίνακας",
+          "das Klavier — το πιάνο",
+          "der Großvater — ο παππούς",
+          "die Großmutter — η γιαγιά",
+          "der Stuhl — η καρέκλα",
+          "der Zaun — ο φράχτης",
+          "die Brücke — η γέφυρα",
+          "pflanzen — φυτεύω",
+          "der Strauch — ο θάμνος",
+          "wachsen — μεγαλώνω, φυτρώνω",
+          "die Mühle — ο μύλος",
+          "die Scheune — ο αχυρώνας",
+          "der Teich — η λιμνούλα",
+          "der Garten — ο κήπος",
+          "das Feld — το χωράφι",
+          "die Laube — η κληματαριά",
+          "die Wand — ο τοίχος",
+          "die Karte — ο χάρτης",
+          "das Land — η χώρα",
+          "die Stadt — η πόλη",
+          "der Berg — το βουνό",
+          "der See — η λίμνη",
+          "der Fluss — το ποτάμι",
+          "zeigen — δείχνω",
+          "nennen — ονομάζω",
+          "so — έτσι"
         ]
       },
       {
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "Σε αυτό το μάθημα, συνεχίζουμε με συνδέσμους που μπορούν να αντιπροσωπεύουν και Κατηγορητικό και Δοτικό."
+            "text": "Σε αυτό το μάθημα συνεχίζουμε με τις προθέσεις που μπορούν να συντάσσονται και με Akkusativ και με Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Αν υπάρχει κάπου κατεύθυνση / κίνηση, το ερώτημα είναι whin • Και χρησιμοποιείται Akkusativ.",
+            "text": "Όταν υπάρχει κατεύθυνση / κίνηση προς κάποιο μέρος, η ερώτηση είναι wohin? και χρησιμοποιείται Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Εάν υπάρχει τοποθεσία, το ερώτημα είναι wo • Και χρησιμοποιείται η δοτική.",
+            "text": "Όταν πρόκειται για τόπο όπου βρίσκεται κάποιος ή κάτι, η ερώτηση είναι wo? και χρησιμοποιείται Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,19 +3716,19 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Προθέσεις",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — μπροστά σε",
+              "hinter — πίσω από",
+              "unter — κάτω από",
+              "über — πάνω από / πέρα από",
+              "neben — δίπλα σε",
+              "zwischen — ανάμεσα σε"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
-            "text": "Τι • → Κατηγορητικό",
+            "heading": "Σύνοψη: wohin?",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3742,8 +3742,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
-            "text": "Τι • → Dative",
+            "heading": "Σύνοψη: wo?",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen — να πάει, όταν η δράση σημαίνει συνεχή κίνηση. treten — να μπεις, να πλησιάσεις, να πατήσεις, όταν η κίνηση τελειώνει με διακοπή της δράσης.",
+            "text": "gehen — πηγαίνω, περπατώ, όταν η ενέργεια σημαίνει συνεχές περπάτημα. treten — μπαίνω, πλησιάζω, ανεβαίνω, όταν το περπάτημα τελειώνει με σταμάτημα.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,30 +3771,30 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "Στη λέξη vor το o προφέρεται μακρύ.",
+          "Στη λέξη hinter το h ακούγεται και το e είναι ανοιχτό.",
+          "Στη λέξη der Stuhl: το st προφέρεται σαν «στ» με παχύ σ· το h δείχνει μακρότητα και δεν προφέρεται.",
+          "Στη λέξη der Strauch: το st προφέρεται σαν «στ» με παχύ σ.",
+          "Στη λέξη wachsen: το ch προφέρεται κ."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Vali õige kääne: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Vali õige kääne: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
@@ -3802,7 +3802,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Έχει μια κάρτα στο χέρι.",
+            "lv": "Έχει έναν χάρτη στο χέρι.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
@@ -3810,27 +3810,27 @@ const COURSE_LESSON_DATA = {
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Δείχνει στους μαθητές πολλές πόλεις, χώρες, βουνά, λίμνες και ποτάμια.",
+            "lv": "Δείχνει στους μαθητές και στις μαθήτριες πολλές χώρες, πόλεις, βουνά, λίμνες και ποτάμια.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Τότε ο δάσκαλος καλεί τον μαθητή.",
+            "lv": "Μετά ο δάσκαλος σηκώνει έναν μαθητή.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Ο μαθητής περπατά μέχρι την κάρτα.",
+            "lv": "Ο μαθητής πηγαίνει στον χάρτη.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Παραμένει όρθιος μπροστά στην κάρτα.",
+            "lv": "Μένει όρθιος μπροστά στον χάρτη.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "Ονομάζει και δείχνει στον δάσκαλο πόλεις, βουνά και ποτάμια.",
+            "lv": "Ονομάζει και δείχνει στον δάσκαλο τις πόλεις, τα βουνά και τα ποτάμια.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Έτσι λειτουργεί ο δάσκαλος στην τάξη.",
+            "lv": "Έτσι δουλεύει ο δάσκαλος στην τάξη.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3841,7 +3841,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson20",
     "title": "Μάθημα 20",
     "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, σύνθετα ουσιαστικά",
-    "intro": "Μάθημα εικοστό: Σπίτι, όροφοι, δοτική/κατηγορούμενο και σύνθετα ουσιαστικά.",
+    "intro": "Εικοστό μάθημα: το σπίτι, οι όροφοι, Dativ/Akkusativ και τα σύνθετα ουσιαστικά.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "das Haus — maja",
-          "das Stockwerk — korrus",
-          "die Mauer — müür",
-          "der Stein — kivi",
-          "das Holz — puit / küttepuu",
-          "das Glas — klaas",
-          "aus Glas — klaasist",
-          "die Wohnung — korter",
-          "das Vorhaus — eesruum / koridor",
-          "die Küche — köök",
-          "das Dach — katus",
-          "der Boden — pööning / põrand / maapind",
-          "der Keller — kelder",
-          "der Schornstein — korsten",
-          "der Schornsteinfeger — korstnapühkija",
-          "die Stadt — linn",
-          "leben — elama",
-          "tragen — kandma",
-          "bringen — tooma",
-          "stecken — pistma / panema",
-          "der Ofen — ahi",
-          "anzünden — süütama",
-          "bald — varsti",
-          "brennen — põlema",
-          "licht — hele",
-          "hell — hele / särav",
-          "die Tür — uks",
-          "das Fenster — aken",
-          "der Mensch — inimene"
+          "das Haus — το σπίτι",
+          "das Stockwerk — ο όροφος",
+          "die Mauer — ο τοίχος, το τείχος",
+          "der Stein — η πέτρα",
+          "das Holz — το ξύλο / τα καυσόξυλα",
+          "das Glas — το γυαλί",
+          "aus Glas — από γυαλί",
+          "die Wohnung — το διαμέρισμα",
+          "das Vorhaus — ο προθάλαμος / ο διάδρομος",
+          "die Küche — η κουζίνα",
+          "das Dach — η στέγη",
+          "der Boden — η σοφίτα / το πάτωμα / το έδαφος",
+          "der Keller — το υπόγειο",
+          "der Schornstein — η καμινάδα",
+          "der Schornsteinfeger — ο καπνοδοχοκαθαριστής",
+          "die Stadt — η πόλη",
+          "leben — ζω",
+          "tragen — κουβαλώ",
+          "bringen — φέρνω / μεταφέρω",
+          "stecken — χώνω / βάζω μέσα",
+          "der Ofen — η σόμπα, ο φούρνος",
+          "anzünden — ανάβω",
+          "bald — σύντομα",
+          "brennen — καίω, καίγομαι",
+          "licht — φωτεινός",
+          "hell — φωτεινός / λαμπερός",
+          "die Tür — η πόρτα",
+          "das Fenster — το παράθυρο",
+          "der Mensch — ο άνθρωπος"
         ]
       },
       {
         "title": "Γραμματική",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Οι εκφράσεις που στα Μαθήματα 19 και 20 απαντούν στην ερώτηση θέλετε • — πότε • , σταθείτε με τον Dativ. Η δοτική όχι μόνο απαντά στην ερώτηση wo • — πού • , αλλά και στην ερώτηση θέλω • — Πότε • .",
+            "heading": "Dativ με wann?",
+            "text": "Οι προθέσεις που στα μαθήματα 19 και 20 απαντούν στην ερώτηση wann? — πότε; συντάσσονται με Dativ. Η Dativ απαντά όχι μόνο στο wo? — πού;, αλλά και στο wann? — πότε;",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — τη μέρα",
+              "in der Nacht — τη νύχτα",
+              "in dem Sommer / im Sommer — το καλοκαίρι",
+              "in dem Januar / im Januar — τον Ιανουάριο",
+              "vor drei Tagen — πριν από τρεις μέρες"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Πολλοί σύνδεσμοι εντάσσονται στο άρθρο.",
+            "heading": "Πρόθεση + άρθρο",
+            "text": "Πολλές προθέσεις συγχωνεύονται με το άρθρο.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Αν το στέλεχος του ρήματος τελειώνει με τα γράμματα t, d, m, n, τότε στο 2ο και 3ο πρόσωπο ενικού και στο 2ο πληθυντικό πρόσωπο συχνά προστίθεται -e- μεταξύ του κορμού και της κατάληξης για καλύτερη προφορά.",
+            "heading": "-e- ανάμεσα στο θέμα και την κατάληξη",
+            "text": "Όταν το θέμα του ρήματος τελειώνει σε t, d, m, n, στο 2ο και 3ο ενικό πρόσωπο και στο 2ο πληθυντικό πρόσωπο παρεμβάλλεται συχνά ένα -e- ανάμεσα στο θέμα και την κατάληξη, για ευκολότερη προφορά.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Τα σύνθετα ουσιαστικά συνήθως παίρνουν ένα άρθρο για την τελευταία λέξη.",
+            "heading": "Σύνθετα ουσιαστικά",
+            "text": "Τα σύνθετα ουσιαστικά παίρνουν συνήθως το άρθρο της τελευταίας λέξης.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Σχηματισμός σύνθετων ουσιαστικών",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "Στο ρήμα tragen, το αρχικό φωνήεν α στο 2ο και 3ο πρόσωπο ενικού γίνεται Umlaut.",
+            "text": "Στο ρήμα tragen το φωνήεν του θέματος a παίρνει Umlaut στο 2ο και 3ο ενικό πρόσωπο.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,203 +3973,203 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-tüüpi häälikuna, nagu saksa ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "Στις λέξεις Stockwerk, Stein, Stadt, stecken: το st προφέρεται σαν «στ» με παχύ σ.",
+          "Στις λέξεις der Ofen, der Boden: το o είναι μακρύ.",
+          "Το sch προφέρεται σαν παχύ σ: der Schornstein, der Mensch.",
+          "Στις λέξεις das Haus, das Holz: το h ακούγεται και πρέπει να προφέρεται, σαν ελαφρύ χ.",
+          "Στις λέξεις die Wohnung, wohnen: το h δείχνει μακρότητα και δεν προφέρεται.",
+          "Στις λέξεις die Küche, die Dächer: το ch προφέρεται όπως το ελληνικό χ στη λέξη «χέρι», όπως το γερμανικό ich-Laut.",
+          "Στη λέξη das Vorhaus: το v προφέρεται φ."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Διάλεξε τη σωστή πτώση: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Τι είναι υψηλό • ",
+            "lv": "Τι είναι ψηλό;",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Πόσους ορόφους έχει το σπίτι • ",
+            "lv": "Πόσους ορόφους έχει το σπίτι;",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "Πού είναι τα παράθυρα και οι πόρτες • ",
+            "lv": "Πού είναι τα παράθυρα και οι πόρτες;",
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "Από τι είναι κατασκευασμένοι οι τοίχοι • ",
+            "lv": "Από τι είναι οι τοίχοι;",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Από τι είναι κατασκευασμένες οι πόρτες • ",
+            "lv": "Από τι είναι οι πόρτες;",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "Από τι είναι κατασκευασμένα τα παράθυρα • ",
+            "lv": "Από τι είναι τα παράθυρα;",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Πού είναι τα δέκα διαμερίσματα • ",
+            "lv": "Πού βρίσκονται δέκα διαμερίσματα;",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Τι υπάρχει σε κάθε διαμέρισμα • ",
+            "lv": "Τι έχει κάθε διαμέρισμα;",
             "de": "Was hat jede Wohnung?"
           },
           {
-            "lv": "Πού είναι το υπόγειο • ",
+            "lv": "Πού είναι το υπόγειο;",
             "de": "Wo ist der Keller?"
           },
           {
-            "lv": "Πού είναι η σοφίτα • ",
+            "lv": "Πού είναι η σοφίτα;",
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Πού είναι οι τρεις καμινάδες • ",
+            "lv": "Πού βρίσκονται τρεις καμινάδες;",
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Πού ανεβαίνει ο καπνοδοχοκαθαριστής • ",
+            "lv": "Πού ανεβαίνει ο καπνοδοχοκαθαριστής;",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
-            "lv": "Πού στέκεται • ",
+            "lv": "Πού στέκεται;",
             "de": "Wo steht er?"
           },
           {
-            "lv": "Τι κάνει • ",
+            "lv": "Τι κάνει;",
             "de": "Was tut er?"
           },
           {
-            "lv": "Τι υπάρχει στην πόλη • ",
+            "lv": "Τι έχει η πόλη;",
             "de": "Was hat die Stadt?"
           },
           {
-            "lv": "Πού υπάρχουν πολλά διαμερίσματα • ",
+            "lv": "Πού βρίσκονται πολλά διαμερίσματα;",
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "Πού ζουν πολλοί άνθρωποι • ",
+            "lv": "Πού ζουν πολλοί άνθρωποι;",
             "de": "Wo leben viele Menschen?"
           },
           {
-            "lv": "Ποιος δουλεύει • ",
+            "lv": "Ποιος δουλεύει;",
             "de": "Wer arbeitet?"
           },
           {
-            "lv": "Ποιος πρέπει να εργαστεί • ",
+            "lv": "Ποιος πρέπει να δουλέψει;",
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "Σε πόσους ορόφους μένετε • ",
+            "lv": "Σε ποιον όροφο μένεις;",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Πού πρέπει να μεταφέρετε τα καυσόξυλα • ",
+            "lv": "Πού πρέπει να κουβαλήσεις τα ξύλα;",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Που βάζεις τα καυσόξυλα • ",
+            "lv": "Πού βάζεις τα ξύλα;",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Τι φωτίζεις • ",
+            "lv": "Τι ανάβεις;",
             "de": "Was zündest du an?"
           },
           {
-            "lv": "Τι καίει έντονα • ",
+            "lv": "Τι καίει λαμπερά;",
             "de": "Was brennt hell?"
           }
         ]
@@ -4179,8 +4179,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson21": {
     "id": "lesson21",
     "title": "Μάθημα 21",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Dative",
-    "intro": "Μάθημα εικοστό ένα: woher / wohin / wo, von / aus / mit + Dative.",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "Εικοστό πρώτο μάθημα: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "der Holzhauer — puuraidur",
-          "sägen — saagima",
-          "spalten — lõhkuma",
-          "die Axt — kirves",
-          "von — millest / kellest",
-          "aus — seest",
-          "mit — koos / -ga",
-          "helfen — aitama",
-          "treten — astuma",
-          "du trittst — sina astud",
-          "er tritt — tema astub",
-          "rufen — hüüdma",
-          "holen — tooma",
-          "eilen — kiirustama",
-          "zurück — tagasi",
-          "finden — leidma",
-          "sehen — nägema",
-          "du siehst — sina näed",
-          "er sieht — tema näeb",
-          "fleißig — usinasti",
-          "die Scheune — küün",
-          "das Feld — põld",
-          "der Berg — mägi",
-          "die Brücke — sild",
-          "der Hof — õu",
-          "der Keller — kelder",
-          "die Küche — köök",
-          "die Milch — piim",
-          "der Eimer — ämber",
-          "die Säge — sae",
-          "das Beil — kirves"
+          "der Holzhauer — ο ξυλοκόπος",
+          "sägen — πριονίζω",
+          "spalten — σχίζω",
+          "die Axt — το τσεκούρι",
+          "von — από",
+          "aus — από / μέσα από",
+          "mit — με",
+          "helfen — βοηθώ",
+          "treten — πηγαίνω / έρχομαι / κάνω βήμα",
+          "du trittst — εσύ πηγαίνεις / κάνεις βήμα",
+          "er tritt — αυτός πηγαίνει / κάνει βήμα",
+          "rufen — φωνάζω, καλώ",
+          "holen — πηγαίνω να φέρω / φέρνω",
+          "eilen — βιάζομαι",
+          "zurück — πίσω",
+          "finden — βρίσκω",
+          "sehen — βλέπω",
+          "du siehst — εσύ βλέπεις",
+          "er sieht — αυτός βλέπει",
+          "fleißig — επιμελώς",
+          "die Scheune — ο αχυρώνας",
+          "das Feld — το χωράφι",
+          "der Berg — το βουνό",
+          "die Brücke — η γέφυρα",
+          "der Hof — η αυλή",
+          "der Keller — το υπόγειο",
+          "die Küche — η κουζίνα",
+          "die Milch — το γάλα",
+          "der Eimer — ο κουβάς",
+          "die Säge — το πριόνι",
+          "das Beil — το τσεκουράκι"
         ]
       },
       {
@@ -4251,28 +4251,28 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Οι σύνδεσμοι mit, von και aus απαιτούν πάντα τη δοτική.",
+            "text": "Οι προθέσεις mit, von και aus συντάσσονται πάντα με Dativ.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — με",
+              "von — από",
+              "aus — από / μέσα από",
+              "mit dem Mann — με τον άντρα",
+              "von dem Felde / vom Felde — από το χωράφι",
+              "aus der Küche — από την κουζίνα"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Ο σύνδεσμος von μπορεί να συγχωνευθεί με το άρθρο.",
+            "text": "Η πρόθεση von μπορεί να συγχωνεύεται με το άρθρο.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Σύγχρονη μορφή: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Όταν ένα άτομο ή ένα πράγμα βρίσκεται σε ένα δωμάτιο, μέρος ή δοχείο και βγαίνει από αυτό, χρησιμοποιείται το aus.",
+            "heading": "Woher? — από πού;",
+            "text": "Όταν ένα πρόσωπο ή αντικείμενο βρίσκεται μέσα σε χώρο, τόπο ή δοχείο και βγαίνει από αυτό, χρησιμοποιείται το aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Όταν ένα άτομο ή ένα αντικείμενο βρίσκεται πάνω από ένα μέρος ή πάνω σε κάτι και απομακρύνεται από αυτό, χρησιμοποιείται ο von.",
+            "text": "Όταν ένα πρόσωπο ή αντικείμενο βρίσκεται πάνω από κάποιο μέρος ή πάνω σε κάτι και απομακρύνεται από αυτό, χρησιμοποιείται το von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Όταν μιλάμε για το υλικό από το οποίο κατασκευάζεται ένα αντικείμενο, χρησιμοποιείται το aus.",
+            "heading": "Υλικό",
+            "text": "Όταν μιλάμε για το υλικό από το οποίο είναι φτιαγμένο ένα αντικείμενο, χρησιμοποιείται το aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,118 +4309,118 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "Στη λέξη die Axt: το x προφέρεται ξ.",
+          "Στις λέξεις arbeiten, das Beil, steigen: το ei προφέρεται άι.",
+          "Στη λέξη die Scheune: το eu προφέρεται όι.",
+          "Στη λέξη die Brücke: το ck προφέρεται σαν διπλό k."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Vasta lugemisteksti järgi.",
+            "task": "Απάντησε σύμφωνα με το κείμενο ανάγνωσης.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Όλα τα φυλλάδια βρίσκονται σε τσάντα.",
+            "lv": "Όλα τα τετράδια είναι μέσα στη σάκα.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Βγάζω τα τετράδια από την τσάντα.",
+            "lv": "Βγάζω τα τετράδια από τη σάκα.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Βγάζω το ρολόι από την τσέπη μου.",
+            "lv": "Βγάζω το ρολόι από την τσέπη.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "Ένας κουβάς γάλα είναι στο υπόγειο.",
+            "lv": "Ένας κουβάς με γάλα βρίσκεται στο υπόγειο.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Κουβαλάω τον κουβά από το υπόγειο.",
+            "lv": "Κουβαλάω τον κουβά έξω από το υπόγειο.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Βγάζω το καπέλο μου.",
+            "lv": "Βγάζω τον σκούφο από το κεφάλι.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
@@ -4428,31 +4428,31 @@ const COURSE_LESSON_DATA = {
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Ο μπαμπάς βγάζει τη φωτογραφία από τον τοίχο.",
+            "lv": "Ο πατέρας κατεβάζει την εικόνα από τον τοίχο.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Παρτιτούρες στο πιάνο.",
+            "lv": "Οι παρτιτούρες βρίσκονται πάνω στο πιάνο.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Βγάζω τις παρτιτούρες από το πιάνο.",
+            "lv": "Παίρνω τις παρτιτούρες από το πιάνο.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Ερχόμαστε από φίλο.",
+            "lv": "Ερχόμαστε από τον φίλο.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Ερχόμαστε από το σπίτι ενός φίλου.",
+            "lv": "Ερχόμαστε από τη φίλη.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "Προερχόμαστε από τον δάσκαλο.",
+            "lv": "Ερχόμαστε από τον δάσκαλο.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Όλοι προέρχονται από έναν φίλο, έναν φίλο και έναν δάσκαλο.",
+            "lv": "Όλοι έρχονται από τον φίλο, από τη φίλη, από τον δάσκαλο.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

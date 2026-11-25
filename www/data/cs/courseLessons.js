@@ -2435,13 +2435,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson15": {
-    "id": "Lesson15",
-    "title": "Přednáška 15",
+    "id": "lesson15",
+    "title": "Lekce 15",
     "subtitle": "sollen, dürfen, essen, ovoce",
-    "intro": "Patnáctá přednáška: sollen, dürfen, essen a názvy ovoce.",
+    "intro": "Patnáctá lekce: sollen, dürfen, essen a názvy ovoce.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Ich soll das Messer nicht nehmen, denn ich darf den Apfel nicht schälen.",
           "Du sollst das Messer nicht nehmen, denn du darfst den Apfel nicht schälen.",
@@ -2473,26 +2473,26 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Slovíčka",
         "items": [
-          "sollen — mít / být povinen",
-          "ich soll — mám / mám udělat",
-          "du sollst — máš / máš udělat",
-          "er soll — má / má udělat",
-          "wir sollen — máme / máme udělat",
-          "ihr sollt — máte / máte udělat",
-          "sie sollen — mají / mají udělat",
+          "sollen — mít (povinnost) / být povinen",
+          "ich soll — mám / mám povinnost",
+          "du sollst — máš / máš povinnost",
+          "er soll — on má / má povinnost",
+          "wir sollen — máme / máme povinnost",
+          "ihr sollt — máte / máte povinnost",
+          "sie sollen — oni / ony mají",
           "dürfen — smět",
           "ich darf — smím",
           "du darfst — smíš",
-          "er darf — smí",
+          "er darf — on smí",
           "wir dürfen — smíme",
           "ihr dürft — smíte",
-          "sie dürfen — smějí",
+          "sie dürfen — oni / ony smějí",
           "nicht — ne",
           "das Messer — nůž",
           "der Apfel — jablko",
           "die Äpfel — jablka",
           "schälen — loupat",
-          "entzweischneiden — rozříznout napůl",
+          "entzweischneiden — rozříznout vejpůl",
           "die Birne — hruška",
           "die Birnen — hrušky",
           "die Pflaume — švestka",
@@ -2500,19 +2500,19 @@ const COURSE_LESSON_DATA = {
           "die Kirsche — třešeň",
           "die Kirschen — třešně",
           "gern — rád",
-          "reif — zralý / uzrálý",
+          "reif — zralý / dozrálý",
           "unreif — nezralý / nedozrálý",
           "nehmen — brát",
           "ich nehme — beru",
           "du nimmst — bereš",
-          "er nimmt — bere",
+          "er nimmt — on bere",
           "essen — jíst",
           "ich esse — jím",
           "du isst — jíš",
-          "er isst — jí",
+          "er isst — on jí",
           "wir essen — jíme",
           "ihr esst — jíte",
-          "sie essen — jedí"
+          "sie essen — oni / ony jedí"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen znamená mít něco udělat nebo být povinen něco udělat."
+            "text": "Sollen znamená „mít něco udělat“ ve smyslu povinnosti."
           },
           {
             "heading": "Srovnání",
             "examples": [
-              "müssen — muset z nutnosti nebo přesvědčení",
-              "sollen — mít povinnost / mít něco udělat",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — muset z nutnosti nebo z přesvědčení",
+              "sollen — mít povinnost, mít (něco udělat)",
+              "Ich muss lernen. — Musím se učit, protože je to nutné.",
+              "Ich soll lernen. — Mám se učit, protože je to moje povinnost."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "U slovesa sollen mají v přítomném čase 1. a 3. osoba jednotného čísla stejný tvar.",
+            "heading": "Tvary slovesa sollen",
+            "text": "U slovesa sollen jsou v přítomném čase 1. a 3. osoba jednotného čísla stejné.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Sloveso essen se časuje takto.",
+            "text": "Essen se časuje takto.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2569,13 +2569,13 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Současný pravopis",
-            "text": "Pokud se v projektu používá současný pravopis, lze psát: du isst, er/sie/es isst, ihr esst."
+            "text": "Při použití současného pravopisu se smí psát: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "U složeného slovesa entzweischneiden je přízvuk na části entzwei-, proto se v přítomném čase tato část odlučuje a stojí na konci věty.",
+            "text": "U složeného slovesa entzweischneiden je přízvuk na předponě entzweí-, proto se předpona v přítomném čase odděluje a stojí na konci věty.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Krájím jablko vejpůl."
             ]
           }
         ]
@@ -2583,23 +2583,23 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "ä ve slovech Äpfel a schälen se vyslovuje jako otevřené e.",
+          "ä se ve slovech Äpfel a schälen vyslovuje jako zavřené e.",
           "Ve slově Äpfel se ä vyslovuje krátce, protože po samohlásce následují dvě souhlásky.",
           "Ve slově schälen se ä vyslovuje dlouze, protože po samohlásce následuje jedna souhláska.",
           "Ve slově gern je e krátké a otevřené.",
-          "Pamatuj: německá dvojhláska ei se vyslovuje přibližně jako české aj: reif, unreif."
+          "Pamatuj si: dvojhláska ei se v němčině vyslovuje jako aj: reif, unreif."
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Kdo je zdravý, kdo smí pracovat?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "František je zdravý, smí pracovat.",
+            "lv": "Franz je zdravý, smí pracovat.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
@@ -2611,11 +2611,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Mami, smím jíst švestky?",
+            "lv": "Mami, smím jíst ty švestky?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Ne, švestky nemáš jíst, jsou nezralé.",
+            "lv": "Ne, ty švestky jíst nemáš, jsou nezralé.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
@@ -2651,11 +2651,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Smí si dítě vzít nůž?",
+            "lv": "Smí dítě vzít nůž?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Dítě si nemá brát nůž, protože nůž je ostrý.",
+            "lv": "Dítě nemá brát nůž, protože nůž je ostrý.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2663,13 +2663,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson16": {
-    "id": "Lesson16",
+    "id": "lesson16",
     "title": "Lekce 16",
     "subtitle": "Dativ, geben, sich nähern",
     "intro": "Šestnáctá lekce: dativ, geben, sich nähern a cvičení na dativ.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Wem schenkt der Vater ein Buch?",
           "Der Vater schenkt dem Sohne ein Buch.",
@@ -2699,20 +2699,20 @@ const COURSE_LESSON_DATA = {
           "dem Sohne — synovi",
           "den Söhnen — synům",
           "sich nähern — přibližovat se",
-          "ich nähere mich — já se přibližuji",
-          "du näherst dich — ty se přibližuješ",
-          "geben — dát",
-          "ich gebe — já dávám",
-          "du gibst — ty dáváš",
+          "ich nähere mich — přibližuji se",
+          "du näherst dich — přibližuješ se",
+          "geben — dávat",
+          "ich gebe — dávám",
+          "du gibst — dáváš",
           "er gibt — on dává",
           "die Magd — služka",
           "Brot — chléb",
           "Milch — mléko",
-          "gehorchen — poslouchat",
+          "gehorchen — poslouchat (být poslušný)",
           "der Knecht — čeledín",
           "gehören — patřit",
-          "das Feld — pole",
-          "die Felder — pole",
+          "das Feld — pole / lán",
+          "die Felder — pole / lány",
           "die Wiese — louka",
           "die Wiesen — louky",
           "der Wald — les",
@@ -2720,7 +2720,7 @@ const COURSE_LESSON_DATA = {
           "der Bauer — sedlák",
           "die Bäuerin — selka",
           "folgen — následovat",
-          "der Jäger — lovec",
+          "der Jäger — myslivec",
           "treu — věrný"
         ]
       },
@@ -2728,17 +2728,17 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs",
+            "heading": "Dativ",
             "text": "Dativ odpovídá na otázku: wem? — komu?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Jednotné číslo",
             "table": [
               [
                 "",
-                "Mužský",
-                "Sieviešu",
-                "Střední"
+                "Mužský rod",
+                "Ženský rod",
+                "Střední rod"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Množné číslo",
             "table": [
               [
                 "",
-                "Mužský",
-                "Sieviešu",
-                "Střední"
+                "Mužský rod",
+                "Ženský rod",
+                "Střední rod"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dativní -e",
-            "text": "Podstatná jména mužského a středního rodu mohou v dativu jednotného čísla přijímat koncovku -e. V současné němčině se tato koncovka často vynechává.",
+            "heading": "Koncovka -e v dativu",
+            "text": "Podstatná jména mužského a středního rodu mohou mít v dativu jednotného čísla koncovku -e. Dnes tato koncovka často odpadá.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "Podstatná jména ženského rodu v dativu jednotného čísla žádnou koncovku nepřijímají.",
+            "heading": "Ženský rod v dativu",
+            "text": "Podstatná jména ženského rodu nemají v dativu jednotného čísla žádnou koncovku.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2821,7 +2821,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dativ množného čísla",
-            "text": "V dativu množného čísla podstatné jméno často přijímá koncovku -n.",
+            "text": "V dativu množného čísla dostává člen i podstatné jméno často koncovku -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Pokud množné číslo už končí na -n, další -n se nepřidává.",
+            "heading": "Končí-li množné číslo už na -n",
+            "text": "Končí-li množné číslo už na -n, další -n se nepřidává.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "U slovesa geben se ve 2. a 3. osobě jednotného čísla mění e na i.",
+            "text": "U slovesa geben se ve 2. a 3. osobě jednotného čísla e mění v i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2857,14 +2857,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Množné číslo s přehláskou",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
+            "heading": "Bez členu",
             "text": "Slova, která se často používají bez členu: die Milch, das Brot."
           }
         ]
@@ -2872,11 +2872,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.",
-          "Ve slově gehorchen je h slyšitelné: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í.-Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í."
+          "Ve slovech wem, dem, den, der — je e dlouhé a zavřené.",
+          "Ve slově gehorchen je h slyšet: ge-hor-chen.",
+          "die Wälder: ä se vyslovuje jako krátké zavřené e.",
+          "die Bäuerinnen: äu se vyslovuje jako oj.",
+          "-ie označuje dlouhé í: die Wiese."
         ]
       },
       {
@@ -2884,32 +2884,32 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Doplň správný člen v dativu nebo akuzativu podle významu věty.",
+            "task": "Doplň správný člen v dativu/akuzativu podle smyslu věty.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Doplň správný člen v dativu nebo akuzativu podle významu věty.",
+            "task": "Doplň správný člen v dativu/akuzativu podle smyslu věty.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Doplň správný člen v dativu nebo akuzativu podle významu věty.",
+            "task": "Doplň správný člen v dativu/akuzativu podle smyslu věty.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Doplň správný člen v dativu nebo akuzativu podle významu věty.",
+            "task": "Doplň správný člen v dativu/akuzativu podle smyslu věty.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Doplň správný člen v dativu nebo akuzativu podle významu věty.",
+            "task": "Doplň správný člen v dativu/akuzativu podle smyslu věty.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Doplň správný člen v dativu nebo akuzativu podle významu věty.",
+            "task": "Doplň správný člen v dativu/akuzativu podle smyslu věty.",
             "answer": "Der Vater ruft die Tante."
           },
           {
@@ -2966,7 +2966,7 @@ const COURSE_LESSON_DATA = {
       },
       {
         "title": "Přelož",
-        "type": "TranslationCards",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Koho volá otec?",
@@ -2985,7 +2985,7 @@ const COURSE_LESSON_DATA = {
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "Koho pes poslouchá?",
+            "lv": "Koho poslouchá pes?",
             "de": "Wem gehorcht der Hund?"
           },
           {
@@ -2993,11 +2993,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
-            "lv": "Kolik psů má lovec?",
+            "lv": "Kolik psů má myslivec?",
             "de": "Wieviel Hunde hat der Jäger?"
           },
           {
-            "lv": "Lovec má pět psů.",
+            "lv": "Myslivec má pět psů.",
             "de": "Der Jäger hat fünf Hunde."
           },
           {
@@ -3029,13 +3029,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson17": {
-    "id": "Lesson17",
+    "id": "lesson17",
     "title": "Lekce 17",
-    "subtitle": "mit + dativ, womit / mit wem, slovesa s přehláskou",
-    "intro": "Sedmnáctá lekce: mit + dativ, womit / mit wem a slovesa s přehláskou.",
+    "subtitle": "mit + Dativ, womit / mit wem, slovesa s přehláskou",
+    "intro": "Sedmnáctá lekce: mit + Dativ, womit / mit wem a slovesa s přehláskou.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Der Knabe hat einen Spaten.",
           "Er will eine Grube graben.",
@@ -3070,25 +3070,25 @@ const COURSE_LESSON_DATA = {
           "werfen — házet",
           "fangen — chytat",
           "auffangen — zachytit / chytit",
-          "wieder — znovu",
+          "wieder — zase",
           "der Schuldiener — školník",
           "der Besen — koště",
-          "fegen — zametat",
+          "fegen — zametat koštětem",
           "die Diele — podlaha",
           "der Lappen — hadr / utěrka",
-          "wischen — stírat / vytírat",
+          "wischen — utírat / čistit",
           "abwischen — utřít",
           "helfen — pomáhat",
           "danken — děkovat",
-          "der Freund — přítel / kamarád",
-          "die Freundin — přítelkyně / kamarádka",
-          "die Freundinnen — přítelkyně / kamarádky",
-          "mit — s",
-          "mit wem — s kým?",
+          "der Freund — přítel",
+          "die Freundin — přítelkyně",
+          "die Freundinnen — přítelkyně (množné číslo)",
+          "mit — s, se",
+          "mit wem — s kým? / s čím?",
           "der Staub — prach",
           "der Bruder — bratr",
           "die Schwester — sestra",
-          "die Dienerin — služka"
+          "die Dienerin — služebná"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Předložka mit se vždy pojí s dativem. Česky: mit = s."
+            "text": "Předložka mit se vždy pojí s dativem. Česky: mit = s, se."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "V němčině se otázka „s kým / s čím?“ vyjadřuje dvěma způsoby: mit wem? — u osob, womit? — u věcí a předmětů.",
+            "text": "Otázku „s kým?“ nebo „čím?“ vyjadřuje němčina dvojím způsobem: mit wem? — u osob, womit? — u věcí/předmětů.",
             "examples": [
               "Mit wem spricht der Bruder? — S kým mluví bratr?",
-              "Womit gräbt der Knabe die Grube? — Čím chlapec kope jámu?"
+              "Womit gräbt der Knabe die Grube? — Čím kope chlapec jámu?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Slovesa graben, fangen a auffangen mají ve 2. a 3. osobě jednotného čísla přehlásku.",
+            "text": "Slovesa graben, fangen, auffangen mají ve 2. a 3. osobě jednotného čísla přehlásku.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "U sloves helfen a werfen se ve 2. a 3. osobě jednotného čísla kmenové e mění na i.",
+            "text": "U sloves helfen a werfen se ve 2. a 3. osobě jednotného čísla kmenové e mění v i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3148,7 +3148,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Odlučitelné předpony",
-            "text": "U sloves auffangen a abwischen je přízvuk na předponě. Proto se předpona v přítomném čase odlučuje a stojí na konci věty.",
+            "text": "U složených sloves auffangen a abwischen je přízvuk na předponě. Proto se předpona v přítomném čase odděluje a stojí na konci věty.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen i wischen mohou znamenat „zametat / stírat“, jejich použití se však liší.",
+            "text": "Fegen i wischen znamenají obě „čistit“, ale používají se rozdílně.",
             "examples": [
               "fegen — zametat koštětem",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — utírat hadrem, setřít prach",
+              "wischen / abwischen — utírat hadrem, utěrkou, utírat prach",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3171,7 +3171,7 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "Ve slově werfen je první e otevřené: werfen.",
-          "Ve slově wieder označuje ie dlouhé í; koncové -er se vyslovuje přibližně jako [ɐ].",
+          "Ve slově wieder je e otevřené: wieder.",
           "Ve slovech wieder a die Diele označuje ie dlouhé í: wieder, die Diele.",
           "Ve slově der Spaten se sp vyslovuje jako šp: der Spaten."
         ]
@@ -3181,36 +3181,36 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Nyní odpověz v množném čísle.",
+            "task": "Odpověz v jednotném čísle, potom v množném.",
+            "task2": "Teď odpověz v množném čísle.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Nyní odpověz v množném čísle.",
+            "task": "Odpověz v jednotném čísle, potom v množném.",
+            "task2": "Teď odpověz v množném čísle.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Nyní odpověz v množném čísle.",
+            "task": "Odpověz v jednotném čísle, potom v množném.",
+            "task2": "Teď odpověz v množném čísle.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Nyní odpověz v množném čísle.",
+            "task": "Odpověz v jednotném čísle, potom v množném.",
+            "task2": "Teď odpověz v množném čísle.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Nyní odpověz v množném čísle.",
+            "task": "Odpověz v jednotném čísle, potom v množném.",
+            "task2": "Teď odpověz v množném čísle.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
@@ -3218,7 +3218,7 @@ const COURSE_LESSON_DATA = {
       },
       {
         "title": "Přelož",
-        "type": "TranslationCards",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Co je širší, dveře, nebo okno?",
@@ -3229,7 +3229,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Co dívka utírá?",
+            "lv": "Co utírá dívka?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
@@ -3237,11 +3237,11 @@ const COURSE_LESSON_DATA = {
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "Čím dívka utírá prach?",
+            "lv": "Čím utírá dívka prach?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "S kým dívka mluví?",
+            "lv": "S kým mluví dívka?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
@@ -3257,7 +3257,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Komu chlapec pomáhá?",
+            "lv": "Komu pomáhá chlapec?",
             "de": "Wem hilft der Knabe?"
           },
           {
@@ -3265,15 +3265,15 @@ const COURSE_LESSON_DATA = {
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Čím rozstřihne papír na dvě části?",
+            "lv": "Čím stříhá papír na dvě části?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Rozstřihne papír nůžkami na dvě části.",
+            "lv": "Stříhá papír nůžkami na dvě části.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Čím bratr kreslí?",
+            "lv": "Čím kreslí bratr?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
@@ -3317,7 +3317,7 @@ const COURSE_LESSON_DATA = {
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Bratr jde s otcem, s matkou, s učitelem, se strýcem, s tetou, s bratrancem a se sestřenicí.",
+            "lv": "Bratr jde s otcem, s matkou, s učitelem, se strýcem, s tetou, s bratrancem, se sestřenicí.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3325,13 +3325,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson18": {
-    "id": "Lesson18",
+    "id": "lesson18",
     "title": "Lekce 18",
-    "subtitle": "wohin / wo, akuzativ nebo dativ s an / in / auf",
-    "intro": "Osmnáctá lekce: wohin / wo, akuzativ nebo dativ s an / in / auf.",
+    "subtitle": "wohin / wo, Akkusativ nebo Dativ s an / in / auf",
+    "intro": "Osmnáctá lekce: wohin / wo, Akkusativ nebo Dativ s an / in / auf.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Wohin gehst du?",
           "Ich gehe an den Tisch.",
@@ -3362,22 +3362,22 @@ const COURSE_LESSON_DATA = {
           "wohin — kam?",
           "wo — kde?",
           "tragen — nést",
-          "ich trage — já nesu",
-          "du trägst — ty neseš",
+          "ich trage — nesu",
+          "du trägst — neseš",
           "er/sie/es trägt — on/ona/ono nese",
           "der Korb — koš",
           "die Körbe — koše",
           "das Körbchen — košíček",
-          "stellen — postavit / položit nastojato",
-          "legen — položit",
+          "stellen — postavit / stavět (nastojato)",
+          "legen — klást / položit (naležato)",
           "das Wasser — voda",
           "gießen — lít",
           "der Krug — džbán",
           "die Krüge — džbány",
           "jetzt — teď",
-          "an — u / na",
+          "an — u, k",
           "auf — na",
-          "in — v / do",
+          "in — v, do / dovnitř",
           "der Tisch — stůl",
           "die Bank — lavice",
           "die Diele — podlaha",
@@ -3389,80 +3389,80 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Předložky an, in a auf se mohou pojit jak s akuzativem, tak s dativem."
+            "text": "Předložky an, in, auf se mohou pojit jak s akuzativem, tak s dativem."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Pokud děj vyjadřuje směr nebo změnu místa, používá se akuzativ. Otázka: wohin? — kam?",
+            "text": "Vyjadřuje-li děj směr nebo změnu místa, použije se akuzativ. Otázka: wohin? — kam?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Jdu ke stolu.",
+              "Ich stelle den Korb auf die Bank. — Stavím koš na lavici.",
+              "Ich lege die Äpfel in das Körbchen. — Dávám jablka do košíčku.",
+              "Ich gieße das Wasser in den Krug. — Liji vodu do džbánu."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Pokud děj vyjadřuje místo nebo polohu, používá se dativ. Otázka: wo? — kde?",
+            "text": "Vyjadřuje-li děj místo nebo stav, použije se dativ. Otázka: wo? — kde?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Stojím u stolu.",
+              "Der Korb steht auf der Bank. — Koš stojí na lavici.",
+              "Die Äpfel sind in dem Körbchen. — Jablka jsou v košíčku.",
+              "Das Wasser ist in dem Kruge. — Voda je ve džbánu."
             ]
           },
           {
             "heading": "Slovesa s wohin?",
             "text": "Tato slovesa často vyjadřují směr, a proto odpovídají na otázku wohin?.",
             "examples": [
-              "gehen — iet",
+              "gehen — jít",
               "kommen — přijít",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
+              "fahren — jet",
+              "laufen — běžet",
+              "fliegen — letět",
               "springen — skákat",
               "kriechen — lézt",
               "schleichen — plížit se",
-              "hängen — pověsit",
-              "sich setzen — posadit se",
+              "hängen — věšet",
+              "sich setzen — sednout si",
               "sich stellen — postavit se",
-              "werfen — mest",
+              "werfen — házet",
               "reiten — jet na koni"
             ]
           },
           {
             "heading": "Slovesa s wo?",
-            "text": "Tato slovesa často vyjadřují místo nebo polohu, a proto odpovídají na otázku wo?.",
+            "text": "Tato slovesa často vyjadřují místo nebo stav, a proto odpovídají na otázku wo?.",
             "examples": [
               "sein — být",
-              "sich befinden — atrasties",
+              "sich befinden — nacházet se",
               "arbeiten — pracovat",
-              "liegen — ležet / nacházet se vleže",
+              "liegen — ležet",
               "sitzen — sedět",
               "hängen — viset",
-              "finden — atrast",
+              "finden — najít",
               "suchen — hledat",
               "spielen — hrát"
             ]
           },
           {
-            "heading": "Názvy látek",
-            "text": "Názvy látek se obvykle používají bez členu.",
+            "heading": "Látková jména",
+            "text": "Látková jména obvykle stojí bez členu.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
+              "Ich trinke Milch. — Piju mléko.",
               "In dem Eimer ist Wasser. — V kbelíku je voda."
             ]
           },
           {
             "heading": "Konkrétní látka",
-            "text": "Pokud se mluví o určitém množství látky nebo o látce na konkrétním místě, používá se člen.",
+            "text": "Je-li látka uvedena v určitém množství nebo na konkrétním místě, použije se člen.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Liji vodu do džbánu."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Pokud předložka in nevyjadřuje směr dovnitř, ale místo, překládá se do češtiny zpravidla předložkou „v“.",
+            "heading": "in + místo",
+            "text": "Nepřekládá-li se předložka in jako „dovnitř“, ale vyjadřuje místo, překládá se česky předložkou v s 6. pádem.",
             "examples": [
               "in dem Eimer — v kbelíku",
               "in dem Zimmer — v pokoji"
@@ -3470,14 +3470,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Současné tvary",
-            "text": "Starší tvary, například dem Tische, dem Kruge, im Walde, se dnes běžně používají v kratší podobě: dem Tisch, dem Krug, im Wald."
+            "text": "Staré tvary, například dem Tische, dem Kruge, im Walde, se dnes často používají v kratší podobě: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Výslovnost",
         "items": [
-          "Ve slově wohin je h slyšitelné: wo-hin.",
+          "Ve slově wohin je h slyšet: wo-hin.",
           "Ve slově wo je o dlouhé: wo."
         ]
       },
@@ -3486,49 +3486,49 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Vyber správný pád: dativ nebo akuzativ.",
+            "task": "Vyber správný pád: Dativ, nebo Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
         "title": "Přelož",
-        "type": "TranslationCards",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Kam přichází sluha?",
@@ -3547,7 +3547,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "Muž postaví lavici k oknu.",
+            "lv": "Muž staví lavici k oknu.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
@@ -3559,15 +3559,15 @@ const COURSE_LESSON_DATA = {
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "V lese sbírají bobule.",
+            "lv": "Hledají v lese bobule.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "V lese najdou mnoho bobulí.",
+            "lv": "Nacházejí v lese mnoho bobulí.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Matka postaví koš na skříň.",
+            "lv": "Matka staví koš na skříň.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
@@ -3575,7 +3575,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Žák vloží sešity do aktovky.",
+            "lv": "Žák klade sešity do aktovky.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3607,13 +3607,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson19": {
-    "id": "Lesson19",
+    "id": "lesson19",
     "title": "Lekce 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Devatenáctá lekce: vor, hinter, unter, über, neben, zwischen s akuzativem nebo dativem.",
+    "intro": "Devatenáctá lekce: vor, hinter, unter, über, neben, zwischen s Akkusativ nebo Dativ.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Wohin geht die Frau?",
           "Sie geht vor den Spiegel.",
@@ -3644,14 +3644,14 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Slovíčka",
         "items": [
-          "vor — před / předem",
+          "vor — před / dříve než",
           "hinter — za",
           "unter — pod",
           "über — nad / přes",
           "neben — vedle",
           "zwischen — mezi",
           "werfen — házet",
-          "stellen — postavit / umístit",
+          "stellen — postavit / umístit / položit",
           "der Spiegel — zrcadlo",
           "der Schrank — skříň",
           "der Eimer — kbelík",
@@ -3680,7 +3680,7 @@ const COURSE_LESSON_DATA = {
           "der See — jezero",
           "der Fluss — řeka",
           "zeigen — ukazovat",
-          "nennen — jmenovat / uvést",
+          "nennen — jmenovat",
           "so — tak"
         ]
       },
@@ -3693,7 +3693,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Pokud jde o směr nebo pohyb někam, ptáme se wohin? a používáme akuzativ.",
+            "text": "Jde-li o směr / pohyb někam, otázka zní wohin? a použije se akuzativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Pokud jde o polohu nebo místo, ptáme se wo? a používáme dativ.",
+            "text": "Jde-li o místo, kde se něco nachází, otázka zní wo? a použije se dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3719,15 +3719,15 @@ const COURSE_LESSON_DATA = {
             "heading": "Předložky",
             "examples": [
               "vor — před",
-              "hinter — aiz",
-              "unter — zem",
+              "hinter — za",
+              "unter — pod",
               "über — nad / přes",
-              "neben — blakus",
-              "zwischen — starp"
+              "neben — vedle",
+              "zwischen — mezi"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
+            "heading": "Shrnutí: wohin?",
             "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
@@ -3742,7 +3742,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
+            "heading": "Shrnutí: wo?",
             "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "gehen — jít, když děj vyjadřuje nepřetržitou chůzi. treten — vstoupit, přistoupit nebo šlápnout, když pohyb končí dosažením určitého místa.",
+            "text": "gehen — jít, znamená-li děj nepřetržitou chůzi. treten — vstoupit, přistoupit, vystoupit, končí-li chůze přerušením děje.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3772,10 +3772,10 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "Ve slově vor se o vyslovuje dlouze.",
-          "Ve slově hinter je h slyšitelné a e je otevřené.",
-          "Ve slově der Stuhl se st vyslovuje jako št; h označuje délku a nevyslovuje se.",
-          "Ve slově der Strauch se st vyslovuje jako št.",
-          "Ve slově wachsen se chs vyslovuje jako ks."
+          "Ve slově hinter je h slyšet a e je otevřené.",
+          "Ve slově der Stuhl: st se vyslovuje jako št; h je znaménko délky a nevyslovuje se.",
+          "Ve slově der Strauch: st se vyslovuje jako št.",
+          "Ve slově wachsen: ch se vyslovuje jako k."
         ]
       },
       {
@@ -3795,18 +3795,18 @@ const COURSE_LESSON_DATA = {
       },
       {
         "title": "Přelož",
-        "type": "TranslationCards",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Učitel přichází do třídy.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "V ruce má mapu.",
+            "lv": "Má v ruce mapu.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Pověsí mapu na stěnu.",
+            "lv": "Věší mapu na stěnu.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
@@ -3814,7 +3814,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Potom učitel vyvolá jednoho žáka.",
+            "lv": "Potom učitel vyvolá žáka.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
@@ -3830,7 +3830,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Takto učitel pracuje ve třídě.",
+            "lv": "Tak pracuje učitel ve třídě.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3838,13 +3838,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson20": {
-    "id": "Lesson20",
+    "id": "lesson20",
     "title": "Lekce 20",
     "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, složená podstatná jména",
-    "intro": "Dvacátá lekce: dům, podlaží, dativ/akuzativ a složená podstatná jména.",
+    "intro": "Dvacátá lekce: dům, patra, Dativ/Akkusativ a složená podstatná jména.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Dieses Haus ist hoch.",
           "Es hat drei Stockwerke.",
@@ -3875,17 +3875,17 @@ const COURSE_LESSON_DATA = {
         "title": "Slovíčka",
         "items": [
           "das Haus — dům",
-          "das Stockwerk — podlaží / patro",
-          "die Mauer — zeď / zdivo",
+          "das Stockwerk — patro",
+          "die Mauer — zeď",
           "der Stein — kámen",
-          "das Holz — dřevo / palivové dřevo",
+          "das Holz — dřevo / dříví",
           "das Glas — sklo",
           "aus Glas — ze skla",
           "die Wohnung — byt",
           "das Vorhaus — předsíň / chodba",
           "die Küche — kuchyně",
           "das Dach — střecha",
-          "der Boden — půda / podlaha / zem",
+          "der Boden — půda / podlaha / země",
           "der Keller — sklep",
           "der Schornstein — komín",
           "der Schornsteinfeger — kominík",
@@ -3893,7 +3893,7 @@ const COURSE_LESSON_DATA = {
           "leben — žít",
           "tragen — nést",
           "bringen — nést / přinést",
-          "stecken — strčit / vložit",
+          "stecken — strkat / vložit",
           "der Ofen — kamna",
           "anzünden — zapálit",
           "bald — brzy",
@@ -3909,8 +3909,8 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Předložky, které v 19. a 20. lekci odpovídají na otázku wann? — kdy?, se pojí s dativem. Dativ odpovídá nejen na wo? — kde?, ale také na wann? — kdy?.",
+            "heading": "Dativ s wann?",
+            "text": "Předložky, které v 19. a 20. lekci odpovídají na otázku wann? — kdy?, se pojí s dativem. Dativ neodpovídá jen na wo? — kde?, ale také na wann? — kdy?.",
             "examples": [
               "an dem Tage / am Tage — ve dne",
               "in der Nacht — v noci",
@@ -3921,7 +3921,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Předložka + člen",
-            "text": "Mnoho předložek se spojuje se členem.",
+            "text": "Mnoho předložek splývá se členem.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Končí-li kmen slovesa na t, d, m nebo n, ve 2. a 3. osobě jednotného čísla a ve 2. osobě množného čísla se mezi kmen a koncovku často vkládá -e- pro snazší výslovnost.",
+            "heading": "-e- mezi kmenem a koncovkou",
+            "text": "Končí-li kmen slovesa na t, d, m, n, vkládá se ve 2. a 3. osobě jednotného čísla a ve 2. osobě množného čísla mezi kmen a koncovku často -e- kvůli snazší výslovnosti.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3943,7 +3943,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Složená podstatná jména",
-            "text": "Složená podstatná jména obvykle přebírají člen posledního podstatného jména.",
+            "text": "Složená podstatná jména mají obvykle člen posledního slova.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Ve slovech Stockwerk, Stein, Stadt, stecken se st vyslovuje jako št.",
-          "Ve slovech der Ofen, der Boden se o vyslovuje dlouze.",
+          "Ve slovech Stockwerk, Stein, Stadt, stecken: st se vyslovuje jako št.",
+          "Ve slovech der Ofen, der Boden: o je dlouhé.",
           "sch se vyslovuje jako š: der Schornstein, der Mensch.",
-          "Ve slovech das Haus, das Holz je h slyšitelné a vyslovuje se.",
-          "Ve slovech die Wohnung a wohnen h označuje délku předchozí samohlásky a nevyslovuje se.",
-          "Ve slovech die Küche, die Dächer se ch vyslovuje jako německá hláska ich-Laut [ç], která v češtině nemá přesný ekvivalent.",
-          "Ve slově das Vorhaus se v vyslovuje jako f."
+          "Ve slovech das Haus, das Holz: h je slyšet a musí se vyslovovat.",
+          "Ve slovech die Wohnung, wohnen: h je znaménko délky, nevyslovuje se.",
+          "Ve slovech die Küche, die Dächer: ch se vyslovuje jako měkká hláska podobná českému „ch“, ale vytvořená vpředu na patře, jako německý ich-Laut.",
+          "Ve slově das Vorhaus: v se vyslovuje jako f."
         ]
       },
       {
@@ -4074,14 +4074,14 @@ const COURSE_LESSON_DATA = {
       },
       {
         "title": "Přelož",
-        "type": "TranslationCards",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Co je vysoké?",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Kolik podlaží má dům?",
+            "lv": "Kolik pater má dům?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
@@ -4153,15 +4153,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "V jakém patře bydlíš?",
+            "lv": "V kterém patře bydlíš?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Kam musíš nést dřevo?",
+            "lv": "Kam musíš nést dříví?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Kam dáváš dřevo?",
+            "lv": "Kam strkáš dříví?",
             "de": "Wohin steckst du das Holz?"
           },
           {
@@ -4177,13 +4177,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson21": {
-    "id": "Lesson21",
+    "id": "lesson21",
     "title": "Lekce 21",
     "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
     "intro": "Dvacátá první lekce: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Die Holzhauer arbeiten in der Scheune.",
           "Sie sägen und spalten Holz.",
@@ -4217,13 +4217,13 @@ const COURSE_LESSON_DATA = {
           "sägen — řezat pilou",
           "spalten — štípat",
           "die Axt — sekera",
-          "von — od / z",
-          "aus — z / ze",
-          "mit — s",
+          "von — od, z",
+          "aus — z",
+          "mit — s, se",
           "helfen — pomáhat",
-          "treten — jít / vstoupit / udělat krok",
-          "du trittst — jdeš / vstupuješ",
-          "er tritt — jde / vstupuje",
+          "treten — jít / přijít / vykročit",
+          "du trittst — jdeš / vykročíš",
+          "er tritt — on jde / vykročí",
           "rufen — volat",
           "holen — přinést / dojít pro",
           "eilen — spěchat",
@@ -4231,7 +4231,7 @@ const COURSE_LESSON_DATA = {
           "finden — najít",
           "sehen — vidět",
           "du siehst — vidíš",
-          "er sieht — vidí",
+          "er sieht — on vidí",
           "fleißig — pilně",
           "die Scheune — stodola",
           "das Feld — pole",
@@ -4243,7 +4243,7 @@ const COURSE_LESSON_DATA = {
           "die Milch — mléko",
           "der Eimer — kbelík",
           "die Säge — pila",
-          "das Beil — sekera"
+          "das Beil — sekyrka"
         ]
       },
       {
@@ -4253,26 +4253,26 @@ const COURSE_LESSON_DATA = {
             "heading": "mit / von / aus + Dativ",
             "text": "Předložky mit, von a aus se vždy pojí s dativem.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
+              "mit — s, se",
+              "von — od, z",
+              "aus — z",
               "mit dem Mann — s mužem",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "von dem Felde / vom Felde — z pole",
+              "aus der Küche — z kuchyně"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "Předložka von se může spojit se členem.",
+            "text": "Předložka von může splývat se členem.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Současná forma: vom Feld, vom Berg."
+              "Současný tvar: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Pokud se osoba nebo předmět nachází uvnitř místnosti, místa nebo nádoby a vychází či se bere ven, používá se aus.",
+            "heading": "Woher? — odkud?",
+            "text": "Nachází-li se osoba nebo předmět v nějaké místnosti, na nějakém místě nebo v nádobě a vychází odtud ven, použije se aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Pokud se osoba nebo předmět nachází na nějakém místě nebo na něčem a pohybuje se odtud pryč, používá se von.",
+            "text": "Nachází-li se osoba nebo předmět nad nějakým místem nebo na něčem a vzdaluje se odtud, použije se von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4296,7 +4296,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Materiál",
-            "text": "Když mluvíme o materiálu, ze kterého je předmět vyroben, používá se aus.",
+            "text": "Mluví-li se o materiálu, z něhož je předmět vyroben, použije se aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Ve slově die Axt se x vyslovuje jako ks.",
-          "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako aj.",
-          "Ve slově die Scheune se eu vyslovuje jako oj.",
-          "Ve slově die Brücke se ck vyslovuje jako k."
+          "Ve slově die Axt: x se vyslovuje jako ks.",
+          "Ve slovech arbeiten, das Beil, steigen: ei se vyslovuje jako aj.",
+          "Ve slově die Scheune: eu se vyslovuje jako oj.",
+          "Ve slově die Brücke: ck se vyslovuje jako zdvojené k."
         ]
       },
       {
@@ -4320,91 +4320,91 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Odpověz podle textu ke čtení.",
+            "task": "Odpovídej podle textu ke čtení.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
         "title": "Přelož",
-        "type": "TranslationCards",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "Všechny sešity jsou v tašce.",
+            "lv": "Všechny sešity jsou v aktovce.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Vyndávám sešity z tašky.",
+            "lv": "Vyndávám sešity z aktovky.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
@@ -4412,7 +4412,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "Ve sklepě stojí kbelík s mlékem.",
+            "lv": "Kbelík s mlékem stojí ve sklepě.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
@@ -4420,15 +4420,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Sundávám si čepici z hlavy.",
+            "lv": "Sundávám čepici z hlavy.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
-            "lv": "Obraz visí na zdi.",
+            "lv": "Obraz visí na stěně.",
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Otec sundává obraz ze zdi.",
+            "lv": "Otec sundává obraz ze stěny.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
@@ -4436,7 +4436,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Beru noty z klavíru.",
+            "lv": "Sundávám noty z klavíru.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {

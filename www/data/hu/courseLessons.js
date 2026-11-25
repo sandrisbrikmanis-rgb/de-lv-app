@@ -2436,9 +2436,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson15": {
     "id": "lesson15",
-    "title": "15. előadás",
-    "subtitle": "Sollen, dürfen, essen, gyümölcs",
-    "intro": "Tizenötödik előadás: sollen, dürfen, essen és gyümölcs szavak.",
+    "title": "15. lecke",
+    "subtitle": "sollen, dürfen, essen, gyümölcsök",
+    "intro": "A tizenötödik lecke: sollen, dürfen, essen és a gyümölcsök nevei.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -2471,48 +2471,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "sollen — vajadzēt / būt pienākumam",
-          "ich soll — man vajag / man jādara",
-          "du sollst — tev vajag / tev jādara",
-          "er soll — viņam vajag / viņam jādara",
-          "wir sollen — mums vajag / mums jādara",
-          "ihr sollt — jums vajag / jums jādara",
-          "sie sollen — viņiem / viņām vajag",
-          "dürfen — drīkstēt",
-          "ich darf — es drīkstu",
-          "du darfst — tu drīksti",
-          "er darf — viņš drīkst",
-          "wir dürfen — mēs drīkstam",
-          "ihr dürft — jūs drīkstat",
-          "sie dürfen — viņi / viņas drīkst",
-          "nicht — ne",
-          "das Messer — nazis",
-          "der Apfel — ābols",
-          "die Äpfel — āboli",
-          "schälen — mizot",
-          "entzweischneiden — pārgriezt uz pusēm",
-          "die Birne — bumbieris",
-          "die Birnen — bumbieri",
-          "die Pflaume — plūme",
-          "die Pflaumen — plūmes",
-          "die Kirsche — ķirsis",
-          "die Kirschen — ķirši",
-          "gern — labprāt",
-          "reif — ienācies / nogatavojies",
-          "unreif — neienācies / nenogatavojies",
-          "nehmen — ņemt",
-          "ich nehme — es ņemu",
-          "du nimmst — tu ņem",
-          "er nimmt — viņš ņem",
-          "essen — ēst",
-          "ich esse — es ēdu",
-          "du isst — tu ēd",
-          "er isst — viņš ēd",
-          "wir essen — mēs ēdam",
-          "ihr esst — jūs ēdat",
-          "sie essen — viņi / viņas ēd"
+          "sollen — kell / kötelessége valamit tenni",
+          "ich soll — nekem kell / az a dolgom",
+          "du sollst — neked kell / az a dolgod",
+          "er soll — neki kell / az a dolga",
+          "wir sollen — nekünk kell / az a dolgunk",
+          "ihr sollt — nektek kell / az a dolgotok",
+          "sie sollen — nekik kell",
+          "dürfen — szabad (valamit tenni), -hat, -het",
+          "ich darf — nekem szabad",
+          "du darfst — neked szabad",
+          "er darf — neki szabad",
+          "wir dürfen — nekünk szabad",
+          "ihr dürft — nektek szabad",
+          "sie dürfen — nekik szabad",
+          "nicht — nem",
+          "das Messer — a kés",
+          "der Apfel — az alma",
+          "die Äpfel — az almák",
+          "schälen — hámozni",
+          "entzweischneiden — kettévágni",
+          "die Birne — a körte",
+          "die Birnen — a körték",
+          "die Pflaume — a szilva",
+          "die Pflaumen — a szilvák",
+          "die Kirsche — a cseresznye",
+          "die Kirschen — a cseresznyék",
+          "gern — szívesen",
+          "reif — érett / beérett",
+          "unreif — éretlen / be nem érett",
+          "nehmen — venni",
+          "ich nehme — én veszek",
+          "du nimmst — te veszel",
+          "er nimmt — ő vesz",
+          "essen — enni",
+          "ich esse — én eszem",
+          "du isst — te eszel",
+          "er isst — ő eszik",
+          "wir essen — mi eszünk",
+          "ihr esst — ti esztek",
+          "sie essen — ők esznek"
         ]
       },
       {
@@ -2520,20 +2520,20 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "A Sollen azt jelenti, hogy szükség van a kötelességtudat értelmében."
+            "text": "A sollen jelentése „kell”, kötelesség értelmében."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Összehasonlítás",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
-              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
-              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
+              "müssen — kell szükségből vagy meggyőződésből",
+              "sollen — kell kötelesség értelmében",
+              "Ich muss lernen. — Tanulnom kell, mert szükséges.",
+              "Ich soll lernen. — Tanulnom kell, mert ez a kötelességem."
             ]
           },
           {
-            "heading": "Sollen formas",
-            "text": "A sollen igének ugyanaz az egyes szám első és harmadik személye.",
+            "heading": "A sollen alakjai",
+            "text": "A sollen igénél a jelen idő egyes szám 1. és 3. személye megegyezik.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "A Dürfen azt jelenti, hogy megengedik. A Dürfenben a törzshangzó egyes számban a, többes számban ü.",
+            "text": "A dürfen jelentése: valamit szabad tenni. A dürfen tőmagánhangzója egyes számban a, többes számban ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen ív a következőképpen.",
+            "text": "Az essen ige ragozása a következő.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
-            "text": "Ha a projekt modern írásmódot használ, a következőket írhatja: du isst, er/sie/es isst, ihr esst."
+            "heading": "Mai helyesírás",
+            "text": "A mai helyesírás szerint így is írhatjuk: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "Az entzweischneiden összetett igében a hangsúly az entzweí- előtagon van, így a jelen időben az előtagot elválasztjuk és a mondat végére helyezzük.",
+            "text": "Az entzweischneiden összetett igében a hangsúly az entzweí- igekötőn van, ezért jelen időben az igekötő leválik, és a mondat végére kerül.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
+              "Ich schneide den Apfel entzwei. — Kettévágom az almát."
             ]
           }
         ]
@@ -2583,55 +2583,55 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "Az Äpfel és a schälen szavakban az ä-t zárt e-nek ejtjük.",
+          "Az Äpfel szóban az ä-t röviden ejtjük, mert a magánhangzót két mássalhangzó követi.",
+          "A schälen szóban az ä-t hosszan ejtjük, mert a magánhangzót egy mássalhangzó követi.",
+          "A gern szóban az e rövid és nyílt.",
+          "Jegyezd meg: az ei kettőshangzót a németben áj-nak ejtjük: reif, unreif."
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ki egészséges, ki szabad dolgozni?",
+            "lv": "Ki egészséges, ki dolgozhat?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Ferenc egészséges, tud dolgozni.",
+            "lv": "Franz egészséges, ő dolgozhat.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Dolgozhat a nagypapa?",
+            "lv": "Dolgozhat a nagyapa?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Nem, a nagyapa nem tud dolgozni, mert beteg.",
+            "lv": "Nem, a nagyapa nem dolgozhat, mert beteg.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Anya, ehetek szilvát?",
+            "lv": "Anya, megehetem a szilvákat?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Nem, nem kell megenni a szilvát, még nem érkezett meg.",
+            "lv": "Nem, a szilvákat nem kellene megenned, éretlenek.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Almát vagy körtét ettél?",
+            "lv": "Almát eszel vagy körtét?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
-            "lv": "Eszek egy körtét.",
+            "lv": "Egy körtét eszem.",
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Milyen ízű a körte?",
+            "lv": "Hogy ízlik a körte?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "A körte nagyon jó ízű.",
+            "lv": "A körte nagyon jól ízlik.",
             "de": "Die Birne mundet sehr gut."
           },
           {
@@ -2639,7 +2639,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Egy diáknak tanulnia kell.",
+            "lv": "A tanulónak tanulnia kell.",
             "de": "Der Schüler muss lernen."
           },
           {
@@ -2647,15 +2647,15 @@ const COURSE_LESSON_DATA = {
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Igen, előrébb akar jutni.",
+            "lv": "Igen, előre akar jutni.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Foghat-e egy gyerek kést?",
+            "lv": "Elveheti a gyermek a kést?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Gyermek ne vegyen kést, mert a kés éles.",
+            "lv": "A gyermeknek nem kellene elvennie a kést, mert a kés éles.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2664,9 +2664,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson16": {
     "id": "lesson16",
-    "title": "16. előadás",
-    "subtitle": "Dative, geben, sich nähern",
-    "intro": "Tizenhatodik előadás: datív, geben, sich nähern és datív gyakorlatok.",
+    "title": "16. lecke",
+    "subtitle": "Részes eset, geben, sich nähern",
+    "intro": "A tizenhatodik lecke: részes eset, geben, sich nähern és gyakorlatok a részes esetre.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -2692,53 +2692,53 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "wem — kam?",
-          "schenken — dāvināt",
-          "dem Sohne — dēlam",
-          "den Söhnen — dēliem",
-          "sich nähern — tuvoties",
-          "ich nähere mich — es tuvojos",
-          "du näherst dich — tu tuvojies",
-          "geben — dot",
-          "ich gebe — es dodu",
-          "du gibst — tu dod",
-          "er gibt — viņš dod",
-          "die Magd — kalpone",
-          "Brot — maize",
-          "Milch — piens",
-          "gehorchen — paklausīt",
-          "der Knecht — kalps",
-          "gehören — piederēt",
-          "das Feld — lauks / tīrums",
-          "die Felder — lauki / tīrumi",
-          "die Wiese — pļava",
-          "die Wiesen — pļavas",
-          "der Wald — mežs",
-          "die Wälder — meži",
-          "der Bauer — zemnieks",
-          "die Bäuerin — zemniece",
-          "folgen — sekot",
-          "der Jäger — mednieks",
-          "treu — uzticīgs"
+          "wem — kinek?",
+          "schenken — ajándékozni",
+          "dem Sohne — a fiúnak",
+          "den Söhnen — a fiaknak",
+          "sich nähern — közeledni",
+          "ich nähere mich — én közeledem",
+          "du näherst dich — te közeledsz",
+          "geben — adni",
+          "ich gebe — én adok",
+          "du gibst — te adsz",
+          "er gibt — ő ad",
+          "die Magd — a szolgáló",
+          "Brot — kenyér",
+          "Milch — tej",
+          "gehorchen — engedelmeskedni",
+          "der Knecht — a béres, a szolga",
+          "gehören — valakié lenni, valakihez tartozni",
+          "das Feld — a mező / a szántóföld",
+          "die Felder — a mezők / a szántóföldek",
+          "die Wiese — a rét",
+          "die Wiesen — a rétek",
+          "der Wald — az erdő",
+          "die Wälder — az erdők",
+          "der Bauer — a paraszt",
+          "die Bäuerin — a parasztasszony",
+          "folgen — követni",
+          "der Jäger — a vadász",
+          "treu — hűséges"
         ]
       },
       {
         "title": "Nyelvtan",
         "items": [
           {
-            "heading": "Dativs",
-            "text": "A datívus válaszol a kérdésre: wem? - kinek?"
+            "heading": "Részes eset",
+            "text": "A részes eset a következő kérdésre felel: wem? — kinek?"
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Egyes szám",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Hímnem",
+                "Nőnem",
+                "Semlegesnem"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Többes szám",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Hímnem",
+                "Nőnem",
+                "Semlegesnem"
               ],
               [
                 "Nominativ",
@@ -2790,8 +2790,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
-            "text": "A hímnemű és a semleges főnevek az egyes szám datívuszában felvehetik az -e végződést. Manapság ezt a befejezést gyakran elejtik.",
+            "heading": "A részes eset -e végződése",
+            "text": "A hím- és semlegesnemű főnevek egyes szám részes esetben -e végződést kaphatnak. Ma ez a végződés gyakran elmarad.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2800,8 +2800,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārta datīvā",
-            "text": "A nőnemű főnevek nem végződnek egyes számban.",
+            "heading": "Nőnem részes esetben",
+            "text": "A nőnemű főnevek egyes szám részes esetben nem kapnak végződést.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "A határozatlan névelő részes esetben",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,8 +2820,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
-            "text": "A többes számú datatív szócikk és a főnév gyakran az -n végződést veszi fel.",
+            "heading": "Többes szám részes esetben",
+            "text": "Többes szám részes esetben a névelő és a főnév gyakran -n végződést kap.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2830,8 +2830,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Ha a többes szám már -n-re végződik, akkor egy másik -n nem kerül hozzáadásra.",
+            "heading": "Ha a többes szám már -n-re végződik",
+            "text": "Ha a többes szám már -n-re végződik, nem teszünk hozzá még egy -n-t.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "A geben igében az e egyes szám 2. és 3. személyben i-re változik.",
+            "text": "A geben igében egyes szám 2. és 3. személyben az e i-re változik.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Visszaható ige: sich nähern - megközelíteni.",
+            "text": "Visszaható ige: sich nähern — közeledni.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2857,26 +2857,26 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar Umlaut",
+            "heading": "Többes szám Umlauttal",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Bez artikula",
-            "text": "A cikk nélkül gyakran használt szavak: die Milch, das Brot."
+            "heading": "Névelő nélkül",
+            "text": "Gyakran névelő nélkül használt szavak: die Milch, das Brot."
           }
         ]
       },
       {
         "title": "Kiejtés",
         "items": [
-          "Vārdos wem, dem, den, der — e ir garš un šaurs.",
-          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-          "die Wälder: ä izrunā kā šaurais īsais e.",
-          "die Bäuerinnen: äu izrunā kā oi.",
-          "-ie ir garā ī apzīmējums: die Wiese."
+          "A wem, dem, den, der szavakban — az e hosszú és zárt.",
+          "A gehorchen szóban a h hallható: ge-hor-chen.",
+          "die Wälder: az ä-t rövid, zárt e-nek ejtjük.",
+          "die Bäuerinnen: az äu-t oj-nak ejtjük.",
+          "Az -ie hosszú í-t jelöl: die Wiese."
         ]
       },
       {
@@ -2884,96 +2884,96 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Írd be a helyes névelőt részes esetben/tárgyesetben a mondat értelme szerint.",
             "answer": "Der Vater ruft den Mann."
           },
           {
             "prompt": "Der Vater ruft d... Frau.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Írd be a helyes névelőt részes esetben/tárgyesetben a mondat értelme szerint.",
             "answer": "Der Vater ruft die Frau."
           },
           {
             "prompt": "Der Vater ruft d... Kind.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Írd be a helyes névelőt részes esetben/tárgyesetben a mondat értelme szerint.",
             "answer": "Der Vater ruft das Kind."
           },
           {
             "prompt": "Der Vater ruft d... Sohn.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Írd be a helyes névelőt részes esetben/tárgyesetben a mondat értelme szerint.",
             "answer": "Der Vater ruft den Sohn."
           },
           {
             "prompt": "Der Vater ruft d... Fräulein.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Írd be a helyes névelőt részes esetben/tárgyesetben a mondat értelme szerint.",
             "answer": "Der Vater ruft das Fräulein."
           },
           {
             "prompt": "Der Vater ruft d... Tante.",
-            "task": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+            "task": "Írd be a helyes névelőt részes esetben/tárgyesetben a mondat értelme szerint.",
             "answer": "Der Vater ruft die Tante."
           },
           {
             "prompt": "Der Vater nähert sich d... Knechte.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich dem Knechte."
           },
           {
             "prompt": "Der Vater nähert sich d... Tochter.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich der Tochter."
           },
           {
             "prompt": "Der Vater nähert sich d... Magd.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich der Magd."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrer.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich dem Lehrer."
           },
           {
             "prompt": "Der Vater nähert sich d... Tischler.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich dem Tischler."
           },
           {
             "prompt": "Der Vater nähert sich d... Lehrerin.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich der Lehrerin."
           },
           {
             "prompt": "Der Vater nähert sich d... Mädchen.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich dem Mädchen."
           },
           {
             "prompt": "Der Vater nähert sich d... Jäger.",
-            "task": "Ieliec pareizo artikulu datīvā.",
+            "task": "Írd be a helyes névelőt részes esetben.",
             "answer": "Der Vater nähert sich dem Jäger."
           },
           {
             "prompt": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
-            "task": "Pārveido daudzskaitlī.",
+            "task": "Tedd többes számba.",
             "answer": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten."
           },
           {
             "prompt": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
-            "task": "Pārveido daudzskaitlī.",
+            "task": "Tedd többes számba.",
             "answer": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern."
           }
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hogy hívják az apát?",
+            "lv": "Kit hív az apa?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Felhívja a fiát és a lányát.",
+            "lv": "Hívja a fiút és a lányt.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
@@ -2981,7 +2981,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Ez az erdő a gazdáé.",
+            "lv": "Ez az erdő a paraszté.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
@@ -2989,7 +2989,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "A kutya engedelmeskedik a szolgálóknak és a szolgálólányoknak.",
+            "lv": "A kutya engedelmeskedik a béreseknek és a szolgálóknak.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
@@ -3017,11 +3017,11 @@ const COURSE_LESSON_DATA = {
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Mi közeledik az iskolás fiúkhoz és a lányokhoz?",
+            "lv": "Ki közeledik a tanulókhoz és a tanulólányokhoz?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "A tanár közeledik a tanulókhoz.",
+            "lv": "A tanár közeledik a tanulókhoz és a tanulólányokhoz.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3030,9 +3030,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson17": {
     "id": "lesson17",
-    "title": "17. előadás",
-    "subtitle": "Mit + Dativ, womit / mit wem, Umlaut igék",
-    "intro": "Tizenhetedik előadás: mit + Dativ, womit / mit wem és igék Umlauttal.",
+    "title": "17. lecke",
+    "subtitle": "mit + részes eset, womit / mit wem, Umlautos igék",
+    "intro": "A tizenhetedik lecke: mit + részes eset, womit / mit wem és Umlautos igék.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -3060,35 +3060,35 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "der Spaten — lāpsta",
-          "die Grube — bedre",
-          "graben — rakt",
-          "womit — ar ko?",
-          "der Ball — bumba",
-          "werfen — mest",
-          "fangen — ķert",
-          "auffangen — uzķert / noķert",
-          "wieder — atkal",
-          "der Schuldiener — skolas apkalpotājs",
-          "der Besen — slota",
-          "fegen — slaucīt ar slotu",
-          "die Diele — grīda",
-          "der Lappen — lupata / drāna",
-          "wischen — slaucīt / tīrīt",
-          "abwischen — noslaucīt",
-          "helfen — palīdzēt",
-          "danken — pateikties",
-          "der Freund — draugs",
-          "die Freundin — draudzene",
-          "die Freundinnen — draudzenes",
-          "mit — ar",
-          "mit wem — ar ko? / ar kuru?",
-          "der Staub — putekļi",
-          "der Bruder — brālis",
-          "die Schwester — māsa",
-          "die Dienerin — kalpone"
+          "der Spaten — az ásó",
+          "die Grube — a gödör",
+          "graben — ásni",
+          "womit — mivel?",
+          "der Ball — a labda",
+          "werfen — dobni",
+          "fangen — fogni, elkapni",
+          "auffangen — elkapni / elfogni",
+          "wieder — újra, ismét",
+          "der Schuldiener — az iskolaszolga",
+          "der Besen — a seprű",
+          "fegen — seprűvel söpörni",
+          "die Diele — a padló",
+          "der Lappen — a rongy / a törlőruha",
+          "wischen — törölni / tisztítani",
+          "abwischen — letörölni",
+          "helfen — segíteni",
+          "danken — megköszönni, köszönetet mondani",
+          "der Freund — a barát",
+          "die Freundin — a barátnő",
+          "die Freundinnen — a barátnők",
+          "mit — -val, -vel",
+          "mit wem — kivel?",
+          "der Staub — a por",
+          "der Bruder — a fivér",
+          "die Schwester — a lánytestvér",
+          "die Dienerin — a szolgálónő"
         ]
       },
       {
@@ -3096,14 +3096,14 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "A mit elöljárószó mindig a datívus eset mellett áll. lett: mit = -val."
+            "text": "A mit elöljárószó mindig részes esettel áll. Magyarul: mit = -val, -vel."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "A német kérdés \"mivel?\" kétféleképpen fejezhető ki: mit wem? — személyekről, womit? — dolgokról/tárgyakról.",
+            "text": "A „kivel?”, illetve „mivel?” kérdést a németben kétféleképpen fejezzük ki: mit wem? — személyekre, womit? — dolgokra/tárgyakra.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — Kivel beszél a fivér?",
+              "Womit gräbt der Knabe die Grube? — Mivel ássa a fiú a gödröt?"
             ]
           },
           {
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "A graben, fangen, auffangen igékben az Umlaut egyes szám 2. és 3. személyben szerepel.",
+            "text": "A graben, fangen, auffangen igék egyes szám 2. és 3. személyében Umlaut van.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "A helfen és werfen igékben egyes szám 2. és 3. személyben az e tő i-re változik.",
+            "text": "A helfen és a werfen igéknél egyes szám 2. és 3. személyben a tő e-je i-re változik.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3147,8 +3147,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
-            "text": "Az auffangen és abwischen összetett igékben az előtag hangsúlyos. Ezért a jelenlegi előtagot elválasztják és a mondat végére helyezik.",
+            "heading": "Elváló igekötők",
+            "text": "Az auffangen és az abwischen összetett igéknél a hangsúly az igekötőn van. Ezért jelen időben az igekötő leválik, és a mondat végére kerül.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,11 +3156,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "A Fegen és a wischen egyaránt azt jelenti, hogy seperni, de a használat más.",
+            "text": "A fegen és a wischen egyaránt takarítást jelent, de másképp használjuk őket.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — seprűvel söpörni",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — ronggyal, törlőruhával törölni, letörölni a port",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "A werfen szóban az első e nyílt: werfen.",
+          "A wieder szóban az e nyílt: wieder.",
+          "A wieder és a die Diele szavakban az ie hosszú í-t jelöl: wieder, die Diele.",
+          "A der Spaten szóban az sp-t úgy ejtjük, mint a magyar sp-t: der Spaten."
         ]
       },
       {
@@ -3181,55 +3181,55 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Válaszolj egyes számban, majd többes számban.",
+            "task2": "Most válaszolj többes számban.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Válaszolj egyes számban, majd többes számban.",
+            "task2": "Most válaszolj többes számban.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Válaszolj egyes számban, majd többes számban.",
+            "task2": "Most válaszolj többes számban.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Válaszolj egyes számban, majd többes számban.",
+            "task2": "Most válaszolj többes számban.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
-            "task": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task": "Válaszolj egyes számban, majd többes számban.",
+            "task2": "Most válaszolj többes számban.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Melyik a szélesebb, az ajtó vagy az ablak?",
+            "lv": "Mi szélesebb, az ajtó vagy az ablak?",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
-            "lv": "Az ajtó szélesebb, mint az ablak.",
+            "lv": "Az ajtó szélesebb az ablaknál.",
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Mit töröl a lány?",
+            "lv": "Mit töröl le a lány?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
@@ -3237,7 +3237,7 @@ const COURSE_LESSON_DATA = {
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "Mivel törli le a port a lány?",
+            "lv": "Mivel törli le a lány a port?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
@@ -3245,15 +3245,15 @@ const COURSE_LESSON_DATA = {
             "de": "Mit wem spricht das Mädchen?"
           },
           {
-            "lv": "A kertésznővel beszélget.",
+            "lv": "Ő a kertésszel beszél.",
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Beszél egy barátjával?",
+            "lv": "A baráttal beszél?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Nem, a barátaival beszél.",
+            "lv": "Nem, a barátokkal beszél.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
@@ -3261,19 +3261,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wem hilft der Knabe?"
           },
           {
-            "lv": "Segít a kertésznek.",
+            "lv": "A kertésznek segít.",
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Mivel vágja a papírt?",
+            "lv": "Mivel vágja ketté a papírt?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Ollóval vágja a papírt.",
+            "lv": "Ollóval vágja ketté a papírt.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "Mivel rajzol a testvér?",
+            "lv": "Mivel rajzol a fivér?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
@@ -3281,15 +3281,15 @@ const COURSE_LESSON_DATA = {
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "Mivel tartod a lapátot?",
+            "lv": "Mivel tartod az ásót?",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "Egy lapátot tartok a kezemmel.",
+            "lv": "Kézzel tartom az ásót.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "Kivel dolgozunk együtt?",
+            "lv": "Mivel dolgozunk?",
             "de": "Womit arbeiten wir?"
           },
           {
@@ -3305,7 +3305,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Mivel halljuk?",
+            "lv": "Mivel hallunk?",
             "de": "Womit hören wir?"
           },
           {
@@ -3313,11 +3313,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "Mivel jár a testvér?",
+            "lv": "Kivel megy a fivér?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Egy testvér megy az apjával, az anyjával, a tanárával, a nagybátyjával, a nagynénjével, az unokatestvérével, az unokatestvérével.",
+            "lv": "A fivér az apával, az anyával, a tanárral, a nagybácsival, a nagynénivel, a fiú unokatestvérrel, a lány unokatestvérrel megy.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3326,9 +3326,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson18": {
     "id": "lesson18",
-    "title": "18. előadás",
-    "subtitle": "Wohin / wo, Akkusativ vagy Dativ / in / auf",
-    "intro": "Tizennyolcadik előadás: wohin / wo, Akkusativ vagy Dativ egy / in / auf jellel.",
+    "title": "18. lecke",
+    "subtitle": "wohin / wo, tárgyeset vagy részes eset az an / in / auf után",
+    "intro": "A tizennyolcadik lecke: wohin / wo, tárgyeset vagy részes eset az an / in / auf után.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -3357,31 +3357,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "wohin — kurp?",
-          "wo — kur?",
-          "tragen — nest",
-          "ich trage — es nesu",
-          "du trägst — tu nes",
-          "er/sie/es trägt — viņš/viņa/tas nes",
-          "der Korb — grozs / kurvis",
-          "die Körbe — grozi / kurvji",
-          "das Körbchen — groziņš / kurvītis",
-          "stellen — novietot / nolikt stāvus",
-          "legen — likt / nolikt guļus",
-          "das Wasser — ūdens",
-          "gießen — liet",
-          "der Krug — krūze",
-          "die Krüge — krūzes",
-          "jetzt — tagad",
-          "an — pie",
-          "auf — uz",
-          "in — iekšā / uz iekšpusi",
-          "der Tisch — galds",
-          "die Bank — sols",
-          "die Diele — grīda",
-          "der Eimer — spainis"
+          "wohin — hová?",
+          "wo — hol?",
+          "tragen — vinni",
+          "ich trage — én viszek",
+          "du trägst — te viszel",
+          "er/sie/es trägt — ő visz",
+          "der Korb — a kosár",
+          "die Körbe — a kosarak",
+          "das Körbchen — a kosárka",
+          "stellen — állítani / állva elhelyezni",
+          "legen — tenni / fektetve elhelyezni",
+          "das Wasser — a víz",
+          "gießen — önteni",
+          "der Krug — a korsó",
+          "die Krüge — a korsók",
+          "jetzt — most",
+          "an — mellé, mellett, -hoz, -nál",
+          "auf — rá, -ra, -on",
+          "in — bele, -ba / benne, -ban",
+          "der Tisch — az asztal",
+          "die Bank — a pad",
+          "die Diele — a padló",
+          "der Eimer — a vödör"
         ]
       },
       {
@@ -3389,96 +3389,96 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Az an, in, auf elöljárószók az Akkusativ és a Dative szóval is állhatnak."
+            "text": "Az an, in, auf elöljárószók tárgyesettel és részes esettel is állhatnak."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Ha az akció irány- vagy helyváltoztatást jelez, az Akkusativ-ot használjuk. Kérdés: wohin? - hol?",
+            "text": "Ha a cselekvés irányt vagy helyváltoztatást jelöl, tárgyesetet használunk. Kérdés: wohin? — hová?",
             "examples": [
-              "Ich gehe an den Tisch. — Es eju pie galda.",
-              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gehe an den Tisch. — Az asztalhoz megyek.",
+              "Ich stelle den Korb auf die Bank. — A kosarat a padra állítom.",
+              "Ich lege die Äpfel in das Körbchen. — Az almákat a kosárkába teszem.",
+              "Ich gieße das Wasser in den Krug. — A vizet a korsóba öntöm."
             ]
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Ha a művelet helyét vagy állapotát jelzi, a Dative használatos. Kérdés: jaj? — hol?",
+            "text": "Ha a cselekvés helyet vagy helyzetet jelöl, részes esetet használunk. Kérdés: wo? — hol?",
             "examples": [
-              "Ich stehe an dem Tische. — Es stāvu pie galda.",
-              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
-              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
-              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
+              "Ich stehe an dem Tische. — Az asztalnál állok.",
+              "Der Korb steht auf der Bank. — A kosár a padon áll.",
+              "Die Äpfel sind in dem Körbchen. — Az almák a kosárkában vannak.",
+              "Das Wasser ist in dem Kruge. — A víz a korsóban van."
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
-            "text": "Ezek az igék gyakran irányt jeleznek, és ezért választ adnak a wohin? kérdésre.",
+            "heading": "Igék a wohin? kérdéssel",
+            "text": "Ezek az igék gyakran irányt jelölnek, ezért a wohin? kérdésre felelnek.",
             "examples": [
-              "gehen — iet",
-              "kommen — nākt",
-              "fahren — braukt",
-              "laufen — skriet",
-              "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
-              "werfen — mest",
-              "reiten — jāt"
+              "gehen — menni",
+              "kommen — jönni",
+              "fahren — utazni, járművel menni",
+              "laufen — futni",
+              "fliegen — repülni",
+              "springen — ugrani",
+              "kriechen — mászni, kúszni",
+              "schleichen — lopakodni, osonni",
+              "hängen — akasztani",
+              "sich setzen — leülni",
+              "sich stellen — odaállni",
+              "werfen — dobni",
+              "reiten — lovagolni"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
-            "text": "Ezek az igék gyakran helyet vagy állapotot jeleznek, és ezért válaszolnak a wo? kérdésre.",
+            "heading": "Igék a wo? kérdéssel",
+            "text": "Ezek az igék gyakran helyet vagy helyzetet jelölnek, ezért a wo? kérdésre felelnek.",
             "examples": [
-              "sein — būt",
-              "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
-              "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "sein — lenni",
+              "sich befinden — elhelyezkedni, lenni valahol",
+              "arbeiten — dolgozni",
+              "liegen — feküdni / fekve lenni valahol",
+              "sitzen — ülni",
+              "hängen — lógni",
+              "finden — találni",
+              "suchen — keresni",
+              "spielen — játszani"
             ]
           },
           {
-            "heading": "Vielu vārdi",
-            "text": "A főnevek általában szócikk nélkül is megállják a helyüket.",
+            "heading": "Anyagnevek",
+            "text": "Az anyagnevek általában névelő nélkül állnak.",
             "examples": [
-              "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "Ich trinke Milch. — Tejet iszom.",
+              "In dem Eimer ist Wasser. — A vödörben víz van."
             ]
           },
           {
-            "heading": "Konkrēta viela",
-            "text": "Ha az anyagot egy bizonyos mennyiségben vagy egy bizonyos helyen említik, akkor az árucikk felhasználásra kerül.",
+            "heading": "Meghatározott anyag",
+            "text": "Ha az anyagot meghatározott mennyiségben vagy konkrét helyen említjük, névelőt használunk.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — A vizet a korsóba öntöm."
             ]
           },
           {
-            "heading": "in + vieta",
-            "text": "Ha az in elöljárószó nem \"in\"-nek fordítódik, hanem egy helyet fejez ki, akkor a helyhatározóval fordítható.",
+            "heading": "in + hely",
+            "text": "Ha az in elöljárószót nem „belül” értelemben fordítjuk, hanem helyet fejez ki, magyarul a -ban, -ben raggal fordíthatjuk.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — a vödörben",
+              "in dem Zimmer — a szobában"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
-            "text": "A régi formákat, mint a dem Tische, dem Kruge, im Walde, ma gyakran rövidebben használják: dem Tisch, dem Krug, im Wald."
+            "heading": "Mai alakok",
+            "text": "A régi alakokat, például dem Tische, dem Kruge, im Walde, ma gyakran rövidebben használjuk: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
         "title": "Kiejtés",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "A wohin szóban a h hallható: wo-hin.",
+          "A wo szóban az o hosszú: wo."
         ]
       },
       {
@@ -3486,60 +3486,60 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof."
           },
           {
             "prompt": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe."
           },
           {
             "prompt": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller."
           },
           {
             "prompt": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller."
           },
           {
             "prompt": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett."
           },
           {
             "prompt": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett."
           },
           {
             "prompt": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum."
           },
           {
             "prompt": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
-            "task": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: Dativ vagy Akkusativ.",
             "answer": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum."
           }
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Honnan származik a szerver?",
+            "lv": "Hová jön a szolga?",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Bejön a szobába.",
+            "lv": "A szobába jön.",
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Hol dolgozik",
+            "lv": "Hol dolgozik?",
             "de": "Wo arbeitet er?"
           },
           {
@@ -3547,35 +3547,35 @@ const COURSE_LESSON_DATA = {
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "A férfi az ablak mellé teszi a padot.",
+            "lv": "A férfi az ablakhoz állítja a padot.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "A pad az ablak mellett áll.",
+            "lv": "A pad az ablaknál áll.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "A gyerekek az erdőbe mennek.",
+            "lv": "A gyermekek az erdőbe mennek.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Bogyókat szednek az erdőben.",
+            "lv": "Bogyókat keresnek az erdőben.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "Sok bogyót találnak az erdőben.",
+            "lv": "Az erdőben sok bogyót találnak.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Az anya a kosarat a szekrényre teszi.",
+            "lv": "Az anya a szekrényre állítja a kosarat.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "A kosár a szekrényen van.",
+            "lv": "A kosár a szekrényen áll.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "A tanuló a füzeteket a táskába teszi.",
+            "lv": "A tanuló a táskába teszi a füzeteket.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
@@ -3583,7 +3583,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "A levelek most a táskában vannak.",
+            "lv": "A füzetek most a táskában vannak.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
@@ -3591,7 +3591,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "Órára megy.",
+            "lv": "Az osztályba megy.",
             "de": "Er geht in die Klasse."
           },
           {
@@ -3599,7 +3599,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sitzt der Lehrer?"
           },
           {
-            "lv": "A tanár az osztályteremben ül.",
+            "lv": "A tanár az osztályban ül.",
             "de": "Der Lehrer sitzt in der Klasse."
           }
         ]
@@ -3608,9 +3608,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson19": {
     "id": "lesson19",
-    "title": "19. előadás",
+    "title": "19. lecke",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Tizenkilencedik előadás: vor, hinter, unter, über, neben, zwischen Akkusativval vagy Dativval.",
+    "intro": "A tizenkilencedik lecke: vor, hinter, unter, über, neben, zwischen tárgyesettel vagy részes esettel.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -3642,46 +3642,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "vor — priekšā / pirms",
-          "hinter — aiz",
-          "unter — zem",
-          "über — virs / pāri",
-          "neben — blakus",
-          "zwischen — starp",
-          "werfen — mest",
-          "stellen — novietot / nostādīt / nolikt",
-          "der Spiegel — spogulis",
-          "der Schrank — skapis",
-          "der Eimer — spainis",
-          "die Bank — sols",
-          "das Bild — attēls / bilde",
-          "das Klavier — klavieres",
-          "der Großvater — vectēvs",
-          "die Großmutter — vecmāmiņa",
-          "der Stuhl — krēsls",
-          "der Zaun — žogs",
-          "die Brücke — tilts",
-          "pflanzen — stādīt",
-          "der Strauch — krūms",
-          "wachsen — augt",
-          "die Mühle — dzirnavas",
-          "die Scheune — šķūnis",
-          "der Teich — dīķis",
-          "der Garten — dārzs",
-          "das Feld — lauks",
-          "die Laube — lapene",
-          "die Wand — siena",
-          "die Karte — karte",
-          "das Land — zeme",
-          "die Stadt — pilsēta",
-          "der Berg — kalns",
-          "der See — ezers",
-          "der Fluss — upe",
-          "zeigen — rādīt",
-          "nennen — nosaukt",
-          "so — tā"
+          "vor — előtt, elé / előtt (időben)",
+          "hinter — mögött, mögé",
+          "unter — alatt, alá",
+          "über — fölött, fölé / át",
+          "neben — mellett, mellé",
+          "zwischen — között, közé",
+          "werfen — dobni",
+          "stellen — állítani / felállítani / elhelyezni",
+          "der Spiegel — a tükör",
+          "der Schrank — a szekrény",
+          "der Eimer — a vödör",
+          "die Bank — a pad",
+          "das Bild — a kép",
+          "das Klavier — a zongora",
+          "der Großvater — a nagyapa",
+          "die Großmutter — a nagymama",
+          "der Stuhl — a szék",
+          "der Zaun — a kerítés",
+          "die Brücke — a híd",
+          "pflanzen — ültetni",
+          "der Strauch — a bokor",
+          "wachsen — nőni",
+          "die Mühle — a malom",
+          "die Scheune — a csűr",
+          "der Teich — a halastó",
+          "der Garten — a kert",
+          "das Feld — a mező",
+          "die Laube — a lugas",
+          "die Wand — a fal",
+          "die Karte — a térkép",
+          "das Land — az ország",
+          "die Stadt — a város",
+          "der Berg — a hegy",
+          "der See — a tó",
+          "der Fluss — a folyó",
+          "zeigen — mutatni",
+          "nennen — megnevezni",
+          "so — így"
         ]
       },
       {
@@ -3689,11 +3689,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "Ebben az előadásban azokkal az elöljárószókkal folytatjuk, amelyek az Akkusativ és a Dative szóval egyaránt megállják a helyüket."
+            "text": "Ebben a leckében folytatjuk azokat az elöljárószókat, amelyek tárgyesettel és részes esettel is állhatnak."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Ha van irány/mozgás valahova, akkor az a kérdés, hogy mi? és az Akkusativ-ot használja.",
+            "text": "Ha irány / mozgás van valahová, a kérdés wohin?, és tárgyesetet használunk.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Ha van hely, akkor az a kérdés, hogy jaj? és a Dative-ot használja.",
+            "text": "Ha helyről van szó, a kérdés wo?, és részes esetet használunk.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3716,19 +3716,19 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Elöljárószók",
             "examples": [
-              "vor — priekšā",
-              "hinter — aiz",
-              "unter — zem",
-              "über — virs / pāri",
-              "neben — blakus",
-              "zwischen — starp"
+              "vor — előtt",
+              "hinter — mögött, mögé",
+              "unter — alatt, alá",
+              "über — fölött, fölé / át",
+              "neben — mellett, mellé",
+              "zwischen — között, közé"
             ]
           },
           {
-            "heading": "Kopsavilkums: wohin?",
-            "text": "Wohin? → Támadó",
+            "heading": "Összefoglalás: wohin?",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3742,8 +3742,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kopsavilkums: wo?",
-            "text": "Mi? → Dativ",
+            "heading": "Összefoglalás: wo?",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen - menj, amikor a cselekvés folyamatos sétát jelent. treten - belépni, megközelíteni, rálépni, ha a séta cselekvési szünettel ér véget.",
+            "text": "gehen — menni, ha a cselekvés folyamatos járást jelent. treten — belépni, odalépni, rálépni, ha a járás a cselekvés megszakadásával végződik.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "A vor szóban az o-t hosszan ejtjük.",
+          "A hinter szóban a h hallható, az e pedig nyílt.",
+          "A der Stuhl szóban: az st-t úgy ejtjük, mint a magyar st-t; a h hosszúságjel, és nem ejtjük.",
+          "A der Strauch szóban: az st-t úgy ejtjük, mint a magyar st-t.",
+          "A wachsen szóban: a ch-t k-nak ejtjük."
         ]
       },
       {
@@ -3783,54 +3783,54 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Válaszd ki a helyes esetet: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube."
           },
           {
             "prompt": "Anna befindet sich oft in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Wasser, unter d... Baum, zwischen d... Strauch und d... Laube.",
-            "task": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+            "task": "Válaszd ki a helyes esetet: wohin? → Akkusativ, wo? → Dativ.",
             "answer": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube."
           }
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "A tanár bejön az osztályterembe.",
+            "lv": "A tanár az osztályba jön.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Kártya van a kezében.",
+            "lv": "Egy térkép van a kezében.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Kiakasztja a térképet a falra.",
+            "lv": "Felakasztja a térképet a falra.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Sok várost, vidéket, hegyet, tavat és folyót mutat meg a fiúknak és a lányoknak.",
+            "lv": "Sok országot, várost, hegyet, tavat és folyót mutat a tanulóknak és a tanulólányoknak.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "Aztán a tanár felhívja a diákot.",
+            "lv": "Aztán a tanár felszólít egy tanulót.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "A tanuló közeledik a térképhez.",
+            "lv": "A tanuló a térképhez lép.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "A kártya előtt állva marad.",
+            "lv": "Megáll a térkép előtt.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "Városokat, hegyeket, folyókat nevez meg és mutat meg a tanároknak.",
+            "lv": "Megnevezi és megmutatja a tanárnak a városokat, a hegyeket és a folyókat.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Így dolgozik egy tanár az osztályteremben.",
+            "lv": "Így dolgozik a tanár az osztályban.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3839,9 +3839,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson20": {
     "id": "lesson20",
-    "title": "20. előadás",
-    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, összetett főnevek",
-    "intro": "Huszadik előadás: ház, emelet, Dativ/Akkusativ és összetett főnevek.",
+    "title": "20. lecke",
+    "subtitle": "Haus, Stockwerk, részes eset/tárgyeset, összetett főnevek",
+    "intro": "A huszadik lecke: a ház, az emeletek, részes eset/tárgyeset és összetett főnevek.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -3872,56 +3872,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "das Haus — māja",
-          "das Stockwerk — stāvs",
-          "die Mauer — mūris",
-          "der Stein — akmens",
-          "das Holz — koks / malka",
-          "das Glas — stikls",
-          "aus Glas — no stikla",
-          "die Wohnung — dzīvoklis",
-          "das Vorhaus — priekšnams / gaitenis",
-          "die Küche — virtuve",
-          "das Dach — jumts",
-          "der Boden — bēniņi / grīda / zeme",
-          "der Keller — pagrabs",
-          "der Schornstein — skurstenis",
-          "der Schornsteinfeger — skursteņslaucītājs",
-          "die Stadt — pilsēta",
-          "leben — dzīvot",
-          "tragen — nest",
-          "bringen — nest / atnest",
-          "stecken — bāzt / ielikt",
-          "der Ofen — krāsns",
-          "anzünden — aizdedzināt",
-          "bald — drīz",
-          "brennen — degt",
-          "licht — gaišs",
-          "hell — gaišs / spožs",
-          "die Tür — durvis",
-          "das Fenster — logs",
-          "der Mensch — cilvēks"
+          "das Haus — a ház",
+          "das Stockwerk — az emelet",
+          "die Mauer — a fal, a kőfal",
+          "der Stein — a kő",
+          "das Holz — a fa / a tűzifa",
+          "das Glas — az üveg",
+          "aus Glas — üvegből",
+          "die Wohnung — a lakás",
+          "das Vorhaus — az előszoba / a folyosó",
+          "die Küche — a konyha",
+          "das Dach — a tető",
+          "der Boden — a padlás / a padló / a föld",
+          "der Keller — a pince",
+          "der Schornstein — a kémény",
+          "der Schornsteinfeger — a kéményseprő",
+          "die Stadt — a város",
+          "leben — élni",
+          "tragen — vinni",
+          "bringen — vinni / hozni",
+          "stecken — dugni / betenni",
+          "der Ofen — a kályha",
+          "anzünden — meggyújtani",
+          "bald — hamarosan",
+          "brennen — égni",
+          "licht — világos",
+          "hell — világos / fényes",
+          "die Tür — az ajtó",
+          "das Fenster — az ablak",
+          "der Mensch — az ember"
         ]
       },
       {
         "title": "Nyelvtan",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Kereskedelmi szavak, amelyek választ adnak a kérdésre? a 19. és 20. előadásban – mikor?, Dative mellett áll. A datívus nem csak a wo? — hol?, hanem a wann? - mikor?",
+            "heading": "Részes eset a wann? kérdéssel",
+            "text": "Az időhatározók, amelyek a 19. és a 20. leckében a wann? — mikor? kérdésre felelnek, részes esettel állnak. A részes eset nemcsak a wo? — hol?, hanem a wann? — mikor? kérdésre is felel.",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — nappal",
+              "in der Nacht — éjjel",
+              "in dem Sommer / im Sommer — nyáron",
+              "in dem Januar / im Januar — januárban",
+              "vor drei Tagen — három nappal ezelőtt"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
-            "text": "Sok elöljárószó csatlakozik a cikkhez.",
+            "heading": "Elöljárószó + névelő",
+            "text": "Sok elöljárószó összeolvad a névelővel.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3932,8 +3932,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un galotni",
-            "text": "Ha az ige törzse t-re, d-re, m-re, n-re végződik, akkor az egyes szám 2. és 3. személyében, valamint a többes szám 2. személyében a jobb kiejtés érdekében gyakran -e- kerül a tő és a végződés közé.",
+            "heading": "-e- a tő és a végződés között",
+            "text": "Ha az igető t-re, d-re, m-re vagy n-re végződik, akkor egyes szám 2. és 3. személyben, valamint többes szám 2. személyben a tő és a végződés közé a könnyebb kiejtés kedvéért gyakran -e- kerül.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3942,8 +3942,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Az összetett főnevek általában az utolsó szó cikkét veszik fel.",
+            "heading": "Összetett főnevek",
+            "text": "Az összetett főnevek általában az utolsó szó névelőjét kapják.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Az összetett főnevek képzése",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "A tragen igében egyes szám 2. és 3. személyben az a törzshangzó Umlautot vesz fel.",
+            "text": "A tragen igében egyes szám 2. és 3. személyben az a tőmagánhangzó Umlaut-ot kap.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "A Stockwerk, Stein, Stadt, stecken szavakban: az st-t úgy ejtjük, mint a magyar st-t.",
+          "A der Ofen, der Boden szavakban: az o hosszú.",
+          "Az sch-t úgy ejtjük, mint a magyar s-t: der Schornstein, der Mensch.",
+          "A das Haus, das Holz szavakban: a h hallható, és ki kell ejteni.",
+          "A die Wohnung, wohnen szavakban: a h hosszúságjel, nem ejtjük ki.",
+          "A die Küche, die Dächer szavakban: a ch-t „h”-szerű hangként ejtjük, mint a német ich-Laut hangot.",
+          "A das Vorhaus szóban: a v-t f-nek ejtjük."
         ]
       },
       {
@@ -3987,105 +3987,105 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Wolf lebt in dem Wald."
           },
           {
             "prompt": "Dieser Mann lebt in (das Haus).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann lebt in dem Haus."
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+            "task": "Válaszd ki a helyes esetet: wo/wann → Dativ, wohin → Akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Mi a magas?",
+            "lv": "Mi magas?",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Hány emeletes a ház?",
+            "lv": "Hány emelete van a háznak?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "Hol vannak az ablakok és ajtók?",
+            "lv": "Hol vannak ablakok és ajtók?",
             "de": "Wo sind Fenster und Türen?"
           },
           {
@@ -4093,7 +4093,7 @@ const COURSE_LESSON_DATA = {
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "Miből van az ajtó?",
+            "lv": "Miből vannak az ajtók?",
             "de": "Woraus sind die Türen?"
           },
           {
@@ -4101,15 +4101,15 @@ const COURSE_LESSON_DATA = {
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Hol van a tíz lakás?",
+            "lv": "Hol van tíz lakás?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Mi van az egyes lakásokban?",
+            "lv": "Mije van minden lakásnak?",
             "de": "Was hat jede Wohnung?"
           },
           {
-            "lv": "Hol van az alagsor?",
+            "lv": "Hol van a pince?",
             "de": "Wo ist der Keller?"
           },
           {
@@ -4117,11 +4117,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Hol van a három kémény?",
+            "lv": "Hol van három kémény?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Hová megy a kéményseprő?",
+            "lv": "Hová mászik fel a kéményseprő?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
@@ -4129,11 +4129,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wo steht er?"
           },
           {
-            "lv": "Mit csinál",
+            "lv": "Mit csinál?",
             "de": "Was tut er?"
           },
           {
-            "lv": "Mi a város?",
+            "lv": "Mije van a városnak?",
             "de": "Was hat die Stadt?"
           },
           {
@@ -4141,7 +4141,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "Hol élnek sokan?",
+            "lv": "Hol él sok ember?",
             "de": "Wo leben viele Menschen?"
           },
           {
@@ -4157,15 +4157,15 @@ const COURSE_LESSON_DATA = {
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Hova kell tűzifát vinni?",
+            "lv": "Hová kell vinned a fát?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Hová teszed a tűzifát?",
+            "lv": "Hová dugod a fát?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Mit gyújtottál meg?",
+            "lv": "Mit gyújtasz meg?",
             "de": "Was zündest du an?"
           },
           {
@@ -4178,9 +4178,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson21": {
     "id": "lesson21",
-    "title": "21. előadás",
-    "subtitle": "Woher / wohin / wo, von / aus / mit + Dative",
-    "intro": "Huszonegyedik előadás: woher / wohin / wo, von / aus / mit + Dativ.",
+    "title": "21. lecke",
+    "subtitle": "woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "A huszonegyedik lecke: woher / wohin / wo, von / aus / mit + részes eset.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -4211,39 +4211,39 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "der Holzhauer — malkas cirtējs",
-          "sägen — zāģēt",
-          "spalten — skaldīt",
-          "die Axt — cirvis",
-          "von — no",
-          "aus — no / iz",
-          "mit — ar",
-          "helfen — palīdzēt",
-          "treten — iet / nākt / spert soli",
-          "du trittst — tu ej / tu sper soli",
-          "er tritt — viņš iet / sper soli",
-          "rufen — saukt",
-          "holen — atnest / atgādāt",
-          "eilen — steigties",
-          "zurück — atpakaļ",
-          "finden — atrast",
-          "sehen — redzēt",
-          "du siehst — tu redzi",
-          "er sieht — viņš redz",
-          "fleißig — čakli",
-          "die Scheune — šķūnis",
-          "das Feld — lauks",
-          "der Berg — kalns",
-          "die Brücke — tilts",
-          "der Hof — pagalms",
-          "der Keller — pagrabs",
-          "die Küche — virtuve",
-          "die Milch — piens",
-          "der Eimer — spainis",
-          "die Säge — zāģis",
-          "das Beil — cirvis"
+          "der Holzhauer — a favágó",
+          "sägen — fűrészelni",
+          "spalten — hasogatni",
+          "die Axt — a fejsze",
+          "von — -tól, -től",
+          "aus — -ról, -ről / -ból, -ből",
+          "mit — -val, -vel",
+          "helfen — segíteni",
+          "treten — menni / jönni / lépni",
+          "du trittst — te mész / te lépsz",
+          "er tritt — ő megy / lép",
+          "rufen — hívni",
+          "holen — elhozni / odahozni",
+          "eilen — sietni",
+          "zurück — vissza",
+          "finden — találni",
+          "sehen — látni",
+          "du siehst — te látsz",
+          "er sieht — ő lát",
+          "fleißig — szorgalmasan",
+          "die Scheune — a csűr",
+          "das Feld — a mező",
+          "der Berg — a hegy",
+          "die Brücke — a híd",
+          "der Hof — az udvar",
+          "der Keller — a pince",
+          "die Küche — a konyha",
+          "die Milch — a tej",
+          "der Eimer — a vödör",
+          "die Säge — a fűrész",
+          "das Beil — a balta"
         ]
       },
       {
@@ -4251,28 +4251,28 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "A mit, von és aus elöljárószavak mindig a dativus mellett állnak.",
+            "text": "A mit, von és aus elöljárószók mindig részes esettel állnak.",
             "examples": [
-              "mit — ar",
-              "von — no",
-              "aus — no / iz",
-              "mit dem Mann — ar vīru",
-              "von dem Felde / vom Felde — no lauka",
-              "aus der Küche — no virtuves"
+              "mit — -val, -vel",
+              "von — -tól, -től",
+              "aus — -ról, -ről / -ból, -ből",
+              "mit dem Mann — a férfival",
+              "von dem Felde / vom Felde — a mezőről",
+              "aus der Küche — a konyhából"
             ]
           },
           {
             "heading": "von dem = vom",
-            "text": "A von elöljáró összeolvadhat a cikkel.",
+            "text": "A von elöljárószó összeolvadhat a névelővel.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Mai alak: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — no kurienes?",
-            "text": "Ha egy személy vagy tárgy egy szobában, helyen vagy konténerben van és kijön onnan, használja az aus-t.",
+            "heading": "Woher? — honnan?",
+            "text": "Ha a személy vagy a tárgy valamilyen helyiségben, helyen vagy edényben van, és kijön onnan, az aus elöljárószót használjuk.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Ha egy személy vagy tárgy egy hely felett vagy valamin van, és távolodik onnan, a von-t használják.",
+            "text": "Ha a személy vagy a tárgy valami fölött vagy valamin van, és eltávolodik onnan, a von elöljárószót használjuk.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4295,8 +4295,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
-            "text": "Amikor arról beszélünk, hogy milyen anyagból készült a tárgy, használja az aus.",
+            "heading": "Anyag",
+            "text": "Ha arról az anyagról beszélünk, amelyből a tárgy készült, az aus elöljárószót használjuk.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "A die Axt szóban: az x-et ksz-nek ejtjük.",
+          "Az arbeiten, das Beil, steigen szavakban: az ei-t áj-nak ejtjük.",
+          "A die Scheune szóban: az eu-t oj-nak ejtjük.",
+          "A die Brücke szóban: a ck-t kettőzött k-nak ejtjük."
         ]
       },
       {
@@ -4320,107 +4320,107 @@ const COURSE_LESSON_DATA = {
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Der Vater kommt von dem Felde."
           },
           {
             "prompt": "Wohin geht er?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Er geht in die Scheune."
           },
           {
             "prompt": "Wo spricht er mit den Holzhauern?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Er spricht in der Scheune mit den Holzhauern."
           },
           {
             "prompt": "Woher steigt der Mann?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Der Mann steigt von dem Berge."
           },
           {
             "prompt": "Wohin kommt er?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Er kommt auf den Hof."
           },
           {
             "prompt": "Wo findet er den Vater?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Er findet den Vater auf dem Hof."
           },
           {
             "prompt": "Woher tritt die Mutter?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Die Mutter tritt aus dem Hause."
           },
           {
             "prompt": "Wohin geht sie?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Sie geht auf den Hof."
           },
           {
             "prompt": "Wo sieht sie den Mann?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Sie sieht den Mann auf dem Hof."
           },
           {
             "prompt": "Woher kommt die Magd?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Die Magd kommt aus der Küche."
           },
           {
             "prompt": "Wohin eilt sie?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Sie eilt in den Keller."
           },
           {
             "prompt": "Wo steht ein Eimer mit Milch?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Ein Eimer mit Milch steht im Keller."
           },
           {
             "prompt": "Woher steigt sie?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Sie steigt aus dem Keller."
           },
           {
             "prompt": "Wohin geht sie zurück?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Sie geht in die Küche zurück."
           },
           {
             "prompt": "Wo arbeitet sie fleißig?",
-            "task": "Atbildi pēc lasīšanas teksta.",
+            "task": "Válaszolj az olvasmány alapján.",
             "answer": "Sie arbeitet fleißig in der Küche."
           }
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Az összes jegyzetfüzet a táskában van.",
+            "lv": "Minden füzet a táskában van.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Kiveszem a füzeteket a táskámból.",
+            "lv": "Kiveszem a füzeteket a táskából.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Egy órát hordok a zsebemből.",
+            "lv": "Kihúzom az órát a zsebből.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "A pincében van egy vödör tej.",
+            "lv": "Egy vödör tej áll a pincében.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Hozok egy vödröt a pincéből.",
+            "lv": "Kiviszem a vödröt a pincéből.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Leveszem a kalapomat a fejemről.",
+            "lv": "Leveszem a sapkát a fejemről.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
@@ -4428,23 +4428,23 @@ const COURSE_LESSON_DATA = {
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Az apa eltávolítja a képet a falról.",
+            "lv": "Az apa leveszi a képet a falról.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "A kotta a zongorán.",
+            "lv": "A kották a zongorán fekszenek.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Leveszem a hangokat a zongoráról.",
+            "lv": "Leveszem a kottákat a zongoráról.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Egy baráttól származunk.",
+            "lv": "A baráttól jövünk.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Egy barátnőtől származunk.",
+            "lv": "A barátnőtől jövünk.",
             "de": "Wir kommen von der Freundin."
           },
           {
@@ -4452,7 +4452,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Mindegyik egy baráttól, egy barátnőtől, egy tanártól származik.",
+            "lv": "Mindnyájan a baráttól, a barátnőtől, a tanártól jönnek.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]
