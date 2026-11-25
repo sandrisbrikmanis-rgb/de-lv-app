@@ -162,7 +162,7 @@ window.LANGUAGE_UI_STRINGS = {
     "alreadyMastered": "Reč je već na spisku 100% poznatih.",
     "noCardForUnwanted": "Nema kartice koju biste označili kao nepotrebnu.",
     "markedUnwanted": "Reč je označena kao nepotrebna.",
-    "loadFailed": "Kartice nisu učitane. Osvežite stranicu ili proverite da li su sve datoteke s podacima dostupne.",
+    "loadFailed": "Kartice nije bilo moguće učitati. Ponovo učitajte stranicu ili proverite da li su sve datoteke s podacima dostupne.",
     "noCompletedSession": "Nema završene sesije za ponavljanje.",
     "showingLastSession": "Prikazujemo poslednju završenu sesiju.",
     "sessionArchivedNext": "Poslednja sesija je označena kao naučena. Učitana je sledeća sesija.",

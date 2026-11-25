@@ -20,7 +20,7 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Cursus",
     "sentences": "Zinnen",
     "verbs": "Werkwoorden",
-    "chooseGroup": "Vali grupp",
+    "chooseGroup": "Kies een groep",
     "learningModes": "Leermodi"
   },
   "groups": {
@@ -28,16 +28,16 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "nav": {
     "backHome": "Terug naar hoofdmenu",
-    "changeLanguage": "Muuda emakeelt",
+    "changeLanguage": "Moedertaal wijzigen",
     "howItWorks": "Hoe werkt het?",
-    "quickTools": "Kiirtööriistad"
+    "quickTools": "Snelle hulpmiddelen"
   },
   "buttons": {
     "known": "Ik weet het",
     "unknown": "Ik weet het niet",
     "next": "Volgende",
     "check": "Controleren",
-    "continue": "Jätka",
+    "continue": "Doorgaan",
     "close": "Sluiten",
     "delete": "Verwijderen",
     "cancel": "Annuleren",
@@ -51,13 +51,13 @@ window.LANGUAGE_UI_STRINGS = {
     "unwantedWords": "Onnodige woorden",
     "knownWords": "Bekend",
     "knownWithCount": "Bekend ({count})",
-    "markMastered": "100% thean",
+    "markMastered": "Ik ken het 100%",
     "shuffleVerbs": "Werkwoorden mengen",
-    "restartSession": "🔄 Vaata seanssi uuesti",
-    "markSessionLearned": "🏅 Märgi seanss õpituks",
-    "chooseAnotherGroup": "Vali teine grupp",
+    "restartSession": "🔄 Sessie opnieuw doornemen",
+    "markSessionLearned": "🏅 Sessie markeren als geleerd",
+    "chooseAnotherGroup": "Kies een andere groep",
     "listen": "Luisteren",
-    "listenPlural": "Kuula mitmust",
+    "listenPlural": "Luister naar het meervoud",
     "listenWithWord": "Luisteren: {word}",
     "autoplayOn": "Automatische uitspraak aan",
     "autoplayOff": "Automatische uitspraak uit",
@@ -67,12 +67,12 @@ window.LANGUAGE_UI_STRINGS = {
     "disableAutoplay": "Automatische uitspraak uitzetten",
     "enableAutoplay": "Automatische uitspraak aanzetten",
     "markUnwanted": "Markeren als onnodig",
-    "masteredWords": "100% tuntud"
+    "masteredWords": "100% bekend"
   },
   "tools": {
     "problemShort": "Probleemwoorden",
     "problemFull": "Probleemwoorden",
-    "problemWithCount": "Probleemsed sõnad ({count})",
+    "problemWithCount": "Probleemwoorden ({count})",
     "spellingShort": "Spelling",
     "spellingFull": "Spelling"
   },
@@ -87,25 +87,25 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "hints": {
     "tapToReveal": "Tik op de kaart om de vertaling te zien.",
-    "chooseNextStep": "Vali, mida edasi teha.",
-    "chooseModeOrReturn": "Vali teine režiim või tule hiljem ülevaatamiseks tagasi.",
-    "trainingCard": "Harjutuse kaart {title}"
+    "chooseNextStep": "Kies wat je nu wilt doen.",
+    "chooseModeOrReturn": "Kies een andere modus of kom later terug om te herhalen.",
+    "trainingCard": "Oefenkaart {title}"
   },
   "card": {
-    "pluralLabel": "Mitm.",
+    "pluralLabel": "Mv.",
     "spelling": "Spelling",
     "spellingVerbs": "Spelling · Werkwoorden",
     "verbsShuffleTraining": "Werkwoorden · Gemengde training",
     "answerPrefix": "Antwoord:",
-    "sessionComplete": "Seanss lõpetatud!",
+    "sessionComplete": "Sessie voltooid!",
     "sessionLabel": "Sessie",
-    "lastSessionLabel": "Viimane seanss",
-    "problemLabel": "Probleemsed",
-    "levelCompleteTitle": "Suurepärane! Tase {label} on läbitud! 🎉",
-    "levelCompleteDesc": "Oled selle grupi kõik sõnad selgeks õppinud. Aeg astuda järgmine samm!",
-    "noActiveWords": "Selles grupis pole aktiivseid sõnu.",
-    "noCardsInSession": "Selles seansis pole kaarte.",
-    "cardNotFound": "Kaarti ei leitud"
+    "lastSessionLabel": "Laatste sessie",
+    "problemLabel": "Probleemwoorden",
+    "levelCompleteTitle": "Uitstekend! Niveau {label} is voltooid! 🎉",
+    "levelCompleteDesc": "Je hebt alle woorden in deze groep geleerd. Tijd voor de volgende stap!",
+    "noActiveWords": "Er zijn geen actieve woorden in deze groep.",
+    "noCardsInSession": "Er zijn geen kaarten in deze sessie.",
+    "cardNotFound": "Kaart niet gevonden"
   },
   "verb": {
     "infinitive": "Infinitiv",
@@ -127,46 +127,46 @@ window.LANGUAGE_UI_STRINGS = {
     "noShuffleForms": "Dit werkwoord heeft niet genoeg vormen om te mengen."
   },
   "notices": {
-    "chooseNextGroup": "Vali järgmine grupp peamenüüst.",
-    "sessionReloaded": "Seanss laaditi uuesti segatud järjekorras.",
-    "sessionMovedToKnown": "Seansi sõnad viidi tuntud hulka.",
+    "chooseNextGroup": "Kies de volgende groep in het hoofdmenu.",
+    "sessionReloaded": "Sessie opnieuw geladen in willekeurige volgorde.",
+    "sessionMovedToKnown": "De woorden van de sessie zijn naar bekend verplaatst.",
     "verbShuffleOn": "Werkwoorden mengen aan.",
     "verbShuffleOff": "Werkwoorden mengen uit.",
     "spellingOn": "Spellingmodus aan.",
     "spellingOff": "Spellingmodus uit.",
-    "showingKnown": "Näitame tuntud kaarte.",
-    "problemModeOff": "Probleemsete sõnade režiim on väljas.",
-    "showingProblems": "Näitame probleemseid sõnu.",
-    "noProblems": "Probleemseid sõnu pole.",
-    "errorLevelReduced": "Vigade tase vähenes.",
-    "movedToKnown": "Sõna viidi tuntud hulka!",
-    "problemsFinishedMoved": "Probleemsed sõnad on õpitud. Sõna viidi tuntud hulka!",
-    "lastSessionDone": "Viimase seansi ülevaatus on lõpetatud.",
-    "continueLastSession": "Jätkame viimase seansi ülevaatust.",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud.",
-    "continueKnownReview": "Jätkame tuntud sõnade ülevaatust.",
+    "showingKnown": "We tonen de bekende kaarten.",
+    "problemModeOff": "Probleemwoordenmodus uit.",
+    "showingProblems": "We tonen de probleemwoorden.",
+    "noProblems": "Geen probleemwoorden.",
+    "errorLevelReduced": "Foutniveau verlaagd.",
+    "movedToKnown": "Woord verplaatst naar bekend!",
+    "problemsFinishedMoved": "Probleemwoorden geleerd. Woord verplaatst naar bekend!",
+    "lastSessionDone": "Herhaling van de laatste sessie voltooid.",
+    "continueLastSession": "We gaan verder met het herhalen van de laatste sessie.",
+    "knownReviewDone": "Herhaling van bekende woorden voltooid.",
+    "continueKnownReview": "We gaan verder met het herhalen van bekende woorden.",
     "noVerbToMark": "Er zijn geen werkwoorden om te markeren.",
     "verbMarkedKnown": "Werkwoord gemarkeerd als bekend.",
-    "noCardToMark": "Pole kaarte, mida märkida.",
+    "noCardToMark": "Er zijn geen kaarten om te markeren.",
     "markedKnown": "Gemarkeerd als bekend.",
-    "noCard": "Pole kaarti, mida märkida.",
-    "answerRevealed": "Vastus avalikustati. Sõna jääb seanssi.",
-    "returnedToStudy": "Tagasi õpperežiimi.",
-    "leftInProblems": "Jäeti probleemsesse gruppi.",
-    "leftForReview": "Jäeti ülevaatamiseks.",
-    "showingTimeReview": "Näitame: {label}.",
-    "continueTimeReview": "Jätkame: {label}.",
+    "noCard": "Er is geen kaart om te markeren.",
+    "answerRevealed": "Het antwoord is getoond. Het woord blijft in de sessie.",
+    "returnedToStudy": "Terug naar de leermodus.",
+    "leftInProblems": "Blijft bij de probleemwoorden.",
+    "leftForReview": "Bewaard om te herhalen.",
+    "showingTimeReview": "We tonen: {label}.",
+    "continueTimeReview": "We gaan verder: {label}.",
     "enterAnswerFirst": "Typ eerst het juiste antwoord en tik op ‘Controleren’.",
-    "noCardForMastered": "Pole kaarti, mida lisada 100% tuntud hulka.",
-    "addedMastered": "Sõna lisati 100% tuntud hulka.",
-    "alreadyMastered": "Sõna on juba 100% tuntud nimekirjas.",
+    "noCardForMastered": "Er is geen kaart om aan 100% bekend toe te voegen.",
+    "addedMastered": "Woord toegevoegd aan 100% bekend.",
+    "alreadyMastered": "Het woord staat al in de lijst 100% bekend.",
     "noCardForUnwanted": "Er is geen kaart om als onnodig te markeren.",
     "markedUnwanted": "Woord gemarkeerd als onnodig.",
-    "loadFailed": "Kaartide laadimine ebaõnnestus. Laadi leht uuesti või kontrolli andmefailide kättesaadavust.",
-    "noCompletedSession": "Pole lõpetatud seanssi kordamiseks.",
-    "showingLastSession": "Näitame viimast lõpetatud seanssi.",
-    "sessionArchivedNext": "Viimane seanss märgiti õpituks. Laaditi järgmine seanss.",
-    "sessionArchived": "Viimane seanss märgiti õpituks."
+    "loadFailed": "Het laden van de kaarten is mislukt. Laad de pagina opnieuw of controleer of alle gegevensbestanden beschikbaar zijn.",
+    "noCompletedSession": "Er zijn geen voltooide sessies om te herhalen.",
+    "showingLastSession": "We tonen de laatste voltooide sessie.",
+    "sessionArchivedNext": "Laatste sessie gemarkeerd als geleerd. Volgende sessie geladen.",
+    "sessionArchived": "Laatste sessie gemarkeerd als geleerd."
   },
   "review": {
     "weekLabel": "Weekoverzicht",
@@ -177,12 +177,12 @@ window.LANGUAGE_UI_STRINGS = {
     "monthEmpty": "Geen geleerde woorden voor het maandoverzicht.",
     "monthDone": "Maandoverzicht voltooid.",
     "monthCount": "Deze maand geleerde woorden: {count}",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
+    "knownReviewDone": "Herhaling van bekende woorden voltooid."
   },
   "lists": {
     "noUnwanted": "Geen onnodige woorden.",
     "noLearned": "Geen geleerde woorden.",
-    "noMastered": "100% tuntud sõnu pole."
+    "noMastered": "Er zijn geen 100% bekende woorden."
   },
   "restore": {
     "ariaLabel": "Verwijderen van alle voortgang bevestigen",
@@ -208,9 +208,9 @@ window.LANGUAGE_UI_STRINGS = {
     "extraBody": "Open <strong>Meer opties</strong> om het week- en maandoverzicht en de bekende woorden te zien en verborgen woorden terug te zetten."
   },
   "extra": {
-    "wordManagement": "Sõnade haldus",
-    "statistics": "Statistika",
-    "settings": "Seaded"
+    "wordManagement": "Woordbeheer",
+    "statistics": "Statistieken",
+    "settings": "Instellingen"
   },
   "settings": {
     "appLanguage": "App-taal"
@@ -249,38 +249,38 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Les {lesson} · Vertaal: {current} / {total}",
     "exerciseProgress": "Les {lesson} · Oefening",
     "sections": {
-      "grammar": "Grammatika",
-      "exercise": "Harjutus",
-      "translate": "Tõlgi",
-      "exerciseCombined": "Übung / Harjutus",
+      "grammar": "Grammatica",
+      "exercise": "Oefening",
+      "translate": "Vertaal",
+      "exerciseCombined": "Übung / Oefening",
       "dialogues": "Dialogen / zinnen",
       "words": "Woorden",
       "names": "Namen",
       "reading": "Tekst / lezen"
     },
     "hints": {
-      "tapToRevealAnswer": "Klõpsa kaardil, et näha vastust.",
-      "tapToContinue": "Klõpsa kaardil, et jätkata.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa tõlget.",
-      "tapNextStep": "Klõpsa kaardil, et minna järgmise sammu juurde.",
-      "exerciseCardAria": "{title} harjutuskaart"
+      "tapToRevealAnswer": "Tik op de kaart om het antwoord te zien.",
+      "tapToContinue": "Tik op de kaart om verder te gaan.",
+      "tapToRevealGerman": "Tik op de kaart om de Duitse vertaling te zien.",
+      "tapNextStep": "Tik op de kaart om naar de volgende stap te gaan.",
+      "exerciseCardAria": "Oefenkaart {title}"
     },
     "cta": {
-      "tapNextCard": "Klõpsa järgmisele kaardile",
-      "tapToRevealAnswer": "Klõpsa, et näha vastust",
-      "tapContinue": "Klõpsa jätkamiseks",
-      "transformSentence": "Muuda lauset.",
-      "transformThirdSingular": "Muuda lause 3. isikus ainsuses.",
-      "transformFirstPlural": "Muuda lause 1. isikus mitmuses."
+      "tapNextCard": "Tik op de volgende kaart",
+      "tapToRevealAnswer": "Tik om het antwoord te zien",
+      "tapContinue": "Tik om verder te gaan",
+      "transformSentence": "Zet de zin om.",
+      "transformThirdSingular": "Zet de zin in de 3e persoon enkelvoud.",
+      "transformFirstPlural": "Zet de zin in de 1e persoon meervoud."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I — kasuta õiget käänet",
-      "chooseCasePlural": "Pane õige kääne ja tee mitmus!",
-      "answerPlural": "Nüüd vasta mitmuses.",
-      "translate": "Übung II — tõlgi",
-      "formDu": "Vorm 1/3: sina (ainsus)",
-      "formIhr": "Vorm 2/3: teie (mitmus)",
-      "formSie": "Vorm 3/3: Sie (viisakusvorm)"
+      "fillCase": "Übung I — gebruik de juiste naamval",
+      "chooseCasePlural": "Gebruik de juiste naamval en vorm het meervoud!",
+      "answerPlural": "Antwoord nu in het meervoud.",
+      "translate": "Übung II — vertaal",
+      "formDu": "Vorm 1/3: jij (enkelvoud)",
+      "formIhr": "Vorm 2/3: jullie (meervoud)",
+      "formSie": "Vorm 3/3: Sie (beleefdheidsvorm)"
     },
     "lessonItems": {
       "1": {
@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
     }
   },
   "plural": {
-    "wordOne": "sõna",
-    "wordsFew": "sõna",
-    "wordsMany": "sõna"
+    "wordOne": "woord",
+    "wordsFew": "woorden",
+    "wordsMany": "woorden"
   },
   "spelling": {
     "writeNative": "Schrijf in het Nederlands",
@@ -390,36 +390,36 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Klõpsa kaardil, et avada selgitus.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa sõna."
+      "tapToOpenExplanation": "Tik op de kaart om de uitleg te openen.",
+      "tapToRevealGerman": "Tik op de kaart om het Duitse woord te zien."
     },
     "sections": {
-      "mainIdea": "Põhiidee",
-      "explanation": "Selgitus",
-      "examples": "Näited",
-      "comparison": "Võrdlus",
-      "tip": "Nõuanne",
-      "important": "Tähtis",
-      "mistakes": "Tüüpilised vead",
-      "remember": "Pea meeles",
-      "comparisonFocus": "Oluline võrdlus",
-      "comparisonBadge": "VÕRDLUSKAART"
+      "mainIdea": "Hoofdgedachte",
+      "explanation": "Uitleg",
+      "examples": "Voorbeelden",
+      "comparison": "Vergelijking",
+      "tip": "Advies",
+      "important": "Belangrijk",
+      "mistakes": "Veelgemaakte fouten",
+      "remember": "Onthoud",
+      "comparisonFocus": "Belangrijke vergelijking",
+      "comparisonBadge": "VERGELIJKINGSKAART"
     },
     "table": {
-      "word": "Sõna",
-      "meaning": "Tähendus",
-      "example": "Näide",
+      "word": "Woord",
+      "meaning": "Betekenis",
+      "example": "Voorbeeld",
       "native": "NL",
       "german": "DE",
-      "mainMeaning": "Peamine tähendus",
-      "describes": "Kirjeldab",
-      "translation": "Tõlge"
+      "mainMeaning": "Hoofdbetekenis",
+      "describes": "Beschrijft",
+      "translation": "Vertaling"
     },
     "minimal": {
-      "tipLabel": "Nõuanne:",
-      "pluralLabel": "MITM.",
-      "formsLabel": "Vormid:",
-      "noteLabel": "Märkus:"
+      "tipLabel": "Tip:",
+      "pluralLabel": "MV.",
+      "formsLabel": "Vormen:",
+      "noteLabel": "Opmerking:"
     }
   }
 };
