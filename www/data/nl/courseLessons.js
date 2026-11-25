@@ -59,11 +59,11 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "Lekcija 8",
-    "subtitle": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+    "title": "Les 8",
+    "subtitle": "Wederkerende werkwoorden, wisseling e → i/ie en accusatief.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialogen / zinnen",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -88,79 +88,79 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Woorden",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
-          "stehen auf — pieceļas",
-          "grüßen (grüsen) — sveicināt",
-          "guten Morgen — labrīt",
-          "gut — labs",
-          "der Morgen — rīts",
-          "der Herr — kungs",
-          "das Kind — bērns",
-          "die Kinder — bērni",
-          "setzt euch (zect oich) — sēstieties!",
-          "sie setzen sich — viņi apsēžas",
-          "fragen (ar akuzatīvu) — jautāt",
-          "sprechen — runāt",
-          "er spricht — viņš runā",
-          "aber — bet",
-          "sehr (zēr) — ļoti",
-          "leise — klusi",
-          "laut — skaļi",
-          "jetzt (ject) — tagad",
-          "lesen — lasīt",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
-          "schreiben — rakstīt",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — stāstīt",
-          "zuhören — klausīties",
-          "sie hören zu — viņi klausās",
-          "was ist das — kas tas ir?",
-          "der Arbeiter — strādnieks",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — maiznieks",
-          "der Schneider (dēr šneider) — drēbnieks",
-          "der Gärtner (dēr gertner) — dārznieks",
-          "der Schuster — kurpnieks"
+          "alle — allen, iedereen",
+          "aufstehen — opstaan",
+          "stehen auf — staan op",
+          "grüßen (gruusen) — groeten",
+          "guten Morgen — goedemorgen",
+          "gut — goed",
+          "der Morgen — de ochtend",
+          "der Herr — de heer, meneer",
+          "das Kind — het kind",
+          "die Kinder — de kinderen",
+          "setzt euch (zetst oich) — ga zitten! (jullie)",
+          "sie setzen sich — zij gaan zitten",
+          "fragen (met accusatief) — vragen",
+          "sprechen — spreken",
+          "er spricht — hij spreekt",
+          "aber — maar",
+          "sehr (zeer) — zeer, heel",
+          "leise — zacht",
+          "laut — luid, hard",
+          "jetzt (jetst) — nu",
+          "lesen — lezen",
+          "lies! — lees!",
+          "gut — goed",
+          "schlecht — slecht",
+          "deutlich (doitlich) — duidelijk, begrijpelijk",
+          "schreiben — schrijven",
+          "endlich (entlich) — eindelijk",
+          "erzählen (ertseelen) — vertellen",
+          "zuhören — luisteren",
+          "sie hören zu — zij luisteren",
+          "was ist das — wat is dat?",
+          "der Arbeiter — de arbeider",
+          "der Müller — de molenaar",
+          "der Tischler — de schrijnwerker",
+          "der Bäcker (deer bekker) — de bakker",
+          "der Schneider (deer sjnaider) — de kleermaker",
+          "der Gärtner (deer gertner) — de tuinman",
+          "der Schuster — de schoenmaker"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Uitspraak",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä wordt, zoals al gezegd, uitgesproken als een korte of lange gesloten e. Voorbeelden: der Bäcker (bekker), das Mädchen (meetchen).",
+          "ä wordt ook uitgesproken als een open e, zoals in bed, bijvoorbeeld in het woord der Gärtner (deer gertner).",
+          "In de woorden Schüler, Bücher — lange ü (uu), maar in Müller — korte ü.",
+          "ie wordt uitgesproken als een lange i: liest (liest).",
+          "ß wordt uitgesproken als s: grüßen (gruusen).",
+          "eu wordt uitgesproken als oi: deutlich (doitlich)."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Bij veel werkwoorden met de klinker e in de stam staat in de 2e en 3e persoon enkelvoud van de tegenwoordige tijd i of ie in plaats van e.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Bij deze werkwoorden staat ook in de gebiedende wijs enkelvoud i of ie in plaats van e in de stam: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "In het Duits hebben wederkerende werkwoorden geen aparte vervoeging. Ze worden vervoegd zoals andere werkwoorden, met het wederkerend voornaamwoord sich erbij, ongeveer zoals het Nederlandse zich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Gebiedende wijs: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Übung / Vingrinājums",
+        "title": "Übung / Oefening",
         "exerciseType": "mixed",
-        "description": "Übung I - Gebruik de juiste vervoeging. Übung II - Vertaalkaarten.",
+        "description": "Übung I — gebruik de juiste naamval. Übung II — vertaalkaarten.",
         "cards": [
           {
             "type": "fill",
@@ -249,154 +249,154 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Sveicini skolotāju un skolotāju!",
+            "lv": "Groet de leraar en de lerares!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Ko tu sveicini?",
+            "lv": "Wie groet jij?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Es sveicinu jaunkundzi.",
+            "lv": "Ik groet de juffrouw.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Atveriet visus logus!",
+            "lv": "Open alle ramen! (jullie)",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Mēs atveram visus logus.",
+            "lv": "Wij openen alle ramen.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Vai tu atver logu?",
+            "lv": "Open jij het raam?",
             "de": "Öffnest du das Fenster?"
           },
           {
             "type": "translate",
-            "lv": "Nē, es neatvēru logu.",
+            "lv": "Nee, ik heb het raam niet geopend.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
             "type": "translate",
-            "lv": "Visi skolēni apsēžas.",
+            "lv": "Alle leerlingen gaan zitten.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Paul, sēdini sevi!",
+            "lv": "Paul, ga zitten!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Bērni, sēdieties!",
+            "lv": "Kinderen, ga zitten!",
             "de": "Kinder, setzt euch!"
           },
           {
             "type": "translate",
-            "lv": "Nerunā klusi!",
+            "lv": "Spreek niet zacht!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Kā viņš runā?",
+            "lv": "Hoe spreekt hij?",
             "de": "Wie spricht er?"
           },
           {
             "type": "translate",
-            "lv": "Visi skolēni runā skaļi.",
+            "lv": "Alle leerlingen spreken luid.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Kas lasa skaļi?",
+            "lv": "Wie leest luid?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Skolniece lasa skaļi un skaidri.",
+            "lv": "De leerlinge leest luid en duidelijk.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Lasi labi!",
+            "lv": "Lees goed!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Nerunā klusi!",
+            "lv": "Spreek niet zacht!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Lasiet labi!",
+            "lv": "Lees goed! (jullie)",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis schrijft goed, maar Anna schrijft slecht.",
+            "lv": "Hans schrijft goed, maar Anna schrijft slecht.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Müller jaunkundze, lūdzu dziediet dziesmu!",
+            "lv": "Juffrouw Müller, zingt u alstublieft een lied!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Skolotāja kungs, lūdzu sēdieties!",
+            "lv": "Meneer de leraar, gaat u alstublieft zitten!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "exerciseType": "translate",
-        "description": "Tulko latviskos teikumus vāciski.",
+        "description": "Vertaal de Nederlandse zinnen in het Duits.",
         "cards": [
           {
-            "lv": "Sveicini skolotāju un skolotāju.",
+            "lv": "Groet de leraar en de lerares.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Atveriet visus logus!",
+            "lv": "Open alle ramen! (jullie)",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Mēs atveram visus logus.",
+            "lv": "Wij openen alle ramen.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Vai tu atvēri logu?",
+            "lv": "Heb jij het raam geopend?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Nē, es neatvēru logu.",
+            "lv": "Nee, ik heb het raam niet geopend.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Visi skolnieki apsēžas.",
+            "lv": "Alle leerlingen gaan zitten.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paul, sēdies!",
+            "lv": "Paul, ga zitten!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Bērni, sēdieties!",
+            "lv": "Kinderen, ga zitten!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Nerunā klusi!",
+            "lv": "Spreek niet zacht!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Kā viņš runā?",
+            "lv": "Hoe spreekt hij?",
             "de": "Wie spricht er?"
           },
           {
@@ -404,35 +404,35 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Kas lasa skaļi?",
+            "lv": "Wie leest luid?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Skolniece lasa skaļi un skaidri.",
+            "lv": "De leerlinge leest luid en duidelijk.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Lasi labi!",
+            "lv": "Lees goed!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Nerunā klusi!",
+            "lv": "Spreek niet zacht!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Lasiet labi!",
+            "lv": "Lees goed! (jullie)",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis schrijft goed, maar Anna schrijft slecht.",
+            "lv": "Hans schrijft goed, maar Anna schrijft slecht.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Müllera jaunkundze, lūdzu, dziediet dziesmu!",
+            "lv": "Juffrouw Müller, zingt u alstublieft een lied!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Skolotāja kungs, lūdzu, sēdieties!",
+            "lv": "Meneer de leraar, gaat u alstublieft zitten!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,12 +441,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "Lezing 9",
-    "subtitle": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis",
-    "intro": "Devītā lekcija: lietvārdu daudzskaitlis, norādāmie vietniekvārdi dieser/jener, vingrinājumi un pārtulkošana.",
+    "title": "Les 9",
+    "subtitle": "Meerdere voorwerpen, dieser/jener, enkelvoud en meervoud",
+    "intro": "Negende les: meervoud van zelfstandige naamwoorden, de aanwijzende voornaamwoorden dieser/jener, oefeningen en vertalen.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialogen / zinnen",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -471,37 +471,37 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Woorden",
         "items": [
-          "mehrere (mērere) — vairāki, vairākas",
-          "hier (hīr) — šeit, te",
-          "dort — tur",
-          "auch — arī",
-          "langsam (lankzām) — lēni",
-          "schnell (šnel) — ātri",
-          "mehr (mēr) — vairāk",
-          "zumachen — aiztaisīt",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — sēdēt",
-          "ruhig (rū-ich) — mierīgi",
-          "dieser (dīzer) — šis",
-          "jener (jēner) — tas",
-          "der Brief (dēr brīf) — vēstule",
-          "die Briefe — vēstules",
-          "kurz (kurc) — īss",
-          "rein — tīrs",
-          "schmutzig (šmucich) — netīrs"
+          "mehrere (meerere) — meerdere",
+          "hier (hier) — hier",
+          "dort — daar",
+          "auch — ook",
+          "langsam (langzaam) — langzaam",
+          "schnell (sjnel) — snel",
+          "mehr (meer) — meer",
+          "zumachen — dichtdoen",
+          "ich mache zu — ik doe dicht",
+          "sitzen (zitsen) — zitten",
+          "ruhig (roe-ich) — rustig",
+          "dieser (diezer) — deze",
+          "jener (jeener) — die",
+          "der Brief (deer brief) — de brief",
+          "die Briefe — de brieven",
+          "kurz (koerts) — kort",
+          "rein — schoon",
+          "schmutzig (sjmoetsich) — vuil"
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Norādāmos vietniekvārdus dieser un jener loka kā noteikto artikulu."
+            "heading": "Aanwijzende voornaamwoorden",
+            "text": "De aanwijzende voornaamwoorden dieser en jener worden verbogen zoals het bepaald lidwoord."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Enkelvoud",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Meervoud",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Ja lietvārda priekšā stāv vietniekvārds vai skaitļa vārds, artikulu nelieto."
+            "heading": "Geen lidwoord",
+            "text": "Als er een voornaamwoord of een telwoord vóór het zelfstandig naamwoord staat, gebruik je geen lidwoord."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Übung / Vingrinājums",
+        "title": "Übung / Oefening",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Sākuma teikums",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Beginzin",
+                "task": "Zet deze zin in de 3e persoon enkelvoud.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er-vorm",
+                "task": "Zet de beginzin in de 1e persoon meervoud.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir-vorm",
+                "task": "Zet het zelfstandig naamwoord in het meervoud in plaats van in het enkelvoud.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "label": "4/4 Meervoud",
+                "task": "Klaar. De volgende klik toont de volgende kaart.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,27 +784,27 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Meitene apsēžas un raksta vēstuli.",
+            "lv": "Het meisje gaat zitten en schrijft een brief.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Vai vēstule ir īsa?",
+            "lv": "Is de brief kort?",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Nē, vēstule nav īsa, tā ir gara.",
+            "lv": "Nee, de brief is niet kort, hij is lang.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Ko jūs darāt?",
+            "lv": "Wat doet u?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Mēs sēžam un lasām.",
+            "lv": "Wij zitten en lezen.",
             "de": "Wir sitzen und lesen."
           },
           {
@@ -812,55 +812,55 @@ const COURSE_LESSON_DATA = {
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Skolotāja kungs, apsēdieties un lasiet!",
+            "lv": "Meneer de leraar, gaat u zitten en leest u!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Kā bērni raksta?",
+            "lv": "Hoe schrijven de kinderen?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Vai viņi raksta ātri vai lēni?",
+            "lv": "Schrijven zij snel of langzaam?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Viņi raksta ļoti lēni.",
+            "lv": "Zij schrijven heel langzaam.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Kāds ir šis šķīvis?",
+            "lv": "Hoe is dit bord?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Šis šķīvis nav tīrs, tas ir netīrs.",
+            "lv": "Dit bord is niet schoon, het is vuil.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Vai vēstules ir garas vai īsas?",
+            "lv": "Zijn de brieven lang of kort?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, uzasini šo zīmuli!",
+            "lv": "Anna, slijp dit potlood!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Skolotāja kungs, lūdzu, uzasiniet šo zīmuli!",
+            "lv": "Meneer de leraar, slijpt u alstublieft dit potlood!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Noliec to zīmuli!",
+            "lv": "Leg dat potlood neer!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
-            "lv": "Aiztaisi logu!",
+            "lv": "Doe het raam dicht!",
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Ko meitene beidzot dara?",
+            "lv": "Wat doet het meisje eindelijk?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Viņa aiztaisa logu un iziet ārā.",
+            "lv": "Zij doet het raam dicht en gaat naar buiten.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,12 +869,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "Lekcija 10",
-    "subtitle": "Sein, können, veselība, vecums un profesijas",
-    "intro": "Desmitā lekcija: sein, können, pavēles formas, veselība, vecums un profesijas.",
+    "title": "Les 10",
+    "subtitle": "Sein, können, gezondheid, leeftijd en beroepen",
+    "intro": "Tiende les: sein, können, gebiedende wijs, gezondheid, leeftijd en beroepen.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialogen / zinnen",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -927,56 +927,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Woorden",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — mēs esam",
-          "ihr seid (īr zeit) — jūs esat",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — viņš var",
-          "wir können — mēs varam",
-          "ihr könnt — jūs varat",
-          "sie können — viņi var",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (dēr knābe) — zēns",
-          "der Mann — vīrs, vīrietis",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — vectēvs",
-          "krank — slims",
-          "fleißig (fleišich) — čakls",
-          "lernen — mācīties",
-          "alt — vecs",
-          "das Jahr (jār) — gads",
-          "die Jahre — gadi",
-          "wie — kā, kāds, cik"
+          "gesund (gezoent) — gezond",
+          "ich bin gesund — ik ben gezond",
+          "du bist — jij bent",
+          "wir sind — wij zijn",
+          "ihr seid (ier zait) — jullie zijn",
+          "ich kann — ik kan",
+          "du kannst — jij kunt",
+          "er kann — hij kan",
+          "wir können — wij kunnen",
+          "ihr könnt — jullie kunnen",
+          "sie können — zij kunnen",
+          "sei gesund — wees gezond!",
+          "seid gesund — wees gezond! (jullie)",
+          "seien Sie gesund — weest u gezond!",
+          "der Knabe (deer knaabe) — de jongen",
+          "der Mann — de man",
+          "die Frau — de vrouw",
+          "der Großvater (deer groosfaater) — de grootvader",
+          "krank — ziek",
+          "fleißig (flaisich) — ijverig, vlijtig",
+          "lernen — leren",
+          "alt — oud",
+          "das Jahr (jaar) — het jaar",
+          "die Jahre — de jaren",
+          "wie — hoe"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Uitspraak",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "De umlauten moeten correct worden uitgesproken.",
+          "ö spreek je uit met geronde lippen, als een e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü spreek je uit met geronde lippen, als een i: Müller (muller), Bücher (buucher).",
+          "Of een klinker lang of kort is, hangt af van de medeklinkers die erop volgen.",
+          "Als op een klinker één medeklinker volgt, wordt de klinker lang uitgesproken: Vögel (feugel), Schüler (sjuuler), Bücher (buucher).",
+          "Als op een klinker twee of meer medeklinkers volgen, wordt de klinker kort uitgesproken: wir können, der Löffel, der Müller.",
+          "De Duitse lange o is een zuivere o zonder naslag, zuiverder dan de Nederlandse oo in boot.",
+          "Spreek correct uit: der Großvater (deer groosfaater).",
+          "De tweeklank ei wordt uitgesproken als ai: seid (zait), fleißig (flaisich).",
+          "De Duitse e kan gesloten of open zijn: der Lehrer (deer leerer). De e in de stam is lang en gesloten, de e in de uitgang is kort en open."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
           {
             "heading": "Sein",
-            "text": "Palīga darbības vārdu sein — būt loka nekārtni. Tāpēc tas labi jāiemācās."
+            "text": "Het hulpwerkwoord sein — zijn wordt onregelmatig vervoegd. Daarom moet je het goed leren."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Tāpat nekārtni loka arī palīga darbības vārdu können — varēt."
+            "text": "Ook het hulpwerkwoord können — kunnen wordt onregelmatig vervoegd."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,91 +1051,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Vai tu esi vesels?",
+            "lv": "Ben jij gezond?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Jā, es esmu vesels.",
+            "lv": "Ja, ik ben gezond.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Vai Paul ir vesels?",
+            "lv": "Is Paul gezond?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Nē, Paul nav vesels, viņš ir slims.",
+            "lv": "Nee, Paul is niet gezond, hij is ziek.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Vai viņš var strādāt?",
+            "lv": "Kan hij werken?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Nē, viņš nevar strādāt.",
+            "lv": "Nee, hij kan niet werken.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Vai vectēvs ir vecs?",
+            "lv": "Is de grootvader oud?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Jā, viņš ir ļoti vecs.",
+            "lv": "Ja, hij is heel oud.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Vectēvs un vecmāmiņa ir ļoti veci.",
+            "lv": "De grootvader en de grootmoeder zijn heel oud.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Cik vecs ir Adolfs?",
+            "lv": "Hoe oud is Adolf?",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Adolfs ir deviņus gadus vecs.",
+            "lv": "Adolf is negen jaar oud.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Kas tu esi?",
+            "lv": "Wie ben jij?",
             "de": "Wer bist du?"
           },
           {
-            "lv": "Es esmu vīrietis.",
+            "lv": "Ik ben een man.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Vai viņš ir skolotājs?",
+            "lv": "Is hij een leraar?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Nē, viņš ir strādnieks.",
+            "lv": "Nee, hij is een arbeider.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Kas ir skolotājs?",
+            "lv": "Wat is de leraar?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "Skolotājs ir vīrietis.",
+            "lv": "De leraar is een man.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Kas ir skolotāja?",
+            "lv": "Wat is de lerares?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Skolotāja ir sieviete.",
+            "lv": "De lerares is een vrouw.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Kas var strādāt?",
+            "lv": "Wie kan werken?",
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "We kunnen allemaal werken.",
+            "lv": "Wij kunnen allemaal werken.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1144,12 +1144,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "Lekcija 11",
-    "subtitle": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi",
-    "intro": "Vienpadsmitā lekcija: haben, noliegums ar kein, piederības izteikšana, saliktie lietvārdi un vārdu kārtība ar denn.",
+    "title": "Les 11",
+    "subtitle": "Haben, kein/keine/keinen, bezit en samengestelde zelfstandige naamwoorden",
+    "intro": "Elfde les: haben, ontkenning met kein, bezit uitdrukken, samengestelde zelfstandige naamwoorden en woordvolgorde met denn.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialogen / zinnen",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1189,121 +1189,121 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Woorden",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — viņam ir",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — viņiem ir",
-          "der Bruder (dēr brūder) — brālis",
-          "die Brüder — brāļi",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — gaišs",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — kopā",
-          "oft — bieži",
-          "der Freund (dēr froint) — draugs",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krēsls",
-          "die Stühle — krēsli",
-          "die Tischlampe — galda lampa",
-          "das Bücherbrett — grāmatu plaukts",
-          "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
-          "glücklich — laimīgs",
-          "denn — jo",
-          "die Schwester (dī švester) — māsa",
-          "die Schwestern — māsas"
+          "ich habe — ik heb",
+          "du hast — jij hebt",
+          "er hat — hij heeft",
+          "wir haben — wij hebben",
+          "ihr habt — jullie hebben",
+          "sie haben — zij hebben",
+          "der Bruder (deer broeder) — de broer",
+          "die Brüder — de broers",
+          "das Zimmer (das tsimmer) — de kamer",
+          "ist nicht — is niet",
+          "groß (groos) — groot",
+          "hell — licht",
+          "breit — breed",
+          "der Schreibtisch (deer sjraibtisj) — het bureau",
+          "da — daar",
+          "kein, keine, kein — geen, geen, geen",
+          "zusammen (tsoezammen) — samen",
+          "oft — vaak",
+          "der Freund (deer froint) — de vriend",
+          "die Freunde — de vrienden",
+          "der Schrank — de kast",
+          "der Stuhl (deer sjtoel) — de stoel",
+          "die Stühle — de stoelen",
+          "die Tischlampe — de bureaulamp",
+          "das Bücherbrett — de boekenplank",
+          "die Landkarte (die lantkarte) — de landkaart",
+          "glücklich — gelukkig",
+          "denn — want",
+          "die Schwester (die sjvester) — de zus",
+          "die Schwestern — de zussen"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Uitspraak",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu wordt uitgesproken als oi: der Freund (deer froint), neun (noin).",
+          "h is meestal een lengteteken voor de voorafgaande klinker: der Stuhl (deer sjtoel), zehn (tseen).",
+          "z wordt uitgesproken als ts: Franz (frants), das Zimmer (tsimmer)."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
           {
             "heading": "Haben",
-            "text": "Ar palīga darbības vārdu haben vācu valodā izsaka piederības jēdzienu. Latviski to bieži izsaka ar: man ir, tev ir, viņam ir u. t. t."
+            "text": "Met het hulpwerkwoord haben drukt het Duits bezit uit. In het Nederlands gebruik je daarvoor ook hebben: ik heb, jij hebt, hij heeft enz."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "ik heb"
               ],
               [
                 "du hast",
-                "tev ir"
+                "jij hebt"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "hij/zij/het heeft"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "wij hebben"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "jullie hebben"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "zij hebben"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "Latviešu valodā persona, kam kas pieder, ir datīvā, bet priekšmets — nominatīvā. Vācu valodā persona ir nominatīvā, bet piederošais priekšmets — akuzatīvā."
+            "heading": "Bezitter en bezit: nominatief en accusatief",
+            "text": "In het Duits staat, net als in het Nederlands, de persoon die iets bezit als onderwerp in de nominatief, en het voorwerp dat hij bezit als lijdend voorwerp in de accusatief."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Voorbeelden",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — ik heb een tafel",
+              "Der Vater hat ein Buch — de vader heeft een boek",
+              "Sie haben eine Feder — zij hebben een pen"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Vergelijking met andere talen",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "Russisch: я имею тетрадь; отец имеет книгу.",
+              "Engels: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Darbības vārdu haben vajag labi iemācīties un pareizi lietot. Arī pavēles formas jāzina."
+            "text": "Het werkwoord haben moet je goed leren en correct gebruiken. Ook de gebiedende wijs moet je kennen."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — voorbeelden",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — geduld! / heb geduld!",
+              "habt Geduld! — heb geduld! (jullie)",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Latviešu valodas divkāršo noliegumu vāciski neizsaka ar noliedzamo vārdu kein. Noliedzamais vārds kein stāv tikai lietas vārda priekšā."
+            "text": "Het Duitse kein komt overeen met het Nederlandse geen; een dubbele ontkenning wordt niet gebruikt. Het ontkennende woord kein staat alleen vóór een zelfstandig naamwoord."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — enkelvoud",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — meervoud",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Ja stāstāmā teikumā ir saiklis denn, darbības vārds paliek 2. vietā. Saikli denn kā teikuma locekli neskaita."
+            "heading": "Woordvolgorde met denn",
+            "text": "Als er in een mededelende zin het voegwoord denn staat, blijft het werkwoord op de 2e plaats. Het voegwoord denn telt niet mee als zinsdeel."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — voorbeelden",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Salikto lietvārdu priekšā stāv pēdējā lietvārda artikuls. Uzsvars ir uz pirmā lietas vārda."
+            "heading": "Samengestelde zelfstandige naamwoorden",
+            "text": "Voor een samengesteld zelfstandig naamwoord staat het lidwoord van het laatste zelfstandig naamwoord. De klemtoon ligt op het eerste zelfstandig naamwoord."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Samengestelde zelfstandige naamwoorden — voorbeelden",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,91 +1358,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas tev ir?",
+            "lv": "Wat heb jij?",
             "de": "Was hast du?"
           },
           {
-            "lv": "Man ir grāmatas.",
+            "lv": "Ik heb boeken.",
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Kādas ir grāmatas?",
+            "lv": "Hoe zijn de boeken?",
             "de": "Wie sind die Bücher?"
           },
           {
-            "lv": "Grāmatas ir biezas.",
+            "lv": "De boeken zijn dik.",
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Müller jaunkundze, vai Jums ir burtnīcas?",
+            "lv": "Juffrouw Müller, hebt u schriften?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Man nav nevienas burtnīcas.",
+            "lv": "Ik heb geen schriften.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Francim nav nevienas spalvas un neviena zīmuļa.",
+            "lv": "Franz heeft geen pen en geen potlood.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Kāda ir istaba?",
+            "lv": "Hoe is de kamer?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Istaba ir liela, gaiša un silta.",
+            "lv": "De kamer is groot, licht en warm.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Vai tev ir rakstāmgalds?",
+            "lv": "Heb jij een bureau?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Jā, man ir rakstāmgalds un galda lampa.",
+            "lv": "Ja, ik heb een bureau en een bureaulamp.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Kas ir skolotājam?",
+            "lv": "Wat heeft de leraar?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Skolotājam ir daudz grāmatu un grāmatu plaukts.",
+            "lv": "De leraar heeft veel boeken en een boekenplank.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Kas ir laimīgs?",
+            "lv": "Wie is gelukkig?",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Bērns ir laimīgs, jo bērnam ir tēvs un māte.",
+            "lv": "Het kind is gelukkig, want het heeft een vader en een moeder.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Wat is Anna aan het doen?",
+            "lv": "Wat doet Anna?",
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Viņa raksta.",
+            "lv": "Zij schrijft.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Vai Francis arī raksta?",
+            "lv": "Schrijft Franz ook?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nē, Francis neraksta, viņš zīmē.",
+            "lv": "Nee, Franz schrijft niet, hij tekent.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Vai viņi stāv?",
+            "lv": "Staan zij?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Nē, viņi apsēžas un mācās.",
+            "lv": "Nee, zij gaan zitten en leren.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,12 +1451,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "Lekcija 12",
-    "subtitle": "Salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
-    "intro": "Divpadsmitā lekcija: salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+    "title": "Les 12",
+    "subtitle": "Trappen van vergelijking, als / wie, leeftijd, bijvoeglijke naamwoorden en kleuren.",
+    "intro": "Twaalfde les: trappen van vergelijking, als / wie, leeftijd, bijvoeglijke naamwoorden en kleuren.",
     "sections": [
       {
-        "title": "Dialogi / teikumi",
+        "title": "Dialogen / zinnen",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1484,59 +1484,59 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdi",
+        "title": "Woorden",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — kā tevi sauc",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
+          "heißen — heten",
+          "wie heißt du — hoe heet jij",
+          "ich heiße — ik heet",
+          "die Grube — de kuil",
+          "wieviel — hoeveel",
           "Max (maks) — Max",
-          "groß — liels",
-          "klein — mazs",
-          "kleiner als ich — mazāks par mani",
-          "alt — vecs",
-          "jung — jauns",
-          "jünger als ich — jaunāks par mani",
-          "so alt wie — tik vecs kā",
-          "der Vetter (dēr feter) — brālēns",
-          "am ältesten (am eltesten) — visvecākais",
-          "ebenso — tāpat",
-          "wie — kā",
-          "am jüngsten — visjaunākais",
-          "faul — slinks",
-          "fleißig — čakls",
-          "blau — zils",
-          "braun — brūns",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — gumija",
-          "grau — pelēks",
-          "der Baum — koks",
-          "grün — zaļš",
-          "die Blume — puķe",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — krīts",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "groß — groot",
+          "klein — klein",
+          "kleiner als ich — kleiner dan ik",
+          "alt — oud",
+          "jung — jong",
+          "jünger als ich — jonger dan ik",
+          "so alt wie — zo oud als",
+          "der Vetter (deer fetter) — de neef",
+          "am ältesten (am eltesten) — het oudst",
+          "ebenso — even, evenzo",
+          "wie — als",
+          "am jüngsten — het jongst",
+          "faul — lui",
+          "fleißig — ijverig",
+          "blau — blauw",
+          "braun — bruin",
+          "gelb — geel",
+          "das Gummi (das goemmie) — het gum",
+          "grau — grijs",
+          "der Baum — de boom",
+          "grün — groen",
+          "die Blume — de bloem",
+          "rot — rood",
+          "die Tinte — de inkt",
+          "die Kreide — het krijt",
+          "weiß — wit",
+          "schwarz — zwart",
+          "krank — ziek",
+          "gesund — gezond"
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Uitspraak",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme."
+          "x wordt uitgesproken als ks: Max (maks), Felix (feeliks).",
+          "In de woorden Schwester, am jüngsten wordt st uitgesproken als een gewone st, zoals in het Nederlands: Schwester (sjvester), jüngsten (junksten).",
+          "In het woord der Federhalter is de h een klank die je uitspreekt, maar in het woord der Sohn — een lengteteken."
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Īpašības vārdu pārāko pakāpi (Komparativ) darina no pamata pakāpes (Positiv) ar galotni -er.",
+            "text": "De vergrotende trap (Komparativ) van bijvoeglijke naamwoorden wordt gevormd van de stellende trap (Positiv) met de uitgang -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Lielākai daļai vienzilbīgu īpašības vārdu ar celma patskani a, o, u pārākā pakāpē ir Umlaut.",
+            "heading": "Umlaut in de vergrotende trap",
+            "text": "De meeste eenlettergrepige bijvoeglijke naamwoorden met a, o, u als stamklinker krijgen in de vergrotende trap een Umlaut.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie lieto, kad izsaka vienādību. als lieto, kad izsaka nevienādību.",
+            "heading": "Vergelijken met wie en als",
+            "text": "wie gebruik je bij gelijkheid. als gebruik je bij ongelijkheid.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Vispārāko pakāpi (Superlativ) darina, pieliekot pamata pakāpei galotni -sten vai -esten un priekšā satiksmes vārdu am.",
+            "text": "De overtreffende trap (Superlativ) wordt gevormd door aan de stellende trap de uitgang -sten of -esten toe te voegen en er het voorzetsel am voor te zetten.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Onregelmatige trappen van vergelijking",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (dichtbij)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (hoog)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (goed)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (veel)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (gauw, spoedig)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (graag)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,139 +1611,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas ir vecāks, tu vai es?",
+            "lv": "Wie is ouder, jij of ik?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Tu esi vecāks par mani.",
+            "lv": "Jij bent ouder dan ik.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Kas ir visvecākais?",
+            "lv": "Wie is het oudst?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paul ir visvecākais.",
+            "lv": "Paul is het oudst.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Kā tevi sauc?",
+            "lv": "Hoe heet jij?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Mijn naam is Petrus.",
+            "lv": "Ik heet Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Kā viņu sauc?",
+            "lv": "Hoe heet hij?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Viņu sauc Jan.",
+            "lv": "Hij heet Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Kā Jūs sauc?",
+            "lv": "Hoe heet u?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Cik vecs Jūs esat?",
+            "lv": "Hoe oud bent u?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Es esmu 20 gadus vecs.",
+            "lv": "Ik ben 20 jaar oud.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Vai Max ir liels?",
+            "lv": "Is Max groot?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Nē, Max nav liels, Rudolf ir lielāks.",
+            "lv": "Nee, Max is niet groot, Rudolf is groter.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Kas ir vislielākais?",
+            "lv": "Wie is het grootst?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis ir vislielākais.",
+            "lv": "Franz is het grootst.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Cik veca ir māte?",
+            "lv": "Hoe oud is de moeder?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Māte ir tikpat veca kā tēvs.",
+            "lv": "De moeder is even oud als de vader.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Cik tev māsu?",
+            "lv": "Hoeveel zussen heb jij?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Man ir trīs māsas.",
+            "lv": "Ik heb drie zussen.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Kā viņas sauc?",
+            "lv": "Hoe heten zij?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Hun namen zijn Elsa, Marta en Alma.",
+            "lv": "Zij heten Elsa, Martha en Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Cik jums brāļu?",
+            "lv": "Hoeveel broers hebt u?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Man ir viens brālis.",
+            "lv": "Ik heb één broer.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Kāda ir tinte?",
+            "lv": "Hoe is de inkt?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Tā ir melna.",
+            "lv": "Hij is zwart.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Kāds ir krīts?",
+            "lv": "Hoe is het krijt?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Tas ir balts.",
+            "lv": "Het is wit.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Kādas ir puķes?",
+            "lv": "Hoe zijn de bloemen?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Tās ir zilas, sarkanas, dzeltenas un baltas.",
+            "lv": "Ze zijn blauw, rood, geel en wit.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Vai brālis ir vesels?",
+            "lv": "Is de broer gezond?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Jā, brālis ir vesels, bet māsa ir slima.",
+            "lv": "Ja, de broer is gezond, maar de zus is ziek.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Vai jūs esat laimīgi?",
+            "lv": "Bent u gelukkig?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Jā, mēs esam laimīgi, jo mēs esam veseli.",
+            "lv": "Ja, wij zijn gelukkig, want wij zijn gezond.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1752,12 +1752,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "Lekcija 13",
-    "subtitle": "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
-    "intro": "Trīspadsmitā lekcija: Der Körper, ķermeņa daļas, vingrošana, atgriezeniskie darbības vārdi un daudzskaitlis.",
+    "title": "Les 13",
+    "subtitle": "Der Körper, lichaamsdelen, turnen, jeder en meervoud.",
+    "intro": "Dertiende les: Der Körper, lichaamsdelen, gymnastiek, wederkerende werkwoorden en meervoud.",
     "sections": [
       {
-        "title": "Teksts / Lasīšana",
+        "title": "Tekst / Lezen",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdiņi",
+        "title": "Woordjes",
         "items": [
-          "der Körper — ķermenis",
-          "der Mensch — cilvēks",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — kāja",
-          "die Beine — kājas",
-          "der Fuß — kājas pēda",
-          "die Füße — kāju pēdas",
-          "rund — apaļš",
-          "lang — garš",
-          "kurz — īss",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — tievs / plāns",
-          "die Brust — krūtis",
-          "vorn — priekšā",
-          "der Rücken — mugura",
-          "hinten — aizmugurē",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — kājas pirksts",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — tīrīt",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — darīt / taisīt",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — stāvēt",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — turēt",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dziļi"
+          "der Körper — het lichaam",
+          "der Mensch — de mens",
+          "der Kopf — het hoofd",
+          "der Hals — de hals",
+          "der Rumpf — de romp",
+          "der Arm — de arm",
+          "die Hand — de hand",
+          "die Hände — de handen",
+          "das Bein — het been",
+          "die Beine — de benen",
+          "der Fuß — de voet",
+          "die Füße — de voeten",
+          "rund — rond",
+          "lang — lang",
+          "kurz — kort",
+          "klein — klein",
+          "groß — groot",
+          "dick — dik",
+          "dünn — dun",
+          "die Brust — de borst",
+          "vorn — voor, vooraan",
+          "der Rücken — de rug",
+          "hinten — achter, achteraan",
+          "jeder — ieder, elk",
+          "jede — iedere, elke",
+          "jedes — ieder, elk",
+          "der Finger — de vinger",
+          "die Zehe — de teen",
+          "beide — beide",
+          "der Nagel — de nagel",
+          "die Nägel — de nagels",
+          "beschneiden — knippen",
+          "reinigen — schoonmaken, reinigen",
+          "turnen — turnen",
+          "heben — heffen, optillen",
+          "machen — doen / maken",
+          "der Schritt — de stap",
+          "bleiben — blijven",
+          "stehen — staan",
+          "sich umkehren — zich omdraaien",
+          "ausstrecken — uitstrekken",
+          "senken — laten zakken",
+          "drehen — draaien / omdraaien",
+          "nach links — naar links",
+          "nach rechts — naar rechts",
+          "halten — houden",
+          "gerade — recht",
+          "atmen — ademen",
+          "tief — diep"
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Dažiem darbības vārdiem ar celma patskani a vai au tagadnes 2. un 3. personā vienskaitlī ir Umlaut.",
+            "heading": "Umlaut in de tegenwoordige tijd",
+            "text": "Sommige werkwoorden met a of au als stamklinker hebben in de 2e en 3e persoon enkelvoud van de tegenwoordige tijd een Umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — apgriezties",
+            "heading": "Wederkerend werkwoord",
+            "text": "sich umkehren — zich omdraaien",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Gebiedende wijs van sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Atmen — elpot",
+            "heading": "Het werkwoord atmen",
+            "text": "atmen — ademen",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Gebiedende wijs van atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Ja uzsvērta priedēkļa daļa, tā tagadnē atdalās un iet teikuma beigās.",
+            "heading": "Samengestelde werkwoorden",
+            "text": "Als het voorvoegsel beklemtoond is, wordt het in de tegenwoordige tijd afgescheiden en gaat het naar het eind van de zin.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Ja priedēklis nav uzsvērts, tas neatdalās.",
+            "heading": "Onscheidbare voorvoegsels",
+            "text": "Als het voorvoegsel niet beklemtoond is, wordt het niet afgescheiden.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Vietniekvārds jeder lokās kā artikuli der / die / das.",
+            "heading": "Het voornaamwoord jeder",
+            "text": "Het voornaamwoord jeder wordt verbogen zoals de lidwoorden der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Mannelijk",
+                "Vrouwelijk",
+                "Onzijdig"
               ],
               [
-                "Nominatīvs",
+                "Nominatief",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Accusatief",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Meervoud zonder uitgang",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Meervoud met de uitgang -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Meervoud met de uitgang -en of -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Meervoud met de uitgang -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Sieviešu kārtas lietvārdi, kas veidoti ar -in, daudzskaitlī pieņem -nen.",
+            "heading": "Vrouwelijke zelfstandige naamwoorden op -in",
+            "text": "Vrouwelijke zelfstandige naamwoorden die met -in gevormd zijn, krijgen in het meervoud -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1979,18 +1979,18 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Uitspraak",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "In het woord halten is de h hoorbaar.",
+          "In het woord fahren geeft de h aan dat de klinker lang is.",
+          "De a in het woord halten wordt kort uitgesproken: halten.",
+          "De a in het woord tragen wordt lang uitgesproken: tragen.",
+          "äu wordt uitgesproken als oi: du läufst, er läuft.",
+          "pf in het woord Kopf wordt zo uitgesproken dat je beide medeklinkers hoort."
         ]
       },
       {
-        "title": "Vingrinājums",
+        "title": "Oefening",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,139 +2055,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Cik cilvēkam ir roku?",
+            "lv": "Hoeveel armen heeft de mens?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Cik tev ir kāju?",
+            "lv": "Hoeveel benen heb jij?",
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Kāda ir galva?",
+            "lv": "Hoe is het hoofd?",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Kāds ir rumpis?",
+            "lv": "Hoe is de romp?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Kāda ir roka?",
+            "lv": "Hoe is de arm?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Kāda ir kāja?",
+            "lv": "Hoe is het been?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Roka ir maza, bet kāja ir liela.",
+            "lv": "De arm is klein, maar het been is groot.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Kur ir krūtis?",
+            "lv": "Waar is de borst?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Kur ir mugura?",
+            "lv": "Waar is de rug?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Krūtis ir priekšā, mugura ir aizmugurē.",
+            "lv": "De borst is voor, de rug is achter.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Cik pirkstu ir plaukstai?",
+            "lv": "Hoeveel vingers heeft de hand?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Plaukstai ir pieci pirksti.",
+            "lv": "De hand heeft vijf vingers.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Cik pirkstu ir divām rokām?",
+            "lv": "Hoeveel vingers hebben twee handen?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Divām rokām ir desmit pirkstu.",
+            "lv": "Twee handen hebben tien vingers.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Kas ir pirkstam?",
+            "lv": "Wat heeft de vinger?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Pirkstam ir nags.",
+            "lv": "De vinger heeft een nagel.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Ko tu dari?",
+            "lv": "Wat doe jij?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Es apgriežu un tīru nagus.",
+            "lv": "Ik knip en reinig de nagels.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Ko Paul dara?",
+            "lv": "Wat doet Paul?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Viņš vingro.",
+            "lv": "Hij turnt.",
             "de": "Er turnt."
           },
           {
-            "lv": "Hoe sporten ze?",
+            "lv": "Hoe turnen zij?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Viņi ceļ kājas un rokas.",
+            "lv": "Zij heffen de benen en de armen.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Viņi izstiepj abas rokas.",
+            "lv": "Zij strekken beide armen uit.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Viņi nolaiž abas rokas.",
+            "lv": "Zij laten beide armen zakken.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Viņi pagriež galvu pa labi.",
+            "lv": "Zij draaien het hoofd naar rechts.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Kas elpo dziļi?",
+            "lv": "Wie ademt diep?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter un Anna elpo dziļi.",
+            "lv": "Peter en Anna ademen diep.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Vai Robert arī vingro?",
+            "lv": "Turnt Robert ook?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Nē, Robert un Jan nevingro.",
+            "lv": "Nee, Robert en Johann turnen niet.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, vingro!",
+            "lv": "Robert, turn!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert un Jāni, vingrojiet!",
+            "lv": "Robert en Johann, turn!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Müller jaunkundze, vingrojiet!",
+            "lv": "Juffrouw Müller, turnt u!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Pasperiet divus soļus un tad palieciet stāvam!",
+            "lv": "Zet u twee stappen en blijft u dan staan!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,12 +2196,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "Lekcija 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Četrpadsmitā lekcija: modālie darbības vārdi müssen, wollen un mögen.",
+    "title": "Les 14",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Veertiende les: de modale werkwoorden müssen, wollen en mögen.",
     "sections": [
       {
-        "title": "Teksts / Lasīšana",
+        "title": "Tekst / Lezen",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Vārdiņi",
+        "title": "Woordjes",
         "items": [
-          "müssen — vajadzēt / būt jādara",
-          "ich muss — man vajag / man jādara",
-          "du musst — tev vajag / tev jādara",
-          "er muss — viņam vajag / viņam jādara",
-          "sie muss — viņai vajag / viņai jādara",
-          "es muss — tam vajag / tam jādara",
-          "wir müssen — mums vajag / mums jādara",
-          "ihr müsst — jums vajag / jums jādara",
-          "sie müssen — viņiem / viņām vajag",
-          "lernen — mācīties",
-          "vorwärts — uz priekšu",
-          "vorwärts kommen — tikt uz priekšu",
-          "wollen — gribēt",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — viņš grib",
-          "sie will — viņa grib",
-          "es will — tas grib",
-          "wir wollen — mēs gribam",
-          "ihr wollt — jūs gribat",
-          "sie wollen — viņi / viņas grib",
-          "mögen — gribēt / vēlēties / patikt",
-          "ich mag — es gribu / man patīk",
-          "du magst — tu gribi / tev patīk",
-          "er mag — viņš grib / viņam patīk",
-          "sie mag — viņa grib / viņai patīk",
-          "es mag — tas grib / tam patīk",
-          "wir mögen — mēs gribam",
-          "ihr mögt — jūs gribat",
-          "sie mögen — viņi / viņas grib",
-          "die Suppe — zupa",
-          "munden — labi garšot",
-          "mir — man",
-          "dir — tev",
-          "ihm — viņam",
-          "ihr — viņai",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — viņiem / viņām",
-          "denn — jo"
+          "müssen — moeten",
+          "ich muss — ik moet",
+          "du musst — jij moet",
+          "er muss — hij moet",
+          "sie muss — zij moet",
+          "es muss — het moet",
+          "wir müssen — wij moeten",
+          "ihr müsst — jullie moeten",
+          "sie müssen — zij moeten",
+          "lernen — leren",
+          "vorwärts — vooruit",
+          "vorwärts kommen — vooruitkomen",
+          "wollen — willen",
+          "ich will — ik wil",
+          "du willst — jij wilt",
+          "er will — hij wil",
+          "sie will — zij wil",
+          "es will — het wil",
+          "wir wollen — wij willen",
+          "ihr wollt — jullie willen",
+          "sie wollen — zij willen",
+          "mögen — willen / wensen / lusten",
+          "ich mag — ik wil / ik lust",
+          "du magst — jij wilt / jij lust",
+          "er mag — hij wil / hij lust",
+          "sie mag — zij wil / zij lust",
+          "es mag — het wil / het lust",
+          "wir mögen — wij willen",
+          "ihr mögt — jullie willen",
+          "sie mögen — zij willen",
+          "die Suppe — de soep",
+          "munden — smaken",
+          "mir — mij",
+          "dir — jou",
+          "ihm — hem",
+          "ihr — haar",
+          "uns — ons",
+          "euch — jullie",
+          "ihnen — hun",
+          "denn — want"
         ]
       },
       {
-        "title": "Gramatika",
+        "title": "Grammatica",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Modale werkwoorden",
             "text": "De werkwoorden müssen, wollen en mögen zijn modale werkwoorden."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.",
+            "heading": "1e en 3e persoon enkelvoud",
+            "text": "In het enkelvoud van de tegenwoordige tijd zijn de 1e en 3e persoon gelijk.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Wisseling van de stamklinker",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen nozīmē vajadzēt / būt nepieciešamam.",
+            "text": "Müssen betekent moeten / nodig zijn.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Ik moet leren."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen nozīmē apzināti gribēt kaut ko darīt.",
+            "text": "Wollen betekent bewust iets willen doen.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Ik wil vooruitkomen."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen izsaka vēlēšanos vai patiku.",
+            "text": "Mögen drukt een wens of voorkeur uit.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Ik wil de soep niet eten.",
+              "Die Suppe mundet mir nicht. — De soep smaakt mij niet."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Latviski bieži sakām “man jāmācās”, “tev jāraksta”, “viņam jānāk”. Vāciski šādos teikumos bieži lieto müssen.",
+            "heading": "Belangrijk",
+            "text": "In het Nederlands zeggen we “ik moet leren”, “jij moet schrijven”, “hij moet komen”. Ook in het Duits gebruikt men in zulke zinnen müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2360,74 +2360,74 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruna",
+        "title": "Uitspraak",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß wordt uitgesproken als een Nederlandse s.",
+          "ß schrijf je in het midden of aan het eind van een woord na een lange klinker of tweeklank: die Füße, die Straße, ich muss, er muss.",
+          "Als in andere vormen ss staat, kan er vóór de uitgang ß staan: müssen, ich muss, du musst, ihr müsst.",
+          "ö in het woord mögen wordt uitgesproken als een zuivere ö-klank, ongeveer als de Nederlandse eu.",
+          "Als na g een t volgt, klinkt de g meer als een k: du magst, ihr mögt.",
+          "Zo klinkt ook in het Nederlands de d aan het eind van “hond” als een t."
         ]
       },
       {
-        "title": "Pārtulko",
+        "title": "Vertaal",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kas grib čakli mācīties?",
+            "lv": "Wie wil ijverig leren?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Visi skolnieki grib čakli mācīties.",
+            "lv": "Alle leerlingen willen ijverig leren.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Kam šodien jānāk?",
+            "lv": "Wie moet vandaag komen?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Man šodien jānāk.",
+            "lv": "Ik moet vandaag komen.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Tev jāraksta vēstule.",
+            "lv": "Jij moet de brief schrijven.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Kam čakli jāmācās?",
+            "lv": "Wie moet ijverig leren?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Skolniekiem čakli jāmācās.",
+            "lv": "De leerlingen moeten ijverig leren.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Es negribu zupu ēst, jo tā man negaršo.",
+            "lv": "Ik heb geen zin om de soep te eten, want hij smaakt mij niet.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Wie wil er soep eten?",
+            "lv": "Wie wil de soep eten?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elza grib zupu ēst.",
+            "lv": "Elsa wil de soep eten.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kam jālasa grāmata?",
+            "lv": "Wie moet het boek lezen?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Brālim jālasa grāmata.",
+            "lv": "De broer moet het boek lezen.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Es negribu dziedāt.",
+            "lv": "Ik heb geen zin om te zingen.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Tēvam jāpērk galds.",
+            "lv": "De vader moet een tafel kopen.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

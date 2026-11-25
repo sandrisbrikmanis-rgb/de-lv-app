@@ -60,7 +60,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Lektion 8",
-    "subtitle": "Refleksive verber, e → i/ie-ændring og akkusativ",
+    "subtitle": "Refleksive verber, vokalskifte e → i/ie og akkusativ.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Ord",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
+          "alle — alle",
+          "aufstehen — stå op",
           "stehen auf — står op",
-          "grüßen — hilse",
+          "grüßen (gryysen) — hilse",
           "guten Morgen — godmorgen",
-          "gut — labs",
+          "gut — god",
           "der Morgen — morgen",
-          "der Herr — kungs",
-          "das Kind — barnet",
-          "die Kinder — børnene",
-          "setzt euch — sæt jer ned!",
+          "der Herr — herre",
+          "das Kind — barn",
+          "die Kinder — børn",
+          "setzt euch (zetst ojch) — sæt jer!",
           "sie setzen sich — de sætter sig",
-          "fragen (med akkusativ) — at spørge",
+          "fragen (med akkusativ) — spørge",
           "sprechen — tale",
           "er spricht — han taler",
-          "aber — bet",
-          "sehr — meget",
-          "leise — klusi",
+          "aber — men",
+          "sehr (zeer) — meget",
+          "leise — stille",
           "laut — højt",
-          "jetzt — nu",
+          "jetzt (jetst) — nu",
           "lesen — læse",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich — tydeligt, klart",
+          "lies! — læs!",
+          "gut — godt",
+          "schlecht — dårligt",
+          "deutlich (dojtlich) — tydeligt, forståeligt",
           "schreiben — skrive",
-          "endlich — endelig",
-          "erzählen — at fortælle",
+          "endlich (entlich) — endelig",
+          "erzählen (ertsæælen) — fortælle",
           "zuhören — lytte",
           "sie hören zu — de lytter",
-          "was ist das — kas tas ir?",
+          "was ist das — hvad er det?",
           "der Arbeiter — arbejder",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker — bager",
-          "der Schneider — skrædder",
-          "der Gärtner — gartner",
-          "der Schuster — kurpnieks"
+          "der Müller — møller",
+          "der Tischler — snedker",
+          "der Bäcker (deer bekker) — bager",
+          "der Schneider (deer sjnajder) — skrædder",
+          "der Gärtner (deer gærtner) — gartner",
+          "der Schuster — skomager"
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "ä udtales, som tidligere nævnt, både som en kort og en lang lukket e-lyd. Eksempler: der Bäcker, das Mädchen.",
-          "ä udtales også som en åben e-lyd, for eksempel i ordet der Gärtner.",
-          "I ordene Schüler og Bücher er ü lang, mens ü i Müller er kort.",
-          "ie udtales som et langt i, for eksempel i liest.",
-          "ß udtales som s, for eksempel i grüßen.",
-          "eu udtales som oi, for eksempel i deutlich."
+          "ä udtales, som allerede nævnt, som et lukket kort eller langt e. Eksempler: der Bäcker (bekker), das Mädchen (mæætchen).",
+          "ä udtales også som et åbent e, f.eks. i ordet der Gärtner (deer gærtner).",
+          "I ordene Schüler, Bücher — ü er langt (yy), men i Müller — kort ü.",
+          "ie udtales som langt i: liest (liist).",
+          "ß udtales som s: grüßen (gryysen).",
+          "eu udtales som oj: deutlich (dojtlich)."
         ]
       },
       {
         "title": "Grammatik",
         "items": [
-          "I mange verber med vokalen e i stammen ændres e til i eller ie i 2. og 3. person ental i præsens.",
+          "Mange verber med vokalen e i stammen har i nutid i 2. og 3. person ental i eller ie i stedet for e.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "I disse verber ændres e i stammen også til i eller ie i imperativ ental: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "På dansk har refleksive verber ikke en særlig bøjning. På tysk bøjes de som andre verber, men med det refleksive pronomen sich.",
-          "Præsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Disse verber har også i bydeform ental i eller ie i stammen i stedet for e: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "Ligesom dansk »sætte sig« har refleksive verber på tysk ingen særlig bøjning. De bøjes som andre verber, og man tilføjer det refleksive stedord sich.",
+          "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+          "Bydeform: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Øvelse",
+        "title": "Übung / Øvelse",
         "exerciseType": "mixed",
-        "description": "Øvelse I — brug den korrekte kasus. Øvelse II — oversættelseskort.",
+        "description": "Übung I — brug den rigtige kasus. Übung II — oversættelseskort.",
         "cards": [
           {
             "type": "fill",
@@ -264,12 +264,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Åbn alle vinduer!",
+            "lv": "Åbn alle vinduerne!",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Vi åbner alle vinduer.",
+            "lv": "Vi åbner alle vinduerne.",
             "de": "Wir öffnen alle Fenster."
           },
           {
@@ -279,7 +279,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Nej, jeg åbnede ikke vinduet.",
+            "lv": "Nej, jeg har ikke åbnet vinduet.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
@@ -289,12 +289,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Paul, sæt dig ned!",
+            "lv": "Paul, sæt dig!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Børn, sæt jer ned!",
+            "lv": "Børn, sæt jer!",
             "de": "Kinder, setzt euch!"
           },
           {
@@ -319,7 +319,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Eleven læser højt og tydeligt.",
+            "lv": "Skolepigen læser højt og tydeligt.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -334,7 +334,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Læs godt!",
+            "lv": "Læs godt, alle sammen!",
             "de": "Lest gut!"
           },
           {
@@ -349,38 +349,38 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Hr. lærer, sæt Dem venligst ned!",
+            "lv": "Hr. lærer, sæt Dem venligst!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Oversættelse",
+        "title": "Oversæt",
         "exerciseType": "translate",
-        "description": "Oversæt danske sætninger til tysk.",
+        "description": "Oversæt de danske sætninger til tysk.",
         "cards": [
           {
-            "lv": "Hils på læreren og lærerinden!",
+            "lv": "Hils på læreren og lærerinden.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Åbn alle vinduer!",
+            "lv": "Åbn alle vinduerne!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Vi åbner alle vinduer.",
+            "lv": "Vi åbner alle vinduerne.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Åbnede du vinduet?",
+            "lv": "Har du åbnet vinduet?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Nej, jeg åbnede ikke vinduet.",
+            "lv": "Nej, jeg har ikke åbnet vinduet.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Alle elever sætter sig.",
+            "lv": "Alle skolebørnene sætter sig.",
             "de": "Alle Schüler setzen sich."
           },
           {
@@ -388,11 +388,11 @@ const COURSE_LESSON_DATA = {
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Børn, sæt jer ned!",
+            "lv": "Børn, sæt jer!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Tal ikke lavt!",
+            "lv": "Tal ikke stille!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -400,7 +400,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Alle elever taler højt.",
+            "lv": "Alle skolebørnene taler højt.",
             "de": "Alle Schüler sprechen laut."
           },
           {
@@ -408,7 +408,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Eleven læser højt og tydeligt.",
+            "lv": "Skolepigen læser højt og tydeligt.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -416,11 +416,11 @@ const COURSE_LESSON_DATA = {
             "de": "Lies gut!"
           },
           {
-            "lv": "Tal ikke lavt!",
+            "lv": "Tal ikke stille!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Læs godt!",
+            "lv": "Læs godt, alle sammen!",
             "de": "Lest gut!"
           },
           {
@@ -432,7 +432,7 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Hr. lærer, sæt Dem venligst ned!",
+            "lv": "Hr. lærer, sæt Dem venligst!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -443,7 +443,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson9",
     "title": "Lektion 9",
     "subtitle": "Flere genstande, dieser/jener, ental og flertal",
-    "intro": "Niende lektion: flertal af navneord, demonstrative pronominer dieser/jener, øvelser og oversættelse.",
+    "intro": "Niende lektion: navneordenes flertal, de påpegende stedord dieser/jener, øvelser og oversættelse.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -473,32 +473,32 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Ord",
         "items": [
-          "mehrere — flere",
-          "hier — her",
-          "dort — tur",
+          "mehrere (meerere) — flere",
+          "hier (hiir) — her",
+          "dort — der",
           "auch — også",
-          "langsam — langsomt",
-          "schnell — hurtigt",
-          "mehr — mere",
+          "langsam (langzaam) — langsomt",
+          "schnell (sjnel) — hurtigt",
+          "mehr (meer) — mere",
           "zumachen — lukke",
-          "ich mache zu — es aiztaisu",
-          "sitzen — sidde",
-          "ruhig — rolig",
-          "dieser — denne",
-          "jener — den/det der",
-          "der Brief — et brev",
-          "die Briefe — brevene",
-          "kurz — kort",
+          "ich mache zu — jeg lukker",
+          "sitzen (zitsen) — sidde",
+          "ruhig (ruu-ich) — roligt",
+          "dieser (diizer) — denne",
+          "jener (jeener) — den der",
+          "der Brief (deer briif) — brev",
+          "die Briefe — breve",
+          "kurz (kurts) — kort",
           "rein — ren",
-          "schmutzig — beskidt"
+          "schmutzig (sjmutsich) — snavset"
         ]
       },
       {
         "title": "Grammatik",
         "items": [
           {
-            "heading": "Påpegende pronominer",
-            "text": "Bøj pronominerne dieser og jener som den bestemte artikel."
+            "heading": "Påpegende stedord",
+            "text": "De påpegende stedord dieser og jener bøjes som det bestemte kendeord."
           },
           {
             "heading": "Ental",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikel udelades",
-            "text": "Hvis navneordet indledes med et pronomen eller et talord, bruges artiklen ikke."
+            "heading": "Intet kendeord",
+            "text": "Står der et stedord eller et talord foran navneordet, bruges der intet kendeord."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Øvelse",
+        "title": "Übung / Øvelse",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir nehmen ein Heft."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir schreiben schnell."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir machen das Heft zu."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Åbningssætning",
-                "task": "Change this sentence to 3rd person singular.",
+                "label": "1/4 Udgangssætning",
+                "task": "Omskriv denne sætning til 3. person ental.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Change the opening sentence to 1st person plural.",
+                "label": "2/4 Er-form",
+                "task": "Omskriv udgangssætningen til 1. person flertal.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Use the plural instead of the singular.",
+                "label": "3/4 Wir-form",
+                "task": "Brug navneordet i flertal i stedet for ental.",
                 "text": "Wir sitzen ruhig."
               },
               {
                 "label": "4/4 Flertal",
-                "task": "Ready. Next click shows the next card.",
+                "task": "Færdig. Næste klik viser det næste kort.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -788,7 +788,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Pigen sætter sig ned og skriver et brev.",
+            "lv": "Pigen sætter sig og skriver et brev.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
@@ -808,15 +808,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paul, sæt dig ned og læs!",
+            "lv": "Paul, sæt dig og læs!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Hr. lærer, sæt Dem ned og læs!",
+            "lv": "Hr. lærer, sæt Dem og læs!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Hvordan skriver børn?",
+            "lv": "Hvordan skriver børnene?",
             "de": "Wie schreiben die Kinder?"
           },
           {
@@ -848,7 +848,7 @@ const COURSE_LESSON_DATA = {
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Læg den blyant derhen!",
+            "lv": "Læg den blyant der fra dig!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,7 +856,7 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Hvad laver pigen endelig?",
+            "lv": "Hvad gør pigen endelig?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
@@ -870,8 +870,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson10": {
     "id": "lesson10",
     "title": "Lektion 10",
-    "subtitle": "Sein, können, sundhed, alder og erhverv",
-    "intro": "Tiende lektion: sein, können, imperativformer, sundhed, alder og erhverv.",
+    "subtitle": "Sein, können, helbred, alder og erhverv",
+    "intro": "Tiende lektion: sein, können, bydeformer, helbred, alder og erhverv.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Ord",
         "items": [
-          "gesund — sund",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
+          "gesund (gezunt) — rask",
+          "ich bin gesund — jeg er rask",
+          "du bist — du er",
           "wir sind — vi er",
-          "ihr seid — I er",
-          "ich kann — es varu",
-          "du kannst — tu vari",
+          "ihr seid (iir zajt) — I er",
+          "ich kann — jeg kan",
+          "du kannst — du kan",
           "er kann — han kan",
           "wir können — vi kan",
           "ihr könnt — I kan",
           "sie können — de kan",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — vær rask!",
-          "der Knabe — en dreng",
-          "der Mann — mand, ægtemand",
-          "die Frau — sieva, sieviete",
-          "der Großvater — bedstefar",
-          "krank — slims",
-          "fleißig — flittig",
+          "sei gesund — vær rask!",
+          "seid gesund — vær raske!",
+          "seien Sie gesund — vær De rask!",
+          "der Knabe (deer knaabe) — dreng",
+          "der Mann — mand",
+          "die Frau — kone, kvinde",
+          "der Großvater (deer groosfaater) — bedstefar",
+          "krank — syg",
+          "fleißig (flajsich) — flittig",
           "lernen — lære",
-          "alt — vecs",
-          "das Jahr — år",
-          "die Jahre — gadi",
-          "wie — hvordan"
+          "alt — gammel",
+          "das Jahr (jaar) — år",
+          "die Jahre — år",
+          "wie — hvordan, hvilken, hvor"
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "Omlydsvokalerne skal udtales korrekt.",
-          "ö udtales med rundede læber som en e-lyd: wir können, ihr könnt, sie können, der Löffel.",
-          "ü udtales med rundede læber som en i-lyd: Müller, Bücher.",
-          "Om en vokal er lang eller kort, afhænger blandt andet af de efterfølgende konsonanter.",
-          "Hvis vokalen efterfølges af én konsonant, udtales den lang: Vögel, Schüler, Bücher.",
-          "Hvis vokalen efterfølges af to eller flere konsonanter, udtales den kort: wir können, der Löffel, der Müller.",
-          "Det tyske o udtales som en ren o-lyd, for eksempel i Fonds, Nominativ og Fotograf.",
-          "Udtal korrekt: der Großvater.",
-          "Diftongen ei udtales som ai: seid, fleißig.",
-          "Det tyske e kan være lukket eller åbent: der Lehrer. Stammens e er langt og lukket, mens endelsens e er kort og åbent."
+          "Omlydene skal udtales korrekt.",
+          "ö udtales som e med runde læber, altså som dansk ø: wir können, ihr könnt, sie können, der Löffel.",
+          "ü udtales som i med runde læber, altså som dansk y: Müller (myller), Bücher (byycher).",
+          "Om en vokal er lang eller kort, afhænger af de efterfølgende konsonanter.",
+          "Følger der én konsonant efter vokalen, udtales vokalen lang: Vögel (føøgel), Schüler (sjyyler), Bücher (byycher).",
+          "Følger der to eller flere konsonanter efter vokalen, udtales vokalen kort: wir können, der Löffel, der Müller.",
+          "Tysk langt o lyder som dansk o i »sol« og ikke som å, f.eks.: groß, oder, der Sohn.",
+          "Udtal korrekt: der Großvater (deer groosfaater).",
+          "Diftongen ei udtales som aj: seid (zajt), fleißig (flajsich).",
+          "Tysk e kan være lukket eller åbent: der Lehrer (deer leerer). Stammens e er langt og lukket, endelsens e er kort og åbent."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Hjælpeverbet sein (at være) bøjes uregelmæssigt. Derfor skal det læres godt."
+            "text": "Hjælpeverbet sein — være bøjes uregelmæssigt. Derfor skal det læres godt."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Ligeledes bøjes hjælpeverbet können - at kunne - uregelmæssigt."
+            "text": "Hjælpeverbet können — kunne bøjes også uregelmæssigt."
           },
           {
             "heading": "Können — Präsens",
@@ -1055,11 +1055,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Er du sund?",
+            "lv": "Er du rask?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Ja, jeg er sund.",
+            "lv": "Ja, jeg er rask.",
             "de": "Ja, ich bin gesund."
           },
           {
@@ -1095,7 +1095,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Adolf er ni år.",
+            "lv": "Adolf er ni år gammel.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
@@ -1111,7 +1111,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Nej, han er en arbejder.",
+            "lv": "Nej, han er arbejder.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
@@ -1145,8 +1145,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "Lektion 11",
-    "subtitle": "Haben, kein/keine/keinen, besiddelse og sammensatte navneord",
-    "intro": "Elvte lektion: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
+    "subtitle": "Haben, kein/keine/keinen, ejerforhold og sammensatte navneord",
+    "intro": "Ellevte lektion: haben, nægtelse med kein, udtryk for ejerforhold, sammensatte navneord og ordstilling med denn.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -1174,9 +1174,9 @@ const COURSE_LESSON_DATA = {
           "Du hast einen Schreibtisch.",
           "Da liegen drei Bücher.",
           "Anna hat einen Federhalter, eine Feder und einen Bleistift.",
-          "Anna skriver og spørger: „Franz, skriver du også?“",
-          "Franz svarer: „Jeg kan ikke skrive. Jeg har ikke noget hæfte, nogen pen eller nogen blyant.“",
-          "Anna siger: „Tag dette hæfte og denne blyant. Vi arbejder sammen.“",
+          "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+          "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+          "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
           "Anna und Franz arbeiten oft zusammen.",
           "Sie sind Freunde.",
           "Was hast du?",
@@ -1191,43 +1191,43 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Ord",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
+          "ich habe — jeg har",
+          "du hast — du har",
           "er hat — han har",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
+          "wir haben — vi har",
+          "ihr habt — I har",
           "sie haben — de har",
-          "der Bruder — bror",
+          "der Bruder (deer bruuder) — bror",
           "die Brüder — brødre",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß — stor",
+          "das Zimmer (das tsimmer) — værelse",
+          "ist nicht — er ikke",
+          "groß (groos) — stor",
           "hell — lys",
-          "breit — plats",
-          "der Schreibtisch — et skrivebord",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen — sammen",
+          "breit — bred",
+          "der Schreibtisch (deer sjrajbtisj) — skrivebord",
+          "da — der",
+          "kein, keine, kein — ingen, ingen, intet",
+          "zusammen (tsuzammen) — sammen",
           "oft — ofte",
-          "der Freund — ven",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl — en stol",
-          "die Stühle — stolene",
-          "die Tischlampe — galda lampa",
+          "der Freund (deer frojnt) — ven",
+          "die Freunde — venner",
+          "der Schrank — skab",
+          "der Stuhl (deer sjtuul) — stol",
+          "die Stühle — stole",
+          "die Tischlampe — bordlampe",
           "das Bücherbrett — bogreol",
-          "die Landkarte — et landkort",
-          "glücklich — glad",
-          "denn — jo",
-          "die Schwester — søster",
+          "die Landkarte (dii lantkarte) — landkort",
+          "glücklich — lykkelig",
+          "denn — for",
+          "die Schwester (dii sjvester) — søster",
           "die Schwestern — søstre"
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "eu udtales som oi: der Freund, neun.",
-          "h fungerer ofte som længdetegn for den foregående vokal og udtales ikke: der Stuhl, zehn.",
+          "eu udtales som oj: der Freund (deer frojnt), neun (nojn).",
+          "h er for det meste længdetegn for den foregående vokal: der Stuhl (deer sjtuul), zehn (tseen).",
           "z udtales som ts: Franz (frants), das Zimmer (tsimmer)."
         ]
       },
@@ -1236,47 +1236,47 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Hjælpeverbet haben på tysk udtrykker ofte ejerskab eller besiddelse. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv."
+            "text": "Med hjælpeverbet haben udtrykker man på tysk ejerforhold. På dansk svarer det til at have: jeg har, du har, han har osv."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "jeg har"
               ],
               [
                 "du hast",
-                "tev ir"
+                "du har"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "han/hun/den har"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "vi har"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "I har"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "de har"
               ]
             ]
           },
           {
-            "heading": "Dansk og tysk: udtryk for besiddelse",
-            "text": "På dansk udtrykkes besiddelse normalt med verbet have: Jeg har en bog. På tysk bruges haben på samme måde: Ich habe ein Buch. Personen står i nominativ, og det, man har, står som objekt; på tysk står objektet i akkusativ."
+            "heading": "Ejeren i nominativ, ejendelen i akkusativ",
+            "text": "På dansk er ejeren grundled, og den ting, man ejer — genstandsled. På tysk står personen i nominativ og den ejede ting — i akkusativ."
           },
           {
             "heading": "Eksempler",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — jeg har et bord",
+              "Der Vater hat ein Buch — far har en bog",
+              "Sie haben eine Feder — de har en pen"
             ]
           },
           {
@@ -1288,19 +1288,19 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Imperativ",
-            "text": "Verbet haben skal læres grundigt og bruges korrekt. Du bør også kende imperativformerne."
+            "text": "Verbet haben skal læres godt og bruges korrekt. Man skal også kende bydeformerne."
           },
           {
             "heading": "Imperativ — eksempler",
             "examples": [
-              "habe Geduld! — hav tålmodighed!",
-              "habt Geduld! — hav tålmodighed!",
+              "habe Geduld! — tålmodighed! / hav tålmodighed!",
+              "habt Geduld! — I må have tålmodighed!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "På tysk bruges kein foran et substantiv til at benægte, at noget findes eller er til stede. Kein bøjes efter substantivets køn, tal og kasus."
+            "text": "Tysk bruger ikke dobbelt nægtelse sammen med nægtelsesordet kein. Nægtelsesordet kein står kun foran et navneord."
           },
           {
             "heading": "Kein — ental",
@@ -1334,7 +1334,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Ordstilling med denn",
-            "text": "Når denn forbinder to hovedsætninger, ændrer det ikke ordstillingen. Det bøjede verbum bliver på anden plads i den sætning, der følger efter denn."
+            "text": "Indeholder en fortællende sætning bindeordet denn, bliver verbet stående på 2. plads. Bindeordet denn tælles ikke med som sætningsled."
           },
           {
             "heading": "Denn — eksempler",
@@ -1344,11 +1344,11 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sammensatte substantiver",
-            "text": "Sammensatte navneord får artikel efter det sidste navneord. Trykket ligger på det første led."
+            "heading": "Sammensatte navneord",
+            "text": "Foran et sammensat navneord står kendeordet for det sidste navneord. Trykket ligger på det første navneord."
           },
           {
-            "heading": "Sammensatte substantiver — eksempler",
+            "heading": "Sammensatte navneord — eksempler",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1386,15 +1386,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franc har ingen pen og ingen blyant.",
+            "lv": "Franz har ingen pen og ingen blyant.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Hvordan er rummet?",
+            "lv": "Hvordan er værelset?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Rummet er stort, lyst og varmt.",
+            "lv": "Værelset er stort, lyst og varmt.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
@@ -1410,15 +1410,15 @@ const COURSE_LESSON_DATA = {
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Læreren har mange bøger og en reol.",
+            "lv": "Læreren har mange bøger og en bogreol.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Hvem er glad?",
+            "lv": "Hvem er lykkelig?",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Barnet er lykkeligt, fordi barnet har en far og en mor.",
+            "lv": "Barnet er lykkeligt, for det har en far og en mor.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
@@ -1430,7 +1430,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Skriver Francis også?",
+            "lv": "Skriver Franz også?",
             "de": "Schreibt Franz auch?"
           },
           {
@@ -1442,7 +1442,7 @@ const COURSE_LESSON_DATA = {
             "de": "Stehen sie?"
           },
           {
-            "lv": "Nej, de sætter sig ned og studerer.",
+            "lv": "Nej, de sætter sig og lærer.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1452,8 +1452,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson12": {
     "id": "lesson12",
     "title": "Lektion 12",
-    "subtitle": "Gradbøjning, als / wie, alder, adjektiver og farver.",
-    "intro": "Tolvte lektion: gradbøjning, als / wie, alder, adjektiver og farver.",
+    "subtitle": "Gradbøjning, als / wie, alder, tillægsord og farver.",
+    "intro": "Tolvte lektion: gradbøjning, als / wie, alder, tillægsord og farver.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Ord",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — hvad hedder du?",
+          "heißen — hedde",
+          "wie heißt du — hvad hedder du",
           "ich heiße — jeg hedder",
-          "die Grube — bedre",
-          "wieviel — cik",
+          "die Grube — grube",
+          "wieviel — hvor mange, hvor meget",
           "Max (maks) — Max",
-          "groß — liels",
-          "klein — mazs",
+          "groß — stor",
+          "klein — lille",
           "kleiner als ich — mindre end mig",
-          "alt — vecs",
-          "jung — jauns",
+          "alt — gammel",
+          "jung — ung",
           "jünger als ich — yngre end mig",
           "so alt wie — lige så gammel som",
-          "der Vetter — fætter",
-          "am ältesten — ældst",
-          "ebenso — ligeledes",
+          "der Vetter (deer fetter) — fætter",
+          "am ältesten (am eltesten) — ældst",
+          "ebenso — lige så",
           "wie — som",
           "am jüngsten — yngst",
-          "faul — slinks",
+          "faul — doven",
           "fleißig — flittig",
-          "blau — zils",
+          "blau — blå",
           "braun — brun",
-          "gelb — dzeltens",
-          "das Gummi — viskelæder",
+          "gelb — gul",
+          "das Gummi (das gummi) — viskelæder",
           "grau — grå",
-          "der Baum — koks",
+          "der Baum — træ",
           "grün — grøn",
           "die Blume — blomst",
-          "rot — sarkans",
-          "die Tinte — tinte",
+          "rot — rød",
+          "die Tinte — blæk",
           "die Kreide — kridt",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "weiß — hvid",
+          "schwarz — sort",
+          "krank — syg",
+          "gesund — rask"
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "x udtales som ks: Max, Felix.",
-          "I ordene Schwester og am jüngsten udtales st som et almindeligt st.",
-          "I ordet der Federhalter udtales h som en konsonantlyd, mens h i der Sohn fungerer som længdetegn og ikke udtales."
+          "x udtales som ks: Max (maks), Felix (feliks).",
+          "I ordene Schwester, am jüngsten udtales st som almindeligt dansk st: Schwester (sjvester), jüngsten (jynksten).",
+          "h i ordet der Federhalter er en lyd, der udtales, men i ordet der Sohn — et længdetegn."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Adjektivers komparativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.",
+            "text": "Tillægsordenes højere grad (Komparativ) dannes ud fra grundformen (Positiv) med endelsen -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Omlyd i komparativ",
-            "text": "De fleste enstavelsesadjektiver med stammevokalen a, o eller u får omlyd i komparativ.",
+            "heading": "Omlyd i højere grad",
+            "text": "De fleste enstavelses tillægsord med stammevokalen a, o, u får omlyd i højere grad.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1554,7 +1554,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sammenligning med wie og als",
-            "text": "Wie bruges, når man udtrykker lighed. Als bruges, når man udtrykker forskel.",
+            "text": "wie bruges, når man udtrykker lighed. als bruges, når man udtrykker forskel.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Den højeste grad (Superlativ) dannes ved at tilføje endelsen -sten eller -esten til grundgraden og sætte ordet am foran.",
+            "text": "Højeste grad (Superlativ) dannes ved at tilføje endelsen -sten eller -esten til grundformen og sætte forholdsordet am foran.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Uregelmæssige gradbøjningsformer",
+            "heading": "Uregelmæssig gradbøjning",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (nær)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (høj)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (god)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (meget)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (snart)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (gerne)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1615,7 +1615,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hvem er ældre, dig eller mig?",
+            "lv": "Hvem er ældre, du eller jeg?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
@@ -1623,11 +1623,11 @@ const COURSE_LESSON_DATA = {
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Hvem er den ældste?",
+            "lv": "Hvem er ældst?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paul er den ældste.",
+            "lv": "Paul er ældst.",
             "de": "Paul ist am ältesten."
           },
           {
@@ -1643,7 +1643,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Han hedder Jan.",
+            "lv": "Han hedder Johann.",
             "de": "Er heißt Johann."
           },
           {
@@ -1671,15 +1671,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Frans er den største.",
+            "lv": "Franz er størst.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Hvor gammel er moderen?",
+            "lv": "Hvor gammel er mor?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Moderen er på samme alder som faderen.",
+            "lv": "Mor er lige så gammel som far.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
@@ -1691,11 +1691,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Hvad er deres navne?",
+            "lv": "Hvad hedder de?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Deres navne er Elsa, Marta og Alma.",
+            "lv": "De hedder Elsa, Martha og Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
@@ -1703,19 +1703,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Jeg har en bror.",
+            "lv": "Jeg har én bror.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Hvilken farve har blækket?",
+            "lv": "Hvordan er blækket?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Den er sort.",
+            "lv": "Det er sort.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Hvilken farve har kridtet?",
+            "lv": "Hvordan er kridtet?",
             "de": "Wie ist die Kreide?"
           },
           {
@@ -1723,7 +1723,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Hvilken farve har blomsterne?",
+            "lv": "Hvordan er blomsterne?",
             "de": "Wie sind die Blumen?"
           },
           {
@@ -1731,19 +1731,19 @@ const COURSE_LESSON_DATA = {
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Er broderen rask?",
+            "lv": "Er broren rask?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Ja, broderen er rask, men søsteren er syg.",
+            "lv": "Ja, broren er rask, men søsteren er syg.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Er De glad?",
+            "lv": "Er De lykkelige?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Ja, vi er glade, fordi vi er sunde.",
+            "lv": "Ja, vi er lykkelige, for vi er raske.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1753,11 +1753,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson13": {
     "id": "lesson13",
     "title": "Lektion 13",
-    "subtitle": "Der Körper, kropsdele, turnen, jeder og flertal.",
-    "intro": "Lektion tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
+    "subtitle": "Der Körper, kroppens dele, turnen, jeder og flertal.",
+    "intro": "Trettende lektion: Der Körper, kroppens dele, gymnastik, refleksive verber og flertal.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ord",
+        "title": "Gloser",
         "items": [
-          "der Körper — kroppen",
-          "der Mensch — mennesket",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
+          "der Körper — krop",
+          "der Mensch — menneske",
+          "der Kopf — hoved",
+          "der Hals — hals",
+          "der Rumpf — overkrop",
+          "der Arm — arm",
+          "die Hand — hånd",
+          "die Hände — hænder",
           "das Bein — ben",
-          "die Beine — ben",
+          "die Beine — ben (flertal)",
           "der Fuß — fod",
           "die Füße — fødder",
           "rund — rund",
           "lang — lang",
           "kurz — kort",
-          "klein — mazs",
-          "groß — liels",
+          "klein — lille",
+          "groß — stor",
           "dick — tyk",
           "dünn — tynd",
           "die Brust — bryst",
           "vorn — foran",
-          "der Rücken — mugura",
-          "hinten — bagved",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — tåen",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — at rense",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — at gøre / lave",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — at stå",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
+          "der Rücken — ryg",
+          "hinten — bagpå",
+          "jeder — hver",
+          "jede — hver",
+          "jedes — hvert",
+          "der Finger — finger",
+          "die Zehe — tå",
+          "beide — begge",
+          "der Nagel — negl",
+          "die Nägel — negle",
+          "beschneiden — klippe",
+          "reinigen — rense",
+          "turnen — lave gymnastik",
+          "heben — løfte",
+          "machen — gøre / lave",
+          "der Schritt — skridt",
+          "bleiben — blive",
+          "stehen — stå",
+          "sich umkehren — vende sig om",
+          "ausstrecken — strække ud",
+          "senken — sænke",
           "drehen — dreje",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — at holde",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dyb"
+          "nach links — til venstre",
+          "nach rechts — til højre",
+          "halten — holde",
+          "gerade — lige",
+          "atmen — ånde",
+          "tief — dybt"
         ]
       },
       {
         "title": "Grammatik",
         "items": [
           {
-            "heading": "Omlyd i præsens",
-            "text": "Nogle verber med stammevokalen a eller au får omlyd i 2. og 3. person ental i præsens.",
+            "heading": "Omlyd i nutid",
+            "text": "Nogle verber med stammevokalen a eller au får omlyd i 2. og 3. person ental i nutid.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Imperativ med sich umkehren",
+            "heading": "Bydeform af sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1867,7 +1867,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Verbet atmen",
-            "text": "atmen — trække vejret",
+            "text": "atmen — ånde",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Imperativ med atmen",
+            "heading": "Bydeform af atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1887,38 +1887,38 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sammensatte verber",
-            "text": "Hvis præfikset er betonet, adskilles det i præsens og placeres sidst i sætningen.",
+            "text": "Er forstavelsen betonet, skilles den fra i nutid og står sidst i sætningen.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Uadskillelige præfikser",
-            "text": "Hvis præfikset er ubetonet, adskilles det ikke.",
+            "heading": "Uadskillelige forstavelser",
+            "text": "Er forstavelsen ikke betonet, skilles den ikke fra.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Pronomenet jeder",
-            "text": "Pronomenet jeder bøjes som artiklerne der / die / das.",
+            "heading": "Stedordet jeder",
+            "text": "Stedordet jeder bøjes som kendeordene der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Hankøn",
+                "Hunkøn",
+                "Intetkøn"
               ],
               [
-                "Nominatīvs",
+                "Nominativ",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Akkusativ",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Flertal med endelse -e",
+            "heading": "Flertal med endelsen -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Flertal med endelse -en eller -n",
+            "heading": "Flertal med endelsen -en eller -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Flertal med endelse -er",
+            "heading": "Flertal med endelsen -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Hunkønsnavneord med -in",
-            "text": "Hunkønsnavneord dannet med -in får -nen i flertal.",
+            "heading": "Hunkønsnavneord på -in",
+            "text": "Hunkønsnavneord, der er dannet med -in, får -nen i flertal.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "h'et i ordet halten udtales.",
-          "h'et i ordet fahren markerer vokalens længde.",
-          "a'et i ordet halten udtales kort: halten.",
-          "a'et i ordet tragen udtales langt: tragen.",
-          "äu udtales som øj: du läufst, er läuft.",
-          "I ordet Kopf udtales pf, så begge konsonanter kan høres."
+          "h i ordet halten kan høres som en lyd.",
+          "h i ordet fahren viser vokalens længde.",
+          "a i ordet halten udtales kort: halten.",
+          "a i ordet tragen udtales langt: tragen.",
+          "äu udtales som oj: du läufst, er läuft.",
+          "pf i ordet Kopf udtales, så man kan høre begge konsonanter."
         ]
       },
       {
@@ -2059,7 +2059,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hvor mange arme har et menneske?",
+            "lv": "Hvor mange arme har mennesket?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
@@ -2071,7 +2071,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Hvordan er torsoen?",
+            "lv": "Hvordan er overkroppen?",
             "de": "Wie ist der Rumpf?"
           },
           {
@@ -2095,7 +2095,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Brystet er foran, ryggen er bagved.",
+            "lv": "Brystet er foran, ryggen er bagpå.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
@@ -2123,11 +2123,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Hvad laver du?",
+            "lv": "Hvad gør du?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Jeg klipper og renser mine negle.",
+            "lv": "Jeg klipper og renser neglene.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
@@ -2143,7 +2143,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "De løfter deres ben og arme.",
+            "lv": "De løfter benene og armene.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
@@ -2159,11 +2159,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Hvem trækker vejret dybt?",
+            "lv": "Hvem ånder dybt?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter og Anna trækker vejret dybt.",
+            "lv": "Peter og Anna ånder dybt.",
             "de": "Peter und Anna atmen tief."
           },
           {
@@ -2171,7 +2171,7 @@ const COURSE_LESSON_DATA = {
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Nej, Robert og Jan laver ikke gymnastik.",
+            "lv": "Nej, Robert og Johann laver ikke gymnastik.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
@@ -2179,7 +2179,7 @@ const COURSE_LESSON_DATA = {
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert og Jan, lav gymnastik!",
+            "lv": "Robert og Johann, lav gymnastik!",
             "de": "Robert und Johann, turnt!"
           },
           {
@@ -2187,7 +2187,7 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Tag to skridt og bliv så stående!",
+            "lv": "Tag to skridt, og bliv så stående!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2197,11 +2197,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson14": {
     "id": "lesson14",
     "title": "Lektion 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Lektion fjorten: Modale verber müssen, wollen og mögen.",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Fjortende lektion: modalverberne müssen, wollen og mögen.",
     "sections": [
       {
-        "title": "Tekst/læsning",
+        "title": "Tekst / Læsning",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2224,46 +2224,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Gloser",
         "items": [
-          "müssen — at skulle / være nødt til",
-          "ich muss — jeg skal / jeg er nødt til",
-          "du musst — du skal / du er nødt til",
-          "er muss — han skal / han er nødt til",
-          "sie muss — hun skal / hun er nødt til",
-          "es muss — det skal / det er nødt til",
-          "wir müssen — vi skal / vi er nødt til",
-          "ihr müsst — I skal / I er nødt til",
-          "sie müssen — de skal / de er nødt til",
-          "lernen — at lære",
+          "müssen — skulle / være nødt til",
+          "ich muss — jeg skal / jeg må",
+          "du musst — du skal / du må",
+          "er muss — han skal / han må",
+          "sie muss — hun skal / hun må",
+          "es muss — det skal / det må",
+          "wir müssen — vi skal / vi må",
+          "ihr müsst — I skal / I må",
+          "sie müssen — de skal / de må",
+          "lernen — lære",
           "vorwärts — fremad",
-          "vorwärts kommen — at komme fremad",
-          "wollen — at ville",
-          "ich will — es gribu",
-          "du willst — tu gribi",
+          "vorwärts kommen — komme fremad",
+          "wollen — ville",
+          "ich will — jeg vil",
+          "du willst — du vil",
           "er will — han vil",
           "sie will — hun vil",
-          "es will — tas grib",
+          "es will — det vil",
           "wir wollen — vi vil",
           "ihr wollt — I vil",
           "sie wollen — de vil",
-          "mögen — at kunne lide",
-          "ich mag — jeg kan lide",
-          "du magst — du kan lide",
-          "er mag — han kan lide",
-          "sie mag — hun kan lide",
-          "es mag — det kan lide",
-          "wir mögen — vi kan lide",
-          "ihr mögt — I kan lide",
-          "sie mögen — de kan lide",
-          "die Suppe — zupa",
-          "munden — at smage godt",
-          "mir — man",
-          "dir — tev",
-          "ihm — til ham",
-          "ihr — til hende",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — til dem",
-          "denn — jo"
+          "mögen — ville / ønske / kunne lide",
+          "ich mag — jeg vil / jeg kan lide",
+          "du magst — du vil / du kan lide",
+          "er mag — han vil / han kan lide",
+          "sie mag — hun vil / hun kan lide",
+          "es mag — det vil / det kan lide",
+          "wir mögen — vi vil",
+          "ihr mögt — I vil",
+          "sie mögen — de vil",
+          "die Suppe — suppe",
+          "munden — smage godt",
+          "mir — mig",
+          "dir — dig",
+          "ihm — ham",
+          "ihr — hende",
+          "uns — os",
+          "euch — jer",
+          "ihnen — dem",
+          "denn — for"
         ]
       },
       {
@@ -2271,7 +2271,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Modalverber",
-            "text": "Verberne müssen, wollen og mögen er modale verber."
+            "text": "Verberne müssen, wollen og mögen er modalverber."
           },
           {
             "heading": "1. og 3. person ental",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Stammevokalskifte",
+            "heading": "Skift af stammevokal",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen betyder at skulle eller at være nødt til.",
+            "text": "Müssen betyder skulle / være nødvendigt.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Jeg skal lære."
             ]
           },
           {
             "heading": "Wollen",
             "text": "Wollen betyder bevidst at ville gøre noget.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Jeg vil komme fremad."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen udtrykker, at man kan lide noget eller har lyst til noget.",
+            "text": "Mögen udtrykker et ønske, eller at man kan lide noget.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Jeg har ikke lyst til at spise suppen.",
+              "Die Suppe mundet mir nicht. — Suppen smager mig ikke."
             ]
           },
           {
             "heading": "Vigtigt",
-            "text": "På dansk siger vi ofte \"jeg skal studere\", \"du skal skrive\", \"han skal komme\". Tysk bruger ofte müssen i sådanne sætninger.",
+            "text": "På dansk siger vi ofte »jeg skal lære«, »du skal skrive«, »han skal komme«. På tysk bruger man i sådanne sætninger ofte müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "ß udtales som s.",
-          "ß skrives i midten eller slutningen af et ord efter en lang vokal eller en diftong: die Füße, die Straße. Efter en kort vokal skrives ss: ich muss, er muss.",
-          "Efter en lang vokal eller en diftong skrives ß også foran en endelse, fx Füße og heißt.",
-          "ö i ordet mögen udtales som en tydelig ö-lyd.",
-          "Når g efterfølges af s eller t, lyder g tættere på k: du magst, ihr mögt.",
-          "Tilsvarende lyder g før s i det tyske ord “magst” tættere på k."
+          "ß udtales som dansk s.",
+          "ß skrives inde i eller sidst i et ord efter en lang vokal eller en diftong: die Füße, die Straße, ich muss, er muss.",
+          "Står der ss i andre former, kan der stå ß foran endelsen: müssen, ich muss, du musst, ihr müsst.",
+          "ö i ordet mögen udtales som en klar ö-lyd.",
+          "Følger der et t efter g, lyder g nærmere som k: du magst, ihr mögt.",
+          "Noget lignende kendes fra dansk, hvor g foran t i »vægt« også lyder tæt på k."
         ]
       },
       {
@@ -2403,15 +2403,15 @@ const COURSE_LESSON_DATA = {
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Jeg vil ikke spise suppen, for jeg kan ikke lide den.",
+            "lv": "Jeg har ikke lyst til at spise suppen, for den smager mig ikke.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Hvem vil spise suppe?",
+            "lv": "Hvem vil spise suppen?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa vil spise suppe.",
+            "lv": "Elsa vil spise suppen.",
             "de": "Elsa will die Suppe essen."
           },
           {
@@ -2423,7 +2423,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Jeg gider ikke synge.",
+            "lv": "Jeg har ikke lyst til at synge.",
             "de": "Ich mag nicht singen."
           },
           {

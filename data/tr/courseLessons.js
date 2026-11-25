@@ -60,10 +60,10 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Ders 8",
-    "subtitle": "Czasowniki zwrotne e → i/ie zmiana i biernik.",
+    "subtitle": "Dönüşlü fiiller, e → i/ie değişimi ve akuzatif.",
     "sections": [
       {
-        "title": "Dialogi / zdania",
+        "title": "Diyaloglar / cümleler",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kelimeler",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
-          "stehen auf — wstaje",
-          "grüßen (grüsen) — selamlamak",
+          "alle — hepsi, herkes",
+          "aufstehen — kalkmak, ayağa kalkmak",
+          "stehen auf — kalkıyor, ayağa kalkıyor",
+          "grüßen (grüüsen) — selamlamak, selam vermek",
           "guten Morgen — günaydın",
-          "gut — labs",
-          "der Morgen — poranek",
-          "der Herr — kungs",
-          "das Kind — dziecko",
-          "die Kinder — dzieci",
-          "setzt euch (zect oich) — oturun!",
-          "sie setzen sich — otururlar",
-          "fragen (ar akuzatīvu) — sormak",
+          "gut — iyi",
+          "der Morgen — sabah",
+          "der Herr — bey, beyefendi",
+          "das Kind — çocuk",
+          "die Kinder — çocuklar",
+          "setzt euch (zetst oyh) — oturun!",
+          "sie setzen sich — onlar oturuyor",
+          "fragen (akuzatif ile) — sormak",
           "sprechen — konuşmak",
-          "er spricht — er spricht, diyor",
-          "aber — bet",
-          "sehr (zēr) — çok",
-          "leise — klusi",
+          "er spricht — o konuşuyor",
+          "aber — ama",
+          "sehr (zeer) — çok",
+          "leise — alçak sesle, sessizce",
           "laut — yüksek sesle",
-          "jetzt (ject) — tagad",
+          "jetzt (yetst) — şimdi",
           "lesen — okumak",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
+          "lies! — oku!",
+          "gut — iyi",
+          "schlecht — kötü",
+          "deutlich (doytlih) — açık, anlaşılır",
           "schreiben — yazmak",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — opowiadać",
-          "zuhören — dinle",
-          "sie hören zu — dinlerler",
-          "was ist das — kas tas ir?",
-          "der Arbeiter — robotnik",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — przegrzany",
-          "der Schneider (dēr šneider) — krawiec",
-          "der Gärtner (dēr gertner) — ogrodnik",
-          "der Schuster — kurpnieks"
+          "endlich (entlih) — nihayet, sonunda",
+          "erzählen (ertseelen) — anlatmak",
+          "zuhören — dinlemek",
+          "sie hören zu — onlar dinliyor",
+          "was ist das — bu ne?",
+          "der Arbeiter — işçi",
+          "der Müller — değirmenci",
+          "der Tischler — marangoz",
+          "der Bäcker (deer beker) — fırıncı",
+          "der Schneider (deer şnayder) — terzi",
+          "der Gärtner (deer gertner) — bahçıvan",
+          "der Schuster — ayakkabıcı"
         ]
       },
       {
         "title": "Telaffuz",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü uzun (ü) ve Müller - kısa ü'dür.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä, daha önce de belirtildiği gibi, kısa ya da uzun kapalı bir e gibi okunur. Örnekler: der Bäcker (beker), das Mädchen (meethen).",
+          "ä ayrıca açık bir e gibi de okunur, örneğin der Gärtner (deer gertner) kelimesinde.",
+          "Schüler, Bücher — bu kelimelerde ü uzundur (üü), Müller — burada ise ü kısadır.",
+          "ie uzun i gibi okunur: liest (liist).",
+          "ß, s gibi okunur: grüßen (grüüsen).",
+          "eu, oy gibi okunur: deutlich (doytlih)."
         ]
       },
       {
         "title": "Dilbilgisi",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Gövdesinde e ünlüsü bulunan pek çok fiilde, şimdiki zamanın tekil 2. ve 3. şahsında e yerine i veya ie bulunur.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Bu fiillerin tekil emir biçiminde de gövdede e yerine i veya ie bulunur: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "Türkçede dönüşlü anlam çoğu zaman fiile eklenen bir ekle verilir: yıkanmak, giyinmek. Almancada dönüşlü fiillerin özel bir çekimi yoktur. Bu fiiller diğer fiiller gibi çekilir ve yanlarına dönüşlü zamir sich eklenir.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Emir kipi: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
-        "title": "Ubung / Ćwiczenia",
+        "title": "Übung / Alıştırma",
         "exerciseType": "mixed",
-        "description": "Übung I – Doğru çekimi kullanın. Übung II - Çeviri kartları.",
+        "description": "Übung I — doğru hâli kullan. Übung II — çeviri kartları.",
         "cards": [
           {
             "type": "fill",
@@ -249,32 +249,32 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Witamy nauczyciela i nauczyciela!",
+            "lv": "Öğretmene ve kadın öğretmene selam ver!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Co witasz?",
+            "lv": "Kime selam veriyorsun?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Saygılarımla hanımefendi.",
+            "lv": "Genç bayana selam veriyorum.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Tüm dizin nesnelerini aç",
+            "lv": "Bütün pencereleri açın!",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Otwieramy wszystkie okna.",
+            "lv": "Bütün pencereleri açıyoruz.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Otwierasz okno?",
+            "lv": "Pencereyi açıyor musun?",
             "de": "Öffnest du das Fenster?"
           },
           {
@@ -284,12 +284,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Bütün öğrenciler oturur.",
+            "lv": "Bütün öğrenciler oturuyor.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Paweł, otur!",
+            "lv": "Paul, otur!",
             "de": "Paul, setz dich!"
           },
           {
@@ -299,76 +299,76 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Sessizce konuşmayın!",
+            "lv": "Alçak sesle konuşma!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Nasıl konuşuyor?",
+            "lv": "O nasıl konuşuyor?",
             "de": "Wie spricht er?"
           },
           {
             "type": "translate",
-            "lv": "Tüm öğrenciler yüksek sesle konuşur.",
+            "lv": "Bütün öğrenciler yüksek sesle konuşuyor.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Kim yüksek sesle okur?",
+            "lv": "Kim yüksek sesle okuyor?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Öğrenci yüksek sesle ve net bir şekilde okur.",
+            "lv": "Kız öğrenci yüksek sesle ve anlaşılır biçimde okuyor.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Przeczytaj dobrze!",
+            "lv": "İyi oku!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Sessizce konuşmayın!",
+            "lv": "Alçak sesle konuşma!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Przeczytaj dobrze!",
+            "lv": "İyi okuyun!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis iyi yazar ama Anna kötü yazar.",
+            "lv": "Hans iyi yazıyor ama Anna kötü yazıyor.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Bayan Müller, lütfen bir şarkı söyleyin!",
+            "lv": "Matmazel Müller, lütfen bir şarkı söyleyin!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Sayın Öğretmen, lütfen oturun!",
+            "lv": "Öğretmen Bey, lütfen oturun!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "exerciseType": "translate",
-        "description": "Letonca cümleleri Almancaya çevirin.",
+        "description": "Türkçe cümleleri Almancaya çevir.",
         "cards": [
           {
-            "lv": "Pozdrawiam nauczyciela i nauczyciela.",
+            "lv": "Öğretmene ve kadın öğretmene selam ver.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Tüm dizin nesnelerini aç",
+            "lv": "Bütün pencereleri açın!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Otwieramy wszystkie okna.",
+            "lv": "Bütün pencereleri açıyoruz.",
             "de": "Wir öffnen alle Fenster."
           },
           {
@@ -380,11 +380,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Bütün öğrenciler oturur.",
+            "lv": "Bütün öğrenciler oturuyor.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paweł, otur!",
+            "lv": "Paul, otur!",
             "de": "Paul, setz dich!"
           },
           {
@@ -392,47 +392,47 @@ const COURSE_LESSON_DATA = {
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Sessizce konuşmayın!",
+            "lv": "Alçak sesle konuşma!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Nasıl konuşuyor?",
+            "lv": "O nasıl konuşuyor?",
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Tüm öğrenciler yüksek sesle konuşur.",
+            "lv": "Bütün öğrenciler yüksek sesle konuşuyor.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Kim yüksek sesle okur?",
+            "lv": "Kim yüksek sesle okuyor?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Öğrenci yüksek sesle ve net bir şekilde okur.",
+            "lv": "Kız öğrenci yüksek sesle ve anlaşılır biçimde okuyor.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Przeczytaj dobrze!",
+            "lv": "İyi oku!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Sessizce konuşmayın!",
+            "lv": "Alçak sesle konuşma!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Przeczytaj dobrze!",
+            "lv": "İyi okuyun!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis iyi yazar ama Anna kötü yazar.",
+            "lv": "Hans iyi yazıyor ama Anna kötü yazıyor.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Bayan Müller, lütfen bir şarkı söyleyin!",
+            "lv": "Matmazel Müller, lütfen bir şarkı söyleyin!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Sayın Öğretmen, lütfen oturun!",
+            "lv": "Öğretmen Bey, lütfen oturun!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -442,11 +442,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson9": {
     "id": "lesson9",
     "title": "Ders 9",
-    "subtitle": "Çoklu Konular, Dieser/Jeneratör, Tekil ve Çoğul",
-    "intro": "Dokuzuncu ders: çoğul isimler, işaret zamirleri dieser/jener, alıştırmalar ve çeviri.",
+    "subtitle": "Birden çok nesne, dieser/jener, tekil ve çoğul",
+    "intro": "Dokuzuncu ders: isimlerin çoğulu, dieser/jener işaret zamirleri, alıştırmalar ve çeviri.",
     "sections": [
       {
-        "title": "Dialogi / zdania",
+        "title": "Diyaloglar / cümleler",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kelimeler",
         "items": [
-          "mehrere (mērere) — kilka, kilka",
-          "hier (hīr) — burada, burada",
-          "dort — tur",
-          "auch — aynı zamanda",
-          "langsam (lankzām) — powoli",
-          "schnell (šnel) — szybko",
-          "mehr (mēr) — daha fazlası",
+          "mehrere (meerere) — birkaç, birçok",
+          "hier (hiir) — burada",
+          "dort — orada",
+          "auch — de, da; dahi",
+          "langsam (langzaam) — yavaş",
+          "schnell (şnel) — hızlı",
+          "mehr (meer) — daha çok",
           "zumachen — kapatmak",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — oturmak",
-          "ruhig (rū-ich) - spokój",
-          "dieser (dīzer) — to",
-          "jener (jēner) — bu",
-          "der Brief (dēr brīf) — list",
-          "die Briefe — listy",
-          "kurz (kurc) — kısa",
-          "rein — czysty",
-          "schmutzig (šmucich) — brudny"
+          "ich mache zu — kapatıyorum",
+          "sitzen (zitsen) — oturmak",
+          "ruhig (ruu-ih) — sakin, sakince",
+          "dieser (diizer) — bu",
+          "jener (yeener) — şu, o",
+          "der Brief (deer briif) — mektup",
+          "die Briefe — mektuplar",
+          "kurz (kurts) — kısa",
+          "rein — temiz",
+          "schmutzig (şmutsih) — kirli"
         ]
       },
       {
         "title": "Dilbilgisi",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Belirli artikel olarak dieser ve jener zamirlerini belirtin."
+            "heading": "İşaret zamirleri",
+            "text": "dieser ve jener işaret zamirleri belirli artikel gibi çekilir."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Tekil",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Çoğul",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Eğer isimden önce bir zamir veya sayısal bir kelime geliyorsa, madde kullanılmaz."
+            "heading": "Artikel kullanılmaz",
+            "text": "İsmin önünde bir zamir veya sayı varsa artikel kullanılmaz."
           },
           {
             "examples": [
@@ -553,30 +553,30 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ubung / Ćwiczenia",
+        "title": "Übung / Alıştırma",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 giriş cümlesi",
-                "task": "Bu cümleyi üçüncü tekil şahıs olarak değiştirin.",
+                "label": "1/4 Başlangıç cümlesi",
+                "task": "Bu cümleyi tekil 3. şahsa dönüştür.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Açılış cümlesini birinci çoğul şahıs olarak değiştirin.",
+                "label": "2/4 Er biçimi",
+                "task": "Başlangıç cümlesini çoğul 1. şahsa dönüştür.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Wir forma",
-                "task": "Tekil yerine çoğul kullanın.",
+                "label": "3/4 Wir biçimi",
+                "task": "İsmi tekil yerine çoğul kullan.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Daudzskaitlis",
-                "task": "Hazır. Sonraki tıklama sonraki sekmeyi gösterir.",
+                "label": "4/4 Çoğul",
+                "task": "Tamam. Bir sonraki tıklama sonraki kartı gösterir.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,11 +784,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Dziewczyna siada i pisze list.",
+            "lv": "Kız oturuyor ve bir mektup yazıyor.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
@@ -800,23 +800,23 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Ne yapıyorsun",
+            "lv": "Siz ne yapıyorsunuz?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Siedzimy i czytamy.",
+            "lv": "Oturuyoruz ve okuyoruz.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paweł, otur ve oku!",
+            "lv": "Paul, otur ve oku!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Hocam, otur da oku!",
+            "lv": "Öğretmen Bey, oturun ve okuyun!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Çocuklar nasıl yazar?",
+            "lv": "Çocuklar nasıl yazıyor?",
             "de": "Wie schreiben die Kinder?"
           },
           {
@@ -828,39 +828,39 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Co to za talerz?",
+            "lv": "Bu tabak nasıl?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Bu kayıt temiz değil, kirli.",
+            "lv": "Bu tabak temiz değil, kirli.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Harfler uzun mu kısa mı?",
+            "lv": "Mektuplar uzun mu yoksa kısa mı?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, o kalemi keskinleştir!",
+            "lv": "Anna, bu kurşun kalemi aç!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Hocam lütfen bu kalemi keskinleştirin!",
+            "lv": "Öğretmen Bey, lütfen bu kurşun kalemi açın!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Bırak o kalemi!",
+            "lv": "Şu kurşun kalemi bırak!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
-            "lv": "Zamknij okno!",
+            "lv": "Pencereyi kapat!",
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Zaten bir kız ne yapar?",
+            "lv": "Kız sonunda ne yapıyor?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Zamyka okno i wychodzi.",
+            "lv": "Pencereyi kapatıyor ve dışarı çıkıyor.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -870,11 +870,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson10": {
     "id": "lesson10",
     "title": "Ders 10",
-    "subtitle": "Sein, können, zdrowie, wiek i zawody",
-    "intro": "Onuncu ders: sein, können, komut biçimleri, sağlık, yaş ve meslekler.",
+    "subtitle": "Sein, können, sağlık, yaş ve meslekler",
+    "intro": "Onuncu ders: sein, können, emir biçimleri, sağlık, yaş ve meslekler.",
     "sections": [
       {
-        "title": "Dialogi / zdania",
+        "title": "Diyaloglar / cümleler",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kelimeler",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — biz",
-          "ihr seid (īr zeit) — sen",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — potrafi",
-          "wir können — yapabiliriz",
-          "ihr könnt — yapabilirsin",
-          "sie können — yapabilirler",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — sağlıklı kalın!",
-          "der Knabe (dēr knābe) — bir oğlan",
-          "der Mann — koca, adam",
-          "die Frau — sieva, kobieta",
-          "der Großvater (dēr grōsfāter) — śpiewać",
-          "krank — slims",
-          "fleißig (fleišich) — uciążliwy",
-          "lernen — öğrenmek",
-          "alt — vecs",
-          "das Jahr (jār) — rok",
-          "die Jahre — gadi",
-          "wie — jak, kto, ile"
+          "gesund (gezunt) — sağlıklı",
+          "ich bin gesund — ben sağlıklıyım",
+          "du bist — sen -sin",
+          "wir sind — biz -iz",
+          "ihr seid (iir zayt) — siz -siniz",
+          "ich kann — ben yapabilirim",
+          "du kannst — sen yapabilirsin",
+          "er kann — o yapabilir",
+          "wir können — biz yapabiliriz",
+          "ihr könnt — siz yapabilirsiniz",
+          "sie können — onlar yapabilir",
+          "sei gesund — sağlıklı ol!",
+          "seid gesund — sağlıklı olun!",
+          "seien Sie gesund — sağlıklı olun! (kibar hitap)",
+          "der Knabe (deer knaabe) — erkek çocuk, oğlan",
+          "der Mann — adam, erkek",
+          "die Frau — kadın, eş",
+          "der Großvater (deer groosfaater) — dede",
+          "krank — hasta",
+          "fleißig (flaysih) — çalışkan",
+          "lernen — öğrenmek, ders çalışmak",
+          "alt — yaşlı, eski",
+          "das Jahr (yaar) — yıl",
+          "die Jahre — yıllar",
+          "wie — nasıl, kaç"
         ]
       },
       {
         "title": "Telaffuz",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Umlautlu ünlüler doğru okunmalıdır.",
+          "ö, dudaklar yuvarlatılarak e gibi, yani Türkçedeki ö gibi okunur: wir können, ihr könnt, sie können, der Löffel.",
+          "ü, dudaklar yuvarlatılarak i gibi, yani Türkçedeki ü gibi okunur: Müller (müller), Bücher (büüher).",
+          "Ünlünün uzun ya da kısa okunması, ardından gelen ünsüzlere bağlıdır.",
+          "Ünlüden sonra tek ünsüz geliyorsa ünlü uzun okunur: Vögel (föögel), Schüler (şüüler), Bücher (büüher).",
+          "Ünlüden sonra iki veya daha fazla ünsüz geliyorsa ünlü kısa okunur: wir können, der Löffel, der Müller.",
+          "Almanca o, Türkçedeki o gibi temiz bir o sesidir, örneğin: fon, fotoğraf, nominatif.",
+          "Doğru oku: der Großvater (deer groosfaater).",
+          "ei çift ünlüsü ay gibi okunur: seid (zayt), fleißig (flaysih).",
+          "Almanca e kapalı veya açık olabilir: der Lehrer (deer leerer). Gövdedeki e uzun ve kapalıdır, ekteki e ise kısa ve açıktır."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Yardımcı fiil sein – çemberi karıştırmak. Bu yüzden bunu iyi öğrenmeye değer."
+            "text": "sein — olmak yardımcı fiili düzensiz çekilir. Bu yüzden iyi öğrenilmelidir."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Benzer şekilde können - yapabilmek - yardımcı fiilinin çekimi de düzensizdir."
+            "text": "können — -ebilmek yardımcı fiili de düzensiz çekilir."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,47 +1051,47 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "sağlıklı mısın",
+            "lv": "Sağlıklı mısın?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Tak, jestem zdrowy.",
+            "lv": "Evet, sağlıklıyım.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Paweł sağlıklı mı?",
+            "lv": "Paul sağlıklı mı?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Hayır, Paul sağlıklı değil, hasta.",
+            "lv": "Hayır, Paul sağlıklı değil, o hasta.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Çalışabilir mi?",
+            "lv": "O çalışabilir mi?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Hayır çalışamaz.",
+            "lv": "Hayır, o çalışamaz.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Czy dziadek jest stary?",
+            "lv": "Dede yaşlı mı?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Tak, jest bardzo stary.",
+            "lv": "Evet, o çok yaşlı.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Büyükbaba ve büyükanne çok yaşlı.",
+            "lv": "Dede ve nine çok yaşlı.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Ile lat ma Adolf?",
+            "lv": "Adolf kaç yaşında?",
             "de": "Wie alt ist Adolf?"
           },
           {
@@ -1099,23 +1099,23 @@ const COURSE_LESSON_DATA = {
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Sen kimsin",
+            "lv": "Sen kimsin?",
             "de": "Wer bist du?"
           },
           {
-            "lv": "Jestem mężczyzną.",
+            "lv": "Ben bir erkeğim.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Czy on jest nauczycielem?",
+            "lv": "O öğretmen mi?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Nie, jest pracownikiem.",
+            "lv": "Hayır, o bir işçi.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Kim jest nauczyciel?",
+            "lv": "Öğretmen nedir?",
             "de": "Was ist der Lehrer?"
           },
           {
@@ -1123,15 +1123,15 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Kim jest nauczyciel?",
+            "lv": "Kadın öğretmen nedir?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Nauczycielką jest kobieta.",
+            "lv": "Kadın öğretmen bir kadındır.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Kimler çalışabilir?",
+            "lv": "Kim çalışabilir?",
             "de": "Wer kann arbeiten?"
           },
           {
@@ -1145,11 +1145,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "Ders 11",
-    "subtitle": "Haben, kein/keine/keinen, iyelik ve bileşik isimler",
-    "intro": "Onbirinci ders: haben, kein ile olumsuzluk, iyelik, bileşik isimler ve denn ile kelime sırası.",
+    "subtitle": "Haben, kein/keine/keinen, sahiplik ve birleşik isimler",
+    "intro": "On birinci ders: haben, kein ile olumsuzluk, sahipliğin ifadesi, birleşik isimler ve denn ile kelime sırası.",
     "sections": [
       {
-        "title": "Dialogi / zdania",
+        "title": "Diyaloglar / cümleler",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1191,44 +1191,44 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kelimeler",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — ma",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — onlar var",
-          "der Bruder (dēr brūder) — brat",
-          "die Brüder — bracia",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — kesinlikle",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — biurko",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — razem",
+          "ich habe — benim var",
+          "du hast — senin var",
+          "er hat — onun var",
+          "wir haben — bizim var",
+          "ihr habt — sizin var",
+          "sie haben — onların var",
+          "der Bruder (deer bruuder) — erkek kardeş",
+          "die Brüder — erkek kardeşler",
+          "das Zimmer (das tsimmer) — oda",
+          "ist nicht — değil, yok",
+          "groß (groos) — büyük",
+          "hell — aydınlık",
+          "breit — geniş",
+          "der Schreibtisch (deer şraybtiş) — yazı masası",
+          "da — orada",
+          "kein, keine, kein — hiçbir (eril, dişil, nötr)",
+          "zusammen (tsuzammen) — birlikte",
           "oft — sık sık",
-          "der Freund (dēr froint) — przyjaciel",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krzesło",
+          "der Freund (deer froynt) — arkadaş",
+          "die Freunde — arkadaşlar",
+          "der Schrank — dolap",
+          "der Stuhl (deer ştuul) — sandalye",
           "die Stühle — sandalyeler",
-          "die Tischlampe — galda lampa",
-          "das Bücherbrett — kitaplık",
-          "die Landkarte (dī lantkarte) — mapa geograficzna",
+          "die Tischlampe — masa lambası",
+          "das Bücherbrett — kitap rafı",
+          "die Landkarte (dii lantkarte) — harita",
           "glücklich — mutlu",
-          "denn — jo",
-          "die Schwester (dī švester) — siostra",
-          "die Schwestern — siostry"
+          "denn — çünkü",
+          "die Schwester (dii şvester) — kız kardeş",
+          "die Schwestern — kız kardeşler"
         ]
       },
       {
         "title": "Telaffuz",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu, oy gibi okunur: der Freund (deer froynt), neun (noyn).",
+          "h çoğu zaman önceki ünlünün uzatma işaretidir: der Stuhl (deer ştuul), zehn (tseen).",
+          "z, ts gibi okunur: Franz (frants), das Zimmer (tsimmer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Almancadaki haben yardımcı fiili ait olma kavramını ifade eder. Letonca'da sıklıkla şu şekilde ifade edilir: Bende var, sende var, o var, vb. t. T."
+            "text": "Almancada sahiplik haben yardımcı fiiliyle ifade edilir. Türkçede bu genellikle şöyle söylenir: benim … var, senin … var, onun … var vb."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "benim var"
               ],
               [
                 "du hast",
-                "tev ir"
+                "senin var"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "onun var"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "bizim var"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "sizin var"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "onların var"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "Letonca'da bir şeyin ait olduğu kişi datif durumda, özne ise yalın durumda olur. Almanca'da bir kişi yalın durumda, bir nesne ise suçlayıcı durumda."
+            "heading": "Türkçede iyelik ve Almancada nominatif/akuzatif",
+            "text": "Türkçede sahip olan kişi tamlayan hâlindedir — benim, sahip olunan nesne ise iyelik eki alır: benim kitabım var. Almancada ise kişi nominatif hâlindedir, sahip olunan nesne ise — akuzatif hâlinde."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Örnekler",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — benim bir masam var",
+              "Der Vater hat ein Buch — babanın bir kitabı var",
+              "Sie haben eine Feder — onların bir kalem ucu var"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Diğer dillerle karşılaştırma",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "Rusça: я имею тетрадь; отец имеет книгу.",
+              "İngilizce: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Haben fiilinin iyi öğrenilmesi ve doğru kullanılması gerekmektedir. Ayrıca sevk formlarına da aşina olmalısınız."
+            "text": "haben fiili iyi öğrenilmeli ve doğru kullanılmalıdır. Emir biçimleri de bilinmelidir."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — örnekler",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — sabırlı ol!",
+              "habt Geduld! — sabırlı olun!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Letonca'nın çifte olumsuzlaması Almanca'da kein olumsuz sözcüğüyle ifade edilmez. Kein olumsuz sözcüğü yalnızca bir ismin önüne gelir."
+            "text": "Türkçedeki hiçbir … yok gibi çift olumsuzluk Almancada kein ile kurulmaz; kein tek başına yeterlidir. Olumsuzluk sözcüğü kein yalnızca bir ismin önünde durur."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — tekil",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — çoğul",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Bir anlatı cümlesi bağlaç denn'i içeriyorsa fiil ikinci konumda kalır. Bağlaç denn bir cümlenin üyesi olarak sayılmaz."
+            "heading": "denn ile kelime sırası",
+            "text": "Düz cümlede denn bağlacı varsa fiil 2. sırada kalır. denn bağlacı cümle öğesi olarak sayılmaz."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — örnekler",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Bileşik isimlerden önce ismin son artikeli gelir. Vurgu, konuyla ilgili ilk kelime üzerindedir."
+            "heading": "Birleşik isimler",
+            "text": "Birleşik ismin önünde son ismin artikeli bulunur. Vurgu ilk isimdedir."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Birleşik isimler — örnekler",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,19 +1358,19 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Co masz",
+            "lv": "Senin neyin var?",
             "de": "Was hast du?"
           },
           {
-            "lv": "Mam książki.",
+            "lv": "Kitaplarım var.",
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Kitaplar nasıldır?",
+            "lv": "Kitaplar nasıl?",
             "de": "Wie sind die Bücher?"
           },
           {
@@ -1378,39 +1378,39 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Pani Müller, ma pani notesy?",
+            "lv": "Matmazel Müller, defterleriniz var mı?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Hiç not defterim yok.",
+            "lv": "Hiç defterim yok.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Frank'in kalemi ya da kurşun kalemi yok.",
+            "lv": "Franz'ın hiç kalem ucu ve hiç kurşun kalemi yok.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Oda nasıl bir yer?",
+            "lv": "Oda nasıl?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Pokój jest duży, jasny i ciepły.",
+            "lv": "Oda büyük, aydınlık ve sıcak.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Masz biurko?",
+            "lv": "Yazı masan var mı?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Evet, bir masam ve masa lambam var.",
+            "lv": "Evet, bir yazı masam ve bir masa lambam var.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Co ma nauczyciel?",
+            "lv": "Öğretmenin neyi var?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Öğretmenin birçok kitabı ve kitaplığı var.",
+            "lv": "Öğretmenin çok kitabı ve bir kitap rafı var.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1418,31 +1418,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Çocuk mutlu çünkü bir babası ve bir annesi var.",
+            "lv": "Çocuk mutlu, çünkü onun bir babası ve bir annesi var.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Co robi Anna?",
+            "lv": "Anna ne yapıyor?",
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Ona pisze.",
+            "lv": "O yazıyor.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Francis de yazıyor mu?",
+            "lv": "Franz da yazıyor mu?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nie, Franciszek nie pisze, on rysuje.",
+            "lv": "Hayır, Franz yazmıyor, o resim çiziyor.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Ayaktalar mı?",
+            "lv": "Onlar ayakta mı duruyor?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Hayır, oturup öğreniyorlar.",
+            "lv": "Hayır, oturuyorlar ve ders çalışıyorlar.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1452,11 +1452,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson12": {
     "id": "lesson12",
     "title": "Ders 12",
-    "subtitle": "Karşılaştırmalı notlar, als/wie, yaş, sıfatlar ve renkler.",
-    "intro": "On ikinci ders: karşılaştırmalı dereceler, als/wie, yaş, sıfatlar ve renkler.",
+    "subtitle": "Karşılaştırma dereceleri, als / wie, yaş, sıfatlar ve renkler.",
+    "intro": "On ikinci ders: karşılaştırma dereceleri, als / wie, yaş, sıfatlar ve renkler.",
     "sections": [
       {
-        "title": "Dialogi / zdania",
+        "title": "Diyaloglar / cümleler",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kelimeler",
         "items": [
-          "heißen — saukt",
+          "heißen — adı olmak",
           "wie heißt du — adın ne",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — liels",
-          "klein — mazs",
-          "kleiner als ich — mniejszy ode mnie",
-          "alt — vecs",
-          "jung — jauns",
+          "ich heiße — benim adım",
+          "die Grube — çukur",
+          "wieviel — kaç, ne kadar",
+          "Max (maks) — Max",
+          "groß — büyük",
+          "klein — küçük",
+          "kleiner als ich — benden küçük",
+          "alt — yaşlı, eski",
+          "jung — genç",
           "jünger als ich — benden genç",
-          "so alt wie — tak stary jak",
-          "der Vetter (dēr feter) — kuzynka",
-          "am ältesten (am eltesten) — najstarszy",
-          "ebenso — podobnie",
-          "wie — jak",
-          "am jüngsten — najnowszy",
-          "faul — slinks",
-          "fleißig — pracowity",
-          "blau — zils",
+          "so alt wie — … kadar yaşlı",
+          "der Vetter (deer fetter) — kuzen (erkek)",
+          "am ältesten (am eltesten) — en yaşlı",
+          "ebenso — aynı şekilde, aynı derecede",
+          "wie — gibi, kadar",
+          "am jüngsten — en genç",
+          "faul — tembel",
+          "fleißig — çalışkan",
+          "blau — mavi",
           "braun — kahverengi",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — guma",
-          "grau — szary",
-          "der Baum — koks",
-          "grün — zielony",
-          "die Blume — kwiat",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — kreda",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "gelb — sarı",
+          "das Gummi (das gummi) — silgi",
+          "grau — gri",
+          "der Baum — ağaç",
+          "grün — yeşil",
+          "die Blume — çiçek",
+          "rot — kırmızı",
+          "die Tinte — mürekkep",
+          "die Kreide — tebeşir",
+          "weiß — beyaz",
+          "schwarz — siyah",
+          "krank — hasta",
+          "gesund — sağlıklı"
         ]
       },
       {
         "title": "Telaffuz",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — H in der Federhalter belirgin bir sesi, der Sohn ise özlemi temsil eder."
+          "x, ks gibi okunur: Max (maks), Felix (feliks).",
+          "Schwester, am jüngsten kelimelerinde st, Türkçedeki normal st gibi okunur: Schwester (şvester), jüngsten (yünksten).",
+          "der Federhalter kelimesindeki h okunan bir sestir, der Sohn kelimesinde ise — uzatma işareti."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Sıfatların üstünlük hali (Komparativ), -er ekiyle biten temel formdan (Positiv) oluşur.",
+            "text": "Sıfatların üstünlük derecesi (Komparativ), yalın dereceden (Positiv) -er ekiyle türetilir.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Kök sesli harfi a, o, u olan çoğu tek heceli sıfatta üstünlük işareti bulunur.",
+            "heading": "Üstünlük derecesinde umlaut",
+            "text": "Gövde ünlüsü a, o, u olan tek heceli sıfatların çoğu üstünlük derecesinde umlaut alır.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie eşitliği ifade etmek için kullanılır. als eşitsizliği ifade ederken kullanılır.",
+            "heading": "wie ve als ile karşılaştırma",
+            "text": "wie eşitlik bildirirken kullanılır. als eşitsizlik bildirirken kullanılır.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Genel derece (Superlativ), temel dereceye -sten veya -esten ekinin ve başına am yol kelimesinin eklenmesiyle oluşturulur.",
+            "text": "En üstünlük derecesi (Superlativ), yalın dereceye -sten veya -esten eki eklenip önüne am kelimesi getirilerek yapılır.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Düzensiz karşılaştırma dereceleri",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (yakın)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (yüksek)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (iyi)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (çok)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (yakında)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (seve seve)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,11 +1611,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kto jest starszy, ty czy ja?",
+            "lv": "Kim daha yaşlı, sen mi ben mi?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
@@ -1623,15 +1623,15 @@ const COURSE_LESSON_DATA = {
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Kto jest najstarszy?",
+            "lv": "En yaşlı kim?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paul en yaşlısıdır.",
+            "lv": "Paul en yaşlısı.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Adınız ne?",
+            "lv": "Adın ne?",
             "de": "Wie heißt du?"
           },
           {
@@ -1639,83 +1639,83 @@ const COURSE_LESSON_DATA = {
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Onun adı ne?",
+            "lv": "Onun (erkek) adı ne?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Adı John.",
+            "lv": "Onun adı Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Adınız ne?",
+            "lv": "Sizin adınız ne?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Ile masz lat?",
+            "lv": "Siz kaç yaşındasınız?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Mam 20 lat.",
+            "lv": "Ben 20 yaşındayım.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Maxi büyük mü?",
+            "lv": "Max büyük mü?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Hayır, Max büyük değil, Rudolph daha büyük.",
+            "lv": "Hayır, Max büyük değil, Rudolf daha büyük.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "En büyüğü nedir?",
+            "lv": "En büyük kim?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis en büyüğüdür.",
+            "lv": "Franz en büyüğü.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Ile lat ma matka?",
+            "lv": "Anne kaç yaşında?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Matka jest w tym samym wieku co ojciec.",
+            "lv": "Anne, baba kadar yaşlı.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Kaç tane kız kardeşin var?",
+            "lv": "Kaç kız kardeşin var?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Mam trzy siostry.",
+            "lv": "Üç kız kardeşim var.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "İsimleri neler?",
+            "lv": "Onların (kızların) adları ne?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "İsimleri Elsa, Marta ve Alma'dır.",
+            "lv": "Onların adları Elsa, Martha ve Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Ilu masz braci?",
+            "lv": "Sizin kaç erkek kardeşiniz var?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Mam jednego brata.",
+            "lv": "Bir erkek kardeşim var.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Co to jest atrament?",
+            "lv": "Mürekkep nasıl?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Jest czarny.",
+            "lv": "O siyah.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Co to jest kreda?",
+            "lv": "Tebeşir nasıl?",
             "de": "Wie ist die Kreide?"
           },
           {
@@ -1723,27 +1723,27 @@ const COURSE_LESSON_DATA = {
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Çiçekler nedir?",
+            "lv": "Çiçekler nasıl?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Bunlar mavi, kırmızı, sarı ve beyazdır.",
+            "lv": "Onlar mavi, kırmızı, sarı ve beyaz.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Czy brat jest zdrowy?",
+            "lv": "Erkek kardeş sağlıklı mı?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Tak, brat jest zdrowy, ale siostra jest chora.",
+            "lv": "Evet, erkek kardeş sağlıklı ama kız kardeş hasta.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Mutlu musun?",
+            "lv": "Siz mutlu musunuz?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Evet mutluyuz çünkü sağlıklıyız.",
+            "lv": "Evet, mutluyuz, çünkü sağlıklıyız.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1753,11 +1753,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson13": {
     "id": "lesson13",
     "title": "Ders 13",
-    "subtitle": "Der Körper, vücut parçaları, turnen, testisler ve çoğul.",
-    "intro": "Onüçüncü ders: Der Körper, vücut kısımları, egzersizler, refleksif fiiller ve çoğul.",
+    "subtitle": "Der Körper, vücudun bölümleri, turnen, jeder ve çoğul.",
+    "intro": "On üçüncü ders: Der Körper, vücudun bölümleri, jimnastik, dönüşlü fiiller ve çoğul.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Metin / Okuma",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,56 +1777,56 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Kelimeler",
         "items": [
           "der Körper — vücut",
-          "der Mensch — istota ludzka",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — noga",
-          "die Beine — nogi",
-          "der Fuß — stopa stopy",
-          "die Füße — stopy",
+          "der Mensch — insan",
+          "der Kopf — baş, kafa",
+          "der Hals — boyun",
+          "der Rumpf — gövde",
+          "der Arm — kol",
+          "die Hand — el",
+          "die Hände — eller",
+          "das Bein — bacak",
+          "die Beine — bacaklar",
+          "der Fuß — ayak",
+          "die Füße — ayaklar",
           "rund — yuvarlak",
           "lang — uzun",
           "kurz — kısa",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — cienki / cienki",
+          "klein — küçük",
+          "groß — büyük",
+          "dick — şişman / kalın",
+          "dünn — zayıf / ince",
           "die Brust — göğüs",
-          "vorn — z przodu",
-          "der Rücken — mugura",
+          "vorn — önde",
+          "der Rücken — sırt",
           "hinten — arkada",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — palec u nogi",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
+          "jeder — her",
+          "jede — her",
+          "jedes — her",
+          "der Finger — parmak",
+          "die Zehe — ayak parmağı",
+          "beide — her ikisi",
+          "der Nagel — tırnak",
+          "die Nägel — tırnaklar",
+          "beschneiden — kesmek",
           "reinigen — temizlemek",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — yapmak/yapmak",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — ayakta durmak",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — bekle",
-          "gerade — taisni",
-          "atmen — elpot",
+          "turnen — jimnastik yapmak",
+          "heben — kaldırmak",
+          "machen — yapmak / etmek",
+          "der Schritt — adım",
+          "bleiben — kalmak",
+          "stehen — durmak, ayakta durmak",
+          "sich umkehren — arkasını dönmek",
+          "ausstrecken — uzatmak, germek",
+          "senken — indirmek",
+          "drehen — çevirmek / döndürmek",
+          "nach links — sola",
+          "nach rechts — sağa",
+          "halten — tutmak",
+          "gerade — dik, düz",
+          "atmen — nefes almak",
           "tief — derin"
         ]
       },
@@ -1834,8 +1834,8 @@ const COURSE_LESSON_DATA = {
         "title": "Dilbilgisi",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "İkinci ve üçüncü tekil şahısta sesli harf kökü a veya au olan bazı fiillerde çift nokta bulunur.",
+            "heading": "Şimdiki zamanda umlaut",
+            "text": "Gövde ünlüsü a veya au olan bazı fiiller, şimdiki zamanın tekil 2. ve 3. şahsında umlaut alır.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — apgriezties",
+            "heading": "Dönüşlü fiil",
+            "text": "sich umkehren — arkasını dönmek",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "sich umkehren ile emir biçimi",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Atmen — elpot",
+            "heading": "atmen fiili",
+            "text": "atmen — nefes almak",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "atmen ile emir biçimi",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Edat kısmı vurgulanmışsa şimdiki zamanda ayrılır ve cümlenin sonunda görünür.",
+            "heading": "Birleşik fiiller",
+            "text": "Ön ek vurguluysa şimdiki zamanda fiilden ayrılır ve cümlenin sonuna gider.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Ön ek gerilmemişse, gerilmemiş demektir.",
+            "heading": "Ayrılmayan ön ekler",
+            "text": "Ön ek vurgusuzsa fiilden ayrılmaz.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Jeder zamiri, der/die/das artikelleri gibi daireler çizerek dolaşır.",
+            "heading": "jeder zamiri",
+            "text": "jeder zamiri der / die / das artikelleri gibi çekilir.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Eril",
+                "Dişil",
+                "Nötr"
               ],
               [
-                "Nominatīvs",
+                "Nominatif",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Akuzatif",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Eksiz çoğul",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "-e ekiyle çoğul",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "-en veya -n ekiyle çoğul",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "-er ekiyle çoğul",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Çoğulda - in take - en tarafından oluşturulan dişil isimler.",
+            "heading": "-in ekli dişil isimler",
+            "text": "-in ekiyle türetilmiş dişil isimler çoğulda -nen alır.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,16 +1981,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Telaffuz",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "halten kelimesinde h sesi duyulur.",
+          "fahren kelimesinde h, ünlünün uzun olduğunu gösterir.",
+          "halten kelimesinde a kısa okunur: halten.",
+          "tragen kelimesinde a uzun okunur: tragen.",
+          "äu, oy gibi okunur: du läufst, er läuft.",
+          "Kopf kelimesinde pf, iki ünsüz de duyulacak şekilde okunur."
         ]
       },
       {
-        "title": "Ćwiczenia",
+        "title": "Alıştırma",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,11 +2055,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Bir insanın kaç eli vardır?",
+            "lv": "İnsanın kaç kolu var?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
@@ -2067,19 +2067,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Kafa nasıldır?",
+            "lv": "Baş nasıl?",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Gövde nasıldır?",
+            "lv": "Gövde nasıl?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Bu da ne?",
+            "lv": "Kol nasıl?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Jaka jest noga?",
+            "lv": "Bacak nasıl?",
             "de": "Wie ist das Bein?"
           },
           {
@@ -2087,23 +2087,23 @@ const COURSE_LESSON_DATA = {
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Gdzie jest skrzynia",
+            "lv": "Göğüs nerede?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Arkası nerede?",
+            "lv": "Sırt nerede?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Göğüs önde, sırt arkadadır.",
+            "lv": "Göğüs önde, sırt arkada.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Bir elin kaç parmağı vardır?",
+            "lv": "Elin kaç parmağı var?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Elin beş parmağı vardır.",
+            "lv": "Elin beş parmağı var.",
             "de": "Die Hand hat fünf Finger."
           },
           {
@@ -2111,23 +2111,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "İki elin on parmağı vardır.",
+            "lv": "İki elin on parmağı var.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Co to jest palec?",
+            "lv": "Parmağın neyi var?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Palec ma pazur.",
+            "lv": "Parmağın bir tırnağı var.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Ne yapıyorsun",
+            "lv": "Ne yapıyorsun?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Przycinam i oczyszczam paznokcie.",
+            "lv": "Tırnakları kesiyorum ve temizliyorum.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
@@ -2135,59 +2135,59 @@ const COURSE_LESSON_DATA = {
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Ćwiczy.",
+            "lv": "O jimnastik yapıyor.",
             "de": "Er turnt."
           },
           {
-            "lv": "Nasıl egzersiz yapıyorlar?",
+            "lv": "Onlar nasıl jimnastik yapıyor?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Bacaklarını ve kollarını kaldırırlar.",
+            "lv": "Bacakları ve kolları kaldırıyorlar.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "İki elini uzatır.",
+            "lv": "İki kolu da uzatıyorlar.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Her iki elini de indiriyorlar.",
+            "lv": "İki kolu da indiriyorlar.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Başlarını sağa çevirirler.",
+            "lv": "Başı sağa çeviriyorlar.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Kim derin nefes alır?",
+            "lv": "Kim derin nefes alıyor?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter ve Anna derin bir nefes alıyor.",
+            "lv": "Peter ve Anna derin nefes alıyor.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Robert da pratik yapıyor mu?",
+            "lv": "Robert da jimnastik yapıyor mu?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Hayır, Robert ve Jan egzersiz yapmıyorlar.",
+            "lv": "Hayır, Robert ve Johann jimnastik yapmıyor.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, pratik yap!",
+            "lv": "Robert, jimnastik yap!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert ve Jāni, pratik yapın!",
+            "lv": "Robert ve Johann, jimnastik yapın!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Bayan Müller, pratik yapın!",
+            "lv": "Matmazel Müller, jimnastik yapın!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "İki adım atın ve durun!",
+            "lv": "İki adım atın ve sonra olduğunuz yerde durun!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2197,11 +2197,11 @@ const COURSE_LESSON_DATA = {
   "kurssLesson14": {
     "id": "lesson14",
     "title": "Ders 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "On dördüncü ders: Müssen, wollen ve mögen modal fiilleri.",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "On dördüncü ders: müssen, wollen ve mögen modal fiilleri.",
     "sections": [
       {
-        "title": "Tekst / Czytanie",
+        "title": "Metin / Okuma",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imiona",
+        "title": "Kelimeler",
         "items": [
-          "müssen — Yapmalıyım /Yapmalıyım",
-          "ich muss — yapmalıyım / yapmalıyım",
-          "du musst — ihtiyacın var / yapmalısın",
-          "er muss — on potrzebuje / musi",
-          "sie muss — ona potrzebuje / musi",
-          "es muss — bu yeterli olmalı/yeterli olmalı",
-          "wir müssen — yapmalıyız / yapmalıyız",
-          "ihr müsst — potrzebujesz / musisz",
-          "sie müssen — ihtiyaçları var",
-          "lernen — öğrenmek",
-          "vorwärts — do przodu",
-          "vorwärts kommen — ilerlemek için",
+          "müssen — zorunda olmak / -mesi gerekmek",
+          "ich muss — zorundayım / yapmam gerek",
+          "du musst — zorundasın / yapman gerek",
+          "er muss — o (erkek) zorunda / yapması gerek",
+          "sie muss — o (kadın) zorunda / yapması gerek",
+          "es muss — o (nötr) zorunda / yapması gerek",
+          "wir müssen — zorundayız / yapmamız gerek",
+          "ihr müsst — zorundasınız / yapmanız gerek",
+          "sie müssen — onlar zorunda",
+          "lernen — öğrenmek, ders çalışmak",
+          "vorwärts — ileri",
+          "vorwärts kommen — ilerlemek",
           "wollen — istemek",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — istiyor",
-          "sie will — ona chce",
-          "es will — tas grib",
-          "wir wollen — chcemy",
-          "ihr wollt — chcesz",
-          "sie wollen — onlar / onlar istiyorlar",
-          "mögen — istemek / istemek / beğenmek",
-          "ich mag — istiyorum/beğendim",
-          "du magst — chcesz / lubisz",
-          "er mag — chce / lubi",
-          "sie mag — ona chce / ona lubi",
-          "es mag — chce / lubi",
-          "wir mögen — chcemy",
-          "ihr mögt — chcesz",
-          "sie mögen — isterler",
-          "die Suppe — zupa",
-          "munden — tadı güzel olmak",
-          "mir — man",
-          "dir — tev",
-          "ihm — do niego",
-          "ihr — dla niej",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — dla nich / nich",
-          "denn — jo"
+          "ich will — istiyorum",
+          "du willst — istiyorsun",
+          "er will — o (erkek) istiyor",
+          "sie will — o (kadın) istiyor",
+          "es will — o (nötr) istiyor",
+          "wir wollen — istiyoruz",
+          "ihr wollt — istiyorsunuz",
+          "sie wollen — onlar istiyor",
+          "mögen — istemek / arzu etmek / hoşlanmak",
+          "ich mag — istiyorum / hoşlanıyorum",
+          "du magst — istiyorsun / hoşlanıyorsun",
+          "er mag — o (erkek) istiyor / hoşlanıyor",
+          "sie mag — o (kadın) istiyor / hoşlanıyor",
+          "es mag — o (nötr) istiyor / hoşlanıyor",
+          "wir mögen — istiyoruz",
+          "ihr mögt — istiyorsunuz",
+          "sie mögen — onlar istiyor",
+          "die Suppe — çorba",
+          "munden — lezzetli gelmek, hoşa gitmek",
+          "mir — bana",
+          "dir — sana",
+          "ihm — ona (erkek)",
+          "ihr — ona (kadın)",
+          "uns — bize",
+          "euch — size",
+          "ihnen — onlara",
+          "denn — çünkü"
         ]
       },
       {
         "title": "Dilbilgisi",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
-            "text": "Müssen, wollen ve mögen fiilleri modal fiillerdir."
+            "heading": "Modal fiiller",
+            "text": "müssen, wollen ve mögen fiilleri modal fiillerdir."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Şimdiki zamanda, birinci ve üçüncü kişiler aynıdır.",
+            "heading": "Tekil 1. ve 3. şahıs",
+            "text": "Şimdiki zamanın tekilinde 1. ve 3. şahıs aynıdır.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Gövde ünlüsünün değişimi",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen ihtiyaç duymak/ihtiyaç duyulmak demektir.",
+            "text": "Müssen, gerekmek / zorunlu olmak anlamına gelir.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Ders çalışmam gerek."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen bir şeyi kasıtlı olarak yapmak istemek anlamına gelir.",
+            "text": "Wollen, bir şeyi bilinçli olarak yapmak istemek anlamına gelir.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — İlerlemek istiyorum."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen bir dilek veya sempati ifade eder.",
+            "text": "Mögen istek veya hoşlanma bildirir.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Çorbayı yemek istemiyorum.",
+              "Die Suppe mundet mir nicht. — Çorba bana lezzetli gelmiyor."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Letonca'da sık sık “öğrenmem lazım ”,“ yazman lazım ”, “gelmesi lazım” diyoruz. Almanca bu tür cümlelerde genellikle müssen kullanır.",
+            "heading": "Önemli",
+            "text": "Türkçede çoğu zaman “ders çalışmam gerek”, “yazman lazım”, “gelmesi gerek” deriz. Almancada bu tür cümlelerde çoğunlukla müssen kullanılır.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,64 +2362,64 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Telaffuz",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß, Türkçedeki s gibi okunur.",
+          "ß, kelimenin ortasında veya sonunda uzun ünlüden ya da çift ünlüden sonra yazılır: die Füße, die Straße, ich muss, er muss.",
+          "Diğer biçimlerde ss varsa, ekten önce ß bulunabilir: müssen, ich muss, du musst, ihr müsst.",
+          "mögen kelimesinde ö, net bir ö sesi olarak okunur.",
+          "g'den sonra t gelirse g, k sesine daha yakın duyulur: du magst, ihr mögt.",
+          "Türkçede de benzer şekilde g sesi hece sonunda k'ye dönüşür: “renk” ama “rengi”."
         ]
       },
       {
-        "title": "Açıklamak",
+        "title": "Çevir",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Kim sıkı çalışmak ister?",
+            "lv": "Kim çalışkanca ders çalışmak istiyor?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Bütün öğrenciler çok çalışmak ister.",
+            "lv": "Bütün öğrenciler çalışkanca ders çalışmak istiyor.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Bugün kim gelmeli?",
+            "lv": "Bugün kim gelmek zorunda?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Bugün gelmem gerekiyor.",
+            "lv": "Bugün ben gelmek zorundayım.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Bir mektup yazmalısın.",
+            "lv": "Mektubu yazman gerek.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Kimin çok çalışması gerekiyor?",
+            "lv": "Kim çalışkanca ders çalışmak zorunda?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Öğrenciler çok çalışmalıdır.",
+            "lv": "Öğrenciler çalışkanca ders çalışmak zorunda.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Çorbayı sevmediğim için yemek istemiyorum.",
+            "lv": "Çorbayı yemek istemiyorum, çünkü bana lezzetli gelmiyor.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Kim çorba içmek ister?",
+            "lv": "Çorbayı kim yemek istiyor?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa çorba yemek istiyor.",
+            "lv": "Elsa çorbayı yemek istiyor.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kitabı kimler okumalı?",
+            "lv": "Kitabı kim okumak zorunda?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Kardeşim kitabı okumalı.",
+            "lv": "Erkek kardeş kitabı okumak zorunda.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
@@ -2427,7 +2427,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Babamın bir masa alması gerekiyor.",
+            "lv": "Babanın bir masa alması gerek.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

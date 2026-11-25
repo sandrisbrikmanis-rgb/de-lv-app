@@ -60,7 +60,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Lekcija 8",
-    "subtitle": "Povratni glagoli, e → i/ie promjena i akuzativ.",
+    "subtitle": "Povratni glagoli, promjena e → i/ie i akuzativ.",
     "sections": [
       {
         "title": "Dijalozi / rečenice",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Riječi",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
+          "alle — svi",
+          "aufstehen — ustati",
           "stehen auf — ustaje",
-          "grüßen (grüsen) — pozdraviti",
+          "grüßen (grisen) — pozdraviti",
           "guten Morgen — dobro jutro",
-          "gut — labs",
+          "gut — dobar",
           "der Morgen — jutro",
-          "der Herr — kungs",
+          "der Herr — gospodin",
           "das Kind — dijete",
           "die Kinder — djeca",
-          "setzt euch (zect oich) — sjedi!",
-          "sie setzen sich — sjednu",
-          "fragen (ar akuzatīvu) — pitati",
+          "setzt euch (zect ojh) — sjednite!",
+          "sie setzen sich — oni sjedaju",
+          "fragen (s akuzativom) — pitati",
           "sprechen — govoriti",
-          "er spricht — govori",
-          "aber — bet",
-          "sehr (zēr) — jako puno",
-          "leise — klusi",
+          "er spricht — on govori",
+          "aber — ali",
+          "sehr (zer) — vrlo",
+          "leise — tiho",
           "laut — glasno",
           "jetzt (ject) — sada",
           "lesen — čitati",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — jasno, saprotami",
+          "lies! — čitaj!",
+          "gut — dobro",
+          "schlecht — loše",
+          "deutlich (dojtlih) — jasno, razgovijetno",
           "schreiben — pisati",
-          "endlich (entlich) — konačno",
-          "erzählen (ercēlen) — reći",
+          "endlich (entlih) — konačno",
+          "erzählen (ercelen) — pričati",
           "zuhören — slušati",
-          "sie hören zu — slušaju",
+          "sie hören zu — oni slušaju",
           "was ist das — šta je to?",
           "der Arbeiter — radnik",
           "der Müller — mlinar",
           "der Tischler — stolar",
-          "der Bäcker (dēr beker) — pekar",
-          "der Schneider (dēr šneider) — krojač",
-          "der Gärtner (dēr gertner) — vrtlar",
-          "der Schuster — kurpnieks"
+          "der Bäcker (der beker) — pekar",
+          "der Schneider (der šnajder) — krojač",
+          "der Gärtner (der gertner) — vrtlar",
+          "der Schuster — obućar"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü je dugo (ü) i Müller - kratko ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ä se, kao što je već spomenuto, izgovara kao zatvoreno kratko ili dugo e. Primjeri: der Bäcker (beker), das Mädchen (methen).",
+          "ä se izgovara i kao otvoreno e, npr. u riječi der Gärtner (der gertner).",
+          "U riječima Schüler, Bücher — ü je dugo (ii), a u Müller — kratko ü.",
+          "ie se izgovara kao dugo i: liest (list).",
+          "ß se izgovara kao s: grüßen (grisen).",
+          "eu se izgovara kao oj: deutlich (dojtlih)."
         ]
       },
       {
         "title": "Gramatika",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Mnogi glagoli sa samoglasnikom e u osnovi imaju u 2. i 3. licu jednine prezenta i ili ie umjesto e.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Kod ovih glagola i u imperativu jednine u osnovi umjesto e stoji i ili ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "U bosanskom povratni glagoli imaju povratnu zamjenicu „se“, npr.: umivati se. Ni u njemačkom nema posebne konjugacije. Ti glagoli se konjugiraju kao i ostali glagoli, uz dodavanje povratne zamjenice sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Vježba",
         "exerciseType": "mixed",
-        "description": "Übung I - Koristite ispravnu konjugaciju. Übung II - Prevodne kartice.",
+        "description": "Übung I — koristi pravilan padež. Übung II — kartice za prevođenje.",
         "cards": [
           {
             "type": "fill",
@@ -249,12 +249,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Pozdravite učitelja i učitelja!",
+            "lv": "Pozdravi učitelja i učiteljicu!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Šta pozdravljaš?",
+            "lv": "Koga pozdravljaš?",
             "de": "Wen grüßt du?"
           },
           {
@@ -269,12 +269,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Otvaramo sve prozore.",
+            "lv": "Mi otvaramo sve prozore.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Da li otvaraš prozor",
+            "lv": "Otvaraš li prozor?",
             "de": "Öffnest du das Fenster?"
           },
           {
@@ -284,17 +284,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Svi učenici sjednu.",
+            "lv": "Svi učenici sjedaju.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Pavle, sedi dole!",
+            "lv": "Paule, sjedni!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Djeco, sjedite!",
+            "lv": "Djeco, sjednite!",
             "de": "Kinder, setzt euch!"
           },
           {
@@ -319,7 +319,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Učenik čita naglas i jasno.",
+            "lv": "Učenica čita naglas i jasno.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -334,22 +334,22 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Čitaj dobro!",
+            "lv": "Čitajte dobro!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis piše dobro, ali Ana piše loše.",
+            "lv": "Hans piše dobro, ali Anna piše loše.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Gospođice Müller, otpjevajte pjesmu!",
+            "lv": "Gospođice Müller, molim Vas, otpjevajte jednu pjesmu!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Gospodine učitelju, molim vas sedite!",
+            "lv": "Gospodine učitelju, molim Vas, sjednite!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -357,10 +357,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Prevedi",
         "exerciseType": "translate",
-        "description": "Prevedite latvijske rečenice na njemački.",
+        "description": "Prevedi bosanske rečenice na njemački.",
         "cards": [
           {
-            "lv": "Pozdravite učitelja i učitelja.",
+            "lv": "Pozdravi učitelja i učiteljicu!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
@@ -368,11 +368,11 @@ const COURSE_LESSON_DATA = {
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Otvaramo sve prozore.",
+            "lv": "Mi otvaramo sve prozore.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Jesi li otvorio prozor",
+            "lv": "Jesi li otvorio prozor?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
@@ -380,15 +380,15 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Svi učenici sjednu.",
+            "lv": "Svi učenici sjedaju.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Pavle, sedi!",
+            "lv": "Paule, sjedni!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Djeco, sjedite!",
+            "lv": "Djeco, sjednite!",
             "de": "Kinder, setzt euch!"
           },
           {
@@ -408,7 +408,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Učenik čita naglas i jasno.",
+            "lv": "Učenica čita naglas i jasno.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -420,19 +420,19 @@ const COURSE_LESSON_DATA = {
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Čitaj dobro!",
+            "lv": "Čitajte dobro!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis piše dobro, ali Ana piše loše.",
+            "lv": "Hans piše dobro, ali Anna piše loše.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Gospođice Müller, otpjevajte pjesmu!",
+            "lv": "Gospođice Müller, molim Vas, otpjevajte jednu pjesmu!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Gospodine učitelju, molim vas sedite!",
+            "lv": "Gospodine učitelju, molim Vas, sjednite!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -443,7 +443,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson9",
     "title": "Lekcija 9",
     "subtitle": "Više predmeta, dieser/jener, jednina i množina",
-    "intro": "Deveto lekcija: množina imenica, pokazne zamjenice dieser/jener, vježbe i prijevod.",
+    "intro": "Deveta lekcija: množina imenica, pokazne zamjenice dieser/jener, vježbe i prevođenje.",
     "sections": [
       {
         "title": "Dijalozi / rečenice",
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Riječi",
         "items": [
-          "mehrere (mērere) — nekoliko, nekoliko",
-          "hier (hīr) — ovdje, ovdje",
-          "dort — tur",
-          "auch — takođe",
-          "langsam (lankzām) — polako",
+          "mehrere (merere) — nekoliko",
+          "hier (hir) — ovdje, tu",
+          "dort — tamo",
+          "auch — također",
+          "langsam (langzam) — polako",
           "schnell (šnel) — brzo",
-          "mehr (mēr) — više",
+          "mehr (mer) — više",
           "zumachen — zatvoriti",
-          "ich mache zu — es aiztaisu",
+          "ich mache zu — ja zatvaram",
           "sitzen (zicen) — sjediti",
-          "ruhig (rū-ich) - miran",
-          "dieser (dīzer) — ovo",
-          "jener (jēner) — to",
-          "der Brief (dēr brīf) — pismo",
+          "ruhig (ru-ih) — mirno",
+          "dieser (dizer) — ovaj",
+          "jener (jener) — onaj",
+          "der Brief (der brif) — pismo",
           "die Briefe — pisma",
           "kurz (kurc) — kratak",
           "rein — čist",
-          "schmutzig (šmucich) — prljavo"
+          "schmutzig (šmucih) — prljav"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Navedite zamjenice dieser i jener kao određeni član."
+            "heading": "Pokazne zamjenice",
+            "text": "Pokazne zamjenice dieser i jener dekliniraju se kao određeni član."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Jednina",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Množina",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Ako ispred imenice stoji zamjenica ili brojevna riječ, član se ne koristi."
+            "heading": "Bez člana",
+            "text": "Ako ispred imenice stoji zamjenica ili broj, član se ne upotrebljava."
           },
           {
             "examples": [
@@ -560,23 +560,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir nehmen ein Heft."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir schreiben schnell."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir machen das Heft zu."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Uvodna rečenica",
-                "task": "Promijenite ovu rečenicu u 3. lice jednine.",
+                "label": "1/4 Početna rečenica",
+                "task": "Pretvori ovu rečenicu u 3. lice jednine.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er form",
-                "task": "Promijenite početnu rečenicu u 1. lice množine.",
+                "label": "2/4 Oblik s Er",
+                "task": "Pretvori početnu rečenicu u 1. lice množine.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "Oblik žice 3/4",
-                "task": "Koristite množinu umjesto jednine.",
+                "label": "3/4 Oblik s Wir",
+                "task": "Upotrijebi imenicu u množini umjesto u jednini.",
                 "text": "Wir sitzen ruhig."
               },
               {
                 "label": "4/4 Množina",
-                "task": "Spreman. Sljedeći klik prikazuje sljedeću karticu.",
+                "task": "Gotovo. Sljedeći klik prikazuje sljedeću karticu.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -788,67 +788,67 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Djevojka sjeda i piše pismo.",
+            "lv": "Djevojčica sjeda i piše pismo.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Da li je pismo kratko?",
+            "lv": "Je li pismo kratko?",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Ne, pismo nije kratko, ono je dugačko.",
+            "lv": "Ne, pismo nije kratko, ono je dugo.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Šta radiš",
+            "lv": "Šta radite Vi?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Sjedimo i čitamo.",
+            "lv": "Mi sjedimo i čitamo.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Pavle, sedi i čitaj!",
+            "lv": "Paule, sjedni i čitaj!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Gospodine učitelju, sedite i čitajte!",
+            "lv": "Gospodine učitelju, sjednite i čitajte!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Kako djeca pišu?",
+            "lv": "Kako pišu djeca?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Da li kucaju brzo ili sporo?",
+            "lv": "Pišu li oni brzo ili polako?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Pišu veoma sporo.",
+            "lv": "Oni pišu vrlo polako.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Šta je ovo ploča?",
+            "lv": "Kakav je ovaj tanjir?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Ova ploča nije čista, prljava je.",
+            "lv": "Ovaj tanjir nije čist, on je prljav.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Da li su slova duga ili kratka?",
+            "lv": "Jesu li pisma duga ili kratka?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Ana, naoštri tu olovku!",
+            "lv": "Anna, zašilji ovu olovku!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Učitelju, molim vas, naoštrite ovu olovku!",
+            "lv": "Gospodine učitelju, molim Vas, zašiljite ovu olovku!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Spusti tu olovku!",
+            "lv": "Odloži onu olovku!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,11 +856,11 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Šta djevojka konačno radi?",
+            "lv": "Šta djevojčica konačno radi?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Ona zatvara prozor i izlazi.",
+            "lv": "Ona zatvara prozor i izlazi van.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -870,8 +870,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson10": {
     "id": "lesson10",
     "title": "Lekcija 10",
-    "subtitle": "Sein, können, zdravlje, godine i profesije",
-    "intro": "Deseto lekcija: sein, können, zapovjedni oblici, zdravlje, godine i zanimanja.",
+    "subtitle": "Sein, können, zdravlje, starost i zanimanja",
+    "intro": "Deseta lekcija: sein, können, oblici imperativa, zdravlje, starost i zanimanja.",
     "sections": [
       {
         "title": "Dijalozi / rečenice",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Riječi",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — jesmo",
-          "ihr seid (īr zeit) — jesi",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — može",
-          "wir können — možemo",
-          "ihr könnt — možete",
-          "sie können — mogu",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (dēr knābe) — dječak",
+          "gesund (gezunt) — zdrav",
+          "ich bin gesund — ja sam zdrav",
+          "du bist — ti si",
+          "wir sind — mi smo",
+          "ihr seid (ir zajt) — vi ste",
+          "ich kann — ja mogu",
+          "du kannst — ti možeš",
+          "er kann — on može",
+          "wir können — mi možemo",
+          "ihr könnt — vi možete",
+          "sie können — oni mogu",
+          "sei gesund — budi zdrav!",
+          "seid gesund — budite zdravi!",
+          "seien Sie gesund — budite Vi zdravi!",
+          "der Knabe (der knabe) — dječak",
           "der Mann — muž, muškarac",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — djed",
-          "krank — slims",
-          "fleißig (fleišich) — čakls",
+          "die Frau — žena",
+          "der Großvater (der grosfater) — djed",
+          "krank — bolestan",
+          "fleißig (flajsih) — marljiv",
           "lernen — učiti",
-          "alt — vecs",
-          "das Jahr (jār) — godina",
-          "die Jahre — gadi",
-          "wie — kako, ko, koliko"
+          "alt — star",
+          "das Jahr (jar) — godina",
+          "die Jahre — godine",
+          "wie — kako, kakav, koliko"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Umlauti se moraju pravilno izgovarati.",
+          "ö se izgovara zaobljenim usnama kao e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü se izgovara zaobljenim usnama kao i: Müller (miler), Bücher (biher).",
+          "Da li je samoglasnik dug ili kratak, zavisi od suglasnika koji slijede.",
+          "Ako iza samoglasnika slijedi jedan suglasnik, samoglasnik se izgovara dugo: Vögel (fegel), Schüler (šiler), Bücher (biher).",
+          "Ako iza samoglasnika slijede dva ili više suglasnika, samoglasnik se izgovara kratko: wir können, der Löffel, der Müller.",
+          "Njemačko o izgovara se kao čisto o, bez prizvuka, kao u riječima: fond, nominativ, fotograf.",
+          "Izgovaraj pravilno: der Großvater (der grosfater).",
+          "Diftong ei izgovara se kao aj: seid (zajt), fleißig (flajsih).",
+          "Njemačko e može biti zatvoreno ili otvoreno: der Lehrer (der lerer). E u osnovi je dugo i zatvoreno, a e u nastavku kratko i otvoreno."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Pomoćni glagol sein - biti arc messy. Stoga to treba dobro naučiti."
+            "text": "Pomoćni glagol sein — biti konjugira se nepravilno. Zato ga treba dobro naučiti."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Isto tako, pomoćni glagol können - biti u stanju - nepravilno je sklon."
+            "text": "Isto tako se nepravilno konjugira i glagol können — moći."
           },
           {
             "heading": "Können — Präsens",
@@ -1055,7 +1055,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Jesi li zdrav",
+            "lv": "Jesi li zdrav?",
             "de": "Bist du gesund?"
           },
           {
@@ -1063,31 +1063,31 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Da li je Pavle zdrav?",
+            "lv": "Je li Paul zdrav?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Ne, Pavle nije zdrav, on je bolestan.",
+            "lv": "Ne, Paul nije zdrav, on je bolestan.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Može li raditi?",
+            "lv": "Može li on raditi?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Ne, on ne može da radi.",
+            "lv": "Ne, on ne može raditi.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Da li je deda star?",
+            "lv": "Je li djed star?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Da, on je veoma star.",
+            "lv": "Da, on je vrlo star.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Djed i baka su veoma stari.",
+            "lv": "Djed i baka su vrlo stari.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
@@ -1099,7 +1099,7 @@ const COURSE_LESSON_DATA = {
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Ko si ti",
+            "lv": "Ko si ti?",
             "de": "Wer bist du?"
           },
           {
@@ -1115,7 +1115,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Ko je učitelj?",
+            "lv": "Šta je učitelj?",
             "de": "Was ist der Lehrer?"
           },
           {
@@ -1123,7 +1123,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Ko je učitelj?",
+            "lv": "Šta je učiteljica?",
             "de": "Was ist die Lehrerin?"
           },
           {
@@ -1135,7 +1135,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "Svi možemo raditi.",
+            "lv": "Svi mi možemo raditi.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1145,8 +1145,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "Lekcija 11",
-    "subtitle": "Haben, kein/keine/keinen, prisvojne i složene imenice",
-    "intro": "Jedanaesto lekcija: haben, negacija sa kein, posjedovanje, složene imenice i red riječi sa denn.",
+    "subtitle": "Haben, kein/keine/keinen, posjedovanje i složenice",
+    "intro": "Jedanaesta lekcija: haben, negacija s kein, izražavanje posjedovanja, složenice i red riječi s denn.",
     "sections": [
       {
         "title": "Dijalozi / rečenice",
@@ -1191,44 +1191,44 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Riječi",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — ima",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — imaju",
-          "der Bruder (dēr brūder) — brat",
+          "ich habe — imam",
+          "du hast — imaš",
+          "er hat — on ima",
+          "wir haben — imamo",
+          "ihr habt — imate",
+          "sie haben — oni imaju",
+          "der Bruder (der bruder) — brat",
           "die Brüder — braća",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — gaišs",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — radni sto",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — zajedno",
-          "oft — bieži",
-          "der Freund (dēr froint) — prijatelj",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — stolica",
+          "das Zimmer (das cimer) — soba",
+          "ist nicht — nije",
+          "groß (gros) — velik",
+          "hell — svijetao",
+          "breit — širok",
+          "der Schreibtisch (der šrajbtiš) — pisaći sto",
+          "da — tamo",
+          "kein, keine, kein — nijedan, nijedna, nijedno",
+          "zusammen (cuzamen) — zajedno",
+          "oft — često",
+          "der Freund (der frojnt) — prijatelj",
+          "die Freunde — prijatelji",
+          "der Schrank — ormar",
+          "der Stuhl (der štul) — stolica",
           "die Stühle — stolice",
-          "die Tischlampe — galda lampa",
+          "die Tischlampe — stona lampa",
           "das Bücherbrett — polica za knjige",
-          "die Landkarte (dī lantkarte) — zemljopisna karta",
+          "die Landkarte (di lantkarte) — geografska karta",
           "glücklich — sretan",
-          "denn — jo",
-          "die Schwester (dī švester) — sestra",
+          "denn — jer",
+          "die Schwester (di švester) — sestra",
           "die Schwestern — sestre"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "eu se izgovara kao oj: der Freund (der frojnt), neun (nojn).",
+          "h je uglavnom znak dužine prethodnog samoglasnika: der Stuhl (der štul), zehn (cen).",
+          "z se izgovara kao bosansko c: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Pomoćni glagol haben u njemačkom izražava pojam pripadnosti. U bosanskom se često izražava sa: imam, imaš, on ima, itd. t. t."
+            "text": "U njemačkom se pomoćnim glagolom haben izražava posjedovanje. Na bosanskom se to također kaže glagolom: imam, imaš, ima itd."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "imam"
               ],
               [
                 "du hast",
-                "tev ir"
+                "imaš"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "on/ona/ono ima"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "imamo"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "imate"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "oni imaju"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "U bosanskom, osoba kojoj nešto pripada je u dativu, a subjekt u nominativu. U njemačkom, osoba je u nominativu, a posjedovani predmet u akuzativu."
+            "heading": "Posjedovanje: njemački nominativ i akuzativ",
+            "text": "U bosanskom je osoba koja nešto posjeduje subjekt, a ono što posjeduje — objekt: ja imam sto. U njemačkom je osoba u nominativu, a predmet koji posjeduje — u akuzativu."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Primjeri",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — imam sto",
+              "Der Vater hat ein Buch — otac ima knjigu",
+              "Sie haben eine Feder — oni imaju pero"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Poređenje s drugim jezicima",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "ruski: я имею тетрадь; отец имеет книгу.",
+              "engleski: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Glagol haben treba dobro naučiti i pravilno koristiti. Također biste trebali znati komandne forme."
+            "text": "Glagol haben treba dobro naučiti i pravilno upotrebljavati. Treba znati i oblike imperativa."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — primjeri",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — strpljenja! / imaj strpljenja!",
+              "habt Geduld! — imajte strpljenja!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Dvostruka negacija bosanskog jezika nije izražena u njemačkom negativnom riječju kein. Negativna riječ kein stoji samo ispred imenice."
+            "text": "Dvostruka negacija, uobičajena u bosanskom, npr. „nemam nijednu svesku“, u njemačkom se ne izražava riječju negacije kein. Riječ kein stoji samo ispred imenice."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — jednina",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — množina",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Ako narativna rečenica sadrži veznik denn, glagol ostaje na 2. poziciji. Veznik denn se ne računa kao član rečenice."
+            "heading": "Red riječi s denn",
+            "text": "Ako u izjavnoj rečenici postoji veznik denn, glagol ostaje na 2. mjestu. Veznik denn se ne broji kao rečenični dio."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — primjeri",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Složenim imenicama prethodi član poslednje imenice. Naglasak je na prvoj riječi slučaja."
+            "heading": "Složenice",
+            "text": "Ispred složenice stoji član posljednje imenice. Naglasak je na prvoj imenici."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Složenice — primjeri",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1362,7 +1362,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Šta imaš",
+            "lv": "Šta imaš?",
             "de": "Was hast du?"
           },
           {
@@ -1370,7 +1370,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Šta su knjige?",
+            "lv": "Kakve su knjige?",
             "de": "Wie sind die Bücher?"
           },
           {
@@ -1382,35 +1382,35 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Nemam sveske.",
+            "lv": "Nemam svezaka.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franc nema olovku i olovku.",
+            "lv": "Franz nema ni pera ni olovke.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Kakva je soba",
+            "lv": "Kakva je soba?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Soba je velika, svetla i topla.",
+            "lv": "Soba je velika, svijetla i topla.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Imate li sto",
+            "lv": "Imaš li pisaći sto?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Da, imam sto i stonu lampu.",
+            "lv": "Da, imam pisaći sto i stonu lampu.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Šta učitelj ima?",
+            "lv": "Šta ima učitelj?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Učitelj ima mnogo knjiga i policu.",
+            "lv": "Učitelj ima mnogo knjiga i policu za knjige.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1418,11 +1418,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Dijete je sretno jer dijete ima oca i majku.",
+            "lv": "Dijete je sretno jer ima oca i majku.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Šta Ana radi?",
+            "lv": "Šta radi Anna?",
             "de": "Was tut Anna?"
           },
           {
@@ -1430,19 +1430,19 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Piše li i Franjo?",
+            "lv": "Piše li i Franz?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Ne, Francis ne piše, on crta.",
+            "lv": "Ne, Franz ne piše, on crta.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Da li stoje?",
+            "lv": "Stoje li oni?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Ne, oni sjede i uče.",
+            "lv": "Ne, oni sjedaju i uče.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1452,8 +1452,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson12": {
     "id": "lesson12",
     "title": "Lekcija 12",
-    "subtitle": "Komparativni stepeni, als/wie, starost, pridjevi i boje.",
-    "intro": "Dvanaesto lekcija: komparativni stupnjevi, als/wie, starost, pridjevi i boje.",
+    "subtitle": "Poređenje pridjeva, als / wie, starost, pridjevi i boje.",
+    "intro": "Dvanaesta lekcija: poređenje pridjeva, als / wie, starost, pridjevi i boje.",
     "sections": [
       {
         "title": "Dijalozi / rečenice",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Riječi",
         "items": [
-          "heißen — saukt",
+          "heißen — zvati se",
           "wie heißt du — kako se zoveš",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Maksis",
-          "groß — liels",
-          "klein — mazs",
+          "ich heiße — zovem se",
+          "die Grube — jama",
+          "wieviel — koliko",
+          "Max (maks) — Max",
+          "groß — velik",
+          "klein — mali",
           "kleiner als ich — manji od mene",
-          "alt — vecs",
-          "jung — jauns",
+          "alt — star",
+          "jung — mlad",
           "jünger als ich — mlađi od mene",
-          "so alt wie — star as",
-          "der Vetter (dēr feter) — rođak",
+          "so alt wie — star koliko i",
+          "der Vetter (der feter) — rođak",
           "am ältesten (am eltesten) — najstariji",
           "ebenso — isto tako",
-          "wie — kako",
-          "am jüngsten — najnoviji",
-          "faul — slinks",
-          "fleißig — čakls",
-          "blau — zils",
-          "braun — brūns",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — guma",
-          "grau — siva",
-          "der Baum — koks",
-          "grün — zelena",
+          "wie — kao",
+          "am jüngsten — najmlađi",
+          "faul — lijen",
+          "fleißig — marljiv",
+          "blau — plav",
+          "braun — smeđ",
+          "gelb — žut",
+          "das Gummi (das gumi) — gumica",
+          "grau — siv",
+          "der Baum — drvo",
+          "grün — zelen",
           "die Blume — cvijet",
-          "rot — sarkans",
-          "die Tinte — tinte",
+          "rot — crven",
+          "die Tinte — tinta",
           "die Kreide — kreda",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "weiß — bijel",
+          "schwarz — crn",
+          "krank — bolestan",
+          "gesund — zdrav"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — H u riječi der Federhalter je glas koji se izgovara, a u riječi der Sohn čežnja."
+          "x se izgovara kao ks: Max (maks), Felix (feliks).",
+          "U riječima Schwester, am jüngsten st se izgovara kao obično bosansko st: Schwester (švester), jüngsten (jingsten).",
+          "h u riječi der Federhalter je glas koji se izgovara, a u riječi der Sohn — znak dužine."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Superlativ (Komparativ) pridjeva tvori se od osnovnog stepena (Pozitiv) sa završetkom -er.",
+            "text": "Komparativ pridjeva (njem. Komparativ) tvori se od pozitiva (njem. Positiv) nastavkom -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Većina jednosložnih prideva sa osnovnim samoglasnikom a, o, u ima premlaut u superlativu.",
+            "heading": "Umlaut u komparativu",
+            "text": "Većina jednosložnih pridjeva sa samoglasnikom a, o, u u osnovi ima u komparativu umlaut.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie se koristi kada se izražava jednakost. als se koristi kada se izražava nejednakost.",
+            "heading": "Poređenje s wie i als",
+            "text": "wie se koristi kad se izražava jednakost. als se koristi kad se izražava nejednakost.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Opšti stepen (Superlativ) se dobija dodavanjem završetka -sten ili -esten osnovnom stepenu i saobraćajne reči am ispred.",
+            "text": "Superlativ (njem. Superlativ) tvori se tako što se pozitivu doda nastavak -sten ili -esten, a ispred njega prijedlog am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Nepravilno poređenje",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (blizak)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (visok)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (dobar)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (mnogo)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (uskoro)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (rado)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1627,31 +1627,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Pavle je najstariji.",
+            "lv": "Paul je najstariji.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Kako se zoveš",
+            "lv": "Kako se zoveš?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Moje ime je Peter.",
+            "lv": "Zovem se Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Kako se zove?",
+            "lv": "Kako se on zove?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Njegovo ime je Ivan.",
+            "lv": "On se zove Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Kako se zoveš?",
+            "lv": "Kako se Vi zovete?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Koliko imaš godina?",
+            "lv": "Koliko Vi imate godina?",
             "de": "Wie alt sind Sie?"
           },
           {
@@ -1659,19 +1659,19 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Je li Maxi velik?",
+            "lv": "Je li Max velik?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Ne, Max nije veliki, Rudolph je veći.",
+            "lv": "Ne, Max nije velik, Rudolf je veći.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Šta je najveće?",
+            "lv": "Ko je najveći?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Franjo je najveći.",
+            "lv": "Franz je najveći.",
             "de": "Franz ist am größten."
           },
           {
@@ -1679,7 +1679,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Majka je istih godina kao i otac.",
+            "lv": "Majka je isto toliko stara kao otac.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
@@ -1691,15 +1691,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Kako se zovu?",
+            "lv": "Kako se one zovu?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Njihova imena su Elsa, Marta i Alma.",
+            "lv": "One se zovu Elsa, Martha i Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Koliko braće imaš?",
+            "lv": "Koliko braće imate?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
@@ -1707,31 +1707,31 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Šta je mastilo?",
+            "lv": "Kakva je tinta?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Crno je.",
+            "lv": "Ona je crna.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Šta je kreda?",
+            "lv": "Kakva je kreda?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Bijelo je.",
+            "lv": "Ona je bijela.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Šta je cvijeće?",
+            "lv": "Kakvi su cvjetovi?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "One su plave, crvene, žute i bijele.",
+            "lv": "Oni su plavi, crveni, žuti i bijeli.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Da li je brat zdrav?",
+            "lv": "Je li brat zdrav?",
             "de": "Ist der Bruder gesund?"
           },
           {
@@ -1739,11 +1739,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Jeste li sretni?",
+            "lv": "Jeste li Vi sretni?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Da, sretni smo jer smo zdravi.",
+            "lv": "Da, mi smo sretni jer smo zdravi.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1754,7 +1754,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson13",
     "title": "Lekcija 13",
     "subtitle": "Der Körper, dijelovi tijela, turnen, jeder i množina.",
-    "intro": "Trinaesto lekcija: Der Körper, dijelovi tijela, vježba, povratni glagoli i množina.",
+    "intro": "Trinaesta lekcija: Der Körper, dijelovi tijela, gimnastika, povratni glagoli i množina.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
           "der Körper — tijelo",
-          "der Mensch — ljudsko biće",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
+          "der Mensch — čovjek",
+          "der Kopf — glava",
+          "der Hals — vrat",
+          "der Rumpf — trup",
+          "der Arm — ruka",
+          "die Hand — šaka",
+          "die Hände — šake",
           "das Bein — noga",
           "die Beine — noge",
-          "der Fuß — stopalo stopala",
+          "der Fuß — stopalo",
           "die Füße — stopala",
-          "rund — okrugli",
-          "lang — garš",
-          "kurz — kratko",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — tanak / tanak",
-          "die Brust — krūtis",
-          "vorn — ispred",
-          "der Rücken — mugura",
-          "hinten — iza",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
+          "rund — okrugao",
+          "lang — dug",
+          "kurz — kratak",
+          "klein — mali",
+          "groß — velik",
+          "dick — debeo",
+          "dünn — tanak / mršav",
+          "die Brust — grudi",
+          "vorn — sprijeda",
+          "der Rücken — leđa",
+          "hinten — pozadi",
+          "jeder — svaki",
+          "jede — svaka",
+          "jedes — svako",
+          "der Finger — prst",
           "die Zehe — nožni prst",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — očistiti",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — učiniti / napraviti",
-          "der Schritt — solis",
-          "bleiben — palikt",
+          "beide — oba, obje",
+          "der Nagel — nokat",
+          "die Nägel — nokti",
+          "beschneiden — podrezati",
+          "reinigen — čistiti",
+          "turnen — vježbati",
+          "heben — dizati",
+          "machen — raditi / praviti",
+          "der Schritt — korak",
+          "bleiben — ostati",
           "stehen — stajati",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — držite",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dubok"
+          "sich umkehren — okrenuti se",
+          "ausstrecken — ispružiti",
+          "senken — spustiti",
+          "drehen — okretati / okrenuti",
+          "nach links — nalijevo",
+          "nach rechts — nadesno",
+          "halten — držati",
+          "gerade — uspravno, ravno",
+          "atmen — disati",
+          "tief — duboko"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Neki glagoli sa osnovnim samoglasnikom a ili au u sadašnjem 2. i 3. licu jednine imaju umlaut.",
+            "heading": "Umlaut u prezentu",
+            "text": "Neki glagoli sa samoglasnikom a ili au u osnovi imaju umlaut u 2. i 3. licu jednine prezenta.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren - okrenuti se",
+            "heading": "Povratni glagol",
+            "text": "sich umkehren — okrenuti se",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Imperativ glagola sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Zapamtite da dišete",
+            "heading": "Glagol atmen",
+            "text": "atmen — disati",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Imperativ glagola atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Ako je predloški dio naglašen, on se odvaja u sadašnjem vremenu i ide na kraj rečenice.",
+            "heading": "Složeni glagoli",
+            "text": "Ako je prefiks naglašen, u prezentu se odvaja i ide na kraj rečenice.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Ako je prefiks nenaglašen, on je nenaglašen.",
+            "heading": "Nerazdvojivi prefiksi",
+            "text": "Ako prefiks nije naglašen, ne odvaja se.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "Zamjenica jeder ide u krug poput članova der / die / das.",
+            "heading": "Zamjenica jeder",
+            "text": "Zamjenica jeder deklinira se kao članovi der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Muški",
+                "Ženski",
+                "Srednji"
               ],
               [
-                "Nominatīvs",
+                "Nominativ",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Akuzativ",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Množina bez nastavka",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Množina s nastavkom -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Množina s nastavkom -en ili -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Množina s nastavkom -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Imenice ženskog roda formirane sa -in take -nen u množini.",
+            "heading": "Imenice ženskog roda na -in",
+            "text": "Imenice ženskog roda tvorene sa -in u množini dobijaju -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,16 +1981,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "h se u riječi halten čuje kao glas.",
+          "h u riječi fahren pokazuje dužinu samoglasnika.",
+          "a se u riječi halten izgovara kratko: halten.",
+          "a se u riječi tragen izgovara dugo: tragen.",
+          "äu se izgovara kao oj: du läufst, er läuft.",
+          "pf se u riječi Kopf izgovara tako da se čuju oba suglasnika."
         ]
       },
       {
-        "title": "Vježbajte",
+        "title": "Vježba",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2059,11 +2059,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Koliko ruku ima osoba?",
+            "lv": "Koliko ruku ima čovjek?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Koliko nogu imaš",
+            "lv": "Koliko nogu imaš?",
             "de": "Wie viele Beine hast du?"
           },
           {
@@ -2071,59 +2071,59 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Kakav je torzo?",
+            "lv": "Kakav je trup?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Šta je ruka?",
+            "lv": "Kakva je ruka?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Šta je noga?",
+            "lv": "Kakva je noga?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Ruka je mala, ali noga je velika.",
+            "lv": "Ruka je mala, a noga je velika.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Gde je sanduk",
+            "lv": "Gdje su grudi?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Gdje je pozadi?",
+            "lv": "Gdje su leđa?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Grudi su napred, leđa pozadi.",
+            "lv": "Grudi su sprijeda, leđa su pozadi.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Koliko prstiju ima ruka?",
+            "lv": "Koliko prstiju ima šaka?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Dlan ima pet prstiju.",
+            "lv": "Šaka ima pet prstiju.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Koliko prstiju imaju dvije ruke?",
+            "lv": "Koliko prstiju imaju dvije šake?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Dvije ruke imaju deset prstiju.",
+            "lv": "Dvije šake imaju deset prstiju.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Šta je prst?",
+            "lv": "Šta ima prst?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Prst ima kandžu.",
+            "lv": "Prst ima nokat.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Šta radiš",
+            "lv": "Šta radiš?",
             "de": "Was tust du?"
           },
           {
@@ -2131,7 +2131,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Šta Pavle radi?",
+            "lv": "Šta radi Paul?",
             "de": "Was tut Paul?"
           },
           {
@@ -2139,23 +2139,23 @@ const COURSE_LESSON_DATA = {
             "de": "Er turnt."
           },
           {
-            "lv": "Kako vježbaju?",
+            "lv": "Kako oni vježbaju?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Podižu noge i ruke.",
+            "lv": "Oni dižu noge i ruke.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Ispruže obje ruke.",
+            "lv": "Oni ispružaju obje ruke.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Spuštaju obje ruke.",
+            "lv": "Oni spuštaju obje ruke.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Okreću glavu udesno.",
+            "lv": "Oni okreću glavu nadesno.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
@@ -2163,15 +2163,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter i Ana duboko dišu.",
+            "lv": "Peter i Anna dišu duboko.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Da li i Robert vježba?",
+            "lv": "Vježba li i Robert?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Ne, Robert i Ivan ne vježbaju.",
+            "lv": "Ne, Robert i Johann ne vježbaju.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
@@ -2179,7 +2179,7 @@ const COURSE_LESSON_DATA = {
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert i Ivan, vježbajte!",
+            "lv": "Roberte i Johanne, vježbajte!",
             "de": "Robert und Johann, turnt!"
           },
           {
@@ -2187,7 +2187,7 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Napravite dva koraka i ostanite stajati!",
+            "lv": "Napravite dva koraka i onda ostanite stajati!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2197,8 +2197,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson14": {
     "id": "lesson14",
     "title": "Lekcija 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Četrnaesto lekcija: Modalni glagoli müssen, wollen i mögen.",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Četrnaesta lekcija: modalni glagoli müssen, wollen i mögen.",
     "sections": [
       {
         "title": "Tekst / Čitanje",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Imena",
+        "title": "Riječi",
         "items": [
-          "müssen — treba / moram učiniti",
-          "ich muss — Trebam / moram učiniti",
-          "du musst — trebate / morate učiniti",
-          "er muss — treba / mora",
-          "sie muss — treba / mora",
-          "es muss — treba / mora učiniti",
-          "wir müssen — trebamo / moramo učiniti",
-          "ihr müsst — trebaš / moraš",
-          "sie müssen — oni / trebaju",
+          "müssen — morati",
+          "ich muss — ja moram",
+          "du musst — ti moraš",
+          "er muss — on mora",
+          "sie muss — ona mora",
+          "es muss — ono mora",
+          "wir müssen — mi moramo",
+          "ihr müsst — vi morate",
+          "sie müssen — oni / one moraju",
           "lernen — učiti",
-          "vorwärts — uz priekšu",
-          "vorwärts kommen — tikt uz priekšu",
+          "vorwärts — naprijed",
+          "vorwärts kommen — napredovati",
           "wollen — htjeti",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — hoće",
-          "sie will — ona želi",
-          "es will — to želi",
-          "wir wollen — želimo",
-          "ihr wollt — želite",
-          "sie wollen — oni / žele",
-          "mögen — želim / želim / sviđati se",
-          "ich mag — želim / sviđa mi se",
-          "du magst — želite / volite",
-          "er mag — on želi / voli",
-          "sie mag — ona želi / voli",
-          "es mag — želi / voli",
-          "wir mögen — želimo",
-          "ihr mögt — želite",
-          "sie mögen — oni/ona želi",
-          "die Suppe — zupa",
-          "munden — labi garšot",
-          "mir — man",
-          "dir — tev",
+          "ich will — ja hoću",
+          "du willst — ti hoćeš",
+          "er will — on hoće",
+          "sie will — ona hoće",
+          "es will — ono hoće",
+          "wir wollen — mi hoćemo",
+          "ihr wollt — vi hoćete",
+          "sie wollen — oni / one hoće",
+          "mögen — željeti / htjeti / voljeti",
+          "ich mag — ja želim / sviđa mi se",
+          "du magst — ti želiš / sviđa ti se",
+          "er mag — on želi / sviđa mu se",
+          "sie mag — ona želi / sviđa joj se",
+          "es mag — ono želi / sviđa mu se",
+          "wir mögen — mi želimo",
+          "ihr mögt — vi želite",
+          "sie mögen — oni / one žele",
+          "die Suppe — supa",
+          "munden — biti ukusan, prijati",
+          "mir — meni",
+          "dir — tebi",
           "ihm — njemu",
-          "ihr — za nju",
-          "uns — mums",
-          "euch — jums",
+          "ihr — njoj",
+          "uns — nama",
+          "euch — vama",
           "ihnen — njima",
-          "denn — jo"
+          "denn — jer"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Modalni glagoli",
             "text": "Glagoli müssen, wollen i mögen su modalni glagoli."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "U prezentu jednine, 1. i 3. lice su isto.",
+            "heading": "1. i 3. lice jednine",
+            "text": "U prezentu jednine 1. i 3. lice su jednaki.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Promjena samoglasnika u osnovi",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen znači trebati/biti potreban.",
+            "text": "Müssen znači morati / biti nužno.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Moram učiti."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen znači namjerno htjeti nešto učiniti.",
+            "text": "Wollen znači svjesno htjeti nešto učiniti.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Hoću napredovati."
             ]
           },
           {
             "heading": "Mögen",
             "text": "Mögen izražava želju ili sviđanje.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Ne želim jesti supu.",
+              "Die Suppe mundet mir nicht. — Supa mi nije ukusna."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Na bosanskom često kažemo „moram da učim“, „moraš da pišeš“, „on mora da dođe“. Nemački često koristi müssen u takvim rečenicama.",
+            "heading": "Važno",
+            "text": "Na bosanskom često kažemo „moram učiti“, „moraš pisati“, „mora doći“. Na njemačkom se u takvim rečenicama često koristi müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß se izgovara kao bosansko s.",
+          "ß se piše u sredini ili na kraju riječi iza dugog samoglasnika ili diftonga: die Füße, die Straße, ich muss, er muss.",
+          "Ako u drugim oblicima stoji ss, ispred nastavka može stajati ß: müssen, ich muss, du musst, ihr müsst.",
+          "ö se u riječi mögen izgovara kao jasno ö.",
+          "Kada iza g slijedi t, g zvuči bliže glasu k: du magst, ihr mögt.",
+          "Slično je i u bosanskom: zvučni suglasnik ispred bezvučnog postaje bezvučan, npr. težak – teška."
         ]
       },
       {
@@ -2375,19 +2375,19 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ko želi vrijedno učiti?",
+            "lv": "Ko hoće marljivo učiti?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Svi studenti žele vrijedno učiti.",
+            "lv": "Svi učenici hoće marljivo učiti.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Ko bi trebao doći danas?",
+            "lv": "Ko mora doći danas?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Moram doći danas.",
+            "lv": "Ja moram doći danas.",
             "de": "Ich muss heute kommen."
           },
           {
@@ -2395,27 +2395,27 @@ const COURSE_LESSON_DATA = {
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Ko treba vrijedno učiti?",
+            "lv": "Ko mora marljivo učiti?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Studenti moraju vrijedno učiti.",
+            "lv": "Učenici moraju marljivo učiti.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Ne želim da jedem supu jer je ne volim.",
+            "lv": "Ne želim jesti supu jer mi nije ukusna.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Ko želi da jede supu?",
+            "lv": "Ko hoće jesti supu?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elsa želi da jede supu.",
+            "lv": "Elsa hoće jesti supu.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Ko bi trebao pročitati knjigu?",
+            "lv": "Ko mora pročitati knjigu?",
             "de": "Wer muss das Buch lesen?"
           },
           {
@@ -2423,11 +2423,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Ne želim da pevam.",
+            "lv": "Ne želim pjevati.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Otac mora da kupi sto.",
+            "lv": "Otac mora kupiti sto.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

@@ -60,7 +60,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Μάθημα 8",
-    "subtitle": "Ανακλαστικά ρήματα, e → i/ie αλλαγή και κατηγορούμενο.",
+    "subtitle": "Αυτοπαθή ρήματα, εναλλαγή e → i/ie και αιτιατική.",
     "sections": [
       {
         "title": "Διάλογοι / προτάσεις",
@@ -88,79 +88,79 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "alle — kõik",
-          "aufstehen — püsti tõusma",
-          "stehen auf — tõuseb püsti",
-          "grüßen (grüsen) — tervitama",
-          "guten Morgen — tere hommikust",
-          "gut — hea",
-          "der Morgen — hommik",
-          "der Herr — härra",
-          "das Kind — laps",
-          "die Kinder — lapsed",
-          "setzt euch (zect oich) — istuge!",
-          "sie setzen sich — nemad istuvad maha",
-          "fragen (ar akuzatīvu) — küsima",
-          "sprechen — rääkima",
-          "er spricht — tema räägib",
-          "aber — aga",
-          "sehr (zēr) — väga",
-          "leise — vaikselt",
-          "laut — valjult",
-          "jetzt (ject) — praegu",
-          "lesen — lugema",
-          "lies! — loe!",
-          "gut — hästi",
-          "schlecht — halvasti",
-          "deutlich (doitlich) — selgelt, arusaadavalt",
-          "schreiben — kirjutama",
-          "endlich (entlich) — lõpuks",
-          "erzählen (ercēlen) — jutustama",
-          "zuhören — kuulama",
-          "sie hören zu — nemad kuulavad",
-          "was ist das — mis see on?",
-          "der Arbeiter — töömees",
-          "der Müller — mölder",
-          "der Tischler — puusepp",
-          "der Bäcker (dēr beker) — pagar",
-          "der Schneider (dēr šneider) — rätsepp",
-          "der Gärtner (dēr gertner) — aednik",
-          "der Schuster — kingsepp"
+          "alle — όλοι",
+          "aufstehen — σηκώνομαι",
+          "stehen auf — σηκώνεται",
+          "grüßen (γκρίσεν) — χαιρετώ",
+          "guten Morgen — καλημέρα",
+          "gut — καλός",
+          "der Morgen — το πρωί",
+          "der Herr — ο κύριος",
+          "das Kind — το παιδί",
+          "die Kinder — τα παιδιά",
+          "setzt euch (ζετστ όιχ) — καθίστε!",
+          "sie setzen sich — αυτοί κάθονται",
+          "fragen (με αιτιατική) — ρωτώ",
+          "sprechen — μιλώ",
+          "er spricht — αυτός μιλά",
+          "aber — αλλά",
+          "sehr (ζερ) — πολύ",
+          "leise — σιγά",
+          "laut — δυνατά",
+          "jetzt (γιετστ) — τώρα",
+          "lesen — διαβάζω",
+          "lies! — διάβασε!",
+          "gut — καλά",
+          "schlecht — άσχημα",
+          "deutlich (ντόιτλιχ) — καθαρά, κατανοητά",
+          "schreiben — γράφω",
+          "endlich (έντλιχ) — επιτέλους",
+          "erzählen (ερτσέλεν) — διηγούμαι",
+          "zuhören — ακούω προσεκτικά",
+          "sie hören zu — αυτοί ακούν",
+          "was ist das — τι είναι αυτό;",
+          "der Arbeiter — ο εργάτης",
+          "der Müller — ο μυλωνάς",
+          "der Tischler — ο ξυλουργός",
+          "der Bäcker (ντερ μπέκερ) — ο φούρναρης",
+          "der Schneider (ντερ σνάιντερ) — ο ράφτης",
+          "der Gärtner (ντερ γκέρτνερ) — ο κηπουρός",
+          "der Schuster — ο τσαγκάρης"
         ]
       },
       {
         "title": "Προφορά",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "Όπως ήδη αναφέρθηκε, το ä προφέρεται σαν κλειστό ε, σύντομο ή μακρύ. Παραδείγματα: der Bäcker (μπέκερ), das Mädchen (μέτχεν).",
+          "Το ä προφέρεται επίσης σαν ανοιχτό ε, για παράδειγμα στη λέξη der Gärtner (ντερ γκέρτνερ).",
+          "Στις λέξεις Schüler, Bücher — το ü είναι μακρύ (ιι), ενώ στο Müller — το ü είναι σύντομο.",
+          "Το ie προφέρεται σαν μακρύ ι: liest (λιστ).",
+          "Το ß προφέρεται σ: grüßen (γκρίσεν).",
+          "Το eu προφέρεται όι: deutlich (ντόιτλιχ)."
         ]
       },
       {
         "title": "Γραμματική",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Σε πολλά ρήματα με φωνήεν e στο θέμα, στο 2ο και 3ο ενικό πρόσωπο του ενεστώτα υπάρχει i ή ie αντί για e.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Στην προστακτική του ενικού τα ρήματα αυτά έχουν επίσης i ή ie αντί για e στο θέμα: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "Στα ελληνικά τα αυτοπαθή ρήματα έχουν δικές τους καταλήξεις, όπως κάθομαι, πλένομαι. Στα γερμανικά δεν υπάρχει ιδιαίτερη κλίση. Κλίνονται όπως τα άλλα ρήματα, με την προσθήκη της αυτοπαθούς αντωνυμίας sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Προστακτική: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Άσκηση",
         "exerciseType": "mixed",
-        "description": "Übung I — χρησιμοποιήστε τον σωστό χρόνο. Übung II — κάρτες μετάφρασης.",
+        "description": "Übung I — χρησιμοποίησε τη σωστή πτώση. Übung II — κάρτες μετάφρασης.",
         "cards": [
           {
             "type": "fill",
@@ -249,17 +249,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Πείτε γεια στον δάσκαλο!",
+            "lv": "Χαιρέτησε τον δάσκαλο και τη δασκάλα!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Ποιον χαιρετάς • ",
+            "lv": "Ποιον χαιρετάς;",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Χαιρετίζω την κυρία.",
+            "lv": "Χαιρετώ τη δεσποινίδα.",
             "de": "Ich grüße das Fräulein."
           },
           {
@@ -274,7 +274,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Ανοίγεις το παράθυρο • ",
+            "lv": "Ανοίγεις το παράθυρο;",
             "de": "Öffnest du das Fenster?"
           },
           {
@@ -289,7 +289,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Παύλο, κάτσε!",
+            "lv": "Paul, κάθισε!",
             "de": "Paul, setz dich!"
           },
           {
@@ -299,12 +299,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Μη μιλάς ήσυχα!",
+            "lv": "Μη μιλάς σιγά!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Πώς μιλάει • ",
+            "lv": "Πώς μιλάει;",
             "de": "Wie spricht er?"
           },
           {
@@ -314,22 +314,22 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Ποιος διαβάζει δυνατά • ",
+            "lv": "Ποιος διαβάζει δυνατά;",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Ο μαθητής διαβάζει δυνατά και καθαρά.",
+            "lv": "Η μαθήτρια διαβάζει δυνατά και καθαρά.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Διαβάστε καλά!",
+            "lv": "Διάβασε καλά!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Μη μιλάς ήσυχα!",
+            "lv": "Μη μιλάς σιγά!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -339,28 +339,28 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Ο Χανς γράφει καλά, αλλά η Άννα γράφει άσχημα.",
+            "lv": "Ο Hans γράφει καλά, αλλά η Anna γράφει άσχημα.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Δεσποινίς Müller, τραγουδήστε ένα τραγούδι!",
+            "lv": "Δεσποινίς Müller, τραγουδήστε, παρακαλώ, ένα τραγούδι!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Κύριε δάσκαλε, καθίστε!",
+            "lv": "Κύριε δάσκαλε, παρακαλώ, καθίστε!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "exerciseType": "translate",
-        "description": "Μεταφράστε εσθονικές προτάσεις στα γερμανικά.",
+        "description": "Μετάφρασε τις ελληνικές προτάσεις στα γερμανικά.",
         "cards": [
           {
-            "lv": "Χαιρετίστε τον δάσκαλο και τον δάσκαλο.",
+            "lv": "Χαιρέτησε τον δάσκαλο και τη δασκάλα.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
@@ -372,7 +372,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Άνοιξες το παράθυρο • ",
+            "lv": "Άνοιξες το παράθυρο;",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
@@ -384,7 +384,7 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Παύλο, κάτσε!",
+            "lv": "Paul, κάθισε!",
             "de": "Paul, setz dich!"
           },
           {
@@ -392,11 +392,11 @@ const COURSE_LESSON_DATA = {
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Μη μιλάς ήσυχα!",
+            "lv": "Μη μιλάς σιγά!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Πώς μιλάει • ",
+            "lv": "Πώς μιλάει;",
             "de": "Wie spricht er?"
           },
           {
@@ -404,19 +404,19 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Ποιος διαβάζει δυνατά • ",
+            "lv": "Ποιος διαβάζει δυνατά;",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Ο μαθητής διαβάζει δυνατά και καθαρά.",
+            "lv": "Η μαθήτρια διαβάζει δυνατά και καθαρά.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Διαβάστε καλά!",
+            "lv": "Διάβασε καλά!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Μη μιλάς ήσυχα!",
+            "lv": "Μη μιλάς σιγά!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -424,15 +424,15 @@ const COURSE_LESSON_DATA = {
             "de": "Lest gut!"
           },
           {
-            "lv": "Ο Χανς γράφει καλά, αλλά η Άννα γράφει άσχημα.",
+            "lv": "Ο Hans γράφει καλά, αλλά η Anna γράφει άσχημα.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Δεσποινίς Müller, τραγουδήστε ένα τραγούδι!",
+            "lv": "Δεσποινίς Müller, τραγουδήστε, παρακαλώ, ένα τραγούδι!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Κύριε δάσκαλε, καθίστε!",
+            "lv": "Κύριε δάσκαλε, παρακαλώ, καθίστε!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -442,8 +442,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson9": {
     "id": "lesson9",
     "title": "Μάθημα 9",
-    "subtitle": "Πολλαπλά στοιχεία, dieser/jener, ενικό και πληθυντικό",
-    "intro": "Μάθημα ένατο: Πληθυντικός αριθμός ουσιαστικών, δεικτικές αντωνυμίες dieser/jener, ασκήσεις και μετάφραση.",
+    "subtitle": "Πολλά αντικείμενα, dieser/jener, ενικός και πληθυντικός",
+    "intro": "Ένατο μάθημα: ο πληθυντικός των ουσιαστικών, οι δεικτικές αντωνυμίες dieser/jener, ασκήσεις και μετάφραση.",
     "sections": [
       {
         "title": "Διάλογοι / προτάσεις",
@@ -471,37 +471,37 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "mehrere (mērere) — mitu, mitmed",
-          "hier (hīr) — siin",
-          "dort — seal",
-          "auch — ka",
-          "langsam (lankzām) — aeglaselt",
-          "schnell (šnel) — kiiresti",
-          "mehr (mēr) — rohkem",
-          "zumachen — sulgema",
-          "ich mache zu — mina sulgen",
-          "sitzen (zicen) — istuma",
-          "ruhig (rū-ih) — rahulikult",
-          "dieser (dīzer) — see",
-          "jener (jēner) — too",
-          "der Brief (dēr brīf) — kiri",
-          "die Briefe — kirjad",
-          "kurz (kurc) — lühike",
-          "rein — puhas",
-          "schmutzig (šmucich) — must (määrdunud)"
+          "mehrere (μέρερε) — αρκετοί, αρκετές",
+          "hier (χιρ) — εδώ",
+          "dort — εκεί",
+          "auch — επίσης, και",
+          "langsam (λάνγκζαμ) — αργά",
+          "schnell (σνελ) — γρήγορα",
+          "mehr (μερ) — περισσότερο",
+          "zumachen — κλείνω",
+          "ich mache zu — εγώ κλείνω",
+          "sitzen (ζίτσεν) — κάθομαι",
+          "ruhig (ρού-ιχ) — ήσυχα",
+          "dieser (ντίζερ) — αυτός",
+          "jener (γιένερ) — εκείνος",
+          "der Brief (ντερ μπριφ) — το γράμμα",
+          "die Briefe — τα γράμματα",
+          "kurz (κουρτς) — κοντός, σύντομος",
+          "rein — καθαρός",
+          "schmutzig (σμούτσιχ) — βρόμικος"
         ]
       },
       {
         "title": "Γραμματική",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
+            "heading": "Δεικτικές αντωνυμίες",
             "text": "Οι δεικτικές αντωνυμίες dieser και jener κλίνονται όπως το οριστικό άρθρο."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Ενικός",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Πληθυντικός",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Εάν πριν από ένα ουσιαστικό υπάρχει αντωνυμία ή αριθμός, το άρθρο δεν χρησιμοποιείται."
+            "heading": "Χωρίς άρθρο",
+            "text": "Όταν πριν από το ουσιαστικό υπάρχει αντωνυμία ή αριθμητικό, δεν χρησιμοποιείται άρθρο."
           },
           {
             "examples": [
@@ -560,23 +560,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Πρωτότυπη πρόταση",
-                "task": "Muuda see lause ainsuse 3. isikusse.",
+                "label": "1/4 Αρχική πρόταση",
+                "task": "Μετάτρεψε αυτή την πρόταση στο 3ο ενικό πρόσωπο.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Ειδικό έντυπο",
-                "task": "Muuda algne lause mitmuse 1. isikusse.",
+                "label": "2/4 Τύπος Er",
+                "task": "Μετάτρεψε την αρχική πρόταση στο 1ο πληθυντικό πρόσωπο.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Σύρμα",
-                "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+                "label": "3/4 Τύπος Wir",
+                "task": "Βάλε το ουσιαστικό στον πληθυντικό αντί για τον ενικό.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 Πληθυντικός αριθμός",
-                "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+                "label": "4/4 Πληθυντικός",
+                "task": "Έτοιμο. Το επόμενο κλικ δείχνει την επόμενη κάρτα.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,7 +784,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
@@ -792,15 +792,15 @@ const COURSE_LESSON_DATA = {
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Είναι σύντομο το γράμμα • ",
+            "lv": "Είναι σύντομο το γράμμα;",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Όχι, το γράμμα δεν είναι σύντομο, είναι μεγάλο.",
+            "lv": "Όχι, το γράμμα δεν είναι σύντομο, είναι μακρύ.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Τι κάνεις • ",
+            "lv": "Τι κάνετε;",
             "de": "Was machen Sie?"
           },
           {
@@ -808,19 +808,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Παύλο, κάτσε και διάβασε!",
+            "lv": "Paul, κάθισε και διάβασε!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Κύριε Δάσκαλε, κάτσε και διάβασε!",
+            "lv": "Κύριε δάσκαλε, καθίστε και διαβάστε!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Πώς γράφουν τα παιδιά • ",
+            "lv": "Πώς γράφουν τα παιδιά;",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Πληκτρολογούν γρήγορα ή αργά • ",
+            "lv": "Γράφουν γρήγορα ή αργά;",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
@@ -828,27 +828,27 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Τι είναι αυτό το πιάτο • ",
+            "lv": "Πώς είναι αυτό το πιάτο;",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Αυτό το πιάτο δεν είναι καθαρό, είναι μαύρο.",
+            "lv": "Αυτό το πιάτο δεν είναι καθαρό, είναι βρόμικο.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Τα γράμματα είναι μεγάλα ή σύντομα • ",
+            "lv": "Είναι τα γράμματα μακριά ή σύντομα;",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Άννα, ακόνισε το μολύβι!",
+            "lv": "Anna, ξύσε αυτό το μολύβι!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Κύριε Δάσκαλε, ακονίστε το μολύβι!",
+            "lv": "Κύριε δάσκαλε, παρακαλώ, ξύστε αυτό το μολύβι!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Άσε αυτό το στυλό κάτω!",
+            "lv": "Άφησε κάτω εκείνο το μολύβι!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,7 +856,7 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Τι κάνει τελικά το κορίτσι • ",
+            "lv": "Τι κάνει επιτέλους το κορίτσι;",
             "de": "Was macht das Mädchen endlich?"
           },
           {
@@ -870,8 +870,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson10": {
     "id": "lesson10",
     "title": "Μάθημα 10",
-    "subtitle": "Sein, könn, υγεία, ηλικία και επαγγέλματα",
-    "intro": "Δέκατο μάθημα: sein, könn, προστακτικοί τύποι λόγου, υγεία, ηλικία και επαγγέλματα.",
+    "subtitle": "Sein, können, υγεία, ηλικία και επαγγέλματα",
+    "intro": "Δέκατο μάθημα: sein, können, τύποι της προστακτικής, υγεία, ηλικία και επαγγέλματα.",
     "sections": [
       {
         "title": "Διάλογοι / προτάσεις",
@@ -927,48 +927,48 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "gesund (gezunt) — terve",
-          "ich bin gesund — mina olen terve",
-          "du bist — sina oled",
-          "wir sind — meie oleme",
-          "ihr seid (īr zeit) — teie olete",
-          "ich kann — mina saan/võin",
-          "du kannst — sina saad/võid",
-          "er kann — tema saab/võib",
-          "wir können — meie saame/võime",
-          "ihr könnt — teie saate/võite",
-          "sie können — nemad saavad/võivad",
-          "sei gesund — ole terve!",
-          "seid gesund — olge terved!",
-          "seien Sie gesund — olge Teie terve!",
-          "der Knabe (dēr knābe) — poiss",
-          "der Mann — mees",
-          "die Frau — naine",
-          "der Großvater (dēr grōsfāter) — vanaisa",
-          "krank — haige",
-          "fleißig (fleišich) — usin",
-          "lernen — õppima",
-          "alt — vana",
-          "das Jahr (jār) — aasta",
-          "die Jahre — aastad",
-          "wie — kuidas, milline, kui"
+          "gesund (γκεζούντ) — υγιής",
+          "ich bin gesund — είμαι υγιής",
+          "du bist — εσύ είσαι",
+          "wir sind — εμείς είμαστε",
+          "ihr seid (ιρ ζάιτ) — εσείς είστε",
+          "ich kann — εγώ μπορώ",
+          "du kannst — εσύ μπορείς",
+          "er kann — αυτός μπορεί",
+          "wir können — εμείς μπορούμε",
+          "ihr könnt — εσείς μπορείτε",
+          "sie können — αυτοί μπορούν",
+          "sei gesund — να είσαι υγιής!",
+          "seid gesund — να είστε υγιείς!",
+          "seien Sie gesund — να είστε υγιής! (ευγενικός τύπος)",
+          "der Knabe (ντερ κνάμπε) — το αγόρι",
+          "der Mann — ο άντρας, ο σύζυγος",
+          "die Frau — η γυναίκα, η σύζυγος",
+          "der Großvater (ντερ γκρόσφατερ) — ο παππούς",
+          "krank — άρρωστος",
+          "fleißig (φλάισιχ) — εργατικός, επιμελής",
+          "lernen — μαθαίνω",
+          "alt — ηλικιωμένος, γέρος",
+          "das Jahr (γιαρ) — ο χρόνος, το έτος",
+          "die Jahre — τα χρόνια",
+          "wie — πώς, τι λογής, πόσο"
         ]
       },
       {
         "title": "Προφορά",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Τα φωνήεντα με umlaut πρέπει να προφέρονται σωστά.",
+          "Το ö προφέρεται με στρογγυλεμένα χείλη σαν ε: wir können, ihr könnt, sie können, der Löffel.",
+          "Το ü προφέρεται με στρογγυλεμένα χείλη σαν ι: Müller (μίλερ), Bücher (μπίχερ).",
+          "Το αν ένα φωνήεν είναι μακρύ ή σύντομο εξαρτάται από τα σύμφωνα που ακολουθούν.",
+          "Όταν ένα φωνήεν ακολουθείται μόνο από ένα σύμφωνο, προφέρεται μακρύ: Vögel (φέγκελ), Schüler (σίλερ), Bücher (μπίχερ).",
+          "Όταν ένα φωνήεν ακολουθείται από δύο ή περισσότερα σύμφωνα, προφέρεται σύντομο: wir können, der Löffel, der Müller.",
+          "Το γερμανικό o είναι καθαρό φωνήεν, όπως το ελληνικό ο, για παράδειγμα: φωτογράφος, ονομαστική, τόνος.",
+          "Πρόφερε σωστά: der Großvater (ντερ γκρόσφατερ).",
+          "Η δίφθογγος ei προφέρεται άι: seid (ζάιτ), fleißig (φλάισιχ).",
+          "Το γερμανικό e μπορεί να είναι κλειστό ή ανοιχτό: der Lehrer (ντερ λέρερ). Το e του θέματος είναι μακρύ και κλειστό, το e της κατάληξης είναι σύντομο και ανοιχτό."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Το βοηθητικό ρήμα sein — to be κλίνεται ακανόνιστα. Επομένως, πρέπει να μαθαίνεται καλά."
+            "text": "Το βοηθητικό ρήμα sein — είμαι κλίνεται ανώμαλα. Γι’ αυτό πρέπει να το μάθεις καλά."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Με τον ίδιο τρόπο κλίνεται ακανόνιστα και το βοηθητικό ρήμα können — να μπορώ/να μπορώ να —."
+            "text": "Ανώμαλα κλίνεται επίσης και το βοηθητικό ρήμα können — μπορώ."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,11 +1051,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Είσαι υγιής",
+            "lv": "Είσαι υγιής;",
             "de": "Bist du gesund?"
           },
           {
@@ -1063,15 +1063,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Είναι ο Παύλος υγιής • ",
+            "lv": "Είναι υγιής ο Paul;",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Όχι, ο Παύλος δεν είναι υγιής, είναι άρρωστος.",
+            "lv": "Όχι, ο Paul δεν είναι υγιής, είναι άρρωστος.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Μπορεί να δουλέψει • ",
+            "lv": "Μπορεί να δουλέψει;",
             "de": "Kann er arbeiten?"
           },
           {
@@ -1079,27 +1079,27 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Είναι μεγάλος ο παππούς • ",
+            "lv": "Είναι ηλικιωμένος ο παππούς;",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Ναι, είναι πολύ μεγάλος.",
+            "lv": "Ναι, είναι πολύ ηλικιωμένος.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Ο παππούς και η γιαγιά είναι πολύ μεγάλοι.",
+            "lv": "Ο παππούς και η γιαγιά είναι πολύ ηλικιωμένοι.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Πόσο χρονών είναι ο Αδόλφος • ",
+            "lv": "Πόσων χρονών είναι ο Adolf;",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Ο Αδόλφος είναι εννιά χρονών.",
+            "lv": "Ο Adolf είναι εννέα χρονών.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Ποιος είσαι εσύ",
+            "lv": "Ποιος είσαι;",
             "de": "Wer bist du?"
           },
           {
@@ -1107,7 +1107,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Είναι δάσκαλος • ",
+            "lv": "Είναι δάσκαλος;",
             "de": "Ist er ein Lehrer?"
           },
           {
@@ -1115,7 +1115,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Ποιος είναι ο δάσκαλος • ",
+            "lv": "Τι είναι ο δάσκαλος;",
             "de": "Was ist der Lehrer?"
           },
           {
@@ -1123,7 +1123,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Ποιος είναι ο δάσκαλος • ",
+            "lv": "Τι είναι η δασκάλα;",
             "de": "Was ist die Lehrerin?"
           },
           {
@@ -1131,7 +1131,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Ποιος μπορεί να εργαστεί • ",
+            "lv": "Ποιος μπορεί να δουλέψει;",
             "de": "Wer kann arbeiten?"
           },
           {
@@ -1145,8 +1145,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "Μάθημα 11",
-    "subtitle": "Haben, kein/keine/keinen, κατοχή και σύνθετα ουσιαστικά",
-    "intro": "Μάθημα έντεκα: haben, άρνηση με kein, κατοχή, σύνθετα ουσιαστικά και σειρά λέξεων με denn.",
+    "subtitle": "Haben, kein/keine/keinen, κτήση και σύνθετα ουσιαστικά",
+    "intro": "Ενδέκατο μάθημα: haben, άρνηση με kein, έκφραση της κτήσης, σύνθετα ουσιαστικά και σειρά των λέξεων με denn.",
     "sections": [
       {
         "title": "Διάλογοι / προτάσεις",
@@ -1189,46 +1189,46 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "ich habe — minul on",
-          "du hast — sinul on",
-          "er hat — temal on",
-          "wir haben — meil on",
-          "ihr habt — teil on",
-          "sie haben — neil on",
-          "der Bruder (dēr brūder) — vend",
-          "die Brüder — vennad",
-          "das Zimmer (das cimer) — tuba",
-          "ist nicht — ei ole",
-          "groß (grōs) — suur",
-          "hell — hele",
-          "breit — lai",
-          "der Schreibtisch (dēr šreibtīš) — kirjutuslaud",
-          "da — seal",
-          "kein, keine, kein — mitte ükski",
-          "zusammen (cuzāmen) — koos",
-          "oft — sageli",
-          "der Freund (dēr froint) — sõber",
-          "die Freunde — sõbrad",
-          "der Schrank — kapp",
-          "der Stuhl (dēr štūl) — tool",
-          "die Stühle — toolid",
-          "die Tischlampe — laualamp",
-          "das Bücherbrett — raamaturiiul",
-          "die Landkarte (dī lantkarte) — maakaart",
-          "glücklich — õnnelik",
-          "denn — sest",
-          "die Schwester (dī švester) — õde",
-          "die Schwestern — õed"
+          "ich habe — εγώ έχω",
+          "du hast — εσύ έχεις",
+          "er hat — αυτός έχει",
+          "wir haben — εμείς έχουμε",
+          "ihr habt — εσείς έχετε",
+          "sie haben — αυτοί έχουν",
+          "der Bruder (ντερ μπρούντερ) — ο αδελφός",
+          "die Brüder — οι αδελφοί",
+          "das Zimmer (ντας τσίμερ) — το δωμάτιο",
+          "ist nicht — δεν είναι",
+          "groß (γκρος) — μεγάλος",
+          "hell — φωτεινός",
+          "breit — φαρδύς",
+          "der Schreibtisch (ντερ σράιπτισ) — το γραφείο",
+          "da — εκεί",
+          "kein, keine, kein — κανένας, καμία, κανένα",
+          "zusammen (τσουζάμεν) — μαζί",
+          "oft — συχνά",
+          "der Freund (ντερ φρόιντ) — ο φίλος",
+          "die Freunde — οι φίλοι",
+          "der Schrank — η ντουλάπα",
+          "der Stuhl (ντερ στουλ) — η καρέκλα",
+          "die Stühle — οι καρέκλες",
+          "die Tischlampe — η επιτραπέζια λάμπα",
+          "das Bücherbrett — το ράφι για βιβλία",
+          "die Landkarte (ντι λάντκαρτε) — ο γεωγραφικός χάρτης",
+          "glücklich — ευτυχισμένος",
+          "denn — γιατί, επειδή",
+          "die Schwester (ντι σβέστερ) — η αδελφή",
+          "die Schwestern — οι αδελφές"
         ]
       },
       {
         "title": "Προφορά",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "Το eu προφέρεται όι: der Freund (ντερ φρόιντ), neun (νόιν).",
+          "Το h συνήθως δείχνει τη μακρότητα του προηγούμενου φωνήεντος: der Stuhl (ντερ στουλ), zehn (τσεν).",
+          "Το z προφέρεται σαν το ελληνικό τσ: Franz (φραντς), das Zimmer (τσίμερ)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Το βοηθητικό ρήμα haben εκφράζει την έννοια της κατοχής στα γερμανικά. Στα εσθονικά εκφράζεται συχνά: έχω, έχεις, έχει κ.λπ."
+            "text": "Στα γερμανικά το βοηθητικό ρήμα haben εκφράζει την κτήση, όπως το ρήμα έχω στα ελληνικά: έχω, έχεις, έχει κ.λπ."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "έχω"
               ],
               [
                 "du hast",
-                "tev ir"
+                "έχεις"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "αυτός/αυτή/αυτό έχει"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "έχουμε"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "έχετε"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "έχουν"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "Στα εσθονικά, η κτητική χρησιμοποιείται για να εκφράσει την κατοχή (δική μου, εσύ, αυτός), αλλά στα γερμανικά ο κάτοχος είναι στην ονομαστική πτώση και το κατεχόμενο αντικείμενο είναι στην κατηγορούμενη πτώση."
+            "heading": "Η κτήση: ονομαστική/αιτιατική",
+            "text": "Στα γερμανικά, όπως και στα ελληνικά με το έχω, το πρόσωπο που κατέχει είναι το υποκείμενο — σε ονομαστική, ενώ το αντικείμενο που κατέχεται είναι το αντικείμενο του ρήματος — σε αιτιατική."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Παραδείγματα",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — έχω ένα τραπέζι",
+              "Der Vater hat ein Buch — ο πατέρας έχει ένα βιβλίο",
+              "Sie haben eine Feder — αυτοί έχουν μια πένα"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Σύγκριση με άλλες γλώσσες",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "ρωσικά: я имею тетрадь; отец имеет книгу.",
+              "αγγλικά: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Το ρήμα haben πρέπει να μαθαίνεται καλά και να χρησιμοποιείται σωστά. Πρέπει επίσης να γνωρίζετε τις μορφές επιτακτικής ομιλίας."
+            "text": "Το ρήμα haben πρέπει να το μάθεις καλά και να το χρησιμοποιείς σωστά. Πρέπει επίσης να ξέρεις τους τύπους της προστακτικής."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — παραδείγματα",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — υπομονή! / κάνε υπομονή!",
+              "habt Geduld! — κάντε υπομονή!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Στα γερμανικά, ένα διπλό αρνητικό δεν εκφράζεται με την αρνητική λέξη kein. Η αρνητική λέξη kein έρχεται μόνο πριν από ένα ουσιαστικό."
+            "text": "Στα γερμανικά, με το kein δεν υπάρχει διπλή άρνηση όπως στο ελληνικό «δεν έχω κανένα»: αρκεί το kein. Η αρνητική λέξη kein μπαίνει μόνο πριν από ουσιαστικό."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — ενικός",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — πληθυντικός",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Αν ο σύνδεσμος denn βρίσκεται στην αφηγηματική πρόταση, το ρήμα βρίσκεται στη 2η θέση. Ο σύνδεσμος denn δεν θεωρείται μέρος της πρότασης."
+            "heading": "Η σειρά των λέξεων με το denn",
+            "text": "Όταν η πρόταση κρίσεως περιέχει τον σύνδεσμο denn, το ρήμα μένει στη 2η θέση. Ο σύνδεσμος denn δεν μετράει ως όρος της πρότασης."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — παραδείγματα",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Ένα σύνθετο ουσιαστικό προηγείται από το άρθρο του τελευταίου ουσιαστικού. Η έμφαση δίνεται στην πρώτη λέξη."
+            "heading": "Σύνθετα ουσιαστικά",
+            "text": "Πριν από το σύνθετο ουσιαστικό μπαίνει το άρθρο του τελευταίου ουσιαστικού. Ο τόνος πέφτει στο πρώτο ουσιαστικό."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Σύνθετα ουσιαστικά — παραδείγματα",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,11 +1358,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Τι έχεις",
+            "lv": "Τι έχεις;",
             "de": "Was hast du?"
           },
           {
@@ -1370,7 +1370,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Πώς είναι τα βιβλία • ",
+            "lv": "Πώς είναι τα βιβλία;",
             "de": "Wie sind die Bücher?"
           },
           {
@@ -1378,19 +1378,19 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Δεσποινίς Μύλλερ, έχετε τετράδια • ",
+            "lv": "Δεσποινίς Müller, έχετε τετράδια;",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Δεν έχω σημειωματάρια.",
+            "lv": "Δεν έχω τετράδια.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Ο Φραντς δεν έχει στυλό ή στυλό.",
+            "lv": "Ο Franz δεν έχει ούτε πένα ούτε μολύβι.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Πώς είναι το δωμάτιο",
+            "lv": "Πώς είναι το δωμάτιο;",
             "de": "Wie ist das Zimmer?"
           },
           {
@@ -1398,31 +1398,31 @@ const COURSE_LESSON_DATA = {
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Έχετε ένα γραφείο • ",
+            "lv": "Έχεις γραφείο;",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Ναι, έχω ένα γραφείο και ένα επιτραπέζιο φωτιστικό.",
+            "lv": "Ναι, έχω ένα γραφείο και μια επιτραπέζια λάμπα.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Τι έχει ο δάσκαλος • ",
+            "lv": "Τι έχει ο δάσκαλος;",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "Ο δάσκαλος έχει πολλά βιβλία και ένα ράφι.",
+            "lv": "Ο δάσκαλος έχει πολλά βιβλία και ένα ράφι για βιβλία.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Ποιος είναι ευτυχισμένος • ",
+            "lv": "Ποιος είναι ευτυχισμένος;",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Το παιδί είναι χαρούμενο γιατί το παιδί έχει πατέρα και μητέρα.",
+            "lv": "Το παιδί είναι ευτυχισμένο, γιατί έχει πατέρα και μητέρα.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Τι κάνει η Άννα • ",
+            "lv": "Τι κάνει η Anna;",
             "de": "Was tut Anna?"
           },
           {
@@ -1430,19 +1430,19 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Γράφει και ο Φραντς • ",
+            "lv": "Γράφει και ο Franz;",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Όχι, ο Φραντς δεν γράφει, ζωγραφίζει.",
+            "lv": "Όχι, ο Franz δεν γράφει, ζωγραφίζει.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Στέκονται • ",
+            "lv": "Στέκονται;",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Όχι, κάθονται και μελετούν.",
+            "lv": "Όχι, κάθονται και μαθαίνουν.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1453,7 +1453,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson12",
     "title": "Μάθημα 12",
     "subtitle": "Βαθμοί σύγκρισης, als / wie, ηλικία, επίθετα και χρώματα.",
-    "intro": "Μάθημα δώδεκα: βαθμοί σύγκρισης, als / wie, ηλικία, επίθετα και χρώματα.",
+    "intro": "Δωδέκατο μάθημα: βαθμοί σύγκρισης, als / wie, ηλικία, επίθετα και χρώματα.",
     "sections": [
       {
         "title": "Διάλογοι / προτάσεις",
@@ -1484,51 +1484,51 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "heißen — nimetama (kutsuma)",
-          "wie heißt du — mis su nimi on",
-          "ich heiße — minu nimi on",
-          "die Grube — auk",
-          "wieviel — kui palju",
-          "Max (maks) — Max",
-          "groß — suur",
-          "klein — väike",
-          "kleiner als ich — väiksem kui mina",
-          "alt — vana",
-          "jung — noor",
-          "jünger als ich — noorem kui mina",
-          "so alt wie — sama vana kui",
-          "der Vetter (dēr feter) — nõbu",
-          "am ältesten (am eltesten) — kõige vanem",
-          "ebenso — samuti",
-          "wie — nagu, kuidas",
-          "am jüngsten — kõige noorem",
-          "faul — laisk",
-          "fleißig — usin",
-          "blau — sinine",
-          "braun — pruun",
-          "gelb — kollane",
-          "das Gummi (das gumī) — kustutuskumm",
-          "grau — hall",
-          "der Baum — puu",
-          "grün — roheline",
-          "die Blume — lill",
-          "rot — punane",
-          "die Tinte — tint",
-          "die Kreide — kriit",
-          "weiß — valge",
-          "schwarz — must",
-          "krank — haige",
-          "gesund — terve"
+          "heißen — ονομάζομαι",
+          "wie heißt du — πώς σε λένε",
+          "ich heiße — με λένε",
+          "die Grube — ο λάκκος",
+          "wieviel — πόσο, πόσα",
+          "Max (μαξ) — Μαξ",
+          "groß — μεγάλος",
+          "klein — μικρός",
+          "kleiner als ich — μικρότερος από μένα",
+          "alt — ηλικιωμένος, γέρος",
+          "jung — νέος",
+          "jünger als ich — νεότερος από μένα",
+          "so alt wie — τόσο μεγάλος όσο",
+          "der Vetter (ντερ φέτερ) — ο ξάδελφος",
+          "am ältesten (αμ έλτεστεν) — ο μεγαλύτερος απ’ όλους",
+          "ebenso — επίσης, το ίδιο",
+          "wie — όπως",
+          "am jüngsten — ο νεότερος απ’ όλους",
+          "faul — τεμπέλης",
+          "fleißig — εργατικός",
+          "blau — μπλε",
+          "braun — καφέ",
+          "gelb — κίτρινος",
+          "das Gummi (ντας γκούμι) — η γόμα, το λάστιχο",
+          "grau — γκρίζος",
+          "der Baum — το δέντρο",
+          "grün — πράσινος",
+          "die Blume — το λουλούδι",
+          "rot — κόκκινος",
+          "die Tinte — το μελάνι",
+          "die Kreide — η κιμωλία",
+          "weiß — άσπρος",
+          "schwarz — μαύρος",
+          "krank — άρρωστος",
+          "gesund — υγιής"
         ]
       },
       {
         "title": "Προφορά",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk."
+          "Το x προφέρεται ξ: Max (μαξ), Felix (φέλιξ).",
+          "Στις λέξεις Schwester, am jüngsten το st προφέρεται σαν απλό στ, όπως στα ελληνικά: Schwester (σβέστερ), jüngsten (γίνκστεν).",
+          "Στη λέξη der Federhalter το h είναι ήχος που προφέρεται, ενώ στη λέξη der Sohn — σημάδι μακρότητας."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Ο συγκριτικός βαθμός (Komparativ) ενός επιθέτου σχηματίζεται από τον αρχικό βαθμό (Θετικό) με την κατάληξη -er.",
+            "text": "Ο συγκριτικός βαθμός (Komparativ) των επιθέτων σχηματίζεται από τον θετικό βαθμό (Positiv) με την κατάληξη -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "Τα περισσότερα άτονα επίθετα με φωνήεν a, o, u στο στέλεχος τους έχουν Umlaut στον συγκριτικό βαθμό.",
+            "heading": "Umlaut στον συγκριτικό βαθμό",
+            "text": "Τα περισσότερα μονοσύλλαβα επίθετα με φωνήεν θέματος a, o, u παίρνουν Umlaut στον συγκριτικό βαθμό.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "Το wie χρησιμοποιείται για να εκφράσει την ισότητα. Το als χρησιμοποιείται για να εκφράσει την ανισότητα.",
+            "heading": "Σύγκριση με wie και als",
+            "text": "Το wie χρησιμοποιείται όταν εκφράζουμε ισότητα. Το als χρησιμοποιείται όταν εκφράζουμε ανισότητα.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Ο Υπερθετικός σχηματίζεται προσθέτοντας την κατάληξη -sten ή -esten στον αρχικό βαθμό και τη λέξη είμαι μπροστά της.",
+            "text": "Ο υπερθετικός βαθμός (Superlativ) σχηματίζεται με την προσθήκη της κατάληξης -sten ή -esten στον θετικό βαθμό και της λέξης am μπροστά.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Ανώμαλοι βαθμοί σύγκρισης",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (κοντινός)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (ψηλός)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (καλός)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (πολύ)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (σύντομα)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (ευχαρίστως)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,103 +1611,103 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ποιος είναι μεγαλύτερος, εσύ ή εγώ • ",
+            "lv": "Ποιος είναι μεγαλύτερος, εσύ ή εγώ;",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Είσαι μεγαλύτερος από μένα.",
+            "lv": "Εσύ είσαι μεγαλύτερος από μένα.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Ποιος είναι ο μεγαλύτερος • ",
+            "lv": "Ποιος είναι ο μεγαλύτερος απ’ όλους;",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Ο Παύλος είναι ο παλαιότερος.",
+            "lv": "Ο Paul είναι ο μεγαλύτερος απ’ όλους.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Ποιο είναι το όνομά σου",
+            "lv": "Πώς σε λένε;",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Το όνομά μου είναι Πέτρος.",
+            "lv": "Με λένε Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Ποιο είναι το όνομά του • ",
+            "lv": "Πώς τον λένε;",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Το όνομά του είναι Johann.",
+            "lv": "Τον λένε Johann.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Πώς σε λένε • ",
+            "lv": "Πώς σας λένε;",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Πόσων χρονών είστε • ",
+            "lv": "Πόσων χρονών είστε;",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Είμαι 20 χρονών.",
+            "lv": "Είμαι είκοσι χρονών.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Είναι μεγάλος ο Μαξ • ",
+            "lv": "Είναι ψηλός ο Max;",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Όχι, ο Μαξ δεν είναι μεγάλος, ο Ρούντολφ είναι μεγαλύτερος.",
+            "lv": "Όχι, ο Max δεν είναι ψηλός, ο Rudolf είναι ψηλότερος.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Ποιος είναι ο μεγαλύτερος • ",
+            "lv": "Ποιος είναι ο ψηλότερος απ’ όλους;",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Ο Φραντς είναι ο μεγαλύτερος.",
+            "lv": "Ο Franz είναι ο ψηλότερος απ’ όλους.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Πόσο χρονών είναι η μητέρα • ",
+            "lv": "Πόσων χρονών είναι η μητέρα;",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Η μητέρα έχει την ίδια ηλικία με τον πατέρα.",
+            "lv": "Η μητέρα είναι τόσο μεγάλη όσο και ο πατέρας.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Πόσες αδερφές έχεις • ",
+            "lv": "Πόσες αδελφές έχεις;",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Έχω τρεις αδερφές.",
+            "lv": "Έχω τρεις αδελφές.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Ποια είναι τα ονόματά τους • ",
+            "lv": "Πώς τις λένε;",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Τα ονόματά τους είναι Έλσα, Μάρθα και Άλμα.",
+            "lv": "Τις λένε Elsa, Martha και Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Πόσα αδέρφια έχεις • ",
+            "lv": "Πόσους αδελφούς έχετε;",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Έχω έναν αδερφό.",
+            "lv": "Έχω έναν αδελφό.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Τι είναι το μελάνι • ",
+            "lv": "Πώς είναι το μελάνι;",
             "de": "Wie ist die Tinte?"
           },
           {
@@ -1715,35 +1715,35 @@ const COURSE_LESSON_DATA = {
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Τι είναι η κιμωλία • ",
+            "lv": "Πώς είναι η κιμωλία;",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Είναι λευκό.",
+            "lv": "Είναι άσπρη.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Πώς είναι τα λουλούδια • ",
+            "lv": "Πώς είναι τα λουλούδια;",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Είναι μπλε, κόκκινο, κίτρινο και λευκό.",
+            "lv": "Είναι μπλε, κόκκινα, κίτρινα και άσπρα.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Είναι υγιής ο αδερφός • ",
+            "lv": "Είναι υγιής ο αδελφός;",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Ναι, ο αδερφός είναι υγιής, αλλά η αδερφή είναι άρρωστη.",
+            "lv": "Ναι, ο αδελφός είναι υγιής, αλλά η αδελφή είναι άρρωστη.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Είσαι χαρούμενος • ",
+            "lv": "Είστε ευτυχισμένοι;",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Ναι, είμαστε χαρούμενοι γιατί είμαστε υγιείς.",
+            "lv": "Ναι, είμαστε ευτυχισμένοι, γιατί είμαστε υγιείς.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1753,8 +1753,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson13": {
     "id": "lesson13",
     "title": "Μάθημα 13",
-    "subtitle": "Der Körper, μέρη σώματος, στροφές, jeder και πληθυντικός.",
-    "intro": "Μάθημα δέκατο τρίτο: Der Körper, Μέρη σώματος, Γυμναστική, Ανακλαστικά Ρήματα και Πληθυντικοί.",
+    "subtitle": "Der Körper, μέρη του σώματος, turnen, jeder και πληθυντικός.",
+    "intro": "Δέκατο τρίτο μάθημα: Der Körper, μέρη του σώματος, γυμναστική, αυτοπαθή ρήματα και πληθυντικός.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "der Körper — keha",
-          "der Mensch — inimene",
-          "der Kopf — pea",
-          "der Hals — kael",
-          "der Rumpf — kere",
-          "der Arm — käsivars",
-          "die Hand — käsi (peopesa)",
-          "die Hände — käed",
-          "das Bein — jalg",
-          "die Beine — jalad",
-          "der Fuß — jalatald",
-          "die Füße — jalatallad",
-          "rund — ümmargune",
-          "lang — pikk",
-          "kurz — lühike",
-          "klein — väike",
-          "groß — suur",
-          "dick — paks",
-          "dünn — peenike / õhuke",
-          "die Brust — rind",
-          "vorn — ees",
-          "der Rücken — selg",
-          "hinten — taga",
-          "jeder — iga (mees)",
-          "jede — iga (naine)",
-          "jedes — iga (kesksugu)",
-          "der Finger — sõrm",
-          "die Zehe — varvas",
-          "beide — mõlemad",
-          "der Nagel — küüs",
-          "die Nägel — küüned",
-          "beschneiden — lõikama",
-          "reinigen — puhastama",
-          "turnen — võimlema",
-          "heben — tõstma",
-          "machen — tegema",
-          "der Schritt — samm",
-          "bleiben — jääma",
-          "stehen — seisma",
-          "sich umkehren — ümber pöörduma",
-          "ausstrecken — sirutama",
-          "senken — langetama",
-          "drehen — pöörama",
-          "nach links — vasakule",
-          "nach rechts — paremale",
-          "halten — hoidma",
-          "gerade — sirgelt",
-          "atmen — hingama",
-          "tief — sügavalt"
+          "der Körper — το σώμα",
+          "der Mensch — ο άνθρωπος",
+          "der Kopf — το κεφάλι",
+          "der Hals — ο λαιμός",
+          "der Rumpf — ο κορμός",
+          "der Arm — το χέρι, το μπράτσο",
+          "die Hand — η παλάμη, το χέρι",
+          "die Hände — οι παλάμες, τα χέρια",
+          "das Bein — το πόδι",
+          "die Beine — τα πόδια",
+          "der Fuß — η πατούσα",
+          "die Füße — οι πατούσες",
+          "rund — στρογγυλός",
+          "lang — μακρύς",
+          "kurz — κοντός",
+          "klein — μικρός",
+          "groß — μεγάλος",
+          "dick — χοντρός / παχύς",
+          "dünn — λεπτός / αδύνατος",
+          "die Brust — το στήθος",
+          "vorn — μπροστά",
+          "der Rücken — η πλάτη",
+          "hinten — πίσω",
+          "jeder — κάθε, καθένας",
+          "jede — κάθε, καθεμία",
+          "jedes — κάθε, καθένα",
+          "der Finger — το δάχτυλο",
+          "die Zehe — το δάχτυλο του ποδιού",
+          "beide — και οι δύο",
+          "der Nagel — το νύχι",
+          "die Nägel — τα νύχια",
+          "beschneiden — κόβω",
+          "reinigen — καθαρίζω",
+          "turnen — γυμνάζομαι",
+          "heben — σηκώνω",
+          "machen — κάνω / φτιάχνω",
+          "der Schritt — το βήμα",
+          "bleiben — μένω",
+          "stehen — στέκομαι",
+          "sich umkehren — γυρίζω προς τα πίσω",
+          "ausstrecken — τεντώνω",
+          "senken — κατεβάζω",
+          "drehen — γυρίζω / στρέφω",
+          "nach links — αριστερά",
+          "nach rechts — δεξιά",
+          "halten — κρατώ",
+          "gerade — ίσια",
+          "atmen — αναπνέω",
+          "tief — βαθιά"
         ]
       },
       {
         "title": "Γραμματική",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Μερικά ρήματα με φωνήεν a ή au στο στέλεχος τους έχουν Umlaut στο 2ο και 3ο πρόσωπο του ενικού.",
+            "heading": "Umlaut στον ενεστώτα",
+            "text": "Ορισμένα ρήματα με φωνήεν θέματος a ή au παίρνουν Umlaut στο 2ο και 3ο ενικό πρόσωπο του ενεστώτα.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — να γυρίζεις",
+            "heading": "Το αυτοπαθές ρήμα",
+            "text": "sich umkehren — γυρίζω προς τα πίσω",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Η προστακτική του sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Atmen — να αναπνέω",
+            "heading": "Το ρήμα atmen",
+            "text": "atmen — αναπνέω",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Η προστακτική του atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Εάν το πρόθεμα είναι τονισμένο, αποσπάται στον ενεστώτα και πηγαίνει στο τέλος της πρότασης.",
+            "heading": "Σύνθετα ρήματα",
+            "text": "Όταν το πρόθεμα τονίζεται, στον ενεστώτα χωρίζεται και πηγαίνει στο τέλος της πρότασης.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Εάν το πρόθεμα είναι χωρίς τονισμό, δεν διαχωρίζεται.",
+            "heading": "Αχώριστα προθέματα",
+            "text": "Όταν το πρόθεμα δεν τονίζεται, δεν χωρίζεται.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
+            "heading": "Η αντωνυμία jeder",
             "text": "Η αντωνυμία jeder κλίνεται όπως τα άρθρα der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Αρσενικό",
+                "Θηλυκό",
+                "Ουδέτερο"
               ],
               [
-                "Nominatīvs",
+                "Ονομαστική",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Αιτιατική",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Πληθυντικός χωρίς κατάληξη",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Πληθυντικός με κατάληξη -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Πληθυντικός με κατάληξη -en ή -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Πληθυντικός με κατάληξη -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Τα θηλυκά ουσιαστικά που σχηματίζονται με την κατάληξη -in τέλος σε -nen στον πληθυντικό.",
+            "heading": "Θηλυκά ουσιαστικά σε -in",
+            "text": "Τα θηλυκά ουσιαστικά που σχηματίζονται με -in παίρνουν -nen στον πληθυντικό.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,16 +1981,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "Στη λέξη halten το h ακούγεται.",
+          "Στη λέξη fahren το h δείχνει ότι το φωνήεν είναι μακρύ.",
+          "Στη λέξη halten το a προφέρεται σύντομο: halten.",
+          "Στη λέξη tragen το a προφέρεται μακρύ: tragen.",
+          "Το äu προφέρεται όι: du läufst, er läuft.",
+          "Στη λέξη Kopf το pf προφέρεται έτσι ώστε να ακούγονται και τα δύο σύμφωνα."
         ]
       },
       {
-        "title": "Ασκηση",
+        "title": "Άσκηση",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,31 +2055,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Πόσα χέρια έχει ένας άνθρωπος • ",
+            "lv": "Πόσα χέρια έχει ο άνθρωπος;",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Πόσα πόδια έχεις • ",
+            "lv": "Πόσα πόδια έχεις;",
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Πώς είναι το κεφάλι • ",
+            "lv": "Πώς είναι το κεφάλι;",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Πώς είναι το σώμα • ",
+            "lv": "Πώς είναι ο κορμός;",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Πώς είναι το μπράτσο • ",
+            "lv": "Πώς είναι το χέρι;",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Πώς είναι το πόδι • ",
+            "lv": "Πώς είναι το πόδι;",
             "de": "Wie ist das Bein?"
           },
           {
@@ -2087,11 +2087,11 @@ const COURSE_LESSON_DATA = {
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Πού είναι το στήθος • ",
+            "lv": "Πού είναι το στήθος;",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Πού είναι η πλάτη • ",
+            "lv": "Πού είναι η πλάτη;",
             "de": "Wo ist der Rücken?"
           },
           {
@@ -2099,23 +2099,23 @@ const COURSE_LESSON_DATA = {
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Πόσα δάχτυλα υπάρχουν σε ένα χέρι • ",
+            "lv": "Πόσα δάχτυλα έχει η παλάμη;",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Το χέρι έχει πέντε δάχτυλα.",
+            "lv": "Η παλάμη έχει πέντε δάχτυλα.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Πόσα δάχτυλα υπάρχουν σε δύο χέρια • ",
+            "lv": "Πόσα δάχτυλα έχουν δύο παλάμες;",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Δύο χέρια έχουν δέκα δάχτυλα.",
+            "lv": "Δύο παλάμες έχουν δέκα δάχτυλα.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Τι είναι στο δάχτυλο • ",
+            "lv": "Τι έχει το δάχτυλο;",
             "de": "Was hat der Finger?"
           },
           {
@@ -2123,27 +2123,27 @@ const COURSE_LESSON_DATA = {
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Τι κάνεις",
+            "lv": "Τι κάνεις;",
             "de": "Was tust du?"
           },
           {
-            "lv": "Κόβω και καθαρίζω τα νύχια μου.",
+            "lv": "Κόβω και καθαρίζω τα νύχια.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Τι κάνει ο Παύλος • ",
+            "lv": "Τι κάνει ο Paul;",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Κάνει γυμναστική.",
+            "lv": "Γυμνάζεται.",
             "de": "Er turnt."
           },
           {
-            "lv": "Πώς ασκούνται • ",
+            "lv": "Πώς γυμνάζονται;",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Σηκώνουν τα πόδια και τα χέρια τους.",
+            "lv": "Σηκώνουν τα πόδια και τα χέρια.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
@@ -2155,39 +2155,39 @@ const COURSE_LESSON_DATA = {
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Γυρίζουν το κεφάλι τους προς τα δεξιά.",
+            "lv": "Γυρίζουν το κεφάλι δεξιά.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Ποιος αναπνέει βαθιά • ",
+            "lv": "Ποιος αναπνέει βαθιά;",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Ο Πέτρος και η Άννα αναπνέουν βαθιά.",
+            "lv": "Ο Peter και η Anna αναπνέουν βαθιά.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Ο Ρόμπερτ κάνει και γυμναστική • ",
+            "lv": "Γυμνάζεται και ο Robert;",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Όχι, ο Robert και ο Johann δεν κάνουν γυμναστική.",
+            "lv": "Όχι, ο Robert και ο Johann δεν γυμνάζονται.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Ρόμπερτ, γυμναστική!",
+            "lv": "Robert, γυμνάσου!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Ρόμπερτ και Γιόχαν, να είστε δυνατοί!",
+            "lv": "Robert και Johann, γυμναστείτε!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Δεσποινίς Μύλλερ, έλα!",
+            "lv": "Δεσποινίς Müller, γυμναστείτε!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Κάνε δύο βήματα και μετά σταμάτα!",
+            "lv": "Κάντε δύο βήματα και μετά μείνετε όρθιοι!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2197,8 +2197,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson14": {
     "id": "lesson14",
     "title": "Μάθημα 14",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Μάθημα δέκατο τέταρτο: Τροπικά ρήματα müssen, wollen και mögen.",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "Δέκατο τέταρτο μάθημα: τα τροπικά ρήματα müssen, wollen και mögen.",
     "sections": [
       {
         "title": "Κείμενο / Ανάγνωση",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Λόγια",
+        "title": "Λεξιλόγιο",
         "items": [
-          "müssen — pidama (kohustus)",
-          "ich muss — mina pean",
-          "du musst — sina pead",
-          "er muss — tema peab",
-          "sie muss — tema peab (naine)",
-          "es muss — see peab",
-          "wir müssen — meie peame",
-          "ihr müsst — teie peate",
-          "sie müssen — nemad peavad",
-          "lernen — õppima",
-          "vorwärts — edasi",
-          "vorwärts kommen — edasi jõudma",
-          "wollen — tahtma",
-          "ich will — mina tahan",
-          "du willst — sina tahad",
-          "er will — tema tahab",
-          "sie will — tema tahab (naine)",
-          "es will — see tahab",
-          "wir wollen — meie tahame",
-          "ihr wollt — teie tahate",
-          "sie wollen — nemad tahavad",
-          "mögen — meeldida / soovida",
-          "ich mag — mina soovin / mulle meeldib",
-          "du magst — sina soovid / sulle meeldib",
-          "er mag — tema soovib / talle meeldib",
-          "sie mag — tema soovib / talle meeldib (naine)",
-          "es mag — see soovib / sellele meeldib",
-          "wir mögen — meie soovime",
-          "ihr mögt — teie soovite",
-          "sie mögen — nemad soovivad",
-          "die Suppe — supp",
-          "munden — hästi maitsema",
-          "mir — mulle",
-          "dir — sulle",
-          "ihm — talle",
-          "ihr — talle (naine)",
-          "uns — meile",
-          "euch — teile",
-          "ihnen — neile",
-          "denn — sest"
+          "müssen — πρέπει / είμαι υποχρεωμένος",
+          "ich muss — εγώ πρέπει / πρέπει να κάνω",
+          "du musst — εσύ πρέπει / πρέπει να κάνεις",
+          "er muss — αυτός πρέπει / πρέπει να κάνει",
+          "sie muss — αυτή πρέπει / πρέπει να κάνει",
+          "es muss — αυτό πρέπει / πρέπει να κάνει",
+          "wir müssen — εμείς πρέπει / πρέπει να κάνουμε",
+          "ihr müsst — εσείς πρέπει / πρέπει να κάνετε",
+          "sie müssen — αυτοί / αυτές πρέπει",
+          "lernen — μαθαίνω",
+          "vorwärts — μπροστά, εμπρός",
+          "vorwärts kommen — προοδεύω, προχωρώ",
+          "wollen — θέλω",
+          "ich will — εγώ θέλω",
+          "du willst — εσύ θέλεις",
+          "er will — αυτός θέλει",
+          "sie will — αυτή θέλει",
+          "es will — αυτό θέλει",
+          "wir wollen — εμείς θέλουμε",
+          "ihr wollt — εσείς θέλετε",
+          "sie wollen — αυτοί / αυτές θέλουν",
+          "mögen — θέλω / επιθυμώ / μου αρέσει",
+          "ich mag — εγώ θέλω / μου αρέσει",
+          "du magst — εσύ θέλεις / σου αρέσει",
+          "er mag — αυτός θέλει / του αρέσει",
+          "sie mag — αυτή θέλει / της αρέσει",
+          "es mag — αυτό θέλει / του αρέσει",
+          "wir mögen — εμείς θέλουμε",
+          "ihr mögt — εσείς θέλετε",
+          "sie mögen — αυτοί / αυτές θέλουν",
+          "die Suppe — η σούπα",
+          "munden — είμαι νόστιμος, αρέσω στη γεύση",
+          "mir — σε μένα, μου",
+          "dir — σε σένα, σου",
+          "ihm — σε αυτόν, του",
+          "ihr — σε αυτήν, της",
+          "uns — σε εμάς, μας",
+          "euch — σε εσάς, σας",
+          "ihnen — σε αυτούς / σε αυτές, τους",
+          "denn — γιατί, επειδή"
         ]
       },
       {
         "title": "Γραμματική",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Τροπικά ρήματα",
             "text": "Τα ρήματα müssen, wollen και mögen είναι τροπικά ρήματα."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Στον ενεστώτα ενικού το 1ο και το 3ο πρόσωπο είναι το ίδιο.",
+            "heading": "1ο και 3ο πρόσωπο του ενικού",
+            "text": "Στον ενικό του ενεστώτα το 1ο και το 3ο πρόσωπο είναι ίδια.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Αλλαγή του φωνήεντος του θέματος",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen σημαίνει κρατώ / είναι απαραίτητο.",
+            "text": "Το Müssen σημαίνει πρέπει / είναι αναγκαίο.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Πρέπει να μάθω."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen σημαίνει να θέλεις συνειδητά να κάνεις κάτι.",
+            "text": "Το Wollen σημαίνει θέλω συνειδητά να κάνω κάτι.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Θέλω να προοδεύσω."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Ο Mögen εκφράζει επιθυμία ή συμπάθεια.",
+            "text": "Το Mögen εκφράζει επιθυμία ή προτίμηση.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Δεν θέλω να φάω τη σούπα.",
+              "Die Suppe mundet mir nicht. — Η σούπα δεν μου αρέσει."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Στα εσθονικά λέμε συχνά «πρέπει να σπουδάσω», «πρέπει να γράψεις», «πρέπει να έρθει». Τα γερμανικά συχνά χρησιμοποιούν müssen σε τέτοιες προτάσεις.",
+            "heading": "Σημαντικό",
+            "text": "Στα ελληνικά λέμε συχνά «πρέπει να διαβάσω», «πρέπει να γράψεις», «πρέπει να έρθει». Στα γερμανικά σε τέτοιες προτάσεις χρησιμοποιείται επίσης συχνά το müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,28 +2362,28 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Προφορά",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "Το ß προφέρεται όπως το ελληνικό σ.",
+          "Το ß γράφεται στη μέση ή στο τέλος της λέξης μετά από μακρύ φωνήεν ή δίφθογγο: die Füße, die Straße, ich muss, er muss.",
+          "Αν σε άλλους τύπους υπάρχει ss, πριν από την κατάληξη μπορεί να υπάρχει ß: müssen, ich muss, du musst, ihr müsst.",
+          "Στη λέξη mögen το ö προφέρεται ως καθαρός ήχος ö.",
+          "Όταν μετά το g ακολουθεί t, το g ακούγεται πιο κοντά στον ήχο k: du magst, ihr mögt.",
+          "Πρόκειται για αφομοίωση, όπως στα ελληνικά, όπου στη λέξη «σβήνω» το σ πριν από το β ακούγεται πιο κοντά στον ήχο ζ."
         ]
       },
       {
-        "title": "Παρακαλώ μεταφράστε",
+        "title": "Μετάφρασε",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ποιος θέλει να σπουδάσει σκληρά • ",
+            "lv": "Ποιος θέλει να μαθαίνει με επιμέλεια;",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Όλοι οι μαθητές θέλουν να μελετήσουν σκληρά.",
+            "lv": "Όλοι οι μαθητές θέλουν να μαθαίνουν με επιμέλεια.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Ποιος πρέπει να έρθει σήμερα • ",
+            "lv": "Ποιος πρέπει να έρθει σήμερα;",
             "de": "Wer muss heute kommen?"
           },
           {
@@ -2391,43 +2391,43 @@ const COURSE_LESSON_DATA = {
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Πρέπει να γράψετε ένα γράμμα.",
+            "lv": "Πρέπει να γράψεις το γράμμα.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Ποιος χρειάζεται να μελετήσει σκληρά • ",
+            "lv": "Ποιος πρέπει να μαθαίνει με επιμέλεια;",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Οι μαθητές πρέπει να μελετούν σκληρά.",
+            "lv": "Οι μαθητές πρέπει να μαθαίνουν με επιμέλεια.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Δεν θέλω να φάω σούπα γιατί δεν μου αρέσει.",
+            "lv": "Δεν θέλω να φάω τη σούπα, γιατί δεν μου αρέσει.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Ποιος θέλει να φάει σούπα • ",
+            "lv": "Ποιος θέλει να φάει τη σούπα;",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Η Έλσα θέλει να φάει σούπα.",
+            "lv": "Η Elsa θέλει να φάει τη σούπα.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Ποιος χρειάζεται να διαβάσει το βιβλίο • ",
+            "lv": "Ποιος πρέπει να διαβάσει το βιβλίο;",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Ο αδερφός πρέπει να διαβάσει ένα βιβλίο.",
+            "lv": "Ο αδελφός πρέπει να διαβάσει το βιβλίο.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Δεν θέλω να τραγουδήσω.",
+            "lv": "Δεν έχω όρεξη να τραγουδήσω.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Ο μπαμπάς πρέπει να αγοράσει ένα τραπέζι.",
+            "lv": "Ο πατέρας πρέπει να αγοράσει ένα τραπέζι.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

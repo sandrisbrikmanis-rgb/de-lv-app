@@ -59,8 +59,8 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "8. előadás",
-    "subtitle": "Visszaható igék, e → i/ie változtat és accusative.",
+    "title": "8. lecke",
+    "subtitle": "Visszaható igék, e → i/ie váltakozás és tárgyeset.",
     "sections": [
       {
         "title": "Párbeszédek / mondatok",
@@ -90,77 +90,77 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Szavak",
         "items": [
-          "alle — visi",
-          "aufstehen — piecelties",
-          "stehen auf — pieceļas",
-          "grüßen (grüsen) — sveicināt",
-          "guten Morgen — labrīt",
-          "gut — labs",
-          "der Morgen — rīts",
-          "der Herr — kungs",
-          "das Kind — bērns",
-          "die Kinder — bērni",
-          "setzt euch (zect oich) — sēstieties!",
-          "sie setzen sich — viņi apsēžas",
-          "fragen (ar akuzatīvu) — jautāt",
-          "sprechen — runāt",
-          "er spricht — viņš runā",
-          "aber — bet",
-          "sehr (zēr) — ļoti",
-          "leise — klusi",
-          "laut — skaļi",
-          "jetzt (ject) — tagad",
-          "lesen — lasīt",
-          "lies! — lasi!",
-          "gut — labi",
-          "schlecht — slikti",
-          "deutlich (doitlich) — skaidri, saprotami",
-          "schreiben — rakstīt",
-          "endlich (entlich) — beidzot",
-          "erzählen (ercēlen) — stāstīt",
-          "zuhören — klausīties",
-          "sie hören zu — viņi klausās",
-          "was ist das — kas tas ir?",
-          "der Arbeiter — strādnieks",
-          "der Müller — dzirnavnieks",
-          "der Tischler — galdnieks",
-          "der Bäcker (dēr beker) — maiznieks",
-          "der Schneider (dēr šneider) — drēbnieks",
-          "der Gärtner (dēr gertner) — dārznieks",
-          "der Schuster — kurpnieks"
+          "alle — mindenki, mind",
+          "aufstehen — felállni",
+          "stehen auf — feláll",
+          "grüßen (grüszen) — köszönteni",
+          "guten Morgen — jó reggelt",
+          "gut — jó",
+          "der Morgen — a reggel",
+          "der Herr — az úr",
+          "das Kind — a gyermek",
+          "die Kinder — a gyermekek",
+          "setzt euch (zect ojh) — üljetek le!",
+          "sie setzen sich — ők leülnek",
+          "fragen (tárgyesettel) — kérdezni",
+          "sprechen — beszélni",
+          "er spricht — ő beszél",
+          "aber — de",
+          "sehr (zér) — nagyon",
+          "leise — halkan",
+          "laut — hangosan",
+          "jetzt (ject) — most",
+          "lesen — olvasni",
+          "lies! — olvass!",
+          "gut — jól",
+          "schlecht — rosszul",
+          "deutlich (dojtlih) — világosan, érthetően",
+          "schreiben — írni",
+          "endlich (entlih) — végre",
+          "erzählen (ercélen) — mesélni, elbeszélni",
+          "zuhören — hallgatni, odafigyelni",
+          "sie hören zu — ők hallgatják",
+          "was ist das — mi ez?",
+          "der Arbeiter — a munkás",
+          "der Müller — a molnár",
+          "der Tischler — az asztalos",
+          "der Bäcker (dér beker) — a pék",
+          "der Schneider (dér snájder) — a szabó",
+          "der Gärtner (dér gertner) — a kertész",
+          "der Schuster — a cipész"
         ]
       },
       {
         "title": "Kiejtés",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
-          "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "Az ä-t, ahogy már említettük, rövid e-nek vagy hosszú é-nek ejtjük. Példák: der Bäcker (beker), das Mädchen (méthen).",
+          "Az ä-t nyílt e-nek is ejtjük, például a der Gärtner (dér gertner) szóban.",
+          "A Schüler, Bücher szavakban — az ü hosszú (ű), a Müller szóban viszont — rövid ü.",
+          "Az ie-t hosszú í-nek ejtjük: liest (líszt).",
+          "A ß-t sz-nek ejtjük: grüßen (grüszen).",
+          "Az eu-t oj-nak ejtjük: deutlich (dojtlih)."
         ]
       },
       {
         "title": "Nyelvtan",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "Sok e tőmagánhangzós igénél jelen idő egyes szám 2. és 3. személyében az e helyett i vagy ie áll.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "Ezeknél az igéknél az egyes számú felszólító alakban is i vagy ie áll a tőben az e helyett: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "A magyarban a visszaható igéknek saját képzőjük van, pl. mosakodik, fésülködik. A németben nincs külön ragozásuk: ugyanúgy ragozzuk őket, mint a többi igét, csak hozzájuk tesszük a sich visszaható névmást.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Felszólító mód: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Gyakorlat",
         "exerciseType": "mixed",
-        "description": "Übung I - Használja a megfelelő ragozást. Übung II - Fordítókártyák.",
+        "description": "Übung I — használd a helyes esetet. Übung II — fordítókártyák.",
         "cards": [
           {
             "type": "fill",
@@ -249,22 +249,22 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Köszöntjük a tanárt és a tanárt!",
+            "lv": "Köszöntsd a tanárt és a tanárnőt!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Mit üdvözölsz?",
+            "lv": "Kit köszöntesz?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Köszöntöm a kisasszonyt.",
+            "lv": "A kisasszonyt köszöntöm.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Nyissa ki az összes ablakot!",
+            "lv": "Nyissátok ki az összes ablakot!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -274,7 +274,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Kinyitod az ablakot",
+            "lv": "Kinyitod az ablakot?",
             "de": "Öffnest du das Fenster?"
           },
           {
@@ -284,12 +284,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Minden diák üljön le.",
+            "lv": "Az összes tanuló leül.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Pál, ülj le!",
+            "lv": "Paul, ülj le!",
             "de": "Paul, setz dich!"
           },
           {
@@ -299,7 +299,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Ne beszélj csendesen!",
+            "lv": "Ne beszélj halkan!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -309,7 +309,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Minden diák hangosan beszél.",
+            "lv": "Az összes tanuló hangosan beszél.",
             "de": "Alle Schüler sprechen laut."
           },
           {
@@ -319,7 +319,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "A tanuló hangosan és érthetően olvas.",
+            "lv": "A tanulólány hangosan és érthetően olvas.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -329,17 +329,17 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Ne beszélj csendesen!",
+            "lv": "Ne beszélj halkan!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Olvass jól!",
+            "lv": "Olvassatok jól!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ansis jól ír, de Anna rosszul.",
+            "lv": "Hans jól ír, de Anna rosszul ír.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
@@ -355,16 +355,16 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "exerciseType": "translate",
-        "description": "Lett mondatok fordítása németre.",
+        "description": "Fordítsd le a mondatokat németre.",
         "cards": [
           {
-            "lv": "Köszöntsd a tanárt és a tanárt.",
+            "lv": "Köszöntsd a tanárt és a tanárnőt!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Nyissa ki az összes ablakot!",
+            "lv": "Nyissátok ki az összes ablakot!",
             "de": "Öffnet alle Fenster!"
           },
           {
@@ -372,7 +372,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Kinyitottad az ablakot",
+            "lv": "Kinyitottad az ablakot?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
@@ -380,11 +380,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Minden diák üljön le.",
+            "lv": "Az összes tanuló leül.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Pál, ülj le!",
+            "lv": "Paul, ülj le!",
             "de": "Paul, setz dich!"
           },
           {
@@ -392,7 +392,7 @@ const COURSE_LESSON_DATA = {
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Ne beszélj csendesen!",
+            "lv": "Ne beszélj halkan!",
             "de": "Sprich nicht leise!"
           },
           {
@@ -400,7 +400,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Minden diák hangosan beszél.",
+            "lv": "Az összes tanuló hangosan beszél.",
             "de": "Alle Schüler sprechen laut."
           },
           {
@@ -408,7 +408,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer liest laut?"
           },
           {
-            "lv": "A tanuló hangosan és érthetően olvas.",
+            "lv": "A tanulólány hangosan és érthetően olvas.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
@@ -416,15 +416,15 @@ const COURSE_LESSON_DATA = {
             "de": "Lies gut!"
           },
           {
-            "lv": "Ne beszélj csendesen!",
+            "lv": "Ne beszélj halkan!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Olvass jól!",
+            "lv": "Olvassatok jól!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ansis jól ír, de Anna rosszul.",
+            "lv": "Hans jól ír, de Anna rosszul ír.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
@@ -441,9 +441,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "9. előadás",
-    "subtitle": "Több alany, dieser/jener, egyes és többes szám",
-    "intro": "Kilencedik előadás: főnevek többes száma, demonstratív névmások dieser/jener, gyakorlatok és fordítás.",
+    "title": "9. lecke",
+    "subtitle": "Több tárgy, dieser/jener, egyes és többes szám",
+    "intro": "A kilencedik lecke: a főnevek többes száma, a dieser/jener mutató névmások, gyakorlatok és fordítás.",
     "sections": [
       {
         "title": "Párbeszédek / mondatok",
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Szavak",
         "items": [
-          "mehrere (mērere) — vairāki, vairākas",
-          "hier (hīr) — šeit, te",
-          "dort — tur",
-          "auch — arī",
-          "langsam (lankzām) — lēni",
-          "schnell (šnel) — ātri",
-          "mehr (mēr) — vairāk",
-          "zumachen — aiztaisīt",
-          "ich mache zu — es aiztaisu",
-          "sitzen (zicen) — sēdēt",
-          "ruhig (rū-ich) — mierīgi",
-          "dieser (dīzer) — šis",
-          "jener (jēner) — tas",
-          "der Brief (dēr brīf) — vēstule",
-          "die Briefe — vēstules",
-          "kurz (kurc) — īss",
-          "rein — tīrs",
-          "schmutzig (šmucich) — netīrs"
+          "mehrere (mérere) — több, néhány",
+          "hier (hír) — itt",
+          "dort — ott",
+          "auch — is",
+          "langsam (langzám) — lassan",
+          "schnell (snel) — gyorsan",
+          "mehr (mér) — több, többet",
+          "zumachen — becsukni",
+          "ich mache zu — becsukom",
+          "sitzen (zicen) — ülni",
+          "ruhig (rú-ih) — nyugodtan",
+          "dieser (dízer) — ez",
+          "jener (jéner) — az, amaz",
+          "der Brief (dér bríf) — a levél",
+          "die Briefe — a levelek",
+          "kurz (kurc) — rövid",
+          "rein — tiszta",
+          "schmutzig (smucih) — piszkos"
         ]
       },
       {
         "title": "Nyelvtan",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
-            "text": "Határozó névelőként jelölje meg a dieser és jener névmásokat."
+            "heading": "Mutató névmások",
+            "text": "A dieser és jener mutató névmásokat úgy ragozzuk, mint a határozott névelőt."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Egyes szám",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Többes szám",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Ha a főnév előtt névmás vagy számszó áll, a szócikk nem kerül felhasználásra."
+            "heading": "Névelő nélkül",
+            "text": "Ha a főnév előtt névmás vagy számnév áll, nem használunk névelőt."
           },
           {
             "examples": [
@@ -560,23 +560,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir nehmen ein Heft."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir schreiben schnell."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir machen das Heft zu."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Kezdő mondat",
-                "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
+                "label": "1/4 Kiinduló mondat",
+                "task": "Alakítsd át ezt a mondatot egyes szám 3. személyűre.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er forma",
-                "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
+                "label": "2/4 Er alak",
+                "task": "Alakítsd át a kiinduló mondatot többes szám 1. személyűre.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "3/4 Drót alakú",
-                "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+                "label": "3/4 Wir alak",
+                "task": "A főnév egyes száma helyett használd a többes számot.",
                 "text": "Wir sitzen ruhig."
               },
               {
                 "label": "4/4 Többes szám",
-                "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+                "task": "Kész. A következő kattintás a következő kártyát mutatja.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,11 +784,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "A lány leül és levelet ír.",
+            "lv": "A lány leül, és levelet ír.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
@@ -800,7 +800,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Mit csinálsz",
+            "lv": "Önök mit csinálnak?",
             "de": "Was machen Sie?"
           },
           {
@@ -808,19 +808,19 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Pál, ülj le és olvass!",
+            "lv": "Paul, ülj le és olvass!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Tanár úr, üljön le és olvasson!",
+            "lv": "Tanár úr, üljön le, és olvasson!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Hogyan írnak a gyerekek?",
+            "lv": "Hogyan írnak a gyermekek?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Gyorsan vagy lassan gépelnek?",
+            "lv": "Gyorsan vagy lassan írnak?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
@@ -828,27 +828,27 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Mi ez a tányér?",
+            "lv": "Milyen ez a tányér?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Ez a tányér nem tiszta, piszkos.",
+            "lv": "Ez a tányér nem tiszta, hanem piszkos.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "A betűk hosszúak vagy rövidek?",
+            "lv": "Hosszúak vagy rövidek a levelek?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anna, hegyezd ki a ceruzát!",
+            "lv": "Anna, hegyezd ki ezt a ceruzát!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Tanár úr, kérem, hegyezze ezt a ceruzát!",
+            "lv": "Tanár úr, kérem, hegyezze ki ezt a ceruzát!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Tedd le a ceruzát!",
+            "lv": "Tedd le azt a ceruzát!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
@@ -856,11 +856,11 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Végül mit csinál a lány?",
+            "lv": "Mit csinál végül a lány?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Becsukja az ablakot és kimegy.",
+            "lv": "Becsukja az ablakot, és kimegy.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,9 +869,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "10. előadás",
-    "subtitle": "Sein, können, egészség, életkor és szakmák",
-    "intro": "Tizedik előadás: sein, können, parancsformák, egészség, életkor és szakmák.",
+    "title": "10. lecke",
+    "subtitle": "Sein, können, egészség, életkor és foglalkozások",
+    "intro": "A tizedik lecke: sein, können, felszólító alakok, egészség, életkor és foglalkozások.",
     "sections": [
       {
         "title": "Párbeszédek / mondatok",
@@ -929,46 +929,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Szavak",
         "items": [
-          "gesund (gezunt) — vesels",
-          "ich bin gesund — es esmu vesels",
-          "du bist — tu esi",
-          "wir sind — mēs esam",
-          "ihr seid (īr zeit) — jūs esat",
-          "ich kann — es varu",
-          "du kannst — tu vari",
-          "er kann — viņš var",
-          "wir können — mēs varam",
-          "ihr könnt — jūs varat",
-          "sie können — viņi var",
-          "sei gesund — esi vesels!",
-          "seid gesund — esiet veseli!",
-          "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (dēr knābe) — zēns",
-          "der Mann — vīrs, vīrietis",
-          "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) — vectēvs",
-          "krank — slims",
-          "fleißig (fleišich) — čakls",
-          "lernen — mācīties",
-          "alt — vecs",
-          "das Jahr (jār) — gads",
-          "die Jahre — gadi",
-          "wie — kā, kāds, cik"
+          "gesund (gezunt) — egészséges",
+          "ich bin gesund — egészséges vagyok",
+          "du bist — te vagy",
+          "wir sind — mi vagyunk",
+          "ihr seid (ír zájt) — ti vagytok",
+          "ich kann — én tudok",
+          "du kannst — te tudsz",
+          "er kann — ő tud",
+          "wir können — mi tudunk",
+          "ihr könnt — ti tudtok",
+          "sie können — ők tudnak",
+          "sei gesund — légy egészséges!",
+          "seid gesund — legyetek egészségesek!",
+          "seien Sie gesund — legyen egészséges (Ön)!",
+          "der Knabe (dér knábe) — a fiú",
+          "der Mann — a férj, a férfi",
+          "die Frau — a feleség, a nő",
+          "der Großvater (dér grószfáter) — a nagyapa",
+          "krank — beteg",
+          "fleißig (flájszih) — szorgalmas",
+          "lernen — tanulni",
+          "alt — öreg, idős",
+          "das Jahr (jár) — az év",
+          "die Jahre — az évek",
+          "wie — hogyan, milyen, mennyi"
         ]
       },
       {
         "title": "Kiejtés",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Az umlautos magánhangzókat helyesen kell ejteni.",
+          "Az ö-t úgy ejtjük, mint a magyar ö-t: wir können, ihr könnt, sie können, der Löffel.",
+          "Az ü-t úgy ejtjük, mint a magyar ü-t: Müller (müller), Bücher (bűher).",
+          "A magánhangzó hosszúsága vagy rövidsége az utána következő mássalhangzóktól függ.",
+          "Ha a magánhangzót egy mássalhangzó követi, a magánhangzót hosszan ejtjük: Vögel (főgel), Schüler (sűler), Bücher (bűher).",
+          "Ha a magánhangzót két vagy több mássalhangzó követi, a magánhangzót röviden ejtjük: wir können, der Löffel, der Müller.",
+          "A német o tiszta o hang, mint a magyar o és ó, például: bor, fotó, olló.",
+          "Helyesen ejtsd: der Großvater (dér grószfáter).",
+          "Az ei kettőshangzót áj-nak ejtjük: seid (zájt), fleißig (flájszih).",
+          "A német e lehet zárt vagy nyílt: der Lehrer (dér lérer). A tőben álló é hosszú és zárt, a végződésben álló e rövid és nyílt."
         ]
       },
       {
@@ -976,7 +976,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sein",
-            "text": "Sein segédige - ívesnek lenni. Ezért jól meg kell tanulni."
+            "text": "A sein — lenni segédige rendhagyóan ragozódik. Ezért jól meg kell tanulni."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Ugyanígy a können - hogy képes - segédige is szabálytalanul ragozott."
+            "text": "Ugyanígy rendhagyóan ragozódik a können — tudni, képesnek lenni segédige is."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,11 +1051,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Egészséges vagy",
+            "lv": "Egészséges vagy?",
             "de": "Bist du gesund?"
           },
           {
@@ -1063,15 +1063,15 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Pál egészséges?",
+            "lv": "Egészséges Paul?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Nem, Pál nem egészséges, hanem beteg.",
+            "lv": "Nem, Paul nem egészséges, beteg.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Tud dolgozni?",
+            "lv": "Tud ő dolgozni?",
             "de": "Kann er arbeiten?"
           },
           {
@@ -1079,7 +1079,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Öreg a nagypapa?",
+            "lv": "Öreg a nagyapa?",
             "de": "Ist der Großvater alt?"
           },
           {
@@ -1087,7 +1087,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Nagyapa és nagymama nagyon idősek.",
+            "lv": "A nagyapa és a nagymama nagyon öregek.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
@@ -1095,11 +1095,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Adolf kilenc éves.",
+            "lv": "Adolf kilencéves.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Ki vagy te",
+            "lv": "Ki vagy te?",
             "de": "Wer bist du?"
           },
           {
@@ -1115,15 +1115,15 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Ki a tanár?",
+            "lv": "Mi a tanár?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "A tanár ember.",
+            "lv": "A tanár férfi.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Ki a tanár?",
+            "lv": "Mi a tanárnő?",
             "de": "Was ist die Lehrerin?"
           },
           {
@@ -1131,7 +1131,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Ki dolgozhat?",
+            "lv": "Ki tud dolgozni?",
             "de": "Wer kann arbeiten?"
           },
           {
@@ -1144,9 +1144,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "11. előadás",
-    "subtitle": "Haben, kein/keine/keinen, birtokos és összetett főnevek",
-    "intro": "Tizenegyedik előadás: haben, tagadás keinnel, birtoklás, összetett főnevek és szórend a denn-nel.",
+    "title": "11. lecke",
+    "subtitle": "Haben, kein/keine/keinen, birtoklás és összetett főnevek",
+    "intro": "A tizenegyedik lecke: haben, tagadás a kein szóval, a birtoklás kifejezése, összetett főnevek és szórend a denn kötőszóval.",
     "sections": [
       {
         "title": "Párbeszédek / mondatok",
@@ -1191,44 +1191,44 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Szavak",
         "items": [
-          "ich habe — man ir",
-          "du hast — tev ir",
-          "er hat — viņam ir",
-          "wir haben — mums ir",
-          "ihr habt — jums ir",
-          "sie haben — viņiem ir",
-          "der Bruder (dēr brūder) — brālis",
-          "die Brüder — brāļi",
-          "das Zimmer (das cimer) — istaba",
-          "ist nicht — nav",
-          "groß (grōs) — liels",
-          "hell — gaišs",
-          "breit — plats",
-          "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
-          "da — tur",
-          "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) — kopā",
-          "oft — bieži",
-          "der Freund (dēr froint) — draugs",
-          "die Freunde — draugi",
-          "der Schrank — skapis",
-          "der Stuhl (dēr štūl) — krēsls",
-          "die Stühle — krēsli",
-          "die Tischlampe — galda lampa",
-          "das Bücherbrett — grāmatu plaukts",
-          "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
-          "glücklich — laimīgs",
-          "denn — jo",
-          "die Schwester (dī švester) — māsa",
-          "die Schwestern — māsas"
+          "ich habe — nekem van",
+          "du hast — neked van",
+          "er hat — neki van",
+          "wir haben — nekünk van",
+          "ihr habt — nektek van",
+          "sie haben — nekik van",
+          "der Bruder (dér brúder) — a fivér",
+          "die Brüder — a fivérek",
+          "das Zimmer (dasz cimer) — a szoba",
+          "ist nicht — nem, nincs",
+          "groß (grósz) — nagy",
+          "hell — világos",
+          "breit — széles",
+          "der Schreibtisch (dér srájbtis) — az íróasztal",
+          "da — ott",
+          "kein, keine, kein — egy sem, semmilyen",
+          "zusammen (cuzamen) — együtt",
+          "oft — gyakran",
+          "der Freund (dér frojnt) — a barát",
+          "die Freunde — a barátok",
+          "der Schrank — a szekrény",
+          "der Stuhl (dér stúl) — a szék",
+          "die Stühle — a székek",
+          "die Tischlampe — az asztali lámpa",
+          "das Bücherbrett — a könyvespolc",
+          "die Landkarte (dí lantkarte) — a térkép",
+          "glücklich — boldog",
+          "denn — mert",
+          "die Schwester (dí svester) — a lánytestvér",
+          "die Schwestern — a lánytestvérek"
         ]
       },
       {
         "title": "Kiejtés",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "Az eu-t oj-nak ejtjük: der Freund (dér frojnt), neun (nojn).",
+          "A h többnyire az előtte álló magánhangzó hosszúságát jelöli: der Stuhl (dér stúl), zehn (cén).",
+          "A z-t úgy ejtjük, mint a magyar c-t: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1236,74 +1236,74 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "A német haben segédige az összetartozás fogalmát fejezi ki. Lettül gyakran így fejezik ki: nekem van, neked van, neki van stb. t. t."
+            "text": "A németben a haben segédigével fejezzük ki a birtoklást. A magyarban ezt általában így mondjuk: nekem van, neked van, neki van stb."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "nekem van"
               ],
               [
                 "du hast",
-                "tev ir"
+                "neked van"
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "neki van"
               ],
               [
                 "wir haben",
-                "mums ir"
+                "nekünk van"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "nektek van"
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "nekik van"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "A lettben az a személy, akihez valami tartozik, datívusban van, az alany pedig névelőben. A németben a személy névelőben, a birtokolt tárgy pedig a tárgyszóban van."
+            "heading": "A magyar részes eset és a német alanyeset/tárgyeset",
+            "text": "A magyarban a birtokos személy részes esetben áll, a birtokolt tárgy pedig — alanyesetben. A németben a személy alanyesetben áll, a birtokolt tárgy pedig — tárgyesetben."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Példák",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — nekem van egy asztalom",
+              "Der Vater hat ein Buch — az apának van egy könyve",
+              "Sie haben eine Feder — nekik van egy tolluk"
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Összehasonlítás más nyelvekkel",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "orosz: я имею тетрадь; отец имеет книгу.",
+              "angol: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "A haben igét jól meg kell tanulni és helyesen kell használni. Ismernie kell a parancsformákat is."
+            "text": "A haben igét jól meg kell tanulni, és helyesen kell használni. A felszólító alakokat is tudni kell."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — példák",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — türelem! / légy türelmes!",
+              "habt Geduld! — legyetek türelmesek!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "A lett nyelv kettős tagadása a németben nem a kein tagadó szóval fejeződik ki. A kein tagadó szó csak a főnév előtt áll."
+            "text": "A magyar kettős tagadást, pl. nincs egy füzetem sem, a németben a kein tagadószóval nem fejezzük ki: elég maga a kein. A kein tagadószó csak főnév előtt áll."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — egyes szám",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — többes szám",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
-            "text": "Ha az elbeszélő mondat tartalmazza a denn kötőszót, az ige a 2. helyen marad. A denn kötőszó nem számít a mondat tagjának."
+            "heading": "Szórend a denn kötőszóval",
+            "text": "Ha a kijelentő mondatban denn kötőszó áll, az ige a 2. helyen marad. A denn kötőszót nem számítjuk mondatrésznek."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — példák",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
-            "text": "Az összetett főnevek előtt az utolsó főnév szócikk szerepel. A hangsúly az eset első szaván van."
+            "heading": "Összetett főnevek",
+            "text": "Az összetett főnév előtt az utolsó főnév névelője áll. A hangsúly az első főnéven van."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Összetett főnevek — példák",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1358,11 +1358,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Mi van nálad",
+            "lv": "Mi van neked?",
             "de": "Was hast du?"
           },
           {
@@ -1370,7 +1370,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Mik azok a könyvek?",
+            "lv": "Milyenek a könyvek?",
             "de": "Wie sind die Bücher?"
           },
           {
@@ -1378,19 +1378,19 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Müller kisasszony, van jegyzetfüzete?",
+            "lv": "Müller kisasszony, vannak füzetei?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Nincsenek jegyzetfüzeteim.",
+            "lv": "Nincsenek füzeteim.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Francnak nincs tolla és ceruzája.",
+            "lv": "Franznak nincs se tolla, se ceruzája.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Milyen a szoba",
+            "lv": "Milyen a szoba?",
             "de": "Wie ist das Zimmer?"
           },
           {
@@ -1398,19 +1398,19 @@ const COURSE_LESSON_DATA = {
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Van-e íróasztalod",
+            "lv": "Van íróasztalod?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Igen, van íróasztalom és asztali lámpám.",
+            "lv": "Igen, van egy íróasztalom és egy asztali lámpám.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Mije van egy tanárnak?",
+            "lv": "Mi van a tanárnak?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "A tanárnak sok könyve és könyvespolca van.",
+            "lv": "A tanárnak sok könyve és egy könyvespolca van.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
@@ -1418,7 +1418,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "A gyerek boldog, mert a gyereknek van apja és anyja.",
+            "lv": "A gyermek boldog, mert van apja és anyja.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
@@ -1426,19 +1426,19 @@ const COURSE_LESSON_DATA = {
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Ő írja.",
+            "lv": "Ő ír.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Ferenc is ír?",
+            "lv": "Franz is ír?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nem, Ferenc nem ír, hanem rajzol.",
+            "lv": "Nem, Franz nem ír, hanem rajzol.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Állnak?",
+            "lv": "Állnak ők?",
             "de": "Stehen sie?"
           },
           {
@@ -1451,9 +1451,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "12. előadás",
-    "subtitle": "Összehasonlító fokozatok, als / wie, életkor, melléknevek és színek.",
-    "intro": "Tizenkettedik előadás: összehasonlító fokozatok, als / wie, életkor, melléknevek és színek.",
+    "title": "12. lecke",
+    "subtitle": "Fokozás, als / wie, életkor, melléknevek és színek.",
+    "intro": "A tizenkettedik lecke: a melléknevek fokozása, als / wie, életkor, melléknevek és színek.",
     "sections": [
       {
         "title": "Párbeszédek / mondatok",
@@ -1486,49 +1486,49 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Szavak",
         "items": [
-          "heißen — saukt",
-          "wie heißt du — kā tevi sauc",
-          "ich heiße — mani sauc",
-          "die Grube — bedre",
-          "wieviel — cik",
-          "Max (maks) — Max",
-          "groß — liels",
-          "klein — mazs",
-          "kleiner als ich — mazāks par mani",
-          "alt — vecs",
-          "jung — jauns",
-          "jünger als ich — jaunāks par mani",
-          "so alt wie — tik vecs kā",
-          "der Vetter (dēr feter) — brālēns",
-          "am ältesten (am eltesten) — visvecākais",
-          "ebenso — tāpat",
-          "wie — kā",
-          "am jüngsten — visjaunākais",
-          "faul — slinks",
-          "fleißig — čakls",
-          "blau — zils",
-          "braun — brūns",
-          "gelb — dzeltens",
-          "das Gummi (das gumī) — gumija",
-          "grau — pelēks",
-          "der Baum — koks",
-          "grün — zaļš",
-          "die Blume — puķe",
-          "rot — sarkans",
-          "die Tinte — tinte",
-          "die Kreide — krīts",
-          "weiß — balts",
-          "schwarz — melns",
-          "krank — slims",
-          "gesund — vesels"
+          "heißen — hívják (valahogy), a neve",
+          "wie heißt du — hogy hívnak",
+          "ich heiße — engem ... hívnak, a nevem",
+          "die Grube — a gödör",
+          "wieviel — mennyi, hány",
+          "Max (maksz) — Max",
+          "groß — nagy",
+          "klein — kicsi",
+          "kleiner als ich — kisebb nálam",
+          "alt — öreg, idős",
+          "jung — fiatal",
+          "jünger als ich — fiatalabb nálam",
+          "so alt wie — olyan idős, mint",
+          "der Vetter (dér feter) — az unokatestvér (fiú)",
+          "am ältesten (am elteszten) — a legidősebb",
+          "ebenso — ugyanúgy, ugyanolyan",
+          "wie — mint",
+          "am jüngsten — a legfiatalabb",
+          "faul — lusta",
+          "fleißig — szorgalmas",
+          "blau — kék",
+          "braun — barna",
+          "gelb — sárga",
+          "das Gummi (dasz gumi) — a radír",
+          "grau — szürke",
+          "der Baum — a fa",
+          "grün — zöld",
+          "die Blume — a virág",
+          "rot — piros",
+          "die Tinte — a tinta",
+          "die Kreide — a kréta",
+          "weiß — fehér",
+          "schwarz — fekete",
+          "krank — beteg",
+          "gesund — egészséges"
         ]
       },
       {
         "title": "Kiejtés",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme."
+          "Az x-et ksz-nek ejtjük: Max (maksz), Felix (feliksz).",
+          "A Schwester, am jüngsten szavakban az st-t úgy ejtjük, mint a magyar szt-t: Schwester (sveszter), jüngsten (jünkszten).",
+          "A der Federhalter szóban a h kiejtett hang, a der Sohn szóban viszont — hosszúságjel."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "A melléknevek felsőfokú foka (Komparativ) az alapfokozatból (Positiv) alakul ki -er végződéssel.",
+            "text": "A melléknevek középfokát (Komparativ) az alapfokból (Positiv) képezzük az -er végződéssel.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
-            "text": "A legtöbb egyszótagú, a, o, u tőhangzót tartalmazó melléknév felsőfokú umlautot tartalmaz.",
+            "heading": "Umlaut középfokban",
+            "text": "A legtöbb a, o, u tőmagánhangzós, egy szótagú melléknév középfokban Umlaut-ot kap.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
-            "text": "A wie az egyenlőség kifejezésére használatos. als-t használjuk az egyenlőtlenség kifejezésére.",
+            "heading": "Összehasonlítás wie és als segítségével",
+            "text": "A wie-t egyenlőség kifejezésére használjuk. Az als-ot különbség kifejezésére használjuk.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,14 +1562,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Az általános fokozat (Superlativ) úgy készül, hogy az alapfokozathoz hozzáadjuk a -sten vagy -esten végződést és az am közlekedési szót.",
+            "text": "A felsőfokot (Superlativ) úgy képezzük, hogy az alapfokhoz -sten vagy -esten végződést teszünk, elé pedig az am elöljárószót.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Rendhagyó fokozás",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (közeli)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (magas)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (jó)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (sok)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (hamar)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (szívesen)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,7 +1611,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
@@ -1619,7 +1619,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Idősebb vagy nálam.",
+            "lv": "Te idősebb vagy nálam.",
             "de": "Du bist älter als ich."
           },
           {
@@ -1627,31 +1627,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Pál a legidősebb.",
+            "lv": "Paul a legidősebb.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Mi a neved",
+            "lv": "Hogy hívnak?",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "A nevem Péter.",
+            "lv": "Peternek hívnak.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Mi a neve?",
+            "lv": "Őt hogy hívják?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Jánosnak hívják.",
+            "lv": "Őt Johann-nak hívják.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Mi a neved?",
+            "lv": "Önt hogy hívják?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Hány éves vagy?",
+            "lv": "Ön hány éves?",
             "de": "Wie alt sind Sie?"
           },
           {
@@ -1659,19 +1659,19 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Maxi nagy?",
+            "lv": "Max nagy?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Nem, Max nem nagy, Rudolph nagyobb.",
+            "lv": "Nem, Max nem nagy, Rudolf nagyobb.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Mi a legnagyobb?",
+            "lv": "Ki a legnagyobb?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Ferenc a legnagyobb.",
+            "lv": "Franz a legnagyobb.",
             "de": "Franz ist am größten."
           },
           {
@@ -1679,67 +1679,67 @@ const COURSE_LESSON_DATA = {
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Az anya egyidős az apával.",
+            "lv": "Az anya ugyanolyan idős, mint az apa.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Hány nővére van?",
+            "lv": "Hány lánytestvéred van?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Három nővérem van.",
+            "lv": "Három lánytestvérem van.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Mi a nevük?",
+            "lv": "Őket hogy hívják?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Elsa, Márta és Alma a nevük.",
+            "lv": "Őket Elsának, Marthának és Almának hívják.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Hány testvéred van?",
+            "lv": "Önnek hány fivére van?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "Van egy testvérem.",
+            "lv": "Egy fivérem van.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Mi az a tinta?",
+            "lv": "Milyen a tinta?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Ez fekete.",
+            "lv": "Fekete.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Mi az a kréta?",
+            "lv": "Milyen a kréta?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Ez fehér.",
+            "lv": "Fehér.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Mik azok a virágok?",
+            "lv": "Milyenek a virágok?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Kék, piros, sárga és fehér színűek.",
+            "lv": "Kékek, pirosak, sárgák és fehérek.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Egészséges a testvér?",
+            "lv": "Egészséges a fivér?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Igen, a testvér egészséges, de a nővér beteg.",
+            "lv": "Igen, a fivér egészséges, de a lánytestvér beteg.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Boldog vagy?",
+            "lv": "Önök boldogok?",
             "de": "Sind Sie glücklich?"
           },
           {
@@ -1752,9 +1752,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "13. előadás",
+    "title": "13. lecke",
     "subtitle": "Der Körper, testrészek, turnen, jeder és többes szám.",
-    "intro": "Tizenharmadik előadás: Der Körper, testrészek, gyakorlat, visszaható igék és többes szám.",
+    "intro": "A tizenharmadik lecke: Der Körper, testrészek, torna, visszaható igék és többes szám.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -1777,65 +1777,65 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "der Körper — ķermenis",
-          "der Mensch — cilvēks",
-          "der Kopf — galva",
-          "der Hals — kakls",
-          "der Rumpf — rumpis",
-          "der Arm — roka",
-          "die Hand — plauksta",
-          "die Hände — plaukstas",
-          "das Bein — kāja",
-          "die Beine — kājas",
-          "der Fuß — kājas pēda",
-          "die Füße — kāju pēdas",
-          "rund — apaļš",
-          "lang — garš",
-          "kurz — īss",
-          "klein — mazs",
-          "groß — liels",
-          "dick — resns / biezs",
-          "dünn — tievs / plāns",
-          "die Brust — krūtis",
-          "vorn — priekšā",
-          "der Rücken — mugura",
-          "hinten — aizmugurē",
-          "jeder — katrs",
-          "jede — katra",
-          "jedes — katrs",
-          "der Finger — pirksts",
-          "die Zehe — kājas pirksts",
-          "beide — abi",
-          "der Nagel — nags",
-          "die Nägel — nagi",
-          "beschneiden — apgriezt",
-          "reinigen — tīrīt",
-          "turnen — vingrot",
-          "heben — celt",
-          "machen — darīt / taisīt",
-          "der Schritt — solis",
-          "bleiben — palikt",
-          "stehen — stāvēt",
-          "sich umkehren — apgriezties",
-          "ausstrecken — izstiept",
-          "senken — nolaist",
-          "drehen — griezt / pagriezt",
-          "nach links — pa kreisi",
-          "nach rechts — pa labi",
-          "halten — turēt",
-          "gerade — taisni",
-          "atmen — elpot",
-          "tief — dziļi"
+          "der Körper — a test",
+          "der Mensch — az ember",
+          "der Kopf — a fej",
+          "der Hals — a nyak",
+          "der Rumpf — a törzs",
+          "der Arm — a kar",
+          "die Hand — a kéz, a tenyér",
+          "die Hände — a kezek",
+          "das Bein — a láb",
+          "die Beine — a lábak",
+          "der Fuß — a lábfej",
+          "die Füße — a lábfejek",
+          "rund — kerek",
+          "lang — hosszú",
+          "kurz — rövid",
+          "klein — kicsi",
+          "groß — nagy",
+          "dick — kövér / vastag",
+          "dünn — sovány / vékony",
+          "die Brust — a mellkas",
+          "vorn — elöl",
+          "der Rücken — a hát",
+          "hinten — hátul",
+          "jeder — minden, mindegyik (hímnem)",
+          "jede — minden, mindegyik (nőnem)",
+          "jedes — minden, mindegyik (semlegesnem)",
+          "der Finger — az ujj",
+          "die Zehe — a lábujj",
+          "beide — mindkét, mindkettő",
+          "der Nagel — a köröm",
+          "die Nägel — a körmök",
+          "beschneiden — levágni, lenyírni",
+          "reinigen — tisztítani",
+          "turnen — tornázni",
+          "heben — emelni",
+          "machen — tenni / csinálni",
+          "der Schritt — a lépés",
+          "bleiben — maradni",
+          "stehen — állni",
+          "sich umkehren — megfordulni",
+          "ausstrecken — kinyújtani",
+          "senken — leengedni",
+          "drehen — forgatni / elfordítani",
+          "nach links — balra",
+          "nach rechts — jobbra",
+          "halten — tartani",
+          "gerade — egyenesen",
+          "atmen — lélegezni",
+          "tief — mélyen"
         ]
       },
       {
         "title": "Nyelvtan",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
-            "text": "Egyes, egyes szám jelen 2. és 3. személyű a vagy au törzshangzót tartalmazó igéknek umlautjuk van.",
+            "heading": "Umlaut jelen időben",
+            "text": "Néhány a vagy au tőmagánhangzós ige jelen idő egyes szám 2. és 3. személyében Umlaut-ot kap.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1846,8 +1846,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren – megfordulni",
+            "heading": "Visszaható ige",
+            "text": "sich umkehren — megfordulni",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "A sich umkehren felszólító alakja",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,8 +1866,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
-            "text": "Ne felejts el lélegezni",
+            "heading": "Az atmen ige",
+            "text": "atmen — lélegezni",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Az atmen felszólító alakja",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,39 +1886,39 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
-            "text": "Ha a prepozíciós rész hangsúlyos, akkor jelen időben elválik, és a mondat végére kerül.",
+            "heading": "Összetett igék",
+            "text": "Ha az igekötő hangsúlyos, jelen időben leválik, és a mondat végére kerül.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
-            "text": "Ha az előtag nincs hangsúlyozva, akkor nincs hangsúlyos.",
+            "heading": "Nem elváló igekötők",
+            "text": "Ha az igekötő hangsúlytalan, nem válik le.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
-            "text": "A jeder névmás olyan körökben jár, mint a der / die / das cikkek.",
+            "heading": "A jeder névmás",
+            "text": "A jeder névmást úgy ragozzuk, mint a der / die / das névelőket.",
             "table": [
               [
                 "",
-                "Vīriešu",
-                "Sieviešu",
-                "Vidējā"
+                "Hímnem",
+                "Nőnem",
+                "Semlegesnem"
               ],
               [
-                "Nominatīvs",
+                "Alanyeset",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Tárgyeset",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Többes szám végződés nélkül",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Többes szám -e végződéssel",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Többes szám -en vagy -n végződéssel",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Többes szám -er végződéssel",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "A nőnemű főnevek -in take -nen többes számban képzett.",
+            "heading": "Nőnemű főnevek -in végződéssel",
+            "text": "Az -in végződéssel képzett nőnemű főnevek többes számban -nen végződést kapnak.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "A halten szóban a h hallható hang.",
+          "A fahren szóban a h a magánhangzó hosszúságát jelöli.",
+          "A halten szóban az a-t röviden ejtjük: halten.",
+          "A tragen szóban az a-t hosszan ejtjük: tragen.",
+          "Az äu-t oj-nak ejtjük: du läufst, er läuft.",
+          "A Kopf szóban a pf-et úgy ejtjük, hogy mindkét mássalhangzó hallható legyen."
         ]
       },
       {
@@ -2055,15 +2055,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hány keze van egy embernek?",
+            "lv": "Hány karja van az embernek?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Hány lábad van",
+            "lv": "Hány lábad van?",
             "de": "Wie viele Beine hast du?"
           },
           {
@@ -2075,35 +2075,35 @@ const COURSE_LESSON_DATA = {
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Mi az a kéz?",
+            "lv": "Milyen a kar?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Mi az a láb?",
+            "lv": "Milyen a láb?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "A kéz kicsi, de a láb nagy.",
+            "lv": "A kar kicsi, de a láb nagy.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Hol van a láda",
+            "lv": "Hol van a mellkas?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Hol van hátul?",
+            "lv": "Hol van a hát?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Mellkas elöl, hátul hátul.",
+            "lv": "A mellkas elöl van, a hát hátul van.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Hány ujja van egy kéznek?",
+            "lv": "Hány ujja van a kéznek?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "A tenyérnek öt ujja van.",
+            "lv": "A kéznek öt ujja van.",
             "de": "Die Hand hat fünf Finger."
           },
           {
@@ -2115,15 +2115,15 @@ const COURSE_LESSON_DATA = {
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Mi az ujj?",
+            "lv": "Mije van az ujjnak?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "Az ujjnak karma van.",
+            "lv": "Az ujjnak körme van.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Mit csinálsz",
+            "lv": "Mit csinálsz?",
             "de": "Was tust du?"
           },
           {
@@ -2131,27 +2131,27 @@ const COURSE_LESSON_DATA = {
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Mit csinál Pál?",
+            "lv": "Mit csinál Paul?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Edzik.",
+            "lv": "Tornázik.",
             "de": "Er turnt."
           },
           {
-            "lv": "Hogyan gyakorolnak?",
+            "lv": "Hogyan tornáznak?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Felemelik a lábukat és a karjukat.",
+            "lv": "Emelik a lábukat és a karjukat.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Kinyújtják mindkét kezüket.",
+            "lv": "Kinyújtják mindkét karjukat.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Mindkét kezüket leejtik.",
+            "lv": "Leengedik mindkét karjukat.",
             "de": "Sie senken beide Arme."
           },
           {
@@ -2163,31 +2163,31 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Péter és Anna mélyeket lélegzik.",
+            "lv": "Peter és Anna mélyen lélegeznek.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Robert is edz?",
+            "lv": "Robert is tornázik?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Nem, Róbert és János nem gyakorolnak.",
+            "lv": "Nem, Robert és Johann nem tornáznak.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, gyakorolj!",
+            "lv": "Robert, tornázz!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert és Jāni, gyakoroljatok!",
+            "lv": "Robert és Johann, tornázzatok!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Müller kisasszony, gyakorolja!",
+            "lv": "Müller kisasszony, tornázzon!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Tegyél két lépést, majd maradj állva!",
+            "lv": "Tegyen két lépést, aztán maradjon állva!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,9 +2196,9 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "14. előadás",
-    "subtitle": "Müssen, wollen, mögen",
-    "intro": "Tizennégy előadás: Modális igék müssen, wollen és mögen.",
+    "title": "14. lecke",
+    "subtitle": "müssen, wollen, mögen",
+    "intro": "A tizennegyedik lecke: a müssen, wollen és mögen módbeli segédigék.",
     "sections": [
       {
         "title": "Szöveg / Olvasás",
@@ -2222,60 +2222,60 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Nevek",
+        "title": "Szavak",
         "items": [
-          "müssen — vajadzēt / būt jādara",
-          "ich muss — man vajag / man jādara",
-          "du musst — tev vajag / tev jādara",
-          "er muss — viņam vajag / viņam jādara",
-          "sie muss — viņai vajag / viņai jādara",
-          "es muss — tam vajag / tam jādara",
-          "wir müssen — mums vajag / mums jādara",
-          "ihr müsst — jums vajag / jums jādara",
-          "sie müssen — viņiem / viņām vajag",
-          "lernen — mācīties",
-          "vorwärts — uz priekšu",
-          "vorwärts kommen — tikt uz priekšu",
-          "wollen — gribēt",
-          "ich will — es gribu",
-          "du willst — tu gribi",
-          "er will — viņš grib",
-          "sie will — viņa grib",
-          "es will — tas grib",
-          "wir wollen — mēs gribam",
-          "ihr wollt — jūs gribat",
-          "sie wollen — viņi / viņas grib",
-          "mögen — gribēt / vēlēties / patikt",
-          "ich mag — es gribu / man patīk",
-          "du magst — tu gribi / tev patīk",
-          "er mag — viņš grib / viņam patīk",
-          "sie mag — viņa grib / viņai patīk",
-          "es mag — tas grib / tam patīk",
-          "wir mögen — mēs gribam",
-          "ihr mögt — jūs gribat",
-          "sie mögen — viņi / viņas grib",
-          "die Suppe — zupa",
-          "munden — labi garšot",
-          "mir — man",
-          "dir — tev",
-          "ihm — viņam",
-          "ihr — viņai",
-          "uns — mums",
-          "euch — jums",
-          "ihnen — viņiem / viņām",
-          "denn — jo"
+          "müssen — kell / muszáj",
+          "ich muss — nekem kell / meg kell tennem",
+          "du musst — neked kell / meg kell tenned",
+          "er muss — neki (férfi) kell / meg kell tennie",
+          "sie muss — neki (nő) kell / meg kell tennie",
+          "es muss — neki (semlegesnem) kell / meg kell tennie",
+          "wir müssen — nekünk kell / meg kell tennünk",
+          "ihr müsst — nektek kell / meg kell tennetek",
+          "sie müssen — nekik (hímnem / nőnem) kell",
+          "lernen — tanulni",
+          "vorwärts — előre",
+          "vorwärts kommen — előre jutni, haladni",
+          "wollen — akarni",
+          "ich will — én akarok",
+          "du willst — te akarsz",
+          "er will — ő (férfi) akar",
+          "sie will — ő (nő) akar",
+          "es will — az (semlegesnem) akar",
+          "wir wollen — mi akarunk",
+          "ihr wollt — ti akartok",
+          "sie wollen — ők (hímnem / nőnem) akarnak",
+          "mögen — akarni / kívánni / szeretni (valamit)",
+          "ich mag — én akarok / szeretem",
+          "du magst — te akarsz / szereted",
+          "er mag — ő (férfi) akar / szereti",
+          "sie mag — ő (nő) akar / szereti",
+          "es mag — az (semlegesnem) akar / szereti",
+          "wir mögen — mi akarunk",
+          "ihr mögt — ti akartok",
+          "sie mögen — ők (hímnem / nőnem) akarnak",
+          "die Suppe — a leves",
+          "munden — ízleni",
+          "mir — nekem",
+          "dir — neked",
+          "ihm — neki (hímnem)",
+          "ihr — neki (nőnem)",
+          "uns — nekünk",
+          "euch — nektek",
+          "ihnen — nekik",
+          "denn — mert"
         ]
       },
       {
         "title": "Nyelvtan",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
-            "text": "A müssen, wollen és mögen igék modális igék."
+            "heading": "Módbeli segédigék",
+            "text": "A müssen, wollen és mögen igék módbeli segédigék."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
-            "text": "Jelen egyes számban az 1. és 3. személy megegyezik.",
+            "heading": "Egyes szám 1. és 3. személy",
+            "text": "Jelen idő egyes számban az 1. és a 3. személy azonos.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "A tőmagánhangzó változása",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen azt jelenti, hogy kell/szükség van.",
+            "text": "A müssen jelentése: kell / szükséges.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Tanulnom kell."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "A wollen azt jelenti, hogy szándékosan akarunk tenni valamit.",
+            "text": "A wollen jelentése: tudatosan akarni valamit megtenni.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Előre akarok jutni."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen kívánságot vagy tetszését fejezi ki.",
+            "text": "A mögen kívánságot vagy tetszést fejez ki.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Nem akarom megenni a levest.",
+              "Die Suppe mundet mir nicht. — A leves nem ízlik nekem."
             ]
           },
           {
-            "heading": "Svarīgi",
-            "text": "Lettül gyakran mondjuk, hogy \"tanulnom kell\", \"írnod ​​kell\", \"jönnie kell\". A német gyakran használja a müssent az ilyen mondatokban.",
+            "heading": "Fontos",
+            "text": "Magyarul gyakran mondjuk: „tanulnom kell”, „írnod kell”, „jönnie kell”. A németben az ilyen mondatokban gyakran a müssen igét használjuk.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2362,24 +2362,24 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Kiejtés",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "A ß-t úgy ejtjük, mint a magyar sz-t.",
+          "A ß-t a szó közepén vagy végén, hosszú magánhangzó vagy kettőshangzó után írjuk: die Füße, die Straße, ich muss, er muss.",
+          "Ha más alakokban ss áll, a végződés előtt ß is állhat: müssen, ich muss, du musst, ihr müsst.",
+          "A mögen szóban az ö-t tiszta ö hangként ejtjük.",
+          "Ha a g után t következik, a g inkább k-nak hangzik: du magst, ihr mögt.",
+          "Hasonlóan a magyarban is: a rögtön szóban a g a t előtt inkább k-nak hangzik."
         ]
       },
       {
-        "title": "Fordítás",
+        "title": "Fordítsd le",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ki akar keményen tanulni?",
+            "lv": "Ki akar szorgalmasan tanulni?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Minden diák keményen akar tanulni.",
+            "lv": "Az összes tanuló szorgalmasan akar tanulni.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
@@ -2387,39 +2387,39 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Ma kell jönnöm.",
+            "lv": "Nekem kell ma jönnöm.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Levelet kell írnod.",
+            "lv": "Meg kell írnod a levelet.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Kinek kell keményen tanulnia?",
+            "lv": "Kinek kell szorgalmasan tanulnia?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "A diákoknak keményen kell tanulniuk.",
+            "lv": "A tanulóknak szorgalmasan kell tanulniuk.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Nem akarok levest enni, mert nem szeretem.",
+            "lv": "Nem akarom megenni a levest, mert nem ízlik nekem.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Ki akar levest enni?",
+            "lv": "Ki akarja megenni a levest?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Elza levest akar enni.",
+            "lv": "Elsa meg akarja enni a levest.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kinek érdemes elolvasnia a könyvet?",
+            "lv": "Kinek kell elolvasnia a könyvet?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "A testvérnek könyvet kell olvasnia.",
+            "lv": "A fivérnek el kell olvasnia a könyvet.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
@@ -2427,7 +2427,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Apának asztalt kell vennie.",
+            "lv": "Az apának asztalt kell vennie.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]

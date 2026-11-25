@@ -58,8 +58,8 @@ const COURSE_LESSON_DATA = {
     "legacyHtml": COURSE_LESSON_HTML.kurssLesson7
   },
   "kurssLesson8": {
-    "id": "Lesson8",
-    "title": "Přednáška 8",
+    "id": "lesson8",
+    "title": "Lekce 8",
     "subtitle": "Zvratná slovesa, změna e → i/ie a akuzativ.",
     "sections": [
       {
@@ -100,13 +100,13 @@ const COURSE_LESSON_DATA = {
           "der Herr — pán",
           "das Kind — dítě",
           "die Kinder — děti",
-          "setzt euch (zect oich) — posaďte se!",
+          "setzt euch (zect ojch) — sedněte si!",
           "sie setzen sich — oni si sedají",
           "fragen (s akuzativem) — ptát se",
           "sprechen — mluvit",
           "er spricht — on mluví",
           "aber — ale",
-          "sehr (zēr) — velmi",
+          "sehr (zér) — velmi",
           "leise — tiše",
           "laut — nahlas",
           "jetzt (ject) — teď",
@@ -114,250 +114,250 @@ const COURSE_LESSON_DATA = {
           "lies! — čti!",
           "gut — dobře",
           "schlecht — špatně",
-          "deutlich (doitlich) — zřetelně, srozumitelně",
+          "deutlich (dojtlich) — zřetelně, srozumitelně",
           "schreiben — psát",
           "endlich (entlich) — konečně",
-          "erzählen (ercēlen) — vyprávět",
+          "erzählen (ercélen) — vyprávět",
           "zuhören — poslouchat",
           "sie hören zu — oni poslouchají",
           "was ist das — co je to?",
           "der Arbeiter — dělník",
           "der Müller — mlynář",
           "der Tischler — truhlář",
-          "der Bäcker (dēr beker) — pekař",
-          "der Schneider (dēr šneider) — krejčí",
-          "der Gärtner (dēr gertner) — zahradník",
+          "der Bäcker (dér beker) — pekař",
+          "der Schneider (dér šnajder) — krejčí",
+          "der Gärtner (dér gertner) — zahradník",
           "der Schuster — švec"
         ]
       },
       {
         "title": "Výslovnost",
         "items": [
-          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä se také vyslovuje jako otevřené e, například ve slově der Gärtner (dēr gertner).",
-          "Vārdos Schüler, Bücher — ü je ve slovech Schüler, Bücher dlouhé (ū), ale ve slově Müller je ü krátké.",
-          "ie izrunā kā garo ī: liest (līst).",
+          "ä se, jak již bylo řečeno, vyslovuje jako zavřené krátké nebo dlouhé e. Příklady: der Bäcker (beker), das Mädchen (métchen).",
+          "ä se vyslovuje také jako otevřené e, například ve slově der Gärtner (dér gertner).",
+          "Ve slovech Schüler, Bücher — ü je dlouhé (vyslovuje se protaženě), ale v Müller — krátké ü.",
+          "ie se vyslovuje jako dlouhé í: liest (líst).",
           "ß se vyslovuje jako s: grüßen (grüsen).",
-          "eu se vyslovuje jako oi: deutlich (doitlich)."
+          "eu se vyslovuje jako oj: deutlich (dojtlich)."
         ]
       },
       {
         "title": "Gramatika",
         "items": [
-          "U mnoha sloves se samohláskou e v kmeni se ve 2. a 3. osobě jednotného čísla přítomného času mění e na i nebo ie.",
+          "Mnoho sloves s kmenovou samohláskou e má ve 2. a 3. osobě jednotného čísla přítomného času místo e samohlásku i nebo ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "U těchto sloves je také v rozkazovacím způsobu jednotného čísla v kmeni místo e samohláska i nebo ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "V češtině se zvratná slovesa tvoří pomocí zvratného zájmena. V němčině nemají zvláštní časování. Časují se stejně jako ostatní slovesa a přidává se zvratné zájmeno sich.",
+          "Tato slovesa mají i v rozkazovacím způsobu jednotného čísla v kmeni místo e samohlásku i nebo ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "V češtině mají zvratná slovesa zvratné zájmeno se nebo si. Ani v němčině nemají zvratná slovesa zvláštní časování: časují se stejně jako ostatní slovesa a přidává se k nim zvratné zájmeno sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
           "Rozkazovací způsob: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
         "title": "Übung / Cvičení",
-        "exerciseType": "Mixed",
-        "description": "Übung I - Použijte správnou konjugaci. Übung II - Překladové karty.",
+        "exerciseType": "mixed",
+        "description": "Übung I — použij správný pád. Übung II — překladové kartičky.",
         "cards": [
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Lehrer.",
             "answer": "Das Kind grüßt den Lehrer."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Lehrerin.",
             "answer": "Das Kind grüßt die Lehrerin."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Fräulein.",
             "answer": "Das Kind grüßt das Fräulein."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Schüler.",
             "answer": "Das Kind grüßt den Schüler."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Das Kind grüßt d... Schülerin.",
             "answer": "Das Kind grüßt die Schülerin."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Eimer.",
             "answer": "Der Schüler nimmt den Eimer."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Teller.",
             "answer": "Der Schüler nimmt den Teller."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Hammer.",
             "answer": "Der Schüler nimmt den Hammer."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Schlüssel.",
             "answer": "Der Schüler nimmt den Schlüssel."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Schüssel.",
             "answer": "Der Schüler nimmt die Schüssel."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Nadel.",
             "answer": "Der Schüler nimmt die Nadel."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Messer.",
             "answer": "Der Schüler nimmt das Messer."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Spiegel.",
             "answer": "Der Schüler nimmt den Spiegel."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Buch.",
             "answer": "Der Schüler nimmt das Buch."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Heft.",
             "answer": "Der Schüler nimmt das Heft."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Bleistift.",
             "answer": "Der Schüler nimmt den Bleistift."
           },
           {
-            "type": "Fill",
+            "type": "fill",
             "prompt": "Der Schüler nimmt d... Federhalter.",
             "answer": "Der Schüler nimmt den Federhalter."
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Pozdrav učitele a učitelku!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Koho zdravíš?",
             "de": "Wen grüßt du?"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Zdravím slečnu.",
             "de": "Ich grüße das Fräulein."
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Otevřete všechna okna!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "type": "Translate",
-            "lv": "Otevíráme všechna okna.",
+            "type": "translate",
+            "lv": "Otvíráme všechna okna.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "type": "Translate",
-            "lv": "Otevíráš okno?",
+            "type": "translate",
+            "lv": "Otvíráš okno?",
             "de": "Öffnest du das Fenster?"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Ne, neotevřel jsem okno.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Všichni žáci si sedají.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "type": "Translate",
-            "lv": "Pavle, posaď se!",
+            "type": "translate",
+            "lv": "Paul, posaď se!",
             "de": "Paul, setz dich!"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Děti, posaďte se!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Nemluv potichu!",
             "de": "Sprich nicht leise!"
           },
           {
-            "type": "Translate",
-            "lv": "Jak mluví?",
+            "type": "translate",
+            "lv": "Jak on mluví?",
             "de": "Wie spricht er?"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Všichni žáci mluví nahlas.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Kdo čte nahlas?",
             "de": "Wer liest laut?"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Žákyně čte nahlas a zřetelně.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Čti dobře!",
             "de": "Lies gut!"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Nemluv potichu!",
             "de": "Sprich nicht leise!"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Čtěte dobře!",
             "de": "Lest gut!"
           },
           {
-            "type": "Translate",
+            "type": "translate",
             "lv": "Hans píše dobře, ale Anna píše špatně.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "type": "Translate",
-            "lv": "Slečno Müllerová, zazpívejte prosím píseň!",
+            "type": "translate",
+            "lv": "Slečno Müller, zazpívejte prosím píseň!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "type": "Translate",
-            "lv": "Pane učiteli, prosím, posaďte se!",
+            "type": "translate",
+            "lv": "Pane učiteli, posaďte se, prosím!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Přeložit",
-        "exerciseType": "Translate",
-        "description": "Přeložte českýé věty do němčiny.",
+        "title": "Přelož",
+        "exerciseType": "translate",
+        "description": "Přelož české věty do němčiny.",
         "cards": [
           {
             "lv": "Pozdrav učitele a učitelku.",
@@ -368,7 +368,7 @@ const COURSE_LESSON_DATA = {
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Otevíráme všechna okna.",
+            "lv": "Otvíráme všechna okna.",
             "de": "Wir öffnen alle Fenster."
           },
           {
@@ -380,11 +380,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Všichni žáci si sedají.",
+            "lv": "Všichni školáci si sedají.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Pavle, posaď se!",
+            "lv": "Paul, sedni si!",
             "de": "Paul, setz dich!"
           },
           {
@@ -396,11 +396,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Jak mluví?",
+            "lv": "Jak on mluví?",
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Všichni žáci mluví nahlas.",
+            "lv": "Všichni školáci mluví nahlas.",
             "de": "Alle Schüler sprechen laut."
           },
           {
@@ -428,7 +428,7 @@ const COURSE_LESSON_DATA = {
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Slečno Müllerová, zazpívejte prosím píseň!",
+            "lv": "Slečno Müller, zazpívejte, prosím, píseň!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
@@ -440,10 +440,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson9": {
-    "id": "Lesson9",
-    "title": "Přednáška 9",
+    "id": "lesson9",
+    "title": "Lekce 9",
     "subtitle": "Více předmětů, dieser/jener, jednotné a množné číslo",
-    "intro": "Devátá přednáška: množné číslo podstatných jmen, ukazovací zájmena dieser/jener, cvičení a překlad.",
+    "intro": "Devátá lekce: množné číslo podstatných jmen, ukazovací zájmena dieser/jener, cvičení a překlad.",
     "sections": [
       {
         "title": "Dialogy / věty",
@@ -473,20 +473,20 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Slova",
         "items": [
-          "mehrere (mērere) — několik, více",
-          "hier (hīr) — zde, tady",
+          "mehrere (mérere) — několik",
+          "hier (hír) — tady, zde",
           "dort — tam",
           "auch — také",
-          "langsam (lankzām) — pomalu",
+          "langsam (lankzám) — pomalu",
           "schnell (šnel) — rychle",
-          "mehr (mēr) — více",
+          "mehr (mér) — více",
           "zumachen — zavřít",
           "ich mache zu — zavírám",
           "sitzen (zicen) — sedět",
-          "ruhig (rū-ich) — klidně",
-          "dieser (dīzer) — tento",
-          "jener (jēner) — onen",
-          "der Brief (dēr brīf) — dopis",
+          "ruhig (rú-ich) — klidně",
+          "dieser (dízer) — tento",
+          "jener (jéner) — tamten",
+          "der Brief (dér bríf) — dopis",
           "die Briefe — dopisy",
           "kurz (kurc) — krátký",
           "rein — čistý",
@@ -498,10 +498,10 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Ukazovací zájmena",
-            "text": "Ukazovací zájmena dieser a jener se skloňují podobně jako určitý člen."
+            "text": "Ukazovací zájmena dieser a jener se skloňují jako určitý člen."
           },
           {
-            "heading": "Vienskaitlis",
+            "heading": "Jednotné číslo",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis",
+            "heading": "Množné číslo",
             "table": [
               [
                 "Nominativ",
@@ -535,8 +535,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artikulu nelieto",
-            "text": "Pokud před podstatným jménem stojí zájmeno nebo číslovka, člen se nepoužívá."
+            "heading": "Člen se nepoužívá",
+            "text": "Stojí-li před podstatným jménem zájmeno nebo číslovka, člen se nepoužívá."
           },
           {
             "examples": [
@@ -554,29 +554,29 @@ const COURSE_LESSON_DATA = {
       },
       {
         "title": "Übung / Cvičení",
-        "type": "GrammarTransformCards",
+        "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir nehmen ein Heft."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich nehme Hefte."
               }
             ]
@@ -585,23 +585,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich öffne die Hefte."
               }
             ]
@@ -610,23 +610,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich nehme auch Bleistifte."
               }
             ]
@@ -635,23 +635,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich spitze die Bleistifte an."
               }
             ]
@@ -660,23 +660,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich setze mich und schreibe langsam."
               }
             ]
@@ -685,23 +685,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir schreiben schnell."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich schreibe schnell."
               }
             ]
@@ -710,23 +710,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir machen das Heft zu."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich mache die Hefte zu."
               }
             ]
@@ -735,23 +735,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich lege die Bleistifte hin."
               }
             ]
@@ -760,23 +760,23 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Úvodní věta",
+                "label": "1/4 Výchozí věta",
                 "task": "Převeď tuto větu do 3. osoby jednotného čísla.",
                 "text": "Ich sitze ruhig."
               },
               {
-                "label": "2/4 Er formu",
+                "label": "2/4 Tvar Er",
                 "task": "Převeď výchozí větu do 1. osoby množného čísla.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "Tvar 3/4 drátu",
-                "task": "Použij podstatné jméno v množném čísle místo jednotného čísla.",
+                "label": "3/4 Tvar Wir",
+                "task": "Použij podstatné jméno v množném čísle místo jednotného.",
                 "text": "Wir sitzen ruhig."
               },
               {
                 "label": "4/4 Množné číslo",
-                "task": "Hotovo. Další kliknutí zobrazí následující kartičku.",
+                "task": "Hotovo. Další kliknutí zobrazí další kartičku.",
                 "text": "Ich sitze ruhig."
               }
             ]
@@ -784,11 +784,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "Dívka si sedne a píše dopis.",
+            "lv": "Dívka si sedá a píše dopis.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
@@ -808,15 +808,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Pavle, sedni si a čti!",
+            "lv": "Paul, posaď se a čti!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Pane učiteli, sedněte si a čtěte!",
+            "lv": "Pane učiteli, posaďte se a čtěte!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Jak děti píšou?",
+            "lv": "Jak píšou děti?",
             "de": "Wie schreiben die Kinder?"
           },
           {
@@ -840,11 +840,11 @@ const COURSE_LESSON_DATA = {
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Anno, ořež tuto tužku!",
+            "lv": "Anna, ořež tuto tužku!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Pane učiteli, prosím, ořežte tuto tužku!",
+            "lv": "Pane učiteli, ořežte prosím tuto tužku!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
@@ -856,11 +856,11 @@ const COURSE_LESSON_DATA = {
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Co dívka nakonec udělá?",
+            "lv": "Co dívka konečně dělá?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Zavře okno a jde ven.",
+            "lv": "Zavírá okno a jde ven.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -868,10 +868,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson10": {
-    "id": "Lesson10",
-    "title": "Přednáška 10",
+    "id": "lesson10",
+    "title": "Lekce 10",
     "subtitle": "Sein, können, zdraví, věk a povolání",
-    "intro": "Desátá přednáška: sein, können, rozkazovací způsob, zdraví, věk a povolání.",
+    "intro": "Desátá lekce: sein, können, rozkazovací tvary, zdraví, věk a povolání.",
     "sections": [
       {
         "title": "Dialogy / věty",
@@ -933,7 +933,7 @@ const COURSE_LESSON_DATA = {
           "ich bin gesund — jsem zdravý",
           "du bist — ty jsi",
           "wir sind — my jsme",
-          "ihr seid (īr zeit) — vy jste",
+          "ihr seid (ír zajt) — vy jste",
           "ich kann — já mohu",
           "du kannst — ty můžeš",
           "er kann — on může",
@@ -942,16 +942,16 @@ const COURSE_LESSON_DATA = {
           "sie können — oni mohou",
           "sei gesund — buď zdravý!",
           "seid gesund — buďte zdraví!",
-          "seien Sie gesund — buďte zdráv!",
-          "der Knabe (dēr knābe) — chlapec",
+          "seien Sie gesund — buďte Vy zdraví!",
+          "der Knabe (dér knábe) — chlapec",
           "der Mann — muž",
-          "die Frau — žena",
-          "der Großvater (dēr grōsfāter) — dědeček",
+          "die Frau — žena, manželka",
+          "der Großvater (dér grósfáter) — dědeček",
           "krank — nemocný",
-          "fleißig (fleišich) — pilný",
+          "fleißig (flajsich) — pilný",
           "lernen — učit se",
           "alt — starý",
-          "das Jahr (jār) — rok",
+          "das Jahr (jár) — rok",
           "die Jahre — roky",
           "wie — jak, jaký, kolik"
         ]
@@ -959,16 +959,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Přehlásky samohlásek je třeba správně vyslovovat.",
-          "ö se vyslovuje se zaokrouhlenými rty přibližně jako e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü se vyslovuje se zaokrouhlenými rty přibližně jako i: Müller (müller), Bücher (bücher).",
-          "Délka samohlásky závisí na následujících souhláskách.",
-          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Pokud po samohlásce následují dvě nebo více souhlásek, vyslovuje se samohláska krátce: wir können, der Löffel, der Müller.",
-          "Německé o se vyslovuje jinak než české o v některých přejatých slovech. Příklady: Fonds, Nominativ, Fotograf.",
-          "Správně vyslovuj: der Großvater (dēr grōsfāter).",
-          "Dvojhláska ei se vyslovuje jako ai: seid (zait), fleißig (flaišich).",
-          "Německé e může být zavřené nebo otevřené: der Lehrer (dēr lērer). Kmenové e je dlouhé a zavřené, koncové e je krátké a otevřené."
+          "Přehlásky je třeba vyslovovat správně.",
+          "ö se vyslovuje se zaokrouhlenými rty jako e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü se vyslovuje se zaokrouhlenými rty jako i: Müller (müller), Bücher (bücher).",
+          "Délka nebo krátkost samohlásky závisí na následujících souhláskách.",
+          "Následuje-li po samohlásce jedna souhláska, vyslovuje se samohláska dlouze: Vögel (fögel), Schüler (šüler), Bücher (bücher).",
+          "Následují-li po samohlásce dvě nebo více souhlásek, vyslovuje se samohláska krátce: wir können, der Löffel, der Müller.",
+          "Německé dlouhé o zní uzavřeněji než české ó, rty jsou více zaokrouhlené, například: groß, oder, der Sohn.",
+          "Vyslovuj správně: der Großvater (dér grósfáter).",
+          "Dvojhláska ei se vyslovuje jako aj: seid (zajt), fleißig (flajsich).",
+          "Německé e může být zavřené nebo otevřené: der Lehrer (dér lérer). Kmenové e je dlouhé a zavřené, e v koncovce je krátké a otevřené."
         ]
       },
       {
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Také pomocné sloveso können — moci se časuje nepravidelně."
+            "text": "Stejně nepravidelně se časuje i pomocné sloveso können — moci."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,8 +1051,8 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Jsi zdravý?",
@@ -1071,7 +1071,7 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Může pracovat?",
+            "lv": "Může on pracovat?",
             "de": "Kann er arbeiten?"
           },
           {
@@ -1091,7 +1091,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Kolik je Adolfovi let?",
+            "lv": "Kolik let je Adolfovi?",
             "de": "Wie alt ist Adolf?"
           },
           {
@@ -1107,7 +1107,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Je učitel?",
+            "lv": "Je on učitel?",
             "de": "Ist er ein Lehrer?"
           },
           {
@@ -1143,10 +1143,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson11": {
-    "id": "Lesson11",
-    "title": "Přednáška 11",
-    "subtitle": "Haben, kein/keine/keinen, vyjádření vlastnictví a složená podstatná jména",
-    "intro": "Jedenáctá přednáška: haben, zápor s kein, vyjádření vlastnictví, složená podstatná jména a slovosled s denn.",
+    "id": "lesson11",
+    "title": "Lekce 11",
+    "subtitle": "Haben, kein/keine/keinen, vlastnictví a složená podstatná jména",
+    "intro": "Jedenáctá lekce: haben, zápor s kein, vyjádření vlastnictví, složená podstatná jména a slovosled s denn.",
     "sections": [
       {
         "title": "Dialogy / věty",
@@ -1197,37 +1197,37 @@ const COURSE_LESSON_DATA = {
           "wir haben — my máme",
           "ihr habt — vy máte",
           "sie haben — oni mají",
-          "der Bruder (dēr brūder) — bratr",
+          "der Bruder (dér brúder) — bratr",
           "die Brüder — bratři",
           "das Zimmer (das cimer) — pokoj",
           "ist nicht — není",
-          "groß (grōs) — velký",
+          "groß (grós) — velký",
           "hell — světlý",
           "breit — široký",
-          "der Schreibtisch (dēr šreibtīš) — psací stůl",
+          "der Schreibtisch (dér šrajbtiš) — psací stůl",
           "da — tam",
           "kein, keine, kein — žádný, žádná, žádné",
-          "zusammen (cuzāmen) — společně",
+          "zusammen (cuzamen) — spolu",
           "oft — často",
-          "der Freund (dēr froint) — přítel",
+          "der Freund (dér frojnt) — přítel, kamarád",
           "die Freunde — přátelé",
           "der Schrank — skříň",
-          "der Stuhl (dēr štūl) — židle",
-          "die Stühle — židle",
+          "der Stuhl (dér štúl) — židle",
+          "die Stühle — židle (mn. č.)",
           "die Tischlampe — stolní lampa",
           "das Bücherbrett — police na knihy",
-          "die Landkarte (dī lantkarte) — mapa",
+          "die Landkarte (dí lantkarte) — zeměpisná mapa",
           "glücklich — šťastný",
-          "denn — neboť",
-          "die Schwester (dī švester) — sestra",
+          "denn — neboť, protože",
+          "die Schwester (dí švester) — sestra",
           "die Schwestern — sestry"
         ]
       },
       {
         "title": "Výslovnost",
         "items": [
-          "eu se vyslovuje jako oi: der Freund (dēr froint), neun (noin).",
-          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+          "eu se vyslovuje jako oj: der Freund (dér frojnt), neun (nojn).",
+          "h je většinou znaménkem délky předchozí samohlásky: der Stuhl (dér štúl), zehn (cén).",
           "z se vyslovuje jako české c: Franz (franc), das Zimmer (cimer)."
         ]
       },
@@ -1236,18 +1236,18 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Slovesem haben se v němčině vyjadřuje vlastnictví. V češtině se používají odpovídající tvary: já mám, ty máš, on má atd."
+            "text": "Pomocným slovesem haben se v němčině vyjadřuje vlastnictví. Česky se to vyjadřuje slovesem mít: mám, máš, má atd."
           },
           {
             "heading": "Haben — Präsens",
             "table": [
               [
                 "ich habe",
-                "man ir"
+                "mám"
               ],
               [
                 "du hast",
-                "tev ir"
+                "máš"
               ],
               [
                 "er/sie/es hat",
@@ -1255,55 +1255,55 @@ const COURSE_LESSON_DATA = {
               ],
               [
                 "wir haben",
-                "mums ir"
+                "máme"
               ],
               [
                 "ihr habt",
-                "jums ir"
+                "máte"
               ],
               [
                 "sie haben",
-                "oni/ony mají"
+                "oni mají"
               ]
             ]
           },
           {
-            "heading": "Český dativ a německý nominativ/akuzativ",
-            "text": "V češtině se vlastnictví běžně vyjadřuje slovesem mít. V němčině je osoba v nominativu a vlastněný předmět v akuzativu."
+            "heading": "Vlastník v nominativu, vlastněná věc v akuzativu",
+            "text": "V češtině je vlastník v nominativu a vlastněná věc — v akuzativu. Stejně je tomu v němčině: osoba je v nominativu a vlastněný předmět — v akuzativu."
           },
           {
             "heading": "Příklady",
             "examples": [
-              "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch — tēvam ir grāmata",
-              "Sie haben eine Feder — viņiem ir spalva"
+              "Ich habe einen Tisch — mám stůl",
+              "Der Vater hat ein Buch — otec má knihu",
+              "Sie haben eine Feder — oni mají pero"
             ]
           },
           {
             "heading": "Srovnání s jinými jazyky",
             "examples": [
-              "krievu: я имею тетрадь; отец имеет книгу.",
+              "rusky: я имею тетрадь; отец имеет книгу.",
               "anglicky: I have a book; the father has a pencil."
             ]
           },
           {
             "heading": "Imperativ",
-            "text": "Sloveso haben je třeba se dobře naučit a správně používat. Je třeba znát také jeho rozkazovací tvary."
+            "text": "Sloveso haben je třeba se dobře naučit a správně používat. Je nutné znát i jeho rozkazovací tvary."
           },
           {
             "heading": "Imperativ — příklady",
             "examples": [
-              "habe Geduld! — měj trpělivost! / buď trpělivý!",
-              "habt Geduld! — mějte trpělivost! / buďte trpěliví!",
+              "habe Geduld! — trpělivost! / měj trpělivost!",
+              "habt Geduld! — mějte trpělivost!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Český zápor se v němčině u podstatných jmen často vyjadřuje záporným členem kein. Kein stojí před podstatným jménem."
+            "text": "Český dvojí zápor, např. nemám žádnou knihu, se v němčině se slovem kein nepoužívá: stačí samotné kein. Záporné slovo kein stojí jen před podstatným jménem."
           },
           {
-            "heading": "Kein — vienskaitlis",
+            "heading": "Kein — jednotné číslo",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — daudzskaitlis",
+            "heading": "Kein — množné číslo",
             "table": [
               [
                 "Nominativ",
@@ -1334,7 +1334,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Slovosled s denn",
-            "text": "Je-li v oznamovací větě spojka denn, sloveso zůstává na 2. místě. Spojka denn se jako větný člen nepočítá."
+            "text": "Obsahuje-li oznamovací věta spojku denn, zůstává sloveso na 2. místě. Spojka denn se jako větný člen nepočítá."
           },
           {
             "heading": "Denn — příklady",
@@ -1345,7 +1345,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Složená podstatná jména",
-            "text": "U složených podstatných jmen se rod a člen určují podle posledního podstatného jména. Přízvuk je na první části složeniny."
+            "text": "Před složeným podstatným jménem stojí člen posledního podstatného jména. Přízvuk je na prvním podstatném jménu."
           },
           {
             "heading": "Složená podstatná jména — příklady",
@@ -1358,8 +1358,8 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Co máš?",
@@ -1378,7 +1378,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Slečno Müllerová, máte sešity?",
+            "lv": "Slečno Müller, máte sešity?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
@@ -1386,7 +1386,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "Franz nemá žádné pero ani tužku.",
+            "lv": "Franz nemá žádné pero ani žádnou tužku.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
@@ -1418,7 +1418,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Dítě je šťastné, protože má otce a matku.",
+            "lv": "Dítě je šťastné, neboť má otce a matku.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
@@ -1430,7 +1430,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sie schreibt."
           },
           {
-            "lv": "Píše Franz také?",
+            "lv": "Píše také Franz?",
             "de": "Schreibt Franz auch?"
           },
           {
@@ -1438,11 +1438,11 @@ const COURSE_LESSON_DATA = {
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Stojí?",
+            "lv": "Stojí oni?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Ne, posadí se a učí se.",
+            "lv": "Ne, sedají si a učí se.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1450,10 +1450,10 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson12": {
-    "id": "Lesson12",
-    "title": "Přednáška 12",
-    "subtitle": "Stupňování přídavných jmen, als / wie, věk, přídavná jména a barvy.",
-    "intro": "Dvanáctá přednáška: stupňování přídavných jmen, als / wie, věk, přídavná jména a barvy.",
+    "id": "lesson12",
+    "title": "Lekce 12",
+    "subtitle": "Stupňování, als / wie, věk, přídavná jména a barvy.",
+    "intro": "Dvanáctá lekce: stupňování, als / wie, věk, přídavná jména a barvy.",
     "sections": [
       {
         "title": "Dialogy / věty",
@@ -1499,7 +1499,7 @@ const COURSE_LESSON_DATA = {
           "jung — mladý",
           "jünger als ich — mladší než já",
           "so alt wie — stejně starý jako",
-          "der Vetter (dēr feter) — bratranec",
+          "der Vetter (dér feter) — bratranec",
           "am ältesten (am eltesten) — nejstarší",
           "ebenso — stejně",
           "wie — jako",
@@ -1509,7 +1509,7 @@ const COURSE_LESSON_DATA = {
           "blau — modrý",
           "braun — hnědý",
           "gelb — žlutý",
-          "das Gummi (das gumī) — guma",
+          "das Gummi (das gumi) — guma",
           "grau — šedý",
           "der Baum — strom",
           "grün — zelený",
@@ -1527,8 +1527,8 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "x se vyslovuje jako ks: Max (maks), Felix (feliks).",
-          "Ve slovech Schwester a am jüngsten se st vyslovuje jako běžné české st: Schwester (švester), jüngsten (jünksten).",
-          "Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn pouze označuje délku předcházející samohlásky."
+          "Ve slovech Schwester, am jüngsten se st vyslovuje jako obyčejné české st: Schwester (švester), jüngsten (jünksten).",
+          "h je ve slově der Federhalter hláska, která se vyslovuje, ve slově der Sohn — znaménko délky."
         ]
       },
       {
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Druhý stupeň přídavných jmen (Komparativ) se tvoří ze základního stupně (Positiv) příponou -er.",
+            "text": "2. stupeň přídavných jmen (Komparativ) se tvoří od 1. stupně (Positiv) koncovkou -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Přehláska ve 3. stupni",
-            "text": "Většina jednoslabičných přídavných jmen s kmenovou samohláskou a, o, u dostává v komparativu přehlásku.",
+            "heading": "Přehláska ve 2. stupni",
+            "text": "Většina jednoslabičných přídavných jmen s kmenovou samohláskou a, o, u má ve 2. stupni přehlásku.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1553,8 +1553,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Srovnávání pomocí wie a als",
-            "text": "Wie se používá při vyjádření rovnosti. Als se používá při vyjádření nerovnosti.",
+            "heading": "Srovnávání s wie a als",
+            "text": "wie se používá, když vyjadřujeme shodu. als se používá, když vyjadřujeme rozdíl.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,7 +1562,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Třetí stupeň (Superlativ) se tvoří ze základního stupně pomocí tvaru am a koncovky -sten nebo -esten.",
+            "text": "3. stupeň (Superlativ) se tvoří tak, že se k 1. stupni přidá koncovka -sten nebo -esten a před něj předložka am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (tuvs)",
+                "nah (blízký)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (augsts)",
+                "hoch (vysoký)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (labs)",
+                "gut (dobrý)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (daudz)",
+                "viel (mnoho)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (drīz)",
+                "bald (brzy)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (labprāt)",
+                "gern (rád)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1611,11 +1611,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
-            "lv": "Kdo je starší, ty nebo já?",
+            "lv": "Kdo je starší, ty, nebo já?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
@@ -1635,15 +1635,15 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Jmenuji se Petr.",
+            "lv": "Jmenuji se Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Jak se jmenuje?",
+            "lv": "Jak se on jmenuje?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Jmenuje se Jan.",
+            "lv": "Jmenuje se Johann.",
             "de": "Er heißt Johann."
           },
           {
@@ -1651,11 +1651,11 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Kolik je vám let?",
+            "lv": "Kolik je Vám let?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Je mi dvacet let.",
+            "lv": "Je mi 20 let.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
@@ -1675,7 +1675,7 @@ const COURSE_LESSON_DATA = {
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Kolik je matce let?",
+            "lv": "Kolik let je matce?",
             "de": "Wie alt ist die Mutter?"
           },
           {
@@ -1743,7 +1743,7 @@ const COURSE_LESSON_DATA = {
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Ano, jsme šťastní, protože jsme zdraví.",
+            "lv": "Ano, jsme šťastní, neboť jsme zdraví.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1751,13 +1751,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson13": {
-    "id": "Lesson13",
-    "title": "Přednáška 13",
+    "id": "lesson13",
+    "title": "Lekce 13",
     "subtitle": "Der Körper, části těla, turnen, jeder a množné číslo.",
-    "intro": "Třináctá přednáška: Der Körper, části těla, cvičení, zvratná slovesa a množné číslo.",
+    "intro": "Třináctá lekce: Der Körper, části těla, tělocvik, zvratná slovesa a množné číslo.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1785,8 +1785,8 @@ const COURSE_LESSON_DATA = {
           "der Hals — krk",
           "der Rumpf — trup",
           "der Arm — paže",
-          "die Hand — dlaň",
-          "die Hände — dlaně",
+          "die Hand — ruka",
+          "die Hände — ruce",
           "das Bein — noha",
           "die Beine — nohy",
           "der Fuß — chodidlo",
@@ -1797,8 +1797,8 @@ const COURSE_LESSON_DATA = {
           "klein — malý",
           "groß — velký",
           "dick — tlustý / silný",
-          "dünn — tenký / štíhlý",
-          "die Brust — hrudník",
+          "dünn — hubený / tenký",
+          "die Brust — hruď",
           "vorn — vpředu",
           "der Rücken — záda",
           "hinten — vzadu",
@@ -1806,11 +1806,11 @@ const COURSE_LESSON_DATA = {
           "jede — každá",
           "jedes — každé",
           "der Finger — prst",
-          "die Zehe — prst na noze",
+          "die Zehe — prst u nohy",
           "beide — oba",
           "der Nagel — nehet",
           "die Nägel — nehty",
-          "beschneiden — stříhat",
+          "beschneiden — ostříhat",
           "reinigen — čistit",
           "turnen — cvičit",
           "heben — zvedat",
@@ -1818,16 +1818,16 @@ const COURSE_LESSON_DATA = {
           "der Schritt — krok",
           "bleiben — zůstat",
           "stehen — stát",
-          "sich umkehren — otočit se",
+          "sich umkehren — obrátit se",
           "ausstrecken — natáhnout",
-          "senken — spustit",
-          "drehen — otáčet / otočit",
+          "senken — spustit, sklopit",
+          "drehen — točit / otočit",
           "nach links — doleva",
           "nach rechts — doprava",
           "halten — držet",
           "gerade — rovně",
           "atmen — dýchat",
-          "tief — hluboce"
+          "tief — zhluboka"
         ]
       },
       {
@@ -1847,7 +1847,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Zvratné sloveso",
-            "text": "sich umkehren — otočit se",
+            "text": "sich umkehren — obrátit se",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1907,9 +1907,9 @@ const COURSE_LESSON_DATA = {
             "table": [
               [
                 "",
-                "Mužský",
-                "Sieviešu",
-                "Střední"
+                "Mužský rod",
+                "Ženský rod",
+                "Střední rod"
               ],
               [
                 "Nominativ",
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis bez galotnes",
+            "heading": "Množné číslo bez koncovky",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -e",
+            "heading": "Množné číslo s koncovkou -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -en vai -n",
+            "heading": "Množné číslo s koncovkou -en nebo -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitlis ar galotni -er",
+            "heading": "Množné číslo s koncovkou -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,8 +1967,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Podstatná jména ženského rodu tvořená příponou -in mají v množném čísle koncovku -nen.",
+            "heading": "Podstatná jména ženského rodu na -in",
+            "text": "Podstatná jména ženského rodu tvořená příponou -in mají v množném čísle -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Ve slově halten je h slyšitelné.",
-          "Ve slově fahren h označuje délku samohlásky.",
-          "Ve slově halten se a vyslovuje krátce: halten.",
-          "Ve slově tragen se a vyslovuje dlouze: tragen.",
-          "äu se vyslovuje jako oi: du läufst, er läuft.",
-          "Ve slově Kopf se pf vyslovuje tak, že jsou slyšet obě souhlásky."
+          "h ve slově halten je slyšet jako hláska.",
+          "h ve slově fahren označuje délku samohlásky.",
+          "a ve slově halten se vyslovuje krátce: halten.",
+          "a ve slově tragen se vyslovuje dlouze: tragen.",
+          "äu se vyslovuje jako oj: du läufst, er läuft.",
+          "pf ve slově Kopf se vyslovuje tak, že jsou slyšet obě souhlásky."
         ]
       },
       {
@@ -2055,8 +2055,8 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Kolik paží má člověk?",
@@ -2087,7 +2087,7 @@ const COURSE_LESSON_DATA = {
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Kde je hrudník?",
+            "lv": "Kde je hruď?",
             "de": "Wo ist die Brust?"
           },
           {
@@ -2095,23 +2095,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Hrudník je vpředu, záda jsou vzadu.",
+            "lv": "Hruď je vpředu, záda jsou vzadu.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Kolik prstů má dlaň?",
+            "lv": "Kolik prstů má ruka?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Dlaň má pět prstů.",
+            "lv": "Ruka má pět prstů.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Kolik prstů mají dvě dlaně?",
+            "lv": "Kolik prstů mají dvě ruce?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "Dvě dlaně mají deset prstů.",
+            "lv": "Dvě ruce mají deset prstů.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
@@ -2127,7 +2127,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was tust du?"
           },
           {
-            "lv": "Stříhám si a čistím nehty.",
+            "lv": "Stříhám a čistím si nehty.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
@@ -2139,7 +2139,7 @@ const COURSE_LESSON_DATA = {
             "de": "Er turnt."
           },
           {
-            "lv": "Jak cvičí?",
+            "lv": "Jak oni cvičí?",
             "de": "Wie turnen sie?"
           },
           {
@@ -2163,7 +2163,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Petr a Anna dýchají zhluboka.",
+            "lv": "Peter a Anna dýchají zhluboka.",
             "de": "Peter und Anna atmen tief."
           },
           {
@@ -2171,19 +2171,19 @@ const COURSE_LESSON_DATA = {
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Ne, Robert a Jan necvičí.",
+            "lv": "Ne, Robert a Johann necvičí.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Roberte, cvič!",
+            "lv": "Robert, cvič!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Roberte a Jane, cvičte!",
+            "lv": "Robert a Johann, cvičte!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Slečno Müllerová, cvičte!",
+            "lv": "Slečno Müller, cvičte!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
@@ -2195,13 +2195,13 @@ const COURSE_LESSON_DATA = {
     ]
   },
   "kurssLesson14": {
-    "id": "Lesson14",
-    "title": "Přednáška 14",
+    "id": "lesson14",
+    "title": "Lekce 14",
     "subtitle": "müssen, wollen, mögen",
-    "intro": "Čtrnáctá přednáška: modální slovesa müssen, wollen a mögen.",
+    "intro": "Čtrnáctá lekce: způsobová slovesa müssen, wollen a mögen.",
     "sections": [
       {
-        "title": "Text / čtení",
+        "title": "Text / Čtení",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2224,58 +2224,58 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Slovíčka",
         "items": [
-          "müssen — muset / být nutné",
-          "ich muss — musím",
-          "du musst — musíš",
-          "er muss — musí",
-          "sie muss — musí",
-          "es muss — musí",
-          "wir müssen — musíme",
-          "ihr müsst — musíte",
-          "sie müssen — musí",
+          "müssen — muset / mít povinnost",
+          "ich muss — já musím",
+          "du musst — ty musíš",
+          "er muss — on musí",
+          "sie muss — ona musí",
+          "es muss — ono musí",
+          "wir müssen — my musíme",
+          "ihr müsst — vy musíte",
+          "sie müssen — oni / ony musí",
           "lernen — učit se",
           "vorwärts — dopředu",
           "vorwärts kommen — dostat se dopředu",
           "wollen — chtít",
-          "ich will — chci",
-          "du willst — chceš",
-          "er will — chce",
-          "sie will — chce",
-          "es will — chce",
-          "wir wollen — chceme",
-          "ihr wollt — chcete",
-          "sie wollen — chtějí",
-          "mögen — mít rád / chtít",
-          "ich mag — mám rád / chci",
-          "du magst — máš rád / chceš",
-          "er mag — má rád / chce",
-          "sie mag — má ráda / chce",
-          "es mag — má rádo / chce",
-          "wir mögen — máme rádi / chceme",
-          "ihr mögt — máte rádi / chcete",
-          "sie mögen — mají rádi / chtějí",
+          "ich will — já chci",
+          "du willst — ty chceš",
+          "er will — on chce",
+          "sie will — ona chce",
+          "es will — ono chce",
+          "wir wollen — my chceme",
+          "ihr wollt — vy chcete",
+          "sie wollen — oni / ony chtějí",
+          "mögen — chtít / přát si / mít rád",
+          "ich mag — já chci / mám rád",
+          "du magst — ty chceš / máš rád",
+          "er mag — on chce / má rád",
+          "sie mag — ona chce / má ráda",
+          "es mag — ono chce / má rádo",
+          "wir mögen — my chceme",
+          "ihr mögt — vy chcete",
+          "sie mögen — oni / ony chtějí",
           "die Suppe — polévka",
           "munden — chutnat",
-          "mir — mně / mi",
-          "dir — tobě / ti",
-          "ihm — jemu / mu",
+          "mir — mně",
+          "dir — tobě",
+          "ihm — jemu",
           "ihr — jí",
           "uns — nám",
           "euch — vám",
           "ihnen — jim",
-          "denn — neboť / protože"
+          "denn — neboť, protože"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Modální slovesa",
-            "text": "Slovesa müssen, wollen a mögen jsou modální slovesa."
+            "heading": "Způsobová slovesa",
+            "text": "Slovesa müssen, wollen a mögen jsou způsobová slovesa."
           },
           {
             "heading": "1. a 3. osoba jednotného čísla",
-            "text": "V přítomném čase mají 1. a 3. osoba jednotného čísla stejný tvar.",
+            "text": "V jednotném čísle přítomného času je 1. a 3. osoba stejná.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2328,29 +2328,29 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen znamená muset / být nutné.",
+            "text": "Müssen znamená muset / být nutný.",
             "examples": [
-              "Ich muss lernen. — Man jāmācās."
+              "Ich muss lernen. — Musím se učit."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen vyjadřuje vědomý záměr něco udělat.",
+            "text": "Wollen znamená vědomě chtít něco dělat.",
             "examples": [
-              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
+              "Ich will vorwärts kommen. — Chci se dostat dopředu."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Mögen vyjadřuje přání nebo oblibu.",
+            "text": "Mögen vyjadřuje přání nebo zálibu.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
-              "Die Suppe mundet mir nicht. — Zupa man negaršo."
+              "Ich mag die Suppe nicht essen. — Nechce se mi jíst polévku.",
+              "Die Suppe mundet mir nicht. — Polévka mi nechutná."
             ]
           },
           {
             "heading": "Důležité",
-            "text": "V češtině často říkáme „musím se učit“, „musíš psát“, „musí přijít“. V němčině se v takových větách často používá müssen.",
+            "text": "Česky často říkáme „musím se učit“, „musíš psát“, „musí přijít“. Německy se v takových větách používá müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2363,16 +2363,16 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "ß se vyslovuje jako české s.",
-          "ß se píše uprostřed nebo na konci slova po dlouhé samohlásce nebo dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.",
-          "V těchto tvarech zůstává ss: müssen, ich muss, du musst, ihr müsst.",
-          "ö ve slově mögen se vyslovuje jako zřetelná hláska ö.",
-          "Před s nebo t může g ve výslovnosti znít podobně jako k: du magst, ihr mögt.",
-          "V češtině se podobné změny znělosti vyskytují také v souhláskových skupinách."
+          "ß se píše uprostřed nebo na konci slova po dlouhé samohlásce nebo dvojhlásce: die Füße, die Straße, ich muss, er muss.",
+          "Je-li v jiných tvarech ss, může být před koncovkou ß: müssen, ich muss, du musst, ihr müsst.",
+          "ö ve slově mögen se vyslovuje jako čisté ö.",
+          "Následuje-li po g hláska t, zní g spíše jako k: du magst, ihr mögt.",
+          "Podobně i v češtině zní ve slově „hádka“ d před k spíše jako t."
         ]
       },
       {
-        "title": "Přeložit",
-        "type": "TranslationCards",
+        "title": "Přelož",
+        "type": "translationCards",
         "cards": [
           {
             "lv": "Kdo se chce pilně učit?",
@@ -2383,15 +2383,15 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Kdo dnes musí přijít?",
+            "lv": "Kdo musí dnes přijít?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Dnes musím přijít.",
+            "lv": "Musím dnes přijít.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Musíš napsat dopis.",
+            "lv": "Musíš napsat ten dopis.",
             "de": "Du musst den Brief schreiben."
           },
           {
@@ -2403,7 +2403,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Nechci jíst polévku, protože mi nechutná.",
+            "lv": "Nechce se mi jíst polévku, neboť mi nechutná.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
@@ -2415,15 +2415,15 @@ const COURSE_LESSON_DATA = {
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kdo musí přečíst knihu?",
+            "lv": "Kdo musí číst tu knihu?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Bratr musí přečíst knihu.",
+            "lv": "Bratr musí číst tu knihu.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Nechci zpívat.",
+            "lv": "Nechce se mi zpívat.",
             "de": "Ich mag nicht singen."
           },
           {
