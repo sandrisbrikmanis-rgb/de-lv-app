@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Zájmena",
     "pronounsDesc": "Tvary Nominativ, Akkusativ a Dativ.",
     "lessons": "Lekce",
-    "lessonsDesc": "Lekce v pořadí od 1 do 21.",
+    "lessonsDesc": "Lekce postupně od 1. do 21.",
     "verbBasics": "Základy sloves",
     "verbBasicsDesc": "Osoby, tvary a nejčastější slovesa.",
     "sentenceStructure": "Stavba věty",
@@ -241,12 +241,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Základy německých hlásek a výslovnosti",
     "vowelsSubtitle": "Dlouhé a krátké samohlásky",
     "consonantsSubtitle": "Souhlásky a kombinace písmen",
-    "lessonsSubtitle": "Lekce v pořadí od 1 do 21.",
+    "lessonsSubtitle": "Lekce postupně od 1. do 21.",
     "vowelsTitle": "Dlouhé a krátké samohlásky",
     "vowelsDesc": "Dlouhé a krátké samohlásky s příklady.",
     "consonantsTitle": "Souhlásky a kombinace písmen",
     "consonantsDesc": "Nejdůležitější souhláskové zvuky pro začátečníky.",
-    "lessonProgress": "Lekce {lesson} · Přeloženo: {current} / {total}",
+    "lessonProgress": "Lekce {lesson} · Přelož: {current} / {total}",
     "exerciseProgress": "Lekce {lesson} · Cvičení",
     "sections": {
       "grammar": "Gramatika",
@@ -289,31 +289,31 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "2": {
         "title": "Lekce 2",
-        "menuDesc": "Dialogy, slovíčka, výslovnost, gramatika a překlad."
+        "menuDesc": "Dialogy, slova, výslovnost, gramatika a překlad."
       },
       "3": {
         "title": "Lekce 3",
-        "menuDesc": "Dialogy, slovíčka, výslovnost, gramatika a překlad."
+        "menuDesc": "Dialogy, slova, výslovnost, gramatika a překlad."
       },
       "4": {
         "title": "Lekce 4",
-        "menuDesc": "Akuzativ, nehmen, hinlegen, hinausgehen a přídavná jména."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen a přídavná jména."
       },
       "5": {
         "title": "Lekce 5",
-        "menuDesc": "Wen?, akuzativ, sitzen, fragen a koncovka -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen a koncovka -in."
       },
       "6": {
         "title": "Lekce 6",
-        "menuDesc": "Čísla, množné číslo, přehlásky a množné číslo podstatných jmen."
+        "menuDesc": "Číslovky, množné číslo, přehlásky a tvary množného čísla podstatných jmen."
       },
       "7": {
         "title": "Lekce 7",
-        "menuDesc": "Imperativ, způsob oslovení a množné číslo."
+        "menuDesc": "Rozkazovací způsob, zdvořilé oslovení a množné číslo."
       },
       "8": {
         "title": "Lekce 8",
-        "menuDesc": "Zvratná slovesa, střídání e → i/ie a akuzativ."
+        "menuDesc": "Zvratná slovesa, změna e → i/ie a Akkusativ."
       },
       "9": {
         "title": "Lekce 9",
@@ -321,11 +321,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "10": {
         "title": "Lekce 10",
-        "menuDesc": "Sein, können, zdraví, věk a profese."
+        "menuDesc": "Sein, können, zdraví, věk a povolání."
       },
       "11": {
         "title": "Lekce 11",
-        "menuDesc": "Haben, kein/keine/keinen, přivlastňovací zájmena a složená podstatná jména."
+        "menuDesc": "Haben, kein/keine/keinen, vlastnictví a složená podstatná jména."
       },
       "12": {
         "title": "Lekce 12",
@@ -337,11 +337,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "14": {
         "title": "Lekce 14",
-        "menuDesc": "Müssen, wollen, mögen a modální slovesa."
+        "menuDesc": "müssen, wollen, mögen a způsobová slovesa."
       },
       "15": {
         "title": "Lekce 15",
-        "menuDesc": "Sollen, dürfen, essen a ovoce."
+        "menuDesc": "sollen, dürfen, essen a ovoce."
       },
       "16": {
         "title": "Lekce 16",
@@ -349,11 +349,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "17": {
         "title": "Lekce 17",
-        "menuDesc": "Mit + Dativ, womit / mit wem a přehláska."
+        "menuDesc": "mit + Dativ, womit / mit wem a Umlaut."
       },
       "18": {
         "title": "Lekce 18",
-        "menuDesc": "Wohin / wo, Akkusativ nebo Dativ s an / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ nebo Dativ s an / in / auf."
       },
       "19": {
         "title": "Lekce 19",
@@ -365,7 +365,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "21": {
         "title": "Lekce 21",
-        "menuDesc": "Woher / wohin / wo, von / aus / mit + Dativ."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Zamjenice",
     "pronounsDesc": "Oblici Nominativ, Akkusativ i Dativ.",
     "lessons": "Lekcije",
-    "lessonsDesc": "Lekcije redom od 1 do 21.",
+    "lessonsDesc": "Lekcije redom od 1. do 21.",
     "verbBasics": "Osnove glagola",
     "verbBasicsDesc": "Lica, oblici i najčešći glagoli.",
     "sentenceStructure": "Građa rečenice",
@@ -241,12 +241,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Osnove njemačkih glasova i izgovora",
     "vowelsSubtitle": "Samoglasnici — dugi i kratki",
     "consonantsSubtitle": "Suglasnici i kombinacije slova",
-    "lessonsSubtitle": "Lekcije redom od 1 do 21.",
+    "lessonsSubtitle": "Lekcije redom od 1. do 21.",
     "vowelsTitle": "Samoglasnici — dugi i kratki",
     "vowelsDesc": "Dugi i kratki samoglasnici s primjerima.",
     "consonantsTitle": "Suglasnici i kombinacije slova",
     "consonantsDesc": "Najvažniji suglasnički glasovi za početnike.",
-    "lessonProgress": "Lekcija {lesson} · Prevodi: {current} / {total}",
+    "lessonProgress": "Lekcija {lesson} · Prevedi: {current} / {total}",
     "exerciseProgress": "Lekcija {lesson} · Vježba",
     "sections": {
       "grammar": "Gramatika",
@@ -285,39 +285,39 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lekcija 1",
-        "menuDesc": "Glagoli u sadašnjosti, riječi, gramatika i obuka."
+        "menuDesc": "Glagoli u prezentu, riječi, gramatika i vježbanje."
       },
       "2": {
         "title": "Lekcija 2",
-        "menuDesc": "Dijalozi, riječi, izgovor, gramatika i prijevod."
+        "menuDesc": "Dijalozi, riječi, izgovor, gramatika i prevođenje."
       },
       "3": {
         "title": "Lekcija 3",
-        "menuDesc": "Dijalozi, riječi, izgovor, gramatika i prijevod."
+        "menuDesc": "Dijalozi, riječi, izgovor, gramatika i prevođenje."
       },
       "4": {
         "title": "Lekcija 4",
-        "menuDesc": "Akuzativ, nehmen, hinlegen, hinausgehen i pridjevi."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen i pridjevi."
       },
       "5": {
         "title": "Lekcija 5",
-        "menuDesc": "Wen?, akuzativ, sitzen, fragen i -in završetak."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen i nastavak -in."
       },
       "6": {
         "title": "Lekcija 6",
-        "menuDesc": "Brojevi, množina, umlots i oblici množine imenica."
+        "menuDesc": "Brojevi, množina, umlauti i oblici množine imenica."
       },
       "7": {
         "title": "Lekcija 7",
-        "menuDesc": "Izražavanje naredbe, oblika govora i množine."
+        "menuDesc": "Imperativ, učtivi oblik obraćanja i množina."
       },
       "8": {
         "title": "Lekcija 8",
-        "menuDesc": "Refleksivni glagoli, e → i/ie promjena i akuzativ."
+        "menuDesc": "Povratni glagoli, promjena e → i/ie i Akkusativ."
       },
       "9": {
         "title": "Lekcija 9",
-        "menuDesc": "Više stavki, dierer/jener, jednina i množina."
+        "menuDesc": "Više predmeta, dieser/jener, jednina i množina."
       },
       "10": {
         "title": "Lekcija 10",
@@ -325,11 +325,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Lekcija 11",
-        "menuDesc": "Haben, kein/keine/keinen, afilijacija i složenice."
+        "menuDesc": "Haben, kein/keine/keinen, posjedovanje i složenice."
       },
       "12": {
         "title": "Lekcija 12",
-        "menuDesc": "Uporedive ocjene, ALS/WIE, starost i boje."
+        "menuDesc": "Poređenje pridjeva, als/wie, starost i boje."
       },
       "13": {
         "title": "Lekcija 13",
@@ -341,7 +341,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "15": {
         "title": "Lekcija 15",
-        "menuDesc": "solen, dürfen, esen i voće."
+        "menuDesc": "sollen, dürfen, essen i voće."
       },
       "16": {
         "title": "Lekcija 16",
@@ -353,7 +353,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "18": {
         "title": "Lekcija 18",
-        "menuDesc": "wohin / wo, Akkusativ ili Dativ sa / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ ili Dativ uz an / in / auf."
       },
       "19": {
         "title": "Lekcija 19",

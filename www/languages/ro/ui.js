@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronume",
     "pronounsDesc": "Forme la Nominativ, Akkusativ și Dativ.",
     "lessons": "Lecții",
-    "lessonsDesc": "Lecții în ordine de la 1 la 21.",
+    "lessonsDesc": "Lecțiile în ordine, de la 1 la 21.",
     "verbBasics": "Bazele verbelor",
     "verbBasicsDesc": "Persoane, forme și cele mai frecvente verbe.",
     "sentenceStructure": "Structura propoziției",
@@ -241,12 +241,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Bazele sunetelor și ale pronunției germane",
     "vowelsSubtitle": "Vocale — lungi și scurte",
     "consonantsSubtitle": "Consoane și combinații de litere",
-    "lessonsSubtitle": "Lecții în ordine de la 1 la 21.",
+    "lessonsSubtitle": "Lecțiile în ordine, de la 1 la 21.",
     "vowelsTitle": "Vocale — lungi și scurte",
     "vowelsDesc": "Vocale lungi și scurte cu exemple.",
     "consonantsTitle": "Consoane și combinații de litere",
     "consonantsDesc": "Cele mai importante sunete consoane pentru începători.",
-    "lessonProgress": "Lecția {lesson} · Traducător: {current} / {total}",
+    "lessonProgress": "Lecția {lesson} · Tradu: {current} / {total}",
     "exerciseProgress": "Lecția {lesson} · Exercițiu",
     "sections": {
       "grammar": "Gramatică",
@@ -285,7 +285,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lecția 1",
-        "menuDesc": "Verbe la timpul prezent, vocabular, gramatică și exerciții."
+        "menuDesc": "Verbe la prezent, cuvinte, gramatică și exersare."
       },
       "2": {
         "title": "Lecția 2",
@@ -297,47 +297,47 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lecția 4",
-        "menuDesc": "Caz acuzativ, nehmen, hinlegen, hinausgehen și adjective."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen și adjective."
       },
       "5": {
         "title": "Lecția 5",
-        "menuDesc": "Wen?, acuzativ, sitzen, fragen și terminația -în."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen și terminația -in."
       },
       "6": {
         "title": "Lecția 6",
-        "menuDesc": "Numerale, plurale, umlauts și forme de plural ale substantivelor."
+        "menuDesc": "Numere, pluralul, umlauturile și formele de plural ale substantivelor."
       },
       "7": {
         "title": "Lecția 7",
-        "menuDesc": "Mod imperativ, formă politicoasă și plural."
+        "menuDesc": "Modul imperativ, forma de politețe și pluralul."
       },
       "8": {
         "title": "Lecția 8",
-        "menuDesc": "Verbe reflexive, schimbare e → i/ie și acuzativ."
+        "menuDesc": "Verbe reflexive, alternanța e → i/ie și Akkusativ."
       },
       "9": {
         "title": "Lecția 9",
-        "menuDesc": "Multe subiecte, dieser/jener, singular și plural."
+        "menuDesc": "Mai multe obiecte, dieser/jener, singularul și pluralul."
       },
       "10": {
         "title": "Lecția 10",
-        "menuDesc": "Sein, können, sănătate, vârstă și profesii."
+        "menuDesc": "Sein, können, sănătatea, vârsta și profesiile."
       },
       "11": {
         "title": "Lecția 11",
-        "menuDesc": "Haben, kein/keine/keinen, afiliere și substantive compuse."
+        "menuDesc": "Haben, kein/keine/keinen, posesia și substantivele compuse."
       },
       "12": {
         "title": "Lecția 12",
-        "menuDesc": "Note universitare, al/știe, vârste și culori."
+        "menuDesc": "Gradele de comparație, als/wie, vârsta și culorile."
       },
       "13": {
         "title": "Lecția 13",
-        "menuDesc": "Der Körper, părți ale corpului, turnen și testicule."
+        "menuDesc": "Der Körper, părțile corpului, turnen și jeder."
       },
       "14": {
         "title": "Lecția 14",
-        "menuDesc": "müssen, wollen, mögen și verbe modale."
+        "menuDesc": "müssen, wollen, mögen și verbele modale."
       },
       "15": {
         "title": "Lecția 15",
@@ -349,11 +349,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "17": {
         "title": "Lecția 17",
-        "menuDesc": "mit + Dativ, womit/mit wem și Umlaut."
+        "menuDesc": "mit + Dativ, womit / mit wem și Umlaut."
       },
       "18": {
         "title": "Lecția 18",
-        "menuDesc": "wohin/wo, Akkusativ sau Dativ cu an/in/auf."
+        "menuDesc": "wohin / wo, Akkusativ sau Dativ cu an / in / auf."
       },
       "19": {
         "title": "Lecția 19",
@@ -361,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lecția 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ și substantive compuse."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ și substantivele compuse."
       },
       "21": {
         "title": "Lecția 21",

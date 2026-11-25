@@ -246,8 +246,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Dlhé a krátke samohlásky s príkladmi.",
     "consonantsTitle": "Spoluhlásky a spojenia písmen",
     "consonantsDesc": "Najdôležitejšie spoluhláskové zvuky pre začiatočníkov.",
-    "lessonProgress": "Lekcja {lesson} · Tłumacz: {current} / {total}",
-    "exerciseProgress": "Lekcja {lesson} · Ćwiczenie",
+    "lessonProgress": "Lekcia {lesson} · Prelož: {current} / {total}",
+    "exerciseProgress": "Lekcia {lesson} · Cvičenie",
     "sections": {
       "grammar": "Gramatyka",
       "exercise": "Ćwiczenie",
@@ -284,84 +284,84 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Vytvorí lekciu",
-        "menuDesc": "Slovesá v prítomnom čase, slovná zásoba, gramatika a cvičenia."
+        "title": "Lekcia 1",
+        "menuDesc": "Slovesá v prítomnom čase, slovíčka, gramatika a precvičovanie."
       },
       "2": {
-        "title": "Lekcja 2",
-        "menuDesc": "Dialogi, słowa, wymowa, gramatyka i tłumaczenie."
+        "title": "Lekcia 2",
+        "menuDesc": "Dialógy, slová, výslovnosť, gramatika a preklad."
       },
       "3": {
         "title": "Lekcia 3",
-        "menuDesc": "Dialogi, słowa, wymowa, gramatyka i tłumaczenie."
+        "menuDesc": "Dialógy, slová, výslovnosť, gramatika a preklad."
       },
       "4": {
-        "title": "Lekcja 4",
-        "menuDesc": "Akuzatív, nehmen, hinlegen, hinausgehen a prídavné mená."
+        "title": "Lekcia 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen a prídavné mená."
       },
       "5": {
-        "title": "Lekcja 5",
-        "menuDesc": "Venuša, akumulátor, sitzen, fragen a tip -in."
+        "title": "Lekcia 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen a koncovka -in."
       },
       "6": {
-        "title": "Lekcja 6",
-        "menuDesc": "Číslovky, množné číslo, prehlásky a tvary podstatných mien v množnom čísle."
+        "title": "Lekcia 6",
+        "menuDesc": "Čísla, množné číslo, prehlásky a tvary množného čísla podstatných mien."
       },
       "7": {
-        "title": "Lekcja 7",
-        "menuDesc": "Tryb rozkazujący, forma grzecznościowa i liczba mnoga."
+        "title": "Lekcia 7",
+        "menuDesc": "Rozkazovací spôsob, zdvorilé oslovenie a množné číslo."
       },
       "8": {
         "title": "Lekcia 8",
-        "menuDesc": "Czasowniki zwrotne, zmiana e → i/ie i biernik."
+        "menuDesc": "Zvratné slovesá, zmena e → i/ie a Akkusativ."
       },
       "9": {
-        "title": "Lekcja 9",
-        "menuDesc": "Wiele przedmiotów, dieser/jener, liczba pojedyncza i mnoga."
+        "title": "Lekcia 9",
+        "menuDesc": "Viaceré predmety, dieser/jener, jednotné a množné číslo."
       },
       "10": {
         "title": "Lekcia 10",
         "menuDesc": "Sein, können, zdravie, vek a povolania."
       },
       "11": {
-        "title": "Lekcja 11",
-        "menuDesc": "Haben, kein/keine/keinen, przynależność i złożone rzeczowniki."
+        "title": "Lekcia 11",
+        "menuDesc": "Haben, kein/keine/keinen, vlastníctvo a zložené podstatné mená."
       },
       "12": {
-        "title": "Lekcja 12",
-        "menuDesc": "Vyššie známky, ALS/wie, vek a farby."
+        "title": "Lekcia 12",
+        "menuDesc": "Stupňovanie, als/wie, vek a farby."
       },
       "13": {
-        "title": "Lekcja 13",
-        "menuDesc": "Der Körper, części ciała, turnen i jeder."
+        "title": "Lekcia 13",
+        "menuDesc": "Der Körper, časti tela, turnen a jeder."
       },
       "14": {
         "title": "Lekcia 14",
         "menuDesc": "müssen, wollen, mögen a modálne slovesá."
       },
       "15": {
-        "title": "Lekcja 15",
+        "title": "Lekcia 15",
         "menuDesc": "sollen, dürfen, essen a ovocie."
       },
       "16": {
-        "title": "Lekcja 16",
-        "menuDesc": "Sight, geben, sich nähern."
+        "title": "Lekcia 16",
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Lekcja 17",
-        "menuDesc": "mit + Dativ, womit / mit wem i Umlaut."
+        "title": "Lekcia 17",
+        "menuDesc": "mit + Dativ, womit / mit wem a Umlaut."
       },
       "18": {
         "title": "Lekcia 18",
-        "menuDesc": "wohin / wo, Akkusativ lub Dativ z an / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ alebo Dativ s an / in / auf."
       },
       "19": {
-        "title": "Lekcja 19",
+        "title": "Lekcia 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Lekcja 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ i złożone rzeczowniki."
+        "title": "Lekcia 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ a zložené podstatné mená."
       },
       "21": {
         "title": "Lekcia 21",

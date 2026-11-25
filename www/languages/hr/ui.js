@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Zamjenice",
     "pronounsDesc": "Oblici Nominativ, Akkusativ i Dativ.",
     "lessons": "Lekcije",
-    "lessonsDesc": "Lekcije redom od 1 do 21.",
+    "lessonsDesc": "Lekcije redom od 1. do 21.",
     "verbBasics": "Osnove glagola",
     "verbBasicsDesc": "Lica, oblici i najčešći glagoli.",
     "sentenceStructure": "Građa rečenice",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Osnove njemačkih glasova i izgovora",
     "vowelsSubtitle": "Samoglasnici — dugi i kratki",
     "consonantsSubtitle": "Suglasnici i kombinacije slova",
-    "lessonsSubtitle": "Lekcije redom od 1 do 21.",
+    "lessonsSubtitle": "Lekcije redom od 1. do 21.",
     "vowelsTitle": "Samoglasnici — dugi i kratki",
     "vowelsDesc": "Dugi i kratki samoglasnici s primjerima.",
     "consonantsTitle": "Suglasnici i kombinacije slova",
     "consonantsDesc": "Najvažniji suglasnički glasovi za početnike.",
-    "lessonProgress": "Lekcija {lesson} · Prevajalec: {current} / {total}",
-    "exerciseProgress": "Lekcija {lesson} · Vaja",
+    "lessonProgress": "Lekcija {lesson} · Prevedi: {current} / {total}",
+    "exerciseProgress": "Lekcija {lesson} · Vježba",
     "sections": {
       "grammar": "Slovnica",
       "exercise": "telovadba",
@@ -285,63 +285,63 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lekcija 1",
-        "menuDesc": "Glagoli sedanjika, besedišče, slovnica in vaje."
+        "menuDesc": "Glagoli u prezentu, riječi, gramatika i vježbanje."
       },
       "2": {
         "title": "Lekcija 2",
-        "menuDesc": "Dialogi, besede, izgovorjava, slovnica in prevod."
+        "menuDesc": "Dijalozi, riječi, izgovor, gramatika i prevođenje."
       },
       "3": {
         "title": "Lekcija 3",
-        "menuDesc": "Dialogi, besede, izgovorjava, slovnica in prevod."
+        "menuDesc": "Dijalozi, riječi, izgovor, gramatika i prevođenje."
       },
       "4": {
         "title": "Lekcija 4",
-        "menuDesc": "Tožilnik, srednji rod, hinlegen, hinausgehen in pridevniki."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen i pridjevi."
       },
       "5": {
         "title": "Lekcija 5",
-        "menuDesc": "Wen?, tožilnik, sitzen, fragen in se konča na -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen i nastavak -in."
       },
       "6": {
         "title": "Lekcija 6",
-        "menuDesc": "Števila, množine, preglasi in množine samostalnikov."
+        "menuDesc": "Brojevi, množina, preglasi (Umlaut) i oblici množine imenica."
       },
       "7": {
         "title": "Lekcija 7",
-        "menuDesc": "Velilni, vljudni in množinski."
+        "menuDesc": "Imperativ, oblik obraćanja i množina."
       },
       "8": {
         "title": "Lekcija 8",
-        "menuDesc": "Povratni glagoli, sprememba e → i/ie in tožilnik."
+        "menuDesc": "Povratni glagoli, promjena e → i/ie i Akkusativ."
       },
       "9": {
         "title": "Lekcija 9",
-        "menuDesc": "Veliko predmetov, različnih/zvrsti, ednina in množina."
+        "menuDesc": "Više predmeta, dieser/jener, jednina i množina."
       },
       "10": {
         "title": "Lekcija 10",
-        "menuDesc": "Sein, können, zdravje, starost in poklici."
+        "menuDesc": "Sein, können, zdravlje, dob i zanimanja."
       },
       "11": {
         "title": "Lekcija 11",
-        "menuDesc": "Haben, kein/keine/keinen, posest in samostalniki."
+        "menuDesc": "Haben, kein/keine/keinen, posjedovanje i složene imenice."
       },
       "12": {
         "title": "Lekcija 12",
-        "menuDesc": "Univerzitetne ocene, vsa znanja, starosti in barve."
+        "menuDesc": "Stupnjevanje pridjeva, als/wie, dob i boje."
       },
       "13": {
         "title": "Lekcija 13",
-        "menuDesc": "Der Körper, deli telesa, struženje in testisi."
+        "menuDesc": "Der Körper, dijelovi tijela, turnen i jeder."
       },
       "14": {
         "title": "Lekcija 14",
-        "menuDesc": "müssen, wollen, mögen in modalni glagoli."
+        "menuDesc": "müssen, wollen, mögen i modalni glagoli."
       },
       "15": {
         "title": "Lekcija 15",
-        "menuDesc": "slano, pikantno, jesensko in sadno."
+        "menuDesc": "sollen, dürfen, essen i voće."
       },
       "16": {
         "title": "Lekcija 16",
@@ -349,11 +349,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "17": {
         "title": "Lekcija 17",
-        "menuDesc": "mit + dativ, womit/mit wem in preglas."
+        "menuDesc": "mit + Dativ, womit / mit wem i Umlaut."
       },
       "18": {
         "title": "Lekcija 18",
-        "menuDesc": "whin/wo, tožilnik ali dajal z an/in/auf."
+        "menuDesc": "wohin / wo, Akkusativ ili Dativ s an / in / auf."
       },
       "19": {
         "title": "Lekcija 19",
@@ -361,11 +361,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lekcija 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ in sestavljeni samostalniki."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ i složene imenice."
       },
       "21": {
         "title": "Lekcija 21",
-        "menuDesc": "woher / whin / wo, von / aus / mit + Dativ."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

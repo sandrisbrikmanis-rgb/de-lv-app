@@ -215,7 +215,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronombres",
     "pronounsDesc": "Formas en Nominativ, Akkusativ y Dativ.",
     "lessons": "Lecciones",
-    "lessonsDesc": "Lecciones en orden del 1 al 21.",
+    "lessonsDesc": "Las lecciones en orden, de la 1 a la 21.",
     "verbBasics": "Fundamentos de los verbos",
     "verbBasicsDesc": "Personas, formas y los verbos más frecuentes.",
     "sentenceStructure": "Estructura de la oración",
@@ -225,12 +225,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Fundamentos de los sonidos y la pronunciación del alemán",
     "vowelsSubtitle": "Vocales: largas y cortas",
     "consonantsSubtitle": "Consonantes y combinaciones de letras",
-    "lessonsSubtitle": "Lecciones en orden del 1 al 21.",
+    "lessonsSubtitle": "Las lecciones en orden, de la 1 a la 21.",
     "vowelsTitle": "Vocales: largas y cortas",
     "vowelsDesc": "Vocales largas y cortas con ejemplos.",
     "consonantsTitle": "Consonantes y combinaciones de letras",
     "consonantsDesc": "Los sonidos consonánticos más importantes para principiantes.",
-    "lessonProgress": "Lección {lesson} · Traducir: {current} / {total}",
+    "lessonProgress": "Lección {lesson} · Traduce: {current} / {total}",
     "exerciseProgress": "Lección {lesson} · Ejercicio",
     "sections": {
       "grammar": "Gramática",
@@ -269,75 +269,75 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lección 1",
-        "menuDesc": "Verbos en presente, palabras, gramática y práctica."
+        "menuDesc": "Verbos en presente, vocabulario, gramática y práctica."
       },
       "2": {
         "title": "Lección 2",
-        "menuDesc": "Diálogos, palabras, pronunciación, gramática y traducción."
+        "menuDesc": "Diálogos, vocabulario, pronunciación, gramática y traducción."
       },
       "3": {
         "title": "Lección 3",
-        "menuDesc": "Diálogos, palabras, pronunciación, gramática y traducción."
+        "menuDesc": "Diálogos, vocabulario, pronunciación, gramática y traducción."
       },
       "4": {
         "title": "Lección 4",
-        "menuDesc": "Acusativo, nehmen, hinlegen, hinausgehen y adjetivos."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen y los adjetivos."
       },
       "5": {
         "title": "Lección 5",
-        "menuDesc": "Wen?, acusativo, sitzen, fragen y terminación -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen y la terminación -in."
       },
       "6": {
         "title": "Lección 6",
-        "menuDesc": "Números, plurales, diéresis y formas plurales de sustantivos."
+        "menuDesc": "Los números, el plural, el Umlaut y las formas del plural de los sustantivos."
       },
       "7": {
         "title": "Lección 7",
-        "menuDesc": "Imperativo, forma de tratamiento y plural."
+        "menuDesc": "El imperativo, la forma de cortesía y el plural."
       },
       "8": {
         "title": "Lección 8",
-        "menuDesc": "Verbos reflexivos, e → i/ie cambio y acusativo."
+        "menuDesc": "Verbos reflexivos, el cambio e → i/ie y el Akkusativ."
       },
       "9": {
         "title": "Lección 9",
-        "menuDesc": "Múltiples sujetos, dieser/jener, singular y plural."
+        "menuDesc": "Varios objetos, dieser/jener, singular y plural."
       },
       "10": {
         "title": "Lección 10",
-        "menuDesc": "Sein, können, salud, edad y profesiones."
+        "menuDesc": "Sein, können, la salud, la edad y las profesiones."
       },
       "11": {
         "title": "Lección 11",
-        "menuDesc": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos."
+        "menuDesc": "Haben, kein/keine/keinen, la posesión y los sustantivos compuestos."
       },
       "12": {
         "title": "Lección 12",
-        "menuDesc": "Grados comparativos, als/wie, edad y colores."
+        "menuDesc": "Los grados de comparación, als/wie, la edad y los colores."
       },
       "13": {
         "title": "Lección 13",
-        "menuDesc": "El cuerpo («Der Körper»), partes del cuerpo, gimnasia («turnen») y «jeder»."
+        "menuDesc": "Der Körper, las partes del cuerpo, turnen y jeder."
       },
       "14": {
         "title": "Lección 14",
-        "menuDesc": "Verbos modales müssen, wollen y mögen."
+        "menuDesc": "müssen, wollen, mögen y los verbos modales."
       },
       "15": {
         "title": "Lección 15",
-        "menuDesc": "sollen, dürfen, essen y frutas."
+        "menuDesc": "sollen, dürfen, essen y las frutas."
       },
       "16": {
         "title": "Lección 16",
-        "menuDesc": "Dativo, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Lección 17",
-        "menuDesc": "mit + Dativ, womit / mit wem y Umlaut."
+        "menuDesc": "mit + Dativ, womit / mit wem y el Umlaut."
       },
       "18": {
         "title": "Lección 18",
-        "menuDesc": "wohin / wo, Akkusativ o Dativ con / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ o Dativ con an / in / auf."
       },
       "19": {
         "title": "Lección 19",
@@ -345,11 +345,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lección 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ y sustantivos compuestos."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ y los sustantivos compuestos."
       },
       "21": {
         "title": "Lección 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativo."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

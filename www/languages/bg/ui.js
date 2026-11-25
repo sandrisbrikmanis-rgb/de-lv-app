@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Местоимения",
     "pronounsDesc": "Форми в Nominativ, Akkusativ и Dativ.",
     "lessons": "Уроци",
-    "lessonsDesc": "Уроци по ред от 1 до 21.",
+    "lessonsDesc": "Уроците последователно от 1 до 21.",
     "verbBasics": "Основи на глаголите",
     "verbBasicsDesc": "Лица, форми и най-честите глаголи.",
     "sentenceStructure": "Строеж на изречението",
@@ -241,12 +241,12 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Основи на немските звуци и произношението",
     "vowelsSubtitle": "Гласни — дълги и кратки",
     "consonantsSubtitle": "Съгласни и буквосъчетания",
-    "lessonsSubtitle": "Уроци по ред от 1 до 21.",
+    "lessonsSubtitle": "Уроците последователно от 1 до 21.",
     "vowelsTitle": "Гласни — дълги и кратки",
     "vowelsDesc": "Дълги и кратки гласни с примери.",
     "consonantsTitle": "Съгласни и буквосъчетания",
     "consonantsDesc": "Най-важните съгласни звуци за начинаещи.",
-    "lessonProgress": "Урок {lesson} · Преводач: {current} / {total}",
+    "lessonProgress": "Урок {lesson} · Преведи: {current} / {total}",
     "exerciseProgress": "Урок {lesson} · Упражнение",
     "sections": {
       "grammar": "Граматика",
@@ -285,7 +285,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Урок 1",
-        "menuDesc": "Глаголи в сегашно време, лексика, граматика и упражнения."
+        "menuDesc": "Глаголи в сегашно време, думи, граматика и практика."
       },
       "2": {
         "title": "Урок 2",
@@ -297,27 +297,27 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Урок 4",
-        "menuDesc": "Винителен падеж, nehmen, hinlegen, hinausgehen и прилагателни."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen и прилагателни."
       },
       "5": {
         "title": "Урок 5",
-        "menuDesc": "Wen?, винителен падеж, sitzen, fragen и окончание -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen и наставката -in."
       },
       "6": {
         "title": "Урок 6",
-        "menuDesc": "Числителни, множествени числа, умлаути и множествено число на съществителните имена."
+        "menuDesc": "Числа, множествено число, умлаути и форми за множествено число на съществителните."
       },
       "7": {
         "title": "Урок 7",
-        "menuDesc": "Повелително, учтиво и множествено число."
+        "menuDesc": "Повелително наклонение, учтива форма на обръщение и множествено число."
       },
       "8": {
         "title": "Урок 8",
-        "menuDesc": "Възвратни глаголи, промяна e → i/ie и винителен падеж."
+        "menuDesc": "Възвратни глаголи, смяна e → i/ie и Akkusativ."
       },
       "9": {
         "title": "Урок 9",
-        "menuDesc": "Много предмети, различни/жанрови, единствено и множествено число."
+        "menuDesc": "Няколко предмета, dieser/jener, единствено и множествено число."
       },
       "10": {
         "title": "Урок 10",
@@ -325,15 +325,15 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Урок 11",
-        "menuDesc": "Haben, kein/keine/keinen, принадлежност и съставни съществителни."
+        "menuDesc": "Haben, kein/keine/keinen, притежание и сложни съществителни."
       },
       "12": {
         "title": "Урок 12",
-        "menuDesc": "Университетски оценки, всички знания, възрасти и цветове."
+        "menuDesc": "Степени за сравнение, als/wie, възраст и цветове."
       },
       "13": {
         "title": "Урок 13",
-        "menuDesc": "Der Körper, части от тялото, turnen и тестиси."
+        "menuDesc": "Der Körper, части на тялото, turnen и jeder."
       },
       "14": {
         "title": "Урок 14",
@@ -345,15 +345,15 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Урок 16",
-        "menuDesc": "Дателен, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Урок 17",
-        "menuDesc": "mit + дателен, womit/mit wem и умлаут."
+        "menuDesc": "mit + Dativ, womit / mit wem и Umlaut."
       },
       "18": {
         "title": "Урок 18",
-        "menuDesc": "wohin/wo, Винителен или Дателен с an/in/auf."
+        "menuDesc": "wohin / wo, Akkusativ или Dativ с an / in / auf."
       },
       "19": {
         "title": "Урок 19",
@@ -361,11 +361,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Урок 20",
-        "menuDesc": "Haus, Stockwerk, Dative/Akkusativ и сложни съществителни."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ и сложни съществителни."
       },
       "21": {
         "title": "Урок 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Дателен."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Stedord",
     "pronounsDesc": "Former i Nominativ, Akkusativ og Dativ.",
     "lessons": "Lektioner",
-    "lessonsDesc": "Lektioner i rækkefølge fra 1 til 21.",
+    "lessonsDesc": "Lektionerne i rækkefølge fra 1 til 21.",
     "verbBasics": "Grundlæggende om verber",
     "verbBasicsDesc": "Personer, former og de mest almindelige verber.",
     "sentenceStructure": "Sætningsopbygning",
@@ -241,7 +241,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Grundlæggende tyske lyde og udtale",
     "vowelsSubtitle": "Vokaler — lange og korte",
     "consonantsSubtitle": "Konsonanter og bogstavkombinationer",
-    "lessonsSubtitle": "Lektioner i rækkefølge fra 1 til 21.",
+    "lessonsSubtitle": "Lektionerne i rækkefølge fra 1 til 21.",
     "vowelsTitle": "Vokaler — lange og korte",
     "vowelsDesc": "Lange og korte vokaler med eksempler.",
     "consonantsTitle": "Konsonanter og bogstavkombinationer",
@@ -285,7 +285,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Lektion 1",
-        "menuDesc": "Verber i nutid, ord, grammatik og træning."
+        "menuDesc": "Verber i nutid, gloser, grammatik og træning."
       },
       "2": {
         "title": "Lektion 2",
@@ -297,23 +297,23 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lektion 4",
-        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen og tillægsord."
       },
       "5": {
         "title": "Lektion 5",
-        "menuDesc": "Wen?, akkusativ, sitzen, fragen og endelsen -in."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen og endelsen -in."
       },
       "6": {
         "title": "Lektion 6",
-        "menuDesc": "Tal, flertal, umlaut og substantivers flertalsformer."
+        "menuDesc": "Tal, flertal, omlyd og navneords flertalsformer."
       },
       "7": {
         "title": "Lektion 7",
-        "menuDesc": "imperativ, tiltaleform og flertal."
+        "menuDesc": "Bydeform, høflig tiltale og flertal."
       },
       "8": {
         "title": "Lektion 8",
-        "menuDesc": "Refleksive verber, e → i/ie-skift og akkusativ."
+        "menuDesc": "Refleksive verber, vokalskifte e → i/ie og Akkusativ."
       },
       "9": {
         "title": "Lektion 9",
@@ -321,19 +321,19 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "10": {
         "title": "Lektion 10",
-        "menuDesc": "Sein, können, sundhed, alder og erhverv."
+        "menuDesc": "Sein, können, helbred, alder og erhverv."
       },
       "11": {
         "title": "Lektion 11",
-        "menuDesc": "Haben, kein/keine/keinen, ejerskab og sammensatte substantiver."
+        "menuDesc": "Haben, kein/keine/keinen, ejerforhold og sammensatte navneord."
       },
       "12": {
         "title": "Lektion 12",
-        "menuDesc": "Komparativ, als/wie, alder og farver."
+        "menuDesc": "Gradbøjning, als/wie, alder og farver."
       },
       "13": {
         "title": "Lektion 13",
-        "menuDesc": "Der Körper, kropsdele, turnen og jeder."
+        "menuDesc": "Der Körper, kroppens dele, turnen og jeder."
       },
       "14": {
         "title": "Lektion 14",
@@ -357,11 +357,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "19": {
         "title": "Lektion 19",
-        "menuDesc": "Vekselpræpositioner: vor, hinter, unter, über, neben, zwischen."
+        "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
         "title": "Lektion 20",
-        "menuDesc": "Haus, etage, Dativ/Akkusativ og sammensatte substantiver."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ og sammensatte navneord."
       },
       "21": {
         "title": "Lektion 21",

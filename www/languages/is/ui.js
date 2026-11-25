@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Fornöfn",
     "pronounsDesc": "Myndir í Nominativ, Akkusativ og Dativ.",
     "lessons": "Kennslustundir",
-    "lessonsDesc": "Kennslustundir í röð frá 1 til 21.",
+    "lessonsDesc": "Kennslustundir í réttri röð frá 1 til 21.",
     "verbBasics": "Undirstöðuatriði sagna",
     "verbBasicsDesc": "Persónur, myndir og algengustu sagnirnar.",
     "sentenceStructure": "Setningaskipan",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Undirstöðuatriði þýskra hljóða og framburðar",
     "vowelsSubtitle": "Sérhljóð — löng og stutt",
     "consonantsSubtitle": "Samhljóð og stafasambönd",
-    "lessonsSubtitle": "Kennslustundir í röð frá 1 til 21.",
+    "lessonsSubtitle": "Kennslustundir í réttri röð frá 1 til 21.",
     "vowelsTitle": "Sérhljóð — löng og stutt",
     "vowelsDesc": "Löng og stutt sérhljóð með dæmum.",
     "consonantsTitle": "Samhljóð og stafasambönd",
     "consonantsDesc": "Mikilvægustu samhljóðin fyrir byrjendur.",
-    "lessonProgress": "Õppetund {lesson} · Tõlgi: {current} / {total}",
-    "exerciseProgress": "Õppetund {lesson} · Harjutus",
+    "lessonProgress": "Kennslustund {lesson} · Þýddu: {current} / {total}",
+    "exerciseProgress": "Kennslustund {lesson} · Æfing",
     "sections": {
       "grammar": "Grammatika",
       "exercise": "Harjutus",
@@ -284,87 +284,87 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Õppetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, grammatika ja treening."
+        "title": "Kennslustund 1",
+        "menuDesc": "Sagnir í nútíð, orð, málfræði og þjálfun."
       },
       "2": {
-        "title": "Õppetund 2",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Kennslustund 2",
+        "menuDesc": "Samtöl, orð, framburður, málfræði og þýðing."
       },
       "3": {
-        "title": "Õppetund 3",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Kennslustund 3",
+        "menuDesc": "Samtöl, orð, framburður, málfræði og þýðing."
       },
       "4": {
-        "title": "Õppetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad."
+        "title": "Kennslustund 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen og lýsingarorð."
       },
       "5": {
-        "title": "Õppetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
+        "title": "Kennslustund 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen og endingin -in."
       },
       "6": {
-        "title": "Õppetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
+        "title": "Kennslustund 6",
+        "menuDesc": "Tölur, fleirtala, Umlaut og fleirtölumyndir nafnorða."
       },
       "7": {
-        "title": "Õppetund 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
+        "title": "Kennslustund 7",
+        "menuDesc": "Boðháttur, kurteisisávarp og fleirtala."
       },
       "8": {
-        "title": "Õppetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
+        "title": "Kennslustund 8",
+        "menuDesc": "Afturbeygðar sagnir, e → i/ie víxl og Akkusativ."
       },
       "9": {
-        "title": "Õppetund 9",
-        "menuDesc": "Mitu eset, dieser/jener, ainsus ja mitmus."
+        "title": "Kennslustund 9",
+        "menuDesc": "Fleiri hlutir, dieser/jener, eintala og fleirtala."
       },
       "10": {
-        "title": "Õppetund 10",
-        "menuDesc": "Sein, können, tervis, vanus ja ametid."
+        "title": "Kennslustund 10",
+        "menuDesc": "Sein, können, heilsa, aldur og starfsheiti."
       },
       "11": {
-        "title": "Õppetund 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
+        "title": "Kennslustund 11",
+        "menuDesc": "Haben, kein/keine/keinen, eignarhald og samsett nafnorð."
       },
       "12": {
-        "title": "Õppetund 12",
-        "menuDesc": "Võrdlusastmed, als/wie, vanus ja värvid."
+        "title": "Kennslustund 12",
+        "menuDesc": "Stigbreyting, als/wie, aldur og litir."
       },
       "13": {
-        "title": "Õppetund 13",
-        "menuDesc": "Der Körper, kehaosad, turnen ja jeder."
+        "title": "Kennslustund 13",
+        "menuDesc": "Der Körper, líkamshlutar, turnen og jeder."
       },
       "14": {
-        "title": "Õppetund 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
+        "title": "Kennslustund 14",
+        "menuDesc": "müssen, wollen, mögen og háttarsagnir."
       },
       "15": {
-        "title": "Õppetund 15",
-        "menuDesc": "sollen, dürfen, essen ja puuviljad."
+        "title": "Kennslustund 15",
+        "menuDesc": "sollen, dürfen, essen og ávextir."
       },
       "16": {
-        "title": "Õppetund 16",
+        "title": "Kennslustund 16",
         "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Õppetund 17",
-        "menuDesc": "mit + Dativ, womit / mit wem ja Umlaut."
+        "title": "Kennslustund 17",
+        "menuDesc": "mit + Dativ, womit / mit wem og Umlaut."
       },
       "18": {
-        "title": "Õppetund 18",
-        "menuDesc": "wohin / wo, Akkusativ või Dativ koos an / in / auf."
+        "title": "Kennslustund 18",
+        "menuDesc": "wohin / wo, Akkusativ eða Dativ með an / in / auf."
       },
       "19": {
-        "title": "Õppetund 19",
+        "title": "Kennslustund 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Õppetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad."
+        "title": "Kennslustund 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ og samsett nafnorð."
       },
       "21": {
-        "title": "Õppetund 21",
+        "title": "Kennslustund 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }

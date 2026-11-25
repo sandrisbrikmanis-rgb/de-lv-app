@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Αντωνυμίες",
     "pronounsDesc": "Τύποι σε Nominativ, Akkusativ και Dativ.",
     "lessons": "Μαθήματα",
-    "lessonsDesc": "Μαθήματα με τη σειρά από 1 έως 21.",
+    "lessonsDesc": "Τα μαθήματα με τη σειρά, από το 1 έως το 21.",
     "verbBasics": "Βασικά των ρημάτων",
     "verbBasicsDesc": "Πρόσωπα, τύποι και τα πιο συχνά ρήματα.",
     "sentenceStructure": "Δομή της πρότασης",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Βασικά στοιχεία των γερμανικών ήχων και της προφοράς",
     "vowelsSubtitle": "Φωνήεντα — μακρά και βραχέα",
     "consonantsSubtitle": "Σύμφωνα και συνδυασμοί γραμμάτων",
-    "lessonsSubtitle": "Μαθήματα με τη σειρά από 1 έως 21.",
+    "lessonsSubtitle": "Τα μαθήματα με τη σειρά, από το 1 έως το 21.",
     "vowelsTitle": "Φωνήεντα — μακρά και βραχέα",
     "vowelsDesc": "Μακρά και βραχέα φωνήεντα με παραδείγματα.",
     "consonantsTitle": "Σύμφωνα και συνδυασμοί γραμμάτων",
     "consonantsDesc": "Οι πιο σημαντικοί σύμφωνοι ήχοι για τον αρχάριο.",
-    "lessonProgress": "Διάλεξη {lesson} · Μετάφραση: {current} / {total}",
-    "exerciseProgress": "Διάλεξη {lesson} · Άσκηση",
+    "lessonProgress": "Μάθημα {lesson} · Μετάφρασε: {current} / {total}",
+    "exerciseProgress": "Μάθημα {lesson} · Άσκηση",
     "sections": {
       "grammar": "Γραμματική",
       "exercise": "Ασκηση",
@@ -284,88 +284,88 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Διάλεξη 1",
-        "menuDesc": "Ρήματα ενεστώτα, λέξεις, γραμματική και πρακτική."
+        "title": "Μάθημα 1",
+        "menuDesc": "Ρήματα στον ενεστώτα, λεξιλόγιο, γραμματική και εξάσκηση."
       },
       "2": {
-        "title": "Διάλεξη 2",
-        "menuDesc": "Διάλογοι, λέξεις, προφορά, γραμματική και μετάφραση."
+        "title": "Μάθημα 2",
+        "menuDesc": "Διάλογοι, λεξιλόγιο, προφορά, γραμματική και μετάφραση."
       },
       "3": {
-        "title": "Διάλεξη 3",
-        "menuDesc": "Διάλογοι, λέξεις, προφορά, γραμματική και μετάφραση."
+        "title": "Μάθημα 3",
+        "menuDesc": "Διάλογοι, λεξιλόγιο, προφορά, γραμματική και μετάφραση."
       },
       "4": {
-        "title": "Διάλεξη 4",
-        "menuDesc": "Κατηγορούμενο, nehmen, hinlegen, hinausgehen και επίθετα."
+        "title": "Μάθημα 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen και επίθετα."
       },
       "5": {
-        "title": "Διάλεξη 5",
-        "menuDesc": "Wen?, αιτιατική, sitzen, fragen και -σε κατάληξη."
+        "title": "Μάθημα 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen και η κατάληξη -in."
       },
       "6": {
-        "title": "Διάλεξη 6",
-        "menuDesc": "Αριθμοί, πληθυντικοί, umlauts και πληθυντικοί τύποι ουσιαστικών."
+        "title": "Μάθημα 6",
+        "menuDesc": "Αριθμοί, πληθυντικός, Umlaut και τύποι πληθυντικού των ουσιαστικών."
       },
       "7": {
-        "title": "Διάλεξη 7",
-        "menuDesc": "Προστακτική, τύπος προσφώνησης και πληθυντικός."
+        "title": "Μάθημα 7",
+        "menuDesc": "Προστακτική, ευγενικός τύπος προσφώνησης και πληθυντικός."
       },
       "8": {
-        "title": "Διάλεξη 8",
-        "menuDesc": "Ανακλαστικά ρήματα, e → i/ie αλλαγή και κατηγορούμενο."
+        "title": "Μάθημα 8",
+        "menuDesc": "Αυτοπαθή ρήματα, εναλλαγή e → i/ie και Akkusativ."
       },
       "9": {
-        "title": "Διάλεξη 9",
-        "menuDesc": "Πολλαπλά θέματα, dieser/jener, ενικό και πληθυντικό."
+        "title": "Μάθημα 9",
+        "menuDesc": "Πολλά αντικείμενα, dieser/jener, ενικός και πληθυντικός."
       },
       "10": {
-        "title": "Διάλεξη 10",
+        "title": "Μάθημα 10",
         "menuDesc": "Sein, können, υγεία, ηλικία και επαγγέλματα."
       },
       "11": {
-        "title": "Διάλεξη 11",
-        "menuDesc": "Haben, kein/keine/keinen, κτητικά και σύνθετα ουσιαστικά."
+        "title": "Μάθημα 11",
+        "menuDesc": "Haben, kein/keine/keinen, κτήση και σύνθετα ουσιαστικά."
       },
       "12": {
-        "title": "Διάλεξη 12",
-        "menuDesc": "Συγκρίσιμοι βαθμοί, als/wie, ηλικία και χρώματα."
+        "title": "Μάθημα 12",
+        "menuDesc": "Βαθμοί σύγκρισης, als/wie, ηλικία και χρώματα."
       },
       "13": {
-        "title": "Διάλεξη 13",
-        "menuDesc": "Der Körper, μέρη του σώματος, τόρνα και jeder."
+        "title": "Μάθημα 13",
+        "menuDesc": "Der Körper, μέρη του σώματος, turnen και jeder."
       },
       "14": {
-        "title": "Διάλεξη 14",
-        "menuDesc": "müssen, wollen, mögen και modal ρήματα."
+        "title": "Μάθημα 14",
+        "menuDesc": "müssen, wollen, mögen και τροπικά ρήματα."
       },
       "15": {
-        "title": "Διάλεξη 15",
+        "title": "Μάθημα 15",
         "menuDesc": "sollen, dürfen, essen και φρούτα."
       },
       "16": {
-        "title": "Διάλεξη 16",
-        "menuDesc": "Dative, geben, sich nähern."
+        "title": "Μάθημα 16",
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Διάλεξη 17",
+        "title": "Μάθημα 17",
         "menuDesc": "mit + Dativ, womit / mit wem και Umlaut."
       },
       "18": {
-        "title": "Διάλεξη 18",
-        "menuDesc": "wohin / wo, Akkusativ ή Dativ με / in / auf."
+        "title": "Μάθημα 18",
+        "menuDesc": "wohin / wo, Akkusativ ή Dativ με an / in / auf."
       },
       "19": {
-        "title": "Διάλεξη 19",
+        "title": "Μάθημα 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Διάλεξη 20",
+        "title": "Μάθημα 20",
         "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ και σύνθετα ουσιαστικά."
       },
       "21": {
-        "title": "Διάλεξη 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Dative."
+        "title": "Μάθημα 21",
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

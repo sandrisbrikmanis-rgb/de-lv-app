@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Përemrat",
     "pronounsDesc": "Format në Nominativ, Akkusativ dhe Dativ.",
     "lessons": "Mësimet",
-    "lessonsDesc": "Mësimet me radhë nga 1 deri në 21.",
+    "lessonsDesc": "Mësimet sipas radhës nga 1 deri në 21.",
     "verbBasics": "Bazat e foljeve",
     "verbBasicsDesc": "Vetat, format dhe foljet më të shpeshta.",
     "sentenceStructure": "Ndërtimi i fjalisë",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Bazat e tingujve dhe të shqiptimit gjerman",
     "vowelsSubtitle": "Zanoret — të gjata dhe të shkurtra",
     "consonantsSubtitle": "Bashkëtingëlloret dhe kombinimet e shkronjave",
-    "lessonsSubtitle": "Mësimet me radhë nga 1 deri në 21.",
+    "lessonsSubtitle": "Mësimet sipas radhës nga 1 deri në 21.",
     "vowelsTitle": "Zanoret — të gjata dhe të shkurtra",
     "vowelsDesc": "Zanore të gjata dhe të shkurtra me shembuj.",
     "consonantsTitle": "Bashkëtingëlloret dhe kombinimet e shkronjave",
     "consonantsDesc": "Tingujt më të rëndësishëm konsonantë për fillestarët.",
-    "lessonProgress": "Mësimi {lesson} · Përkthyesi: {current} / {total}",
-    "exerciseProgress": "Mësimi {lesson} · Ushtrimi",
+    "lessonProgress": "Mësimi {lesson} · Përkthe: {current} / {total}",
+    "exerciseProgress": "Mësimi {lesson} · Ushtrim",
     "sections": {
       "grammar": "Gramatikë",
       "exercise": "Ushtrime",
@@ -285,39 +285,39 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonItems": {
       "1": {
         "title": "Mësimi 1",
-        "menuDesc": "Foljet në kohën e tanishme, fjalorin, gramatikën dhe ushtrimet."
+        "menuDesc": "Foljet në kohën e tashme, fjalët, gramatika dhe ushtrimet."
       },
       "2": {
         "title": "Mësimi 2",
         "menuDesc": "Dialogë, fjalë, shqiptim, gramatikë dhe përkthim."
       },
       "3": {
-        "title": "Leximi i tretë",
+        "title": "Mësimi 3",
         "menuDesc": "Dialogë, fjalë, shqiptim, gramatikë dhe përkthim."
       },
       "4": {
         "title": "Mësimi 4",
-        "menuDesc": "Rasti akuzues, nehmen, hinlegen, hinausgehen dhe mbiemrat."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen dhe mbiemrat."
       },
       "5": {
-        "title": "Leximi i pestë",
-        "menuDesc": "Wen?, akuzues, sitzen, fragen dhe duke përfunduar -in."
+        "title": "Mësimi 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen dhe mbaresa -in."
       },
       "6": {
-        "title": "Leximi i gjashtë",
-        "menuDesc": "Numrat, shumësit, umlautët dhe format shumës të emrave."
+        "title": "Mësimi 6",
+        "menuDesc": "Numrat, shumësi, umlautet dhe format e shumësit të emrave."
       },
       "7": {
-        "title": "Leximi i shtatë",
-        "menuDesc": "Modaliteti imperativ, forma e sjellshme dhe shumës."
+        "title": "Mësimi 7",
+        "menuDesc": "Mënyra urdhërore, forma e mirësjelljes dhe shumësi."
       },
       "8": {
-        "title": "Leximi i tetë",
-        "menuDesc": "Foljet reflektuese, ndryshimi → i/i dhe akuzuese."
+        "title": "Mësimi 8",
+        "menuDesc": "Foljet vetvetore, ndërrimi e → i/ie dhe Akkusativ."
       },
       "9": {
-        "title": "Leximi i nëntë",
-        "menuDesc": "Shumë tema, dizer/jener, njëjës dhe shumës."
+        "title": "Mësimi 9",
+        "menuDesc": "Disa sende, dieser/jener, njëjësi dhe shumësi."
       },
       "10": {
         "title": "Mësimi 10",
@@ -325,47 +325,47 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Mësimi 11",
-        "menuDesc": "Haben, kein/keine/keinen, përkatësia dhe emrat e përbërë."
+        "menuDesc": "Haben, kein/keine/keinen, posedimi dhe emrat e përbërë."
       },
       "12": {
         "title": "Mësimi 12",
-        "menuDesc": "Notat e universitetit, al/di, moshat dhe ngjyrat."
+        "menuDesc": "Shkallët e krahasimit, als/wie, mosha dhe ngjyrat."
       },
       "13": {
         "title": "Mësimi 13",
-        "menuDesc": "Der Körper, pjeset e trupit, kthesat dhe testikujt."
+        "menuDesc": "Der Körper, pjesët e trupit, turnen dhe jeder."
       },
       "14": {
         "title": "Mësimi 14",
-        "menuDesc": "müssen, woolen, mögen dhe foljet modale."
+        "menuDesc": "müssen, wollen, mögen dhe foljet modale."
       },
       "15": {
         "title": "Mësimi 15",
-        "menuDesc": "sollen, dürfen, essen dhe fruta."
+        "menuDesc": "sollen, dürfen, essen dhe frutat."
       },
       "16": {
         "title": "Mësimi 16",
-        "menuDesc": "Dative, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Mësimi 17",
-        "menuDesc": "mit + Dative, womit/mit wem dhe Umlaut."
+        "menuDesc": "mit + Dativ, womit / mit wem dhe Umlaut."
       },
       "18": {
         "title": "Mësimi 18",
-        "menuDesc": "wohin/wo, Akkusativ ose Dativ me vit/në/auf."
+        "menuDesc": "wohin / wo, Akkusativ ose Dativ me an / in / auf."
       },
       "19": {
         "title": "Mësimi 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Leximi 20",
-        "menuDesc": "Emrat Haus, Stockwerk, Dative/Akkusative dhe të përbërë."
+        "title": "Mësimi 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ dhe emrat e përbërë."
       },
       "21": {
         "title": "Mësimi 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Dative."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

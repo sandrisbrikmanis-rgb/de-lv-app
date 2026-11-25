@@ -246,7 +246,7 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Long and short vowels with examples.",
     "consonantsTitle": "Consonants and letter combinations",
     "consonantsDesc": "The most important consonant sounds for beginners.",
-    "lessonProgress": "Lesson {lesson} · Translation: {current} / {total}",
+    "lessonProgress": "Lesson {lesson} · Translate: {current} / {total}",
     "exerciseProgress": "Lesson {lesson} · Exercise",
     "sections": {
       "grammar": "Grammar",
@@ -297,39 +297,39 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lesson 4",
-        "menuDesc": "Accusative, nehmen, hinlegen, hinausgehen and adjectives."
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen and adjectives."
       },
       "5": {
         "title": "Lesson 5",
-        "menuDesc": "Wen?, accusative, sitzen, fragen and -in ending."
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen and the ending -in."
       },
       "6": {
         "title": "Lesson 6",
-        "menuDesc": "Numbers, plurals, umlauts and plural forms of nouns."
+        "menuDesc": "Numbers, the plural, umlauts and plural forms of nouns."
       },
       "7": {
         "title": "Lesson 7",
-        "menuDesc": "Imperative, form of address and plural."
+        "menuDesc": "The imperative, the polite form of address and the plural."
       },
       "8": {
         "title": "Lesson 8",
-        "menuDesc": "Reflexive verbs, e → i/ie change and accusative."
+        "menuDesc": "Reflexive verbs, the e → i/ie change and the Akkusativ."
       },
       "9": {
         "title": "Lesson 9",
-        "menuDesc": "Multiple subjects, dieser/jener, singular and plural."
+        "menuDesc": "Several objects, dieser/jener, singular and plural."
       },
       "10": {
         "title": "Lesson 10",
-        "menuDesc": "Sein, können, health, age and professions."
+        "menuDesc": "Sein, können, health, age and occupations."
       },
       "11": {
         "title": "Lesson 11",
-        "menuDesc": "Haben, kein/keine/keinen, possessive and compound nouns."
+        "menuDesc": "Haben, kein/keine/keinen, possession and compound nouns."
       },
       "12": {
         "title": "Lesson 12",
-        "menuDesc": "Comparable grades, als/wie, age and colors."
+        "menuDesc": "Degrees of comparison, als/wie, age and colours."
       },
       "13": {
         "title": "Lesson 13",
@@ -345,7 +345,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Lesson 16",
-        "menuDesc": "Dative, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Lesson 17",
@@ -365,7 +365,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "21": {
         "title": "Lesson 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Dative."
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
   },

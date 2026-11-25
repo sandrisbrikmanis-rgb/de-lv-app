@@ -231,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Voornaamwoorden",
     "pronounsDesc": "Vormen in de Nominativ, Akkusativ en Dativ.",
     "lessons": "Lessen",
-    "lessonsDesc": "Lessen op volgorde van 1 tot 21.",
+    "lessonsDesc": "De lessen op volgorde van 1 tot en met 21.",
     "verbBasics": "Basis van werkwoorden",
     "verbBasicsDesc": "Personen, vormen en de meest gebruikte werkwoorden.",
     "sentenceStructure": "Zinsbouw",
@@ -241,13 +241,13 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Basis van Duitse klanken en uitspraak",
     "vowelsSubtitle": "Klinkers — lang en kort",
     "consonantsSubtitle": "Medeklinkers en lettercombinaties",
-    "lessonsSubtitle": "Lessen op volgorde van 1 tot 21.",
+    "lessonsSubtitle": "De lessen op volgorde van 1 tot en met 21.",
     "vowelsTitle": "Klinkers — lang en kort",
     "vowelsDesc": "Lange en korte klinkers met voorbeelden.",
     "consonantsTitle": "Medeklinkers en lettercombinaties",
     "consonantsDesc": "De belangrijkste medeklinkers voor beginners.",
-    "lessonProgress": "Õppetund {lesson} · Tõlgi: {current} / {total}",
-    "exerciseProgress": "Õppetund {lesson} · Harjutus",
+    "lessonProgress": "Les {lesson} · Vertaal: {current} / {total}",
+    "exerciseProgress": "Les {lesson} · Oefening",
     "sections": {
       "grammar": "Grammatika",
       "exercise": "Harjutus",
@@ -284,87 +284,87 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "lessonItems": {
       "1": {
-        "title": "Õppetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, grammatika ja treening."
+        "title": "Les 1",
+        "menuDesc": "Werkwoorden in de tegenwoordige tijd, woordjes, grammatica en oefenen."
       },
       "2": {
-        "title": "Õppetund 2",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Les 2",
+        "menuDesc": "Dialogen, woorden, uitspraak, grammatica en vertalen."
       },
       "3": {
-        "title": "Õppetund 3",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
+        "title": "Les 3",
+        "menuDesc": "Dialogen, woorden, uitspraak, grammatica en vertalen."
       },
       "4": {
-        "title": "Õppetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad."
+        "title": "Les 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen en bijvoeglijke naamwoorden."
       },
       "5": {
-        "title": "Õppetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
+        "title": "Les 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen en de uitgang -in."
       },
       "6": {
-        "title": "Õppetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
+        "title": "Les 6",
+        "menuDesc": "Getallen, meervoud, umlauts en meervoudsvormen van zelfstandige naamwoorden."
       },
       "7": {
-        "title": "Õppetund 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
+        "title": "Les 7",
+        "menuDesc": "Gebiedende wijs, beleefdheidsvorm en meervoud."
       },
       "8": {
-        "title": "Õppetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
+        "title": "Les 8",
+        "menuDesc": "Wederkerende werkwoorden, wisseling e → i/ie en Akkusativ."
       },
       "9": {
-        "title": "Õppetund 9",
-        "menuDesc": "Mitu eset, dieser/jener, ainsus ja mitmus."
+        "title": "Les 9",
+        "menuDesc": "Meerdere voorwerpen, dieser/jener, enkelvoud en meervoud."
       },
       "10": {
-        "title": "Õppetund 10",
-        "menuDesc": "Sein, können, tervis, vanus ja ametid."
+        "title": "Les 10",
+        "menuDesc": "Sein, können, gezondheid, leeftijd en beroepen."
       },
       "11": {
-        "title": "Õppetund 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
+        "title": "Les 11",
+        "menuDesc": "Haben, kein/keine/keinen, bezit en samengestelde zelfstandige naamwoorden."
       },
       "12": {
-        "title": "Õppetund 12",
-        "menuDesc": "Võrdlusastmed, als/wie, vanus ja värvid."
+        "title": "Les 12",
+        "menuDesc": "Trappen van vergelijking, als/wie, leeftijd en kleuren."
       },
       "13": {
-        "title": "Õppetund 13",
-        "menuDesc": "Der Körper, kehaosad, turnen ja jeder."
+        "title": "Les 13",
+        "menuDesc": "Der Körper, lichaamsdelen, turnen en jeder."
       },
       "14": {
-        "title": "Õppetund 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
+        "title": "Les 14",
+        "menuDesc": "müssen, wollen, mögen en modale werkwoorden."
       },
       "15": {
-        "title": "Õppetund 15",
-        "menuDesc": "sollen, dürfen, essen ja puuviljad."
+        "title": "Les 15",
+        "menuDesc": "sollen, dürfen, essen en fruit."
       },
       "16": {
-        "title": "Õppetund 16",
+        "title": "Les 16",
         "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Õppetund 17",
-        "menuDesc": "mit + Dativ, womit / mit wem ja Umlaut."
+        "title": "Les 17",
+        "menuDesc": "mit + Dativ, womit / mit wem en Umlaut."
       },
       "18": {
-        "title": "Õppetund 18",
-        "menuDesc": "wohin / wo, Akkusativ või Dativ koos an / in / auf."
+        "title": "Les 18",
+        "menuDesc": "wohin / wo, Akkusativ of Dativ met an / in / auf."
       },
       "19": {
-        "title": "Õppetund 19",
+        "title": "Les 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Õppetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad."
+        "title": "Les 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ en samengestelde zelfstandige naamwoorden."
       },
       "21": {
-        "title": "Õppetund 21",
+        "title": "Les 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
