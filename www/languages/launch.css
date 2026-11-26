@@ -14,7 +14,7 @@ body.app-launching #appRoot {
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: linear-gradient(165deg, #0f172a 0%, #111827 45%, #000000 100%);
+  background: #000000;
   color: #f8fafc;
 }
 
@@ -91,9 +91,9 @@ body.app-launching #appRoot {
   padding-bottom: 16px;
   background: linear-gradient(
     180deg,
-    #0f172a 0%,
-    #111827 55%,
-    rgba(17, 24, 39, 0.92) 80%,
+    #000000 0%,
+    #000000 55%,
+    rgba(0, 0, 0, 0.92) 80%,
     transparent 100%
   );
 }
