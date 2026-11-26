@@ -32,8 +32,8 @@ body.app-launching #appRoot {
 
 .app-launch-logo {
   display: block;
-  width: clamp(120px, 36vw, 160px);
-  max-width: min(180px, calc(100vw - 48px));
+  width: clamp(150px, 45vw, 200px);
+  max-width: min(225px, calc(100vw - 48px));
   height: auto;
   aspect-ratio: 1;
   object-fit: contain;
@@ -43,7 +43,7 @@ body.app-launching #appRoot {
 
 @media (min-width: 768px) {
   .app-launch-logo {
-    width: clamp(140px, 14vw, 180px);
+    width: clamp(175px, 17.5vw, 225px);
   }
 }
 
@@ -99,7 +99,7 @@ body.app-launching #appRoot {
 }
 
 .language-screen-inner .app-launch-logo {
-  width: clamp(96px, 28vw, 132px);
+  width: clamp(120px, 35vw, 165px);
   margin: 0 auto 12px;
 }
 
