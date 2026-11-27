@@ -986,3 +986,52 @@ html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold
 html body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold:active {
   background-color: #A88600 !important;
 }
+/* UZDEVUMS330: caurspīdīgs ērglis sākuma ekrāna centrā, aiz pogām.
+   Attēls: iStock 629343598 (ian600f), standarta licence, pasūtījums 2502177343.
+   Repo glabājas tikai apstrādāta versija (fons noņemts, 1200 px). Nelietot kā logo/ikonu. */
+#homeMenuScreen.mobile-home-v2 .mh-bg .mh-eagle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: min(96vw, 620px);
+  max-height: 72dvh;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.6;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  z-index: 0;
+}
+
+/* UZDEVUMS330: pogas ar stikla efektu — 50 % caurspīdīgas, lai ērglis redzams cauri */
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black,
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black:hover {
+  background-color: rgba(22, 22, 22, 0.5) !important;
+}
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black:active {
+  background-color: rgba(38, 38, 38, 0.62) !important;
+}
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red,
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red:hover {
+  background-color: rgba(176, 0, 14, 0.5) !important;
+}
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red:active {
+  background-color: rgba(142, 0, 11, 0.62) !important;
+}
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold,
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold:hover {
+  background-color: rgba(201, 161, 0, 0.5) !important;
+}
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold:active {
+  background-color: rgba(168, 134, 0, 0.62) !important;
+}
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black,
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-red,
+html.is-home-screen body #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold {
+  backdrop-filter: blur(2px) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+}
