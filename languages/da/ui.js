@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Former:",
       "noteLabel": "Bemærkning:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Niveau A1 og starten af kurset er gratis. Premium låser op for alt det andet.",
+    "benefitLevels": "Niveau A2–C2",
+    "benefitVerbs": "Alle verber med bøjningsformer",
+    "benefitSentences": "Alle sætninger",
+    "benefitCourse": "Lektion 4–21, grundlæggende om verber og sætningsopbygning",
+    "monthly": "Månedligt",
+    "yearly": "Årligt",
+    "perMonth": "{price} / måned",
+    "perYear": "{price} / år",
+    "bestValue": "Bedste værdi",
+    "loading": "Henter priser…",
+    "processing": "Vent venligst…",
+    "success": "Tak! Premium er aktiveret.",
+    "pending": "Betalingen behandles. Premium aktiveres, når betalingen er bekræftet.",
+    "error": "Købet blev ikke gennemført. Prøv igen.",
+    "unavailable": "Køb er ikke tilgængelige lige nu. Tjek internetforbindelsen og Google Play.",
+    "nothingToRestore": "Der blev ikke fundet noget aktivt abonnement.",
+    "restore": "Gendan køb",
+    "manage": "Administrer abonnement",
+    "note": "Abonnementet fornyes automatisk. Du kan opsige det når som helst i Google Play.",
+    "lockedLabel": "Tilgængelig med Premium"
   }
 };

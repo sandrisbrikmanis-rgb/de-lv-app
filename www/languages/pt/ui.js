@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Formas:",
       "noteLabel": "Nota:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "O nível A1 e o início do curso são gratuitos. O Premium desbloqueia todo o resto.",
+    "benefitLevels": "Níveis A2–C2",
+    "benefitVerbs": "Todos os verbos com as suas formas",
+    "benefitSentences": "Todas as frases",
+    "benefitCourse": "Lições 4–21, bases dos verbos e estrutura da frase",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "perMonth": "{price} / mês",
+    "perYear": "{price} / ano",
+    "bestValue": "Mais vantajoso",
+    "loading": "A carregar preços…",
+    "processing": "Aguarde…",
+    "success": "Obrigado! O Premium está ativo.",
+    "pending": "O pagamento está a ser processado. O Premium será ativado assim que for confirmado.",
+    "error": "A compra não foi concluída. Tente novamente.",
+    "unavailable": "As compras não estão disponíveis neste momento. Verifique a ligação à Internet e o Google Play.",
+    "nothingToRestore": "Não foi encontrada nenhuma subscrição ativa.",
+    "restore": "Restaurar compras",
+    "manage": "Gerir subscrição",
+    "note": "A subscrição é renovada automaticamente. Pode cancelá-la a qualquer momento no Google Play.",
+    "lockedLabel": "Disponível com Premium"
   }
 };

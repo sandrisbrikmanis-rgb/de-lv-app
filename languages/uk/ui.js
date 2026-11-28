@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Форми:",
       "noteLabel": "Примітка:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Рівень A1 і початок курсу безкоштовні. Premium відкриває все інше.",
+    "benefitLevels": "Рівні A2–C2",
+    "benefitVerbs": "Усі дієслова з формами",
+    "benefitSentences": "Усі речення",
+    "benefitCourse": "Уроки 4–21, основи дієслів і будова речення",
+    "monthly": "Щомісяця",
+    "yearly": "Щороку",
+    "perMonth": "{price} / місяць",
+    "perYear": "{price} / рік",
+    "bestValue": "Вигідніше",
+    "loading": "Завантаження цін…",
+    "processing": "Будь ласка, зачекайте…",
+    "success": "Дякуємо! Premium активовано.",
+    "pending": "Платіж обробляється. Premium буде активовано після його підтвердження.",
+    "error": "Покупка не вдалася. Спробуйте ще раз.",
+    "unavailable": "Покупки зараз недоступні. Перевірте підключення до інтернету та Google Play.",
+    "nothingToRestore": "Активну підписку не знайдено.",
+    "restore": "Відновити покупки",
+    "manage": "Керувати підпискою",
+    "note": "Підписка поновлюється автоматично. Її можна скасувати будь-коли в Google Play.",
+    "lockedLabel": "Доступно з Premium"
   }
 };

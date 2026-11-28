@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
     "title": "Alemán • ES-DE",
     "subtitle": "Tu guía inteligente de alemán por niveles",
     "shellLabel": "Tarjetas Alemán–Español"
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "El nivel A1 y el inicio del curso son gratuitos. Premium desbloquea todo lo demás.",
+    "benefitLevels": "Niveles A2–C2",
+    "benefitVerbs": "Todos los verbos con sus formas",
+    "benefitSentences": "Todas las frases",
+    "benefitCourse": "Lecciones 4–21, fundamentos de los verbos y estructura de la oración",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "perMonth": "{price} / mes",
+    "perYear": "{price} / año",
+    "bestValue": "Más ventajoso",
+    "loading": "Cargando precios…",
+    "processing": "Espera un momento…",
+    "success": "¡Gracias! Premium está activado.",
+    "pending": "Tu pago se está procesando. Premium se activará cuando se confirme.",
+    "error": "La compra no se ha completado. Inténtalo de nuevo.",
+    "unavailable": "Las compras no están disponibles ahora. Comprueba tu conexión a Internet y Google Play.",
+    "nothingToRestore": "No se ha encontrado ninguna suscripción activa.",
+    "restore": "Restaurar compras",
+    "manage": "Gestionar suscripción",
+    "note": "La suscripción se renueva automáticamente. Puedes cancelarla en cualquier momento en Google Play.",
+    "lockedLabel": "Disponible con Premium"
   }
 };

@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Formen:",
       "noteLabel": "Hiweis:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Den Niveau A1 an den Ufank vum Cours si gratis. Premium mécht alles anescht op.",
+    "benefitLevels": "Niveauen A2–C2",
+    "benefitVerbs": "All Verben mat hire Formen",
+    "benefitSentences": "All Sätz",
+    "benefitCourse": "Lektiounen 4–21, Grondlage vun de Verben a Sazbau",
+    "monthly": "All Mount",
+    "yearly": "All Joer",
+    "perMonth": "{price} / Mount",
+    "perYear": "{price} / Joer",
+    "bestValue": "Am avantagéisten",
+    "loading": "Präisser gi gelueden…",
+    "processing": "Waart w.e.g.…",
+    "success": "Merci! Premium ass aktivéiert.",
+    "pending": "D'Bezuelung gëtt veraarbecht. Premium gëtt aktivéiert, soubal se confirméiert ass.",
+    "error": "De Kaf huet net geklappt. Probéiert w.e.g. nach eng Kéier.",
+    "unavailable": "Käf sinn elo net disponibel. Kontrolléiert d'Internetverbindung a Google Play.",
+    "nothingToRestore": "Kee lafend Abonnement fonnt.",
+    "restore": "Käf restauréieren",
+    "manage": "Abonnement geréieren",
+    "note": "D'Abonnement gëtt automatesch verlängert. Dir kënnt et zu all Moment op Google Play kënnegen.",
+    "lockedLabel": "Disponibel mat Premium"
   }
 };

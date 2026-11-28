@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "oblike:",
       "noteLabel": "Pozor:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Raven A1 in začetek tečaja sta brezplačna. Premium odklene vse ostalo.",
+    "benefitLevels": "Ravni A2–C2",
+    "benefitVerbs": "Vsi glagoli z oblikami",
+    "benefitSentences": "Vsi stavki",
+    "benefitCourse": "Lekcije 4–21, osnove glagolov in zgradba stavka",
+    "monthly": "Mesečno",
+    "yearly": "Letno",
+    "perMonth": "{price} / mesec",
+    "perYear": "{price} / leto",
+    "bestValue": "Najugodneje",
+    "loading": "Nalaganje cen…",
+    "processing": "Počakajte…",
+    "success": "Hvala! Premium je aktiviran.",
+    "pending": "Plačilo je v obdelavi. Premium bo aktiviran, ko bo plačilo potrjeno.",
+    "error": "Nakup ni uspel. Poskusite znova.",
+    "unavailable": "Nakupi trenutno niso na voljo. Preverite internetno povezavo in Google Play.",
+    "nothingToRestore": "Aktivne naročnine ni bilo mogoče najti.",
+    "restore": "Obnovi nakupe",
+    "manage": "Upravljaj naročnino",
+    "note": "Naročnina se samodejno podaljša. Kadar koli jo lahko prekličete v Google Play.",
+    "lockedLabel": "Na voljo s Premium"
   }
 };

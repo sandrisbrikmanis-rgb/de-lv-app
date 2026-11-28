@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Vormid:",
       "noteLabel": "Märkus:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Tase A1 ja kursuse algus on tasuta. Premium avab kõik muu.",
+    "benefitLevels": "Tasemed A2–C2",
+    "benefitVerbs": "Kõik tegusõnad koos vormidega",
+    "benefitSentences": "Kõik laused",
+    "benefitCourse": "Õppetunnid 4–21, tegusõnade alused ja lause ülesehitus",
+    "monthly": "Kuu kaupa",
+    "yearly": "Aasta kaupa",
+    "perMonth": "{price} / kuu",
+    "perYear": "{price} / aasta",
+    "bestValue": "Soodsam",
+    "loading": "Hindade laadimine…",
+    "processing": "Palun oota…",
+    "success": "Aitäh! Premium on aktiveeritud.",
+    "pending": "Makset töödeldakse. Premium aktiveeritakse pärast makse kinnitamist.",
+    "error": "Ost ebaõnnestus. Palun proovi uuesti.",
+    "unavailable": "Ostud ei ole praegu saadaval. Kontrolli internetiühendust ja Google Playd.",
+    "nothingToRestore": "Aktiivset tellimust ei leitud.",
+    "restore": "Taasta ostud",
+    "manage": "Halda tellimust",
+    "note": "Tellimus uueneb automaatselt. Saad selle igal ajal Google Plays tühistada.",
+    "lockedLabel": "Saadaval Premiumiga"
   }
 };

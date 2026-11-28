@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Formas:",
       "noteLabel": "Norāde:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "A1 līmenis un kursa sākums ir bez maksas. Premium atver visu pārējo.",
+    "benefitLevels": "Līmeņi A2–C2",
+    "benefitVerbs": "Visi darbības vārdi ar formām",
+    "benefitSentences": "Visi teikumi",
+    "benefitCourse": "4.–21. nodarbība, darbības vārdu pamati un teikumu uzbūve",
+    "monthly": "Mēnesī",
+    "yearly": "Gadā",
+    "perMonth": "{price} / mēnesī",
+    "perYear": "{price} / gadā",
+    "bestValue": "Izdevīgāk",
+    "loading": "Ielādē cenas…",
+    "processing": "Lūdzu, uzgaidi…",
+    "success": "Paldies! Premium ir aktivizēts.",
+    "pending": "Maksājums tiek apstrādāts. Premium tiks aktivizēts, kad maksājums būs apstiprināts.",
+    "error": "Pirkums neizdevās. Lūdzu, mēģini vēlreiz.",
+    "unavailable": "Pirkumi šobrīd nav pieejami. Pārbaudi interneta savienojumu un Google Play.",
+    "nothingToRestore": "Aktīvs abonements netika atrasts.",
+    "restore": "Atjaunot pirkumus",
+    "manage": "Pārvaldīt abonementu",
+    "note": "Abonements atjaunojas automātiski. To var atcelt jebkurā laikā Google Play.",
+    "lockedLabel": "Pieejams ar Premium"
   }
 };

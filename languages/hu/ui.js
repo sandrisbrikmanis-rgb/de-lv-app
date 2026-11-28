@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Űrlapok:",
       "noteLabel": "Jelzés:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Az A1 szint és a kurzus eleje ingyenes. A Premium minden mást is elérhetővé tesz.",
+    "benefitLevels": "A2–C2 szintek",
+    "benefitVerbs": "Minden ige az alakjaival",
+    "benefitSentences": "Minden mondat",
+    "benefitCourse": "4–21. lecke, az igék alapjai és mondatszerkezet",
+    "monthly": "Havi",
+    "yearly": "Éves",
+    "perMonth": "{price} / hó",
+    "perYear": "{price} / év",
+    "bestValue": "Legkedvezőbb",
+    "loading": "Árak betöltése…",
+    "processing": "Kérjük, várj…",
+    "success": "Köszönjük! A Premium aktív.",
+    "pending": "A fizetés feldolgozása folyamatban van. A Premium a megerősítés után aktiválódik.",
+    "error": "A vásárlás nem sikerült. Próbáld újra.",
+    "unavailable": "A vásárlás jelenleg nem érhető el. Ellenőrizd az internetkapcsolatot és a Google Playt.",
+    "nothingToRestore": "Nem található aktív előfizetés.",
+    "restore": "Vásárlások visszaállítása",
+    "manage": "Előfizetés kezelése",
+    "note": "Az előfizetés automatikusan megújul. Bármikor lemondhatod a Google Playen.",
+    "lockedLabel": "Premiummal érhető el"
   }
 };

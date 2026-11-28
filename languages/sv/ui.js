@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Former:",
       "noteLabel": "Anmärkning:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Nivå A1 och början av kursen är gratis. Premium låser upp allt annat.",
+    "benefitLevels": "Nivåerna A2–C2",
+    "benefitVerbs": "Alla verb med böjningsformer",
+    "benefitSentences": "Alla meningar",
+    "benefitCourse": "Lektion 4–21, grunderna i verb och meningsbyggnad",
+    "monthly": "Månadsvis",
+    "yearly": "Årsvis",
+    "perMonth": "{price} / månad",
+    "perYear": "{price} / år",
+    "bestValue": "Mest prisvärt",
+    "loading": "Hämtar priser…",
+    "processing": "Vänta…",
+    "success": "Tack! Premium är aktiverat.",
+    "pending": "Betalningen behandlas. Premium aktiveras när betalningen har bekräftats.",
+    "error": "Köpet gick inte igenom. Försök igen.",
+    "unavailable": "Köp är inte tillgängliga just nu. Kontrollera internetanslutningen och Google Play.",
+    "nothingToRestore": "Ingen aktiv prenumeration hittades.",
+    "restore": "Återställ köp",
+    "manage": "Hantera prenumeration",
+    "note": "Prenumerationen förnyas automatiskt. Du kan säga upp den när som helst i Google Play.",
+    "lockedLabel": "Tillgängligt med Premium"
   }
 };

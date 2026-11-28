@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Formlar:",
       "noteLabel": "Not:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "A1 seviyesi ve kursun başlangıcı ücretsizdir. Premium geri kalan her şeyin kilidini açar.",
+    "benefitLevels": "A2–C2 seviyeleri",
+    "benefitVerbs": "Tüm fiiller ve çekimleri",
+    "benefitSentences": "Tüm cümleler",
+    "benefitCourse": "4–21. dersler, fiillerin temelleri ve cümle yapısı",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "perMonth": "{price} / ay",
+    "perYear": "{price} / yıl",
+    "bestValue": "En avantajlı",
+    "loading": "Fiyatlar yükleniyor…",
+    "processing": "Lütfen bekleyin…",
+    "success": "Teşekkürler! Premium etkinleştirildi.",
+    "pending": "Ödemeniz işleniyor. Ödeme onaylandığında Premium etkinleştirilecek.",
+    "error": "Satın alma tamamlanamadı. Lütfen tekrar deneyin.",
+    "unavailable": "Satın alma şu anda kullanılamıyor. İnternet bağlantınızı ve Google Play'i kontrol edin.",
+    "nothingToRestore": "Etkin abonelik bulunamadı.",
+    "restore": "Satın alımları geri yükle",
+    "manage": "Aboneliği yönet",
+    "note": "Abonelik otomatik olarak yenilenir. İstediğiniz zaman Google Play'den iptal edebilirsiniz.",
+    "lockedLabel": "Premium ile kullanılabilir"
   }
 };
