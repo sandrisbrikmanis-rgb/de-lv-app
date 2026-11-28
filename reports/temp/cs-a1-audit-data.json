@@ -1,0 +1,7313 @@
+{
+  "meta": {
+    "date": "2026-08-10T17:26:53.510Z",
+    "level": "a1",
+    "lvFile": "data/a1.js",
+    "csFile": "data/cs/a1.js",
+    "wwwFile": "www/data/cs/a1.js",
+    "lvCount": 702,
+    "csCount": 702,
+    "lvStudyCount": 134,
+    "csStudyCount": 124
+  },
+  "structural": {
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Study count mismatch LV=134 CS=124"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Besuch-87",
+        "de": "Besuch",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.tip.text, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Besuch-87",
+        "de": "Besuch",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-besuchen-89",
+        "de": "besuchen",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.tip.text, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-besuchen-89",
+        "de": "besuchen",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-bitte",
+        "de": "bitte",
+        "message": "Missing fields vs LV: study.comparison, study.tip.text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-bitte-study",
+        "de": "Bitte",
+        "message": "Missing fields vs LV: study.comparison, study.tip.text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-ein",
+        "de": "ein",
+        "message": "Missing fields vs LV: study.comparison"
+      },
+      {
+        "severity": "high",
+        "id": "a1-es",
+        "de": "es",
+        "message": "Missing fields vs LV: study.comparison"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Wochenende-181",
+        "de": "Wochenende",
+        "message": "Missing fields vs LV: de_plural"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Frühstück-207",
+        "de": "Frühstück",
+        "message": "Missing fields vs LV: de_plural"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Fußball-218",
+        "de": "Fußball",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Fußball-218",
+        "de": "Fußball",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-ganz-219",
+        "de": "ganz",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-ganz-219",
+        "de": "ganz",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-gefallen-225",
+        "de": "gefallen",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-gefallen-225",
+        "de": "gefallen",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Geschichte-233",
+        "de": "Geschichte",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Geschichte-233",
+        "de": "Geschichte",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Geschwister-234",
+        "de": "Geschwister",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Geschwister-234",
+        "de": "Geschwister",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Großeltern-251",
+        "de": "Großeltern",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Großeltern-251",
+        "de": "Großeltern",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Hand-267",
+        "de": "Hand",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Hand-267",
+        "de": "Hand",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      },
+      {
+        "severity": "high",
+        "id": "a1-hübsch-288",
+        "de": "hübsch",
+        "message": "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.tip.text, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "a1-hübsch-288",
+        "de": "hübsch",
+        "message": "Layout mismatch LV=standardStudy CS=null"
+      }
+    ],
+    "pass": false
+  },
+  "germanIntegrity": {
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "a1-sprechen-study",
+        "de": "sprechen",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 4
+      },
+      {
+        "severity": "critical",
+        "id": "a1-klein-study",
+        "de": "klein",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 5
+      },
+      {
+        "severity": "critical",
+        "id": "a1-auch-study",
+        "de": "auch",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 5
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bei",
+        "de": "bei",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 3
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bitte",
+        "de": "bitte",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 6
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bitte-study",
+        "de": "Bitte",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 5
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bringen",
+        "de": "bringen",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 7
+      },
+      {
+        "severity": "critical",
+        "id": "a1-dieser",
+        "de": "dieser",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 4
+      },
+      {
+        "severity": "critical",
+        "id": "a1-ein",
+        "de": "ein",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 4
+      },
+      {
+        "severity": "critical",
+        "id": "a1-erst",
+        "de": "erst",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 1
+      },
+      {
+        "severity": "critical",
+        "id": "a1-es",
+        "de": "es",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 4
+      },
+      {
+        "severity": "critical",
+        "id": "a1-Wochenende-181",
+        "field": "de_plural",
+        "lvValue": "die Wochenenden"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-finden",
+        "de": "finden",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 7
+      },
+      {
+        "severity": "critical",
+        "id": "a1-Frühstück-207",
+        "field": "de_plural",
+        "lvValue": "die Frühstücke"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-gross-study",
+        "de": "groß",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 5
+      },
+      {
+        "severity": "critical",
+        "id": "a1-hoch-study",
+        "de": "hoch",
+        "message": "Study German content differs from LV etalon",
+        "mismatchCount": 6
+      }
+    ],
+    "pass": false
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "a1-es",
+        "path": "entry[167].study.info[0]",
+        "text": "Český “es” = vācu “ich”"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-es",
+        "path": "entry[167].study.info[1]",
+        "text": "Vācu “es” = tas • Tā • Bezpersoniska forma"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.important.example",
+        "text": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta."
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.accents.purple[0]",
+        "text": "Braukt"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.accents.purple[2]",
+        "text": "Vest"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.accents.purple[4]",
+        "text": "Aizvest"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.accents.green[1]",
+        "text": "Transportlīdzekli"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.accents.green[5]",
+        "text": "Velosipēdu"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.sectionAccents.explanation.purple[1]",
+        "text": "vest"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.sectionAccents.important[0].text.purple[0]",
+        "text": "braukt"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.sectionAccents.important[0].example.purple[0]",
+        "text": "braukt"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.sectionAccents.important[0].example.purple[1]",
+        "text": "vest"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-fahren",
+        "path": "entry[172].study.sectionAccents.important[0].example.purple[2]",
+        "text": "aizvest"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-in",
+        "path": "entry[295].study.sectionAccents.examples[0].lv.purple[0]",
+        "text": "Berlīnē"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-in",
+        "path": "entry[295].study.sectionAccents.important[0].purple[0]",
+        "text": "Berlīnē"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-land",
+        "path": "entry[351].study.explanation[1]",
+        "text": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země."
+      },
+      {
+        "severity": "critical",
+        "id": "a1-land",
+        "path": "entry[351].study.sectionAccents.comparison[3].meaning.purple[1]",
+        "text": "planēta"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-reis",
+        "path": "entry[496].study.explanation",
+        "text": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). Lotyši však často říkají „rýže“."
+      },
+      {
+        "severity": "critical",
+        "id": "a1-sitzen",
+        "path": "entry[558].study.sectionAccents.explanation.purple[0]",
+        "text": "sēdēt"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-sitzen",
+        "path": "entry[558].study.sectionAccents.explanation.purple[1]",
+        "text": "sēž"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-sitzen",
+        "path": "entry[558].study.sectionAccents.comparison[0].meaning.purple[0]",
+        "text": "sēdēt"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-stehen",
+        "path": "entry[576].study.sectionAccents.comparison[1].meaning.purple[0]",
+        "text": "sēdēt"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-über",
+        "path": "entry[608].study.sectionAccents.tip.left.purple[0]",
+        "text": "tēma"
+      },
+      {
+        "severity": "critical",
+        "id": "a1-essen",
+        "path": "entry[690].study.sectionAccents.explanation.purple[0]",
+        "text": "ēst"
+      }
+    ],
+    "pass": false
+  },
+  "foreignRemnants": {
+    "issues": [
+      {
+        "severity": "high",
+        "id": "a1-Balkon-70",
+        "path": "entry[70].lv",
+        "text": "Balkón"
+      },
+      {
+        "severity": "high",
+        "id": "a1-land",
+        "path": "entry[351].study.explanation[1]",
+        "text": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země."
+      },
+      {
+        "severity": "high",
+        "id": "a1-Million-406",
+        "path": "entry[406].lv",
+        "text": "Milión"
+      },
+      {
+        "severity": "high",
+        "id": "a1-Zitrone-666",
+        "path": "entry[666].lv",
+        "text": "Citrón"
+      }
+    ],
+    "pass": false
+  },
+  "semicolons": {
+    "issues": [],
+    "pass": true
+  },
+  "mainTranslations": {
+    "entries": [
+      {
+        "id": "a1-Apfel-0",
+        "de": "Apfel",
+        "de_article": "der",
+        "lvGloss": "ābols",
+        "csMain": "Jablko",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brot-1",
+        "de": "Brot",
+        "de_article": "das",
+        "lvGloss": "maize",
+        "csMain": "Chléb",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wasser-2",
+        "de": "Wasser",
+        "de_article": "das",
+        "lvGloss": "ūdens",
+        "csMain": "Voda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Haus-3",
+        "de": "Haus",
+        "de_article": "das",
+        "lvGloss": "māja",
+        "csMain": "Dům",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lernen-4",
+        "de": "lernen",
+        "lvGloss": "mācīties",
+        "csMain": "Učit se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sprechen-study",
+        "de": "sprechen",
+        "lvGloss": "runāt",
+        "csMain": "Mluvit",
+        "studyTranslation": "Mluvit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-klein-study",
+        "de": "klein",
+        "lvGloss": "mazs",
+        "csMain": "Malý",
+        "studyTranslation": "Malý",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-alle-7",
+        "de": "alle",
+        "lvGloss": "visi",
+        "csMain": "Každý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-allein-8",
+        "de": "allein",
+        "lvGloss": "viens pats",
+        "csMain": "Sám",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-alles-9",
+        "de": "alles",
+        "lvGloss": "viss",
+        "csMain": "Všechno",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-alt-10",
+        "de": "alt",
+        "lvGloss": "vecs",
+        "csMain": "Starý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Alter-11",
+        "de": "Alter",
+        "de_article": "das",
+        "lvGloss": "vecums",
+        "csMain": "Stáří",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-an",
+        "de": "an",
+        "lvGloss": "pie",
+        "csMain": "Na • Na povrchu • Na okraji",
+        "studyTranslation": "Na • Na povrchu • Na okraji",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Anfang-13",
+        "de": "Anfang",
+        "de_article": "der",
+        "lvGloss": "sākums",
+        "csMain": "Začátek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anfangen-14",
+        "de": "anfangen",
+        "lvGloss": "sākt",
+        "csMain": "Začít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anders-15",
+        "de": "anders",
+        "lvGloss": "citādi",
+        "csMain": "Jinak",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anrufen-16",
+        "de": "anrufen",
+        "lvGloss": "zvanīt",
+        "csMain": "Zavolat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ab",
+        "de": "ab",
+        "lvGloss": "no",
+        "csMain": "Z",
+        "studyTranslation": "Z",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Abend-18",
+        "de": "Abend",
+        "de_article": "der",
+        "lvGloss": "vakars",
+        "csMain": "Večer",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Abendessen-19",
+        "de": "Abendessen",
+        "de_article": "das",
+        "lvGloss": "vakariņas",
+        "csMain": "Večeře",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-abends-20",
+        "de": "abends",
+        "lvGloss": "vakarā",
+        "csMain": "Večer",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aber",
+        "de": "aber",
+        "lvGloss": "bet",
+        "csMain": "Ale",
+        "studyTranslation": "Ale",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-achten-22",
+        "de": "achten",
+        "lvGloss": "ievērot",
+        "csMain": "Pozorovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Adresse-23",
+        "de": "Adresse",
+        "de_article": "die",
+        "lvGloss": "adrese",
+        "csMain": "Adresa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Affe-24",
+        "de": "Affe",
+        "de_article": "der",
+        "lvGloss": "pērtiķis",
+        "csMain": "Opice",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Album-25",
+        "de": "Album",
+        "de_article": "das",
+        "lvGloss": "albums",
+        "csMain": "Album",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-also",
+        "de": "also",
+        "lvGloss": "tātad",
+        "csMain": "Proto",
+        "studyTranslation": "Proto",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ameise-27",
+        "de": "Ameise",
+        "de_article": "die",
+        "lvGloss": "skudra",
+        "csMain": "Mravenec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ankommen-28",
+        "de": "ankommen",
+        "lvGloss": "ierasties",
+        "csMain": "Dorazit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anschauen-29",
+        "de": "anschauen",
+        "lvGloss": "apskatīt",
+        "csMain": "Podívat se na",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anziehen-30",
+        "de": "anziehen",
+        "lvGloss": "uzvilkt",
+        "csMain": "Nasadit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anhalten-31",
+        "de": "anhalten",
+        "lvGloss": "apstāties",
+        "csMain": "Zastavit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Angst-32",
+        "de": "Angst",
+        "de_article": "die",
+        "lvGloss": "bailes",
+        "csMain": "Strach",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-angenehm-33",
+        "de": "angenehm",
+        "lvGloss": "patīkams",
+        "csMain": "Příjemný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Antenne-34",
+        "de": "Antenne",
+        "de_article": "die",
+        "lvGloss": "antena",
+        "csMain": "Anténa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Antwort-35",
+        "de": "Antwort",
+        "de_article": "die",
+        "lvGloss": "atbilde",
+        "csMain": "Odpověď",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-antworten-36",
+        "de": "antworten",
+        "lvGloss": "atbildēt",
+        "csMain": "Odpovědět",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Anzug-37",
+        "de": "Anzug",
+        "de_article": "der",
+        "lvGloss": "uzvalks",
+        "csMain": "Oblek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Apfelbaum-38",
+        "de": "Apfelbaum",
+        "de_article": "der",
+        "lvGloss": "ābele",
+        "csMain": "Jabloň",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Apfelsine-39",
+        "de": "Apfelsine",
+        "de_article": "die",
+        "lvGloss": "apelsīns",
+        "csMain": "Pomeranč",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Aprikose-40",
+        "de": "Aprikose",
+        "de_article": "die",
+        "lvGloss": "aprikoze",
+        "csMain": "Meruňka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-April-41",
+        "de": "April",
+        "de_article": "der",
+        "lvGloss": "aprīlis",
+        "csMain": "Duben",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Arbeit-42",
+        "de": "Arbeit",
+        "de_article": "die",
+        "lvGloss": "darbs",
+        "csMain": "Práce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-arbeiten-43",
+        "de": "arbeiten",
+        "lvGloss": "strādāt",
+        "csMain": "Pracovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Arm-44",
+        "de": "Arm",
+        "de_article": "der",
+        "lvGloss": "roka",
+        "csMain": "Ruka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Armbanduhr-45",
+        "de": "Armbanduhr",
+        "de_article": "die",
+        "lvGloss": "rokas pulkstenis",
+        "csMain": "Náramkové hodinky",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ärztin-46",
+        "de": "Ärztin",
+        "de_article": "die",
+        "lvGloss": "ārste",
+        "csMain": "Lékař",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-atmen-47",
+        "de": "atmen",
+        "lvGloss": "elpot",
+        "csMain": "Dýchat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auch-study",
+        "de": "auch",
+        "lvGloss": "arī",
+        "csMain": "Také",
+        "studyTranslation": "Také",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auf",
+        "de": "auf",
+        "lvGloss": "uz",
+        "csMain": "Na",
+        "studyTranslation": "Na",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufmachen-50",
+        "de": "aufmachen",
+        "lvGloss": "atvērt",
+        "csMain": "Otevřít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufpassen-51",
+        "de": "aufpassen",
+        "lvGloss": "uzmanīties",
+        "csMain": "Buďte opatrní",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufstehen-52",
+        "de": "aufstehen",
+        "lvGloss": "piecelties",
+        "csMain": "Postavit se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufwärts-53",
+        "de": "aufwärts",
+        "lvGloss": "uz augšu",
+        "csMain": "Nahoru",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Auge-54",
+        "de": "Auge",
+        "de_article": "das",
+        "lvGloss": "acs",
+        "csMain": "Oko",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Augenblick-55",
+        "de": "Augenblick",
+        "de_article": "der",
+        "lvGloss": "acumirklis",
+        "csMain": "Okamžik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-August-56",
+        "de": "August",
+        "de_article": "der",
+        "lvGloss": "augusts",
+        "csMain": "Srpen",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aus",
+        "de": "aus",
+        "lvGloss": "no",
+        "csMain": "Od • Ven",
+        "studyTranslation": "Od • Ven",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auf dem Boden-58",
+        "de": "auf dem Boden",
+        "lvGloss": "uz grīdas",
+        "csMain": "Na podlaze",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auf dem Bahnhof-59",
+        "de": "auf dem Bahnhof",
+        "lvGloss": "stacijā",
+        "csMain": "Na nádraží",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufs",
+        "de": "aufs",
+        "lvGloss": "uz",
+        "csMain": "Kam • Na • Kam?",
+        "studyTranslation": "Kam • Na • Kam?",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Augenbraue-61",
+        "de": "Augenbraue",
+        "de_article": "die",
+        "lvGloss": "uzacs",
+        "csMain": "Obočí",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Augenfarbe-62",
+        "de": "Augenfarbe",
+        "de_article": "die",
+        "lvGloss": "acu krāsa",
+        "csMain": "Barva očí",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Auto-63",
+        "de": "Auto",
+        "de_article": "das",
+        "lvGloss": "automašīna",
+        "csMain": "Auto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bad-64",
+        "de": "Bad",
+        "de_article": "das",
+        "lvGloss": "vannas istaba",
+        "csMain": "Koupelna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Badezimmer-65",
+        "de": "Badezimmer",
+        "de_article": "das",
+        "lvGloss": "vannas istaba",
+        "csMain": "Koupelna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schwimmbad-66",
+        "de": "Schwimmbad",
+        "de_article": "das",
+        "lvGloss": "peldbaseins",
+        "csMain": "Bazén",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sauna-67",
+        "de": "Sauna",
+        "de_article": "die",
+        "lvGloss": "sauna",
+        "csMain": "Sauna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-baden",
+        "de": "baden",
+        "lvGloss": "peldēties",
+        "csMain": "Plavat",
+        "studyTranslation": "Plavat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bald-69",
+        "de": "bald",
+        "lvGloss": "drīz",
+        "csMain": "Brzy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Balkon-70",
+        "de": "Balkon",
+        "de_article": "der",
+        "lvGloss": "balkons",
+        "csMain": "Balkón",
+        "studyTranslation": null,
+        "status": "ERROR",
+        "flags": [
+          "foreign_remnant_in_main"
+        ]
+      },
+      {
+        "id": "a1-Ball-71",
+        "de": "Ball",
+        "de_article": "der",
+        "lvGloss": "bumba",
+        "csMain": "Míč",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Banane-72",
+        "de": "Banane",
+        "de_article": "die",
+        "lvGloss": "banāns",
+        "csMain": "Banán",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bauch-73",
+        "de": "Bauch",
+        "de_article": "der",
+        "lvGloss": "vēders",
+        "csMain": "Žaludek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Baum-74",
+        "de": "Baum",
+        "de_article": "der",
+        "lvGloss": "koks",
+        "csMain": "Strom",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bedeuten-75",
+        "de": "bedeuten",
+        "lvGloss": "nozīmēt",
+        "csMain": "Střední",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Erdbeere-76",
+        "de": "Erdbeere",
+        "de_article": "die",
+        "lvGloss": "zemene",
+        "csMain": "Jahoda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-beginnen-77",
+        "de": "beginnen",
+        "lvGloss": "sākt",
+        "csMain": "Začít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bei",
+        "de": "bei",
+        "lvGloss": "pie",
+        "csMain": "Na",
+        "studyTranslation": "Na",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-beide-79",
+        "de": "beide",
+        "lvGloss": "abi",
+        "csMain": "Obě",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bein-80",
+        "de": "Bein",
+        "de_article": "das",
+        "lvGloss": "kāja",
+        "csMain": "Noha",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Beispiel-81",
+        "de": "Beispiel",
+        "de_article": "das",
+        "lvGloss": "piemērs",
+        "csMain": "Příklad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bekommen-82",
+        "de": "bekommen",
+        "lvGloss": "saņemt",
+        "csMain": "Přijímat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-benutzen-83",
+        "de": "benutzen",
+        "lvGloss": "lietot",
+        "csMain": "Použití",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Berg-84",
+        "de": "Berg",
+        "de_article": "der",
+        "lvGloss": "kalns",
+        "csMain": "Hora",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-besser-85",
+        "de": "besser",
+        "lvGloss": "labāks",
+        "csMain": "Lepší",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-beste-86",
+        "de": "beste",
+        "lvGloss": "vislabākais",
+        "csMain": "Nejlepší",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Besuch-87",
+        "de": "Besuch",
+        "de_article": "der",
+        "lvGloss": "apmeklējums",
+        "csMain": "Návštěva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Besucher-88",
+        "de": "Besucher",
+        "de_article": "der",
+        "lvGloss": "apmeklētājs",
+        "csMain": "Návštěvník",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-besuchen-89",
+        "de": "besuchen",
+        "lvGloss": "apmeklēt",
+        "csMain": "Zúčastnit se • Navštívit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bett-90",
+        "de": "Bett",
+        "de_article": "das",
+        "lvGloss": "gulta",
+        "csMain": "Postel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bis",
+        "de": "bis",
+        "lvGloss": "līdz",
+        "csMain": "Až",
+        "studyTranslation": "Až",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bisschen-92",
+        "de": "bisschen",
+        "lvGloss": "mazliet",
+        "csMain": "Trochu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bitte",
+        "de": "bitte",
+        "lvGloss": "lūdzu",
+        "csMain": "Prosím",
+        "studyTranslation": "Prosím",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bitte-study",
+        "de": "Bitte",
+        "de_article": "die",
+        "lvGloss": "lūgums",
+        "csMain": "Žádost",
+        "studyTranslation": "Žádost",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-billig-95",
+        "de": "billig",
+        "lvGloss": "lēts",
+        "csMain": "Levný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bier-96",
+        "de": "Bier",
+        "de_article": "das",
+        "lvGloss": "alus",
+        "csMain": "Pivo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bild-97",
+        "de": "Bild",
+        "de_article": "das",
+        "lvGloss": "attēls",
+        "csMain": "Obraz",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bitten-98",
+        "de": "bitten",
+        "lvGloss": "lūgt",
+        "csMain": "Zeptat se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Blatt-99",
+        "de": "Blatt",
+        "de_article": "das",
+        "lvGloss": "lapa",
+        "csMain": "Strana",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-blau-100",
+        "de": "blau",
+        "lvGloss": "zils",
+        "csMain": "Modrý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bleiben",
+        "de": "bleiben",
+        "lvGloss": "palikt",
+        "csMain": "Pobyt",
+        "studyTranslation": "Pobyt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bleistift-102",
+        "de": "Bleistift",
+        "de_article": "der",
+        "lvGloss": "zīmulis",
+        "csMain": "Tužka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-blond-103",
+        "de": "blond",
+        "lvGloss": "blonds",
+        "csMain": "Blondýnka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Blume-104",
+        "de": "Blume",
+        "de_article": "die",
+        "lvGloss": "puķe",
+        "csMain": "Květina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Boot-105",
+        "de": "Boot",
+        "de_article": "das",
+        "lvGloss": "laiva",
+        "csMain": "Člun",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-brauchen-106",
+        "de": "brauchen",
+        "lvGloss": "vajadzēt",
+        "csMain": "Potřebovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-braun-107",
+        "de": "braun",
+        "lvGloss": "brūns",
+        "csMain": "Hnědý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-breit-108",
+        "de": "breit",
+        "lvGloss": "plats",
+        "csMain": "Široký",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brief-109",
+        "de": "Brief",
+        "de_article": "der",
+        "lvGloss": "vēstule",
+        "csMain": "Dopis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brille-110",
+        "de": "Brille",
+        "de_article": "die",
+        "lvGloss": "brilles",
+        "csMain": "Brýle",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bringen",
+        "de": "bringen",
+        "lvGloss": "atnest",
+        "csMain": "Přinést • Odnést",
+        "studyTranslation": "Přinést • Odnést",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Butterbrot-112",
+        "de": "Butterbrot",
+        "de_article": "das",
+        "lvGloss": "sviestmaize",
+        "csMain": "Sendvič",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brötchen-113",
+        "de": "Brötchen",
+        "de_article": "das",
+        "lvGloss": "maizīte",
+        "csMain": "Houska",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brücke-114",
+        "de": "Brücke",
+        "de_article": "die",
+        "lvGloss": "tilts",
+        "csMain": "Most",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bruder-115",
+        "de": "Bruder",
+        "de_article": "der",
+        "lvGloss": "brālis",
+        "csMain": "Bratr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Buch-116",
+        "de": "Buch",
+        "de_article": "das",
+        "lvGloss": "grāmata",
+        "csMain": "Rezervovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Buchstabe-117",
+        "de": "Buchstabe",
+        "de_article": "der",
+        "lvGloss": "burts",
+        "csMain": "Dopis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Büro-118",
+        "de": "Büro",
+        "de_article": "das",
+        "lvGloss": "birojs",
+        "csMain": "Kancelář",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bus-119",
+        "de": "Bus",
+        "de_article": "der",
+        "lvGloss": "autobuss",
+        "csMain": "Autobus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Butter-120",
+        "de": "Butter",
+        "de_article": "die",
+        "lvGloss": "sviests",
+        "csMain": "Máslo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Café-121",
+        "de": "Café",
+        "de_article": "das",
+        "lvGloss": "kafejnīca",
+        "csMain": "Kavárna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-CD-122",
+        "de": "CD",
+        "de_article": "die",
+        "lvGloss": "CD",
+        "csMain": "CD",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Computer-123",
+        "de": "Computer",
+        "de_article": "der",
+        "lvGloss": "dators",
+        "csMain": "Počítač",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Cousin-124",
+        "de": "Cousin",
+        "de_article": "der",
+        "lvGloss": "brālēns",
+        "csMain": "Bratranec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Cousine-125",
+        "de": "Cousine",
+        "de_article": "die",
+        "lvGloss": "māsīca",
+        "csMain": "Bratranec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-da",
+        "de": "da",
+        "lvGloss": "tur",
+        "csMain": "Tam",
+        "studyTranslation": "Tam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-danken-127",
+        "de": "danken",
+        "lvGloss": "pateikties",
+        "csMain": "Poděkovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dann-128",
+        "de": "dann",
+        "lvGloss": "tad",
+        "csMain": "Pak",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-das",
+        "de": "das",
+        "lvGloss": "vidus dzimtes noteiktais artikuls",
+        "csMain": "Neuter určitý člen",
+        "studyTranslation": "Neuter určitý člen",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dass",
+        "de": "dass",
+        "lvGloss": "ka",
+        "csMain": "Že",
+        "studyTranslation": "Že",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Datum-131",
+        "de": "Datum",
+        "de_article": "das",
+        "lvGloss": "datums",
+        "csMain": "Datum",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dein-132",
+        "de": "dein",
+        "lvGloss": "tavs",
+        "csMain": "Vaše",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-denken-133",
+        "de": "denken",
+        "lvGloss": "domāt",
+        "csMain": "Přemýšlet",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-der",
+        "de": "der",
+        "lvGloss": "vīriešu dzimtes noteiktais artikuls",
+        "csMain": "Mužský rod určitý člen",
+        "studyTranslation": "Mužský rod určitý člen",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-deutsch-135",
+        "de": "deutsch",
+        "lvGloss": "vācu",
+        "csMain": "Němec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Dezember-136",
+        "de": "Dezember",
+        "de_article": "der",
+        "lvGloss": "decembris",
+        "csMain": "Prosinec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-die",
+        "de": "die",
+        "lvGloss": "sieviešu dzimtes noteiktais artikuls",
+        "csMain": "Ženský určitý člen",
+        "studyTranslation": "Ženský určitý člen",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Dienstag-138",
+        "de": "Dienstag",
+        "de_article": "der",
+        "lvGloss": "otrdiena",
+        "csMain": "Úterý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dieser",
+        "de": "dieser",
+        "lvGloss": "šis",
+        "csMain": "Tenhle",
+        "studyTranslation": "Tenhle",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ding-140",
+        "de": "Ding",
+        "de_article": "das",
+        "lvGloss": "lieta",
+        "csMain": "Věc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Donnerstag-141",
+        "de": "Donnerstag",
+        "de_article": "der",
+        "lvGloss": "ceturtdiena",
+        "csMain": "Čtvrtek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dort-142",
+        "de": "dort",
+        "lvGloss": "tur",
+        "csMain": "Tam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-drei-143",
+        "de": "drei",
+        "lvGloss": "trīs",
+        "csMain": "Tři",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreihundert-144",
+        "de": "dreihundert",
+        "lvGloss": "trīssimt",
+        "csMain": "Tři sta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreimal-145",
+        "de": "dreimal",
+        "lvGloss": "trīsreiz",
+        "csMain": "Třikrát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreißig-146",
+        "de": "dreißig",
+        "lvGloss": "trīsdesmit",
+        "csMain": "Třicet",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreizehn-147",
+        "de": "dreizehn",
+        "lvGloss": "trīspadsmit",
+        "csMain": "Třináct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dritte-148",
+        "de": "dritte",
+        "lvGloss": "trešais",
+        "csMain": "Třetí",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-du-149",
+        "de": "du",
+        "lvGloss": "tu",
+        "csMain": "Vy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dürfen-150",
+        "de": "dürfen",
+        "lvGloss": "drīkstēt",
+        "csMain": "Být dovoleno",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Dusche-151",
+        "de": "Dusche",
+        "de_article": "die",
+        "lvGloss": "duša",
+        "csMain": "Sprcha",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ecke-152",
+        "de": "Ecke",
+        "de_article": "die",
+        "lvGloss": "stūris",
+        "csMain": "Rohu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ei-153",
+        "de": "Ei",
+        "de_article": "das",
+        "lvGloss": "ola",
+        "csMain": "Vejce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ein",
+        "de": "ein",
+        "lvGloss": "nenoteiktais artikuls",
+        "csMain": "Neurčitý člen • Jeden • Někdo",
+        "studyTranslation": "Neurčitý člen • Jeden • Někdo",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-einfach-155",
+        "de": "einfach",
+        "lvGloss": "vienkāršs",
+        "csMain": "Jednoduchý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-eins-156",
+        "de": "eins",
+        "lvGloss": "viens",
+        "csMain": "Jeden",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-eis",
+        "de": "Eis",
+        "de_article": "das",
+        "lvGloss": "ledus • saldējums",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "studyTranslation": "Zmrzlina • Zmrzlina",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-elf-158",
+        "de": "elf",
+        "lvGloss": "vienpadsmit",
+        "csMain": "Jedenáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-E-Mail-159",
+        "de": "E-Mail",
+        "de_article": "die",
+        "lvGloss": "e-pasts",
+        "csMain": "E-mail",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Eltern-160",
+        "de": "Eltern",
+        "de_article": "die",
+        "lvGloss": "vecāki",
+        "csMain": "Rodiče",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ende-161",
+        "de": "Ende",
+        "de_article": "das",
+        "lvGloss": "beigas",
+        "csMain": "Konec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-er-162",
+        "de": "er",
+        "lvGloss": "viņš",
+        "csMain": "On",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Erbse-163",
+        "de": "Erbse",
+        "de_article": "die",
+        "lvGloss": "zirnis",
+        "csMain": "Hrášek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Erde-164",
+        "de": "Erde",
+        "de_article": "die",
+        "lvGloss": "zeme",
+        "csMain": "Přistát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-erst",
+        "de": "erst",
+        "lvGloss": "tikai",
+        "csMain": "První • Pouze",
+        "studyTranslation": "První • Pouze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-erste-166",
+        "de": "erste",
+        "lvGloss": "pirmais",
+        "csMain": "První",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-es",
+        "de": "es",
+        "lvGloss": "tas",
+        "csMain": "To • To • Neosobní podoba",
+        "studyTranslation": "To • To • Neosobní podoba",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Esslöffel-168",
+        "de": "Esslöffel",
+        "de_article": "der",
+        "lvGloss": "ēdamkarote",
+        "csMain": "Polévková lžíce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-etwas",
+        "de": "etwas",
+        "lvGloss": "kaut kas",
+        "csMain": "Něco • Trochu",
+        "studyTranslation": "Něco • Trochu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-euch",
+        "de": "euch",
+        "lvGloss": "jūs • jums",
+        "csMain": "Ty • Ty",
+        "studyTranslation": "Ty • Ty",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-euer-171",
+        "de": "euer",
+        "lvGloss": "jūsu",
+        "csMain": "Vaše",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fahren",
+        "de": "fahren",
+        "lvGloss": "braukt",
+        "csMain": "Řídit • Vést • Odvézt",
+        "studyTranslation": "Řídit • Vést • Odvézt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-falsch-173",
+        "de": "falsch",
+        "lvGloss": "nepareizs",
+        "csMain": "Nesprávný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Familie-174",
+        "de": "Familie",
+        "de_article": "die",
+        "lvGloss": "ģimene",
+        "csMain": "Rodina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nachname-175",
+        "de": "Nachname",
+        "de_article": "der",
+        "lvGloss": "uzvārds",
+        "csMain": "Příjmení",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Farbe-176",
+        "de": "Farbe",
+        "de_article": "die",
+        "lvGloss": "krāsa",
+        "csMain": "Barva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fast-177",
+        "de": "fast",
+        "lvGloss": "gandrīz",
+        "csMain": "Téměř",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Februar-178",
+        "de": "Februar",
+        "de_article": "der",
+        "lvGloss": "februāris",
+        "csMain": "Únor",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fehler-179",
+        "de": "Fehler",
+        "de_article": "der",
+        "lvGloss": "kļūda",
+        "csMain": "Chyba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fenster-180",
+        "de": "Fenster",
+        "de_article": "das",
+        "lvGloss": "logs",
+        "csMain": "Okno",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wochenende-181",
+        "de": "Wochenende",
+        "de_article": "das",
+        "lvGloss": "nedēļas nogale",
+        "csMain": "Víkend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fernseher-182",
+        "de": "Fernseher",
+        "de_article": "der",
+        "lvGloss": "televizors",
+        "csMain": "Televize",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fertig-183",
+        "de": "fertig",
+        "lvGloss": "gatavs",
+        "csMain": "Připraven",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fett-184",
+        "de": "fett",
+        "lvGloss": "trekns",
+        "csMain": "Tuk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Film-185",
+        "de": "Film",
+        "de_article": "der",
+        "lvGloss": "filma",
+        "csMain": "Film",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Filzstift-186",
+        "de": "Filzstift",
+        "de_article": "der",
+        "lvGloss": "flomāsters",
+        "csMain": "Fix",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-finden",
+        "de": "finden",
+        "lvGloss": "atrast",
+        "csMain": "Najít • Zvážit",
+        "studyTranslation": "Najít • Zvážit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Finger-188",
+        "de": "Finger",
+        "de_article": "der",
+        "lvGloss": "pirksts",
+        "csMain": "Prst",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fisch-189",
+        "de": "Fisch",
+        "de_article": "der",
+        "lvGloss": "zivs",
+        "csMain": "Ryba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Flasche-190",
+        "de": "Flasche",
+        "de_article": "die",
+        "lvGloss": "pudele",
+        "csMain": "Láhev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fleisch-191",
+        "de": "Fleisch",
+        "de_article": "das",
+        "lvGloss": "gaļa",
+        "csMain": "Maso",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fliegen-192",
+        "de": "fliegen",
+        "lvGloss": "lidot",
+        "csMain": "Létat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Flugzeug-193",
+        "de": "Flugzeug",
+        "de_article": "das",
+        "lvGloss": "lidmašīna",
+        "csMain": "Letadlo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fluss-194",
+        "de": "Fluss",
+        "de_article": "der",
+        "lvGloss": "upe",
+        "csMain": "Řeka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Foto-195",
+        "de": "Foto",
+        "de_article": "das",
+        "lvGloss": "fotogrāfija",
+        "csMain": "Fotografie",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Frage-196",
+        "de": "Frage",
+        "de_article": "die",
+        "lvGloss": "jautājums",
+        "csMain": "Otázka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fragen-197",
+        "de": "fragen",
+        "lvGloss": "jautāt",
+        "csMain": "Zeptat se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frau",
+        "de": "Frau",
+        "de_article": "die",
+        "lvGloss": "sieviete",
+        "csMain": "Žena • Manželka",
+        "studyTranslation": "Žena • Manželka",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frei-199",
+        "de": "frei",
+        "lvGloss": "brīvs",
+        "csMain": "Uvolnit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Freitag-200",
+        "de": "Freitag",
+        "de_article": "der",
+        "lvGloss": "piektdiena",
+        "csMain": "Pátek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Freund-201",
+        "de": "Freund",
+        "de_article": "der",
+        "lvGloss": "draugs",
+        "csMain": "Přítel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Freundin-202",
+        "de": "Freundin",
+        "de_article": "die",
+        "lvGloss": "draudzene",
+        "csMain": "Přítelkyně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-freundlich-203",
+        "de": "freundlich",
+        "lvGloss": "laipns",
+        "csMain": "Druh",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frisch-204",
+        "de": "frisch",
+        "lvGloss": "svaigs",
+        "csMain": "Čerstvý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-früh-205",
+        "de": "früh",
+        "lvGloss": "agrs",
+        "csMain": "Brzy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Frühling-206",
+        "de": "Frühling",
+        "de_article": "der",
+        "lvGloss": "pavasaris",
+        "csMain": "Jaro",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Frühstück-207",
+        "de": "Frühstück",
+        "de_article": "das",
+        "lvGloss": "brokastis",
+        "csMain": "Snídaně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frühstücken-208",
+        "de": "frühstücken",
+        "lvGloss": "ēst brokastis",
+        "csMain": "Snídat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünf-209",
+        "de": "fünf",
+        "lvGloss": "pieci",
+        "csMain": "Pět",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfhundert-210",
+        "de": "fünfhundert",
+        "lvGloss": "piecsimt",
+        "csMain": "Pět set",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfte-211",
+        "de": "fünfte",
+        "lvGloss": "piektais",
+        "csMain": "Pátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzehn-212",
+        "de": "fünfzehn",
+        "lvGloss": "piecpadsmit",
+        "csMain": "Patnáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzehnte-213",
+        "de": "fünfzehnte",
+        "lvGloss": "piecpadsmitais",
+        "csMain": "Patnáctý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzig-214",
+        "de": "fünfzig",
+        "lvGloss": "piecdesmit",
+        "csMain": "Padesát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzigste-215",
+        "de": "fünfzigste",
+        "lvGloss": "piecdesmitais",
+        "csMain": "Padesátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fuer",
+        "de": "für",
+        "lvGloss": "priekš",
+        "csMain": "Pro • Pro",
+        "studyTranslation": "Pro • Pro",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fuß-217",
+        "de": "Fuß",
+        "de_article": "der",
+        "lvGloss": "pēda",
+        "csMain": "Noha",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fußball-218",
+        "de": "Fußball",
+        "de_article": "der",
+        "lvGloss": "futbols",
+        "csMain": "Fotbal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ganz-219",
+        "de": "ganz",
+        "lvGloss": "vesels",
+        "csMain": "Všechno",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Garage-220",
+        "de": "Garage",
+        "de_article": "die",
+        "lvGloss": "garāža",
+        "csMain": "Garáž",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Garten-221",
+        "de": "Garten",
+        "de_article": "der",
+        "lvGloss": "dārzs",
+        "csMain": "Zahrada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gast-222",
+        "de": "Gast",
+        "de_article": "der",
+        "lvGloss": "viesis",
+        "csMain": "Hostem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geben",
+        "de": "geben",
+        "lvGloss": "dot",
+        "csMain": "Dát",
+        "studyTranslation": "Dát",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geboren-224",
+        "de": "geboren",
+        "lvGloss": "dzimis",
+        "csMain": "Se narodil",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gefallen-225",
+        "de": "gefallen",
+        "lvGloss": "patikt",
+        "csMain": "Mít rád",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gegen-226",
+        "de": "gegen",
+        "lvGloss": "pret",
+        "csMain": "Vs",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gehen-227",
+        "de": "gehen",
+        "lvGloss": "iet",
+        "csMain": "Jít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gelb-228",
+        "de": "gelb",
+        "lvGloss": "dzeltens",
+        "csMain": "Žluť",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Geld-229",
+        "de": "Geld",
+        "de_article": "das",
+        "lvGloss": "nauda",
+        "csMain": "Peníze",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-genug-230",
+        "de": "genug",
+        "lvGloss": "pietiekami",
+        "csMain": "Dost",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geradeaus-231",
+        "de": "geradeaus",
+        "lvGloss": "taisni uz priekšu",
+        "csMain": "Přímo vpřed",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gern-232",
+        "de": "gern",
+        "lvGloss": "labprāt",
+        "csMain": "Ochotně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Geschichte-233",
+        "de": "Geschichte",
+        "de_article": "die",
+        "lvGloss": "stāsts",
+        "csMain": "Příběh • Historie",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Geschwister-234",
+        "de": "Geschwister",
+        "de_article": "die",
+        "lvGloss": "brāļi un māsas",
+        "csMain": "Bratři a sestry",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gesicht-235",
+        "de": "Gesicht",
+        "de_article": "das",
+        "lvGloss": "seja",
+        "csMain": "Tvář",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gestern-236",
+        "de": "gestern",
+        "lvGloss": "vakar",
+        "csMain": "Včera",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gesund-237",
+        "de": "gesund",
+        "lvGloss": "vesels",
+        "csMain": "Zdravý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gesundheit-238",
+        "de": "Gesundheit",
+        "de_article": "die",
+        "lvGloss": "veselība",
+        "csMain": "Zdraví",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Getränk-239",
+        "de": "Getränk",
+        "de_article": "das",
+        "lvGloss": "dzēriens",
+        "csMain": "Drink",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Giraffe-240",
+        "de": "Giraffe",
+        "de_article": "die",
+        "lvGloss": "žirafe",
+        "csMain": "Žirafa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Glas-241",
+        "de": "Glas",
+        "de_article": "das",
+        "lvGloss": "glāze",
+        "csMain": "Sklenici",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-glauben-242",
+        "de": "glauben",
+        "lvGloss": "ticēt",
+        "csMain": "Věřit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gleich",
+        "de": "gleich",
+        "lvGloss": "tūlīt",
+        "csMain": "Hned • Rovný",
+        "studyTranslation": "Hned • Rovný",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Glück-244",
+        "de": "Glück",
+        "de_article": "das",
+        "lvGloss": "laime",
+        "csMain": "Štěstí",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-glücklich-245",
+        "de": "glücklich",
+        "lvGloss": "laimīgs",
+        "csMain": "Šťastný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gramm-246",
+        "de": "Gramm",
+        "de_article": "das",
+        "lvGloss": "grams",
+        "csMain": "Gram",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Grammatik-247",
+        "de": "Grammatik",
+        "de_article": "die",
+        "lvGloss": "gramatika",
+        "csMain": "Gramatika",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gras-248",
+        "de": "Gras",
+        "de_article": "das",
+        "lvGloss": "zāle",
+        "csMain": "Tráva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grau-249",
+        "de": "grau",
+        "lvGloss": "pelēks",
+        "csMain": "Šedá",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gross-study",
+        "de": "groß",
+        "lvGloss": "liels",
+        "csMain": "Velký",
+        "studyTranslation": "Velký",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Großeltern-251",
+        "de": "Großeltern",
+        "de_article": "die",
+        "lvGloss": "vecvecāki",
+        "csMain": "Prarodiče",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Großmutter-252",
+        "de": "Großmutter",
+        "de_article": "die",
+        "lvGloss": "vecmāmiņa",
+        "csMain": "Babička",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Großvater-253",
+        "de": "Großvater",
+        "de_article": "der",
+        "lvGloss": "vectētiņš",
+        "csMain": "Dědeček",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grün-254",
+        "de": "grün",
+        "lvGloss": "zaļš",
+        "csMain": "Zelený",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gruppe-255",
+        "de": "Gruppe",
+        "de_article": "die",
+        "lvGloss": "grupa",
+        "csMain": "Skupina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gruß-256",
+        "de": "Gruß",
+        "de_article": "der",
+        "lvGloss": "sveiciens",
+        "csMain": "Pozdrav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grüßen-257",
+        "de": "grüßen",
+        "lvGloss": "sveicināt",
+        "csMain": "Pozdravit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gurke-258",
+        "de": "Gurke",
+        "de_article": "die",
+        "lvGloss": "gurķis",
+        "csMain": "Okurka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gut-study",
+        "de": "gut",
+        "lvGloss": "labs",
+        "csMain": "Dobrý",
+        "studyTranslation": "Dobrý",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Haar-260",
+        "de": "Haar",
+        "de_article": "das",
+        "lvGloss": "mats",
+        "csMain": "Vlasy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-haben",
+        "de": "haben",
+        "lvGloss": "man ir",
+        "csMain": "Mám",
+        "studyTranslation": "Mám",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-halb-262",
+        "de": "halb",
+        "lvGloss": "pus",
+        "csMain": "Strana",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hälfte-263",
+        "de": "Hälfte",
+        "de_article": "die",
+        "lvGloss": "puse",
+        "csMain": "Strana",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hals-264",
+        "de": "Hals",
+        "de_article": "der",
+        "lvGloss": "kakls",
+        "csMain": "Krk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-halten",
+        "de": "halten",
+        "lvGloss": "turēt",
+        "csMain": "Držet • Zastavit",
+        "studyTranslation": "Držet • Zastavit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Haltestelle-266",
+        "de": "Haltestelle",
+        "de_article": "die",
+        "lvGloss": "pietura",
+        "csMain": "Zastávka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hand-267",
+        "de": "Hand",
+        "de_article": "die",
+        "lvGloss": "plauksta",
+        "csMain": "Ruka (dlaň)",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handschuh-268",
+        "de": "Handschuh",
+        "de_article": "der",
+        "lvGloss": "cimds",
+        "csMain": "Rukavici",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handtasche-269",
+        "de": "Handtasche",
+        "de_article": "die",
+        "lvGloss": "rokassoma",
+        "csMain": "Kabelka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handtuch-270",
+        "de": "Handtuch",
+        "de_article": "das",
+        "lvGloss": "dvielis",
+        "csMain": "Ručník",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handy-271",
+        "de": "Handy",
+        "de_article": "das",
+        "lvGloss": "mobilais tālrunis",
+        "csMain": "Mobilní telefon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hauptstadt-272",
+        "de": "Hauptstadt",
+        "de_article": "die",
+        "lvGloss": "galvaspilsēta",
+        "csMain": "Hlavní město",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Heft-273",
+        "de": "Heft",
+        "de_article": "das",
+        "lvGloss": "burtnīca",
+        "csMain": "Notebook",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heiraten-274",
+        "de": "heiraten",
+        "lvGloss": "precēties",
+        "csMain": "Oženit se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heiß-275",
+        "de": "heiß",
+        "lvGloss": "karsts",
+        "csMain": "Horký",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heißen",
+        "de": "heißen",
+        "lvGloss": "saukties",
+        "csMain": "Být nazýván • Podlý",
+        "studyTranslation": "Být nazýván • Podlý",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-helfen-277",
+        "de": "helfen",
+        "lvGloss": "palīdzēt",
+        "csMain": "Pomoci",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hemd-278",
+        "de": "Hemd",
+        "de_article": "das",
+        "lvGloss": "krekls",
+        "csMain": "Košili",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Herbst-279",
+        "de": "Herbst",
+        "de_article": "der",
+        "lvGloss": "rudens",
+        "csMain": "Podzim",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Herr-280",
+        "de": "Herr",
+        "de_article": "der",
+        "lvGloss": "kungs",
+        "csMain": "Pan",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heute-281",
+        "de": "heute",
+        "lvGloss": "šodien",
+        "csMain": "Dnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hier-282",
+        "de": "hier",
+        "lvGloss": "šeit",
+        "csMain": "Zde",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hilfe-283",
+        "de": "Hilfe",
+        "de_article": "die",
+        "lvGloss": "palīdzība",
+        "csMain": "Pomoc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hinter-284",
+        "de": "hinter",
+        "lvGloss": "aiz",
+        "csMain": "Za",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hoch-study",
+        "de": "hoch",
+        "lvGloss": "augsts",
+        "csMain": "Vysoký",
+        "studyTranslation": "Vysoký",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-höflich-286",
+        "de": "höflich",
+        "lvGloss": "pieklājīgs",
+        "csMain": "Zdvořilý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hoeren-study",
+        "de": "hören",
+        "lvGloss": "dzirdēt • klausīties",
+        "csMain": "Slyšet • Poslouchat",
+        "studyTranslation": "Slyšet • Poslouchat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hübsch-288",
+        "de": "hübsch",
+        "lvGloss": "glīts",
+        "csMain": "Úhledný • Pěkný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hundert-289",
+        "de": "hundert",
+        "lvGloss": "simts",
+        "csMain": "Sto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hungrig-290",
+        "de": "hungrig",
+        "lvGloss": "izsalcis",
+        "csMain": "Hladový",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ich-291",
+        "de": "ich",
+        "lvGloss": "es",
+        "csMain": "Mě",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ihr",
+        "de": "ihr",
+        "lvGloss": "jūs • viņai",
+        "csMain": "Vy • Ji",
+        "studyTranslation": "Vy • Ji",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-im",
+        "de": "im",
+        "lvGloss": "iekšā (-ā) • kur?",
+        "csMain": "V • Kde?",
+        "studyTranslation": "V • Kde?",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-immer-294",
+        "de": "immer",
+        "lvGloss": "vienmēr",
+        "csMain": "Vždy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-in",
+        "de": "in",
+        "lvGloss": "iekšā • uz",
+        "csMain": "V • Do",
+        "studyTranslation": "V • Do",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ins",
+        "de": "ins",
+        "lvGloss": "iekšā • uz iekšu • kurp?",
+        "csMain": "V • Do • Kam?",
+        "studyTranslation": "V • Do • Kam?",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ja-297",
+        "de": "ja",
+        "lvGloss": "jā",
+        "csMain": "Ano",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Januar-298",
+        "de": "Januar",
+        "de_article": "der",
+        "lvGloss": "janvāris",
+        "csMain": "Leden",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jawohl-299",
+        "de": "jawohl",
+        "lvGloss": "tieši tā",
+        "csMain": "Přesně tak",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jeder-300",
+        "de": "jeder",
+        "lvGloss": "katrs",
+        "csMain": "Každý z nich",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jemand-301",
+        "de": "jemand",
+        "lvGloss": "kāds",
+        "csMain": "Někdo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jetzt-302",
+        "de": "jetzt",
+        "lvGloss": "tagad • pašlaik",
+        "csMain": "Nyní • Aktuálně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Juli-303",
+        "de": "Juli",
+        "de_article": "der",
+        "lvGloss": "jūlijs",
+        "csMain": "Červenec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jung",
+        "de": "jung",
+        "lvGloss": "jauns (par cilvēkiem)",
+        "csMain": "Mladý (o lidech)",
+        "studyTranslation": "Mladý (o lidech)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Juni-305",
+        "de": "Juni",
+        "de_article": "der",
+        "lvGloss": "jūnijs",
+        "csMain": "Červen",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Jeans-306",
+        "de": "Jeans",
+        "de_article": "die",
+        "lvGloss": "džinsi",
+        "csMain": "Džíny",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kaufen-307",
+        "de": "kaufen",
+        "lvGloss": "pirkt",
+        "csMain": "Koupit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kein",
+        "de": "kein",
+        "lvGloss": "neviens • nekāds",
+        "csMain": "Nikdo • Nic",
+        "studyTranslation": "Nikdo • Nic",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Keks-309",
+        "de": "Keks",
+        "de_article": "der",
+        "lvGloss": "cepums",
+        "csMain": "Cookie",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kennen-study",
+        "de": "kennen",
+        "lvGloss": "pazīt",
+        "csMain": "Vědět",
+        "studyTranslation": "Vědět",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wissen-study",
+        "de": "wissen",
+        "lvGloss": "zināt",
+        "csMain": "Vědět",
+        "studyTranslation": "Vědět",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kilogramm-312",
+        "de": "Kilogramm",
+        "de_article": "das",
+        "lvGloss": "kilograms",
+        "csMain": "Kilogram",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kilometer-313",
+        "de": "Kilometer",
+        "de_article": "der",
+        "lvGloss": "kilometrs",
+        "csMain": "Kilometr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kind-314",
+        "de": "Kind",
+        "de_article": "das",
+        "lvGloss": "bērns",
+        "csMain": "Dítě",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kindergarten-315",
+        "de": "Kindergarten",
+        "de_article": "der",
+        "lvGloss": "bērnudārzs",
+        "csMain": "Mateřská škola",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kirche-316",
+        "de": "Kirche",
+        "de_article": "die",
+        "lvGloss": "baznīca",
+        "csMain": "Kostel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kochen-317",
+        "de": "kochen",
+        "lvGloss": "gatavot",
+        "csMain": "Vařit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kommen-318",
+        "de": "kommen",
+        "lvGloss": "nākt",
+        "csMain": "Přijít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-können",
+        "de": "können",
+        "lvGloss": "varēt • prast",
+        "csMain": "Umět • Vědět",
+        "studyTranslation": "Umět • Vědět",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kosten",
+        "de": "kosten",
+        "lvGloss": "maksāt",
+        "csMain": "Platit",
+        "studyTranslation": "Platit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-küssen-321",
+        "de": "küssen",
+        "lvGloss": "skūpstīt",
+        "csMain": "Líbat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lächeln-322",
+        "de": "lächeln",
+        "lvGloss": "smaidīt",
+        "csMain": "Usmívat se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lachen-323",
+        "de": "lachen",
+        "lvGloss": "smieties",
+        "csMain": "Smát se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Honig-324",
+        "de": "Honig",
+        "de_article": "der",
+        "lvGloss": "medus",
+        "csMain": "Med",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hose-325",
+        "de": "Hose",
+        "de_article": "die",
+        "lvGloss": "bikses",
+        "csMain": "Kalhoty",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Huhn-326",
+        "de": "Huhn",
+        "de_article": "das",
+        "lvGloss": "vista",
+        "csMain": "Kuře",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hund-327",
+        "de": "Hund",
+        "de_article": "der",
+        "lvGloss": "suns",
+        "csMain": "Pes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hut-328",
+        "de": "Hut",
+        "de_article": "der",
+        "lvGloss": "cepure",
+        "csMain": "Čepice",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Jahr-329",
+        "de": "Jahr",
+        "de_article": "das",
+        "lvGloss": "gads",
+        "csMain": "Rok",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kaffee-330",
+        "de": "Kaffee",
+        "de_article": "der",
+        "lvGloss": "kafija",
+        "csMain": "Káva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kalender-331",
+        "de": "Kalender",
+        "de_article": "der",
+        "lvGloss": "kalendārs",
+        "csMain": "Kalendář",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kamera-332",
+        "de": "Kamera",
+        "de_article": "die",
+        "lvGloss": "kamera",
+        "csMain": "Fotoaparát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Karotte-333",
+        "de": "Karotte",
+        "de_article": "die",
+        "lvGloss": "burkāns",
+        "csMain": "Mrkev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kartoffel-334",
+        "de": "Kartoffel",
+        "de_article": "die",
+        "lvGloss": "kartupelis",
+        "csMain": "Brambor",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Käse-335",
+        "de": "Käse",
+        "de_article": "der",
+        "lvGloss": "siers",
+        "csMain": "Sýr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Katze-336",
+        "de": "Katze",
+        "de_article": "die",
+        "lvGloss": "kaķis",
+        "csMain": "Kočka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kleid-337",
+        "de": "Kleid",
+        "de_article": "das",
+        "lvGloss": "kleita",
+        "csMain": "Šaty",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kleidung-338",
+        "de": "Kleidung",
+        "de_article": "die",
+        "lvGloss": "apģērbs",
+        "csMain": "Oblečení",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Knoblauch-339",
+        "de": "Knoblauch",
+        "de_article": "der",
+        "lvGloss": "ķiploks",
+        "csMain": "Česnek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Koch-340",
+        "de": "Koch",
+        "de_article": "der",
+        "lvGloss": "pavārs",
+        "csMain": "Vařit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Köchin-341",
+        "de": "Köchin",
+        "de_article": "die",
+        "lvGloss": "pavāre",
+        "csMain": "Vařit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kopf-342",
+        "de": "Kopf",
+        "de_article": "der",
+        "lvGloss": "galva",
+        "csMain": "Hlavu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kraftwagen-343",
+        "de": "Kraftwagen",
+        "de_article": "der",
+        "lvGloss": "automašīna",
+        "csMain": "Auto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Küche-344",
+        "de": "Küche",
+        "de_article": "die",
+        "lvGloss": "virtuve",
+        "csMain": "Kuchyně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kuchen-345",
+        "de": "Kuchen",
+        "de_article": "der",
+        "lvGloss": "kūka",
+        "csMain": "Dort",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kuh-346",
+        "de": "Kuh",
+        "de_article": "die",
+        "lvGloss": "govs",
+        "csMain": "Kráva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kühlschrank-347",
+        "de": "Kühlschrank",
+        "de_article": "der",
+        "lvGloss": "ledusskapis",
+        "csMain": "Lednička",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kuss-348",
+        "de": "Kuss",
+        "de_article": "der",
+        "lvGloss": "skūpsts",
+        "csMain": "Polibek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laden-study",
+        "de": "Laden",
+        "de_article": "der",
+        "lvGloss": "veikals",
+        "csMain": "Nakupovat",
+        "studyTranslation": "Nakupovat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lampe-350",
+        "de": "Lampe",
+        "de_article": "die",
+        "lvGloss": "lampa",
+        "csMain": "Svítilna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-land",
+        "de": "Land",
+        "de_article": "das",
+        "lvGloss": "valsts • zeme",
+        "csMain": "Země • Země",
+        "studyTranslation": "Země • Země",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lang",
+        "de": "lang",
+        "lvGloss": "garš • ilgs",
+        "csMain": "Dlouhý • Dlouhý",
+        "studyTranslation": "Dlouhý • Dlouhý",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lange-353",
+        "de": "lange",
+        "lvGloss": "ilgi",
+        "csMain": "Dlouho",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-langsam-354",
+        "de": "langsam",
+        "lvGloss": "lēns",
+        "csMain": "Pomalý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-langweilig-355",
+        "de": "langweilig",
+        "lvGloss": "garlaicīgs",
+        "csMain": "Nudný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lassen",
+        "de": "lassen",
+        "lvGloss": "atstāt • ļaut",
+        "csMain": "Opustit • Nechat",
+        "studyTranslation": "Opustit • Nechat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laufen",
+        "de": "laufen",
+        "lvGloss": "skriet • darboties",
+        "csMain": "Běžet • Provozovat",
+        "studyTranslation": "Běžet • Provozovat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laut",
+        "de": "laut",
+        "lvGloss": "skaļš",
+        "csMain": "Hlasitý",
+        "studyTranslation": "Hlasitý",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laut-study",
+        "de": "Laut",
+        "de_article": "der",
+        "lvGloss": "skaņa",
+        "csMain": "Zvuk",
+        "studyTranslation": "Zvuk",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leben-360",
+        "de": "leben",
+        "lvGloss": "dzīvot",
+        "csMain": "Žít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lecker-361",
+        "de": "lecker",
+        "lvGloss": "gards",
+        "csMain": "Vynikající",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leer-362",
+        "de": "leer",
+        "lvGloss": "tukšs",
+        "csMain": "Prázdný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-legen",
+        "de": "legen",
+        "lvGloss": "nolikt",
+        "csMain": "Položit",
+        "studyTranslation": "Položit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lehrer-364",
+        "de": "Lehrer",
+        "de_article": "der",
+        "lvGloss": "skolotājs",
+        "csMain": "Učitel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lehrerin-365",
+        "de": "Lehrerin",
+        "de_article": "die",
+        "lvGloss": "skolotāja",
+        "csMain": "Učitel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leicht-366",
+        "de": "leicht",
+        "lvGloss": "viegls",
+        "csMain": "Snadný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leider-367",
+        "de": "leider",
+        "lvGloss": "diemžēl",
+        "csMain": "Bohužel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leise-study",
+        "de": "leise",
+        "lvGloss": "kluss",
+        "csMain": "Klid",
+        "studyTranslation": "Klid",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lesen-369",
+        "de": "lesen",
+        "lvGloss": "lasīt",
+        "csMain": "Číst",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-letzte-370",
+        "de": "letzte",
+        "lvGloss": "pēdējais",
+        "csMain": "Poslední",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Leute-371",
+        "de": "Leute",
+        "de_article": "die",
+        "lvGloss": "ļaudis",
+        "csMain": "Lidé",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Licht-372",
+        "de": "Licht",
+        "de_article": "das",
+        "lvGloss": "gaisma",
+        "csMain": "Světlo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lieb-373",
+        "de": "lieb",
+        "lvGloss": "mīļš",
+        "csMain": "Milý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Liebe-374",
+        "de": "Liebe",
+        "de_article": "die",
+        "lvGloss": "mīlestība",
+        "csMain": "Láska",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lieben-375",
+        "de": "lieben",
+        "lvGloss": "mīlēt",
+        "csMain": "Milovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lied-376",
+        "de": "Lied",
+        "de_article": "das",
+        "lvGloss": "dziesma",
+        "csMain": "Píseň",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-liegen",
+        "de": "liegen",
+        "lvGloss": "atrasties • gulēt",
+        "csMain": "Být • Spát",
+        "studyTranslation": "Být • Spát",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Limonade-378",
+        "de": "Limonade",
+        "de_article": "die",
+        "lvGloss": "limonāde",
+        "csMain": "Limonáda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lineal-379",
+        "de": "Lineal",
+        "de_article": "das",
+        "lvGloss": "lineāls",
+        "csMain": "Pravítko",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-links-380",
+        "de": "links",
+        "lvGloss": "pa kreisi • kreisais",
+        "csMain": "Vlevo • Vlevo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Liste-381",
+        "de": "Liste",
+        "de_article": "die",
+        "lvGloss": "saraksts",
+        "csMain": "Seznam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-liter",
+        "de": "Liter",
+        "de_article": "der",
+        "lvGloss": "litrs",
+        "csMain": "Litr",
+        "studyTranslation": "Litr",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Löffel-383",
+        "de": "Löffel",
+        "de_article": "der",
+        "lvGloss": "karote",
+        "csMain": "Lžíce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Luft-384",
+        "de": "Luft",
+        "de_article": "die",
+        "lvGloss": "gaiss",
+        "csMain": "Vzduch",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lustig-385",
+        "de": "lustig",
+        "lvGloss": "jautrs",
+        "csMain": "Zábava",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-machen",
+        "de": "machen",
+        "lvGloss": "darīt • taisīt",
+        "csMain": "Dělat • Dělat",
+        "studyTranslation": "Dělat • Dělat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mädchen-387",
+        "de": "Mädchen",
+        "de_article": "das",
+        "lvGloss": "meitene",
+        "csMain": "Dívka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mahlzeit-388",
+        "de": "Mahlzeit",
+        "de_article": "die",
+        "lvGloss": "maltīte",
+        "csMain": "Jídlo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mai-389",
+        "de": "Mai",
+        "de_article": "der",
+        "lvGloss": "maijs",
+        "csMain": "Květen",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mal",
+        "de": "Mal",
+        "de_article": "das",
+        "lvGloss": "reize",
+        "csMain": "Čas",
+        "studyTranslation": "Čas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-malen-391",
+        "de": "malen",
+        "lvGloss": "gleznot • krāsot",
+        "csMain": "Malovat • Malovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-manchmal-392",
+        "de": "manchmal",
+        "lvGloss": "dažreiz",
+        "csMain": "Někdy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mandarine-393",
+        "de": "Mandarine",
+        "de_article": "die",
+        "lvGloss": "mandarīns",
+        "csMain": "Mandarinka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mann",
+        "de": "Mann",
+        "de_article": "der",
+        "lvGloss": "vīrietis • vīrs",
+        "csMain": "Muž • Manžel",
+        "studyTranslation": "Muž • Manžel",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Marmelade-395",
+        "de": "Marmelade",
+        "de_article": "die",
+        "lvGloss": "ievārījums",
+        "csMain": "Džem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-März-396",
+        "de": "März",
+        "de_article": "der",
+        "lvGloss": "marts",
+        "csMain": "Pochod",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Maus-397",
+        "de": "Maus",
+        "de_article": "die",
+        "lvGloss": "pele",
+        "csMain": "Myš",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Meer-398",
+        "de": "Meer",
+        "de_article": "das",
+        "lvGloss": "jūra",
+        "csMain": "Moře",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mehl-399",
+        "de": "Mehl",
+        "de_article": "das",
+        "lvGloss": "milti",
+        "csMain": "Mouka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mehr-400",
+        "de": "mehr",
+        "lvGloss": "vairāk",
+        "csMain": "Více",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mein-401",
+        "de": "mein",
+        "lvGloss": "mans",
+        "csMain": "Moje",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mensch-402",
+        "de": "Mensch",
+        "de_article": "der",
+        "lvGloss": "cilvēks",
+        "csMain": "Člověk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Messer-403",
+        "de": "Messer",
+        "de_article": "das",
+        "lvGloss": "nazis",
+        "csMain": "Nůž",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Meter-404",
+        "de": "Meter",
+        "de_article": "der",
+        "lvGloss": "metrs",
+        "csMain": "Metr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Milch-405",
+        "de": "Milch",
+        "de_article": "die",
+        "lvGloss": "piens",
+        "csMain": "Mléko",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Million-406",
+        "de": "Million",
+        "de_article": "die",
+        "lvGloss": "miljons",
+        "csMain": "Milión",
+        "studyTranslation": null,
+        "status": "ERROR",
+        "flags": [
+          "foreign_remnant_in_main"
+        ]
+      },
+      {
+        "id": "a1-Minute-407",
+        "de": "Minute",
+        "de_article": "die",
+        "lvGloss": "minūte",
+        "csMain": "Minutu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mit",
+        "de": "mit",
+        "lvGloss": "ar",
+        "csMain": "S",
+        "studyTranslation": "S",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mitnehmen-409",
+        "de": "mitnehmen",
+        "lvGloss": "ņemt līdzi",
+        "csMain": "Vzít s sebou",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mittag-410",
+        "de": "Mittag",
+        "de_article": "der",
+        "lvGloss": "pusdiena",
+        "csMain": "Oběd",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mittagessen-411",
+        "de": "Mittagessen",
+        "de_article": "das",
+        "lvGloss": "pusdienas",
+        "csMain": "Oběd",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mittwoch-412",
+        "de": "Mittwoch",
+        "de_article": "der",
+        "lvGloss": "trešdiena",
+        "csMain": "Středa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mögen",
+        "de": "mögen",
+        "lvGloss": "patikt",
+        "csMain": "Mít rád",
+        "studyTranslation": "Mít rád",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Möhre-414",
+        "de": "Möhre",
+        "de_article": "die",
+        "lvGloss": "burkāns",
+        "csMain": "Mrkev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Monat-415",
+        "de": "Monat",
+        "de_article": "der",
+        "lvGloss": "mēnesis",
+        "csMain": "Měsíc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Montag-416",
+        "de": "Montag",
+        "de_article": "der",
+        "lvGloss": "pirmdiena",
+        "csMain": "Pondělí",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-morgen",
+        "de": "morgen",
+        "lvGloss": "rīt",
+        "csMain": "Zítra",
+        "studyTranslation": "Zítra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-morgen-study",
+        "de": "Morgen",
+        "de_article": "der",
+        "lvGloss": "rīts",
+        "csMain": "Ráno",
+        "studyTranslation": "Ráno",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-morgens-419",
+        "de": "morgens",
+        "lvGloss": "no rīta",
+        "csMain": "Ráno",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-müde-420",
+        "de": "müde",
+        "lvGloss": "noguris",
+        "csMain": "Unavený",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mund-421",
+        "de": "Mund",
+        "de_article": "der",
+        "lvGloss": "mute",
+        "csMain": "Ústa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Musik-422",
+        "de": "Musik",
+        "de_article": "die",
+        "lvGloss": "mūzika",
+        "csMain": "Hudba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-müssen",
+        "de": "müssen",
+        "lvGloss": "vajadzēt",
+        "csMain": "Potřebovat",
+        "studyTranslation": "Potřebovat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mutter-424",
+        "de": "Mutter",
+        "de_article": "die",
+        "lvGloss": "māte",
+        "csMain": "Matka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mütze-425",
+        "de": "Mütze",
+        "de_article": "die",
+        "lvGloss": "cepure",
+        "csMain": "Čepice",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nach",
+        "de": "nach",
+        "lvGloss": "uz • pēc",
+        "csMain": "Až • Po",
+        "studyTranslation": "Až • Po",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nachmittag-427",
+        "de": "Nachmittag",
+        "de_article": "der",
+        "lvGloss": "pēcpusdiena",
+        "csMain": "Odpoledne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nachmittags-428",
+        "de": "nachmittags",
+        "lvGloss": "pēcpusdienā",
+        "csMain": "Odpoledne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nacht-429",
+        "de": "Nacht",
+        "de_article": "die",
+        "lvGloss": "nakts",
+        "csMain": "Noc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nase-430",
+        "de": "Nase",
+        "de_article": "die",
+        "lvGloss": "deguns",
+        "csMain": "Nos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nass-431",
+        "de": "nass",
+        "lvGloss": "slapjš",
+        "csMain": "Mokré",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Natur-432",
+        "de": "Natur",
+        "de_article": "die",
+        "lvGloss": "daba",
+        "csMain": "Příroda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-natuerlich",
+        "de": "natürlich",
+        "lvGloss": "protams • dabisks",
+        "csMain": "Samozřejmě • Přirozený",
+        "studyTranslation": "Samozřejmě • Přirozený",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neben-434",
+        "de": "neben",
+        "lvGloss": "blakus",
+        "csMain": "Vedle",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nehmen",
+        "de": "nehmen",
+        "lvGloss": "ņemt • paņemt",
+        "csMain": "Vzít • Vzít",
+        "studyTranslation": "Vzít • Vzít",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nein-436",
+        "de": "nein",
+        "lvGloss": "nē",
+        "csMain": "Žádný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nennen-437",
+        "de": "nennen",
+        "lvGloss": "nosaukt",
+        "csMain": "Jmenovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nett-438",
+        "de": "nett",
+        "lvGloss": "jauks",
+        "csMain": "Pěkný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neu",
+        "de": "neu",
+        "lvGloss": "jauns (par lietām)",
+        "csMain": "Nový (o věcech)",
+        "studyTranslation": "Nový (o věcech)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neun-440",
+        "de": "neun",
+        "lvGloss": "deviņi",
+        "csMain": "Devět",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunhundert-441",
+        "de": "neunhundert",
+        "lvGloss": "deviņsimt",
+        "csMain": "Devět set",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunte-442",
+        "de": "neunte",
+        "lvGloss": "devītais",
+        "csMain": "Devátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzehn-443",
+        "de": "neunzehn",
+        "lvGloss": "deviņpadsmit",
+        "csMain": "Devatenáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzehnte-444",
+        "de": "neunzehnte",
+        "lvGloss": "deviņpadsmitais",
+        "csMain": "Devatenáctého",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzig-445",
+        "de": "neunzig",
+        "lvGloss": "deviņdesmit",
+        "csMain": "Devadesát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzigste-446",
+        "de": "neunzigste",
+        "lvGloss": "deviņdesmitais",
+        "csMain": "Devadesátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nicht-447",
+        "de": "nicht",
+        "lvGloss": "ne",
+        "csMain": "Žádný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nichts-448",
+        "de": "nichts",
+        "lvGloss": "nekas",
+        "csMain": "Nic",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nie-449",
+        "de": "nie",
+        "lvGloss": "nekad",
+        "csMain": "Nikdy",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-niemand-450",
+        "de": "niemand",
+        "lvGloss": "neviens",
+        "csMain": "Nikdo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-noch-study",
+        "de": "noch",
+        "lvGloss": "vēl",
+        "csMain": "Ještě",
+        "studyTranslation": "Ještě",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-normal-452",
+        "de": "normal",
+        "lvGloss": "normāls",
+        "csMain": "Normální",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-November-453",
+        "de": "November",
+        "de_article": "der",
+        "lvGloss": "novembris",
+        "csMain": "Listopad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Null-454",
+        "de": "Null",
+        "de_article": "die",
+        "lvGloss": "nulle",
+        "csMain": "Nula",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nummer-455",
+        "de": "Nummer",
+        "de_article": "die",
+        "lvGloss": "numurs",
+        "csMain": "Číslo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nur-study",
+        "de": "nur",
+        "lvGloss": "tikai • vienīgi",
+        "csMain": "Pouze • Pouze",
+        "studyTranslation": "Pouze • Pouze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ob",
+        "de": "ob",
+        "lvGloss": "vai",
+        "csMain": "Nebo",
+        "studyTranslation": "Nebo",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-oben-458",
+        "de": "oben",
+        "lvGloss": "augšā",
+        "csMain": "Výše",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-oder",
+        "de": "oder",
+        "lvGloss": "vai • jeb",
+        "csMain": "Nebo • Nebo",
+        "studyTranslation": "Nebo • Nebo",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-öffnen-460",
+        "de": "öffnen",
+        "lvGloss": "atvērt",
+        "csMain": "Otevřít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-oft-461",
+        "de": "oft",
+        "lvGloss": "bieži",
+        "csMain": "Často",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ohne-462",
+        "de": "ohne",
+        "lvGloss": "bez",
+        "csMain": "Bez",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ohr-463",
+        "de": "Ohr",
+        "de_article": "das",
+        "lvGloss": "auss",
+        "csMain": "Ucho",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Oktober-464",
+        "de": "Oktober",
+        "de_article": "der",
+        "lvGloss": "oktobris",
+        "csMain": "Říjen",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Onkel-465",
+        "de": "Onkel",
+        "de_article": "der",
+        "lvGloss": "tēvocis",
+        "csMain": "Strýc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Orange-466",
+        "de": "Orange",
+        "de_article": "die",
+        "lvGloss": "apelsīns",
+        "csMain": "Pomeranč",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ostern-467",
+        "de": "Ostern",
+        "lvGloss": "Lieldienas",
+        "csMain": "Velikonoční",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Paar-468",
+        "de": "Paar",
+        "de_article": "das",
+        "lvGloss": "pāris",
+        "csMain": "Pár",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Papier-469",
+        "de": "Papier",
+        "de_article": "das",
+        "lvGloss": "papīrs",
+        "csMain": "Papír",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Park-470",
+        "de": "Park",
+        "de_article": "der",
+        "lvGloss": "parks",
+        "csMain": "Park",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-passen",
+        "de": "passen",
+        "lvGloss": "derēt • piestāvēt",
+        "csMain": "Pasovat • Pasovat",
+        "studyTranslation": "Pasovat • Pasovat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pause-472",
+        "de": "Pause",
+        "de_article": "die",
+        "lvGloss": "pārtraukums",
+        "csMain": "Přestávka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Person-473",
+        "de": "Person",
+        "de_article": "die",
+        "lvGloss": "persona",
+        "csMain": "Osoba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pferd-474",
+        "de": "Pferd",
+        "de_article": "das",
+        "lvGloss": "zirgs",
+        "csMain": "Koně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pflanze-475",
+        "de": "Pflanze",
+        "de_article": "die",
+        "lvGloss": "augs",
+        "csMain": "Rostlina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pizza-476",
+        "de": "Pizza",
+        "de_article": "die",
+        "lvGloss": "pica",
+        "csMain": "Pizza",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Plan-477",
+        "de": "Plan",
+        "de_article": "der",
+        "lvGloss": "plāns",
+        "csMain": "Plán",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Platz-478",
+        "de": "Platz",
+        "de_article": "der",
+        "lvGloss": "vieta",
+        "csMain": "Místo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Polizei-479",
+        "de": "Polizei",
+        "de_article": "die",
+        "lvGloss": "policija",
+        "csMain": "Policie",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Post-480",
+        "de": "Post",
+        "de_article": "die",
+        "lvGloss": "pasts",
+        "csMain": "Pošta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Preis-481",
+        "de": "Preis",
+        "de_article": "der",
+        "lvGloss": "cena",
+        "csMain": "Cena",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-probieren",
+        "de": "probieren",
+        "lvGloss": "izmēģināt • nogaršot",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "studyTranslation": "Vyzkoušet • Ochutnat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Problem-483",
+        "de": "Problem",
+        "de_article": "das",
+        "lvGloss": "problēma",
+        "csMain": "Problém",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Programm-484",
+        "de": "Programm",
+        "de_article": "das",
+        "lvGloss": "programma",
+        "csMain": "Naprogramovat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pullover-485",
+        "de": "Pullover",
+        "de_article": "der",
+        "lvGloss": "džemperis",
+        "csMain": "Svetr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Punkt-486",
+        "de": "Punkt",
+        "de_article": "der",
+        "lvGloss": "punkts",
+        "csMain": "Bod",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-putzen-487",
+        "de": "putzen",
+        "lvGloss": "tīrīt",
+        "csMain": "Vyčistit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Rad fahren-488",
+        "de": "Rad fahren",
+        "lvGloss": "braukt ar divriteni",
+        "csMain": "Jezdit na kole",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Radiergummi-489",
+        "de": "Radiergummi",
+        "de_article": "der",
+        "lvGloss": "dzēšamgumija",
+        "csMain": "Guma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rauchen-490",
+        "de": "rauchen",
+        "lvGloss": "smēķēt",
+        "csMain": "Kouřit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rechts-491",
+        "de": "rechts",
+        "lvGloss": "pa labi • labais",
+        "csMain": "Doprava • Doprava",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-reden-492",
+        "de": "reden",
+        "lvGloss": "runāt",
+        "csMain": "Mluvit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Regen-493",
+        "de": "Regen",
+        "de_article": "der",
+        "lvGloss": "lietus",
+        "csMain": "Déšť",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Regenschirm-494",
+        "de": "Regenschirm",
+        "de_article": "der",
+        "lvGloss": "lietussargs",
+        "csMain": "Deštník",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-regnen-495",
+        "de": "regnen",
+        "lvGloss": "līt",
+        "csMain": "Prší",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-reis",
+        "de": "Reis",
+        "de_article": "der",
+        "lvGloss": "rīsi",
+        "csMain": "Rýže",
+        "studyTranslation": "Rýže",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-richtig-497",
+        "de": "richtig",
+        "lvGloss": "pareizs",
+        "csMain": "Opravit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rosa-498",
+        "de": "rosa",
+        "lvGloss": "rozā",
+        "csMain": "Růžový",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rot-499",
+        "de": "rot",
+        "lvGloss": "sarkans",
+        "csMain": "Červený",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rufen-500",
+        "de": "rufen",
+        "lvGloss": "saukt",
+        "csMain": "Zavolat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rund-501",
+        "de": "rund",
+        "lvGloss": "apaļš",
+        "csMain": "Kolo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Rose-502",
+        "de": "Rose",
+        "de_article": "die",
+        "lvGloss": "roze",
+        "csMain": "Růže",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sache-503",
+        "de": "Sache",
+        "de_article": "die",
+        "lvGloss": "lieta",
+        "csMain": "Věc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Saft-504",
+        "de": "Saft",
+        "de_article": "der",
+        "lvGloss": "sula",
+        "csMain": "Šťáva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sagen-study",
+        "de": "sagen",
+        "lvGloss": "teikt",
+        "csMain": "Říct",
+        "studyTranslation": "Říct",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Salat-506",
+        "de": "Salat",
+        "de_article": "der",
+        "lvGloss": "salāti",
+        "csMain": "Salát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Salz-507",
+        "de": "Salz",
+        "de_article": "das",
+        "lvGloss": "sāls",
+        "csMain": "Sůl",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sauber-508",
+        "de": "sauber",
+        "lvGloss": "tīrs",
+        "csMain": "Čistý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schaf-509",
+        "de": "Schaf",
+        "de_article": "das",
+        "lvGloss": "aita",
+        "csMain": "Ovce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schauen-study",
+        "de": "schauen",
+        "lvGloss": "skatīties",
+        "csMain": "Hodinky",
+        "studyTranslation": "Hodinky",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schicken-511",
+        "de": "schicken",
+        "lvGloss": "sūtīt",
+        "csMain": "Poslat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schlafen-512",
+        "de": "schlafen",
+        "lvGloss": "gulēt",
+        "csMain": "Spát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schlecht-513",
+        "de": "schlecht",
+        "lvGloss": "slikts",
+        "csMain": "Špatný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schlüssel-514",
+        "de": "Schlüssel",
+        "de_article": "der",
+        "lvGloss": "atslēga",
+        "csMain": "Klíč",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schmecken-515",
+        "de": "schmecken",
+        "lvGloss": "garšot",
+        "csMain": "Ochutnat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schmutzig-516",
+        "de": "schmutzig",
+        "lvGloss": "netīrs",
+        "csMain": "Špinavý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schnee-517",
+        "de": "Schnee",
+        "de_article": "der",
+        "lvGloss": "sniegs",
+        "csMain": "Bude sněžit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schneien-518",
+        "de": "schneien",
+        "lvGloss": "snigt",
+        "csMain": "Sněží",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schnell-519",
+        "de": "schnell",
+        "lvGloss": "ātrs",
+        "csMain": "Rychle",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schokolade-520",
+        "de": "Schokolade",
+        "de_article": "die",
+        "lvGloss": "šokolāde",
+        "csMain": "Čokoláda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schon-study",
+        "de": "schon",
+        "lvGloss": "jau",
+        "csMain": "Již",
+        "studyTranslation": "Již",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schön-522",
+        "de": "schön",
+        "lvGloss": "skaists",
+        "csMain": "Krásný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schrank-523",
+        "de": "Schrank",
+        "de_article": "der",
+        "lvGloss": "skapis",
+        "csMain": "Skříň",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schreiben-524",
+        "de": "schreiben",
+        "lvGloss": "rakstīt",
+        "csMain": "Psát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schuh-525",
+        "de": "Schuh",
+        "de_article": "der",
+        "lvGloss": "kurpe",
+        "csMain": "Bota",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schule-526",
+        "de": "Schule",
+        "de_article": "die",
+        "lvGloss": "skola",
+        "csMain": "Škola",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schüler-527",
+        "de": "Schüler",
+        "de_article": "der",
+        "lvGloss": "skolnieks",
+        "csMain": "Student",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schwarz-528",
+        "de": "schwarz",
+        "lvGloss": "melns",
+        "csMain": "Černý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schwein-529",
+        "de": "Schwein",
+        "de_article": "das",
+        "lvGloss": "cūka",
+        "csMain": "Prase",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schwester-530",
+        "de": "Schwester",
+        "de_article": "die",
+        "lvGloss": "māsa",
+        "csMain": "Sestra",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schwimmen",
+        "de": "schwimmen",
+        "lvGloss": "peldēt",
+        "csMain": "Plavat",
+        "studyTranslation": "Plavat",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechs-532",
+        "de": "sechs",
+        "lvGloss": "seši",
+        "csMain": "Šest",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechshundert-533",
+        "de": "sechshundert",
+        "lvGloss": "sešsimt",
+        "csMain": "Šest set",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechste-534",
+        "de": "sechste",
+        "lvGloss": "sestais",
+        "csMain": "Šestý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzehn-535",
+        "de": "sechzehn",
+        "lvGloss": "sešpadsmit",
+        "csMain": "Šestnáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzehnte-536",
+        "de": "sechzehnte",
+        "lvGloss": "sešpadsmitais",
+        "csMain": "Šestnáctý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzig-537",
+        "de": "sechzig",
+        "lvGloss": "sešdesmit",
+        "csMain": "Šedesát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzigste-538",
+        "de": "sechzigste",
+        "lvGloss": "sešdesmitais",
+        "csMain": "Šedesátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sehen",
+        "de": "sehen",
+        "lvGloss": "redzēt",
+        "csMain": "Vidět",
+        "studyTranslation": "Vidět",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sehr-540",
+        "de": "sehr",
+        "lvGloss": "ļoti",
+        "csMain": "Velmi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Seife-541",
+        "de": "Seife",
+        "de_article": "die",
+        "lvGloss": "ziepes",
+        "csMain": "Mýdlo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sein",
+        "de": "sein",
+        "lvGloss": "būt",
+        "csMain": "Být",
+        "studyTranslation": "Být",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-seit-543",
+        "de": "seit",
+        "lvGloss": "kopš",
+        "csMain": "Od",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-seite",
+        "de": "Seite",
+        "de_article": "die",
+        "lvGloss": "lappuse • puse",
+        "csMain": "Strana • Strana",
+        "studyTranslation": "Strana • Strana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sekunde-545",
+        "de": "Sekunde",
+        "de_article": "die",
+        "lvGloss": "sekunde",
+        "csMain": "Sekundu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-September-546",
+        "de": "September",
+        "de_article": "der",
+        "lvGloss": "septembris",
+        "csMain": "Září",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sich",
+        "de": "sich",
+        "lvGloss": "sevi • sev",
+        "csMain": "Sebe • Pro sebe",
+        "studyTranslation": "Sebe • Pro sebe",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sicher",
+        "de": "sicher",
+        "lvGloss": "drošs • noteikti",
+        "csMain": "Bezpečný • Jistě",
+        "studyTranslation": "Bezpečný • Jistě",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sie-study",
+        "de": "sie",
+        "lvGloss": "viņi / viņas",
+        "csMain": "Oni / ji",
+        "studyTranslation": "Oni / ji",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sie-study-2",
+        "de": "Sie",
+        "lvGloss": "jūs",
+        "csMain": "Vy",
+        "studyTranslation": "Vy",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebenhundert-551",
+        "de": "siebenhundert",
+        "lvGloss": "septiņsimt",
+        "csMain": "Sedm set",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebente-552",
+        "de": "siebente",
+        "lvGloss": "septītais",
+        "csMain": "Sedmý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzehn-553",
+        "de": "siebzehn",
+        "lvGloss": "septiņpadsmit",
+        "csMain": "Sedmnáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzehnte-554",
+        "de": "siebzehnte",
+        "lvGloss": "septiņpadsmitais",
+        "csMain": "Sedmnáctého",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzig-555",
+        "de": "siebzig",
+        "lvGloss": "septiņdesmit",
+        "csMain": "Sedmdesát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzigste-556",
+        "de": "siebzigste",
+        "lvGloss": "septiņdesmitais",
+        "csMain": "Sedmdesátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-singen-557",
+        "de": "singen",
+        "lvGloss": "dziedāt",
+        "csMain": "Zpívat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sitzen",
+        "de": "sitzen",
+        "lvGloss": "sēdēt",
+        "csMain": "Sedět",
+        "studyTranslation": "Sedět",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-so-559",
+        "de": "so",
+        "lvGloss": "tā",
+        "csMain": "Tak",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Socke-560",
+        "de": "Socke",
+        "de_article": "die",
+        "lvGloss": "zeķe",
+        "csMain": "Ponožka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sofa-561",
+        "de": "Sofa",
+        "de_article": "das",
+        "lvGloss": "dīvāns",
+        "csMain": "Pohovka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sofort-562",
+        "de": "sofort",
+        "lvGloss": "tūlīt",
+        "csMain": "Ihned",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sohn-563",
+        "de": "Sohn",
+        "de_article": "der",
+        "lvGloss": "dēls",
+        "csMain": "Syn",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sollen",
+        "de": "sollen",
+        "lvGloss": "vajadzētu",
+        "csMain": "By měl",
+        "studyTranslation": "By měl",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sommer-565",
+        "de": "Sommer",
+        "de_article": "der",
+        "lvGloss": "vasara",
+        "csMain": "Letní",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Samstag-566",
+        "de": "Samstag",
+        "de_article": "der",
+        "lvGloss": "sestdiena",
+        "csMain": "Sobota",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sonne-567",
+        "de": "Sonne",
+        "de_article": "die",
+        "lvGloss": "saule",
+        "csMain": "Slunce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sonntag-568",
+        "de": "Sonntag",
+        "de_article": "der",
+        "lvGloss": "svētdiena",
+        "csMain": "Neděle",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-spät-569",
+        "de": "spät",
+        "lvGloss": "vēls",
+        "csMain": "Pozdě",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-spazieren gehen-570",
+        "de": "spazieren gehen",
+        "lvGloss": "iet pastaigāties",
+        "csMain": "Jít na procházku",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Spiel-571",
+        "de": "Spiel",
+        "de_article": "das",
+        "lvGloss": "spēle",
+        "csMain": "Hru",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-spielen-572",
+        "de": "spielen",
+        "lvGloss": "spēlēt",
+        "csMain": "Hrát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Spielzeug-573",
+        "de": "Spielzeug",
+        "de_article": "das",
+        "lvGloss": "rotaļlieta",
+        "csMain": "Hračka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sprache-574",
+        "de": "Sprache",
+        "de_article": "die",
+        "lvGloss": "valoda",
+        "csMain": "Jazyk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-stark-575",
+        "de": "stark",
+        "lvGloss": "stiprs",
+        "csMain": "Silný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-stehen",
+        "de": "stehen",
+        "lvGloss": "stāvēt",
+        "csMain": "Stát",
+        "studyTranslation": "Stát",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stern-577",
+        "de": "Stern",
+        "de_article": "der",
+        "lvGloss": "zvaigzne",
+        "csMain": "Hvězda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Straße-578",
+        "de": "Straße",
+        "de_article": "die",
+        "lvGloss": "iela",
+        "csMain": "Ulice",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Straßenbahn-579",
+        "de": "Straßenbahn",
+        "de_article": "die",
+        "lvGloss": "tramvajs",
+        "csMain": "Tramvaj",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stück-580",
+        "de": "Stück",
+        "de_article": "das",
+        "lvGloss": "gabals",
+        "csMain": "Kus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Student-581",
+        "de": "Student",
+        "de_article": "der",
+        "lvGloss": "students",
+        "csMain": "Student",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stuhl-582",
+        "de": "Stuhl",
+        "de_article": "der",
+        "lvGloss": "krēsls",
+        "csMain": "Židli",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stunde-583",
+        "de": "Stunde",
+        "de_article": "die",
+        "lvGloss": "stunda",
+        "csMain": "Hodinu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-suchen-584",
+        "de": "suchen",
+        "lvGloss": "meklēt",
+        "csMain": "Hledat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-süß-585",
+        "de": "süß",
+        "lvGloss": "salds",
+        "csMain": "Sladký",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tag-586",
+        "de": "Tag",
+        "de_article": "der",
+        "lvGloss": "diena",
+        "csMain": "Den",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tante-587",
+        "de": "Tante",
+        "de_article": "die",
+        "lvGloss": "tante",
+        "csMain": "Teta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-tanzen-588",
+        "de": "tanzen",
+        "lvGloss": "dejot",
+        "csMain": "Tančit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tasche-589",
+        "de": "Tasche",
+        "de_article": "die",
+        "lvGloss": "soma",
+        "csMain": "Tašku",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tasse-590",
+        "de": "Tasse",
+        "de_article": "die",
+        "lvGloss": "tase",
+        "csMain": "Pohár",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Taxi-591",
+        "de": "Taxi",
+        "de_article": "das",
+        "lvGloss": "taksometrs",
+        "csMain": "Taxi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tee-592",
+        "de": "Tee",
+        "de_article": "der",
+        "lvGloss": "tēja",
+        "csMain": "Čaj",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Telefon-593",
+        "de": "Telefon",
+        "de_article": "das",
+        "lvGloss": "telefons",
+        "csMain": "Telefon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-telefonieren-594",
+        "de": "telefonieren",
+        "lvGloss": "zvanīt pa tālruni",
+        "csMain": "Zavolat na telefon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Teller-595",
+        "de": "Teller",
+        "de_article": "der",
+        "lvGloss": "šķīvis",
+        "csMain": "Talíř",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-teuer-596",
+        "de": "teuer",
+        "lvGloss": "dārgs",
+        "csMain": "Drahý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Text-597",
+        "de": "Text",
+        "de_article": "der",
+        "lvGloss": "teksts",
+        "csMain": "Text",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tier-598",
+        "de": "Tier",
+        "de_article": "das",
+        "lvGloss": "dzīvnieks",
+        "csMain": "Zvíře",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tisch-599",
+        "de": "Tisch",
+        "de_article": "der",
+        "lvGloss": "galds",
+        "csMain": "Tabulka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tochter-600",
+        "de": "Tochter",
+        "de_article": "die",
+        "lvGloss": "meita",
+        "csMain": "Dcera",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Toilette-601",
+        "de": "Toilette",
+        "de_article": "die",
+        "lvGloss": "tualete",
+        "csMain": "Toaleta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tomate-602",
+        "de": "Tomate",
+        "de_article": "die",
+        "lvGloss": "tomāts",
+        "csMain": "Rajče",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Treppe-603",
+        "de": "Treppe",
+        "de_article": "die",
+        "lvGloss": "kāpnes",
+        "csMain": "Schody",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-trinken-604",
+        "de": "trinken",
+        "lvGloss": "dzert",
+        "csMain": "Pít",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-tun-605",
+        "de": "tun",
+        "lvGloss": "darīt",
+        "csMain": "Dělat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tür-606",
+        "de": "Tür",
+        "de_article": "die",
+        "lvGloss": "durvis",
+        "csMain": "Dveře",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-U-Bahn-607",
+        "de": "U-Bahn",
+        "de_article": "die",
+        "lvGloss": "metro",
+        "csMain": "Metro",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-über",
+        "de": "über",
+        "lvGloss": "virs • par",
+        "csMain": "Přes • Pro",
+        "studyTranslation": "Přes • Pro",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-überall-609",
+        "de": "überall",
+        "lvGloss": "visur",
+        "csMain": "Všude",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-übermorgen-610",
+        "de": "übermorgen",
+        "lvGloss": "parīt",
+        "csMain": "Pozítří",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-um",
+        "de": "um",
+        "lvGloss": "ap • pulksten",
+        "csMain": "Kolem • Hodiny",
+        "studyTranslation": "Kolem • Hodiny",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-und-612",
+        "de": "und",
+        "lvGloss": "un",
+        "csMain": "A",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-unser-613",
+        "de": "unser",
+        "lvGloss": "mūsu",
+        "csMain": "Náš",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-unten-614",
+        "de": "unten",
+        "lvGloss": "apakšā",
+        "csMain": "Na dně",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-unter",
+        "de": "unter",
+        "lvGloss": "zem",
+        "csMain": "Pod",
+        "studyTranslation": "Pod",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vase-616",
+        "de": "Vase",
+        "de_article": "die",
+        "lvGloss": "vāze",
+        "csMain": "Váza",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vater-617",
+        "de": "Vater",
+        "de_article": "der",
+        "lvGloss": "tēvs",
+        "csMain": "Otec",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verheiratet-618",
+        "de": "verheiratet",
+        "lvGloss": "precējies",
+        "csMain": "Ženatý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verkaufen-619",
+        "de": "verkaufen",
+        "lvGloss": "pārdot",
+        "csMain": "Prodat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verlieren-620",
+        "de": "verlieren",
+        "lvGloss": "zaudēt",
+        "csMain": "Prohrát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verstehen",
+        "de": "verstehen",
+        "lvGloss": "saprast",
+        "csMain": "Pochopit",
+        "studyTranslation": "Pochopit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-versuchen-622",
+        "de": "versuchen",
+        "lvGloss": "mēģināt",
+        "csMain": "Zkusit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-viel-623",
+        "de": "viel",
+        "lvGloss": "daudz",
+        "csMain": "Mnoho",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vielleicht-624",
+        "de": "vielleicht",
+        "lvGloss": "varbūt",
+        "csMain": "Možná",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vier-625",
+        "de": "vier",
+        "lvGloss": "četri",
+        "csMain": "Čtyři",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierhundert-626",
+        "de": "vierhundert",
+        "lvGloss": "četrsimt",
+        "csMain": "Čtyři sta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierte-627",
+        "de": "vierte",
+        "lvGloss": "ceturtais",
+        "csMain": "Čtvrtý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzehn-628",
+        "de": "vierzehn",
+        "lvGloss": "četrpadsmit",
+        "csMain": "Čtrnáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzehnte-629",
+        "de": "vierzehnte",
+        "lvGloss": "četrpadsmitais",
+        "csMain": "Čtrnáctý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzig-630",
+        "de": "vierzig",
+        "lvGloss": "četrdesmit",
+        "csMain": "Čtyřicet",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzigste-631",
+        "de": "vierzigste",
+        "lvGloss": "četrdesmitais",
+        "csMain": "Čtyřicátý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vogel-632",
+        "de": "Vogel",
+        "de_article": "der",
+        "lvGloss": "putns",
+        "csMain": "Pták",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-voll-633",
+        "de": "voll",
+        "lvGloss": "pilns",
+        "csMain": "Plný",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vom",
+        "de": "vom",
+        "lvGloss": "no",
+        "csMain": "Z",
+        "studyTranslation": "Z",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-von-635",
+        "de": "von",
+        "lvGloss": "no",
+        "csMain": "Z",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vor",
+        "de": "vor",
+        "lvGloss": "pirms • priekšā",
+        "csMain": "Před • Před",
+        "studyTranslation": "Před • Před",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vorname-637",
+        "de": "Vorname",
+        "de_article": "der",
+        "lvGloss": "vārds",
+        "csMain": "Slovo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wald-638",
+        "de": "Wald",
+        "de_article": "der",
+        "lvGloss": "mežs",
+        "csMain": "Les",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wand-639",
+        "de": "Wand",
+        "de_article": "die",
+        "lvGloss": "siena",
+        "csMain": "Zeď",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wann-640",
+        "de": "wann",
+        "lvGloss": "kad",
+        "csMain": "Když",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-warm-641",
+        "de": "warm",
+        "lvGloss": "silts",
+        "csMain": "Teplý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-warten-642",
+        "de": "warten",
+        "lvGloss": "gaidīt",
+        "csMain": "Čekat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-warum-643",
+        "de": "warum",
+        "lvGloss": "kāpēc",
+        "csMain": "Proč",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-was",
+        "de": "was",
+        "lvGloss": "kas • ko",
+        "csMain": "Kdo • Co",
+        "studyTranslation": "Kdo • Co",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-waschen-645",
+        "de": "waschen",
+        "lvGloss": "mazgāt",
+        "csMain": "Umýt se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sich waschen-646",
+        "de": "sich waschen",
+        "lvGloss": "mazgāties",
+        "csMain": "Umýt se",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Weg-647",
+        "de": "Weg",
+        "de_article": "der",
+        "lvGloss": "ceļš",
+        "csMain": "Silnice",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Weihnachten-648",
+        "de": "Weihnachten",
+        "lvGloss": "Ziemassvētki",
+        "csMain": "Vánoce",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wein-649",
+        "de": "Wein",
+        "de_article": "der",
+        "lvGloss": "vīns",
+        "csMain": "Víno",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-weinen-650",
+        "de": "weinen",
+        "lvGloss": "raudāt",
+        "csMain": "Plakat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-weiß-651",
+        "de": "weiß",
+        "lvGloss": "balts",
+        "csMain": "Bílý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-welcher-652",
+        "de": "welcher",
+        "lvGloss": "kurš",
+        "csMain": "Který",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Welt-653",
+        "de": "Welt",
+        "de_article": "die",
+        "lvGloss": "pasaule",
+        "csMain": "Svět",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wenig-654",
+        "de": "wenig",
+        "lvGloss": "maz",
+        "csMain": "Nic moc",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wenn",
+        "de": "wenn",
+        "lvGloss": "ja • kad",
+        "csMain": "Jestliže • Kdy",
+        "studyTranslation": "Jestliže • Kdy",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wer",
+        "de": "wer",
+        "lvGloss": "kas • kurš",
+        "csMain": "Kdo • Kdo",
+        "studyTranslation": "Kdo • Kdo",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-werden",
+        "de": "werden",
+        "lvGloss": "kļūt",
+        "csMain": "Stát se",
+        "studyTranslation": "Stát se",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wetter",
+        "de": "Wetter",
+        "de_article": "das",
+        "lvGloss": "laiks (laikapstākļi)",
+        "csMain": "Čas (počasí)",
+        "studyTranslation": "Čas (počasí)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wichtig-659",
+        "de": "wichtig",
+        "lvGloss": "svarīgs",
+        "csMain": "Důležité",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wie",
+        "de": "wie",
+        "lvGloss": "kā • cik",
+        "csMain": "Jak • Kolik",
+        "studyTranslation": "Jak • Kolik",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wieder-661",
+        "de": "wieder",
+        "lvGloss": "atkal",
+        "csMain": "Znovu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wie viel-662",
+        "de": "wie viel",
+        "lvGloss": "cik",
+        "csMain": "Kolik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wind-663",
+        "de": "Wind",
+        "de_article": "der",
+        "lvGloss": "vējš",
+        "csMain": "Vítr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zigarette-664",
+        "de": "Zigarette",
+        "de_article": "die",
+        "lvGloss": "cigarete",
+        "csMain": "Cigaretu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zimmer-665",
+        "de": "Zimmer",
+        "de_article": "das",
+        "lvGloss": "istaba",
+        "csMain": "Pokoj",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "de_article": "die",
+        "lvGloss": "citrons",
+        "csMain": "Citrón",
+        "studyTranslation": null,
+        "status": "ERROR",
+        "flags": [
+          "foreign_remnant_in_main"
+        ]
+      },
+      {
+        "id": "a1-Zoo-667",
+        "de": "Zoo",
+        "de_article": "der",
+        "lvGloss": "zooloģiskais dārzs",
+        "csMain": "Zoo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zu",
+        "de": "zu",
+        "lvGloss": "uz • pie",
+        "csMain": "Do • At",
+        "studyTranslation": "Do • At",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zucker-669",
+        "de": "Zucker",
+        "de_article": "der",
+        "lvGloss": "cukurs",
+        "csMain": "Cukr",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zuerst-670",
+        "de": "zuerst",
+        "lvGloss": "vispirms",
+        "csMain": "Především",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zug",
+        "de": "Zug",
+        "de_article": "der",
+        "lvGloss": "vilciens",
+        "csMain": "Vlak",
+        "studyTranslation": "Vlak",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zum",
+        "de": "zum",
+        "lvGloss": "uz • pie",
+        "csMain": "Do • At",
+        "studyTranslation": "Do • At",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zumachen-673",
+        "de": "zumachen",
+        "lvGloss": "aiztaisīt",
+        "csMain": "Zblízka",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zurück-674",
+        "de": "zurück",
+        "lvGloss": "atpakaļ",
+        "csMain": "Zadní",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zusammen-675",
+        "de": "zusammen",
+        "lvGloss": "kopā",
+        "csMain": "Spolu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zu viel-676",
+        "de": "zu viel",
+        "lvGloss": "par daudz",
+        "csMain": "Příliš mnoho",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwanzig-677",
+        "de": "zwanzig",
+        "lvGloss": "divdesmit",
+        "csMain": "Dvacet",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwanzigste-678",
+        "de": "zwanzigste",
+        "lvGloss": "divdesmitais",
+        "csMain": "Dvacátého",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwei-679",
+        "de": "zwei",
+        "lvGloss": "divi",
+        "csMain": "Dva",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zweihundert-680",
+        "de": "zweihundert",
+        "lvGloss": "divsimt",
+        "csMain": "Dvě stě",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zweimal-681",
+        "de": "zweimal",
+        "lvGloss": "divreiz",
+        "csMain": "Dvakrát",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zweite-682",
+        "de": "zweite",
+        "lvGloss": "otrais",
+        "csMain": "Druhý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zwiebel-683",
+        "de": "Zwiebel",
+        "de_article": "die",
+        "lvGloss": "sīpols",
+        "csMain": "Cibule",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwischen-684",
+        "de": "zwischen",
+        "lvGloss": "starp",
+        "csMain": "Mezi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwölf-685",
+        "de": "zwölf",
+        "lvGloss": "divpadsmit",
+        "csMain": "Dvanáct",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwölfte-686",
+        "de": "zwölfte",
+        "lvGloss": "divpadsmitais",
+        "csMain": "Dvanáctý",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fernsehen",
+        "de": "fernsehen",
+        "lvGloss": "skatīties televizoru",
+        "csMain": "Dívat se na televizi",
+        "studyTranslation": "Dívat se na televizi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fernsehen-study",
+        "de": "Fernsehen",
+        "de_article": "das",
+        "lvGloss": "televīzija",
+        "csMain": "Televize",
+        "studyTranslation": "Televize",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-appetit",
+        "de": "Appetit",
+        "de_article": "der",
+        "lvGloss": "apetīte",
+        "csMain": "Chuť",
+        "studyTranslation": "Chuť",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-essen",
+        "de": "essen",
+        "lvGloss": "ēst",
+        "csMain": "Jíst",
+        "studyTranslation": "Jíst",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-essen-study",
+        "de": "Essen",
+        "de_article": "das",
+        "lvGloss": "ēdiens • maltīte",
+        "csMain": "Jídlo • Jídlo",
+        "studyTranslation": "Jídlo • Jídlo",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gemuese",
+        "de": "Gemüse",
+        "de_article": "das",
+        "lvGloss": "dārzeņi",
+        "csMain": "Zelenina",
+        "studyTranslation": "Zelenina",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-obst",
+        "de": "Obst",
+        "de_article": "das",
+        "lvGloss": "augļi",
+        "csMain": "Ovoce",
+        "studyTranslation": "Ovoce",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ferien",
+        "de": "Ferien",
+        "de_article": "die",
+        "lvGloss": "brīvdienas (skola)",
+        "csMain": "Prázdniny (škola)",
+        "studyTranslation": "Prázdniny (škola)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-urlaub",
+        "de": "Urlaub",
+        "de_article": "der",
+        "lvGloss": "atvaļinājums",
+        "csMain": "Dovolená",
+        "studyTranslation": "Dovolená",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stadt-696",
+        "de": "Stadt",
+        "de_article": "die",
+        "lvGloss": "pilsēta",
+        "csMain": "Město",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Staat-697",
+        "de": "Staat",
+        "de_article": "der",
+        "lvGloss": "valsts",
+        "csMain": "Země",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-uhr",
+        "de": "Uhr",
+        "de_article": "die",
+        "lvGloss": "pulkstenis",
+        "csMain": "Hodiny",
+        "studyTranslation": "Hodiny",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zeit",
+        "de": "Zeit",
+        "de_article": "die",
+        "lvGloss": "laiks (brīdis / laika posms)",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "studyTranslation": "Čas (okamžik / časový úsek)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-einmal",
+        "de": "einmal",
+        "lvGloss": "vienreiz • reiz",
+        "csMain": "Jednou • Jednou",
+        "studyTranslation": "Jednou • Jednou",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-noch-mal",
+        "de": "noch mal",
+        "lvGloss": "vēlreiz",
+        "csMain": "Znovu",
+        "studyTranslation": "Znovu",
+        "status": "OK",
+        "flags": []
+      }
+    ],
+    "summary": {
+      "OK": 699,
+      "WARNING": 0,
+      "ERROR": 3
+    }
+  },
+  "studyCards": {
+    "issues": [
+      {
+        "severity": "high",
+        "id": "a1-liter",
+        "message": "standardStudy missing examples"
+      }
+    ],
+    "pass": false
+  },
+  "sectionAccents": {
+    "issues": [
+      {
+        "severity": "high",
+        "id": "a1-fahren",
+        "term": "vest",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-fahren",
+        "term": "braukt",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-fahren",
+        "term": "braukt",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-fahren",
+        "term": "vest",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-fahren",
+        "term": "aizvest",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-fahren",
+        "section": "explanation",
+        "term": "auto",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-fahren",
+        "section": "explanation",
+        "term": "vest",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-in",
+        "term": "Berlīnē",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-in",
+        "term": "Berlīnē",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-in",
+        "section": "examples",
+        "term": "Berlīnē",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-land",
+        "term": "planēta",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-sitzen",
+        "term": "sēdēt",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-sitzen",
+        "term": "sēž",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-sitzen",
+        "term": "sēdēt",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-sitzen",
+        "section": "explanation",
+        "term": "sēdēt",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-sitzen",
+        "section": "explanation",
+        "term": "sēž",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-stehen",
+        "term": "sēdēt",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-über",
+        "term": "tēma",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "high",
+        "id": "a1-essen",
+        "term": "ēst",
+        "message": "LV remnant in sectionAccents"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-essen",
+        "section": "explanation",
+        "term": "esse",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-essen",
+        "section": "explanation",
+        "term": "ēst",
+        "message": "Accent term not found in section text"
+      }
+    ],
+    "pass": false
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "comparisonStudy": {
+    "issues": [],
+    "count": 0
+  },
+  "standardStudy": {
+    "count": 124
+  },
+  "minimalStudy": {
+    "count": 0
+  }
+}
