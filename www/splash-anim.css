@@ -1,0 +1,64 @@
+/* X Orbiglot — animēts logo ielādes ekrānā (~2,7 s; ielādes ekrāns ilgst 4 s).
+   Secība: zemeslode → riņķi (sākas aiz zemeslodes) → simboli A, ع, あ, अ, 文 → oriģinālais logo.
+   Klasi .is-animated vai .is-static pievieno splash-anim.js. */
+.splash-anim {
+  position: relative;
+  overflow: visible;
+}
+.splash-anim > img,
+.splash-anim > .sa-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.splash-anim > img { opacity: 0; }
+.splash-anim > .sa-svg { overflow: visible; opacity: 0; }
+.splash-anim .sa-stroke {
+  fill: none;
+  stroke-linecap: round;
+  stroke-dasharray: 1 1;
+  stroke-dashoffset: 1;
+}
+
+/* Statisks režīms (samazināta kustība vai attēli neielādējās laikā) */
+.app-splash-screen.is-static .splash-anim > .sa-final { opacity: 1; }
+
+/* Animācija */
+.app-splash-screen.is-animated .splash-anim > .sa-svg { opacity: 1; animation: sa-out 200ms ease-in 2650ms both; }
+.app-splash-screen.is-animated .sa-globe { animation: sa-globe 1500ms cubic-bezier(.2,.7,.2,1) both; }
+.app-splash-screen.is-animated .sa-stroke { animation: sa-draw 620ms cubic-bezier(.45,.05,.35,1) both; }
+.app-splash-screen.is-animated .sa-vring-orange .sa-stroke { animation-delay: 300ms; }
+.app-splash-screen.is-animated .sa-vring-blue .sa-stroke   { animation-delay: 520ms; }
+.app-splash-screen.is-animated .sa-vring-cyan .sa-stroke   { animation-delay: 740ms; }
+.app-splash-screen.is-animated .sa-base { animation: sa-fade 350ms ease-out 1300ms both; }
+.app-splash-screen.is-animated .sa-bub { transform-origin: var(--sa-ox) var(--sa-oy); animation: sa-pop 340ms cubic-bezier(.3,1.5,.5,1) both; }
+.splash-anim .sa-bub-1 { --sa-ox: 50.2%; --sa-oy: 18.8%; animation-delay: 1450ms !important; }
+.splash-anim .sa-bub-2 { --sa-ox: 82.7%; --sa-oy: 43.1%; animation-delay: 1600ms !important; }
+.splash-anim .sa-bub-3 { --sa-ox: 67.2%; --sa-oy: 76.6%; animation-delay: 1750ms !important; }
+.splash-anim .sa-bub-4 { --sa-ox: 27.9%; --sa-oy: 74.1%; animation-delay: 1900ms !important; }
+.splash-anim .sa-bub-5 { --sa-ox: 20.7%; --sa-oy: 36.6%; animation-delay: 2050ms !important; }
+.app-splash-screen.is-animated .sa-final { animation: sa-fade 250ms ease-out 2400ms both; }
+.app-splash-screen.is-animated .app-splash-title { animation: sa-text 450ms ease-out 2150ms both; }
+.app-splash-screen.is-animated .app-splash-subtitle { animation: sa-text 450ms ease-out 2300ms both; }
+
+@keyframes sa-globe {
+  0%   { opacity: 0; transform: scale(.86); filter: brightness(.25) blur(3px); }
+  30%  { opacity: 1; transform: scale(1);   filter: brightness(.45) blur(1.6px); }
+  100% { opacity: 1; transform: scale(1);   filter: brightness(.6) blur(1.2px); }
+}
+@keyframes sa-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@keyframes sa-out  { from { opacity: 1; } to { opacity: 0; } }
+@keyframes sa-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes sa-pop {
+  0%   { opacity: 0; transform: scale(.35); }
+  70%  { opacity: 1; transform: scale(1.08); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes sa-text {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
