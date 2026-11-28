@@ -16,6 +16,8 @@ $rootFiles = @(
     'audio-index.js',
     'storage.js',
     'premium.js',
+    'splash-anim.css',
+    'splash-anim.js',
     'wordRain.js'
 )
 
@@ -26,6 +28,14 @@ if (Test-Path $assetsSrc) {
         New-Item -ItemType Directory -Path $assetsDst | Out-Null
     }
     Copy-Item -Path (Join-Path $assetsSrc 'icon-only.png') -Destination (Join-Path $assetsDst 'icon-only.png') -Force
+    $splashSrc = Join-Path $assetsSrc 'splash'
+    $splashDst = Join-Path $assetsDst 'splash'
+    if (Test-Path $splashSrc) {
+        if (-not (Test-Path $splashDst)) {
+            New-Item -ItemType Directory -Path $splashDst | Out-Null
+        }
+        Copy-Item -Path (Join-Path $splashSrc '*') -Destination $splashDst -Force
+    }
 }
 
 $languagesSrc = Join-Path $root 'languages'
