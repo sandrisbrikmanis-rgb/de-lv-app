@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Vrati kupovine",
     "manage": "Upravljaj pretplatom",
     "note": "Pretplata se automatski obnavlja. Možete je otkazati u bilo kom trenutku na Google Play-u.",
-    "lockedLabel": "Dostupno uz Premium"
+    "lockedLabel": "Dostupno uz Premium",
+    "haveCode": "Imam kod",
+    "codePlaceholder": "Unesite kod",
+    "codeApply": "Aktiviraj",
+    "codeSuccess": "Kod je prihvaćen! Premium je aktiviran.",
+    "codeInvalid": "Ovaj kod nije važeći."
   }
 };

@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Επαναφορά αγορών",
     "manage": "Διαχείριση συνδρομής",
     "note": "Η συνδρομή ανανεώνεται αυτόματα. Μπορείτε να την ακυρώσετε οποιαδήποτε στιγμή στο Google Play.",
-    "lockedLabel": "Διαθέσιμο με Premium"
+    "lockedLabel": "Διαθέσιμο με Premium",
+    "haveCode": "Έχω κωδικό",
+    "codePlaceholder": "Εισαγάγετε κωδικό",
+    "codeApply": "Ενεργοποίηση",
+    "codeSuccess": "Ο κωδικός έγινε δεκτός! Το Premium ενεργοποιήθηκε.",
+    "codeInvalid": "Αυτός ο κωδικός δεν είναι έγκυρος."
   }
 };

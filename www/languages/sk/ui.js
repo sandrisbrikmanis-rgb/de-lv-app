@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Obnoviť nákupy",
     "manage": "Spravovať predplatné",
     "note": "Predplatné sa obnovuje automaticky. Kedykoľvek ho môžete zrušiť v Google Play.",
-    "lockedLabel": "Dostupné s Premium"
+    "lockedLabel": "Dostupné s Premium",
+    "haveCode": "Mám kód",
+    "codePlaceholder": "Zadajte kód",
+    "codeApply": "Aktivovať",
+    "codeSuccess": "Kód bol prijatý! Premium je aktivované.",
+    "codeInvalid": "Tento kód nie je platný."
   }
 };

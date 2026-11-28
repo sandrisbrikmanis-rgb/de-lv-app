@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Rikthe blerjet",
     "manage": "Menaxho abonimin",
     "note": "Abonimi rinovohet automatikisht. Mund ta anuloni në çdo kohë në Google Play.",
-    "lockedLabel": "I disponueshëm me Premium"
+    "lockedLabel": "I disponueshëm me Premium",
+    "haveCode": "Kam një kod",
+    "codePlaceholder": "Shkruani kodin",
+    "codeApply": "Aktivizo",
+    "codeSuccess": "Kodi u pranua! Premium është aktivizuar.",
+    "codeInvalid": "Ky kod nuk është i vlefshëm."
   }
 };

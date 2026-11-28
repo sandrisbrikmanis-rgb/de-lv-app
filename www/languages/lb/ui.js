@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Käf restauréieren",
     "manage": "Abonnement geréieren",
     "note": "D'Abonnement gëtt automatesch verlängert. Dir kënnt et zu all Moment op Google Play kënnegen.",
-    "lockedLabel": "Disponibel mat Premium"
+    "lockedLabel": "Disponibel mat Premium",
+    "haveCode": "Ech hunn e Code",
+    "codePlaceholder": "Code aginn",
+    "codeApply": "Aktivéieren",
+    "codeSuccess": "Code akzeptéiert! Premium ass aktivéiert.",
+    "codeInvalid": "Dëse Code ass net valabel."
   }
 };

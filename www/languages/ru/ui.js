@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Восстановить покупки",
     "manage": "Управлять подпиской",
     "note": "Подписка продлевается автоматически. Её можно отменить в любое время в Google Play.",
-    "lockedLabel": "Доступно с Premium"
+    "lockedLabel": "Доступно с Premium",
+    "haveCode": "У меня есть код",
+    "codePlaceholder": "Введите код",
+    "codeApply": "Активировать",
+    "codeSuccess": "Код принят! Premium активирован.",
+    "codeInvalid": "Этот код недействителен."
   }
 };

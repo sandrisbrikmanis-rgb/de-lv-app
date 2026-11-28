@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Endurheimta kaup",
     "manage": "Stjórna áskrift",
     "note": "Áskriftin endurnýjast sjálfkrafa. Þú getur sagt henni upp hvenær sem er í Google Play.",
-    "lockedLabel": "Í boði með Premium"
+    "lockedLabel": "Í boði með Premium",
+    "haveCode": "Ég er með kóða",
+    "codePlaceholder": "Sláðu inn kóða",
+    "codeApply": "Virkja",
+    "codeSuccess": "Kóðinn var samþykktur! Premium er virkt.",
+    "codeInvalid": "Þessi kóði er ekki gildur."
   }
 };

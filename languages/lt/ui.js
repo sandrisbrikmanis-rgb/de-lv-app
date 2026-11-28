@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Atkurti pirkimus",
     "manage": "Tvarkyti prenumeratą",
     "note": "Prenumerata atnaujinama automatiškai. Ją galite bet kada atšaukti Google Play.",
-    "lockedLabel": "Prieinama su Premium"
+    "lockedLabel": "Prieinama su Premium",
+    "haveCode": "Turiu kodą",
+    "codePlaceholder": "Įveskite kodą",
+    "codeApply": "Aktyvuoti",
+    "codeSuccess": "Kodas priimtas! Premium aktyvuotas.",
+    "codeInvalid": "Šis kodas negalioja."
   }
 };

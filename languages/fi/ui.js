@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Palauta ostot",
     "manage": "Hallinnoi tilausta",
     "note": "Tilaus uusiutuu automaattisesti. Voit peruuttaa sen milloin tahansa Google Playssa.",
-    "lockedLabel": "Saatavilla Premiumilla"
+    "lockedLabel": "Saatavilla Premiumilla",
+    "haveCode": "Minulla on koodi",
+    "codePlaceholder": "Syötä koodi",
+    "codeApply": "Aktivoi",
+    "codeSuccess": "Koodi hyväksytty! Premium on käytössä.",
+    "codeInvalid": "Koodi ei kelpaa."
   }
 };

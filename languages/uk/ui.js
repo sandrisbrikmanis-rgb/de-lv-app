@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Відновити покупки",
     "manage": "Керувати підпискою",
     "note": "Підписка поновлюється автоматично. Її можна скасувати будь-коли в Google Play.",
-    "lockedLabel": "Доступно з Premium"
+    "lockedLabel": "Доступно з Premium",
+    "haveCode": "У мене є код",
+    "codePlaceholder": "Введіть код",
+    "codeApply": "Активувати",
+    "codeSuccess": "Код прийнято! Premium активовано.",
+    "codeInvalid": "Цей код недійсний."
   }
 };
