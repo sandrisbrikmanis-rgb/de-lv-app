@@ -15,6 +15,7 @@ $rootFiles = @(
     'groups.js',
     'audio-index.js',
     'storage.js',
+    'premium.js',
     'wordRain.js'
 )
 

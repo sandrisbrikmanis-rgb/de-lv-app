@@ -7550,7 +7550,46 @@ function goToHomeScreen() {
   renderMainMenuButtons();
 }
 
+function premiumLockKind(item) {
+  if (item.type === "verbs") return "verbs";
+  if (item.type === "group") return "group";
+  return null;
+}
+
+function isMenuItemPremiumLocked(item) {
+  const kind = premiumLockKind(item);
+  return Boolean(kind && window.AppPremium?.isLocked?.(kind, item.key));
+}
+
+function applyPremiumLocks() {
+  const lockable = [
+    ["kurssVerbBasicsBtn", "course", "verbBasics"],
+    ["kurssSentenceStructureBtn", "course", "sentenceStructure"]
+  ];
+  courseLessonIds.forEach((lessonId) => lockable.push([`${lessonId}Btn`, "lesson", lessonId]));
+  lockable.forEach(([elementKey, kind, id]) => {
+    const button = elements[elementKey];
+    if (!button) return;
+    const locked = Boolean(window.AppPremium?.isLocked?.(kind, id));
+    button.classList.toggle("is-premium-locked", locked);
+    const arrow = button.querySelector(".kurss-arrow");
+    if (arrow) arrow.textContent = locked ? "🔒" : "›";
+  });
+}
+
+function openIfUnlocked(kind, id, action) {
+  if (window.AppPremium?.isLocked?.(kind, id)) {
+    window.AppPremium.openPaywall();
+    return;
+  }
+  action();
+}
+
 function handleMainMenuSelection(item) {
+  if (isMenuItemPremiumLocked(item)) {
+    window.AppPremium.openPaywall();
+    return;
+  }
   if (item.type === "kurss") {
       openKurss();
     return;
@@ -7587,6 +7626,14 @@ function renderMainMenuButtons() {
     const label = document.createElement("span");
     label.className = "mobile-menu-btn-label";
     label.textContent = item.label;
+    if (isMenuItemPremiumLocked(item)) {
+      button.classList.add("is-premium-locked");
+      const lock = document.createElement("span");
+      lock.className = "premium-lock";
+      lock.setAttribute("aria-label", t("premium.lockedLabel"));
+      lock.textContent = "🔒";
+      label.appendChild(lock);
+    }
     button.appendChild(label);
 
     const count = mainMenuCount(item);
@@ -8822,6 +8869,8 @@ function updateKurssStaticLabels() {
     if (desc) desc.textContent = getCourseLessonMenuDesc(lessonNumber);
   }
 
+  applyPremiumLocks();
+
   const kurssTip = document.getElementById("kurssTip");
   if (kurssTip) {
     const textWrap = kurssTip.querySelector("span:not(.kurss-tip-icon)");
@@ -9115,15 +9164,20 @@ courseLessonIds.forEach((lessonId) => {
   const button = elements[`${lessonId}Btn`];
   const panel = elements[lessonId];
   if (button) {
-    button.addEventListener("click", () => openCourseLesson(lessonId));
+    button.addEventListener("click", () => openIfUnlocked("lesson", lessonId, () => openCourseLesson(lessonId)));
   }
   if (panel) {
     panel.addEventListener("toggle", handleCourseLessonToggle, true);
     panel.addEventListener("click", handleCourseLessonClick);
   }
 });
-elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
-elements.kurssSentenceStructureBtn.addEventListener("click", openSentenceStructureLesson);
+elements.kurssVerbBasicsBtn.addEventListener("click", () => openIfUnlocked("course", "verbBasics", openVerbBasicsLesson));
+elements.kurssSentenceStructureBtn.addEventListener("click", () => openIfUnlocked("course", "sentenceStructure", openSentenceStructureLesson));
+applyPremiumLocks();
+window.AppPremium?.onChange?.(() => {
+  applyPremiumLocks();
+  if (state.navScreen === "home") renderMainMenuButtons();
+});
 elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
 elements.kurssConsonantsLessonBtn.addEventListener("click", openConsonantsLesson);
 elements.kurssPanel.addEventListener("click", (event) => {

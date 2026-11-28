@@ -70,7 +70,7 @@ if (-not (Test-Path $aabOutput)) {
 $packageJson = Get-Content (Join-Path $root 'package.json') -Raw | ConvertFrom-Json
 $version = if ($packageJson.version) { $packageJson.version } else { '1.0.0' }
 $timestamp = Get-Date -Format 'yyyyMMdd-HHmm'
-$aabFileName = 'vacuvaloda-v' + $version + '-' + $timestamp + '.aab'
+$aabFileName = 'x-orbiglot-v' + $version + '-' + $timestamp + '.aab'
 
 Write-Host '=== 4/4 Kopē .aab uz gala-produkts ==='
 Copy-AabArtifact -Source $aabOutput -DestinationDir $galaProduktsDir -FileName $aabFileName

@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Tvary:",
       "noteLabel": "Poznámka:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Úroveň A1 a začiatok kurzu sú zadarmo. Premium odomkne všetko ostatné.",
+    "benefitLevels": "Úrovne A2–C2",
+    "benefitVerbs": "Všetky slovesá s tvarmi",
+    "benefitSentences": "Všetky vety",
+    "benefitCourse": "Lekcie 4–21, základy slovies a stavba vety",
+    "monthly": "Mesačne",
+    "yearly": "Ročne",
+    "perMonth": "{price} / mesiac",
+    "perYear": "{price} / rok",
+    "bestValue": "Najvýhodnejšie",
+    "loading": "Načítavajú sa ceny…",
+    "processing": "Čakajte, prosím…",
+    "success": "Ďakujeme! Premium je aktivované.",
+    "pending": "Platba sa spracúva. Premium sa aktivuje po jej potvrdení.",
+    "error": "Nákup sa nepodaril. Skúste to znova.",
+    "unavailable": "Nákupy momentálne nie sú dostupné. Skontrolujte internetové pripojenie a Google Play.",
+    "nothingToRestore": "Nenašlo sa žiadne aktívne predplatné.",
+    "restore": "Obnoviť nákupy",
+    "manage": "Spravovať predplatné",
+    "note": "Predplatné sa obnovuje automaticky. Kedykoľvek ho môžete zrušiť v Google Play.",
+    "lockedLabel": "Dostupné s Premium"
   }
 };

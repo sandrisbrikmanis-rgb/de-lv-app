@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Формы:",
       "noteLabel": "Заметка:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Уровень A1 и начало курса бесплатны. Premium открывает всё остальное.",
+    "benefitLevels": "Уровни A2–C2",
+    "benefitVerbs": "Все глаголы с формами",
+    "benefitSentences": "Все предложения",
+    "benefitCourse": "Уроки 4–21, основы глаголов и строение предложения",
+    "monthly": "В месяц",
+    "yearly": "В год",
+    "perMonth": "{price} / месяц",
+    "perYear": "{price} / год",
+    "bestValue": "Выгоднее",
+    "loading": "Загрузка цен…",
+    "processing": "Пожалуйста, подождите…",
+    "success": "Спасибо! Premium активирован.",
+    "pending": "Платёж обрабатывается. Premium будет активирован после его подтверждения.",
+    "error": "Покупка не удалась. Попробуйте ещё раз.",
+    "unavailable": "Покупки сейчас недоступны. Проверьте подключение к интернету и Google Play.",
+    "nothingToRestore": "Активная подписка не найдена.",
+    "restore": "Восстановить покупки",
+    "manage": "Управлять подпиской",
+    "note": "Подписка продлевается автоматически. Её можно отменить в любое время в Google Play.",
+    "lockedLabel": "Доступно с Premium"
   }
 };

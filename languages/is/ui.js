@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Myndir:",
       "noteLabel": "Athugasemd:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Stig A1 og upphaf námskeiðsins eru ókeypis. Premium opnar allt annað.",
+    "benefitLevels": "Stig A2–C2",
+    "benefitVerbs": "Allar sagnir með beygingarmyndum",
+    "benefitSentences": "Allar setningar",
+    "benefitCourse": "Kennslustundir 4–21, undirstöðuatriði sagna og setningaskipan",
+    "monthly": "Mánaðarlega",
+    "yearly": "Árlega",
+    "perMonth": "{price} á mánuði",
+    "perYear": "{price} á ári",
+    "bestValue": "Hagstæðast",
+    "loading": "Hleður verðum…",
+    "processing": "Augnablik…",
+    "success": "Takk! Premium er virkt.",
+    "pending": "Greiðslan er í vinnslu. Premium verður virkjað þegar hún hefur verið staðfest.",
+    "error": "Kaupin tókust ekki. Reyndu aftur.",
+    "unavailable": "Kaup eru ekki í boði eins og er. Athugaðu nettenginguna og Google Play.",
+    "nothingToRestore": "Engin virk áskrift fannst.",
+    "restore": "Endurheimta kaup",
+    "manage": "Stjórna áskrift",
+    "note": "Áskriftin endurnýjast sjálfkrafa. Þú getur sagt henni upp hvenær sem er í Google Play.",
+    "lockedLabel": "Í boði með Premium"
   }
 };

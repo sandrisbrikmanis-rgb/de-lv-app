@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Vormen:",
       "noteLabel": "Opmerking:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Niveau A1 en het begin van de cursus zijn gratis. Premium ontgrendelt al het andere.",
+    "benefitLevels": "Niveaus A2–C2",
+    "benefitVerbs": "Alle werkwoorden met hun vormen",
+    "benefitSentences": "Alle zinnen",
+    "benefitCourse": "Lessen 4–21, basis van werkwoorden en zinsbouw",
+    "monthly": "Maandelijks",
+    "yearly": "Jaarlijks",
+    "perMonth": "{price} / maand",
+    "perYear": "{price} / jaar",
+    "bestValue": "Voordeligst",
+    "loading": "Prijzen laden…",
+    "processing": "Even geduld…",
+    "success": "Bedankt! Premium is geactiveerd.",
+    "pending": "Je betaling wordt verwerkt. Premium wordt geactiveerd zodra de betaling is bevestigd.",
+    "error": "De aankoop is niet gelukt. Probeer het opnieuw.",
+    "unavailable": "Aankopen zijn nu niet beschikbaar. Controleer je internetverbinding en Google Play.",
+    "nothingToRestore": "Geen actief abonnement gevonden.",
+    "restore": "Aankopen herstellen",
+    "manage": "Abonnement beheren",
+    "note": "Het abonnement wordt automatisch verlengd. Je kunt het op elk moment opzeggen in Google Play.",
+    "lockedLabel": "Beschikbaar met Premium"
   }
 };

@@ -10,7 +10,7 @@ android {
     namespace = "com.vacuvaloda.app"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.vacuvaloda.app"
+        applicationId "com.sbcognitio.xde"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

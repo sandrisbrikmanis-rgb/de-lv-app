@@ -110,6 +110,7 @@
     "@capacitor/android": "^8.4.1",
     "@capacitor/core": "^8.4.1",
     "@capacitor/ios": "^8.4.1",
+    "@capgo/native-purchases": "8.11.0",
     "canvas-confetti": "^1.9.4",
     "dotenv": "^17.4.2",
     "openai": "^6.45.0"

@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Formulaires :",
       "noteLabel": "Indication :"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Le niveau A1 et le début du cours sont gratuits. Premium débloque tout le reste.",
+    "benefitLevels": "Niveaux A2–C2",
+    "benefitVerbs": "Tous les verbes avec leurs formes",
+    "benefitSentences": "Toutes les phrases",
+    "benefitCourse": "Leçons 4 à 21, bases des verbes et structure de la phrase",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "perMonth": "{price} / mois",
+    "perYear": "{price} / an",
+    "bestValue": "Le plus avantageux",
+    "loading": "Chargement des prix…",
+    "processing": "Veuillez patienter…",
+    "success": "Merci ! Premium est activé.",
+    "pending": "Votre paiement est en cours de traitement. Premium sera activé dès qu'il sera confirmé.",
+    "error": "L'achat n'a pas abouti. Veuillez réessayer.",
+    "unavailable": "Les achats ne sont pas disponibles pour le moment. Vérifiez votre connexion Internet et Google Play.",
+    "nothingToRestore": "Aucun abonnement actif n'a été trouvé.",
+    "restore": "Restaurer les achats",
+    "manage": "Gérer l'abonnement",
+    "note": "L'abonnement se renouvelle automatiquement. Vous pouvez le résilier à tout moment dans Google Play.",
+    "lockedLabel": "Disponible avec Premium"
   }
 };

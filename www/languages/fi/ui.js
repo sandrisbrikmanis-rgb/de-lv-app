@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Muodot:",
       "noteLabel": "Huomautus:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Taso A1 ja kurssin alku ovat maksuttomia. Premium avaa kaiken muun.",
+    "benefitLevels": "Tasot A2–C2",
+    "benefitVerbs": "Kaikki verbit muotoineen",
+    "benefitSentences": "Kaikki lauseet",
+    "benefitCourse": "Oppitunnit 4–21, verbien perusteet ja lauserakenne",
+    "monthly": "Kuukausittain",
+    "yearly": "Vuosittain",
+    "perMonth": "{price} / kk",
+    "perYear": "{price} / vuosi",
+    "bestValue": "Edullisin",
+    "loading": "Ladataan hintoja…",
+    "processing": "Odota hetki…",
+    "success": "Kiitos! Premium on käytössä.",
+    "pending": "Maksua käsitellään. Premium otetaan käyttöön, kun maksu on vahvistettu.",
+    "error": "Osto epäonnistui. Yritä uudelleen.",
+    "unavailable": "Ostot eivät ole nyt käytettävissä. Tarkista internetyhteys ja Google Play.",
+    "nothingToRestore": "Aktiivista tilausta ei löytynyt.",
+    "restore": "Palauta ostot",
+    "manage": "Hallinnoi tilausta",
+    "note": "Tilaus uusiutuu automaattisesti. Voit peruuttaa sen milloin tahansa Google Playssa.",
+    "lockedLabel": "Saatavilla Premiumilla"
   }
 };

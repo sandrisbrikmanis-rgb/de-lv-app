@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Formos:",
       "noteLabel": "Pastaba:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "A1 lygis ir kurso pradžia yra nemokami. Premium atveria visa kita.",
+    "benefitLevels": "A2–C2 lygiai",
+    "benefitVerbs": "Visi veiksmažodžiai su formomis",
+    "benefitSentences": "Visi sakiniai",
+    "benefitCourse": "4–21 pamokos, veiksmažodžių pagrindai ir sakinio sandara",
+    "monthly": "Kas mėnesį",
+    "yearly": "Kas metus",
+    "perMonth": "{price} / mėn.",
+    "perYear": "{price} / metus",
+    "bestValue": "Naudingiau",
+    "loading": "Įkeliamos kainos…",
+    "processing": "Palaukite…",
+    "success": "Ačiū! Premium aktyvuotas.",
+    "pending": "Mokėjimas apdorojamas. Premium bus aktyvuotas, kai mokėjimas bus patvirtintas.",
+    "error": "Pirkimas nepavyko. Bandykite dar kartą.",
+    "unavailable": "Pirkimai šiuo metu negalimi. Patikrinkite interneto ryšį ir Google Play.",
+    "nothingToRestore": "Aktyvi prenumerata nerasta.",
+    "restore": "Atkurti pirkimus",
+    "manage": "Tvarkyti prenumeratą",
+    "note": "Prenumerata atnaujinama automatiškai. Ją galite bet kada atšaukti Google Play.",
+    "lockedLabel": "Prieinama su Premium"
   }
 };

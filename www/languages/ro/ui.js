@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Forme:",
       "noteLabel": "Atenţie:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Nivelul A1 și începutul cursului sunt gratuite. Premium deblochează tot restul.",
+    "benefitLevels": "Nivelurile A2–C2",
+    "benefitVerbs": "Toate verbele cu formele lor",
+    "benefitSentences": "Toate propozițiile",
+    "benefitCourse": "Lecțiile 4–21, bazele verbelor și structura propoziției",
+    "monthly": "Lunar",
+    "yearly": "Anual",
+    "perMonth": "{price} / lună",
+    "perYear": "{price} / an",
+    "bestValue": "Cel mai avantajos",
+    "loading": "Se încarcă prețurile…",
+    "processing": "Vă rugăm să așteptați…",
+    "success": "Mulțumim! Premium este activ.",
+    "pending": "Plata este în curs de procesare. Premium va fi activat după confirmarea plății.",
+    "error": "Achiziția nu a reușit. Încercați din nou.",
+    "unavailable": "Achizițiile nu sunt disponibile acum. Verificați conexiunea la internet și Google Play.",
+    "nothingToRestore": "Nu a fost găsit niciun abonament activ.",
+    "restore": "Restabilește achizițiile",
+    "manage": "Gestionează abonamentul",
+    "note": "Abonamentul se reînnoiește automat. Îl puteți anula oricând în Google Play.",
+    "lockedLabel": "Disponibil cu Premium"
   }
 };

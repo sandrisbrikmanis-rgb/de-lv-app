@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Oblici:",
       "noteLabel": "Napomena:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Razina A1 i početak tečaja su besplatni. Premium otključava sve ostalo.",
+    "benefitLevels": "Razine A2–C2",
+    "benefitVerbs": "Svi glagoli s oblicima",
+    "benefitSentences": "Sve rečenice",
+    "benefitCourse": "Lekcije 4–21, osnove glagola i građa rečenice",
+    "monthly": "Mjesečno",
+    "yearly": "Godišnje",
+    "perMonth": "{price} / mjesec",
+    "perYear": "{price} / godina",
+    "bestValue": "Najisplativije",
+    "loading": "Učitavanje cijena…",
+    "processing": "Pričekajte…",
+    "success": "Hvala! Premium je aktiviran.",
+    "pending": "Plaćanje se obrađuje. Premium će se aktivirati nakon potvrde plaćanja.",
+    "error": "Kupnja nije uspjela. Pokušajte ponovno.",
+    "unavailable": "Kupnje trenutačno nisu dostupne. Provjerite internetsku vezu i Google Play.",
+    "nothingToRestore": "Nije pronađena aktivna pretplata.",
+    "restore": "Vrati kupnje",
+    "manage": "Upravljaj pretplatom",
+    "note": "Pretplata se automatski obnavlja. Možete je otkazati u bilo kojem trenutku na Google Playu.",
+    "lockedLabel": "Dostupno uz Premium"
   }
 };

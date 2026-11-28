@@ -421,5 +421,29 @@ window.LANGUAGE_UI_STRINGS = {
       "formsLabel": "Forme:",
       "noteLabel": "Atenţie:"
     }
+  },
+  "premium": {
+    "title": "X Orbiglot Premium",
+    "subtitle": "Niveli A1 dhe fillimi i kursit janë falas. Premium zhbllokon gjithçka tjetër.",
+    "benefitLevels": "Nivelet A2–C2",
+    "benefitVerbs": "Të gjitha foljet me format e tyre",
+    "benefitSentences": "Të gjitha fjalitë",
+    "benefitCourse": "Mësimet 4–21, bazat e foljeve dhe ndërtimi i fjalisë",
+    "monthly": "Mujore",
+    "yearly": "Vjetore",
+    "perMonth": "{price} / muaj",
+    "perYear": "{price} / vit",
+    "bestValue": "Më e leverdishme",
+    "loading": "Po ngarkohen çmimet…",
+    "processing": "Ju lutemi prisni…",
+    "success": "Faleminderit! Premium është aktivizuar.",
+    "pending": "Pagesa po përpunohet. Premium do të aktivizohet sapo të konfirmohet.",
+    "error": "Blerja nuk u krye. Ju lutemi provoni përsëri.",
+    "unavailable": "Blerjet nuk janë të disponueshme tani. Kontrolloni lidhjen me internetin dhe Google Play.",
+    "nothingToRestore": "Nuk u gjet asnjë abonim aktiv.",
+    "restore": "Rikthe blerjet",
+    "manage": "Menaxho abonimin",
+    "note": "Abonimi rinovohet automatikisht. Mund ta anuloni në çdo kohë në Google Play.",
+    "lockedLabel": "I disponueshëm me Premium"
   }
 };
