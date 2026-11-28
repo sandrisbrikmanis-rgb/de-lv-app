@@ -1,0 +1,27 @@
+{
+  "batch_id": "LRB-025",
+  "classification": "G2_A1_OWNER_RESIDUAL_SEMANTIC_SOURCE_LANGUAGE_AUDIT_PASS",
+  "pass": true,
+  "rows_audited": 50,
+  "labot": 44,
+  "nelabot": 6,
+  "pending": 0,
+  "residual_wrong_language_violations": 0,
+  "issue_cards": [],
+  "issues": [],
+  "semantic_micro_repair_cards": [
+    "a1-vor",
+    "a1-verstehen",
+    "a1-zu",
+    "a1-zum",
+    "bitte",
+    "Bitte",
+    "bleiben",
+    "bringen"
+  ],
+  "semantic_micro_repair_violations": 0,
+  "semantic_violation_cards": [],
+  "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "verdict": "LRB_025_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-11T14:55:00.000Z"
+}

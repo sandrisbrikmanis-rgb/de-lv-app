@@ -1,0 +1,83 @@
+{
+  "pass": true,
+  "classification": "G2_A1_RECHECK_350_MERGE_COMPLETE",
+  "row_count": 350,
+  "unique_stable_ids": 350,
+  "labot": 27,
+  "nelabot": 323,
+  "pending": 0,
+  "provenance_individual_count": 350,
+  "batch_count": 7,
+  "batch_summaries": [
+    {
+      "batch_id": "LRB-R350-001",
+      "row_count": 50,
+      "labot": 2,
+      "nelabot": 48,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "d068e4159ea010b54903d106e801b9ba4be2a1bd153d198491bd5a61dbbc91f7",
+      "input_sha256": "fae2c7ef9e0cf1bf188a8defaff0759c3ce43cc8b118fa1544b0fb10eda941bb"
+    },
+    {
+      "batch_id": "LRB-R350-002",
+      "row_count": 50,
+      "labot": 5,
+      "nelabot": 45,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "85956af64d2ff6840b74f41ce37758a271504df48586823dc40fc99c84a8b95e",
+      "input_sha256": "c31217806e76fa17de4a6d1f1c3ad64fdad65601ce323ec4addb92368d9c092d"
+    },
+    {
+      "batch_id": "LRB-R350-003",
+      "row_count": 50,
+      "labot": 3,
+      "nelabot": 47,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "1b10e6c629995cacf801feb7662773efb913660c5d27476c118efd0045742c9d",
+      "input_sha256": "38b32955c867544321147a241100f9d05fe4b4d52c8f2677a15b0827166e7885"
+    },
+    {
+      "batch_id": "LRB-R350-004",
+      "row_count": 50,
+      "labot": 7,
+      "nelabot": 43,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "2c275107a11b996263fbaa6b5468dc533c9ae39e69645ba241c83c795b7ba847",
+      "input_sha256": "23fde418a28a112ed15807b04ee22601ea27b6248b5a500e4c4cd1b8915e4f1e"
+    },
+    {
+      "batch_id": "LRB-R350-005",
+      "row_count": 50,
+      "labot": 1,
+      "nelabot": 49,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "fa802a71af93f6e143816383f78c442d50fcbd63bb762730c7963e426a545f03",
+      "input_sha256": "7172954aa285309d39c981d658778c9a3cb237399d84640b05ee9286548c3562"
+    },
+    {
+      "batch_id": "LRB-R350-006",
+      "row_count": 50,
+      "labot": 3,
+      "nelabot": 47,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "3478fa7f0c8400cd1dc2d82351e5d042b330b008ea584cf2ab56e9ffe7d93b6b",
+      "input_sha256": "5648ce9be6fbe1ecda4afd8301bbb59c91445fb97fd3e665cec9475b36f477ee"
+    },
+    {
+      "batch_id": "LRB-R350-007",
+      "row_count": 50,
+      "labot": 6,
+      "nelabot": 44,
+      "anti_bulk_pass": true,
+      "decisions_sha256": "414f8315eada13f85e7ab54be32df2d24e32d9e64c37b41b7c96f6aa1a927007",
+      "input_sha256": "a845052e947552d474fdd1f0257af0b59f59773687a6d4e6cf5f3e808333d391"
+    }
+  ],
+  "combined_input_sha256": "a581168e15070b8c434d768c7f8a60626b90ad208d93bd96c9b4df2b795ada16",
+  "decisions_final_sha256": "c8a354f7b2ac34f35a9c8480bbe17891db021b012b00752de3c97c0a6e49b18a",
+  "remaining_final_sha256": "b49668a17be68c2f3e933d705f28ee5e72f2e5893310e95e4d2e5232045e8db5",
+  "merge_manifest_path": "reports/g2-a1-owner/manifests/LRB-R350-merge-start.json",
+  "merge_manifest_sha256": "603e35b3ef43a4553abebde8a177017058c65d1166ebb72e2af3a3b22f400f06",
+  "decisions_final_path": "reports/g2-a1-owner/consolidated/recheck-350-decisions-final.csv",
+  "remaining_final_path": "reports/g2-a1-owner/consolidated/recheck-350-remaining-final.csv"
+}
