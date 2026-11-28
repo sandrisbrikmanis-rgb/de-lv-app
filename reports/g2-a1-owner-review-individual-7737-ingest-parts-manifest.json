@@ -1,0 +1,35 @@
+{
+  "uploadDir": "/home/ubuntu/.cursor/projects/workspace/uploads",
+  "review7737": {
+    "parts": [
+      "review-7737-part-001-of-004_1497.csv",
+      "review-7737-part-002-of-004_0612.csv",
+      "review-7737-part-003-of-004_9555.csv",
+      "review-7737-part-004-of-004_d6a1.csv"
+    ],
+    "sha256": "23b2dfd6aa62732483cdf3c018ae80e8e8961b5d5ca835a15d4d01fc1b22e1e0",
+    "rows": 7737
+  },
+  "pending5104": {
+    "parts": [
+      "pending-5104-part-001-of-003_26d6.csv",
+      "pending-5104-part-002-of-003_3946.csv",
+      "pending-5104-part-003-of-003_1695.csv"
+    ],
+    "sha256": "35925b1234bf8bbcd62fc30c97b7cb52a4b96948959607b8ad4ede7e5d6f074d",
+    "rows": 5104
+  },
+  "consolidated22650": {
+    "parts": [
+      "consolidated-22650-part-001-of-007_65e0.csv",
+      "consolidated-22650-part-002-of-007_46a1.csv",
+      "consolidated-22650-part-003-of-007_0c35.csv",
+      "consolidated-22650-part-004-of-007_bbf9.csv",
+      "consolidated-22650-part-005-of-007_389f.csv",
+      "consolidated-22650-part-006-of-007_a424.csv",
+      "consolidated-22650-part-007-of-007_c441.csv"
+    ],
+    "sha256": "2cf0803bbda7bb1f3b059b32c862ff8e9567565c390eee08a2e96bc4a863724e",
+    "rows": 22650
+  }
+}
