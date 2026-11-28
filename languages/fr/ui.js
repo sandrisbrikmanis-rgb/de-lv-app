@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Restaurer les achats",
     "manage": "Gérer l'abonnement",
     "note": "L'abonnement se renouvelle automatiquement. Vous pouvez le résilier à tout moment dans Google Play.",
-    "lockedLabel": "Disponible avec Premium"
+    "lockedLabel": "Disponible avec Premium",
+    "haveCode": "J'ai un code",
+    "codePlaceholder": "Saisissez le code",
+    "codeApply": "Activer",
+    "codeSuccess": "Code accepté ! Premium est activé.",
+    "codeInvalid": "Ce code n'est pas valide."
   }
 };

@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Врати ги купувањата",
     "manage": "Управувај со претплатата",
     "note": "Претплатата се обновува автоматски. Можете да ја откажете во секое време на Google Play.",
-    "lockedLabel": "Достапно со Premium"
+    "lockedLabel": "Достапно со Premium",
+    "haveCode": "Имам код",
+    "codePlaceholder": "Внесете код",
+    "codeApply": "Активирај",
+    "codeSuccess": "Кодот е прифатен! Premium е активиран.",
+    "codeInvalid": "Овој код не е важечки."
   }
 };

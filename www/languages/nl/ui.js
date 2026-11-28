@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Aankopen herstellen",
     "manage": "Abonnement beheren",
     "note": "Het abonnement wordt automatisch verlengd. Je kunt het op elk moment opzeggen in Google Play.",
-    "lockedLabel": "Beschikbaar met Premium"
+    "lockedLabel": "Beschikbaar met Premium",
+    "haveCode": "Ik heb een code",
+    "codePlaceholder": "Voer code in",
+    "codeApply": "Activeren",
+    "codeSuccess": "Code geaccepteerd! Premium is geactiveerd.",
+    "codeInvalid": "Deze code is niet geldig."
   }
 };

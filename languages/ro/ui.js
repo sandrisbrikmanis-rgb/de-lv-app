@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Restabilește achizițiile",
     "manage": "Gestionează abonamentul",
     "note": "Abonamentul se reînnoiește automat. Îl puteți anula oricând în Google Play.",
-    "lockedLabel": "Disponibil cu Premium"
+    "lockedLabel": "Disponibil cu Premium",
+    "haveCode": "Am un cod",
+    "codePlaceholder": "Introduceți codul",
+    "codeApply": "Activează",
+    "codeSuccess": "Cod acceptat! Premium este activ.",
+    "codeInvalid": "Acest cod nu este valid."
   }
 };

@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Vásárlások visszaállítása",
     "manage": "Előfizetés kezelése",
     "note": "Az előfizetés automatikusan megújul. Bármikor lemondhatod a Google Playen.",
-    "lockedLabel": "Premiummal érhető el"
+    "lockedLabel": "Premiummal érhető el",
+    "haveCode": "Van kódom",
+    "codePlaceholder": "Add meg a kódot",
+    "codeApply": "Aktiválás",
+    "codeSuccess": "Kód elfogadva! A Premium aktív.",
+    "codeInvalid": "Ez a kód nem érvényes."
   }
 };

@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Obnovi nakupe",
     "manage": "Upravljaj naročnino",
     "note": "Naročnina se samodejno podaljša. Kadar koli jo lahko prekličete v Google Play.",
-    "lockedLabel": "Na voljo s Premium"
+    "lockedLabel": "Na voljo s Premium",
+    "haveCode": "Imam kodo",
+    "codePlaceholder": "Vnesite kodo",
+    "codeApply": "Aktiviraj",
+    "codeSuccess": "Koda je sprejeta! Premium je aktiviran.",
+    "codeInvalid": "Ta koda ni veljavna."
   }
 };

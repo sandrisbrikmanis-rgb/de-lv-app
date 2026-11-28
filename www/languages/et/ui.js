@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Taasta ostud",
     "manage": "Halda tellimust",
     "note": "Tellimus uueneb automaatselt. Saad selle igal ajal Google Plays tühistada.",
-    "lockedLabel": "Saadaval Premiumiga"
+    "lockedLabel": "Saadaval Premiumiga",
+    "haveCode": "Mul on kood",
+    "codePlaceholder": "Sisesta kood",
+    "codeApply": "Aktiveeri",
+    "codeSuccess": "Kood on vastu võetud! Premium on aktiveeritud.",
+    "codeInvalid": "See kood ei kehti."
   }
 };

@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Återställ köp",
     "manage": "Hantera prenumeration",
     "note": "Prenumerationen förnyas automatiskt. Du kan säga upp den när som helst i Google Play.",
-    "lockedLabel": "Tillgängligt med Premium"
+    "lockedLabel": "Tillgängligt med Premium",
+    "haveCode": "Jag har en kod",
+    "codePlaceholder": "Ange kod",
+    "codeApply": "Aktivera",
+    "codeSuccess": "Koden godkändes! Premium är aktiverat.",
+    "codeInvalid": "Koden är inte giltig."
   }
 };

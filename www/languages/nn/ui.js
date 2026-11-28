@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Gjenopprett kjøp",
     "manage": "Administrer abonnement",
     "note": "Abonnementet blir fornya automatisk. Du kan seie det opp når som helst i Google Play.",
-    "lockedLabel": "Tilgjengeleg med Premium"
+    "lockedLabel": "Tilgjengeleg med Premium",
+    "haveCode": "Eg har ein kode",
+    "codePlaceholder": "Skriv inn kode",
+    "codeApply": "Aktiver",
+    "codeSuccess": "Koden er godteken! Premium er aktivert.",
+    "codeInvalid": "Denne koden er ikkje gyldig."
   }
 };

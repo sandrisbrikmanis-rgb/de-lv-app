@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Възстановяване на покупки",
     "manage": "Управление на абонамента",
     "note": "Абонаментът се подновява автоматично. Можете да го откажете по всяко време в Google Play.",
-    "lockedLabel": "Достъпно с Premium"
+    "lockedLabel": "Достъпно с Premium",
+    "haveCode": "Имам код",
+    "codePlaceholder": "Въведете код",
+    "codeApply": "Активиране",
+    "codeSuccess": "Кодът е приет! Premium е активиран.",
+    "codeInvalid": "Този код е невалиден."
   }
 };

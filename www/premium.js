@@ -8,6 +8,18 @@
   var PLANS = ["monthly", "yearly"];
   var STORAGE_KEY = "premiumActive";
 
+  // Dāvanu kodi: lietotnē glabājas tikai SHA-256 nospiedumi (sāls + kods bez domuzīmēm, lielajiem burtiem).
+  // Derīgs kods atbloķē Premium uz šīs ierīces pastāvīgi. Kodu atsauc, izņemot tā nospiedumu.
+  var GIFT_KEY = "premiumGift";
+  var GIFT_SALT = "x-orbiglot-gift-v1:";
+  var GIFT_HASHES = [
+    "2df8a2d3d319bc6c5e9da1468a8eaa56896ff3dfee0d236d6f64214af651de19",
+    "3e4c67b90f932d689e91c743bac25a7efb741111e0cae0d7bf3afdbea6dd6cc2",
+    "af3b123a3231bb29a5b60650d8d403f69eb27039ac133e2d04669a3e6f57fb95",
+    "2223c3ddd69e948778b9430fa1f0db40a98d5f071a7de39497ee6e5476e138ba",
+    "cadefcb791ed7bb22d8e8f7bf14088cd16169e0aac2ce2c6ec8ea9d33ca69387"
+  ];
+
   // Bez maksas: A1 kartītes, Kurss → Izruna, Artikuli, Vietniekvārdi, Nodarbības 1–3.
   var FREE_GROUPS = { A1: true };
   var FREE_LESSONS = { kurssLesson1: true, kurssLesson2: true, kurssLesson3: true };
@@ -38,6 +50,7 @@
   }
 
   var premium = store().getItem(STORAGE_KEY) === "1";
+  var gift = store().getItem(GIFT_KEY) === "1";
 
   function tr(key, params) {
     if (window.AppI18n && typeof window.AppI18n.t === "function") {
@@ -48,7 +61,7 @@
   }
 
   function isPremium() {
-    return !gatingActive() || premium;
+    return !gatingActive() || premium || gift;
   }
 
   function isLocked(kind, id) {
@@ -60,16 +73,45 @@
     return false;
   }
 
+  function emit() {
+    var value = isPremium();
+    listeners.forEach(function (fn) {
+      try { fn(value); } catch (e) { console.error(e); }
+    });
+  }
+
   function setPremium(value) {
     var next = !!value;
     var changed = next !== premium;
     premium = next;
     store().setItem(STORAGE_KEY, next ? "1" : "0");
-    if (changed) {
-      listeners.forEach(function (fn) {
-        try { fn(next); } catch (e) { console.error(e); }
-      });
-    }
+    if (changed) emit();
+  }
+
+  function normalizeCode(code) {
+    return String(code || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+  }
+
+  function sha256Hex(text) {
+    var subtle = window.crypto && window.crypto.subtle;
+    if (!subtle || typeof TextEncoder === "undefined") return Promise.reject(new Error("no crypto"));
+    return subtle.digest("SHA-256", new TextEncoder().encode(text)).then(function (buf) {
+      return Array.prototype.map.call(new Uint8Array(buf), function (b) {
+        return ("0" + b.toString(16)).slice(-2);
+      }).join("");
+    });
+  }
+
+  function redeemCode(code) {
+    var normalized = normalizeCode(code);
+    if (normalized.length < 8) return Promise.resolve(false);
+    return sha256Hex(GIFT_SALT + normalized).then(function (hash) {
+      if (GIFT_HASHES.indexOf(hash) < 0) return false;
+      gift = true;
+      store().setItem(GIFT_KEY, "1");
+      emit();
+      return true;
+    }).catch(function () { return false; });
   }
 
   function onChange(fn) {
@@ -178,7 +220,11 @@
       ".premium-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-bottom:8px;}",
       ".premium-link{background:none;border:0;color:#8cc4ff;font:inherit;font-size:.88rem;text-decoration:underline;padding:6px 2px;}",
       ".premium-note{margin:0;color:#7f8a99;font-size:.76rem;line-height:1.35;text-align:center;}",
-      ".premium-lock{margin-left:6px;font-size:.85em;}"
+      ".premium-lock{margin-left:6px;font-size:.85em;}",
+      ".premium-code{display:flex;gap:8px;margin:0 0 10px;}",
+      ".premium-code[hidden]{display:none;}",
+      ".premium-code-input{flex:1 1 auto;min-width:0;padding:10px 12px;border-radius:10px;border:1px solid #2f4a66;background:#0b1118;color:#f5f8fc;font:inherit;letter-spacing:.06em;text-transform:uppercase;}",
+      ".premium-code-apply{flex:0 0 auto;padding:10px 14px;border-radius:10px;border:0;background:#2387ff;color:#fff;font:inherit;font-weight:800;}"
     ].join("\n");
     var style = document.createElement("style");
     style.id = "premiumStyles";
@@ -282,7 +328,39 @@
     manageBtn.type = "button";
     manageBtn.addEventListener("click", manage);
     links.appendChild(manageBtn);
+    var codeBtn = el("button", "premium-link", tr("premium.haveCode"));
+    codeBtn.type = "button";
+    links.appendChild(codeBtn);
     sheet.appendChild(links);
+
+    var codeRow = el("form", "premium-code");
+    codeRow.hidden = true;
+    var codeInput = el("input", "premium-code-input");
+    codeInput.type = "text";
+    codeInput.autocomplete = "off";
+    codeInput.setAttribute("autocapitalize", "characters");
+    codeInput.setAttribute("spellcheck", "false");
+    codeInput.placeholder = tr("premium.codePlaceholder");
+    codeInput.setAttribute("aria-label", tr("premium.codePlaceholder"));
+    var codeApply = el("button", "premium-code-apply", tr("premium.codeApply"));
+    codeApply.type = "submit";
+    codeRow.appendChild(codeInput);
+    codeRow.appendChild(codeApply);
+    codeRow.addEventListener("submit", function (event) {
+      event.preventDefault();
+      if (busy) return;
+      busy = true;
+      redeemCode(codeInput.value).then(function (ok) {
+        busy = false;
+        setStatus(ok ? tr("premium.codeSuccess") : tr("premium.codeInvalid"));
+        if (ok) setTimeout(closePaywall, 1200);
+      });
+    });
+    codeBtn.addEventListener("click", function () {
+      codeRow.hidden = !codeRow.hidden;
+      if (!codeRow.hidden) codeInput.focus();
+    });
+    sheet.appendChild(codeRow);
 
     sheet.appendChild(el("p", "premium-note", tr("premium.note")));
 
@@ -320,6 +398,7 @@
     refresh: refresh,
     restore: restore,
     manage: manage,
+    redeemCode: redeemCode,
     onChange: onChange
   };
 

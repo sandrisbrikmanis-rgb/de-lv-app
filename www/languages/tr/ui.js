@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Satın alımları geri yükle",
     "manage": "Aboneliği yönet",
     "note": "Abonelik otomatik olarak yenilenir. İstediğiniz zaman Google Play'den iptal edebilirsiniz.",
-    "lockedLabel": "Premium ile kullanılabilir"
+    "lockedLabel": "Premium ile kullanılabilir",
+    "haveCode": "Kodum var",
+    "codePlaceholder": "Kodu girin",
+    "codeApply": "Etkinleştir",
+    "codeSuccess": "Kod kabul edildi! Premium etkinleştirildi.",
+    "codeInvalid": "Bu kod geçerli değil."
   }
 };

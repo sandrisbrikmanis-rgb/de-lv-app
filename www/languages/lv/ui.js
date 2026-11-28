@@ -444,6 +444,11 @@ window.LANGUAGE_UI_STRINGS = {
     "restore": "Atjaunot pirkumus",
     "manage": "Pārvaldīt abonementu",
     "note": "Abonements atjaunojas automātiski. To var atcelt jebkurā laikā Google Play.",
-    "lockedLabel": "Pieejams ar Premium"
+    "lockedLabel": "Pieejams ar Premium",
+    "haveCode": "Man ir kods",
+    "codePlaceholder": "Ievadi kodu",
+    "codeApply": "Aktivizēt",
+    "codeSuccess": "Kods pieņemts! Premium ir aktivizēts.",
+    "codeInvalid": "Šis kods nav derīgs."
   }
 };
